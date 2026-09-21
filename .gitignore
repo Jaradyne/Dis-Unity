@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.cycle.lock
+.pending-*
+.env
+.env.*
+private/
+raw/
+*.zip
+*.bundle

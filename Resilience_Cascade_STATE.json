@@ -1,0 +1,2632 @@
+{
+  "meta": {
+    "project": "Resilience Cascade",
+    "schema_version": "1.0",
+    "cycle_id": "RC-001",
+    "research_cutoff": "2026-09-20",
+    "baseline": "First cycle; source comparisons are against their stated periods, not an invented previous run.",
+    "mode": "Active-session multi-agent research; persistent state; no background daemon or schedule",
+    "status": "Initial bounded cycle completed by coordinator after specialist usage-limit interruption",
+    "independent_review": "Partial: early skeptic findings exchanged; full independent closing review pending",
+    "access": "Public sources only; no private accounts, outreach or subscriptions",
+    "date_policy": "Publication, observation and retrieval dates distinct; month-only and unknown dates preserved",
+    "agent_runs": [
+      {
+        "name": "energy_logistics",
+        "status": "Early findings exchanged; final turn ended at shared usage limit",
+        "full_report_received": false
+      },
+      {
+        "name": "food_trade",
+        "status": "Early findings exchanged; final turn ended at shared usage limit",
+        "full_report_received": false
+      },
+      {
+        "name": "infrastructure_health",
+        "status": "Early findings exchanged; final turn ended at shared usage limit",
+        "full_report_received": false
+      },
+      {
+        "name": "local_commons",
+        "status": "Early findings exchanged; final turn ended at shared usage limit",
+        "full_report_received": false
+      },
+      {
+        "name": "networks_social",
+        "status": "Early findings exchanged; final turn ended at shared usage limit",
+        "full_report_received": false
+      },
+      {
+        "name": "skeptic_industry",
+        "status": "Early findings exchanged; final turn ended at shared usage limit",
+        "full_report_received": false
+      }
+    ],
+    "coverage_note": "Targeted reconnaissance with explicit gaps; not exhaustive global surveillance. Twenty-five usable evidence/program sources plus one logged data-access gap."
+  },
+  "SYSTEM_MAP": {
+    "systems": [
+      {
+        "id": "diesel",
+        "label": "Diesel and refining",
+        "geography": "US; regional delivery gaps",
+        "source_ids": [
+          "SRC01",
+          "SRC02",
+          "SRC03"
+        ],
+        "gauges": {
+          "LOAD": "High cost; harvest-sensitive",
+          "RESERVE": "Thin seasonally; rebuilding",
+          "RECOVERY": "Limited refining headroom; restart timing unknown",
+          "DEPENDENCY": "Very high cross-sector",
+          "SUBSTITUTABILITY": "Limited immediately; route/equipment-specific",
+          "SHEDDING": "Low for essential harvest; some avoidable mileage",
+          "GROWTH": "Efficient logistics and suitable electrification",
+          "LIFEBOAT": "Contracted essential fuel plus critical-load alternatives; unverified locally",
+          "SOCIAL_TEMPERATURE": "Unknown",
+          "CONFIDENCE": "High national snapshot; lower local availability"
+        }
+      },
+      {
+        "id": "trucking",
+        "label": "Trucking and essential trips",
+        "geography": "US/Bay Area",
+        "source_ids": [
+          "SRC13",
+          "SRC24"
+        ],
+        "gauges": {
+          "LOAD": "Fuel cash burden elevated",
+          "RESERVE": "Fleet and driver spare capacity unknown",
+          "RECOVERY": "Company-specific working capital and repairs",
+          "DEPENDENCY": "High for food and supplies",
+          "SUBSTITUTABILITY": "Partial rail/intermodal; last mile persists",
+          "SHEDDING": "Empty miles/duplicate trips can fall",
+          "GROWTH": "Pooled delivery and routing",
+          "LIFEBOAT": "Small accessible transport pool proposed",
+          "SOCIAL_TEMPERATURE": "Unknown",
+          "CONFIDENCE": "Medium costs; low available reserve"
+        }
+      },
+      {
+        "id": "agriculture",
+        "label": "Agriculture and food production",
+        "geography": "US/global",
+        "source_ids": [
+          "SRC05",
+          "SRC06"
+        ],
+        "gauges": {
+          "LOAD": "Inputs elevated; crop-specific",
+          "RESERVE": "Global cereals substantial; access uneven",
+          "RECOVERY": "Seasonal; missed windows hard to recover",
+          "DEPENDENCY": "Very high essential food",
+          "SUBSTITUTABILITY": "Crop/import mix constrained by season and nutrition",
+          "SHEDDING": "Waste reducible; nutrition cannot be shed",
+          "GROWTH": "Input efficiency, aggregation, storage",
+          "LIFEBOAT": "Food access networks; inventory unknown",
+          "SOCIAL_TEMPERATURE": "Unknown",
+          "CONFIDENCE": "Medium forecast basis"
+        }
+      },
+      {
+        "id": "fertilizer",
+        "label": "Fertilizer nutrients and feedstocks",
+        "geography": "North America/global",
+        "source_ids": [
+          "SRC07"
+        ],
+        "gauges": {
+          "LOAD": "Phosphate feedstock pressure",
+          "RESERVE": "Potash stronger; phosphate/nitrogen separate",
+          "RECOVERY": "Plant/feedstock/season-specific",
+          "DEPENDENCY": "High for future yields",
+          "SUBSTITUTABILITY": "Nutrients not interchangeable; efficiency partial",
+          "SHEDDING": "Overapplication only with agronomic evidence",
+          "GROWTH": "Nutrient recovery/precision services; proposed",
+          "LIFEBOAT": "Diversified procurement; unquantified",
+          "SOCIAL_TEMPERATURE": "Unknown",
+          "CONFIDENCE": "Medium company-specific evidence"
+        }
+      },
+      {
+        "id": "food_logistics",
+        "label": "Food access and cold chain",
+        "geography": "Global/Bay Area",
+        "source_ids": [
+          "SRC06",
+          "SRC21",
+          "SRC24"
+        ],
+        "gauges": {
+          "LOAD": "Cost pressure; actual failures not established",
+          "RESERVE": "Local inventory/cold space unknown",
+          "RECOVERY": "Fuel/power/food-safety constrained",
+          "DEPENDENCY": "High",
+          "SUBSTITUTABILITY": "Shelf-stable mix and distributed nodes partial",
+          "SHEDDING": "Spoilage/duplicate deliveries; preserve nutrition",
+          "GROWTH": "Shared storage and food aggregation",
+          "LIFEBOAT": "Existing food referral network, surge unverified",
+          "SOCIAL_TEMPERATURE": "Unknown",
+          "CONFIDENCE": "Medium prices; low local service capacity"
+        }
+      },
+      {
+        "id": "grid",
+        "label": "Electricity and critical equipment",
+        "geography": "CAISO/US/Europe",
+        "source_ids": [
+          "SRC10",
+          "SRC17",
+          "SRC23"
+        ],
+        "gauges": {
+          "LOAD": "Modeled demand covered in CAISO; local risk",
+          "RESERVE": "Planning buffer; live deliverability unknown",
+          "RECOVERY": "Specific spares and lead times not established",
+          "DEPENDENCY": "Very high: water/health/comms",
+          "SUBSTITUTABILITY": "Storage and demand response partial",
+          "SHEDDING": "Contracted nonessential demand before critical loads",
+          "GROWTH": "Equipment repair/manufacturing and storage",
+          "LIFEBOAT": "Islanding-capable critical-load systems; site readiness unknown",
+          "SOCIAL_TEMPERATURE": "Unknown",
+          "CONFIDENCE": "Medium seasonal adequacy; low local recovery"
+        }
+      },
+      {
+        "id": "water",
+        "label": "Water and wastewater",
+        "geography": "Bay Area",
+        "source_ids": [
+          "SRC26"
+        ],
+        "gauges": {
+          "LOAD": "Unknown current",
+          "RESERVE": "Unknown; dashboard data not extracted",
+          "RECOVERY": "Power, treatment inputs, staff and repairs need checking",
+          "DEPENDENCY": "Very high",
+          "SUBSTITUTABILITY": "Limited potable alternatives",
+          "SHEDDING": "Nonessential use; preserve drinking/sanitation",
+          "GROWTH": "Leak repair/reuse where safe and approved",
+          "LIFEBOAT": "Water reserves/distribution proposed",
+          "SOCIAL_TEMPERATURE": "Unknown",
+          "CONFIDENCE": "Low current assessment; dependency is plausible mechanism"
+        }
+      },
+      {
+        "id": "healthcare",
+        "label": "Healthcare continuity",
+        "geography": "US/Bay Area/Caribbean",
+        "source_ids": [
+          "SRC13",
+          "SRC16"
+        ],
+        "gauges": {
+          "LOAD": "Local demand/capacity unknown",
+          "RESERVE": "Beds/staff/medicines/power reserve unknown",
+          "RECOVERY": "Licensed staff, utilities and transport dependent",
+          "DEPENDENCY": "Very high essential care",
+          "SUBSTITUTABILITY": "Telehealth/alternate sites only for suitable services",
+          "SHEDDING": "Administrative trips, not medically necessary care",
+          "GROWTH": "Care transport, backup power, trained surge support",
+          "LIFEBOAT": "Historical field-hospital mutual aid; local fallback unverified",
+          "SOCIAL_TEMPERATURE": "Unknown",
+          "CONFIDENCE": "Low operational; high cited employment/history"
+        }
+      },
+      {
+        "id": "municipal",
+        "label": "Municipal and transit finance",
+        "geography": "SF/Bay Area",
+        "source_ids": [
+          "SRC08",
+          "SRC09"
+        ],
+        "gauges": {
+          "LOAD": "Structural transit funding gap",
+          "RESERVE": "One-time bridges; no uncommitted local surplus established",
+          "RECOVERY": "Recurring revenue needed; borrowing adds later costs",
+          "DEPENDENCY": "High for service continuity",
+          "SUBSTITUTABILITY": "Restricted funds/other operators not freely interchangeable",
+          "SHEDDING": "Duplicate admin/avoidable costs; essential access protected",
+          "GROWTH": "Coordinated procurement and service design",
+          "LIFEBOAT": "Targeted aid reserve proposed; cannot replace main network",
+          "SOCIAL_TEMPERATURE": "Unknown",
+          "CONFIDENCE": "High budget terms; medium future outcome"
+        }
+      },
+      {
+        "id": "transit",
+        "label": "Public transit access",
+        "geography": "SF/Bay Area",
+        "source_ids": [
+          "SRC08",
+          "SRC09"
+        ],
+        "gauges": {
+          "LOAD": "Current service maintained in budget",
+          "RESERVE": "Funding conditional; spare bus capacity unverified",
+          "RECOVERY": "Staff/maintenance loss can slow restoration",
+          "DEPENDENCY": "High for workforce and care access",
+          "SUBSTITUTABILITY": "Limited for riders without cars or mobility alternatives",
+          "SHEDDING": "Reschedule/avoid optional trips; preserve essential frequency",
+          "GROWTH": "Feeder links, integration and reliable operating finance",
+          "LIFEBOAT": "Accessible essential-trip pool proposed",
+          "SOCIAL_TEMPERATURE": "Unknown",
+          "CONFIDENCE": "High policy record; conditional cascade"
+        }
+      },
+      {
+        "id": "industrial",
+        "label": "Industrial capacity and repairs",
+        "geography": "US/North America",
+        "source_ids": [
+          "SRC07",
+          "SRC11",
+          "SRC12",
+          "SRC23"
+        ],
+        "gauges": {
+          "LOAD": "Mixed; no blanket contraction",
+          "RESERVE": "Aggregate slack not specialized reserve",
+          "RECOVERY": "Tooling, skills, credit and certification constrain",
+          "DEPENDENCY": "High upstream role",
+          "SUBSTITUTABILITY": "Product-specific",
+          "SHEDDING": "Noncritical capital projects may be deferred",
+          "GROWTH": "Repair/refurbishment and targeted manufacturing",
+          "LIFEBOAT": "Compatible pooled spares proposed",
+          "SOCIAL_TEMPERATURE": "Unknown",
+          "CONFIDENCE": "Medium macro; low individual product readiness"
+        }
+      },
+      {
+        "id": "construction",
+        "label": "Construction inputs and maintenance",
+        "geography": "US/local",
+        "source_ids": [
+          "SRC08",
+          "SRC18"
+        ],
+        "gauges": {
+          "LOAD": "Project-specific costs unknown; BART deferrals documented",
+          "RESERVE": "Compatible stock and contractors unknown",
+          "RECOVERY": "Long projects; actual lead times need refresh",
+          "DEPENDENCY": "High long-term recovery",
+          "SUBSTITUTABILITY": "Specification-dependent",
+          "SHEDDING": "Postpone low-value additions before safety maintenance",
+          "GROWTH": "Repair, safe reuse, efficient procurement",
+          "LIFEBOAT": "Prequalified repair capacity proposed",
+          "SOCIAL_TEMPERATURE": "Unknown",
+          "CONFIDENCE": "Medium fiscal signal; low tariff causality"
+        }
+      },
+      {
+        "id": "trade",
+        "label": "Trade routes and import rules",
+        "geography": "North America/global nodes",
+        "source_ids": [
+          "SRC06",
+          "SRC18",
+          "SRC19",
+          "SRC25"
+        ],
+        "gauges": {
+          "LOAD": "Route/rule dependent",
+          "RESERVE": "Alternate suppliers/routes conditional",
+          "RECOVERY": "Shipping, customs and grade compatibility",
+          "DEPENDENCY": "High",
+          "SUBSTITUTABILITY": "Partial; cost/time/quality limits",
+          "SHEDDING": "Nonessential trade can defer",
+          "GROWTH": "Supplier diversification and interoperable equipment",
+          "LIFEBOAT": "Regional exchange agreements proposed",
+          "SOCIAL_TEMPERATURE": "Unknown",
+          "CONFIDENCE": "Medium rules; low unverified disruption lead"
+        }
+      },
+      {
+        "id": "labor",
+        "label": "Labor and skills",
+        "geography": "US/Bay Area",
+        "source_ids": [
+          "SRC13",
+          "SRC15"
+        ],
+        "gauges": {
+          "LOAD": "Sector divergence",
+          "RESERVE": "Skill/location compatibility unknown",
+          "RECOVERY": "Training and income bridge take time",
+          "DEPENDENCY": "Very high",
+          "SUBSTITUTABILITY": "Licensed roles limited",
+          "SHEDDING": "Administrative friction and unpaid burden reducible",
+          "GROWTH": "Repair/logistics/technical training",
+          "LIFEBOAT": "Cross-trained partner roster proposed",
+          "SOCIAL_TEMPERATURE": "Unknown",
+          "CONFIDENCE": "Medium aggregate data; low transition placement"
+        }
+      },
+      {
+        "id": "social",
+        "label": "Social temperature and cooperation",
+        "geography": "US/local networks",
+        "source_ids": [
+          "SRC14",
+          "SRC15",
+          "SRC22"
+        ],
+        "gauges": {
+          "LOAD": "Current resentment/trust unmeasured",
+          "RESERVE": "Community institutions exist; reserve unquantified",
+          "RECOVERY": "Trust repair requires credible participation",
+          "DEPENDENCY": "High coordination dependency",
+          "SUBSTITUTABILITY": "Multiple trusted institutions may help",
+          "SHEDDING": "Stigmatizing/frictional processes can be removed",
+          "GROWTH": "Facilitation, transparent allocation and cooperation",
+          "LIFEBOAT": "Inclusive community networks proposed",
+          "SOCIAL_TEMPERATURE": "2025 reported hate trend improved; 2026 lanes unknown",
+          "CONFIDENCE": "Low current climate; high matched 2025 report"
+        }
+      }
+    ],
+    "geographies": [
+      {
+        "id": "San Francisco",
+        "parent": "Bay Area",
+        "structural_context": "SFMTA recurring operating gap after relief expires",
+        "recent_policy": "April 2026 budget protects FY26-27 regular/paratransit service; later funding conditional",
+        "local_strengths": "Established transit network and institutional planning",
+        "trade_and_infrastructure_dependencies": "Regional commuters, electric traction, operating revenue",
+        "reserves_and_neighbors": "BART and Muni both financially exposed; no spare network assumed",
+        "coverage_gap": "Full city general-fund, rent policy, healthcare and trust assessment pending",
+        "source_ids": [
+          "SRC09"
+        ]
+      },
+      {
+        "id": "Bay Area",
+        "parent": "California",
+        "structural_context": "Regional mobility depends on several operators with correlated funding challenges",
+        "recent_policy": "BART FY27 bridge; November revenue measure unresolved at cutoff",
+        "local_strengths": "BART network, food referral system, tool library and emerging hubs",
+        "trade_and_infrastructure_dependencies": "Transport, fuel, electricity, workforce location",
+        "reserves_and_neighbors": "Existing institutions provide functions; surge surplus not verified",
+        "coverage_gap": "AC Transit, Oakland city budget, housing displacement and spare fleet not yet quantified",
+        "source_ids": [
+          "SRC08",
+          "SRC20",
+          "SRC21",
+          "SRC22"
+        ]
+      },
+      {
+        "id": "California",
+        "parent": "United States",
+        "structural_context": "High diesel cost and multi-region grid dependencies",
+        "recent_policy": "CAISO seasonal readiness; project additions partly forecast",
+        "local_strengths": "Improved modeled generation adequacy and organized local service networks",
+        "trade_and_infrastructure_dependencies": "Liquid fuel, imports, specialized equipment and water conveyance",
+        "reserves_and_neighbors": "CAISO planning margin is not live donor reserve",
+        "coverage_gap": "Refinery-by-refinery, current water levels, insurance and fiscal reserve gaps",
+        "source_ids": [
+          "SRC01",
+          "SRC10",
+          "SRC26"
+        ]
+      },
+      {
+        "id": "United States",
+        "parent": "North America",
+        "structural_context": "Highly interdependent energy/farm/logistics and regional service systems",
+        "recent_policy": "Differentiated June metal rules and July aluminum incentive authorization",
+        "local_strengths": "Diverse industrial base; production rising year/year; cereal production",
+        "trade_and_infrastructure_dependencies": "Specialized equipment, global feedstocks, routes and credit",
+        "reserves_and_neighbors": "Distillates rebuilding; national strengths not evenly distributed",
+        "coverage_gap": "Trucking exits, physical shortages, water/health outcomes not established",
+        "source_ids": [
+          "SRC02",
+          "SRC05",
+          "SRC11",
+          "SRC18",
+          "SRC19"
+        ]
+      },
+      {
+        "id": "North America",
+        "parent": "International exchange networks",
+        "structural_context": "Integrated but product-specific trade and production",
+        "recent_policy": "June rule includes differentiated Canadian/Mexican products; exact item rules unresolved",
+        "local_strengths": "Canadian potash and US farm/manufacturing output",
+        "trade_and_infrastructure_dependencies": "Rail, ports, liquid fuel, equipment and cross-border rules",
+        "reserves_and_neighbors": "Complementary capacity; no committed export surplus calculated",
+        "coverage_gap": "Mexico domestic conditions and Canada live power/fuel surpluses unassessed",
+        "source_ids": [
+          "SRC07",
+          "SRC18"
+        ]
+      },
+      {
+        "id": "Caribbean",
+        "parent": "International exchange networks",
+        "structural_context": "Mutual-aid needs can span several islands after one hazard",
+        "recent_policy": "CDEMA recovery roster launched August 2026",
+        "local_strengths": "Regional coordination and demonstrated Barbados medical support",
+        "trade_and_infrastructure_dependencies": "Transport, donor staffing, supplies and replenishment",
+        "reserves_and_neighbors": "Fourteen oriented specialists; actual simultaneous deployment reserve unknown",
+        "coverage_gap": "Country-by-country utilities, fiscal reserves, shipping and current hospitals incomplete",
+        "source_ids": [
+          "SRC15",
+          "SRC16"
+        ]
+      },
+      {
+        "id": "NATO-relevant European countries",
+        "parent": "International exchange networks",
+        "structural_context": "Electricity transfer network crosses political group boundaries",
+        "recent_policy": "Seasonal adequacy coordination via TSOs",
+        "local_strengths": "Generally favorable summer adequacy assessment",
+        "trade_and_infrastructure_dependencies": "Interconnectors, fuels and coincident weather",
+        "reserves_and_neighbors": "Offers conditional cross-border power; no NATO-wide reserve inferred",
+        "coverage_gap": "Country live reserves, political constraints, industrial stock and autumn outlook incomplete",
+        "source_ids": [
+          "SRC17"
+        ]
+      },
+      {
+        "id": "Commonwealth-linked countries",
+        "parent": "International exchange networks",
+        "structural_context": "Canada and Barbados examined as distinct complementary nodes",
+        "recent_policy": "Canadian fertilizer output and Barbados/CDEMA cooperation are concrete anchors",
+        "local_strengths": "Potash production; demonstrated regional medical assistance",
+        "trade_and_infrastructure_dependencies": "Fuel, trade routes, equipment and protection of home service",
+        "reserves_and_neighbors": "No Commonwealth pooled spare capacity asserted",
+        "coverage_gap": "UK/Australia and other members require separate current assessment",
+        "source_ids": [
+          "SRC07",
+          "SRC16"
+        ]
+      },
+      {
+        "id": "US Gulf Coast",
+        "parent": "United States",
+        "structural_context": "Major observed distillate inventory location",
+        "recent_policy": "No new specific policy admitted",
+        "local_strengths": "43.759m barrels PADD3 distillates Sept11",
+        "trade_and_infrastructure_dependencies": "Pipelines, marine routes and fuel specifications",
+        "reserves_and_neighbors": "Inventory is not equal to shippable surplus for California or abroad",
+        "coverage_gap": "Route capacities, commitments and hurricane exposure not quantified",
+        "source_ids": [
+          "SRC03"
+        ]
+      },
+      {
+        "id": "Black Sea grain routes",
+        "parent": "International exchange networks",
+        "structural_context": "Export access can constrain use of available grain",
+        "recent_policy": "No legal change admitted",
+        "local_strengths": "Grain production and stocks remain material",
+        "trade_and_infrastructure_dependencies": "Ports, alternate land routes and shipping access",
+        "reserves_and_neighbors": "Other exporters are potential complementary suppliers",
+        "coverage_gap": "Source is FAO outlook; live corridor capacity not established",
+        "source_ids": [
+          "SRC06"
+        ]
+      },
+      {
+        "id": "Saudi export routes / Hormuz / Red Sea",
+        "parent": "International exchange networks",
+        "structural_context": "Energy outlook depends on export-route assumptions",
+        "recent_policy": "No verified new policy admitted",
+        "local_strengths": "Alternative routing considered in EIA outlook",
+        "trade_and_infrastructure_dependencies": "Pipelines, ports, tankers and refinery feed compatibility",
+        "reserves_and_neighbors": "Reported substitutes remain unquantified",
+        "coverage_gap": "October cancellation report quarantined pending primary corroboration",
+        "source_ids": [
+          "SRC04",
+          "SRC25"
+        ]
+      }
+    ],
+    "clusters": [
+      {
+        "id": "CL01",
+        "title": "Diesel / harvest / food logistics",
+        "status": "Active cost-pressure cluster; downstream service failure unproven",
+        "signal_ids": [
+          "SIG01",
+          "SIG02",
+          "SIG04",
+          "SIG19"
+        ],
+        "interaction": "Fuel is a common input; harvest windows limit shedding; carrier cash timing can propagate strain.",
+        "independence": "EIA observations, USDA forecast and farmer/freight interviews are different evidence types; shared fuel shock is counted once.",
+        "source_ids": [
+          "SRC01",
+          "SRC02",
+          "SRC05",
+          "SRC24"
+        ],
+        "buffers": [
+          "RES01",
+          "RES02",
+          "RES06",
+          "RES09"
+        ],
+        "transition_ids": [
+          "TR01"
+        ],
+        "commons_ids": [
+          "COM01",
+          "COM02"
+        ],
+        "outside_reserve": [
+          "ISL01",
+          "ISL02"
+        ],
+        "lifeboats": [
+          "RES06",
+          "RES09",
+          "RES10"
+        ]
+      },
+      {
+        "id": "CL02",
+        "title": "Bay Area transit finance / essential access / future repair",
+        "status": "Documented fiscal exposure; downstream access loss conditional",
+        "signal_ids": [
+          "SIG08",
+          "SIG09"
+        ],
+        "interaction": "Temporary funds and delayed recurring revenue can constrain multiple operators together; borrowing/deferrals shift load into future recovery.",
+        "independence": "BART and SFMTA are distinct budgets but share regional revenue conditions. Their risks are correlated.",
+        "source_ids": [
+          "SRC08",
+          "SRC09"
+        ],
+        "buffers": [
+          "RES03",
+          "RES09"
+        ],
+        "transition_ids": [
+          "TR03",
+          "TR06"
+        ],
+        "commons_ids": [
+          "COM01"
+        ],
+        "outside_reserve": [
+          "ISL05"
+        ],
+        "lifeboats": [
+          "RES09"
+        ]
+      },
+      {
+        "id": "CL03",
+        "title": "Sulfur / phosphate / farm nutrient access",
+        "status": "Unexpected dependency; production-loss cascade not established",
+        "signal_ids": [
+          "SIG06",
+          "SIG07",
+          "SIG04"
+        ],
+        "interaction": "Sulfur input strain can squeeze phosphate margins while potash has stronger output; neither proves all-nutrient shortage.",
+        "independence": "Producer subsections are one disclosure, not multiple independent confirmations.",
+        "source_ids": [
+          "SRC07",
+          "SRC05"
+        ],
+        "buffers": [
+          "RES02"
+        ],
+        "transition_ids": [
+          "TR02"
+        ],
+        "commons_ids": [
+          "COM02",
+          "COM05"
+        ],
+        "outside_reserve": [
+          "ISL01"
+        ],
+        "lifeboats": [
+          "RES06"
+        ],
+        "adaptation": "Diversify agronomically suitable nutrients and procurement; independent producer checks pending."
+      },
+      {
+        "id": "CL04",
+        "title": "Local utility recovery / equipment / water and care continuity",
+        "status": "High-consequence scenario; current compound failure not established",
+        "signal_ids": [
+          "SIG10",
+          "SIG17",
+          "SIG18"
+        ],
+        "interaction": "Enough generation does not guarantee rapid replacement of a failed local asset; prolonged local outage could challenge water/care.",
+        "independence": "Grid assessment, legal changes and old manufacturing announcement do not demonstrate a synchronized present crisis.",
+        "source_ids": [
+          "SRC10",
+          "SRC18",
+          "SRC23",
+          "SRC26"
+        ],
+        "buffers": [
+          "RES04",
+          "RES07",
+          "RES08",
+          "RES10"
+        ],
+        "transition_ids": [
+          "TR04",
+          "TR05"
+        ],
+        "commons_ids": [
+          "COM03",
+          "COM04"
+        ],
+        "outside_reserve": [
+          "ISL03",
+          "ISL04",
+          "ISL05"
+        ],
+        "lifeboats": [
+          "RES08",
+          "RES10"
+        ]
+      },
+      {
+        "id": "CL05",
+        "title": "Social grievance / organized intimidation / institutional paralysis",
+        "status": "Not activated; current local evidence insufficient",
+        "signal_ids": [
+          "SIG14",
+          "SIG15"
+        ],
+        "interaction": "Mechanism requires corroborated organization, capability and harmful conduct, not anger or identity.",
+        "independence": "Annual reported crime trend and recovery coordination do not measure current local rhetoric or institutional trust.",
+        "source_ids": [
+          "SRC14",
+          "SRC15"
+        ],
+        "buffers": [
+          "RES05",
+          "RES08"
+        ],
+        "transition_ids": [],
+        "commons_ids": [
+          "COM03",
+          "COM04",
+          "COM06"
+        ],
+        "outside_reserve": [
+          "ISL04",
+          "ISL05"
+        ],
+        "lifeboats": [
+          "RES05"
+        ]
+      }
+    ],
+    "classification_rules": {
+      "destructive_failure": "Essential function is lost without adequate replacement.",
+      "managed_shedding": "Avoidable load is reduced while essential function and future recovery stay protected.",
+      "creative_transition": "Released or convertible assets support a better way to preserve function.",
+      "healthy_replacement_growth": "Verified useful capacity replaces or expands an inadequate function."
+    },
+    "social_lanes": {
+      "rhetoric": "Unknown current direction; no generalized population-danger inference",
+      "organization": "Unknown current direction; no generalized population-danger inference",
+      "capacity": "Unknown current direction; no generalized population-danger inference",
+      "behavior": "Unknown current direction; no generalized population-danger inference",
+      "violence": "Unknown current direction; no generalized population-danger inference",
+      "institutional_trust": "Unknown current direction; no generalized population-danger inference",
+      "de_escalation": "Unknown current direction; no generalized population-danger inference"
+    },
+    "evidence_labels": [
+      "FACT",
+      "PLAUSIBLE MECHANISM",
+      "EARLY SIGNAL",
+      "UNKNOWN",
+      "SPECULATION"
+    ],
+    "coverage_inventory": [
+      {
+        "area": "Diesel/refining",
+        "status": "Current national/regional prices, stocks and utilization; outages and delivered allocation incomplete"
+      },
+      {
+        "area": "Trucking/food logistics",
+        "status": "Current qualitative cost transmission; service loss, cold-store reserves and firm exits unverified"
+      },
+      {
+        "area": "Agriculture/fertilizer",
+        "status": "Farm expense outlook, cereal buffers and producer nutrient differentiation; irrigation/labor/processing detail incomplete"
+      },
+      {
+        "area": "Tariffs/trade/construction",
+        "status": "Concrete legal changes and budget deferral evidence; product-rate reconciliation and causal bid analysis pending"
+      },
+      {
+        "area": "Grid/equipment",
+        "status": "Seasonal adequacy assessed; local spares, lead times and commissioning incomplete"
+      },
+      {
+        "area": "Municipal/transit",
+        "status": "BART/SFMTA budget evidence; broader municipal finances, housing displacement and AC Transit capacity pending"
+      },
+      {
+        "area": "Water/healthcare",
+        "status": "Dependency scenarios, jobs baseline and historical mutual aid; current local operational reserve unknown"
+      },
+      {
+        "area": "Labor/industry/credit",
+        "status": "Current production/employment plus Q2 lending survey; transferable skills and small-firm/insurance stresses incomplete"
+      },
+      {
+        "area": "Social temperature",
+        "status": "2025 matched reported-crime baseline; current rhetoric/organization/capacity/behavior/violence and reconciliation outcomes incomplete"
+      },
+      {
+        "area": "Roads/bridges/ports/rail/telecommunications/emergency services",
+        "status": "Dependency map only or partial trade-route coverage; no fresh service-failure conclusion"
+      }
+    ]
+  },
+  "ACTIVE_SIGNALS": [
+    {
+      "id": "SIG01",
+      "title": "Diesel cost pressure",
+      "geography": "United States / California",
+      "systems": [
+        "diesel",
+        "trucking"
+      ],
+      "epistemic_label": "FACT",
+      "observation": "Sept 14 retail diesel: US $6.285/gal (+$0.318/week), California $8.039 (+$0.275/week); taxes included.",
+      "direction": "worsening",
+      "source_ids": [
+        "SRC01"
+      ],
+      "confidence": "high for survey",
+      "freshness": "2026-09-14",
+      "event_id": "EV-DIESEL-PRICE",
+      "status": "active",
+      "implication": "Essential transport and harvest cash needs rise before any physical rationing occurs.",
+      "first_seen_cycle": "RC-001"
+    },
+    {
+      "id": "SIG02",
+      "title": "Thin but rebuilding distillate stocks",
+      "geography": "United States; PADD regions",
+      "systems": [
+        "diesel"
+      ],
+      "epistemic_label": "FACT",
+      "observation": "Sept 11 stocks 107.859m barrels, up from 103.391m Aug 21 through three weekly builds; 13% below five-year seasonal average. Refinery utilization 96.8%.",
+      "direction": "mixed",
+      "source_ids": [
+        "SRC02",
+        "SRC03"
+      ],
+      "confidence": "high for weekly estimates",
+      "freshness": "2026-09-11",
+      "event_id": "EV-DISTILLATE-BALANCE",
+      "status": "active",
+      "implication": "Cost stress coexists with recovery in stocks and limited refinery headroom; regional deliverability remains a gap.",
+      "first_seen_cycle": "RC-001"
+    },
+    {
+      "id": "SIG03",
+      "title": "Below-100m stock forecast is not yet observed",
+      "geography": "United States",
+      "systems": [
+        "diesel"
+      ],
+      "epistemic_label": "FACT",
+      "observation": "Sept 9 STEO projected September distillate stocks below 100m barrels; later Sept 11 weekly observation remains above that level.",
+      "direction": "unclear",
+      "source_ids": [
+        "SRC04",
+        "SRC03"
+      ],
+      "confidence": "high on forecast/observation distinction",
+      "freshness": "Forecast frozen 2026-09-03; later observation 2026-09-11",
+      "event_id": "EV-DISTILLATE-BALANCE",
+      "status": "downgraded",
+      "implication": "Do not report the forecast as current stock or use stock/use as a countdown to exhaustion.",
+      "first_seen_cycle": "RC-001"
+    },
+    {
+      "id": "SIG04",
+      "title": "Farm operating costs tighten",
+      "geography": "United States",
+      "systems": [
+        "agriculture",
+        "fertilizer",
+        "diesel"
+      ],
+      "epistemic_label": "FACT",
+      "observation": "USDA forecasts 2026 fertilizer/lime/soil conditioner expense +15.3%, fuel/oils +28.8%; inflation-adjusted net farm income -5.5%, still above 2006–25 average. Direct payments forecast $47.4bn.",
+      "direction": "mixed",
+      "source_ids": [
+        "SRC05"
+      ],
+      "confidence": "high that forecast was issued; medium realized outcome",
+      "freshness": "2026-09-03 forecast",
+      "event_id": "EV-FARM-FORECAST",
+      "status": "active",
+      "implication": "Cash-flow exposure differs by farm; aid/payment timing and crop receipts buffer some producers.",
+      "first_seen_cycle": "RC-001"
+    },
+    {
+      "id": "SIG05",
+      "title": "Cereal buffer substantial but unevenly accessible",
+      "geography": "Global / Black Sea / Americas",
+      "systems": [
+        "agriculture",
+        "food_logistics"
+      ],
+      "epistemic_label": "FACT",
+      "observation": "FAO forecasts 2026/27 cereal stocks/use 31.6%, historically comfortable; Black Sea logistics constraints may accumulate stocks behind export bottlenecks.",
+      "direction": "mixed",
+      "source_ids": [
+        "SRC06"
+      ],
+      "confidence": "medium for outlook",
+      "freshness": "2026-09-04 forecast",
+      "event_id": "EV-CEREAL-OUTLOOK",
+      "status": "active",
+      "implication": "Global abundance does not guarantee delivery or affordable food in a specific place.",
+      "first_seen_cycle": "RC-001"
+    },
+    {
+      "id": "SIG06",
+      "title": "Sulfur pressure on phosphate",
+      "geography": "North America / global fertilizer trade",
+      "systems": [
+        "fertilizer",
+        "industrial"
+      ],
+      "epistemic_label": "FACT",
+      "observation": "Nutrien attributes phosphate pressure to sulfur costs and availability. Its Q2 P2O5 operating rate was 75% vs 79%; H1 output increased to 656k tonnes from 615k.",
+      "direction": "mixed",
+      "source_ids": [
+        "SRC07"
+      ],
+      "confidence": "high company metrics; medium broad applicability",
+      "freshness": "Q2/H1 2026, released Aug 5",
+      "event_id": "EV-NUTRIEN-Q2",
+      "status": "active",
+      "implication": "Unexpected feedstock dependency deserves a separate phosphate watch; a universal fertilizer shutdown is unsupported.",
+      "first_seen_cycle": "RC-001"
+    },
+    {
+      "id": "SIG07",
+      "title": "Potash capacity offers a buffer",
+      "geography": "Canada / global buyers",
+      "systems": [
+        "fertilizer"
+      ],
+      "epistemic_label": "FACT",
+      "observation": "Nutrien reports record H1 potash production, 7.656m tonnes vs 6.820m a year earlier.",
+      "direction": "improving",
+      "source_ids": [
+        "SRC07"
+      ],
+      "confidence": "high company disclosure",
+      "freshness": "H1 2026, released Aug 5",
+      "event_id": "EV-NUTRIEN-Q2",
+      "status": "active",
+      "implication": "Output is evidence of supply strength; available uncommitted export surplus remains unknown. Potash is not interchangeable with phosphate.",
+      "first_seen_cycle": "RC-001"
+    },
+    {
+      "id": "SIG08",
+      "title": "BART fiscal bridge preserves service with future costs",
+      "geography": "Bay Area",
+      "systems": [
+        "transit",
+        "municipal"
+      ],
+      "epistemic_label": "FACT",
+      "observation": "FY27 budget assumes November revenue measure passage and April 2027 receipts; bridge includes $52m capital deferrals and $89m borrowing. Current service preserved; alternative service plan conditional.",
+      "direction": "mixed",
+      "source_ids": [
+        "SRC08"
+      ],
+      "confidence": "high budget terms",
+      "freshness": "September 2026 FY27 adopted budget",
+      "event_id": "EV-BART-FY27",
+      "status": "active",
+      "implication": "Liquidity bridge buys time while transferring some load to future budgets and asset renewal.",
+      "first_seen_cycle": "RC-001"
+    },
+    {
+      "id": "SIG09",
+      "title": "Muni finance shares the regional constraint",
+      "geography": "San Francisco",
+      "systems": [
+        "transit",
+        "municipal"
+      ],
+      "epistemic_label": "FACT",
+      "observation": "April 21 adopted budget protects regular Muni/paratransit in FY26-27; significant cuts from FY27-28 remain conditional on funding. Agency describes $307m deficit.",
+      "direction": "mixed",
+      "source_ids": [
+        "SRC09"
+      ],
+      "confidence": "high agency budget description",
+      "freshness": "Budget decision 2026-04-21; current page",
+      "event_id": "EV-SFMTA-FY27",
+      "status": "active",
+      "implication": "Another transit operator cannot be assumed to be a funded spare compartment.",
+      "first_seen_cycle": "RC-001"
+    },
+    {
+      "id": "SIG10",
+      "title": "California generation adequacy improved in planning",
+      "geography": "CAISO area",
+      "systems": [
+        "grid"
+      ],
+      "epistemic_label": "FACT",
+      "observation": "May assessment models 2,547 MW margin relative to its reliability target. It includes anticipated additions and does not cover all coincident extreme events or local constraints.",
+      "direction": "improving",
+      "source_ids": [
+        "SRC10"
+      ],
+      "confidence": "high assessment; medium current applicability",
+      "freshness": "May 2026 planning snapshot",
+      "event_id": "EV-CAISO-SUMMER",
+      "status": "active",
+      "implication": "Downgrade statewide insufficiency assumption; assess local recovery/fuel/equipment separately.",
+      "first_seen_cycle": "RC-001"
+    },
+    {
+      "id": "SIG11",
+      "title": "Industrial output contradicts blanket decline",
+      "geography": "United States",
+      "systems": [
+        "industrial",
+        "construction"
+      ],
+      "epistemic_label": "FACT",
+      "observation": "August total industrial output flat month/month and +1.4% year/year; manufacturing -0.3% month/month and +0.9% year/year.",
+      "direction": "mixed",
+      "source_ids": [
+        "SRC11"
+      ],
+      "confidence": "high preliminary aggregate",
+      "freshness": "August 2026, released Sept 18",
+      "event_id": "EV-G17-AUG",
+      "status": "active",
+      "implication": "Sector-specific stress is plausible; broad industrial collapse not established.",
+      "first_seen_cycle": "RC-001"
+    },
+    {
+      "id": "SIG12",
+      "title": "Credit access varies by borrower",
+      "geography": "United States",
+      "systems": [
+        "industrial",
+        "municipal"
+      ],
+      "epistemic_label": "FACT",
+      "observation": "Q2 bank survey: C&I standards basically unchanged across firm sizes; consumer and nonbank lending remain relatively tight by historical comparison.",
+      "direction": "mixed",
+      "source_ids": [
+        "SRC12"
+      ],
+      "confidence": "medium; bank survey",
+      "freshness": "Q2 2026, published Aug 3",
+      "event_id": "EV-SLOOS-Q2",
+      "status": "active",
+      "implication": "Do not describe all business credit as freezing; household and nonbank financing deserve distinct checks.",
+      "first_seen_cycle": "RC-001"
+    },
+    {
+      "id": "SIG13",
+      "title": "Labor reallocation and healthcare growth divergence",
+      "geography": "United States",
+      "systems": [
+        "labor",
+        "industrial",
+        "healthcare"
+      ],
+      "epistemic_label": "FACT",
+      "observation": "August manufacturing employment +16k, healthcare +13k versus prior 12-month average +32k; information employment -23k. Transportation/warehousing little changed.",
+      "direction": "mixed",
+      "source_ids": [
+        "SRC13"
+      ],
+      "confidence": "high preliminary estimates; low causal attribution",
+      "freshness": "August 2026, released Sept 4",
+      "event_id": "EV-JOBS-AUG",
+      "status": "active",
+      "implication": "No evidence released workers can immediately fill licensed or technical roles; healthcare headcount does not measure care access.",
+      "first_seen_cycle": "RC-001"
+    },
+    {
+      "id": "SIG14",
+      "title": "Reported hate-crime trend improved in prior year",
+      "geography": "United States",
+      "systems": [
+        "social"
+      ],
+      "epistemic_label": "FACT",
+      "observation": "FBI matched reporting sample: incidents fell 7.0% from 11,404 in 2024 to 10,606 in 2025. Total all-reporting incidents 10,881 is a different sample.",
+      "direction": "improving",
+      "source_ids": [
+        "SRC14"
+      ],
+      "confidence": "high reported matched trend; low for 2026 climate",
+      "freshness": "2025 data, published 2026-08-14",
+      "event_id": "EV-FBI-2025",
+      "status": "active",
+      "implication": "Retain improving evidence. Current rhetoric, organization, intimidation and institutional trust remain unmeasured.",
+      "first_seen_cycle": "RC-001"
+    },
+    {
+      "id": "SIG15",
+      "title": "Caribbean regional recovery coordination grows",
+      "geography": "Caribbean",
+      "systems": [
+        "healthcare",
+        "labor",
+        "municipal"
+      ],
+      "epistemic_label": "FACT",
+      "observation": "CDEMA recovery roster launched with first orientation for 14 experts on Aug 26; announced Aug 27 and published Aug 30.",
+      "direction": "improving",
+      "source_ids": [
+        "SRC15"
+      ],
+      "confidence": "high launch; unknown deployable reserve",
+      "freshness": "2026-08-26 to 2026-08-30",
+      "event_id": "EV-CDEMA-ROSTER",
+      "status": "active",
+      "implication": "Institutional complementary capacity; roster count is not a verified deployment commitment.",
+      "first_seen_cycle": "RC-001"
+    },
+    {
+      "id": "SIG16",
+      "title": "European electricity seasonal buffer",
+      "geography": "European interconnected systems",
+      "systems": [
+        "grid"
+      ],
+      "epistemic_label": "FACT",
+      "observation": "ENTSO-E summer assessment finds broadly favorable adequacy, with specific risks in Moldova, Ireland, Malta and Cyprus.",
+      "direction": "mixed",
+      "source_ids": [
+        "SRC17"
+      ],
+      "confidence": "medium current relevance",
+      "freshness": "Summer 2026 assessment; exact publication date unverified",
+      "event_id": "EV-EU-SUMMER",
+      "status": "active",
+      "implication": "Cross-border coordination is a buffer; live export reserve must be measured by time and interconnector.",
+      "first_seen_cycle": "RC-001"
+    },
+    {
+      "id": "SIG17",
+      "title": "Metal trade rules create differentiated exposure",
+      "geography": "United States / trade partners",
+      "systems": [
+        "trade",
+        "construction",
+        "industrial"
+      ],
+      "epistemic_label": "FACT",
+      "observation": "June proclamation adjusted specified metal-product duties effective June 8. July 20 authorized reduced-duty incentives tied to approved new/refurbished primary-aluminum production.",
+      "direction": "mixed",
+      "source_ids": [
+        "SRC18",
+        "SRC19"
+      ],
+      "confidence": "high existence of measures; low project-level impact",
+      "freshness": "June/July 2026 decisions",
+      "event_id": "EV-METAL-RULES",
+      "status": "active",
+      "implication": "Need product-origin-specific quotes, HTS and delivery evidence before attributing repair delays to tariffs.",
+      "first_seen_cycle": "RC-001"
+    },
+    {
+      "id": "SIG18",
+      "title": "Grid manufacturing expansion has lead time",
+      "geography": "United States",
+      "systems": [
+        "industrial",
+        "grid"
+      ],
+      "epistemic_label": "EARLY SIGNAL",
+      "observation": "Reuters reported a Sept 2025 Hitachi $1bn US grid-manufacturing plan including a Virginia transformer facility targeted for 2028.",
+      "direction": "improving",
+      "source_ids": [
+        "SRC23"
+      ],
+      "confidence": "medium announcement; current progress unknown",
+      "freshness": "Late discovery: 2025-09-04 announcement",
+      "event_id": "EV-HITACHI-EXPANSION",
+      "status": "watch",
+      "implication": "Planned industrial growth cannot be counted as a September 2026 spare transformer.",
+      "first_seen_cycle": "RC-001"
+    },
+    {
+      "id": "SIG19",
+      "title": "Harvest and refrigerated freight cost propagation",
+      "geography": "US farm/produce corridors",
+      "systems": [
+        "diesel",
+        "trucking",
+        "food_logistics"
+      ],
+      "epistemic_label": "EARLY SIGNAL",
+      "observation": "Sept 18 reporting describes named farmers absorbing fuel increases and elevated refrigerated freight prices; some operators already adapting equipment use.",
+      "direction": "worsening",
+      "source_ids": [
+        "SRC24"
+      ],
+      "confidence": "medium reporting; not representative",
+      "freshness": "2026-09-18",
+      "event_id": "EV-HARVEST-LOGISTICS",
+      "status": "active",
+      "implication": "Observed price/cash-flow transmission warrants deepening; predicted trucking bankruptcies remain unconfirmed.",
+      "first_seen_cycle": "RC-001"
+    },
+    {
+      "id": "SIG20",
+      "title": "October European crude-delivery report needs corroboration",
+      "geography": "Saudi export routes / Europe",
+      "systems": [
+        "trade",
+        "diesel"
+      ],
+      "epistemic_label": "EARLY SIGNAL",
+      "observation": "Reuters relays Bloomberg report of October supply cancellations affecting at least two refiners, explicitly unverified by Reuters; alternatives also reported.",
+      "direction": "unclear",
+      "source_ids": [
+        "SRC25"
+      ],
+      "confidence": "low pending primary corroboration",
+      "freshness": "Report 2026-09-18; delivery horizon October",
+      "event_id": "EV-SAUDI-DELIVERY",
+      "status": "quarantined_for_warning",
+      "implication": "Material follow-up lead; do not present multiple outlets in one chain as independent evidence.",
+      "first_seen_cycle": "RC-001"
+    }
+  ],
+  "CASCADE_GRAPH": {
+    "edges": [
+      {
+        "id": "EDGE01",
+        "from": "diesel",
+        "to": "trucking",
+        "initiating_stress": "Sustained fuel cost increase",
+        "dependent_system": "trucking",
+        "mechanism": "Fuel paid before freight invoices settle can squeeze carrier working capital.",
+        "source_ids": [
+          "SRC01",
+          "SRC24"
+        ],
+        "buffers": [
+          "Surcharges, contracts, route consolidation, stock recovery"
+        ],
+        "thresholds": [
+          "Actual payment mismatch persists through billing cycle; named essential lanes lose reliable service"
+        ],
+        "substitutes": [
+          "Rail for suitable routes; pooled loads; appropriate electric routes"
+        ],
+        "time_horizon": "Days to months",
+        "uncertainty": "No representative carrier failure wave verified",
+        "confirm": "Carrier filings and repeated missed/declined loads linked to fuel cash flow",
+        "falsify": "Stable service, timely surcharges and adequate working capital despite prices",
+        "activation_status": "Cost link observed; capacity-loss branch conditional"
+      },
+      {
+        "id": "EDGE02",
+        "from": "trucking",
+        "to": "food_logistics",
+        "initiating_stress": "Essential refrigerated freight loses capacity",
+        "dependent_system": "food_logistics",
+        "mechanism": "Higher delivered cost or missed windows can reduce food access and increase spoilage.",
+        "source_ids": [
+          "SRC24",
+          "SRC21"
+        ],
+        "buffers": [
+          "Multiple suppliers, existing distribution, some contracts"
+        ],
+        "thresholds": [
+          "Missed perishable deliveries and lack of qualified alternate carrier"
+        ],
+        "substitutes": [
+          "Food aggregation; local distribution; nutritionally suitable shelf-stable mix"
+        ],
+        "time_horizon": "Days to weeks",
+        "uncertainty": "Rates indicate pressure; local spoilage or empty shelves not established",
+        "confirm": "Delivery reliability/temperature failures coincide with lane capacity losses",
+        "falsify": "On-time delivery and food availability persist while rates stabilize",
+        "activation_status": "Conditional watch"
+      },
+      {
+        "id": "EDGE03",
+        "from": "diesel",
+        "to": "agriculture",
+        "initiating_stress": "High fuel cost during harvest",
+        "dependent_system": "agriculture",
+        "mechanism": "Essential field operations have low short-run deferrability and consume working capital.",
+        "source_ids": [
+          "SRC05",
+          "SRC24"
+        ],
+        "buffers": [
+          "Crop receipts, aid, stored inputs, equipment adaptation"
+        ],
+        "thresholds": [
+          "Farm unable to finance timely operations; verified work delayed past agronomic window"
+        ],
+        "substitutes": [
+          "Shared equipment and route planning; suitable equipment substitution"
+        ],
+        "time_horizon": "Harvest weeks; next season for reinvestment",
+        "uncertainty": "Aggregate farm forecast not individual liquidity; on-road price not off-road price",
+        "confirm": "Farm-level delayed harvest/input purchases tied to operating liquidity",
+        "falsify": "Timely harvest, supported margins and payments prevent disruption",
+        "activation_status": "Cost transmission observed; production loss conditional"
+      },
+      {
+        "id": "EDGE04",
+        "from": "fertilizer",
+        "to": "agriculture",
+        "initiating_stress": "Phosphate/sulfur supply or margin tightening",
+        "dependent_system": "agriculture",
+        "mechanism": "Insufficient timely nutrient access can alter application and future yields; nutrients differ.",
+        "source_ids": [
+          "SRC07",
+          "SRC05"
+        ],
+        "buffers": [
+          "Existing stocks, diverse vendors, soil testing and agronomic efficiency"
+        ],
+        "thresholds": [
+          "Verified order rationing/delivery delay during application window"
+        ],
+        "substitutes": [
+          "Agronomically equivalent sources; safe nutrient recovery longer term"
+        ],
+        "time_horizon": "Months and growing seasons",
+        "uncertainty": "One producer cannot establish global shortage; H1 output grew",
+        "confirm": "Independent producer cuts plus farmer order delays",
+        "falsify": "Stable output/deliveries and adequate nutrient access",
+        "activation_status": "Conditional watch"
+      },
+      {
+        "id": "EDGE05",
+        "from": "municipal",
+        "to": "transit",
+        "initiating_stress": "Temporary operating bridges expire before recurring funds",
+        "dependent_system": "transit",
+        "mechanism": "Funding gap can trigger service/staff cuts and reduce network usefulness.",
+        "source_ids": [
+          "SRC08",
+          "SRC09"
+        ],
+        "buffers": [
+          "Adopted bridges and potential recurring revenue"
+        ],
+        "thresholds": [
+          "Revenue decision fails or receipts too late; operative service-reduction decision"
+        ],
+        "substitutes": [
+          "Timetable integration and targeted essential-trip transport, capacity checked"
+        ],
+        "time_horizon": "November decision through FY27-28",
+        "uncertainty": "Election, receipts, expenses and ridership unresolved",
+        "confirm": "Budget amendment/service timetable implements reductions",
+        "falsify": "Recurring revenue arrives and service maintained without accumulating unsafe deferrals",
+        "activation_status": "Conditional watch; fiscal mechanism documented"
+      },
+      {
+        "id": "EDGE06",
+        "from": "transit",
+        "to": "healthcare",
+        "initiating_stress": "Loss of affordable accessible essential trips",
+        "dependent_system": "healthcare",
+        "mechanism": "Patients and workers may miss appointments/shifts if alternatives cannot carry them.",
+        "source_ids": [
+          "SRC08",
+          "SRC09"
+        ],
+        "buffers": [
+          "Current service, paratransit and appointment coordination"
+        ],
+        "thresholds": [
+          "Documented missed essential trips with no usable accessible alternative"
+        ],
+        "substitutes": [
+          "Targeted ride pool; suitable remote appointment; neighborhood service access"
+        ],
+        "time_horizon": "Days to months after service change",
+        "uncertainty": "No measured local effect established in this cycle",
+        "confirm": "Attendance/staffing impairment follows specified service loss",
+        "falsify": "Essential access maintained or alternative funded with real capacity",
+        "activation_status": "Conditional watch"
+      },
+      {
+        "id": "EDGE07",
+        "from": "grid",
+        "to": "water",
+        "initiating_stress": "Local outage outlasts utility operational backup",
+        "dependent_system": "water",
+        "mechanism": "Pumping/treatment depend on power and supported equipment.",
+        "source_ids": [
+          "SRC10",
+          "SRC26"
+        ],
+        "buffers": [
+          "Network switching, stored water and backup if verified"
+        ],
+        "thresholds": [
+          "Actual outage plus verified backup/pressure/treatment limit reached"
+        ],
+        "substitutes": [
+          "Alternate power; approved potable supply and conservation"
+        ],
+        "time_horizon": "Hours to days",
+        "uncertainty": "Conceptual dependency; no local outage or backup shortfall established",
+        "confirm": "Utility incident notice documents power-driven service impairment",
+        "falsify": "Verified redundancy keeps required flow/treatment through outage",
+        "activation_status": "Scenario only; not current warning"
+      },
+      {
+        "id": "EDGE08",
+        "from": "water",
+        "to": "healthcare",
+        "initiating_stress": "Water/sanitation service impairment",
+        "dependent_system": "healthcare",
+        "mechanism": "Essential care can require water, sanitation and functioning local utilities.",
+        "source_ids": [
+          "SRC16",
+          "SRC26"
+        ],
+        "buffers": [
+          "Facility continuity arrangements subject to verification"
+        ],
+        "thresholds": [
+          "Operator confirms inability to sustain essential service"
+        ],
+        "substitutes": [
+          "Alternate clinical site and official distribution support"
+        ],
+        "time_horizon": "Hours to days",
+        "uncertainty": "No hospital-specific capacity or failure inferred",
+        "confirm": "Public facility service interruption/transfer notice linked to water",
+        "falsify": "Water and sanitation maintained within facility requirements",
+        "activation_status": "Scenario only; not current warning"
+      },
+      {
+        "id": "EDGE09",
+        "from": "trade",
+        "to": "construction",
+        "initiating_stress": "Changed duties or route constraints raise equipment landed costs",
+        "dependent_system": "construction",
+        "mechanism": "Budgeted repair may be delayed if actual quotes exceed finance and substitutes fail specification.",
+        "source_ids": [
+          "SRC18",
+          "SRC19",
+          "SRC08"
+        ],
+        "buffers": [
+          "Supplier alternatives; targeted exemptions/incentives if eligible; spending priorities"
+        ],
+        "thresholds": [
+          "Bid/lead-time evidence AND documented repair deferral attributable to affected item"
+        ],
+        "substitutes": [
+          "Refurbishment; compatible parts; supplier diversification"
+        ],
+        "time_horizon": "Months to years",
+        "uncertainty": "BART deferrals not shown caused by tariffs; legal rate depends on product/origin",
+        "confirm": "Procurement records connect tariff/delivery shock to reduced repair scope",
+        "falsify": "Quotes recover, rules mitigate costs, or repairs proceed on time",
+        "activation_status": "Not established; causal attribution withheld"
+      },
+      {
+        "id": "EDGE10",
+        "from": "construction",
+        "to": "grid",
+        "initiating_stress": "Necessary repair cannot obtain compatible equipment",
+        "dependent_system": "grid",
+        "mechanism": "Specific damaged equipment may delay restoration even with ample generation.",
+        "source_ids": [
+          "SRC10",
+          "SRC23"
+        ],
+        "buffers": [
+          "Compatible spares, mutual aid, qualified repairs"
+        ],
+        "thresholds": [
+          "Public operator confirms equipment shortfall delays restoration"
+        ],
+        "substitutes": [
+          "Certified refurbishment or mobile unit if compatible"
+        ],
+        "time_horizon": "Days for available spares; much longer if manufacturing required",
+        "uncertainty": "No current numerical lead time or facility shortfall verified",
+        "confirm": "Operator outage-duration/parts evidence",
+        "falsify": "Repair times normal and compatible replacement available",
+        "activation_status": "Scenario only; supplier lead-time refresh required"
+      },
+      {
+        "id": "EDGE11",
+        "from": "industrial",
+        "to": "labor",
+        "initiating_stress": "Sector contractions release jobs/skills",
+        "dependent_system": "labor",
+        "mechanism": "Voluntary supported retraining and hiring can move compatible skills into repair/logistics needs.",
+        "source_ids": [
+          "SRC13",
+          "SRC23"
+        ],
+        "buffers": [
+          "Income support and employer training if available"
+        ],
+        "thresholds": [
+          "Verified vacancies and compatible skills with paid transition"
+        ],
+        "substitutes": [
+          "Adjacent role training, apprenticeships and shared services"
+        ],
+        "time_horizon": "Months to years",
+        "uncertainty": "Information-sector losses do not equal available electricians or nurses",
+        "confirm": "Actual placements with retained income and service gains",
+        "falsify": "No matching demand, training funds or realistic qualification path",
+        "activation_status": "Opportunity hypothesis"
+      },
+      {
+        "id": "EDGE12",
+        "from": "social",
+        "to": "municipal",
+        "initiating_stress": "Grievance combined with organized coercion",
+        "dependent_system": "municipal",
+        "mechanism": "Trust erosion may impair cooperation if documented intimidation blocks service decisions.",
+        "source_ids": [
+          "SRC14",
+          "SRC15"
+        ],
+        "buffers": [
+          "Transparent decisions, trusted intermediaries, inclusive conflict resolution"
+        ],
+        "thresholds": [
+          "Independent evidence of organization, capability AND obstructive behavior"
+        ],
+        "substitutes": [
+          "Multiple credible engagement channels; mediation"
+        ],
+        "time_horizon": "Weeks to years",
+        "uncertainty": "No current escalating cluster established; ordinary anger/activism not a threat indicator",
+        "confirm": "Documented organized intimidation paired with operational interference",
+        "falsify": "Disagreement remains nonviolent and cooperation/decision capacity holds",
+        "activation_status": "Inactive hypothesis; no escalation inference"
+      }
+    ],
+    "review_decisions": [
+      {
+        "id": "REV01",
+        "claim": "The US has already fallen below 100m barrels of distillates.",
+        "decision": "Rejected as current fact",
+        "reason": "It is a forecast; Sept11 observed107.859m and three builds.",
+        "source_ids": [
+          "SRC03",
+          "SRC04"
+        ]
+      },
+      {
+        "id": "REV02",
+        "claim": "Diesel price stress proves a nationwide physical shortage or trucking failure wave.",
+        "decision": "Downgraded to cost-pressure watch",
+        "reason": "Delivered-service and carrier failure data not established; refinery output and stock builds buffer.",
+        "source_ids": [
+          "SRC02",
+          "SRC24"
+        ]
+      },
+      {
+        "id": "REV03",
+        "claim": "Aggregate cereal stocks remove food risk.",
+        "decision": "Rejected",
+        "reason": "Location, affordability, nutrients, payment and transport remain distinct.",
+        "source_ids": [
+          "SRC06",
+          "SRC24"
+        ]
+      },
+      {
+        "id": "REV04",
+        "claim": "BART cuts have occurred and buses can absorb displaced riders.",
+        "decision": "Rejected",
+        "reason": "Contingency differs from operating plan; SFMTA shares funding pressure.",
+        "source_ids": [
+          "SRC08",
+          "SRC09"
+        ]
+      },
+      {
+        "id": "REV05",
+        "claim": "California is approaching systemwide electricity failure.",
+        "decision": "Unsupported by admitted evidence",
+        "reason": "Improved modeled adequacy; local recovery and coincident extremes are separate.",
+        "source_ids": [
+          "SRC10"
+        ]
+      },
+      {
+        "id": "REV06",
+        "claim": "Tariffs have caused the observed BART deferrals.",
+        "decision": "Causal attribution withheld",
+        "reason": "Budget does not establish that cause; product-specific procurement evidence needed.",
+        "source_ids": [
+          "SRC08",
+          "SRC18"
+        ]
+      },
+      {
+        "id": "REV07",
+        "claim": "All fertilizer types are contracting.",
+        "decision": "Rejected",
+        "reason": "Potash and H1 phosphate production improved in cited producer record.",
+        "source_ids": [
+          "SRC07"
+        ]
+      },
+      {
+        "id": "REV08",
+        "claim": "National social hostility is demonstrably rising now.",
+        "decision": "Not established",
+        "reason": "2025 matched reported hate incidents declined; current/local lanes unmeasured.",
+        "source_ids": [
+          "SRC14"
+        ]
+      },
+      {
+        "id": "REV09",
+        "claim": "Regional rosters or planning margins are spare rescue capacity.",
+        "decision": "Rejected until donor gate satisfied",
+        "reason": "Availability, commitments, time, routes and simultaneous hazard must be checked.",
+        "source_ids": [
+          "SRC10",
+          "SRC15",
+          "SRC17"
+        ]
+      },
+      {
+        "id": "REV10",
+        "claim": "Saudi October cancellations have two independent confirmations.",
+        "decision": "Quarantined as warning evidence",
+        "reason": "Reuters explicitly relays unverified Bloomberg report; one source chain.",
+        "source_ids": [
+          "SRC25"
+        ]
+      }
+    ],
+    "activation_rule": "Conditional links require threshold observations. No automatic transitive propagation from a single stressed node.",
+    "priority_rule": "Consequential interaction + independent evidence + actionable response; no opaque score",
+    "safety_rule": "A donor retains protected demand and contingency reserve; route/compatibility constrain assistance."
+  },
+  "RESERVES_AND_LIFEBOATS": [
+    {
+      "id": "RES01",
+      "name": "Distillate inventories and active production",
+      "type": "Reserve",
+      "source_ids": [
+        "SRC02",
+        "SRC03"
+      ],
+      "readiness": "Observed bulk stocks/production",
+      "limits": "Seasonally thin; region, grade, contract and route limit use",
+      "donor_guardrail": "Protect local essential demand and minimum operator inventory; uncommitted exportable volume unknown",
+      "essential_function": "Essential transport, harvest and backup power"
+    },
+    {
+      "id": "RES02",
+      "name": "Cereal stocks and diversified origins",
+      "type": "Reserve / Substitution",
+      "source_ids": [
+        "SRC06"
+      ],
+      "readiness": "Forecast aggregate buffer",
+      "limits": "Not all stocks exportable; payment/ports/nutrition constrain access",
+      "donor_guardrail": "Confirm exportable supply after local use, contracted sales and contingency needs",
+      "essential_function": "Staple food supply"
+    },
+    {
+      "id": "RES03",
+      "name": "BART and Muni temporary fiscal bridges",
+      "type": "Reserve",
+      "source_ids": [
+        "SRC08",
+        "SRC09"
+      ],
+      "readiness": "Adopted budget support",
+      "limits": "Time-limited, partly debt/deferral; not unrestricted cash",
+      "donor_guardrail": "Do not lend assumed spare transit service or capital funding to other agencies",
+      "essential_function": "Maintain current essential regional mobility"
+    },
+    {
+      "id": "RES04",
+      "name": "CAISO and European power coordination",
+      "type": "Reserve / Rescue",
+      "source_ids": [
+        "SRC10",
+        "SRC17"
+      ],
+      "readiness": "Modeled adequacy; existing coordination",
+      "limits": "Live reserves, ramp, duration and interfaces unresolved",
+      "donor_guardrail": "Check simultaneous peak/hazard and retain donor contingency margin before imports counted",
+      "essential_function": "Electricity supply"
+    },
+    {
+      "id": "RES05",
+      "name": "CDEMA expert roster and medical mutual aid",
+      "type": "Rescue / Lifeboat",
+      "source_ids": [
+        "SRC15",
+        "SRC16"
+      ],
+      "readiness": "Roster established; medical example historically deployed",
+      "limits": "Travel, funds, simultaneous disasters and home staffing constrain",
+      "donor_guardrail": "Verify home-country service floor and ready teams; roster count not spare headcount",
+      "essential_function": "Recovery coordination and temporary care"
+    },
+    {
+      "id": "RES06",
+      "name": "FoodNow and ACCFB access network",
+      "type": "Lifeboat / Redistribution",
+      "source_ids": [
+        "SRC21"
+      ],
+      "readiness": "Listed operating referral service; surge reserve unverified",
+      "limits": "Inventory, transport, opening and dietary suitability not guaranteed",
+      "donor_guardrail": "Preserve existing client allocations; no promise of extra distribution before partner agreement",
+      "essential_function": "Locate groceries or meals"
+    },
+    {
+      "id": "RES07",
+      "name": "Oakland Tool Lending Library",
+      "type": "Reserve / Release",
+      "source_ids": [
+        "SRC20"
+      ],
+      "readiness": "Published tool borrowing service",
+      "limits": "Eligibility and inventory; not a skilled utility repair crew",
+      "donor_guardrail": "Respect lending limits and member access; only available compatible tools count",
+      "essential_function": "Household/community maintenance"
+    },
+    {
+      "id": "RES08",
+      "name": "West Oakland and Richmond hub projects",
+      "type": "Conversion / Lifeboat",
+      "source_ids": [
+        "SRC22"
+      ],
+      "readiness": "Candidate projects; commissioning not verified",
+      "limits": "Hours, power, water, staffing, islanding and accessibility need confirmation",
+      "donor_guardrail": "Never divert host organization baseline services or assume around-the-clock opening",
+      "essential_function": "Potential cooling, communications and essential charging"
+    },
+    {
+      "id": "RES09",
+      "name": "Shared essential-trip and delivery pool",
+      "type": "Release / Substitution / Lifeboat",
+      "source_ids": [
+        "SRC08",
+        "SRC09",
+        "SRC24"
+      ],
+      "readiness": "Proposed pilot only",
+      "limits": "Drivers, insurance, accessibility, vehicle capacity and reimbursements required",
+      "donor_guardrail": "Each partner declares protected routes/driver hours and caps contributions; stop before fatigue or service loss",
+      "essential_function": "Appointments, groceries and essential supplies"
+    },
+    {
+      "id": "RES10",
+      "name": "Small critical-load power/cold-storage arrangement",
+      "type": "Lifeboat / Substitution",
+      "source_ids": [
+        "SRC10",
+        "SRC21",
+        "SRC22"
+      ],
+      "readiness": "Proposed; no site certified",
+      "limits": "Watts, usable kWh, starting load, temperature monitoring, islanding and recharge must be verified",
+      "donor_guardrail": "Protect host critical load first; minimum duration and replenishment required",
+      "essential_function": "Communications and suitable food refrigeration"
+    }
+  ],
+  "ISLANDS_OF_STABILITY": [
+    {
+      "id": "ISL01",
+      "name": "Canadian potash / North American agricultural network",
+      "source_ids": [
+        "SRC07",
+        "SRC06"
+      ],
+      "offers": [
+        "Potash production; complementary North American crop supply"
+      ],
+      "needs_in_return": [
+        "Fuel, rail/ports, equipment, other nutrients and functioning payment/trade channels"
+      ],
+      "available_surplus": "Not quantified; candidate complement, not committed rescue capacity",
+      "donor_guardrail": "Deduct domestic requirements, sold cargoes, maintenance and logistics reserve before offering additional tonnes",
+      "limits": "One nutrient and one producer record do not prove whole-region independence.",
+      "self_sufficient": false
+    },
+    {
+      "id": "ISL02",
+      "name": "Diversified cereal origins in the Americas",
+      "source_ids": [
+        "SRC06"
+      ],
+      "offers": [
+        "Alternative grain sourcing under FAO outlook"
+      ],
+      "needs_in_return": [
+        "Shipping, insurance, finance, equipment and fertilizer"
+      ],
+      "available_surplus": "Not quantified; candidate complement, not committed rescue capacity",
+      "donor_guardrail": "Verify exportable stocks and route capacity; avoid draining local food affordability",
+      "limits": "Forecast outputs and trade prospects, not contracted emergency shipments.",
+      "self_sufficient": false
+    },
+    {
+      "id": "ISL03",
+      "name": "Interconnected European power systems",
+      "source_ids": [
+        "SRC17"
+      ],
+      "offers": [
+        "Coordinated power exchange when available"
+      ],
+      "needs_in_return": [
+        "Fuels, equipment, transfer capacity and reciprocal assistance"
+      ],
+      "available_surplus": "Not quantified; candidate complement, not committed rescue capacity",
+      "donor_guardrail": "Use hourly deliverable reserve after each donor reliability margin and coincident weather risk",
+      "limits": "Network has localized vulnerabilities; NATO membership does not confer spare electricity.",
+      "self_sufficient": false
+    },
+    {
+      "id": "ISL04",
+      "name": "Caribbean mutual-aid institutions",
+      "source_ids": [
+        "SRC15",
+        "SRC16"
+      ],
+      "offers": [
+        "Recovery expertise and demonstrated temporary clinical support"
+      ],
+      "needs_in_return": [
+        "Transport, funded deployment, medicines/equipment, replenishment and donor staff coverage"
+      ],
+      "available_surplus": "Not quantified; candidate complement, not committed rescue capacity",
+      "donor_guardrail": "No team deployed below home essential staffing; diversify donors outside common storm footprint",
+      "limits": "Historical medical deployment and new roster do not establish current surge strength.",
+      "self_sufficient": false
+    },
+    {
+      "id": "ISL05",
+      "name": "East Bay civic and commons network",
+      "source_ids": [
+        "SRC20",
+        "SRC21",
+        "SRC22"
+      ],
+      "offers": [
+        "Food navigation, tools, trusted spaces and potential hub collaboration"
+      ],
+      "needs_in_return": [
+        "Operating funds, staffing, accessible transport, electricity and reciprocal labor"
+      ],
+      "available_surplus": "Not quantified; candidate complement, not committed rescue capacity",
+      "donor_guardrail": "Declare protected service levels and explicit contribution ceilings at each node",
+      "limits": "Relative institutional strengths only; no food, energy or fiscal self-sufficiency established.",
+      "self_sufficient": false
+    }
+  ],
+  "TRANSITION_OPPORTUNITIES": [
+    {
+      "id": "TR01",
+      "name": "Reduce fuel per useful delivery",
+      "cluster_id": "CL01",
+      "classification": "Managed shedding / creative transition",
+      "function_to_preserve": "Reliable food and essential transport",
+      "released_assets": "Possible release of duplicate vehicle trips and dispatch time; no fleet abandonment assumed",
+      "safe_load_release": "Empty miles, duplicated pickups and avoidable idling",
+      "growth_candidate": "Joint routes, food aggregation, efficient suitable vehicles",
+      "conversion_requirements": "Dispatch partner, lawful food handling, accessible trip design and measured baseline",
+      "time_horizon": "Weeks for routing; longer for equipment",
+      "risks": "Consolidation can overcentralize service or lengthen vulnerable riders trips",
+      "source_ids": [
+        "SRC01",
+        "SRC24"
+      ],
+      "status": "Proposed opportunity unless explicitly stated",
+      "success_observation": "Essential service improves or holds while resource burden falls; verify distributional effects."
+    },
+    {
+      "id": "TR02",
+      "name": "Recover nutrient value and lower avoidable inputs",
+      "cluster_id": "CL03",
+      "classification": "Creative transition / healthy replacement",
+      "function_to_preserve": "Agronomically adequate nutrition",
+      "released_assets": "Potential fertilizer waste and suitable organic feedstocks; availability unverified",
+      "safe_load_release": "Overapplication only after soil/crop-specific assessment",
+      "growth_candidate": "Precision application and safe nutrient recovery",
+      "conversion_requirements": "Agronomy, contamination controls, processing and reliable nutrient composition",
+      "time_horizon": "Growing seasons to years",
+      "risks": "Potash cannot substitute phosphorus; waste streams are not automatically safe or equivalent",
+      "source_ids": [
+        "SRC07"
+      ],
+      "status": "Proposed opportunity unless explicitly stated",
+      "success_observation": "Essential service improves or holds while resource burden falls; verify distributional effects."
+    },
+    {
+      "id": "TR03",
+      "name": "Adapt mobility to changed trip patterns",
+      "cluster_id": "CL02",
+      "classification": "Managed shedding / creative transition",
+      "function_to_preserve": "Accessible work, care and daily-life mobility",
+      "released_assets": "Scheduling/administrative effort; no layoffs or assets booked as available",
+      "safe_load_release": "Duplicate administration, poorly matched optional service only after access analysis",
+      "growth_candidate": "Coordinated timed transfers, feeder access, consolidated service visits",
+      "conversion_requirements": "Operator planning, rider input, recurring finance and protected access standards",
+      "time_horizon": "Months",
+      "risks": "Reducing essential service or maintenance is destructive loss, even when fiscally necessary",
+      "source_ids": [
+        "SRC08",
+        "SRC09"
+      ],
+      "status": "Proposed opportunity unless explicitly stated",
+      "success_observation": "Essential service improves or holds while resource burden falls; verify distributional effects."
+    },
+    {
+      "id": "TR04",
+      "name": "Repair and manufacturing capacity",
+      "cluster_id": "CL04",
+      "classification": "Healthy replacement / growth",
+      "function_to_preserve": "Maintain electricity and productive assets",
+      "released_assets": "Existing repairable equipment; displaced workers only if verified compatible and willing",
+      "safe_load_release": "Avoid premature equipment scrapping and low-value expansions",
+      "growth_candidate": "Qualified refurbishment, compatible spares and technical training",
+      "conversion_requirements": "Certification, tooling, working capital, actual orders and staffing",
+      "time_horizon": "Months to years",
+      "risks": "Announced manufacturing adds no immediate reserve; unsuitable reuse can worsen reliability",
+      "source_ids": [
+        "SRC11",
+        "SRC13",
+        "SRC23"
+      ],
+      "status": "Proposed opportunity unless explicitly stated",
+      "success_observation": "Essential service improves or holds while resource burden falls; verify distributional effects."
+    },
+    {
+      "id": "TR05",
+      "name": "Shared spaces support minimum essential loads",
+      "cluster_id": "CL04",
+      "classification": "Conversion / creative transition",
+      "function_to_preserve": "Communications, appropriate cooling/refrigeration and local coordination",
+      "released_assets": "Existing institutional space; uncommitted hours and electrical capacity not yet established",
+      "safe_load_release": "Power nonessential circuits down while keeping protected loads",
+      "growth_candidate": "Staffed resilient hubs with critical-load support",
+      "conversion_requirements": "Host agreement, load measurements, accessibility, maintenance and outage exercise",
+      "time_horizon": "Weeks for coordination; months for capital works",
+      "risks": "Hardware without staffing and independent operation is not a lifeboat",
+      "source_ids": [
+        "SRC20",
+        "SRC21",
+        "SRC22"
+      ],
+      "status": "Proposed opportunity unless explicitly stated",
+      "success_observation": "Essential service improves or holds while resource burden falls; verify distributional effects."
+    },
+    {
+      "id": "TR06",
+      "name": "Protect future recovery while bridging finance",
+      "cluster_id": "CL02",
+      "classification": "Managed shedding with destructive-failure boundary",
+      "function_to_preserve": "Transit operation and asset reliability",
+      "released_assets": "Political attention and procurement coordination; debt is not released wealth",
+      "safe_load_release": "Defer lower-value expansions before safety-critical renewal",
+      "growth_candidate": "Shared procurement and durable revenue arrangements",
+      "conversion_requirements": "Separate restricted funding, borrowing cost and deferred renewal risk",
+      "time_horizon": "Current budget through multi-year recovery",
+      "risks": "Repeated deferral consumes future capacity and can become destructive decay",
+      "source_ids": [
+        "SRC08",
+        "SRC09"
+      ],
+      "status": "Proposed opportunity unless explicitly stated",
+      "success_observation": "Essential service improves or holds while resource burden falls; verify distributional effects."
+    }
+  ],
+  "COMMUNITY_COMMONS": [
+    {
+      "id": "COM01",
+      "name": "Braided Bridge essential-trip pilot",
+      "cluster_id": "CL01 / CL02",
+      "status": "Reviewable proposal; no outreach, commitments or deployment",
+      "who_can_act": [
+        "Two or three consenting nonprofits or neighborhood groups"
+      ],
+      "first_steps": [
+        "Start with one repeat supply run and a small number of essential appointments.",
+        "Map existing public transit first, then match usable seats/cargo windows without harming accessibility.",
+        "Offer a draft contribution cap and mileage reimbursement approach for partner review.",
+        "Trial only after driver, vehicle, liability and accessible-trip requirements are confirmed."
+      ],
+      "protected_floor": "Each partner retains its ordinary service commitments, driver rest and a replenishable emergency reserve. No assumed access to another organization vehicle.",
+      "success_measure": "Completed essential trips, cost per completed trip, empty miles and missed pickups; compare with baseline.",
+      "resources": [
+        "BART/SFMTA service remains primary backbone",
+        "ACCFB/FoodNow provides food-location leads"
+      ],
+      "source_ids": [
+        "SRC08",
+        "SRC09",
+        "SRC21",
+        "SRC24"
+      ],
+      "recordkeeping": "Coordinator maintains public directory and plan. A designated partner dispatcher holds minimal operational records only if pilot adopted; no client-sensitive data in public state."
+    },
+    {
+      "id": "COM02",
+      "name": "Small food aggregation and cold-chain map",
+      "cluster_id": "CL01",
+      "status": "Reviewable proposal; no outreach, commitments or deployment",
+      "who_can_act": [
+        "Food bank partners, kitchens, local businesses and a nonprofit"
+      ],
+      "first_steps": [
+        "Use ACCFB public food locator to seed nearby options.",
+        "Record public pickup windows; keep proposed storage capacity unknown until operator confirmation.",
+        "Begin with shelf-stable aggregation; add perishables only with verified temperature-safe storage and transport.",
+        "Identify a second node on a different outage dependency before relying on one fridge."
+      ],
+      "protected_floor": "Maintain existing client allotments, host staff time and normal food safety; no speculative stockpiling.",
+      "success_measure": "Useful food delivered per trip; spoilage and missed pickups; host workload.",
+      "resources": [
+        "Existing ACCFB referral network",
+        "No cold-storage partner is currently committed"
+      ],
+      "source_ids": [
+        "SRC21",
+        "SRC24"
+      ],
+      "recordkeeping": "Coordinator maintains public directory and plan. A designated partner dispatcher holds minimal operational records only if pilot adopted; no client-sensitive data in public state."
+    },
+    {
+      "id": "COM03",
+      "name": "Repair and tools exchange",
+      "cluster_id": "CL04",
+      "status": "Reviewable proposal; no outreach, commitments or deployment",
+      "who_can_act": [
+        "Tenant association, maker space, union local or community group"
+      ],
+      "first_steps": [
+        "Use Oakland Tool Lending Library eligibility and borrowing rules for eligible participants.",
+        "Separate ordinary household repairs from work requiring qualified trades.",
+        "Create one recurring skills-sharing session around actual repair demand.",
+        "Use paid/voluntary capacity with explicit limits; do not assume unemployed workers are free labor."
+      ],
+      "protected_floor": "Keep tool lending access equitable; cap volunteer hours; no unqualified electrical or structural work.",
+      "success_measure": "Items safely repaired, money saved and participant time; no crisis required.",
+      "resources": [
+        "Oakland Tool Lending Library, 5205 Telegraph Avenue; published service listing"
+      ],
+      "source_ids": [
+        "SRC20",
+        "SRC13"
+      ],
+      "recordkeeping": "Coordinator maintains public directory and plan. A designated partner dispatcher holds minimal operational records only if pilot adopted; no client-sensitive data in public state."
+    },
+    {
+      "id": "COM04",
+      "name": "One-room communications lifeboat",
+      "cluster_id": "CL04",
+      "status": "Reviewable proposal; no outreach, commitments or deployment",
+      "who_can_act": [
+        "Library, church, school or nonprofit with a willing host"
+      ],
+      "first_steps": [
+        "Choose the essential function: charging/communications and public information.",
+        "List host critical loads and measure power/duration needs before proposing hardware.",
+        "Check a different communications path and reachable alternate location.",
+        "Tabletop an outage with a named host and hours; mark untested functions as unavailable."
+      ],
+      "protected_floor": "Host ordinary services and safety first. Exclude life-support or clinical equipment without a responsible qualified plan.",
+      "success_measure": "Verified usable hours, accessible capacity and successful handoff to alternate site.",
+      "resources": [
+        "West Oakland/Richmond hub projects are leads only",
+        "No site commissioning or backup duration verified"
+      ],
+      "source_ids": [
+        "SRC22",
+        "SRC10"
+      ],
+      "recordkeeping": "Coordinator maintains public directory and plan. A designated partner dispatcher holds minimal operational records only if pilot adopted; no client-sensitive data in public state."
+    },
+    {
+      "id": "COM05",
+      "name": "Small grower input-efficiency cooperative",
+      "cluster_id": "CL03",
+      "status": "Reviewable proposal; no commitments",
+      "who_can_act": [
+        "Community gardens, small farms and a cooperative extension or qualified agronomy partner"
+      ],
+      "first_steps": [
+        "Share crop/soil testing costs where appropriate.",
+        "Compare equivalent nutrient needs and public supplier options without substituting one nutrient for another.",
+        "Pool compatible orders only when storage, timing and payment protect every member.",
+        "Assess safe local nutrient recovery as a separate longer-term project."
+      ],
+      "protected_floor": "Protect crop requirements, safe material use and small growers cash buffers; no stockpile that burdens participants.",
+      "success_measure": "Useful nutrient delivered on time, cost per appropriate application and avoided waste.",
+      "resources": [
+        "Qualified agronomy and current supplier evidence still to be selected"
+      ],
+      "source_ids": [
+        "SRC05",
+        "SRC07"
+      ],
+      "recordkeeping": "Coordinator maintains public evidence and proposal; operational soil/farm information stays with consenting participants."
+    },
+    {
+      "id": "COM06",
+      "name": "Shared reserve and fair-allocation agreement",
+      "cluster_id": "CL05 / all clusters",
+      "status": "Reviewable proposal; no evidence of an active local escalation cluster",
+      "who_can_act": [
+        "Several nonprofits, tenant groups, library/community representatives"
+      ],
+      "first_steps": [
+        "Define which essential functions each participant protects first.",
+        "Publish simple contribution limits, access criteria and a way to request review of an allocation.",
+        "Choose trusted facilitators and an accessible feedback channel.",
+        "Practice an ordinary service disruption and record successful cooperation, not only conflict."
+      ],
+      "protected_floor": "No identities or political positions scored as threats; no donor pressured below its service floor.",
+      "success_measure": "Requests resolved, equitable access, preserved donor service and fewer avoidable handoff failures.",
+      "resources": [
+        "Existing civic networks; facilitator availability unverified"
+      ],
+      "source_ids": [
+        "SRC14",
+        "SRC15",
+        "SRC22"
+      ],
+      "recordkeeping": "Coordinator keeps the public agreement draft; use aggregate outcomes and no individual threat profiles."
+    }
+  ],
+  "QUESTIONS_TO_WATCH": [
+    {
+      "id": "Q01",
+      "priority": "highest",
+      "question": "Are fuel costs becoming actual missed essential deliveries?",
+      "why_it_matters": "Separates financial propagation from service impairment.",
+      "next_public_action": "Recheck EIA weekly regional data, USDA refrigerated-truck reports, operator statements and filings; compare lane delivery reliability.",
+      "owner_role": "Energy + Food + Skeptic",
+      "source_ids": [
+        "SRC01",
+        "SRC02",
+        "SRC24"
+      ],
+      "revisit_trigger": "New delivery limits, carrier exits or the next weekly release",
+      "status": "open",
+      "user_manual_work_required": false
+    },
+    {
+      "id": "Q02",
+      "priority": "highest",
+      "question": "What is deliverable local fuel reserve after September 11?",
+      "why_it_matters": "National builds can miss late regional disruption.",
+      "next_public_action": "Refresh stocks, utilization, outages, wholesale/retail differences and heating-oil/harvest demand without counting one price source twice.",
+      "owner_role": "Energy + Intake",
+      "source_ids": [
+        "SRC02",
+        "SRC03"
+      ],
+      "revisit_trigger": "New weekly observation or operator disruption",
+      "status": "open",
+      "user_manual_work_required": false
+    },
+    {
+      "id": "Q03",
+      "priority": "highest",
+      "question": "What concrete transit bridge and alternative capacity survives each funding outcome?",
+      "why_it_matters": "Several operators can share the same fiscal shock.",
+      "next_public_action": "Read next BART/MTC/SFMTA/AC Transit public budget updates and actual adopted timetables; identify accessible essential routes.",
+      "owner_role": "Local + Commons + Skeptic",
+      "source_ids": [
+        "SRC08",
+        "SRC09"
+      ],
+      "revisit_trigger": "Budget amendment, revenue decision, receipts or service changes",
+      "status": "open",
+      "user_manual_work_required": false
+    },
+    {
+      "id": "Q04",
+      "priority": "high",
+      "question": "Do sulfur/phosphate pressures persist across independent producers and farm orders?",
+      "why_it_matters": "Single-company evidence cannot establish global fertilizer scarcity.",
+      "next_public_action": "Compare producer results, fertilizer trade/price data and public application-delay reports; distinguish nitrogen/potash/phosphate.",
+      "owner_role": "Food + Energy + Industry",
+      "source_ids": [
+        "SRC07",
+        "SRC05"
+      ],
+      "revisit_trigger": "Independent producer cut or delivered order delay",
+      "status": "open",
+      "user_manual_work_required": false
+    },
+    {
+      "id": "Q05",
+      "priority": "high",
+      "question": "Which local hub functions actually operate independently?",
+      "why_it_matters": "A listed building or installed panel is not an operational lifeboat.",
+      "next_public_action": "Seek commissioning documents, public opening/access information, power/islanding specifications and drills; unknown stays unknown.",
+      "owner_role": "Infrastructure + Commons",
+      "source_ids": [
+        "SRC22",
+        "SRC20"
+      ],
+      "revisit_trigger": "Public commissioning or demonstrated operation",
+      "status": "open",
+      "user_manual_work_required": false
+    },
+    {
+      "id": "Q06",
+      "priority": "high",
+      "question": "Can the Saudi/European October delivery report be independently confirmed?",
+      "why_it_matters": "It postdates EIA forecast inputs and may alter route assumptions.",
+      "next_public_action": "Seek Aramco/refiner/port public statements or directly sourced notices; assess substitutes and volumes.",
+      "owner_role": "Energy + Geographic + Skeptic",
+      "source_ids": [
+        "SRC25",
+        "SRC04"
+      ],
+      "revisit_trigger": "Primary corroboration, denial, replacement cargoes or actual delivery data",
+      "status": "open",
+      "user_manual_work_required": false
+    },
+    {
+      "id": "Q07",
+      "priority": "medium",
+      "question": "What are current transformer and repair-equipment lead times?",
+      "why_it_matters": "Manufacturing announcements cannot prove restoration reserve.",
+      "next_public_action": "Read manufacturer/utility procurement and current commissioning disclosures; obtain public item-specific delivery intervals.",
+      "owner_role": "Infrastructure + Industry",
+      "source_ids": [
+        "SRC23",
+        "SRC10"
+      ],
+      "revisit_trigger": "Public lead-time update or equipment-caused restoration delay",
+      "status": "open",
+      "user_manual_work_required": false
+    },
+    {
+      "id": "Q08",
+      "priority": "medium",
+      "question": "Do tariffs measurably change particular repair bids?",
+      "why_it_matters": "Avoid attributing all maintenance problems to trade policy.",
+      "next_public_action": "Match HTS/product/origin and current CBP guidance to public bids; compare quotes before/after and competing causes.",
+      "owner_role": "Industry + Skeptic",
+      "source_ids": [
+        "SRC18",
+        "SRC19"
+      ],
+      "revisit_trigger": "Procurement decision with causal documentation",
+      "status": "open",
+      "user_manual_work_required": false
+    },
+    {
+      "id": "Q09",
+      "priority": "medium",
+      "question": "What current water and care continuity indicators can be verified?",
+      "why_it_matters": "Local reserves are unknown despite high dependency.",
+      "next_public_action": "Find dated EBMUD supply/board reports and public healthcare service/utility continuity notices; do not infer hospital vulnerabilities.",
+      "owner_role": "Infrastructure + Health",
+      "source_ids": [
+        "SRC26",
+        "SRC13"
+      ],
+      "revisit_trigger": "Dated operating data or public service interruption",
+      "status": "open",
+      "user_manual_work_required": false
+    },
+    {
+      "id": "Q10",
+      "priority": "medium",
+      "question": "Are social tensions translating into organized harmful behavior or resolving?",
+      "why_it_matters": "Anger alone is not a danger measure; annual crime data lag.",
+      "next_public_action": "Use locality-matched public incident/court records, trust surveys and credible civic reports; track rhetoric/organization/capacity/behavior/violence separately and mediation outcomes.",
+      "owner_role": "Social + Skeptic",
+      "source_ids": [
+        "SRC14",
+        "SRC15"
+      ],
+      "revisit_trigger": "Corroborated behavior or measured de-escalation; no identity profiling",
+      "status": "open",
+      "user_manual_work_required": false
+    },
+    {
+      "id": "Q11",
+      "priority": "medium",
+      "question": "How much help can each outside reserve safely export?",
+      "why_it_matters": "Prevents donor exhaustion and common-hazard failure.",
+      "next_public_action": "Use current production, commitments, domestic demand, routes, staffing and contingency floors; no surplus credited without evidence.",
+      "owner_role": "Islands + Overflow",
+      "source_ids": [
+        "SRC07",
+        "SRC15",
+        "SRC17"
+      ],
+      "revisit_trigger": "Specific rescue or purchasing proposal",
+      "status": "open",
+      "user_manual_work_required": false
+    },
+    {
+      "id": "Q12",
+      "priority": "first on resume",
+      "question": "Complete independent review interrupted by usage limit",
+      "why_it_matters": "Coordinator verified claims but is not a substitute for full independent challenge.",
+      "next_public_action": "Resume skeptic using state and sources; test strongest cost, fiscal and fertilizer chains; record any downgrade.",
+      "owner_role": "Skeptic",
+      "source_ids": [
+        "SRC02",
+        "SRC05",
+        "SRC08",
+        "SRC07"
+      ],
+      "revisit_trigger": "Next active research cycle with agent capacity",
+      "status": "open",
+      "user_manual_work_required": false
+    }
+  ],
+  "SOURCE_LEDGER": [
+    {
+      "id": "SRC01",
+      "title": "Gasoline and Diesel Fuel Update",
+      "publisher": "EIA",
+      "url": "https://www.eia.gov/petroleum/gasdiesel/",
+      "publication_date": "2026-09-15",
+      "observation_period": "Retail survey 2026-09-14",
+      "retrieved_at": "2026-09-20",
+      "grade": "A",
+      "limitations": "On-highway retail diesel includes taxes; not farm off-road or wholesale delivered contract price. Dynamic page."
+    },
+    {
+      "id": "SRC02",
+      "title": "Weekly Petroleum Status Report summary",
+      "publisher": "EIA",
+      "url": "https://ir.eia.gov/wpsr/wpsrsummary.pdf",
+      "publication_date": "2026-09-16",
+      "observation_period": "Week ending 2026-09-11",
+      "retrieved_at": "2026-09-20",
+      "grade": "A",
+      "limitations": "Weekly estimates lag subsequent events; national totals hide regional/terminal differences. Dynamic PDF."
+    },
+    {
+      "id": "SRC03",
+      "title": "Weekly stocks of distillate fuel oil",
+      "publisher": "EIA",
+      "url": "https://www.eia.gov/dnav/pet/pet_stoc_wstk_a_epd0_sae_mbbl_w.htm",
+      "publication_date": "2026-09-16",
+      "observation_period": "2026-08-07 through 2026-09-11",
+      "retrieved_at": "2026-09-20",
+      "grade": "A",
+      "limitations": "Bulk stocks include in-transit fuel. Not all stocks are immediately available to all users."
+    },
+    {
+      "id": "SRC04",
+      "title": "September Short-Term Energy Outlook",
+      "publisher": "EIA",
+      "url": "https://www.eia.gov/outlooks/steo/",
+      "publication_date": "2026-09-09",
+      "observation_period": "Forecast completed 2026-09-03",
+      "retrieved_at": "2026-09-20",
+      "grade": "A",
+      "limitations": "Forecast assumptions and future inventory levels are not observed conditions; later disruptions can supersede assumptions."
+    },
+    {
+      "id": "SRC05",
+      "title": "Farm Sector Income Forecast",
+      "publisher": "USDA ERS",
+      "url": "https://www.ers.usda.gov/topics/farm-economy/farm-sector-income-finances/farm-sector-income-forecast",
+      "publication_date": "2026-09-03",
+      "observation_period": "Calendar 2026 forecast",
+      "retrieved_at": "2026-09-20",
+      "grade": "A",
+      "limitations": "Sector totals are forecasts and conceal crop/farm/region variation; predicted government payments are not verified cash receipts."
+    },
+    {
+      "id": "SRC06",
+      "title": "Cereal Supply and Demand Brief",
+      "publisher": "FAO",
+      "url": "https://www.fao.org/worldfoodsituation/csdb/en/",
+      "publication_date": "2026-09-04",
+      "observation_period": "2026 production and 2026/27 marketing-year forecasts",
+      "retrieved_at": "2026-09-20",
+      "grade": "A",
+      "limitations": "Global modeled stocks do not establish exportability, local affordability, cold-chain capacity or full nutritional coverage."
+    },
+    {
+      "id": "SRC07",
+      "title": "Second Quarter 2026 Results",
+      "publisher": "Nutrien",
+      "url": "https://www.nutrien.com/news/press-releases/nutrien-reports-second-quarter-2026-results-1753",
+      "publication_date": "2026-08-05",
+      "observation_period": "Quarter and half-year ending 2026-06-30 plus management outlook",
+      "retrieved_at": "2026-09-20",
+      "grade": "A",
+      "limitations": "Primary company disclosure; market commentary is management assessment and one company is not the entire fertilizer industry."
+    },
+    {
+      "id": "SRC08",
+      "title": "FY27 Adopted Operating and Capital Budget",
+      "publisher": "BART",
+      "url": "https://www.bart.gov/sites/default/files/2026-09/FY27%20Adopted%20Budget%20Memo_FINAL_SIGNED.pdf",
+      "publication_date": "2026-09",
+      "observation_period": "FY2027 budget; November 2026 conditional revenue decision",
+      "retrieved_at": "2026-09-20",
+      "grade": "A",
+      "limitations": "Budget assumes revenue measure passage. Alternative Service Plan is a contingency, not the current operating timetable. Publication day not established."
+    },
+    {
+      "id": "SRC09",
+      "title": "Budget Planning FY2026-27 and FY2027-28",
+      "publisher": "SFMTA",
+      "url": "https://www.sfmta.com/projects/sfmta-budget-planning-fy-2026-27-and-fy-2027-28",
+      "publication_date": null,
+      "observation_period": "Budget approved 2026-04-21; fiscal years 2026-27 and 2027-28",
+      "retrieved_at": "2026-09-20",
+      "grade": "A",
+      "limitations": "Current agency description; threatened cuts are conditional, not implemented. Web publication date not shown."
+    },
+    {
+      "id": "SRC10",
+      "title": "2026 Summer Loads and Resources Assessment",
+      "publisher": "CAISO",
+      "url": "https://www.caiso.com/documents/2026-summer-loads-and-resources-assessment.pdf",
+      "publication_date": "2026-05",
+      "observation_period": "May-September 2026 planning assessment",
+      "retrieved_at": "2026-09-20",
+      "grade": "A",
+      "limitations": "Portfolio includes expected additions; actual commissioning not reverified. Coincident extremes and intrazonal constraints are not fully captured. Planning margin is not live exportable reserve."
+    },
+    {
+      "id": "SRC11",
+      "title": "Industrial Production and Capacity Utilization G.17",
+      "publisher": "Federal Reserve",
+      "url": "https://www.federalreserve.gov/releases/g17/current/default.htm",
+      "publication_date": "2026-09-18",
+      "observation_period": "August 2026 preliminary, seasonally adjusted",
+      "retrieved_at": "2026-09-20",
+      "grade": "A",
+      "limitations": "Aggregate production/utilization masks product-specific shortages and is revised. Underutilization is not immediately interchangeable capacity."
+    },
+    {
+      "id": "SRC12",
+      "title": "July 2026 Senior Loan Officer Opinion Survey",
+      "publisher": "Federal Reserve",
+      "url": "https://www.federalreserve.gov/data/sloos/sloos-202607.htm",
+      "publication_date": "2026-08-03",
+      "observation_period": "Mostly Q2 2026; responses due 2026-07-02",
+      "retrieved_at": "2026-09-20",
+      "grade": "A",
+      "limitations": "Bank-reported net balances; not all lenders or borrower outcomes. Standards level differs from change in standards."
+    },
+    {
+      "id": "SRC13",
+      "title": "August 2026 Employment Situation",
+      "publisher": "BLS",
+      "url": "https://www.bls.gov/news.release/empsit.nr0.htm",
+      "publication_date": "2026-09-04",
+      "observation_period": "August 2026 preliminary",
+      "retrieved_at": "2026-09-20",
+      "grade": "A",
+      "limitations": "Employment changes do not establish worker readiness, vacancy rates, service capacity or causes of displacement."
+    },
+    {
+      "id": "SRC14",
+      "title": "2025 Reported Crimes in the Nation Statistics",
+      "publisher": "FBI",
+      "url": "https://www.fbi.gov/news/press-releases/fbi-releases-2025-reported-crimes-in-the-nation-statistics",
+      "publication_date": "2026-08-14",
+      "observation_period": "2025 reports; matched reporting comparison with 2024",
+      "retrieved_at": "2026-09-20",
+      "grade": "A",
+      "limitations": "Reported offenses, underreporting and reporting changes matter. Matched sample differs from total. Cannot infer 2026/local social temperature or general trust."
+    },
+    {
+      "id": "SRC15",
+      "title": "Regional Recovery Experts Roster launch",
+      "publisher": "CDEMA",
+      "url": "https://www.cdema.org/index.php/cdemanews/categories/press-releases/146-press-releases/1870-cdema-launches-regional-recovery-experts-roster-to-strengthen-caribbean-recovery",
+      "publication_date": "2026-08-30",
+      "observation_period": "First orientation 2026-08-26; announcement dateline 2026-08-27",
+      "retrieved_at": "2026-09-20",
+      "grade": "A",
+      "limitations": "Fourteen oriented experts indicate coordination capacity; deployability, funding and concurrent assignments remain unverified."
+    },
+    {
+      "id": "SRC16",
+      "title": "Hurricane Melissa Situation Report 18",
+      "publisher": "CDEMA",
+      "url": "https://www.cdema.org/index.php/cdemanews/categories/situation-reports/1852-situation-report-18-hurricane-melissa",
+      "publication_date": "2025-12-15",
+      "observation_period": "Field hospital operating in Savanna-la-Mar on 2025-12-15",
+      "retrieved_at": "2026-09-20",
+      "grade": "A",
+      "limitations": "Historical demonstration of mutual aid; current readiness and spare medical capacity unknown. Late discovery in RC-001."
+    },
+    {
+      "id": "SRC17",
+      "title": "Summer Outlook 2026",
+      "publisher": "ENTSO-E",
+      "url": "https://www.entsoe.eu/outlooks/seasonal/",
+      "publication_date": null,
+      "observation_period": "Summer 2026 seasonal adequacy assessment",
+      "retrieved_at": "2026-09-20",
+      "grade": "A",
+      "limitations": "Risk assessment, not real-time capacity or a prediction; country differences matter. Europe/ENTSO-E is not identical to NATO or the EU."
+    },
+    {
+      "id": "SRC18",
+      "title": "June metal tariff regime adjustment",
+      "publisher": "White House",
+      "url": "https://www.whitehouse.gov/presidential-actions/2026/06/further-adjusting-the-tariff-regimes-for-imports-of-aluminum-steel-and-copper-into-the-united-states/",
+      "publication_date": "2026-06-01",
+      "observation_period": "Specified changes effective 2026-06-08",
+      "retrieved_at": "2026-09-20",
+      "grade": "A",
+      "limitations": "Historical enacted adjustment; full current HTS/CBP classification, annexes and later modifications not reconciled. No universal current tariff rate asserted."
+    },
+    {
+      "id": "SRC19",
+      "title": "Aluminum investment incentive proclamation",
+      "publisher": "White House",
+      "url": "https://www.whitehouse.gov/presidential-actions/2026/07/further-strengthening-actions-taken-to-adjust-imports-of-aluminum-into-the-united-states/",
+      "publication_date": "2026-07-20",
+      "observation_period": "Program authorization on 2026-07-20",
+      "retrieved_at": "2026-09-20",
+      "grade": "A",
+      "limitations": "Authorization and plans do not prove approved projects, construction or operating production. Administration claims about effects are not treated as independent economic measurement."
+    },
+    {
+      "id": "SRC20",
+      "title": "Oakland Tool Lending Library",
+      "publisher": "Oakland Public Library",
+      "url": "https://oaklandlibrary.org/otll/",
+      "publication_date": null,
+      "observation_period": "Public service listing accessed 2026-09-20",
+      "retrieved_at": "2026-09-20",
+      "grade": "A",
+      "limitations": "Eligibility limited to Oakland, Emeryville and Piedmont residents; live availability and emergency opening not verified."
+    },
+    {
+      "id": "SRC21",
+      "title": "Get Food Today",
+      "publisher": "Alameda County Community Food Bank",
+      "url": "https://www.accfb.org/get-food/",
+      "publication_date": "2025-02-21",
+      "observation_period": "Service listing accessed 2026-09-20",
+      "retrieved_at": "2026-09-20",
+      "grade": "A",
+      "limitations": "Page advertises referral service; no inventory, surge reserve, transport or cold-storage commitments established."
+    },
+    {
+      "id": "SRC22",
+      "title": "Resilience Hub Initiative",
+      "publisher": "NorCal Resilience Network",
+      "url": "https://norcalresilience.org/resilient-hub-initiative/",
+      "publication_date": null,
+      "observation_period": "Undated program descriptions accessed 2026-09-20",
+      "retrieved_at": "2026-09-20",
+      "grade": "B",
+      "limitations": "Community network directory names West Oakland and Richmond projects; commissioning, hours, islanding and staffing not verified."
+    },
+    {
+      "id": "SRC23",
+      "title": "Hitachi grid manufacturing investment",
+      "publisher": "Reuters",
+      "url": "https://www.reuters.com/business/energy/hitachi-invest-1-billion-produce-power-grid-components-us-2025-09-04/",
+      "publication_date": "2025-09-04",
+      "observation_period": "Investment announcement; planned facility start 2028",
+      "retrieved_at": "2026-09-20",
+      "grade": "B",
+      "limitations": "Secondary historical business report; current construction progress and delivery lead times not verified. Late discovery."
+    },
+    {
+      "id": "SRC24",
+      "title": "Diesel costs and harvest logistics reporting",
+      "publisher": "Reuters",
+      "url": "https://www.reuters.com/business/energy/record-us-diesel-prices-squeeze-farmers-food-prices-may-rise-2026-09-18/",
+      "publication_date": "2026-09-18",
+      "observation_period": "September 2026 harvest interviews and freight commentary",
+      "retrieved_at": "2026-09-20",
+      "grade": "B",
+      "limitations": "Named interviews and industry commentary are not a representative survey. Predictions of bankruptcies/food prices are not observed outcomes."
+    },
+    {
+      "id": "SRC25",
+      "title": "Reported October Saudi crude delivery interruption",
+      "publisher": "Reuters relaying Bloomberg",
+      "url": "https://www.reuters.com/business/energy/aramco-halts-october-crude-deliveries-some-european-refiners-after-pipeline-2026-09-18/",
+      "publication_date": "2026-09-18",
+      "observation_period": "Reported notices concerning October 2026 deliveries",
+      "retrieved_at": "2026-09-20",
+      "grade": "C",
+      "limitations": "Reuters explicitly could not verify underlying report; Aramco response absent. One reporting chain, not two independent confirmations."
+    },
+    {
+      "id": "SRC26",
+      "title": "Water supply reports",
+      "publisher": "EBMUD",
+      "url": "https://www.ebmud.com/water/about-your-water/water-supply/water-supply-reports",
+      "publication_date": null,
+      "observation_period": "Access attempted 2026-09-20",
+      "retrieved_at": "2026-09-20",
+      "grade": "A",
+      "limitations": "Retrieved page exposed template fields without current numeric data. No reservoir level admitted from it."
+    }
+  ],
+  "CHANGELOG": [
+    {
+      "cycle": "RC-001",
+      "date": "2026-09-20",
+      "action": "Initialized",
+      "details": "Created shared protocol, 12-role registry and ten-section canonical state; launched six agents."
+    },
+    {
+      "cycle": "RC-001",
+      "date": "2026-09-20",
+      "action": "Exchanged findings",
+      "details": "Energy/food/industry/local/grid/social leads reached common checkpoint; coordinator sent targeted deepening and skeptic questions."
+    },
+    {
+      "cycle": "RC-001",
+      "date": "2026-09-20",
+      "action": "Constraint recorded",
+      "details": "All specialist turns ended at shared usage limit before finalized reports. No claim they remain running. Coordinator continued public verification and integration."
+    },
+    {
+      "cycle": "RC-001",
+      "date": "2026-09-20",
+      "action": "Warnings narrowed",
+      "details": "Rebuilding distillates, cereal buffers, positive industrial year/year output, seasonal grid adequacy and lower 2025 reported hate trend retained beside stress."
+    },
+    {
+      "cycle": "RC-001",
+      "date": "2026-09-20",
+      "action": "New node admitted",
+      "details": "Sulfur/phosphate distinction added; potash production expansion retained as separate buffer."
+    },
+    {
+      "cycle": "RC-001",
+      "date": "2026-09-20",
+      "action": "Late lead quarantined",
+      "details": "October Saudi crude cancellation account not promoted beyond unverified reporting chain."
+    },
+    {
+      "cycle": "RC-001",
+      "date": "2026-09-20",
+      "action": "Next allocation",
+      "details": "First complete independent review; then diesel-delivery/harvest, transit bridges, sulfur/phosphate and operational local lifeboats. Water/health/insurance/telecom coverage gaps remain explicit."
+    }
+  ]
+}

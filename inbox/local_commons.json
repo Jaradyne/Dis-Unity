@@ -1,0 +1,10 @@
+{
+  "agent": "local_commons",
+  "cycle_id": "RC-001",
+  "status": "Coordinator capture of early messages; final report interrupted by usage limit",
+  "signal_ids": [
+    "SIG08",
+    "SIG09"
+  ],
+  "claim_verification": "Referenced claims reopened by coordinator in public sources; scope gaps retained"
+}

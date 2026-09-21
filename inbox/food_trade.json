@@ -1,0 +1,12 @@
+{
+  "agent": "food_trade",
+  "cycle_id": "RC-001",
+  "status": "Coordinator capture of early messages; final report interrupted by usage limit",
+  "signal_ids": [
+    "SIG04",
+    "SIG05",
+    "SIG06",
+    "SIG07"
+  ],
+  "claim_verification": "Referenced claims reopened by coordinator in public sources; scope gaps retained"
+}

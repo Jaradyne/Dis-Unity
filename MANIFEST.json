@@ -1,0 +1,8 @@
+{
+  "cycle_id": "RC-001",
+  "research_cutoff": "2026-09-20",
+  "canonical_file": "Resilience_Cascade_STATE.json",
+  "canonical_sha256": "0924e884ff2cc5ef872e170bf9b133ea40cb2b78020cdcb0d5a4c40de9920b92",
+  "contents": "Canonical state, ten readable views, executive briefing, six commons proposals, operating protocol, attributed partial agent captures, validation/rendering utilities.",
+  "runtime_status": "First bounded cycle complete; specialists stopped at usage limit; independent closing review pending."
+}
