@@ -1,0 +1,10 @@
+{
+  "base_hash": "576c3346769575157df518e374db33815c8c091ae2d9ee2ec1c0559582d92d56",
+  "baseline_bytes_sha256": "0924e884ff2cc5ef872e170bf9b133ea40cb2b78020cdcb0d5a4c40de9920b92",
+  "canonical_filename": "Resilience_Cascade_STATE.json",
+  "created_at": "2026-09-21T01:52:56.118446+00:00",
+  "cycle_id": "RC-002",
+  "format_version": 1,
+  "mode": "Local active-session records; no agents, network or schedule launched",
+  "research_cutoff": "2026-09-20"
+}

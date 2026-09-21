@@ -1,67 +1,62 @@
-# Resilience Cascade
+# Dis-Unity — Resilience Cascade
 
-An operating research workspace for stress → interaction → opportunity → adaptation → resilience.
+**Stress → interaction → opportunity → adaptation → resilience.**
 
-Cycle RC-001 started on 20 September 2026. Six specialist agents contributed early research and exchanged findings with a coordinating intake/modeling thread. A shared usage limit ended their turns before final reports and full cross-review. The coordinator continued, verified the key claims and completed this bounded first cycle. The independent final skeptic pass remains incomplete and is queued for the next cycle. Twelve requested roles are assigned across the research threads. All evidence is public; no private accounts, personal threat profiling, outbound contacts or subscriptions are used.
+A public-source research system for understanding how dependent systems carry one another's load. It follows stresses, tests conditional cascades, finds usable buffers and transitions, and develops cooperative responses from neighborhood to international scale.
 
-## What runs
+Start with the [executive briefing](Resilience_Cascade_Briefing.md), [commons proposals](Resilience_Cascade_Commons.md), or [system map](state/SYSTEM_MAP.md).
 
-The coordinator launches tool-enabled specialist agents, passes a shared checkpoint to them, requests focused follow-ups where signals intersect, obtains a skeptic review, and commits reviewed results to common state. This first cycle performs those steps. Agents do not run between conversations. Persistent files support the next active research cycle; they are not an unattended monitoring service and no schedule has been created.
+## Current deployment
 
-## Canonical state and views
+Research cycle **RC-002** was completed on **21 September 2026**, retaining a **20 September evidence cutoff**. It contains 30 signals, 14 dependency links, six clusters and 40 source records, including explicitly logged gaps. Ten readable state sections are generated from one canonical JSON file.
 
-`Resilience_Cascade_STATE.json` is the machine-readable source of truth. Its ten required sections are SYSTEM_MAP, ACTIVE_SIGNALS, CASCADE_GRAPH, RESERVES_AND_LIFEBOATS, ISLANDS_OF_STABILITY, TRANSITION_OPPORTUNITIES, COMMUNITY_COMMONS, QUESTIONS_TO_WATCH, SOURCE_LEDGER and CHANGELOG. The `state/` Markdown views are generated from those sections. The executive briefing is the readable entry point. Reports contain supporting detail; the inbox holds attributed agent submissions and reviews.
+Five specialist threads saved research/review/code checkpoints. A shared usage limit interrupted their closing work. The coordinator completed the bounded cycle, source admission and implementation. Six independent checks reproduced material first-cycle claims; final independent peer review of the second-cycle additions remains open. The review record distinguishes these scopes.
 
-Only the coordinator commits canonical state. Agents write their own inbox files, read the common checkpoint and peer submissions, and exchange specific findings. This avoids competing edits while allowing disagreement to remain visible. Each merge retains sources, epistemic labels, dates, provenance, limitations and changes in status.
+The strongest new findings concern phosphate production curtailments, uneven regional fuel and produce-transport capacity, and the separation between usable service reserve, restricted capital and announced funding. Improving grain movements and completed local infrastructure remain alongside the stress signals.
 
-## Resume without asking the user to maintain records
+## Operation
 
-1. Resolve and read the current Resilience Cascade state and latest project bundle. Preserve existing file identities when updating them. Read the most recent changelog; do not recreate a first baseline.
-2. Set an explicit research cutoff and a new cycle ID. Reopen dynamic sources for the attention queue. Distinguish observation date, publication date, retrieval date and model horizon. Older evidence remains a dated structural baseline.
-3. Launch specialist agents for unanswered consequential questions. In this environment, use the collaboration tools; scripts in this bundle validate and render state but do not call an AI service by themselves. Group lightly active roles and allocate additional concurrent work to interacting, independently evidenced signals.
-4. Use common state to exchange findings. A new signal must identify what it changes: magnitude, mechanism, buffer, threshold, implementation, reversal or confidence. Repeated headlines about one event count once. A missing public indicator is a coverage gap, not reassurance or alarm.
-5. Ask the skeptic to review every material warning and claimed reserve. Update or retire hypotheses explicitly, preserving earlier status and the reason for change. Keep improving evidence beside worsening evidence.
-6. Commit the ten sections, run `python3 scripts/validate_state.py Resilience_Cascade_STATE.json`, regenerate views with `python3 scripts/render_state.py Resilience_Cascade_STATE.json`, and issue the briefing. Save updated state and bundle with version history.
+The multi-agent research runs during active assistant sessions. The Python utilities preserve, validate and commit that work; they do not launch models, browse autonomously or run a scheduled digest. Git provides durable history and reviewable differences, not background execution.
 
-## Role registry
-
-| Requested role | First-cycle execution |
+| Path | Purpose |
 | --- | --- |
-| Signal Intake | Coordinator + source ledgers in each thread |
-| Energy & Diesel | energy_logistics |
-| Food / Fertilizer / Agriculture | food_trade |
-| Infrastructure | infrastructure_health |
-| Economic / Industrial | skeptic_industry, with independent reconnaissance before review |
-| Social Temperature | networks_social |
-| Geographic Context | local_commons (SF/Bay Area/California), networks_social (international), coordinator (nested integration) |
-| Cascade Modeler | Coordinator, drawing on specialist mechanisms |
-| Skeptic / Red-Team | skeptic_industry + coordinator admission review |
-| Resilience / Overflow | Mandatory lens in every thread; coordinator reserve gates |
-| Islands of Stability | networks_social + sector-specific reserve records |
-| Commons | local_commons + practical interventions from all threads |
+| `Resilience_Cascade_STATE.json` | Canonical shared state; coordinator is sole writer |
+| `state/` | Ten generated, source-linked views |
+| `inbox/RC-002/` | Attributed specialist checkpoints, including incomplete work |
+| `cycles/RC-002/` | Immutable baseline, submission snapshots, review, change audit and commit receipt |
+| `scripts/cycle.py` | Begin, checkpoint, review, commit and resume a cycle |
+| `scripts/validate_state.py` | Required fields, graph references, source references and date checks |
+| `scripts/render_state.py` | Regenerate the readable views |
+| `tests/test_cycle.py` | Data-loss and evidence-admission boundary tests |
+| `AGENTS.md` | Instructions for continuing research and maintaining the repository |
+| `reports/RC-002/WORKFLOW.md` | Commands, recovery procedure and implementation limits |
 
-The skeptic's dual assignment is disclosed: evidence they originated is independently checked by the coordinator or another specialist. Agreement between agents repeating one source is not independent corroboration.
+Requires Python 3.9 or later and its standard library. The completed verification used Linux. Windows locking support is included but has not been exercised on Windows.
 
-## Evidence and activation rules
+```bash
+python scripts/validate_state.py Resilience_Cascade_STATE.json
+python scripts/cycle.py status RC-002
+python -m unittest discover -s tests -v
+```
 
-FACT describes a supported observation or the existence of a forecast, not realization of that forecast. PLAUSIBLE MECHANISM is a conditional causal link. EARLY SIGNAL is a preliminary indicator. UNKNOWN marks an unanswered question. SPECULATION is excluded from operational warnings unless explicitly discussed as a scenario.
+## Reasoning contract
 
-Source grades: A = direct primary record or measurement; B = authoritative analysis/identified secondary account; C = lead needing corroboration. Source grade does not determine confidence on its own. Official forecasts remain forecasts. Working capacity must be separated from authorized, financed, announced, under-construction and projected capacity.
+FACT, PLAUSIBLE MECHANISM, EARLY SIGNAL, UNKNOWN and SPECULATION remain separate. Observations, forecasts, announcements, construction, commissioning and demonstrated service are different stages. Multiple articles about one event do not become multiple shocks.
 
-Every consequential cascade identifies initiation, affected system, mechanism, evidence, buffers, thresholds, substitutes, horizon, uncertainty, confirming observation and falsifier. Status is observed link, conditional watch, not established, downgraded or retired. Thresholds are analyst decision rules unless a source establishes an operator trigger; they are not predicted probabilities.
+Each consequential cascade records mechanism, evidence, thresholds, buffers, substitutions, time horizon, uncertainty, confirming evidence and a falsifier. No opaque collapse score is used. Separate gauges track load, reserve, recovery, dependency, substitutability, shedding, growth, lifeboats, social temperature and confidence.
 
-No composite resilience or collapse score is used. Separate descriptive gauges cover load, reserve, recovery, dependency, substitutability, shedding, growth, lifeboat, social temperature and confidence. Unknown gauges remain unknown. Geography-specific risks are not generalized nationally.
+Every substantial decline gets a transition analysis. Preserve necessary function; distinguish destructive loss, managed shedding, creative transition and healthy replacement. A producer preserving cash through furloughs may shift harm onto workers. That is not automatically a successful transition.
 
-## Overflow and donor rules
+A donor's usable contribution is bounded by verified capacity after existing commitments and its protected contingency floor, then by transport, staffing, compatibility and replenishment. Unknown surplus is not committed rescue. An interconnected power system on another continent is not a direct local electricity donor.
 
-Protect essential function: detect, redistribute, substitute, shed safely, isolate, operate in degraded mode, use lifeboats, recover. Shedding nonessential trips or avoidable waste differs from denying mobility, food or treatment. Essential service loss must not be relabeled a healthy transition.
+Social analysis separates rhetoric, organization, capacity, behavior and violence. It also examines mediation and cooperation. Identity, affiliation, ordinary anger and activism do not establish dangerousness. Simultaneous failures do not establish malicious intent.
 
-A proposed donor must retain its protected minimum, operating reserve and credible replenishment time. Exportable help is at most verified available capacity minus committed local needs and protected contingency reserve, further limited by route, staffing, fuel, permissions and recipient compatibility. Unknown reserve means candidate support, not committed rescue capacity. Check whether donor and recipient fail under the same hazard.
+## Geography and scope
 
-Every major decline gets a transition record: function to preserve, released assets (verified or merely possible), safe demand reduction, growth candidate, conversion requirements, lead time, adverse effects and evidence. Do not book released labor/buildings/capital before they actually become available.
+Context is nested across San Francisco, the Bay Area, California, the United States, North America, the Caribbean, relevant European/NATO and Commonwealth-linked networks, and major resource/trade nodes. Coverage is deliberately uneven and gaps are recorded. Pajaro Valley is treated as a neighboring California context, not silently included in the nine-county Bay Area.
 
-## Coverage and privacy
+Public, lawful, nonintrusive sources only. No private account data, outbound contacts, resource commitments or facility targeting are part of this deployment. Commons cards are proposals unless an operational status is explicitly verified.
 
-Public-source reconnaissance is incomplete. It cannot establish live facility inventories, staffing rosters, accessibility or partner commitments without operational confirmation. We do not publish sensitive facility weaknesses, investigate private individuals, infer hostile intent from correlated failure, or classify populations as dangerous. Social evidence distinguishes rhetoric, organization, capacity, behavior and violence and tracks de-escalation with equal care.
+## License
 
-The included commons cards are research-backed proposals, not agreements, purchases or messages sent on the user's behalf. A practical next cycle should resolve the most important gaps before expanding scope.
+The project uses [The Unlicense](LICENSE), as selected by its creator. Linked third-party publications retain their own terms; this repository records source references and research findings rather than republishing source articles.

@@ -1,8 +1,18 @@
 {
-  "cycle_id": "RC-001",
+  "cycle_id": "RC-002",
   "research_cutoff": "2026-09-20",
+  "completed_on": "2026-09-21",
   "canonical_file": "Resilience_Cascade_STATE.json",
-  "canonical_sha256": "0924e884ff2cc5ef872e170bf9b133ea40cb2b78020cdcb0d5a4c40de9920b92",
-  "contents": "Canonical state, ten readable views, executive briefing, six commons proposals, operating protocol, attributed partial agent captures, validation/rendering utilities.",
-  "runtime_status": "First bounded cycle complete; specialists stopped at usage limit; independent closing review pending."
+  "canonical_sha256": "9ecd1c9ff07ae5c47c303030d70761961f5fb8863d1ea84558d657cd58cb0180",
+  "repository": "https://github.com/Jaradyne/Dis-Unity",
+  "counts": {
+    "signals": 30,
+    "edges": 14,
+    "sources": 40,
+    "clusters": 6,
+    "commons": 7
+  },
+  "runtime_status": "Active-session research; no unattended process or schedule",
+  "review_status": "coordinator_accepted_with_limitations; six independent legacy checks",
+  "tests": "Seven integrity tests passed on Linux"
 }

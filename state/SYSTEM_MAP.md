@@ -1,751 +1,18 @@
 # SYSTEM_MAP
 
-Cycle RC-001; cutoff 2026-09-20.
+Cycle RC-002; cutoff 2026-09-20.
 
-## systems
+## classification rules
 
-**id:** diesel
+**creative transition:** Released or convertible assets support a better way to preserve function.
 
-**label:** Diesel and refining
+**destructive failure:** Essential function is lost without adequate replacement.
 
-**geography:** US; regional delivery gaps
+**healthy replacement growth:** Verified useful capacity replaces or expands an inadequate function.
 
-**Sources:** [SRC01: EIA](https://www.eia.gov/petroleum/gasdiesel/), [SRC02: EIA](https://ir.eia.gov/wpsr/wpsrsummary.pdf), [SRC03: EIA](https://www.eia.gov/dnav/pet/pet_stoc_wstk_a_epd0_sae_mbbl_w.htm)
-
-### gauges
-
-**LOAD:** High cost; harvest-sensitive
-
-**RESERVE:** Thin seasonally; rebuilding
-
-**RECOVERY:** Limited refining headroom; restart timing unknown
-
-**DEPENDENCY:** Very high cross-sector
-
-**SUBSTITUTABILITY:** Limited immediately; route/equipment-specific
-
-**SHEDDING:** Low for essential harvest; some avoidable mileage
-
-**GROWTH:** Efficient logistics and suitable electrification
-
-**LIFEBOAT:** Contracted essential fuel plus critical-load alternatives; unverified locally
-
-**SOCIAL TEMPERATURE:** Unknown
-
-**CONFIDENCE:** High national snapshot; lower local availability
-
-
----
-
-**id:** trucking
-
-**label:** Trucking and essential trips
-
-**geography:** US/Bay Area
-
-**Sources:** [SRC13: BLS](https://www.bls.gov/news.release/empsit.nr0.htm), [SRC24: Reuters](https://www.reuters.com/business/energy/record-us-diesel-prices-squeeze-farmers-food-prices-may-rise-2026-09-18/)
-
-### gauges
-
-**LOAD:** Fuel cash burden elevated
-
-**RESERVE:** Fleet and driver spare capacity unknown
-
-**RECOVERY:** Company-specific working capital and repairs
-
-**DEPENDENCY:** High for food and supplies
-
-**SUBSTITUTABILITY:** Partial rail/intermodal; last mile persists
-
-**SHEDDING:** Empty miles/duplicate trips can fall
-
-**GROWTH:** Pooled delivery and routing
-
-**LIFEBOAT:** Small accessible transport pool proposed
-
-**SOCIAL TEMPERATURE:** Unknown
-
-**CONFIDENCE:** Medium costs; low available reserve
-
-
----
-
-**id:** agriculture
-
-**label:** Agriculture and food production
-
-**geography:** US/global
-
-**Sources:** [SRC05: USDA ERS](https://www.ers.usda.gov/topics/farm-economy/farm-sector-income-finances/farm-sector-income-forecast), [SRC06: FAO](https://www.fao.org/worldfoodsituation/csdb/en/)
-
-### gauges
-
-**LOAD:** Inputs elevated; crop-specific
-
-**RESERVE:** Global cereals substantial; access uneven
-
-**RECOVERY:** Seasonal; missed windows hard to recover
-
-**DEPENDENCY:** Very high essential food
-
-**SUBSTITUTABILITY:** Crop/import mix constrained by season and nutrition
-
-**SHEDDING:** Waste reducible; nutrition cannot be shed
-
-**GROWTH:** Input efficiency, aggregation, storage
-
-**LIFEBOAT:** Food access networks; inventory unknown
-
-**SOCIAL TEMPERATURE:** Unknown
-
-**CONFIDENCE:** Medium forecast basis
-
-
----
-
-**id:** fertilizer
-
-**label:** Fertilizer nutrients and feedstocks
-
-**geography:** North America/global
-
-**Sources:** [SRC07: Nutrien](https://www.nutrien.com/news/press-releases/nutrien-reports-second-quarter-2026-results-1753)
-
-### gauges
-
-**LOAD:** Phosphate feedstock pressure
-
-**RESERVE:** Potash stronger; phosphate/nitrogen separate
-
-**RECOVERY:** Plant/feedstock/season-specific
-
-**DEPENDENCY:** High for future yields
-
-**SUBSTITUTABILITY:** Nutrients not interchangeable; efficiency partial
-
-**SHEDDING:** Overapplication only with agronomic evidence
-
-**GROWTH:** Nutrient recovery/precision services; proposed
-
-**LIFEBOAT:** Diversified procurement; unquantified
-
-**SOCIAL TEMPERATURE:** Unknown
-
-**CONFIDENCE:** Medium company-specific evidence
-
-
----
-
-**id:** food_logistics
-
-**label:** Food access and cold chain
-
-**geography:** Global/Bay Area
-
-**Sources:** [SRC06: FAO](https://www.fao.org/worldfoodsituation/csdb/en/), [SRC21: Alameda County Community Food Bank](https://www.accfb.org/get-food/), [SRC24: Reuters](https://www.reuters.com/business/energy/record-us-diesel-prices-squeeze-farmers-food-prices-may-rise-2026-09-18/)
-
-### gauges
-
-**LOAD:** Cost pressure; actual failures not established
-
-**RESERVE:** Local inventory/cold space unknown
-
-**RECOVERY:** Fuel/power/food-safety constrained
-
-**DEPENDENCY:** High
-
-**SUBSTITUTABILITY:** Shelf-stable mix and distributed nodes partial
-
-**SHEDDING:** Spoilage/duplicate deliveries; preserve nutrition
-
-**GROWTH:** Shared storage and food aggregation
-
-**LIFEBOAT:** Existing food referral network, surge unverified
-
-**SOCIAL TEMPERATURE:** Unknown
-
-**CONFIDENCE:** Medium prices; low local service capacity
-
-
----
-
-**id:** grid
-
-**label:** Electricity and critical equipment
-
-**geography:** CAISO/US/Europe
-
-**Sources:** [SRC10: CAISO](https://www.caiso.com/documents/2026-summer-loads-and-resources-assessment.pdf), [SRC17: ENTSO-E](https://www.entsoe.eu/outlooks/seasonal/), [SRC23: Reuters](https://www.reuters.com/business/energy/hitachi-invest-1-billion-produce-power-grid-components-us-2025-09-04/)
-
-### gauges
-
-**LOAD:** Modeled demand covered in CAISO; local risk
-
-**RESERVE:** Planning buffer; live deliverability unknown
-
-**RECOVERY:** Specific spares and lead times not established
-
-**DEPENDENCY:** Very high: water/health/comms
-
-**SUBSTITUTABILITY:** Storage and demand response partial
-
-**SHEDDING:** Contracted nonessential demand before critical loads
-
-**GROWTH:** Equipment repair/manufacturing and storage
-
-**LIFEBOAT:** Islanding-capable critical-load systems; site readiness unknown
-
-**SOCIAL TEMPERATURE:** Unknown
-
-**CONFIDENCE:** Medium seasonal adequacy; low local recovery
-
-
----
-
-**id:** water
-
-**label:** Water and wastewater
-
-**geography:** Bay Area
-
-**Sources:** [SRC26: EBMUD](https://www.ebmud.com/water/about-your-water/water-supply/water-supply-reports)
-
-### gauges
-
-**LOAD:** Unknown current
-
-**RESERVE:** Unknown; dashboard data not extracted
-
-**RECOVERY:** Power, treatment inputs, staff and repairs need checking
-
-**DEPENDENCY:** Very high
-
-**SUBSTITUTABILITY:** Limited potable alternatives
-
-**SHEDDING:** Nonessential use; preserve drinking/sanitation
-
-**GROWTH:** Leak repair/reuse where safe and approved
-
-**LIFEBOAT:** Water reserves/distribution proposed
-
-**SOCIAL TEMPERATURE:** Unknown
-
-**CONFIDENCE:** Low current assessment; dependency is plausible mechanism
-
-
----
-
-**id:** healthcare
-
-**label:** Healthcare continuity
-
-**geography:** US/Bay Area/Caribbean
-
-**Sources:** [SRC13: BLS](https://www.bls.gov/news.release/empsit.nr0.htm), [SRC16: CDEMA](https://www.cdema.org/index.php/cdemanews/categories/situation-reports/1852-situation-report-18-hurricane-melissa)
-
-### gauges
-
-**LOAD:** Local demand/capacity unknown
-
-**RESERVE:** Beds/staff/medicines/power reserve unknown
-
-**RECOVERY:** Licensed staff, utilities and transport dependent
-
-**DEPENDENCY:** Very high essential care
-
-**SUBSTITUTABILITY:** Telehealth/alternate sites only for suitable services
-
-**SHEDDING:** Administrative trips, not medically necessary care
-
-**GROWTH:** Care transport, backup power, trained surge support
-
-**LIFEBOAT:** Historical field-hospital mutual aid; local fallback unverified
-
-**SOCIAL TEMPERATURE:** Unknown
-
-**CONFIDENCE:** Low operational; high cited employment/history
-
-
----
-
-**id:** municipal
-
-**label:** Municipal and transit finance
-
-**geography:** SF/Bay Area
-
-**Sources:** [SRC08: BART](https://www.bart.gov/sites/default/files/2026-09/FY27%20Adopted%20Budget%20Memo_FINAL_SIGNED.pdf), [SRC09: SFMTA](https://www.sfmta.com/projects/sfmta-budget-planning-fy-2026-27-and-fy-2027-28)
-
-### gauges
-
-**LOAD:** Structural transit funding gap
-
-**RESERVE:** One-time bridges; no uncommitted local surplus established
-
-**RECOVERY:** Recurring revenue needed; borrowing adds later costs
-
-**DEPENDENCY:** High for service continuity
-
-**SUBSTITUTABILITY:** Restricted funds/other operators not freely interchangeable
-
-**SHEDDING:** Duplicate admin/avoidable costs; essential access protected
-
-**GROWTH:** Coordinated procurement and service design
-
-**LIFEBOAT:** Targeted aid reserve proposed; cannot replace main network
-
-**SOCIAL TEMPERATURE:** Unknown
-
-**CONFIDENCE:** High budget terms; medium future outcome
-
-
----
-
-**id:** transit
-
-**label:** Public transit access
-
-**geography:** SF/Bay Area
-
-**Sources:** [SRC08: BART](https://www.bart.gov/sites/default/files/2026-09/FY27%20Adopted%20Budget%20Memo_FINAL_SIGNED.pdf), [SRC09: SFMTA](https://www.sfmta.com/projects/sfmta-budget-planning-fy-2026-27-and-fy-2027-28)
-
-### gauges
-
-**LOAD:** Current service maintained in budget
-
-**RESERVE:** Funding conditional; spare bus capacity unverified
-
-**RECOVERY:** Staff/maintenance loss can slow restoration
-
-**DEPENDENCY:** High for workforce and care access
-
-**SUBSTITUTABILITY:** Limited for riders without cars or mobility alternatives
-
-**SHEDDING:** Reschedule/avoid optional trips; preserve essential frequency
-
-**GROWTH:** Feeder links, integration and reliable operating finance
-
-**LIFEBOAT:** Accessible essential-trip pool proposed
-
-**SOCIAL TEMPERATURE:** Unknown
-
-**CONFIDENCE:** High policy record; conditional cascade
-
-
----
-
-**id:** industrial
-
-**label:** Industrial capacity and repairs
-
-**geography:** US/North America
-
-**Sources:** [SRC07: Nutrien](https://www.nutrien.com/news/press-releases/nutrien-reports-second-quarter-2026-results-1753), [SRC11: Federal Reserve](https://www.federalreserve.gov/releases/g17/current/default.htm), [SRC12: Federal Reserve](https://www.federalreserve.gov/data/sloos/sloos-202607.htm), [SRC23: Reuters](https://www.reuters.com/business/energy/hitachi-invest-1-billion-produce-power-grid-components-us-2025-09-04/)
-
-### gauges
-
-**LOAD:** Mixed; no blanket contraction
-
-**RESERVE:** Aggregate slack not specialized reserve
-
-**RECOVERY:** Tooling, skills, credit and certification constrain
-
-**DEPENDENCY:** High upstream role
-
-**SUBSTITUTABILITY:** Product-specific
-
-**SHEDDING:** Noncritical capital projects may be deferred
-
-**GROWTH:** Repair/refurbishment and targeted manufacturing
-
-**LIFEBOAT:** Compatible pooled spares proposed
-
-**SOCIAL TEMPERATURE:** Unknown
-
-**CONFIDENCE:** Medium macro; low individual product readiness
-
-
----
-
-**id:** construction
-
-**label:** Construction inputs and maintenance
-
-**geography:** US/local
-
-**Sources:** [SRC08: BART](https://www.bart.gov/sites/default/files/2026-09/FY27%20Adopted%20Budget%20Memo_FINAL_SIGNED.pdf), [SRC18: White House](https://www.whitehouse.gov/presidential-actions/2026/06/further-adjusting-the-tariff-regimes-for-imports-of-aluminum-steel-and-copper-into-the-united-states/)
-
-### gauges
-
-**LOAD:** Project-specific costs unknown; BART deferrals documented
-
-**RESERVE:** Compatible stock and contractors unknown
-
-**RECOVERY:** Long projects; actual lead times need refresh
-
-**DEPENDENCY:** High long-term recovery
-
-**SUBSTITUTABILITY:** Specification-dependent
-
-**SHEDDING:** Postpone low-value additions before safety maintenance
-
-**GROWTH:** Repair, safe reuse, efficient procurement
-
-**LIFEBOAT:** Prequalified repair capacity proposed
-
-**SOCIAL TEMPERATURE:** Unknown
-
-**CONFIDENCE:** Medium fiscal signal; low tariff causality
-
-
----
-
-**id:** trade
-
-**label:** Trade routes and import rules
-
-**geography:** North America/global nodes
-
-**Sources:** [SRC06: FAO](https://www.fao.org/worldfoodsituation/csdb/en/), [SRC18: White House](https://www.whitehouse.gov/presidential-actions/2026/06/further-adjusting-the-tariff-regimes-for-imports-of-aluminum-steel-and-copper-into-the-united-states/), [SRC19: White House](https://www.whitehouse.gov/presidential-actions/2026/07/further-strengthening-actions-taken-to-adjust-imports-of-aluminum-into-the-united-states/), [SRC25: Reuters relaying Bloomberg](https://www.reuters.com/business/energy/aramco-halts-october-crude-deliveries-some-european-refiners-after-pipeline-2026-09-18/)
-
-### gauges
-
-**LOAD:** Route/rule dependent
-
-**RESERVE:** Alternate suppliers/routes conditional
-
-**RECOVERY:** Shipping, customs and grade compatibility
-
-**DEPENDENCY:** High
-
-**SUBSTITUTABILITY:** Partial; cost/time/quality limits
-
-**SHEDDING:** Nonessential trade can defer
-
-**GROWTH:** Supplier diversification and interoperable equipment
-
-**LIFEBOAT:** Regional exchange agreements proposed
-
-**SOCIAL TEMPERATURE:** Unknown
-
-**CONFIDENCE:** Medium rules; low unverified disruption lead
-
-
----
-
-**id:** labor
-
-**label:** Labor and skills
-
-**geography:** US/Bay Area
-
-**Sources:** [SRC13: BLS](https://www.bls.gov/news.release/empsit.nr0.htm), [SRC15: CDEMA](https://www.cdema.org/index.php/cdemanews/categories/press-releases/146-press-releases/1870-cdema-launches-regional-recovery-experts-roster-to-strengthen-caribbean-recovery)
-
-### gauges
-
-**LOAD:** Sector divergence
-
-**RESERVE:** Skill/location compatibility unknown
-
-**RECOVERY:** Training and income bridge take time
-
-**DEPENDENCY:** Very high
-
-**SUBSTITUTABILITY:** Licensed roles limited
-
-**SHEDDING:** Administrative friction and unpaid burden reducible
-
-**GROWTH:** Repair/logistics/technical training
-
-**LIFEBOAT:** Cross-trained partner roster proposed
-
-**SOCIAL TEMPERATURE:** Unknown
-
-**CONFIDENCE:** Medium aggregate data; low transition placement
-
-
----
-
-**id:** social
-
-**label:** Social temperature and cooperation
-
-**geography:** US/local networks
-
-**Sources:** [SRC14: FBI](https://www.fbi.gov/news/press-releases/fbi-releases-2025-reported-crimes-in-the-nation-statistics), [SRC15: CDEMA](https://www.cdema.org/index.php/cdemanews/categories/press-releases/146-press-releases/1870-cdema-launches-regional-recovery-experts-roster-to-strengthen-caribbean-recovery), [SRC22: NorCal Resilience Network](https://norcalresilience.org/resilient-hub-initiative/)
-
-### gauges
-
-**LOAD:** Current resentment/trust unmeasured
-
-**RESERVE:** Community institutions exist; reserve unquantified
-
-**RECOVERY:** Trust repair requires credible participation
-
-**DEPENDENCY:** High coordination dependency
-
-**SUBSTITUTABILITY:** Multiple trusted institutions may help
-
-**SHEDDING:** Stigmatizing/frictional processes can be removed
-
-**GROWTH:** Facilitation, transparent allocation and cooperation
-
-**LIFEBOAT:** Inclusive community networks proposed
-
-**SOCIAL TEMPERATURE:** 2025 reported hate trend improved; 2026 lanes unknown
-
-**CONFIDENCE:** Low current climate; high matched 2025 report
-
-## geographies
-
-**id:** San Francisco
-
-**parent:** Bay Area
-
-**structural context:** SFMTA recurring operating gap after relief expires
-
-**recent policy:** April 2026 budget protects FY26-27 regular/paratransit service; later funding conditional
-
-**local strengths:** Established transit network and institutional planning
-
-**trade and infrastructure dependencies:** Regional commuters, electric traction, operating revenue
-
-**reserves and neighbors:** BART and Muni both financially exposed; no spare network assumed
-
-**coverage gap:** Full city general-fund, rent policy, healthcare and trust assessment pending
-
-**Sources:** [SRC09: SFMTA](https://www.sfmta.com/projects/sfmta-budget-planning-fy-2026-27-and-fy-2027-28)
-
-
----
-
-**id:** Bay Area
-
-**parent:** California
-
-**structural context:** Regional mobility depends on several operators with correlated funding challenges
-
-**recent policy:** BART FY27 bridge; November revenue measure unresolved at cutoff
-
-**local strengths:** BART network, food referral system, tool library and emerging hubs
-
-**trade and infrastructure dependencies:** Transport, fuel, electricity, workforce location
-
-**reserves and neighbors:** Existing institutions provide functions; surge surplus not verified
-
-**coverage gap:** AC Transit, Oakland city budget, housing displacement and spare fleet not yet quantified
-
-**Sources:** [SRC08: BART](https://www.bart.gov/sites/default/files/2026-09/FY27%20Adopted%20Budget%20Memo_FINAL_SIGNED.pdf), [SRC20: Oakland Public Library](https://oaklandlibrary.org/otll/), [SRC21: Alameda County Community Food Bank](https://www.accfb.org/get-food/), [SRC22: NorCal Resilience Network](https://norcalresilience.org/resilient-hub-initiative/)
-
-
----
-
-**id:** California
-
-**parent:** United States
-
-**structural context:** High diesel cost and multi-region grid dependencies
-
-**recent policy:** CAISO seasonal readiness; project additions partly forecast
-
-**local strengths:** Improved modeled generation adequacy and organized local service networks
-
-**trade and infrastructure dependencies:** Liquid fuel, imports, specialized equipment and water conveyance
-
-**reserves and neighbors:** CAISO planning margin is not live donor reserve
-
-**coverage gap:** Refinery-by-refinery, current water levels, insurance and fiscal reserve gaps
-
-**Sources:** [SRC01: EIA](https://www.eia.gov/petroleum/gasdiesel/), [SRC10: CAISO](https://www.caiso.com/documents/2026-summer-loads-and-resources-assessment.pdf), [SRC26: EBMUD](https://www.ebmud.com/water/about-your-water/water-supply/water-supply-reports)
-
-
----
-
-**id:** United States
-
-**parent:** North America
-
-**structural context:** Highly interdependent energy/farm/logistics and regional service systems
-
-**recent policy:** Differentiated June metal rules and July aluminum incentive authorization
-
-**local strengths:** Diverse industrial base; production rising year/year; cereal production
-
-**trade and infrastructure dependencies:** Specialized equipment, global feedstocks, routes and credit
-
-**reserves and neighbors:** Distillates rebuilding; national strengths not evenly distributed
-
-**coverage gap:** Trucking exits, physical shortages, water/health outcomes not established
-
-**Sources:** [SRC02: EIA](https://ir.eia.gov/wpsr/wpsrsummary.pdf), [SRC05: USDA ERS](https://www.ers.usda.gov/topics/farm-economy/farm-sector-income-finances/farm-sector-income-forecast), [SRC11: Federal Reserve](https://www.federalreserve.gov/releases/g17/current/default.htm), [SRC18: White House](https://www.whitehouse.gov/presidential-actions/2026/06/further-adjusting-the-tariff-regimes-for-imports-of-aluminum-steel-and-copper-into-the-united-states/), [SRC19: White House](https://www.whitehouse.gov/presidential-actions/2026/07/further-strengthening-actions-taken-to-adjust-imports-of-aluminum-into-the-united-states/)
-
-
----
-
-**id:** North America
-
-**parent:** International exchange networks
-
-**structural context:** Integrated but product-specific trade and production
-
-**recent policy:** June rule includes differentiated Canadian/Mexican products; exact item rules unresolved
-
-**local strengths:** Canadian potash and US farm/manufacturing output
-
-**trade and infrastructure dependencies:** Rail, ports, liquid fuel, equipment and cross-border rules
-
-**reserves and neighbors:** Complementary capacity; no committed export surplus calculated
-
-**coverage gap:** Mexico domestic conditions and Canada live power/fuel surpluses unassessed
-
-**Sources:** [SRC07: Nutrien](https://www.nutrien.com/news/press-releases/nutrien-reports-second-quarter-2026-results-1753), [SRC18: White House](https://www.whitehouse.gov/presidential-actions/2026/06/further-adjusting-the-tariff-regimes-for-imports-of-aluminum-steel-and-copper-into-the-united-states/)
-
-
----
-
-**id:** Caribbean
-
-**parent:** International exchange networks
-
-**structural context:** Mutual-aid needs can span several islands after one hazard
-
-**recent policy:** CDEMA recovery roster launched August 2026
-
-**local strengths:** Regional coordination and demonstrated Barbados medical support
-
-**trade and infrastructure dependencies:** Transport, donor staffing, supplies and replenishment
-
-**reserves and neighbors:** Fourteen oriented specialists; actual simultaneous deployment reserve unknown
-
-**coverage gap:** Country-by-country utilities, fiscal reserves, shipping and current hospitals incomplete
-
-**Sources:** [SRC15: CDEMA](https://www.cdema.org/index.php/cdemanews/categories/press-releases/146-press-releases/1870-cdema-launches-regional-recovery-experts-roster-to-strengthen-caribbean-recovery), [SRC16: CDEMA](https://www.cdema.org/index.php/cdemanews/categories/situation-reports/1852-situation-report-18-hurricane-melissa)
-
-
----
-
-**id:** NATO-relevant European countries
-
-**parent:** International exchange networks
-
-**structural context:** Electricity transfer network crosses political group boundaries
-
-**recent policy:** Seasonal adequacy coordination via TSOs
-
-**local strengths:** Generally favorable summer adequacy assessment
-
-**trade and infrastructure dependencies:** Interconnectors, fuels and coincident weather
-
-**reserves and neighbors:** Offers conditional cross-border power; no NATO-wide reserve inferred
-
-**coverage gap:** Country live reserves, political constraints, industrial stock and autumn outlook incomplete
-
-**Sources:** [SRC17: ENTSO-E](https://www.entsoe.eu/outlooks/seasonal/)
-
-
----
-
-**id:** Commonwealth-linked countries
-
-**parent:** International exchange networks
-
-**structural context:** Canada and Barbados examined as distinct complementary nodes
-
-**recent policy:** Canadian fertilizer output and Barbados/CDEMA cooperation are concrete anchors
-
-**local strengths:** Potash production; demonstrated regional medical assistance
-
-**trade and infrastructure dependencies:** Fuel, trade routes, equipment and protection of home service
-
-**reserves and neighbors:** No Commonwealth pooled spare capacity asserted
-
-**coverage gap:** UK/Australia and other members require separate current assessment
-
-**Sources:** [SRC07: Nutrien](https://www.nutrien.com/news/press-releases/nutrien-reports-second-quarter-2026-results-1753), [SRC16: CDEMA](https://www.cdema.org/index.php/cdemanews/categories/situation-reports/1852-situation-report-18-hurricane-melissa)
-
-
----
-
-**id:** US Gulf Coast
-
-**parent:** United States
-
-**structural context:** Major observed distillate inventory location
-
-**recent policy:** No new specific policy admitted
-
-**local strengths:** 43.759m barrels PADD3 distillates Sept11
-
-**trade and infrastructure dependencies:** Pipelines, marine routes and fuel specifications
-
-**reserves and neighbors:** Inventory is not equal to shippable surplus for California or abroad
-
-**coverage gap:** Route capacities, commitments and hurricane exposure not quantified
-
-**Sources:** [SRC03: EIA](https://www.eia.gov/dnav/pet/pet_stoc_wstk_a_epd0_sae_mbbl_w.htm)
-
-
----
-
-**id:** Black Sea grain routes
-
-**parent:** International exchange networks
-
-**structural context:** Export access can constrain use of available grain
-
-**recent policy:** No legal change admitted
-
-**local strengths:** Grain production and stocks remain material
-
-**trade and infrastructure dependencies:** Ports, alternate land routes and shipping access
-
-**reserves and neighbors:** Other exporters are potential complementary suppliers
-
-**coverage gap:** Source is FAO outlook; live corridor capacity not established
-
-**Sources:** [SRC06: FAO](https://www.fao.org/worldfoodsituation/csdb/en/)
-
-
----
-
-**id:** Saudi export routes / Hormuz / Red Sea
-
-**parent:** International exchange networks
-
-**structural context:** Energy outlook depends on export-route assumptions
-
-**recent policy:** No verified new policy admitted
-
-**local strengths:** Alternative routing considered in EIA outlook
-
-**trade and infrastructure dependencies:** Pipelines, ports, tankers and refinery feed compatibility
-
-**reserves and neighbors:** Reported substitutes remain unquantified
-
-**coverage gap:** October cancellation report quarantined pending primary corroboration
-
-**Sources:** [SRC04: EIA](https://www.eia.gov/outlooks/steo/), [SRC25: Reuters relaying Bloomberg](https://www.reuters.com/business/energy/aramco-halts-october-crude-deliveries-some-european-refiners-after-pipeline-2026-09-18/)
+**managed shedding:** Avoidable load is reduced while essential function and future recovery stay protected.
 
 ## clusters
-
-**id:** CL01
-
-**title:** Diesel / harvest / food logistics
-
-**status:** Active cost-pressure cluster; downstream service failure unproven
-
-### signal ids
-
-- SIG01
-- SIG02
-- SIG04
-- SIG19
-
-**interaction:** Fuel is a common input; harvest windows limit shedding; carrier cash timing can propagate strain.
-
-**independence:** EIA observations, USDA forecast and farmer/freight interviews are different evidence types; shared fuel shock is counted once.
-
-**Sources:** [SRC01: EIA](https://www.eia.gov/petroleum/gasdiesel/), [SRC02: EIA](https://ir.eia.gov/wpsr/wpsrsummary.pdf), [SRC05: USDA ERS](https://www.ers.usda.gov/topics/farm-economy/farm-sector-income-finances/farm-sector-income-forecast), [SRC24: Reuters](https://www.reuters.com/business/energy/record-us-diesel-prices-squeeze-farmers-food-prices-may-rise-2026-09-18/)
 
 ### buffers
 
@@ -753,20 +20,18 @@ Cycle RC-001; cutoff 2026-09-20.
 - RES02
 - RES06
 - RES09
-
-### transition ids
-
-- TR01
+- RES11
 
 ### commons ids
 
 - COM01
 - COM02
 
-### outside reserve
+**id:** CL01
 
-- ISL01
-- ISL02
+**independence:** EIA observations, USDA forecast and farmer/freight interviews are different evidence types; shared fuel shock is counted once. EIA regional stocks are components of the same national event. USDA availability is distinct, but duplicated lane rows are not independent evidence.
+
+**interaction:** Fuel is a common input; harvest windows limit shedding; carrier cash timing can propagate strain.
 
 ### lifeboats
 
@@ -774,112 +39,123 @@ Cycle RC-001; cutoff 2026-09-20.
 - RES09
 - RES10
 
+### outside reserve
 
----
-
-**id:** CL02
-
-**title:** Bay Area transit finance / essential access / future repair
-
-**status:** Documented fiscal exposure; downstream access loss conditional
+- ISL01
+- ISL02
 
 ### signal ids
 
-- SIG08
-- SIG09
+- SIG01
+- SIG02
+- SIG04
+- SIG19
+- SIG21
+- SIG22
+- SIG23
 
-**interaction:** Temporary funds and delayed recurring revenue can constrain multiple operators together; borrowing/deferrals shift load into future recovery.
+**Sources:** [SRC01: EIA](https://www.eia.gov/petroleum/gasdiesel/), [SRC02: EIA](https://ir.eia.gov/wpsr/wpsrsummary.pdf), [SRC05: USDA ERS](https://www.ers.usda.gov/topics/farm-economy/farm-sector-income-finances/farm-sector-income-forecast), [SRC24: Reuters](https://www.reuters.com/business/energy/record-us-diesel-prices-squeeze-farmers-food-prices-may-rise-2026-09-18/), [FF-S02: EIA](https://www.eia.gov/petroleum/supply/weekly/pdf/table6.pdf), [FF-S03: USDA AMS](https://agtransport.usda.gov/resource/25pi-t6xr.json), [FF-S04: USDA AMS](https://www.ams.usda.gov/sites/default/files/media/RTQ1stQuarter2026.pdf), [FF-S05: USDA AMS](https://www.ams.usda.gov/sites/default/files/media/GTR09172026.pdf)
 
-**independence:** BART and SFMTA are distinct budgets but share regional revenue conditions. Their risks are correlated.
+**status:** Observed cost pressure plus selected produce-truck constraints; causality and downstream food-access failure unproven
 
-**Sources:** [SRC08: BART](https://www.bart.gov/sites/default/files/2026-09/FY27%20Adopted%20Budget%20Memo_FINAL_SIGNED.pdf), [SRC09: SFMTA](https://www.sfmta.com/projects/sfmta-budget-planning-fy-2026-27-and-fy-2027-28)
+**title:** Diesel / harvest / food logistics
+
+### transition ids
+
+- TR01
+
+
+---
 
 ### buffers
 
 - RES03
 - RES09
 
-### transition ids
-
-- TR03
-- TR06
-
 ### commons ids
 
 - COM01
 
-### outside reserve
+**id:** CL02
 
-- ISL05
+**independence:** BART and SFMTA are distinct budgets but share regional revenue conditions. Their risks are correlated.
+
+**interaction:** Temporary funds and delayed recurring revenue can constrain multiple operators together; borrowing/deferrals shift load into future recovery.
 
 ### lifeboats
 
 - RES09
 
+### outside reserve
 
----
-
-**id:** CL03
-
-**title:** Sulfur / phosphate / farm nutrient access
-
-**status:** Unexpected dependency; production-loss cascade not established
+- ISL05
 
 ### signal ids
 
-- SIG06
-- SIG07
-- SIG04
+- SIG08
+- SIG09
+- SIG28
 
-**interaction:** Sulfur input strain can squeeze phosphate margins while potash has stronger output; neither proves all-nutrient shortage.
+**Sources:** [SRC08: BART](https://www.bart.gov/sites/default/files/2026-09/FY27%20Adopted%20Budget%20Memo_FINAL_SIGNED.pdf), [SRC09: SFMTA](https://www.sfmta.com/projects/sfmta-budget-planning-fy-2026-27-and-fy-2027-28), [LC_SRC03: Alameda-Contra Costa Transit District](https://www.actransit.org/sites/default/files/2026-09/FY2026-27%20District%20Adopted%20Budget%20Book.pdf)
 
-**independence:** Producer subsections are one disclosure, not multiple independent confirmations.
+**status:** Correlated fiscal exposure; actual future service loss conditional; AC Transit addition provisionally sourced
 
-**Sources:** [SRC07: Nutrien](https://www.nutrien.com/news/press-releases/nutrien-reports-second-quarter-2026-results-1753), [SRC05: USDA ERS](https://www.ers.usda.gov/topics/farm-economy/farm-sector-income-finances/farm-sector-income-forecast)
+**title:** Bay Area transit finance / essential access / future repair
+
+### transition ids
+
+- TR03
+- TR06
+
+
+---
+
+**adaptation:** Preserve safe restart capability and worker income; improve nutrient-specific procurement and input efficiency without assuming interchangeable nutrients.
 
 ### buffers
 
 - RES02
-
-### transition ids
-
-- TR02
 
 ### commons ids
 
 - COM02
 - COM05
 
-### outside reserve
+**id:** CL03
 
-- ISL01
+**independence:** Nutrien and Mosaic are independent operators; observations have different dates and product definitions. Their shared sulfur exposure is one mechanism, not independent shocks.
+
+**interaction:** Sulfur input strain can squeeze phosphate margins while potash has stronger output; neither proves all-nutrient shortage.
 
 ### lifeboats
 
 - RES06
 
-**adaptation:** Diversify agronomically suitable nutrients and procurement; independent producer checks pending.
+### outside reserve
 
-
----
-
-**id:** CL04
-
-**title:** Local utility recovery / equipment / water and care continuity
-
-**status:** High-consequence scenario; current compound failure not established
+- ISL01
 
 ### signal ids
 
-- SIG10
-- SIG17
-- SIG18
+- SIG06
+- SIG07
+- SIG04
+- SIG24
+- SIG25
 
-**interaction:** Enough generation does not guarantee rapid replacement of a failed local asset; prolonged local outage could challenge water/care.
+**Sources:** [SRC07: Nutrien](https://www.nutrien.com/news/press-releases/nutrien-reports-second-quarter-2026-results-1753), [SRC05: USDA ERS](https://www.ers.usda.gov/topics/farm-economy/farm-sector-income-finances/farm-sector-income-forecast), [TRS01: CF Industries](https://ir.cfindustries.com/Investors/news/news-details/2026/CF-Industries-Holdings-Inc--Reports-First-Half-2026-Net-Earnings-of-1-34-Billion-Adjusted-EBITDA-of-2-18-Billion/default.aspx), [TRS02: The Mosaic Company](https://mosaicco.com/Article/Fertilizer-Markets-Facts-and-Context)
 
-**independence:** Grid assessment, legal changes and old manufacturing announcement do not demonstrate a synchronized present crisis.
+**status:** Producer-level physical curtailment corroborated; farm-order and yield cascade conditional
 
-**Sources:** [SRC10: CAISO](https://www.caiso.com/documents/2026-summer-loads-and-resources-assessment.pdf), [SRC18: White House](https://www.whitehouse.gov/presidential-actions/2026/06/further-adjusting-the-tariff-regimes-for-imports-of-aluminum-steel-and-copper-into-the-united-states/), [SRC23: Reuters](https://www.reuters.com/business/energy/hitachi-invest-1-billion-produce-power-grid-components-us-2025-09-04/), [SRC26: EBMUD](https://www.ebmud.com/water/about-your-water/water-supply/water-supply-reports)
+**title:** Sulfur / phosphate / farm nutrient access
+
+### transition ids
+
+- TR02
+- TR08
+
+
+---
 
 ### buffers
 
@@ -887,56 +163,59 @@ Cycle RC-001; cutoff 2026-09-20.
 - RES07
 - RES08
 - RES10
-
-### transition ids
-
-- TR04
-- TR05
+- RES12
+- RES13
 
 ### commons ids
 
 - COM03
 - COM04
 
-### outside reserve
+**donor note:** Removed Europe/Caribbean as generic local utility rescue links. Re-add only with a specific compatible asset, route, current commitments and protected donor reserve.
 
-- ISL03
-- ISL04
-- ISL05
+**id:** CL04
+
+**independence:** Grid assessment, legal changes and old manufacturing announcement do not demonstrate a synchronized present crisis.
+
+**interaction:** Enough generation does not guarantee rapid replacement of a failed local asset; prolonged local outage could challenge water/care.
 
 ### lifeboats
 
 - RES08
 - RES10
+- RES12
 
+### outside reserve
 
----
-
-**id:** CL05
-
-**title:** Social grievance / organized intimidation / institutional paralysis
-
-**status:** Not activated; current local evidence insufficient
+- ISL05
+- ISL06
 
 ### signal ids
 
-- SIG14
-- SIG15
+- SIG10
+- SIG17
+- SIG18
+- SIG26
+- SIG27
 
-**interaction:** Mechanism requires corroborated organization, capability and harmful conduct, not anger or identity.
+**Sources:** [SRC10: CAISO](https://www.caiso.com/documents/2026-summer-loads-and-resources-assessment.pdf), [SRC18: White House](https://www.whitehouse.gov/presidential-actions/2026/06/further-adjusting-the-tariff-regimes-for-imports-of-aluminum-steel-and-copper-into-the-united-states/), [SRC23: Reuters](https://www.reuters.com/business/energy/hitachi-invest-1-billion-produce-power-grid-components-us-2025-09-04/), [SRC26: EBMUD](https://www.ebmud.com/water/about-your-water/water-supply/water-supply-reports), [LC_SRC01: East Bay Municipal Utility District](https://www.ebmud.com/download_file/force/58167/703?WOD_-_Water_Supply_Update_-_April_14_2026_Final_Board.pdf=), [LC_SRC02: Town of San Anselmo](https://www.sananselmo.gov/1677/Town-Hall-Resilience-Hub)
 
-**independence:** Annual reported crime trend and recovery coordination do not measure current local rhetoric or institutional trust.
+**status:** High-consequence scenario; current compound failure not established
 
-**Sources:** [SRC14: FBI](https://www.fbi.gov/news/press-releases/fbi-releases-2025-reported-crimes-in-the-nation-statistics), [SRC15: CDEMA](https://www.cdema.org/index.php/cdemanews/categories/press-releases/146-press-releases/1870-cdema-launches-regional-recovery-experts-roster-to-strengthen-caribbean-recovery)
+**title:** Local utility recovery / equipment / water and care continuity
+
+### transition ids
+
+- TR04
+- TR05
+
+
+---
 
 ### buffers
 
 - RES05
 - RES08
-
-### transition ids
-
-
 
 ### commons ids
 
@@ -944,48 +223,79 @@ Cycle RC-001; cutoff 2026-09-20.
 - COM04
 - COM06
 
-### outside reserve
+**id:** CL05
 
-- ISL04
-- ISL05
+**independence:** Annual reported crime trend and recovery coordination do not measure current local rhetoric or institutional trust.
+
+**interaction:** Mechanism requires corroborated organization, capability and harmful conduct, not anger or identity.
 
 ### lifeboats
 
 - RES05
 
-## classification rules
+### outside reserve
 
-**destructive failure:** Essential function is lost without adequate replacement.
+- ISL04
+- ISL05
 
-**managed shedding:** Avoidable load is reduced while essential function and future recovery stay protected.
+### signal ids
 
-**creative transition:** Released or convertible assets support a better way to preserve function.
+- SIG14
+- SIG15
 
-**healthy replacement growth:** Verified useful capacity replaces or expands an inadequate function.
+**Sources:** [SRC14: FBI](https://www.fbi.gov/news/press-releases/fbi-releases-2025-reported-crimes-in-the-nation-statistics), [SRC15: CDEMA](https://www.cdema.org/index.php/cdemanews/categories/press-releases/146-press-releases/1870-cdema-launches-regional-recovery-experts-roster-to-strengthen-caribbean-recovery)
 
-## social lanes
+**status:** Not activated; current local evidence insufficient
 
-**rhetoric:** Unknown current direction; no generalized population-danger inference
+**title:** Social grievance / organized intimidation / institutional paralysis
 
-**organization:** Unknown current direction; no generalized population-danger inference
+### transition ids
 
-**capacity:** Unknown current direction; no generalized population-danger inference
 
-**behavior:** Unknown current direction; no generalized population-danger inference
 
-**violence:** Unknown current direction; no generalized population-danger inference
 
-**institutional trust:** Unknown current direction; no generalized population-danger inference
+---
 
-**de escalation:** Unknown current direction; no generalized population-danger inference
+### buffers
 
-## evidence labels
+- RES14
+- RES09
 
-- FACT
-- PLAUSIBLE MECHANISM
-- EARLY SIGNAL
-- UNKNOWN
-- SPECULATION
+### commons ids
+
+- COM01
+- COM07
+
+**id:** CL06
+
+**independence:** State award and operator statements concern the same hospital; not independent evidence of statewide failure.
+
+**interaction:** Restricted capital can improve equipment while operating liquidity remains constrained. Reliable local diagnostics may reduce transfers only if staffed and available.
+
+### lifeboats
+
+- RES09
+
+### outside reserve
+
+
+
+**outside reserve note:** No nearby staffed clinical surplus verified; do not name a donor based on proximity alone.
+
+### signal ids
+
+- SIG29
+- SIG30
+
+**Sources:** [RC2H01: California HCAI](https://hcai.ca.gov/facilities/health-facility-financing/distressed-hospital-loan-program/), [RC2H04: Pajaro Valley Health Care District](https://www.pvhcd.org/home-page/page/federal-cuts-put-watsonville-community-hospital-risk-partnership-way-forward), [RC2H05: Pajaro Valley Health Care District](https://www.pvhcd.org/home-page/page/new-mri-and-ct-imaging-now-available-watsonville-community-hospital)
+
+**status:** New conditional cluster grounded in dated grant and replacement milestones; present service failure not established
+
+**title:** Healthcare operating cash / capital replacement / care travel
+
+### transition ids
+
+- TR07
 
 ## coverage inventory
 
@@ -998,14 +308,14 @@ Cycle RC-001; cutoff 2026-09-20.
 
 **area:** Trucking/food logistics
 
-**status:** Current qualitative cost transmission; service loss, cold-store reserves and firm exits unverified
+**status:** September regional produce-truck availability and grain flow checked; actual missed deliveries, causality and local cold-chain capacity unverified
 
 
 ---
 
 **area:** Agriculture/fertilizer
 
-**status:** Farm expense outlook, cereal buffers and producer nutrient differentiation; irrigation/labor/processing detail incomplete
+**status:** Second producer corroborates phosphate curtailment; nitrogen denominator checked; farm orders, labor/irrigation impacts incomplete
 
 
 ---
@@ -1026,14 +336,14 @@ Cycle RC-001; cutoff 2026-09-20.
 
 **area:** Municipal/transit
 
-**status:** BART/SFMTA budget evidence; broader municipal finances, housing displacement and AC Transit capacity pending
+**status:** Independent BART/Muni review; AC Transit agent-read provisional addition; broader municipal and actual substitute capacity unknown
 
 
 ---
 
 **area:** Water/healthcare
 
-**status:** Dependency scenarios, jobs baseline and historical mutual aid; current local operational reserve unknown
+**status:** Dated spring water storage, hospital award and equipment milestone recovered; September water and clinical/cash reserve unknown
 
 
 ---
@@ -1055,4 +365,773 @@ Cycle RC-001; cutoff 2026-09-20.
 **area:** Roads/bridges/ports/rail/telecommunications/emergency services
 
 **status:** Dependency map only or partial trade-route coverage; no fresh service-failure conclusion
+
+## evidence labels
+
+- FACT
+- PLAUSIBLE MECHANISM
+- EARLY SIGNAL
+- UNKNOWN
+- SPECULATION
+
+## geographies
+
+**coverage gap:** Full city general-fund, rent policy, healthcare and trust assessment pending
+
+**id:** San Francisco
+
+**local strengths:** Established transit network and institutional planning
+
+**parent:** Bay Area
+
+**recent policy:** April 2026 budget protects FY26-27 regular/paratransit service; later funding conditional
+
+**reserves and neighbors:** BART and Muni both financially exposed; no spare network assumed
+
+**Sources:** [SRC09: SFMTA](https://www.sfmta.com/projects/sfmta-budget-planning-fy-2026-27-and-fy-2027-28)
+
+**structural context:** SFMTA recurring operating gap after relief expires
+
+**trade and infrastructure dependencies:** Regional commuters, electric traction, operating revenue
+
+
+---
+
+**coverage gap:** AC Transit budget checkpoint obtained; current water, live substitute fleet, Oakland general fund and housing displacement remain gaps
+
+**id:** Bay Area
+
+**local strengths:** BART network, food referral system, tool library and emerging hubs
+
+**parent:** California
+
+**recent policy:** BART FY27 bridge; November revenue measure unresolved at cutoff
+
+**reserves and neighbors:** Existing institutions provide functions; surge surplus not verified
+
+**Sources:** [SRC08: BART](https://www.bart.gov/sites/default/files/2026-09/FY27%20Adopted%20Budget%20Memo_FINAL_SIGNED.pdf), [SRC20: Oakland Public Library](https://oaklandlibrary.org/otll/), [SRC21: Alameda County Community Food Bank](https://www.accfb.org/get-food/), [SRC22: NorCal Resilience Network](https://norcalresilience.org/resilient-hub-initiative/), [LC_SRC01: East Bay Municipal Utility District](https://www.ebmud.com/download_file/force/58167/703?WOD_-_Water_Supply_Update_-_April_14_2026_Final_Board.pdf=), [LC_SRC02: Town of San Anselmo](https://www.sananselmo.gov/1677/Town-Hall-Resilience-Hub), [LC_SRC03: Alameda-Contra Costa Transit District](https://www.actransit.org/sites/default/files/2026-09/FY2026-27%20District%20Adopted%20Budget%20Book.pdf)
+
+**structural context:** Regional mobility depends on several operators with correlated funding challenges
+
+**trade and infrastructure dependencies:** Transport, fuel, electricity, workforce location
+
+
+---
+
+**coverage gap:** Refinery-by-refinery, current water levels, insurance and fiscal reserve gaps
+
+**id:** California
+
+**local strengths:** Improved modeled generation adequacy and organized local service networks; targeted hospital funding and equipment replacement show adaptation while recurring operations remain separate
+
+**parent:** United States
+
+**recent policy:** CAISO seasonal readiness; project additions partly forecast
+
+**reserves and neighbors:** CAISO planning margin is not live donor reserve
+
+**Sources:** [SRC01: EIA](https://www.eia.gov/petroleum/gasdiesel/), [SRC10: CAISO](https://www.caiso.com/documents/2026-summer-loads-and-resources-assessment.pdf), [SRC26: EBMUD](https://www.ebmud.com/water/about-your-water/water-supply/water-supply-reports), [RC2H01: California HCAI](https://hcai.ca.gov/facilities/health-facility-financing/distressed-hospital-loan-program/), [RC2H05: Pajaro Valley Health Care District](https://www.pvhcd.org/home-page/page/new-mri-and-ct-imaging-now-available-watsonville-community-hospital)
+
+**structural context:** High diesel cost and multi-region grid dependencies
+
+**trade and infrastructure dependencies:** Liquid fuel, imports, specialized equipment and water conveyance
+
+
+---
+
+**coverage gap:** Trucking exits, physical shortages, water/health outcomes not established
+
+**id:** United States
+
+**local strengths:** Diverse industrial base; production rising year/year; cereal production
+
+**parent:** North America
+
+**recent policy:** Differentiated June metal rules and July aluminum incentive authorization
+
+**reserves and neighbors:** Distillates rebuilding; national strengths not evenly distributed
+
+**Sources:** [SRC02: EIA](https://ir.eia.gov/wpsr/wpsrsummary.pdf), [SRC05: USDA ERS](https://www.ers.usda.gov/topics/farm-economy/farm-sector-income-finances/farm-sector-income-forecast), [SRC11: Federal Reserve](https://www.federalreserve.gov/releases/g17/current/default.htm), [SRC18: White House](https://www.whitehouse.gov/presidential-actions/2026/06/further-adjusting-the-tariff-regimes-for-imports-of-aluminum-steel-and-copper-into-the-united-states/), [SRC19: White House](https://www.whitehouse.gov/presidential-actions/2026/07/further-strengthening-actions-taken-to-adjust-imports-of-aluminum-into-the-united-states/)
+
+**structural context:** Highly interdependent energy/farm/logistics and regional service systems
+
+**trade and infrastructure dependencies:** Specialized equipment, global feedstocks, routes and credit
+
+
+---
+
+**coverage gap:** Mexico domestic conditions and Canada live power/fuel surpluses unassessed
+
+**id:** North America
+
+**local strengths:** Canadian potash and US farm/manufacturing output
+
+**parent:** International exchange networks
+
+**recent policy:** June rule includes differentiated Canadian/Mexican products; exact item rules unresolved
+
+**reserves and neighbors:** Complementary capacity; no committed export surplus calculated
+
+**Sources:** [SRC07: Nutrien](https://www.nutrien.com/news/press-releases/nutrien-reports-second-quarter-2026-results-1753), [SRC18: White House](https://www.whitehouse.gov/presidential-actions/2026/06/further-adjusting-the-tariff-regimes-for-imports-of-aluminum-steel-and-copper-into-the-united-states/)
+
+**structural context:** Integrated but product-specific trade and production
+
+**trade and infrastructure dependencies:** Rail, ports, liquid fuel, equipment and cross-border rules
+
+
+---
+
+**coverage gap:** Country-by-country utilities, fiscal reserves, shipping and current hospitals incomplete
+
+**id:** Caribbean
+
+**local strengths:** Regional coordination and demonstrated Barbados medical support
+
+**parent:** International exchange networks
+
+**recent policy:** CDEMA recovery roster launched August 2026
+
+**reserves and neighbors:** Fourteen oriented specialists; actual simultaneous deployment reserve unknown
+
+**Sources:** [SRC15: CDEMA](https://www.cdema.org/index.php/cdemanews/categories/press-releases/146-press-releases/1870-cdema-launches-regional-recovery-experts-roster-to-strengthen-caribbean-recovery), [SRC16: CDEMA](https://www.cdema.org/index.php/cdemanews/categories/situation-reports/1852-situation-report-18-hurricane-melissa)
+
+**structural context:** Mutual-aid needs can span several islands after one hazard
+
+**trade and infrastructure dependencies:** Transport, donor staffing, supplies and replenishment
+
+
+---
+
+**coverage gap:** Country live reserves, political constraints, industrial stock and autumn outlook incomplete
+
+**id:** NATO-relevant European countries
+
+**local strengths:** Generally favorable summer adequacy assessment
+
+**parent:** International exchange networks
+
+**recent policy:** Seasonal adequacy coordination via TSOs
+
+**reserves and neighbors:** Offers conditional cross-border power; no NATO-wide reserve inferred
+
+**Sources:** [SRC17: ENTSO-E](https://www.entsoe.eu/outlooks/seasonal/)
+
+**structural context:** Electricity transfer network crosses political group boundaries
+
+**trade and infrastructure dependencies:** Interconnectors, fuels and coincident weather
+
+
+---
+
+**coverage gap:** UK/Australia and other members require separate current assessment
+
+**id:** Commonwealth-linked countries
+
+**local strengths:** Potash production; demonstrated regional medical assistance
+
+**parent:** International exchange networks
+
+**recent policy:** Canadian fertilizer output and Barbados/CDEMA cooperation are concrete anchors
+
+**reserves and neighbors:** No Commonwealth pooled spare capacity asserted
+
+**Sources:** [SRC07: Nutrien](https://www.nutrien.com/news/press-releases/nutrien-reports-second-quarter-2026-results-1753), [SRC16: CDEMA](https://www.cdema.org/index.php/cdemanews/categories/situation-reports/1852-situation-report-18-hurricane-melissa)
+
+**structural context:** Canada and Barbados examined as distinct complementary nodes
+
+**trade and infrastructure dependencies:** Fuel, trade routes, equipment and protection of home service
+
+
+---
+
+**coverage gap:** Route capacities, commitments and hurricane exposure not quantified
+
+**id:** US Gulf Coast
+
+**local strengths:** 43.759m barrels PADD3 distillates Sept11
+
+**parent:** United States
+
+**recent policy:** No new specific policy admitted
+
+**reserves and neighbors:** Inventory is not equal to shippable surplus for California or abroad
+
+**Sources:** [SRC03: EIA](https://www.eia.gov/dnav/pet/pet_stoc_wstk_a_epd0_sae_mbbl_w.htm)
+
+**structural context:** Major observed distillate inventory location
+
+**trade and infrastructure dependencies:** Pipelines, marine routes and fuel specifications
+
+
+---
+
+**coverage gap:** Source is FAO outlook; live corridor capacity not established
+
+**id:** Black Sea grain routes
+
+**local strengths:** Grain production and stocks remain material
+
+**parent:** International exchange networks
+
+**recent policy:** No legal change admitted
+
+**reserves and neighbors:** Other exporters are potential complementary suppliers
+
+**Sources:** [SRC06: FAO](https://www.fao.org/worldfoodsituation/csdb/en/)
+
+**structural context:** Export access can constrain use of available grain
+
+**trade and infrastructure dependencies:** Ports, alternate land routes and shipping access
+
+
+---
+
+**coverage gap:** October cancellation report quarantined pending primary corroboration
+
+**id:** Saudi export routes / Hormuz / Red Sea
+
+**local strengths:** Alternative routing considered in EIA outlook
+
+**parent:** International exchange networks
+
+**recent policy:** No verified new policy admitted
+
+**reserves and neighbors:** Reported substitutes remain unquantified
+
+**Sources:** [SRC04: EIA](https://www.eia.gov/outlooks/steo/), [SRC25: Reuters relaying Bloomberg](https://www.reuters.com/business/energy/aramco-halts-october-crude-deliveries-some-european-refiners-after-pipeline-2026-09-18/)
+
+**structural context:** Energy outlook depends on export-route assumptions
+
+**trade and infrastructure dependencies:** Pipelines, ports, tankers and refinery feed compatibility
+
+
+---
+
+**coverage gap:** Current cash, disbursement, regular imaging service and partner capacity
+
+**id:** Pajaro Valley / Monterey Bay
+
+**local strengths:** Public healthcare district and voter-supported capital replacement
+
+**parent:** California
+
+**recent policy:** Named 2026 distressed-hospital grant award and September imaging licensing milestone
+
+**reserves and neighbors:** No quantified donor clinical surplus; one-time grant not recurring reserve
+
+**Sources:** [RC2H01: California HCAI](https://hcai.ca.gov/facilities/health-facility-financing/distressed-hospital-loan-program/), [RC2H04: Pajaro Valley Health Care District](https://www.pvhcd.org/home-page/page/federal-cuts-put-watsonville-community-hospital-risk-partnership-way-forward), [RC2H05: Pajaro Valley Health Care District](https://www.pvhcd.org/home-page/page/new-mri-and-ct-imaging-now-available-watsonville-community-hospital)
+
+**structural context:** Local clinical access depends on hospital, community clinics and travel routes; outside nine-county Bay Area
+
+**trade and infrastructure dependencies:** Clinical labor, operating reimbursement, equipment servicing and accessible transport
+
+## social lanes
+
+**behavior:** Unknown current direction; no generalized population-danger inference
+
+**capacity:** Unknown current direction; no generalized population-danger inference
+
+**de escalation:** Unknown current direction; no generalized population-danger inference
+
+**institutional trust:** Unknown current direction; no generalized population-danger inference
+
+**organization:** Unknown current direction; no generalized population-danger inference
+
+**rhetoric:** Unknown current direction; no generalized population-danger inference
+
+**violence:** Unknown current direction; no generalized population-danger inference
+
+## systems
+
+### gauges
+
+**CONFIDENCE:** High national snapshot; lower local availability
+
+**DEPENDENCY:** Very high cross-sector
+
+**GROWTH:** Efficient logistics and suitable electrification
+
+**LIFEBOAT:** Contracted essential fuel plus critical-load alternatives; unverified locally
+
+**LOAD:** High cost; harvest-sensitive
+
+**RECOVERY:** Limited refining headroom; restart timing unknown
+
+**RESERVE:** Thin seasonally; rebuilding
+
+**SHEDDING:** Low for essential harvest; some avoidable mileage
+
+**SOCIAL TEMPERATURE:** Unknown
+
+**SUBSTITUTABILITY:** Limited immediately; route/equipment-specific
+
+**geography:** US; regional delivery gaps
+
+**id:** diesel
+
+**label:** Diesel and refining
+
+**Sources:** [SRC01: EIA](https://www.eia.gov/petroleum/gasdiesel/), [SRC02: EIA](https://ir.eia.gov/wpsr/wpsrsummary.pdf), [SRC03: EIA](https://www.eia.gov/dnav/pet/pet_stoc_wstk_a_epd0_sae_mbbl_w.htm)
+
+
+---
+
+### gauges
+
+**CONFIDENCE:** Medium costs; low available reserve
+
+**DEPENDENCY:** High for food and supplies
+
+**GROWTH:** Pooled delivery and routing
+
+**LIFEBOAT:** Small accessible transport pool proposed
+
+**LOAD:** High fuel cost; some produce origins report truck shortages
+
+**RECOVERY:** Company-specific working capital and repairs
+
+**RESERVE:** Uneven qualitative route availability; transferable surplus unknown
+
+**SHEDDING:** Empty miles/duplicate trips can fall
+
+**SOCIAL TEMPERATURE:** Unknown
+
+**SUBSTITUTABILITY:** Partial rail/intermodal; last mile persists
+
+**geography:** US/Bay Area
+
+**id:** trucking
+
+**label:** Trucking and essential trips
+
+**Sources:** [SRC13: BLS](https://www.bls.gov/news.release/empsit.nr0.htm), [SRC24: Reuters](https://www.reuters.com/business/energy/record-us-diesel-prices-squeeze-farmers-food-prices-may-rise-2026-09-18/), [FF-S03: USDA AMS](https://agtransport.usda.gov/resource/25pi-t6xr.json), [FF-S04: USDA AMS](https://www.ams.usda.gov/sites/default/files/media/RTQ1stQuarter2026.pdf), [FF-S05: USDA AMS](https://www.ams.usda.gov/sites/default/files/media/GTR09172026.pdf)
+
+
+---
+
+### gauges
+
+**CONFIDENCE:** Medium forecast basis
+
+**DEPENDENCY:** Very high essential food
+
+**GROWTH:** Input efficiency, aggregation, storage
+
+**LIFEBOAT:** Food access networks; inventory unknown
+
+**LOAD:** Inputs elevated; crop-specific
+
+**RECOVERY:** Seasonal; missed windows hard to recover
+
+**RESERVE:** Global cereals substantial; access uneven
+
+**SHEDDING:** Waste reducible; nutrition cannot be shed
+
+**SOCIAL TEMPERATURE:** Unknown
+
+**SUBSTITUTABILITY:** Crop/import mix constrained by season and nutrition
+
+**geography:** US/global
+
+**id:** agriculture
+
+**label:** Agriculture and food production
+
+**Sources:** [SRC05: USDA ERS](https://www.ers.usda.gov/topics/farm-economy/farm-sector-income-finances/farm-sector-income-forecast), [SRC06: FAO](https://www.fao.org/worldfoodsituation/csdb/en/)
+
+
+---
+
+### gauges
+
+**CONFIDENCE:** Higher for named producer curtailment; farm-level consequences unknown
+
+**DEPENDENCY:** High for future yields
+
+**GROWTH:** Nutrient recovery/precision services; proposed
+
+**LIFEBOAT:** Diversified procurement; unquantified
+
+**LOAD:** Phosphate input strain now linked to actual operator curtailments
+
+**RECOVERY:** Restart requires feedstock, margins and retained qualified crews
+
+**RESERVE:** Product-specific: strong potash output, mixed nitrogen; uncommitted phosphate unknown
+
+**SHEDDING:** Overapplication only with agronomic evidence
+
+**SOCIAL TEMPERATURE:** Unknown
+
+**SUBSTITUTABILITY:** Nutrients not interchangeable; efficiency partial
+
+**geography:** North America/global
+
+**id:** fertilizer
+
+**label:** Fertilizer nutrients and feedstocks
+
+**Sources:** [SRC07: Nutrien](https://www.nutrien.com/news/press-releases/nutrien-reports-second-quarter-2026-results-1753), [TRS01: CF Industries](https://ir.cfindustries.com/Investors/news/news-details/2026/CF-Industries-Holdings-Inc--Reports-First-Half-2026-Net-Earnings-of-1-34-Billion-Adjusted-EBITDA-of-2-18-Billion/default.aspx), [TRS02: The Mosaic Company](https://mosaicco.com/Article/Fertilizer-Markets-Facts-and-Context)
+
+
+---
+
+### gauges
+
+**CONFIDENCE:** Medium prices; low local service capacity
+
+**DEPENDENCY:** High
+
+**GROWTH:** Shared storage and food aggregation
+
+**LIFEBOAT:** Existing food referral network, surge unverified
+
+**LOAD:** Cost pressure; actual failures not established
+
+**RECOVERY:** Fuel/power/food-safety constrained
+
+**RESERVE:** Local inventory/cold space unknown
+
+**SHEDDING:** Spoilage/duplicate deliveries; preserve nutrition
+
+**SOCIAL TEMPERATURE:** Unknown
+
+**SUBSTITUTABILITY:** Shelf-stable mix and distributed nodes partial
+
+**geography:** Global/Bay Area
+
+**id:** food_logistics
+
+**label:** Food access and cold chain
+
+**Sources:** [SRC06: FAO](https://www.fao.org/worldfoodsituation/csdb/en/), [SRC21: Alameda County Community Food Bank](https://www.accfb.org/get-food/), [SRC24: Reuters](https://www.reuters.com/business/energy/record-us-diesel-prices-squeeze-farmers-food-prices-may-rise-2026-09-18/)
+
+
+---
+
+### gauges
+
+**CONFIDENCE:** Medium seasonal adequacy; low local recovery
+
+**DEPENDENCY:** Very high: water/health/comms
+
+**GROWTH:** Equipment repair/manufacturing and storage
+
+**LIFEBOAT:** San Anselmo construction confirmed; outage scope and duration not verified
+
+**LOAD:** Modeled demand covered in CAISO; local risk
+
+**RECOVERY:** Specific spares and lead times not established
+
+**RESERVE:** Planning buffer; live deliverability unknown
+
+**SHEDDING:** Contracted nonessential demand before critical loads
+
+**SOCIAL TEMPERATURE:** Unknown
+
+**SUBSTITUTABILITY:** Storage and demand response partial
+
+**geography:** CAISO/US/Europe
+
+**id:** grid
+
+**label:** Electricity and critical equipment
+
+**Sources:** [SRC10: CAISO](https://www.caiso.com/documents/2026-summer-loads-and-resources-assessment.pdf), [SRC17: ENTSO-E](https://www.entsoe.eu/outlooks/seasonal/), [SRC23: Reuters](https://www.reuters.com/business/energy/hitachi-invest-1-billion-produce-power-grid-components-us-2025-09-04/), [LC_SRC02: Town of San Anselmo](https://www.sananselmo.gov/1677/Town-Hall-Resilience-Hub)
+
+
+---
+
+### gauges
+
+**CONFIDENCE:** Low current assessment; dependency is plausible mechanism
+
+**DEPENDENCY:** Very high
+
+**GROWTH:** Leak repair/reuse where safe and approved
+
+**LIFEBOAT:** Water reserves/distribution proposed
+
+**LOAD:** Unknown current
+
+**RECOVERY:** Power, treatment inputs, staff and repairs need checking
+
+**RESERVE:** April storage baseline recovered; current deliverable reserve still unknown
+
+**SHEDDING:** Nonessential use; preserve drinking/sanitation
+
+**SOCIAL TEMPERATURE:** Unknown
+
+**SUBSTITUTABILITY:** Limited potable alternatives
+
+**geography:** Bay Area
+
+**id:** water
+
+**label:** Water and wastewater
+
+**Sources:** [SRC26: EBMUD](https://www.ebmud.com/water/about-your-water/water-supply/water-supply-reports), [LC_SRC01: East Bay Municipal Utility District](https://www.ebmud.com/download_file/force/58167/703?WOD_-_Water_Supply_Update_-_April_14_2026_Final_Board.pdf=)
+
+
+---
+
+### gauges
+
+**CONFIDENCE:** Dated local fiscal/capital evidence; current operational reserve unknown
+
+**DEPENDENCY:** Very high essential care
+
+**GROWTH:** Local imaging replacement installed/licensed; regular service benefit to verify
+
+**LIFEBOAT:** Historical field-hospital mutual aid; local fallback unverified
+
+**LOAD:** Local demand/capacity unknown
+
+**RECOVERY:** Licensed staff, utilities and transport dependent
+
+**RESERVE:** No current staffed/cash surplus established; grant awards and restricted capital differ
+
+**SHEDDING:** Administrative trips, not medically necessary care
+
+**SOCIAL TEMPERATURE:** Unknown
+
+**SUBSTITUTABILITY:** Telehealth/alternate sites only for suitable services
+
+**geography:** US/Bay Area/Caribbean
+
+**id:** healthcare
+
+**label:** Healthcare continuity
+
+**Sources:** [SRC13: BLS](https://www.bls.gov/news.release/empsit.nr0.htm), [SRC16: CDEMA](https://www.cdema.org/index.php/cdemanews/categories/situation-reports/1852-situation-report-18-hurricane-melissa), [RC2H01: California HCAI](https://hcai.ca.gov/facilities/health-facility-financing/distressed-hospital-loan-program/), [RC2H04: Pajaro Valley Health Care District](https://www.pvhcd.org/home-page/page/federal-cuts-put-watsonville-community-hospital-risk-partnership-way-forward), [RC2H05: Pajaro Valley Health Care District](https://www.pvhcd.org/home-page/page/new-mri-and-ct-imaging-now-available-watsonville-community-hospital)
+
+
+---
+
+### gauges
+
+**CONFIDENCE:** High budget terms; medium future outcome
+
+**DEPENDENCY:** High for service continuity
+
+**GROWTH:** Coordinated procurement and service design
+
+**LIFEBOAT:** Targeted aid reserve proposed; cannot replace main network
+
+**LOAD:** Structural transit funding gap
+
+**RECOVERY:** Recurring revenue needed; borrowing adds later costs
+
+**RESERVE:** One-time bridges; no uncommitted local surplus established
+
+**SHEDDING:** Duplicate admin/avoidable costs; essential access protected
+
+**SOCIAL TEMPERATURE:** Unknown
+
+**SUBSTITUTABILITY:** Restricted funds/other operators not freely interchangeable
+
+**geography:** SF/Bay Area
+
+**id:** municipal
+
+**label:** Municipal and transit finance
+
+**Sources:** [SRC08: BART](https://www.bart.gov/sites/default/files/2026-09/FY27%20Adopted%20Budget%20Memo_FINAL_SIGNED.pdf), [SRC09: SFMTA](https://www.sfmta.com/projects/sfmta-budget-planning-fy-2026-27-and-fy-2027-28)
+
+
+---
+
+### gauges
+
+**CONFIDENCE:** High policy record; conditional cascade
+
+**DEPENDENCY:** High for workforce and care access
+
+**GROWTH:** Feeder links, integration and reliable operating finance
+
+**LIFEBOAT:** Accessible essential-trip pool proposed
+
+**LOAD:** Current service maintained in budget
+
+**RECOVERY:** Staff/maintenance loss can slow restoration
+
+**RESERVE:** Funding conditional; spare bus capacity unverified
+
+**SHEDDING:** Reschedule/avoid optional trips; preserve essential frequency
+
+**SOCIAL TEMPERATURE:** Unknown
+
+**SUBSTITUTABILITY:** Limited for riders without cars or mobility alternatives
+
+**geography:** SF/Bay Area
+
+**id:** transit
+
+**label:** Public transit access
+
+**Sources:** [SRC08: BART](https://www.bart.gov/sites/default/files/2026-09/FY27%20Adopted%20Budget%20Memo_FINAL_SIGNED.pdf), [SRC09: SFMTA](https://www.sfmta.com/projects/sfmta-budget-planning-fy-2026-27-and-fy-2027-28)
+
+
+---
+
+### gauges
+
+**CONFIDENCE:** Medium macro; low individual product readiness
+
+**DEPENDENCY:** High upstream role
+
+**GROWTH:** Repair/refurbishment and targeted manufacturing
+
+**LIFEBOAT:** Compatible pooled spares proposed
+
+**LOAD:** Mixed; no blanket contraction
+
+**RECOVERY:** Tooling, skills, credit and certification constrain
+
+**RESERVE:** Aggregate slack not specialized reserve
+
+**SHEDDING:** Noncritical capital projects may be deferred
+
+**SOCIAL TEMPERATURE:** Unknown
+
+**SUBSTITUTABILITY:** Product-specific
+
+**geography:** US/North America
+
+**id:** industrial
+
+**label:** Industrial capacity and repairs
+
+**Sources:** [SRC07: Nutrien](https://www.nutrien.com/news/press-releases/nutrien-reports-second-quarter-2026-results-1753), [SRC11: Federal Reserve](https://www.federalreserve.gov/releases/g17/current/default.htm), [SRC12: Federal Reserve](https://www.federalreserve.gov/data/sloos/sloos-202607.htm), [SRC23: Reuters](https://www.reuters.com/business/energy/hitachi-invest-1-billion-produce-power-grid-components-us-2025-09-04/)
+
+
+---
+
+### gauges
+
+**CONFIDENCE:** Medium fiscal signal; low tariff causality
+
+**DEPENDENCY:** High long-term recovery
+
+**GROWTH:** Repair, safe reuse, efficient procurement
+
+**LIFEBOAT:** Prequalified repair capacity proposed
+
+**LOAD:** Project-specific costs unknown; BART deferrals documented
+
+**RECOVERY:** Long projects; actual lead times need refresh
+
+**RESERVE:** Compatible stock and contractors unknown
+
+**SHEDDING:** Postpone low-value additions before safety maintenance
+
+**SOCIAL TEMPERATURE:** Unknown
+
+**SUBSTITUTABILITY:** Specification-dependent
+
+**geography:** US/local
+
+**id:** construction
+
+**label:** Construction inputs and maintenance
+
+**Sources:** [SRC08: BART](https://www.bart.gov/sites/default/files/2026-09/FY27%20Adopted%20Budget%20Memo_FINAL_SIGNED.pdf), [SRC18: White House](https://www.whitehouse.gov/presidential-actions/2026/06/further-adjusting-the-tariff-regimes-for-imports-of-aluminum-steel-and-copper-into-the-united-states/)
+
+
+---
+
+### gauges
+
+**CONFIDENCE:** Medium rules; low unverified disruption lead
+
+**DEPENDENCY:** High
+
+**GROWTH:** Supplier diversification and interoperable equipment
+
+**LIFEBOAT:** Regional exchange agreements proposed
+
+**LOAD:** Route/rule dependent
+
+**RECOVERY:** Shipping, customs and grade compatibility
+
+**RESERVE:** Alternate suppliers/routes conditional
+
+**SHEDDING:** Nonessential trade can defer
+
+**SOCIAL TEMPERATURE:** Unknown
+
+**SUBSTITUTABILITY:** Partial; cost/time/quality limits
+
+**geography:** North America/global nodes
+
+**id:** trade
+
+**label:** Trade routes and import rules
+
+**Sources:** [SRC06: FAO](https://www.fao.org/worldfoodsituation/csdb/en/), [SRC18: White House](https://www.whitehouse.gov/presidential-actions/2026/06/further-adjusting-the-tariff-regimes-for-imports-of-aluminum-steel-and-copper-into-the-united-states/), [SRC19: White House](https://www.whitehouse.gov/presidential-actions/2026/07/further-strengthening-actions-taken-to-adjust-imports-of-aluminum-into-the-united-states/), [SRC25: Reuters relaying Bloomberg](https://www.reuters.com/business/energy/aramco-halts-october-crude-deliveries-some-european-refiners-after-pipeline-2026-09-18/)
+
+
+---
+
+### gauges
+
+**CONFIDENCE:** Medium aggregate data; low transition placement
+
+**DEPENDENCY:** Very high
+
+**GROWTH:** Repair/logistics/technical training
+
+**LIFEBOAT:** Cross-trained partner roster proposed
+
+**LOAD:** Sector divergence
+
+**RECOVERY:** Training and income bridge take time
+
+**RESERVE:** Skill/location compatibility unknown
+
+**SHEDDING:** Administrative friction and unpaid burden reducible
+
+**SOCIAL TEMPERATURE:** Unknown
+
+**SUBSTITUTABILITY:** Licensed roles limited
+
+**geography:** US/Bay Area
+
+**id:** labor
+
+**label:** Labor and skills
+
+**Sources:** [SRC13: BLS](https://www.bls.gov/news.release/empsit.nr0.htm), [SRC15: CDEMA](https://www.cdema.org/index.php/cdemanews/categories/press-releases/146-press-releases/1870-cdema-launches-regional-recovery-experts-roster-to-strengthen-caribbean-recovery)
+
+
+---
+
+### gauges
+
+**CONFIDENCE:** Low current climate; high matched 2025 report
+
+**DEPENDENCY:** High coordination dependency
+
+**GROWTH:** Facilitation, transparent allocation and cooperation
+
+**LIFEBOAT:** Inclusive community networks proposed
+
+**LOAD:** Current resentment/trust unmeasured
+
+**RECOVERY:** Trust repair requires credible participation
+
+**RESERVE:** Community institutions exist; reserve unquantified
+
+**SHEDDING:** Stigmatizing/frictional processes can be removed
+
+**SOCIAL TEMPERATURE:** 2025 reported hate trend improved; 2026 lanes unknown
+
+**SUBSTITUTABILITY:** Multiple trusted institutions may help
+
+**geography:** US/local networks
+
+**id:** social
+
+**label:** Social temperature and cooperation
+
+**Sources:** [SRC14: FBI](https://www.fbi.gov/news/press-releases/fbi-releases-2025-reported-crimes-in-the-nation-statistics), [SRC15: CDEMA](https://www.cdema.org/index.php/cdemanews/categories/press-releases/146-press-releases/1870-cdema-launches-regional-recovery-experts-roster-to-strengthen-caribbean-recovery), [SRC22: NorCal Resilience Network](https://norcalresilience.org/resilient-hub-initiative/)
 

@@ -1,0 +1,15 @@
+{
+  "at": "2026-09-21T01:58:46.046129+00:00",
+  "cycle_id": "RC-002",
+  "event_id": "4f35e715c386eb8051f00159",
+  "event_type": "candidate_reviewed",
+  "hash": "b2b8632558f4ac691c2acbc172a662c136e6a37381d36d79c0d0f28080d0aaa9",
+  "payload": {
+    "candidate_hash": "9ecd1c9ff07ae5c47c303030d70761961f5fb8863d1ea84558d657cd58cb0180",
+    "materiality": "material",
+    "review_id": "a7a0e857b7b24e8e3469d33edb25c6b23aac750ca1e3338e51cd41e95af6dd1e",
+    "review_status": "coordinator_accepted_with_limitations"
+  },
+  "previous_hash": "f4b660ec07d904640a09c7b7ad5f795e9e5470e7d14845ee7b7b783ff38e24f2",
+  "sequence": 8
+}

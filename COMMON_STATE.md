@@ -1,48 +1,26 @@
-# Resilience Cascade — common research state
+# Common research state — RC-002 committed
 
-Cycle RC-001. Research cutoff: 2026-09-20 UTC. Started 2026-09-20. First reconnaissance; no previous baseline is presumed. Public, lawful, nonintrusive sources only. This is an active-session research system, not an unattended monitor or scheduled digest.
+Canonical state: `Resilience_Cascade_STATE.json`. Evidence cutoff: 20 September 2026. Cycle completed 21 September. Public repository: https://github.com/Jaradyne/Dis-Unity.
 
-## Shared protocol
+## What changed
 
-Read this file before research and inspect other agents' inbox files before finalizing. Each agent owns only its own inbox JSON and companion Markdown report. The coordinator merges them into canonical state. Exchange material cross-sector findings with the coordinator and relevant peer agents immediately. Do not write another agent's file. No outbound contact, account access, or subscriptions.
+- CL01: regional stock differences and reported produce-truck shortages now complement fuel-cost evidence. Diesel causality and essential delivery failures remain unproven. Grain transport provides counterevidence to a generalized stoppage.
+- CL03: Mosaic independently documents physical phosphate curtailments. This upgrades the upstream branch; farmer fulfillment and crop effects remain conditional. CF's high utilization excludes an idled plant and cannot establish spare nitrogen supply.
+- CL04: a named San Anselmo hub has completed construction, but public outage service hours, staffing and endurance remain unverified. April EBMUD storage is dated context, not current reserve. Unmatched international donor links were removed.
+- CL06: hospital capital renewal can improve local diagnostics while operating cash remains constrained. Grant awards and scanner licensing are distinct milestones, not proof of sustained clinical reserve.
+- Social escalation and tariff-caused repair failure remain unestablished; this cycle did not refresh all domains equally.
 
-Use web search and open primary sources. Record actual publication and observation dates, not crawler dates. As-of cutoff is a ceiling, not proof fresh evidence exists. Never mislabel an older snapshot as September conditions. Future-dated or internally inconsistent sources are quarantined. Distinguish price, physical availability, modeled forecasts, authorized funding, and deployed capacity. Independent signals must not be repeated reporting of one event. Label FACT, PLAUSIBLE MECHANISM, EARLY SIGNAL, UNKNOWN, or SPECULATION. Source grade: A primary direct measurement/operational record; B authoritative analysis or identified secondary reporting; C corroboration needed. Confidence remains separate from source grade.
+## Review and interruptions
 
-## Agent output format
+Six independent primary-source checks of RC-001 were saved. Final peer review of RC-002 additions was interrupted by shared usage limits. Coordinator admission retains this limitation, and Q13 queues it explicitly. The canonical commit receipt is `coordinator_accepted_with_limitations`, not an independent pass. Raw checkpoints retain their original in-progress labels; cycle metadata records that those threads stopped.
 
-Write inbox/<agent_name>.json as an object with agent, cycle_id, coverage, sources, signals, cascades, buffers, transitions, commons, islands, questions, disagreements. These arrays may be empty; no padding. Each source has id (unique prefix), title, publisher, url, publication_date (or null), observation_date/period, retrieved_at, grade, and limitations. Each signal has id, title, geography, systems, epistemic_label, observation, direction (worsening/improving/mixed/unclear), source_ids, confidence, freshness, and implication. Cascades have id, initiating_stress, dependent_system, mechanism, source_ids, buffers, thresholds, substitutes, time_horizon, uncertainty, confirm, falsify, and activation_status. Include practical donor reserve limits in buffers/islands. Transitions distinguish destructive failure, managed shedding, creative transition, healthy replacement/growth. Proposals must be marked proposed, not operational. Put source-backed details in reports/<agent_name>.md. Give URLs and dates in prose reports too.
+## Next allocation
 
-Use concise, useful records. Aim for 4–8 consequential signals and 2–4 conditional cascades per thread. Prefer unresolved gaps over claims built on inaccessible data. Record reassuring evidence and retired or downgraded hypotheses.
+1. Skeptic: review RC-002 additions and donor paths.
+2. Food + Industry: phosphate restarts, distributor fulfillment and application windows.
+3. Energy + Logistics: whether fuel costs and reported truck constraints cause missed deliveries; compare seasonal baselines.
+4. Local + Commons: verified hub outage functions, accessible transport reserve, dated water and healthcare continuity.
 
-## First pass assignments
+The twelve role definitions remain in AGENTS.md. Roles may share a thread, but evidence origin and review independence must remain explicit. Reserve and commons lenses apply throughout. No user-maintained research log is required.
 
-- energy_logistics: diesel/distillates, refining, trucking, regional bottlenecks; price versus physical constraints.
-- food_trade: fertilizer, crops, farm economics, water/cold chain, trade, food reserve networks.
-- infrastructure_health: grid hardware, water, health/emergency capacity, industrial repairs and substitution.
-- local_commons: SF/Bay Area/California municipal and transit finance, workforce/housing dependencies, practical commons assets.
-- networks_social: North America/Caribbean/NATO/Commonwealth networks, social-temperature evidence, outside reserves and unexpected clusters.
-- skeptic_industry: independent economic/industrial reconnaissance first; then challenge peer findings, dates, causality, historical variation and donor assumptions.
-- coordinator: Signal Intake, Cascade Modeler, geography integration, capacity allocation and canonical state. Resilience/Overflow, Islands and Commons lenses apply to every thread.
-
-## Admission and attention gates
-
-A strong warning needs documented service impairment or multiple independent interacting signals; a single stale price series is insufficient. Cross-sector priority rises when mechanisms are evidenced and recovery is slow, and falls when substitutes are deployed or operational indicators improve. Use descriptive bands for LOAD, RESERVE, RECOVERY, DEPENDENCY, SUBSTITUTABILITY, SHEDDING, GROWTH, LIFEBOAT, SOCIAL TEMPERATURE and CONFIDENCE; unknown is valid. No composite collapse score.
-
-## Coordinator exchange board
-
-Initial status: agents launched; no findings admitted yet. Diesel is a starting nerve, not a presumed dominant risk. Priority goes to real intersections and actionable transitions.
-
-### Checkpoint 1 — exchanged findings (provisional pending merge)
-
-- Energy: Sept 14 retail diesel $6.285 US, $8.039 California. Sept 11 actual distillate stocks 107.859m barrels, three weekly builds but 13% below five-year seasonal average; refinery utilization 96.8%. September sub-100m barrels is an EIA forecast, not observed. Prioritize delivered-fuel/service evidence.
-- Food: USDA Sept 3 forecasts fertilizer expenses +15.3%, fuel/oil +28.8%; direct payments and above-long-run-average net farm income are counterevidence. FAO Sept 4 cereal stocks/use 31.6% is a modeled aggregate buffer, not local purchasing power. Phosphate/sulfur strain differs from expanding potash output.
-- Local: BART/SFMTA preserve current service through temporary funding; future service risks are conditional. Buses share fiscal stresses and cannot be assumed to absorb rail loss.
-- Infrastructure: CAISO May summer assessment shows improved modeled adequacy; anticipated additions, local grid constraints and coincident extreme events remain distinct. No current statewide failure established.
-- Industry: Federal Reserve Aug industrial production flat month/month, +1.4% year/year; do not infer generalized industrial collapse. Spare aggregate utilization does not prove spare specialized equipment.
-- Networks/social: FBI matched-agency reported hate incidents declined in 2025; no national 2026 social-temperature conclusion. Caribbean regional recovery/medical networks offer concrete complementary support but donor limits matter.
-
-Attention allocation: deepen diesel/farm/food logistics with energy+food+skeptic; deepen Bay Area fiscal/essential-trip substitution with local+coordinator; investigate sulfur/phosphate as unexpected node. Infrastructure and networks retain conditional reserve checks. No serious warning admitted solely on rhetoric, price or funding proposals.
-
-### Closing checkpoint — RC-001
-
-All six specialists returned early findings, then hit a shared usage limit before final reports. The coordinator reopened key source records and completed the first bounded cycle. Canonical state is now Resilience_Cascade_STATE.json, with 20 signals, 12 conditional links, 26 logged sources (including one inaccessible-data gap), ten explicit review decisions and six commons proposals. The inbox contains clearly labeled captures of received agent messages, not completed specialist reports. No agent is running unattended. The independent closing skeptic pass is the first task on resume.
+Read `cycles/RC-002/EXCHANGE.md` as historical in-cycle context, not current operating status. Start RC-003 for new changes; never edit a committed cycle's evidence, review or event journal.

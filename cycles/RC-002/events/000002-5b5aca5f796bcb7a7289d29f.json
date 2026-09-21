@@ -1,0 +1,15 @@
+{
+  "at": "2026-09-21T01:58:46.005455+00:00",
+  "cycle_id": "RC-002",
+  "event_id": "5b5aca5f796bcb7a7289d29f",
+  "event_type": "agent_submission",
+  "hash": "01841c3aaa95f2f1230ff16c576435511d5b3f03ea9b14b5398ae46100e2c915",
+  "payload": {
+    "agent": "independent_review",
+    "payload_hash": "b6dd1b63880a019333d49b84f5e8d66d7930c8c3e97301de8a2b28a2049d5779",
+    "phase": "checkpoint",
+    "submission_id": "d9e0c6dc9cca3afcf4341aeb50ecfdd85d72b3ea075cd1eab19faec6ce08b4eb"
+  },
+  "previous_hash": "a18a9b30b9c1b6efe4c6fde8c911ae7a0b0f78ee42f78cf450eddcea8504da5c",
+  "sequence": 2
+}

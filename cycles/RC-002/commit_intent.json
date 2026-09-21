@@ -1,0 +1,383 @@
+{
+  "audit": {
+    "changed_paths": [
+      "ACTIVE_SIGNALS",
+      "CASCADE_GRAPH.edges",
+      "CASCADE_GRAPH.review_decisions",
+      "CHANGELOG",
+      "COMMUNITY_COMMONS",
+      "ISLANDS_OF_STABILITY",
+      "QUESTIONS_TO_WATCH",
+      "RESERVES_AND_LIFEBOATS",
+      "SOURCE_LEDGER",
+      "SYSTEM_MAP.clusters",
+      "SYSTEM_MAP.coverage_inventory",
+      "SYSTEM_MAP.geographies",
+      "SYSTEM_MAP.systems",
+      "TRANSITION_OPPORTUNITIES",
+      "meta.agent_run_history",
+      "meta.agent_runs",
+      "meta.baseline",
+      "meta.canonical_repository",
+      "meta.completed_on",
+      "meta.coverage_note",
+      "meta.cycle_id",
+      "meta.independent_review",
+      "meta.review_scope",
+      "meta.runtime_note",
+      "meta.schema_version",
+      "meta.status"
+    ],
+    "changed_sections": [
+      "ACTIVE_SIGNALS",
+      "CASCADE_GRAPH",
+      "CHANGELOG",
+      "COMMUNITY_COMMONS",
+      "ISLANDS_OF_STABILITY",
+      "QUESTIONS_TO_WATCH",
+      "RESERVES_AND_LIFEBOATS",
+      "SOURCE_LEDGER",
+      "SYSTEM_MAP",
+      "TRANSITION_OPPORTUNITIES",
+      "meta"
+    ],
+    "note": "Diff records changes, not their truth or importance. Unkeyed list changes are reported at list level.",
+    "record_changes": {
+      "ACTIVE_SIGNALS": {
+        "added": [
+          "SIG21",
+          "SIG22",
+          "SIG23",
+          "SIG24",
+          "SIG25",
+          "SIG26",
+          "SIG27",
+          "SIG28",
+          "SIG29",
+          "SIG30"
+        ],
+        "changed": {
+          "SIG03": [
+            "last_reviewed_cycle",
+            "review_correction"
+          ]
+        },
+        "removed": []
+      },
+      "CASCADE_GRAPH.edges": {
+        "added": [
+          "EDGE13",
+          "EDGE14"
+        ],
+        "changed": {
+          "EDGE01": [
+            "thresholds"
+          ],
+          "EDGE02": [
+            "activation_status",
+            "buffers",
+            "source_ids"
+          ],
+          "EDGE04": [
+            "activation_status",
+            "falsify",
+            "source_ids"
+          ],
+          "EDGE05": [
+            "source_ids",
+            "uncertainty"
+          ],
+          "EDGE07": [
+            "buffers",
+            "source_ids"
+          ]
+        },
+        "removed": []
+      },
+      "CASCADE_GRAPH.review_decisions": {
+        "added": [
+          "RC002-CR01",
+          "RC002-CR02",
+          "RC002-CR03",
+          "RC002-CR04",
+          "RC002-CR05",
+          "RC002-CR06",
+          "RC002-IR01",
+          "RC002-IR02",
+          "RC002-IR03",
+          "RC002-IR04",
+          "RC002-IR05",
+          "RC002-IR06"
+        ],
+        "changed": {},
+        "removed": []
+      },
+      "COMMUNITY_COMMONS": {
+        "added": [
+          "COM07"
+        ],
+        "changed": {
+          "COM01": [
+            "resources",
+            "source_ids"
+          ],
+          "COM02": [
+            "source_ids"
+          ],
+          "COM04": [
+            "source_ids"
+          ],
+          "COM05": [
+            "source_ids"
+          ]
+        },
+        "removed": []
+      },
+      "ISLANDS_OF_STABILITY": {
+        "added": [
+          "ISL06"
+        ],
+        "changed": {
+          "ISL01": [
+            "limits",
+            "source_ids"
+          ],
+          "ISL02": [
+            "limits",
+            "source_ids"
+          ]
+        },
+        "removed": []
+      },
+      "QUESTIONS_TO_WATCH": {
+        "added": [
+          "Q13",
+          "Q14",
+          "Q15"
+        ],
+        "changed": {
+          "Q01": [
+            "last_reviewed_cycle",
+            "next_public_action",
+            "status"
+          ],
+          "Q02": [
+            "last_reviewed_cycle",
+            "next_public_action",
+            "priority",
+            "status"
+          ],
+          "Q03": [
+            "last_reviewed_cycle",
+            "next_public_action",
+            "priority",
+            "status"
+          ],
+          "Q04": [
+            "last_reviewed_cycle",
+            "next_public_action",
+            "priority",
+            "source_ids",
+            "status"
+          ],
+          "Q05": [
+            "last_reviewed_cycle",
+            "next_public_action",
+            "source_ids",
+            "status"
+          ],
+          "Q09": [
+            "last_reviewed_cycle",
+            "next_public_action",
+            "priority",
+            "source_ids",
+            "status"
+          ],
+          "Q12": [
+            "last_reviewed_cycle",
+            "next_public_action",
+            "priority",
+            "status"
+          ]
+        },
+        "removed": []
+      },
+      "RESERVES_AND_LIFEBOATS": {
+        "added": [
+          "RES11",
+          "RES12",
+          "RES13",
+          "RES14"
+        ],
+        "changed": {
+          "RES01": [
+            "limits"
+          ]
+        },
+        "removed": []
+      },
+      "SOURCE_LEDGER": {
+        "added": [
+          "FF-S02",
+          "FF-S03",
+          "FF-S04",
+          "FF-S05",
+          "LC_SRC01",
+          "LC_SRC02",
+          "LC_SRC03",
+          "RC2H01",
+          "RC2H02",
+          "RC2H03",
+          "RC2H04",
+          "RC2H05",
+          "TRS01",
+          "TRS02"
+        ],
+        "changed": {
+          "SRC04": [
+            "revision_note"
+          ]
+        },
+        "removed": []
+      },
+      "SYSTEM_MAP.clusters": {
+        "added": [
+          "CL06"
+        ],
+        "changed": {
+          "CL01": [
+            "buffers",
+            "independence",
+            "signal_ids",
+            "source_ids",
+            "status"
+          ],
+          "CL02": [
+            "signal_ids",
+            "source_ids",
+            "status"
+          ],
+          "CL03": [
+            "adaptation",
+            "independence",
+            "signal_ids",
+            "source_ids",
+            "status",
+            "transition_ids"
+          ],
+          "CL04": [
+            "buffers",
+            "donor_note",
+            "lifeboats",
+            "outside_reserve",
+            "signal_ids",
+            "source_ids"
+          ]
+        },
+        "removed": []
+      },
+      "SYSTEM_MAP.geographies": {
+        "added": [
+          "Pajaro Valley / Monterey Bay"
+        ],
+        "changed": {
+          "Bay Area": [
+            "coverage_gap",
+            "source_ids"
+          ],
+          "California": [
+            "local_strengths",
+            "source_ids"
+          ]
+        },
+        "removed": []
+      },
+      "SYSTEM_MAP.systems": {
+        "added": [],
+        "changed": {
+          "fertilizer": [
+            "gauges.CONFIDENCE",
+            "gauges.LOAD",
+            "gauges.RECOVERY",
+            "gauges.RESERVE",
+            "source_ids"
+          ],
+          "grid": [
+            "gauges.LIFEBOAT",
+            "source_ids"
+          ],
+          "healthcare": [
+            "gauges.CONFIDENCE",
+            "gauges.GROWTH",
+            "gauges.RESERVE",
+            "source_ids"
+          ],
+          "trucking": [
+            "gauges.LOAD",
+            "gauges.RESERVE",
+            "source_ids"
+          ],
+          "water": [
+            "gauges.RESERVE",
+            "source_ids"
+          ]
+        },
+        "removed": []
+      },
+      "TRANSITION_OPPORTUNITIES": {
+        "added": [
+          "TR07",
+          "TR08"
+        ],
+        "changed": {
+          "TR02": [
+            "risks",
+            "source_ids"
+          ],
+          "TR05": [
+            "source_ids",
+            "status"
+          ]
+        },
+        "removed": []
+      }
+    },
+    "source_changes": {
+      "added": [
+        "FF-S02",
+        "FF-S03",
+        "FF-S04",
+        "FF-S05",
+        "LC_SRC01",
+        "LC_SRC02",
+        "LC_SRC03",
+        "RC2H01",
+        "RC2H02",
+        "RC2H03",
+        "RC2H04",
+        "RC2H05",
+        "TRS01",
+        "TRS02"
+      ],
+      "changed": {
+        "SRC04": [
+          "revision_note"
+        ]
+      },
+      "removed": []
+    }
+  },
+  "base_hash": "576c3346769575157df518e374db33815c8c091ae2d9ee2ec1c0559582d92d56",
+  "candidate_hash": "9ecd1c9ff07ae5c47c303030d70761961f5fb8863d1ea84558d657cd58cb0180",
+  "cycle_id": "RC-002",
+  "limitations": [
+    "Closing independent peer review of RC-002 additions interrupted by shared usage limit.",
+    "AC Transit primary budget was read by specialist but coordinator reopen failed; medium-confidence provisional record.",
+    "Current local deliverable fuel, water, clinical reserve and tested outage hub duration remain unknown."
+  ],
+  "materiality": "material",
+  "prepared_at": "2026-09-21T01:58:46.064023+00:00",
+  "review_id": "a7a0e857b7b24e8e3469d33edb25c6b23aac750ca1e3338e51cd41e95af6dd1e",
+  "review_status": "coordinator_accepted_with_limitations",
+  "reviewer": "coordinator"
+}

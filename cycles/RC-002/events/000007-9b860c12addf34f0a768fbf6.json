@@ -1,0 +1,15 @@
+{
+  "at": "2026-09-21T01:58:46.031844+00:00",
+  "cycle_id": "RC-002",
+  "event_id": "9b860c12addf34f0a768fbf6",
+  "event_type": "agent_submission",
+  "hash": "f4b660ec07d904640a09c7b7ad5f795e9e5470e7d14845ee7b7b783ff38e24f2",
+  "payload": {
+    "agent": "coordinator_health",
+    "payload_hash": "54bffee0fdb83f6f13f59527a674c0d25e74762782e1e3da103641e98c01e565",
+    "phase": "submitted",
+    "submission_id": "04005ab7a7fd9a5f7b0f1cf6e77125d864f94454d0105cf51addacc3cb6bc432"
+  },
+  "previous_hash": "4c69b0c4d2e74d06c8e304fc4ec115bcd8d92832634147d95c9ea226ae04ed9f",
+  "sequence": 7
+}

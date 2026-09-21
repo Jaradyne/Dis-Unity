@@ -1,0 +1,15 @@
+{
+  "at": "2026-09-21T01:58:46.021172+00:00",
+  "cycle_id": "RC-002",
+  "event_id": "3a33c3933f8a551e3d3967f1",
+  "event_type": "agent_submission",
+  "hash": "74c30d30fd8d1a4b03f2dc0de97b7a79984304e54b6c484f82dacfe8e7714556",
+  "payload": {
+    "agent": "transition_reserves",
+    "payload_hash": "7aebe1958ab04d9865c99c60b321562a810963a16fae856403908cc918c00477",
+    "phase": "checkpoint",
+    "submission_id": "8c3613ab16753fabb06156a16398b49d1b42852d5b236552f64fc1034f078108"
+  },
+  "previous_hash": "8ea772350b6dd9eaff99de6874399b98ec2779af0a4c58039fb449492cf4d37f",
+  "sequence": 5
+}

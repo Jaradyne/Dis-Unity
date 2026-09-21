@@ -1,0 +1,15 @@
+{
+  "at": "2026-09-21T01:58:46.026378+00:00",
+  "cycle_id": "RC-002",
+  "event_id": "e836621519df6b1721571b60",
+  "event_type": "agent_submission",
+  "hash": "4c69b0c4d2e74d06c8e304fc4ec115bcd8d92832634147d95c9ea226ae04ed9f",
+  "payload": {
+    "agent": "workflow_builder",
+    "payload_hash": "6252b7817df93181491edbd83a61a5f53f9b5adaf8a20c579dd9c966a7054770",
+    "phase": "checkpoint",
+    "submission_id": "5b412060bf76b5b185c2bb4c08b92a0effccf290d33c7fa02e39f9719738d3d2"
+  },
+  "previous_hash": "74c30d30fd8d1a4b03f2dc0de97b7a79984304e54b6c484f82dacfe8e7714556",
+  "sequence": 6
+}

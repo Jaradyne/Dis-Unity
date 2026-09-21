@@ -1,0 +1,104 @@
+{
+  "agent": "local_continuity",
+  "at": "2026-09-21T01:58:46.015379+00:00",
+  "base_hash": "576c3346769575157df518e374db33815c8c091ae2d9ee2ec1c0559582d92d56",
+  "cycle_id": "RC-002",
+  "payload": {
+    "agent": "local_continuity",
+    "as_of": "2026-09-20",
+    "cycle_id": "RC-002",
+    "findings": [
+      {
+        "epistemic_label": "FACT",
+        "id": "LC_F01",
+        "observation": "EBMUD total system storage667,020acre-feet,106%average,86%capacity onApril8,2026. September dailyreports rendered dates but nofigures. Do not treat oldstorage as available Septembersurplus.",
+        "revises": [
+          "Q09",
+          "SRC26"
+        ],
+        "source_ids": [
+          "LC_SRC01"
+        ],
+        "title": "Water storage baseline recovered but current gap persists"
+      },
+      {
+        "epistemic_label": "FACT",
+        "id": "LC_F02",
+        "observation": "Municipalprojectpage confirms constructioncomplete,solar nowpowersTownHall; July17,2026 ribboncuttingcompleted. Solar/battery/EVmicrogrid; residentcharging/cooling/heating/Wi-Fi specified as futureoutageservice.",
+        "revises": [
+          "Q05",
+          "RES08"
+        ],
+        "source_ids": [
+          "LC_SRC02"
+        ],
+        "title": "Completed SanAnselmo microgrid verified; outage service promise remains conditional"
+      },
+      {
+        "epistemic_label": "FACT",
+        "id": "LC_F03",
+        "observation": "FY27adoptedbudget says currentservicemaintained usingstateloan; sustainablefundingdepends onNovember2026 regionalmeasure also relevant toBART/Muni/Caltrain.",
+        "revises": [
+          "Q03",
+          "CL02",
+          "COM01"
+        ],
+        "source_ids": [
+          "LC_SRC03"
+        ],
+        "title": "AC Transit is a correlated fiscal exposure, not free substitution reserve"
+      }
+    ],
+    "peer_review": [],
+    "proposed_changes": [],
+    "scope": [
+      "Q03",
+      "Q05",
+      "Q09"
+    ],
+    "sources": [
+      {
+        "grade": "A",
+        "id": "LC_SRC01",
+        "limitations": "Observed April storage, not September. Landing page mislabeled April2025 but PDF cover and observation both2026.",
+        "observation_period": "2026-04-08",
+        "publication_date": "2026-04-14",
+        "publisher": "East Bay Municipal Utility District",
+        "retrieved_at": "2026-09-20",
+        "title": "EBMUD Board Water Supply Update April 14, 2026",
+        "url": "https://www.ebmud.com/download_file/force/58167/703?WOD_-_Water_Supply_Update_-_April_14_2026_Final_Board.pdf="
+      },
+      {
+        "grade": "A",
+        "id": "LC_SRC02",
+        "limitations": "Owner confirms completed construction and currentsolar use; no operational islanding drill, outage-hours, staffing, accessiblecapacity or reserve duration verified.",
+        "observation_period": "Completion celebrated2026-07-17; active project page accessed2026-09-20",
+        "publication_date": null,
+        "publisher": "Town of San Anselmo",
+        "retrieved_at": "2026-09-20",
+        "title": "Town Hall Resilience Hub",
+        "url": "https://www.sananselmo.gov/1677/Town-Hall-Resilience-Hub"
+      },
+      {
+        "grade": "A",
+        "id": "LC_SRC03",
+        "limitations": "Budget not actualcash receipts or current sparebuscapacity.",
+        "observation_period": "Adopted FY2026-27 budget; GMmessageJune10,2026",
+        "publication_date": "2026-09",
+        "publisher": "Alameda-Contra Costa Transit District",
+        "retrieved_at": "2026-09-20",
+        "title": "AC Transit FY2026-27 Adopted Budget",
+        "url": "https://www.actransit.org/sites/default/files/2026-09/FY2026-27%20District%20Adopted%20Budget%20Book.pdf"
+      }
+    ],
+    "status": "research_checkpoint",
+    "unknowns": [
+      "Current dated Bay Area water reserve not yet retrieved",
+      "Hub commissioning and accessible operating scope not verified",
+      "Transit substitution donor capacity unknown"
+    ]
+  },
+  "payload_hash": "aff81ee37d97432cdf6c0d77f2c15af8768426c85ec9d677a02b8c9a54a40e22",
+  "phase": "checkpoint",
+  "submission_id": "1fffdd4092ed2f28877ede1ec2eba412c791079d465e0366dbe5e95fbc116e88"
+}

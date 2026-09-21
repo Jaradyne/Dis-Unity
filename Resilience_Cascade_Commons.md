@@ -106,3 +106,18 @@ Reviewable proposal; no evidence of an active local escalation cluster.
 ## Minimal operating card if a pilot is adopted
 
 Partner / essential function / protected minimum / available contribution / time window / accessibility / replenishment / stop condition / alternate handoff. Availability stays unknown until the partner agrees. Client names, health details and private schedules do not belong in shared research state.
+
+
+## RC-002 additions and reserve checks
+
+San Anselmo provides an owner-confirmed completed solar/battery hub example, with outage activation, staffing, accessibility and duration still unverified. Use its [public project record](https://www.sananselmo.gov/1677/Town-Hall-Resilience-Hub) as a design reference, not a promise of available shelter or capacity for another community.
+
+Reported truck shortages strengthen the case for compatible pooled deliveries; they do not establish that any suggested partner has spare vehicles. Some neighboring transit operators share funding risks. Nutrient projects must use soil evidence and qualified agronomy rather than treating potassium, phosphorus and nitrogen as interchangeable.
+
+### COM07 — Care-access and transport coordination
+
+**Status:** Proposed. Clinic navigators, patient-serving nonprofits, community/union representatives and qualified transport partners can map actual public service availability and existing accessible referral routes. Confirm funded slots, handoffs and regular local imaging availability before a pilot.
+
+Preserve necessary care, privacy, existing transport commitments and driver rest. Measure avoidable transfers and missed appointments only in aggregate; no personal patient records are needed for this research system. The practical opportunity is reduced travel when reliable local diagnostics replace off-site trips. [Watsonville district update](https://www.pvhcd.org/home-page/page/new-mri-and-ct-imaging-now-available-watsonville-community-hospital).
+
+The project maintains the research record. Hosts and partner commitments remain unconfirmed, and no outreach has been sent.

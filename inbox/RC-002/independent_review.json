@@ -1,0 +1,185 @@
+{
+  "agent": "independent_review",
+  "cycle": "RC-002",
+  "cutoff": "2026-09-20",
+  "status": "primary_review_complete_peer_review_pending",
+  "method": "Independent reproduction of material RC-001 claims using reopened primary sources; no canonical edits.",
+  "decisions": [
+    {
+      "id": "IR01",
+      "target_ids": [
+        "SIG01",
+        "SIG02",
+        "CL01",
+        "RES01"
+      ],
+      "decision": "confirmed",
+      "factual_basis": "EIA retail diesel table reports US $6.285/gal and California $8.039/gal on September 14, with weekly increases $0.318 and $0.275. September 11 national distillate stocks 107.859m barrels follow three builds from August 21 at 103.391m. WPSR gives 13% below five-year seasonal average and 96.8% refinery utilization.",
+      "source_ids": [
+        "SRC01",
+        "SRC02",
+        "SRC03"
+      ],
+      "evidence_urls": [
+        "https://www.eia.gov/petroleum/gasdiesel/",
+        "https://www.eia.gov/dnav/pet/pet_stoc_wstk_a_epd0_sae_mbbl_w.htm",
+        "https://ir.eia.gov/wpsr/wpsrsummary.pdf"
+      ],
+      "source_dates": [
+        "2026-09-15",
+        "2026-09-16"
+      ],
+      "observation_dates": [
+        "2026-09-14",
+        "2026-09-11"
+      ],
+      "implication": "Retain cost pressure and thin/rebuilding bulk reserve. Neither price nor these inventory estimates establishes terminal stockouts or failures to deliver. Retail includes taxes and is not a farm off-road contract price.",
+      "confidence": "high for reproduction; local deliverability unknown"
+    },
+    {
+      "id": "IR02",
+      "target_ids": [
+        "SIG03",
+        "SRC04"
+      ],
+      "decision": "corrected",
+      "factual_basis": "September STEO was released September 9 using September 3 inputs. Its below-100m September inventory outcome remains a forecast. September 11 weekly stock above that threshold does not falsify the forecast for the still-unfinished month. Current STEO also records a correction: original notable-changes table referenced gasoline crack-spread figures under a distillate label.",
+      "source_ids": [
+        "SRC04",
+        "SRC03"
+      ],
+      "evidence_urls": [
+        "https://www.eia.gov/outlooks/steo/",
+        "https://www.eia.gov/dnav/pet/pet_stoc_wstk_a_epd0_sae_mbbl_w.htm"
+      ],
+      "source_dates": [
+        "2026-09-09",
+        "2026-09-16"
+      ],
+      "observation_dates": [
+        "Forecast inputs 2026-09-03",
+        "2026-09-11"
+      ],
+      "implication": "Keep warning against reporting the forecast as observed, but do not call the forecast refuted or obsolete solely from one mid-month estimate. Retain correction metadata before any crack-spread comparisons. No RC-001 numerical price claim required correction.",
+      "confidence": "high"
+    },
+    {
+      "id": "IR03",
+      "target_ids": [
+        "SIG08",
+        "SIG09",
+        "RES03",
+        "CL02"
+      ],
+      "decision": "confirmed",
+      "factual_basis": "BART September FY27 adopted budget assumes November 2026 measure passage and April 2027 receipts; tables show $52.1m capital deferrals and $88.5m borrowing (executive summary rounds to $52m/$89m). It also anticipates $52.4m emergency carryforward, amount not final until close. Alternative Service Plan is contingent, subject to further Board action, and not the adopted operating timetable. SFMTA April 21 budget protects regular Muni/paratransit FY26-27, with later cuts conditional on funding.",
+      "source_ids": [
+        "SRC08",
+        "SRC09"
+      ],
+      "evidence_urls": [
+        "https://www.bart.gov/sites/default/files/2026-09/FY27%20Adopted%20Budget%20Memo_FINAL_SIGNED.pdf",
+        "https://www.sfmta.com/projects/sfmta-budget-planning-fy-2026-27-and-fy-2027-28"
+      ],
+      "source_dates": [
+        "2026-09",
+        "Undated SFMTA page, decision 2026-04-21"
+      ],
+      "observation_dates": [
+        "FY27 budget assumptions, not realized receipts"
+      ],
+      "implication": "Keep fiscal-capacity warning conditional. Capital deferral can shift burden into recovery, but no present rail failure or specific reliability loss has been established. Treat carryforward as separate from capital deferral and no neighboring transit donor surplus is quantified.",
+      "confidence": "high for budget terms"
+    },
+    {
+      "id": "IR04",
+      "target_ids": [
+        "SIG06",
+        "SIG07",
+        "ISL01"
+      ],
+      "decision": "confirmed",
+      "factual_basis": "Nutrien August 5 disclosure gives Q2 phosphate P2O5 operating rate 75% versus 79%, H1 P2O5 output 656k versus 615k tonnes, and H1 potash output 7.656m versus 6.820m tonnes. Sulfur constraints/global reductions are management characterization. These are different nutrients and comparison periods.",
+      "source_ids": [
+        "SRC07"
+      ],
+      "evidence_urls": [
+        "https://www.nutrien.com/news/press-releases/nutrien-reports-second-quarter-2026-results-1753"
+      ],
+      "source_dates": [
+        "2026-08-05"
+      ],
+      "observation_dates": [
+        "Quarter/half-year ended 2026-06-30"
+      ],
+      "implication": "Retain mixed fertilizer signal and do not infer an overall fertilizer collapse, a current potash surplus for emergency export, or nutrient interchangeability. Available uncommitted surplus remains unknown.",
+      "confidence": "high for company metrics; medium for industry-wide interpretation"
+    },
+    {
+      "id": "IR05",
+      "target_ids": [
+        "SIG10",
+        "SIG16",
+        "RES04",
+        "ISL03"
+      ],
+      "decision": "confirmed",
+      "factual_basis": "CAISO May assessment reports a modeled 2,547 MW surplus relative to its 0.1 LOLE target using existing and anticipated resources, expressly excluding certain coincident extremes and within-zone transmission limits. ENTSO-E summer page supports generally favorable adequacy with local exceptions, while describing a scenario assessment rather than live dispatch.",
+      "source_ids": [
+        "SRC10",
+        "SRC17"
+      ],
+      "evidence_urls": [
+        "https://www.caiso.com/documents/2026-summer-loads-and-resources-assessment.pdf",
+        "https://www.entsoe.eu/outlooks/seasonal/"
+      ],
+      "source_dates": [
+        "2026-05",
+        "Exact ENTSO-E publication date unresolved"
+      ],
+      "observation_dates": [
+        "Summer 2026 planning scenarios"
+      ],
+      "implication": "Reassuring planning evidence is valid, but neither source quantifies presently deployable donor reserve. Retain hourly capacity/interface/home-floor checks; do not add the CAISO modeled surplus to emergency supply as a guaranteed export pool.",
+      "confidence": "high assessment reproduction; unverified live reserve"
+    },
+    {
+      "id": "IR06",
+      "target_ids": [
+        "SIG15",
+        "RES05",
+        "ISL04",
+        "SRC15",
+        "SIG11",
+        "SRC11"
+      ],
+      "decision": "confirmed",
+      "factual_basis": "CDEMA page carries August 30 publication, August 27 dateline and August 26 first orientation of 14 experts; all precede cutoff. This verifies a roster and coordination process, not funded idle teams or present medical surge capacity. Federal Reserve release September 18 explicitly marks August estimates preliminary and gives flat industrial output month/month, +1.4% year/year, manufacturing -0.3% month/month and +0.9% year/year.",
+      "source_ids": [
+        "SRC15",
+        "SRC11"
+      ],
+      "evidence_urls": [
+        "https://www.cdema.org/index.php/cdemanews/categories/press-releases/146-press-releases/1870-cdema-launches-regional-recovery-experts-roster-to-strengthen-caribbean-recovery",
+        "https://www.federalreserve.gov/releases/g17/current/default.htm"
+      ],
+      "source_dates": [
+        "2026-08-30",
+        "2026-09-18"
+      ],
+      "observation_dates": [
+        "2026-08-26 orientation",
+        "August 2026 preliminary statistics"
+      ],
+      "implication": "Retain improving institutional evidence and mixed industry evidence; do not infer operational rescue surplus from a roster or immediately convertible spare production from aggregate utilization. Source event/release dates checked independently.",
+      "confidence": "high dates/figures; current spare capability unknown"
+    }
+  ],
+  "peer_review": [],
+  "source_records": [],
+  "limitations": [
+    "Six decisive material-claim checks completed; not a full audit of all 26 original sources or every active signal.",
+    "Reuters Saudi-delivery page unavailable on independent reopen; existing quarantine should remain.",
+    "Peer review in progress."
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "at": "2026-09-21T01:58:46.010706+00:00",
+  "cycle_id": "RC-002",
+  "event_id": "a5dd76096564038b6810afae",
+  "event_type": "agent_submission",
+  "hash": "bb9d49fb77e295e2247e695da8da595fd5e875b24943f7b709cc3bed20b2acec",
+  "payload": {
+    "agent": "fuel_food",
+    "payload_hash": "e9fa3bbda8069194717b5de8053fa3504d7ac68fe4be7671a95938e8cac467f7",
+    "phase": "checkpoint",
+    "submission_id": "1ab5f57ad7a99c649c722eec4b687bcf00e3180574ce28c91078c97493293790"
+  },
+  "previous_hash": "01841c3aaa95f2f1230ff16c576435511d5b3f03ea9b14b5398ae46100e2c915",
+  "sequence": 3
+}

@@ -1,0 +1,70 @@
+{
+  "agent": "transition_reserves",
+  "at": "2026-09-21T01:58:46.020749+00:00",
+  "base_hash": "576c3346769575157df518e374db33815c8c091ae2d9ee2ec1c0559582d92d56",
+  "cycle_id": "RC-002",
+  "payload": {
+    "agent": "transition_reserves",
+    "as_of": "2026-09-20",
+    "checkpoint": "Mosaic independent phosphate curtailment corroboration",
+    "cycle": "RC-002",
+    "findings": [
+      {
+        "direction": "mixed",
+        "epistemic_label": "FACT",
+        "id": "TRF01",
+        "implication": "North American production is a buffer, not demonstrated spare export capacity. Product-specific outage matters; do not count gross ammonia and upgraded urea/UAN as separate reserve tonnes.",
+        "observation": "CF produced 4.854m tons gross ammonia in H1 2026 versus 5.174m in H1 2025; granular urea rose to 2.421m from 2.292m. Its 98% available-capacity utilization excludes the idled Yazoo City complex. Management expects Yazoo restart H1 2027, not this autumn.",
+        "source_ids": [
+          "TRS01"
+        ],
+        "title": "Nitrogen supply is functioning, but reserve cannot be inferred from high utilization"
+      },
+      {
+        "direction": "worsening",
+        "epistemic_label": "FACT",
+        "id": "TRF02",
+        "implication": "Strengthens SIG06/CL03 beyond a Nutrien-specific margin issue. It establishes producer-level physical capacity withdrawal, not farm stockouts or global phosphate shortage. Temporary commercial curtailment may preserve company cash while imposing destructive labor/access losses; not automatically healthy shedding.",
+        "observation": "Mosaic disclosed temporary idling/curtailment at Uncle Sam and Faustina, reduced rates at three Florida sites, and curtailments in Brazil, attributing decisions to sulfur availability and affordability. Louisiana employees were furloughed with notice of dismissal; retained idle crews support readiness.",
+        "source_ids": [
+          "TRS02"
+        ],
+        "title": "Second producer documents physical phosphate curtailment"
+      }
+    ],
+    "peers_read": [],
+    "proposed_revisions": [],
+    "sources": [
+      {
+        "grade": "A",
+        "id": "TRS01",
+        "limitations": "Producer disclosure; available-capacity denominator excludes Yazoo City; gross ammonia includes internally upgraded products; future restart and price outlook are forecasts.",
+        "observation_period": "H1 and Q2 2026",
+        "publication_date": "2026-08-05",
+        "publisher": "CF Industries",
+        "retrieved_at": "2026-09-20",
+        "title": "CF Industries first-half 2026 results",
+        "url": "https://ir.cfindustries.com/Investors/news/news-details/2026/CF-Industries-Holdings-Inc--Reports-First-Half-2026-Net-Earnings-of-1-34-Billion-Adjusted-EBITDA-of-2-18-Billion/default.aspx"
+      },
+      {
+        "grade": "A",
+        "id": "TRS02",
+        "limitations": "Company public explanation supports its own operating decisions; input-price and broad market attributions remain producer claims. No quantified lost output or current distributor stock. Actual restart since Aug27 unverified.",
+        "observation_period": "Operational status described 2026-08-27",
+        "publication_date": "2026-08-27",
+        "publisher": "The Mosaic Company",
+        "retrieved_at": "2026-09-20",
+        "title": "Fertilizer Markets: Facts and Context",
+        "url": "https://mosaicco.com/Article/Fertilizer-Markets-Facts-and-Context"
+      }
+    ],
+    "status": "researching",
+    "unknowns": [
+      "Independent sulfur/phosphate corroboration",
+      "Actual spare/exportable nutrient reserve, distinct from nameplate/output"
+    ]
+  },
+  "payload_hash": "7aebe1958ab04d9865c99c60b321562a810963a16fae856403908cc918c00477",
+  "phase": "checkpoint",
+  "submission_id": "8c3613ab16753fabb06156a16398b49d1b42852d5b236552f64fc1034f078108"
+}

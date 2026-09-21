@@ -1,0 +1,61 @@
+{
+  "agent": "transition_reserves",
+  "cycle": "RC-002",
+  "as_of": "2026-09-20",
+  "status": "researching",
+  "checkpoint": "Mosaic independent phosphate curtailment corroboration",
+  "findings": [
+    {
+      "id": "TRF01",
+      "epistemic_label": "FACT",
+      "title": "Nitrogen supply is functioning, but reserve cannot be inferred from high utilization",
+      "observation": "CF produced 4.854m tons gross ammonia in H1 2026 versus 5.174m in H1 2025; granular urea rose to 2.421m from 2.292m. Its 98% available-capacity utilization excludes the idled Yazoo City complex. Management expects Yazoo restart H1 2027, not this autumn.",
+      "source_ids": [
+        "TRS01"
+      ],
+      "direction": "mixed",
+      "implication": "North American production is a buffer, not demonstrated spare export capacity. Product-specific outage matters; do not count gross ammonia and upgraded urea/UAN as separate reserve tonnes."
+    },
+    {
+      "id": "TRF02",
+      "epistemic_label": "FACT",
+      "title": "Second producer documents physical phosphate curtailment",
+      "observation": "Mosaic disclosed temporary idling/curtailment at Uncle Sam and Faustina, reduced rates at three Florida sites, and curtailments in Brazil, attributing decisions to sulfur availability and affordability. Louisiana employees were furloughed with notice of dismissal; retained idle crews support readiness.",
+      "source_ids": [
+        "TRS02"
+      ],
+      "direction": "worsening",
+      "implication": "Strengthens SIG06/CL03 beyond a Nutrien-specific margin issue. It establishes producer-level physical capacity withdrawal, not farm stockouts or global phosphate shortage. Temporary commercial curtailment may preserve company cash while imposing destructive labor/access losses; not automatically healthy shedding."
+    }
+  ],
+  "sources": [
+    {
+      "id": "TRS01",
+      "title": "CF Industries first-half 2026 results",
+      "publisher": "CF Industries",
+      "url": "https://ir.cfindustries.com/Investors/news/news-details/2026/CF-Industries-Holdings-Inc--Reports-First-Half-2026-Net-Earnings-of-1-34-Billion-Adjusted-EBITDA-of-2-18-Billion/default.aspx",
+      "publication_date": "2026-08-05",
+      "observation_period": "H1 and Q2 2026",
+      "retrieved_at": "2026-09-20",
+      "grade": "A",
+      "limitations": "Producer disclosure; available-capacity denominator excludes Yazoo City; gross ammonia includes internally upgraded products; future restart and price outlook are forecasts."
+    },
+    {
+      "id": "TRS02",
+      "title": "Fertilizer Markets: Facts and Context",
+      "publisher": "The Mosaic Company",
+      "url": "https://mosaicco.com/Article/Fertilizer-Markets-Facts-and-Context",
+      "publication_date": "2026-08-27",
+      "observation_period": "Operational status described 2026-08-27",
+      "retrieved_at": "2026-09-20",
+      "grade": "A",
+      "limitations": "Company public explanation supports its own operating decisions; input-price and broad market attributions remain producer claims. No quantified lost output or current distributor stock. Actual restart since Aug27 unverified."
+    }
+  ],
+  "proposed_revisions": [],
+  "unknowns": [
+    "Independent sulfur/phosphate corroboration",
+    "Actual spare/exportable nutrient reserve, distinct from nameplate/output"
+  ],
+  "peers_read": []
+}

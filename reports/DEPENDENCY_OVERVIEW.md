@@ -1,19 +1,30 @@
-# Conditional dependency overview
+# Dependency overview — RC-002
 
-Dashed arrows are proposed propagation paths. They do not mean the downstream harm has occurred. Source-linked thresholds and falsifiers are in CASCADE_GRAPH.md.
+Solid arrows below indicate a documented input/cost relationship or producer action. Dotted arrows are conditional downstream branches; co-occurrence alone does not activate them.
 
 ```mermaid
 flowchart TD
-  D["Diesel costs"] --> T["Freight cash pressure"]
-  D --> A["Harvest expenses"]
-  T -. "If delivery capacity falls" .-> F["Food access"]
-  A -. "If operations are delayed" .-> F
-  S["Sulfur availability"] --> P["Phosphate economics"]
-  P -. "If timely inputs fail" .-> A
-  B["Transit funding gap"] -. "If service is reduced" .-> M["Essential mobility"]
-  M -. "If alternatives fail" .-> C["Work and care access"]
-  R["Protected partner reserves"] -. "Capacity checked" .-> M
-  R -. "Capacity checked" .-> F
+  Fuel["Diesel costs and regional stocks"] --> Freight["Transport economics"]
+  Trucks["Reported produce-truck constraints"] -.-> Access["Food delivery and access"]
+  Freight -.-> Access
+  Sulfur["Sulfur availability and cost"] --> Phosphate["Producer phosphate curtailments"]
+  Phosphate -.-> Farms["Farm nutrient fulfillment"]
+  Farms -.-> Access
+  Buffers["Compatible supply, routes and reserves"] -.-> Farms
+  Buffers -.-> Access
 ```
 
-Food stocks, existing operating service and diverse production are buffers. Borrowing, shared bus capacity and volunteer effort are finite. Any rescue proposal needs a donor minimum and a route to replenishment.
+The graph is conditional, not a collapse forecast. Grain rail/barge operations and nutrient-specific production provide counterevidence and potential adaptation. Confirm delivered fulfillment and compatible spare capacity before asserting either failure or rescue.
+
+```mermaid
+flowchart TD
+  Finance["Time-limited operating finance"] -.-> Service["Staffed mobility and care"]
+  Capital["Restricted capital investment"] --> Hardware["Replacement equipment"]
+  Hardware -.-> Service
+  Power["Local power interruption"] -.-> Functions["Water, communications and care"]
+  Hub["Constructed microgrid"] -.-> Functions
+  Service --> Access["Essential access"]
+  Functions --> Access
+```
+
+Capital, cash, staffing and operational reserve are separate. Construction does not establish tested outage duration. Outside help needs a specific compatible function, route, donor floor and replenishment path. Canonical edge records retain sources, thresholds, substitutes, uncertainty, confirming observations and falsifiers.

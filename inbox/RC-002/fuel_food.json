@@ -1,0 +1,109 @@
+{
+  "agent": "fuel_food",
+  "cycle": "RC-002",
+  "status": "in_progress",
+  "cutoff": "2026-09-20",
+  "checkpoint": "Primary evidence obtained: regional EIA stock divergence; USDA Sep15 reefer slight shortage in California vs slight surplus Mexico-Texas; USDA rating definitions verified; harvest/rail movements provide counterevidence to generalized logistics failure.",
+  "sources": [
+    {
+      "id": "FF-S01",
+      "title": "What goes into diesel prices?",
+      "publisher": "EIA",
+      "url": "https://www.eia.gov/todayinenergy/detail.php?id=68164",
+      "publication_date": "2026-09-18",
+      "observation_period": "January\u2013August2026 production and week ending2026-09-11 inventory/utilization",
+      "retrieved_at": "2026-09-20",
+      "grade": "A",
+      "limitations": "Explanation of national/global price mechanism; does not measure local rack availability, order fill rates or missed deliveries."
+    },
+    {
+      "id": "FF-S02",
+      "title": "WPSR Table6: stocks by PAD district",
+      "publisher": "EIA",
+      "url": "https://www.eia.gov/petroleum/supply/weekly/pdf/table6.pdf",
+      "publication_date": "2026-09-16",
+      "observation_period": "Week ending2026-09-11",
+      "retrieved_at": "2026-09-20",
+      "grade": "A",
+      "limitations": "Regional aggregate weekly estimates; all distillate includes grades beyond road diesel; stocks not all freely deliverable; rounded numbers."
+    },
+    {
+      "id": "FF-S03",
+      "title": "Refrigerated Truck Rates and Availability, Latest Week of Data: public JSON",
+      "publisher": "USDA AMS",
+      "url": "https://agtransport.usda.gov/resource/25pi-t6xr.json",
+      "publication_date": "2026-09-17",
+      "observation_period": "2026-09-15",
+      "retrieved_at": "2026-09-20",
+      "grade": "A",
+      "limitations": "Latest-week endpoint will change. Qualitative reported availability for produce shipping regions/lanes, not carrier utilization or missed-delivery rate. Overlapping origin rows cannot count as independent stress events."
+    },
+    {
+      "id": "FF-S04",
+      "title": "Agricultural Refrigerated Truck Quarterly Q1 2026: rating definitions and methodology",
+      "publisher": "USDA AMS",
+      "url": "https://www.ams.usda.gov/sites/default/files/media/RTQ1stQuarter2026.pdf",
+      "publication_date": null,
+      "observation_period": "Q1 2026; used only for definitions and reporting limitations",
+      "retrieved_at": "2026-09-20",
+      "grade": "A",
+      "limitations": "Not current-quarter operating evidence; latest quarter has publication lag; districts may overlap by commodity."
+    },
+    {
+      "id": "FF-S05",
+      "title": "Grain Transportation Report September17 2026",
+      "publisher": "USDA AMS",
+      "url": "https://www.ams.usda.gov/sites/default/files/media/GTR09172026.pdf",
+      "publication_date": "2026-09-17",
+      "observation_period": "Harvest toSep13; rail weekSep5; barge weekSep12; other series as dated",
+      "retrieved_at": "2026-09-20",
+      "grade": "A",
+      "limitations": "Different observation weeks; movement volumes do not quantify spare capacity or fulfillment. Commodity shipping differs from household food delivery. Its global petroleum news relies on other reporting and is not admitted as independent confirmation."
+    }
+  ],
+  "signals": [],
+  "cascades": [],
+  "buffers": [],
+  "transitions": [],
+  "commons": [],
+  "questions": [],
+  "findings": [
+    {
+      "id": "FF-F01",
+      "revise": [
+        "SIG02",
+        "Q02"
+      ],
+      "epistemic_label": "FACT",
+      "source_ids": [
+        "FF-S02"
+      ],
+      "observation": "Sep11 distillate: East Coast21.6m barrels, down0.1m week and31.0% y/y; West Coast10.4m, up0.4m week and down14.2%y/y. West Coast ULSD9.6m, up0.5m week. National build does not imply every region rebuilding. Local deliverability unknown."
+    },
+    {
+      "id": "FF-F02",
+      "revise": [
+        "SIG19",
+        "Q01"
+      ],
+      "epistemic_label": "FACT",
+      "source_ids": [
+        "FF-S03",
+        "FF-S04"
+      ],
+      "observation": "Sep15 produce-truck dataset: CA rows mostly4 (slight shortage), South/CentralCA\u2013Miami5 (shortage), Mexico crossings SouthTexas2 (slight surplus). Observed qualitative truck availability constraint adds a distinct signal beyond price; neither diesel causality nor missed deliveries established."
+    },
+    {
+      "id": "FF-F03",
+      "revise": [
+        "SIG19",
+        "Q01"
+      ],
+      "epistemic_label": "FACT",
+      "source_ids": [
+        "FF-S05"
+      ],
+      "observation": "Sep13 corn/soy harvest8%/6%, both ahead5y pace. Grain railcarloadsSep5 27,445, +24%y/y; bargegrain Sep12 +73%y/y. Current operating counterevidence to generalized harvest/logistics stoppage, not proof of spare or refrigerated capacity."
+    }
+  ]
+}

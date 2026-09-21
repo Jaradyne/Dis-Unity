@@ -1,0 +1,202 @@
+{
+  "agent": "coordinator_health",
+  "at": "2026-09-21T01:58:46.030997+00:00",
+  "base_hash": "576c3346769575157df518e374db33815c8c091ae2d9ee2ec1c0559582d92d56",
+  "cycle_id": "RC-002",
+  "payload": {
+    "agent": "coordinator_health",
+    "buffers": [
+      {
+        "donor_guardrail": "State award is a committed named allocation, not an uncommitted rescue fund; nearby providers must protect own staffed service floor.",
+        "essential_function": "Maintain local clinical access and diagnostics",
+        "id": "RC2H-B1",
+        "limits": "No discretionary/exportable cash established; restricted capital cannot fund operations.",
+        "name": "Watsonville grant bridge and replacement imaging",
+        "readiness": "Award announced; disbursement unknown. Imaging installed/licensed; routine clinical use unverified.",
+        "source_ids": [
+          "RC2H01",
+          "RC2H05"
+        ],
+        "type": "Time-limited financial buffer plus separate capital replacement"
+      }
+    ],
+    "cascades": [
+      {
+        "activation_status": "Conditional watch; dated stress and improving hardware evidence coexist",
+        "buffers": "Grant award; local public ownership and equipment replacement; confirmed recurring reimbursement and partnerships if available",
+        "confirm": "Current public financials plus documented service reduction and inability of nearby providers to absorb load",
+        "dependent_system": "Healthcare access, workforce retention and essential transport",
+        "falsify": "Sustained operating liquidity, retained staffed services and demonstrated shorter waits/less transfer demand",
+        "id": "RC2H-E1",
+        "initiating_stress": "Operating cash shortage persists beyond grant bridge",
+        "mechanism": "If cash cannot cover staffed services, patients may need neighboring providers and longer trips; donor clinics and transport must have actual reserve. The branch is conditional, not a present closure claim.",
+        "source_ids": [
+          "RC2H01",
+          "RC2H04",
+          "RC2H05"
+        ],
+        "substitutes": "Clinically appropriate outpatient/referral capacity and coordinated accessible transport subject to confirmed availability",
+        "thresholds": "Dated board/operator evidence of reduced staffed service or payment-driven supply interruption",
+        "time_horizon": "Weeks to months for cash; months to years for durable operating model",
+        "uncertainty": "Current cash balance, grant disbursement, staffing and partner surplus unverified"
+      }
+    ],
+    "commons": [],
+    "coverage": [
+      "Healthcare fiscal buffers and evidence freshness"
+    ],
+    "cycle_id": "RC-002",
+    "disagreements": [
+      "Latest HCAI survey title cannot establish an adverse finding because contents are password-protected.",
+      "2015–2022 HCAI audited panel is not a current operating gauge.",
+      "September imaging title and physician start wording conflict; conservative installed/licensed stage retained."
+    ],
+    "islands": [],
+    "questions": [
+      {
+        "id": "RC2H-Q1",
+        "next_public_action": "Read next public PVHCD finance/board and operator service reports, separate operatingcash from restricted capital and check actual access evidence",
+        "question": "Have grant funds arrived and replacement imaging entered regular patient service?",
+        "source_ids": [
+          "RC2H01",
+          "RC2H05"
+        ],
+        "status": "open"
+      }
+    ],
+    "signals": [
+      {
+        "confidence": "High for published award and operator funding distinction; current liquidity unknown",
+        "direction": "mixed",
+        "epistemic_label": "FACT",
+        "event_id": "watsonville_2026_liquidity_bridge",
+        "freshness": "Newly discovered historical spring2026 stress and response; not newly observed September distress",
+        "geography": [
+          "California",
+          "Pajaro Valley"
+        ],
+        "id": "RC2H-S1",
+        "implication": "Track operating cash, staffed services and capital projects separately. A new scanner or restricted bond award cannot be counted as payroll reserve.",
+        "observation": "HCAI lists a $10.6m Watsonville grant award in its 2026 program for hospitals meeting severe liquidity eligibility criteria as of April15. Its undated page does not verify September disbursement or current cash. The district separately states Measure N bond funds cannot pay personnel or service operating costs.",
+        "source_ids": [
+          "RC2H01",
+          "RC2H04"
+        ],
+        "status": "Dated stress/buffer example; current condition unknown",
+        "systems": [
+          "healthcare",
+          "municipal",
+          "labor"
+        ],
+        "title": "Hospital liquidity and capital funding are distinct buffers"
+      },
+      {
+        "confidence": "High for operator-reported installation/licensing; medium for immediate availability",
+        "direction": "improving",
+        "epistemic_label": "FACT",
+        "event_id": "watsonville_imaging_replacement_2026",
+        "freshness": "September2026 release",
+        "geography": [
+          "Pajaro Valley",
+          "California"
+        ],
+        "id": "RC2H-S2",
+        "implication": "Healthy replacement could reduce travel and interfacility transfers while operating-finance vulnerability remains separate.",
+        "observation": "District September8 release reports installation complete and state licensing approval September2 for replacement MRI/CT. Wording is inconsistent about start of clinical use; daily availability and transfer reduction remain unverified.",
+        "source_ids": [
+          "RC2H05"
+        ],
+        "status": "Installed/licensed; benefit verification pending",
+        "systems": [
+          "healthcare",
+          "construction",
+          "industrial",
+          "trucking"
+        ],
+        "title": "Watsonville imaging replacement reaches licensing stage"
+      }
+    ],
+    "sources": [
+      {
+        "grade": "A",
+        "id": "RC2H01",
+        "limitations": "Lists award decisions and says agreements are being finalized; no dated September cash balance or confirmed disbursement. Do not infer current closure or that any facility still has under ten days cash.",
+        "observation_period": "2026 grant program with April 15 eligibility and May 29 determinations; undated current page; disbursement not verified",
+        "publication_date": null,
+        "publisher": "California HCAI",
+        "retrieved_at": "2026-09-20",
+        "title": "HCAI Distressed Hospital Funding Programs",
+        "url": "https://hcai.ca.gov/facilities/health-facility-financing/distressed-hospital-loan-program/"
+      },
+      {
+        "grade": "C",
+        "id": "RC2H02",
+        "limitations": "No survey findings admitted. Public landing title is not evidence of hospital distress.",
+        "observation_period": "Survey title only; contents password-protected and not accessed",
+        "publication_date": "2026-09-16",
+        "publisher": "California HCAI",
+        "retrieved_at": "2026-09-20",
+        "title": "Health Care Access Stability Unit Survey (access restricted)",
+        "url": "https://hcai.ca.gov/health-care-access-stability-unit-survey/"
+      },
+      {
+        "grade": "A",
+        "id": "RC2H03",
+        "limitations": "Historical audited panel excludes Kaiser, state and psychiatric facilities; not current2026 continuity or cash reserve.",
+        "observation_period": "Comparable California hospitals, 2015–2022",
+        "publication_date": null,
+        "publisher": "California HCAI",
+        "retrieved_at": "2026-09-20",
+        "title": "Hospital Financial Data Interactive Series: Hospital Financials",
+        "url": "https://hcai.ca.gov/visualizations/hospital-financial-data-interactive-series-hospital-financials/"
+      },
+      {
+        "grade": "A",
+        "id": "RC2H04",
+        "limitations": "Interested operator account republishing CEO commentary. Funding projections not realized losses; legal description attributed to operator, not independently reconciled statutes.",
+        "observation_period": "February 2026 institutional statement and projections",
+        "publication_date": "2026-02-01",
+        "publisher": "Pajaro Valley Health Care District",
+        "retrieved_at": "2026-09-20",
+        "title": "Watsonville Community Hospital CEO partnership statement",
+        "url": "https://www.pvhcd.org/home-page/page/federal-cuts-put-watsonville-community-hospital-risk-partnership-way-forward"
+      },
+      {
+        "grade": "A",
+        "id": "RC2H05",
+        "limitations": "Operator press release; title/paragraph say available now, but physician start described by end of month. Count installed/licensed, not independently demonstrated clinical volume or transfer reduction.",
+        "observation_period": "Installation completed before September 2 licensing; announcement September8",
+        "publication_date": "2026-09-08",
+        "publisher": "Pajaro Valley Health Care District",
+        "retrieved_at": "2026-09-20",
+        "title": "New MRI and CT imaging now available at Watsonville Community Hospital",
+        "url": "https://www.pvhcd.org/home-page/page/new-mri-and-ct-imaging-now-available-watsonville-community-hospital"
+      }
+    ],
+    "status": "complete; independent review requested",
+    "transitions": [
+      {
+        "classification": "Healthy replacement/growth candidate with implementation evidence",
+        "conversion_requirements": "Staffing, scheduling, maintenance, recurring operating funds, clinical availability verification",
+        "function_to_preserve": "Timely local diagnostics and clinical workforce",
+        "growth_candidate": "Reliable local imaging, qualified maintenance and care navigation",
+        "id": "RC2H-T1",
+        "name": "Replace unreliable imaging and protect local access",
+        "released_assets": "Potential avoided transfer trips and external imaging demand; no assumed surplus land, labor or saleable old equipment",
+        "risks": "Capital improvements do not close cash gap; partner consolidation could reduce local access if protections absent",
+        "safe_load_release": "Avoid transfers solely for imaging once local service and clinical appropriateness are confirmed; no necessary care shedding",
+        "source_ids": [
+          "RC2H01",
+          "RC2H04",
+          "RC2H05"
+        ],
+        "status": "Replacement installed/licensed; measured access benefit pending",
+        "success_observation": "Published regular service plus shorter imaging waits and fewer avoidable transfers without added staffing stress",
+        "time_horizon": "Near-term service verification after September licensing; ongoing operations"
+      }
+    ]
+  },
+  "payload_hash": "54bffee0fdb83f6f13f59527a674c0d25e74762782e1e3da103641e98c01e565",
+  "phase": "submitted",
+  "submission_id": "04005ab7a7fd9a5f7b0f1cf6e77125d864f94454d0105cf51addacc3cb6bc432"
+}

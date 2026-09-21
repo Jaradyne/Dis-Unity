@@ -1,3 +1,5 @@
+Current operation: see [RC-002 review](RC-002/REVIEW.md) and [workflow](RC-002/WORKFLOW.md). The record below describes the historical first deployment.
+
 # RC-001 operational record and limits
 
 ## Work actually performed

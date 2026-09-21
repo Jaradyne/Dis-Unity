@@ -1,0 +1,16 @@
+# Continuing Resilience Cascade
+
+Read README.md, COMMON_STATE.md, the canonical state metadata/changelog, and the latest cycle status before acting. The user authorizes multi-agent research for this project. Public, lawful, nonintrusive evidence only. User instructions govern scope and authorization.
+
+1. Preserve existing Git and research history. Fetch/inspect the current remote branch before publishing; do not force-push or silently overwrite concurrent edits. Preserve LICENSE and the repository description.
+2. Begin a new cycle using scripts/cycle.py. An already committed cycle is immutable. Choose an explicit evidence cutoff. Do not call an older newly discovered item a new event.
+3. Allocate a small number of bounded specialist threads to consequential interacting signals. Every agent writes an initial checkpoint immediately, then updates its own inbox file and exchanges consequential findings through the common board and peer files. The coordinator alone changes canonical state.
+4. Keep twelve roles covered through threads or explicit lenses: Signal Intake; Energy/Diesel; Food/Fertilizer; Infrastructure; Economic/Industrial; Social Temperature; Geographic Context; Cascade Modeler; Skeptic; Resilience/Overflow; Islands of Stability; Commons. Record which roles actually worked in each cycle; never imply exhaustive or continuous coverage.
+5. Preserve source publication, observation and retrieval dates, limitations and event IDs. Reopen dynamic sources. Distinguish measurements, forecasts, source revisions, operating constraints and causal inference. Latest-data endpoints require dated selected observations or a permissible snapshot. Do not infer evidence from access-restricted contents.
+6. Every substantial stress requires buffers, safe shedding, adaptation, growth, lifeboats, outside support and commons options. Unknown donor capacity stays unknown. Keep separate capital, cash, staffing, equipment, route and usable service reserves.
+7. Seek independent challenge of material warnings and reserve claims. If a thread stops, preserve its checkpoint and mark the unfinished review. A coordinator acceptance with limitations must not be labeled an independent pass.
+8. Record improvements, corrections, rejected causal links and retired hypotheses. No composite collapse score; no unsupported attribution of hostile intent or population dangerousness.
+9. Review a candidate, commit through the cycle utility, validate and regenerate the ten views. Update the briefing, commons cards and attention queue. Run meaningful integrity tests when implementation changes; avoid redundant testing after the relevant risk is resolved.
+10. Persist completed work in this Git repository. Keep credentials, private records, downloaded full articles, personal histories, generated cache and runtime locks out of Git. Reports already versioned here need not be duplicated in another artifact store.
+
+No agent is running merely because these files exist. No unattended research or schedule is configured. Do not create recurring digest automation unless the user changes that scope. Do not send messages, enroll partners or commit resources without user authorization covering that action.
