@@ -1,6 +1,6 @@
 # Resilience Cascade — Commons proposals
 
-20 September 2026. These are research-backed proposals for discussion, with no organizations contacted and no resources committed. Jared is not assigned ongoing data-entry work.
+Updated 21 September 2026 through RC-003. These are research-backed proposals for discussion, with no organizations contacted and no resources committed. The project maintains the research record.
 
 ## Public starting directory
 
@@ -121,3 +121,31 @@ Reported truck shortages strengthen the case for compatible pooled deliveries; t
 Preserve necessary care, privacy, existing transport commitments and driver rest. Measure avoidable transfers and missed appointments only in aggregate; no personal patient records are needed for this research system. The practical opportunity is reduced travel when reliable local diagnostics replace off-site trips. [Watsonville district update](https://www.pvhcd.org/home-page/page/new-mri-and-ct-imaging-now-available-watsonville-community-hospital).
 
 The project maintains the research record. Hosts and partner commitments remain unconfirmed, and no outreach has been sent.
+
+## RC-003: minimum service and durable control
+
+The [durable commons report](reports/RC-003/DURABLE_COMMONS.md) compares OakCLT's Liberated 23rd Avenue, RYSE Commons, the West Oakland hub project, Hayward and San Leandro libraries. These are existing assets or models; no vacant property or permission for this project is established. San Anselmo remains an implementation example, with public outage endurance unverified. Hayward's documented budget-related hours reduction demonstrates why a building and usable staffed access must be counted separately.
+
+### COM08 — A minimum food service independent of daily surplus
+
+**Status:** Proposed; no stock or funds secured. A food-bank partner, commons operator and community representatives would define the meals/packages they intend to preserve, including dietary and access needs. Predictable purchasing and rotating appropriate staples form the floor; recovered food extends it. ACCFB already documents purchasing and joint procurement, so this builds on an existing operating model rather than assuming charity only redistributes leftovers.
+
+Count safe water, ready-to-eat options, cooking energy, controlled storage, refrigeration where necessary, paid staffing and distribution alongside food. Trace suppliers to actual producing regions and routes. Agree replenishment and fair allocation before the floor is breached. Several sellers using the same wholesaler are not independent reserve. Protect existing client service and farm viability.
+
+**Measure:** Meals that can actually be served during a specified disruption; days until the next indispensable input fails; cost and reliable replenishment. Pounds alone are not nutritional cover. No arbitrary universal stock target is adopted without a service population, menu and hazard scenario. [Supporting evidence](reports/RC-003/FOOD_AND_CONDITIONAL_REPLACEMENT.md).
+
+### COM09 — One durably controlled room and an alternate node
+
+**Status:** Proposed; no tenancy or operating agreement secured. Start with an accessible room, storage and sanitation. Daily computer help, repair, skills and community information give it ordinary value. Secure keys, hours, permitted activities, alteration rights, maintenance and paid coordination through ownership, land-trust stewardship or a funded multiyear agreement. Ordinary meeting-room booking is insufficient.
+
+Measure essential cooling/heating, lights, communications and agreed refrigeration. Secure drinking-water replenishment and sanitation. Test operation with nonessential areas shut down. Choose an alternate node whose electricity, water, access, staff and funding do not all share the same failure. Existing occupants and ordinary services retain their protected floor.
+
+**Measure:** Verified staffed hours, essential-load endurance and successful handoff. [Site leads and control requirements](reports/RC-003/DURABLE_COMMONS.md).
+
+### COM10 — Electrify one suitable food-logistics function
+
+**Status:** Proposed; no fleet conversion authorized or costed. Examine parked refrigeration shore power first, then a predictable return-to-base route if its payload, range, terrain and schedule fit. A motor conversion requires compatible batteries, controls, weight, maintenance and charging; an engine substitution alone is not an operating system.
+
+Verify the energized electrical connection, charging window, utility work, service support and backup delivery before counting displaced diesel. Protect temperature control, drivers and existing deliveries throughout commissioning. Track released engine-maintenance skills and equipment as conversion opportunities without assuming obsolete assets can be repurposed safely.
+
+**Measure:** Completed useful deliveries or refrigeration hours, fuel and energy use, total operating cost and performance during a depot outage. [Transition protocol and evidence](reports/RC-003/FOOD_AND_CONDITIONAL_REPLACEMENT.md).

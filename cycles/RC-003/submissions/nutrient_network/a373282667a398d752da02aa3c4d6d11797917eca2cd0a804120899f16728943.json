@@ -1,0 +1,284 @@
+{
+  "agent": "nutrient_network",
+  "at": "2026-09-21T12:28:31.107899+00:00",
+  "base_hash": "9ecd1c9ff07ae5c47c303030d70761961f5fb8863d1ea84558d657cd58cb0180",
+  "cycle_id": "RC-003",
+  "payload": {
+    "agent": "nutrient_network",
+    "cutoff": "2026-09-21",
+    "cycle": "RC-003",
+    "exchanges": [
+      "electric_food: coproduct migration conditional chain; no attribution of present sulfur constraint to EVs",
+      "maritime_network: donor-route constraints and independent SWARD check",
+      "coordinator: current OFAC conditional pathway and failed USGS annual retrieval",
+      "coordinator: independently verified IEA July2026 shared sulfur/acid bottleneck; retained September navigation status gap"
+    ],
+    "findings": [
+      {
+        "claim": "Phosphorus-bearing rock, sulfur-derived acid, and ammonia perform distinct roles in MAP/DAP manufacture.",
+        "confidence": "high technical",
+        "epistemic_label": "FACT",
+        "id": "NUT-F01",
+        "source_ids": [
+          "NUT01",
+          "NUT02",
+          "NUT04",
+          "NUT07"
+        ]
+      },
+      {
+        "claim": "Mosaic operating curtailment statement was independently reopened; this is corroboration of RC-002, not a new event.",
+        "confidence": "high own operating disclosure",
+        "epistemic_label": "FACT",
+        "event_id": "mosaic_phosphate_curtailment_20260827",
+        "id": "NUT-F02",
+        "source_ids": [
+          "TRS02"
+        ]
+      },
+      {
+        "claim": "Venezuelan sour crude can feed sulfur recovery only through suitable, working processing and logistics; current incremental output is unverified.",
+        "confidence": "high mechanism; unknown current surplus",
+        "epistemic_label": "PLAUSIBLE MECHANISM",
+        "id": "NUT-F03",
+        "source_ids": [
+          "NUT03",
+          "NUT06"
+        ]
+      },
+      {
+        "claim": "GL52C creates conditional authorizations and retains exclusions; a blanket no-trade assumption is incorrect.",
+        "confidence": "high text read; transaction application not assessed",
+        "epistemic_label": "FACT",
+        "id": "NUT-F04",
+        "source_ids": [
+          "NUT05"
+        ]
+      },
+      {
+        "claim": "Declining refinery throughput can remove a sulfur coproduct; replacement planning should track this alongside fuel-demand benefits.",
+        "confidence": "high mechanism; unknown pace and net balance",
+        "epistemic_label": "PLAUSIBLE MECHANISM",
+        "id": "NUT-F05",
+        "source_ids": [
+          "NUT03",
+          "NUT04"
+        ]
+      },
+      {
+        "claim": "ADNOC advertises large Shah sulfur capacity, but current unused and deliverable reserve is unknown.",
+        "confidence": "high operator capacity claim; current readiness unknown",
+        "epistemic_label": "FACT",
+        "id": "NUT-F06",
+        "source_ids": [
+          "NUT08"
+        ]
+      },
+      {
+        "claim": "IEA July report documents fertilizer/mineral-processing exposure to the same sulfur/acid trade disruption.",
+        "confidence": "high report account; September route status unverified",
+        "epistemic_label": "FACT",
+        "event_id": "iea_sulfur_acid_trade_context_20260716",
+        "id": "NUT-F07",
+        "source_ids": [
+          "NUT09"
+        ]
+      }
+    ],
+    "gaps": [
+      "USGS2026 annual sulfur/phosphate PDFs returned errors; current country-by-country shares not verified here. IEA July report provides dated Middle East/Hormuz concentration context.",
+      "USGS June 2026 phosphate monthly PDF was accessible, but extracted table unit labels appeared inconsistent; numerical series withheld pending original-table verification.",
+      "No dated September Venezuelan sulfur-recovery utilization, sulfur stock, terminal export availability or committed buyer volumes found.",
+      "No September restart/fulfillment update beyond Mosaic August 27 disclosure established.",
+      "Current nutrient-recovery plant spare capacity and California agronomic displacement volumes remain unmeasured."
+    ],
+    "peer_review": [
+      {
+        "checked_at": "2026-09-21",
+        "claim": "MV SWARD hijacked while carrying fertilizer toward Mombasa; captive as of July29",
+        "decision": "independently confirmed with date limitation",
+        "event_date": "2026-04-26",
+        "limitations": "Does not establish September captivity or effects on California supply.",
+        "peer": "maritime_network",
+        "source_publication_date": "2026-07-29",
+        "source_url": "https://eunavfor.eu/news/update-ongoing-piracy-incidents-northern-coast-somalia"
+      },
+      {
+        "checked_at": "2026-09-21",
+        "claim": "IEA 2026 report documents sulfur/acid shared bottleneck and May Chinese curbs",
+        "decision": "independently confirmed source content; September status limitation retained",
+        "limitations": "Dated report and estimates; no present shipping closure or EV causal attribution established.",
+        "peer": "coordinator",
+        "source_publication_date": "2026-07-16",
+        "source_url": "https://www.iea.org/reports/global-critical-minerals-outlook-2026/executive-summary"
+      }
+    ],
+    "proposed_edges": [
+      {
+        "activation_status": "Unactivated structural transition hypothesis; no EV attribution for current curtailments",
+        "buffers": "Sour-gas recovery; verified sulfur stocks/import routes; spent-acid regeneration and suitable smelter-acid supply; crop-specific nutrient efficiency. None is counted as currently spare.",
+        "confirm": "Consistent linked refinery and sulfur-output falls, depleted usable inventories, binding acid/fertilizer orders unfulfilled after adaptation.",
+        "dependent_system": "Sulfur/acid inputs to phosphate fertilizer",
+        "falsify": "Alternate supply, stocks or efficiency maintain delivered nutrients through refinery contraction.",
+        "from": "diesel",
+        "id": "NUT-EDGE-PROPOSAL",
+        "initiating_stress": "Sustained refinery throughput contraction during transport electrification",
+        "mechanism": "Some sulfur supply is a coproduct of fuel processing. If retirement outpaces alternate acid/sulfur sources and reductions in fertilizer demand, input availability can tighten.",
+        "source_ids": [
+          "NUT03",
+          "NUT04",
+          "NUT02"
+        ],
+        "substitutes": "Recovered phosphorus; suitable imported fertilizer/acid; alternative acid production subject to plant design. Nitrogen/potassium are not P substitutes.",
+        "thresholds": "Observed decline in recoverable sulfur at affected refineries exceeds accessible replacement plus demand reduction during a relevant fertilizer production/application window.",
+        "time_horizon": "Months to years conditional; major installations can be multiyear",
+        "to": "fertilizer",
+        "uncertainty": "Feed sulfur content, recovery yields, refinery retirement schedules, sulfur stocks, alternate actual output and demand all matter. Not a linear barrel-to-fertilizer rule."
+      }
+    ],
+    "questions_to_watch": [
+      {
+        "priority": "high",
+        "question": "Which currently operating sulfur recovery units can increase merchant shipments after existing commitments and domestic floors?",
+        "user_manual_work_required": false
+      },
+      {
+        "priority": "high",
+        "question": "Are curtailed phosphate plants restarting before relevant application windows and are customer orders being filled?",
+        "user_manual_work_required": false
+      },
+      {
+        "priority": "medium",
+        "question": "Which planned refinery reductions have sulfur continuity provisions?",
+        "user_manual_work_required": false
+      }
+    ],
+    "report": "Both sulfur and phosphate matter, at different steps. Phosphate rock supplies the phosphorus atoms plants need. Sulfur commonly supplies the acid used to free those atoms from the rock. More sulfur cannot replace missing phosphorus; potash cannot replace either nutrient.\n\nAt industrial scale, mines supply phosphate-bearing rock. Beneficiation separates useful mineral from sand, clay and other material by crushing, screening, washing and, where appropriate, flotation. The exact flowsheet depends on the deposit. Fertilizer plants commonly react prepared rock with sulfuric acid, then filter out gypsum to obtain phosphoric acid. Ammonia added to that acid produces MAP or DAP; these supply both nitrogen and phosphorus. Water circulation, grinding, acid production, filtration, waste management and transport are working capacity, not details that disappear because a mineral reserve is large. [NUT01, NUT02, NUT07]\n\nThe upstream sulfur route is itself a network. Oil refineries and sour-gas plants remove sulfur compounds; the Claus process converts hydrogen sulfide into elemental sulfur. Acid plants can use elemental sulfur, regenerated spent acid, or suitable smelter gases. These are established process families, but changing feedstocks or building a new plant is not an instant substitution. [NUT03, NUT04]\n\nA physical constraint is already documented: Mosaic's August 27 disclosure describes Louisiana idles and Florida/Brazil curtailments, attributed to sulfur availability and affordability. This repeats and independently checks the RC-002 observation; it is not a new September shutdown. September restarts, inventory held by distributors, and missed farmer application windows remain unknown. High prices alone would not establish this; the operating disclosure is the stronger evidence. [TRS02]\n\nVenezuela can be part of a sulfur-bearing feedstock network, conditionally. EIA identifies its crude as heavy and sour and documents dependence on diluent, specialized processing, capital and maintenance. That is historical structural context, not a September 2026 operating audit. Sulfur recovery might occur in an upgrader or refinery rather than at the oilfield. Additional oil is only additional recoverable sulfur if the receiving plant has suitable feed capacity, hydrogen/desulfurization equipment, functioning recovery units, handling and buyers. No current Venezuelan exportable sulfur surplus was established. [NUT03, NUT06]\n\nThe legal picture has changed: OFAC GL52C, effective September 14, authorizes specified PDVSA transactions by qualifying established U.S. entities subject to conditions and exclusions. Contract, payment, counterparty and vessel requirements still matter. This supports a lawful conditional pathway, not a claim of unrestricted trade or approval of any proposed sulfur transaction. [NUT05]\n\nThe UAE provides a concrete alternative node: ADNOC describes Shah's sulfur capacity as 4.2 million tons annually. That identifies industrial scale, not spare rescue stock. Its existing buyers, domestic gas requirements, actual plant availability and shipping route constrain what can be offered. Geological reserves must not be silently substituted for accessible exports. [NUT08]\n\nAn independent July IEA report identifies a common bottleneck: the Middle East supplies about one-quarter of global sulfur, while around half of seaborne sulfur trade passes through Hormuz. It reports conflict-related disruption and Chinese sulfuric-acid export curbs in May, affecting both fertilizer and mineral processing. This is dated context, not confirmation that Hormuz remains closed on September 21. The shared input exposes food and electrification supply chains to a common shock; it does not prove battery demand caused fertilizer curtailments. [NUT09]\n\nDiesel electrification adds a useful second-order question. If cleaner transport eventually lowers refinery throughput, recovered sulfur from that throughput can fall. This is a conditional medium/long-term mechanism, not evidence that electric vehicles caused today's curtailments. The replacement program should preserve essential nutrient functions through efficiency, recovered nutrients, acid regeneration and verified alternative supply. Retaining unnecessary diesel demand is not the inferred solution. Confirmation would require linked refinery sulfur-output declines that outpace alternate supply and demand reductions; stable delivered acid/fertilizer supply would weaken the warning. [NUT03, NUT04; analytical inference]\n\nNear-term adaptation is field-specific: soil tests can identify places where additional phosphorus provides little benefit, while protecting deficient soils. Tested manure and compost can return phosphorus, but nutrient availability, contaminants, handling and transport must be assessed. Ground rock is often a poor immediate substitute because plant availability can be low. Minnesota research supports this approach, not a universal fertilizer-cut percentage for California. [NUT07]\n\nA commons opportunity is a grower/cooperative nutrient service: share sampling, qualified interpretation, certified input specifications and delivery coordination. Local nutrient recovery can complement commercial supply, but cannot manufacture phosphorus from nothing. Preserve donor soil fertility, existing food commitments, workers and safe plant restart capability before counting released capacity. New recovery installations and major Venezuelan rehabilitation belong in the development queue; only verified stocks and functioning contracted routes belong in today's reserve column.\n",
+    "sources": [
+      {
+        "grade": "A",
+        "id": "NUT01",
+        "last_checked_by": "nutrient_network",
+        "limitations": "Historical technical process source; old production shares and emission-regulation statements are not treated as current.",
+        "observation_period": "Technical processes; reformatted January 1995",
+        "publication_date": "1993-07",
+        "publisher": "U.S. EPA",
+        "retrieved_at": "2026-09-21",
+        "title": "Phosphate Rock Processing, AP-42 section 11.21",
+        "url": "https://www.epa.gov/sites/default/files/2020-10/documents/c11s21.pdf"
+      },
+      {
+        "grade": "A",
+        "id": "NUT02",
+        "last_checked_by": "nutrient_network",
+        "limitations": "Technical chemistry only; no current market share, regulation or capacity asserted.",
+        "observation_period": "Historical technical description of wet and thermal processes",
+        "publication_date": null,
+        "publisher": "U.S. EPA",
+        "retrieved_at": "2026-09-21",
+        "title": "Phosphoric Acid, AP-42 section 8.9",
+        "url": "https://www.epa.gov/sites/default/files/2020-09/documents/8.9_phosphoric_acid.pdf"
+      },
+      {
+        "grade": "A",
+        "id": "NUT03",
+        "last_checked_by": "nutrient_network",
+        "limitations": "Technical process source, not a current capacity inventory or site-specific recovery guarantee.",
+        "observation_period": "Technical description of recovery from refinery and gas-processing H2S",
+        "publication_date": "2015-04",
+        "publisher": "U.S. EPA",
+        "retrieved_at": "2026-09-21",
+        "title": "Sulfur Recovery, AP-42 section 8.13",
+        "url": "https://www.epa.gov/sites/default/files/2020-09/documents/8.13_sulfur_recovery.pdf"
+      },
+      {
+        "grade": "A",
+        "id": "NUT04",
+        "last_checked_by": "nutrient_network",
+        "limitations": "Historical market shares and regulations not asserted as current; alternative process existence does not establish expandable merchant supply.",
+        "observation_period": "Technical processes; reformatted January 1995",
+        "publication_date": "1993-07",
+        "publisher": "U.S. EPA",
+        "retrieved_at": "2026-09-21",
+        "title": "Sulfuric Acid, AP-42 section 8.10",
+        "url": "https://www.epa.gov/sites/default/files/2020-09/documents/8.10_sulfuric_acid.pdf"
+      },
+      {
+        "grade": "A",
+        "id": "NUT05",
+        "last_checked_by": "nutrient_network",
+        "limitations": "Authorizations are conditional and transaction-specific; other federal requirements continue; no sulfur-specific transaction is assessed or approved here.",
+        "observation_period": "Effective September 14, 2026; supersedes 52B",
+        "publication_date": "2026-09-14",
+        "publisher": "U.S. Treasury OFAC",
+        "retrieved_at": "2026-09-21",
+        "title": "General License 52C: Certain Transactions Involving PDVSA",
+        "url": "https://ofac.treasury.gov/media/936926/download?inline="
+      },
+      {
+        "grade": "A",
+        "id": "NUT06",
+        "last_checked_by": "nutrient_network",
+        "limitations": "Historical structural evidence only. The 2023 licensing, production numbers and 2024 forecasts are not current 2026 status.",
+        "observation_period": "2023 structural context and then-current 2024 forecast",
+        "publication_date": "2023-10-23",
+        "publisher": "U.S. EIA",
+        "retrieved_at": "2026-09-21",
+        "title": "Venezuela heavy crude output growth constraints after sanctions relief",
+        "url": "https://www.eia.gov/todayinenergy/detail.php?id=60762"
+      },
+      {
+        "grade": "A",
+        "id": "NUT07",
+        "last_checked_by": "nutrient_network",
+        "limitations": "Minnesota agronomic calibration is not a California application prescription. Local crop, soil and nutrient analyses are required.",
+        "observation_period": "Research-based manufacturing and crop/soil guidance; mixed study dates",
+        "publication_date": null,
+        "publisher": "University of Minnesota Extension",
+        "retrieved_at": "2026-09-21",
+        "title": "Understanding phosphorus fertilizers",
+        "url": "https://extension.umn.edu/agriculture/crop-production/nutrient-management-for-minnesota-crops/understanding-phosphorus-fertilizers"
+      },
+      {
+        "grade": "A",
+        "id": "NUT08",
+        "last_checked_by": "nutrient_network",
+        "limitations": "Operator advertises 4.2 million tons/year sulfur capacity; wording says tons. Neither current actual output nor uncommitted export surplus is established.",
+        "observation_period": "Undated capacity statement read September 21, 2026",
+        "publication_date": null,
+        "publisher": "ADNOC",
+        "retrieved_at": "2026-09-21",
+        "title": "ADNOC Sour Gas: Shah operating profile",
+        "url": "https://www.adnoc.ae/en/adnoc-sour-gas"
+      },
+      {
+        "grade": "A",
+        "id": "TRS02",
+        "last_checked_by": "nutrient_network",
+        "limitations": "Existing canonical source independently reopened. Own operating decisions are supported; broader causation is company attribution. No subsequent restart or customer fulfillment is verified.",
+        "observation_period": "Operating adjustments announced August 27, 2026",
+        "publication_date": "2026-08-27",
+        "publisher": "The Mosaic Company",
+        "retrieved_at": "2026-09-21",
+        "title": "Fertilizer Markets: Facts and Context",
+        "url": "https://mosaicco.com/Article/Fertilizer-Markets-Facts-and-Context"
+      },
+      {
+        "grade": "A",
+        "id": "NUT09",
+        "last_checked_by": "nutrient_network",
+        "limitations": "Dated report context, not a September21 navigation-status bulletin. Mineral-processing and fertilizer shared acid exposure does not establish battery-caused food shortages.",
+        "observation_period": "Report snapshot through publication, including May2026 export measures",
+        "publication_date": "2026-07-16",
+        "publisher": "International Energy Agency",
+        "retrieved_at": "2026-09-21",
+        "title": "Global Critical Minerals Outlook 2026: executive summary",
+        "url": "https://www.iea.org/reports/global-critical-minerals-outlook-2026/executive-summary"
+      }
+    ],
+    "status": "completed_bounded_research"
+  },
+  "payload_hash": "b5a3627e26cb5f870bd71dabbb134364d67dc66d5281da8a108e7c737a73fcb8",
+  "phase": "submitted",
+  "submission_id": "a373282667a398d752da02aa3c4d6d11797917eca2cd0a804120899f16728943"
+}

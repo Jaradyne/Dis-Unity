@@ -1,6 +1,6 @@
 # QUESTIONS_TO_WATCH
 
-Cycle RC-002; cutoff 2026-09-20.
+Cycle RC-003; cutoff 2026-09-21.
 
 **id:** Q01
 
@@ -294,6 +294,8 @@ Cycle RC-002; cutoff 2026-09-20.
 
 **id:** Q13
 
+**last reviewed cycle:** RC-003
+
 **next public action:** Review new producer curtailment, truck availability, hub readiness and healthcare cash/capital claims; challenge every donor link
 
 **owner role:** Skeptic
@@ -306,7 +308,7 @@ Cycle RC-002; cutoff 2026-09-20.
 
 **Sources:** [TRS02: The Mosaic Company](https://mosaicco.com/Article/Fertilizer-Markets-Facts-and-Context), [FF-S03: USDA AMS](https://agtransport.usda.gov/resource/25pi-t6xr.json), [LC_SRC02: Town of San Anselmo](https://www.sananselmo.gov/1677/Town-Hall-Resilience-Hub), [RC2H05: Pajaro Valley Health Care District](https://www.pvhcd.org/home-page/page/new-mri-and-ct-imaging-now-available-watsonville-community-hospital)
 
-**status:** open
+**status:** partially addressed: Mosaic independently rechecked; remaining RC-002 claims still require scoped review
 
 **user manual work required:** False
 
@@ -357,4 +359,179 @@ Cycle RC-002; cutoff 2026-09-20.
 **user manual work required:** False
 
 **why it matters:** Producer proposes DEF expansion, but present transport constraint is unproven
+
+
+---
+
+**id:** Q16
+
+**last reviewed cycle:** RC-003
+
+**next public action:** Follow EPA docket and assessment, independent research/retractions, company filings, court orders, distributor access, licensing and qualified agronomic alternatives; verify every claimed causal link.
+
+**owner role:** Signal Intake + Food + Industry + Skeptic
+
+**priority:** high
+
+**question:** What changes in Bayer/Monsanto evidence, operating access and governance?
+
+**revisit trigger:** New assessment/order/filing, documented product access change or independently supported harm; next active research cycle
+
+**Sources:** [BAY01: U.S. EPA](https://www.epa.gov/ingredients-used-pesticide-products/glyphosate), [BAY02: International Agency for Research on Cancer](https://www.iarc.who.int/wp-content/uploads/2018/07/MonographVolume112-1.pdf), [BAY03: Bayer](https://www.bayer.com/en/history/1925-1945)
+
+**status:** open
+
+**user manual work required:** False
+
+**why it matters:** Health/ecological evidence, market access, legal liabilities and operational capacity are distinct; concentration can affect choices without proving hostile intent.
+
+
+---
+
+**id:** Q17
+
+**last reviewed cycle:** RC-003
+
+**next public action:** Read current public food-bank reports for supply mix, purchased-food cash, delivery fill rates and usable stocks; derive no local ratio from national totals.
+
+**owner role:** Food + Commons
+
+**priority:** high
+
+**question:** How many usable food-service days survive losing a major supply channel?
+
+**revisit trigger:** New operating data or reported unfilled distributions
+
+**Sources:** [EFS01: Feeding America](https://www.feedingamerica.org/sites/default/files/2025-12/FA_25AnnReport_DIGITAL_final.pdf), [EFS02: Alameda County Community Food Bank](https://www.accfb.org/wp-content/uploads/2026/01/ACCFB-2025-Audit-FS.pdf), [EFS03: Alameda County Community Food Bank](https://www.accfb.org/annual-report-2025/)
+
+**status:** open
+
+**user manual work required:** False
+
+**why it matters:** Annual pounds and referral lists do not reveal stressed reserve.
+
+
+---
+
+**id:** Q18
+
+**last reviewed cycle:** RC-003
+
+**next public action:** Use public fleet/utility plans and project disclosures to identify return-to-base routes, shore-power sites, energized chargers and maintenance support.
+
+**owner role:** Energy + Infrastructure + Commons
+
+**priority:** high
+
+**question:** Which local diesel function can be replaced with demonstrated reliable service?
+
+**revisit trigger:** Named commissioning, duty-cycle results or delayed electrical service
+
+**Sources:** [EFS04: U.S. Department of Energy, Alternative Fuels Data Center](https://afdc.energy.gov/vehicles/electric-fleets), [EFS05: U.S. Department of Energy, Alternative Fuels Data Center](https://afdc.energy.gov/vehicles/electric-conversions), [EFS06: U.S. Department of Energy, Alternative Fuels Data Center](https://afdc.energy.gov/fuels/electricity-infrastructure-development), [EFS08: U.S. Department of Energy, Alternative Fuels Data Center](https://afdc.energy.gov/case/3069)
+
+**status:** open
+
+**user manual work required:** False
+
+**why it matters:** A staged replacement can preserve scarce diesel for less substitutable work.
+
+
+---
+
+**id:** Q19
+
+**last reviewed cycle:** RC-003
+
+**next public action:** Inspect public property/project records and operating agreements for tenure, keys, hours, storage, allowed alterations, budget and activation rights; record lack of availability candidly.
+
+**owner role:** Commons + Geographic Context
+
+**priority:** high
+
+**question:** Which commons candidate can secure lasting control and funded public operation?
+
+**revisit trigger:** Published offering or operating agreement; no contact without authorization
+
+**Sources:** [DC03: Oakland Community Land Trust](https://oakclt.org/portfolio-items/liberated23rdave/), [DC08: Oakland Community Land Trust](https://oakclt.org/what-is-a-community-land-trust/), [DC06: City of Hayward](https://www.hayward-ca.gov/public-library/using-library/meeting-rooms), [DC07: City of San Leandro](https://www.sanleandro.org/162/Public-Library), [LC_SRC02: Town of San Anselmo](https://www.sananselmo.gov/1677/Town-Hall-Resilience-Hub)
+
+**status:** open
+
+**user manual work required:** False
+
+**why it matters:** Existing space, community ownership and actual emergency service are separate stages.
+
+
+---
+
+**id:** Q20
+
+**last reviewed cycle:** RC-003
+
+**next public action:** Seek dated operator recovery utilization, restart, merchant stock and shipment evidence; verify Venezuela legal scope and recipient recovery capacity separately.
+
+**owner role:** Energy + Food + Industry
+
+**priority:** high
+
+**question:** Which sulfur/acid offers are genuinely deliverable after donor commitments?
+
+**revisit trigger:** New recovery/restart/export evidence or applicable authorization change
+
+**Sources:** [NUT05: U.S. Treasury OFAC](https://ofac.treasury.gov/media/936926/download?inline=), [NUT06: U.S. EIA](https://www.eia.gov/todayinenergy/detail.php?id=60762), [NUT08: ADNOC](https://www.adnoc.ae/en/adnoc-sour-gas), [RC3C02: International Energy Agency](https://www.iea.org/reports/global-critical-minerals-outlook-2026/executive-summary)
+
+**status:** open
+
+**user manual work required:** False
+
+**why it matters:** Sour crude or large recovery capacity alone cannot fill a fertilizer order.
+
+
+---
+
+**id:** Q21
+
+**last reviewed cycle:** RC-003
+
+**next public action:** Obtain dated operator/security/port reports and matched voyage denominators; separate war, piracy, sanctions and insurance; link any delay to actual orders.
+
+**owner role:** Trade + Geographic Context + Skeptic
+
+**priority:** high
+
+**question:** Are the relevant routes currently usable, insurable and timely?
+
+**revisit trigger:** New dated route advisory or matched shipment/fulfillment record
+
+**Sources:** [MAR01: ICC International Maritime Bureau](https://icc-ccs.org/lowest-first-quarter-maritime-piracy-and-armed-robbery-figures-since-1991-but-vigilance-remains-essential-2/), [MAR02: ReCAAP ISC](https://www.recaap.org/resources/ck/files/news/2026/Press%20release%20-%20ReCAAP%20ISC%20Half%20Year%20Report%20(Jan%20-%20Jun%202026)%20-%20final.pdf), [MAR04: EUNAVFOR ATALANTA](https://eunavfor.eu/news/resolution-piracy-incident-gulf-aden), [MAR07: ICC International Maritime Bureau](https://icc-ccs.org/piracy-and-armed-robbery-prone-areas-and-warnings/), [RC3C02: International Energy Agency](https://www.iea.org/reports/global-critical-minerals-outlook-2026/executive-summary)
+
+**status:** open
+
+**user manual work required:** False
+
+**why it matters:** H1 incident totals and a July conflict account cannot establish September passage.
+
+
+---
+
+**id:** Q22
+
+**last reviewed cycle:** RC-003
+
+**next public action:** Track refinery sulfur continuity, acid regeneration and crop-specific nutrient efficiency alongside commissioned electric service; reject unsupported battery-caused famine narratives.
+
+**owner role:** Cascade Modeler + Resilience + Skeptic
+
+**priority:** medium
+
+**question:** Does transition planning preserve useful coproducts and independent fallback?
+
+**revisit trigger:** Documented coproduct output loss or replacement project data
+
+**Sources:** [NUT03: U.S. EPA](https://www.epa.gov/sites/default/files/2020-09/documents/8.13_sulfur_recovery.pdf), [NUT04: U.S. EPA](https://www.epa.gov/sites/default/files/2020-09/documents/8.10_sulfuric_acid.pdf), [RC3C03: International Energy Agency](https://www.iea.org/reports/global-critical-minerals-outlook-2025/executive-summary), [EFS06: U.S. Department of Energy, Alternative Fuels Data Center](https://afdc.energy.gov/fuels/electricity-infrastructure-development)
+
+**status:** open
+
+**user manual work required:** False
+
+**why it matters:** Retiring fuel demand can alter sulfur output; electric systems need compatible materials and charging.
 

@@ -1,0 +1,79 @@
+{
+  "agent": "coordinator_bayer",
+  "cycle_id": "RC-003",
+  "status": "completed_bounded_research",
+  "cutoff": "2026-09-21",
+  "findings": [
+    {
+      "epistemic_label": "FACT",
+      "claim": "EPA glyphosate page updated August 26, 2026 describes a new human-health review expected late 2026 and a literature-comment deadline September 24. The 2020 interim decision was vacated in part and subsequently withdrawn in 2022. EPA continues to describe its prior no-risk-of-concern conclusion; this is not a completed new review.",
+      "source_ids": [
+        "BAY01"
+      ]
+    },
+    {
+      "epistemic_label": "FACT",
+      "claim": "IARC classified glyphosate probably carcinogenic to humans (Group 2A) in March 2015; a hazard classification does not estimate individual risk at a specified exposure. Regulatory risk assessment, hazard identification and litigation are distinct evidence lanes.",
+      "source_ids": [
+        "BAY01",
+        "BAY02"
+      ]
+    },
+    {
+      "epistemic_label": "FACT",
+      "claim": "Bayer own history acknowledges its incorporation into IG Farben and forced labor. This is material historical conduct, not evidence of the intent of present employees or every current decision.",
+      "source_ids": [
+        "BAY03"
+      ]
+    },
+    {
+      "epistemic_label": "UNKNOWN",
+      "claim": "No evidence established that Bayer is causing the current sulfur/phosphate constraint or intentionally withholding nutrients. Track seed/input access, distributor fulfillment, licensing/concentration, litigation cash commitments, operational changes, ecological/health evidence, research integrity and viable agronomic substitutes separately.",
+      "source_ids": [
+        "BAY01",
+        "BAY02",
+        "TRS02"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "BAY01",
+      "title": "Glyphosate: current review, evidence and regulatory history",
+      "publisher": "U.S. EPA",
+      "url": "https://www.epa.gov/ingredients-used-pesticide-products/glyphosate",
+      "publication_date": "2026-08-26",
+      "observation_period": "Current review schedule plus historical 2017 assessment and 2022 vacatur/withdrawal",
+      "retrieved_at": "2026-09-21",
+      "grade": "A",
+      "limitations": "Agency positions are attributed. Completion in late 2026 is intended, not achieved. Does not establish individual medical risk or adjudicate litigation. EPA acknowledges the November 2025 review-article retraction, but this record does not independently establish its underlying misconduct."
+    },
+    {
+      "id": "BAY02",
+      "title": "IARC Monographs Volume 112 evaluation announcement",
+      "publisher": "International Agency for Research on Cancer",
+      "url": "https://www.iarc.who.int/wp-content/uploads/2018/07/MonographVolume112-1.pdf",
+      "publication_date": "2015-03-20",
+      "observation_period": "2015 hazard assessment",
+      "retrieved_at": "2026-09-21",
+      "grade": "A",
+      "limitations": "Hazard identification is not an exposure-specific risk estimate. Does not determine a product formulation, user exposure, corporate intent or supply shortage."
+    },
+    {
+      "id": "BAY03",
+      "title": "History of Bayer: 1925–1945",
+      "publisher": "Bayer",
+      "url": "https://www.bayer.com/en/history/1925-1945",
+      "publication_date": "2023-07-11",
+      "observation_period": "Historical corporate role 1925–1945",
+      "retrieved_at": "2026-09-21",
+      "grade": "A",
+      "limitations": "Company acknowledgement of historical conduct; not a complete independent history or evidence of present intent."
+    }
+  ],
+  "limitations": [
+    "A Reuters September 14 settlement search result could not be reopened; no current settlement status or Supreme Court holding admitted.",
+    "Bayer half-year underlying report and Soda Springs technical source not retrieved; no current cash runway or phosphorus diversion claim.",
+    "Specialist Bayer checkpoint contained no findings; coordinator performed this bounded admission."
+  ]
+}

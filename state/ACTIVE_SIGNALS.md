@@ -1,6 +1,6 @@
 # ACTIVE_SIGNALS
 
-Cycle RC-002; cutoff 2026-09-20.
+Cycle RC-003; cutoff 2026-09-21.
 
 **confidence:** high for survey
 
@@ -826,7 +826,7 @@ Cycle RC-002; cutoff 2026-09-20.
 
 **implication:** Independent producer corroboration upgrades upstream physical-capacity concern. Distributor rationing and missed application remain unproven; furloughs are a labor cost, not automatically healthy shedding.
 
-**last reviewed cycle:** RC-002
+**last reviewed cycle:** RC-003
 
 **observation:** Mosaic disclosed temporary idling/curtailment at Uncle Sam and Faustina, reduced rates at three Florida sites, and curtailments in Brazil, attributing decisions to sulfur availability and affordability. Louisiana employees were furloughed with notice of dismissal; retained idle crews support readiness.
 
@@ -944,7 +944,7 @@ Cycle RC-002; cutoff 2026-09-20.
 
 **implication:** Moves a named hub beyond proposal. Public outage hours, staffed access, tested islanding and usable duration remain unverified; no clinical or regional rescue claim.
 
-**last reviewed cycle:** RC-002
+**last reviewed cycle:** RC-003
 
 **observation:** Municipalprojectpage confirms constructioncomplete,solar nowpowersTownHall; July17,2026 ribboncuttingcompleted. Solar/battery/EVmicrogrid; residentcharging/cooling/heating/Wi-Fi specified as futureoutageservice.
 
@@ -1077,4 +1077,481 @@ Cycle RC-002; cutoff 2026-09-20.
 - trucking
 
 **title:** Watsonville imaging replacement reaches licensing stage
+
+
+---
+
+**confidence:** High for the stated source scope; operational gaps retained
+
+**direction:** mixed
+
+**epistemic label:** FACT
+
+**event id:** rc003_31
+
+**first seen cycle:** RC-003
+
+**freshness:** Late discovery or structural evidence; see source observation dates
+
+## geography
+
+- California
+- United States
+- Global resource and trade nodes
+
+**id:** SIG31
+
+**implication:** Watch regulation, independent evidence, operational access and research integrity separately. No Bayer-caused sulfur shortage or malicious intent inferred.
+
+**last reviewed cycle:** RC-003
+
+**observation:** EPA August 26 page anticipates an updated health assessment late 2026 and lists September 24 literature comments. IARC 2015 Group 2A hazard classification and EPA prior risk assessment differ; 2022 partial vacatur and withdrawal remain relevant history.
+
+**Sources:** [BAY01: U.S. EPA](https://www.epa.gov/ingredients-used-pesticide-products/glyphosate), [BAY02: International Agency for Research on Cancer](https://www.iarc.who.int/wp-content/uploads/2018/07/MonographVolume112-1.pdf)
+
+**status:** Admitted with scope limits
+
+## systems
+
+- agriculture
+- industrial
+
+**title:** Glyphosate review remains open; evidence lanes separated
+
+
+---
+
+**confidence:** High for the stated source scope; operational gaps retained
+
+**direction:** unclear
+
+**epistemic label:** FACT
+
+**event id:** rc003_32
+
+**first seen cycle:** RC-003
+
+**freshness:** Late discovery or structural evidence; see source observation dates
+
+## geography
+
+- United States
+
+**id:** SIG32
+
+**implication:** Stress-test rescued supply separately from purchases and government commodities.
+
+**last reviewed cycle:** RC-003
+
+**observation:** Feeding America FY2025 reports 4.3 billion pounds rescued of 7.2 billion sourced: about 60%, calculated from rounded national figures. This is not a local supply mix or current inventory.
+
+**Sources:** [EFS01: Feeding America](https://www.feedingamerica.org/sites/default/files/2025-12/FA_25AnnReport_DIGITAL_final.pdf)
+
+**status:** Admitted with scope limits
+
+## systems
+
+- food_assistance
+- food_logistics
+
+**title:** Food rescue is a major, incomplete component of assistance
+
+
+---
+
+**confidence:** High for the stated source scope; operational gaps retained
+
+**direction:** improving
+
+**epistemic label:** FACT
+
+**event id:** rc003_33
+
+**first seen cycle:** RC-003
+
+**freshness:** Late discovery or structural evidence; see source observation dates
+
+## geography
+
+- Bay Area
+
+**id:** SIG33
+
+**implication:** Build from existing purchasing capacity; do not assume food banks rely only on leftovers.
+
+**last reviewed cycle:** RC-003
+
+**observation:** FY2025 audit distinguishes purchased, donated, government and recovered food. Annual report describes wholesale-price access and a five-food-bank purchasing partnership. Available emergency balances and delivery commitments remain unknown.
+
+**Sources:** [EFS02: Alameda County Community Food Bank](https://www.accfb.org/wp-content/uploads/2026/01/ACCFB-2025-Audit-FS.pdf), [EFS03: Alameda County Community Food Bank](https://www.accfb.org/annual-report-2025/), [EFS07: U.S. Department of Agriculture, Agricultural Marketing Service](https://www.ams.usda.gov/selling-food)
+
+**status:** Admitted with scope limits
+
+## systems
+
+- food_assistance
+- food_logistics
+
+**title:** ACCFB demonstrates procurement beyond surplus recovery
+
+
+---
+
+**confidence:** High for the stated source scope; operational gaps retained
+
+**direction:** worsening
+
+**epistemic label:** FACT
+
+**event id:** rc003_34
+
+**first seen cycle:** RC-003
+
+**freshness:** Late discovery or structural evidence; see source observation dates
+
+## geography
+
+- Bay Area
+
+**id:** SIG34
+
+**implication:** Potential refuge capacity needs funded access hours; no heat-emergency service failure established.
+
+**last reviewed cycle:** RC-003
+
+**observation:** City notice says library hours reduced effective January 1, 2026 for budget savings; current schedule closes Sunday and Monday. Ordinary room reservations remain within public hours and require advance booking.
+
+**Sources:** [DC09: City of Hayward](https://www.hayward-ca.gov/discover/news/jan26/library-hours-be-reduced-two-digital-streaming-resources-eliminated), [DC05: City of Hayward](https://www.hayward-ca.gov/public-library/using-library/locations-hours), [DC06: City of Hayward](https://www.hayward-ca.gov/public-library/using-library/meeting-rooms)
+
+**status:** Admitted with scope limits
+
+## systems
+
+- municipal
+- commons
+
+**title:** Hayward fiscal pressure reduces staffed library access
+
+
+---
+
+**confidence:** High for the stated source scope; operational gaps retained
+
+**direction:** improving
+
+**epistemic label:** FACT
+
+**event id:** rc003_35
+
+**first seen cycle:** RC-003
+
+**freshness:** Late discovery or structural evidence; see source observation dates
+
+## geography
+
+- California
+- United States
+- Global resource and trade nodes
+
+**id:** SIG35
+
+**implication:** Regional enforcement is a buffer; global averages do not clear an individual route.
+
+**last reviewed cycle:** RC-003
+
+**observation:** IMB H1 2026 global reports fell to 38 from 90. ReCAAP separately reports Asian armed robbery fell to 35 from 96; totals have different intake and must not be added. Missing voyage denominators prevent per-voyage probabilities.
+
+**Sources:** [MAR01: ICC International Maritime Bureau](https://icc-ccs.org/lowest-first-quarter-maritime-piracy-and-armed-robbery-figures-since-1991-but-vigilance-remains-essential-2/), [MAR02: ReCAAP ISC](https://www.recaap.org/resources/ck/files/news/2026/Press%20release%20-%20ReCAAP%20ISC%20Half%20Year%20Report%20(Jan%20-%20Jun%202026)%20-%20final.pdf), [MAR03: ReCAAP ISC](https://www.recaap.org/resources/ck/files/reports/weekly/2026/ReCAAP%20ISC%20Weekly%20Report%20(8-14%20Sep)%202026.pdf)
+
+**status:** Admitted with scope limits
+
+## systems
+
+- trade
+- food_logistics
+
+**title:** Maritime incident totals improve while severity remains uneven
+
+
+---
+
+**confidence:** High for the stated source scope; operational gaps retained
+
+**direction:** mixed
+
+**epistemic label:** FACT
+
+**event id:** rc003_36
+
+**first seen cycle:** RC-003
+
+**freshness:** September 10 response is current within cutoff; April/July cargo event is historical
+
+## geography
+
+- California
+- United States
+- Global resource and trade nodes
+
+**id:** SIG36
+
+**implication:** Observed local interruption, not established California nutrient loss or guaranteed naval coverage.
+
+**last reviewed cycle:** RC-003
+
+**observation:** EUNAVFOR September 11 account says the September 10 GLAMOR incident ended with crew safe after coordinated response. Its July 29 report documents SWARD fertilizer cargo hijacked April 26 en route to Mombasa; September cargo/captivity status unknown.
+
+**Sources:** [MAR04: EUNAVFOR ATALANTA](https://eunavfor.eu/news/resolution-piracy-incident-gulf-aden), [MAR05: EUNAVFOR ATALANTA](https://eunavfor.eu/news/update-ongoing-piracy-incidents-northern-coast-somalia), [MAR06: EUNAVFOR ATALANTA](https://eunavfor.eu/news/operation-atalanta-coordinates-multinational-response-pirate-attack-mv-golden-arsenal)
+
+**status:** Admitted with scope limits
+
+## systems
+
+- trade
+- fertilizer
+
+**title:** Somali attacks continue; a recent response protected crew
+
+
+---
+
+**confidence:** High for the stated source scope; operational gaps retained
+
+**direction:** worsening
+
+**epistemic label:** FACT
+
+**event id:** rc003_37
+
+**first seen cycle:** RC-003
+
+**freshness:** Late discovery or structural evidence; see source observation dates
+
+## geography
+
+- California
+- United States
+- Global resource and trade nodes
+
+**id:** SIG37
+
+**implication:** Diversification must include processing acid and routes, not just ore deposits.
+
+**last reviewed cycle:** RC-003
+
+**observation:** IEA July 2026 report describes sulfur shipping disruption and sulfuric-acid export curbs affecting fertilizer and mineral value chains. Its dated Hormuz account does not establish September 21 passage status.
+
+**Sources:** [RC3C02: International Energy Agency](https://www.iea.org/reports/global-critical-minerals-outlook-2026/executive-summary), [TRS02: The Mosaic Company](https://mosaicco.com/Article/Fertilizer-Markets-Facts-and-Context)
+
+**status:** Admitted with scope limits
+
+## systems
+
+- sulfur
+- fertilizer
+- industrial
+
+**title:** Sulfur and acid connect fertilizer to mineral processing
+
+
+---
+
+**confidence:** High for the stated source scope; operational gaps retained
+
+**direction:** mixed
+
+**epistemic label:** FACT
+
+**event id:** rc003_38
+
+**first seen cycle:** RC-003
+
+**freshness:** September 14 license; 2023 structural production context retained as historical
+
+## geography
+
+- California
+- United States
+- Global resource and trade nodes
+
+**id:** SIG38
+
+**implication:** Investigate functioning recovery and delivered contracts before counting reserve; no transaction authorization supplied here.
+
+**last reviewed cycle:** RC-003
+
+**observation:** OFAC GL52C effective September 14 authorizes qualifying PDVSA transactions under stated conditions and exclusions. EIA historical context describes heavy sour crude and processing constraints. Current incremental recoverable/exportable sulfur is unknown.
+
+**Sources:** [NUT05: U.S. Treasury OFAC](https://ofac.treasury.gov/media/936926/download?inline=), [NUT06: U.S. EIA](https://www.eia.gov/todayinenergy/detail.php?id=60762), [NUT03: U.S. EPA](https://www.epa.gov/sites/default/files/2020-09/documents/8.13_sulfur_recovery.pdf)
+
+**status:** Admitted with scope limits
+
+## systems
+
+- sulfur
+- trade
+
+**title:** Venezuela has conditional lawful pathways; sulfur reserve unmeasured
+
+
+---
+
+**confidence:** High for the stated source scope; operational gaps retained
+
+**direction:** improving
+
+**epistemic label:** FACT
+
+**event id:** rc003_39
+
+**first seen cycle:** RC-003
+
+**freshness:** Late discovery or structural evidence; see source observation dates
+
+## geography
+
+- California
+- United States
+- Global resource and trade nodes
+
+**id:** SIG39
+
+**implication:** Measure diesel displaced per preserved service and commission charging before retiring working capacity.
+
+**last reviewed cycle:** RC-003
+
+**observation:** DOE fleet guidance identifies return-to-base duty-cycle opportunities. A 2018 Portland Meals on Wheels case used shore power for parked refrigeration; it does not establish traction conversion or present equipment status.
+
+**Sources:** [EFS04: U.S. Department of Energy, Alternative Fuels Data Center](https://afdc.energy.gov/vehicles/electric-fleets), [EFS05: U.S. Department of Energy, Alternative Fuels Data Center](https://afdc.energy.gov/vehicles/electric-conversions), [EFS06: U.S. Department of Energy, Alternative Fuels Data Center](https://afdc.energy.gov/fuels/electricity-infrastructure-development), [EFS08: U.S. Department of Energy, Alternative Fuels Data Center](https://afdc.energy.gov/case/3069)
+
+**status:** Admitted with scope limits
+
+## systems
+
+- diesel
+- trucking
+- grid
+- food_logistics
+
+**title:** Staged electrification can remove diesel load while preserving food delivery
+
+
+---
+
+**confidence:** High for the stated source scope; operational gaps retained
+
+**direction:** improving
+
+**epistemic label:** FACT
+
+**event id:** rc003_40
+
+**first seen cycle:** RC-003
+
+**freshness:** Late discovery or structural evidence; see source observation dates
+
+## geography
+
+- Bay Area
+
+**id:** SIG40
+
+**implication:** Seek durable operating rights and community governance; an existing commons is not vacant inventory.
+
+**last reviewed cycle:** RC-003
+
+**observation:** OakCLT documents 2017 acquisition of Liberated 23rd Avenue with housing, nonprofit storefronts and garden. Existing occupancy is protected; no available space or outage endurance established. RYSE, West Oakland and municipal libraries are separate partnership leads.
+
+**Sources:** [DC03: Oakland Community Land Trust](https://oakclt.org/portfolio-items/liberated23rdave/), [DC08: Oakland Community Land Trust](https://oakclt.org/what-is-a-community-land-trust/), [DC02: RYSE Center](https://rysecenter.org/origin-story-of-ryse), [SRC22: NorCal Resilience Network](https://norcalresilience.org/resilient-hub-initiative/), [DC07: City of San Leandro](https://www.sanleandro.org/162/Public-Library)
+
+**status:** Admitted with scope limits
+
+## systems
+
+- commons
+- municipal
+
+**title:** Community-held property provides an established tenure model
+
+
+---
+
+**confidence:** High for the stated source scope; operational gaps retained
+
+**direction:** mixed
+
+**epistemic label:** PLAUSIBLE MECHANISM
+
+**event id:** rc003_41
+
+**first seen cycle:** RC-003
+
+**freshness:** Late discovery or structural evidence; see source observation dates
+
+## geography
+
+- California
+- United States
+- Global resource and trade nodes
+
+**id:** SIG41
+
+**implication:** Track industrial grades, deployment stages and coproduct continuity alongside diesel benefits.
+
+**last reviewed cycle:** RC-003
+
+**observation:** LFP batteries use purified phosphoric acid. Refinery contraction can reduce recovered sulfur if alternate supply and efficiency lag. Neither mechanism establishes that EVs caused current fertilizer curtailments.
+
+**Sources:** [RC3C03: International Energy Agency](https://www.iea.org/reports/global-critical-minerals-outlook-2025/executive-summary), [RC3C02: International Energy Agency](https://www.iea.org/reports/global-critical-minerals-outlook-2026/executive-summary), [NUT03: U.S. EPA](https://www.epa.gov/sites/default/files/2020-09/documents/8.13_sulfur_recovery.pdf), [NUT04: U.S. EPA](https://www.epa.gov/sites/default/files/2020-09/documents/8.10_sulfuric_acid.pdf)
+
+**status:** Admitted with scope limits
+
+## systems
+
+- diesel
+- sulfur
+- grid
+- industrial
+
+**title:** Electric replacement changes mineral and coproduct dependencies
+
+
+---
+
+**confidence:** High for the stated source scope; operational gaps retained
+
+**direction:** unclear
+
+**epistemic label:** PLAUSIBLE MECHANISM
+
+**event id:** rc003_42
+
+**first seen cycle:** RC-003
+
+**freshness:** Late discovery or structural evidence; see source observation dates
+
+## geography
+
+- California
+- United States
+- Global resource and trade nodes
+
+**id:** SIG42
+
+**implication:** Use protected procurement, rotating stock and routes with different failure exposures; cash alone cannot replace absent food.
+
+**last reviewed cycle:** RC-003
+
+**observation:** Conditional hypothesis: widespread physical supply loss can reduce rescued food while increasing assistance demand, with purchasing capacity also strained by prices and transport. Income-based hunger or distribution breakdown can instead coexist with abundant food or stranded surplus.
+
+**Sources:** [EFS01: Feeding America](https://www.feedingamerica.org/sites/default/files/2025-12/FA_25AnnReport_DIGITAL_final.pdf), [EFS02: Alameda County Community Food Bank](https://www.accfb.org/wp-content/uploads/2026/01/ACCFB-2025-Audit-FS.pdf), [EFS03: Alameda County Community Food Bank](https://www.accfb.org/annual-report-2025/)
+
+**status:** Unactivated stress scenario; no famine declaration
+
+## systems
+
+- food_assistance
+- food_logistics
+
+**title:** Food assistance can face simultaneous demand growth and supply loss
 

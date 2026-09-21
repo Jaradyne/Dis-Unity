@@ -1,0 +1,22 @@
+{
+  "agent": "bayer_review",
+  "at": "2026-09-21T12:28:31.063663+00:00",
+  "base_hash": "9ecd1c9ff07ae5c47c303030d70761961f5fb8863d1ea84558d657cd58cb0180",
+  "cycle_id": "RC-003",
+  "payload": {
+    "agent": "bayer_review",
+    "cutoff": "2026-09-21",
+    "cycle": "RC-003",
+    "findings": [],
+    "limitations": [
+      "No current operational capacity conclusion yet; checkpoint initialized before research."
+    ],
+    "peer_reviews": [],
+    "scope": "Bayer/Monsanto evidence watch and scoped independent challenge of consequential peer claims",
+    "sources": [],
+    "status": "started"
+  },
+  "payload_hash": "15f83b328e9a431d48c9371a43c675b987f29ca61c64715f598a2e7726d18e11",
+  "phase": "checkpoint",
+  "submission_id": "4fc93035f3d6c631678dea522f766282ad9ad1f9fc6c6f986b52d3452ae67113"
+}

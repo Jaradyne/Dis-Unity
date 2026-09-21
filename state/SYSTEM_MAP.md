@@ -1,6 +1,6 @@
 # SYSTEM_MAP
 
-Cycle RC-002; cutoff 2026-09-20.
+Cycle RC-003; cutoff 2026-09-21.
 
 ## classification rules
 
@@ -142,8 +142,11 @@ Cycle RC-002; cutoff 2026-09-20.
 - SIG04
 - SIG24
 - SIG25
+- SIG37
+- SIG38
+- SIG41
 
-**Sources:** [SRC07: Nutrien](https://www.nutrien.com/news/press-releases/nutrien-reports-second-quarter-2026-results-1753), [SRC05: USDA ERS](https://www.ers.usda.gov/topics/farm-economy/farm-sector-income-finances/farm-sector-income-forecast), [TRS01: CF Industries](https://ir.cfindustries.com/Investors/news/news-details/2026/CF-Industries-Holdings-Inc--Reports-First-Half-2026-Net-Earnings-of-1-34-Billion-Adjusted-EBITDA-of-2-18-Billion/default.aspx), [TRS02: The Mosaic Company](https://mosaicco.com/Article/Fertilizer-Markets-Facts-and-Context)
+**Sources:** [SRC07: Nutrien](https://www.nutrien.com/news/press-releases/nutrien-reports-second-quarter-2026-results-1753), [SRC05: USDA ERS](https://www.ers.usda.gov/topics/farm-economy/farm-sector-income-finances/farm-sector-income-forecast), [TRS01: CF Industries](https://ir.cfindustries.com/Investors/news/news-details/2026/CF-Industries-Holdings-Inc--Reports-First-Half-2026-Net-Earnings-of-1-34-Billion-Adjusted-EBITDA-of-2-18-Billion/default.aspx), [TRS02: The Mosaic Company](https://mosaicco.com/Article/Fertilizer-Markets-Facts-and-Context), [NUT02: U.S. EPA](https://www.epa.gov/sites/default/files/2020-09/documents/8.9_phosphoric_acid.pdf), [NUT03: U.S. EPA](https://www.epa.gov/sites/default/files/2020-09/documents/8.13_sulfur_recovery.pdf), [RC3C02: International Energy Agency](https://www.iea.org/reports/global-critical-minerals-outlook-2026/executive-summary)
 
 **status:** Producer-level physical curtailment corroborated; farm-order and yield cascade conditional
 
@@ -153,6 +156,7 @@ Cycle RC-002; cutoff 2026-09-20.
 
 - TR02
 - TR08
+- TR12
 
 
 ---
@@ -165,11 +169,13 @@ Cycle RC-002; cutoff 2026-09-20.
 - RES10
 - RES12
 - RES13
+- RES17
 
 ### commons ids
 
 - COM03
 - COM04
+- COM09
 
 **donor note:** Removed Europe/Caribbean as generic local utility rescue links. Re-add only with a specific compatible asset, route, current commitments and protected donor reserve.
 
@@ -197,8 +203,10 @@ Cycle RC-002; cutoff 2026-09-20.
 - SIG18
 - SIG26
 - SIG27
+- SIG34
+- SIG40
 
-**Sources:** [SRC10: CAISO](https://www.caiso.com/documents/2026-summer-loads-and-resources-assessment.pdf), [SRC18: White House](https://www.whitehouse.gov/presidential-actions/2026/06/further-adjusting-the-tariff-regimes-for-imports-of-aluminum-steel-and-copper-into-the-united-states/), [SRC23: Reuters](https://www.reuters.com/business/energy/hitachi-invest-1-billion-produce-power-grid-components-us-2025-09-04/), [SRC26: EBMUD](https://www.ebmud.com/water/about-your-water/water-supply/water-supply-reports), [LC_SRC01: East Bay Municipal Utility District](https://www.ebmud.com/download_file/force/58167/703?WOD_-_Water_Supply_Update_-_April_14_2026_Final_Board.pdf=), [LC_SRC02: Town of San Anselmo](https://www.sananselmo.gov/1677/Town-Hall-Resilience-Hub)
+**Sources:** [SRC10: CAISO](https://www.caiso.com/documents/2026-summer-loads-and-resources-assessment.pdf), [SRC18: White House](https://www.whitehouse.gov/presidential-actions/2026/06/further-adjusting-the-tariff-regimes-for-imports-of-aluminum-steel-and-copper-into-the-united-states/), [SRC23: Reuters](https://www.reuters.com/business/energy/hitachi-invest-1-billion-produce-power-grid-components-us-2025-09-04/), [SRC26: EBMUD](https://www.ebmud.com/water/about-your-water/water-supply/water-supply-reports), [LC_SRC01: East Bay Municipal Utility District](https://www.ebmud.com/download_file/force/58167/703?WOD_-_Water_Supply_Update_-_April_14_2026_Final_Board.pdf=), [LC_SRC02: Town of San Anselmo](https://www.sananselmo.gov/1677/Town-Hall-Resilience-Hub), [DC09: City of Hayward](https://www.hayward-ca.gov/discover/news/jan26/library-hours-be-reduced-two-digital-streaming-resources-eliminated), [DC03: Oakland Community Land Trust](https://oakclt.org/portfolio-items/liberated23rdave/), [DC08: Oakland Community Land Trust](https://oakclt.org/what-is-a-community-land-trust/)
 
 **status:** High-consequence scenario; current compound failure not established
 
@@ -208,6 +216,7 @@ Cycle RC-002; cutoff 2026-09-20.
 
 - TR04
 - TR05
+- TR11
 
 
 ---
@@ -297,6 +306,141 @@ Cycle RC-002; cutoff 2026-09-20.
 
 - TR07
 
+
+---
+
+### buffers
+
+- RES06
+- RES15
+- RES16
+
+### commons ids
+
+- COM08
+- COM02
+
+**id:** CL07
+
+**independence:** Evidence of structure or separate events does not automatically establish synchronized local service failure.
+
+**interaction:** A supply shock can raise assistance need while reducing rescue and buying power; income and distribution shocks have different remedies.
+
+### lifeboats
+
+- RES16
+
+### outside reserve
+
+- ISL02
+- ISL09
+
+### signal ids
+
+- SIG32
+- SIG33
+- SIG42
+
+**Sources:** [EFS01: Feeding America](https://www.feedingamerica.org/sites/default/files/2025-12/FA_25AnnReport_DIGITAL_final.pdf), [EFS02: Alameda County Community Food Bank](https://www.accfb.org/wp-content/uploads/2026/01/ACCFB-2025-Audit-FS.pdf), [EFS03: Alameda County Community Food Bank](https://www.accfb.org/annual-report-2025/), [EFS07: U.S. Department of Agriculture, Agricultural Marketing Service](https://www.ams.usda.gov/selling-food)
+
+**status:** Conditional stress scenario with operating procurement counterevidence; no famine inferred
+
+**title:** Food assistance and correlated supply/funding loss
+
+### transition ids
+
+- TR10
+
+
+---
+
+### buffers
+
+- RES01
+- RES10
+- RES18
+
+### commons ids
+
+- COM10
+
+**id:** CL08
+
+**independence:** Evidence of structure or separate events does not automatically establish synchronized local service failure.
+
+**interaction:** Diesel demand can be shed while new charger, grid, parts and industrial-grade input dependencies need working buffers.
+
+### lifeboats
+
+- RES09
+- RES10
+
+### outside reserve
+
+- ISL07
+
+### signal ids
+
+- SIG39
+- SIG41
+
+**Sources:** [EFS04: U.S. Department of Energy, Alternative Fuels Data Center](https://afdc.energy.gov/vehicles/electric-fleets), [EFS05: U.S. Department of Energy, Alternative Fuels Data Center](https://afdc.energy.gov/vehicles/electric-conversions), [EFS06: U.S. Department of Energy, Alternative Fuels Data Center](https://afdc.energy.gov/fuels/electricity-infrastructure-development), [EFS08: U.S. Department of Energy, Alternative Fuels Data Center](https://afdc.energy.gov/case/3069), [RC3C02: International Energy Agency](https://www.iea.org/reports/global-critical-minerals-outlook-2026/executive-summary), [RC3C03: International Energy Agency](https://www.iea.org/reports/global-critical-minerals-outlook-2025/executive-summary)
+
+**status:** Transition case; no named electric fleet failure established
+
+**title:** Diesel replacement and new grid/material dependencies
+
+### transition ids
+
+- TR09
+
+
+---
+
+### buffers
+
+- RES01
+- RES02
+
+### commons ids
+
+- COM05
+- COM08
+
+**id:** CL09
+
+**independence:** Evidence of structure or separate events does not automatically establish synchronized local service failure.
+
+**interaction:** Piracy, war risk, legal access and transport timing are separate filters on otherwise available material.
+
+### lifeboats
+
+- RES16
+
+### outside reserve
+
+- ISL01
+- ISL02
+- ISL08
+
+### signal ids
+
+- SIG35
+- SIG36
+- SIG37
+- SIG38
+
+**Sources:** [MAR01: ICC International Maritime Bureau](https://icc-ccs.org/lowest-first-quarter-maritime-piracy-and-armed-robbery-figures-since-1991-but-vigilance-remains-essential-2/), [MAR02: ReCAAP ISC](https://www.recaap.org/resources/ck/files/news/2026/Press%20release%20-%20ReCAAP%20ISC%20Half%20Year%20Report%20(Jan%20-%20Jun%202026)%20-%20final.pdf), [MAR04: EUNAVFOR ATALANTA](https://eunavfor.eu/news/resolution-piracy-incident-gulf-aden), [MAR05: EUNAVFOR ATALANTA](https://eunavfor.eu/news/update-ongoing-piracy-incidents-northern-coast-somalia), [MAR07: ICC International Maritime Bureau](https://icc-ccs.org/piracy-and-armed-robbery-prone-areas-and-warnings/), [NUT05: U.S. Treasury OFAC](https://ofac.treasury.gov/media/936926/download?inline=), [RC3C02: International Energy Agency](https://www.iea.org/reports/global-critical-minerals-outlook-2026/executive-summary)
+
+**status:** Specific cargo interruption and dated acid stress; California cascading impact unverified
+
+**title:** Maritime routes and nutrient deliverability
+
+### transition ids
+
+- TR12
+- TR02
+
 ## coverage inventory
 
 **area:** Diesel/refining
@@ -365,6 +509,34 @@ Cycle RC-002; cutoff 2026-09-20.
 **area:** Roads/bridges/ports/rail/telecommunications/emergency services
 
 **status:** Dependency map only or partial trade-route coverage; no fresh service-failure conclusion
+
+
+---
+
+**area:** Food-assistance reserve dependence
+
+**status:** National supply mix and local procurement channels verified; local current stressed reserve unknown
+
+
+---
+
+**area:** Bayer/Monsanto
+
+**status:** Evidence and governance watch established; no operational shortage or present-intent attribution
+
+
+---
+
+**area:** Maritime security
+
+**status:** Dated regional incidence and response evidence; live chokepoint and voyage exposure gaps
+
+
+---
+
+**area:** Durable commons control
+
+**status:** Five existing nodes/models verified; no available property or new operating agreement secured
 
 ## evidence labels
 
@@ -625,6 +797,26 @@ Cycle RC-002; cutoff 2026-09-20.
 
 **trade and infrastructure dependencies:** Clinical labor, operating reimbursement, equipment servicing and accessible transport
 
+## replacement protocol
+
+**definition:** A technology/institution can decline beneficially if its essential function is preserved and new dependencies are supportable.
+
+**first case:** TR09: staged diesel replacement; technology existence is not site readiness
+
+### required fields
+
+- Function to preserve
+- Avoidable load
+- Released assets actually accessible
+- Replacement maturity and tested service
+- New dependencies and shared failures
+- Useful coproducts at risk
+- Worker/community effects
+- Transition funding and timeline
+- Reversal/fallback conditions
+
+**success rule:** Verified essential service with lower avoidable load and adequate reserves; no simple green/red technology label
+
 ## social lanes
 
 **behavior:** Unknown current direction; no generalized population-danger inference
@@ -649,7 +841,7 @@ Cycle RC-002; cutoff 2026-09-20.
 
 **DEPENDENCY:** Very high cross-sector
 
-**GROWTH:** Efficient logistics and suitable electrification
+**GROWTH:** Staged shore-power and suitable fleet electrification; preserve sulfur coproduct function separately
 
 **LIFEBOAT:** Contracted essential fuel plus critical-load alternatives; unverified locally
 
@@ -762,7 +954,7 @@ Cycle RC-002; cutoff 2026-09-20.
 
 **SOCIAL TEMPERATURE:** Unknown
 
-**SUBSTITUTABILITY:** Nutrients not interchangeable; efficiency partial
+**SUBSTITUTABILITY:** N, P and K not interchangeable; sulfur/acid recovery and tested recycled P can help, with grade and capacity gates
 
 **geography:** North America/global
 
@@ -1134,4 +1326,103 @@ Cycle RC-002; cutoff 2026-09-20.
 **label:** Social temperature and cooperation
 
 **Sources:** [SRC14: FBI](https://www.fbi.gov/news/press-releases/fbi-releases-2025-reported-crimes-in-the-nation-statistics), [SRC15: CDEMA](https://www.cdema.org/index.php/cdemanews/categories/press-releases/146-press-releases/1870-cdema-launches-regional-recovery-experts-roster-to-strengthen-caribbean-recovery), [SRC22: NorCal Resilience Network](https://norcalresilience.org/resilient-hub-initiative/)
+
+
+---
+
+### gauges
+
+**CONFIDENCE:** High process evidence; low current donor availability
+
+**DEPENDENCY:** Fertilizer plus multiple mineral-processing chains
+
+**GROWTH:** Acid regeneration, safe nutrient recycling and diversified recovery
+
+**LIFEBOAT:** Verified stocks and crop-specific nutrient plans; local capacity unmeasured
+
+**LOAD:** Operator curtailments and dated trade disruption
+
+**RECOVERY:** Plant- and route-specific; new recovery capacity can take years
+
+**RESERVE:** Merchant spare supply and local stocks unknown
+
+**SHEDDING:** Some avoidable nutrient demand; deficient soils must remain supplied
+
+**SOCIAL TEMPERATURE:** Unknown; not measured this cycle
+
+**SUBSTITUTABILITY:** Alternative acid sources and nutrient recovery require compatible processes
+
+**geography:** Nested local-to-global context
+
+**id:** sulfur
+
+**label:** Sulfur recovery and processing acid
+
+**Sources:** [NUT01: U.S. EPA](https://www.epa.gov/sites/default/files/2020-10/documents/c11s21.pdf), [NUT02: U.S. EPA](https://www.epa.gov/sites/default/files/2020-09/documents/8.9_phosphoric_acid.pdf), [NUT03: U.S. EPA](https://www.epa.gov/sites/default/files/2020-09/documents/8.13_sulfur_recovery.pdf), [NUT04: U.S. EPA](https://www.epa.gov/sites/default/files/2020-09/documents/8.10_sulfuric_acid.pdf), [TRS02: The Mosaic Company](https://mosaicco.com/Article/Fertilizer-Markets-Facts-and-Context), [RC3C02: International Energy Agency](https://www.iea.org/reports/global-critical-minerals-outlook-2026/executive-summary)
+
+
+---
+
+### gauges
+
+**CONFIDENCE:** High documented channels; conditional shared-shock risk
+
+**DEPENDENCY:** Essential household nutrition and health
+
+**GROWTH:** Shared procurement, fair farm contracts and storage
+
+**LIFEBOAT:** Proposed rotating purchased minimum supply with ready-to-eat options
+
+**LOAD:** Local current demand-to-service ratio unmeasured
+
+**RECOVERY:** Needs food, funding, transport, access and paid coordination
+
+**RESERVE:** Supply mix verified; emergency days and unrestricted purchasing cash unknown
+
+**SHEDDING:** Reduce waste and avoidable handling; preserve essential nutrition and dignified access
+
+**SOCIAL TEMPERATURE:** Unknown; not measured this cycle
+
+**SUBSTITUTABILITY:** Purchases/government commodities supplement rescue while markets and funding work
+
+**geography:** Nested local-to-global context
+
+**id:** food_assistance
+
+**label:** Food assistance and minimum nutrition continuity
+
+**Sources:** [EFS01: Feeding America](https://www.feedingamerica.org/sites/default/files/2025-12/FA_25AnnReport_DIGITAL_final.pdf), [EFS02: Alameda County Community Food Bank](https://www.accfb.org/wp-content/uploads/2026/01/ACCFB-2025-Audit-FS.pdf), [EFS03: Alameda County Community Food Bank](https://www.accfb.org/annual-report-2025/), [EFS07: U.S. Department of Agriculture, Agricultural Marketing Service](https://www.ams.usda.gov/selling-food)
+
+
+---
+
+### gauges
+
+**CONFIDENCE:** Strong named-node evidence; unknown available property and endurance
+
+**DEPENDENCY:** Information, thermal refuge, tools, food coordination and local ties
+
+**GROWTH:** Land stewardship and funded public-community operation
+
+**LIFEBOAT:** Proposed one-room essential service plus a differently exposed partner
+
+**LOAD:** Ordinary and emergency access needs; utilization unmeasured
+
+**RECOVERY:** Dependent on staffing, utilities, maintenance, tenure and accessibility
+
+**RESERVE:** Buildings exist; funded hours and tested outage capacity often unverified
+
+**SHEDDING:** Close nonessential rooms while preserving a staffed essential room
+
+**SOCIAL TEMPERATURE:** Unknown; not measured this cycle
+
+**SUBSTITUTABILITY:** Another site helps only with independent access and usable capacity
+
+**geography:** Nested local-to-global context
+
+**id:** commons
+
+**label:** Durably controlled community service spaces
+
+**Sources:** [DC03: Oakland Community Land Trust](https://oakclt.org/portfolio-items/liberated23rdave/), [DC08: Oakland Community Land Trust](https://oakclt.org/what-is-a-community-land-trust/), [DC09: City of Hayward](https://www.hayward-ca.gov/discover/news/jan26/library-hours-be-reduced-two-digital-streaming-resources-eliminated), [DC05: City of Hayward](https://www.hayward-ca.gov/public-library/using-library/locations-hours), [DC07: City of San Leandro](https://www.sanleandro.org/162/Public-Library), [LC_SRC02: Town of San Anselmo](https://www.sananselmo.gov/1677/Town-Hall-Resilience-Hub)
 

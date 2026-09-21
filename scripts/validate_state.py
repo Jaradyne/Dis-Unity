@@ -40,6 +40,15 @@ def validate(state):
                     if sid not in source_ids:
                         errors.append(f'{location}: unresolved source {sid}')
             for key, item in value.items():
+                # list += text silently splits a sentence into individual characters.
+                # Catch this before a reviewed candidate can become canonical state.
+                if key in {'buffers', 'thresholds', 'substitutes', 'resources'} and isinstance(item, list):
+                    run = 0
+                    for part in item:
+                        run = run + 1 if isinstance(part, str) and len(part) == 1 else 0
+                        if run >= 8:
+                            errors.append(f'{location}.{key}: fragmented narrative; sentence stored as characters')
+                            break
                 walk(item, f'{location}.{key}')
         elif isinstance(value, list):
             for index, item in enumerate(value):

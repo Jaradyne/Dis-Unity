@@ -1,0 +1,228 @@
+{
+  "agent": "maritime_network",
+  "cycle": "RC-003",
+  "cutoff": "2026-09-21",
+  "status": "research_complete_with_gaps",
+  "scope": [
+    "maritime security",
+    "relative enforcement",
+    "California network deliverability"
+  ],
+  "findings": [
+    {
+      "id": "MAR-F01",
+      "epistemic_label": "FACT",
+      "direction": "mixed",
+      "source_ids": [
+        "MAR01"
+      ],
+      "observation": "IMB reports 38 global piracy/armed-robbery incidents in H1 2026 versus 90 a year earlier: 27 boardings, five hijackings, three vessels fired on, three attempts. Somali pirates accounted for 94% of the 67 crew members reported taken hostage. Gulf of Guinea reported two incidents; Manila anchorage reported eight.",
+      "interpretation": "Aggregate improvement coexists with geographically concentrated severity; no universal maritime breakdown is established."
+    },
+    {
+      "id": "MAR-F02",
+      "epistemic_label": "FACT",
+      "direction": "improving",
+      "source_ids": [
+        "MAR02",
+        "MAR03"
+      ],
+      "observation": "ReCAAP recorded 35 Asian incidents H1 2026 versus 96 H1 2025; all classified armed robbery in coastal-state waters. Singapore/Malacca accounted for 21 versus80. Most events were opportunistic theft; most crews were uninjured. ReCAAP attributes improvement to vessel precautions and littoral enforcement. Sep8–14 weekly bulletin records no incidents reported.",
+      "interpretation": "Strong local enforcement and reporting are functioning buffers, with residual boarding risk. Do not add IMB and ReCAAP totals; different report intake produces materially different Singapore counts."
+    },
+    {
+      "id": "MAR-F03",
+      "epistemic_label": "FACT",
+      "direction": "mixed",
+      "source_ids": [
+        "MAR04",
+        "MAR06"
+      ],
+      "observation": "ATALANTA reports a September10 GLAMOR boarding ended after the crew sheltered and multinational assets responded; crew safe. July1 GOLDEN ARSENAL attack similarly ended with Indian Navy boarding support after coordinated Korean/Indian response. September release calls GLAMOR the seventh piracy case since April.",
+      "interpretation": "Naval and crew measures can defeat specific attacks, but successful earlier hijackings and continued September incidents show incomplete prevention. Relative strength must be assessed by reach, timeliness, legal jurisdiction and sustained coverage, not naval fleet totals."
+    },
+    {
+      "id": "MAR-F04",
+      "epistemic_label": "FACT",
+      "direction": "worsening",
+      "source_ids": [
+        "MAR05"
+      ],
+      "observation": "EUNAVFOR records SWARD hijacked April26 while carrying fertilizer to Mombasa. Its July29 report describes four vessels still held near northern Somalia, including three with oil-product cargoes.",
+      "interpretation": "A directly observed nutrient/fuel logistics interruption exists locally. September captivity status, cargo volume, downstream shortages and California exposure are unverified."
+    },
+    {
+      "id": "MAR-F05",
+      "epistemic_label": "FACT",
+      "direction": "unclear",
+      "source_ids": [
+        "MAR07"
+      ],
+      "observation": "IMB explicitly separates Red Sea/Gulf of Aden missile and unmanned-system threats and Hormuz-area conflict attacks/electronic interference from piracy. Its Venezuela port advisory says incidents have stopped while retaining anchorage vigilance advice.",
+      "interpretation": "War risk, robbery, sanctions, insurance, port reliability and weather require separate gauges. This source does not establish current unrestricted passage, a Venezuela piracy surge, or naval protection guarantees."
+    },
+    {
+      "id": "MAR-F06",
+      "epistemic_label": "PLAUSIBLE MECHANISM",
+      "direction": "unclear",
+      "source_ids": [
+        "MAR08"
+      ],
+      "observation": "Western electricity exchange pools geographically diverse resources over transmission. Regional heat, drought, fire and transmission constraints can reduce both local supply and hoped-for imports.",
+      "interpretation": "A physically connected donor must retain its essential-load floor and have deliverable power at the needed hour. Europe or Asian generation is not direct California electric reserve; those partners can instead supply manufactured equipment, fuels, skills and finance if routes/lead times work."
+    }
+  ],
+  "sources": [
+    {
+      "id": "MAR01",
+      "title": "Maritime piracy incidents fall to lowest since 1992, but risk remains",
+      "publisher": "ICC International Maritime Bureau",
+      "url": "https://icc-ccs.org/lowest-first-quarter-maritime-piracy-and-armed-robbery-figures-since-1991-but-vigilance-remains-essential-2/",
+      "publication_date": "2026-07-09",
+      "observation_period": "2026-01-01 to 2026-06-30",
+      "retrieved_at": "2026-09-21",
+      "grade": "A",
+      "limitations": "Reported incidents, not all incidents; no ship-transit denominator. Singapore coverage differs from ReCAAP. Not September whole-world conditions."
+    },
+    {
+      "id": "MAR02",
+      "title": "35 incidents of Armed Robbery Against Ships in Asia Reported in First Half of 2026",
+      "publisher": "ReCAAP ISC",
+      "url": "https://www.recaap.org/resources/ck/files/news/2026/Press%20release%20-%20ReCAAP%20ISC%20Half%20Year%20Report%20(Jan%20-%20Jun%202026)%20-%20final.pdf",
+      "publication_date": "2026-07-14",
+      "observation_period": "2026-01-01 to 2026-06-30",
+      "retrieved_at": "2026-09-21",
+      "grade": "A",
+      "limitations": "Reported events; no matched ship-transit denominator. Enforcement attribution is source assessment, not isolated causal experiment."
+    },
+    {
+      "id": "MAR03",
+      "title": "Weekly Report 8–14 September 2026",
+      "publisher": "ReCAAP ISC",
+      "url": "https://www.recaap.org/resources/ck/files/reports/weekly/2026/ReCAAP%20ISC%20Weekly%20Report%20(8-14%20Sep)%202026.pdf",
+      "publication_date": null,
+      "observation_period": "2026-09-08 to 2026-09-14",
+      "retrieved_at": "2026-09-21",
+      "grade": "A",
+      "limitations": "One reporting week; publication date not printed. No reports is not proof of no unreported events."
+    },
+    {
+      "id": "MAR04",
+      "title": "Resolution of a piracy incident in the Gulf of Aden",
+      "publisher": "EUNAVFOR ATALANTA",
+      "url": "https://eunavfor.eu/news/resolution-piracy-incident-gulf-aden",
+      "publication_date": "2026-09-11",
+      "observation_period": "2026-09-10 incident and April–September context",
+      "retrieved_at": "2026-09-21",
+      "grade": "A",
+      "limitations": "Operator account of own response; event success cannot establish geographic patrol sufficiency. Captivity wording does not clearly resolve cumulative versus currently captive totals; do not use that total."
+    },
+    {
+      "id": "MAR05",
+      "title": "Update of the ongoing piracy incidents off the northern coast of Somalia",
+      "publisher": "EUNAVFOR ATALANTA",
+      "url": "https://eunavfor.eu/news/update-ongoing-piracy-incidents-northern-coast-somalia",
+      "publication_date": "2026-07-29",
+      "observation_period": "April–July 2026 incidents; status as of July29",
+      "retrieved_at": "2026-09-21",
+      "grade": "A",
+      "limitations": "July custody status is historical; no September resolution inferred. Vessel cargo description does not prove California exposure."
+    },
+    {
+      "id": "MAR06",
+      "title": "Operation ATALANTA coordinates multinational response to pirate attack on MV GOLDEN ARSENAL",
+      "publisher": "EUNAVFOR ATALANTA",
+      "url": "https://eunavfor.eu/news/operation-atalanta-coordinates-multinational-response-pirate-attack-mv-golden-arsenal",
+      "publication_date": "2026-07-03",
+      "observation_period": "2026-07-01 incident and subsequent response",
+      "retrieved_at": "2026-09-21",
+      "grade": "A",
+      "limitations": "Official operational account; no patrol-to-threat force ratio or response-time distribution."
+    },
+    {
+      "id": "MAR07",
+      "title": "Piracy and armed robbery prone areas and warnings",
+      "publisher": "ICC International Maritime Bureau",
+      "url": "https://icc-ccs.org/piracy-and-armed-robbery-prone-areas-and-warnings/",
+      "publication_date": null,
+      "observation_period": "Mixed historical background and 2026 updates; undated dynamic advisory retrieved Sep21",
+      "retrieved_at": "2026-09-21",
+      "grade": "A",
+      "limitations": "Uneven timestamps and mixed historical/current passages. Not a synchronized current route-clearance certificate. No claim of current canal or strait closure admitted."
+    },
+    {
+      "id": "MAR08",
+      "title": "Regional collaboration",
+      "publisher": "California ISO",
+      "url": "https://www.caiso.com/about/our-business/regional-collaboration",
+      "publication_date": null,
+      "observation_period": "Structural collaboration description; dynamic page retrieved Sep21",
+      "retrieved_at": "2026-09-21",
+      "grade": "A",
+      "limitations": "Structural market description, not live available transfer capacity or donor surplus. Undated market membership numbers not used."
+    }
+  ],
+  "cascade_candidates": [
+    {
+      "from": "trade",
+      "to": "fertilizer",
+      "initiating_stress": "Cargo hijacking, conflict risk or route interruption",
+      "dependent_system": "Delivered fertilizer access",
+      "mechanism": "Cargo loss/delay or rerouting consumes time, working capital and shipping capacity; impact activates when usable local stocks and alternative supply cannot bridge the gap.",
+      "source_ids": [
+        "MAR05",
+        "MAR07"
+      ],
+      "buffers": "Protected inventory, differentiated suppliers and routes, vessel security/coordinated response, credible carrier schedules.",
+      "thresholds": "Delay exceeds inventory cover or crop application window; freight cost makes otherwise available inputs unaffordable.",
+      "substitutes": "Alternate origin or port and rail/truck continuation subject to nutrient compatibility and real spare capacity.",
+      "time_horizon": "Days to months, dependent on cargo and agronomic window.",
+      "uncertainty": "No verified California incident exposure, shipment volume or causal fertilizer shortage.",
+      "confirm": "Matched cargo delay, inventory depletion and missed fulfillment/application records.",
+      "falsify": "Cargo replacement delivered before need, adequate local stocks, or route disruption does not affect the relevant procurement chain.",
+      "activation_status": "Observed local maritime interruption; wider nutrient cascade conditional."
+    }
+  ],
+  "resilience": {
+    "reserve": "Verify inventory and logistics headroom after donor commitments; a large producer is not automatically a donor.",
+    "release": "Postpone nonessential shipments and consolidate compatible loads while protecting food, medicine and repair parts; actual freight reserve unknown.",
+    "substitution": "Buy route-diverse inputs and preserve a domestic/continental alternative where practical; different corporate suppliers may share one port/refinery.",
+    "growth": "Local repair, recovered nutrients and suitable electric regional freight can reduce repeated imported-input exposure; each creates its own power/material dependency.",
+    "lifeboat": "Rotating essential stocks plus powered communications/cold storage and a minimum delivery fleet.",
+    "commons": "Shared procurement directories should record real replenishment route and common failure points, not only vendor names.",
+    "donor_guardrail": "Offer no more than capacity left after home essential demand, existing commitments and a contingency floor, then cap by routes, compatibility, labor and time."
+  },
+  "peer_exchange": [
+    {
+      "peer": "nutrient_network",
+      "finding_received": "OFAC GL52C Sep14 allows qualifying U.S. PDVSA transactions subject to conditions; sour crude is not deliverable sulfur; no verified surplus.",
+      "action": "Retain Venezuela as conditional conversion path and test route independence, not current sulfur reserve."
+    },
+    {
+      "peer": "nutrient_network",
+      "finding_sent": "Verified April fertilizer-cargo hijacking to Mombasa; July status historical; no California impact proved."
+    },
+    {
+      "peer": "coordinator",
+      "finding_received": "IEA Global Critical Minerals Outlook2026 executive summary, published July16, reports sulfur exposure through Hormuz and a closure affecting supplies.",
+      "action": "Treat as a dated July report; do not infer September21 closure. Source not independently reopened by this thread."
+    }
+  ],
+  "gaps": [
+    "No harmonized vessel-transit/anchorage-hours denominators; incident probabilities per voyage not calculated.",
+    "No quantified naval/patrol coverage or current response-time distribution.",
+    "UKMTO weekly list rendered without retrievable reports; current detailed Red Sea/Hormuz status not verified.",
+    "EIA chokepoints page rendered navigation only and guessed legacy PDF failed; UNCTAD report access denied. No current Cape/Panama/Suez/Hormuz throughput/closure claim admitted.",
+    "Caribbean/Venezuela enforcement capability not quantified; undated IMB advisory alone cannot support a regional risk ranking."
+  ],
+  "next_actions": [
+    "Obtain dated route/cargo-level shipment, insurance and fulfillment indicators before activating California maritime cascade.",
+    "Obtain matched transit denominators and reconcile IMB/ReCAAP intake differences before numerical risk comparison.",
+    "Record common hazards and donor floor for Western power imports and other supposed backup networks."
+  ],
+  "independent_check": {
+    "reviewer": "nutrient_network",
+    "scope": "MAR05 SWARD cargo, incident date and July29 custody status",
+    "result": "Peer reopened official EUNAVFOR source and reproduced claims; September status and California effects remain unverified."
+  }
+}

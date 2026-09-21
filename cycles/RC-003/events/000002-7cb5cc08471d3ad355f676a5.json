@@ -1,0 +1,15 @@
+{
+  "at": "2026-09-21T12:28:31.064442+00:00",
+  "cycle_id": "RC-003",
+  "event_id": "7cb5cc08471d3ad355f676a5",
+  "event_type": "agent_submission",
+  "hash": "779a3f6b46aba6183da8c1e4273caf09c8c6bb485f531cf0cb0bc5831cccd601",
+  "payload": {
+    "agent": "bayer_review",
+    "payload_hash": "15f83b328e9a431d48c9371a43c675b987f29ca61c64715f598a2e7726d18e11",
+    "phase": "checkpoint",
+    "submission_id": "4fc93035f3d6c631678dea522f766282ad9ad1f9fc6c6f986b52d3452ae67113"
+  },
+  "previous_hash": "9d4cb4bae7b03625dc67441b29298fd955fe3844bce799e0f10509a8202845d0",
+  "sequence": 2
+}

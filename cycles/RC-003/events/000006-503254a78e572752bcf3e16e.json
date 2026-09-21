@@ -1,0 +1,15 @@
+{
+  "at": "2026-09-21T12:28:31.087048+00:00",
+  "cycle_id": "RC-003",
+  "event_id": "503254a78e572752bcf3e16e",
+  "event_type": "agent_submission",
+  "hash": "a7dab6b59176ff44307bfbb8eda46ca0454ba09a8f7390425c5135d76276ebb7",
+  "payload": {
+    "agent": "durable_commons",
+    "payload_hash": "e8a21c6817ced6fb845c51ee24d0572e30ec8df4ce6e1460b99b4d13cf7d0bf3",
+    "phase": "submitted",
+    "submission_id": "bd84849ac3e9b23ba98aa8987c5e7ff743901d8bb61ffc5ab3544946ce1e6c53"
+  },
+  "previous_hash": "bafa1e815575e64bbea7bb12de25384cde20dc12b568223c802e25a75ffdb075",
+  "sequence": 6
+}

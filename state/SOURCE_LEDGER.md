@@ -1,6 +1,6 @@
 # SOURCE_LEDGER
 
-Cycle RC-002; cutoff 2026-09-20.
+Cycle RC-003; cutoff 2026-09-21.
 
 **grade:** A
 
@@ -449,6 +449,8 @@ Cycle RC-002; cutoff 2026-09-20.
 
 **id:** SRC22
 
+**last verified:** 2026-09-21
+
 **limitations:** Community network directory names West Oakland and Richmond projects; commissioning, hours, islanding and staffing not verified.
 
 **observation period:** Undated program descriptions accessed 2026-09-20
@@ -456,6 +458,10 @@ Cycle RC-002; cutoff 2026-09-20.
 **publication date:** Not established
 
 **publisher:** NorCal Resilience Network
+
+## rc003 readers
+
+- durable_commons
 
 **retrieved at:** 2026-09-20
 
@@ -693,6 +699,8 @@ Cycle RC-002; cutoff 2026-09-20.
 
 **last checked by:** coordinator
 
+**last verified:** 2026-09-21
+
 **last verified at:** 2026-09-21
 
 **limitations:** Owner confirms completed construction and currentsolar use; no operational islanding drill, outage-hours, staffing, accessiblecapacity or reserve duration verified.
@@ -702,6 +710,10 @@ Cycle RC-002; cutoff 2026-09-20.
 **publication date:** Not established
 
 **publisher:** Town of San Anselmo
+
+## rc003 readers
+
+- durable_commons
 
 **retrieved at:** 2026-09-20
 
@@ -774,6 +786,8 @@ Cycle RC-002; cutoff 2026-09-20.
 
 **last checked by:** coordinator
 
+**last verified:** 2026-09-21
+
 **last verified at:** 2026-09-21
 
 **limitations:** Company public explanation supports its own operating decisions; input-price and broad market attributions remain producer claims. No quantified lost output or current distributor stock. Actual restart since Aug27 unverified.
@@ -783,6 +797,10 @@ Cycle RC-002; cutoff 2026-09-20.
 **publication date:** 2026-08-27
 
 **publisher:** The Mosaic Company
+
+## rc003 readers
+
+- nutrient_network
 
 **retrieved at:** 2026-09-20
 
@@ -924,4 +942,803 @@ Cycle RC-002; cutoff 2026-09-20.
 **title:** New MRI and CT imaging now available at Watsonville Community Hospital
 
 **url:** https://www.pvhcd.org/home-page/page/new-mri-and-ct-imaging-now-available-watsonville-community-hospital
+
+
+---
+
+**grade:** A
+
+**id:** RC3C01
+
+**limitations:** No live transfer capability, uncommitted generation or firm availability inferred from market membership.
+
+**observation period:** Undated structural description and membership list read September 21, 2026
+
+**publication date:** Not established
+
+**publisher:** California ISO / Western Energy Markets
+
+**retrieved at:** 2026-09-21
+
+**title:** Western Energy Imbalance Market
+
+**url:** https://www.westernenergymarkets.com/western-energy-imbalance-market-weim
+
+
+---
+
+**grade:** A
+
+**id:** RC3C02
+
+**last verified:** 2026-09-21
+
+**limitations:** July report is not September live shipping status. Supply projections are scenarios; price or production concentration does not measure currently available donor reserve.
+
+**observation period:** 2025 and early/mid-2026 observations; forecasts separately identified
+
+**publication date:** 2026-07-16
+
+**publisher:** International Energy Agency
+
+## rc003 readers
+
+- nutrient_network
+
+**retrieved at:** 2026-09-21
+
+**title:** Global Critical Minerals Outlook 2026: Executive summary
+
+**url:** https://www.iea.org/reports/global-critical-minerals-outlook-2026/executive-summary
+
+
+---
+
+**grade:** A
+
+**id:** RC3C03
+
+**limitations:** Historical concentration context for purified phosphoric acid; not a current market-share audit or evidence batteries displaced food fertilizer.
+
+**observation period:** 2024 observations and 2025 report projections
+
+**publication date:** 2025
+
+**publisher:** International Energy Agency
+
+**retrieved at:** 2026-09-21
+
+**title:** Global Critical Minerals Outlook 2025: Executive summary
+
+**url:** https://www.iea.org/reports/global-critical-minerals-outlook-2025/executive-summary
+
+
+---
+
+**grade:** A
+
+**id:** NUT01
+
+**last checked by:** nutrient_network
+
+**limitations:** Historical technical process source; old production shares and emission-regulation statements are not treated as current.
+
+**observation period:** Technical processes; reformatted January 1995
+
+**publication date:** 1993-07
+
+**publisher:** U.S. EPA
+
+**retrieved at:** 2026-09-21
+
+**title:** Phosphate Rock Processing, AP-42 section 11.21
+
+**url:** https://www.epa.gov/sites/default/files/2020-10/documents/c11s21.pdf
+
+
+---
+
+**grade:** A
+
+**id:** NUT02
+
+**last checked by:** nutrient_network
+
+**limitations:** Technical chemistry only; no current market share, regulation or capacity asserted.
+
+**observation period:** Historical technical description of wet and thermal processes
+
+**publication date:** Not established
+
+**publisher:** U.S. EPA
+
+**retrieved at:** 2026-09-21
+
+**title:** Phosphoric Acid, AP-42 section 8.9
+
+**url:** https://www.epa.gov/sites/default/files/2020-09/documents/8.9_phosphoric_acid.pdf
+
+
+---
+
+**grade:** A
+
+**id:** NUT03
+
+**last checked by:** nutrient_network
+
+**limitations:** Technical process source, not a current capacity inventory or site-specific recovery guarantee.
+
+**observation period:** Technical description of recovery from refinery and gas-processing H2S
+
+**publication date:** 2015-04
+
+**publisher:** U.S. EPA
+
+**retrieved at:** 2026-09-21
+
+**title:** Sulfur Recovery, AP-42 section 8.13
+
+**url:** https://www.epa.gov/sites/default/files/2020-09/documents/8.13_sulfur_recovery.pdf
+
+
+---
+
+**grade:** A
+
+**id:** NUT04
+
+**last checked by:** nutrient_network
+
+**limitations:** Historical market shares and regulations not asserted as current; alternative process existence does not establish expandable merchant supply.
+
+**observation period:** Technical processes; reformatted January 1995
+
+**publication date:** 1993-07
+
+**publisher:** U.S. EPA
+
+**retrieved at:** 2026-09-21
+
+**title:** Sulfuric Acid, AP-42 section 8.10
+
+**url:** https://www.epa.gov/sites/default/files/2020-09/documents/8.10_sulfuric_acid.pdf
+
+
+---
+
+**grade:** A
+
+**id:** NUT05
+
+**last checked by:** nutrient_network
+
+**limitations:** Authorizations are conditional and transaction-specific; other federal requirements continue; no sulfur-specific transaction is assessed or approved here.
+
+**observation period:** Effective September 14, 2026; supersedes 52B
+
+**publication date:** 2026-09-14
+
+**publisher:** U.S. Treasury OFAC
+
+**retrieved at:** 2026-09-21
+
+**title:** General License 52C: Certain Transactions Involving PDVSA
+
+**url:** https://ofac.treasury.gov/media/936926/download?inline=
+
+
+---
+
+**grade:** A
+
+**id:** NUT06
+
+**last checked by:** nutrient_network
+
+**limitations:** Historical structural evidence only. The 2023 licensing, production numbers and 2024 forecasts are not current 2026 status.
+
+**observation period:** 2023 structural context and then-current 2024 forecast
+
+**publication date:** 2023-10-23
+
+**publisher:** U.S. EIA
+
+**retrieved at:** 2026-09-21
+
+**title:** Venezuela heavy crude output growth constraints after sanctions relief
+
+**url:** https://www.eia.gov/todayinenergy/detail.php?id=60762
+
+
+---
+
+**grade:** A
+
+**id:** NUT07
+
+**last checked by:** nutrient_network
+
+**limitations:** Minnesota agronomic calibration is not a California application prescription. Local crop, soil and nutrient analyses are required.
+
+**observation period:** Research-based manufacturing and crop/soil guidance; mixed study dates
+
+**publication date:** Not established
+
+**publisher:** University of Minnesota Extension
+
+**retrieved at:** 2026-09-21
+
+**title:** Understanding phosphorus fertilizers
+
+**url:** https://extension.umn.edu/agriculture/crop-production/nutrient-management-for-minnesota-crops/understanding-phosphorus-fertilizers
+
+
+---
+
+**grade:** A
+
+**id:** NUT08
+
+**last checked by:** nutrient_network
+
+**limitations:** Operator advertises 4.2 million tons/year sulfur capacity; wording says tons. Neither current actual output nor uncommitted export surplus is established.
+
+**observation period:** Undated capacity statement read September 21, 2026
+
+**publication date:** Not established
+
+**publisher:** ADNOC
+
+**retrieved at:** 2026-09-21
+
+**title:** ADNOC Sour Gas: Shah operating profile
+
+**url:** https://www.adnoc.ae/en/adnoc-sour-gas
+
+
+---
+
+**grade:** A
+
+**id:** MAR01
+
+**limitations:** Reported incidents, not all incidents; no ship-transit denominator. Singapore coverage differs from ReCAAP. Not September whole-world conditions.
+
+**observation period:** 2026-01-01 to 2026-06-30
+
+**publication date:** 2026-07-09
+
+**publisher:** ICC International Maritime Bureau
+
+**retrieved at:** 2026-09-21
+
+**title:** Maritime piracy incidents fall to lowest since 1992, but risk remains
+
+**url:** https://icc-ccs.org/lowest-first-quarter-maritime-piracy-and-armed-robbery-figures-since-1991-but-vigilance-remains-essential-2/
+
+
+---
+
+**grade:** A
+
+**id:** MAR02
+
+**limitations:** Reported events; no matched ship-transit denominator. Enforcement attribution is source assessment, not isolated causal experiment.
+
+**observation period:** 2026-01-01 to 2026-06-30
+
+**publication date:** 2026-07-14
+
+**publisher:** ReCAAP ISC
+
+**retrieved at:** 2026-09-21
+
+**title:** 35 incidents of Armed Robbery Against Ships in Asia Reported in First Half of 2026
+
+**url:** https://www.recaap.org/resources/ck/files/news/2026/Press%20release%20-%20ReCAAP%20ISC%20Half%20Year%20Report%20(Jan%20-%20Jun%202026)%20-%20final.pdf
+
+
+---
+
+**grade:** A
+
+**id:** MAR03
+
+**limitations:** One reporting week; publication date not printed. No reports is not proof of no unreported events.
+
+**observation period:** 2026-09-08 to 2026-09-14
+
+**publication date:** Not established
+
+**publisher:** ReCAAP ISC
+
+**retrieved at:** 2026-09-21
+
+**title:** Weekly Report 8–14 September 2026
+
+**url:** https://www.recaap.org/resources/ck/files/reports/weekly/2026/ReCAAP%20ISC%20Weekly%20Report%20(8-14%20Sep)%202026.pdf
+
+
+---
+
+**grade:** A
+
+**id:** MAR04
+
+**limitations:** Operator account of own response; event success cannot establish geographic patrol sufficiency. Captivity wording does not clearly resolve cumulative versus currently captive totals; do not use that total.
+
+**observation period:** 2026-09-10 incident and April–September context
+
+**publication date:** 2026-09-11
+
+**publisher:** EUNAVFOR ATALANTA
+
+**retrieved at:** 2026-09-21
+
+**title:** Resolution of a piracy incident in the Gulf of Aden
+
+**url:** https://eunavfor.eu/news/resolution-piracy-incident-gulf-aden
+
+
+---
+
+**grade:** A
+
+**id:** MAR05
+
+**limitations:** July custody status is historical; no September resolution inferred. Vessel cargo description does not prove California exposure.
+
+**observation period:** April–July 2026 incidents; status as of July29
+
+**publication date:** 2026-07-29
+
+**publisher:** EUNAVFOR ATALANTA
+
+**retrieved at:** 2026-09-21
+
+**title:** Update of the ongoing piracy incidents off the northern coast of Somalia
+
+**url:** https://eunavfor.eu/news/update-ongoing-piracy-incidents-northern-coast-somalia
+
+
+---
+
+**grade:** A
+
+**id:** MAR06
+
+**limitations:** Official operational account; no patrol-to-threat force ratio or response-time distribution.
+
+**observation period:** 2026-07-01 incident and subsequent response
+
+**publication date:** 2026-07-03
+
+**publisher:** EUNAVFOR ATALANTA
+
+**retrieved at:** 2026-09-21
+
+**title:** Operation ATALANTA coordinates multinational response to pirate attack on MV GOLDEN ARSENAL
+
+**url:** https://eunavfor.eu/news/operation-atalanta-coordinates-multinational-response-pirate-attack-mv-golden-arsenal
+
+
+---
+
+**grade:** A
+
+**id:** MAR07
+
+**limitations:** Uneven timestamps and mixed historical/current passages. Not a synchronized current route-clearance certificate. No claim of current canal or strait closure admitted.
+
+**observation period:** Mixed historical background and 2026 updates; undated dynamic advisory retrieved Sep21
+
+**publication date:** Not established
+
+**publisher:** ICC International Maritime Bureau
+
+**retrieved at:** 2026-09-21
+
+**title:** Piracy and armed robbery prone areas and warnings
+
+**url:** https://icc-ccs.org/piracy-and-armed-robbery-prone-areas-and-warnings/
+
+
+---
+
+**grade:** A
+
+**id:** MAR08
+
+**limitations:** Structural market description, not live available transfer capacity or donor surplus. Undated market membership numbers not used.
+
+**observation period:** Structural collaboration description; dynamic page retrieved Sep21
+
+**publication date:** Not established
+
+**publisher:** California ISO
+
+**retrieved at:** 2026-09-21
+
+**title:** Regional collaboration
+
+**url:** https://www.caiso.com/about/our-business/regional-collaboration
+
+
+---
+
+**grade:** B
+
+**id:** EFS01
+
+**limitations:** Publication day not shown; hosted path says 2025-12. National FY2025 network totals, not local inventory, edible calories or local mix.
+
+**observation period:** 2024-07-01 through 2025-06-30
+
+**publication date:** Not established
+
+**publisher:** Feeding America
+
+**retrieved at:** 2026-09-21
+
+**title:** Feeding America 2025 Annual Report
+
+**url:** https://www.feedingamerica.org/sites/default/files/2025-12/FA_25AnnReport_DIGITAL_final.pdf
+
+
+---
+
+**grade:** A
+
+**id:** EFS02
+
+**limitations:** Audit date; uploaded in January 2026. Accounting food values do not directly establish a pound or nutrition mix, current stocks or emergency days.
+
+**observation period:** Fiscal year ended 2025-06-30
+
+**publication date:** 2025-12-30
+
+**publisher:** Alameda County Community Food Bank
+
+**retrieved at:** 2026-09-21
+
+**title:** ACCFB FY2025 audited financial statements
+
+**url:** https://www.accfb.org/wp-content/uploads/2026/01/ACCFB-2025-Audit-FS.pdf
+
+
+---
+
+**grade:** B
+
+**id:** EFS03
+
+**limitations:** Web page displays revision timestamp 2026-07-29. Organization self-report; grant and partnership are dated examples, not verified current available balance or contracted emergency volumes.
+
+**observation period:** FY2025
+
+**publication date:** Not established
+
+**publisher:** Alameda County Community Food Bank
+
+**retrieved at:** 2026-09-21
+
+**title:** ACCFB Annual Report 2025
+
+**url:** https://www.accfb.org/annual-report-2025/
+
+
+---
+
+**grade:** A
+
+**id:** EFS04
+
+**limitations:** General engineering and planning guidance, not a site feasibility study or guarantee of cost, availability, range or outage endurance.
+
+**observation period:** Undated guidance retrieved 2026-09-21
+
+**publication date:** Not established
+
+**publisher:** U.S. Department of Energy, Alternative Fuels Data Center
+
+**retrieved at:** 2026-09-21
+
+**title:** DOE AFDC: Electric Vehicles for Fleets
+
+**url:** https://afdc.energy.gov/vehicles/electric-fleets
+
+
+---
+
+**grade:** A
+
+**id:** EFS08
+
+**limitations:** Historical operator case reported by DOE. Parked refrigeration, not traction electrification; present equipment status and transferable savings unknown.
+
+**observation period:** Deployment reported by 2018-05-29
+
+**publication date:** 2018-05-29
+
+**publisher:** U.S. Department of Energy, Alternative Fuels Data Center
+
+**retrieved at:** 2026-09-21
+
+**title:** DOE: Electric Refrigeration Translates Fuel Burn into Savings for Nonprofit
+
+**url:** https://afdc.energy.gov/case/3069
+
+
+---
+
+**grade:** A
+
+**id:** EFS05
+
+**limitations:** General conversion description, not a quotation or suitability determination for a particular chassis. Current jurisdiction-specific compliance requires project review.
+
+**observation period:** Undated technical guidance retrieved 2026-09-21
+
+**publication date:** Not established
+
+**publisher:** U.S. Department of Energy, Alternative Fuels Data Center
+
+**retrieved at:** 2026-09-21
+
+**title:** Electric Vehicle Conversions
+
+**url:** https://afdc.energy.gov/vehicles/electric-conversions
+
+
+---
+
+**grade:** A
+
+**id:** EFS06
+
+**limitations:** No numerical price or tax-credit entitlement admitted; general planning guidance cannot establish site cost or energization timeline.
+
+**observation period:** Undated guidance retrieved 2026-09-21
+
+**publication date:** Not established
+
+**publisher:** U.S. Department of Energy, Alternative Fuels Data Center
+
+**retrieved at:** 2026-09-21
+
+**title:** Procurement and Installation for Electric Vehicle Charging Infrastructure
+
+**url:** https://afdc.energy.gov/fuels/electricity-infrastructure-development
+
+
+---
+
+**grade:** A
+
+**id:** EFS07
+
+**limitations:** Establishes competitive purchasing and TEFAP demand planning, not current appropriations, local allocation, usable surplus or guaranteed deliveries.
+
+**observation period:** Program description retrieved 2026-09-21
+
+**publication date:** Not established
+
+**publisher:** U.S. Department of Agriculture, Agricultural Marketing Service
+
+**retrieved at:** 2026-09-21
+
+**title:** Selling Food to USDA
+
+**url:** https://www.ams.usda.gov/selling-food
+
+
+---
+
+**grade:** A
+
+**id:** DC02
+
+**limitations:** Primary operator account supports existing campus and APEN partnership; does not establish title ownership, present battery commissioning or general-public outage access.
+
+**observation period:** Commons fully opened summer 2022; later campus development undated
+
+**publication date:** Not established
+
+**publisher:** RYSE Center
+
+**retrieved at:** 2026-09-21
+
+**title:** Origin Story of RYSE
+
+**url:** https://rysecenter.org/origin-story-of-ryse
+
+
+---
+
+**grade:** A
+
+**id:** DC03
+
+**limitations:** Owner/steward account of acquisition and community uses, not a title search or current vacancy/availability listing. No outage capability verified.
+
+**observation period:** Property acquisition November 28 2017; historical project narrative with 2022-02-28 page metadata
+
+**publication date:** Not established
+
+**publisher:** Oakland Community Land Trust
+
+**retrieved at:** 2026-09-21
+
+**title:** Liberated 23rd Avenue
+
+**url:** https://oakclt.org/portfolio-items/liberated23rdave/
+
+
+---
+
+**grade:** A
+
+**id:** DC05
+
+**limitations:** Routine opening hours only; no emergency extended hours established. No quantified before/after baseline.
+
+**observation period:** Current September 21 2026 public schedule; 2026 closure calendar
+
+**publication date:** Not established
+
+**publisher:** City of Hayward
+
+**retrieved at:** 2026-09-21
+
+**title:** Locations & Hours
+
+**url:** https://www.hayward-ca.gov/public-library/using-library/locations-hours
+
+
+---
+
+**grade:** A
+
+**id:** DC06
+
+**limitations:** General reservation rules only; applications not made, specific dates not checked, and no durable tenure or emergency access rights inferred.
+
+**observation period:** Current rules retrieved September 21 2026
+
+**publication date:** Not established
+
+**publisher:** City of Hayward
+
+**retrieved at:** 2026-09-21
+
+**title:** Meeting Rooms
+
+**url:** https://www.hayward-ca.gov/public-library/using-library/meeting-rooms
+
+
+---
+
+**grade:** A
+
+**id:** DC07
+
+**limitations:** Supports existing Main and Manor municipal library nodes and listed shared services. No available long-term space, verified backup power, water reserve or outage operation established.
+
+**observation period:** Current September 2026 programs and services as retrieved
+
+**publication date:** Not established
+
+**publisher:** City of San Leandro
+
+**retrieved at:** 2026-09-21
+
+**title:** Public Library
+
+**url:** https://www.sanleandro.org/162/Public-Library
+
+
+---
+
+**grade:** A
+
+**id:** DC08
+
+**limitations:** Organizational description of community land stewardship including gardens and commercial space. Does not establish available property, funding or terms for a particular project.
+
+**observation period:** Undated organizational model; page metadata updated March 20 2025
+
+**publication date:** Not established
+
+**publisher:** Oakland Community Land Trust
+
+**retrieved at:** 2026-09-21
+
+**title:** Learn About CLTs
+
+**url:** https://oakclt.org/what-is-a-community-land-trust/
+
+
+---
+
+**grade:** A
+
+**id:** DC09
+
+**limitations:** Historical notice newly found this cycle. Admits stated budget reason and hours reduction; does not infer present streaming-service status or demonstrated heat-emergency harm.
+
+**observation period:** Changes effective January 1 2026
+
+**publication date:** 2026-01-01
+
+**publisher:** City of Hayward
+
+**retrieved at:** 2026-09-21
+
+**title:** Library hours to be reduced, two digital streaming resources eliminated
+
+**url:** https://www.hayward-ca.gov/discover/news/jan26/library-hours-be-reduced-two-digital-streaming-resources-eliminated
+
+
+---
+
+**grade:** A
+
+**id:** BAY01
+
+**limitations:** Agency positions are attributed. Completion in late 2026 is intended, not achieved. Does not establish individual medical risk or adjudicate litigation. EPA acknowledges the November 2025 review-article retraction, but this record does not independently establish its underlying misconduct.
+
+**observation period:** Current review schedule plus historical 2017 assessment and 2022 vacatur/withdrawal
+
+**publication date:** 2026-08-26
+
+**publisher:** U.S. EPA
+
+**retrieved at:** 2026-09-21
+
+**title:** Glyphosate: current review, evidence and regulatory history
+
+**url:** https://www.epa.gov/ingredients-used-pesticide-products/glyphosate
+
+
+---
+
+**grade:** A
+
+**id:** BAY02
+
+**limitations:** Hazard identification is not an exposure-specific risk estimate. Does not determine a product formulation, user exposure, corporate intent or supply shortage.
+
+**observation period:** 2015 hazard assessment
+
+**publication date:** 2015-03-20
+
+**publisher:** International Agency for Research on Cancer
+
+**retrieved at:** 2026-09-21
+
+**title:** IARC Monographs Volume 112 evaluation announcement
+
+**url:** https://www.iarc.who.int/wp-content/uploads/2018/07/MonographVolume112-1.pdf
+
+
+---
+
+**grade:** A
+
+**id:** BAY03
+
+**limitations:** Company acknowledgement of historical conduct; not a complete independent history or evidence of present intent.
+
+**observation period:** Historical corporate role 1925–1945
+
+**publication date:** 2023-07-11
+
+**publisher:** Bayer
+
+**retrieved at:** 2026-09-21
+
+**title:** History of Bayer: 1925–1945
+
+**url:** https://www.bayer.com/en/history/1925-1945
 

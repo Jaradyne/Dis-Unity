@@ -1,0 +1,95 @@
+{
+  "agent": "nutrient_network_review",
+  "cycle_id": "RC-003",
+  "reviewed_at": "2026-09-21",
+  "scope": {
+    "edges": [
+      "EDGE15",
+      "EDGE16",
+      "EDGE17",
+      "EDGE18",
+      "EDGE19",
+      "EDGE20",
+      "EDGE21"
+    ],
+    "reserves": [
+      "RES15",
+      "RES16",
+      "RES17",
+      "RES18"
+    ],
+    "checks": [
+      "Conditional activation versus observed events",
+      "Source mapping to submitted evidence",
+      "Protected donor floors and shared dependencies",
+      "Physical capacity distinguished from legal or institutional permission"
+    ]
+  },
+  "candidate_file": "cycles/RC-003/candidate.json",
+  "candidate_file_sha256": "0b6fbb8a85cdffbd9ce3b1989bd4152f0a32da031d22cda8fddb913495af0be7",
+  "decision": "scoped_pass_with_limitations",
+  "findings": [
+    {
+      "severity": "pass",
+      "ids": [
+        "EDGE15",
+        "EDGE16"
+      ],
+      "finding": "Observed producer curtailment is separated from unmet farmer needs. Coproduct loss remains conditional and explicitly excludes attributing current shortage to electric vehicles. EPA chemistry and Mosaic/IEA mappings support the stated bounded claims."
+    },
+    {
+      "severity": "pass",
+      "ids": [
+        "EDGE17",
+        "EDGE21"
+      ],
+      "finding": "Charging and equipment dependencies are planning mechanisms, not asserted fleet failures or battery-caused fertilizer curtailments. Source scope and absent site data are acknowledged."
+    },
+    {
+      "severity": "pass",
+      "ids": [
+        "EDGE18",
+        "RES15",
+        "RES16"
+      ],
+      "finding": "Food-assistance model keeps purchases/government channels separate from rescue and recognizes some disruptions increase surplus. Proposed inventory has no secured stock. Donor households, farm viability and operating cash are protected rather than treated as spare."
+    },
+    {
+      "severity": "pass",
+      "ids": [
+        "EDGE19",
+        "RES17"
+      ],
+      "finding": "Observed library hours reduction is not promoted to measured heat harm. Verified tenure models remain distinct from property availability, legal access, staffing and functioning services."
+    },
+    {
+      "severity": "pass",
+      "ids": [
+        "EDGE20"
+      ],
+      "finding": "Specific historical fertilizer-cargo incident is separated from route-wide closure and California exposure. Timing, stock cover and fulfilled orders are the activation tests."
+    },
+    {
+      "severity": "pass",
+      "ids": [
+        "RES18"
+      ],
+      "finding": "An existing electricity market is identified without claiming live import reserve. The donor floor, transfer capability and correlated regional hazards constrain the offer."
+    },
+    {
+      "severity": "nonblocking_wording",
+      "ids": [
+        "RES18"
+      ],
+      "finding": "For precision, shared_failure_audit.expectation_gap could say Imports may shrink during a common regional peak rather than Imports shrink. The enclosing PLAUSIBLE MECHANISM label and readiness limitation already prevent a quantified current-availability claim."
+    }
+  ],
+  "blocking_findings": [],
+  "explicit_limits": [
+    "This is a scoped candidate-integration pass, not a whole-state pass or refreshed audit of every linked source.",
+    "Review used the candidate source ledger and saved electric_food, durable_commons, coordinator_network and nutrient checkpoints; no broad new research was performed.",
+    "This reviewer is separate from candidate assembly but authored nutrient technical inputs underlying EDGE15 and EDGE16. Those checks are not an independent replication of this reviewer’s own source research.",
+    "No partner commitment, title audit, electrical engineering study, food inventory count, present maritime clearance or transaction-specific legal assessment is established.",
+    "Nonblocking wording recommendation does not alter the accepted evidence and does not authorize any physical procurement or external action."
+  ]
+}

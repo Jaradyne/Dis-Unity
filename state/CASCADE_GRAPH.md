@@ -1,6 +1,6 @@
 # CASCADE_GRAPH
 
-Cycle RC-002; cutoff 2026-09-20.
+Cycle RC-003; cutoff 2026-09-21.
 
 **activation rule:** Conditional links require threshold observations. No automatic transitive propagation from a single stressed node.
 
@@ -35,152 +35,7 @@ Cycle RC-002; cutoff 2026-09-20.
 ### thresholds
 
 - Actual payment mismatch persists through billing cycle; named essential lanes lose reliable service
--  
-- S
-- e
-- p
-- a
-- r
-- a
-- t
-- e
--  
-- c
-- a
-- r
-- r
-- i
-- e
-- r
--  
-- d
-- i
-- e
-- s
-- e
-- l
-- -
-- c
-- o
-- s
-- t
--  
-- e
-- x
-- p
-- o
-- s
-- u
-- r
-- e
--  
-- f
-- r
-- o
-- m
--  
-- p
-- r
-- o
-- d
-- u
-- c
-- e
-- -
-- t
-- r
-- u
-- c
-- k
--  
-- a
-- v
-- a
-- i
-- l
-- a
-- b
-- i
-- l
-- i
-- t
-- y
-- ;
--  
-- a
--  
-- c
-- o
-- n
-- t
-- e
-- m
-- p
-- o
-- r
-- a
-- n
-- e
-- o
-- u
-- s
--  
-- s
-- h
-- o
-- r
-- t
-- a
-- g
-- e
--  
-- r
-- a
-- t
-- i
-- n
-- g
--  
-- a
-- l
-- o
-- n
-- e
--  
-- c
-- a
-- n
-- n
-- o
-- t
--  
-- i
-- d
-- e
-- n
-- t
-- i
-- f
-- y
--  
-- f
-- u
-- e
-- l
--  
-- a
-- s
--  
-- t
-- h
-- e
--  
-- c
-- a
-- u
-- s
-- e
-- .
+- Separate carrier diesel-cost exposure from produce-truck availability; a contemporaneous shortage rating alone cannot identify fuel as the cause.
 
 **time horizon:** Days to months
 
@@ -196,183 +51,7 @@ Cycle RC-002; cutoff 2026-09-20.
 ### buffers
 
 - Multiple suppliers, existing distribution, some contracts
--  
-- S
-- e
-- p
-- t
-- e
-- m
-- b
-- e
-- r
--  
-- g
-- r
-- a
-- i
-- n
--  
-- r
-- a
-- i
-- l
-- /
-- b
-- a
-- r
-- g
-- e
--  
-- t
-- h
-- r
-- o
-- u
-- g
-- h
-- p
-- u
-- t
--  
-- p
-- r
-- o
-- v
-- i
-- d
-- e
-- s
--  
-- s
-- e
-- c
-- t
-- o
-- r
-- -
-- s
-- p
-- e
-- c
-- i
-- f
-- i
-- c
--  
-- c
-- o
-- u
-- n
-- t
-- e
-- r
-- e
-- v
-- i
-- d
-- e
-- n
-- c
-- e
-- ;
--  
-- M
-- e
-- x
-- i
-- c
-- o
-- –
-- T
-- e
-- x
-- a
-- s
--  
-- s
-- l
-- i
-- g
-- h
-- t
--  
-- r
-- e
-- e
-- f
-- e
-- r
--  
-- s
-- u
-- r
-- p
-- l
-- u
-- s
--  
-- i
-- s
--  
-- o
-- n
-- l
-- y
--  
-- a
--  
-- c
-- a
-- n
-- d
-- i
-- d
-- a
-- t
-- e
--  
-- a
-- f
-- t
-- e
-- r
--  
-- r
-- o
-- u
-- t
-- e
-- /
-- c
-- o
-- m
-- m
-- o
-- d
-- i
-- t
-- y
-- /
-- d
-- r
-- i
-- v
-- e
-- r
--  
-- c
-- o
-- n
-- s
-- t
-- r
-- a
-- i
-- n
-- t
-- s
-- .
+- September grain rail/barge throughput provides sector-specific counterevidence; Mexico–Texas slight reefer surplus is only a candidate after route/commodity/driver constraints.
 
 **confirm:** Delivery reliability/temperature failures coincide with lane capacity losses
 
@@ -568,175 +247,7 @@ Cycle RC-002; cutoff 2026-09-20.
 ### buffers
 
 - Network switching, stored water and backup if verified
--  
-- H
-- i
-- s
-- t
-- o
-- r
-- i
-- c
-- a
-- l
--  
-- r
-- e
-- s
-- e
-- r
-- v
-- o
-- i
-- r
--  
-- s
-- t
-- o
-- r
-- a
-- g
-- e
--  
-- d
-- o
-- e
-- s
--  
-- n
-- o
-- t
--  
-- e
-- s
-- t
-- a
-- b
-- l
-- i
-- s
-- h
--  
-- c
-- u
-- r
-- r
-- e
-- n
-- t
--  
-- d
-- e
-- l
-- i
-- v
-- e
-- r
-- y
--  
-- r
-- e
-- s
-- e
-- r
-- v
-- e
-- ;
--  
-- m
-- a
-- p
--  
-- g
-- r
-- a
-- v
-- i
-- t
-- y
-- ,
--  
-- p
-- u
-- m
-- p
-- i
-- n
-- g
-- ,
--  
-- t
-- r
-- e
-- a
-- t
-- m
-- e
-- n
-- t
--  
-- a
-- n
-- d
--  
-- l
-- o
-- c
-- a
-- l
--  
-- d
-- i
-- s
-- t
-- r
-- i
-- b
-- u
-- t
-- i
-- o
-- n
--  
-- s
-- e
-- p
-- a
-- r
-- a
-- t
-- e
-- l
-- y
--  
-- b
-- e
-- f
-- o
-- r
-- e
--  
-- a
-- c
-- t
-- i
-- v
-- a
-- t
-- i
-- n
-- g
--  
-- t
-- h
-- i
-- s
--  
-- e
-- d
-- g
-- e
-- .
+- Historical reservoir storage does not establish current delivery reserve; map gravity, pumping, treatment and local distribution separately before activating this edge.
 
 **confirm:** Utility incident notice documents power-driven service impairment
 
@@ -1029,7 +540,240 @@ Cycle RC-002; cutoff 2026-09-20.
 
 **uncertainty:** Current cash balance, grant disbursement, staffing and partner surplus unverified
 
+
+---
+
+**activation status:** Upstream curtailment observed; farmer/crop cascade conditional
+
+**buffers:** Stocks, alternative qualified suppliers, acid regeneration and agronomic demand reduction
+
+**confirm:** Missed phosphate orders after documented idles
+
+**dependent system:** fertilizer
+
+**falsify:** Restarts or replacement supply fill needs on time
+
+**from:** sulfur
+
+**id:** EDGE15
+
+**initiating stress:** Insufficient affordable, deliverable sulfur/acid
+
+**mechanism:** Wet-process phosphate production needs acid; lost feed or unaffordable operation can idle usable mineral-processing capacity.
+
+**Sources:** [NUT02: U.S. EPA](https://www.epa.gov/sites/default/files/2020-09/documents/8.9_phosphoric_acid.pdf), [TRS02: The Mosaic Company](https://mosaicco.com/Article/Fertilizer-Markets-Facts-and-Context), [RC3C02: International Energy Agency](https://www.iea.org/reports/global-critical-minerals-outlook-2026/executive-summary)
+
+**substitutes:** Compatible fertilizer imports and tested recovered phosphorus; N and K do not replace P
+
+**thresholds:** Plant input cover exhausted or economics force idling; farm effects need unmet orders/application windows
+
+**time horizon:** Days to months; new plants longer
+
+**to:** fertilizer
+
+**uncertainty:** Current downstream inventories and restarts unknown
+
+
+---
+
+**activation status:** Unactivated conditional transition hypothesis
+
+**buffers:** Sour-gas recovery, compatible smelter acid, regeneration and reduced avoidable demand
+
+**confirm:** Linked output loss plus unmet essential acid demand after adaptation
+
+**dependent system:** sulfur
+
+**falsify:** Stable delivered supply through contraction
+
+**from:** diesel
+
+**id:** EDGE16
+
+**initiating stress:** Long-run refining throughput contraction
+
+**mechanism:** A useful sulfur coproduct may decline as fuel processing contracts; net effect depends on feed sulfur and alternative sources.
+
+**Sources:** [NUT03: U.S. EPA](https://www.epa.gov/sites/default/files/2020-09/documents/8.13_sulfur_recovery.pdf), [NUT04: U.S. EPA](https://www.epa.gov/sites/default/files/2020-09/documents/8.10_sulfuric_acid.pdf)
+
+**substitutes:** Verified sulfur/acid sources and nutrient recovery
+
+**thresholds:** Recovered output falls faster than accessible alternatives and demand reductions
+
+**time horizon:** Months to years; structural transition
+
+**to:** sulfur
+
+**uncertainty:** No EV attribution for current shortage; net supply response unknown
+
+
+---
+
+**activation status:** Planning dependency; no named fleet failure established
+
+**buffers:** Charged reserve vehicles, managed charging and genuinely independent charging paths
+
+**confirm:** Named missed deliveries linked to charger/feeder failure
+
+**dependent system:** trucking
+
+**falsify:** Routes completed with tested independent replenishment
+
+**from:** grid
+
+**id:** EDGE17
+
+**initiating stress:** Depot charging unavailable or insufficient
+
+**mechanism:** Electrified routes shift replenishment from diesel delivery to chargers and electrical service; simultaneous outages can remove the substitute.
+
+**Sources:** [EFS04: U.S. Department of Energy, Alternative Fuels Data Center](https://afdc.energy.gov/vehicles/electric-fleets), [EFS06: U.S. Department of Energy, Alternative Fuels Data Center](https://afdc.energy.gov/fuels/electricity-infrastructure-development)
+
+**substitutes:** Compatible alternate depot; pooled essential trips; phased fleet transition
+
+**thresholds:** Usable energy cannot cover essential route through replenishment interruption
+
+**time horizon:** Hours to days during outages; months/years for interconnection
+
+**to:** trucking
+
+**uncertainty:** Site route, payload, weather and charger data absent
+
+
+---
+
+**activation status:** Unactivated shared-shock hypothesis
+
+**buffers:** Separate purchasing fund, USDA channels, rotating stocks and route-diverse suppliers
+
+**confirm:** Dated rise in unmet requests plus falling recoveries/fulfillment and insufficient independent cover
+
+**dependent system:** food_assistance
+
+**falsify:** Stable essential service despite changing donation mix
+
+**from:** food_logistics
+
+**id:** EDGE18
+
+**initiating stress:** Supply disruption alongside increased need
+
+**mechanism:** Rescued supply may fall while food prices, demand for aid and delivery costs rise. Stranded surplus elsewhere is not automatically usable.
+
+**Sources:** [EFS01: Feeding America](https://www.feedingamerica.org/sites/default/files/2025-12/FA_25AnnReport_DIGITAL_final.pdf), [EFS02: Alameda County Community Food Bank](https://www.accfb.org/wp-content/uploads/2026/01/ACCFB-2025-Audit-FS.pdf), [EFS03: Alameda County Community Food Bank](https://www.accfb.org/annual-report-2025/)
+
+**substitutes:** Funded interregional procurement and safe menu substitution; cash assistance where markets work
+
+**thresholds:** Delivered usable nutrition falls below agreed essential service floor after purchases and inventory drawdown
+
+**time horizon:** Days to months
+
+**to:** food_assistance
+
+**uncertainty:** No local reserve-days baseline or current famine; some disruptions increase recoverable surplus
+
+
+---
+
+**activation status:** Ordinary hours reduction observed; emergency cascade conditional
+
+**buffers:** Protected activation budget, paid staff, durable access agreement and differently funded partner
+
+**confirm:** Service closures during needed activation with unmet demand
+
+**dependent system:** commons
+
+**falsify:** Funded emergency hours and successful accessible activation
+
+**from:** municipal
+
+**id:** EDGE19
+
+**initiating stress:** Operating-budget pressure
+
+**mechanism:** Reduced paid opening hours can remove accessible community refuge and information capacity even when the building remains intact.
+
+**Sources:** [DC09: City of Hayward](https://www.hayward-ca.gov/discover/news/jan26/library-hours-be-reduced-two-digital-streaming-resources-eliminated), [DC05: City of Hayward](https://www.hayward-ca.gov/public-library/using-library/locations-hours), [DC06: City of Hayward](https://www.hayward-ca.gov/public-library/using-library/meeting-rooms)
+
+**substitutes:** Accessible partner site with independent funded operation
+
+**thresholds:** Reduced hours overlap verified essential need and alternate sites cannot absorb it
+
+**time horizon:** Weeks/months for budget changes; hours during events
+
+**to:** commons
+
+**uncertainty:** No heat-related harm measured in Hayward
+
+
+---
+
+**activation status:** Specific historical fertilizer-cargo interruption observed; broader cascade conditional
+
+**buffers:** Stocks, route-diverse origins, vessel security and confirmed replacement bookings
+
+**confirm:** Matched shipment loss, depleted stocks and missed customer orders
+
+**dependent system:** fertilizer
+
+**falsify:** Replacement arrives before need or procurement chain unaffected
+
+**from:** trade
+
+**id:** EDGE20
+
+**initiating stress:** Cargo disruption or inaccessible maritime route
+
+**mechanism:** Loss, delay or rerouting consumes freight capacity and working capital; consequences depend on local cover and crop timing.
+
+**Sources:** [MAR05: EUNAVFOR ATALANTA](https://eunavfor.eu/news/update-ongoing-piracy-incidents-northern-coast-somalia), [MAR07: ICC International Maritime Bureau](https://icc-ccs.org/piracy-and-armed-robbery-prone-areas-and-warnings/), [RC3C02: International Energy Agency](https://www.iea.org/reports/global-critical-minerals-outlook-2026/executive-summary)
+
+**substitutes:** Alternate origin/port/route with correct product and verified capacity
+
+**thresholds:** Delay exceeds usable cover or application deadline
+
+**time horizon:** Days to months
+
+**to:** fertilizer
+
+**uncertainty:** No California exposure or current route-wide closure established
+
+
+---
+
+**activation status:** Structural concentration and planning dependency; project-level activation unverified
+
+**buffers:** Repair, compatible spares, diversified processing and equipment procurement
+
+**confirm:** Documented input-related commissioning slippage without alternatives
+
+**dependent system:** grid
+
+**falsify:** Timely equipment delivery or effective substitution
+
+**from:** industrial
+
+**id:** EDGE21
+
+**initiating stress:** Concentrated equipment and battery inputs
+
+**mechanism:** A substitute can be available as a design but not in the required grade, equipment, workforce or delivery slot; LFP manufacturing uses purified phosphoric acid.
+
+**Sources:** [RC3C02: International Energy Agency](https://www.iea.org/reports/global-critical-minerals-outlook-2026/executive-summary), [RC3C03: International Energy Agency](https://www.iea.org/reports/global-critical-minerals-outlook-2025/executive-summary), [EFS06: U.S. Department of Energy, Alternative Fuels Data Center](https://afdc.energy.gov/fuels/electricity-infrastructure-development)
+
+**substitutes:** Suitable alternate chemistry/design after engineering review; preserve functioning assets
+
+**thresholds:** Verified critical orders delay essential commissioning or repair
+
+**time horizon:** Months to years
+
+**to:** grid
+
+**uncertainty:** No evidence LFP demand caused current fertilizer curtailments; grade conversions are not automatic
+
 **priority rule:** Consequential interaction + independent evidence + actionable response; no opaque score
+
+**reserve independence rule:** Stress-test the fallback under the same initiating event. Trace shared suppliers, routes, grids, funders, staff, tenure and replenishment; multiple names need not mean independent capacity.
 
 ## review decisions
 
@@ -1351,6 +1095,108 @@ Cycle RC-002; cutoff 2026-09-20.
 **reviewer:** coordinator
 
 **Sources:** [SRC14: FBI](https://www.fbi.gov/news/press-releases/fbi-releases-2025-reported-crimes-in-the-nation-statistics), [SRC18: White House](https://www.whitehouse.gov/presidential-actions/2026/06/further-adjusting-the-tariff-regimes-for-imports-of-aluminum-steel-and-copper-into-the-united-states/), [SRC19: White House](https://www.whitehouse.gov/presidential-actions/2026/07/further-strengthening-actions-taken-to-adjust-imports-of-aluminum-into-the-united-states/)
+
+
+---
+
+**claim:** Mosaic August 27 curtailments
+
+**decision:** Independently confirmed operator disclosure; September restart and farmer effects unknown
+
+**id:** RC003-IR01
+
+**reviewer:** nutrient_network
+
+**Sources:** [TRS02: The Mosaic Company](https://mosaicco.com/Article/Fertilizer-Markets-Facts-and-Context)
+
+
+---
+
+**claim:** SWARD fertilizer cargo and July captivity
+
+**decision:** Independently confirmed April event and July status; September status/California link unknown
+
+**id:** RC003-IR02
+
+**reviewer:** nutrient_network
+
+**Sources:** [MAR05: EUNAVFOR ATALANTA](https://eunavfor.eu/news/update-ongoing-piracy-incidents-northern-coast-somalia)
+
+
+---
+
+**claim:** IEA shared sulfur/acid dependency
+
+**decision:** Independently confirmed July report; does not clear or close a September route
+
+**id:** RC003-IR03
+
+**reviewer:** nutrient_network
+
+**Sources:** [RC3C02: International Energy Agency](https://www.iea.org/reports/global-critical-minerals-outlook-2026/executive-summary)
+
+
+---
+
+**claim:** Food banks are only supplied by rescued surplus
+
+**decision:** Rejected; purchased and government channels documented, with own funding/logistics constraints
+
+**id:** RC003-CR01
+
+**reviewer:** coordinator
+
+**Sources:** [EFS02: Alameda County Community Food Bank](https://www.accfb.org/wp-content/uploads/2026/01/ACCFB-2025-Audit-FS.pdf), [EFS03: Alameda County Community Food Bank](https://www.accfb.org/annual-report-2025/), [EFS07: U.S. Department of Agriculture, Agricultural Marketing Service](https://www.ams.usda.gov/selling-food)
+
+
+---
+
+**claim:** San Anselmo is a fully tested public outage lifeboat
+
+**decision:** Downgraded to constructed infrastructure and solar operation; public activation/endurance unknown
+
+**id:** RC003-CR02
+
+**reviewer:** coordinator
+
+**Sources:** [LC_SRC02: Town of San Anselmo](https://www.sananselmo.gov/1677/Town-Hall-Resilience-Hub)
+
+
+---
+
+**claim:** Bayer is responsible for current sulfur constraint
+
+**decision:** Not established; separate corporate watch and input-chain evidence
+
+**id:** RC003-CR03
+
+**reviewer:** coordinator
+
+**Sources:** [BAY01: U.S. EPA](https://www.epa.gov/ingredients-used-pesticide-products/glyphosate), [TRS02: The Mosaic Company](https://mosaicco.com/Article/Fertilizer-Markets-Facts-and-Context)
+
+
+---
+
+**claim:** Several vendors or partners guarantee independent rescue
+
+**decision:** Rejected as an assumption; shared upstream failures and donor floors must be tested
+
+**id:** RC003-CR04
+
+**reviewer:** coordinator
+
+**Sources:** [EFS03: Alameda County Community Food Bank](https://www.accfb.org/annual-report-2025/), [MAR08: California ISO](https://www.caiso.com/about/our-business/regional-collaboration)
+
+
+---
+
+**claim:** Conditional new edges and reserve claims
+
+**decision:** Scoped pass with limitations for EDGE15-21 and RES15-18; reviewer authored nutrient inputs; pre-final hash and full limits preserved in closing_review.json
+
+**id:** RC003-SR01
+
+**reviewer:** nutrient_network_review
 
 **safety rule:** A donor retains protected demand and contingency reserve; route/compatibility constrain assistance.
 

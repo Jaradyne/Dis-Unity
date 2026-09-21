@@ -1,0 +1,13 @@
+{
+  "agent": "bayer_review",
+  "cycle": "RC-003",
+  "status": "started",
+  "cutoff": "2026-09-21",
+  "scope": "Bayer/Monsanto evidence watch and scoped independent challenge of consequential peer claims",
+  "findings": [],
+  "sources": [],
+  "peer_reviews": [],
+  "limitations": [
+    "No current operational capacity conclusion yet; checkpoint initialized before research."
+  ]
+}

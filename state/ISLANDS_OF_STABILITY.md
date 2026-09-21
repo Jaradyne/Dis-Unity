@@ -1,6 +1,6 @@
 # ISLANDS_OF_STABILITY
 
-Cycle RC-002; cutoff 2026-09-20.
+Cycle RC-003; cutoff 2026-09-21.
 
 **available surplus:** Not quantified; candidate complement, not committed rescue capacity
 
@@ -144,4 +144,67 @@ Cycle RC-002; cutoff 2026-09-20.
 **self sufficient:** False
 
 **Sources:** [LC_SRC02: Town of San Anselmo](https://www.sananselmo.gov/1677/Town-Hall-Resilience-Hub)
+
+
+---
+
+**available surplus:** Unknown at the required hour; market membership is not spare capacity
+
+**donor guardrail:** Retain essential demand and contingency reserves, then verify path and delivery
+
+**id:** ISL07
+
+**limits:** Common heat/drought/fire and line constraints; overseas electricity is not a direct substitute
+
+**name:** Western power complementarity
+
+**needs in return:** Reciprocal balancing, transmission, reliable contracts and donor load protection
+
+**offers:** Hourly exchange of available generation/flexibility through physical interconnection
+
+**self sufficient:** False
+
+**Sources:** [RC3C01: California ISO / Western Energy Markets](https://www.westernenergymarkets.com/western-energy-imbalance-market-weim), [MAR08: California ISO](https://www.caiso.com/about/our-business/regional-collaboration)
+
+
+---
+
+**available surplus:** Uncommitted operating output and delivered reserve unknown
+
+**donor guardrail:** Existing customers and domestic gas obligations take precedence over hypothetical rescue
+
+**id:** ISL08
+
+**limits:** Capacity is not inventory; common regional route exposures remain
+
+**name:** Sour-gas sulfur recovery network: Shah example
+
+**needs in return:** Working equipment, gas operations, maintenance, customers, lawful shipping and finance
+
+**offers:** Established industrial sulfur recovery; operator names 4.2 million tons/year capacity
+
+**self sufficient:** False
+
+**Sources:** [NUT08: ADNOC](https://www.adnoc.ae/en/adnoc-sour-gas), [NUT03: U.S. EPA](https://www.epa.gov/sites/default/files/2020-09/documents/8.13_sulfur_recovery.pdf), [RC3C02: International Energy Agency](https://www.iea.org/reports/global-critical-minerals-outlook-2026/executive-summary)
+
+
+---
+
+**available surplus:** No available property or uncommitted service slots verified
+
+**donor guardrail:** Protect existing occupants, youth/community programs and food recipients
+
+**id:** ISL09
+
+**limits:** Institutional continuity is relative; site outage endurance remains unmeasured
+
+**name:** East Bay community land and purchasing institutions
+
+**needs in return:** Funded staffing, utilities, maintenance, food suppliers and shared governance
+
+**offers:** Existing land-stewardship models, community space, organizing and food purchasing experience
+
+**self sufficient:** False
+
+**Sources:** [DC03: Oakland Community Land Trust](https://oakclt.org/portfolio-items/liberated23rdave/), [DC08: Oakland Community Land Trust](https://oakclt.org/what-is-a-community-land-trust/), [EFS03: Alameda County Community Food Bank](https://www.accfb.org/annual-report-2025/), [DC02: RYSE Center](https://rysecenter.org/origin-story-of-ryse)
 

@@ -147,12 +147,22 @@ def load_cycle(root, cycle_id):
     folder = location(root, cycle_id)
     manifest = read_json(folder / "manifest.json")
     baseline_path = folder / "baseline.json"
-    baseline = validated(read_json(baseline_path))
+    # A baseline passed the validator in force when its cycle began. Keep its
+    # original bytes/hash authoritative so stricter future rules can repair old
+    # data without rewriting history. New candidates always use current rules.
+    baseline = read_json(baseline_path)
     if (manifest["cycle_id"] != cycle_id or digest(baseline) != manifest["base_hash"]
             or hashlib.sha256(baseline_path.read_bytes()).hexdigest()
             != manifest["baseline_bytes_sha256"]):
         raise CycleError("Baseline or manifest changed; refusing to continue")
     return folder, manifest, baseline
+
+
+def current_state(root, manifest):
+    value = read_json(root / CANONICAL)
+    if digest(value) != manifest["base_hash"]:
+        validated(value)
+    return value
 
 
 def journal(folder):
@@ -364,7 +374,7 @@ def commit(root, cycle_id, candidate_path=None):
     with locked(root) as root:
         folder, manifest, baseline = load_cycle(root, cycle_id)
         receipt_path, intent_path = folder / "commit.json", folder / "commit_intent.json"
-        current = validated(read_json(root / CANONICAL))
+        current = current_state(root, manifest)
         current_hash = digest(current)
         candidate = validated(read_json(candidate_path)) if candidate_path else None
         if receipt_path.exists():
@@ -421,7 +431,7 @@ def status(root, cycle_id):
     with locked(root) as root:
         folder, manifest, _ = load_cycle(root, cycle_id)
         events = journal(folder)
-        current_hash = digest(validated(read_json(root / CANONICAL)))
+        current_hash = digest(current_state(root, manifest))
         submissions = []
         for path in (folder / "submissions").glob("*/*.json"):
             record = read_json(path)

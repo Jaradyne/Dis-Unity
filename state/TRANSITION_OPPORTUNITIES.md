@@ -1,6 +1,6 @@
 # TRANSITION_OPPORTUNITIES
 
-Cycle RC-002; cutoff 2026-09-20.
+Cycle RC-003; cutoff 2026-09-21.
 
 **classification:** Managed shedding / creative transition
 
@@ -246,4 +246,130 @@ Cycle RC-002; cutoff 2026-09-20.
 **success observation:** Documented retention/redeployment and restored or substituted essential output without shifting unmanageable load to workers or farms
 
 **time horizon:** Months; permanent conversion longer
+
+
+---
+
+**classification:** Conditional healthy replacement and managed shedding
+
+**cluster id:** CL08
+
+**conversion requirements:** Measured duty cycle, lifecycle cost, compatible equipment, funded electrical service, trained maintenance and outage plan
+
+**function to preserve:** Reliable delivery, refrigeration and accessible mobility
+
+**growth candidate:** Shore power, return-to-base electric routes, suitable repowers, charging and repair services
+
+**id:** TR09
+
+**name:** Replace suitable diesel functions in stages
+
+**released assets:** Avoidable idling/fuel expense; repairable chassis and mechanical skills only where usable
+
+**risks:** Charging bottlenecks, battery/equipment concentration and premature retirement of working capacity
+
+**safe load release:** Parked diesel refrigeration/idling and unnecessary trips while preserving temperature and access
+
+**Sources:** [EFS04: U.S. Department of Energy, Alternative Fuels Data Center](https://afdc.energy.gov/vehicles/electric-fleets), [EFS05: U.S. Department of Energy, Alternative Fuels Data Center](https://afdc.energy.gov/vehicles/electric-conversions), [EFS06: U.S. Department of Energy, Alternative Fuels Data Center](https://afdc.energy.gov/fuels/electricity-infrastructure-development), [EFS08: U.S. Department of Energy, Alternative Fuels Data Center](https://afdc.energy.gov/case/3069), [RC3C03: International Energy Agency](https://www.iea.org/reports/global-critical-minerals-outlook-2025/executive-summary)
+
+**status:** Proposed transition with dated operating examples; no local procurement commitment
+
+**success observation:** Same essential deliveries and temperatures with less diesel, acceptable costs and demonstrated fallback
+
+**time horizon:** Existing applicable technology; site installation months or longer
+
+
+---
+
+**classification:** Creative transition toward dependable nutrition
+
+**cluster id:** CL07
+
+**conversion requirements:** Separate supply-channel ledger, replenishment routes, nutrition/food safety, paid staff, water and cooking/ready-to-eat options
+
+**function to preserve:** Usable food access including people lacking kitchens, power or transport
+
+**growth candidate:** Fair farm purchasing, regional aggregation, rotating staple stock and protected operating finance
+
+**healthy decline test:** Reducing avoidable food waste is desirable even if rescued donations shrink. Preserve minimum nutrition through predictable procurement and income/access support; do not preserve waste to preserve charitable supply.
+
+**id:** TR10
+
+**name:** Give surplus recovery an independent minimum food supply
+
+**released assets:** Shared buying/storage capability and recoverable food; surplus quantity may decrease
+
+**risks:** Cash loses buying power in physical shortage; local-only farms can share weather; pantry stock without access is not a meal
+
+**safe load release:** Waste and redundant handling, not essential meals
+
+**Sources:** [EFS01: Feeding America](https://www.feedingamerica.org/sites/default/files/2025-12/FA_25AnnReport_DIGITAL_final.pdf), [EFS02: Alameda County Community Food Bank](https://www.accfb.org/wp-content/uploads/2026/01/ACCFB-2025-Audit-FS.pdf), [EFS03: Alameda County Community Food Bank](https://www.accfb.org/annual-report-2025/), [EFS07: U.S. Department of Agriculture, Agricultural Marketing Service](https://www.ams.usda.gov/selling-food)
+
+**status:** Proposed transition with dated operating examples; no local procurement commitment
+
+**success observation:** Essential service persists during a defined loss-of-donations/replenishment exercise without draining donor floors
+
+**time horizon:** Weeks/months for a pilot; wider reserves longer
+
+
+---
+
+**classification:** Potential creative transition; ordinary services preserved
+
+**cluster id:** CL04
+
+**conversion requirements:** Negotiated tenure, keys, permitted activity, governance, maintenance, core paid staffing and tested critical utility support
+
+**function to preserve:** Accessible thermal refuge, information, tools and coordination
+
+**growth candidate:** Community land stewardship and funded public-community operation
+
+**id:** TR11
+
+**name:** Convert existing civic/community assets into durably operated commons
+
+**released assets:** Possible underused rooms and partner skills; no vacancy or transferable asset assumed
+
+**risks:** Displacement, unfunded ownership costs, revocable access and utilities shared with affected neighborhood
+
+**safe load release:** Nonessential conditioned area and duplicate purchases
+
+**Sources:** [DC03: Oakland Community Land Trust](https://oakclt.org/portfolio-items/liberated23rdave/), [DC08: Oakland Community Land Trust](https://oakclt.org/what-is-a-community-land-trust/), [DC05: City of Hayward](https://www.hayward-ca.gov/public-library/using-library/locations-hours), [DC06: City of Hayward](https://www.hayward-ca.gov/public-library/using-library/meeting-rooms), [DC07: City of San Leandro](https://www.sanleandro.org/162/Public-Library), [LC_SRC02: Town of San Anselmo](https://www.sananselmo.gov/1677/Town-Hall-Resilience-Hub)
+
+**status:** Proposed transition with dated operating examples; no local procurement commitment
+
+**success observation:** Reliable agreed opening and essential service with accountable resident participation
+
+**time horizon:** Agreement/pilot months; acquisition/capital longer
+
+
+---
+
+**classification:** Conditional creative transition
+
+**cluster id:** CL03
+
+**conversion requirements:** Input specifications, environmental controls, nutrient testing and funded compatible processing
+
+**function to preserve:** Agronomically necessary nutrients and useful processing acid
+
+**growth candidate:** Acid regeneration, qualified alternative recovery and recycled phosphorus
+
+**id:** TR12
+
+**name:** Preserve sulfur and acid functions through refining transition
+
+**released assets:** Recovery expertise and adaptable assets only where technically suitable
+
+**risks:** No automatic grade conversion or sufficient recovery scale; contamination and transport costs
+
+**safe load release:** Avoidable fertilizer use determined by soil/crop testing and process losses
+
+**Sources:** [NUT02: U.S. EPA](https://www.epa.gov/sites/default/files/2020-09/documents/8.9_phosphoric_acid.pdf), [NUT03: U.S. EPA](https://www.epa.gov/sites/default/files/2020-09/documents/8.13_sulfur_recovery.pdf), [NUT04: U.S. EPA](https://www.epa.gov/sites/default/files/2020-09/documents/8.10_sulfuric_acid.pdf), [NUT07: University of Minnesota Extension](https://extension.umn.edu/agriculture/crop-production/nutrient-management-for-minnesota-crops/understanding-phosphorus-fertilizers)
+
+**status:** Proposed transition with dated operating examples; no local procurement commitment
+
+**success observation:** Delivered essential nutrients preserved while unnecessary fuel demand contracts
+
+**time horizon:** Efficiency now; major industrial changes years
 

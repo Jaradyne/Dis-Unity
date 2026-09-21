@@ -1,6 +1,6 @@
 # RESERVES_AND_LIFEBOATS
 
-Cycle RC-002; cutoff 2026-09-20.
+Cycle RC-003; cutoff 2026-09-21.
 
 **donor guardrail:** Protect local essential demand and minimum operator inventory; uncommitted exportable volume unknown
 
@@ -13,6 +13,20 @@ Cycle RC-002; cutoff 2026-09-20.
 **name:** Distillate inventories and active production
 
 **readiness:** Observed bulk stocks/production
+
+## shared failure audit
+
+**audit status:** Structural screening; not a quantified common-shock reserve test
+
+**current stressed surplus:** Unknown unless separately measured in readiness record
+
+**epistemic label:** PLAUSIBLE MECHANISM
+
+**expectation gap:** Fuel stock may be remote or already committed
+
+**required service proof:** Delivered allocation and protected critical-fuel cover
+
+**shared failure modes:** Refinery/terminal/route disruptions and multiple vendors sharing one supplier
 
 **Sources:** [SRC02: EIA](https://ir.eia.gov/wpsr/wpsrsummary.pdf), [SRC03: EIA](https://www.eia.gov/dnav/pet/pet_stoc_wstk_a_epd0_sae_mbbl_w.htm)
 
@@ -33,6 +47,20 @@ Cycle RC-002; cutoff 2026-09-20.
 
 **readiness:** Forecast aggregate buffer
 
+## shared failure audit
+
+**audit status:** Structural screening; not a quantified common-shock reserve test
+
+**current stressed surplus:** Unknown unless separately measured in readiness record
+
+**epistemic label:** PLAUSIBLE MECHANISM
+
+**expectation gap:** Global grain stock is not local usable nutrition
+
+**required service proof:** Correct product, ownership, route and timely local delivery
+
+**shared failure modes:** Export restrictions, affordability and shared routes
+
 **Sources:** [SRC06: FAO](https://www.fao.org/worldfoodsituation/csdb/en/)
 
 **type:** Reserve / Substitution
@@ -51,6 +79,20 @@ Cycle RC-002; cutoff 2026-09-20.
 **name:** BART and Muni temporary fiscal bridges
 
 **readiness:** Adopted budget support
+
+## shared failure audit
+
+**audit status:** Structural screening; not a quantified common-shock reserve test
+
+**current stressed surplus:** Unknown unless separately measured in readiness record
+
+**epistemic label:** PLAUSIBLE MECHANISM
+
+**expectation gap:** A fiscal bridge expires or defers repair
+
+**required service proof:** Dated cash receipts plus protected maintenance/service floor
+
+**shared failure modes:** Shared tax base, borrowing access and future capital needs
 
 **Sources:** [SRC08: BART](https://www.bart.gov/sites/default/files/2026-09/FY27%20Adopted%20Budget%20Memo_FINAL_SIGNED.pdf), [SRC09: SFMTA](https://www.sfmta.com/projects/sfmta-budget-planning-fy-2026-27-and-fy-2027-28)
 
@@ -71,6 +113,20 @@ Cycle RC-002; cutoff 2026-09-20.
 
 **readiness:** Modeled adequacy; existing coordination
 
+## shared failure audit
+
+**audit status:** Structural screening; not a quantified common-shock reserve test
+
+**current stressed surplus:** Unknown unless separately measured in readiness record
+
+**epistemic label:** PLAUSIBLE MECHANISM
+
+**expectation gap:** Neighboring grids peak together
+
+**required service proof:** Separate regional networks; verify hour-specific offers and paths
+
+**shared failure modes:** Heat, drought, fire and transmission limits
+
 **Sources:** [SRC10: CAISO](https://www.caiso.com/documents/2026-summer-loads-and-resources-assessment.pdf), [SRC17: ENTSO-E](https://www.entsoe.eu/outlooks/seasonal/)
 
 **type:** Reserve / Rescue
@@ -89,6 +145,20 @@ Cycle RC-002; cutoff 2026-09-20.
 **name:** CDEMA expert roster and medical mutual aid
 
 **readiness:** Roster established; medical example historically deployed
+
+## shared failure audit
+
+**audit status:** Structural screening; not a quantified common-shock reserve test
+
+**current stressed surplus:** Unknown unless separately measured in readiness record
+
+**epistemic label:** PLAUSIBLE MECHANISM
+
+**expectation gap:** Response roster members may be affected too
+
+**required service proof:** Available people, transport and home-service floor
+
+**shared failure modes:** Regional hurricane, travel and staffing constraints
 
 **Sources:** [SRC15: CDEMA](https://www.cdema.org/index.php/cdemanews/categories/press-releases/146-press-releases/1870-cdema-launches-regional-recovery-experts-roster-to-strengthen-caribbean-recovery), [SRC16: CDEMA](https://www.cdema.org/index.php/cdemanews/categories/situation-reports/1852-situation-report-18-hurricane-melissa)
 
@@ -109,6 +179,20 @@ Cycle RC-002; cutoff 2026-09-20.
 
 **readiness:** Listed operating referral service; surge reserve unverified
 
+## shared failure audit
+
+**audit status:** Structural screening; not a quantified common-shock reserve test
+
+**current stressed surplus:** Unknown unless separately measured in readiness record
+
+**epistemic label:** PLAUSIBLE MECHANISM
+
+**expectation gap:** Food referrals point to supply also under strain
+
+**required service proof:** Current open hours, fulfillment, procurement and inventory
+
+**shared failure modes:** Shared wholesalers, donations, delivery routes and funding
+
 **Sources:** [SRC21: Alameda County Community Food Bank](https://www.accfb.org/get-food/)
 
 **type:** Lifeboat / Redistribution
@@ -127,6 +211,20 @@ Cycle RC-002; cutoff 2026-09-20.
 **name:** Oakland Tool Lending Library
 
 **readiness:** Published tool borrowing service
+
+## shared failure audit
+
+**audit status:** Structural screening; not a quantified common-shock reserve test
+
+**current stressed surplus:** Unknown unless separately measured in readiness record
+
+**epistemic label:** PLAUSIBLE MECHANISM
+
+**expectation gap:** Tools exist but cannot be reached or maintained
+
+**required service proof:** Open access, working tools and trained repair capacity
+
+**shared failure modes:** Building access, staff, repairs and power
 
 **Sources:** [SRC20: Oakland Public Library](https://oaklandlibrary.org/otll/)
 
@@ -147,6 +245,20 @@ Cycle RC-002; cutoff 2026-09-20.
 
 **readiness:** Candidate projects; commissioning not verified
 
+## shared failure audit
+
+**audit status:** Structural screening; not a quantified common-shock reserve test
+
+**current stressed surplus:** Unknown unless separately measured in readiness record
+
+**epistemic label:** PLAUSIBLE MECHANISM
+
+**expectation gap:** A project listing may precede usable backup
+
+**required service proof:** Commissioned and exercised essential service
+
+**shared failure modes:** Capital delays, utilities, paid staffing and public access
+
 **Sources:** [SRC22: NorCal Resilience Network](https://norcalresilience.org/resilient-hub-initiative/)
 
 **type:** Conversion / Lifeboat
@@ -165,6 +277,20 @@ Cycle RC-002; cutoff 2026-09-20.
 **name:** Shared essential-trip and delivery pool
 
 **readiness:** Proposed pilot only
+
+## shared failure audit
+
+**audit status:** Structural screening; not a quantified common-shock reserve test
+
+**current stressed surplus:** Unknown unless separately measured in readiness record
+
+**epistemic label:** PLAUSIBLE MECHANISM
+
+**expectation gap:** Relief drivers and vehicles face the same shock
+
+**required service proof:** Confirmed accessible trips above protected obligations
+
+**shared failure modes:** Fuel/charging, roads, illness and household commitments
 
 **Sources:** [SRC08: BART](https://www.bart.gov/sites/default/files/2026-09/FY27%20Adopted%20Budget%20Memo_FINAL_SIGNED.pdf), [SRC09: SFMTA](https://www.sfmta.com/projects/sfmta-budget-planning-fy-2026-27-and-fy-2027-28), [SRC24: Reuters](https://www.reuters.com/business/energy/record-us-diesel-prices-squeeze-farmers-food-prices-may-rise-2026-09-18/)
 
@@ -185,6 +311,20 @@ Cycle RC-002; cutoff 2026-09-20.
 
 **readiness:** Proposed; no site certified
 
+## shared failure audit
+
+**audit status:** Structural screening; not a quantified common-shock reserve test
+
+**current stressed surplus:** Unknown unless separately measured in readiness record
+
+**epistemic label:** PLAUSIBLE MECHANISM
+
+**expectation gap:** Backup equipment lacks endurance or replenishment
+
+**required service proof:** Measured critical load and tested replenishment
+
+**shared failure modes:** Grid, fuel, refrigeration maintenance and room access
+
 **Sources:** [SRC10: CAISO](https://www.caiso.com/documents/2026-summer-loads-and-resources-assessment.pdf), [SRC21: Alameda County Community Food Bank](https://www.accfb.org/get-food/), [SRC22: NorCal Resilience Network](https://norcalresilience.org/resilient-hub-initiative/)
 
 **type:** Lifeboat / Substitution
@@ -203,6 +343,20 @@ Cycle RC-002; cutoff 2026-09-20.
 **name:** Produce-route substitution candidate
 
 **readiness:** Slight surplus reported at Mexico–South Texas origins September15; no transferable fleet committed
+
+## shared failure audit
+
+**audit status:** Structural screening; not a quantified common-shock reserve test
+
+**current stressed surplus:** Unknown unless separately measured in readiness record
+
+**epistemic label:** PLAUSIBLE MECHANISM
+
+**expectation gap:** A reported spare route does not match need
+
+**required service proof:** Confirmed suitable booking at required time
+
+**shared failure modes:** Cargo type, border, driver hours and backhaul
 
 **Sources:** [FF-S03: USDA AMS](https://agtransport.usda.gov/resource/25pi-t6xr.json), [FF-S04: USDA AMS](https://www.ams.usda.gov/sites/default/files/media/RTQ1stQuarter2026.pdf)
 
@@ -223,6 +377,20 @@ Cycle RC-002; cutoff 2026-09-20.
 
 **readiness:** Municipal owner confirms completion and current solar use; outage activation/drill not verified
 
+## shared failure audit
+
+**audit status:** Structural screening; not a quantified common-shock reserve test
+
+**current stressed surplus:** Unknown unless separately measured in readiness record
+
+**epistemic label:** PLAUSIBLE MECHANISM
+
+**expectation gap:** Constructed microgrid may lack public activation
+
+**required service proof:** Published and exercised public outage service
+
+**shared failure modes:** Town staff, battery state, water and accessible hours
+
 **Sources:** [LC_SRC02: Town of San Anselmo](https://www.sananselmo.gov/1677/Town-Hall-Resilience-Hub)
 
 **type:** Constructed local lifeboat candidate
@@ -241,6 +409,20 @@ Cycle RC-002; cutoff 2026-09-20.
 **name:** EBMUD dated reservoir baseline
 
 **readiness:** April8 total storage observed; current reserve not credited
+
+## shared failure audit
+
+**audit status:** Structural screening; not a quantified common-shock reserve test
+
+**current stressed surplus:** Unknown unless separately measured in readiness record
+
+**epistemic label:** PLAUSIBLE MECHANISM
+
+**expectation gap:** Reservoir water may lack treatment or delivery
+
+**required service proof:** Dated storage plus actual potable delivery capacity
+
+**shared failure modes:** Pumps, treatment chemicals, network damage and power
 
 **Sources:** [LC_SRC01: East Bay Municipal Utility District](https://www.ebmud.com/download_file/force/58167/703?WOD_-_Water_Supply_Update_-_April_14_2026_Final_Board.pdf=)
 
@@ -261,7 +443,153 @@ Cycle RC-002; cutoff 2026-09-20.
 
 **readiness:** 2026 award listed; current disbursement and cash balance unverified
 
+## shared failure audit
+
+**audit status:** Structural screening; not a quantified common-shock reserve test
+
+**current stressed surplus:** Unknown unless separately measured in readiness record
+
+**epistemic label:** PLAUSIBLE MECHANISM
+
+**expectation gap:** Awarded capital/cash may not be spendable now
+
+**required service proof:** Received eligible funds and staffed clinical service
+
+**shared failure modes:** Restricted uses, disbursement delays and payroll
+
 **Sources:** [RC2H01: California HCAI](https://hcai.ca.gov/facilities/health-facility-financing/distressed-hospital-loan-program/)
 
 **type:** Time-limited financial allocation
+
+
+---
+
+**donor guardrail:** Protect existing households, donor farm viability and restricted funds; reserve no uncommitted volume without evidence
+
+**essential function:** Acquire usable food beyond rescued surplus
+
+**id:** RES15
+
+**limits:** Funds, supplier harvests, roads and cold storage can fail together
+
+**name:** ACCFB shared purchasing channels
+
+**readiness:** Documented FY2025 channels; current emergency allocations unverified
+
+## shared failure audit
+
+**audit status:** Structural screening; not a quantified common-shock reserve test
+
+**current stressed surplus:** Unknown unless separately measured in readiness record
+
+**epistemic label:** PLAUSIBLE MECHANISM
+
+**expectation gap:** Purchasing cannot create absent food
+
+**required service proof:** Contracted usable food plus protected operating cash
+
+**shared failure modes:** Same farms, wholesaler, credit, roads and utility
+
+**Sources:** [EFS02: Alameda County Community Food Bank](https://www.accfb.org/wp-content/uploads/2026/01/ACCFB-2025-Audit-FS.pdf), [EFS03: Alameda County Community Food Bank](https://www.accfb.org/annual-report-2025/), [EFS07: U.S. Department of Agriculture, Agricultural Marketing Service](https://www.ams.usda.gov/selling-food)
+
+**type:** Operating procurement model
+
+
+---
+
+**donor guardrail:** Build through normal purchasing and rotation, preserve nutrition/access and avoid draining existing distributions
+
+**essential function:** Minimum nutrition through replenishment interruption
+
+**id:** RES16
+
+**limits:** Duration requires menu, usable stock, water, preparation and delivery data
+
+**name:** Rotating minimum food supply
+
+**readiness:** Design only; no food purchased or space secured
+
+## shared failure audit
+
+**audit status:** Structural screening; not a quantified common-shock reserve test
+
+**current stressed surplus:** Unknown unless separately measured in readiness record
+
+**epistemic label:** PLAUSIBLE MECHANISM
+
+**expectation gap:** Stored staples require preparation and rotation
+
+**required service proof:** Measured usable meals under a defined drill
+
+**shared failure modes:** Water, energy, diet compatibility and staffing
+
+**Sources:** [EFS01: Feeding America](https://www.feedingamerica.org/sites/default/files/2025-12/FA_25AnnReport_DIGITAL_final.pdf), [EFS03: Alameda County Community Food Bank](https://www.accfb.org/annual-report-2025/)
+
+**type:** Proposed community lifeboat
+
+
+---
+
+**donor guardrail:** Protect current residents/users, pay core labor and fund maintenance before expansion
+
+**essential function:** Continuity of accessible space and essential services
+
+**id:** RES17
+
+**limits:** Ownership, keys, staffing, permitted use and backup endurance are distinct
+
+**name:** Durable commons operating rights
+
+**readiness:** Tenure models verified; no new agreement or available property secured
+
+## shared failure audit
+
+**audit status:** Structural screening; not a quantified common-shock reserve test
+
+**current stressed surplus:** Unknown unless separately measured in readiness record
+
+**epistemic label:** PLAUSIBLE MECHANISM
+
+**expectation gap:** Control of property does not provide operations
+
+**required service proof:** Enforceable funded rights plus demonstrated service
+
+**shared failure modes:** Debt, staffing, insurance, utilities and maintenance
+
+**Sources:** [DC03: Oakland Community Land Trust](https://oakclt.org/portfolio-items/liberated23rdave/), [DC08: Oakland Community Land Trust](https://oakclt.org/what-is-a-community-land-trust/), [DC06: City of Hayward](https://www.hayward-ca.gov/public-library/using-library/meeting-rooms)
+
+**type:** Proposed institutional buffer
+
+
+---
+
+**donor guardrail:** Count only dispatchable offer above donor commitments/floor and within transfer capability at the needed hour
+
+**essential function:** Balance geographically differing power availability
+
+**id:** RES18
+
+**limits:** Regional heat, fire, drought and constrained lines can reduce both local and donor reserve
+
+**name:** Western electricity exchange
+
+**readiness:** Operational market; current deliverable surplus unknown
+
+## shared failure audit
+
+**audit status:** Structural screening; not a quantified common-shock reserve test
+
+**current stressed surplus:** Unknown unless separately measured in readiness record
+
+**epistemic label:** PLAUSIBLE MECHANISM
+
+**expectation gap:** Imports may shrink during a common regional peak
+
+**required service proof:** Verified protected-floor surplus and transfer path
+
+**shared failure modes:** Donor load and shared transmission exposure
+
+**Sources:** [RC3C01: California ISO / Western Energy Markets](https://www.westernenergymarkets.com/western-energy-imbalance-market-weim), [MAR08: California ISO](https://www.caiso.com/about/our-business/regional-collaboration)
+
+**type:** Existing exchange network
 

@@ -1,6 +1,6 @@
 # CHANGELOG
 
-Cycle RC-002; cutoff 2026-09-20.
+Cycle RC-003; cutoff 2026-09-21.
 
 **action:** Initialized
 
@@ -141,4 +141,26 @@ Cycle RC-002; cutoff 2026-09-20.
 **date:** 2026-09-21
 
 **details:** Prepared public Dis-Unity repository deployment under user-selected Unlicense, preserving original license commit and RC-001 to RC-002 history. No schedule or external contacts.
+
+
+---
+
+**action:** Research and model expansion
+
+**cycle:** RC-003
+
+**date:** 2026-09-21
+
+**details:** Added Bayer watch, sulfur/phosphate/Venezuela distinction, regional maritime evidence, durable commons leads, conditional diesel replacement and shared-failure audits for every reserve. No famine, blanket piracy escalation, available property or uncommitted international surplus asserted.
+
+
+---
+
+**action:** Integrity repair
+
+**cycle:** RC-003
+
+**date:** 2026-09-21
+
+**details:** Reassembled original sentence text in four RC-002 list fields: EDGE01.thresholds, EDGE02.buffers, EDGE07.buffers, COM01.resources. Historical cycle unchanged; validator rejects fragmented narrative. Baseline hashes remain authoritative across stricter validation; every new candidate passes current rules. Regression tests cover blocked admission, migration and canonical-state preservation.
 

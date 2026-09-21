@@ -1,6 +1,6 @@
 # COMMUNITY_COMMONS
 
-Cycle RC-002; cutoff 2026-09-20.
+Cycle RC-003; cutoff 2026-09-21.
 
 **cluster id:** CL01 / CL02
 
@@ -23,97 +23,7 @@ Cycle RC-002; cutoff 2026-09-20.
 
 - BART/SFMTA service remains primary backbone
 - ACCFB/FoodNow provides food-location leads
--  
-- T
-- r
-- e
-- a
-- t
--  
-- t
-- r
-- a
-- n
-- s
-- i
-- t
--  
-- p
-- a
-- r
-- t
-- n
-- e
-- r
-- s
--  
-- a
-- s
--  
-- p
-- o
-- t
-- e
-- n
-- t
-- i
-- a
-- l
-- l
-- y
--  
-- c
-- o
-- -
-- s
-- t
-- r
-- e
-- s
-- s
-- e
-- d
-- ;
--  
-- r
-- e
-- q
-- u
-- i
-- r
-- e
--  
-- a
-- c
-- t
-- u
-- a
-- l
--  
-- f
-- u
-- n
-- d
-- e
-- d
--  
-- a
-- c
-- c
-- e
-- s
-- s
-- i
-- b
-- l
-- e
--  
-- s
-- l
-- o
-- t
-- s
-- .
+- Treat transit partners as potentially co-stressed; require actual funded accessible slots.
 
 **Sources:** [SRC08: BART](https://www.bart.gov/sites/default/files/2026-09/FY27%20Adopted%20Budget%20Memo_FINAL_SIGNED.pdf), [SRC09: SFMTA](https://www.sfmta.com/projects/sfmta-budget-planning-fy-2026-27-and-fy-2027-28), [SRC21: Alameda County Community Food Bank](https://www.accfb.org/get-food/), [SRC24: Reuters](https://www.reuters.com/business/energy/record-us-diesel-prices-squeeze-farmers-food-prices-may-rise-2026-09-18/), [LC_SRC03: Alameda-Contra Costa Transit District](https://www.actransit.org/sites/default/files/2026-09/FY2026-27%20District%20Adopted%20Budget%20Book.pdf)
 
@@ -325,4 +235,94 @@ Cycle RC-002; cutoff 2026-09-20.
 **success measure:** Fewer avoidable transfer trips and missed appointments without worsening waits or staff burden
 
 **who can act:** Clinic navigators, patient-serving nonprofits, union/community representatives and qualified transport partners
+
+
+---
+
+**cluster id:** CL07
+
+## first steps
+
+- Define a minimum useful menu with ready-to-eat and dietary-access options.
+- Separate recovered, purchased, government and already-stored food; trace shared suppliers/routes.
+- Cost normal stock rotation, reserve procurement and paid handling together.
+- Test loss of the largest donation source plus a delayed replenishment route against usable meals.
+
+**id:** COM08
+
+**name:** Purchased nutrition floor and cooperative replenishment
+
+**protected floor:** Protect regular recipients, farm viability, food safety, workers and unrestricted operating cash
+
+**recordkeeping:** Aggregate service and supply measures; no personal histories or public beneficiary lists
+
+**resources:** Existing purchasing channels; proposed rotating stocks, suitable storage, water, preparation and transport; no committed surplus
+
+**Sources:** [EFS01: Feeding America](https://www.feedingamerica.org/sites/default/files/2025-12/FA_25AnnReport_DIGITAL_final.pdf), [EFS02: Alameda County Community Food Bank](https://www.accfb.org/wp-content/uploads/2026/01/ACCFB-2025-Audit-FS.pdf), [EFS03: Alameda County Community Food Bank](https://www.accfb.org/annual-report-2025/), [EFS07: U.S. Department of Agriculture, Agricultural Marketing Service](https://www.ams.usda.gov/selling-food)
+
+**status:** Proposed; no outreach, space reservation or purchase
+
+**success measure:** Minimum usable meals delivered through the agreed exercise, with donor floors intact
+
+**who can act:** Food bank partners, farms, community kitchens and neighborhood organizations
+
+
+---
+
+**cluster id:** CL04
+
+## first steps
+
+- Use verified node shortlist; protect current occupants and programs.
+- Negotiate term, keys, storage, hours, permitted uses and alteration/maintenance rights.
+- Fund core staffing and a critical-load/water/sanitation plan before counting reserve.
+- Pair with a node having different power, route, funding or hazard exposure and run a small service drill.
+
+**id:** COM09
+
+**name:** Durably controlled one-room commons with partner node
+
+**protected floor:** No displacement; fair access and paid core labor; each node retains protected ordinary service
+
+**recordkeeping:** Aggregate service and supply measures; no personal histories or public beneficiary lists
+
+**resources:** One room, secure storage, toilet, drinking water, communications and suitable thermal/power support; all site capacities to be measured
+
+**Sources:** [DC03: Oakland Community Land Trust](https://oakclt.org/portfolio-items/liberated23rdave/), [DC08: Oakland Community Land Trust](https://oakclt.org/what-is-a-community-land-trust/), [DC05: City of Hayward](https://www.hayward-ca.gov/public-library/using-library/locations-hours), [DC06: City of Hayward](https://www.hayward-ca.gov/public-library/using-library/meeting-rooms), [DC07: City of San Leandro](https://www.sanleandro.org/162/Public-Library), [LC_SRC02: Town of San Anselmo](https://www.sananselmo.gov/1677/Town-Hall-Resilience-Hub)
+
+**status:** Proposed; no outreach, space reservation or purchase
+
+**success measure:** Agreed accessible opening and essential functions demonstrated during a defined interruption
+
+**who can act:** Resident-led organizations, library staff, land trusts and municipal partners
+
+
+---
+
+**cluster id:** CL08
+
+## first steps
+
+- Measure route distance/load, idle hours, refrigeration and return-to-base windows.
+- Assess shore-power refrigeration before or alongside traction conversion.
+- Confirm electrical service, charging access, cost and maintenance support.
+- Prove essential delivery and replenishment during an outage scenario before retiring replacement-covered equipment.
+
+**id:** COM10
+
+**name:** Electrify one suitable food-logistics function
+
+**protected floor:** Preserve food temperatures, driver rest, accessible service and a charged/otherwise usable essential-trip reserve
+
+**recordkeeping:** Aggregate service and supply measures; no personal histories or public beneficiary lists
+
+**resources:** Real operating data and engineering assessment; no vehicle order or grant entitlement assumed
+
+**Sources:** [EFS04: U.S. Department of Energy, Alternative Fuels Data Center](https://afdc.energy.gov/vehicles/electric-fleets), [EFS05: U.S. Department of Energy, Alternative Fuels Data Center](https://afdc.energy.gov/vehicles/electric-conversions), [EFS06: U.S. Department of Energy, Alternative Fuels Data Center](https://afdc.energy.gov/fuels/electricity-infrastructure-development), [EFS08: U.S. Department of Energy, Alternative Fuels Data Center](https://afdc.energy.gov/case/3069)
+
+**status:** Proposed; no outreach, space reservation or purchase
+
+**success measure:** Diesel consumed per completed essential delivery falls without worse reliability or shifted unpaid labor
+
+**who can act:** Community meal providers, fleet operators, mechanics and qualified electrical partners
 

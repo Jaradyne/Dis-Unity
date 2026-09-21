@@ -1,0 +1,333 @@
+{
+  "agent": "durable_commons",
+  "at": "2026-09-21T12:28:31.085496+00:00",
+  "base_hash": "9ecd1c9ff07ae5c47c303030d70761961f5fb8863d1ea84558d657cd58cb0180",
+  "cycle_id": "RC-003",
+  "payload": {
+    "agent": "durable_commons",
+    "candidates": [
+      {
+        "availability": "No vacant room or new partner allocation verified",
+        "classification": "existing_land_trust_held_community_asset",
+        "control_evidence": "OakCLT acquisition in November 2017 and permanent affordability/community asset intention",
+        "id": "DCC01",
+        "name": "Liberated 23rd Avenue, Oakland",
+        "next_public_action": "Review current public project updates and operating structure before proposing a consent-based shared room.",
+        "power": "Unknown",
+        "source_ids": [
+          "DC03",
+          "DC08"
+        ],
+        "staffing_access": "Existing occupants retain their rights; new use, public hours and accessibility require agreement",
+        "thermal": "Unknown",
+        "usable_now": "Existing community uses; ownership/stewardship model and potential partnership lead",
+        "water": "Unknown"
+      },
+      {
+        "availability": "No new partnership or general-public outage access confirmed",
+        "classification": "existing_operator_run_campus_title_unverified",
+        "control_evidence": "Operator describes existing campus opened in 2022 and APEN resilience partnership; deed/title not established",
+        "id": "DCC02",
+        "name": "RYSE Commons, Richmond",
+        "next_public_action": "Seek published commissioning and community activation plan; do not infer completion from directory.",
+        "power": "Directory describes solar/battery project; commissioning/endurance unverified",
+        "source_ids": [
+          "DC02",
+          "DC04"
+        ],
+        "staffing_access": "Protect youth services and operator governance; no general-public shelter promise",
+        "thermal": "Unknown",
+        "usable_now": "Existing youth-centered services and learning model",
+        "water": "Unknown"
+      },
+      {
+        "availability": "No dedicated commons space or new agreement verified",
+        "classification": "candidate_public_community_hub_status_unverified",
+        "control_evidence": "Directory identifies city-owned and operated buildings; WOEIP-led planning",
+        "id": "DCC03",
+        "name": "West Oakland library, senior center and DeFremery project",
+        "next_public_action": "Find current municipal project agreement, commissioning and funded activation staffing.",
+        "power": "Unknown",
+        "source_ids": [
+          "DC04"
+        ],
+        "staffing_access": "Ordinary municipal operation does not confer independent community access",
+        "thermal": "Unknown",
+        "usable_now": "Existing neighborhood assets and a public-community operating agreement research lead",
+        "water": "Unknown"
+      },
+      {
+        "availability": "Published ordinary reservation route; no specific reservation or long-term allocation confirmed",
+        "classification": "existing_public_node_candidate_durable_agreement",
+        "control_evidence": "Municipal operating rules; room reservations are during library hours with 30-day advance requirement",
+        "id": "DCC04",
+        "name": "Hayward Downtown Library and Weekes Branch",
+        "next_public_action": "Review funded emergency opening authority and possible multiyear shared-use agreement; separate operating money from capital.",
+        "power": "Backup unverified",
+        "source_ids": [
+          "DC05",
+          "DC06",
+          "DC09"
+        ],
+        "staffing_access": "Both branches closed Sunday/Monday under current schedule; emergency extensions unknown",
+        "thermal": "Outage cooling/heating unverified",
+        "usable_now": "Normal public library access and eligible ordinary reservations; digital/skills commons proposal",
+        "water": "Emergency reserve unverified"
+      },
+      {
+        "availability": "No long-term space offering or partnership allocation established",
+        "classification": "existing_public_node_candidate_partnership",
+        "control_evidence": "City official library page identifies Main and Manor municipal nodes and current public programming",
+        "id": "DCC05",
+        "name": "San Leandro Main Library and Manor Branch",
+        "next_public_action": "Review facilities policy, cooling activation documentation and durable shared-use possibilities.",
+        "power": "Unknown",
+        "source_ids": [
+          "DC07"
+        ],
+        "staffing_access": "Ordinary public operation only; permitted new functions and staffed outage hours unknown",
+        "thermal": "Unknown",
+        "usable_now": "Current shared services listed include Tech2Go, seed lending and Library of Things",
+        "water": "Unknown"
+      }
+    ],
+    "commons_proposal": {
+      "classification": "creative_transition",
+      "donor_guardrail": "Preserve ordinary users, paid staff, maintenance obligations and each partner protected reserve. No assumed capacity or rights in another organization.",
+      "essential_function": "Accessible everyday learning, information and mutual support, with a small independently operable critical room",
+      "first_steps": [
+        "Choose an existing willing institution only after agreement; published listing is not consent",
+        "Define one accessible room, secure storage, sanitation, staffing and protected host service floor",
+        "Measure actual critical electrical loads and water needs; distinguish daily utility from tested outage endurance",
+        "Fund rotating staple food/procurement and replenishment; treat rescued surplus as additional supply",
+        "Name a second node after comparing utility, route, funding and staffing dependencies",
+        "Run a small observed service drill and record usable hours rather than installed nameplate capacity"
+      ],
+      "name": "Durably controlled minimum commons",
+      "source_ids": [
+        "DC01",
+        "DC03",
+        "DC05",
+        "DC06",
+        "DC08",
+        "DC09"
+      ],
+      "status": "reviewable_proposal_no_outreach_or_commitment",
+      "success_measures": [
+        "Secure access and actual usable opening hours",
+        "Tested critical load duration",
+        "Rotating meal floor and replenishment",
+        "Accessible handoffs completed",
+        "Host ordinary service floor preserved"
+      ],
+      "tenure_options": [
+        "Community land trust or cooperative acquisition",
+        "Multiyear operating agreement at existing institution with keys, storage, hours, hosting/alteration rights and clear termination responsibilities"
+      ]
+    },
+    "cutoff": "2026-09-21",
+    "cycle": "RC-003",
+    "findings": [
+      {
+        "claim": "San Anselmo qualifies as an owner-confirmed construction/current-solar example; public emergency readiness remains unverified. It was not selected as an optimal East Bay location.",
+        "direction": "improving_with_limits",
+        "epistemic_label": "FACT",
+        "event_id": "SanAnselmo-hub-completed-2026-07-17",
+        "freshness": "Reconfirmation of RC-002 observation",
+        "id": "DCF01",
+        "source_ids": [
+          "DC01"
+        ]
+      },
+      {
+        "claim": "Hayward announced routine library-hour reductions for municipal budget savings effective January 1 2026. Current schedule closes both branches Sunday/Monday; ordinary meetings must be within library hours and reserved at least 30 days ahead.",
+        "direction": "worsening",
+        "epistemic_label": "FACT",
+        "event_id": "Hayward-library-hours-2026-01-01",
+        "freshness": "Late discovery; no claim of new September change",
+        "id": "DCF02",
+        "source_ids": [
+          "DC05",
+          "DC06",
+          "DC09"
+        ]
+      },
+      {
+        "buffers": [
+          "Funded emergency opening shifts",
+          "Protected operating budget",
+          "Independent partner site with agreed access"
+        ],
+        "claim": "A library expected to absorb heat/communications demand can lose staffed opening capacity under the same broader fiscal stress affecting other services; ownership and building capital do not establish usable public reserve.",
+        "confirm": "Published or observed service gap under heat/outage coincident with staffing limits",
+        "epistemic_label": "PLAUSIBLE MECHANISM",
+        "falsify": "Funded and successfully exercised activation at appropriate hours, with sufficient alternative capacity",
+        "id": "DCF03",
+        "source_ids": [
+          "DC05",
+          "DC06",
+          "DC09"
+        ],
+        "threshold": "Reduced hours overlap actual need and alternative sites cannot absorb demand",
+        "uncertainty": "No measured heat/refuge failure established."
+      },
+      {
+        "claim": "OakCLT documents an acquired mixed-use community asset with nonprofit storefronts and garden, demonstrating a local land-stewardship path beyond short room bookings.",
+        "direction": "improving",
+        "epistemic_label": "FACT",
+        "event_id": "Liberated23rd-acquisition-2017-11-28",
+        "freshness": "Historical model newly examined; no available property inferred",
+        "id": "DCF04",
+        "source_ids": [
+          "DC03",
+          "DC08"
+        ]
+      },
+      {
+        "claim": "No shortlisted location has a verified allocation to this project, a measured emergency power/water floor, or a agreed surge staffing plan.",
+        "direction": "unclear",
+        "epistemic_label": "UNKNOWN",
+        "event_id": "RC003-commons-readiness-gap",
+        "freshness": "Research limitation as of cutoff",
+        "id": "DCF05",
+        "source_ids": [
+          "DC01",
+          "DC02",
+          "DC03",
+          "DC04",
+          "DC05",
+          "DC06",
+          "DC07"
+        ]
+      }
+    ],
+    "peer_exchange": [
+      {
+        "agent": "electric_food",
+        "received": "Food bank supply mix includes purchasing/government/recovered food; protect rotating meal floor plus water/energy/staff/transport. Different donor names can share suppliers and routes.",
+        "sent": "Hayward budget/hour contraction can erode expected fallback. Room bookings do not confer outage access."
+      }
+    ],
+    "report": "reports/RC-003/DURABLE_COMMONS.md",
+    "review_recommendations": [
+      "Admit Hayward service/fiscal fact as late discovery, keep causal heat-service link conditional",
+      "Retain San Anselmo as completion example; do not upgrade to verified usable surge reserve",
+      "Add control/access rights, operating budget, staffing and replenishment to commons readiness record",
+      "Do not conflate public ownership with autonomous community control or treat named nodes as available property"
+    ],
+    "scope": "Durable control of East Bay commons and San Anselmo implementation rationale",
+    "sources": [
+      {
+        "grade": "A",
+        "id": "DC01",
+        "limitations": "Owner confirms construction and solar supply. Outage public services described prospectively; public activation, staffing, accessible capacity, water and battery endurance not verified. Older construction timeline contains inconsistent dates.",
+        "observation_period": "Completed construction; July 17 2026 ribbon cutting; present solar operation as page retrieved",
+        "publication_date": null,
+        "publisher": "Town of San Anselmo",
+        "retrieved_at": "2026-09-21",
+        "title": "Town Hall Resilience Hub",
+        "url": "https://www.sananselmo.gov/1677/Town-Hall-Resilience-Hub"
+      },
+      {
+        "grade": "A",
+        "id": "DC02",
+        "limitations": "Primary operator account supports existing campus and APEN partnership; does not establish title ownership, present battery commissioning or general-public outage access.",
+        "observation_period": "Commons fully opened summer 2022; later campus development undated",
+        "publication_date": null,
+        "publisher": "RYSE Center",
+        "retrieved_at": "2026-09-21",
+        "title": "Origin Story of RYSE",
+        "url": "https://rysecenter.org/origin-story-of-ryse"
+      },
+      {
+        "grade": "A",
+        "id": "DC03",
+        "limitations": "Owner/steward account of acquisition and community uses, not a title search or current vacancy/availability listing. No outage capability verified.",
+        "observation_period": "Property acquisition November 28 2017; historical project narrative with 2022-02-28 page metadata",
+        "publication_date": null,
+        "publisher": "Oakland Community Land Trust",
+        "retrieved_at": "2026-09-21",
+        "title": "Liberated 23rd Avenue",
+        "url": "https://oakclt.org/portfolio-items/liberated23rdave/"
+      },
+      {
+        "grade": "B",
+        "id": "DC04",
+        "limitations": "Project directory describes West Oakland city-owned assets and RYSE installation work; status may lag. Not commissioning or emergency operating record.",
+        "observation_period": "Undated project directory accessed September 21 2026",
+        "publication_date": null,
+        "publisher": "NorCal Resilience Network",
+        "retrieved_at": "2026-09-21",
+        "title": "Resilience Hubs Initiative",
+        "url": "https://norcalresilience.org/resilient-hub-initiative/"
+      },
+      {
+        "grade": "A",
+        "id": "DC05",
+        "limitations": "Routine opening hours only; no emergency extended hours established. No quantified before/after baseline.",
+        "observation_period": "Current September 21 2026 public schedule; 2026 closure calendar",
+        "publication_date": null,
+        "publisher": "City of Hayward",
+        "retrieved_at": "2026-09-21",
+        "title": "Locations & Hours",
+        "url": "https://www.hayward-ca.gov/public-library/using-library/locations-hours"
+      },
+      {
+        "grade": "A",
+        "id": "DC06",
+        "limitations": "General reservation rules only; applications not made, specific dates not checked, and no durable tenure or emergency access rights inferred.",
+        "observation_period": "Current rules retrieved September 21 2026",
+        "publication_date": null,
+        "publisher": "City of Hayward",
+        "retrieved_at": "2026-09-21",
+        "title": "Meeting Rooms",
+        "url": "https://www.hayward-ca.gov/public-library/using-library/meeting-rooms"
+      },
+      {
+        "grade": "A",
+        "id": "DC07",
+        "limitations": "Supports existing Main and Manor municipal library nodes and listed shared services. No available long-term space, verified backup power, water reserve or outage operation established.",
+        "observation_period": "Current September 2026 programs and services as retrieved",
+        "publication_date": null,
+        "publisher": "City of San Leandro",
+        "retrieved_at": "2026-09-21",
+        "title": "Public Library",
+        "url": "https://www.sanleandro.org/162/Public-Library"
+      },
+      {
+        "grade": "A",
+        "id": "DC08",
+        "limitations": "Organizational description of community land stewardship including gardens and commercial space. Does not establish available property, funding or terms for a particular project.",
+        "observation_period": "Undated organizational model; page metadata updated March 20 2025",
+        "publication_date": null,
+        "publisher": "Oakland Community Land Trust",
+        "retrieved_at": "2026-09-21",
+        "title": "Learn About CLTs",
+        "url": "https://oakclt.org/what-is-a-community-land-trust/"
+      },
+      {
+        "grade": "A",
+        "id": "DC09",
+        "limitations": "Historical notice newly found this cycle. Admits stated budget reason and hours reduction; does not infer present streaming-service status or demonstrated heat-emergency harm.",
+        "observation_period": "Changes effective January 1 2026",
+        "publication_date": "2026-01-01",
+        "publisher": "City of Hayward",
+        "retrieved_at": "2026-09-21",
+        "title": "Library hours to be reduced, two digital streaming resources eliminated",
+        "url": "https://www.hayward-ca.gov/discover/news/jan26/library-hours-be-reduced-two-digital-streaming-resources-eliminated"
+      }
+    ],
+    "status": "completed_bounded_research",
+    "unknowns": [
+      "No current available vacant property verified",
+      "No new partner consent, outreach or committed resources",
+      "RYSE title and battery commissioning unverified",
+      "West Oakland directory may lag actual project status",
+      "EB PREC pages had no extractable content, so no ownership/availability claim admitted",
+      "No measured heat-service failure or quantified hours-reduction baseline"
+    ]
+  },
+  "payload_hash": "e8a21c6817ced6fb845c51ee24d0572e30ec8df4ce6e1460b99b4d13cf7d0bf3",
+  "phase": "submitted",
+  "submission_id": "bd84849ac3e9b23ba98aa8987c5e7ff743901d8bb61ffc5ab3544946ce1e6c53"
+}

@@ -1,0 +1,91 @@
+{
+  "agent": "coordinator_network",
+  "at": "2026-09-21T12:28:31.079365+00:00",
+  "base_hash": "9ecd1c9ff07ae5c47c303030d70761961f5fb8863d1ea84558d657cd58cb0180",
+  "cycle_id": "RC-003",
+  "payload": {
+    "agent": "coordinator_network",
+    "cutoff": "2026-09-21",
+    "cycle_id": "RC-003",
+    "findings": [
+      {
+        "claim": "Western Energy Imbalance Market coordinates real-time electricity exchange across Western participants; market membership alone is not surplus or a transmission guarantee.",
+        "epistemic_label": "FACT",
+        "source_ids": [
+          "RC3C01"
+        ]
+      },
+      {
+        "claim": "IEA July 2026 report connects sulfur shipping disruption to fertilizer and mineral-processing acid constraints; its July description does not establish September 21 strait status.",
+        "epistemic_label": "FACT",
+        "source_ids": [
+          "RC3C02"
+        ]
+      },
+      {
+        "claim": "IEA 2025 report identifies purified phosphoric acid as an LFP battery input and concentrated processing; no evidence from this that batteries caused present fertilizer curtailments.",
+        "epistemic_label": "FACT",
+        "source_ids": [
+          "RC3C03"
+        ]
+      },
+      {
+        "claim": "A replacement can lower one recurring dependency and increase another, while removing useful coproducts. Each transition needs a preserved-function test, new-dependency test and replacement readiness gate.",
+        "epistemic_label": "PLAUSIBLE MECHANISM",
+        "source_ids": [
+          "RC3C02",
+          "RC3C03"
+        ]
+      },
+      {
+        "claim": "Four RC-002 prose fields contain individual characters from list/string extension. Original text is recoverable; RC-003 will reassemble it without changing the historical committed cycle. A validator and admission regression test now block recurrence.",
+        "epistemic_label": "FACT",
+        "source_ids": []
+      }
+    ],
+    "limitations": [
+      "No private email accessed or sent.",
+      "No current uncommitted cross-border reserve measured.",
+      "No continuous process configured."
+    ],
+    "sources": [
+      {
+        "grade": "A",
+        "id": "RC3C01",
+        "limitations": "No live transfer capability, uncommitted generation or firm availability inferred from market membership.",
+        "observation_period": "Undated structural description and membership list read September 21, 2026",
+        "publication_date": null,
+        "publisher": "California ISO / Western Energy Markets",
+        "retrieved_at": "2026-09-21",
+        "title": "Western Energy Imbalance Market",
+        "url": "https://www.westernenergymarkets.com/western-energy-imbalance-market-weim"
+      },
+      {
+        "grade": "A",
+        "id": "RC3C02",
+        "limitations": "July report is not September live shipping status. Supply projections are scenarios; price or production concentration does not measure currently available donor reserve.",
+        "observation_period": "2025 and early/mid-2026 observations; forecasts separately identified",
+        "publication_date": "2026-07-16",
+        "publisher": "International Energy Agency",
+        "retrieved_at": "2026-09-21",
+        "title": "Global Critical Minerals Outlook 2026: Executive summary",
+        "url": "https://www.iea.org/reports/global-critical-minerals-outlook-2026/executive-summary"
+      },
+      {
+        "grade": "A",
+        "id": "RC3C03",
+        "limitations": "Historical concentration context for purified phosphoric acid; not a current market-share audit or evidence batteries displaced food fertilizer.",
+        "observation_period": "2024 observations and 2025 report projections",
+        "publication_date": "2025",
+        "publisher": "International Energy Agency",
+        "retrieved_at": "2026-09-21",
+        "title": "Global Critical Minerals Outlook 2025: Executive summary",
+        "url": "https://www.iea.org/reports/global-critical-minerals-outlook-2025/executive-summary"
+      }
+    ],
+    "status": "verified_checkpoint"
+  },
+  "payload_hash": "6b8f23aef725dab3ecb4b14289c932e5a8ec15afb2190ff15a8eebb70dce8f40",
+  "phase": "submitted",
+  "submission_id": "3f0b1330607d72aaff9b80d4eff151179689f4a875c33510ef886346e897c3c7"
+}

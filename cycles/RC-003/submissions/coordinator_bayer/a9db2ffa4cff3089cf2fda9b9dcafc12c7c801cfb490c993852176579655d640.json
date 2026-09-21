@@ -1,0 +1,88 @@
+{
+  "agent": "coordinator_bayer",
+  "at": "2026-09-21T12:28:31.074021+00:00",
+  "base_hash": "9ecd1c9ff07ae5c47c303030d70761961f5fb8863d1ea84558d657cd58cb0180",
+  "cycle_id": "RC-003",
+  "payload": {
+    "agent": "coordinator_bayer",
+    "cutoff": "2026-09-21",
+    "cycle_id": "RC-003",
+    "findings": [
+      {
+        "claim": "EPA glyphosate page updated August 26, 2026 describes a new human-health review expected late 2026 and a literature-comment deadline September 24. The 2020 interim decision was vacated in part and subsequently withdrawn in 2022. EPA continues to describe its prior no-risk-of-concern conclusion; this is not a completed new review.",
+        "epistemic_label": "FACT",
+        "source_ids": [
+          "BAY01"
+        ]
+      },
+      {
+        "claim": "IARC classified glyphosate probably carcinogenic to humans (Group 2A) in March 2015; a hazard classification does not estimate individual risk at a specified exposure. Regulatory risk assessment, hazard identification and litigation are distinct evidence lanes.",
+        "epistemic_label": "FACT",
+        "source_ids": [
+          "BAY01",
+          "BAY02"
+        ]
+      },
+      {
+        "claim": "Bayer own history acknowledges its incorporation into IG Farben and forced labor. This is material historical conduct, not evidence of the intent of present employees or every current decision.",
+        "epistemic_label": "FACT",
+        "source_ids": [
+          "BAY03"
+        ]
+      },
+      {
+        "claim": "No evidence established that Bayer is causing the current sulfur/phosphate constraint or intentionally withholding nutrients. Track seed/input access, distributor fulfillment, licensing/concentration, litigation cash commitments, operational changes, ecological/health evidence, research integrity and viable agronomic substitutes separately.",
+        "epistemic_label": "UNKNOWN",
+        "source_ids": [
+          "BAY01",
+          "BAY02",
+          "TRS02"
+        ]
+      }
+    ],
+    "limitations": [
+      "A Reuters September 14 settlement search result could not be reopened; no current settlement status or Supreme Court holding admitted.",
+      "Bayer half-year underlying report and Soda Springs technical source not retrieved; no current cash runway or phosphorus diversion claim.",
+      "Specialist Bayer checkpoint contained no findings; coordinator performed this bounded admission."
+    ],
+    "sources": [
+      {
+        "grade": "A",
+        "id": "BAY01",
+        "limitations": "Agency positions are attributed. Completion in late 2026 is intended, not achieved. Does not establish individual medical risk or adjudicate litigation. EPA acknowledges the November 2025 review-article retraction, but this record does not independently establish its underlying misconduct.",
+        "observation_period": "Current review schedule plus historical 2017 assessment and 2022 vacatur/withdrawal",
+        "publication_date": "2026-08-26",
+        "publisher": "U.S. EPA",
+        "retrieved_at": "2026-09-21",
+        "title": "Glyphosate: current review, evidence and regulatory history",
+        "url": "https://www.epa.gov/ingredients-used-pesticide-products/glyphosate"
+      },
+      {
+        "grade": "A",
+        "id": "BAY02",
+        "limitations": "Hazard identification is not an exposure-specific risk estimate. Does not determine a product formulation, user exposure, corporate intent or supply shortage.",
+        "observation_period": "2015 hazard assessment",
+        "publication_date": "2015-03-20",
+        "publisher": "International Agency for Research on Cancer",
+        "retrieved_at": "2026-09-21",
+        "title": "IARC Monographs Volume 112 evaluation announcement",
+        "url": "https://www.iarc.who.int/wp-content/uploads/2018/07/MonographVolume112-1.pdf"
+      },
+      {
+        "grade": "A",
+        "id": "BAY03",
+        "limitations": "Company acknowledgement of historical conduct; not a complete independent history or evidence of present intent.",
+        "observation_period": "Historical corporate role 1925–1945",
+        "publication_date": "2023-07-11",
+        "publisher": "Bayer",
+        "retrieved_at": "2026-09-21",
+        "title": "History of Bayer: 1925–1945",
+        "url": "https://www.bayer.com/en/history/1925-1945"
+      }
+    ],
+    "status": "completed_bounded_research"
+  },
+  "payload_hash": "be32c2ef57fc575b53ffa6d6f85781a1def9493de9b7f453c56f28d885f7adab",
+  "phase": "submitted",
+  "submission_id": "a9db2ffa4cff3089cf2fda9b9dcafc12c7c801cfb490c993852176579655d640"
+}

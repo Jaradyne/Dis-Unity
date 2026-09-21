@@ -1,0 +1,27 @@
+# Maritime security and California support networks — RC-003
+
+Evidence cutoff: 21 September 2026. Eight primary-source records are in `inbox/RC-003/maritime_network.json`. This is a bounded investigation, not a real-time voyage advisory.
+
+Piracy is a real threat, but the evidence supports sharply different regional judgments. Reported global incidents improved in the first half of 2026 while Somali hijacking remained a serious and recently demonstrated danger. More warships on paper do not establish timely protection at a particular location.
+
+| Area | Evidence and severity | Enforcement and limits |
+| --- | --- | --- |
+| Singapore/Malacca | ReCAAP recorded 21 incidents in January–June, down from 80 a year earlier; primarily opportunistic theft. | ReCAAP credits ship precautions and coastal-state operational responses. September8–14 bulletin recorded no reported incidents across Asia. Neither establishes zero risk. |
+| Gulf of Guinea | IMB recorded two incidents in January–June and commended regional progress. | Its advisory retains concern about historically violent attacks and kidnapping. H1 counts cannot establish September conditions or a per-voyage risk. |
+| Somalia/Gulf of Aden | Continuing hijackings; EUNAVFOR described September10 GLAMOR as the seventh piracy case since April. | Crew sheltering plus coordinated naval/air action ended that incident safely. July GOLDEN ARSENAL response also succeeded, while other ships remained held in July. This shows effective interventions and incomplete prevention. |
+| Red Sea and Hormuz | Conflict attacks and electronic interference require their own category. | IMB explicitly separates these from piracy. Current passage, insurance and patrol coverage were not verified in this thread. |
+| Venezuela/Caribbean | IMB's undated Venezuela port warning says incidents have stopped but retains anchorage precautions. | Insufficient dated evidence for a current regional piracy ranking or enforcement-strength comparison. Lawful access, refinery/port reliability and insurance are separate constraints. |
+
+Sources: [ReCAAP half-year release](https://www.recaap.org/resources/ck/files/news/2026/Press%20release%20-%20ReCAAP%20ISC%20Half%20Year%20Report%20(Jan%20-%20Jun%202026)%20-%20final.pdf), [September weekly bulletin](https://www.recaap.org/resources/ck/files/reports/weekly/2026/ReCAAP%20ISC%20Weekly%20Report%20(8-14%20Sep)%202026.pdf), [IMB half-year summary](https://icc-ccs.org/lowest-first-quarter-maritime-piracy-and-armed-robbery-figures-since-1991-but-vigilance-remains-essential-2/), [GLAMOR response](https://eunavfor.eu/news/resolution-piracy-incident-gulf-aden), [GOLDEN ARSENAL response](https://eunavfor.eu/news/operation-atalanta-coordinates-multinational-response-pirate-attack-mv-golden-arsenal), [IMB area advisories](https://icc-ccs.org/piracy-and-armed-robbery-prone-areas-and-warnings/).
+
+There is a direct nutrient-logistics example: EUNAVFOR records SWARD's April26 hijacking while carrying fertilizer to Mombasa. Its July29 report still described the vessel as captive. That is an observed local interruption, not evidence of California fertilizer shortages; September resolution and affected cargo volume remain unknown. A second agent independently reproduced this specific source check. [EUNAVFOR July update](https://eunavfor.eu/news/update-ongoing-piracy-incidents-northern-coast-somalia).
+
+IMB and ReCAAP have different reporting intakes and materially different Singapore counts. Do not add their totals or treat their coverage as identical. No matched number of voyages or anchorage-hours was recovered, so incident counts are not percentages of ships attacked. The official releases also do not yield a defensible pirate-to-patrol strength ratio.
+
+For California, a useful support network has several different kinds of connection. Western neighbors can exchange electricity over physical transmission; overseas partners can offer equipment, fuel, nutrients, skills and finance. These offers have different travel times, compatibility requirements and failure modes. CAISO describes resource diversity and regional exchange as reliability benefits; that structural potential is not proof of spare power at the hour California needs it. [CAISO regional collaboration](https://www.caiso.com/about/our-business/regional-collaboration).
+
+The proposed operating rule is to record each partner's usable offer, protected home-service floor, replenishment, route and common hazards. A second supplier using the same refinery, port or chokepoint may provide little independent protection. Regional heat can reduce both local power reserve and the neighbor's exportable surplus. Likewise, rerouting can preserve cargo access while consuming additional time, ship capacity and working capital. These are conditional mechanisms, not observed California service failures.
+
+For commons procurement, keep rotating essential stocks, consolidation arrangements and a minimum delivery capability alongside supplier directories. Growth opportunities include repair, recovered nutrients and electric regional freight where its charging and duty-cycle requirements fit. A fallback should be tested against the same disruption that creates the need for it.
+
+Current Cape, Panama, Suez and Hormuz throughput or closure status was not established. The coordinator found an IEA July report on Hormuz-related sulfur disruption; a dated July account must not silently become a September closure claim. These route-status gaps remain in the watch queue.

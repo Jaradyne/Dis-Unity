@@ -1,0 +1,333 @@
+{
+  "agent": "electric_food",
+  "cycle": "RC-003",
+  "status": "complete_bounded_research",
+  "retrieved_at": "2026-09-21",
+  "scope": [
+    "conditional replacement: diesel services to electric drives and refrigeration",
+    "food-bank supply channels and correlated reserve risk",
+    "analogous backup failures and practical commons buffers"
+  ],
+  "findings": [
+    {
+      "id": "EF01",
+      "epistemic_label": "FACT",
+      "claim": "Feeding America's FY2025 report records 4.3 billion pounds rescued and 7.2 billion pounds sourced nationally. About 60% is an analyst calculation using rounded figures, not a universal food-bank ratio. Observation period July 1, 2024–June 30, 2025.",
+      "source_ids": [
+        "EFS01"
+      ]
+    },
+    {
+      "id": "EF02",
+      "epistemic_label": "FACT",
+      "claim": "ACCFB's FY2025 audit identifies purchased food, donations, government food and food recovery as distinct channels. Its annual report describes wholesale-price access through Raley's and a five-food-bank purchasing partnership supported by a $2.5 million foundation grant. These are operating examples of procurement beyond rescued surplus; neither establishes current uncommitted reserve.",
+      "source_ids": [
+        "EFS02",
+        "EFS03"
+      ]
+    },
+    {
+      "id": "EF03",
+      "epistemic_label": "FACT",
+      "claim": "DOE identifies return-to-base delivery, refuse and bus duty cycles as practical electrification candidates. Range depends on load, terrain, weather and auxiliary power. Vehicle service support, chargers, electrical service and charging downtime must be included.",
+      "source_ids": [
+        "EFS04"
+      ]
+    },
+    {
+      "id": "EF04",
+      "epistemic_label": "FACT",
+      "claim": "A 2018 DOE case study documents Meals on Wheels People in Portland using electric shore power for truck refrigeration while parked. This is established staged diesel-load reduction, not a new 2026 event or evidence that vehicle propulsion became electric.",
+      "source_ids": [
+        "EFS08"
+      ]
+    },
+    {
+      "id": "EF05",
+      "epistemic_label": "FACT",
+      "claim": "USDA AMS describes competitive food purchasing from approved domestic vendors and coordinated demand planning for nutrition programs including TEFAP. Government food is not simply supermarket leftovers.",
+      "source_ids": [
+        "EFS07"
+      ]
+    },
+    {
+      "id": "EF06",
+      "epistemic_label": "PLAUSIBLE MECHANISM",
+      "claim": "A broad production or logistics shock can reduce donated inflow while higher prices increase demand and weaken food-bank purchasing power. This is a conditional coupled exposure, not evidence of a current famine. An affordability shock can instead leave ample food in commerce, and some disruptions temporarily increase stranded surplus.",
+      "source_ids": [
+        "EFS01",
+        "EFS02",
+        "EFS03",
+        "EFS07"
+      ],
+      "confirm": "Comparable inflow by source falls while demand, cost per nutritious meal and failed fulfillment rise; separate common shock from unrelated funding change.",
+      "falsify": "Stable or rising usable inflow and purchased fulfillment cover demand without drawing protected stocks or exhausting staff."
+    },
+    {
+      "id": "EF07",
+      "epistemic_label": "PLAUSIBLE MECHANISM",
+      "claim": "Food-waste prevention can be a healthy transition while shrinking rescue donations. The essential function to preserve is nutrition access, with stable procurement and income support replacing dependence on waste. More discarded food is not the desired reserve.",
+      "source_ids": [
+        "EFS01",
+        "EFS03"
+      ]
+    },
+    {
+      "id": "EF08",
+      "epistemic_label": "FACT",
+      "claim": "DOE describes converting a combustion vehicle by removing its engine and adding batteries, motors, high-voltage wiring and instrumentation; battery packaging, weight placement and chassis suitability need assessment. Replacement of the whole vehicle and repowering an existing chassis are separate options.",
+      "source_ids": [
+        "EFS05"
+      ]
+    },
+    {
+      "id": "EF09",
+      "epistemic_label": "PLAUSIBLE MECHANISM",
+      "claim": "Diesel electrification migrates dependence from recurring delivered fuel toward electrical service, chargers, equipment support and battery supply. It can free fuel for harder-to-electrify tasks if the displaced fuel remains deliverable; eventual refinery contraction can offset that reserve. Neither free diesel nor independent electric operation is automatic.",
+      "source_ids": [
+        "EFS04",
+        "EFS05",
+        "EFS06"
+      ]
+    },
+    {
+      "id": "EF10",
+      "epistemic_label": "UNKNOWN",
+      "claim": "No current ACCFB supply percentage, protected meal-days, contract rights, September physical inventory, or donor excess was established. No named East Bay electric fleet candidate has a verified route, purchase budget, energized depot or service commitment in this thread.",
+      "source_ids": [
+        "EFS02",
+        "EFS03",
+        "EFS04"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "EFS01",
+      "title": "Feeding America 2025 Annual Report",
+      "url": "https://www.feedingamerica.org/sites/default/files/2025-12/FA_25AnnReport_DIGITAL_final.pdf",
+      "publication_date": null,
+      "observation_period": "2024-07-01 through 2025-06-30",
+      "retrieved_at": "2026-09-21",
+      "limitations": "Publication day not shown; hosted path says 2025-12. National FY2025 network totals, not local inventory, edible calories or local mix.",
+      "publisher": "Feeding America",
+      "grade": "B"
+    },
+    {
+      "id": "EFS02",
+      "title": "ACCFB FY2025 audited financial statements",
+      "url": "https://www.accfb.org/wp-content/uploads/2026/01/ACCFB-2025-Audit-FS.pdf",
+      "publication_date": "2025-12-30",
+      "observation_period": "Fiscal year ended 2025-06-30",
+      "retrieved_at": "2026-09-21",
+      "limitations": "Audit date; uploaded in January 2026. Accounting food values do not directly establish a pound or nutrition mix, current stocks or emergency days.",
+      "publisher": "Alameda County Community Food Bank",
+      "grade": "A"
+    },
+    {
+      "id": "EFS03",
+      "title": "ACCFB Annual Report 2025",
+      "url": "https://www.accfb.org/annual-report-2025/",
+      "publication_date": null,
+      "observation_period": "FY2025",
+      "retrieved_at": "2026-09-21",
+      "limitations": "Web page displays revision timestamp 2026-07-29. Organization self-report; grant and partnership are dated examples, not verified current available balance or contracted emergency volumes.",
+      "publisher": "Alameda County Community Food Bank",
+      "grade": "B"
+    },
+    {
+      "id": "EFS04",
+      "title": "DOE AFDC: Electric Vehicles for Fleets",
+      "url": "https://afdc.energy.gov/vehicles/electric-fleets",
+      "publication_date": null,
+      "observation_period": "Undated guidance retrieved 2026-09-21",
+      "retrieved_at": "2026-09-21",
+      "limitations": "General engineering and planning guidance, not a site feasibility study or guarantee of cost, availability, range or outage endurance.",
+      "publisher": "U.S. Department of Energy, Alternative Fuels Data Center",
+      "grade": "A"
+    },
+    {
+      "id": "EFS08",
+      "title": "DOE: Electric Refrigeration Translates Fuel Burn into Savings for Nonprofit",
+      "url": "https://afdc.energy.gov/case/3069",
+      "publication_date": "2018-05-29",
+      "observation_period": "Deployment reported by 2018-05-29",
+      "retrieved_at": "2026-09-21",
+      "limitations": "Historical operator case reported by DOE. Parked refrigeration, not traction electrification; present equipment status and transferable savings unknown.",
+      "publisher": "U.S. Department of Energy, Alternative Fuels Data Center",
+      "grade": "A"
+    },
+    {
+      "id": "EFS05",
+      "title": "Electric Vehicle Conversions",
+      "publisher": "U.S. Department of Energy, Alternative Fuels Data Center",
+      "url": "https://afdc.energy.gov/vehicles/electric-conversions",
+      "publication_date": null,
+      "observation_period": "Undated technical guidance retrieved 2026-09-21",
+      "retrieved_at": "2026-09-21",
+      "grade": "A",
+      "limitations": "General conversion description, not a quotation or suitability determination for a particular chassis. Current jurisdiction-specific compliance requires project review."
+    },
+    {
+      "id": "EFS06",
+      "title": "Procurement and Installation for Electric Vehicle Charging Infrastructure",
+      "publisher": "U.S. Department of Energy, Alternative Fuels Data Center",
+      "url": "https://afdc.energy.gov/fuels/electricity-infrastructure-development",
+      "publication_date": null,
+      "observation_period": "Undated guidance retrieved 2026-09-21",
+      "retrieved_at": "2026-09-21",
+      "grade": "A",
+      "limitations": "No numerical price or tax-credit entitlement admitted; general planning guidance cannot establish site cost or energization timeline."
+    },
+    {
+      "id": "EFS07",
+      "title": "Selling Food to USDA",
+      "publisher": "U.S. Department of Agriculture, Agricultural Marketing Service",
+      "url": "https://www.ams.usda.gov/selling-food",
+      "publication_date": null,
+      "observation_period": "Program description retrieved 2026-09-21",
+      "retrieved_at": "2026-09-21",
+      "grade": "A",
+      "limitations": "Establishes competitive purchasing and TEFAP demand planning, not current appropriations, local allocation, usable surplus or guaranteed deliveries."
+    }
+  ],
+  "limitations": [
+    "Eight admitted primary/operator sources; broad web search repeatedly returned irrelevant results, so official navigation/direct pages were used.",
+    "No current famine inferred. Historical 2018/2025 findings are late discoveries or design evidence, not new September 2026 events.",
+    "No universal national/local food-bank supply mix assumed. No monthly local delivery data or independently verified reserve inventory obtained.",
+    "Electric agriculture/construction feasibility is not established for particular equipment. No universal cost saving or depot construction timeline asserted.",
+    "No outreach, procurement, scheduling or resource commitments made. No independent review of this thread completed here."
+  ],
+  "completed_on": "2026-09-21",
+  "conditional_replacement_card": {
+    "name": "Preserve freight and food delivery while shedding suitable diesel demand",
+    "classification": "Creative transition; healthy replacement only after service and resilience are demonstrated",
+    "first_candidates": "Predictable return-to-base delivery routes, buses, refuse collection and parked refrigeration; verify actual routes individually.",
+    "harder_cases": "Long continuous operation, remote charging, high payload or auxiliary loads and little dwell time require measured duty-cycle validation; do not generalize depot-truck feasibility to harvest machinery or every construction task.",
+    "assets_released": [
+      "Some recurring diesel demand",
+      "Engine maintenance time and relevant repair skills that can transition with paid training",
+      "Serviceable chassis only when a technically sound repower is feasible"
+    ],
+    "new_dependencies": [
+      "Depot electrical capacity and energization",
+      "Chargers and compatible controls",
+      "Battery and parts supply",
+      "Maintenance skills, warranty and viable service provider",
+      "Charging access/control and operating funds"
+    ],
+    "protected_floor": "Keep essential routes operable during procurement, interconnection delay and charging outage; do not retire working capacity before the substitute passes required loaded routes and an outage exercise.",
+    "growth_candidates": [
+      "Charging installation and maintenance",
+      "Electric drivetrain service and qualified repower",
+      "Food-logistics shore power",
+      "Route sharing and freight aggregation",
+      "Critical-load depot storage sized after energy measurement"
+    ],
+    "success_observation": "Essential deliveries completed at required payload and temperature with measured energy/cost and no dependence on an untested emergency recharge path.",
+    "source_ids": [
+      "EFS04",
+      "EFS05",
+      "EFS06",
+      "EFS08"
+    ],
+    "peer_cross_link": "Coordinator verified IEA 2025 critical-minerals analysis: some battery supply chains depend on concentrated purified phosphoric acid production. Nutrient agent identified long-run sulfur coproduct transition. These are dependency migrations; neither establishes that EVs cause present fertilizer shortages."
+  },
+  "reserve_framework": {
+    "epistemic_label": "PLAUSIBLE MECHANISM",
+    "rule": "Assess the reserve during the same event that makes it necessary, not only during ordinary operation. Different organization names are not independent supply routes.",
+    "measure": [
+      "Essential nutrition/meal requirement, with dietary needs and ready-to-eat options",
+      "Protected edible inventory after commitments and spoilage",
+      "Inflow by rescued, donated, government and purchased channels",
+      "Supplier origin, watershed, season, fuel, port, route and distributor overlap",
+      "Funding restrictions, cash availability and replenishment price",
+      "Cooking water/energy, refrigeration, staff and accessible distribution hours",
+      "Lead time and physical delivery probability under the scenario",
+      "Donor home floor and maximum safe outgoing commitment"
+    ],
+    "interpretation": "Prefer reserves with different failure causes, and countercyclical funding or capacity that can expand when demand rises. Do not assert statistical negative correlation without data.",
+    "workarounds": [
+      "Protected rotating staples and ready-to-eat meal stock used in routine service and replenished before its minimum floor is breached",
+      "Stable pooled purchase budget and diversified supplier agreements alongside rescue",
+      "Paid or guaranteed farm procurement with fair producer terms; diversify geography as well as farm count",
+      "Preserve SNAP/CalFresh access or cash where shops are stocked; cash cannot replace missing physical food",
+      "Prearranged alternate delivery routes, warehouse space, refrigeration power and trained staff",
+      "Government and interregional supply coordination for broad physical shortfalls, protecting each donor community floor"
+    ]
+  },
+  "analogous_loops": [
+    {
+      "name": "Cooling center loses usable service during heat",
+      "expectation": "Go to the library when home cooling fails",
+      "shared_stress": "Heat increases cooling demand and grid load; outage or reduced staffed hours can remove the fallback",
+      "break_loop": "Protected public opening rights, paid staffing, passive heat reduction and tested critical-load power",
+      "status": "PLAUSIBLE MECHANISM; Hayward reduced hours independently documented by durable_commons, no heat-service failure established"
+    },
+    {
+      "name": "Electric relief fleet shares the failed feeder",
+      "expectation": "Electric vans cover diesel shortages",
+      "shared_stress": "Concurrent grid outage or constrained depot prevents replenishment",
+      "break_loop": "Measured charged-vehicle reserve, alternate electrically independent charging and prioritized essential trips",
+      "status": "PLAUSIBLE MECHANISM; no current named fleet failure established"
+    },
+    {
+      "name": "Neighboring regions have the same peak",
+      "expectation": "Import power or crews from next door",
+      "shared_stress": "Regional heat, storm or fire consumes donor headroom and blocks routes",
+      "break_loop": "Verify donor reserve above protected floor and route; add partners exposed to different hazards",
+      "status": "PLAUSIBLE MECHANISM; current surplus unknown"
+    },
+    {
+      "name": "Hospital diversion reaches equally constrained hospitals",
+      "expectation": "Send patients to the next hospital",
+      "shared_stress": "Shared illness wave, power/water loss or workforce shortage removes staffed receiving beds",
+      "break_loop": "Confirm staffed receiving capacity and transport before counting beds as reserve; preserve local minimum care",
+      "status": "PLAUSIBLE MECHANISM; no current regional saturation established"
+    },
+    {
+      "name": "Voluntary charity shrinks in a recession",
+      "expectation": "More need brings more donated money and volunteer time",
+      "shared_stress": "Households lose income while donors, volunteers and nonprofit revenue also come under pressure",
+      "break_loop": "Protected operating reserve, predictable multi-year/public funding and paid core service capacity",
+      "status": "PLAUSIBLE MECHANISM; donations can also surge after salient disasters, so measure rather than assume decline"
+    }
+  ],
+  "commons_proposal": {
+    "name": "A protected food floor within a controlled commons",
+    "status": "Proposal, not stocked or authorized for operation",
+    "who_can_act": "A food bank, community organization, tenant association and controlled-space host acting with food-safety and accessibility partners",
+    "first_steps": [
+      "Choose a defined essential meal function and people served with community input",
+      "Map existing procurement, storage and distribution before adding duplicate infrastructure",
+      "Budget rotating inventory separately from ordinary variable rescue intake",
+      "Verify access rights, staff, safe storage, water, cooking energy and accessible delivery",
+      "Agree fair allocation, replenishment triggers and donor floors",
+      "Exercise a combined donation drop, price increase and power interruption"
+    ],
+    "success_measure": "Defined essential meals remain deliverable for the locally chosen interval without exhausting neighbors or depending on inaccessible space.",
+    "limits": "Dry staples alone are not a meal for someone without safe water, fuel or cooking space. Large stockpiles that expire or are inaccessible can reduce resilience.",
+    "source_ids": [
+      "EFS02",
+      "EFS03",
+      "EFS07"
+    ]
+  },
+  "peer_exchange": [
+    {
+      "peer": "durable_commons",
+      "received": "Current Hayward library page documents hours reduction effective January 1, 2026; regular meeting-room reservation has advance notice and opening-hour limits. Building control and usable service are distinct.",
+      "sent": "Protected procurement and meal floor must include water, power, staff, route and access rights; food purchase still shares physical supply exposure. Historical electric truck refrigeration case reduces diesel load without traction replacement.",
+      "file_read": "inbox/RC-003/durable_commons.json"
+    },
+    {
+      "peer": "nutrient_network",
+      "received": "Sulfur recovered from fossil processing can require alternative recovery/acid routes as that sector contracts; no current EV-to-sulfur-shortage causation established."
+    },
+    {
+      "peer": "coordinator",
+      "received": "IEA 2025 purified phosphoric acid/battery concentration link, kept distinct from fertilizer-grade availability and current shortage causation."
+    }
+  ],
+  "report": "reports/RC-003/FOOD_AND_CONDITIONAL_REPLACEMENT.md"
+}

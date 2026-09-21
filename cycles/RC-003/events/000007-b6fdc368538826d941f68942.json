@@ -1,0 +1,15 @@
+{
+  "at": "2026-09-21T12:28:31.094352+00:00",
+  "cycle_id": "RC-003",
+  "event_id": "b6fdc368538826d941f68942",
+  "event_type": "agent_submission",
+  "hash": "cc95b6cae0539411ea59560535e4a3ff2a73f9b5cedc9aa5bf071f21c2115431",
+  "payload": {
+    "agent": "electric_food",
+    "payload_hash": "a1ecbe20d3280f7b6089b5f61937fdfa9e16eea3d17c0b90b564822bef03caf2",
+    "phase": "submitted",
+    "submission_id": "a4653002874eee3f3cc14357787ce63eb5f0bb339c749bd2fc67154ecadbccd9"
+  },
+  "previous_hash": "a7dab6b59176ff44307bfbb8eda46ca0454ba09a8f7390425c5135d76276ebb7",
+  "sequence": 7
+}

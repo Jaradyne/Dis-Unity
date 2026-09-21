@@ -1,0 +1,15 @@
+{
+  "at": "2026-09-21T12:28:31.108925+00:00",
+  "cycle_id": "RC-003",
+  "event_id": "32a5767bdf0aaf8c04407af6",
+  "event_type": "agent_submission",
+  "hash": "b5f5b81a3119ce348108cb51e758176977ce01a3ab20b0eab87f9fbabad199f1",
+  "payload": {
+    "agent": "nutrient_network",
+    "payload_hash": "b5a3627e26cb5f870bd71dabbb134364d67dc66d5281da8a108e7c737a73fcb8",
+    "phase": "submitted",
+    "submission_id": "a373282667a398d752da02aa3c4d6d11797917eca2cd0a804120899f16728943"
+  },
+  "previous_hash": "ffdbe760bfbeb819fa1b3620bfb462d05d3c77273be02b350c49c31c5753b606",
+  "sequence": 9
+}

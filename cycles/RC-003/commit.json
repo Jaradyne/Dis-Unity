@@ -1,0 +1,384 @@
+{
+  "audit": {
+    "changed_paths": [
+      "ACTIVE_SIGNALS",
+      "CASCADE_GRAPH.edges",
+      "CASCADE_GRAPH.reserve_independence_rule",
+      "CASCADE_GRAPH.review_decisions",
+      "CHANGELOG",
+      "COMMUNITY_COMMONS",
+      "ISLANDS_OF_STABILITY",
+      "QUESTIONS_TO_WATCH",
+      "RESERVES_AND_LIFEBOATS",
+      "SOURCE_LEDGER",
+      "SYSTEM_MAP.clusters",
+      "SYSTEM_MAP.coverage_inventory",
+      "SYSTEM_MAP.replacement_protocol",
+      "SYSTEM_MAP.systems",
+      "TRANSITION_OPPORTUNITIES",
+      "meta.agent_run_history",
+      "meta.agent_runs",
+      "meta.baseline",
+      "meta.coverage_note",
+      "meta.cycle_id",
+      "meta.independent_review",
+      "meta.research_cutoff",
+      "meta.review_scope.closing_candidate_review",
+      "meta.review_scope.coordinator_checks",
+      "meta.review_scope.independent_checks",
+      "meta.review_scope.legacy_checks",
+      "meta.review_scope.limitations",
+      "meta.review_scope.new_findings_review",
+      "meta.review_scope.unverified_retrievals",
+      "meta.role_coverage",
+      "meta.schema_version",
+      "meta.status"
+    ],
+    "changed_sections": [
+      "ACTIVE_SIGNALS",
+      "CASCADE_GRAPH",
+      "CHANGELOG",
+      "COMMUNITY_COMMONS",
+      "ISLANDS_OF_STABILITY",
+      "QUESTIONS_TO_WATCH",
+      "RESERVES_AND_LIFEBOATS",
+      "SOURCE_LEDGER",
+      "SYSTEM_MAP",
+      "TRANSITION_OPPORTUNITIES",
+      "meta"
+    ],
+    "note": "Diff records changes, not their truth or importance. Unkeyed list changes are reported at list level.",
+    "record_changes": {
+      "ACTIVE_SIGNALS": {
+        "added": [
+          "SIG31",
+          "SIG32",
+          "SIG33",
+          "SIG34",
+          "SIG35",
+          "SIG36",
+          "SIG37",
+          "SIG38",
+          "SIG39",
+          "SIG40",
+          "SIG41",
+          "SIG42"
+        ],
+        "changed": {
+          "SIG24": [
+            "last_reviewed_cycle"
+          ],
+          "SIG27": [
+            "last_reviewed_cycle"
+          ]
+        },
+        "removed": []
+      },
+      "CASCADE_GRAPH.edges": {
+        "added": [
+          "EDGE15",
+          "EDGE16",
+          "EDGE17",
+          "EDGE18",
+          "EDGE19",
+          "EDGE20",
+          "EDGE21"
+        ],
+        "changed": {
+          "EDGE01": [
+            "thresholds"
+          ],
+          "EDGE02": [
+            "buffers"
+          ],
+          "EDGE07": [
+            "buffers"
+          ]
+        },
+        "removed": []
+      },
+      "CASCADE_GRAPH.review_decisions": {
+        "added": [
+          "RC003-CR01",
+          "RC003-CR02",
+          "RC003-CR03",
+          "RC003-CR04",
+          "RC003-IR01",
+          "RC003-IR02",
+          "RC003-IR03",
+          "RC003-SR01"
+        ],
+        "changed": {},
+        "removed": []
+      },
+      "COMMUNITY_COMMONS": {
+        "added": [
+          "COM08",
+          "COM09",
+          "COM10"
+        ],
+        "changed": {
+          "COM01": [
+            "resources"
+          ]
+        },
+        "removed": []
+      },
+      "ISLANDS_OF_STABILITY": {
+        "added": [
+          "ISL07",
+          "ISL08",
+          "ISL09"
+        ],
+        "changed": {},
+        "removed": []
+      },
+      "QUESTIONS_TO_WATCH": {
+        "added": [
+          "Q16",
+          "Q17",
+          "Q18",
+          "Q19",
+          "Q20",
+          "Q21",
+          "Q22"
+        ],
+        "changed": {
+          "Q13": [
+            "last_reviewed_cycle",
+            "status"
+          ]
+        },
+        "removed": []
+      },
+      "RESERVES_AND_LIFEBOATS": {
+        "added": [
+          "RES15",
+          "RES16",
+          "RES17",
+          "RES18"
+        ],
+        "changed": {
+          "RES01": [
+            "shared_failure_audit"
+          ],
+          "RES02": [
+            "shared_failure_audit"
+          ],
+          "RES03": [
+            "shared_failure_audit"
+          ],
+          "RES04": [
+            "shared_failure_audit"
+          ],
+          "RES05": [
+            "shared_failure_audit"
+          ],
+          "RES06": [
+            "shared_failure_audit"
+          ],
+          "RES07": [
+            "shared_failure_audit"
+          ],
+          "RES08": [
+            "shared_failure_audit"
+          ],
+          "RES09": [
+            "shared_failure_audit"
+          ],
+          "RES10": [
+            "shared_failure_audit"
+          ],
+          "RES11": [
+            "shared_failure_audit"
+          ],
+          "RES12": [
+            "shared_failure_audit"
+          ],
+          "RES13": [
+            "shared_failure_audit"
+          ],
+          "RES14": [
+            "shared_failure_audit"
+          ]
+        },
+        "removed": []
+      },
+      "SOURCE_LEDGER": {
+        "added": [
+          "BAY01",
+          "BAY02",
+          "BAY03",
+          "DC02",
+          "DC03",
+          "DC05",
+          "DC06",
+          "DC07",
+          "DC08",
+          "DC09",
+          "EFS01",
+          "EFS02",
+          "EFS03",
+          "EFS04",
+          "EFS05",
+          "EFS06",
+          "EFS07",
+          "EFS08",
+          "MAR01",
+          "MAR02",
+          "MAR03",
+          "MAR04",
+          "MAR05",
+          "MAR06",
+          "MAR07",
+          "MAR08",
+          "NUT01",
+          "NUT02",
+          "NUT03",
+          "NUT04",
+          "NUT05",
+          "NUT06",
+          "NUT07",
+          "NUT08",
+          "RC3C01",
+          "RC3C02",
+          "RC3C03"
+        ],
+        "changed": {
+          "LC_SRC02": [
+            "last_verified",
+            "rc003_readers"
+          ],
+          "SRC22": [
+            "last_verified",
+            "rc003_readers"
+          ],
+          "TRS02": [
+            "last_verified",
+            "rc003_readers"
+          ]
+        },
+        "removed": []
+      },
+      "SYSTEM_MAP.clusters": {
+        "added": [
+          "CL07",
+          "CL08",
+          "CL09"
+        ],
+        "changed": {
+          "CL03": [
+            "signal_ids",
+            "source_ids",
+            "transition_ids"
+          ],
+          "CL04": [
+            "buffers",
+            "commons_ids",
+            "signal_ids",
+            "source_ids",
+            "transition_ids"
+          ]
+        },
+        "removed": []
+      },
+      "SYSTEM_MAP.systems": {
+        "added": [
+          "commons",
+          "food_assistance",
+          "sulfur"
+        ],
+        "changed": {
+          "diesel": [
+            "gauges.GROWTH"
+          ],
+          "fertilizer": [
+            "gauges.SUBSTITUTABILITY"
+          ]
+        },
+        "removed": []
+      },
+      "TRANSITION_OPPORTUNITIES": {
+        "added": [
+          "TR09",
+          "TR10",
+          "TR11",
+          "TR12"
+        ],
+        "changed": {},
+        "removed": []
+      }
+    },
+    "source_changes": {
+      "added": [
+        "BAY01",
+        "BAY02",
+        "BAY03",
+        "DC02",
+        "DC03",
+        "DC05",
+        "DC06",
+        "DC07",
+        "DC08",
+        "DC09",
+        "EFS01",
+        "EFS02",
+        "EFS03",
+        "EFS04",
+        "EFS05",
+        "EFS06",
+        "EFS07",
+        "EFS08",
+        "MAR01",
+        "MAR02",
+        "MAR03",
+        "MAR04",
+        "MAR05",
+        "MAR06",
+        "MAR07",
+        "MAR08",
+        "NUT01",
+        "NUT02",
+        "NUT03",
+        "NUT04",
+        "NUT05",
+        "NUT06",
+        "NUT07",
+        "NUT08",
+        "RC3C01",
+        "RC3C02",
+        "RC3C03"
+      ],
+      "changed": {
+        "LC_SRC02": [
+          "last_verified",
+          "rc003_readers"
+        ],
+        "SRC22": [
+          "last_verified",
+          "rc003_readers"
+        ],
+        "TRS02": [
+          "last_verified",
+          "rc003_readers"
+        ]
+      },
+      "removed": []
+    }
+  },
+  "base_hash": "9ecd1c9ff07ae5c47c303030d70761961f5fb8863d1ea84558d657cd58cb0180",
+  "candidate_hash": "37a9b216e47bbc98ca4ebceb64e38ce3d530d537ea557d82374d243101c0bc33",
+  "completed_at": "2026-09-21T12:28:31.155011+00:00",
+  "cycle_id": "RC-003",
+  "limitations": [
+    "No whole-state independent pass; some RC-002 review remains open",
+    "Local food-service cover, commons access agreements, engineering readiness and donor surplus unverified",
+    "No current route clearance or quantified Venezuelan merchant sulfur reserve",
+    "Bayer watch is bounded; no comprehensive legal, financial or toxicological assessment"
+  ],
+  "materiality": "material",
+  "prepared_at": "2026-09-21T12:28:31.149242+00:00",
+  "review_id": "4d0f31f6ad9323cca32515242163602da0095844fca1b005d1c78f3d7dddaa8e",
+  "review_status": "coordinator_accepted_with_limitations",
+  "reviewer": "coordinator"
+}

@@ -1,0 +1,15 @@
+{
+  "at": "2026-09-21T12:28:31.074997+00:00",
+  "cycle_id": "RC-003",
+  "event_id": "946a9ff4a20d43cc8ce6c68a",
+  "event_type": "agent_submission",
+  "hash": "96fffdcc4d826a19d4b4390f38f785c0abcc4b80d8f1c1b611ef3ff7956a8e51",
+  "payload": {
+    "agent": "coordinator_bayer",
+    "payload_hash": "be32c2ef57fc575b53ffa6d6f85781a1def9493de9b7f453c56f28d885f7adab",
+    "phase": "submitted",
+    "submission_id": "a9db2ffa4cff3089cf2fda9b9dcafc12c7c801cfb490c993852176579655d640"
+  },
+  "previous_hash": "83fdec62c0a6496d6086b380bf868f990e94f4d26aee9522d9465e62e53e588a",
+  "sequence": 4
+}

@@ -8,11 +8,11 @@ Start with the [executive briefing](Resilience_Cascade_Briefing.md), [commons pr
 
 ## Current deployment
 
-Research cycle **RC-002** was completed on **21 September 2026**, retaining a **20 September evidence cutoff**. It contains 30 signals, 14 dependency links, six clusters and 40 source records, including explicitly logged gaps. Ten readable state sections are generated from one canonical JSON file.
+Research cycle **RC-003** was completed on **21 September 2026**, with a **21 September evidence cutoff**. It contains 42 signals, 21 dependency links, nine clusters and 77 source records, including explicitly logged gaps. Ten readable state sections are generated from one canonical JSON file. A cutoff is not a claim that every domain was refreshed that day.
 
-Five specialist threads saved research/review/code checkpoints. A shared usage limit interrupted their closing work. The coordinator completed the bounded cycle, source admission and implementation. Six independent checks reproduced material first-cycle claims; final independent peer review of the second-cycle additions remains open. The review record distinguishes these scopes.
+Four specialist threads completed focused research on nutrients, maritime networks, food/electrification and durable commons. A Bayer specialist saved only an initial checkpoint; the coordinator completed a bounded evidence watch. Three claims received independent source checks. Closing review covered seven new edges and four reserve records, with nutrient-input authorship limiting independence. Final admission is coordinator acceptance with limitations, not a whole-state independent pass. See the [review record](reports/RC-003/REVIEW.md).
 
-The strongest new findings concern phosphate production curtailments, uneven regional fuel and produce-transport capacity, and the separation between usable service reserve, restricted capital and announced funding. Improving grain movements and completed local infrastructure remain alongside the stress signals.
+The new work tests whether a fallback shrinks under the same shock that creates demand for it. Food assistance, public-space opening hours, electricity imports and fuel backup all receive this test. Diesel replacement is the first structured transition case, with new dependencies and useful coproducts tracked. Sulfur/phosphate processing, Venezuela conversion gates and regional piracy evidence are distinguished from available rescue capacity. Improving maritime reports remain alongside specific hijackings and input constraints.
 
 ## Operation
 
@@ -22,8 +22,9 @@ The multi-agent research runs during active assistant sessions. The Python utili
 | --- | --- |
 | `Resilience_Cascade_STATE.json` | Canonical shared state; coordinator is sole writer |
 | `state/` | Ten generated, source-linked views |
-| `inbox/RC-002/` | Attributed specialist checkpoints, including incomplete work |
-| `cycles/RC-002/` | Immutable baseline, submission snapshots, review, change audit and commit receipt |
+| `inbox/RC-003/` | Attributed specialist checkpoints, including incomplete work |
+| `cycles/RC-003/` | Immutable baseline, submission snapshots, review, change audit and commit receipt |
+| `reports/RC-003/` | Food/replacement, commons, maritime, nutrient/network and review detail |
 | `scripts/cycle.py` | Begin, checkpoint, review, commit and resume a cycle |
 | `scripts/validate_state.py` | Required fields, graph references, source references and date checks |
 | `scripts/render_state.py` | Regenerate the readable views |
@@ -35,7 +36,7 @@ Requires Python 3.9 or later and its standard library. The completed verificatio
 
 ```bash
 python scripts/validate_state.py Resilience_Cascade_STATE.json
-python scripts/cycle.py status RC-002
+python scripts/cycle.py status RC-003
 python -m unittest discover -s tests -v
 ```
 
@@ -48,6 +49,8 @@ Each consequential cascade records mechanism, evidence, thresholds, buffers, sub
 Every substantial decline gets a transition analysis. Preserve necessary function; distinguish destructive loss, managed shedding, creative transition and healthy replacement. A producer preserving cash through furloughs may shift harm onto workers. That is not automatically a successful transition.
 
 A donor's usable contribution is bounded by verified capacity after existing commitments and its protected contingency floor, then by transport, staffing, compatibility and replenishment. Unknown surplus is not committed rescue. An interconnected power system on another continent is not a direct local electricity donor.
+
+Every reserve also records how the initiating shock could damage it. Several suppliers can share one factory, route, grid or funder. Food-waste prevention remains desirable; dependable nutrition should survive the loss of avoidable surplus. Technology replacement must preserve necessary service and account for commissioning, staffing, new inputs and useful coproducts.
 
 Social analysis separates rhetoric, organization, capacity, behavior and violence. It also examines mediation and cooperation. Identity, affiliation, ordinary anger and activism do not establish dangerousness. Simultaneous failures do not establish malicious intent.
 

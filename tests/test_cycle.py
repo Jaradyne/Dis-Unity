@@ -52,6 +52,19 @@ class CycleIntegrity(unittest.TestCase):
         with self.assertRaisesRegex(cycle.CycleError, "unresolved source"):
             self.approve()
 
+    def test_fragmented_narrative_cannot_be_admitted(self):
+        edge = self.candidate["CASCADE_GRAPH"]["edges"][0]
+        edge["thresholds"] += " Source independence must be checked."
+        self.write(self.candidate_path, self.candidate)
+        with self.assertRaisesRegex(cycle.CycleError, "fragmented narrative"):
+            self.approve()
+        self.assertEqual(json.loads(self.state_path.read_text()), self.base)
+        edge["thresholds"] = ["Source independence must be checked."]
+        self.write(self.candidate_path, self.candidate)
+        self.approve()
+        cycle.commit(self.root, "TEST-002", self.candidate_path)
+        self.assertEqual(json.loads(self.state_path.read_text()), self.candidate)
+
     def test_lost_update_preserves_newer_state(self):
         self.approve()
         newer = copy.deepcopy(self.base)
@@ -60,6 +73,30 @@ class CycleIntegrity(unittest.TestCase):
         with self.assertRaisesRegex(cycle.CycleError, "Lost-update"):
             cycle.commit(self.root, "TEST-002", self.candidate_path)
         self.assertEqual(json.loads(self.state_path.read_text()), newer)
+
+    def test_stricter_validation_repairs_immutable_legacy_baseline(self):
+        legacy = copy.deepcopy(self.base)
+        legacy["CASCADE_GRAPH"]["edges"][0]["thresholds"] += " Legacy broken narrative."
+        self.write(self.state_path, legacy)
+        # Model a cycle admitted before the fragmented-narrative rule existed.
+        with patch.object(cycle, "validate", return_value=[]):
+            cycle.begin(self.root, "MIGRATION", "2026-09-20")
+        baseline_path = self.root / "cycles/MIGRATION/baseline.json"
+        original_bytes = baseline_path.read_bytes()
+        candidate = copy.deepcopy(legacy)
+        candidate["meta"]["cycle_id"] = "MIGRATION"
+        self.write(self.candidate_path, candidate)
+        with self.assertRaisesRegex(cycle.CycleError, "fragmented narrative"):
+            cycle.review(self.root, "MIGRATION", self.candidate_path,
+                         "coordinator", "coordinator", "passed", "Review migration")
+        candidate["CASCADE_GRAPH"]["edges"][0]["thresholds"] = ["Legacy repaired narrative."]
+        self.write(self.candidate_path, candidate)
+        cycle.review(self.root, "MIGRATION", self.candidate_path,
+                     "coordinator", "coordinator", "passed", "Review migration")
+        cycle.commit(self.root, "MIGRATION", self.candidate_path)
+        self.assertEqual(baseline_path.read_bytes(), original_bytes)
+        self.assertEqual(json.loads(self.state_path.read_text()), candidate)
+        self.assertEqual(cycle.status(self.root, "MIGRATION")["status"], "committed")
 
     def test_duplicate_commit_is_idempotent_and_review_honest(self):
         self.approve()

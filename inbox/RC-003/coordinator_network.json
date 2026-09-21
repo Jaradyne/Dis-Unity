@@ -1,0 +1,82 @@
+{
+  "agent": "coordinator_network",
+  "cycle_id": "RC-003",
+  "status": "verified_checkpoint",
+  "cutoff": "2026-09-21",
+  "findings": [
+    {
+      "epistemic_label": "FACT",
+      "claim": "Western Energy Imbalance Market coordinates real-time electricity exchange across Western participants; market membership alone is not surplus or a transmission guarantee.",
+      "source_ids": [
+        "RC3C01"
+      ]
+    },
+    {
+      "epistemic_label": "FACT",
+      "claim": "IEA July 2026 report connects sulfur shipping disruption to fertilizer and mineral-processing acid constraints; its July description does not establish September 21 strait status.",
+      "source_ids": [
+        "RC3C02"
+      ]
+    },
+    {
+      "epistemic_label": "FACT",
+      "claim": "IEA 2025 report identifies purified phosphoric acid as an LFP battery input and concentrated processing; no evidence from this that batteries caused present fertilizer curtailments.",
+      "source_ids": [
+        "RC3C03"
+      ]
+    },
+    {
+      "epistemic_label": "PLAUSIBLE MECHANISM",
+      "claim": "A replacement can lower one recurring dependency and increase another, while removing useful coproducts. Each transition needs a preserved-function test, new-dependency test and replacement readiness gate.",
+      "source_ids": [
+        "RC3C02",
+        "RC3C03"
+      ]
+    },
+    {
+      "epistemic_label": "FACT",
+      "claim": "Four RC-002 prose fields contain individual characters from list/string extension. Original text is recoverable; RC-003 will reassemble it without changing the historical committed cycle. A validator and admission regression test now block recurrence.",
+      "source_ids": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "RC3C01",
+      "title": "Western Energy Imbalance Market",
+      "publisher": "California ISO / Western Energy Markets",
+      "url": "https://www.westernenergymarkets.com/western-energy-imbalance-market-weim",
+      "publication_date": null,
+      "observation_period": "Undated structural description and membership list read September 21, 2026",
+      "retrieved_at": "2026-09-21",
+      "grade": "A",
+      "limitations": "No live transfer capability, uncommitted generation or firm availability inferred from market membership."
+    },
+    {
+      "id": "RC3C02",
+      "title": "Global Critical Minerals Outlook 2026: Executive summary",
+      "publisher": "International Energy Agency",
+      "url": "https://www.iea.org/reports/global-critical-minerals-outlook-2026/executive-summary",
+      "publication_date": "2026-07-16",
+      "observation_period": "2025 and early/mid-2026 observations; forecasts separately identified",
+      "retrieved_at": "2026-09-21",
+      "grade": "A",
+      "limitations": "July report is not September live shipping status. Supply projections are scenarios; price or production concentration does not measure currently available donor reserve."
+    },
+    {
+      "id": "RC3C03",
+      "title": "Global Critical Minerals Outlook 2025: Executive summary",
+      "publisher": "International Energy Agency",
+      "url": "https://www.iea.org/reports/global-critical-minerals-outlook-2025/executive-summary",
+      "publication_date": "2025",
+      "observation_period": "2024 observations and 2025 report projections",
+      "retrieved_at": "2026-09-21",
+      "grade": "A",
+      "limitations": "Historical concentration context for purified phosphoric acid; not a current market-share audit or evidence batteries displaced food fertilizer."
+    }
+  ],
+  "limitations": [
+    "No private email accessed or sent.",
+    "No current uncommitted cross-border reserve measured.",
+    "No continuous process configured."
+  ]
+}

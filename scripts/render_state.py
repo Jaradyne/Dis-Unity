@@ -20,7 +20,8 @@ def render(value, level=2):
             label = key.replace('_', ' ')
             if key == 'source_ids':
                 links = [f'[{sid}: {sources[sid]["publisher"]}]({sources[sid]["url"]})' for sid in item]
-                lines.append(f'**Sources:** {", ".join(links)}\n')
+                if links:
+                    lines.append(f'**Sources:** {", ".join(links)}\n')
             elif isinstance(item, (dict, list)):
                 lines.extend([f'{"#" * min(level, 6)} {label}\n', render(item, level+1)])
             else:
