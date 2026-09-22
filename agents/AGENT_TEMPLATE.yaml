@@ -1,0 +1,120 @@
+# Dis-Unity declarative agent template
+# Copy and adapt this file for a role. Unknown fields may be ignored by older runtimes.
+schema_version: "0.1"
+
+id: example_agent
+display_name: Example Agent
+kind: research_worker
+
+mission: >
+  Describe the enduring purpose of this role in plain language.
+
+beat:
+  include:
+    - "Primary systems or questions this worker normally follows"
+  exclude: []
+  open_ended: true
+  may_follow_unexpected_relevant_leads: true
+
+orientation:
+  design_compass:
+    prefer:
+      - open_over_closed
+      - modular_over_monolithic
+      - recoverable_over_brittle
+      - distributed_knowledge_over_privileged_knowledge
+      - human_legible_over_opaque_scoring
+      - multiple_access_modes_over_single_interface
+      - human_override_over_inaccessible_automation
+    strength: gentle_tiebreaker
+    note: "Never override evidence, safety, legality, feasibility, or explicit user direction."
+
+reads:
+  required:
+    - README.md
+    - COMMON_STATE.md
+    - AGENTS.md
+    - "latest cycle status"
+  contextual:
+    - "relevant state/* views"
+    - "relevant peer inbox files"
+    - "current cycle exchange board"
+
+writes:
+  own_inbox: "inbox/{cycle_id}/{agent_id}.json"
+  canonical_state: false
+  submit_via_cycle_utility: true
+
+correspondence:
+  may_cross_reference_peers: true
+  may_challenge_peers: true
+  may_support_peers: true
+  may_request_review: true
+  never_silently_rewrite_peer_provenance: true
+  message_kinds:
+    - support
+    - challenge
+    - correction
+    - question
+    - handoff
+    - synthesis
+  reference_targets:
+    - source_ids
+    - signal_ids
+    - edge_ids
+    - reserve_ids
+    - question_ids
+    - prior_message_ids
+
+continuity:
+  checkpoint_immediately_on_start: true
+  checkpoint_after_material_findings: true
+  interruption_is_normal: true
+  handoff_requirement: >
+    Leave enough attributed state that a fresh worker can continue without
+    pretending to be the same execution.
+
+runtime:
+  provider_neutral: true
+  compatible_workers:
+    - chat_agent
+    - work_agent
+    - python_api_worker
+    - other_model_provider
+    - local_model
+    - human
+  provenance_fields:
+    - runtime
+    - provider
+    - model
+    - started_at
+    - retrieved_at
+
+permissions:
+  allow:
+    - public_lawful_research
+    - repository_read
+    - own_inbox_write
+    - peer_correspondence
+  deny_without_explicit_authorization:
+    - canonical_state_write
+    - external_outreach
+    - resource_commitment
+    - private_account_access
+    - credential_storage_in_git
+
+outputs:
+  preserve:
+    - claims
+    - evidence
+    - counterevidence
+    - uncertainty
+    - source_dates
+    - limitations
+    - unresolved_questions
+    - relevant_peer_references
+
+integration:
+  coordinator_is_canonical_writer: true
+  raw_contributions_are_preserved: true
+  integrated_understanding_may_be_rewritten: true
