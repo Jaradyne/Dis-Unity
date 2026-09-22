@@ -51,3 +51,23 @@ The user wants a standing Geography Coordinator: a "Locutus of org" layer that c
 A first declaration is in `agents/geography_coordinator.json`. It explicitly favors reachable local capacity over nominal distant capacity when access risk is high, while preserving international trade as an important but conditional reserve.
 
 Ground reporting should be protected from meme dynamics: virality is not independent confirmation. Track event, attribution, location/time and prevalence confidence separately, deduplicate repost chains and preserve quiet counterevidence.
+
+
+## 22 September — diesel escalation, pandemic lens, and first Gemini bee
+
+New user direction:
+- Treat reserve stacks as normal and explicitly estimate access as well as existence.
+- Maintain a COVID-like pandemic/lockdown stress parameter at several stages, especially for systems whose behavior changes sharply under movement restrictions, absenteeism or priority allocation. This is a scenario lens, not a prediction.
+- Add medical refrigeration/cold-chain dependencies to diesel analysis.
+- Track farm failures/bankruptcies, food/industrial output effects, distressed land transfers and changes in ownership/operating concentration without assuming motives.
+- Treat extra human labor as a possible bounded adaptation, not a magical replacement for broadacre mechanization.
+- Create a U.S. rural logistics scout focused on places too far from rail/water or too poor for expensive trucking. It should birth bounded place/corridor children when warranted. Once the schema works, analogous national/local scouts can appear elsewhere; several continental syntheses may jointly propose a dormant global logistics synthesis agent.
+- Gemini current-event reasoning should be supplied with dated evidence from 2025-01-01 onward; do not ask it to recall post-cutoff events from model memory.
+
+Files added in this pass:
+- `scenarios/PANDEMIC_LOCKDOWN_LENS.md`
+- `agents/us_rural_logistics.json`
+- `agents/global_logistics_synthesis.json`
+- `briefings/CURRENT_PACKET_2026-09-22.md`
+
+The user created the repository Actions secret `GEMINI_API_KEY` under a free-tier Gemini project. A one-shot Gemini 3.8 Flash run is being used to test the real external-model path. Its output should remain an attributed inbox/checkpoint contribution, not canonical truth.
