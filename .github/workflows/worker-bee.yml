@@ -1,0 +1,68 @@
+name: Worker Bee Smoke Test
+
+on:
+  push:
+    paths:
+      - "scripts/worker.py"
+      - "agents/**"
+      - "tests/test_worker.py"
+      - ".github/workflows/worker-bee.yml"
+  pull_request:
+    paths:
+      - "scripts/worker.py"
+      - "agents/**"
+      - "tests/test_worker.py"
+      - ".github/workflows/worker-bee.yml"
+  workflow_dispatch:
+    inputs:
+      provider:
+        description: "mock or gemini"
+        required: true
+        default: "mock"
+        type: choice
+        options:
+          - mock
+          - gemini
+      model:
+        description: "Gemini model ID when provider=gemini"
+        required: false
+        default: "gemini-3.8-flash"
+      task:
+        description: "Bounded attention request"
+        required: false
+        default: "Read the current attention field and leave a checkpoint."
+
+permissions:
+  contents: read
+
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Run worker tests
+        run: python -m unittest tests.test_worker -v
+      - name: Run worker
+        shell: bash
+        env:
+          REQUESTED_PROVIDER: ${{ inputs.provider || 'mock' }}
+          REQUESTED_MODEL: ${{ inputs.model || 'gemini-3.8-flash' }}
+          REQUESTED_TASK: ${{ inputs.task || 'Read the current attention field and leave a checkpoint.' }}
+        run: |
+          if [[ "$REQUESTED_PROVIDER" == "gemini" && -z "$GEMINI_API_KEY" ]]; then
+            echo "GEMINI_API_KEY is not configured as an Actions secret."
+            exit 2
+          fi
+          python scripts/worker.py             --role agents/worker_bee.json             --cycle RC-004             --provider "$REQUESTED_PROVIDER"             --model "$REQUESTED_MODEL"             --task "$REQUESTED_TASK"             --output "$RUNNER_TEMP/worker_bee.json"
+      - name: Upload checkpoint
+        uses: actions/upload-artifact@v4
+        with:
+          name: worker-bee-checkpoint
+          path: ${{ runner.temp }}/worker_bee.json
+          if-no-files-found: error
