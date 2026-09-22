@@ -53,3 +53,14 @@ A useful child has a narrow question, a stop condition, relevant context, a budg
 - Separate event confidence, attribution confidence, location/time confidence and prevalence confidence.
 - Attention-grabbing footage may be excellent evidence of one event and terrible evidence of frequency.
 - Preserve quiet negative evidence too: local operators reporting normal service, stocked shelves, functioning routes or absence of the claimed condition can materially constrain a viral narrative.
+
+
+### Diesel / farm / medical stress escalation
+- Apply `scenarios/PANDEMIC_LOCKDOWN_LENS.md` to diesel-dependent systems. A pandemic/lockdown scenario is a stress test, not a forecast.
+- Refrigeration includes medicines, vaccines, biologics and diagnostics as well as food. Track both mobile reefer fuel and stationary backup-power fuel.
+- Add **diesel elasticity**: how much fuel can a function shed before output or safety drops, and which substitute absorbs the function?
+- Track farm failures, Chapter 12/agricultural Chapter 11 stress, creditor sales, land auctions, operator exit and ownership/operating-control changes. Monitor concentration without assuming motive.
+- Distinguish temporary station-level outages from structural supply tightness. Ask whether the station, terminal, PADD, refinery and global distillate layer tell the same story.
+- Examine existing biofuel capacity before imagining greenfield microplants; feedstock, methanol/catalyst, quality control, permitting, waste handling, cold weather and distribution can become bottlenecks.
+- Question for labor substitution: which farm tasks are human-substitutable at emergency scale, which require machines, and where could volunteer/paid surge labor protect harvest or food handling without pretending people can replace combines?
+- Standing scout: `agents/us_rural_logistics.json`. It should propose bounded U.S. children first. Mature local/national children can seed analogous agents abroad; several continental syntheses may eventually propose `agents/global_logistics_synthesis.json`.
