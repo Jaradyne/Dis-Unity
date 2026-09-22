@@ -1,6 +1,6 @@
 # Dis-Unity declarative agent template
 # Copy and adapt this file for a role. Unknown fields may be ignored by older runtimes.
-schema_version: "0.1"
+schema_version: "0.2"
 
 id: example_agent
 display_name: Example Agent
@@ -28,12 +28,22 @@ orientation:
       - human_override_over_inaccessible_automation
     strength: gentle_tiebreaker
     note: "Never override evidence, safety, legality, feasibility, or explicit user direction."
+  evidence_texture:
+    direct_ground_reporting: >
+      High weight for what the reporter directly experienced or observed. Do not
+      inflate one firsthand event into prevalence without triangulation.
+    primary_operational_records: >
+      High weight for the quantity or event the record actually establishes.
+    model_consultation: >
+      Treat other-model output as a lead or interpretation unless it brings
+      inspectable evidence.
 
 reads:
   required:
     - README.md
     - COMMON_STATE.md
     - AGENTS.md
+    - agents/ALCHEMICAL_MAILBOX.md
     - "latest cycle status"
   contextual:
     - "relevant state/* views"
@@ -65,6 +75,24 @@ correspondence:
     - reserve_ids
     - question_ids
     - prior_message_ids
+
+birth_policy:
+  may_propose_children: true
+  auto_spawn: false
+  useful_triggers:
+    - geographic_localization
+    - cross_domain_coupling
+    - persistent_evidence_conflict
+    - hidden_local_adaptation
+    - possible_repeated_disparate_access
+    - bounded_parent_overload
+  constraints:
+    require_narrow_question: true
+    require_stop_condition: true
+    require_budget_ceiling: true
+    require_return_inbox: true
+    do_not_infer_protected_traits_from_proxies: true
+    child_of_child_consumes_shared_budget: true
 
 continuity:
   checkpoint_immediately_on_start: true
@@ -113,6 +141,7 @@ outputs:
     - limitations
     - unresolved_questions
     - relevant_peer_references
+    - proposed_birth_requests
 
 integration:
   coordinator_is_canonical_writer: true
