@@ -37,3 +37,19 @@ A useful child has a narrow question, a stop condition, relevant context, a budg
 - Prefer a public/read-only transport when possible so ingestion does not require a credential.
 - If private ingestion is needed, use least-privilege read-only authorization and keep credentials out of Git.
 - A shared spreadsheet may act as a human-editable staging table for questions, URLs, place-specific observations and follow-up status, but should not become hidden canonical state.
+
+
+### Geography coordinator / reciprocal logistics
+- Build soil-reserve geography instead of treating fertilizer tonnage as uniform farm resilience.
+- For each place, ask both "what is needed?" and "what can travel back?" A pickup delivering compost or recovered nutrients may be able to return with water, food, repair parts, medicine, empty containers, field reports, or another locally useful load.
+- Track route dependencies: vehicle type, fuel, road/bridge access, legal permission, driver availability, loading equipment, refrigeration, storage and unloading capacity.
+- Distinguish "exists somewhere" from "can reach this place in time."
+- Prefer reachable local stocks and observed local production as practical reserves. International trade capacity remains important but receives a larger access-risk discount when shipping lanes, finance, sanctions, insurance, port capacity or political permission can interrupt delivery.
+- Candidate standing role: `agents/geography_coordinator.json`.
+
+### Ground reporting without meme capture
+- Direct reporting gets high weight for the event actually witnessed, not for the popularity of the post.
+- Virality does not create independent corroboration. Trace reposts, clips and quotes back toward the earliest observable source.
+- Separate event confidence, attribution confidence, location/time confidence and prevalence confidence.
+- Attention-grabbing footage may be excellent evidence of one event and terrible evidence of frequency.
+- Preserve quiet negative evidence too: local operators reporting normal service, stocked shelves, functioning routes or absence of the claimed condition can materially constrain a viral narrative.
