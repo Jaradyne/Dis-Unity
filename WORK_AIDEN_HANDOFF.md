@@ -42,3 +42,12 @@ The user prefers major integration and architectural changes to be handled by Ai
 - Add a safe public-feed/mail ingestion adapter with least-privilege authorization.
 - Decide whether a human-editable Google Sheet is a staging sensor, an outbox, or both.
 - Add a GitHub workflow that can run a real worker only when the required secret exists, and returns its checkpoint as an artifact or PR rather than writing directly to main.
+
+
+## Geography / octopus coordination update
+
+The user wants a standing Geography Coordinator: a "Locutus of org" layer that converts system stress into reciprocal local logistics. The role should ask not only how to get a needed input from A to B, but what useful return load can move B to A or onward to C. Examples include compost/recovered nutrients, water, food, repair parts, containers, cold-chain space and field observations.
+
+A first declaration is in `agents/geography_coordinator.json`. It explicitly favors reachable local capacity over nominal distant capacity when access risk is high, while preserving international trade as an important but conditional reserve.
+
+Ground reporting should be protected from meme dynamics: virality is not independent confirmation. Track event, attribution, location/time and prevalence confidence separately, deduplicate repost chains and preserve quiet counterevidence.
