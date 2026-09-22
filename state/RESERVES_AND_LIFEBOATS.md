@@ -1,6 +1,6 @@
 # RESERVES_AND_LIFEBOATS
 
-Cycle RC-003; cutoff 2026-09-21.
+Cycle RC-004; cutoff 2026-09-21.
 
 **donor guardrail:** Protect local essential demand and minimum operator inventory; uncommitted exportable volume unknown
 
@@ -8,11 +8,47 @@ Cycle RC-003; cutoff 2026-09-21.
 
 **id:** RES01
 
-**limits:** Seasonally thin; region, grade, contract and route limit use Table6 excludes two public strategic reserve categories; quantities and access to these have not been verified.
+**limits:** Seasonally thin; region, grade, contract and route limit use. EIA Table 6 excludes designated public reserve categories. RES19 now records DOE's approximately one-million-barrel Northeast program description; current independently audited usable quantity, lawful release and local access remain unverified. SPR crude is not ready distillate.
 
 **name:** Distillate inventories and active production
 
 **readiness:** Observed bulk stocks/production
+
+## response time
+
+**accessible service cover:** Unknown locally; do not substitute the separately recorded gross national reference ratio
+
+**activation time:** Unmeasured
+
+**assessed cycle:** RC-004
+
+**dependable inflow:** Unknown locally under the initiating shock; national reported production does not establish accessible local inflow
+
+**inventory turnover:** Unmeasured; not a shelf-life or endurance estimate
+
+**limiting dependencies:** Seasonally thin; region, grade, contract and route limit use. EIA Table 6 excludes designated public reserve categories. RES19 now records DOE's approximately one-million-barrel Northeast program description; current independently audited usable quantity, lawful release and local access remain unverified. SPR crude is not ready distillate.
+
+### national reference
+
+**gross distillate stocks million barrels:** 107.9
+
+**gross stock use ratio days:** Approximately 30; calculated reference, not usable service cover or countdown
+
+**observation date:** 2026-09-11
+
+**recent four week domestic products supplied million barrels per day:** 3.602
+
+**weekly distillate production million barrels per day:** 5.2
+
+**physical life:** Asset- and condition-specific; not inferred from turnover
+
+**replacement lead time:** Near-term rerouting and compatible output changes versus years for major new build
+
+**replenishment arrival:** Unverified
+
+**stressed demand rate:** Unknown locally under the initiating shock
+
+**usable quantity above floor:** Unknown locally after protected floors
 
 ## shared failure audit
 
@@ -28,7 +64,7 @@ Cycle RC-003; cutoff 2026-09-21.
 
 **shared failure modes:** Refinery/terminal/route disruptions and multiple vendors sharing one supplier
 
-**Sources:** [SRC02: EIA](https://ir.eia.gov/wpsr/wpsrsummary.pdf), [SRC03: EIA](https://www.eia.gov/dnav/pet/pet_stoc_wstk_a_epd0_sae_mbbl_w.htm)
+**Sources:** [SRC02: EIA](https://ir.eia.gov/wpsr/wpsrsummary.pdf), [SRC03: EIA](https://www.eia.gov/dnav/pet/pet_stoc_wstk_a_epd0_sae_mbbl_w.htm), [RC4F01: U.S. Energy Information Administration](https://www.eia.gov/petroleum/supply/weekly/pdf/wpsrall.pdf), [RC4F04: U.S. Department of Energy](https://www.energy.gov/hgeo/opr/northeast-home-heating-oil-reserve)
 
 **type:** Reserve
 
@@ -46,6 +82,30 @@ Cycle RC-003; cutoff 2026-09-21.
 **name:** Cereal stocks and diversified origins
 
 **readiness:** Forecast aggregate buffer
+
+## response time
+
+**accessible service cover:** Unknown; no institution-count proxy
+
+**activation time:** Unmeasured
+
+**assessed cycle:** RC-004
+
+**dependable inflow:** Unknown under the initiating shock
+
+**inventory turnover:** Unmeasured; not a shelf-life or endurance estimate
+
+**limiting dependencies:** Not all stocks exportable; payment/ports/nutrition constrain access
+
+**physical life:** Asset- and condition-specific; not inferred from turnover
+
+**replacement lead time:** Unverified
+
+**replenishment arrival:** Unverified
+
+**stressed demand rate:** Unknown
+
+**usable quantity above floor:** Unknown unless explicitly quantified in this record
 
 ## shared failure audit
 
@@ -80,6 +140,30 @@ Cycle RC-003; cutoff 2026-09-21.
 
 **readiness:** Adopted budget support
 
+## response time
+
+**accessible service cover:** Unknown; no institution-count proxy
+
+**activation time:** Unmeasured
+
+**assessed cycle:** RC-004
+
+**dependable inflow:** Unknown under the initiating shock
+
+**inventory turnover:** Unmeasured; not a shelf-life or endurance estimate
+
+**limiting dependencies:** Time-limited, partly debt/deferral; not unrestricted cash
+
+**physical life:** Asset- and condition-specific; not inferred from turnover
+
+**replacement lead time:** Unverified
+
+**replenishment arrival:** Unverified
+
+**stressed demand rate:** Unknown
+
+**usable quantity above floor:** Unknown unless explicitly quantified in this record
+
 ## shared failure audit
 
 **audit status:** Structural screening; not a quantified common-shock reserve test
@@ -112,6 +196,30 @@ Cycle RC-003; cutoff 2026-09-21.
 **name:** CAISO and European power coordination
 
 **readiness:** Modeled adequacy; existing coordination
+
+## response time
+
+**accessible service cover:** Unknown; no institution-count proxy
+
+**activation time:** Unmeasured
+
+**assessed cycle:** RC-004
+
+**dependable inflow:** Unknown under the initiating shock
+
+**inventory turnover:** Unmeasured; not a shelf-life or endurance estimate
+
+**limiting dependencies:** Live reserves, ramp, duration and interfaces unresolved
+
+**physical life:** Asset- and condition-specific; not inferred from turnover
+
+**replacement lead time:** Unverified
+
+**replenishment arrival:** Unverified
+
+**stressed demand rate:** Unknown
+
+**usable quantity above floor:** Unknown unless explicitly quantified in this record
 
 ## shared failure audit
 
@@ -146,6 +254,30 @@ Cycle RC-003; cutoff 2026-09-21.
 
 **readiness:** Roster established; medical example historically deployed
 
+## response time
+
+**accessible service cover:** Unknown; no institution-count proxy
+
+**activation time:** Unmeasured
+
+**assessed cycle:** RC-004
+
+**dependable inflow:** Unknown under the initiating shock
+
+**inventory turnover:** Unmeasured; not a shelf-life or endurance estimate
+
+**limiting dependencies:** Travel, funds, simultaneous disasters and home staffing constrain
+
+**physical life:** Asset- and condition-specific; not inferred from turnover
+
+**replacement lead time:** Unverified
+
+**replenishment arrival:** Unverified
+
+**stressed demand rate:** Unknown
+
+**usable quantity above floor:** Unknown unless explicitly quantified in this record
+
 ## shared failure audit
 
 **audit status:** Structural screening; not a quantified common-shock reserve test
@@ -178,6 +310,30 @@ Cycle RC-003; cutoff 2026-09-21.
 **name:** FoodNow and ACCFB access network
 
 **readiness:** Listed operating referral service; surge reserve unverified
+
+## response time
+
+**accessible service cover:** Unknown; no institution-count proxy
+
+**activation time:** Unmeasured
+
+**assessed cycle:** RC-004
+
+**dependable inflow:** Unknown under the initiating shock
+
+**inventory turnover:** Unmeasured; not a shelf-life or endurance estimate
+
+**limiting dependencies:** Inventory, transport, opening and dietary suitability not guaranteed
+
+**physical life:** Asset- and condition-specific; not inferred from turnover
+
+**replacement lead time:** Unverified
+
+**replenishment arrival:** Unverified
+
+**stressed demand rate:** Unknown
+
+**usable quantity above floor:** Unknown unless explicitly quantified in this record
 
 ## shared failure audit
 
@@ -212,6 +368,30 @@ Cycle RC-003; cutoff 2026-09-21.
 
 **readiness:** Published tool borrowing service
 
+## response time
+
+**accessible service cover:** Unknown; no institution-count proxy
+
+**activation time:** Unmeasured
+
+**assessed cycle:** RC-004
+
+**dependable inflow:** Unknown under the initiating shock
+
+**inventory turnover:** Unmeasured; not a shelf-life or endurance estimate
+
+**limiting dependencies:** Eligibility and inventory; not a skilled utility repair crew
+
+**physical life:** Asset- and condition-specific; not inferred from turnover
+
+**replacement lead time:** Unverified
+
+**replenishment arrival:** Unverified
+
+**stressed demand rate:** Unknown
+
+**usable quantity above floor:** Unknown unless explicitly quantified in this record
+
 ## shared failure audit
 
 **audit status:** Structural screening; not a quantified common-shock reserve test
@@ -244,6 +424,30 @@ Cycle RC-003; cutoff 2026-09-21.
 **name:** West Oakland and Richmond hub projects
 
 **readiness:** Candidate projects; commissioning not verified
+
+## response time
+
+**accessible service cover:** Unknown; no institution-count proxy
+
+**activation time:** Unmeasured
+
+**assessed cycle:** RC-004
+
+**dependable inflow:** Unknown under the initiating shock
+
+**inventory turnover:** Unmeasured; not a shelf-life or endurance estimate
+
+**limiting dependencies:** Hours, power, water, staffing, islanding and accessibility need confirmation
+
+**physical life:** Asset- and condition-specific; not inferred from turnover
+
+**replacement lead time:** Unverified
+
+**replenishment arrival:** Unverified
+
+**stressed demand rate:** Unknown
+
+**usable quantity above floor:** Unknown unless explicitly quantified in this record
 
 ## shared failure audit
 
@@ -278,6 +482,30 @@ Cycle RC-003; cutoff 2026-09-21.
 
 **readiness:** Proposed pilot only
 
+## response time
+
+**accessible service cover:** Unknown; no institution-count proxy
+
+**activation time:** Unmeasured
+
+**assessed cycle:** RC-004
+
+**dependable inflow:** Unknown under the initiating shock
+
+**inventory turnover:** Unmeasured; not a shelf-life or endurance estimate
+
+**limiting dependencies:** Drivers, insurance, accessibility, vehicle capacity and reimbursements required
+
+**physical life:** Asset- and condition-specific; not inferred from turnover
+
+**replacement lead time:** Unverified
+
+**replenishment arrival:** Unverified
+
+**stressed demand rate:** Unknown
+
+**usable quantity above floor:** Unknown unless explicitly quantified in this record
+
 ## shared failure audit
 
 **audit status:** Structural screening; not a quantified common-shock reserve test
@@ -310,6 +538,30 @@ Cycle RC-003; cutoff 2026-09-21.
 **name:** Small critical-load power/cold-storage arrangement
 
 **readiness:** Proposed; no site certified
+
+## response time
+
+**accessible service cover:** Unknown; no institution-count proxy
+
+**activation time:** Unmeasured
+
+**assessed cycle:** RC-004
+
+**dependable inflow:** Unknown under the initiating shock
+
+**inventory turnover:** Unmeasured; not a shelf-life or endurance estimate
+
+**limiting dependencies:** Watts, usable kWh, starting load, temperature monitoring, islanding and recharge must be verified
+
+**physical life:** Asset- and condition-specific; not inferred from turnover
+
+**replacement lead time:** Unverified
+
+**replenishment arrival:** Unverified
+
+**stressed demand rate:** Unknown
+
+**usable quantity above floor:** Unknown unless explicitly quantified in this record
 
 ## shared failure audit
 
@@ -344,6 +596,30 @@ Cycle RC-003; cutoff 2026-09-21.
 
 **readiness:** Slight surplus reported at Mexico–South Texas origins September15; no transferable fleet committed
 
+## response time
+
+**accessible service cover:** Unknown; no institution-count proxy
+
+**activation time:** Unmeasured
+
+**assessed cycle:** RC-004
+
+**dependable inflow:** Unknown under the initiating shock
+
+**inventory turnover:** Unmeasured; not a shelf-life or endurance estimate
+
+**limiting dependencies:** Perishability, commodity, destination, cross-border rules, driver time, price and existing orders constrain transfer
+
+**physical life:** Asset- and condition-specific; not inferred from turnover
+
+**replacement lead time:** Unverified
+
+**replenishment arrival:** Unverified
+
+**stressed demand rate:** Unknown
+
+**usable quantity above floor:** Unknown unless explicitly quantified in this record
+
 ## shared failure audit
 
 **audit status:** Structural screening; not a quantified common-shock reserve test
@@ -376,6 +652,30 @@ Cycle RC-003; cutoff 2026-09-21.
 **name:** San Anselmo Town Hall microgrid
 
 **readiness:** Municipal owner confirms completion and current solar use; outage activation/drill not verified
+
+## response time
+
+**accessible service cover:** Unknown; no institution-count proxy
+
+**activation time:** Unmeasured
+
+**assessed cycle:** RC-004
+
+**dependable inflow:** Unknown under the initiating shock
+
+**inventory turnover:** Unmeasured; not a shelf-life or endurance estimate
+
+**limiting dependencies:** No verified public outage-hours, accessible headcount, battery duration or staffing; not emergency clinical capacity
+
+**physical life:** Asset- and condition-specific; not inferred from turnover
+
+**replacement lead time:** Unverified
+
+**replenishment arrival:** Unverified
+
+**stressed demand rate:** Unknown
+
+**usable quantity above floor:** Unknown unless explicitly quantified in this record
 
 ## shared failure audit
 
@@ -410,6 +710,30 @@ Cycle RC-003; cutoff 2026-09-21.
 
 **readiness:** April8 total storage observed; current reserve not credited
 
+## response time
+
+**accessible service cover:** Unknown; no institution-count proxy
+
+**activation time:** Unmeasured
+
+**assessed cycle:** RC-004
+
+**dependable inflow:** Unknown under the initiating shock
+
+**inventory turnover:** Unmeasured; not a shelf-life or endurance estimate
+
+**limiting dependencies:** Stored raw water is not treated, deliverable, uncommitted September water
+
+**physical life:** Asset- and condition-specific; not inferred from turnover
+
+**replacement lead time:** Unverified
+
+**replenishment arrival:** Unverified
+
+**stressed demand rate:** Unknown
+
+**usable quantity above floor:** Unknown unless explicitly quantified in this record
+
 ## shared failure audit
 
 **audit status:** Structural screening; not a quantified common-shock reserve test
@@ -442,6 +766,30 @@ Cycle RC-003; cutoff 2026-09-21.
 **name:** Watsonville hospital grant bridge
 
 **readiness:** 2026 award listed; current disbursement and cash balance unverified
+
+## response time
+
+**accessible service cover:** Unknown; no institution-count proxy
+
+**activation time:** Unmeasured
+
+**assessed cycle:** RC-004
+
+**dependable inflow:** Unknown under the initiating shock
+
+**inventory turnover:** Unmeasured; not a shelf-life or endurance estimate
+
+**limiting dependencies:** Named committed award, not open reserve; one-time funds do not prove sustainable operating margin
+
+**physical life:** Asset- and condition-specific; not inferred from turnover
+
+**replacement lead time:** Unverified
+
+**replenishment arrival:** Unverified
+
+**stressed demand rate:** Unknown
+
+**usable quantity above floor:** Unknown unless explicitly quantified in this record
 
 ## shared failure audit
 
@@ -476,6 +824,30 @@ Cycle RC-003; cutoff 2026-09-21.
 
 **readiness:** Documented FY2025 channels; current emergency allocations unverified
 
+## response time
+
+**accessible service cover:** Unknown; no institution-count proxy
+
+**activation time:** Unmeasured
+
+**assessed cycle:** RC-004
+
+**dependable inflow:** Unknown under the initiating shock
+
+**inventory turnover:** Unmeasured; not a shelf-life or endurance estimate
+
+**limiting dependencies:** Funds, supplier harvests, roads and cold storage can fail together
+
+**physical life:** Asset- and condition-specific; not inferred from turnover
+
+**replacement lead time:** Unverified
+
+**replenishment arrival:** Unverified
+
+**stressed demand rate:** Unknown
+
+**usable quantity above floor:** Unknown unless explicitly quantified in this record
+
 ## shared failure audit
 
 **audit status:** Structural screening; not a quantified common-shock reserve test
@@ -509,6 +881,30 @@ Cycle RC-003; cutoff 2026-09-21.
 
 **readiness:** Design only; no food purchased or space secured
 
+## response time
+
+**accessible service cover:** Unknown until actual quantity, diet, users, access, water and cooking are measured
+
+**activation time:** Unmeasured
+
+**assessed cycle:** RC-004
+
+**dependable inflow:** Unknown under the initiating shock
+
+**inventory turnover:** Unmeasured; not a shelf-life or endurance estimate
+
+**limiting dependencies:** Duration requires menu, usable stock, water, preparation and delivery data
+
+**physical life:** Properly stored intact low-acid commercial cans: USDA quality guidance 2–5 years; contents and packaging matter
+
+**replacement lead time:** Radishes can take 3–6 weeks; full nutrition and seasonal production take longer and remain site-specific
+
+**replenishment arrival:** Unverified
+
+**stressed demand rate:** Unknown
+
+**usable quantity above floor:** Unknown unless explicitly quantified in this record
+
 ## shared failure audit
 
 **audit status:** Structural screening; not a quantified common-shock reserve test
@@ -523,7 +919,7 @@ Cycle RC-003; cutoff 2026-09-21.
 
 **shared failure modes:** Water, energy, diet compatibility and staffing
 
-**Sources:** [EFS01: Feeding America](https://www.feedingamerica.org/sites/default/files/2025-12/FA_25AnnReport_DIGITAL_final.pdf), [EFS03: Alameda County Community Food Bank](https://www.accfb.org/annual-report-2025/)
+**Sources:** [EFS01: Feeding America](https://www.feedingamerica.org/sites/default/files/2025-12/FA_25AnnReport_DIGITAL_final.pdf), [EFS03: Alameda County Community Food Bank](https://www.accfb.org/annual-report-2025/), [RC4X01: USDA Food Safety and Inspection Service](https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/shelf-stable-food), [RC4A04: UC Statewide IPM](https://ipm.ucanr.edu/home-and-landscape/cultural-tips-for-growing-radish/)
 
 **type:** Proposed community lifeboat
 
@@ -532,15 +928,39 @@ Cycle RC-003; cutoff 2026-09-21.
 
 **donor guardrail:** Protect current residents/users, pay core labor and fund maintenance before expansion
 
-**essential function:** Continuity of accessible space and essential services
+**essential function:** Enable community presence, adaptation and incremental service development
 
 **id:** RES17
 
-**limits:** Ownership, keys, staffing, permitted use and backup endurance are distinct
+**limits:** Ownership, keys, staffing, permitted use and backup endurance are distinct Pandemic closure, exclusion, displacement and outdoor exposure can remove usable access; no current new rule is alleged.
 
-**name:** Durable commons operating rights
+**name:** Adaptable commons space and operating access
 
-**readiness:** Tenure models verified; no new agreement or available property secured
+**readiness:** A commons may start with modifiable space and regular useful presence; no specific new site or emergency endurance verified
+
+## response time
+
+**accessible service cover:** Unknown; no institution-count proxy
+
+**activation time:** Unmeasured
+
+**assessed cycle:** RC-004
+
+**dependable inflow:** Unknown under the initiating shock
+
+**inventory turnover:** Unmeasured; not a shelf-life or endurance estimate
+
+**limiting dependencies:** Ownership, keys, staffing, permitted use and backup endurance are distinct Pandemic closure, exclusion, displacement and outdoor exposure can remove usable access; no current new rule is alleged.
+
+**physical life:** Asset- and condition-specific; not inferred from turnover
+
+**replacement lead time:** Unverified
+
+**replenishment arrival:** Unverified
+
+**stressed demand rate:** Unknown
+
+**usable quantity above floor:** Unknown unless explicitly quantified in this record
 
 ## shared failure audit
 
@@ -575,6 +995,30 @@ Cycle RC-003; cutoff 2026-09-21.
 
 **readiness:** Operational market; current deliverable surplus unknown
 
+## response time
+
+**accessible service cover:** Unknown; no institution-count proxy
+
+**activation time:** Unmeasured
+
+**assessed cycle:** RC-004
+
+**dependable inflow:** Unknown under the initiating shock
+
+**inventory turnover:** Unmeasured; not a shelf-life or endurance estimate
+
+**limiting dependencies:** Regional heat, fire, drought and constrained lines can reduce both local and donor reserve
+
+**physical life:** Asset- and condition-specific; not inferred from turnover
+
+**replacement lead time:** Unverified
+
+**replenishment arrival:** Unverified
+
+**stressed demand rate:** Unknown
+
+**usable quantity above floor:** Unknown unless explicitly quantified in this record
+
 ## shared failure audit
 
 **audit status:** Structural screening; not a quantified common-shock reserve test
@@ -592,4 +1036,232 @@ Cycle RC-003; cutoff 2026-09-21.
 **Sources:** [RC3C01: California ISO / Western Energy Markets](https://www.westernenergymarkets.com/western-energy-imbalance-market-weim), [MAR08: California ISO](https://www.caiso.com/about/our-business/regional-collaboration)
 
 **type:** Existing exchange network
+
+
+---
+
+**donor guardrail:** Protect eligible Northeast heating needs and release authority; not a freely available California donor
+
+**essential function:** Emergency heating-oil supply under designated release arrangements
+
+**id:** RES19
+
+**limits:** Release, transport, grade, terminal access and local demand constrain delivery; do not add stock to EIA totals without overlap accounting
+
+**name:** Northeast Home Heating Oil Reserve
+
+**readiness:** DOE program describes approximately one million barrels of ULSD; not a fresh independent tank audit
+
+## response time
+
+**accessible service cover:** Unknown; no institution-count proxy
+
+**activation time:** Unmeasured
+
+**assessed cycle:** RC-004
+
+**dependable inflow:** Unknown under the initiating shock
+
+**inventory turnover:** Unmeasured; not a shelf-life or endurance estimate
+
+**limiting dependencies:** Release, transport, grade, terminal access and local demand constrain delivery; do not add stock to EIA totals without overlap accounting
+
+**physical life:** Asset- and condition-specific; not inferred from turnover
+
+**replacement lead time:** Unverified
+
+**replenishment arrival:** Unverified
+
+**stressed demand rate:** Unknown
+
+**usable quantity above floor:** Unknown unless explicitly quantified in this record
+
+## shared failure audit
+
+**audit status:** Structural screen; current surplus not audited
+
+**current stressed surplus:** Unknown
+
+**epistemic label:** PLAUSIBLE MECHANISM
+
+**expectation gap:** Nominal capacity can fail to provide accessible service at the needed time
+
+**required service proof:** Dated accessible capacity and delivery before protected floor crossing
+
+**shared failure modes:** Release, transport, grade, terminal access and local demand constrain delivery; do not add stock to EIA totals without overlap accounting
+
+**Sources:** [RC4F04: U.S. Department of Energy](https://www.energy.gov/hgeo/opr/northeast-home-heating-oil-reserve)
+
+**type:** Designated public fuel reserve
+
+
+---
+
+**donor guardrail:** Do not displace essential committed cargo or exceed safe crew/terminal capacity
+
+**essential function:** Move suitable essential linehaul cargo with lower fuel intensity
+
+**id:** RES20
+
+**limits:** Diesel, terminal power, crew and final-delivery dependencies persist; aggregate efficiency is not route capacity
+
+**name:** Compatible existing rail service
+
+**readiness:** Existing rail operates; spare paths, crews, loading and last-mile capacity unverified
+
+## response time
+
+**accessible service cover:** Unknown; no institution-count proxy
+
+**activation time:** Unmeasured
+
+**assessed cycle:** RC-004
+
+**dependable inflow:** Unknown under the initiating shock
+
+**inventory turnover:** Unmeasured; not a shelf-life or endurance estimate
+
+**limiting dependencies:** Diesel, terminal power, crew and final-delivery dependencies persist; aggregate efficiency is not route capacity
+
+**physical life:** Asset- and condition-specific; not inferred from turnover
+
+**replacement lead time:** Unverified
+
+**replenishment arrival:** Unverified
+
+**stressed demand rate:** Unknown
+
+**usable quantity above floor:** Unknown unless explicitly quantified in this record
+
+## shared failure audit
+
+**audit status:** Structural screen; current surplus not audited
+
+**current stressed surplus:** Unknown
+
+**epistemic label:** PLAUSIBLE MECHANISM
+
+**expectation gap:** Nominal capacity can fail to provide accessible service at the needed time
+
+**required service proof:** Dated accessible capacity and delivery before protected floor crossing
+
+**shared failure modes:** Diesel, terminal power, crew and final-delivery dependencies persist; aggregate efficiency is not route capacity
+
+**Sources:** [RC4R03: Association of American Railroads](https://www.aar.org/issue/freight-rail-climate-change/), [RC4R01: Caltrain](https://www.caltrain.com/news/caltrain-commences-fully-electrified-service)
+
+**type:** Substitution and fuel conservation
+
+
+---
+
+**donor guardrail:** Respect equitable access and existing garden demand; no bulk allocation assumed
+
+**essential function:** Improve soil and recycle some nutrients into local production
+
+**id:** RES21
+
+**limits:** Compost can run out; nutrient release varies; test soil and material rather than treating it as complete fertilizer or new topsoil
+
+**name:** Oakland public compost return loop
+
+**readiness:** Verified public self-load location and hours; current stock quantity and composition unknown
+
+## response time
+
+**accessible service cover:** Unknown; no institution-count proxy
+
+**activation time:** Use posted public pickup hours if compost remains available
+
+**assessed cycle:** RC-004
+
+**dependable inflow:** Unknown under the initiating shock
+
+**inventory turnover:** Unmeasured; not a shelf-life or endurance estimate
+
+**limiting dependencies:** Compost can run out; nutrient release varies; test soil and material rather than treating it as complete fertilizer or new topsoil
+
+**physical life:** Asset- and condition-specific; not inferred from turnover
+
+**replacement lead time:** Crop- and weather-dependent nutrient mineralization plus time to harvest
+
+**replenishment arrival:** Unverified
+
+**stressed demand rate:** Unknown
+
+**usable quantity above floor:** Unknown unless explicitly quantified in this record
+
+## shared failure audit
+
+**audit status:** Structural screen; current surplus not audited
+
+**current stressed surplus:** Unknown
+
+**epistemic label:** PLAUSIBLE MECHANISM
+
+**expectation gap:** Nominal capacity can fail to provide accessible service at the needed time
+
+**required service proof:** Dated accessible capacity and delivery before protected floor crossing
+
+**shared failure modes:** Compost can run out; nutrient release varies; test soil and material rather than treating it as complete fertilizer or new topsoil
+
+**Sources:** [RC4A01: City of Oakland](https://www.oaklandca.gov/My-Household/Waste-and-Recycling/Free-Compost), [RC4A05: UC ANR Solution Center for Nutrient Management](https://ucanr.edu/site/solution-center-nutrient-management/nitrogen-organic-sources)
+
+**type:** Nutrient recycling input
+
+
+---
+
+**donor guardrail:** Protect local nutrition, water and labor before promising exports; no free donor surplus assumed
+
+**essential function:** Add fresh food and diversified seasonal supply beyond donations
+
+**id:** RES22
+
+**limits:** Seed, water, soil nutrients, light, weather, labor, time, nutrition balance and transport remain necessary
+
+**name:** Overlapping seasonal food-production network
+
+**readiness:** Proposal; no site, planted crop, harvest volume or winter delivery contract established
+
+## response time
+
+**accessible service cover:** Unknown; no institution-count proxy
+
+**activation time:** Site/seed/water preparation required; starting now does not provide an immediate harvest
+
+**assessed cycle:** RC-004
+
+**dependable inflow:** Unknown under the initiating shock
+
+**inventory turnover:** Unmeasured; not a shelf-life or endurance estimate
+
+**limiting dependencies:** Seed, water, soil nutrients, light, weather, labor, time, nutrition balance and transport remain necessary
+
+**physical life:** Asset- and condition-specific; not inferred from turnover
+
+**replacement lead time:** Radishes may reach harvest in 3–6 weeks under suitable conditions; other crops, seasons and full nutrition supply have different lead times
+
+**replenishment arrival:** Unverified
+
+**stressed demand rate:** Unknown
+
+**usable quantity above floor:** Unknown unless explicitly quantified in this record
+
+## shared failure audit
+
+**audit status:** Structural screen; current surplus not audited
+
+**current stressed surplus:** Unknown
+
+**epistemic label:** PLAUSIBLE MECHANISM
+
+**expectation gap:** Nominal capacity can fail to provide accessible service at the needed time
+
+**required service proof:** Dated accessible capacity and delivery before protected floor crossing
+
+**shared failure modes:** Seed, water, soil nutrients, light, weather, labor, time, nutrition balance and transport remain necessary
+
+**Sources:** [RC4A03: UC Statewide IPM](https://ipm.ucanr.edu/home-and-landscape/cultural-tips-for-growing-tomato/), [RC4A04: UC Statewide IPM](https://ipm.ucanr.edu/home-and-landscape/cultural-tips-for-growing-radish/), [RC4A05: UC ANR Solution Center for Nutrient Management](https://ucanr.edu/site/solution-center-nutrient-management/nitrogen-organic-sources), [RC4X01: USDA Food Safety and Inspection Service](https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/shelf-stable-food)
+
+**type:** Proposed production lifeboat
 

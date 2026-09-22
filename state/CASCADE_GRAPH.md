@@ -1,6 +1,6 @@
 # CASCADE_GRAPH
 
-Cycle RC-003; cutoff 2026-09-21.
+Cycle RC-004; cutoff 2026-09-21.
 
 **activation rule:** Conditional links require threshold observations. No automatic transitive propagation from a single stressed node.
 
@@ -770,6 +770,219 @@ Cycle RC-003; cutoff 2026-09-21.
 **to:** grid
 
 **uncertainty:** No evidence LFP demand caused current fertilizer curtailments; grade conversions are not automatic
+
+
+---
+
+**activation status:** Conditional; not automatically activated by source-system strain
+
+### buffers
+
+- Protected traction fuel
+- Load consolidation
+- Suitable electric corridors
+
+**confirm:** Operator reports fuel-related service loss and essential cargo delay
+
+**dependent system:** rail
+
+**falsify:** Rail maintains essential movements through stocks, contracts or existing electric operation
+
+**from:** diesel
+
+**id:** EDGE22
+
+**initiating stress:** Delivered traction fuel unavailable or unaffordable on an essential corridor
+
+**mechanism:** Diesel-dependent rail can conserve fuel per freight unit but still shares the fuel shock; terminals and last-mile trucks add dependencies.
+
+**Sources:** [RC4R03: Association of American Railroads](https://www.aar.org/issue/freight-rail-climate-change/), [RC4F01: U.S. Energy Information Administration](https://www.eia.gov/petroleum/supply/weekly/pdf/wpsrall.pdf)
+
+### substitutes
+
+- Compatible intermodal routes
+- Prioritize essential cargo
+
+### thresholds
+
+- Named essential service loses fuel access and alternatives cannot carry it
+
+**time horizon:** Days to weeks for operations; years for major power-source conversion
+
+**to:** rail
+
+**uncertainty:** National locomotive fuel-type count and route fuel cover unverified
+
+
+---
+
+**activation status:** Conditional; not automatically activated by source-system strain
+
+### buffers
+
+- Existing intermodal terminals
+- Cargo aggregation
+
+**confirm:** Trial delivers essential cargo reliably with lower total fuel use including terminal and last mile
+
+**dependent system:** trucking
+
+**falsify:** Terminal congestion, time windows, handling or last-mile constraints erase useful substitution
+
+**from:** rail
+
+**id:** EDGE23
+
+**initiating stress:** Suitable road-freight lanes face high fuel demand or reduced capacity
+
+**mechanism:** Available rail linehaul can reduce diesel demand per delivered tonne, if terminals, schedules and road connections fit.
+
+**Sources:** [RC4R03: Association of American Railroads](https://www.aar.org/issue/freight-rail-climate-change/)
+
+### substitutes
+
+- Coastal transport where suitable
+- Local aggregation
+
+### thresholds
+
+- Usable rail path, loading equipment, crew and protected last-mile capacity confirmed
+
+**time horizon:** Operational adjustment can be shorter than infrastructure construction; route-specific timing unknown
+
+**to:** trucking
+
+**uncertainty:** Average efficiency is not spare capacity or compatibility for every perishable load
+
+
+---
+
+**activation status:** Conditional; not automatically activated by source-system strain
+
+### buffers
+
+- Differently governed partner site
+- Outdoor or mobile node
+- Portable storage and communications
+
+**confirm:** Observed access loss coincides with unmet essential service
+
+**dependent system:** food_assistance
+
+**falsify:** Alternate routes and sites preserve service inclusively
+
+**from:** commons
+
+**id:** EDGE24
+
+**initiating stress:** Access to a useful node closes or becomes exclusionary
+
+**mechanism:** Food, information, cooling and coordination can become inaccessible even if physical equipment remains intact.
+
+**Sources:** [DC07: City of San Leandro](https://www.sanleandro.org/162/Public-Library), [RC4C04: Ava Community Energy](https://avaenergy.org/community/resilience-hubs/)
+
+### substitutes
+
+- Distributed collection/delivery
+- Open-air access when appropriate
+
+### thresholds
+
+- People lose an essential service and no accessible alternate can meet it
+
+**time horizon:** Immediate loss; restoration depends on access, staffing and conditions
+
+**to:** food_assistance
+
+**uncertainty:** No new pandemic closure or specific exclusionary law asserted
+
+
+---
+
+**activation status:** Conditional; not automatically activated by source-system strain
+
+### buffers
+
+- Rotating staples
+- Existing producers
+- Multiple-season planting
+- Nutrient testing
+
+**confirm:** Gap between stressed consumption and dated harvest/delivery persists
+
+**dependent system:** food_assistance
+
+**falsify:** Protected stocks and reliable deliveries bridge all essential nutrition to harvest
+
+**from:** agriculture
+
+**id:** EDGE25
+
+**initiating stress:** Food procurement buffer weakens before replacement harvest
+
+**mechanism:** Planting can expand food supply but cannot fill the interval before harvest or supply all nutrition from quick vegetables.
+
+**Sources:** [RC4A03: UC Statewide IPM](https://ipm.ucanr.edu/home-and-landscape/cultural-tips-for-growing-tomato/), [RC4A04: UC Statewide IPM](https://ipm.ucanr.edu/home-and-landscape/cultural-tips-for-growing-radish/), [RC4A05: UC ANR Solution Center for Nutrient Management](https://ucanr.edu/site/solution-center-nutrient-management/nitrogen-organic-sources), [RC4X01: USDA Food Safety and Inspection Service](https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/shelf-stable-food)
+
+### substitutes
+
+- Seasonal crop diversity
+- Storage crops
+- Interregional exchange
+
+### thresholds
+
+- Projected accessible food cover ends before usable harvest and confirmed deliveries
+
+**time horizon:** Weeks for some vegetables; longer for substantial replacement production
+
+**to:** food_assistance
+
+**uncertainty:** Yield, land, water, season, nutrition and labor unmeasured for any proposed site
+
+
+---
+
+**activation status:** Conditional; not automatically activated by source-system strain
+
+### buffers
+
+- Accessible product stocks
+- Confirmed replacement cargo
+- Regional swaps
+- Compatible refinery feed and output
+
+**confirm:** Named region/product shows low deliverable cover plus confirmed late cargo or rationed essential service
+
+**dependent system:** diesel
+
+**falsify:** Timely arrivals, stock rebuilding, swaps or reduced nonessential demand preserve essential service
+
+**from:** trade
+
+**id:** EDGE26
+
+**initiating stress:** Product cargo arrival delay exceeds accessible buffer
+
+**mechanism:** Shipping disruption transmits to physical fuel service when compatible local stock and feasible refining or rerouting cannot bridge the delay.
+
+**Sources:** [RC4F01: U.S. Energy Information Administration](https://www.eia.gov/petroleum/supply/weekly/pdf/wpsrall.pdf), [RC4F03: International Energy Agency](https://www.iea.org/reports/oil-market-report-september-2026), [RC4F05: Japan Ministry of Finance / Customs and Tariff Bureau](https://www.customs.go.jp/toukei/shinbun/trade-st_e/2026/2026084e.pdf)
+
+### substitutes
+
+- Safe demand deferral
+- Compatible rail or electric service
+- Alternate product origins
+
+### thresholds
+
+- Usable stock after protected floor falls below demand before confirmed arrival; crude is not counted as ready diesel
+
+**time horizon:** Days to weeks for buffers and voyages; expansion longer
+
+**to:** diesel
+
+**uncertainty:** No matched East Asian voyage-time, terminal stock and demand series established
 
 **priority rule:** Consequential interaction + independent evidence + actionable response; no opaque score
 

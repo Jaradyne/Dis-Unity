@@ -1,0 +1,15 @@
+{
+  "at": "2026-09-22T05:24:52.403292+00:00",
+  "cycle_id": "RC-004",
+  "event_id": "e38e69876c5716f56842ed68",
+  "event_type": "agent_submission",
+  "hash": "53728e6c8f5a88e917d7aca2fe003f0bf79b56121b68cdd9dc7c6c2b7f3f3a2b",
+  "payload": {
+    "agent": "food_horizons",
+    "payload_hash": "c8e5fdeda4b829e320e8db99bc05f96f52488b7737e29ae7c37af38fc5313bd9",
+    "phase": "submitted",
+    "submission_id": "fbeba5aa685926ac11c42eb03b8778318161b352da2fab97dee9f0cc4832d67b"
+  },
+  "previous_hash": "92ea71eecc70698c3b11a3e774d53d2996ba006ef74dec0ddf190b9e281c2d5e",
+  "sequence": 5
+}

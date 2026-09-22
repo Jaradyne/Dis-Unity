@@ -8,35 +8,43 @@ Start with the [executive briefing](Resilience_Cascade_Briefing.md), [commons pr
 
 ## Current deployment
 
-Research cycle **RC-003** was completed on **21 September 2026**, with a **21 September evidence cutoff**. It contains 42 signals, 21 dependency links, nine clusters and 77 source records, including explicitly logged gaps. Ten readable state sections are generated from one canonical JSON file. A cutoff is not a claim that every domain was refreshed that day.
+Research cycle **RC-004** was completed on **22 September 2026**, with an empirical evidence cutoff of **21 September**. It contains **52 signals, 26 conditional links, nine clusters and 109 source records**, including one separately labelled user-supplied design input. Ten readable state sections are generated from one canonical JSON file. Counts measure recorded work, not severity or independent confirmations. The [complete RC-003 inventory](reports/RC-004/RC003_INVENTORY.md) explains the earlier 42/21/77 totals.
 
-Four specialist threads completed focused research on nutrients, maritime networks, food/electrification and durable commons. A Bayer specialist saved only an initial checkpoint; the coordinator completed a bounded evidence watch. Three claims received independent source checks. Closing review covered seven new edges and four reserve records, with nutrient-input authorship limiting independence. Final admission is coordinator acceptance with limitations, not a whole-state independent pass. See the [review record](reports/RC-003/REVIEW.md).
+Six bounded specialist threads examined fuel, rail, sulfur, food/soil, commons access and maritime response. Five saved complete packets; the coordinator recovered the rail specialist's delivered findings and preserved its original initial checkpoint. A separate reviewer checked new integration and source mapping; this was not independent replication of every source. Final admission is coordinator acceptance with limitations. See the [review record](reports/RC-004/REVIEW.md).
 
-The new work tests whether a fallback shrinks under the same shock that creates demand for it. Food assistance, public-space opening hours, electricity imports and fuel backup all receive this test. Diesel replacement is the first structured transition case, with new dependencies and useful coproducts tracked. Sulfur/phosphate processing, Venezuela conversion gates and regional piracy evidence are distinguished from available rescue capacity. Improving maritime reports remain alongside specific hijackings and input constraints.
+Every reserve now distinguishes shelf life, turnover, accessible service cover, activation, replenishment and replacement. Fuel stocks and Japan's import counterevidence sit alongside price and physical-flow stress. Exact current diesel futures settlements, locomotive counts, local stock cover and exportable donor reserves remain unknown.
+
+The supplied **15 Years Til Utopia** is incorporated as [a commons growth direction](ideas/COMMONS_GROWTH_PATH.md), with a [page-labelled source transcription](ideas/15_YEARS_TIL_UTOPIA_SOURCE.md). Begin with modifiable space and useful presence; grow tools, learning, food, essential services and reciprocal networks. The concept's technology and income aspirations are not treated as proven operating capacity. This design intake occurred on September 22 and does not silently extend the empirical cutoff.
 
 ## Operation
 
-The multi-agent research runs during active assistant sessions. The Python utilities preserve, validate and commit that work; they do not launch models, browse autonomously or run a scheduled digest. Git provides durable history and reviewable differences, not background execution.
+The multi-agent research runs during active assistant sessions. The cycle utilities preserve, validate and admit that work. A separately merged `scripts/worker.py` can produce one attributed checkpoint using a deterministic mock or an explicitly invoked provider. It does not browse, send mail, edit canonical state, commit Git or recursively spawn agents. **Real Gemini execution is paused** under the user's best-model-only policy until reviewed selection and prompt-retention safeguards are integrated; its existing Flash default is not approved. Mock verification remains available. No unattended research loop or scheduled digest is configured.
+
+Read [HANDOFF_FOR_CHAT_AIDEN.md](HANDOFF_FOR_CHAT_AIDEN.md) for the division of work: Chat prepares research, analysis, prompts, drafts and proposed patches; Work integrates and verifies consequential changes. [Retained Gemini prompt materials](handoffs/deferred_prompts/GEMINI_RESEARCH_PROMPTS.md) remain ready for a future eligible run. Git preserves shared history and contributions; it does not make an agent run merely because a role file exists.
 
 | Path | Purpose |
 | --- | --- |
 | `Resilience_Cascade_STATE.json` | Canonical shared state; coordinator is sole writer |
 | `state/` | Ten generated, source-linked views |
-| `inbox/RC-003/` | Attributed specialist checkpoints, including incomplete work |
-| `cycles/RC-003/` | Immutable baseline, submission snapshots, review, change audit and commit receipt |
-| `reports/RC-003/` | Food/replacement, commons, maritime, nutrient/network and review detail |
+| `inbox/RC-004/` | Attributed specialist checkpoints, including incomplete work |
+| `cycles/RC-004/` | Immutable baseline, submission snapshots, review, change audit and commit receipt |
+| `reports/RC-004/` | Fuel, rail, food/soil, sulfur, maritime, commons, proposed emails and review detail |
 | `scripts/cycle.py` | Begin, checkpoint, review, commit and resume a cycle |
 | `scripts/validate_state.py` | Required fields, graph references, source references and date checks |
 | `scripts/render_state.py` | Regenerate the readable views |
 | `tests/test_cycle.py` | Data-loss and evidence-admission boundary tests |
 | `AGENTS.md` | Instructions for continuing research and maintaining the repository |
+| `HANDOFF_FOR_CHAT_AIDEN.md` | Chat preparation queue, contribution rules and best-Gemini-only policy |
+| `WORK_AIDEN_HANDOFF.md` | Received runtime/geography handoff with current integration note |
+| `agents/` | Declarative roles, geography coordination and shared thinking mailbox |
+| `scripts/worker.py` | One-checkpoint external-worker prototype; Gemini paused, mock available |
 | `reports/RC-002/WORKFLOW.md` | Commands, recovery procedure and implementation limits |
 
 Requires Python 3.9 or later and its standard library. The completed verification used Linux. Windows locking support is included but has not been exercised on Windows.
 
 ```bash
 python scripts/validate_state.py Resilience_Cascade_STATE.json
-python scripts/cycle.py status RC-003
+python scripts/cycle.py status RC-004
 python -m unittest discover -s tests -v
 ```
 
@@ -58,7 +66,7 @@ Social analysis separates rhetoric, organization, capacity, behavior and violenc
 
 Context is nested across San Francisco, the Bay Area, California, the United States, North America, the Caribbean, relevant European/NATO and Commonwealth-linked networks, and major resource/trade nodes. Coverage is deliberately uneven and gaps are recorded. Pajaro Valley is treated as a neighboring California context, not silently included in the nine-county Bay Area.
 
-Public, lawful, nonintrusive sources only. No private account data, outbound contacts, resource commitments or facility targeting are part of this deployment. Commons cards are proposals unless an operational status is explicitly verified.
+Public, lawful, nonintrusive research plus a user-supplied concept explicitly authorized for Git incorporation. No private account data, outbound contacts, resource commitments or facility targeting are part of this deployment. Commons cards are proposals unless an operational status is explicitly verified.
 
 ## License
 

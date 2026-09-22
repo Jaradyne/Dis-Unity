@@ -1,0 +1,63 @@
+{
+  "agent": "coordinator_rail_recovery",
+  "attribution": "Rail specialist delivered a final source packet but saved only its initial checkpoint. Coordinator preserved its delivered findings and reopened the sources; this is not a second independent research pass.",
+  "cutoff": "2026-09-21",
+  "cycle_id": "RC-004",
+  "findings": [
+    "Diesel-electric traction already uses electric motors; the change is the energy source and its supporting infrastructure, not simply exchanging the traction motor.",
+    "Caltrain provides a completed corridor example: construction July 2017, full electric passenger service September 2024, excluding earlier planning.",
+    "Existing compatible rail can conserve diesel before electrification, subject to paths, terminals, crews and last-mile capacity.",
+    "A current national diesel/electric fleet split was not verified; no exact count is admitted."
+  ],
+  "limitations": [
+    "No route capacity audit, fleet procurement schedule or current national fuel-type census.",
+    "Conversion duration for any particular yard, branch or mainline remains project-specific."
+  ],
+  "sources": [
+    {
+      "grade": "A",
+      "id": "RC4R01",
+      "limitations": "SF–San Jose passenger corridor; diesel freight and southern connector remain. Not a national fleet count.",
+      "observation_period": "September 2024 passenger service launch",
+      "publication_date": "2024-09-21",
+      "publisher": "Caltrain",
+      "retrieved_at": "2026-09-21",
+      "title": "Caltrain Commences Fully Electrified Service",
+      "url": "https://www.caltrain.com/news/caltrain-commences-fully-electrified-service"
+    },
+    {
+      "grade": "A",
+      "id": "RC4R02",
+      "limitations": "One corridor benchmark; planning preceded construction. Not a universal conversion schedule.",
+      "observation_period": "Construction began July 2017; service launch in 2024",
+      "publication_date": "2024-08-10",
+      "publisher": "California Governor",
+      "retrieved_at": "2026-09-21",
+      "title": "Governor Newsom and new High-Speed Rail CEO celebrate Caltrain electrification",
+      "url": "https://www.gov.ca.gov/2024/08/10/governor-newsom-and-new-high-speed-rail-ceo-celebrate-caltrains-electrification-as-key-part-of-high-speed-rail-plan/"
+    },
+    {
+      "grade": "B",
+      "id": "RC4R03",
+      "limitations": "Industry association estimate: freight rail averages 3–4 times truck fuel efficiency. Does not establish spare train paths, route-specific savings or independence from diesel.",
+      "observation_period": "Undated industry efficiency description retrieved September 2026",
+      "publication_date": null,
+      "publisher": "Association of American Railroads",
+      "retrieved_at": "2026-09-21",
+      "title": "Freight Rail and Climate Change",
+      "url": "https://www.aar.org/issue/freight-rail-climate-change/"
+    },
+    {
+      "grade": "A",
+      "id": "RC4R05",
+      "limitations": "Landing page read; workbook unavailable. No 2026 locomotive total or diesel/electric share admitted. Locomotive counts are not train movements.",
+      "observation_period": "Current landing page; linked table_01_32_072726.xlsx not retrieved",
+      "publication_date": null,
+      "publisher": "Bureau of Transportation Statistics",
+      "retrieved_at": "2026-09-21",
+      "title": "Class I Railroad Locomotive Fleet by Year Built",
+      "url": "https://www.bts.gov/content/class-i-railroad-locomotive-fleet-year-built"
+    }
+  ],
+  "status": "bounded_recovery_of_delivered_agent_findings"
+}

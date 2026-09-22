@@ -1,0 +1,15 @@
+{
+  "at": "2026-09-22T05:24:52.391679+00:00",
+  "cycle_id": "RC-004",
+  "event_id": "37bc3d1a6c294c82a4677746",
+  "event_type": "agent_submission",
+  "hash": "dddfec270e239f5889640502d4ce49cdf8d14db1eba1e28c3b10207c88f36109",
+  "payload": {
+    "agent": "coordinator_rail_recovery",
+    "payload_hash": "5abb6c992a94125ea0c0c070e35efe05d1299fba9d859c54089d540965d1aa8b",
+    "phase": "submitted",
+    "submission_id": "8dff0432ebb4d8d044a8478244ec4b67f635b259ab3ce2b96658a500ffd28f15"
+  },
+  "previous_hash": "d5bce5426636cd1c9d9e1648b07631d4f2a001b77f3ba3618f31e4345ca853a8",
+  "sequence": 3
+}

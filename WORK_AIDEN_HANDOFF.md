@@ -1,5 +1,7 @@
 # Work Aiden handoff
 
+**22 September integration note:** this received handoff is preserved below as historical context. RC-004 is now the latest committed research cycle; see `COMMON_STATE.md`. Work's return delegation, staging rules and the user's best-Gemini-only/no-fallback policy are in `HANDOFF_FOR_CHAT_AIDEN.md`. Real Gemini use is paused until that policy and prompt-retention safeguards are integrated. The original RC-003 statement below predates the merge.
+
 Read `AGENTS.md`, `COMMON_STATE.md`, `agents/README.md`, `agents/AGENT_TEMPLATE.yaml` and `agents/ALCHEMICAL_MAILBOX.md` before extending the runtime.
 
 ## Current architecture

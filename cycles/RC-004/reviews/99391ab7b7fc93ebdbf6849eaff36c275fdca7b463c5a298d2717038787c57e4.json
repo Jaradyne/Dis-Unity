@@ -1,0 +1,403 @@
+{
+  "at": "2026-09-22T05:24:52.460490+00:00",
+  "audit": {
+    "changed_paths": [
+      "ACTIVE_SIGNALS",
+      "CASCADE_GRAPH.edges",
+      "CHANGELOG",
+      "COMMUNITY_COMMONS",
+      "ISLANDS_OF_STABILITY",
+      "QUESTIONS_TO_WATCH",
+      "RESERVES_AND_LIFEBOATS",
+      "SOURCE_LEDGER",
+      "SYSTEM_MAP.clusters",
+      "SYSTEM_MAP.growth_direction",
+      "SYSTEM_MAP.response_time_protocol",
+      "SYSTEM_MAP.systems",
+      "TRANSITION_OPPORTUNITIES",
+      "meta.access",
+      "meta.agent_run_history",
+      "meta.agent_runs",
+      "meta.baseline",
+      "meta.completed_on",
+      "meta.coverage_note",
+      "meta.cycle_id",
+      "meta.design_intake_date",
+      "meta.independent_review",
+      "meta.review_scope.closing_candidate_review",
+      "meta.review_scope.coordinator_checks",
+      "meta.review_scope.independent_checks",
+      "meta.review_scope.limitations",
+      "meta.role_coverage.Cascade Modeler",
+      "meta.role_coverage.Commons",
+      "meta.role_coverage.Economic / Industrial",
+      "meta.role_coverage.Energy & Diesel",
+      "meta.role_coverage.Food / Fertilizer / Agriculture",
+      "meta.role_coverage.Geographic Context",
+      "meta.role_coverage.Infrastructure",
+      "meta.role_coverage.Islands of Stability",
+      "meta.role_coverage.Resilience / Overflow",
+      "meta.role_coverage.Signal Intake",
+      "meta.role_coverage.Skeptic / Red-Team",
+      "meta.role_coverage.Social Temperature",
+      "meta.status"
+    ],
+    "changed_sections": [
+      "ACTIVE_SIGNALS",
+      "CASCADE_GRAPH",
+      "CHANGELOG",
+      "COMMUNITY_COMMONS",
+      "ISLANDS_OF_STABILITY",
+      "QUESTIONS_TO_WATCH",
+      "RESERVES_AND_LIFEBOATS",
+      "SOURCE_LEDGER",
+      "SYSTEM_MAP",
+      "TRANSITION_OPPORTUNITIES",
+      "meta"
+    ],
+    "note": "Diff records changes, not their truth or importance. Unkeyed list changes are reported at list level.",
+    "record_changes": {
+      "ACTIVE_SIGNALS": {
+        "added": [
+          "SIG43",
+          "SIG44",
+          "SIG45",
+          "SIG46",
+          "SIG47",
+          "SIG48",
+          "SIG49",
+          "SIG50",
+          "SIG51",
+          "SIG52"
+        ],
+        "changed": {
+          "SIG01": [
+            "last_reviewed_cycle",
+            "rc004_note"
+          ],
+          "SIG02": [
+            "last_reviewed_cycle",
+            "rc004_note"
+          ],
+          "SIG21": [
+            "last_reviewed_cycle",
+            "rc004_note"
+          ]
+        },
+        "removed": []
+      },
+      "CASCADE_GRAPH.edges": {
+        "added": [
+          "EDGE22",
+          "EDGE23",
+          "EDGE24",
+          "EDGE25",
+          "EDGE26"
+        ],
+        "changed": {},
+        "removed": []
+      },
+      "COMMUNITY_COMMONS": {
+        "added": [
+          "COM11",
+          "COM12",
+          "COM13"
+        ],
+        "changed": {
+          "COM09": [
+            "first_steps",
+            "name",
+            "resources",
+            "source_ids",
+            "success_measure"
+          ]
+        },
+        "removed": []
+      },
+      "ISLANDS_OF_STABILITY": {
+        "added": [
+          "ISL10"
+        ],
+        "changed": {},
+        "removed": []
+      },
+      "QUESTIONS_TO_WATCH": {
+        "added": [
+          "Q23",
+          "Q24",
+          "Q25",
+          "Q26",
+          "Q27",
+          "Q28",
+          "Q29",
+          "Q30"
+        ],
+        "changed": {},
+        "removed": []
+      },
+      "RESERVES_AND_LIFEBOATS": {
+        "added": [
+          "RES19",
+          "RES20",
+          "RES21",
+          "RES22"
+        ],
+        "changed": {
+          "RES01": [
+            "limits",
+            "response_time",
+            "source_ids"
+          ],
+          "RES02": [
+            "response_time"
+          ],
+          "RES03": [
+            "response_time"
+          ],
+          "RES04": [
+            "response_time"
+          ],
+          "RES05": [
+            "response_time"
+          ],
+          "RES06": [
+            "response_time"
+          ],
+          "RES07": [
+            "response_time"
+          ],
+          "RES08": [
+            "response_time"
+          ],
+          "RES09": [
+            "response_time"
+          ],
+          "RES10": [
+            "response_time"
+          ],
+          "RES11": [
+            "response_time"
+          ],
+          "RES12": [
+            "response_time"
+          ],
+          "RES13": [
+            "response_time"
+          ],
+          "RES14": [
+            "response_time"
+          ],
+          "RES15": [
+            "response_time"
+          ],
+          "RES16": [
+            "response_time",
+            "source_ids"
+          ],
+          "RES17": [
+            "essential_function",
+            "limits",
+            "name",
+            "readiness",
+            "response_time"
+          ],
+          "RES18": [
+            "response_time"
+          ]
+        },
+        "removed": []
+      },
+      "SOURCE_LEDGER": {
+        "added": [
+          "RC4A01",
+          "RC4A02",
+          "RC4A03",
+          "RC4A04",
+          "RC4A05",
+          "RC4C01",
+          "RC4C02",
+          "RC4C03",
+          "RC4C04",
+          "RC4F01",
+          "RC4F03",
+          "RC4F04",
+          "RC4F05",
+          "RC4F06",
+          "RC4M03",
+          "RC4M04",
+          "RC4M05",
+          "RC4R01",
+          "RC4R02",
+          "RC4R03",
+          "RC4R05",
+          "RC4S02",
+          "RC4S03",
+          "RC4S04",
+          "RC4S05",
+          "RC4S06",
+          "RC4S07",
+          "RC4X01",
+          "RC4X02",
+          "RC4X03",
+          "RC4X04",
+          "VISION01"
+        ],
+        "changed": {
+          "MAR04": [
+            "last_verified_at",
+            "verification_history"
+          ],
+          "NUT03": [
+            "last_verified_at",
+            "verification_history"
+          ],
+          "SRC01": [
+            "last_verified_at",
+            "verification_history"
+          ]
+        },
+        "removed": []
+      },
+      "SYSTEM_MAP.clusters": {
+        "added": [],
+        "changed": {
+          "CL01": [
+            "buffers",
+            "independence",
+            "signal_ids",
+            "source_ids",
+            "transition_ids"
+          ],
+          "CL03": [
+            "buffers",
+            "commons_ids",
+            "outside_reserve",
+            "signal_ids",
+            "source_ids"
+          ],
+          "CL04": [
+            "commons_ids",
+            "signal_ids",
+            "source_ids",
+            "transition_ids"
+          ],
+          "CL07": [
+            "buffers",
+            "commons_ids",
+            "lifeboats",
+            "signal_ids",
+            "source_ids",
+            "transition_ids"
+          ],
+          "CL08": [
+            "buffers",
+            "signal_ids",
+            "source_ids",
+            "transition_ids"
+          ],
+          "CL09": [
+            "signal_ids",
+            "source_ids",
+            "status"
+          ]
+        },
+        "removed": []
+      },
+      "SYSTEM_MAP.systems": {
+        "added": [
+          "rail"
+        ],
+        "changed": {
+          "commons": [
+            "gauges.CONFIDENCE",
+            "gauges.GROWTH",
+            "gauges.LIFEBOAT",
+            "label",
+            "source_ids"
+          ]
+        },
+        "removed": []
+      },
+      "TRANSITION_OPPORTUNITIES": {
+        "added": [
+          "TR13",
+          "TR14",
+          "TR15",
+          "TR16"
+        ],
+        "changed": {},
+        "removed": []
+      }
+    },
+    "source_changes": {
+      "added": [
+        "RC4A01",
+        "RC4A02",
+        "RC4A03",
+        "RC4A04",
+        "RC4A05",
+        "RC4C01",
+        "RC4C02",
+        "RC4C03",
+        "RC4C04",
+        "RC4F01",
+        "RC4F03",
+        "RC4F04",
+        "RC4F05",
+        "RC4F06",
+        "RC4M03",
+        "RC4M04",
+        "RC4M05",
+        "RC4R01",
+        "RC4R02",
+        "RC4R03",
+        "RC4R05",
+        "RC4S02",
+        "RC4S03",
+        "RC4S04",
+        "RC4S05",
+        "RC4S06",
+        "RC4S07",
+        "RC4X01",
+        "RC4X02",
+        "RC4X03",
+        "RC4X04",
+        "VISION01"
+      ],
+      "changed": {
+        "MAR04": [
+          "last_verified_at",
+          "verification_history"
+        ],
+        "NUT03": [
+          "last_verified_at",
+          "verification_history"
+        ],
+        "SRC01": [
+          "last_verified_at",
+          "verification_history"
+        ]
+      },
+      "removed": []
+    }
+  },
+  "base_hash": "37a9b216e47bbc98ca4ebceb64e38ce3d530d537ea557d82374d243101c0bc33",
+  "candidate_hash": "16d04f8bb35a588caca60517f90a11944cfbafac7951402d059a6d6131de97b7",
+  "cycle_id": "RC-004",
+  "decision": "accepted_with_limitations",
+  "evidence": [
+    "inbox/RC-004/independent_review.json",
+    "reports/RC-004/INDEPENDENT_REVIEW.md"
+  ],
+  "independence_note": "Role is a reviewer declaration, not authentication or automatic evidence verification.",
+  "limitations": [
+    "Integration/source-mapping review only; no independent replication of external sources or whole-state audit.",
+    "Local usable stock, donor surplus, site endurance, current rail split and current diesel futures settlements remain unknown."
+  ],
+  "materiality": "material",
+  "note": "Separate reviewer checked new signals, edges, reserve clocks and commons vision integration; all four nonblocking suggestions resolved. See attributed reviewer report and final candidate hash.",
+  "review_id": "99391ab7b7fc93ebdbf6849eaff36c275fdca7b463c5a298d2717038787c57e4",
+  "review_status": "independent_accepted_with_limitations",
+  "reviewer": "independent_review",
+  "role": "independent"
+}

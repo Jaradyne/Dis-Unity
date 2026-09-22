@@ -1,0 +1,15 @@
+{
+  "at": "2026-09-22T05:24:52.415740+00:00",
+  "cycle_id": "RC-004",
+  "event_id": "70282f0357936f69a6786a5e",
+  "event_type": "agent_submission",
+  "hash": "803c0162a27fa3b93a6ab2c6028ea6af2ab567e0e0b7f9234f30aaae581808f0",
+  "payload": {
+    "agent": "independent_review",
+    "payload_hash": "7f8cd495ba29a6bbbcb7aad91738f5af0b193b87312423a067cc2e98a40d11dd",
+    "phase": "submitted",
+    "submission_id": "030a8f3b7a218dd628692632f9c78755b1f4092b55c2b3aaa25b4bb4e028d185"
+  },
+  "previous_hash": "f0c36dcc18c734beaf3453da043fe5d5473d9ce2ac2c30dc4df0d36480395f47",
+  "sequence": 7
+}

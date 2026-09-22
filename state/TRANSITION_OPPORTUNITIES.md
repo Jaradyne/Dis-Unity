@@ -1,6 +1,6 @@
 # TRANSITION_OPPORTUNITIES
 
-Cycle RC-003; cutoff 2026-09-21.
+Cycle RC-004; cutoff 2026-09-21.
 
 **classification:** Managed shedding / creative transition
 
@@ -372,4 +372,128 @@ Cycle RC-003; cutoff 2026-09-21.
 **success observation:** Delivered essential nutrients preserved while unnecessary fuel demand contracts
 
 **time horizon:** Efficiency now; major industrial changes years
+
+
+---
+
+**classification:** Conditional creative transition
+
+**cluster id:** CL08
+
+**conversion requirements:** Paths, terminals, crews, last mile and usable energy supply
+
+**function to preserve:** Reliable essential freight and passenger service
+
+**growth candidate:** Compatible rail/intermodal links and selected electrified corridors
+
+**id:** TR13
+
+**name:** Conserve transport fuel before corridor conversion
+
+**released assets:** Road capacity and fuel only after actual modal substitution
+
+**risks:** Rail may share diesel shock; unsuitable transfers can add delay or handling
+
+**safe load release:** Avoidable road mileage, empty movements and suitable nonurgent trips
+
+**Sources:** [RC4R01: Caltrain](https://www.caltrain.com/news/caltrain-commences-fully-electrified-service), [RC4R02: California Governor](https://www.gov.ca.gov/2024/08/10/governor-newsom-and-new-high-speed-rail-ceo-celebrate-caltrains-electrification-as-key-part-of-high-speed-rail-plan/), [RC4R03: Association of American Railroads](https://www.aar.org/issue/freight-rail-climate-change/)
+
+**status:** Proposed; no procurement, partner commitment or verified donor surplus
+
+**success observation:** Lower total fuel per completed essential movement with adequate reserve
+
+**time horizon:** Operations can change before construction; major corridors years
+
+
+---
+
+**classification:** Conditional creative transition
+
+**cluster id:** CL07
+
+**conversion requirements:** Protected bridge stock, water, seed, soil testing, appropriate crops, labor and distribution
+
+**function to preserve:** Accessible nutrition despite reduced avoidable surplus
+
+**growth candidate:** Seasonal gardens, producer agreements, storage foods and nutrient-recycling loops
+
+**id:** TR14
+
+**name:** Bridge donation dependence with rotating nutrition and new production
+
+**released assets:** Recovered compost, adaptable growing space and logistics knowledge where actually available
+
+**risks:** Fast vegetables do not replace all calories/protein; common drought, energy or access failure
+
+**safe load release:** Avoidable food waste while preserving access to nutrition
+
+**Sources:** [RC4A01: City of Oakland](https://www.oaklandca.gov/My-Household/Waste-and-Recycling/Free-Compost), [RC4A03: UC Statewide IPM](https://ipm.ucanr.edu/home-and-landscape/cultural-tips-for-growing-tomato/), [RC4A04: UC Statewide IPM](https://ipm.ucanr.edu/home-and-landscape/cultural-tips-for-growing-radish/), [RC4A05: UC ANR Solution Center for Nutrient Management](https://ucanr.edu/site/solution-center-nutrient-management/nitrogen-organic-sources), [RC4X01: USDA Food Safety and Inspection Service](https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/shelf-stable-food)
+
+**status:** Proposed; no procurement, partner commitment or verified donor surplus
+
+**success observation:** Measured nutrition service survives declining surplus and spans planting-to-harvest gaps
+
+**time horizon:** Stock rotation now; weeks to first crops; seasons for a durable network
+
+
+---
+
+**classification:** Conditional creative transition
+
+**cluster id:** CL04
+
+**conversion requirements:** A modifiable place and people able to use it; durable control, staffing and engineered systems can develop in stages
+
+**function to preserve:** Useful inclusive presence and progressively stronger shared services
+
+**growth candidate:** Indoor, outdoor, encampment-led and mobile partner nodes
+
+**id:** TR15
+
+**name:** Grow commons from adaptable space
+
+**released assets:** Portable furniture, shade, tools, power and knowledge actually made available
+
+**risks:** Closure, exclusion, displacement, heat, water and sanitation limits; availability not established by a listed building
+
+**safe load release:** Unused or inaccessible space where conversion is lawful and does not displace existing users
+
+**Sources:** [RC4C04: Ava Community Energy](https://avaenergy.org/community/resilience-hubs/), [RC4C01: Oakland Community Land Trust](https://oakclt.org/about/people/), [RC4A01: City of Oakland](https://www.oaklandca.gov/My-Household/Waste-and-Recycling/Free-Compost)
+
+**status:** Proposed; no procurement, partner commitment or verified donor surplus
+
+**success observation:** People can use and modify the space; particular services gain demonstrable endurance over time
+
+**time horizon:** Small beginnings when space is available; upgrades as resources and use justify them
+
+
+---
+
+**classification:** Conditional creative transition
+
+**cluster id:** CL04
+
+**conversion requirements:** Useful shared activity; open learning; transparent budgets and maintenance reserves as money and assets accumulate
+
+**function to preserve:** Agency, social connection, usable tools and accessible essential services
+
+**growth candidate:** Repair networks, workshops, cultural gatherings and cooperatively controlled productive assets
+
+**id:** TR16
+
+**name:** Turn shared making and learning into enduring common capability
+
+**released assets:** Repairable equipment, skills and modifiable space actually offered
+
+**risks:** Unpaid labor exhaustion, inaccessible participation, optimistic revenue promises and dependence on unproved technology
+
+**safe load release:** Avoidable duplication and discarded repairable resources, when replacement does not shift harm
+
+**Sources:** [VISION01: User-supplied document developed with an earlier assistant](https://github.com/Jaradyne/Dis-Unity/blob/main/ideas/15_YEARS_TIL_UTOPIA_SOURCE.md)
+
+**status:** Proposed; no procurement, partner commitment or verified donor surplus
+
+**success observation:** Capabilities survive organizer absence; net resources support common access after maintenance and reserves
+
+**time horizon:** Small activities when people and space are available; expansion follows demonstrated use and resources
 

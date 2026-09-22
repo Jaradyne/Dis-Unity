@@ -1,0 +1,138 @@
+{
+  "agent": "commons_access",
+  "cycle_id": "RC-004",
+  "status": "completed_bounded_research_with_gaps",
+  "cutoff": "2026-09-21",
+  "report": "reports/RC-004/COMMONS_ACCESS.md",
+  "scope": "Commons access, OakCLT continuing public activity, microgrid verification boundaries",
+  "sources": [
+    {
+      "id": "RC4C01",
+      "title": "Staff & Board",
+      "publisher": "Oakland Community Land Trust",
+      "url": "https://oakclt.org/about/people/",
+      "publication_date": null,
+      "observation_period": "Page metadata updated 2026-08-28; current staff listing retrieved 2026-09-21",
+      "retrieved_at": "2026-09-21",
+      "grade": "A",
+      "limitations": "Operator-maintained staff and governance page; supports continuing public organizational presence, not independently audited finances, new acquisitions or available property.",
+      "web_ref": "turn574353view1"
+    },
+    {
+      "id": "RC4C02",
+      "title": "Home / latest blog listings",
+      "publisher": "Oakland Community Land Trust",
+      "url": "https://oakclt.org/",
+      "publication_date": null,
+      "observation_period": "Blog entries dated 2024-07-01 and 2025-03-22 visible on 2026-09-21",
+      "retrieved_at": "2026-09-21",
+      "grade": "A",
+      "limitations": "Homepage lists Two New OakCLT Homeownership Opportunities (July 2024) and a March 2025 memorial post. Shows later communications; does not establish homes remain available or quantify present production.",
+      "web_ref": "turn574353view0"
+    },
+    {
+      "id": "RC4C03",
+      "title": "California\u2019s First 100% Renewable Multi-Customer Microgrid is Now Operational",
+      "publisher": "PG&E Corporation",
+      "url": "https://investor.pgecorp.com/news-events/press-releases/press-release-details/2022/Collaborating-for-a-Clean-Energy-Future-Californias-First-100-Renewable-Multi-Customer-Microgrid-is-Now-Operational/default.aspx",
+      "publication_date": "2022",
+      "observation_period": "2022 operational announcement; search excerpt retrieved 2026-09-21",
+      "retrieved_at": "2026-09-21",
+      "grade": "B",
+      "limitations": "Primary utility search excerpt only; full page not opened in this bounded thread. Redwood Coast/Humboldt, not Bay Area or Oakland. Historical operation does not prove present usable public refuge capacity. Reopen before final citation/admission.",
+      "web_ref": "turn352247search14"
+    },
+    {
+      "id": "RC4C04",
+      "title": "Resilience Hubs Initiative",
+      "publisher": "Ava Community Energy",
+      "url": "https://avaenergy.org/community/resilience-hubs/",
+      "publication_date": null,
+      "observation_period": "Current program search excerpt retrieved 2026-09-21",
+      "retrieved_at": "2026-09-21",
+      "grade": "B",
+      "limitations": "Official program search excerpt only; describes feasibility/planning and installation incentives, not commissioned facilities or guaranteed eligibility. Reopen before final citation/admission.",
+      "web_ref": "turn291372search8"
+    }
+  ],
+  "findings": [
+    {
+      "id": "RC4CF01",
+      "epistemic_label": "FACT",
+      "claim": "OakCLT has public communications after the older Diamond in the Ruff partnership and a staff/governance page updated in August 2026. A quiet blog is insufficient evidence that it stopped operating. Current project throughput, finances and available commons space remain unverified.",
+      "source_ids": [
+        "RC4C01",
+        "RC4C02"
+      ],
+      "direction": "corrective",
+      "event_id": "OakCLT-public-continuity-2026-08-28"
+    },
+    {
+      "id": "RC4CF02",
+      "epistemic_label": "PLAUSIBLE MECHANISM",
+      "claim": "A physically functioning library or hub can lose usable access through pandemic closure, restrictive eligibility or conduct rules, reduced hours, or informal exclusion. These are distinct from electrical failure and must be tested separately; no new specific exclusionary law is asserted.",
+      "source_ids": [],
+      "threshold": "Rules or closure prevent intended participants obtaining essential service and alternatives cannot carry the load.",
+      "buffers": [
+        "Outdoor or differently governed partner node",
+        "Distributed supplies and communications",
+        "Accessible low-barrier routines",
+        "Participant-led governance"
+      ],
+      "confirm": "Documented exclusion or closure during actual need, including affected participant accounts and operating policy.",
+      "falsify": "Demonstrated access for intended users during the relevant event, with adequate alternate capacity.",
+      "uncertainty": "No specific new law or pandemic closure is claimed in September 2026."
+    },
+    {
+      "id": "RC4CF03",
+      "epistemic_label": "PLAUSIBLE MECHANISM",
+      "claim": "A commons may begin with modifiable space, seating/shade, light, water access, shared tools and relationships; formal ownership or a complete microgrid is not a prerequisite for usefulness. Additional rights, structures and energy can follow actual use.",
+      "source_ids": [],
+      "direction": "model_correction",
+      "event_id": "RC004-modifiable-space-first"
+    },
+    {
+      "id": "RC4CF04",
+      "epistemic_label": "UNKNOWN",
+      "claim": "This bounded thread did not verify a commissioned Oakland public resilience microgrid. A PG&E 2022 primary announcement is a strong lead for an operational North Coast counterexample to San Anselmo uniqueness; Ava currently advertises technical assistance and installation incentives. Neither establishes a particular Oakland hub is commissioned.",
+      "source_ids": [
+        "RC4C03",
+        "RC4C04"
+      ]
+    }
+  ],
+  "commons_growth_sequence": [
+    "Start with modifiable space and everyday comfortable presence; protect existing occupants and determine the actual access arrangement.",
+    "Add shade/rain cover, seating, lighting, sanitation/water access and storage as useful and feasible.",
+    "Share information, tools, small-scale growing and food distribution with neighboring nodes; avoid making one indispensable.",
+    "Add measured electrical loads and appropriate independent power when the service justifies it.",
+    "Pursue longer tenure or agreements when needed to protect what participants have built, without requiring institutional perfection at entry."
+  ],
+  "outdoor_node_failure_modes": [
+    "Weather exposure including heat, smoke, rain/flood",
+    "Loss of access or displacement",
+    "Water and sanitation interruption",
+    "Equipment security and replenishment",
+    "Shared route or funder failure with indoor node"
+  ],
+  "proposed_email": {
+    "status": "proposal_only_not_sent",
+    "recipient": "information@oakclt.org",
+    "recipient_basis": "Official OakCLT homepage and staff page",
+    "purpose": "Ask which current resident-led projects and partnerships are active, whether any modifiable community space or stewardship opportunities exist, and which public updates best reflect ongoing work. Do not imply a space request is already accepted."
+  },
+  "peer_exchange": [
+    {
+      "agent": "food_horizons",
+      "received": "Official Oakland free-compost pickup at Acta Non Verba West Oakland Farm Park, 2847 Peralta St.; Tuesday\u2013Friday 1\u20136, Saturday 10\u20132, first-come and may run out. Exact source and nutrients caveats remain with food_horizons.",
+      "sent": "Commons can begin with modifiable space. Outdoor partner node should differ in access gates but must account for heat/smoke/flood/water and avoid assuming park occupation rights."
+    }
+  ],
+  "unknowns": [
+    "No audited current OakCLT financial position or new acquisition total verified",
+    "No current Oakland hub commissioning proved in this thread",
+    "No site availability, partner consent or 24/7 permission established",
+    "Redwood Coast microgrid source must be reopened before final citation",
+    "No contact or outreach sent"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "at": "2026-09-22T05:24:52.433286+00:00",
+  "cycle_id": "RC-004",
+  "event_id": "5c3d916f239a08db9822aef7",
+  "event_type": "agent_submission",
+  "hash": "01f0188de8c8309a78e6d4325f427f9a5ef25f100468796da352d697250fb52c",
+  "payload": {
+    "agent": "sulfur_leadtime",
+    "payload_hash": "3e0742121a74a41284160f76fe24b51f693f0fff2d08cf26dc0a5ad2b07738e2",
+    "phase": "submitted",
+    "submission_id": "bbb7364485332cc0464582e40393cb0455a97ec234e0e7a6ce26e5f77d6420df"
+  },
+  "previous_hash": "9eecb586b821a4b4ad892618f39f7fe46fe93f9ddacdb4ecc8436e305cef2287",
+  "sequence": 10
+}

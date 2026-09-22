@@ -1,0 +1,15 @@
+{
+  "at": "2026-09-22T05:24:52.409299+00:00",
+  "cycle_id": "RC-004",
+  "event_id": "dfedb5ba4d63b574fc37367e",
+  "event_type": "agent_submission",
+  "hash": "f0c36dcc18c734beaf3453da043fe5d5473d9ce2ac2c30dc4df0d36480395f47",
+  "payload": {
+    "agent": "fuel_cover",
+    "payload_hash": "548f6d74581ee38c48d8dcd7955074003c921b767750c652c6a447070015e4cb",
+    "phase": "submitted",
+    "submission_id": "81052164481698af79c22954a596de2fb5b45bb69f9284fe4bce20b8b4513eaa"
+  },
+  "previous_hash": "53728e6c8f5a88e917d7aca2fe003f0bf79b56121b68cdd9dc7c6c2b7f3f3a2b",
+  "sequence": 6
+}

@@ -1,0 +1,21 @@
+{
+  "agent": "rail_transition",
+  "at": "2026-09-22T05:24:52.426877+00:00",
+  "base_hash": "37a9b216e47bbc98ca4ebceb64e38ce3d530d537ea557d82374d243101c0bc33",
+  "cycle_id": "RC-004",
+  "payload": {
+    "agent": "rail_transition",
+    "cutoff": "2026-09-21",
+    "cycle_id": "RC-004",
+    "findings": [],
+    "limitations": [
+      "Fresh-source access not yet tested."
+    ],
+    "scope": "US diesel/electric rail fleet denominators, conversion lead times, freight substitution buffers",
+    "sources": [],
+    "status": "started"
+  },
+  "payload_hash": "9bd77ba7f66c5ec1cf99233867c95f0cf51fd437010d95c4a1cf131fd7a6ace4",
+  "phase": "checkpoint",
+  "submission_id": "b935285e8e3791a6a6fd91c7cce35dcef39dbf49561d27d6533f9313454b2a25"
+}

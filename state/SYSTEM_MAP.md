@@ -1,6 +1,6 @@
 # SYSTEM_MAP
 
-Cycle RC-003; cutoff 2026-09-21.
+Cycle RC-004; cutoff 2026-09-21.
 
 ## classification rules
 
@@ -21,6 +21,8 @@ Cycle RC-003; cutoff 2026-09-21.
 - RES06
 - RES09
 - RES11
+- RES19
+- RES20
 
 ### commons ids
 
@@ -29,7 +31,7 @@ Cycle RC-003; cutoff 2026-09-21.
 
 **id:** CL01
 
-**independence:** EIA observations, USDA forecast and farmer/freight interviews are different evidence types; shared fuel shock is counted once. EIA regional stocks are components of the same national event. USDA availability is distinct, but duplicated lane rows are not independent evidence.
+**independence:** Existing retail/inventory observations were reconfirmed, not counted again. EIA, IEA and Japan Customs measure different periods/products; common oil shock is not multiplied by source count.
 
 **interaction:** Fuel is a common input; harvest windows limit shedding; carrier cash timing can propagate strain.
 
@@ -53,8 +55,10 @@ Cycle RC-003; cutoff 2026-09-21.
 - SIG21
 - SIG22
 - SIG23
+- SIG43
+- SIG44
 
-**Sources:** [SRC01: EIA](https://www.eia.gov/petroleum/gasdiesel/), [SRC02: EIA](https://ir.eia.gov/wpsr/wpsrsummary.pdf), [SRC05: USDA ERS](https://www.ers.usda.gov/topics/farm-economy/farm-sector-income-finances/farm-sector-income-forecast), [SRC24: Reuters](https://www.reuters.com/business/energy/record-us-diesel-prices-squeeze-farmers-food-prices-may-rise-2026-09-18/), [FF-S02: EIA](https://www.eia.gov/petroleum/supply/weekly/pdf/table6.pdf), [FF-S03: USDA AMS](https://agtransport.usda.gov/resource/25pi-t6xr.json), [FF-S04: USDA AMS](https://www.ams.usda.gov/sites/default/files/media/RTQ1stQuarter2026.pdf), [FF-S05: USDA AMS](https://www.ams.usda.gov/sites/default/files/media/GTR09172026.pdf)
+**Sources:** [SRC01: EIA](https://www.eia.gov/petroleum/gasdiesel/), [SRC02: EIA](https://ir.eia.gov/wpsr/wpsrsummary.pdf), [SRC05: USDA ERS](https://www.ers.usda.gov/topics/farm-economy/farm-sector-income-finances/farm-sector-income-forecast), [SRC24: Reuters](https://www.reuters.com/business/energy/record-us-diesel-prices-squeeze-farmers-food-prices-may-rise-2026-09-18/), [FF-S02: EIA](https://www.eia.gov/petroleum/supply/weekly/pdf/table6.pdf), [FF-S03: USDA AMS](https://agtransport.usda.gov/resource/25pi-t6xr.json), [FF-S04: USDA AMS](https://www.ams.usda.gov/sites/default/files/media/RTQ1stQuarter2026.pdf), [FF-S05: USDA AMS](https://www.ams.usda.gov/sites/default/files/media/GTR09172026.pdf), [RC4F01: U.S. Energy Information Administration](https://www.eia.gov/petroleum/supply/weekly/pdf/wpsrall.pdf), [RC4F03: International Energy Agency](https://www.iea.org/reports/oil-market-report-september-2026), [RC4F05: Japan Ministry of Finance / Customs and Tariff Bureau](https://www.customs.go.jp/toukei/shinbun/trade-st_e/2026/2026084e.pdf), [RC4R03: Association of American Railroads](https://www.aar.org/issue/freight-rail-climate-change/)
 
 **status:** Observed cost pressure plus selected produce-truck constraints; causality and downstream food-access failure unproven
 
@@ -63,6 +67,7 @@ Cycle RC-003; cutoff 2026-09-21.
 ### transition ids
 
 - TR01
+- TR13
 
 
 ---
@@ -115,11 +120,13 @@ Cycle RC-003; cutoff 2026-09-21.
 ### buffers
 
 - RES02
+- RES21
 
 ### commons ids
 
 - COM02
 - COM05
+- COM11
 
 **id:** CL03
 
@@ -134,6 +141,7 @@ Cycle RC-003; cutoff 2026-09-21.
 ### outside reserve
 
 - ISL01
+- ISL10
 
 ### signal ids
 
@@ -145,8 +153,11 @@ Cycle RC-003; cutoff 2026-09-21.
 - SIG37
 - SIG38
 - SIG41
+- SIG46
+- SIG47
+- SIG50
 
-**Sources:** [SRC07: Nutrien](https://www.nutrien.com/news/press-releases/nutrien-reports-second-quarter-2026-results-1753), [SRC05: USDA ERS](https://www.ers.usda.gov/topics/farm-economy/farm-sector-income-finances/farm-sector-income-forecast), [TRS01: CF Industries](https://ir.cfindustries.com/Investors/news/news-details/2026/CF-Industries-Holdings-Inc--Reports-First-Half-2026-Net-Earnings-of-1-34-Billion-Adjusted-EBITDA-of-2-18-Billion/default.aspx), [TRS02: The Mosaic Company](https://mosaicco.com/Article/Fertilizer-Markets-Facts-and-Context), [NUT02: U.S. EPA](https://www.epa.gov/sites/default/files/2020-09/documents/8.9_phosphoric_acid.pdf), [NUT03: U.S. EPA](https://www.epa.gov/sites/default/files/2020-09/documents/8.13_sulfur_recovery.pdf), [RC3C02: International Energy Agency](https://www.iea.org/reports/global-critical-minerals-outlook-2026/executive-summary)
+**Sources:** [SRC07: Nutrien](https://www.nutrien.com/news/press-releases/nutrien-reports-second-quarter-2026-results-1753), [SRC05: USDA ERS](https://www.ers.usda.gov/topics/farm-economy/farm-sector-income-finances/farm-sector-income-forecast), [TRS01: CF Industries](https://ir.cfindustries.com/Investors/news/news-details/2026/CF-Industries-Holdings-Inc--Reports-First-Half-2026-Net-Earnings-of-1-34-Billion-Adjusted-EBITDA-of-2-18-Billion/default.aspx), [TRS02: The Mosaic Company](https://mosaicco.com/Article/Fertilizer-Markets-Facts-and-Context), [NUT02: U.S. EPA](https://www.epa.gov/sites/default/files/2020-09/documents/8.9_phosphoric_acid.pdf), [NUT03: U.S. EPA](https://www.epa.gov/sites/default/files/2020-09/documents/8.13_sulfur_recovery.pdf), [RC3C02: International Energy Agency](https://www.iea.org/reports/global-critical-minerals-outlook-2026/executive-summary), [RC4S02: Saipem](https://www.saipem.com/en/saipem-worldwide-projects/shah-gas-plant), [RC4S03: Petrofac](https://www.petrofac.com/media/news/petrofac-wins-qatar-petroleum-contract-worth-more-than-us-600-million), [RC4S04: Equinor / Statoil archive](https://www.equinor.com/news/archive/2002/01/10/UpgradingSincorOil), [RC4S05: Sumitomo Metal Mining](https://www.smm.co.jp/en/ir/library/integrated_report/materialflow/), [RC4A05: UC ANR Solution Center for Nutrient Management](https://ucanr.edu/site/solution-center-nutrient-management/nitrogen-organic-sources)
 
 **status:** Producer-level physical curtailment corroborated; farm-order and yield cascade conditional
 
@@ -176,6 +187,8 @@ Cycle RC-003; cutoff 2026-09-21.
 - COM03
 - COM04
 - COM09
+- COM12
+- COM13
 
 **donor note:** Removed Europe/Caribbean as generic local utility rescue links. Re-add only with a specific compatible asset, route, current commitments and protected donor reserve.
 
@@ -205,8 +218,11 @@ Cycle RC-003; cutoff 2026-09-21.
 - SIG27
 - SIG34
 - SIG40
+- SIG48
+- SIG49
+- SIG52
 
-**Sources:** [SRC10: CAISO](https://www.caiso.com/documents/2026-summer-loads-and-resources-assessment.pdf), [SRC18: White House](https://www.whitehouse.gov/presidential-actions/2026/06/further-adjusting-the-tariff-regimes-for-imports-of-aluminum-steel-and-copper-into-the-united-states/), [SRC23: Reuters](https://www.reuters.com/business/energy/hitachi-invest-1-billion-produce-power-grid-components-us-2025-09-04/), [SRC26: EBMUD](https://www.ebmud.com/water/about-your-water/water-supply/water-supply-reports), [LC_SRC01: East Bay Municipal Utility District](https://www.ebmud.com/download_file/force/58167/703?WOD_-_Water_Supply_Update_-_April_14_2026_Final_Board.pdf=), [LC_SRC02: Town of San Anselmo](https://www.sananselmo.gov/1677/Town-Hall-Resilience-Hub), [DC09: City of Hayward](https://www.hayward-ca.gov/discover/news/jan26/library-hours-be-reduced-two-digital-streaming-resources-eliminated), [DC03: Oakland Community Land Trust](https://oakclt.org/portfolio-items/liberated23rdave/), [DC08: Oakland Community Land Trust](https://oakclt.org/what-is-a-community-land-trust/)
+**Sources:** [SRC10: CAISO](https://www.caiso.com/documents/2026-summer-loads-and-resources-assessment.pdf), [SRC18: White House](https://www.whitehouse.gov/presidential-actions/2026/06/further-adjusting-the-tariff-regimes-for-imports-of-aluminum-steel-and-copper-into-the-united-states/), [SRC23: Reuters](https://www.reuters.com/business/energy/hitachi-invest-1-billion-produce-power-grid-components-us-2025-09-04/), [SRC26: EBMUD](https://www.ebmud.com/water/about-your-water/water-supply/water-supply-reports), [LC_SRC01: East Bay Municipal Utility District](https://www.ebmud.com/download_file/force/58167/703?WOD_-_Water_Supply_Update_-_April_14_2026_Final_Board.pdf=), [LC_SRC02: Town of San Anselmo](https://www.sananselmo.gov/1677/Town-Hall-Resilience-Hub), [DC09: City of Hayward](https://www.hayward-ca.gov/discover/news/jan26/library-hours-be-reduced-two-digital-streaming-resources-eliminated), [DC03: Oakland Community Land Trust](https://oakclt.org/portfolio-items/liberated23rdave/), [DC08: Oakland Community Land Trust](https://oakclt.org/what-is-a-community-land-trust/), [RC4C01: Oakland Community Land Trust](https://oakclt.org/about/people/), [RC4C03: PG&E Corporation](https://investor.pgecorp.com/news-events/press-releases/press-release-details/2022/Collaborating-for-a-Clean-Energy-Future-Californias-First-100-Renewable-Multi-Customer-Microgrid-is-Now-Operational/default.aspx), [RC4C04: Ava Community Energy](https://avaenergy.org/community/resilience-hubs/)
 
 **status:** High-consequence scenario; current compound failure not established
 
@@ -217,6 +233,8 @@ Cycle RC-003; cutoff 2026-09-21.
 - TR04
 - TR05
 - TR11
+- TR15
+- TR16
 
 
 ---
@@ -314,11 +332,15 @@ Cycle RC-003; cutoff 2026-09-21.
 - RES06
 - RES15
 - RES16
+- RES21
+- RES22
 
 ### commons ids
 
 - COM08
 - COM02
+- COM11
+- COM12
 
 **id:** CL07
 
@@ -329,6 +351,7 @@ Cycle RC-003; cutoff 2026-09-21.
 ### lifeboats
 
 - RES16
+- RES22
 
 ### outside reserve
 
@@ -340,8 +363,11 @@ Cycle RC-003; cutoff 2026-09-21.
 - SIG32
 - SIG33
 - SIG42
+- SIG50
+- SIG51
+- SIG52
 
-**Sources:** [EFS01: Feeding America](https://www.feedingamerica.org/sites/default/files/2025-12/FA_25AnnReport_DIGITAL_final.pdf), [EFS02: Alameda County Community Food Bank](https://www.accfb.org/wp-content/uploads/2026/01/ACCFB-2025-Audit-FS.pdf), [EFS03: Alameda County Community Food Bank](https://www.accfb.org/annual-report-2025/), [EFS07: U.S. Department of Agriculture, Agricultural Marketing Service](https://www.ams.usda.gov/selling-food)
+**Sources:** [EFS01: Feeding America](https://www.feedingamerica.org/sites/default/files/2025-12/FA_25AnnReport_DIGITAL_final.pdf), [EFS02: Alameda County Community Food Bank](https://www.accfb.org/wp-content/uploads/2026/01/ACCFB-2025-Audit-FS.pdf), [EFS03: Alameda County Community Food Bank](https://www.accfb.org/annual-report-2025/), [EFS07: U.S. Department of Agriculture, Agricultural Marketing Service](https://www.ams.usda.gov/selling-food), [RC4X01: USDA Food Safety and Inspection Service](https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/shelf-stable-food), [RC4A01: City of Oakland](https://www.oaklandca.gov/My-Household/Waste-and-Recycling/Free-Compost), [RC4A03: UC Statewide IPM](https://ipm.ucanr.edu/home-and-landscape/cultural-tips-for-growing-tomato/), [RC4A04: UC Statewide IPM](https://ipm.ucanr.edu/home-and-landscape/cultural-tips-for-growing-radish/), [RC4A05: UC ANR Solution Center for Nutrient Management](https://ucanr.edu/site/solution-center-nutrient-management/nitrogen-organic-sources)
 
 **status:** Conditional stress scenario with operating procurement counterevidence; no famine inferred
 
@@ -350,6 +376,7 @@ Cycle RC-003; cutoff 2026-09-21.
 ### transition ids
 
 - TR10
+- TR14
 
 
 ---
@@ -359,6 +386,7 @@ Cycle RC-003; cutoff 2026-09-21.
 - RES01
 - RES10
 - RES18
+- RES20
 
 ### commons ids
 
@@ -383,8 +411,9 @@ Cycle RC-003; cutoff 2026-09-21.
 
 - SIG39
 - SIG41
+- SIG45
 
-**Sources:** [EFS04: U.S. Department of Energy, Alternative Fuels Data Center](https://afdc.energy.gov/vehicles/electric-fleets), [EFS05: U.S. Department of Energy, Alternative Fuels Data Center](https://afdc.energy.gov/vehicles/electric-conversions), [EFS06: U.S. Department of Energy, Alternative Fuels Data Center](https://afdc.energy.gov/fuels/electricity-infrastructure-development), [EFS08: U.S. Department of Energy, Alternative Fuels Data Center](https://afdc.energy.gov/case/3069), [RC3C02: International Energy Agency](https://www.iea.org/reports/global-critical-minerals-outlook-2026/executive-summary), [RC3C03: International Energy Agency](https://www.iea.org/reports/global-critical-minerals-outlook-2025/executive-summary)
+**Sources:** [EFS04: U.S. Department of Energy, Alternative Fuels Data Center](https://afdc.energy.gov/vehicles/electric-fleets), [EFS05: U.S. Department of Energy, Alternative Fuels Data Center](https://afdc.energy.gov/vehicles/electric-conversions), [EFS06: U.S. Department of Energy, Alternative Fuels Data Center](https://afdc.energy.gov/fuels/electricity-infrastructure-development), [EFS08: U.S. Department of Energy, Alternative Fuels Data Center](https://afdc.energy.gov/case/3069), [RC3C02: International Energy Agency](https://www.iea.org/reports/global-critical-minerals-outlook-2026/executive-summary), [RC3C03: International Energy Agency](https://www.iea.org/reports/global-critical-minerals-outlook-2025/executive-summary), [RC4R01: Caltrain](https://www.caltrain.com/news/caltrain-commences-fully-electrified-service), [RC4R02: California Governor](https://www.gov.ca.gov/2024/08/10/governor-newsom-and-new-high-speed-rail-ceo-celebrate-caltrains-electrification-as-key-part-of-high-speed-rail-plan/), [RC4R03: Association of American Railroads](https://www.aar.org/issue/freight-rail-climate-change/)
 
 **status:** Transition case; no named electric fleet failure established
 
@@ -393,6 +422,7 @@ Cycle RC-003; cutoff 2026-09-21.
 ### transition ids
 
 - TR09
+- TR13
 
 
 ---
@@ -429,10 +459,12 @@ Cycle RC-003; cutoff 2026-09-21.
 - SIG36
 - SIG37
 - SIG38
+- SIG43
+- SIG44
 
-**Sources:** [MAR01: ICC International Maritime Bureau](https://icc-ccs.org/lowest-first-quarter-maritime-piracy-and-armed-robbery-figures-since-1991-but-vigilance-remains-essential-2/), [MAR02: ReCAAP ISC](https://www.recaap.org/resources/ck/files/news/2026/Press%20release%20-%20ReCAAP%20ISC%20Half%20Year%20Report%20(Jan%20-%20Jun%202026)%20-%20final.pdf), [MAR04: EUNAVFOR ATALANTA](https://eunavfor.eu/news/resolution-piracy-incident-gulf-aden), [MAR05: EUNAVFOR ATALANTA](https://eunavfor.eu/news/update-ongoing-piracy-incidents-northern-coast-somalia), [MAR07: ICC International Maritime Bureau](https://icc-ccs.org/piracy-and-armed-robbery-prone-areas-and-warnings/), [NUT05: U.S. Treasury OFAC](https://ofac.treasury.gov/media/936926/download?inline=), [RC3C02: International Energy Agency](https://www.iea.org/reports/global-critical-minerals-outlook-2026/executive-summary)
+**Sources:** [MAR01: ICC International Maritime Bureau](https://icc-ccs.org/lowest-first-quarter-maritime-piracy-and-armed-robbery-figures-since-1991-but-vigilance-remains-essential-2/), [MAR02: ReCAAP ISC](https://www.recaap.org/resources/ck/files/news/2026/Press%20release%20-%20ReCAAP%20ISC%20Half%20Year%20Report%20(Jan%20-%20Jun%202026)%20-%20final.pdf), [MAR04: EUNAVFOR ATALANTA](https://eunavfor.eu/news/resolution-piracy-incident-gulf-aden), [MAR05: EUNAVFOR ATALANTA](https://eunavfor.eu/news/update-ongoing-piracy-incidents-northern-coast-somalia), [MAR07: ICC International Maritime Bureau](https://icc-ccs.org/piracy-and-armed-robbery-prone-areas-and-warnings/), [NUT05: U.S. Treasury OFAC](https://ofac.treasury.gov/media/936926/download?inline=), [RC3C02: International Energy Agency](https://www.iea.org/reports/global-critical-minerals-outlook-2026/executive-summary), [RC4M05: Combined Maritime Forces](https://combinedmaritimeforces.com/2026/09/11/combined-task-force-151-leads-response-to-piracy-attack-in-gulf-of-aden/), [RC4F03: International Energy Agency](https://www.iea.org/reports/oil-market-report-september-2026), [RC4F05: Japan Ministry of Finance / Customs and Tariff Bureau](https://www.customs.go.jp/toukei/shinbun/trade-st_e/2026/2026084e.pdf)
 
-**status:** Specific cargo interruption and dated acid stress; California cascading impact unverified
+**status:** September incident response and product-flow constraints documented; no verified piracy-fleet diversion, uniform Arabian Peninsula blockade or whole-East-Asia import decline
 
 **title:** Maritime routes and nutrient deliverability
 
@@ -797,6 +829,33 @@ Cycle RC-003; cutoff 2026-09-21.
 
 **trade and infrastructure dependencies:** Clinical labor, operating reimbursement, equipment servicing and accessible transport
 
+## growth direction
+
+**beginning:** Modifiable space plus people able to use it; useful presence and comfort can precede formal facilities.
+
+**boundary:** Historical technology, income, surveillance and exclusion proposals are not adopted operating assumptions; see source limitations and growth document.
+
+**document:** ideas/COMMONS_GROWTH_PATH.md
+
+### growth
+
+- Tools and open learning
+- Seasonal food and nutrient circulation
+- Defined essential services
+- Productive shared assets and protected funds
+- Reciprocal networks of places
+- Long-horizon experiments
+
+**measurement:** Demonstrated useful service, accessible participation and maintainable capability; no public worth score for individuals.
+
+**name:** Commons growth informed by 15 Years Til Utopia
+
+**purpose:** Preserve essential function while increasing agency, learning, beauty, voluntary participation and shared prosperity.
+
+**Sources:** [VISION01: User-supplied document developed with an earlier assistant](https://github.com/Jaradyne/Dis-Unity/blob/main/ideas/15_YEARS_TIL_UTOPIA_SOURCE.md)
+
+**status:** Proposed direction; no new institution, site or promised timeline
+
 ## replacement protocol
 
 **definition:** A technology/institution can decline beneficially if its essential function is preserved and new dependencies are supportable.
@@ -816,6 +875,31 @@ Cycle RC-003; cutoff 2026-09-21.
 - Reversal/fallback conditions
 
 **success rule:** Verified essential service with lower avoidable load and adequate reserves; no simple green/red technology label
+
+## response time protocol
+
+**cover rule:** For positive net depletion, cover = compatible accessible usable quantity above protected floor / (stressed use rate - dependable accessible inflow rate), with matching units and service boundaries. If the denominator is zero or negative, do not claim infinite security: test inflow interruption and shared failures.
+
+**donor rule:** Protect donor essential demand and contingency floor; ownership, geographic delivery, grade and time determine whether a reserve can actually help.
+
+**handoff rule:** Next capacity must be usable before the preceding bridge reaches its protected floor; include commissioning, transport and learning time.
+
+**national ratio caution:** 107.9 million barrels / 3.602 million barrels per day is approximately 30 days of gross US distillate stocks relative to recent domestic products supplied. It excludes continuing flows and many constraints; it is not a local endurance estimate or run-out forecast.
+
+**purpose:** Match response networks by the time they can actually cover, then overlap bridges before any protected floor is crossed.
+
+### separate clocks
+
+- Physical shelf life or equipment life
+- Inventory turnover
+- Usable accessible stock cover
+- Activation time
+- Replenishment arrival time
+- Replacement production or construction lead time
+
+**service limit:** Food, water, power, labor, inclusion/access, route and compatible equipment can each end useful service before stock runs out.
+
+**unknown policy:** Unmeasured quantity, access or demand remains unknown; institution count and budget are not service-days.
 
 ## social lanes
 
@@ -1398,13 +1482,13 @@ Cycle RC-003; cutoff 2026-09-21.
 
 ### gauges
 
-**CONFIDENCE:** Strong named-node evidence; unknown available property and endurance
+**CONFIDENCE:** Named programs and access points verified; available space, inclusion and emergency endurance remain unverified
 
 **DEPENDENCY:** Information, thermal refuge, tools, food coordination and local ties
 
-**GROWTH:** Land stewardship and funded public-community operation
+**GROWTH:** Begin with modifiable space, useful presence and portable amenities; durable control and engineered services can grow later
 
-**LIFEBOAT:** Proposed one-room essential service plus a differently exposed partner
+**LIFEBOAT:** Indoor/outdoor/mobile partner nodes with different access failures; actual service endurance remains unmeasured
 
 **LOAD:** Ordinary and emergency access needs; utilization unmeasured
 
@@ -1422,7 +1506,40 @@ Cycle RC-003; cutoff 2026-09-21.
 
 **id:** commons
 
-**label:** Durably controlled community service spaces
+**label:** Adaptable community spaces and access networks
 
-**Sources:** [DC03: Oakland Community Land Trust](https://oakclt.org/portfolio-items/liberated23rdave/), [DC08: Oakland Community Land Trust](https://oakclt.org/what-is-a-community-land-trust/), [DC09: City of Hayward](https://www.hayward-ca.gov/discover/news/jan26/library-hours-be-reduced-two-digital-streaming-resources-eliminated), [DC05: City of Hayward](https://www.hayward-ca.gov/public-library/using-library/locations-hours), [DC07: City of San Leandro](https://www.sanleandro.org/162/Public-Library), [LC_SRC02: Town of San Anselmo](https://www.sananselmo.gov/1677/Town-Hall-Resilience-Hub)
+**Sources:** [DC03: Oakland Community Land Trust](https://oakclt.org/portfolio-items/liberated23rdave/), [DC08: Oakland Community Land Trust](https://oakclt.org/what-is-a-community-land-trust/), [DC09: City of Hayward](https://www.hayward-ca.gov/discover/news/jan26/library-hours-be-reduced-two-digital-streaming-resources-eliminated), [DC05: City of Hayward](https://www.hayward-ca.gov/public-library/using-library/locations-hours), [DC07: City of San Leandro](https://www.sanleandro.org/162/Public-Library), [LC_SRC02: Town of San Anselmo](https://www.sananselmo.gov/1677/Town-Hall-Resilience-Hub), [RC4C04: Ava Community Energy](https://avaenergy.org/community/resilience-hubs/), [RC4A01: City of Oakland](https://www.oaklandca.gov/My-Household/Waste-and-Recycling/Free-Compost)
+
+
+---
+
+### gauges
+
+**CONFIDENCE:** Strong corridor example; industry efficiency estimate; current national split and spare capacity unknown
+
+**DEPENDENCY:** Bulk freight and selected passenger/essential supply corridors
+
+**GROWTH:** Existing rail/intermodal use, terminal efficiency and suitable electrified corridors
+
+**LIFEBOAT:** Protected essential cargo slots and local delivery links are proposals, not reserved capacity
+
+**LOAD:** Fuel-price exposure and interest in modal substitution; route demand unmeasured
+
+**RECOVERY:** Service changes depend on equipment, track and crews; major corridor electrification takes years
+
+**RESERVE:** Spare paths, crews, rolling stock and terminal capacity unknown
+
+**SHEDDING:** Consolidate nonurgent loads and avoid empty movements where service permits
+
+**SOCIAL TEMPERATURE:** Not measured; worker capacity and rest remain protected
+
+**SUBSTITUTABILITY:** Compatible rail can replace some truck linehaul; first/last mile persists
+
+**geography:** United States with California corridor example
+
+**id:** rail
+
+**label:** Rail traction and compatible freight substitution
+
+**Sources:** [RC4R01: Caltrain](https://www.caltrain.com/news/caltrain-commences-fully-electrified-service), [RC4R02: California Governor](https://www.gov.ca.gov/2024/08/10/governor-newsom-and-new-high-speed-rail-ceo-celebrate-caltrains-electrification-as-key-part-of-high-speed-rail-plan/), [RC4R03: Association of American Railroads](https://www.aar.org/issue/freight-rail-climate-change/), [RC4R05: Bureau of Transportation Statistics](https://www.bts.gov/content/class-i-railroad-locomotive-fleet-year-built)
 

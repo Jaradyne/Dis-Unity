@@ -1,10 +1,12 @@
 # SOURCE_LEDGER
 
-Cycle RC-003; cutoff 2026-09-21.
+Cycle RC-004; cutoff 2026-09-21.
 
 **grade:** A
 
 **id:** SRC01
+
+**last verified at:** 2026-09-21
 
 **limitations:** On-highway retail diesel includes taxes; not farm off-road or wholesale delivered contract price. Dynamic page.
 
@@ -19,6 +21,16 @@ Cycle RC-003; cutoff 2026-09-21.
 **title:** Gasoline and Diesel Fuel Update
 
 **url:** https://www.eia.gov/petroleum/gasdiesel/
+
+## verification history
+
+**cycle:** RC-004
+
+**note:** Reopened in bounded specialist research; see submitted packet. This is not another independent source.
+
+**observation period:** 2026-08-31, 2026-09-07, 2026-09-14
+
+**source alias:** RC4F02
 
 
 ---
@@ -1067,6 +1079,8 @@ Cycle RC-003; cutoff 2026-09-21.
 
 **last checked by:** nutrient_network
 
+**last verified at:** 2026-09-21
+
 **limitations:** Technical process source, not a current capacity inventory or site-specific recovery guarantee.
 
 **observation period:** Technical description of recovery from refinery and gas-processing H2S
@@ -1080,6 +1094,16 @@ Cycle RC-003; cutoff 2026-09-21.
 **title:** Sulfur Recovery, AP-42 section 8.13
 
 **url:** https://www.epa.gov/sites/default/files/2020-09/documents/8.13_sulfur_recovery.pdf
+
+## verification history
+
+**cycle:** RC-004
+
+**note:** Reopened in bounded specialist research; see submitted packet. This is not another independent source.
+
+**observation period:** Historical technical process description
+
+**source alias:** RC4S01
 
 
 ---
@@ -1266,6 +1290,8 @@ Cycle RC-003; cutoff 2026-09-21.
 
 **id:** MAR04
 
+**last verified at:** 2026-09-21
+
 **limitations:** Operator account of own response; event success cannot establish geographic patrol sufficiency. Captivity wording does not clearly resolve cumulative versus currently captive totals; do not use that total.
 
 **observation period:** 2026-09-10 incident and April–September context
@@ -1279,6 +1305,16 @@ Cycle RC-003; cutoff 2026-09-21.
 **title:** Resolution of a piracy incident in the Gulf of Aden
 
 **url:** https://eunavfor.eu/news/resolution-piracy-incident-gulf-aden
+
+## verification history
+
+**cycle:** RC-004
+
+**note:** Reopened in bounded specialist research; see submitted packet. This is not another independent source.
+
+**observation period:** 2026-09-10 incident
+
+**source alias:** RC4M01
 
 
 ---
@@ -1741,4 +1777,790 @@ Cycle RC-003; cutoff 2026-09-21.
 **title:** History of Bayer: 1925–1945
 
 **url:** https://www.bayer.com/en/history/1925-1945
+
+
+---
+
+**grade:** A
+
+**id:** RC4F01
+
+**limitations:** Dynamic endpoint: selected dated values retained below. Weekly estimates may be revised. Distillates include multiple grades; countrywide stocks are not discretionary or locally accessible reserves. Table 13 futures series is suspended after April 5, 2024.
+
+**observation period:** 2026-09-11; retail observations 2026-09-14
+
+**publication date:** 2026-09-16
+
+**publisher:** U.S. Energy Information Administration
+
+**retrieved at:** 2026-09-21
+
+**title:** Weekly Petroleum Status Report, week ended September 11, 2026
+
+**url:** https://www.eia.gov/petroleum/supply/weekly/pdf/wpsrall.pdf
+
+## web refs
+
+- turn836733view0
+- turn513203view5
+- turn442633view6
+
+
+---
+
+**grade:** A
+
+**id:** RC4F03
+
+**last verified at:** 2026-09-21
+
+**limitations:** Only public highlights accessed, not paid report. Global and regional estimates are not country-specific arrival delays or spare export capacity. Brent futures commentary does not identify a delivery month or exact quote timestamp.
+
+**observation period:** August 2026 estimates; early September prices; forecasts separately labeled
+
+**publication date:** 2026-09-11
+
+**publisher:** International Energy Agency
+
+**retrieved at:** 2026-09-21
+
+**title:** Oil Market Report — September 2026, public highlights
+
+**url:** https://www.iea.org/reports/oil-market-report-september-2026
+
+## verification history
+
+**cycle:** RC-004
+
+**note:** Reopened in bounded specialist research; see submitted packet. This is not another independent source.
+
+**observation period:** August 2026 estimates and early September 2026 market observations; forecasts separately labeled
+
+**source alias:** RC4M02
+
+## web refs
+
+- turn461093view0
+
+
+---
+
+**grade:** A
+
+**id:** RC4F04
+
+**limitations:** Program description is not an independent tank audit, release order or community allocation. Specifically a northeastern heating-oil reserve; not spare California fuel.
+
+**observation period:** Undated current program page as retrieved September 21, 2026
+
+**publication date:** Not established
+
+**publisher:** U.S. Department of Energy
+
+**retrieved at:** 2026-09-21
+
+**title:** The Northeast Home Heating Oil Reserve
+
+**url:** https://www.energy.gov/hgeo/opr/northeast-home-heating-oil-reserve
+
+## web refs
+
+- turn185249view3
+
+
+---
+
+**grade:** A
+
+**id:** RC4F05
+
+**limitations:** Provisional imports are recorded by import-permit date, not measured voyage duration. The principal-commodity row is labeled PETROLEUM, with PETROLEUM PRODUCTS separate. Japanese total is not evidence for all East Asia.
+
+**observation period:** August 2026 versus August 2025
+
+**publication date:** 2026-09-16
+
+**publisher:** Japan Ministry of Finance / Customs and Tariff Bureau
+
+**retrieved at:** 2026-09-21
+
+**title:** Value of Exports and Imports August 2026 (Provisional)
+
+**url:** https://www.customs.go.jp/toukei/shinbun/trade-st_e/2026/2026084e.pdf
+
+## web refs
+
+- turn910343view0
+
+
+---
+
+**grade:** A
+
+**id:** RC4F06
+
+**limitations:** Page exposes contract specifications but no current dated contract settlement in retrieved text. Cannot support a current NY Harbor ULSD futures price or matched change.
+
+**observation period:** Contract specification page retrieved September 21, 2026; no dated settlement retrieved
+
+**publication date:** Not established
+
+**publisher:** CME Group
+
+**retrieved at:** 2026-09-21
+
+**title:** NY Harbor ULSD Futures Quotes / Contract Highlights
+
+**url:** https://www.cmegroup.com/markets/energy/refined-products/heating-oil.quotes.html
+
+## web refs
+
+- turn461093view2
+
+
+---
+
+**grade:** A
+
+**id:** RC4S02
+
+**last checked by:** sulfur_leadtime
+
+**limitations:** Contractor project history, not a Venezuelan project estimate. Reported expansion design output is not current uncommitted reserve.
+
+**observation period:** Original project 2010–2015; startup January 2015, full capacity July 2015; expansion listed 2021–2025
+
+**publication date:** Not established
+
+**publisher:** Saipem
+
+**retrieved at:** 2026-09-21
+
+**title:** Shah Gas Plant
+
+**url:** https://www.saipem.com/en/saipem-worldwide-projects/shah-gas-plant
+
+**web ref:** turn495325view0
+
+
+---
+
+**grade:** A
+
+**id:** RC4S03
+
+**last checked by:** sulfur_leadtime
+
+**limitations:** Planned completion only; actual completion not verified. Combined gas sweetening, sulfur-recovery upgrade and acid-gas recovery scope, not an isolated Claus package.
+
+**observation period:** 2010 contract award; prospective 38-month schedule
+
+**publication date:** 2010-03-29
+
+**publisher:** Petrofac
+
+**retrieved at:** 2026-09-21
+
+**title:** Petrofac Wins Qatar Petroleum Contract Worth More Than US$600 Million
+
+**url:** https://www.petrofac.com/media/news/petrofac-wins-qatar-petroleum-contract-worth-more-than-us-600-million
+
+**web ref:** turn809929view1
+
+
+---
+
+**grade:** A
+
+**id:** RC4S04
+
+**last checked by:** sulfur_leadtime
+
+**limitations:** Historical partner announcement. Verifies Venezuelan upgrading/desulfurization capability existed; does not establish current usable sulfur-recovery trains, stock, output, ownership or restart condition.
+
+**observation period:** Upgrader construction began 1998, completed by January 2002; first low-sulfur tanker loading then expected February
+
+**publication date:** 2002-01-10
+
+**publisher:** Equinor / Statoil archive
+
+**retrieved at:** 2026-09-21
+
+**title:** Upgrading Sincor oil
+
+**url:** https://www.equinor.com/news/archive/2002/01/10/UpgradingSincorOil
+
+**web ref:** turn809929view0
+
+
+---
+
+**grade:** A
+
+**id:** RC4S05
+
+**last checked by:** sulfur_leadtime
+
+**limitations:** Operator-described routes; no measured current spare acid supply, shipment availability or full input independence.
+
+**observation period:** 2025 integrated-report description of corporate material network
+
+**publication date:** 2025
+
+**publisher:** Sumitomo Metal Mining
+
+**retrieved at:** 2026-09-21
+
+**title:** Material Flows, Integrated Report 2025
+
+**url:** https://www.smm.co.jp/en/ir/library/integrated_report/materialflow/
+
+**web ref:** turn809929view2
+
+
+---
+
+**grade:** A
+
+**id:** RC4S06
+
+**last checked by:** sulfur_leadtime
+
+**limitations:** Used for leaching, solvent extraction/electrowinning and ore-route distinctions; undated production totals and shares are not admitted. Page does not establish plant-specific net acid consumption.
+
+**observation period:** Technical description, accessed September 2026
+
+**publication date:** Not established
+
+**publisher:** U.S. EPA
+
+**retrieved at:** 2026-09-21
+
+**title:** TENORM: Copper Mining and Production Wastes
+
+**url:** https://www.epa.gov/radiation/tenorm-copper-mining-and-production-wastes
+
+**web ref:** turn809929view3
+
+
+---
+
+**grade:** A
+
+**id:** RC4S07
+
+**last checked by:** sulfur_leadtime
+
+**limitations:** Operator technical account, not a current acid inventory or exact consumption coefficient; profile contains historical milestones.
+
+**observation period:** Technical description of high-temperature, high-pressure sulfuric-acid treatment of oxide ore
+
+**publication date:** Not established
+
+**publisher:** Sumitomo Metal Mining
+
+**retrieved at:** 2026-09-21
+
+**title:** Company Profile: HPAL technology
+
+**url:** https://www.smm.co.jp/en/corp_info/ebook_CompanyProfile/pageindices/index9.html
+
+**web ref:** turn809929view4
+
+
+---
+
+**grade:** A
+
+**id:** RC4A01
+
+**limitations:** Publication date absent. Hours and availability can change; first-come supply can run out. No guaranteed allocation or site-opening commitment.
+
+**observation period:** Current undated service page retrieved 2026-09-21
+
+**publication date:** Not established
+
+**publisher:** City of Oakland
+
+**retrieved at:** 2026-09-21
+
+**title:** Get Free Compost
+
+**url:** https://www.oaklandca.gov/My-Household/Waste-and-Recycling/Free-Compost
+
+**verification:** Full official page opened; relevant passages read
+
+**web ref:** turn604057view0
+
+
+---
+
+**grade:** B
+
+**id:** RC4A02
+
+**limitations:** Operator description, not current throughput or spare capacity. Exact Oakland stream routing not established by this page alone. Do not use apparent finished-volume typo.
+
+**observation period:** Undated facility description retains references to fall 2018 product availability
+
+**publication date:** Not established
+
+**publisher:** WM
+
+**retrieved at:** 2026-09-21
+
+**title:** Composting — Altamont Landfill
+
+**url:** https://www.wm.com/us/en/facilities/altamont-landfill/composting
+
+**verification:** Full official page opened; relevant passages read
+
+**web ref:** turn604057view1
+
+
+---
+
+**grade:** A
+
+**id:** RC4A03
+
+**limitations:** Regional planting windows are approximate and describe planting, not harvest. Not a current commercial shipment calendar; no guaranteed winter Bay Area yields.
+
+**observation period:** Undated horticultural guidance retrieved 2026-09-21
+
+**publication date:** Not established
+
+**publisher:** UC Statewide IPM
+
+**retrieved at:** 2026-09-21
+
+**title:** Cultural Tips for Growing Tomato
+
+**url:** https://ipm.ucanr.edu/home-and-landscape/cultural-tips-for-growing-tomato/
+
+**verification:** Full official page opened; relevant passages read
+
+**web ref:** turn604057view2
+
+
+---
+
+**grade:** A
+
+**id:** RC4A04
+
+**limitations:** Microclimate and variety matter; rapid produce is not equivalent to a complete calorie/protein supply.
+
+**observation period:** Undated horticultural guidance retrieved 2026-09-21
+
+**publication date:** Not established
+
+**publisher:** UC Statewide IPM
+
+**retrieved at:** 2026-09-21
+
+**title:** Cultural Tips for Growing Radish
+
+**url:** https://ipm.ucanr.edu/home-and-landscape/cultural-tips-for-growing-radish/
+
+**verification:** Full official page opened; relevant passages read
+
+**web ref:** turn604057view3
+
+
+---
+
+**grade:** A
+
+**id:** RC4A05
+
+**limitations:** General nutrient-management guidance, not a soil test or assay of current Oakland compost. No claim that one compost application guarantees a crop.
+
+**observation period:** Undated extension synthesis with historical scientific references
+
+**publication date:** Not established
+
+**publisher:** UC ANR Solution Center for Nutrient Management
+
+**retrieved at:** 2026-09-21
+
+**title:** Nitrogen From Organic Sources
+
+**url:** https://ucanr.edu/site/solution-center-nutrient-management/nitrogen-organic-sources
+
+**verification:** Full official page opened; relevant passages read
+
+**web ref:** turn702882view2
+
+
+---
+
+**grade:** A
+
+**id:** RC4C01
+
+**limitations:** Operator-maintained staff and governance page; supports continuing public organizational presence, not independently audited finances, new acquisitions or available property.
+
+**observation period:** Page metadata updated 2026-08-28; current staff listing retrieved 2026-09-21
+
+**publication date:** Not established
+
+**publisher:** Oakland Community Land Trust
+
+**retrieved at:** 2026-09-21
+
+**title:** Staff & Board
+
+**url:** https://oakclt.org/about/people/
+
+**web ref:** turn574353view1
+
+
+---
+
+**grade:** A
+
+**id:** RC4C02
+
+**limitations:** Homepage lists Two New OakCLT Homeownership Opportunities (July 2024) and a March 2025 memorial post. Shows later communications; does not establish homes remain available or quantify present production.
+
+**observation period:** Blog entries dated 2024-07-01 and 2025-03-22 visible on 2026-09-21
+
+**publication date:** Not established
+
+**publisher:** Oakland Community Land Trust
+
+**retrieved at:** 2026-09-21
+
+**title:** Home / latest blog listings
+
+**url:** https://oakclt.org/
+
+**web ref:** turn574353view0
+
+
+---
+
+**coordinator verification:** Full primary page read by coordinator on 2026-09-21, upgrading the original agent search-only lead.
+
+**grade:** B
+
+**id:** RC4C03
+
+**limitations:** Coordinator opened full operator release. Historical commissioning of the Humboldt airport/Coast Guard microgrid; not an Oakland site, current endurance test, uncommitted capacity or an unlimited-power guarantee.
+
+**observation period:** Historical June 2022 commissioning; full operator page read by coordinator on 2026-09-21
+
+**publication date:** 2022-06-09
+
+**publisher:** PG&E Corporation
+
+**retrieved at:** 2026-09-21
+
+**title:** California’s First 100% Renewable Multi-Customer Microgrid is Now Operational
+
+**url:** https://investor.pgecorp.com/news-events/press-releases/press-release-details/2022/Collaborating-for-a-Clean-Energy-Future-Californias-First-100-Renewable-Multi-Customer-Microgrid-is-Now-Operational/default.aspx
+
+**web ref:** turn352247search14
+
+
+---
+
+**coordinator verification:** Full program page read by coordinator on 2026-09-21; public contact verified. Original checkpoint remains unchanged.
+
+**grade:** B
+
+**id:** RC4C04
+
+**limitations:** Coordinator opened full program page. Feasibility/technical assistance and installation incentives; first cohort installation underway. December 1, 2026 contact date for next cohort is not a grant award or commissioned service.
+
+**observation period:** Undated current program page fully read by coordinator on 2026-09-21; next-cohort contact date December 1, 2026
+
+**publication date:** Not established
+
+**publisher:** Ava Community Energy
+
+**retrieved at:** 2026-09-21
+
+**title:** Resilience Hubs Initiative
+
+**url:** https://avaenergy.org/community/resilience-hubs/
+
+**web ref:** turn291372search8
+
+
+---
+
+**grade:** A
+
+**id:** RC4M03
+
+**limitations:** Dynamic page includes stale current-commander and last-incident passages; use only mission/composition description. Dated September11 account establishes Republic of Korea-led response. No current force total derived.
+
+**observation period:** Structural mission description, retrieved 2026-09-21
+
+**publication date:** Not established
+
+**publisher:** Combined Maritime Forces
+
+**retrieved at:** 2026-09-21
+
+**title:** CTF 151: Counter-piracy
+
+**url:** https://combinedmaritimeforces.com/ctf-151-counter-piracy/
+
+**web ref:** turn678389view0
+
+
+---
+
+**grade:** A
+
+**id:** RC4M04
+
+**limitations:** Structural mandate does not establish actual assigned assets or coverage on a specific date. Generic normal-force totals are not used as current deployments.
+
+**observation period:** Mission description referencing 2024 mandate and 2025/2026 amendments; retrieved 2026-09-21
+
+**publication date:** Not established
+
+**publisher:** EUNAVFOR ATALANTA
+
+**retrieved at:** 2026-09-21
+
+**title:** Mission
+
+**url:** https://eunavfor.eu/mission
+
+**web ref:** turn678389view3
+
+
+---
+
+**grade:** A
+
+**id:** RC4M05
+
+**limitations:** Another participating operator account, not independent nonparticipant confirmation. Spells vessel Galmor versus EUNAVFOR Glamor. Response within two hours is incident-specific, not a service guarantee.
+
+**observation period:** Recent September 2026 MV Galmor incident; aligned with EUNAVFOR September10 GLAMOR report, with spelling discrepancy retained
+
+**publication date:** 2026-09-11
+
+**publisher:** Combined Maritime Forces
+
+**retrieved at:** 2026-09-21
+
+**title:** Combined Task Force 151 Leads Response to Piracy Attack in Gulf of Aden
+
+**url:** https://combinedmaritimeforces.com/2026/09/11/combined-task-force-151-leads-response-to-piracy-attack-in-gulf-of-aden/
+
+**web ref:** turn103999view0
+
+
+---
+
+**coordinator verification:** Coordinator reopened full primary landing/page; underlying BTS workbook remains unavailable.
+
+**grade:** A
+
+**id:** RC4R01
+
+**limitations:** SF–San Jose passenger corridor; diesel freight and southern connector remain. Not a national fleet count.
+
+**observation period:** September 2024 passenger service launch
+
+**publication date:** 2024-09-21
+
+**publisher:** Caltrain
+
+**retrieved at:** 2026-09-21
+
+**title:** Caltrain Commences Fully Electrified Service
+
+**url:** https://www.caltrain.com/news/caltrain-commences-fully-electrified-service
+
+
+---
+
+**coordinator verification:** Coordinator reopened full primary landing/page; underlying BTS workbook remains unavailable.
+
+**grade:** A
+
+**id:** RC4R02
+
+**limitations:** One corridor benchmark; planning preceded construction. Not a universal conversion schedule.
+
+**observation period:** Construction began July 2017; service launch in 2024
+
+**publication date:** 2024-08-10
+
+**publisher:** California Governor
+
+**retrieved at:** 2026-09-21
+
+**title:** Governor Newsom and new High-Speed Rail CEO celebrate Caltrain electrification
+
+**url:** https://www.gov.ca.gov/2024/08/10/governor-newsom-and-new-high-speed-rail-ceo-celebrate-caltrains-electrification-as-key-part-of-high-speed-rail-plan/
+
+
+---
+
+**coordinator verification:** Coordinator reopened full primary landing/page; underlying BTS workbook remains unavailable.
+
+**grade:** B
+
+**id:** RC4R03
+
+**limitations:** Industry association estimate: freight rail averages 3–4 times truck fuel efficiency. Does not establish spare train paths, route-specific savings or independence from diesel.
+
+**observation period:** Undated industry efficiency description retrieved September 2026
+
+**publication date:** Not established
+
+**publisher:** Association of American Railroads
+
+**retrieved at:** 2026-09-21
+
+**title:** Freight Rail and Climate Change
+
+**url:** https://www.aar.org/issue/freight-rail-climate-change/
+
+
+---
+
+**coordinator verification:** Coordinator reopened full primary landing/page; underlying BTS workbook remains unavailable.
+
+**grade:** A
+
+**id:** RC4R05
+
+**limitations:** Landing page read; workbook unavailable. No 2026 locomotive total or diesel/electric share admitted. Locomotive counts are not train movements.
+
+**observation period:** Current landing page; linked table_01_32_072726.xlsx not retrieved
+
+**publication date:** Not established
+
+**publisher:** Bureau of Transportation Statistics
+
+**retrieved at:** 2026-09-21
+
+**title:** Class I Railroad Locomotive Fleet by Year Built
+
+**url:** https://www.bts.gov/content/class-i-railroad-locomotive-fleet-year-built
+
+
+---
+
+**coordinator verification:** Full public page read by coordinator on 2026-09-21.
+
+**grade:** A
+
+**id:** RC4X01
+
+**limitations:** Guidance for intact properly stored commercial packages; low-acid canned food quality guidance 2–5 years. Not stock actually held by any food bank or safe duration after opening.
+
+**observation period:** Current storage guidance retrieved September 2026
+
+**publication date:** Not established
+
+**publisher:** USDA Food Safety and Inspection Service
+
+**retrieved at:** 2026-09-21
+
+**title:** Shelf-Stable Food Safety
+
+**url:** https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/shelf-stable-food
+
+
+---
+
+**coordinator verification:** Full public page read by coordinator on 2026-09-21.
+
+**grade:** A
+
+**id:** RC4X02
+
+**limitations:** Historical offering with expired July 2024 deadline. Evidence of later activity, not present available property.
+
+**observation period:** Two rehabilitated homes offered in July 2024
+
+**publication date:** 2024-07-01
+
+**publisher:** Oakland Community Land Trust
+
+**retrieved at:** 2026-09-21
+
+**title:** Two New Ownership Opportunities
+
+**url:** https://oakclt.org/two-new-ownership-opportunities/
+
+
+---
+
+**coordinator verification:** Full public page read by coordinator on 2026-09-21.
+
+**grade:** A
+
+**id:** RC4X03
+
+**limitations:** Operator-maintained project list, not a title audit, vacancy listing or independently verified financial position.
+
+**observation period:** Portfolio page; metadata February 2025; read September 2026
+
+**publication date:** Not established
+
+**publisher:** Oakland Community Land Trust
+
+**retrieved at:** 2026-09-21
+
+**title:** OakCLT Properties
+
+**url:** https://oakclt.org/about/oakclt-properties/
+
+
+---
+
+**coordinator verification:** Full public page read by coordinator on 2026-09-21.
+
+**grade:** A
+
+**id:** RC4X04
+
+**limitations:** Documents A Diamond in the Ruff partnership; historical project record does not prove present program capacity.
+
+**observation period:** August 2019 acquisition; page metadata February 2022
+
+**publication date:** Not established
+
+**publisher:** Oakland Community Land Trust
+
+**retrieved at:** 2026-09-21
+
+**title:** Harvest House
+
+**url:** https://oakclt.org/portfolio-items/harvest-house/
+
+
+---
+
+**grade:** C
+
+**id:** VISION01
+
+**limitations:** Design provenance only, not external empirical evidence. Original PDF has 69 pages; page-labelled text and original hash preserved. Contains internal revisions and unvalidated technological/governance claims.
+
+**observation period:** Undated historical concept; supplied and read on 2026-09-22
+
+**publication date:** Not established
+
+**publisher:** User-supplied document developed with an earlier assistant
+
+**retrieved at:** 2026-09-22
+
+**source kind:** User-authorized design input, not a public monitoring source
+
+**title:** 15 Years Til Utopia — user-supplied historical conversation concept
+
+**url:** https://github.com/Jaradyne/Dis-Unity/blob/main/ideas/15_YEARS_TIL_UTOPIA_SOURCE.md
 

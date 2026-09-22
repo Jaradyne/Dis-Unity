@@ -1,6 +1,6 @@
 # ACTIVE_SIGNALS
 
-Cycle RC-003; cutoff 2026-09-21.
+Cycle RC-004; cutoff 2026-09-21.
 
 **confidence:** high for survey
 
@@ -20,7 +20,11 @@ Cycle RC-003; cutoff 2026-09-21.
 
 **implication:** Essential transport and harvest cash needs rise before any physical rationing occurs.
 
+**last reviewed cycle:** RC-004
+
 **observation:** Sept 14 retail diesel: US $6.285/gal (+$0.318/week), California $8.039 (+$0.275/week); taxes included.
+
+**rc004 note:** Existing September EIA observations reconfirmed; not counted as a new price or inventory shock.
 
 **Sources:** [SRC01: EIA](https://www.eia.gov/petroleum/gasdiesel/)
 
@@ -54,7 +58,11 @@ Cycle RC-003; cutoff 2026-09-21.
 
 **implication:** Cost stress coexists with recovery in stocks and limited refinery headroom; regional deliverability remains a gap.
 
+**last reviewed cycle:** RC-004
+
 **observation:** Sept 11 stocks 107.859m barrels, up from 103.391m Aug 21 through three weekly builds; 13% below five-year seasonal average. Refinery utilization 96.8%.
+
+**rc004 note:** Existing September EIA observations reconfirmed; not counted as a new price or inventory shock.
 
 **Sources:** [SRC02: EIA](https://ir.eia.gov/wpsr/wpsrsummary.pdf), [SRC03: EIA](https://www.eia.gov/dnav/pet/pet_stoc_wstk_a_epd0_sae_mbbl_w.htm)
 
@@ -707,9 +715,11 @@ Cycle RC-003; cutoff 2026-09-21.
 
 **implication:** National inventory growth cannot stand in for regional or terminal availability. Do not count district stocks twice inside the national total.
 
-**last reviewed cycle:** RC-002
+**last reviewed cycle:** RC-004
 
 **observation:** Sep11 distillate: East Coast21.6m barrels, down0.1m week and31.0% y/y; West Coast10.4m, up0.4m week and down14.2%y/y. West Coast ULSD9.6m, up0.5m week. National build does not imply every region rebuilding. Local deliverability unknown.
+
+**rc004 note:** Existing September EIA observations reconfirmed; not counted as a new price or inventory shock.
 
 **Sources:** [FF-S02: EIA](https://www.eia.gov/petroleum/supply/weekly/pdf/table6.pdf)
 
@@ -1554,4 +1564,408 @@ Cycle RC-003; cutoff 2026-09-21.
 - food_logistics
 
 **title:** Food assistance can face simultaneous demand growth and supply loss
+
+
+---
+
+**confidence:** High within stated source scope; operational limits retained
+
+**direction:** worsening
+
+**epistemic label:** FACT
+
+**event id:** middle_distillate_supply_2026
+
+**first seen cycle:** RC-004
+
+**freshness:** RC-004 late discovery or recheck; observation date stated explicitly, not a new event on retrieval day
+
+## geography
+
+- California
+- United States
+- Global resource and trade nodes
+
+**id:** SIG43
+
+**implication:** Price stress and physical flow evidence coexist; spot, retail and futures measures remain separate. Do not infer local fuel run-out.
+
+**last reviewed cycle:** RC-004
+
+**observation:** EIA NY Harbor ULSD spot increased from $4.549/gal September 4 to $5.048 September 11 (10.97%). IEA September 11 public report describes August Gulf/Russian diesel/gasoil export losses and stock draws; it reports Brent futures near $105/bbl, $21 above early August, without a contract month. No current diesel futures settlement series verified.
+
+**Sources:** [RC4F01: U.S. Energy Information Administration](https://www.eia.gov/petroleum/supply/weekly/pdf/wpsrall.pdf), [RC4F03: International Energy Agency](https://www.iea.org/reports/oil-market-report-september-2026)
+
+**status:** Bounded evidence admitted; downstream cascade conditional
+
+## systems
+
+- diesel
+- trade
+- trucking
+
+**title:** Dated spot-price increase and physical product-flow contraction
+
+
+---
+
+**confidence:** High within stated source scope; operational limits retained
+
+**direction:** improving
+
+**epistemic label:** FACT
+
+**event id:** rc004_sig44
+
+**first seen cycle:** RC-004
+
+**freshness:** RC-004 late discovery or recheck; observation date stated explicitly, not a new event on retrieval day
+
+## geography
+
+- Japan
+- East Asia
+
+**id:** SIG44
+
+**implication:** Test country, product and time definitions before generalizing East Asian oil-arrival stress.
+
+**last reviewed cycle:** RC-004
+
+**observation:** Japan Customs provisional August 2026 PETROLEUM imports were 11.594 million kilolitres, up 3.6% year on year; value rose 58.7%. The category differs from the separate petroleum-products row. Customs clearance does not measure voyage delay, local distillate reserves or regional refinery suitability.
+
+**Sources:** [RC4F05: Japan Ministry of Finance / Customs and Tariff Bureau](https://www.customs.go.jp/toukei/shinbun/trade-st_e/2026/2026084e.pdf)
+
+**status:** Bounded evidence admitted; downstream cascade conditional
+
+## systems
+
+- trade
+- diesel
+
+**title:** Japan import quantity provides counterevidence to uniform East Asian decline
+
+
+---
+
+**confidence:** High within stated source scope; operational limits retained
+
+**direction:** improving
+
+**epistemic label:** FACT
+
+**event id:** rc004_sig45
+
+**first seen cycle:** RC-004
+
+**freshness:** RC-004 late discovery or recheck; observation date stated explicitly, not a new event on retrieval day
+
+## geography
+
+- California
+- United States
+- Global resource and trade nodes
+
+**id:** SIG45
+
+**implication:** Use existing compatible rail efficiency now; plan power-source conversion by corridor and preserve grid/terminal fallback.
+
+**last reviewed cycle:** RC-004
+
+**observation:** Caltrain construction began July 2017 and fully electric SF–San Jose passenger service began September 21, 2024. Diesel freight and the southern passenger connector remain. This is a roughly seven-year construction example, not a universal schedule or a current national fleet census.
+
+**Sources:** [RC4R01: Caltrain](https://www.caltrain.com/news/caltrain-commences-fully-electrified-service), [RC4R02: California Governor](https://www.gov.ca.gov/2024/08/10/governor-newsom-and-new-high-speed-rail-ceo-celebrate-caltrains-electrification-as-key-part-of-high-speed-rail-plan/), [RC4R03: Association of American Railroads](https://www.aar.org/issue/freight-rail-climate-change/)
+
+**status:** Bounded evidence admitted; downstream cascade conditional
+
+## systems
+
+- rail
+- diesel
+- grid
+
+**title:** Completed rail electrification supplies a years-scale conversion benchmark
+
+
+---
+
+**confidence:** High within stated source scope; operational limits retained
+
+**direction:** mixed
+
+**epistemic label:** FACT
+
+**event id:** rc004_sig46
+
+**first seen cycle:** RC-004
+
+**freshness:** RC-004 late discovery or recheck; observation date stated explicitly, not a new event on retrieval day
+
+## geography
+
+- California
+- United States
+- Global resource and trade nodes
+
+**id:** SIG46
+
+**implication:** Evaluate repairable existing trains first; distinguish concept start, funded construction, first output and sustained exportable surplus.
+
+**last reviewed cycle:** RC-004
+
+**observation:** Equinor documented Sincor construction from 1998 and completion by January 2002. Saipem Shah initial development ran 2010–2015; a 2010 Petrofac Qatar treatment/recovery project had an announced 38-month schedule. These comparators support a years-scale scenario for major new capacity, not a current Venezuelan reserve, condition assessment or guaranteed delivery date.
+
+**Sources:** [RC4S02: Saipem](https://www.saipem.com/en/saipem-worldwide-projects/shah-gas-plant), [RC4S03: Petrofac](https://www.petrofac.com/media/news/petrofac-wins-qatar-petroleum-contract-worth-more-than-us-600-million), [RC4S04: Equinor / Statoil archive](https://www.equinor.com/news/archive/2002/01/10/UpgradingSincorOil)
+
+**status:** Bounded evidence admitted; downstream cascade conditional
+
+## systems
+
+- sulfur
+- industrial
+- fertilizer
+
+**title:** Venezuelan historical upgrading capability and industrial build comparators
+
+
+---
+
+**confidence:** High within stated source scope; operational limits retained
+
+**direction:** improving
+
+**epistemic label:** FACT
+
+**event id:** rc004_sig47
+
+**first seen cycle:** RC-004
+
+**freshness:** RC-004 late discovery or recheck; observation date stated explicitly, not a new event on retrieval day
+
+## geography
+
+- Japan
+- Philippines
+- Global resource and trade nodes
+
+**id:** SIG47
+
+**implication:** Map useful coproducts before retiring parent systems; verify donor commitments and transport compatibility.
+
+**last reviewed cycle:** RC-004
+
+**observation:** Sumitomo Metal Mining describes acid recovered from Japanese copper processing and sulfur from nickel processing feeding Philippine HPAL operations. This is an operating material-flow example, not uncommitted merchant acid or resilience to every shared shipping shock.
+
+**Sources:** [RC4S05: Sumitomo Metal Mining](https://www.smm.co.jp/en/ir/library/integrated_report/materialflow/), [RC4S07: Sumitomo Metal Mining](https://www.smm.co.jp/en/corp_info/ebook_CompanyProfile/pageindices/index9.html)
+
+**status:** Bounded evidence admitted; downstream cascade conditional
+
+## systems
+
+- sulfur
+- industrial
+- trade
+
+**title:** Japan–Philippines sulfur/acid exchange demonstrates complementary industrial resilience
+
+
+---
+
+**confidence:** High within stated source scope; operational limits retained
+
+**direction:** improving
+
+**epistemic label:** FACT
+
+**event id:** rc004_sig48
+
+**first seen cycle:** RC-004
+
+**freshness:** RC-004 late discovery or recheck; observation date stated explicitly, not a new event on retrieval day
+
+## geography
+
+- Oakland
+- Bay Area
+- California
+
+**id:** SIG48
+
+**implication:** Investigate existing community control and modifiable space without treating listed projects as available property.
+
+**last reviewed cycle:** RC-004
+
+**observation:** OakCLT posted two rehabilitated-home offerings in July 2024 and maintains portfolio and staff/governance pages, with staff page metadata in August 2026. Harvest House records its August 2019 acquisition and A Diamond in the Ruff partnership. These establish later public presence/activity, not a current vacancy or independently audited financial strength.
+
+**Sources:** [RC4C01: Oakland Community Land Trust](https://oakclt.org/about/people/), [RC4X02: Oakland Community Land Trust](https://oakclt.org/two-new-ownership-opportunities/), [RC4X03: Oakland Community Land Trust](https://oakclt.org/about/oakclt-properties/), [RC4X04: Oakland Community Land Trust](https://oakclt.org/portfolio-items/harvest-house/)
+
+**status:** Bounded evidence admitted; downstream cascade conditional
+
+## systems
+
+- commons
+- municipal
+
+**title:** OakCLT has public activity after its Harvest House partnership
+
+
+---
+
+**confidence:** High within stated source scope; operational limits retained
+
+**direction:** improving
+
+**epistemic label:** FACT
+
+**event id:** rc004_sig49
+
+**first seen cycle:** RC-004
+
+**freshness:** RC-004 late discovery or recheck; observation date stated explicitly, not a new event on retrieval day
+
+## geography
+
+- California
+- Oakland
+- Humboldt County
+
+**id:** SIG49
+
+**implication:** Replication is plausible with site control, essential-load design, islanding and maintenance; a commons can begin before those upgrades.
+
+**last reviewed cycle:** RC-004
+
+**observation:** PG&E reported the Humboldt airport/Coast Guard renewable microgrid operational in June 2022. Ava offers community resilience-hub feasibility support and installation incentives, with first-cohort installation underway and a December 1, 2026 contact date for the next cohort. Neither establishes a commissioned Oakland site or unlimited independent power.
+
+**Sources:** [RC4C03: PG&E Corporation](https://investor.pgecorp.com/news-events/press-releases/press-release-details/2022/Collaborating-for-a-Clean-Energy-Future-Californias-First-100-Renewable-Multi-Customer-Microgrid-is-Now-Operational/default.aspx), [RC4C04: Ava Community Energy](https://avaenergy.org/community/resilience-hubs/)
+
+**status:** Bounded evidence admitted; downstream cascade conditional
+
+## systems
+
+- commons
+- grid
+
+**title:** Microgrid examples and Oakland-area support are broader than San Anselmo
+
+
+---
+
+**confidence:** High within stated source scope; operational limits retained
+
+**direction:** improving
+
+**epistemic label:** FACT
+
+**event id:** rc004_sig50
+
+**first seen cycle:** RC-004
+
+**freshness:** RC-004 late discovery or recheck; observation date stated explicitly, not a new event on retrieval day
+
+## geography
+
+- Oakland
+- Bay Area
+
+**id:** SIG50
+
+**implication:** Connect gardens to an actual recovery loop while testing soil/compost and checking quantity; compost volume is not a complete plant-nutrient budget.
+
+**last reviewed cycle:** RC-004
+
+**observation:** Oakland provides compost made from city-collected food scraps and yard waste through Acta Non Verba at West Oakland Farm Park, 2847 Peralta Street. Posted access: Tuesday–Friday 1–6 pm, Saturday 10 am–2 pm; self-load and bring containers. Stock may run out. The complete current processing route of every green-bin load is unverified.
+
+**Sources:** [RC4A01: City of Oakland](https://www.oaklandca.gov/My-Household/Waste-and-Recycling/Free-Compost), [RC4A02: WM](https://www.wm.com/us/en/facilities/altamont-landfill/composting), [RC4A05: UC ANR Solution Center for Nutrient Management](https://ucanr.edu/site/solution-center-nutrient-management/nitrogen-organic-sources)
+
+**status:** Bounded evidence admitted; downstream cascade conditional
+
+## systems
+
+- agriculture
+- commons
+
+**title:** Oakland organics have a verified public compost return point
+
+
+---
+
+**confidence:** High within stated source scope; operational limits retained
+
+**direction:** mixed
+
+**epistemic label:** FACT
+
+**event id:** rc004_sig51
+
+**first seen cycle:** RC-004
+
+**freshness:** RC-004 late discovery or recheck; observation date stated explicitly, not a new event on retrieval day
+
+## geography
+
+- California
+- United States
+- Global resource and trade nodes
+
+**id:** SIG51
+
+**implication:** Hold a rotating nutrition bridge before planting; garden vegetables add useful food but do not automatically replace calories, protein, water and cooking.
+
+**last reviewed cycle:** RC-004
+
+**observation:** USDA guidance allows 2–5 years of quality storage for properly stored intact low-acid commercial canned food; this is not food-bank days of cover. UC describes radishes reaching harvest in 3–6 weeks and tomatoes as warm-season crops with regional planting windows. Compost nitrogen release depends on conditions; dosing compost for nitrogen alone can overapply phosphorus/potassium.
+
+**Sources:** [RC4X01: USDA Food Safety and Inspection Service](https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/shelf-stable-food), [RC4A03: UC Statewide IPM](https://ipm.ucanr.edu/home-and-landscape/cultural-tips-for-growing-tomato/), [RC4A04: UC Statewide IPM](https://ipm.ucanr.edu/home-and-landscape/cultural-tips-for-growing-radish/), [RC4A05: UC ANR Solution Center for Nutrient Management](https://ucanr.edu/site/solution-center-nutrient-management/nitrogen-organic-sources)
+
+**status:** Bounded evidence admitted; downstream cascade conditional
+
+## systems
+
+- agriculture
+- food_assistance
+- food_logistics
+
+**title:** Food storage and replacement production run on different clocks
+
+
+---
+
+**confidence:** Mechanism plausible; no current new law or closure measured
+
+**direction:** unclear
+
+**epistemic label:** PLAUSIBLE MECHANISM
+
+**event id:** rc004_sig52
+
+**first seen cycle:** RC-004
+
+**freshness:** RC-004 late discovery or recheck; observation date stated explicitly, not a new event on retrieval day
+
+## geography
+
+- California
+- United States
+- Global resource and trade nodes
+
+**id:** SIG52
+
+**implication:** Begin with modifiable space and useful presence; diversify access pathways and count emergency service only when its actual function is supported.
+
+**last reviewed cycle:** RC-004
+
+**observation:** Conditional mechanism: pandemic closure, exclusionary rules, informal exclusion, reduced hours or displacement can remove useful access. No new specific hygiene law or current blanket closure is alleged. Indoor, outdoor, encampment-led and mobile nodes have different but overlapping failure modes.
+
+**Sources:** [RC4C04: Ava Community Energy](https://avaenergy.org/community/resilience-hubs/), [DC07: City of San Leandro](https://www.sanleandro.org/162/Public-Library)
+
+**status:** Bounded evidence admitted; downstream cascade conditional
+
+## systems
+
+- commons
+- food_assistance
+- social
+
+**title:** Commons access can fail while the building or equipment survives
 

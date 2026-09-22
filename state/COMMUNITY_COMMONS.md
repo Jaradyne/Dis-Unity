@@ -1,6 +1,6 @@
 # COMMUNITY_COMMONS
 
-Cycle RC-003; cutoff 2026-09-21.
+Cycle RC-004; cutoff 2026-09-21.
 
 **cluster id:** CL01 / CL02
 
@@ -273,26 +273,26 @@ Cycle RC-003; cutoff 2026-09-21.
 
 ## first steps
 
-- Use verified node shortlist; protect current occupants and programs.
-- Negotiate term, keys, storage, hours, permitted uses and alteration/maintenance rights.
-- Fund core staffing and a critical-load/water/sanitation plan before counting reserve.
-- Pair with a node having different power, route, funding or hazard exposure and run a small service drill.
+- Find a modifiable place and establish ordinary useful presence without waiting for a complete institution.
+- Add comfort through shade, seating, tools, communications or shared activity as appropriate.
+- Allow outdoor, continuous-use, encampment-led and mobile extensions where people can actually use them.
+- Develop durable control and power/water/storage over time; identify which services can operate through specific interruptions.
 
 **id:** COM09
 
-**name:** Durably controlled one-room commons with partner node
+**name:** Start an adaptable commons and grow its services
 
 **protected floor:** No displacement; fair access and paid core labor; each node retains protected ordinary service
 
 **recordkeeping:** Aggregate service and supply measures; no personal histories or public beneficiary lists
 
-**resources:** One room, secure storage, toilet, drinking water, communications and suitable thermal/power support; all site capacities to be measured
+**resources:** Modifiable space and willing participants first; later improvements matched to actual use, resources and protected existing users
 
-**Sources:** [DC03: Oakland Community Land Trust](https://oakclt.org/portfolio-items/liberated23rdave/), [DC08: Oakland Community Land Trust](https://oakclt.org/what-is-a-community-land-trust/), [DC05: City of Hayward](https://www.hayward-ca.gov/public-library/using-library/locations-hours), [DC06: City of Hayward](https://www.hayward-ca.gov/public-library/using-library/meeting-rooms), [DC07: City of San Leandro](https://www.sanleandro.org/162/Public-Library), [LC_SRC02: Town of San Anselmo](https://www.sananselmo.gov/1677/Town-Hall-Resilience-Hub)
+**Sources:** [DC03: Oakland Community Land Trust](https://oakclt.org/portfolio-items/liberated23rdave/), [DC08: Oakland Community Land Trust](https://oakclt.org/what-is-a-community-land-trust/), [DC05: City of Hayward](https://www.hayward-ca.gov/public-library/using-library/locations-hours), [DC06: City of Hayward](https://www.hayward-ca.gov/public-library/using-library/meeting-rooms), [DC07: City of San Leandro](https://www.sanleandro.org/162/Public-Library), [LC_SRC02: Town of San Anselmo](https://www.sananselmo.gov/1677/Town-Hall-Resilience-Hub), [RC4C04: Ava Community Energy](https://avaenergy.org/community/resilience-hubs/), [RC4A01: City of Oakland](https://www.oaklandca.gov/My-Household/Waste-and-Recycling/Free-Compost)
 
 **status:** Proposed; no outreach, space reservation or purchase
 
-**success measure:** Agreed accessible opening and essential functions demonstrated during a defined interruption
+**success measure:** Accessible useful space grows organically; emergency claims remain bounded by demonstrated service
 
 **who can act:** Resident-led organizations, library staff, land trusts and municipal partners
 
@@ -325,4 +325,94 @@ Cycle RC-003; cutoff 2026-09-21.
 **success measure:** Diesel consumed per completed essential delivery falls without worse reliability or shifted unpaid labor
 
 **who can act:** Community meal providers, fleet operators, mechanics and qualified electrical partners
+
+
+---
+
+**cluster id:** CL07
+
+## first steps
+
+- Use the verified ANV public compost return point within posted hours and available stock.
+- Choose season-appropriate crops and test soil; use compost analysis and crop needs to identify nutrient gaps.
+- Overlap a rotating staple supply with successive plantings and existing producer deliveries.
+- Track meals/nutrition available and earliest plausible harvest, not just bags distributed or bed area.
+
+**id:** COM11
+
+**name:** Compost-to-crop and rotating-food bridge
+
+**protected floor:** Protect existing compost users, local food needs and water availability before exporting food
+
+**recordkeeping:** Aggregate crop, nutrient, inventory and service measures; no beneficiary profiling
+
+**resources:** Space, water, seed, appropriate growing medium, tools, labor and a bridging food supply; quantities not secured
+
+**Sources:** [RC4A01: City of Oakland](https://www.oaklandca.gov/My-Household/Waste-and-Recycling/Free-Compost), [RC4A03: UC Statewide IPM](https://ipm.ucanr.edu/home-and-landscape/cultural-tips-for-growing-tomato/), [RC4A04: UC Statewide IPM](https://ipm.ucanr.edu/home-and-landscape/cultural-tips-for-growing-radish/), [RC4A05: UC ANR Solution Center for Nutrient Management](https://ucanr.edu/site/solution-center-nutrient-management/nitrogen-organic-sources), [RC4X01: USDA Food Safety and Inspection Service](https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/shelf-stable-food)
+
+**status:** Proposed; no land, crop or allocation committed
+
+**success measure:** Actual edible output and essential nutrition supplied across the harvest gap
+
+**who can act:** Neighbors, gardeners, food groups and willing local producers
+
+
+---
+
+**cluster id:** CL04
+
+## first steps
+
+- Start with usable modifiable space and portable amenities.
+- Map which partner remains accessible when one site closes or becomes unusable.
+- Share movable tools, shade, communications and transport where available.
+- Add solar/storage or other infrastructure for a defined essential load when feasible.
+
+**id:** COM12
+
+**name:** Partner indoor, outdoor and mobile commons nodes
+
+**protected floor:** Preserve existing users and dignified access; do not shift all load to a partner with unmeasured reserve
+
+**recordkeeping:** Public service/access conditions only; no personal location tracking
+
+**resources:** People and space first; portable amenities and later infrastructure according to use and resources
+
+**Sources:** [RC4C04: Ava Community Energy](https://avaenergy.org/community/resilience-hubs/), [DC07: City of San Leandro](https://www.sanleandro.org/162/Public-Library), [RC4C03: PG&E Corporation](https://investor.pgecorp.com/news-events/press-releases/press-release-details/2022/Collaborating-for-a-Clean-Energy-Future-Californias-First-100-Renewable-Multi-Customer-Microgrid-is-Now-Operational/default.aspx)
+
+**status:** Proposed network; no specific park, encampment, library or owner enrolled
+
+**success measure:** Useful access persists through a specific site interruption; no 24/7 endurance claimed without support
+
+**who can act:** Existing informal groups, libraries, tenant groups and willing space stewards
+
+
+---
+
+**cluster id:** CL04
+
+## first steps
+
+- Choose one useful shared activity and let people alter the space around it.
+- Make something that improves ordinary life: seating, planters, a repaired tool, art or an understandable service guide.
+- Share practical knowledge in several accessible formats; allow rest and participation without a contribution score.
+- Let a small gathering showcase what grew; record money and maintenance needs if the project acquires resources.
+
+**id:** COM13
+
+**name:** Computers and campfires: a making, learning and gathering commons
+
+**protected floor:** Essential access and dignity are not contingent on productivity; protect existing users and organizer capacity
+
+**recordkeeping:** Project decisions and aggregate capability; no personal worth score, tracking or public beneficiary dossiers
+
+**resources:** Modifiable space, interested people and actually available materials first; no full-campus plan or breakthrough technology required
+
+**Sources:** [VISION01: User-supplied document developed with an earlier assistant](https://github.com/Jaradyne/Dis-Unity/blob/main/ideas/15_YEARS_TIL_UTOPIA_SOURCE.md)
+
+**status:** Design proposal adapted from user-supplied vision; no event scheduled or space committed
+
+**success measure:** People can use, change, understand and enjoy the place; useful capability and reciprocal support persist
+
+**who can act:** People already using or able to shape a shared place, with willing neighbors and organizations
 

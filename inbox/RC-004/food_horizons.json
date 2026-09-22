@@ -1,0 +1,213 @@
+{
+  "cycle_id": "RC-004",
+  "agent": "food_horizons",
+  "status": "completed_bounded_research_with_gaps",
+  "cutoff": "2026-09-21",
+  "scope": [
+    "food service cover versus turnover and shelf life",
+    "crop lead times and winter routes",
+    "Oakland compost recovery and nutrient limits",
+    "urban versus rural access"
+  ],
+  "sources": [
+    {
+      "id": "RC4A01",
+      "title": "Get Free Compost",
+      "url": "https://www.oaklandca.gov/My-Household/Waste-and-Recycling/Free-Compost",
+      "publisher": "City of Oakland",
+      "grade": "A",
+      "publication_date": null,
+      "observation_period": "Current undated service page retrieved 2026-09-21",
+      "retrieved_at": "2026-09-21",
+      "limitations": "Publication date absent. Hours and availability can change; first-come supply can run out. No guaranteed allocation or site-opening commitment.",
+      "web_ref": "turn604057view0",
+      "verification": "Full official page opened; relevant passages read"
+    },
+    {
+      "id": "RC4A02",
+      "title": "Composting \u2014 Altamont Landfill",
+      "url": "https://www.wm.com/us/en/facilities/altamont-landfill/composting",
+      "publisher": "WM",
+      "grade": "B",
+      "publication_date": null,
+      "observation_period": "Undated facility description retains references to fall 2018 product availability",
+      "retrieved_at": "2026-09-21",
+      "limitations": "Operator description, not current throughput or spare capacity. Exact Oakland stream routing not established by this page alone. Do not use apparent finished-volume typo.",
+      "web_ref": "turn604057view1",
+      "verification": "Full official page opened; relevant passages read"
+    },
+    {
+      "id": "RC4A03",
+      "title": "Cultural Tips for Growing Tomato",
+      "url": "https://ipm.ucanr.edu/home-and-landscape/cultural-tips-for-growing-tomato/",
+      "publisher": "UC Statewide IPM",
+      "grade": "A",
+      "publication_date": null,
+      "observation_period": "Undated horticultural guidance retrieved 2026-09-21",
+      "retrieved_at": "2026-09-21",
+      "limitations": "Regional planting windows are approximate and describe planting, not harvest. Not a current commercial shipment calendar; no guaranteed winter Bay Area yields.",
+      "web_ref": "turn604057view2",
+      "verification": "Full official page opened; relevant passages read"
+    },
+    {
+      "id": "RC4A04",
+      "title": "Cultural Tips for Growing Radish",
+      "url": "https://ipm.ucanr.edu/home-and-landscape/cultural-tips-for-growing-radish/",
+      "publisher": "UC Statewide IPM",
+      "grade": "A",
+      "publication_date": null,
+      "observation_period": "Undated horticultural guidance retrieved 2026-09-21",
+      "retrieved_at": "2026-09-21",
+      "limitations": "Microclimate and variety matter; rapid produce is not equivalent to a complete calorie/protein supply.",
+      "web_ref": "turn604057view3",
+      "verification": "Full official page opened; relevant passages read"
+    },
+    {
+      "id": "RC4A05",
+      "title": "Nitrogen From Organic Sources",
+      "url": "https://ucanr.edu/site/solution-center-nutrient-management/nitrogen-organic-sources",
+      "publisher": "UC ANR Solution Center for Nutrient Management",
+      "grade": "A",
+      "publication_date": null,
+      "observation_period": "Undated extension synthesis with historical scientific references",
+      "retrieved_at": "2026-09-21",
+      "limitations": "General nutrient-management guidance, not a soil test or assay of current Oakland compost. No claim that one compost application guarantees a crop.",
+      "web_ref": "turn702882view2",
+      "verification": "Full official page opened; relevant passages read"
+    }
+  ],
+  "findings": [
+    {
+      "id": "RC4F_FOOD01",
+      "classification": "FACT",
+      "claim": "Oakland currently lists a year-round free compost distribution point at West Oakland Farm Park, 2847 Peralta Street, through Acta Non Verba. The city says it is made from food scraps and yard waste collected from Oakland homes and businesses.",
+      "sources": [
+        "RC4A01"
+      ],
+      "operational_limits": "Tue\u2013Fri 1\u20136 pm and Saturday 10 am\u20132 pm at retrieval; self-load with own containers; may run out between deliveries. No allocation or availability guarantee."
+    },
+    {
+      "id": "RC4F_FOOD02",
+      "classification": "FACT",
+      "claim": "WM describes an Altamont facility for residential green waste co-collected with food waste; its published design capacity is up to 500 tons/day.",
+      "sources": [
+        "RC4A02"
+      ],
+      "operational_limits": "Undated historical facility page. Do not equate design capacity with throughput, surplus, or the present destination of every Oakland organics stream."
+    },
+    {
+      "id": "RC4F_FOOD03",
+      "classification": "FACT",
+      "claim": "UC IPM describes tomatoes as warm-weather plants, with an approximate May planting window for Monterey County north and December\u2013March for desert valleys. Seed starts may precede regional planting by 4\u20136 weeks.",
+      "sources": [
+        "RC4A03"
+      ],
+      "operational_limits": "These are approximate planting windows, not days to harvest or December output. Winter Bay Area outdoor tomatoes are not a dependable planned reserve."
+    },
+    {
+      "id": "RC4F_FOOD04",
+      "classification": "FACT",
+      "claim": "Radishes are a cool-season crop; UC IPM lists possible year-round planting on the California coast and successive planting for continuity.",
+      "sources": [
+        "RC4A04"
+      ],
+      "operational_limits": "Microclimate, pests, soil and water still control yields. This source reading did not admit a universal numeric days-to-harvest promise."
+    },
+    {
+      "id": "RC4F_FOOD05",
+      "classification": "FACT",
+      "claim": "Compost nitrogen availability depends on decomposition, carbon-to-nitrogen ratio, soil temperature and moisture. Applying compost solely to meet nitrogen can overapply phosphorus and potassium. UC advises matching soil tests and compost nutrient analysis.",
+      "sources": [
+        "RC4A05"
+      ],
+      "operational_limits": "Compost is a nutrient-recycling buffer, not unlimited or immediately plant-available fertilizer. Legume cover crops can add nitrogen with suitable biology and time; they do not create phosphorus or potassium."
+    },
+    {
+      "id": "RC4F_FOOD06",
+      "classification": "PLAUSIBLE MECHANISM",
+      "claim": "Food support can fail through a timing gap even where annual food throughput is large: usable stock is exhausted before alternative deliveries or new harvests arrive.",
+      "sources": [],
+      "operational_limits": "No measured Bay Area or rural Tennessee service-cover days admitted. Turnover, shelf life, accessible stock cover and replacement lead time must be recorded separately."
+    },
+    {
+      "id": "RC4F_FOOD07",
+      "classification": "PLAUSIBLE MECHANISM",
+      "claim": "Seasonal donor networks can complement local growing if the origin has surplus after local needs, and packing, temperature control, winter roads, fuel, drivers, unloading and distribution remain usable.",
+      "sources": [
+        "RC4A03"
+      ],
+      "operational_limits": "This is a route-validation framework, not proof of an operating December tomato corridor. Fresh tomatoes are only one possible crop; preserved foods and seasonal crops may bridge waiting with fewer dependencies."
+    }
+  ],
+  "response_horizons": [
+    {
+      "horizon": "Immediate through several days",
+      "role": "Already accessible food, drinking water and usable meal preparation; protect refrigeration and last-mile access",
+      "measure": "Actual usable inventory, staffed service rate, delivery reach; no automatic assumed duration"
+    },
+    {
+      "horizon": "Days through weeks",
+      "role": "Rotating shelf-stable nutrition, replenishment through alternate suppliers/routes, mobile distribution and safe storage",
+      "measure": "Cover at stressed demand versus conservative next-arrival date, plus water/fuel/staff"
+    },
+    {
+      "horizon": "Weeks through months",
+      "role": "Successive seasonal greens/radishes plus appropriate calorie/protein crops, seedlings, soil fertility and irrigation; overlap stored food with crop lead time",
+      "measure": "Time from current crop stage to edible harvest; yield and loss uncertainty"
+    },
+    {
+      "horizon": "Seasons onward",
+      "role": "Regional crop calendars, storage/preservation, seed and nursery capacity, nutrient return and durable growing access",
+      "measure": "Harvest and resupply under weather, transport and input disruptions; donor protected floor"
+    }
+  ],
+  "proposed_state_fields": [
+    "observed_at",
+    "stock_quantity_and_unit",
+    "usable_nutrition_or_function",
+    "turnover_period",
+    "safe_shelf_life_conditions",
+    "accessible_service_cover_normal",
+    "accessible_service_cover_stressed",
+    "next_replenishment_window",
+    "replacement_lead_time",
+    "water_energy_staff_transport_limits",
+    "protected_donor_floor",
+    "shared_failure_modes"
+  ],
+  "candidate_actions": [
+    "Use the existing free compost pickup as an immediate input lead; transport pooling can make a bulky resource accessible to people without vehicles.",
+    "Begin growing from modifiable space, clean suitable containers or tested beds, seasonal crop choices and dependable water; let the social structure develop with use.",
+    "Keep nutrient adequacy as a mass-balance and timing question: soil and compost tests, harvest exports and expected mineralization, not compost volume alone.",
+    "Assess community service reach by travel time, distribution frequency, eligibility and missed visits rather than claiming the Bay Area is sufficient or rural Tennessee uniformly deficient.",
+    "Overlap stored food, scheduled deliveries and growing crops so a crop planted after disruption is not counted as food available now."
+  ],
+  "gaps": [
+    "No current food-bank inventory count, distribution schedule comparison, food shelf-life mix or usable person-days audit.",
+    "No fully opened current source proves every Oakland green-bin load destination. Separate residential, multifamily and commercial streams before assigning routes.",
+    "No commercial winter tomato route, present spare trucking/refrigeration capacity, or donor-region export surplus verified.",
+    "No current compost nutrient assay, safe soil assessment, available plot, water commitment or outreach obtained."
+  ],
+  "unadmitted_source_leads": [
+    {
+      "url": "https://www.stopwaste.org/sites/default/files/CoIWMP-Final-20220928.1.pdf",
+      "status": "Search snippet only, not opened",
+      "note": "County plan filename suggests 2022; snippet lists Oakland/Altamont CASP for 2019. Needs table context and current verification before a route claim."
+    },
+    {
+      "url": "https://ucanr.edu/site/uc-master-gardeners-inyo-and-mono-counties/article/ov-tomatoes-guide",
+      "status": "Search snippet only; attempted www variant failed",
+      "note": "Snippet calls 60 or fewer days from transplant to harvest very early. Not admitted as a generic Bay Area timing."
+    },
+    {
+      "url": "https://ask.fsis.usda.gov/article/How-long-can-you-keep-canned-goods",
+      "status": "Search snippet only; full opening returned internal error",
+      "note": "Snippet distinguishes high-acid best quality up to18months and low-acid2\u20135years under appropriate intact/cool/dry storage. Root may verify before citing numeric shelf life."
+    }
+  ],
+  "exchange": [
+    "Sent commons_access actual City compost access and conditional outdoor growing inputs.",
+    "Sent coordinator working web status and exact official source packet; stopped new research on recovery request."
+  ],
+  "report": "reports/RC-004/FOOD_HORIZONS.md"
+}

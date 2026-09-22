@@ -1,31 +1,39 @@
-# Common research state — RC-003 committed
+# Common research state — RC-004
 
-Canonical state: `Resilience_Cascade_STATE.json`. Evidence cutoff and completion: 21 September 2026. Public repository: https://github.com/Jaradyne/Dis-Unity.
+Canonical state: `Resilience_Cascade_STATE.json`. Empirical evidence cutoff: **21 September 2026**. Completion and user-authorized design intake: **22 September**. Public repository: https://github.com/Jaradyne/Dis-Unity.
 
 ## What changed
 
-- CL07: food assistance can face rising demand and weakening donation/purchasing capacity together. National rescued-food volume is documented; local reserve and stressed service-days remain unknown. Purchases and government commodities are counterevidence to an all-surplus model. No famine is established.
-- CL08: conditional diesel replacement preserves transport/refrigeration function while changing electricity, equipment and material dependencies. Depot readiness, duty cycle and independently usable fallback determine whether it increases resilience. Present fertilizer constraints are not attributed to electric vehicles.
-- CL09: regional shipping incidents can interact with nutrient availability, but route-wide closure, current cargo losses and California exposure require matched evidence. Improved H1 piracy reports are preserved. July reports do not establish September passage conditions.
-- CL03: sulfur recovery and industrial phosphate processing are mapped. Mosaic curtailments independently rechecked; September restarts and farm fulfillment remain unknown. Venezuela is a conditional conversion pathway, not verified sulfur reserve.
-- CL04: durable control of commons space now includes keys, funded hours, storage, permissions, utilities and replenishment. Hayward's documented hours reduction shows usable access can shrink while buildings remain. Existing nodes are leads, not available property.
-- Bayer/Monsanto has a separate evidence watch for health/regulation, research integrity, governance, operations and access. No present malicious intent or causal responsibility for sulfur shortages is established.
-- All 18 reserve records now identify shared failure conditions. Ten descriptive gauges remain separate; no composite score.
+- Fuel/logistics: existing September retail and inventory observations reconfirmed without counting another shock. Added matched NY Harbor spot movement, September IEA physical-flow context and Japan import-volume counterevidence. Exact current diesel futures settlements and local terminal stock cover remain unknown.
+- Rail: existing compatible rail can conserve fuel before electrification. Caltrain supplies one historical years-scale corridor benchmark; current national diesel/electric locomotive count and spare freight paths are not verified.
+- Sulfur: Venezuela had historical upgrading capability; current equipment condition and exportable output remain unknown. Industrial comparators inform a years-scale scenario, not a promised Venezuelan start date. Japan–Philippines acid/sulfur exchange shows complementary functions without proving spare donor capacity.
+- Food: shelf life, turnover, accessible nutrition cover and time to harvest are separate. Oakland has a verified public compost return point. Nutrient balance, water, crop calendar and rotating staples must bridge new production. Winter tomato routes and a Bay Area/rural Tennessee comparison remain open.
+- Commons: modifiable space and useful presence are enough to begin. Durable control and engineered services can follow. Library access, pandemic closure, exclusion and outdoor exposure are conditional failure pathways. A listed building does not establish an available service.
+- User vision: read the supplied 69-page **15 Years Til Utopia**, preserved a page-labelled text transcription and original file hash, and added `ideas/COMMONS_GROWTH_PATH.md`. Tools, learning, food, essential services, shared prosperity and reciprocal places form the proposed growth direction. Historical technological claims and governance proposals are not adopted as operating facts.
+- All 22 reserve records now carry response clocks: physical life, turnover, usable quantity, demand, inflow, cover, activation, replenishment and replacement. National fuel reference values are isolated from unknown local operational reserve.
 
-## Review and integrity
+## Evidence and review
 
-Four specialist research threads completed. The Bayer specialist did not deliver research; coordinator work is labeled. Three bounded claims received independent source checks. A closing reviewer inspected EDGE15–21 and RES15–18, with no blocking findings; that reviewer authored the nutrient inputs, so those are not independent replications. The recorded review is tied to its pre-final candidate hash. Coordinator changes afterward were recorded explicitly. Whole-state independent review is not claimed, and some RC-002 review remains open.
+The state has **52 signals, 26 conditional links, nine clusters, 22 reserve records, 16 transition proposals, 13 commons cards and 109 source records**. One source record is user-supplied design provenance. Counts are not scores or independent confirmations. `reports/RC-004/RC003_INVENTORY.md` enumerates the preceding cycle's 42/21/77 records.
 
-Four legacy narrative fields were restored from character arrays to sentences. Earlier cycles are untouched. New candidates are checked for this defect. Immutable baselines retain their original admission and are hash-checked; stricter validation applies to every new candidate. Nine integrity tests passed on Linux, including safe legacy repair and interrupted-commit recovery.
+Six bounded specialist threads exchanged findings. Five saved complete packets; the rail specialist delivered findings but only saved an initial checkpoint, so coordinator recovery is separately attributed. A reviewer independent of input authorship and assembly checked the new integration and source mapping, including reserve-clock logic and the historical vision. All four nonblocking suggestions were corrected and rechecked; no blocking findings. This is not independent replication of all primary sources or a whole-state audit. Exact reviewed hashes and final coordinator admission are in `reports/RC-004/REVIEW.md` and the cycle journal.
+
+No core runtime utilities changed in RC-004. Candidate/canonical state validation and ten generated views were checked. The earlier nine-test Linux integrity result belongs to RC-003; it is not a new RC-004 test run. Earlier cycles remain immutable.
 
 ## Next allocation
 
-1. Food + Commons: local purchased/government/recovered mix; funded minimum nutrition, actual usable inventory, cooking/water, delivery and replenishment under one shared shock.
-2. Commons + Infrastructure: one controllable East Bay room or property, paid activation hours and tested essential loads; protect existing users. No outreach has been authorized or sent.
-3. Food + Industry: phosphate restart, merchant sulfur delivery, customer fulfillment and seasonal application windows.
-4. Energy + Logistics: one suitable food-logistics function for electrification; actual commissioned connection, chassis/duty-cycle fit and fallback.
-5. Skeptic + Geographic Context: current cargo-linked route exposure and donor reserve after local floors; finish outstanding RC-002 checks.
+1. Energy + Logistics: matched East Asian product-arrival dates, stocks, demand, compatibility and actual reserve after local floors.
+2. Economic + Infrastructure: dated diesel futures settlements and current locomotive census; one real rail substitution lane.
+3. Food + Geographic Context: comparable East Bay and rural Tennessee nutrition-access/replenishment depth, with no assumed local inventory.
+4. Sulfur + Industrial: current Venezuelan asset condition, funded scope and commissioning/export milestones.
+5. Commons + Resilience: develop a modest starting point in the PDF's growth direction using public program/space evidence; no willing site or partner has yet been established.
 
-Bayer filings and regulatory changes remain in Q16. Social escalation, tariff-caused repair failure and country-by-country export surplus are not newly established.
+Bayer/Monsanto health and operating questions remain separate. `reports/RC-004/GLYPHOSATE_EXPLAINED.md` explains the ongoing assessment; no current malicious intent or responsibility for sulfur scarcity is inferred. Maritime missions and routes remain distinct, with no established diversion of counter-piracy coverage.
 
-The project maintains the record; no user data-entry work is required. Research runs during active sessions, not between them. No schedule, email ingestion, outreach or partner commitment is configured. Begin RC-004 for new state changes; never alter committed evidence, reviews or journals.
+Two public-recipient email proposals are saved for review. Nothing has been sent or drafted inside Gmail. No account ingestion, scheduled digest, event, procurement or partner commitment is configured. Research agents operate during active sessions; Git preserves state and changes between sessions. Begin a later cycle for new empirical research after RC-004 is committed; do not modify committed baselines, journals or review snapshots.
+
+## Post-cycle runtime and handoff integration — 22 September
+
+The concurrent worker/geography branch through `6d531a1` was merged without changing RC-004's canonical research or immutable cycle records. Read the received `WORK_AIDEN_HANDOFF.md` and Work's return `HANDOFF_FOR_CHAT_AIDEN.md`. Chat owns the preparation it can perform; Work retains controlled integration and necessary execution. Real Gemini calls are paused until the user's best-model-only/no-weaker-fallback policy and recoverable prompt retention are enforced; mock tests remain permitted. Deferred prompt materials are saved. This operational handoff is not a new empirical research cycle.
+
+Post-merge verification: 12 tests passed on Linux (nine cycle-integrity tests and three worker tests), canonical validation passed, and all ten views reproduced without differences. No real provider call was made.

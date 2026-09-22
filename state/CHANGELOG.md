@@ -1,6 +1,6 @@
 # CHANGELOG
 
-Cycle RC-003; cutoff 2026-09-21.
+Cycle RC-004; cutoff 2026-09-21.
 
 **action:** Initialized
 
@@ -163,4 +163,70 @@ Cycle RC-003; cutoff 2026-09-21.
 **date:** 2026-09-21
 
 **details:** Reassembled original sentence text in four RC-002 list fields: EDGE01.thresholds, EDGE02.buffers, EDGE07.buffers, COM01.resources. Historical cycle unchanged; validator rejects fragmented narrative. Baseline hashes remain authoritative across stricter validation; every new candidate passes current rules. Regression tests cover blocked admission, migration and canonical-state preservation.
+
+
+---
+
+**action:** Focused continuation
+
+**cycle:** RC-004
+
+**date:** 2026-09-21
+
+**details:** Six specialist threads used the shared exchange. Five full packets saved; delivered rail findings recovered by coordinator without rewriting initial checkpoint. Selected full-page verification upgraded two commons leads.
+
+
+---
+
+**action:** Correct interpretation
+
+**cycle:** RC-004
+
+**date:** 2026-09-21
+
+**details:** RC-003 means third research cycle, not crisis level. Its 42 signals, 21 links and 77 source records are cumulative records, not independent emergencies or confirmations. Full enumerated inventory saved.
+
+
+---
+
+**action:** Reserve clocks and commons correction
+
+**cycle:** RC-004
+
+**date:** 2026-09-21
+
+**details:** All reserves now separate shelf life, turnover, usable cover, activation, replenishment and replacement. Commons can start in modifiable space; formal facilities and engineered power are later additions. Pandemic/exclusion access losses are conditional, not an invented current law.
+
+
+---
+
+**action:** Counterevidence and uncertainty
+
+**cycle:** RC-004
+
+**date:** 2026-09-21
+
+**details:** Existing EIA retail/inventory readings reconfirmed without new-shock counting. Japan petroleum import volume increased year on year. San Anselmo uniqueness rejected. OakCLT later public activity found. No actual anti-piracy fleet diversion, current Venezuelan surplus, national rail split or diesel futures series established.
+
+
+---
+
+**action:** Attention redirected
+
+**cycle:** RC-004
+
+**date:** 2026-09-21
+
+**details:** Prioritize matched fuel arrival/stock cover, futures definitions, rail conversion capacity and rural food-access comparisons. Bay Area was a demonstration geography, not a finding of greatest need. No mass migration is assumed. Outreach proposals remain unsent.
+
+
+---
+
+**action:** User-authorized vision incorporation
+
+**cycle:** RC-004
+
+**date:** 2026-09-22
+
+**details:** Read all 69 pages of supplied 15 Years Til Utopia PDF; preserved page-labelled text and original file hash. Added an incremental commons growth pathway, transition and commons card. Vision remains design provenance, not evidence of ready technology or a fifteen-year forecast. Empirical evidence cutoff remains September 21.
 

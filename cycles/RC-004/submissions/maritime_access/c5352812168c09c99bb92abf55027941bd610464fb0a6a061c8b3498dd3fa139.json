@@ -1,0 +1,200 @@
+{
+  "agent": "maritime_access",
+  "at": "2026-09-22T05:24:52.421225+00:00",
+  "base_hash": "37a9b216e47bbc98ca4ebceb64e38ce3d530d537ea557d82374d243101c0bc33",
+  "cycle_id": "RC-004",
+  "payload": {
+    "agent": "maritime_access",
+    "cutoff": "2026-09-21",
+    "cycle_id": "RC-004",
+    "findings": [
+      {
+        "direction": "improving",
+        "epistemic_label": "FACT",
+        "id": "RC4M-F01",
+        "interpretation": "The response was military, with civilian mariner reporting and regional coordination essential. Neither source attributes success to a naval battle or establishes blanket protection.",
+        "observation": "The September10 GLAMOR incident was resolved through merchant-crew protective action and a military-led multinational response. ATALANTA redirected assets; Republic of Korea-led CTF151 coordinated a Japanese maritime patrol aircraft and information sharing with ATALANTA, the Indian Navy and regional agencies. Pirates left; the crew was safe and the vessel resumed transit.",
+        "source_ids": [
+          "RC4M01",
+          "RC4M05"
+        ]
+      },
+      {
+        "direction": "worsening",
+        "epistemic_label": "FACT",
+        "id": "RC4M-F02",
+        "interpretation": "Actual physical flow reductions are established in a dated estimate; a uniform blockade around the whole Arabian Peninsula is not established. This is one supply event shared with fuel_cover, not a second independent shock.",
+        "observation": "IEA September11 public report estimates August Gulf oil exports near13 million barrels/day, almost half prewar. It describes severely constrained Hormuz flows, US military escorts and increased bypass flows, alongside renewed attacks at Bab el-Mandeb.",
+        "source_ids": [
+          "RC4M02"
+        ]
+      },
+      {
+        "direction": "mixed",
+        "epistemic_label": "FACT",
+        "id": "RC4M-F03",
+        "interpretation": "Mandates overlap geographically but are not interchangeable. The same ship cannot be assumed available to every task force or every threat.",
+        "observation": "ATALANTA combines anti-piracy and vulnerable-vessel protection with other maritime-security tasks. CTF151 has a counter-piracy mission and coordinates with EUNAVFOR. ASPIDES is a distinct defensive shipping-protection operation associated with the Red Sea crisis, extended to February28,2027.",
+        "source_ids": [
+          "RC4M03",
+          "RC4M04",
+          "RC4M06"
+        ]
+      },
+      {
+        "direction": "unclear",
+        "epistemic_label": "PLAUSIBLE MECHANISM",
+        "id": "RC4M-F04",
+        "interpretation": "No public deployment order or matched before/after coverage evidence was verified showing current Hormuz/Red Sea operations depleted piracy response elsewhere. Successful September response is counterevidence to a claim that response has ceased; it does not settle overall adequacy.",
+        "observation": "Combat protection, escorts and counter-piracy can compete for ships, aircraft, crews and maintenance time if contributing countries reassign the same assets.",
+        "source_ids": [
+          "RC4M01",
+          "RC4M03",
+          "RC4M04",
+          "RC4M05",
+          "RC4M06"
+        ]
+      },
+      {
+        "direction": "unclear",
+        "epistemic_label": "PLAUSIBLE MECHANISM",
+        "id": "RC4M-F05",
+        "interpretation": "Trace origin, cargo type, route and destination separately. A price spike or reduced Gulf export flow alone cannot quantify additional waiting time at a particular East Asian refinery.",
+        "observation": "Eastbound Gulf-to-East-Asia cargo exits through Hormuz; it need not pass through Bab el-Mandeb. Supplies sourced through Suez/Red Sea face a different route constraint. Atlantic replacements may require longer voyages and suitable refinery feedstock.",
+        "source_ids": [
+          "RC4M02"
+        ]
+      }
+    ],
+    "gaps": [
+      "No public source verified a current reassignment from anti-piracy to Hormuz/RedSea defense with measured coverage loss.",
+      "No current daily route-clearance certificate or complete incident dataset obtained.",
+      "UKMTO landing page exposes incident tools but detailed current reports not retrieved in this bounded pass.",
+      "Full ASPIDES mandate PDF not separately reopened; official search-result body supports only limited mission/extension claim.",
+      "Do not use CTF151 undated currentcommander line; it conflicts with dated September article."
+    ],
+    "next_actions": [
+      "Match EastAsian arrivals and usable inventories to specific origin/routes and replenishment rates.",
+      "Review dated public deployment/mission updates only if a material capacity-diversion claim arises; avoid inferring coverage from fleet size."
+    ],
+    "peer_exchange": [
+      {
+        "action": "Deduplicate IEA observations and leave market/inventory quantification to fuel thread.",
+        "peer": "fuel_cover",
+        "received": "Independently verified same September11 IEA public flow report."
+      },
+      {
+        "peer": "coordinator",
+        "sent": "GLAMOR military details, mission distinctions, no verified diversion evidence, no blanket peninsula blockade claim."
+      }
+    ],
+    "resilience": {
+      "commons": "Shared bulk ordering can consolidate essential demand and publish replenishment windows without assuming every organization can purchase at spot prices.",
+      "falsifier": "Normal timely deliveries plus adequate accessible stocks would downgrade a predicted downstream interruption; documented reassignment plus reduced response coverage would support the currently unproven diversion mechanism.",
+      "growth": "Route-diverse procurement, inventory visibility, port coordination, appropriate electric local logistics, efficient fuel use and regional maritime cooperation.",
+      "lifeboat": "A rotating critical-fuel allocation and essential delivery service that can operate until a realistic replenishment arrival; donor and recipient clocks both matter.",
+      "release": "Postpone discretionary fuel-intensive activity or nonessential shipments while preserving food, healthcare and repair logistics; do not exhaust donor essentials.",
+      "reserve": "Accessible compatible inventories, tankage and refinable feedstock can bridge waiting; each needs days-of-cover at essential-use demand, withdrawal rate and protected domestic floor. No new country inventory quantified by this thread.",
+      "substitution": "Alternate crude/product origins, legal commercial swaps, usable bypass routes and compatible local refining. Swapping ownership does not create molecules; refinery nameplate is not operable spare capacity."
+    },
+    "response_time_model": {
+      "decision_rule": "A substitute can bridge the gap only if useful delivery or production begins before essential-service stocks are exhausted, at sufficient rate. A one-off inventory draw does not fix a persistent inflow deficit.",
+      "distinguish": [
+        "Transit time",
+        "Port delay",
+        "Time until usable inventory exhaustion",
+        "Time to procure and finance cargo",
+        "Time to process compatible feedstock",
+        "Time to commission new supply"
+      ],
+      "unknowns": [
+        "No matched EastAsian cargo-origin arrival series verified by this maritime thread.",
+        "No current fleet coverage or asset-diversion assessment completed."
+      ]
+    },
+    "scope": [
+      "military piracy response",
+      "Hormuz versus Bab el-Mandeb restrictions",
+      "mission overlap and diversion evidence",
+      "time-cover logistics"
+    ],
+    "sources": [
+      {
+        "grade": "A",
+        "id": "RC4M01",
+        "limitations": "Official operational account; one successful response does not establish regional patrol sufficiency. Do not use ambiguous cumulative captivity total.",
+        "observation_period": "2026-09-10 incident",
+        "publication_date": "2026-09-11",
+        "publisher": "EUNAVFOR ATALANTA",
+        "retrieved_at": "2026-09-21",
+        "title": "Resolution of a piracy incident in the Gulf of Aden",
+        "url": "https://eunavfor.eu/news/resolution-piracy-incident-gulf-aden",
+        "web_ref": "turn301884view0"
+      },
+      {
+        "grade": "A",
+        "id": "RC4M02",
+        "limitations": "Public highlights only, not subscriber report. Preliminary flow estimates are not matched East Asian port-arrival series or September21 passage clearance. Deduplicate with fuel_cover same-source record.",
+        "observation_period": "August 2026 estimates and early September 2026 market observations; forecasts separately labeled",
+        "publication_date": "2026-09-11",
+        "publisher": "International Energy Agency",
+        "retrieved_at": "2026-09-21",
+        "title": "Oil Market Report - September 2026",
+        "url": "https://www.iea.org/reports/oil-market-report-september-2026",
+        "web_ref": "turn301884view2"
+      },
+      {
+        "grade": "A",
+        "id": "RC4M03",
+        "limitations": "Dynamic page includes stale current-commander and last-incident passages; use only mission/composition description. Dated September11 account establishes Republic of Korea-led response. No current force total derived.",
+        "observation_period": "Structural mission description, retrieved 2026-09-21",
+        "publication_date": null,
+        "publisher": "Combined Maritime Forces",
+        "retrieved_at": "2026-09-21",
+        "title": "CTF 151: Counter-piracy",
+        "url": "https://combinedmaritimeforces.com/ctf-151-counter-piracy/",
+        "web_ref": "turn678389view0"
+      },
+      {
+        "grade": "A",
+        "id": "RC4M04",
+        "limitations": "Structural mandate does not establish actual assigned assets or coverage on a specific date. Generic normal-force totals are not used as current deployments.",
+        "observation_period": "Mission description referencing 2024 mandate and 2025/2026 amendments; retrieved 2026-09-21",
+        "publication_date": null,
+        "publisher": "EUNAVFOR ATALANTA",
+        "retrieved_at": "2026-09-21",
+        "title": "Mission",
+        "url": "https://eunavfor.eu/mission",
+        "web_ref": "turn678389view3"
+      },
+      {
+        "grade": "A",
+        "id": "RC4M05",
+        "limitations": "Another participating operator account, not independent nonparticipant confirmation. Spells vessel Galmor versus EUNAVFOR Glamor. Response within two hours is incident-specific, not a service guarantee.",
+        "observation_period": "Recent September 2026 MV Galmor incident; aligned with EUNAVFOR September10 GLAMOR report, with spelling discrepancy retained",
+        "publication_date": "2026-09-11",
+        "publisher": "Combined Maritime Forces",
+        "retrieved_at": "2026-09-21",
+        "title": "Combined Task Force 151 Leads Response to Piracy Attack in Gulf of Aden",
+        "url": "https://combinedmaritimeforces.com/2026/09/11/combined-task-force-151-leads-response-to-piracy-attack-in-gulf-of-aden/",
+        "web_ref": "turn103999view0"
+      },
+      {
+        "grade": "A",
+        "id": "RC4M06",
+        "limitations": "Official primary text retrieved through search result body, not a separate PDF reopening. Establishes defensive Red Sea/surrounding-water mission and extension, not asset deployment or escort capacity.",
+        "observation_period": "Mandate extension to 2027-02-28",
+        "publication_date": "2026-02-23",
+        "publisher": "Council of the European Union",
+        "retrieved_at": "2026-09-21",
+        "title": "Red Sea: Council extends the mandate of Operation ASPIDES to safeguard freedom of navigation",
+        "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/02/23/red-sea-council-extends-the-mandate-of-operation-aspides-to-safeguard-freedom-of-navigation/pdf/",
+        "web_ref": "turn103999search12"
+      }
+    ],
+    "status": "complete_with_limitations"
+  },
+  "payload_hash": "c6de4d2a665685758c4916fe8d0a73fe11b058dd422e80464680d5c867916219",
+  "phase": "submitted",
+  "submission_id": "c5352812168c09c99bb92abf55027941bd610464fb0a6a061c8b3498dd3fa139"
+}

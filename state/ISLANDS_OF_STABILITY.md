@@ -1,6 +1,6 @@
 # ISLANDS_OF_STABILITY
 
-Cycle RC-003; cutoff 2026-09-21.
+Cycle RC-004; cutoff 2026-09-21.
 
 **available surplus:** Not quantified; candidate complement, not committed rescue capacity
 
@@ -207,4 +207,25 @@ Cycle RC-003; cutoff 2026-09-21.
 **self sufficient:** False
 
 **Sources:** [DC03: Oakland Community Land Trust](https://oakclt.org/portfolio-items/liberated23rdave/), [DC08: Oakland Community Land Trust](https://oakclt.org/what-is-a-community-land-trust/), [EFS03: Alameda County Community Food Bank](https://www.accfb.org/annual-report-2025/), [DC02: RYSE Center](https://rysecenter.org/origin-story-of-ryse)
+
+
+---
+
+**available surplus:** Unknown; reported flows are committed industrial operations
+
+**donor guardrail:** Do not divert committed process acid or sulfur without verifying donor needs and replacement
+
+**id:** ISL10
+
+**limits:** Shipping concentration and parent-process disruption can affect both partners
+
+**name:** Japan–Philippines complementary process-input network
+
+**needs in return:** Ore/feed, energy, vessels, processing hardware, maintenance and reliable counterpart operations
+
+**offers:** Documented sulfur and sulfuric-acid coproduct exchange supporting metal processing
+
+**self sufficient:** False
+
+**Sources:** [RC4S05: Sumitomo Metal Mining](https://www.smm.co.jp/en/ir/library/integrated_report/materialflow/), [RC4S07: Sumitomo Metal Mining](https://www.smm.co.jp/en/corp_info/ebook_CompanyProfile/pageindices/index9.html)
 

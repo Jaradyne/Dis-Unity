@@ -1,0 +1,245 @@
+{
+  "agent": "fuel_cover",
+  "cycle_id": "RC-004",
+  "status": "completed_bounded_research_with_gaps",
+  "evidence_cutoff": "2026-09-21",
+  "sources": [
+    {
+      "id": "RC4F01",
+      "title": "Weekly Petroleum Status Report, week ended September 11, 2026",
+      "publisher": "U.S. Energy Information Administration",
+      "url": "https://www.eia.gov/petroleum/supply/weekly/pdf/wpsrall.pdf",
+      "publication_date": "2026-09-16",
+      "observation_period": "2026-09-11; retail observations 2026-09-14",
+      "retrieved_at": "2026-09-21",
+      "grade": "A",
+      "limitations": [
+        "Dynamic endpoint: selected dated values retained below. Weekly estimates may be revised. Distillates include multiple grades; countrywide stocks are not discretionary or locally accessible reserves. Table 13 futures series is suspended after April 5, 2024."
+      ],
+      "web_refs": [
+        "turn836733view0",
+        "turn513203view5",
+        "turn442633view6"
+      ]
+    },
+    {
+      "id": "RC4F02",
+      "title": "Gasoline and Diesel Fuel Update",
+      "publisher": "U.S. Energy Information Administration",
+      "url": "https://www.eia.gov/petroleum/gasdiesel/",
+      "publication_date": "2026-09-15",
+      "observation_period": "2026-08-31, 2026-09-07, 2026-09-14",
+      "retrieved_at": "2026-09-21",
+      "grade": "A",
+      "limitations": [
+        "Dynamic endpoint; release date shown on retrieved page is September 15 and latest observation September 14. Retail prices include taxes; not wholesale, spot or futures prices."
+      ],
+      "web_refs": [
+        "turn461093view1"
+      ]
+    },
+    {
+      "id": "RC4F03",
+      "title": "Oil Market Report — September 2026, public highlights",
+      "publisher": "International Energy Agency",
+      "url": "https://www.iea.org/reports/oil-market-report-september-2026",
+      "publication_date": "2026-09-11",
+      "observation_period": "August 2026 estimates; early September prices; forecasts separately labeled",
+      "retrieved_at": "2026-09-21",
+      "grade": "A",
+      "limitations": [
+        "Only public highlights accessed, not paid report. Global and regional estimates are not country-specific arrival delays or spare export capacity. Brent futures commentary does not identify a delivery month or exact quote timestamp."
+      ],
+      "web_refs": [
+        "turn461093view0"
+      ]
+    },
+    {
+      "id": "RC4F04",
+      "title": "The Northeast Home Heating Oil Reserve",
+      "publisher": "U.S. Department of Energy",
+      "url": "https://www.energy.gov/hgeo/opr/northeast-home-heating-oil-reserve",
+      "publication_date": null,
+      "observation_period": "Undated current program page as retrieved September 21, 2026",
+      "retrieved_at": "2026-09-21",
+      "grade": "A",
+      "limitations": [
+        "Program description is not an independent tank audit, release order or community allocation. Specifically a northeastern heating-oil reserve; not spare California fuel."
+      ],
+      "web_refs": [
+        "turn185249view3"
+      ]
+    },
+    {
+      "id": "RC4F05",
+      "title": "Value of Exports and Imports August 2026 (Provisional)",
+      "publisher": "Japan Ministry of Finance / Customs and Tariff Bureau",
+      "url": "https://www.customs.go.jp/toukei/shinbun/trade-st_e/2026/2026084e.pdf",
+      "publication_date": "2026-09-16",
+      "observation_period": "August 2026 versus August 2025",
+      "retrieved_at": "2026-09-21",
+      "grade": "A",
+      "limitations": [
+        "Provisional imports are recorded by import-permit date, not measured voyage duration. The principal-commodity row is labeled PETROLEUM, with PETROLEUM PRODUCTS separate. Japanese total is not evidence for all East Asia."
+      ],
+      "web_refs": [
+        "turn910343view0"
+      ]
+    },
+    {
+      "id": "RC4F06",
+      "title": "NY Harbor ULSD Futures Quotes / Contract Highlights",
+      "publisher": "CME Group",
+      "url": "https://www.cmegroup.com/markets/energy/refined-products/heating-oil.quotes.html",
+      "publication_date": null,
+      "observation_period": "Contract specification page retrieved September 21, 2026; no dated settlement retrieved",
+      "retrieved_at": "2026-09-21",
+      "grade": "A",
+      "limitations": [
+        "Page exposes contract specifications but no current dated contract settlement in retrieved text. Cannot support a current NY Harbor ULSD futures price or matched change."
+      ],
+      "web_refs": [
+        "turn461093view2"
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "id": "FUEL04-01",
+      "epistemic_status": "FACT",
+      "title": "Diesel retail and spot prices increased sharply in matched series",
+      "date": "2026-09-14",
+      "source_ids": [
+        "RC4F01",
+        "RC4F02"
+      ],
+      "data": {
+        "us_retail_dollars_per_gallon": {
+          "2026-09-07": 5.967,
+          "2026-09-14": 6.285
+        },
+        "california_retail_dollars_per_gallon": {
+          "2026-09-07": 7.764,
+          "2026-09-14": 8.039
+        },
+        "new_york_harbor_ulsd_spot_dollars_per_gallon": {
+          "2026-09-04": 4.549,
+          "2026-09-11": 5.048
+        }
+      },
+      "interpretation": "Calculated weekly increases: U.S. retail 5.33%; California retail 3.54%; NY Harbor ULSD spot 10.97%. Each comparison stays within one series. No current specific futures contract price verified."
+    },
+    {
+      "id": "FUEL04-02",
+      "epistemic_status": "FACT",
+      "title": "Stocks improved for one week while reserve remained below seasonal context",
+      "date": "2026-09-11",
+      "source_ids": [
+        "RC4F01"
+      ],
+      "data": {
+        "us_distillates_million_barrels": 107.9,
+        "weekly_change_million_barrels": 1.6,
+        "below_five_year_seasonal_average_percent": 13,
+        "ulsd_15ppm_and_under_million_barrels": 97.0,
+        "refinery_utilization_percent": 96.8,
+        "refinery_crude_inputs_million_barrels_per_day": 17.3,
+        "distillate_output_million_barrels_per_day": 5.2,
+        "four_week_distillate_products_supplied_million_barrels_per_day": 3.602,
+        "regional_distillates_million_barrels": {
+          "PADD1": 21.6,
+          "PADD2": 28.8,
+          "PADD3": 43.8,
+          "PADD4": 3.3,
+          "PADD5": 10.4
+        }
+      },
+      "interpretation": "107.9/3.602 = 29.96 days as a gross stock-to-recent-domestic-use ratio. This calculation is not EIA published days-supply in this retrieval, a countdown to exhaustion, or protected essential-service coverage. Production/imports continue; exports, operating floors, grades, location and delivery access matter."
+    },
+    {
+      "id": "FUEL04-03",
+      "epistemic_status": "FACT",
+      "title": "IEA reports reduced physical flows alongside prices",
+      "date": "2026-09-11",
+      "source_ids": [
+        "RC4F03"
+      ],
+      "statement": "IEA estimates August observed global oil inventories fell 95 million barrels and Gulf plus Russian net diesel/gasoil exports were 1.6 million barrels/day below February. It reports refinery-throughput losses in crude-importing Asia and higher freight costs. These observations support a physical constraint, beyond price alone.",
+      "forecast_separate": "IEA defers full Gulf supply recovery into 2027; this is a forecast, not an established restoration date.",
+      "falsifier": "Sustained product export recovery, rebuilding accessible distillate stocks, and normal lead times would weaken the ongoing squeeze hypothesis."
+    },
+    {
+      "id": "FUEL04-04",
+      "epistemic_status": "FACT",
+      "title": "Japan provides counterevidence to a blanket East Asian import decline",
+      "date": "2026-08",
+      "source_ids": [
+        "RC4F05"
+      ],
+      "statement": "Japan provisional August PETROLEUM import quantity was 11,594 thousand kilolitres, up 3.6% year over year; import value rose 58.7%.",
+      "interpretation": "Rising cost cannot be read as rising volume at the same rate. Neither this monthly flow nor IEA regional estimates measure voyage-time delays. Country-specific arrival timing remains unknown."
+    },
+    {
+      "id": "FUEL04-05",
+      "epistemic_status": "FACT",
+      "title": "A designated refined-product reserve exists but has a defined regional mission",
+      "date": null,
+      "source_ids": [
+        "RC4F04"
+      ],
+      "statement": "DOE describes approximately one million barrels of ultra-low-sulfur distillate in the Northeast Home Heating Oil Reserve and an emergency auction release process.",
+      "interpretation": "It cannot be counted as freely available California or global donor stock. Release authority, beneficiaries, delivery and protected local needs still govern usable cover."
+    },
+    {
+      "id": "FUEL04-06",
+      "epistemic_status": "UNKNOWN",
+      "title": "Exact latest NY Harbor ULSD and ICE gasoil futures contract comparison remains unverified",
+      "date": "2026-09-21",
+      "source_ids": [
+        "RC4F01",
+        "RC4F03",
+        "RC4F06"
+      ],
+      "statement": "CME confirms HO contract size 42,000 gallons and quotation in dollars/cents per gallon, but retrieved page supplied no current settlement. EIA suspended its futures table in April 2024. IEA reports Brent at $105/barrel, $21 above early August, but without a specified contract/month and timestamp, so this is attributed market commentary rather than a reproducible contract series."
+    },
+    {
+      "id": "FUEL04-07",
+      "epistemic_status": "PLAUSIBLE MECHANISM",
+      "title": "Time cover is governed by net draw, deliverability and the next replacement",
+      "source_ids": [
+        "RC4F01",
+        "RC4F03",
+        "RC4F04"
+      ],
+      "mechanism": "A shipment delay draws down usable stock; swaps, alternative routes and compatible refinery output can replace some arrivals, while safe demand reduction slows depletion. Crude cannot directly fill diesel tanks. High refinery utilization limits easy headroom.",
+      "buffers": [
+        "Usable specification-compatible local stock after operating floors",
+        "Confirmed replenishment on routes outside the initiating hazard",
+        "Local trades or swaps backed by actual inventory and transport",
+        "Refinery yield/run adjustments only within engineering and feed constraints",
+        "Essential-load prioritization, reduced idling and consolidated trips",
+        "Suitable existing rail routes after checking total diesel and first/last mile"
+      ],
+      "threshold": "Escalate when conservative confirmed replenishment arrives after the protected-floor crossing date, or local rationing/non-delivery corroborates the national signal.",
+      "falsifier": "Independent replenishment arrives before the floor crossing and usable inventories recover without sacrificing essential donor service.",
+      "donor_floor": "Any transfer must leave the donor its operating minimum, essential demand cover and contingency margin; those quantities are currently unknown.",
+      "growth": [
+        "Inventory-quality and delivery coordination",
+        "Depot refrigeration shore power",
+        "Efficient suitable freight shifts",
+        "Repair and maintenance preserving fuel efficiency"
+      ],
+      "lifeboat": "A defined essential transport/refrigeration service supplied by compatible physically deliverable fuel, or an independently powered substitute; not an unallocated national stock number."
+    }
+  ],
+  "gaps": [
+    "No publicly verified exact voyage-delay distribution for individual East Asian importing countries in this bounded pass.",
+    "Japanese stockpile current table blocked with HTTP403; no new country reserve-days admitted.",
+    "No current exact HO or ICE gasoil contract settlement series admitted.",
+    "No audited local terminal, fleet or community usable diesel stock, protected floor, essential demand or replenishment contract."
+  ],
+  "access_notes": [
+    "Initial EIA landing-page fetch timed out. Alternate official PDF, EIA retail page, IEA public September highlights, Japan Customs PDF and DOE reserve page worked. Search snippets had stale or conflicting dates; dated opened sources govern."
+  ],
+  "report": "reports/RC-004/FUEL_AND_WAITING.md"
+}

@@ -1,0 +1,196 @@
+{
+  "agent": "sulfur_leadtime",
+  "at": "2026-09-22T05:24:52.432516+00:00",
+  "base_hash": "37a9b216e47bbc98ca4ebceb64e38ce3d530d537ea557d82374d243101c0bc33",
+  "cycle_id": "RC-004",
+  "payload": {
+    "agent": "sulfur_leadtime",
+    "cutoff": "2026-09-21",
+    "cycle_id": "RC-004",
+    "exchanges": [
+      "Shared primary project timing anchors with coordinator. Fuel transition coproduct and common upstream/routes remain conditional mechanisms."
+    ],
+    "findings": [
+      {
+        "claim": "Claus recovery converts H2S produced in gas treating or crude refining into elemental sulfur; a sulfur-bearing crude cargo is not already merchant sulfur.",
+        "confidence": "high technical",
+        "epistemic_label": "FACT",
+        "id": "RC4S-F01",
+        "source_ids": [
+          "RC4S01"
+        ]
+      },
+      {
+        "claim": "Venezuela historically built large upgrading/desulfurization capacity: Sincor at Jose started construction in 1998 and was completed by January 2002.",
+        "confidence": "high historical; current condition unknown",
+        "epistemic_label": "FACT",
+        "event_id": "sincor_upgrader_completion_20020110",
+        "id": "RC4S-F02",
+        "source_ids": [
+          "RC4S04"
+        ]
+      },
+      {
+        "claim": "Comparable major sulfur/gas projects take years: Shah original build 2010–2015, startup January 2015 and full capacity July 2015; Qatar 2010 combined upgrade award had a planned 38-month schedule.",
+        "confidence": "high documented history/announced schedule; not Venezuela forecast",
+        "epistemic_label": "FACT",
+        "id": "RC4S-F03",
+        "source_ids": [
+          "RC4S02",
+          "RC4S03"
+        ]
+      },
+      {
+        "claim": "A functioning Venezuelan recovery train with a limited repair bottleneck could restore merchant sulfur sooner than a new plant, but no defensible site-specific recovery duration or exportable volume is established.",
+        "confidence": "high process distinction; duration unknown",
+        "epistemic_label": "PLAUSIBLE MECHANISM",
+        "id": "RC4S-F04",
+        "source_ids": [
+          "RC4S01",
+          "RC4S04"
+        ]
+      },
+      {
+        "claim": "Acid leaching helps dissolve target metals from suitable ores. Copper oxide routes and nickel/cobalt HPAL can require sulfuric acid, while other copper processing routes differ.",
+        "confidence": "high technical",
+        "epistemic_label": "FACT",
+        "id": "RC4S-F05",
+        "source_ids": [
+          "RC4S06",
+          "RC4S07"
+        ]
+      },
+      {
+        "claim": "SMM describes a complementary network that recovers acid from Japanese copper-concentrate processing and uses it in Philippine HPAL operations, as well as transferring sulfur from Japanese nickel processing.",
+        "confidence": "high operator network description; current spare capacity unknown",
+        "epistemic_label": "FACT",
+        "id": "RC4S-F06",
+        "source_ids": [
+          "RC4S05"
+        ]
+      },
+      {
+        "claim": "Fuel-processing contraction can reduce recovered sulfur, and smelter curtailment can reduce byproduct acid. A replacement supplier sharing the same upstream process or shipping corridor may fail under the same shock.",
+        "confidence": "high mechanism; no new observed curtailment attributed",
+        "epistemic_label": "PLAUSIBLE MECHANISM",
+        "id": "RC4S-F07",
+        "source_ids": [
+          "RC4S01",
+          "RC4S05"
+        ]
+      }
+    ],
+    "gaps": [
+      "No current Venezuelan recovery-unit availability, merchant sulfur output, stock or committed export cargo established.",
+      "Sincor source proves historical upgrading/desulfurization, not current sulfur-recovery train condition.",
+      "Qatar 38-month period is announced, not independently verified completion.",
+      "No site-specific sulfur/acid storage life, available stock cover, copper/HPAL net acid consumption or spare smelter-acid allocation established.",
+      "General electrowinning acid regeneration was not separately verified in the bounded retrieved evidence; no quantitative recycle credit admitted."
+    ],
+    "report_path": "reports/RC-004/SULFUR_AND_MINING.md",
+    "review_status": "Coordinator integration pending; no independent pass claimed",
+    "sources": [
+      {
+        "grade": "A",
+        "id": "RC4S01",
+        "last_checked_by": "sulfur_leadtime",
+        "limitations": "Technical chemistry only; not a current Venezuelan capacity or project-schedule assessment. Duplicate of canonical NUT03; coordinator should deduplicate by URL.",
+        "observation_period": "Historical technical process description",
+        "publication_date": "2015-04",
+        "publisher": "U.S. EPA",
+        "retrieved_at": "2026-09-21",
+        "title": "Sulfur Recovery, AP-42 section 8.13",
+        "url": "https://www.epa.gov/sites/default/files/2020-09/documents/8.13_sulfur_recovery.pdf",
+        "web_ref": "turn495325view1"
+      },
+      {
+        "grade": "A",
+        "id": "RC4S02",
+        "last_checked_by": "sulfur_leadtime",
+        "limitations": "Contractor project history, not a Venezuelan project estimate. Reported expansion design output is not current uncommitted reserve.",
+        "observation_period": "Original project 2010–2015; startup January 2015, full capacity July 2015; expansion listed 2021–2025",
+        "publication_date": null,
+        "publisher": "Saipem",
+        "retrieved_at": "2026-09-21",
+        "title": "Shah Gas Plant",
+        "url": "https://www.saipem.com/en/saipem-worldwide-projects/shah-gas-plant",
+        "web_ref": "turn495325view0"
+      },
+      {
+        "grade": "A",
+        "id": "RC4S03",
+        "last_checked_by": "sulfur_leadtime",
+        "limitations": "Planned completion only; actual completion not verified. Combined gas sweetening, sulfur-recovery upgrade and acid-gas recovery scope, not an isolated Claus package.",
+        "observation_period": "2010 contract award; prospective 38-month schedule",
+        "publication_date": "2010-03-29",
+        "publisher": "Petrofac",
+        "retrieved_at": "2026-09-21",
+        "title": "Petrofac Wins Qatar Petroleum Contract Worth More Than US$600 Million",
+        "url": "https://www.petrofac.com/media/news/petrofac-wins-qatar-petroleum-contract-worth-more-than-us-600-million",
+        "web_ref": "turn809929view1"
+      },
+      {
+        "grade": "A",
+        "id": "RC4S04",
+        "last_checked_by": "sulfur_leadtime",
+        "limitations": "Historical partner announcement. Verifies Venezuelan upgrading/desulfurization capability existed; does not establish current usable sulfur-recovery trains, stock, output, ownership or restart condition.",
+        "observation_period": "Upgrader construction began 1998, completed by January 2002; first low-sulfur tanker loading then expected February",
+        "publication_date": "2002-01-10",
+        "publisher": "Equinor / Statoil archive",
+        "retrieved_at": "2026-09-21",
+        "title": "Upgrading Sincor oil",
+        "url": "https://www.equinor.com/news/archive/2002/01/10/UpgradingSincorOil",
+        "web_ref": "turn809929view0"
+      },
+      {
+        "grade": "A",
+        "id": "RC4S05",
+        "last_checked_by": "sulfur_leadtime",
+        "limitations": "Operator-described routes; no measured current spare acid supply, shipment availability or full input independence.",
+        "observation_period": "2025 integrated-report description of corporate material network",
+        "publication_date": "2025",
+        "publisher": "Sumitomo Metal Mining",
+        "retrieved_at": "2026-09-21",
+        "title": "Material Flows, Integrated Report 2025",
+        "url": "https://www.smm.co.jp/en/ir/library/integrated_report/materialflow/",
+        "web_ref": "turn809929view2"
+      },
+      {
+        "grade": "A",
+        "id": "RC4S06",
+        "last_checked_by": "sulfur_leadtime",
+        "limitations": "Used for leaching, solvent extraction/electrowinning and ore-route distinctions; undated production totals and shares are not admitted. Page does not establish plant-specific net acid consumption.",
+        "observation_period": "Technical description, accessed September 2026",
+        "publication_date": null,
+        "publisher": "U.S. EPA",
+        "retrieved_at": "2026-09-21",
+        "title": "TENORM: Copper Mining and Production Wastes",
+        "url": "https://www.epa.gov/radiation/tenorm-copper-mining-and-production-wastes",
+        "web_ref": "turn809929view3"
+      },
+      {
+        "grade": "A",
+        "id": "RC4S07",
+        "last_checked_by": "sulfur_leadtime",
+        "limitations": "Operator technical account, not a current acid inventory or exact consumption coefficient; profile contains historical milestones.",
+        "observation_period": "Technical description of high-temperature, high-pressure sulfuric-acid treatment of oxide ore",
+        "publication_date": null,
+        "publisher": "Sumitomo Metal Mining",
+        "retrieved_at": "2026-09-21",
+        "title": "Company Profile: HPAL technology",
+        "url": "https://www.smm.co.jp/en/corp_info/ebook_CompanyProfile/pageindices/index9.html",
+        "web_ref": "turn809929view4"
+      }
+    ],
+    "status": "completed_bounded_research",
+    "timing_assessment": {
+      "current_exportable_surplus": "UNKNOWN",
+      "existing_repair": "UNKNOWN: no inspected site or current failure-mode/parts assessment",
+      "new_major_recovery_block": "PLAUSIBLE planning scenario roughly 3–5 years after funded project start; historical comparators do not establish a Venezuelan schedule",
+      "whole_new_upgrader_or_field": "Years, potentially longer; scope and preconstruction work prevent a fixed date"
+    }
+  },
+  "payload_hash": "3e0742121a74a41284160f76fe24b51f693f0fff2d08cf26dc0a5ad2b07738e2",
+  "phase": "submitted",
+  "submission_id": "bbb7364485332cc0464582e40393cb0455a97ec234e0e7a6ce26e5f77d6420df"
+}

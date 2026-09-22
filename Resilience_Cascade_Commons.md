@@ -1,6 +1,8 @@
 # Resilience Cascade — Commons proposals
 
-Updated 21 September 2026 through RC-003. These are research-backed proposals for discussion, with no organizations contacted and no resources committed. The project maintains the research record.
+Updated 22 September 2026 through RC-004. Modifiable space and useful presence are enough to begin; durable control and engineered services can grow through use. No organizations contacted, event scheduled or resources committed. The project maintains the research record.
+
+See the [growth pathway drawn from 15 Years Til Utopia](ideas/COMMONS_GROWTH_PATH.md) and [proposed correspondence](reports/RC-004/PROPOSED_EMAILS.md).
 
 ## Public starting directory
 
@@ -13,139 +15,230 @@ Updated 21 September 2026 through RC-003. These are research-backed proposals fo
 | [BART public financials](https://www.bart.gov/about/financials) | Current adopted budgets and finance updates | Research source; not spare operating money or a backup fleet |
 | [SFMTA budget record](https://www.sfmta.com/projects/sfmta-budget-planning-fy-2026-27-and-fy-2027-28) | Current funding strategy and conditional service implications | Contingent future changes; verify actual timetables before planning trips |
 
+## Newly verified starting connections
+
+| Connection | Useful next step | Limit |
+| --- | --- | --- |
+| [Oakland compost return](https://www.oaklandca.gov/My-Household/Waste-and-Recycling/Free-Compost) | ANV West Oakland Farm Park, 2847 Peralta Street; posted Tue–Fri 1–6, Sat 10–2 | Self-load, bring containers, stock can run out; nutrient analysis and water still matter |
+| [Ava resilience-hub program](https://avaenergy.org/community/resilience-hubs/) | Public technical-assistance and installation-incentive lead; Dec 1, 2026 contact date for next cohort | No award, site or commissioned Oakland capacity assumed |
+| [OakCLT](https://oakclt.org/about/oakclt-properties/) | Learn from continuing community land stewardship and ask about current work | A portfolio is not a vacancy list |
+
 ## COM01 — Braided Bridge essential-trip pilot
 
-Reviewable proposal; no outreach, commitments or deployment.
+Reviewable proposal; no outreach, commitments or deployment
 
-**Who:** Two or three consenting nonprofits or neighborhood groups.
+**Who:** Two or three consenting nonprofits or neighborhood groups
 
 1. Start with one repeat supply run and a small number of essential appointments.
 2. Map existing public transit first, then match usable seats/cargo windows without harming accessibility.
 3. Offer a draft contribution cap and mileage reimbursement approach for partner review.
 4. Trial only after driver, vehicle, liability and accessible-trip requirements are confirmed.
 
-**Protected minimum:** Each partner retains its ordinary service commitments, driver rest and a replenishable emergency reserve. No assumed access to another organization vehicle.
+**Resources:** BART/SFMTA service remains primary backbone; ACCFB/FoodNow provides food-location leads; Treat transit partners as potentially co-stressed; require actual funded accessible slots.
+
+**Protected floor:** Each partner retains its ordinary service commitments, driver rest and a replenishable emergency reserve. No assumed access to another organization vehicle.
 
 **Measure:** Completed essential trips, cost per completed trip, empty miles and missed pickups; compare with baseline.
 
 ## COM02 — Small food aggregation and cold-chain map
 
-Reviewable proposal; no outreach, commitments or deployment.
+Reviewable proposal; no outreach, commitments or deployment
 
-**Who:** Food bank partners, kitchens, local businesses and a nonprofit.
+**Who:** Food bank partners, kitchens, local businesses and a nonprofit
 
 1. Use ACCFB public food locator to seed nearby options.
 2. Record public pickup windows; keep proposed storage capacity unknown until operator confirmation.
 3. Begin with shelf-stable aggregation; add perishables only with verified temperature-safe storage and transport.
 4. Identify a second node on a different outage dependency before relying on one fridge.
 
-**Protected minimum:** Maintain existing client allotments, host staff time and normal food safety; no speculative stockpiling.
+**Resources:** Existing ACCFB referral network; No cold-storage partner is currently committed
+
+**Protected floor:** Maintain existing client allotments, host staff time and normal food safety; no speculative stockpiling.
 
 **Measure:** Useful food delivered per trip; spoilage and missed pickups; host workload.
 
 ## COM03 — Repair and tools exchange
 
-Reviewable proposal; no outreach, commitments or deployment.
+Reviewable proposal; no outreach, commitments or deployment
 
-**Who:** Tenant association, maker space, union local or community group.
+**Who:** Tenant association, maker space, union local or community group
 
 1. Use Oakland Tool Lending Library eligibility and borrowing rules for eligible participants.
 2. Separate ordinary household repairs from work requiring qualified trades.
 3. Create one recurring skills-sharing session around actual repair demand.
 4. Use paid/voluntary capacity with explicit limits; do not assume unemployed workers are free labor.
 
-**Protected minimum:** Keep tool lending access equitable; cap volunteer hours; no unqualified electrical or structural work.
+**Resources:** Oakland Tool Lending Library, 5205 Telegraph Avenue; published service listing
+
+**Protected floor:** Keep tool lending access equitable; cap volunteer hours; no unqualified electrical or structural work.
 
 **Measure:** Items safely repaired, money saved and participant time; no crisis required.
 
 ## COM04 — One-room communications lifeboat
 
-Reviewable proposal; no outreach, commitments or deployment.
+Reviewable proposal; no outreach, commitments or deployment
 
-**Who:** Library, church, school or nonprofit with a willing host.
+**Who:** Library, church, school or nonprofit with a willing host
 
 1. Choose the essential function: charging/communications and public information.
 2. List host critical loads and measure power/duration needs before proposing hardware.
 3. Check a different communications path and reachable alternate location.
 4. Tabletop an outage with a named host and hours; mark untested functions as unavailable.
 
-**Protected minimum:** Host ordinary services and safety first. Exclude life-support or clinical equipment without a responsible qualified plan.
+**Resources:** West Oakland/Richmond hub projects are leads only; No site commissioning or backup duration verified
+
+**Protected floor:** Host ordinary services and safety first. Exclude life-support or clinical equipment without a responsible qualified plan.
 
 **Measure:** Verified usable hours, accessible capacity and successful handoff to alternate site.
 
 ## COM05 — Small grower input-efficiency cooperative
 
-Reviewable proposal; no commitments.
+Reviewable proposal; no commitments
 
-**Who:** Community gardens, small farms and a cooperative extension or qualified agronomy partner.
+**Who:** Community gardens, small farms and a cooperative extension or qualified agronomy partner
 
 1. Share crop/soil testing costs where appropriate.
 2. Compare equivalent nutrient needs and public supplier options without substituting one nutrient for another.
 3. Pool compatible orders only when storage, timing and payment protect every member.
 4. Assess safe local nutrient recovery as a separate longer-term project.
 
-**Protected minimum:** Protect crop requirements, safe material use and small growers cash buffers; no stockpile that burdens participants.
+**Resources:** Qualified agronomy and current supplier evidence still to be selected
+
+**Protected floor:** Protect crop requirements, safe material use and small growers cash buffers; no stockpile that burdens participants.
 
 **Measure:** Useful nutrient delivered on time, cost per appropriate application and avoided waste.
 
 ## COM06 — Shared reserve and fair-allocation agreement
 
-Reviewable proposal; no evidence of an active local escalation cluster.
+Reviewable proposal; no evidence of an active local escalation cluster
 
-**Who:** Several nonprofits, tenant groups, library/community representatives.
+**Who:** Several nonprofits, tenant groups, library/community representatives
 
 1. Define which essential functions each participant protects first.
 2. Publish simple contribution limits, access criteria and a way to request review of an allocation.
 3. Choose trusted facilitators and an accessible feedback channel.
 4. Practice an ordinary service disruption and record successful cooperation, not only conflict.
 
-**Protected minimum:** No identities or political positions scored as threats; no donor pressured below its service floor.
+**Resources:** Existing civic networks; facilitator availability unverified
+
+**Protected floor:** No identities or political positions scored as threats; no donor pressured below its service floor.
 
 **Measure:** Requests resolved, equitable access, preserved donor service and fewer avoidable handoff failures.
 
-## Minimal operating card if a pilot is adopted
+## COM07 — Care-access and transport coordination card
 
-Partner / essential function / protected minimum / available contribution / time window / accessibility / replenishment / stop condition / alternate handoff. Availability stays unknown until the partner agrees. Client names, health details and private schedules do not belong in shared research state.
+Proposed; no clinical advice or outreach
 
+**Who:** Clinic navigators, patient-serving nonprofits, union/community representatives and qualified transport partners
 
-## RC-002 additions and reserve checks
+1. Use public service updates to distinguish actual local imaging availability from launch announcements.
+2. Map existing accessible referral/transport routes with no personal patient data.
+3. Have participating institutions confirm funded slots and handoff responsibility before a pilot.
 
-San Anselmo provides an owner-confirmed completed solar/battery hub example, with outage activation, staffing, accessibility and duration still unverified. Use its [public project record](https://www.sananselmo.gov/1677/Town-Hall-Resilience-Hub) as a design reference, not a promise of available shelter or capacity for another community.
+**Resources:** Public service information and confirmed navigation/transport capacity; no assumed free clinical or volunteer labor
 
-Reported truck shortages strengthen the case for compatible pooled deliveries; they do not establish that any suggested partner has spare vehicles. Some neighboring transit operators share funding risks. Nutrient projects must use soil evidence and qualified agronomy rather than treating potassium, phosphorus and nitrogen as interchangeable.
+**Protected floor:** Preserve clinically necessary care, confidentiality, accessibility, existing trips and driver rest
 
-### COM07 — Care-access and transport coordination
+**Measure:** Fewer avoidable transfer trips and missed appointments without worsening waits or staff burden
 
-**Status:** Proposed. Clinic navigators, patient-serving nonprofits, community/union representatives and qualified transport partners can map actual public service availability and existing accessible referral routes. Confirm funded slots, handoffs and regular local imaging availability before a pilot.
+## COM08 — Purchased nutrition floor and cooperative replenishment
 
-Preserve necessary care, privacy, existing transport commitments and driver rest. Measure avoidable transfers and missed appointments only in aggregate; no personal patient records are needed for this research system. The practical opportunity is reduced travel when reliable local diagnostics replace off-site trips. [Watsonville district update](https://www.pvhcd.org/home-page/page/new-mri-and-ct-imaging-now-available-watsonville-community-hospital).
+Proposed; no outreach, space reservation or purchase
 
-The project maintains the research record. Hosts and partner commitments remain unconfirmed, and no outreach has been sent.
+**Who:** Food bank partners, farms, community kitchens and neighborhood organizations
 
-## RC-003: minimum service and durable control
+1. Define a minimum useful menu with ready-to-eat and dietary-access options.
+2. Separate recovered, purchased, government and already-stored food; trace shared suppliers/routes.
+3. Cost normal stock rotation, reserve procurement and paid handling together.
+4. Test loss of the largest donation source plus a delayed replenishment route against usable meals.
 
-The [durable commons report](reports/RC-003/DURABLE_COMMONS.md) compares OakCLT's Liberated 23rd Avenue, RYSE Commons, the West Oakland hub project, Hayward and San Leandro libraries. These are existing assets or models; no vacant property or permission for this project is established. San Anselmo remains an implementation example, with public outage endurance unverified. Hayward's documented budget-related hours reduction demonstrates why a building and usable staffed access must be counted separately.
+**Resources:** Existing purchasing channels; proposed rotating stocks, suitable storage, water, preparation and transport; no committed surplus
 
-### COM08 — A minimum food service independent of daily surplus
+**Protected floor:** Protect regular recipients, farm viability, food safety, workers and unrestricted operating cash
 
-**Status:** Proposed; no stock or funds secured. A food-bank partner, commons operator and community representatives would define the meals/packages they intend to preserve, including dietary and access needs. Predictable purchasing and rotating appropriate staples form the floor; recovered food extends it. ACCFB already documents purchasing and joint procurement, so this builds on an existing operating model rather than assuming charity only redistributes leftovers.
+**Measure:** Minimum usable meals delivered through the agreed exercise, with donor floors intact
 
-Count safe water, ready-to-eat options, cooking energy, controlled storage, refrigeration where necessary, paid staffing and distribution alongside food. Trace suppliers to actual producing regions and routes. Agree replenishment and fair allocation before the floor is breached. Several sellers using the same wholesaler are not independent reserve. Protect existing client service and farm viability.
+## COM09 — Start an adaptable commons and grow its services
 
-**Measure:** Meals that can actually be served during a specified disruption; days until the next indispensable input fails; cost and reliable replenishment. Pounds alone are not nutritional cover. No arbitrary universal stock target is adopted without a service population, menu and hazard scenario. [Supporting evidence](reports/RC-003/FOOD_AND_CONDITIONAL_REPLACEMENT.md).
+Proposed; no outreach, space reservation or purchase
 
-### COM09 — One durably controlled room and an alternate node
+**Who:** Resident-led organizations, library staff, land trusts and municipal partners
 
-**Status:** Proposed; no tenancy or operating agreement secured. Start with an accessible room, storage and sanitation. Daily computer help, repair, skills and community information give it ordinary value. Secure keys, hours, permitted activities, alteration rights, maintenance and paid coordination through ownership, land-trust stewardship or a funded multiyear agreement. Ordinary meeting-room booking is insufficient.
+1. Find a modifiable place and establish ordinary useful presence without waiting for a complete institution.
+2. Add comfort through shade, seating, tools, communications or shared activity as appropriate.
+3. Allow outdoor, continuous-use, encampment-led and mobile extensions where people can actually use them.
+4. Develop durable control and power/water/storage over time; identify which services can operate through specific interruptions.
 
-Measure essential cooling/heating, lights, communications and agreed refrigeration. Secure drinking-water replenishment and sanitation. Test operation with nonessential areas shut down. Choose an alternate node whose electricity, water, access, staff and funding do not all share the same failure. Existing occupants and ordinary services retain their protected floor.
+**Resources:** Modifiable space and willing participants first; later improvements matched to actual use, resources and protected existing users
 
-**Measure:** Verified staffed hours, essential-load endurance and successful handoff. [Site leads and control requirements](reports/RC-003/DURABLE_COMMONS.md).
+**Protected floor:** No displacement; fair access and paid core labor; each node retains protected ordinary service
 
-### COM10 — Electrify one suitable food-logistics function
+**Measure:** Accessible useful space grows organically; emergency claims remain bounded by demonstrated service
 
-**Status:** Proposed; no fleet conversion authorized or costed. Examine parked refrigeration shore power first, then a predictable return-to-base route if its payload, range, terrain and schedule fit. A motor conversion requires compatible batteries, controls, weight, maintenance and charging; an engine substitution alone is not an operating system.
+## COM10 — Electrify one suitable food-logistics function
 
-Verify the energized electrical connection, charging window, utility work, service support and backup delivery before counting displaced diesel. Protect temperature control, drivers and existing deliveries throughout commissioning. Track released engine-maintenance skills and equipment as conversion opportunities without assuming obsolete assets can be repurposed safely.
+Proposed; no outreach, space reservation or purchase
 
-**Measure:** Completed useful deliveries or refrigeration hours, fuel and energy use, total operating cost and performance during a depot outage. [Transition protocol and evidence](reports/RC-003/FOOD_AND_CONDITIONAL_REPLACEMENT.md).
+**Who:** Community meal providers, fleet operators, mechanics and qualified electrical partners
+
+1. Measure route distance/load, idle hours, refrigeration and return-to-base windows.
+2. Assess shore-power refrigeration before or alongside traction conversion.
+3. Confirm electrical service, charging access, cost and maintenance support.
+4. Prove essential delivery and replenishment during an outage scenario before retiring replacement-covered equipment.
+
+**Resources:** Real operating data and engineering assessment; no vehicle order or grant entitlement assumed
+
+**Protected floor:** Preserve food temperatures, driver rest, accessible service and a charged/otherwise usable essential-trip reserve
+
+**Measure:** Diesel consumed per completed essential delivery falls without worse reliability or shifted unpaid labor
+
+## COM11 — Compost-to-crop and rotating-food bridge
+
+Proposed; no land, crop or allocation committed
+
+**Who:** Neighbors, gardeners, food groups and willing local producers
+
+1. Use the verified ANV public compost return point within posted hours and available stock.
+2. Choose season-appropriate crops and test soil; use compost analysis and crop needs to identify nutrient gaps.
+3. Overlap a rotating staple supply with successive plantings and existing producer deliveries.
+4. Track meals/nutrition available and earliest plausible harvest, not just bags distributed or bed area.
+
+**Resources:** Space, water, seed, appropriate growing medium, tools, labor and a bridging food supply; quantities not secured
+
+**Protected floor:** Protect existing compost users, local food needs and water availability before exporting food
+
+**Measure:** Actual edible output and essential nutrition supplied across the harvest gap
+
+## COM12 — Partner indoor, outdoor and mobile commons nodes
+
+Proposed network; no specific park, encampment, library or owner enrolled
+
+**Who:** Existing informal groups, libraries, tenant groups and willing space stewards
+
+1. Start with usable modifiable space and portable amenities.
+2. Map which partner remains accessible when one site closes or becomes unusable.
+3. Share movable tools, shade, communications and transport where available.
+4. Add solar/storage or other infrastructure for a defined essential load when feasible.
+
+**Resources:** People and space first; portable amenities and later infrastructure according to use and resources
+
+**Protected floor:** Preserve existing users and dignified access; do not shift all load to a partner with unmeasured reserve
+
+**Measure:** Useful access persists through a specific site interruption; no 24/7 endurance claimed without support
+
+## COM13 — Computers and campfires: a making, learning and gathering commons
+
+Design proposal adapted from user-supplied vision; no event scheduled or space committed
+
+**Who:** People already using or able to shape a shared place, with willing neighbors and organizations
+
+1. Choose one useful shared activity and let people alter the space around it.
+2. Make something that improves ordinary life: seating, planters, a repaired tool, art or an understandable service guide.
+3. Share practical knowledge in several accessible formats; allow rest and participation without a contribution score.
+4. Let a small gathering showcase what grew; record money and maintenance needs if the project acquires resources.
+
+**Resources:** Modifiable space, interested people and actually available materials first; no full-campus plan or breakthrough technology required
+
+**Protected floor:** Essential access and dignity are not contingent on productivity; protect existing users and organizer capacity
+
+**Measure:** People can use, change, understand and enjoy the place; useful capability and reciprocal support persist

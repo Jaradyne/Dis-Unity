@@ -1,0 +1,12 @@
+{
+  "agent": "rail_transition",
+  "cycle_id": "RC-004",
+  "status": "started",
+  "cutoff": "2026-09-21",
+  "scope": "US diesel/electric rail fleet denominators, conversion lead times, freight substitution buffers",
+  "sources": [],
+  "findings": [],
+  "limitations": [
+    "Fresh-source access not yet tested."
+  ]
+}

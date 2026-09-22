@@ -1,5 +1,7 @@
 # Agent definitions
 
+For work allocation and contribution boundaries, read [HANDOFF_FOR_CHAT_AIDEN.md](../HANDOFF_FOR_CHAT_AIDEN.md). Gemini use is paused under the user's best-model-only rule until reviewed model-selection and prompt-retention safeguards are in place; existing Flash defaults do not override that instruction. Retained task material is in [GEMINI_RESEARCH_PROMPTS.md](../handoffs/deferred_prompts/GEMINI_RESEARCH_PROMPTS.md).
+
 Dis-Unity may be approached by ChatGPT/Work agents, API-driven Python workers, other model providers, local models, humans, or future runtimes. They should not need provider-specific code in order to understand the role they are taking.
 
 The declarative template in `AGENT_TEMPLATE.yaml` describes a role's mission, beat, permissions, inputs, outputs, correspondence behavior and continuity rules. It is a contract for the worker, not a script for its reasoning.

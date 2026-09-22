@@ -1,6 +1,6 @@
 # QUESTIONS_TO_WATCH
 
-Cycle RC-003; cutoff 2026-09-21.
+Cycle RC-004; cutoff 2026-09-21.
 
 **id:** Q01
 
@@ -534,4 +534,204 @@ Cycle RC-003; cutoff 2026-09-21.
 **user manual work required:** False
 
 **why it matters:** Retiring fuel demand can alter sulfur output; electric systems need compatible materials and charging.
+
+
+---
+
+**id:** Q23
+
+**last reviewed cycle:** RC-004
+
+**next public action:** Match port/product arrival data, refinery throughput, compatible stocks and dated cargo ETAs; prioritize Japan and a Singapore-linked product route.
+
+**owner role:** Energy + Logistics + Geographic Context
+
+**priority:** high
+
+**question:** Which East Asian product routes have actual arrival delays beyond accessible stock cover?
+
+**revisit trigger:** Dated port, customs or refinery update
+
+**Sources:** [RC4F03: International Energy Agency](https://www.iea.org/reports/oil-market-report-september-2026), [RC4F05: Japan Ministry of Finance / Customs and Tariff Bureau](https://www.customs.go.jp/toukei/shinbun/trade-st_e/2026/2026084e.pdf)
+
+**status:** open
+
+**user manual work required:** False
+
+**why it matters:** Voyage delays, aggregate imports and refinery output are different measures.
+
+
+---
+
+**id:** Q24
+
+**last reviewed cycle:** RC-004
+
+**next public action:** Obtain a public exchange settlement series and compare the same contract or transparently rolled series; keep the EIA April 2024 futures table quarantined.
+
+**owner role:** Economic / Industrial + Skeptic
+
+**priority:** high
+
+**question:** What is the current diesel futures curve, with contract month and settlement date?
+
+**revisit trigger:** Public dated exchange settlements
+
+**Sources:** [RC4F06: CME Group](https://www.cmegroup.com/markets/energy/refined-products/heating-oil.quotes.html), [RC4F01: U.S. Energy Information Administration](https://www.eia.gov/petroleum/supply/weekly/pdf/wpsrall.pdf)
+
+**status:** open
+
+**user manual work required:** False
+
+**why it matters:** Spot and pump prices cannot answer a futures-price question.
+
+
+---
+
+**id:** Q25
+
+**last reviewed cycle:** RC-004
+
+**next public action:** Retrieve accessible BTS/rail operator fleet data; distinguish stored locomotives, passenger units and diesel-electric power; assess one compatible lane.
+
+**owner role:** Infrastructure + Energy
+
+**priority:** high
+
+**question:** How many current US locomotives use each energy source and where can rail carry more essential freight?
+
+**revisit trigger:** Accessible fleet workbook or operator filing
+
+**Sources:** [RC4R05: Bureau of Transportation Statistics](https://www.bts.gov/content/class-i-railroad-locomotive-fleet-year-built), [RC4R03: Association of American Railroads](https://www.aar.org/issue/freight-rail-climate-change/)
+
+**status:** open
+
+**user manual work required:** False
+
+**why it matters:** A locomotive count is not train frequency, tonne-km or route reserve.
+
+
+---
+
+**id:** Q26
+
+**last reviewed cycle:** RC-004
+
+**next public action:** Seek public asset condition, funded project scope, feed/hydrogen/utilities, commissioning and storage/export milestones before assigning a date.
+
+**owner role:** Sulfur + Industrial + Skeptic
+
+**priority:** high
+
+**question:** Which Venezuelan sulfur assets can be repaired, and when would net exportable product be available?
+
+**revisit trigger:** Operator disclosure or funded project award
+
+**Sources:** [RC4S02: Saipem](https://www.saipem.com/en/saipem-worldwide-projects/shah-gas-plant), [RC4S03: Petrofac](https://www.petrofac.com/media/news/petrofac-wins-qatar-petroleum-contract-worth-more-than-us-600-million), [RC4S04: Equinor / Statoil archive](https://www.equinor.com/news/archive/2002/01/10/UpgradingSincorOil)
+
+**status:** open
+
+**user manual work required:** False
+
+**why it matters:** Historical capability does not establish current condition or spare output.
+
+
+---
+
+**id:** Q27
+
+**last reviewed cycle:** RC-004
+
+**next public action:** Use public regional food-bank service calendars, county transport/access data and purchasing disclosures; calculate no food-days without usable inventory and demand.
+
+**owner role:** Food + Geographic Context + Commons
+
+**priority:** high
+
+**question:** How do food-access cover and replenishment gaps compare in one rural Tennessee county and an East Bay locality?
+
+**revisit trigger:** Comparable county service and inventory evidence
+
+**Sources:** [RC4X01: USDA Food Safety and Inspection Service](https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/shelf-stable-food)
+
+**status:** open
+
+**user manual work required:** False
+
+**why it matters:** Bay Area convenience is not evidence of greatest need; rural last-mile depth may differ.
+
+
+---
+
+**id:** Q28
+
+**last reviewed cycle:** RC-004
+
+**next public action:** Review current collection/processing contract and material analysis, with actual public pickup stock and crop demand; keep design capacity separate from output.
+
+**owner role:** Food + Commons + Industrial
+
+**priority:** medium
+
+**question:** Where does Oakland organics processing occur now, and how much suitable compost reaches local growers?
+
+**revisit trigger:** Current municipal processing report or material analysis
+
+**Sources:** [RC4A01: City of Oakland](https://www.oaklandca.gov/My-Household/Waste-and-Recycling/Free-Compost), [RC4A02: WM](https://www.wm.com/us/en/facilities/altamont-landfill/composting), [RC4A05: UC ANR Solution Center for Nutrient Management](https://ucanr.edu/site/solution-center-nutrient-management/nitrogen-organic-sources)
+
+**status:** open
+
+**user manual work required:** False
+
+**why it matters:** Public pickup is verified; complete processing path, quantity and nutrient content are not.
+
+
+---
+
+**id:** Q29
+
+**last reviewed cycle:** RC-004
+
+**next public action:** Pair dated winter production and donor nutrition floor with weather-safe transport, storage and receiver capability; include staples and protein as well as fresh vegetables.
+
+**owner role:** Food + Logistics + Islands of Stability
+
+**priority:** medium
+
+**question:** Can seasonal food exchange bridge winter access without exporting donor shortage?
+
+**revisit trigger:** Crop forecast and matched lane evidence
+
+**Sources:** [RC4A03: UC Statewide IPM](https://ipm.ucanr.edu/home-and-landscape/cultural-tips-for-growing-tomato/), [RC4X01: USDA Food Safety and Inspection Service](https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/shelf-stable-food)
+
+**status:** open
+
+**user manual work required:** False
+
+**why it matters:** A planting calendar or hypothetical tomato route does not establish a harvest, surplus or viable delivery.
+
+
+---
+
+**id:** Q30
+
+**last reviewed cycle:** RC-004
+
+**next public action:** Use the verified local space, compost and power-program leads to identify compatible starting conditions; research maintainable incremental options without treating hypothetical space or volunteers as available.
+
+**owner role:** Commons + Resilience / Overflow + Transition
+
+**priority:** high
+
+**question:** Which small commons activity can grow durable capability in the direction of the supplied vision?
+
+**revisit trigger:** Publicly available space/program evidence or user direction about an actual willing node
+
+**Sources:** [VISION01: User-supplied document developed with an earlier assistant](https://github.com/Jaradyne/Dis-Unity/blob/main/ideas/15_YEARS_TIL_UTOPIA_SOURCE.md), [RC4A01: City of Oakland](https://www.oaklandca.gov/My-Household/Waste-and-Recycling/Free-Compost), [RC4C04: Ava Community Energy](https://avaenergy.org/community/resilience-hubs/), [RC4C01: Oakland Community Land Trust](https://oakclt.org/about/people/)
+
+**status:** open
+
+**user manual work required:** False
+
+**why it matters:** The goal includes ordinary flourishing and agency, not emergency survival alone.
 

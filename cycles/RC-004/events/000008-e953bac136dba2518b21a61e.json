@@ -1,0 +1,15 @@
+{
+  "at": "2026-09-22T05:24:52.421941+00:00",
+  "cycle_id": "RC-004",
+  "event_id": "e953bac136dba2518b21a61e",
+  "event_type": "agent_submission",
+  "hash": "9eea49ea1bd1db53f2fb3539f20d5d5802d0ad449980f715e45009ce9896083a",
+  "payload": {
+    "agent": "maritime_access",
+    "payload_hash": "c6de4d2a665685758c4916fe8d0a73fe11b058dd422e80464680d5c867916219",
+    "phase": "submitted",
+    "submission_id": "c5352812168c09c99bb92abf55027941bd610464fb0a6a061c8b3498dd3fa139"
+  },
+  "previous_hash": "803c0162a27fa3b93a6ab2c6028ea6af2ab567e0e0b7f9234f30aaae581808f0",
+  "sequence": 8
+}

@@ -1,0 +1,118 @@
+{
+  "agent": "coordinator_verification",
+  "checks": [
+    "EIA dated tables and arithmetic",
+    "Japan petroleum import row and release date",
+    "September IEA public summary",
+    "Caltrain and BTS landing pages",
+    "EPA sulfur/copper and current glyphosate page; IARC monograph announcement",
+    "Industrial sulfur project dates and SMM material flow",
+    "OakCLT later project activity",
+    "Full PG&E commissioning release and Ava program page",
+    "Oakland compost and UC crop/nutrient guidance",
+    "USDA shelf-stable storage guidance",
+    "EUNAVFOR and CMF September incident reports"
+  ],
+  "cycle_id": "RC-004",
+  "limits": [
+    "Only public contacts; no private mail read, email drafted in Gmail or message sent.",
+    "Current voyage-time series, futures contract settlements, local inventories and donor surplus remain unknown.",
+    "Root search/GitHub connector metadata failures were not treated as lack of general internet connectivity; ordinary public primary-page retrieval remained available."
+  ],
+  "public_contacts_verified": [
+    {
+      "address": "information@oakclt.org",
+      "organization": "Oakland Community Land Trust",
+      "source": "https://oakclt.org/"
+    },
+    {
+      "address": "cyoro@emeraldcities.org",
+      "organization": "Emerald Cities Collaborative / Ava resilience-hub program",
+      "source": "https://avaenergy.org/community/resilience-hubs/"
+    }
+  ],
+  "source_aliases": {
+    "RC4A01": "RC4A01",
+    "RC4A02": "RC4A02",
+    "RC4A03": "RC4A03",
+    "RC4A04": "RC4A04",
+    "RC4A05": "RC4A05",
+    "RC4C01": "RC4C01",
+    "RC4C02": "RC4C02",
+    "RC4C03": "RC4C03",
+    "RC4C04": "RC4C04",
+    "RC4F01": "RC4F01",
+    "RC4F02": "SRC01",
+    "RC4F03": "RC4F03",
+    "RC4F04": "RC4F04",
+    "RC4F05": "RC4F05",
+    "RC4F06": "RC4F06",
+    "RC4M01": "MAR04",
+    "RC4M02": "RC4F03",
+    "RC4M03": "RC4M03",
+    "RC4M04": "RC4M04",
+    "RC4M05": "RC4M05",
+    "RC4R01": "RC4R01",
+    "RC4R02": "RC4R02",
+    "RC4R03": "RC4R03",
+    "RC4R05": "RC4R05",
+    "RC4S01": "NUT03",
+    "RC4S02": "RC4S02",
+    "RC4S03": "RC4S03",
+    "RC4S04": "RC4S04",
+    "RC4S05": "RC4S05",
+    "RC4S06": "RC4S06",
+    "RC4S07": "RC4S07",
+    "RC4X01": "RC4X01",
+    "RC4X02": "RC4X02",
+    "RC4X03": "RC4X03",
+    "RC4X04": "RC4X04"
+  },
+  "sources": [
+    {
+      "grade": "A",
+      "id": "RC4X01",
+      "limitations": "Guidance for intact properly stored commercial packages; low-acid canned food quality guidance 2–5 years. Not stock actually held by any food bank or safe duration after opening.",
+      "observation_period": "Current storage guidance retrieved September 2026",
+      "publication_date": null,
+      "publisher": "USDA Food Safety and Inspection Service",
+      "retrieved_at": "2026-09-21",
+      "title": "Shelf-Stable Food Safety",
+      "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/shelf-stable-food"
+    },
+    {
+      "grade": "A",
+      "id": "RC4X02",
+      "limitations": "Historical offering with expired July 2024 deadline. Evidence of later activity, not present available property.",
+      "observation_period": "Two rehabilitated homes offered in July 2024",
+      "publication_date": "2024-07-01",
+      "publisher": "Oakland Community Land Trust",
+      "retrieved_at": "2026-09-21",
+      "title": "Two New Ownership Opportunities",
+      "url": "https://oakclt.org/two-new-ownership-opportunities/"
+    },
+    {
+      "grade": "A",
+      "id": "RC4X03",
+      "limitations": "Operator-maintained project list, not a title audit, vacancy listing or independently verified financial position.",
+      "observation_period": "Portfolio page; metadata February 2025; read September 2026",
+      "publication_date": null,
+      "publisher": "Oakland Community Land Trust",
+      "retrieved_at": "2026-09-21",
+      "title": "OakCLT Properties",
+      "url": "https://oakclt.org/about/oakclt-properties/"
+    },
+    {
+      "grade": "A",
+      "id": "RC4X04",
+      "limitations": "Documents A Diamond in the Ruff partnership; historical project record does not prove present program capacity.",
+      "observation_period": "August 2019 acquisition; page metadata February 2022",
+      "publication_date": null,
+      "publisher": "Oakland Community Land Trust",
+      "retrieved_at": "2026-09-21",
+      "title": "Harvest House",
+      "url": "https://oakclt.org/portfolio-items/harvest-house/"
+    }
+  ],
+  "status": "completed_bounded_checks"
+}

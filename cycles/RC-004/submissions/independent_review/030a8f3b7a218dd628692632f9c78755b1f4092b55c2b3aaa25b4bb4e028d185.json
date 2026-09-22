@@ -1,0 +1,191 @@
+{
+  "agent": "independent_review",
+  "at": "2026-09-22T05:24:52.414811+00:00",
+  "base_hash": "37a9b216e47bbc98ca4ebceb64e38ce3d530d537ea557d82374d243101c0bc33",
+  "cycle_id": "RC-004",
+  "payload": {
+    "agent": "independent_review",
+    "blocking_findings": [],
+    "candidate_canonical_sha256": "16d04f8bb35a588caca60517f90a11944cfbafac7951402d059a6d6131de97b7",
+    "checks": [
+      {
+        "detail": "Spot, retail and futures remain separate. Physical flow estimates are separately attributed; no price-to-local-scarcity inference. Japan provisional PETROLEUM imports +3.6% remain counterevidence with product and voyage-time limits. SIG02 retains stock rebuilding. 107.9/3.602 = 29.95558 days is a gross national reference, not usable local cover.",
+        "result": "pass_with_nonblocking_clarity_notes",
+        "scope": "SIG43–44, EDGE26, RES01/19"
+      },
+      {
+        "detail": "Caltrain is a historical corridor benchmark, not a fleet census or universal duration. Rail efficiency does not become spare paths, crews, terminals or last-mile capacity. Diesel dependence remains explicit.",
+        "result": "pass",
+        "scope": "SIG45, EDGE22–23, RES20"
+      },
+      {
+        "detail": "Sincor historical completion, Shah timeline and Qatar announced schedule remain distinct; no current Venezuelan sulfur reserve or restart duration is established. SMM flows are committed operator-described exchange, not available donor acid/sulfur.",
+        "result": "pass",
+        "scope": "SIG46–47, ISL10"
+      },
+      {
+        "detail": "OakCLT public activity is not vacancy; Ava support is not commissioned Oakland service; public compost is subject to hours, quantity and composition. Access-loss mechanisms remain conditional, with no asserted new law. Outdoor/mobile alternatives retain their own and shared failure modes.",
+        "result": "pass_with_nonblocking_attribution_note",
+        "scope": "SIG48–50/52, EDGE24, RES17/21, COM09/11/12, TR15"
+      },
+      {
+        "detail": "Shelf life, turnover, usable nutrition cover and harvest time remain distinct. No land, output, water or delivery contract is secured for proposed production. Staples and nutrition balance must bridge harvest gaps.",
+        "result": "pass_with_nonblocking_crop_scope_note",
+        "scope": "SIG51, EDGE25, RES16/22, TR14"
+      },
+      {
+        "detail": "Unknown usable quantity, stress demand, activation and replenishment are not replaced with institution counts, annual donations, nominal capacity or shelf life. Separate clocks, shared failures and donor floors remain explicit.",
+        "result": "pass_with_nonblocking_formula_note",
+        "scope": "All 22 response_time records"
+      },
+      {
+        "detail": "Page-labelled passages support mapped design ideas and internal revisions. Technology, income, surveillance and exclusion speculation is not adopted as operating fact. Organic growth is a proposal. September22 design intake is separate from the September21 empirical evidence cutoff.",
+        "result": "pass",
+        "scope": "COMMONS_GROWTH_PATH.md against source transcription; VISION01; COM13; TR16; Q30; growth_direction"
+      },
+      {
+        "detail": "52 signals, 26 edges, 109 source records; all candidate source_ids resolve. VISION01 is used only by design/growth records and their associated open question. Spot change is 10.96944%; UBI example is $360m/year and $3.6bn over ten years. Source records are not 109 independent external confirmations.",
+        "result": "pass",
+        "scope": "Reference/count/arithmetic checks"
+      }
+    ],
+    "closing_addendum": {
+      "checks": [
+        "RES01 nominal reserve description versus current audited usable stock and added source references checked.",
+        "Cover rule now explicitly divides by the parenthesized positive net depletion rate, with matching units and service boundaries.",
+        "RES01 local usable quantity, stressed demand, inflow and accessible cover remain Unknown; national quantities are separately recorded in response_time.national_reference.",
+        "RC4C03/RC4C04 observation metadata now records full-page coordinator reads; specialist history is preserved.",
+        "RES22 now names radishes and suitable conditions explicitly; no full nutrition or universal harvest promise.",
+        "VISION01 remains design provenance at its public transcription path, with September22 design intake separate from the evidence cutoff."
+      ],
+      "completed_at": "2026-09-22T05:24:06.763235+00:00",
+      "result": "All four nonblocking suggestions resolved; no blocking findings. No independent external-source replication performed.",
+      "reviewed_candidate_sha256": "16d04f8bb35a588caca60517f90a11944cfbafac7951402d059a6d6131de97b7",
+      "scope": "Only the coordinator correction fields and prior commons append; original broad integration/source-mapping review and initial-checkpoint attribution preserved."
+    },
+    "completed_at": "2026-09-22T05:24:06.763235+00:00",
+    "completion_design_intake": "2026-09-22",
+    "coordinator_changes_after_review": "All four correction suggestions and VISION01 public link were examined in the closing field-level follow-up. Final reviewed digest covers them. Later review metadata or other changes still require explicit coordinator attribution and exact-hash admission.",
+    "current_candidate_hash_at_report_write": "16d04f8bb35a588caca60517f90a11944cfbafac7951402d059a6d6131de97b7",
+    "cycle_id": "RC-004",
+    "decision": "scoped_pass_with_limitations",
+    "evidence_cutoff": "2026-09-21",
+    "finding_counts": {
+      "blocking": 0,
+      "nonblocking_identified": 4,
+      "nonblocking_open": 0,
+      "nonblocking_resolved": 4
+    },
+    "followup_checks": [
+      {
+        "detail": "Nominal DOE program description is now distinguished from current audited quantity, release and local access; fuel source references added.",
+        "location": "RES01",
+        "result": "IR004-01 resolved"
+      },
+      {
+        "detail": "Coordinator append records completed primary-page follow-up without rewriting specialist history. Source observation-period search-only wording can still be polished, but coordinator_verification and limitations are explicit.",
+        "location": "reports/RC-004/COMMONS_ACCESS.md",
+        "result": "IR004-03 substantive issue resolved"
+      },
+      {
+        "detail": "Now points to the intended public GitHub source-transcription path. Source kind, design-only limitation and separate September22 intake remain intact; URL change creates no new empirical confirmation.",
+        "location": "VISION01.url",
+        "result": "pass"
+      }
+    ],
+    "hash_method": "SHA256((json.dumps(candidate, sort_keys=True, ensure_ascii=False, indent=2, allow_nan=False) + '\\n').encode('utf-8'))",
+    "independence": "Reviewer authored neither specialist inputs nor candidate assembly.",
+    "initial_checkpoint_at": "2026-09-22T05:15:54.303436+00:00",
+    "initial_checkpoint_hash": "95f575e99882fce1f7a91c7fc0e6567b5a0db9fc175a99d146dc2ab36ea242eb",
+    "initial_checkpoint_hash_method": "SHA256 of UTF-8 json.dumps(candidate, sort_keys=True, indent=2), default ensure_ascii=True, no trailing newline",
+    "limitations": [
+      "Independent of authorship and assembly, but this is integration/source-mapping, not independent source replication or a whole-state independent audit. No external pages were reopened.",
+      "Selected mapped concepts and exclusions were checked against the available page-labelled transcription. The original PDF extraction was not independently reproduced or rendered.",
+      "No current tank count, site endurance test, crop yield, partner consent, route clearance, legal release determination or donor-capacity audit is established.",
+      "Only the two review files were written by this reviewer. Candidate, canonical, predecessor cycles and specialist checkpoints were not modified.",
+      "Result applies only to the final reviewed project-canonical hash. Subsequent coordinator edits, including review metadata, require an explicit follow-up and exact-hash admission."
+    ],
+    "method": "Bounded independent integration/source-mapping review, not independent source replication; saved-record comparison, arithmetic and source-reference checks.",
+    "nonblocking_findings": [
+      {
+        "finding": "Inherited text says quantities and access of both excluded public reserve categories are unverified. RES19 now records DOE’s approximately one-million-barrel Northeast Home Heating Oil Reserve program description. This conflates an unaudited current quantity with the verified nominal description.",
+        "id": "IR004-01",
+        "location": "RES01.limits, response_time.limiting_dependencies, source_ids",
+        "severity": "nonblocking",
+        "status": "resolved_in_reviewed_coordinator_followup",
+        "suggestion": "Distinguish the nominal program amount from current audited usable stock, release availability and deliverable surplus; add RC4F01 and RC4F04 to RES01 sources. Do not add public reserve stock to commercial totals without overlap accounting."
+      },
+      {
+        "finding": "The cover rule has no parentheses around its denominator. Reported national production is placed inside dependable_inflow and the national stock/use ratio beside unknown local service cover, although clear caveats accompany both.",
+        "id": "IR004-02",
+        "location": "SYSTEM_MAP.response_time_protocol.cover_rule; RES01.response_time",
+        "severity": "nonblocking",
+        "status": "resolved_in_reviewed_coordinator_followup",
+        "suggestion": "Write cover = usable compatible quantity above the protected floor / (stressed demand rate - dependable accessible inflow), for positive net depletion and consistent units and service boundary. Start RES01.dependable_inflow with Unknown locally under the initiating shock; national reported production was 5.2 million b/d. If machine extraction is added, separate the gross national ratio from operational accessible_service_cover."
+      },
+      {
+        "finding": "The specialist report still says the full PG&E source must be reopened; coordinator verification and candidate ledger record completed PG&E and Ava primary-page follow-up. The specialist limitation remains legitimate historical attribution.",
+        "id": "IR004-03",
+        "location": "reports/RC-004/COMMONS_ACCESS.md; RC4C03/RC4C04 metadata",
+        "severity": "nonblocking",
+        "status": "resolved_in_reviewed_coordinator_followup",
+        "suggestion": "Append an attributed coordinator follow-up with the narrow full-page conclusions; preserve the original specialist checkpoint. Refine observation_period wording from search excerpt to completed full-page retrieval where appropriate while retaining provenance."
+      },
+      {
+        "finding": "SIG51 and RES16 attribute the 3–6-week example specifically to radishes; RES22 says some cool-season vegetables. The specialist declined a universal numeric promise and the coordinator later checked crop guidance.",
+        "id": "IR004-04",
+        "location": "RES22.response_time.replacement_lead_time; numeric crop source trail",
+        "severity": "nonblocking",
+        "status": "resolved_in_reviewed_coordinator_followup",
+        "suggestion": "Name radishes explicitly: Radishes may reach harvest in 3–6 weeks under suitable conditions; other crops, seasons and full nutrition supply have different lead times. Preserve the coordinator attribution for the selected numeric observation."
+      }
+    ],
+    "preservation": {
+      "canonical_cycle_at_report_write": "RC-003",
+      "rc004_baseline_bytes_sha256": "37a9b216e47bbc98ca4ebceb64e38ce3d530d537ea557d82374d243101c0bc33",
+      "reviewer_writes": [
+        "inbox/RC-004/independent_review.json",
+        "reports/RC-004/INDEPENDENT_REVIEW.md"
+      ]
+    },
+    "report": "reports/RC-004/INDEPENDENT_REVIEW.md",
+    "reviewed_candidate_sha256": "16d04f8bb35a588caca60517f90a11944cfbafac7951402d059a6d6131de97b7",
+    "scope": {
+      "additional": [
+        "All response_time fields and protocol",
+        "Changed commons and organic growth records",
+        "Relevant source ledger, specialist packets and coordinator follow-up",
+        "COMMONS_GROWTH_PATH.md against the historical source transcription"
+      ],
+      "edges": [
+        "EDGE22",
+        "EDGE23",
+        "EDGE24",
+        "EDGE25",
+        "EDGE26"
+      ],
+      "new_reserves": [
+        "RES19",
+        "RES20",
+        "RES21",
+        "RES22"
+      ],
+      "signals": [
+        "SIG43",
+        "SIG44",
+        "SIG45",
+        "SIG46",
+        "SIG47",
+        "SIG48",
+        "SIG49",
+        "SIG50",
+        "SIG51",
+        "SIG52"
+      ]
+    },
+    "status": "completed_scoped_integration_review"
+  },
+  "payload_hash": "7f8cd495ba29a6bbbcb7aad91738f5af0b193b87312423a067cc2e98a40d11dd",
+  "phase": "submitted",
+  "submission_id": "030a8f3b7a218dd628692632f9c78755b1f4092b55c2b3aaa25b4bb4e028d185"
+}
