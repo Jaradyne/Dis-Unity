@@ -21,10 +21,23 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Run real Gemini worker
+      - name: Run real Gemini worker with temporary-capacity fallback
+        shell: bash
         run: |
           test -n "$GEMINI_API_KEY"
-          python scripts/worker.py             --role agents/us_rural_logistics.json             --cycle RC-004             --provider gemini             --model gemini-3.8-flash             --context briefings/CURRENT_PACKET_2026-09-22.md             --context scenarios/PANDEMIC_LOCKDOWN_LENS.md             --context agents/ALCHEMICAL_MAILBOX.md             --context COMMON_STATE.md             --task "Using only the supplied repository evidence as current-event grounding, assess U.S. rural logistics under the 2026 diesel crunch. Identify the hardest-to-serve place types and essential functions; evaluate rail/transload, light-vehicle, biofuel, local-storage, reciprocal-route and labor substitutions; apply the pandemic P0-P5 lens to medical/food cold chain; flag farm-finance and land-control changes worth monitoring without inferring motives; challenge weak assumptions; and propose a small number of bounded child investigations where local detail would otherwise be averaged away. Treat anything from your own model memory after 2025-01-01 as unverified unless the supplied packet supports it."             --output "$RUNNER_TEMP/us_rural_logistics.json"
+          TASK='Using only the supplied repository evidence as current-event grounding, assess U.S. rural logistics under the 2026 diesel crunch. Identify the hardest-to-serve place types and essential functions; evaluate rail/transload, light-vehicle, biofuel, local-storage, reciprocal-route and labor substitutions; apply the pandemic P0-P5 lens to medical/food cold chain; flag farm-finance and land-control changes worth monitoring without inferring motives; challenge weak assumptions; and propose a small number of bounded child investigations where local detail would otherwise be averaged away. Treat anything from your own model memory after 2025-01-01 as unverified unless the supplied packet supports it.'
+          success=0
+          for model in gemini-3.8-flash gemini-3.7-flash gemini-3.6-flash; do
+            for attempt in 1 2; do
+              echo "Trying $model attempt $attempt"
+              if python scripts/worker.py                 --role agents/us_rural_logistics.json                 --cycle RC-004                 --provider gemini                 --model "$model"                 --context briefings/CURRENT_PACKET_2026-09-22.md                 --context scenarios/PANDEMIC_LOCKDOWN_LENS.md                 --context agents/ALCHEMICAL_MAILBOX.md                 --context COMMON_STATE.md                 --task "$TASK"                 --output "$RUNNER_TEMP/us_rural_logistics.json"; then
+                success=1
+                break 2
+              fi
+              sleep 15
+            done
+          done
+          test "$success" -eq 1
       - name: Print checkpoint
         run: cat "$RUNNER_TEMP/us_rural_logistics.json"
       - name: Upload checkpoint
