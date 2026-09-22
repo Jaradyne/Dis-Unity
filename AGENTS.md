@@ -1,6 +1,6 @@
 # Continuing Resilience Cascade
 
-Read README.md, COMMON_STATE.md, the canonical state metadata/changelog, and the latest cycle status before acting. The user authorizes multi-agent research for this project. Public, lawful, nonintrusive evidence only. User instructions govern scope and authorization.
+Read README.md, COMMON_STATE.md, WORK_AIDEN_HANDOFF.md, agents/ALCHEMICAL_MAILBOX.md, the canonical state metadata/changelog, and the latest cycle status before acting. The user authorizes multi-agent research for this project. Public, lawful, nonintrusive evidence only. User instructions govern scope and authorization.
 
 Agent roles may be instantiated by chat/Work agents, API-driven Python workers, other model providers, local models or humans. New workers should read [agents/README.md](agents/README.md) and may use [agents/AGENT_TEMPLATE.yaml](agents/AGENT_TEMPLATE.yaml). The definition describes a role and its boundaries; it does not prescribe the worker's reasoning. Python/API workers use the same inbox and cycle submission path as any other contributor.
 
