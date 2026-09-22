@@ -80,5 +80,13 @@
     "own_inbox": "inbox/{cycle_id}/{agent_id}.json",
     "ticketed_questions": true,
     "canonical_write": false
-  }
+  },
+  "seed_leads": [
+    {
+      "name": "East Bay Municipal Utility District wastewater treatment / food-waste anaerobic digestion",
+      "why": "EPA documents an Oakland facility converting post-consumer food scraps with anaerobic digestion to biogas used for plant energy; digestate can feed material/nutrient loops. Verify current operating conditions and usable interfaces before treating it as available commons capacity.",
+      "evidence_url": "https://www.epa.gov/sustainable-management-food/industrial-uses-wasted-food",
+      "status": "public_source_lead_not_partner_commitment"
+    }
+  ]
 }
