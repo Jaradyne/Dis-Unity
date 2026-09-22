@@ -64,6 +64,7 @@ Avoid treating commons as a single maturity ladder. Map parallel strands such as
 - food / kitchens / gardens / compost / nutrient circulation
 - water
 - energy / charging / refrigeration / thermal refuge
+- biological energy/resource cycling (for example anaerobic digestion/biogas where feedstock, safety, maintenance and permitting fit; algal photobioreactors as research or coproduct/fuel systems rather than assumed bulk power)
 - communications
 - mobility / logistics
 - health-supportive services within appropriate scope
