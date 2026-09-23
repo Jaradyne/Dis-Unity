@@ -1,0 +1,16 @@
+{
+  "summary": "Current user policy is role-fit free-model eligibility rather than Gemini-only. Models may be introduced, tested, classified by task fitness, and used as explicit fallbacks when they are demonstrably suitable for the assigned role. Every attempt must preserve the actual provider/model identity and result; no silent downgrade. Groq is explicitly denied, including indirect selection through aggregators, until the user reverses that instruction.",
+  "status": "ready_for_review",
+  "evidence_refs": [
+    "Current user instruction in Chat, 2026-09-22: 'Best can mean any model meant for this work well.'",
+    "Current user instruction in Chat, 2026-09-22: free models are acceptable as backup and should be tested/rated by task.",
+    "Current user instruction in Chat, 2026-09-22: 'NO GROQ' / vibe-banned until further notice."
+  ],
+  "counterevidence": [
+    "Earlier instruction required best eligible Gemini only and no weaker fallback; the later user clarification supersedes that narrower interpretation while retaining no-silent-downgrade and explicit model identity."
+  ],
+  "limitations": [
+    "This resolves policy, not provider eligibility. Exact model IDs, quotas, terms and role fitness still require current verification and testing before live use.",
+    "It does not authorize paid resources or hidden upstream providers."
+  ]
+}
