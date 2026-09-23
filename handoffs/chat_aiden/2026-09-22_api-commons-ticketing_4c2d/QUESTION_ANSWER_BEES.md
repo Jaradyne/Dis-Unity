@@ -64,11 +64,13 @@ Example: "Is the Strait of Hormuz passable for sulfur cargo?" and "Can sulfur cr
 
 For an ordinary Answer Bee:
 
-1. Try preferred eligible provider/model.
-2. On transient failure, repeat according to retry policy.
-3. Move to next eligible provider/model and record the attempt.
-4. Complete one bounded circuit of the configured provider group.
-5. If none returns a usable answer, then create/escalate a durable ticket for deferred provider capacity, Chat Aiden, Work Aiden or human review.
+1. Try the preferred eligible provider/model.
+2. On transient failure, make its configured immediate repeat and record the result.
+3. Move to the next eligible provider/model; every attempt has a result, never merely `complete`.
+4. Continue through the whole configured provider group.
+5. In later rings, apply per-provider exponential backoff while allowing attempts on other providers to occupy the waiting time. Use `remaining_wait = max(0, target_backoff - elapsed_since_that_provider)` plus jitter.
+6. Known daily/monthly quota exhaustion parks that provider until reset rather than retrying it.
+7. If no provider returns a usable answer after the bounded ring policy, then create/escalate a durable ticket for Chat Aiden, Work Aiden, human review, or later provider capacity.
 
 A successful answer ends the ring unless independent review was requested.
 
