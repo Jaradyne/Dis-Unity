@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Dis-Unity Research Question",
+  "type": "object",
+  "required": ["question_id", "question", "status", "created_at", "created_by"],
+  "properties": {
+    "question_id": {"type": "string", "pattern": "^Q-[A-Z0-9-]+$"},
+    "question": {"type": "string", "minLength": 1},
+    "status": {"enum": ["open", "answering", "answered", "needs_refresh", "superseded", "closed_no_answer"]},
+    "created_at": {"type": "string"},
+    "created_by": {"type": "string"},
+    "why_it_matters": {"type": "string"},
+    "geography": {"type": ["string", "null"]},
+    "domain": {"type": ["string", "null"]},
+    "parent_question_ids": {"type": "array", "items": {"type": "string"}, "default": []},
+    "child_question_ids": {"type": "array", "items": {"type": "string"}, "default": []},
+    "sibling_question_ids": {"type": "array", "items": {"type": "string"}, "default": []},
+    "semantic_notes": {"type": "string"},
+    "evidence_cutoff": {"type": ["string", "null"]},
+    "freshness": {
+      "type": "object",
+      "properties": {
+        "class": {"enum": ["slow", "medium", "fast", "event_driven"]},
+        "refresh_after": {"type": ["string", "null"]}
+      },
+      "additionalProperties": true
+    },
+    "context_refs": {"type": "array", "items": {"type": "string"}},
+    "attempt_refs": {"type": "array", "items": {"type": "string"}},
+    "answer_refs": {"type": "array", "items": {"type": "string"}},
+    "ticket_refs": {"type": "array", "items": {"type": "string"}},
+    "birth_requests": {"type": "array", "items": {"type": "object"}},
+    "superseded_by": {"type": ["string", "null"]}
+  },
+  "additionalProperties": true
+}
