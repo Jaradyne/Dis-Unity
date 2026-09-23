@@ -1,0 +1,636 @@
+{
+  "questions": {
+    "Q-OPS-PROVIDER-POLICY": {
+      "answers": {},
+      "attempts": {},
+      "claim": null,
+      "context_refs": [
+        "HANDOFF_FOR_CHAT_AIDEN.md",
+        "handoffs/chat_aiden/2026-09-22_api-commons-ticketing_4c2d/FREE_AI_EVALUATION_PLAN.md"
+      ],
+      "created_at": "2026-09-23T02:42:30.283382+00:00",
+      "created_by": "work-integration-20260923",
+      "epoch": 1,
+      "geography": null,
+      "history": [],
+      "identity_key": "6d0af3402727ac10c894a9cf647d5c304c059caa4e9269467080e7fa6c43d8b5",
+      "question": "Which provider/model eligibility rule is current: best eligible Gemini only, or evaluated role-fit free backups?",
+      "question_id": "Q-OPS-PROVIDER-POLICY",
+      "relations": [],
+      "status": "open",
+      "tickets": {
+        "TKT-5FC0766124B511AE50EB": {
+          "created_at": "2026-09-23T02:42:30.284732+00:00",
+          "created_by": "work-integration-20260923",
+          "epoch": 1,
+          "notes": "Nonblocking for mock, sensors and integration. User is tired; preserve both instructions and wait for a later natural clarification. No live provider calls meanwhile.",
+          "question_id": "Q-OPS-PROVIDER-POLICY",
+          "reason": "human_review_required",
+          "status": "open",
+          "ticket_id": "TKT-5FC0766124B511AE50EB"
+        }
+      }
+    },
+    "Q-RESEARCH-Q01": {
+      "answers": {},
+      "attempts": {},
+      "claim": null,
+      "context_refs": [
+        "Resilience_Cascade_STATE.json#QUESTIONS_TO_WATCH/Q01",
+        "RC-004; evidence cutoff 2026-09-21; reread before use"
+      ],
+      "created_at": "2026-09-23T02:42:30.257020+00:00",
+      "created_by": "work-integration-20260923",
+      "epoch": 1,
+      "geography": null,
+      "history": [],
+      "identity_key": "2076af330d408ee74c09574a4d4de7e3dce1ad8a2c7fd1f34e66360c2c2e840a",
+      "question": "Are fuel costs becoming actual missed essential deliveries?",
+      "question_id": "Q-RESEARCH-Q01",
+      "relations": [],
+      "status": "open",
+      "tickets": {}
+    },
+    "Q-RESEARCH-Q02": {
+      "answers": {},
+      "attempts": {},
+      "claim": null,
+      "context_refs": [
+        "Resilience_Cascade_STATE.json#QUESTIONS_TO_WATCH/Q02",
+        "RC-004; evidence cutoff 2026-09-21; reread before use"
+      ],
+      "created_at": "2026-09-23T02:42:30.257483+00:00",
+      "created_by": "work-integration-20260923",
+      "epoch": 1,
+      "geography": null,
+      "history": [],
+      "identity_key": "31befd9b1d48ad294bd5a043867b3ee6471f98ff941859c9cca5a7845f5177b0",
+      "question": "What is deliverable local fuel reserve after September 11?",
+      "question_id": "Q-RESEARCH-Q02",
+      "relations": [],
+      "status": "open",
+      "tickets": {}
+    },
+    "Q-RESEARCH-Q03": {
+      "answers": {},
+      "attempts": {},
+      "claim": null,
+      "context_refs": [
+        "Resilience_Cascade_STATE.json#QUESTIONS_TO_WATCH/Q03",
+        "RC-004; evidence cutoff 2026-09-21; reread before use"
+      ],
+      "created_at": "2026-09-23T02:42:30.257861+00:00",
+      "created_by": "work-integration-20260923",
+      "epoch": 1,
+      "geography": null,
+      "history": [],
+      "identity_key": "168c106e6f18b2862bf2fffb7ebac2d8515467de3bba706f67c94f7f65ddedf2",
+      "question": "What concrete transit bridge and alternative capacity survives each funding outcome?",
+      "question_id": "Q-RESEARCH-Q03",
+      "relations": [],
+      "status": "open",
+      "tickets": {}
+    },
+    "Q-RESEARCH-Q04": {
+      "answers": {},
+      "attempts": {},
+      "claim": null,
+      "context_refs": [
+        "Resilience_Cascade_STATE.json#QUESTIONS_TO_WATCH/Q04",
+        "RC-004; evidence cutoff 2026-09-21; reread before use"
+      ],
+      "created_at": "2026-09-23T02:42:30.258387+00:00",
+      "created_by": "work-integration-20260923",
+      "epoch": 1,
+      "geography": null,
+      "history": [],
+      "identity_key": "bb6f3f71945ba0f397709d2df71cd2230fc71ebfc2673019307f3f2efb3832ea",
+      "question": "Do sulfur/phosphate pressures persist across independent producers and farm orders?",
+      "question_id": "Q-RESEARCH-Q04",
+      "relations": [],
+      "status": "open",
+      "tickets": {}
+    },
+    "Q-RESEARCH-Q05": {
+      "answers": {},
+      "attempts": {},
+      "claim": null,
+      "context_refs": [
+        "Resilience_Cascade_STATE.json#QUESTIONS_TO_WATCH/Q05",
+        "RC-004; evidence cutoff 2026-09-21; reread before use"
+      ],
+      "created_at": "2026-09-23T02:42:30.258845+00:00",
+      "created_by": "work-integration-20260923",
+      "epoch": 1,
+      "geography": null,
+      "history": [],
+      "identity_key": "40e83c4e8921b768b47254e55a98a6b42a16aa7288ce15dbe9a44a99fa5aeb84",
+      "question": "Which local hub functions actually operate independently?",
+      "question_id": "Q-RESEARCH-Q05",
+      "relations": [],
+      "status": "open",
+      "tickets": {}
+    },
+    "Q-RESEARCH-Q06": {
+      "answers": {},
+      "attempts": {},
+      "claim": null,
+      "context_refs": [
+        "Resilience_Cascade_STATE.json#QUESTIONS_TO_WATCH/Q06",
+        "RC-004; evidence cutoff 2026-09-21; reread before use"
+      ],
+      "created_at": "2026-09-23T02:42:30.259477+00:00",
+      "created_by": "work-integration-20260923",
+      "epoch": 1,
+      "geography": null,
+      "history": [],
+      "identity_key": "40e47157edf4b965b162f2f24589099a5e2423b3aacdf2e8600ce317e4cde0f1",
+      "question": "Can the Saudi/European October delivery report be independently confirmed?",
+      "question_id": "Q-RESEARCH-Q06",
+      "relations": [],
+      "status": "open",
+      "tickets": {}
+    },
+    "Q-RESEARCH-Q07": {
+      "answers": {},
+      "attempts": {},
+      "claim": null,
+      "context_refs": [
+        "Resilience_Cascade_STATE.json#QUESTIONS_TO_WATCH/Q07",
+        "RC-004; evidence cutoff 2026-09-21; reread before use"
+      ],
+      "created_at": "2026-09-23T02:42:30.259983+00:00",
+      "created_by": "work-integration-20260923",
+      "epoch": 1,
+      "geography": null,
+      "history": [],
+      "identity_key": "8fa7d912f9d7bd140abc919021ec91bd76db141735c7631df05410a3203f6708",
+      "question": "What are current transformer and repair-equipment lead times?",
+      "question_id": "Q-RESEARCH-Q07",
+      "relations": [],
+      "status": "open",
+      "tickets": {}
+    },
+    "Q-RESEARCH-Q08": {
+      "answers": {},
+      "attempts": {},
+      "claim": null,
+      "context_refs": [
+        "Resilience_Cascade_STATE.json#QUESTIONS_TO_WATCH/Q08",
+        "RC-004; evidence cutoff 2026-09-21; reread before use"
+      ],
+      "created_at": "2026-09-23T02:42:30.260568+00:00",
+      "created_by": "work-integration-20260923",
+      "epoch": 1,
+      "geography": null,
+      "history": [],
+      "identity_key": "74c7cfcc613cf2465a129e8d367b9ccbf1475b3afbbfbce30a658055e7a9897b",
+      "question": "Do tariffs measurably change particular repair bids?",
+      "question_id": "Q-RESEARCH-Q08",
+      "relations": [],
+      "status": "open",
+      "tickets": {}
+    },
+    "Q-RESEARCH-Q09": {
+      "answers": {},
+      "attempts": {},
+      "claim": null,
+      "context_refs": [
+        "Resilience_Cascade_STATE.json#QUESTIONS_TO_WATCH/Q09",
+        "RC-004; evidence cutoff 2026-09-21; reread before use"
+      ],
+      "created_at": "2026-09-23T02:42:30.261131+00:00",
+      "created_by": "work-integration-20260923",
+      "epoch": 1,
+      "geography": null,
+      "history": [],
+      "identity_key": "1e815dbad72bdfdb7b4a8ce6e2b55712d54a495e4ab2ba51f2706901a929f774",
+      "question": "What current water and care continuity indicators can be verified?",
+      "question_id": "Q-RESEARCH-Q09",
+      "relations": [],
+      "status": "open",
+      "tickets": {}
+    },
+    "Q-RESEARCH-Q10": {
+      "answers": {},
+      "attempts": {},
+      "claim": null,
+      "context_refs": [
+        "Resilience_Cascade_STATE.json#QUESTIONS_TO_WATCH/Q10",
+        "RC-004; evidence cutoff 2026-09-21; reread before use"
+      ],
+      "created_at": "2026-09-23T02:42:30.261945+00:00",
+      "created_by": "work-integration-20260923",
+      "epoch": 1,
+      "geography": null,
+      "history": [],
+      "identity_key": "c23b1a544d346775230cb71826412c320960b90730ef9eda1d5f4972f9336e67",
+      "question": "Are social tensions translating into organized harmful behavior or resolving?",
+      "question_id": "Q-RESEARCH-Q10",
+      "relations": [],
+      "status": "open",
+      "tickets": {}
+    },
+    "Q-RESEARCH-Q11": {
+      "answers": {},
+      "attempts": {},
+      "claim": null,
+      "context_refs": [
+        "Resilience_Cascade_STATE.json#QUESTIONS_TO_WATCH/Q11",
+        "RC-004; evidence cutoff 2026-09-21; reread before use"
+      ],
+      "created_at": "2026-09-23T02:42:30.262637+00:00",
+      "created_by": "work-integration-20260923",
+      "epoch": 1,
+      "geography": null,
+      "history": [],
+      "identity_key": "eceb1e8dcf16df01707e735b585352adbd4da2822f51747680009e2aa5243ca1",
+      "question": "How much help can each outside reserve safely export?",
+      "question_id": "Q-RESEARCH-Q11",
+      "relations": [],
+      "status": "open",
+      "tickets": {}
+    },
+    "Q-RESEARCH-Q12": {
+      "answers": {},
+      "attempts": {},
+      "claim": null,
+      "context_refs": [
+        "Resilience_Cascade_STATE.json#QUESTIONS_TO_WATCH/Q12",
+        "RC-004; evidence cutoff 2026-09-21; reread before use"
+      ],
+      "created_at": "2026-09-23T02:42:30.263261+00:00",
+      "created_by": "work-integration-20260923",
+      "epoch": 1,
+      "geography": null,
+      "history": [],
+      "identity_key": "efc82835951f01e161eb62ae4d5ff6d87f4f1472282f18e22fb4ca2cedd790d5",
+      "question": "Complete independent review interrupted by usage limit",
+      "question_id": "Q-RESEARCH-Q12",
+      "relations": [],
+      "status": "open",
+      "tickets": {}
+    },
+    "Q-RESEARCH-Q13": {
+      "answers": {},
+      "attempts": {},
+      "claim": null,
+      "context_refs": [
+        "Resilience_Cascade_STATE.json#QUESTIONS_TO_WATCH/Q13",
+        "RC-004; evidence cutoff 2026-09-21; reread before use"
+      ],
+      "created_at": "2026-09-23T02:42:30.263923+00:00",
+      "created_by": "work-integration-20260923",
+      "epoch": 1,
+      "geography": null,
+      "history": [],
+      "identity_key": "1698c2b996b40a11474267c7b8c989445483405acae8246a6094eef653ce6871",
+      "question": "Finish independent peer review of RC-002 additions",
+      "question_id": "Q-RESEARCH-Q13",
+      "relations": [],
+      "status": "open",
+      "tickets": {}
+    },
+    "Q-RESEARCH-Q14": {
+      "answers": {},
+      "attempts": {},
+      "claim": null,
+      "context_refs": [
+        "Resilience_Cascade_STATE.json#QUESTIONS_TO_WATCH/Q14",
+        "RC-004; evidence cutoff 2026-09-21; reread before use"
+      ],
+      "created_at": "2026-09-23T02:42:30.264632+00:00",
+      "created_by": "work-integration-20260923",
+      "epoch": 1,
+      "geography": null,
+      "history": [],
+      "identity_key": "e1803e6c0a0b1f77ba5ed247e7899a1d104259a53b77cff4396fdc0abb0bd476",
+      "question": "Do hospital funding and replacement milestones translate into service continuity?",
+      "question_id": "Q-RESEARCH-Q14",
+      "relations": [],
+      "status": "open",
+      "tickets": {}
+    },
+    "Q-RESEARCH-Q15": {
+      "answers": {},
+      "attempts": {},
+      "claim": null,
+      "context_refs": [
+        "Resilience_Cascade_STATE.json#QUESTIONS_TO_WATCH/Q15",
+        "RC-004; evidence cutoff 2026-09-21; reread before use"
+      ],
+      "created_at": "2026-09-23T02:42:30.265350+00:00",
+      "created_by": "work-integration-20260923",
+      "epoch": 1,
+      "geography": null,
+      "history": [],
+      "identity_key": "074913112c058a8391bee447ba811f702151b3d33bb76539cbd8664688386b22",
+      "question": "Is nitrogen-to-diesel-exhaust-fluid a consequential additional dependency?",
+      "question_id": "Q-RESEARCH-Q15",
+      "relations": [],
+      "status": "open",
+      "tickets": {}
+    },
+    "Q-RESEARCH-Q16": {
+      "answers": {},
+      "attempts": {},
+      "claim": null,
+      "context_refs": [
+        "Resilience_Cascade_STATE.json#QUESTIONS_TO_WATCH/Q16",
+        "RC-004; evidence cutoff 2026-09-21; reread before use"
+      ],
+      "created_at": "2026-09-23T02:42:30.266170+00:00",
+      "created_by": "work-integration-20260923",
+      "epoch": 1,
+      "geography": null,
+      "history": [],
+      "identity_key": "36a96becdbd828ff330c2fa3b1f300d56e9641243316f5c604741b2d8cbfaa32",
+      "question": "What changes in Bayer/Monsanto evidence, operating access and governance?",
+      "question_id": "Q-RESEARCH-Q16",
+      "relations": [],
+      "status": "open",
+      "tickets": {}
+    },
+    "Q-RESEARCH-Q17": {
+      "answers": {},
+      "attempts": {},
+      "claim": null,
+      "context_refs": [
+        "Resilience_Cascade_STATE.json#QUESTIONS_TO_WATCH/Q17",
+        "RC-004; evidence cutoff 2026-09-21; reread before use"
+      ],
+      "created_at": "2026-09-23T02:42:30.267147+00:00",
+      "created_by": "work-integration-20260923",
+      "epoch": 1,
+      "geography": null,
+      "history": [],
+      "identity_key": "d164db65af9a10dd2f1bddb080bc65c089904373ffe6627e2e775fb6d947d76e",
+      "question": "How many usable food-service days survive losing a major supply channel?",
+      "question_id": "Q-RESEARCH-Q17",
+      "relations": [],
+      "status": "open",
+      "tickets": {}
+    },
+    "Q-RESEARCH-Q18": {
+      "answers": {},
+      "attempts": {},
+      "claim": null,
+      "context_refs": [
+        "Resilience_Cascade_STATE.json#QUESTIONS_TO_WATCH/Q18",
+        "RC-004; evidence cutoff 2026-09-21; reread before use"
+      ],
+      "created_at": "2026-09-23T02:42:30.267952+00:00",
+      "created_by": "work-integration-20260923",
+      "epoch": 1,
+      "geography": null,
+      "history": [],
+      "identity_key": "67b1eaf067c604cc142878e818313c922d4830593526edc3dac3a05275537fc6",
+      "question": "Which local diesel function can be replaced with demonstrated reliable service?",
+      "question_id": "Q-RESEARCH-Q18",
+      "relations": [],
+      "status": "open",
+      "tickets": {}
+    },
+    "Q-RESEARCH-Q19": {
+      "answers": {},
+      "attempts": {},
+      "claim": null,
+      "context_refs": [
+        "Resilience_Cascade_STATE.json#QUESTIONS_TO_WATCH/Q19",
+        "RC-004; evidence cutoff 2026-09-21; reread before use"
+      ],
+      "created_at": "2026-09-23T02:42:30.268809+00:00",
+      "created_by": "work-integration-20260923",
+      "epoch": 1,
+      "geography": null,
+      "history": [],
+      "identity_key": "f75e02b10b5d7090e12abee37e86e983f39270ece32804a3de767048b80586cc",
+      "question": "Which commons candidate can secure lasting control and funded public operation?",
+      "question_id": "Q-RESEARCH-Q19",
+      "relations": [],
+      "status": "open",
+      "tickets": {}
+    },
+    "Q-RESEARCH-Q20": {
+      "answers": {},
+      "attempts": {},
+      "claim": null,
+      "context_refs": [
+        "Resilience_Cascade_STATE.json#QUESTIONS_TO_WATCH/Q20",
+        "RC-004; evidence cutoff 2026-09-21; reread before use"
+      ],
+      "created_at": "2026-09-23T02:42:30.269655+00:00",
+      "created_by": "work-integration-20260923",
+      "epoch": 1,
+      "geography": null,
+      "history": [],
+      "identity_key": "017e6ad6909075af3971394c30ab329287a0add0a1488f13ac1883d8ac442bc9",
+      "question": "Which sulfur/acid offers are genuinely deliverable after donor commitments?",
+      "question_id": "Q-RESEARCH-Q20",
+      "relations": [],
+      "status": "open",
+      "tickets": {}
+    },
+    "Q-RESEARCH-Q21": {
+      "answers": {},
+      "attempts": {},
+      "claim": null,
+      "context_refs": [
+        "Resilience_Cascade_STATE.json#QUESTIONS_TO_WATCH/Q21",
+        "RC-004; evidence cutoff 2026-09-21; reread before use"
+      ],
+      "created_at": "2026-09-23T02:42:30.270754+00:00",
+      "created_by": "work-integration-20260923",
+      "epoch": 1,
+      "geography": null,
+      "history": [],
+      "identity_key": "c18be6d22e6779e81150730827d3e6fd7bb42ed52c19619a5adc7b3e88253e24",
+      "question": "Are the relevant routes currently usable, insurable and timely?",
+      "question_id": "Q-RESEARCH-Q21",
+      "relations": [],
+      "status": "open",
+      "tickets": {}
+    },
+    "Q-RESEARCH-Q22": {
+      "answers": {},
+      "attempts": {},
+      "claim": null,
+      "context_refs": [
+        "Resilience_Cascade_STATE.json#QUESTIONS_TO_WATCH/Q22",
+        "RC-004; evidence cutoff 2026-09-21; reread before use"
+      ],
+      "created_at": "2026-09-23T02:42:30.271797+00:00",
+      "created_by": "work-integration-20260923",
+      "epoch": 1,
+      "geography": null,
+      "history": [],
+      "identity_key": "7ebe89aa377733af366ce1b162db4bdf82a5f81c3be02ff4fb5031228d25b5a7",
+      "question": "Does transition planning preserve useful coproducts and independent fallback?",
+      "question_id": "Q-RESEARCH-Q22",
+      "relations": [],
+      "status": "open",
+      "tickets": {}
+    },
+    "Q-RESEARCH-Q23": {
+      "answers": {},
+      "attempts": {},
+      "claim": null,
+      "context_refs": [
+        "Resilience_Cascade_STATE.json#QUESTIONS_TO_WATCH/Q23",
+        "RC-004; evidence cutoff 2026-09-21; reread before use"
+      ],
+      "created_at": "2026-09-23T02:42:30.272856+00:00",
+      "created_by": "work-integration-20260923",
+      "epoch": 1,
+      "geography": null,
+      "history": [],
+      "identity_key": "81a6059e1db57c4feaee1ee8528131e4546d7053243c613fcad4eb212fbe9191",
+      "question": "Which East Asian product routes have actual arrival delays beyond accessible stock cover?",
+      "question_id": "Q-RESEARCH-Q23",
+      "relations": [],
+      "status": "open",
+      "tickets": {}
+    },
+    "Q-RESEARCH-Q24": {
+      "answers": {},
+      "attempts": {},
+      "claim": null,
+      "context_refs": [
+        "Resilience_Cascade_STATE.json#QUESTIONS_TO_WATCH/Q24",
+        "RC-004; evidence cutoff 2026-09-21; reread before use"
+      ],
+      "created_at": "2026-09-23T02:42:30.273917+00:00",
+      "created_by": "work-integration-20260923",
+      "epoch": 1,
+      "geography": null,
+      "history": [],
+      "identity_key": "bff072e1c0db30a9788e588643a9d419ec4589e67c592f096bf1c92f18ba8290",
+      "question": "What is the current diesel futures curve, with contract month and settlement date?",
+      "question_id": "Q-RESEARCH-Q24",
+      "relations": [],
+      "status": "open",
+      "tickets": {}
+    },
+    "Q-RESEARCH-Q25": {
+      "answers": {},
+      "attempts": {},
+      "claim": null,
+      "context_refs": [
+        "Resilience_Cascade_STATE.json#QUESTIONS_TO_WATCH/Q25",
+        "RC-004; evidence cutoff 2026-09-21; reread before use"
+      ],
+      "created_at": "2026-09-23T02:42:30.275000+00:00",
+      "created_by": "work-integration-20260923",
+      "epoch": 1,
+      "geography": null,
+      "history": [],
+      "identity_key": "d55b8af2fdd7bd2c4569b69472e9b639440f51cdbb43185c051ae1f611fc29b2",
+      "question": "How many current US locomotives use each energy source and where can rail carry more essential freight?",
+      "question_id": "Q-RESEARCH-Q25",
+      "relations": [],
+      "status": "open",
+      "tickets": {}
+    },
+    "Q-RESEARCH-Q26": {
+      "answers": {},
+      "attempts": {},
+      "claim": null,
+      "context_refs": [
+        "Resilience_Cascade_STATE.json#QUESTIONS_TO_WATCH/Q26",
+        "RC-004; evidence cutoff 2026-09-21; reread before use"
+      ],
+      "created_at": "2026-09-23T02:42:30.276337+00:00",
+      "created_by": "work-integration-20260923",
+      "epoch": 1,
+      "geography": null,
+      "history": [],
+      "identity_key": "eeb4bff5637908ac83a63afd18852ce9a7b1487b0578e6d4ae4f9155bb758ba7",
+      "question": "Which Venezuelan sulfur assets can be repaired, and when would net exportable product be available?",
+      "question_id": "Q-RESEARCH-Q26",
+      "relations": [],
+      "status": "open",
+      "tickets": {}
+    },
+    "Q-RESEARCH-Q27": {
+      "answers": {},
+      "attempts": {},
+      "claim": null,
+      "context_refs": [
+        "Resilience_Cascade_STATE.json#QUESTIONS_TO_WATCH/Q27",
+        "RC-004; evidence cutoff 2026-09-21; reread before use"
+      ],
+      "created_at": "2026-09-23T02:42:30.277500+00:00",
+      "created_by": "work-integration-20260923",
+      "epoch": 1,
+      "geography": null,
+      "history": [],
+      "identity_key": "e46d4c435ec80e0b40cd690f83936137fb44b8a3612520707c72e55b833bf6f7",
+      "question": "How do food-access cover and replenishment gaps compare in one rural Tennessee county and an East Bay locality?",
+      "question_id": "Q-RESEARCH-Q27",
+      "relations": [],
+      "status": "open",
+      "tickets": {}
+    },
+    "Q-RESEARCH-Q28": {
+      "answers": {},
+      "attempts": {},
+      "claim": null,
+      "context_refs": [
+        "Resilience_Cascade_STATE.json#QUESTIONS_TO_WATCH/Q28",
+        "RC-004; evidence cutoff 2026-09-21; reread before use"
+      ],
+      "created_at": "2026-09-23T02:42:30.279612+00:00",
+      "created_by": "work-integration-20260923",
+      "epoch": 1,
+      "geography": null,
+      "history": [],
+      "identity_key": "a3ca840c9b7272f1bb51c6fc75663e322340702e2da89fbbb3145e0422ef1ee4",
+      "question": "Where does Oakland organics processing occur now, and how much suitable compost reaches local growers?",
+      "question_id": "Q-RESEARCH-Q28",
+      "relations": [],
+      "status": "open",
+      "tickets": {}
+    },
+    "Q-RESEARCH-Q29": {
+      "answers": {},
+      "attempts": {},
+      "claim": null,
+      "context_refs": [
+        "Resilience_Cascade_STATE.json#QUESTIONS_TO_WATCH/Q29",
+        "RC-004; evidence cutoff 2026-09-21; reread before use"
+      ],
+      "created_at": "2026-09-23T02:42:30.280854+00:00",
+      "created_by": "work-integration-20260923",
+      "epoch": 1,
+      "geography": null,
+      "history": [],
+      "identity_key": "58556f2269fad4684e563ccd8e61eef6bd12c8d642906a5f9abfdc6cb3bdc6e7",
+      "question": "Can seasonal food exchange bridge winter access without exporting donor shortage?",
+      "question_id": "Q-RESEARCH-Q29",
+      "relations": [],
+      "status": "open",
+      "tickets": {}
+    },
+    "Q-RESEARCH-Q30": {
+      "answers": {},
+      "attempts": {},
+      "claim": null,
+      "context_refs": [
+        "Resilience_Cascade_STATE.json#QUESTIONS_TO_WATCH/Q30",
+        "RC-004; evidence cutoff 2026-09-21; reread before use"
+      ],
+      "created_at": "2026-09-23T02:42:30.282084+00:00",
+      "created_by": "work-integration-20260923",
+      "epoch": 1,
+      "geography": null,
+      "history": [],
+      "identity_key": "49710c07f706870087c91a094aa420973fbb7c19981ffafdc4e65527edc7b6b4",
+      "question": "Which small commons activity can grow durable capability in the direction of the supplied vision?",
+      "question_id": "Q-RESEARCH-Q30",
+      "relations": [],
+      "status": "open",
+      "tickets": {}
+    }
+  },
+  "schema_version": "0.1"
+}

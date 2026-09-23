@@ -1,0 +1,18 @@
+{
+  "schema_version": "0.1",
+  "real_execution": "paused",
+  "allowed_runtime_providers": ["mock"],
+  "denied_providers": ["groq"],
+  "deny_includes_aggregator_upstreams": true,
+  "default_real_model": null,
+  "pending_decision": "Chat PR #4 records permission for role-fit free backups; this conflicts with the earlier direct best-Gemini-only instruction. Preserve the proposal without authorizing live calls until reconciled.",
+  "requirements_before_enabling": [
+    "Resolve policy against the user's current instruction",
+    "Verify exact model IDs, availability, terms and quotas in current official documentation",
+    "Evaluate a model for the assigned role with preserved results",
+    "Implement reviewed provider adapters and bounded per-provider retry state",
+    "Persist prompt/context before every attempt; never silently downgrade",
+    "Confirm account/resource authorization for the concrete connection"
+  ],
+  "note": "No configuration switch currently enables network model calls. Worker v0.2 records a deferred attempt instead. Candidate model names and quotas in the preserved Chat packet are unverified leads."
+}

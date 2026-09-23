@@ -1,6 +1,8 @@
 # Agent definitions
 
-For work allocation and contribution boundaries, read [HANDOFF_FOR_CHAT_AIDEN.md](../HANDOFF_FOR_CHAT_AIDEN.md). Gemini use is paused under the user's best-model-only rule until reviewed model-selection and prompt-retention safeguards are in place; existing Flash defaults do not override that instruction. Retained task material is in [GEMINI_RESEARCH_PROMPTS.md](../handoffs/deferred_prompts/GEMINI_RESEARCH_PROMPTS.md).
+**23 September operating update:** `../operations/README.md` describes shared questions and recoverable attempts. Reuse Question IDs and evidence epochs; a ticket is an escalation, not a prerequisite for asking. The Oakland mapper is now an available role definition. Public RSS/Atom scouts can operate through explicit commands without a model. Live model execution remains paused pending reconciliation of the old Gemini instruction and newer role-fit proposal; Groq is excluded. No automatic worker spawning or schedule is enabled.
+
+For work allocation and contribution boundaries, read [HANDOFF_FOR_CHAT_AIDEN.md](../HANDOFF_FOR_CHAT_AIDEN.md). Effective provider status and the pending policy decision are in [operations/README.md](../operations/README.md). Retained task material is in [GEMINI_RESEARCH_PROMPTS.md](../handoffs/deferred_prompts/GEMINI_RESEARCH_PROMPTS.md).
 
 Dis-Unity may be approached by ChatGPT/Work agents, API-driven Python workers, other model providers, local models, humans, or future runtimes. They should not need provider-specific code in order to understand the role they are taking.
 

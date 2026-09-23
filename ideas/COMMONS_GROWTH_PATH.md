@@ -56,6 +56,8 @@ Page numbers refer to the supplied PDF, not an assumed earlier version.
 
 **Shared capability fund.** Keep operating money, maintenance/replacement reserves and expansion resources legible. Productive projects should show net contribution after their own upkeep. No percentage split or benefit eligibility rule has been adopted here. A future dividend remains an aspiration until funded.
 
+**Biological resource and energy loops.** The new [commons capability record](COMMONS_METABOLISM.md) makes room to investigate anaerobic digestion, biogas/heat, nutrient recovery and algae research as distinct strands. Each needs local feedstock, contamination, water, maintenance, useful outputs and economics established before being counted as a reserve. These are investigation options; no commons-scale installation is established by adding them to the map. “Clean coal” is not adopted as an ordinary commons power option.
+
 ## Old assertions that are not carried into operating assumptions
 
 Several earlier assistant passages presented possibilities as if their feasibility were already settled. Preserve their intent while testing the actual mechanism:

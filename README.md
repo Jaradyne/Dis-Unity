@@ -18,7 +18,9 @@ The supplied **15 Years Til Utopia** is incorporated as [a commons growth direct
 
 ## Operation
 
-The multi-agent research runs during active assistant sessions. The cycle utilities preserve, validate and admit that work. A separately merged `scripts/worker.py` can produce one attributed checkpoint using a deterministic mock or an explicitly invoked provider. It does not browse, send mail, edit canonical state, commit Git or recursively spawn agents. **Real Gemini execution is paused** under the user's best-model-only policy until reviewed selection and prompt-retention safeguards are integrated; its existing Flash default is not approved. Mock verification remains available. No unattended research loop or scheduled digest is configured.
+The research agents work during active assistant sessions. The cycle utilities preserve, validate and admit that work. The new [question runtime](operations/README.md) registers existing questions, coordinates claims, retains exact prompts before attempts, accepts attributed answers and preserves failed or interrupted work. A deterministic mock exercises the worker; **real model calls remain paused** while the earlier best-Gemini instruction and Chat's newer role-fit proposal are reconciled. Groq is excluded. No default real model or silent fallback is configured.
+
+Public RSS/Atom scouts can run through explicit bounded commands without a model. Their records are unreviewed discovery metadata, not admitted findings. Both configured EIA feeds have returned metadata successfully after a format-negotiation fix; the earlier HTTP 406 failures are preserved. The initial successful reads discovered one fuel-update item and 18 energy leads, all unreviewed. No unattended loop, activity monitoring or scheduled digest is enabled. The [Oakland Commons Mapper](agents/oakland_commons_mapper.json), [commons capability record](ideas/COMMONS_METABOLISM.md) and [Start with a table brochure source](posters/START_WITH_A_TABLE_TRI_FOLD.md) are integrated.
 
 Read [HANDOFF_FOR_CHAT_AIDEN.md](HANDOFF_FOR_CHAT_AIDEN.md) for the division of work: Chat prepares research, analysis, prompts, drafts and proposed patches; Work integrates and verifies consequential changes. [Retained Gemini prompt materials](handoffs/deferred_prompts/GEMINI_RESEARCH_PROMPTS.md) remain ready for a future eligible run. Git preserves shared history and contributions; it does not make an agent run merely because a role file exists.
 
@@ -34,10 +36,12 @@ Read [HANDOFF_FOR_CHAT_AIDEN.md](HANDOFF_FOR_CHAT_AIDEN.md) for the division of 
 | `scripts/render_state.py` | Regenerate the readable views |
 | `tests/test_cycle.py` | Data-loss and evidence-admission boundary tests |
 | `AGENTS.md` | Instructions for continuing research and maintaining the repository |
-| `HANDOFF_FOR_CHAT_AIDEN.md` | Chat preparation queue, contribution rules and best-Gemini-only policy |
+| `HANDOFF_FOR_CHAT_AIDEN.md` | Chat preparation queue, contribution rules and pending model-policy reconciliation |
 | `WORK_AIDEN_HANDOFF.md` | Received runtime/geography handoff with current integration note |
 | `agents/` | Declarative roles, geography coordination and shared thinking mailbox |
-| `scripts/worker.py` | One-checkpoint external-worker prototype; Gemini paused, mock available |
+| `scripts/questions.py`, `operations/` | Shared working questions, claims, attempts, answers and escalation tickets |
+| `scripts/scout.py`, `config/sensors.json` | Bounded public feed discovery without model calls |
+| `scripts/worker.py` | Recoverable question-linked worker; real providers deferred, mock available |
 | `reports/RC-002/WORKFLOW.md` | Commands, recovery procedure and implementation limits |
 
 Requires Python 3.9 or later and its standard library. The completed verification used Linux. Windows locking support is included but has not been exercised on Windows.
@@ -67,6 +71,17 @@ Social analysis separates rhetoric, organization, capacity, behavior and violenc
 Context is nested across San Francisco, the Bay Area, California, the United States, North America, the Caribbean, relevant European/NATO and Commonwealth-linked networks, and major resource/trade nodes. Coverage is deliberately uneven and gaps are recorded. Pajaro Valley is treated as a neighboring California context, not silently included in the nine-county Bay Area.
 
 Public, lawful, nonintrusive research plus a user-supplied concept explicitly authorized for Git incorporation. No private account data, outbound contacts, resource commitments or facility targeting are part of this deployment. Commons cards are proposals unless an operational status is explicitly verified.
+
+## Why this exists
+
+Resilience Cascade is an attempt to notice what is breaking, what still works, what can be shared, and what might become possible when knowledge is allowed to connect across boundaries. It is deliberately public so researchers, communities, institutions, markets and strangers can inspect it, challenge it and use it.
+
+Founding songs / invitation to listen:
+
+- [OneRepublic — Counting Stars](https://www.youtube.com/watch?v=hT_nvWreIhg)
+- [Capital Cities — Safe and Sound](https://www.youtube.com/watch?v=47dtFZ8CFo8)
+
+*Let those with ears listen.*
 
 ## License
 

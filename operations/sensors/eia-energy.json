@@ -1,0 +1,653 @@
+{
+  "attempt_history": [
+    {
+      "error_type": "HTTPError",
+      "finished_at": "2026-09-23T02:42:46.718638+00:00",
+      "http_status": 406,
+      "note": "No interpretation or missing-data inference; retry only in a later bounded run.",
+      "started_at": "2026-09-23T02:42:41.495998+00:00",
+      "status": "unavailable"
+    },
+    {
+      "body_sha256": "7d5a30ebbea33eefa8085f4d12fa396ff66a78da6806166faab662d4a5d3fba1",
+      "finished_at": "2026-09-23T02:46:22.136819+00:00",
+      "started_at": "2026-09-23T02:46:16.312781+00:00",
+      "status": "retrieved"
+    }
+  ],
+  "interpretation": "Discovery only; publication time is not event time. No canonical admission.",
+  "last_success": {
+    "body_sha256": "7d5a30ebbea33eefa8085f4d12fa396ff66a78da6806166faab662d4a5d3fba1",
+    "finished_at": "2026-09-23T02:46:22.136819+00:00",
+    "items": [
+      {
+        "access": "feed_metadata_only",
+        "fingerprint": "182998f5bf832e093af9cc91409e41c89eafe9b721f576add44e983885871fd6",
+        "observation_period": "unknown; inspect the linked source",
+        "publication_date_raw": "Tue, 22 Sep 2026  09:00:00 EST",
+        "source_item_id": "https://www.eia.gov/todayinenergy/detail.php?id=68184",
+        "status": "unreviewed_lead",
+        "title": "Public companies produce most U.S. crude oil and natural gas",
+        "updated_date_raw": null,
+        "url": "https://www.eia.gov/todayinenergy/detail.php?id=68184"
+      },
+      {
+        "access": "feed_metadata_only",
+        "fingerprint": "931dfe95f21bfa449b7ba313c2fb52a50813cffabf1d29611a928fa6eca6b93f",
+        "observation_period": "unknown; inspect the linked source",
+        "publication_date_raw": "Fri, 18 Sep 2026  09:00:00 EST",
+        "source_item_id": "https://www.eia.gov/todayinenergy/detail.php?id=68164",
+        "status": "unreviewed_lead",
+        "title": "What goes into diesel prices?",
+        "updated_date_raw": null,
+        "url": "https://www.eia.gov/todayinenergy/detail.php?id=68164"
+      },
+      {
+        "access": "feed_metadata_only",
+        "fingerprint": "fa9d7553c8db1a2e22f99d24ffde63258182c35710a190e34b25f3ce3d5e7349",
+        "observation_period": "unknown; inspect the linked source",
+        "publication_date_raw": "Tue, 15 Sep 2026  09:00:00 EST",
+        "source_item_id": "https://www.eia.gov/todayinenergy/detail.php?id=68144",
+        "status": "unreviewed_lead",
+        "title": "Corpus Christi LNG expansion makes facility the second-largest in the United States",
+        "updated_date_raw": null,
+        "url": "https://www.eia.gov/todayinenergy/detail.php?id=68144"
+      },
+      {
+        "access": "feed_metadata_only",
+        "fingerprint": "a13a4cf7199ec1b6fde8bce91f9be291316d7a4525ad0d6e5e307f6529b4ac89",
+        "observation_period": "unknown; inspect the linked source",
+        "publication_date_raw": "Thu, 10 Sep 2026  09:00:00 EST",
+        "source_item_id": "https://www.eia.gov/todayinenergy/detail.php?id=68125",
+        "status": "unreviewed_lead",
+        "title": "United States on track for record crude oil production in 2026",
+        "updated_date_raw": null,
+        "url": "https://www.eia.gov/todayinenergy/detail.php?id=68125"
+      },
+      {
+        "access": "feed_metadata_only",
+        "fingerprint": "e24ce8082ae78608a58319a6d5a6c5541a4440e18e8d7b781d592f19c9686a7e",
+        "observation_period": "unknown; inspect the linked source",
+        "publication_date_raw": "Wed, 09 Sep 2026  09:00:00 EST",
+        "source_item_id": "https://www.eia.gov/todayinenergy/detail.php?id=68124",
+        "status": "unreviewed_lead",
+        "title": "New England natural gas prices have been trading near record discounts to Henry Hub",
+        "updated_date_raw": null,
+        "url": "https://www.eia.gov/todayinenergy/detail.php?id=68124"
+      },
+      {
+        "access": "feed_metadata_only",
+        "fingerprint": "1af7a0c7dee4662f52aebbd3e7fb339411d0ad6eb4d36884aba8562a14aa0313",
+        "observation_period": "unknown; inspect the linked source",
+        "publication_date_raw": "Fri, 04 Sep 2026  09:00:00 EST",
+        "source_item_id": "https://www.eia.gov/todayinenergy/detail.php?id=68104",
+        "status": "unreviewed_lead",
+        "title": "Elevated crack spreads and crude oil prices contribute to higher prices at the pump",
+        "updated_date_raw": null,
+        "url": "https://www.eia.gov/todayinenergy/detail.php?id=68104"
+      },
+      {
+        "access": "feed_metadata_only",
+        "fingerprint": "21fea767227cb7d2f06022acd70db2f1ad2bd98f58c662deade14565ef54830d",
+        "observation_period": "unknown; inspect the linked source",
+        "publication_date_raw": "Thu, 03 Sep 2026 09:00:00 EST",
+        "source_item_id": "https://www.eia.gov/todayinenergy/detail.php?id=68084",
+        "status": "unreviewed_lead",
+        "title": "Weekly average load in ERCOT continues near record high",
+        "updated_date_raw": null,
+        "url": "https://www.eia.gov/todayinenergy/detail.php?id=68084"
+      },
+      {
+        "access": "feed_metadata_only",
+        "fingerprint": "9eb3eb9d3c2a7c360856666a86441db07735d974e566b29a94e6118aedaa4728",
+        "observation_period": "unknown; inspect the linked source",
+        "publication_date_raw": "Tue, 01 Sep 2026 09:00:00 EST",
+        "source_item_id": "https://www.eia.gov/todayinenergy/detail.php?id=68064",
+        "status": "unreviewed_lead",
+        "title": "U.S. LNG exports rose 23% in the first half of 2026 because of higher capacity",
+        "updated_date_raw": null,
+        "url": "https://www.eia.gov/todayinenergy/detail.php?id=68064"
+      },
+      {
+        "access": "feed_metadata_only",
+        "fingerprint": "cf96340b9cc418463da53e5433efea424c7e8a801f25b3e63da81b14e36bb779",
+        "observation_period": "unknown; inspect the linked source",
+        "publication_date_raw": "Fri, 28 Aug 2026  09:00:00 EST",
+        "source_item_id": "https://www.eia.gov/todayinenergy/detail.php?id=68044",
+        "status": "unreviewed_lead",
+        "title": "U.S. uranium production more than tripled in 2025 and was the highest since 2017",
+        "updated_date_raw": null,
+        "url": "https://www.eia.gov/todayinenergy/detail.php?id=68044"
+      },
+      {
+        "access": "feed_metadata_only",
+        "fingerprint": "d50d8b717a8c1784d473d965c5561dfadec9c58e6d7d92e3ceba28b093fa84ec",
+        "observation_period": "unknown; inspect the linked source",
+        "publication_date_raw": "Wed, 26 Aug 2026  09:00:00 EST",
+        "source_item_id": "https://www.eia.gov/todayinenergy/detail.php?id=68024",
+        "status": "unreviewed_lead",
+        "title": "Eight petroleum liquids pipeline projects have been completed since the start of 2025",
+        "updated_date_raw": null,
+        "url": "https://www.eia.gov/todayinenergy/detail.php?id=68024"
+      },
+      {
+        "access": "feed_metadata_only",
+        "fingerprint": "2527c9098c4a07914ff7003de6bfedbbc49332005315793805a51cd5bcc63afe",
+        "observation_period": "unknown; inspect the linked source",
+        "publication_date_raw": "Mon, 24 Aug 2026  09:00:00 EST",
+        "source_item_id": "https://www.eia.gov/todayinenergy/detail.php?id=68004",
+        "status": "unreviewed_lead",
+        "title": "Dangote refinery drives increase in petroleum shipments from Nigeria",
+        "updated_date_raw": null,
+        "url": "https://www.eia.gov/todayinenergy/detail.php?id=68004"
+      },
+      {
+        "access": "feed_metadata_only",
+        "fingerprint": "9a3bee2fdf23fdda60734e923ce4a9ce772a595c517fee741dffbe0098fe3329",
+        "observation_period": "unknown; inspect the linked source",
+        "publication_date_raw": "Wed, 19 Aug 2026  09:00:00 EST",
+        "source_item_id": "https://www.eia.gov/todayinenergy/detail.php?id=67984",
+        "status": "unreviewed_lead",
+        "title": "Longer wells boost Permian crude oil and natural gas production",
+        "updated_date_raw": null,
+        "url": "https://www.eia.gov/todayinenergy/detail.php?id=67984"
+      },
+      {
+        "access": "feed_metadata_only",
+        "fingerprint": "cc33acc2c444eefe22b8272d84db1e0261598ab72daced4b27434d1288ab4023",
+        "observation_period": "unknown; inspect the linked source",
+        "publication_date_raw": "Mon, 17 Aug 2026  09:00:00 EST",
+        "source_item_id": "https://www.eia.gov/todayinenergy/detail.php?id=67964",
+        "status": "unreviewed_lead",
+        "title": "Waterborne shipments from the U.S. Gulf Coast increased in April and May",
+        "updated_date_raw": null,
+        "url": "https://www.eia.gov/todayinenergy/detail.php?id=67964"
+      },
+      {
+        "access": "feed_metadata_only",
+        "fingerprint": "9c3cf0f9908e98d3c780ff46e8cbdef4c34a66c3c197b21fbdf8963a1ee9e062",
+        "observation_period": "unknown; inspect the linked source",
+        "publication_date_raw": "Wed, 12 Aug 2026  09:00:00 EST",
+        "source_item_id": "https://www.eia.gov/todayinenergy/detail.php?id=67944",
+        "status": "unreviewed_lead",
+        "title": "United States on track for record natural gas production in 2026",
+        "updated_date_raw": null,
+        "url": "https://www.eia.gov/todayinenergy/detail.php?id=67944"
+      },
+      {
+        "access": "feed_metadata_only",
+        "fingerprint": "914cb1c26c59f7c18da8ba9c87a86678277e8d00849fd9fd0889f94722650bb4",
+        "observation_period": "unknown; inspect the linked source",
+        "publication_date_raw": "Mon, 10 Aug 2026  09:00:00 EST",
+        "source_item_id": "https://www.eia.gov/todayinenergy/detail.php?id=67926",
+        "status": "unreviewed_lead",
+        "title": "Duration of power outages in Puerto Rico not caused by major events increased 19% in 2025",
+        "updated_date_raw": null,
+        "url": "https://www.eia.gov/todayinenergy/detail.php?id=67926"
+      },
+      {
+        "access": "feed_metadata_only",
+        "fingerprint": "fce90aa83fa523fe4d3baa41a71b712b62c71241c60b47408262d7b177787a9f",
+        "observation_period": "unknown; inspect the linked source",
+        "publication_date_raw": "Fri, 7 Aug 2026  09:00:00 EST",
+        "source_item_id": "https://www.eia.gov/todayinenergy/detail.php?id=67925",
+        "status": "unreviewed_lead",
+        "title": "Battery storage capacity averaged 70% growth over the last three years",
+        "updated_date_raw": null,
+        "url": "https://www.eia.gov/todayinenergy/detail.php?id=67925"
+      },
+      {
+        "access": "feed_metadata_only",
+        "fingerprint": "4b666280e4b4ead9bb8e4b61c708496bea2fbedd294fba7cbc783e723688f55e",
+        "observation_period": "unknown; inspect the linked source",
+        "publication_date_raw": "Wed, 05 Aug 2026  09:00:00 EST",
+        "source_item_id": "https://www.eia.gov/todayinenergy/detail.php?id=",
+        "status": "unreviewed_lead",
+        "title": "The U.S.-Canada natural gas and electricity trade value rose in 2025",
+        "updated_date_raw": null,
+        "url": "https://www.eia.gov/todayinenergy/detail.php?id="
+      },
+      {
+        "access": "feed_metadata_only",
+        "fingerprint": "bccfaea728250341edfee1d1922689361947dd40a01d0fc8b6eb20b21bd4a6af",
+        "observation_period": "unknown; inspect the linked source",
+        "publication_date_raw": "Mon, 03 Aug 2026  09:00:00 EST",
+        "source_item_id": "https://www.eia.gov/todayinenergy/detail.php?id=67906",
+        "status": "unreviewed_lead",
+        "title": "Hourly peak load in ERCOT set a new record, exceeding 91 GW on July 22",
+        "updated_date_raw": null,
+        "url": "https://www.eia.gov/todayinenergy/detail.php?id=67906"
+      }
+    ],
+    "started_at": "2026-09-23T02:46:16.312781+00:00",
+    "status": "retrieved"
+  },
+  "latest_attempt": {
+    "body_sha256": "7d5a30ebbea33eefa8085f4d12fa396ff66a78da6806166faab662d4a5d3fba1",
+    "finished_at": "2026-09-23T02:46:22.136819+00:00",
+    "items": [
+      {
+        "access": "feed_metadata_only",
+        "fingerprint": "182998f5bf832e093af9cc91409e41c89eafe9b721f576add44e983885871fd6",
+        "observation_period": "unknown; inspect the linked source",
+        "publication_date_raw": "Tue, 22 Sep 2026  09:00:00 EST",
+        "source_item_id": "https://www.eia.gov/todayinenergy/detail.php?id=68184",
+        "status": "unreviewed_lead",
+        "title": "Public companies produce most U.S. crude oil and natural gas",
+        "updated_date_raw": null,
+        "url": "https://www.eia.gov/todayinenergy/detail.php?id=68184"
+      },
+      {
+        "access": "feed_metadata_only",
+        "fingerprint": "931dfe95f21bfa449b7ba313c2fb52a50813cffabf1d29611a928fa6eca6b93f",
+        "observation_period": "unknown; inspect the linked source",
+        "publication_date_raw": "Fri, 18 Sep 2026  09:00:00 EST",
+        "source_item_id": "https://www.eia.gov/todayinenergy/detail.php?id=68164",
+        "status": "unreviewed_lead",
+        "title": "What goes into diesel prices?",
+        "updated_date_raw": null,
+        "url": "https://www.eia.gov/todayinenergy/detail.php?id=68164"
+      },
+      {
+        "access": "feed_metadata_only",
+        "fingerprint": "fa9d7553c8db1a2e22f99d24ffde63258182c35710a190e34b25f3ce3d5e7349",
+        "observation_period": "unknown; inspect the linked source",
+        "publication_date_raw": "Tue, 15 Sep 2026  09:00:00 EST",
+        "source_item_id": "https://www.eia.gov/todayinenergy/detail.php?id=68144",
+        "status": "unreviewed_lead",
+        "title": "Corpus Christi LNG expansion makes facility the second-largest in the United States",
+        "updated_date_raw": null,
+        "url": "https://www.eia.gov/todayinenergy/detail.php?id=68144"
+      },
+      {
+        "access": "feed_metadata_only",
+        "fingerprint": "a13a4cf7199ec1b6fde8bce91f9be291316d7a4525ad0d6e5e307f6529b4ac89",
+        "observation_period": "unknown; inspect the linked source",
+        "publication_date_raw": "Thu, 10 Sep 2026  09:00:00 EST",
+        "source_item_id": "https://www.eia.gov/todayinenergy/detail.php?id=68125",
+        "status": "unreviewed_lead",
+        "title": "United States on track for record crude oil production in 2026",
+        "updated_date_raw": null,
+        "url": "https://www.eia.gov/todayinenergy/detail.php?id=68125"
+      },
+      {
+        "access": "feed_metadata_only",
+        "fingerprint": "e24ce8082ae78608a58319a6d5a6c5541a4440e18e8d7b781d592f19c9686a7e",
+        "observation_period": "unknown; inspect the linked source",
+        "publication_date_raw": "Wed, 09 Sep 2026  09:00:00 EST",
+        "source_item_id": "https://www.eia.gov/todayinenergy/detail.php?id=68124",
+        "status": "unreviewed_lead",
+        "title": "New England natural gas prices have been trading near record discounts to Henry Hub",
+        "updated_date_raw": null,
+        "url": "https://www.eia.gov/todayinenergy/detail.php?id=68124"
+      },
+      {
+        "access": "feed_metadata_only",
+        "fingerprint": "1af7a0c7dee4662f52aebbd3e7fb339411d0ad6eb4d36884aba8562a14aa0313",
+        "observation_period": "unknown; inspect the linked source",
+        "publication_date_raw": "Fri, 04 Sep 2026  09:00:00 EST",
+        "source_item_id": "https://www.eia.gov/todayinenergy/detail.php?id=68104",
+        "status": "unreviewed_lead",
+        "title": "Elevated crack spreads and crude oil prices contribute to higher prices at the pump",
+        "updated_date_raw": null,
+        "url": "https://www.eia.gov/todayinenergy/detail.php?id=68104"
+      },
+      {
+        "access": "feed_metadata_only",
+        "fingerprint": "21fea767227cb7d2f06022acd70db2f1ad2bd98f58c662deade14565ef54830d",
+        "observation_period": "unknown; inspect the linked source",
+        "publication_date_raw": "Thu, 03 Sep 2026 09:00:00 EST",
+        "source_item_id": "https://www.eia.gov/todayinenergy/detail.php?id=68084",
+        "status": "unreviewed_lead",
+        "title": "Weekly average load in ERCOT continues near record high",
+        "updated_date_raw": null,
+        "url": "https://www.eia.gov/todayinenergy/detail.php?id=68084"
+      },
+      {
+        "access": "feed_metadata_only",
+        "fingerprint": "9eb3eb9d3c2a7c360856666a86441db07735d974e566b29a94e6118aedaa4728",
+        "observation_period": "unknown; inspect the linked source",
+        "publication_date_raw": "Tue, 01 Sep 2026 09:00:00 EST",
+        "source_item_id": "https://www.eia.gov/todayinenergy/detail.php?id=68064",
+        "status": "unreviewed_lead",
+        "title": "U.S. LNG exports rose 23% in the first half of 2026 because of higher capacity",
+        "updated_date_raw": null,
+        "url": "https://www.eia.gov/todayinenergy/detail.php?id=68064"
+      },
+      {
+        "access": "feed_metadata_only",
+        "fingerprint": "cf96340b9cc418463da53e5433efea424c7e8a801f25b3e63da81b14e36bb779",
+        "observation_period": "unknown; inspect the linked source",
+        "publication_date_raw": "Fri, 28 Aug 2026  09:00:00 EST",
+        "source_item_id": "https://www.eia.gov/todayinenergy/detail.php?id=68044",
+        "status": "unreviewed_lead",
+        "title": "U.S. uranium production more than tripled in 2025 and was the highest since 2017",
+        "updated_date_raw": null,
+        "url": "https://www.eia.gov/todayinenergy/detail.php?id=68044"
+      },
+      {
+        "access": "feed_metadata_only",
+        "fingerprint": "d50d8b717a8c1784d473d965c5561dfadec9c58e6d7d92e3ceba28b093fa84ec",
+        "observation_period": "unknown; inspect the linked source",
+        "publication_date_raw": "Wed, 26 Aug 2026  09:00:00 EST",
+        "source_item_id": "https://www.eia.gov/todayinenergy/detail.php?id=68024",
+        "status": "unreviewed_lead",
+        "title": "Eight petroleum liquids pipeline projects have been completed since the start of 2025",
+        "updated_date_raw": null,
+        "url": "https://www.eia.gov/todayinenergy/detail.php?id=68024"
+      },
+      {
+        "access": "feed_metadata_only",
+        "fingerprint": "2527c9098c4a07914ff7003de6bfedbbc49332005315793805a51cd5bcc63afe",
+        "observation_period": "unknown; inspect the linked source",
+        "publication_date_raw": "Mon, 24 Aug 2026  09:00:00 EST",
+        "source_item_id": "https://www.eia.gov/todayinenergy/detail.php?id=68004",
+        "status": "unreviewed_lead",
+        "title": "Dangote refinery drives increase in petroleum shipments from Nigeria",
+        "updated_date_raw": null,
+        "url": "https://www.eia.gov/todayinenergy/detail.php?id=68004"
+      },
+      {
+        "access": "feed_metadata_only",
+        "fingerprint": "9a3bee2fdf23fdda60734e923ce4a9ce772a595c517fee741dffbe0098fe3329",
+        "observation_period": "unknown; inspect the linked source",
+        "publication_date_raw": "Wed, 19 Aug 2026  09:00:00 EST",
+        "source_item_id": "https://www.eia.gov/todayinenergy/detail.php?id=67984",
+        "status": "unreviewed_lead",
+        "title": "Longer wells boost Permian crude oil and natural gas production",
+        "updated_date_raw": null,
+        "url": "https://www.eia.gov/todayinenergy/detail.php?id=67984"
+      },
+      {
+        "access": "feed_metadata_only",
+        "fingerprint": "cc33acc2c444eefe22b8272d84db1e0261598ab72daced4b27434d1288ab4023",
+        "observation_period": "unknown; inspect the linked source",
+        "publication_date_raw": "Mon, 17 Aug 2026  09:00:00 EST",
+        "source_item_id": "https://www.eia.gov/todayinenergy/detail.php?id=67964",
+        "status": "unreviewed_lead",
+        "title": "Waterborne shipments from the U.S. Gulf Coast increased in April and May",
+        "updated_date_raw": null,
+        "url": "https://www.eia.gov/todayinenergy/detail.php?id=67964"
+      },
+      {
+        "access": "feed_metadata_only",
+        "fingerprint": "9c3cf0f9908e98d3c780ff46e8cbdef4c34a66c3c197b21fbdf8963a1ee9e062",
+        "observation_period": "unknown; inspect the linked source",
+        "publication_date_raw": "Wed, 12 Aug 2026  09:00:00 EST",
+        "source_item_id": "https://www.eia.gov/todayinenergy/detail.php?id=67944",
+        "status": "unreviewed_lead",
+        "title": "United States on track for record natural gas production in 2026",
+        "updated_date_raw": null,
+        "url": "https://www.eia.gov/todayinenergy/detail.php?id=67944"
+      },
+      {
+        "access": "feed_metadata_only",
+        "fingerprint": "914cb1c26c59f7c18da8ba9c87a86678277e8d00849fd9fd0889f94722650bb4",
+        "observation_period": "unknown; inspect the linked source",
+        "publication_date_raw": "Mon, 10 Aug 2026  09:00:00 EST",
+        "source_item_id": "https://www.eia.gov/todayinenergy/detail.php?id=67926",
+        "status": "unreviewed_lead",
+        "title": "Duration of power outages in Puerto Rico not caused by major events increased 19% in 2025",
+        "updated_date_raw": null,
+        "url": "https://www.eia.gov/todayinenergy/detail.php?id=67926"
+      },
+      {
+        "access": "feed_metadata_only",
+        "fingerprint": "fce90aa83fa523fe4d3baa41a71b712b62c71241c60b47408262d7b177787a9f",
+        "observation_period": "unknown; inspect the linked source",
+        "publication_date_raw": "Fri, 7 Aug 2026  09:00:00 EST",
+        "source_item_id": "https://www.eia.gov/todayinenergy/detail.php?id=67925",
+        "status": "unreviewed_lead",
+        "title": "Battery storage capacity averaged 70% growth over the last three years",
+        "updated_date_raw": null,
+        "url": "https://www.eia.gov/todayinenergy/detail.php?id=67925"
+      },
+      {
+        "access": "feed_metadata_only",
+        "fingerprint": "4b666280e4b4ead9bb8e4b61c708496bea2fbedd294fba7cbc783e723688f55e",
+        "observation_period": "unknown; inspect the linked source",
+        "publication_date_raw": "Wed, 05 Aug 2026  09:00:00 EST",
+        "source_item_id": "https://www.eia.gov/todayinenergy/detail.php?id=",
+        "status": "unreviewed_lead",
+        "title": "The U.S.-Canada natural gas and electricity trade value rose in 2025",
+        "updated_date_raw": null,
+        "url": "https://www.eia.gov/todayinenergy/detail.php?id="
+      },
+      {
+        "access": "feed_metadata_only",
+        "fingerprint": "bccfaea728250341edfee1d1922689361947dd40a01d0fc8b6eb20b21bd4a6af",
+        "observation_period": "unknown; inspect the linked source",
+        "publication_date_raw": "Mon, 03 Aug 2026  09:00:00 EST",
+        "source_item_id": "https://www.eia.gov/todayinenergy/detail.php?id=67906",
+        "status": "unreviewed_lead",
+        "title": "Hourly peak load in ERCOT set a new record, exceeding 91 GW on July 22",
+        "updated_date_raw": null,
+        "url": "https://www.eia.gov/todayinenergy/detail.php?id=67906"
+      }
+    ],
+    "new_or_changed_items": [
+      {
+        "access": "feed_metadata_only",
+        "fingerprint": "182998f5bf832e093af9cc91409e41c89eafe9b721f576add44e983885871fd6",
+        "observation_period": "unknown; inspect the linked source",
+        "publication_date_raw": "Tue, 22 Sep 2026  09:00:00 EST",
+        "source_item_id": "https://www.eia.gov/todayinenergy/detail.php?id=68184",
+        "status": "unreviewed_lead",
+        "title": "Public companies produce most U.S. crude oil and natural gas",
+        "updated_date_raw": null,
+        "url": "https://www.eia.gov/todayinenergy/detail.php?id=68184"
+      },
+      {
+        "access": "feed_metadata_only",
+        "fingerprint": "931dfe95f21bfa449b7ba313c2fb52a50813cffabf1d29611a928fa6eca6b93f",
+        "observation_period": "unknown; inspect the linked source",
+        "publication_date_raw": "Fri, 18 Sep 2026  09:00:00 EST",
+        "source_item_id": "https://www.eia.gov/todayinenergy/detail.php?id=68164",
+        "status": "unreviewed_lead",
+        "title": "What goes into diesel prices?",
+        "updated_date_raw": null,
+        "url": "https://www.eia.gov/todayinenergy/detail.php?id=68164"
+      },
+      {
+        "access": "feed_metadata_only",
+        "fingerprint": "fa9d7553c8db1a2e22f99d24ffde63258182c35710a190e34b25f3ce3d5e7349",
+        "observation_period": "unknown; inspect the linked source",
+        "publication_date_raw": "Tue, 15 Sep 2026  09:00:00 EST",
+        "source_item_id": "https://www.eia.gov/todayinenergy/detail.php?id=68144",
+        "status": "unreviewed_lead",
+        "title": "Corpus Christi LNG expansion makes facility the second-largest in the United States",
+        "updated_date_raw": null,
+        "url": "https://www.eia.gov/todayinenergy/detail.php?id=68144"
+      },
+      {
+        "access": "feed_metadata_only",
+        "fingerprint": "a13a4cf7199ec1b6fde8bce91f9be291316d7a4525ad0d6e5e307f6529b4ac89",
+        "observation_period": "unknown; inspect the linked source",
+        "publication_date_raw": "Thu, 10 Sep 2026  09:00:00 EST",
+        "source_item_id": "https://www.eia.gov/todayinenergy/detail.php?id=68125",
+        "status": "unreviewed_lead",
+        "title": "United States on track for record crude oil production in 2026",
+        "updated_date_raw": null,
+        "url": "https://www.eia.gov/todayinenergy/detail.php?id=68125"
+      },
+      {
+        "access": "feed_metadata_only",
+        "fingerprint": "e24ce8082ae78608a58319a6d5a6c5541a4440e18e8d7b781d592f19c9686a7e",
+        "observation_period": "unknown; inspect the linked source",
+        "publication_date_raw": "Wed, 09 Sep 2026  09:00:00 EST",
+        "source_item_id": "https://www.eia.gov/todayinenergy/detail.php?id=68124",
+        "status": "unreviewed_lead",
+        "title": "New England natural gas prices have been trading near record discounts to Henry Hub",
+        "updated_date_raw": null,
+        "url": "https://www.eia.gov/todayinenergy/detail.php?id=68124"
+      },
+      {
+        "access": "feed_metadata_only",
+        "fingerprint": "1af7a0c7dee4662f52aebbd3e7fb339411d0ad6eb4d36884aba8562a14aa0313",
+        "observation_period": "unknown; inspect the linked source",
+        "publication_date_raw": "Fri, 04 Sep 2026  09:00:00 EST",
+        "source_item_id": "https://www.eia.gov/todayinenergy/detail.php?id=68104",
+        "status": "unreviewed_lead",
+        "title": "Elevated crack spreads and crude oil prices contribute to higher prices at the pump",
+        "updated_date_raw": null,
+        "url": "https://www.eia.gov/todayinenergy/detail.php?id=68104"
+      },
+      {
+        "access": "feed_metadata_only",
+        "fingerprint": "21fea767227cb7d2f06022acd70db2f1ad2bd98f58c662deade14565ef54830d",
+        "observation_period": "unknown; inspect the linked source",
+        "publication_date_raw": "Thu, 03 Sep 2026 09:00:00 EST",
+        "source_item_id": "https://www.eia.gov/todayinenergy/detail.php?id=68084",
+        "status": "unreviewed_lead",
+        "title": "Weekly average load in ERCOT continues near record high",
+        "updated_date_raw": null,
+        "url": "https://www.eia.gov/todayinenergy/detail.php?id=68084"
+      },
+      {
+        "access": "feed_metadata_only",
+        "fingerprint": "9eb3eb9d3c2a7c360856666a86441db07735d974e566b29a94e6118aedaa4728",
+        "observation_period": "unknown; inspect the linked source",
+        "publication_date_raw": "Tue, 01 Sep 2026 09:00:00 EST",
+        "source_item_id": "https://www.eia.gov/todayinenergy/detail.php?id=68064",
+        "status": "unreviewed_lead",
+        "title": "U.S. LNG exports rose 23% in the first half of 2026 because of higher capacity",
+        "updated_date_raw": null,
+        "url": "https://www.eia.gov/todayinenergy/detail.php?id=68064"
+      },
+      {
+        "access": "feed_metadata_only",
+        "fingerprint": "cf96340b9cc418463da53e5433efea424c7e8a801f25b3e63da81b14e36bb779",
+        "observation_period": "unknown; inspect the linked source",
+        "publication_date_raw": "Fri, 28 Aug 2026  09:00:00 EST",
+        "source_item_id": "https://www.eia.gov/todayinenergy/detail.php?id=68044",
+        "status": "unreviewed_lead",
+        "title": "U.S. uranium production more than tripled in 2025 and was the highest since 2017",
+        "updated_date_raw": null,
+        "url": "https://www.eia.gov/todayinenergy/detail.php?id=68044"
+      },
+      {
+        "access": "feed_metadata_only",
+        "fingerprint": "d50d8b717a8c1784d473d965c5561dfadec9c58e6d7d92e3ceba28b093fa84ec",
+        "observation_period": "unknown; inspect the linked source",
+        "publication_date_raw": "Wed, 26 Aug 2026  09:00:00 EST",
+        "source_item_id": "https://www.eia.gov/todayinenergy/detail.php?id=68024",
+        "status": "unreviewed_lead",
+        "title": "Eight petroleum liquids pipeline projects have been completed since the start of 2025",
+        "updated_date_raw": null,
+        "url": "https://www.eia.gov/todayinenergy/detail.php?id=68024"
+      },
+      {
+        "access": "feed_metadata_only",
+        "fingerprint": "2527c9098c4a07914ff7003de6bfedbbc49332005315793805a51cd5bcc63afe",
+        "observation_period": "unknown; inspect the linked source",
+        "publication_date_raw": "Mon, 24 Aug 2026  09:00:00 EST",
+        "source_item_id": "https://www.eia.gov/todayinenergy/detail.php?id=68004",
+        "status": "unreviewed_lead",
+        "title": "Dangote refinery drives increase in petroleum shipments from Nigeria",
+        "updated_date_raw": null,
+        "url": "https://www.eia.gov/todayinenergy/detail.php?id=68004"
+      },
+      {
+        "access": "feed_metadata_only",
+        "fingerprint": "9a3bee2fdf23fdda60734e923ce4a9ce772a595c517fee741dffbe0098fe3329",
+        "observation_period": "unknown; inspect the linked source",
+        "publication_date_raw": "Wed, 19 Aug 2026  09:00:00 EST",
+        "source_item_id": "https://www.eia.gov/todayinenergy/detail.php?id=67984",
+        "status": "unreviewed_lead",
+        "title": "Longer wells boost Permian crude oil and natural gas production",
+        "updated_date_raw": null,
+        "url": "https://www.eia.gov/todayinenergy/detail.php?id=67984"
+      },
+      {
+        "access": "feed_metadata_only",
+        "fingerprint": "cc33acc2c444eefe22b8272d84db1e0261598ab72daced4b27434d1288ab4023",
+        "observation_period": "unknown; inspect the linked source",
+        "publication_date_raw": "Mon, 17 Aug 2026  09:00:00 EST",
+        "source_item_id": "https://www.eia.gov/todayinenergy/detail.php?id=67964",
+        "status": "unreviewed_lead",
+        "title": "Waterborne shipments from the U.S. Gulf Coast increased in April and May",
+        "updated_date_raw": null,
+        "url": "https://www.eia.gov/todayinenergy/detail.php?id=67964"
+      },
+      {
+        "access": "feed_metadata_only",
+        "fingerprint": "9c3cf0f9908e98d3c780ff46e8cbdef4c34a66c3c197b21fbdf8963a1ee9e062",
+        "observation_period": "unknown; inspect the linked source",
+        "publication_date_raw": "Wed, 12 Aug 2026  09:00:00 EST",
+        "source_item_id": "https://www.eia.gov/todayinenergy/detail.php?id=67944",
+        "status": "unreviewed_lead",
+        "title": "United States on track for record natural gas production in 2026",
+        "updated_date_raw": null,
+        "url": "https://www.eia.gov/todayinenergy/detail.php?id=67944"
+      },
+      {
+        "access": "feed_metadata_only",
+        "fingerprint": "914cb1c26c59f7c18da8ba9c87a86678277e8d00849fd9fd0889f94722650bb4",
+        "observation_period": "unknown; inspect the linked source",
+        "publication_date_raw": "Mon, 10 Aug 2026  09:00:00 EST",
+        "source_item_id": "https://www.eia.gov/todayinenergy/detail.php?id=67926",
+        "status": "unreviewed_lead",
+        "title": "Duration of power outages in Puerto Rico not caused by major events increased 19% in 2025",
+        "updated_date_raw": null,
+        "url": "https://www.eia.gov/todayinenergy/detail.php?id=67926"
+      },
+      {
+        "access": "feed_metadata_only",
+        "fingerprint": "fce90aa83fa523fe4d3baa41a71b712b62c71241c60b47408262d7b177787a9f",
+        "observation_period": "unknown; inspect the linked source",
+        "publication_date_raw": "Fri, 7 Aug 2026  09:00:00 EST",
+        "source_item_id": "https://www.eia.gov/todayinenergy/detail.php?id=67925",
+        "status": "unreviewed_lead",
+        "title": "Battery storage capacity averaged 70% growth over the last three years",
+        "updated_date_raw": null,
+        "url": "https://www.eia.gov/todayinenergy/detail.php?id=67925"
+      },
+      {
+        "access": "feed_metadata_only",
+        "fingerprint": "4b666280e4b4ead9bb8e4b61c708496bea2fbedd294fba7cbc783e723688f55e",
+        "observation_period": "unknown; inspect the linked source",
+        "publication_date_raw": "Wed, 05 Aug 2026  09:00:00 EST",
+        "source_item_id": "https://www.eia.gov/todayinenergy/detail.php?id=",
+        "status": "unreviewed_lead",
+        "title": "The U.S.-Canada natural gas and electricity trade value rose in 2025",
+        "updated_date_raw": null,
+        "url": "https://www.eia.gov/todayinenergy/detail.php?id="
+      },
+      {
+        "access": "feed_metadata_only",
+        "fingerprint": "bccfaea728250341edfee1d1922689361947dd40a01d0fc8b6eb20b21bd4a6af",
+        "observation_period": "unknown; inspect the linked source",
+        "publication_date_raw": "Mon, 03 Aug 2026  09:00:00 EST",
+        "source_item_id": "https://www.eia.gov/todayinenergy/detail.php?id=67906",
+        "status": "unreviewed_lead",
+        "title": "Hourly peak load in ERCOT set a new record, exceeding 91 GW on July 22",
+        "updated_date_raw": null,
+        "url": "https://www.eia.gov/todayinenergy/detail.php?id=67906"
+      }
+    ],
+    "started_at": "2026-09-23T02:46:16.312781+00:00",
+    "status": "retrieved"
+  },
+  "seen_fingerprints": [
+    "182998f5bf832e093af9cc91409e41c89eafe9b721f576add44e983885871fd6",
+    "1af7a0c7dee4662f52aebbd3e7fb339411d0ad6eb4d36884aba8562a14aa0313",
+    "21fea767227cb7d2f06022acd70db2f1ad2bd98f58c662deade14565ef54830d",
+    "2527c9098c4a07914ff7003de6bfedbbc49332005315793805a51cd5bcc63afe",
+    "4b666280e4b4ead9bb8e4b61c708496bea2fbedd294fba7cbc783e723688f55e",
+    "914cb1c26c59f7c18da8ba9c87a86678277e8d00849fd9fd0889f94722650bb4",
+    "931dfe95f21bfa449b7ba313c2fb52a50813cffabf1d29611a928fa6eca6b93f",
+    "9a3bee2fdf23fdda60734e923ce4a9ce772a595c517fee741dffbe0098fe3329",
+    "9c3cf0f9908e98d3c780ff46e8cbdef4c34a66c3c197b21fbdf8963a1ee9e062",
+    "9eb3eb9d3c2a7c360856666a86441db07735d974e566b29a94e6118aedaa4728",
+    "a13a4cf7199ec1b6fde8bce91f9be291316d7a4525ad0d6e5e307f6529b4ac89",
+    "bccfaea728250341edfee1d1922689361947dd40a01d0fc8b6eb20b21bd4a6af",
+    "cc33acc2c444eefe22b8272d84db1e0261598ab72daced4b27434d1288ab4023",
+    "cf96340b9cc418463da53e5433efea424c7e8a801f25b3e63da81b14e36bb779",
+    "d50d8b717a8c1784d473d965c5561dfadec9c58e6d7d92e3ceba28b093fa84ec",
+    "e24ce8082ae78608a58319a6d5a6c5541a4440e18e8d7b781d592f19c9686a7e",
+    "fa9d7553c8db1a2e22f99d24ffde63258182c35710a190e34b25f3ce3d5e7349",
+    "fce90aa83fa523fe4d3baa41a71b712b62c71241c60b47408262d7b177787a9f"
+  ],
+  "sensor_id": "eia-energy",
+  "source_url": "https://www.eia.gov/rss/todayinenergy.xml"
+}

@@ -1,0 +1,22 @@
+{
+  "schema_version": "0.1",
+  "mode": "explicit bounded invocations only; no schedule",
+  "sources": {
+    "eia-diesel": {
+      "title": "EIA Gasoline and Diesel Fuel Update",
+      "url": "https://www.eia.gov/petroleum/gasdiesel/includes/gas_diesel_rss.xml",
+      "allowed_hosts": ["www.eia.gov"],
+      "directory_url": "https://www.eia.gov/tools/rssfeeds/",
+      "directory_checked_on": "2026-09-23",
+      "purpose": "Discover published fuel-price updates; no physical-scarcity inference."
+    },
+    "eia-energy": {
+      "title": "EIA Today in Energy",
+      "url": "https://www.eia.gov/rss/todayinenergy.xml",
+      "allowed_hosts": ["www.eia.gov"],
+      "directory_url": "https://www.eia.gov/tools/rssfeeds/",
+      "directory_checked_on": "2026-09-23",
+      "purpose": "Discover cross-sector energy leads for Question Bees."
+    }
+  }
+}

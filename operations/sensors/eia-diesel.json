@@ -1,0 +1,75 @@
+{
+  "attempt_history": [
+    {
+      "error_type": "HTTPError",
+      "finished_at": "2026-09-23T02:42:46.253350+00:00",
+      "http_status": 406,
+      "note": "No interpretation or missing-data inference; retry only in a later bounded run.",
+      "started_at": "2026-09-23T02:42:41.500341+00:00",
+      "status": "unavailable"
+    },
+    {
+      "body_sha256": "6410a425310044475bb852d78af56f1a643cdf4153d26c12d131eb9f150a6cd3",
+      "finished_at": "2026-09-23T02:46:21.261604+00:00",
+      "started_at": "2026-09-23T02:46:16.313109+00:00",
+      "status": "retrieved"
+    }
+  ],
+  "interpretation": "Discovery only; publication time is not event time. No canonical admission.",
+  "last_success": {
+    "body_sha256": "6410a425310044475bb852d78af56f1a643cdf4153d26c12d131eb9f150a6cd3",
+    "finished_at": "2026-09-23T02:46:21.261604+00:00",
+    "items": [
+      {
+        "access": "feed_metadata_only",
+        "fingerprint": "05d3eb0682404e0c7ed727a2578e387292c8222c9de3fb678f2fe56c0da995e4",
+        "observation_period": "unknown; inspect the linked source",
+        "publication_date_raw": "Tue, 22 Sep 2026 09:29:04 EST",
+        "source_item_id": "http://www.eia.gov/petroleum/gasdiesel/",
+        "status": "unreviewed_lead",
+        "title": "Data For 09/21/26",
+        "updated_date_raw": null,
+        "url": "http://www.eia.gov/petroleum/gasdiesel/"
+      }
+    ],
+    "started_at": "2026-09-23T02:46:16.313109+00:00",
+    "status": "retrieved"
+  },
+  "latest_attempt": {
+    "body_sha256": "6410a425310044475bb852d78af56f1a643cdf4153d26c12d131eb9f150a6cd3",
+    "finished_at": "2026-09-23T02:46:21.261604+00:00",
+    "items": [
+      {
+        "access": "feed_metadata_only",
+        "fingerprint": "05d3eb0682404e0c7ed727a2578e387292c8222c9de3fb678f2fe56c0da995e4",
+        "observation_period": "unknown; inspect the linked source",
+        "publication_date_raw": "Tue, 22 Sep 2026 09:29:04 EST",
+        "source_item_id": "http://www.eia.gov/petroleum/gasdiesel/",
+        "status": "unreviewed_lead",
+        "title": "Data For 09/21/26",
+        "updated_date_raw": null,
+        "url": "http://www.eia.gov/petroleum/gasdiesel/"
+      }
+    ],
+    "new_or_changed_items": [
+      {
+        "access": "feed_metadata_only",
+        "fingerprint": "05d3eb0682404e0c7ed727a2578e387292c8222c9de3fb678f2fe56c0da995e4",
+        "observation_period": "unknown; inspect the linked source",
+        "publication_date_raw": "Tue, 22 Sep 2026 09:29:04 EST",
+        "source_item_id": "http://www.eia.gov/petroleum/gasdiesel/",
+        "status": "unreviewed_lead",
+        "title": "Data For 09/21/26",
+        "updated_date_raw": null,
+        "url": "http://www.eia.gov/petroleum/gasdiesel/"
+      }
+    ],
+    "started_at": "2026-09-23T02:46:16.313109+00:00",
+    "status": "retrieved"
+  },
+  "seen_fingerprints": [
+    "05d3eb0682404e0c7ed727a2578e387292c8222c9de3fb678f2fe56c0da995e4"
+  ],
+  "sensor_id": "eia-diesel",
+  "source_url": "https://www.eia.gov/petroleum/gasdiesel/includes/gas_diesel_rss.xml"
+}

@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Dis-Unity Escalation Ticket",
+  "type": "object",
+  "required": ["ticket_id", "question_id", "status", "created_at", "reason"],
+  "properties": {
+    "ticket_id": {"type": "string", "pattern": "^TKT-[A-Z0-9-]+$"},
+    "question_id": {"type": "string", "pattern": "^Q-[A-Z0-9-]+$"},
+    "status": {
+      "enum": [
+        "open",
+        "claimed",
+        "resolved",
+        "waiting_provider_reset",
+        "blocked_access",
+        "needs_refresh",
+        "superseded",
+        "closed_no_answer"
+      ]
+    },
+    "reason": {
+      "enum": [
+        "provider_ring_exhausted",
+        "chat_research_requested",
+        "work_integration_required",
+        "human_review_required",
+        "credentials_or_access_required",
+        "consequential_review",
+        "long_lived_deferred_action"
+      ]
+    },
+    "created_at": {"type": "string"},
+    "created_by": {"type": "string"},
+    "claimed_by": {"type": ["string", "null"]},
+    "attempt_refs": {"type": "array", "items": {"type": "string"}},
+    "answer_refs": {"type": "array", "items": {"type": "string"}},
+    "next_eligible_at": {"type": ["string", "null"]},
+    "notes": {"type": "string"}
+  },
+  "additionalProperties": true
+}

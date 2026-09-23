@@ -1,5 +1,7 @@
 # Work Aiden handoff
 
+**23 September runtime integration:** Chat PR #4 is preserved and its shared-question core is now implemented. Start with `operations/README.md` and `operations/INTEGRATION_2026-09-23.md`. The store contains the 30 prior research questions plus one nonblocking provider-policy question. Worker v0.2 saves prompt/provenance before computation and cannot call a real model. Public source scouts, the Oakland mapper definition and brochure source are integrated. The earlier best-Gemini instruction and the packet's role-fit replacement remain recorded without forcing a tired user to resolve them. Groq is excluded. Work owns shared queue integration; Chat stages answers using the existing Question ID and epoch. Old handoff text below is historical where superseded.
+
 **22 September integration note:** this received handoff is preserved below as historical context. RC-004 is now the latest committed research cycle; see `COMMON_STATE.md`. Work's return delegation, staging rules and the user's best-Gemini-only/no-fallback policy are in `HANDOFF_FOR_CHAT_AIDEN.md`. Real Gemini use is paused until that policy and prompt-retention safeguards are integrated. The original RC-003 statement below predates the merge.
 
 Read `AGENTS.md`, `COMMON_STATE.md`, `agents/README.md`, `agents/AGENT_TEMPLATE.yaml` and `agents/ALCHEMICAL_MAILBOX.md` before extending the runtime.

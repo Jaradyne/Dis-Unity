@@ -4,19 +4,23 @@ on:
   push:
     paths:
       - "scripts/worker.py"
+      - "scripts/questions.py"
+      - "config/providers.json"
       - "agents/**"
       - "tests/test_worker.py"
       - ".github/workflows/worker-bee.yml"
   pull_request:
     paths:
       - "scripts/worker.py"
+      - "scripts/questions.py"
+      - "config/providers.json"
       - "agents/**"
       - "tests/test_worker.py"
       - ".github/workflows/worker-bee.yml"
   workflow_dispatch:
     inputs:
       provider:
-        description: "mock or gemini"
+        description: "mock runs; gemini preserves a deferred request without calling a model"
         required: true
         default: "mock"
         type: choice
@@ -24,9 +28,9 @@ on:
           - mock
           - gemini
       model:
-        description: "Gemini model ID when provider=gemini"
+        description: "Optional candidate model ID for the deferred record"
         required: false
-        default: "gemini-3.8-flash"
+        default: ""
       task:
         description: "Bounded attention request"
         required: false
@@ -39,8 +43,6 @@ jobs:
   smoke:
     runs-on: ubuntu-latest
     timeout-minutes: 10
-    env:
-      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -52,17 +54,26 @@ jobs:
         shell: bash
         env:
           REQUESTED_PROVIDER: ${{ inputs.provider || 'mock' }}
-          REQUESTED_MODEL: ${{ inputs.model || 'gemini-3.8-flash' }}
+          REQUESTED_MODEL: ${{ inputs.model || 'unselected' }}
           REQUESTED_TASK: ${{ inputs.task || 'Read the current attention field and leave a checkpoint.' }}
         run: |
-          if [[ "$REQUESTED_PROVIDER" == "gemini" && -z "$GEMINI_API_KEY" ]]; then
-            echo "GEMINI_API_KEY is not configured as an Actions secret."
-            exit 2
-          fi
-          python scripts/worker.py             --role agents/worker_bee.json             --cycle RC-004             --provider "$REQUESTED_PROVIDER"             --model "$REQUESTED_MODEL"             --task "$REQUESTED_TASK"             --output "$RUNNER_TEMP/worker_bee.json"
-      - name: Upload checkpoint
+          mkdir -p "$RUNNER_TEMP/worker-bee"
+          python scripts/worker.py \
+            --role agents/worker_bee.json \
+            --cycle runtime-check \
+            --provider "$REQUESTED_PROVIDER" \
+            --model "$REQUESTED_MODEL" \
+            --task "$REQUESTED_TASK" \
+            --output "$RUNNER_TEMP/worker-bee/checkpoint.json"
+      - name: Preserve request and attempt records even after interruption
+        if: always()
+        run: |
+          mkdir -p "$RUNNER_TEMP/worker-bee"
+          cp operations/questions.json "$RUNNER_TEMP/worker-bee/questions.json"
+      - name: Upload recoverable worker records
+        if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: worker-bee-checkpoint
-          path: ${{ runner.temp }}/worker_bee.json
+          name: worker-bee-records
+          path: ${{ runner.temp }}/worker-bee/
           if-no-files-found: error

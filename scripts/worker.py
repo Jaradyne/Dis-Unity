@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
 """Provider-neutral Dis-Unity worker.
 
-This first worker is intentionally small:
+This worker is intentionally small:
 - reads a declarative JSON role plus selected repository context;
-- invokes either a deterministic mock provider or Gemini over HTTPS;
-- writes one attributed inbox-compatible JSON checkpoint;
+- records an immutable request before computation; real providers defer;
+- runs a deterministic mock or preserves a policy-blocked request;
+- writes one attributed checkpoint under operations/;
 - can optionally submit that checkpoint through scripts/cycle.py.
 
 It does not browse, send mail, mutate canonical state, spawn child workers, or
@@ -15,12 +16,13 @@ from __future__ import annotations
 import argparse
 from datetime import datetime, timezone
 import json
-import os
 from pathlib import Path
 import subprocess
 import sys
-import urllib.error
-import urllib.request
+import hashlib
+
+import cycle
+import questions
 
 
 DEFAULT_CONTEXT = [
@@ -51,7 +53,10 @@ def read_context(root, paths, max_chars):
     chunks = []
     used = 0
     for name in paths:
-        path = root / name
+        path = (root / name).resolve()
+        if root.resolve() not in path.parents or any(
+                part in {"private", ".git"} or part.startswith(".env") for part in path.parts):
+            raise WorkerError("Context must be a public repository file")
         if not path.is_file():
             continue
         text = path.read_text(encoding="utf-8")
@@ -108,43 +113,7 @@ def mock_response(role, task):
 def gemini_response(prompt, model, api_key, timeout):
     if not api_key:
         raise WorkerError("GEMINI_API_KEY is required for provider=gemini")
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
-    payload = {
-        "systemInstruction": {
-            "parts": [{
-                "text": "Follow the Dis-Unity role and provenance rules. Output JSON only."
-            }]
-        },
-        "contents": [{"parts": [{"text": prompt}]}],
-        "generationConfig": {"responseMimeType": "application/json"},
-    }
-    request = urllib.request.Request(
-        url,
-        data=json.dumps(payload).encode("utf-8"),
-        headers={
-            "Content-Type": "application/json",
-            "x-goog-api-key": api_key,
-        },
-        method="POST",
-    )
-    try:
-        with urllib.request.urlopen(request, timeout=timeout) as response:
-            body = json.loads(response.read().decode("utf-8"))
-    except urllib.error.HTTPError as exc:
-        detail = exc.read().decode("utf-8", errors="replace")[:2000]
-        raise WorkerError(f"Gemini HTTP {exc.code}: {detail}") from exc
-    except (urllib.error.URLError, TimeoutError, ValueError) as exc:
-        raise WorkerError(f"Gemini request failed: {exc}") from exc
-
-    try:
-        parts = body["candidates"][0]["content"]["parts"]
-        text = "".join(part.get("text", "") for part in parts)
-        result = json.loads(text)
-    except (KeyError, IndexError, TypeError, ValueError) as exc:
-        raise WorkerError("Gemini returned a response that was not parseable JSON") from exc
-    if not isinstance(result, dict):
-        raise WorkerError("Gemini response JSON must be an object")
-    return result
+    raise WorkerError("Real providers paused: resolve model policy and verify eligibility first")
 
 
 def build_checkpoint(role, cycle_id, provider, model, task, result):
@@ -159,7 +128,7 @@ def build_checkpoint(role, cycle_id, provider, model, task, result):
             "kind": "python_api_worker",
             "provider": provider,
             "model": model,
-            "worker_version": "0.1",
+            "worker_version": "0.2",
             "completed_at": now(),
         },
         "coverage": role.get("beat", {}),
@@ -175,11 +144,7 @@ def build_checkpoint(role, cycle_id, provider, model, task, result):
 
 def write_checkpoint(path, checkpoint):
     path = Path(path)
-    path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(
-        json.dumps(checkpoint, ensure_ascii=False, indent=2, sort_keys=True) + "\n",
-        encoding="utf-8",
-    )
+    cycle.write_json(path, checkpoint)
 
 
 def submit_checkpoint(root, cycle_id, agent_id, path):
@@ -210,7 +175,8 @@ def parser():
     p.add_argument("--cycle", required=True)
     p.add_argument("--task", default="Continue the role's open-ended beat and report what deserves attention.")
     p.add_argument("--provider", choices=["mock", "gemini"], default="mock")
-    p.add_argument("--model", default=os.environ.get("GEMINI_MODEL", "gemini-3.8-flash"))
+    p.add_argument("--model", default=None, help="Explicit candidate ID; real providers currently paused")
+    p.add_argument("--question", help="Existing shared Question ID; otherwise register task text")
     p.add_argument("--context", action="append", default=[])
     p.add_argument("--max-context-chars", type=int, default=90000)
     p.add_argument("--timeout", type=int, default=120)
@@ -222,31 +188,80 @@ def parser():
 def main():
     args = parser().parse_args()
     root = args.root.resolve()
-    role_path = args.role if args.role.is_absolute() else root / args.role
-    role = load_json(role_path)
-    context_paths = args.context or DEFAULT_CONTEXT
-    context = read_context(root, context_paths, args.max_context_chars)
-    prompt = role_prompt(role, args.cycle, args.task, context)
-
+    attempt = None
+    qid = None
     try:
-        if args.provider == "mock":
-            result = mock_response(role, args.task)
-            model = "deterministic-mock"
-        else:
-            model = args.model
-            result = gemini_response(
-                prompt,
-                model=model,
-                api_key=os.environ.get("GEMINI_API_KEY", ""),
-                timeout=args.timeout,
-            )
-        checkpoint = build_checkpoint(role, args.cycle, args.provider, model, args.task, result)
-        output = args.output or root / "inbox" / args.cycle / f"{role['id']}.json"
-        write_checkpoint(output, checkpoint)
-        response = {"status": "checkpoint_written", "path": str(output), "checkpoint": checkpoint}
+        cycle.check_name(args.cycle, "cycle ID")
         if args.submit:
+            folder, _, _ = cycle.load_cycle(root, args.cycle)
+            cycle.ensure_open(folder)
+        role_path = args.role if args.role.is_absolute() else root / args.role
+        role = load_json(role_path)
+        if not isinstance(role, dict) or not isinstance(role.get("id"), str):
+            raise WorkerError("Role definition requires a non-empty id")
+        cycle.check_name(role["id"], "role ID")
+        if args.max_context_chars < 1 or not 1 <= args.timeout <= 300:
+            raise WorkerError("Use positive context size and a timeout of 1–300 seconds")
+        qid = args.question
+        if qid:
+            item = questions.question(questions.load(root), qid)
+            task = item["question"]
+        else:
+            task = args.task
+            qid = questions.ask(root, task, role["id"], context_refs=[f"cycle:{args.cycle}"])["question_id"]
+        context_paths = args.context or DEFAULT_CONTEXT
+        context = read_context(root, context_paths, args.max_context_chars)
+        prompt = role_prompt(role, args.cycle, task, context)
+        lease = questions.claim(root, qid, role["id"], seconds=args.timeout + 60)
+        if lease["status"] != "claimed":
+            print(json.dumps(lease))
+            return 0
+        git = subprocess.run(["git", "rev-parse", "HEAD"], cwd=root, text=True,
+                             capture_output=True, check=False)
+        model = "deterministic-mock" if args.provider == "mock" else args.model or "unselected"
+        attempt = questions.begin_attempt(root, qid, lease["token"], {
+            "actor": role["id"], "runtime": "python_worker_0.2", "provider": args.provider,
+            "model": model, "role": role, "role_sha256": cycle.digest(role),
+            "prompt": prompt, "context_refs": context_paths,
+            "context_sha256": hashlib.sha256(context.encode("utf-8")).hexdigest(),
+            "base_commit": git.stdout.strip() if git.returncode == 0 else "unknown",
+            "evidence_cutoff": cycle.read_json(root / cycle.CANONICAL).get("meta", {}).get("research_cutoff"),
+            "settings": {"timeout_seconds": args.timeout, "response_format": "json"},
+        })
+        aid = attempt["attempt_id"]
+        if args.provider == "mock":
+            result = mock_response(role, task)
+            outcome = "mock_only"
+        else:
+            result = {"summary": "Deferred before network access; prompt retained.",
+                      "questions": [task], "limitations": [
+                          "Provider policy remains unresolved; no real model called."]}
+            outcome = "policy_blocked"
+        checkpoint = build_checkpoint(role, args.cycle, args.provider, model, task, result)
+        checkpoint.update(question_id=qid, attempt_id=aid, attempt_result=outcome)
+        output = (args.output or root / "operations" / "checkpoints" / f"{aid}.json").resolve()
+        if root in output.parents and output.relative_to(root).parts[0] != "operations":
+            raise WorkerError("Repository checkpoints must stay under operations/; closed cycles are protected")
+        # Save the complete result to shared memory even if later checkpoint export fails.
+        questions.finish_attempt(root, qid, aid, outcome, details={"checkpoint": checkpoint})
+        write_checkpoint(output, checkpoint)
+        response = {"status": "checkpoint_written" if outcome == "mock_only" else "deferred_policy",
+                    "path": str(output), "question_id": qid, "attempt_id": aid}
+        if args.submit:
+            if outcome != "mock_only":
+                raise WorkerError("Deferred provider requests cannot be submitted as research")
             response["submission"] = submit_checkpoint(root, args.cycle, role["id"], output)
-    except (WorkerError, OSError, ValueError) as exc:
+    except (WorkerError, cycle.CycleError, OSError, ValueError) as exc:
+        if attempt:
+            # Do not strand a claim after an ordinary local error. Hard interruption
+            # still leaves result=None, which requires explicit recovery.
+            try:
+                saved = questions.question(questions.load(root), qid)["attempts"][attempt["attempt_id"]]
+                if saved["result"] is None:
+                    questions.finish_attempt(root, qid, attempt["attempt_id"], "invalid_response",
+                                            details={"local_error": str(exc)})
+            except (cycle.CycleError, OSError, ValueError):
+                pass  # The prewritten request remains the recovery point.
         print(json.dumps({"status": "blocked", "reason": str(exc)}), file=sys.stderr)
         return 2
 

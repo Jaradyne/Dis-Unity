@@ -1,5 +1,9 @@
 # Handoff for Chat Aiden
 
+**23 September update — read first:** your PR #4 packet is preserved and the question/attempt/answer core, bounded public scouts, Oakland mapper and brochure copy are integrated. Read `operations/README.md` and `operations/INTEGRATION_2026-09-23.md`. Check `operations/questions.json` before research; return the same Question ID and evidence epoch with an answer. Chat continues to stage packets, not edit shared state on main. Do not repeat answered work unless review/freshness requires it.
+
+Your role-fit free-provider proposal is retained alongside the earlier explicit best-Gemini instruction. This is a nonblocking pending policy question, `Q-OPS-PROVIDER-POLICY`; live calls stay paused. **No Groq**, including indirect aggregator selection. Exact candidate IDs, free quotas and suitability still need official current evidence and role-specific evaluation; the proposal alone verifies none of them. The worker no longer has a Flash default and saves exact prompt/provenance before computation. Prepare one reviewed adapter and bounded retry/reset tests next, without making real calls. Public source scouts can work independently of model availability; discovery is not completed reasoning.
+
 From Work Aiden, 22 September 2026. Read this after `WORK_AIDEN_HANDOFF.md`. The user wants Chat Aiden to do the research, reasoning, writing and preparation it can do, conserving Work usage for integration, execution and verification that actually require it.
 
 ## Start here
@@ -33,7 +37,7 @@ Choose one bounded task at a time. Carry consequential connections into the retu
 
 | Priority / task | What Chat can return | Stop condition / Work handback |
 | --- | --- | --- |
-| 1. Gemini best-model policy and recoverable prompts | A proposed provider-policy schema, focused patch and meaningful tests based on the current worker/workflow | Exact flagship eligibility verified from official docs, or explicit deferred status; no API execution |
+| 1. Provider eligibility and one adapter | Current official model evidence, a small adapter proposal and bounded retry/reset failure tests | Preserve pending policy; no API execution; prompt retention is already implemented |
 | 2. Fuel waiting and regional reserves | One named East Asian product route: dated arrivals, compatible stock, demand, refining/alternate route, donor floor and falsifier | Either a defensible time-cover calculation or a precise missing-data list; no invented run-out date |
 | 3. Diesel futures and rail denominators | Public exchange settlements with contract/month/date; an accessible current rail fleet source with denominator | Stop after resolving or documenting those two gaps; distinguish spot/pump/futures and locomotives/train movements |
 | 4. Food and nutrient geography | One rural Tennessee county compared with one East Bay locality: public delivery frequency, travel, stock evidence, soil/crop nutrient context | Identify one actual gap and one plausible bridge, with unknown quantities explicit |
@@ -45,15 +49,15 @@ Choose one bounded task at a time. Carry consequential connections into the retu
 
 Research questions and leads already exist in `QUESTIONS_TO_WATCH`, `agents/ALCHEMICAL_MAILBOX.md` and RC-004 reports. Reuse them. Library/space access, physical inventory and replenishment can all fail separately. Preserve improving signals and mundane explanations.
 
-## Gemini policy — explicit user instruction
+## Earlier Gemini instruction — preserved pending policy reconciliation
 
 **Use only the best Gemini models. If the best eligible model is unavailable, do not use Gemini for now. Retain prompt material for a future attempt. Do not fall back to a weaker model.**
 
-Operational interpretation pending a reviewed adapter:
+The following records the earlier instruction. The September 23 update above and `config/providers.json` describe current execution status; real calls remain deferred while the proposed replacement is unresolved:
 
 - Treat “best” as the highest-capability suitable flagship, not the cheapest, fastest or easiest model to access. Verify the exact current model ID, endpoint/access conditions and status in official Google documentation before proposing it. Do not invent a model name or assume the repository's existing string is valid/current.
 - No automatic Flash, Lite, smaller, older or otherwise weaker fallback. Do not switch providers to evade the instruction. If top-model eligibility or access cannot be established, status is **DEFERRED**, not successful and not a reason to lower the standard.
-- The existing `gemini-3.8-flash` defaults in `scripts/worker.py` and `.github/workflows/worker-bee.yml` do not satisfy this policy. **Real Gemini execution is paused** until the model-selection and prompt-retention changes are reviewed and integrated. Mock tests may run without contacting Gemini and must remain labelled mock.
+- The former Flash defaults were removed on September 23. Exact prompt retention and a real-provider pause are enforced in worker v0.2. Mock tests may run without contacting Gemini and must remain labelled mock.
 - Before a permitted future call, retain the exact rendered prompt, role definition/version, task, input references/base commit, generation settings, intended model, creation time and attempt ID. Keep secrets and unauthorized personal data out. A saved prompt is a pending task, not research output.
 - Missing credentials, unavailable model, uncertain eligibility, quota/rate limit, timeout, transport error or rejected response must leave a recoverable pending/deferred record. Preserve error category and provenance; avoid repeated retries that spend resources without new information. No silent downgrade.
 - On resumption, recheck model eligibility and source freshness. Keep the original prompt immutable; if context changes, create a linked successor. Record what actually ran and whether it produced usable evidence.
