@@ -67,3 +67,23 @@ Examples:
 - if the user is active at historically quiet hours, current activity wins.
 
 The governor optimizes timing; it never owns research truth.
+
+
+## Clock discipline
+
+Store machine timestamps in **UTC (Greenwich/zero-meridian clock)** for interoperability, while preserving the user's local timezone separately for human scheduling. Do not pretend every provider's quota/reset follows UTC.
+
+Maintain a provider/source reset registry with:
+- timezone or documented reset basis;
+- reset time;
+- whether the limit is rolling, fixed-day, monthly/billing-cycle, or unknown;
+- last verified documentation date.
+
+Known examples to preserve:
+- Cloudflare Workers request quota: resets at **00:00 UTC**.
+- Cloudflare Workers AI free Neuron allocation: resets at **00:00 UTC**.
+- Gemini daily request quota: resets at **midnight Pacific time**.
+- OpenRouter daily reset semantics: verify rather than assume.
+- Monthly search/API credits: use the provider's documented billing/reset basis; do not coerce them to UTC.
+
+The governor may reason in local time for user activity and UTC for machine coordination. Current activity always outranks historical quiet-hour expectations.
