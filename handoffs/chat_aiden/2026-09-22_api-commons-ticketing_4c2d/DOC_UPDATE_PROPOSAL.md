@@ -4,11 +4,24 @@ Base commit for this Chat packet: `51e0969691b3637f7cac9efab38b4596043658b4`.
 
 This file proposes exact concepts to integrate into shared documents. Chat does not edit the shared files directly under the current handoff rules.
 
+## Shared provider policy — NO GROQ
+
+Insert an explicit provider deny rule in all relevant shared operating documents:
+
+- `AGENTS.md`
+- `HANDOFF_FOR_CHAT_AIDEN.md`
+- `WORK_AIDEN_HANDOFF.md`
+- any provider registry/orchestrator policy adopted from this packet
+
+Suggested text:
+
+> **Provider deny rule — Groq:** The user has vibe-banned Groq until further notice. Do not call, benchmark, recommend, route through, or silently select Groq, including through an aggregator or fallback chain. This remains in force until the user explicitly reverses it.
+
 ## AGENTS.md — ticket discipline
 
 Add a short operating rule near the checkpoint/handoff rules:
 
-> Every bounded research question should carry a stable ticket ID once it enters the worker queue. Before starting work, check whether the ticket is already answered, claimed, superseded, stale, or deferred. An answer from Chat, Work, a Python worker, another model, or a human resolves the same ticket rather than creating a parallel orphan result. Provider errors are attempt records, not answers. Do not repeat answered work unless independent review or freshness requires it.
+> Every bounded research question should carry a stable Question ID. An escalation Ticket is created only when the ordinary provider/Chat path cannot resolve or coordinate the work. Before starting work, check whether the ticket is already answered, claimed, superseded, stale, or deferred. An answer from Chat, Work, a Python worker, another model, or a human resolves the same ticket rather than creating a parallel orphan result. Provider errors are attempt records, not answers. Do not repeat answered work unless independent review or freshness requires it.
 
 ## HANDOFF_FOR_CHAT_AIDEN.md — Chat ticket behavior
 
@@ -47,3 +60,10 @@ When Work integrates the brochure, preferred durable destination:
 `posters/START_WITH_A_TABLE_TRI_FOLD.md`
 
 The generated visual currently exists in the Chat conversation; the staged repository contains the editable text source only.
+
+
+## AGENTS / handoffs — Scout Equipper
+
+Add a short rule:
+
+> Question/Scout workers may continue source discovery and local/public retrieval without waiting for a high-level model when RSS, APIs, search, public records or direct source retrieval are sufficient. Higher-level synthesis waits for an eligible Answer Bee/provider. Sensor availability must not be mistaken for reasoning completion.
