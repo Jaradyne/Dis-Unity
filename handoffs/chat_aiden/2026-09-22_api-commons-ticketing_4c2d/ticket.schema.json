@@ -1,65 +1,41 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "title": "Dis-Unity Research Ticket",
+  "title": "Dis-Unity Escalation Ticket",
   "type": "object",
-  "required": ["ticket_id", "question", "status", "created_at", "created_by"],
+  "required": ["ticket_id", "question_id", "status", "created_at", "reason"],
   "properties": {
     "ticket_id": {"type": "string", "pattern": "^TKT-[A-Z0-9-]+$"},
-    "parent_ticket_ids": {"type": "array", "items": {"type": "string"}, "default": []},
-    "question": {"type": "string", "minLength": 1},
-    "why_it_matters": {"type": "string"},
-    "geography": {"type": ["string", "null"]},
-    "domain": {"type": ["string", "null"]},
+    "question_id": {"type": "string", "pattern": "^Q-[A-Z0-9-]+$"},
     "status": {
       "enum": [
         "open",
-        "ready",
         "claimed",
-        "answered",
-        "deferred_capacity",
-        "deferred_quota",
+        "resolved",
+        "waiting_provider_reset",
         "blocked_access",
         "needs_refresh",
         "superseded",
         "closed_no_answer"
       ]
     },
+    "reason": {
+      "enum": [
+        "provider_ring_exhausted",
+        "chat_research_requested",
+        "work_integration_required",
+        "human_review_required",
+        "credentials_or_access_required",
+        "consequential_review",
+        "long_lived_deferred_action"
+      ]
+    },
     "created_at": {"type": "string"},
     "created_by": {"type": "string"},
-    "evidence_cutoff": {"type": ["string", "null"]},
-    "freshness": {
-      "type": "object",
-      "properties": {
-        "class": {"enum": ["slow", "medium", "fast", "event_driven"]},
-        "refresh_after": {"type": ["string", "null"]}
-      },
-      "additionalProperties": true
-    },
-    "context_refs": {"type": "array", "items": {"type": "string"}},
-    "attempts": {
-      "type": "array",
-      "items": {
-        "type": "object",
-        "required": ["attempt_id", "actor", "result"],
-        "properties": {
-          "attempt_id": {"type": "string"},
-          "actor": {"type": "string"},
-          "provider": {"type": ["string", "null"]},
-          "model": {"type": ["string", "null"]},
-          "prompt_ref": {"type": ["string", "null"]},
-          "context_hashes": {"type": "object"},
-          "started_at": {"type": ["string", "null"]},
-          "ended_at": {"type": ["string", "null"]},
-          "result": {"enum": ["usable", "deferred_capacity", "deferred_quota", "blocked", "invalid", "interrupted"]},
-          "error_category": {"type": ["string", "null"]},
-          "artifact_ref": {"type": ["string", "null"]}
-        },
-        "additionalProperties": true
-      }
-    },
+    "claimed_by": {"type": ["string", "null"]},
+    "attempt_refs": {"type": "array", "items": {"type": "string"}},
     "answer_refs": {"type": "array", "items": {"type": "string"}},
-    "birth_requests": {"type": "array", "items": {"type": "object"}},
-    "superseded_by": {"type": ["string", "null"]}
+    "next_eligible_at": {"type": ["string", "null"]},
+    "notes": {"type": "string"}
   },
   "additionalProperties": true
 }
