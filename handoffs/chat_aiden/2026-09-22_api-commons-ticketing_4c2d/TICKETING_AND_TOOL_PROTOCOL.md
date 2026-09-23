@@ -1,142 +1,131 @@
-# Ticketing and worker tool protocol
+# Question, attempt, answer and escalation-ticket protocol
 
-## Problem
+## Durable identity belongs to the question
 
-A research question can be noticed by the Alchemical Mailbox, Thinking Mailbox, Chat Aiden, a Python worker, or a future child agent. The answer may later come from a different actor. The repository needs a durable join key so the question and answer do not separate.
+A research question can be noticed by the Alchemical Mailbox, Thinking Mailbox, Chat Aiden, a Question Bee, or a future child agent. The same question may recur later, or reappear at a narrower/broader geography.
 
-## Ticket identity
+Create a stable `question_id`, for example:
 
-Every bounded question gets a stable `ticket_id`, for example:
+`Q-20260922-DIESEL-RURAL-0042`
 
-`TKT-20260922-DIESEL-RURAL-0042`
+Before creating a new Question, check semantic neighbors:
+- exact duplicate -> reuse the existing Question;
+- narrower/broader version -> link parent/child Questions;
+- same mechanism in another geography -> link sibling Questions;
+- new evidence makes an old answer stale -> reopen the Question under a new evidence epoch rather than inventing an unrelated Question.
 
-The ticket is the durable object. Model calls are merely attempts against it.
+Question identity is conceptual, not string-exact.
 
-Suggested lifecycle:
+## Attempts are never “complete”
 
-`open -> ready -> claimed -> answered`
+An Attempt always records a **result**.
 
-with side states:
+Examples:
+- `usable_answer`
+- `partial_answer`
+- `transient_capacity`
+- `short_rate_limit`
+- `daily_quota_exhausted`
+- `auth_or_configuration_error`
+- `model_unavailable`
+- `policy_blocked`
+- `transport_timeout`
+- `invalid_response`
+- `interrupted`
 
-`deferred_capacity`, `deferred_quota`, `blocked_access`, `needs_refresh`, `superseded`, `closed_no_answer`.
-
-A ticket can be answered by Chat Aiden without API use. That is still an ordinary answer attached to the same `ticket_id`.
-
-## Attempt records
-
-Before any model/API attempt, persist:
-
-- ticket ID
+Before a model/API attempt, persist:
+- question ID
 - attempt ID
 - actor/runtime/provider/model
 - role definition version/hash
-- exact rendered prompt or immutable prompt reference
+- rendered prompt or immutable prompt reference
 - context references + hashes
 - source/evidence cutoff
 - generation/tool settings
 - creation time
 
-Afterward append:
+Afterward append the result, timestamps, provider metadata/error category and artifact/answer reference.
 
-- start/end time
-- result state
-- provider status/error category
-- raw response/artifact reference when retained
-- answer packet reference if usable
+Never rewrite a failed attempt into a successful one.
 
-Never mutate a failed attempt into a successful one. Make another attempt.
+## Ordinary Answer-Bee attempt ring comes before escalation ticket
+
+A Question does not need an escalation Ticket just to be researched.
+
+For ordinary autonomous answering:
+1. try the first eligible provider/model;
+2. for a transient failure, perform the configured immediate repeat;
+3. move to the next eligible provider/model;
+4. continue through one full provider ring;
+5. only after the ring fails, or when human/Work integration is required, create an escalation `ticket_id`.
+
+A successful usable answer ends the ring unless explicit independent review is requested.
+
+## Interleaved exponential backoff
+
+Backoff is tracked **per provider/model**, while the Pygent may try other eligible providers in between.
+
+Example with providers A, B, C:
+
+`A1 -> wait/other work -> A2 -> B1 -> B2 -> C1 -> C2 -> A3 -> B3 -> C3 ...`
+
+For repeated transient failures on provider A, its retry target might be 1 s, 2 s, 4 s, 8 s, etc. If attempts against B and C already consumed that time, no extra sleep is needed: use
+
+`remaining_wait = max(0, target_backoff - elapsed_since_last_A_attempt)`.
+
+Add random jitter so many workers do not synchronize.
+
+Quota exhaustion is not exponential-backoff material if the provider gives a known reset. Mark that provider unavailable until reset and keep the Question runnable elsewhere.
+
+## Escalation tickets
+
+A Ticket is a durable work-order/escalation object referring to a Question when:
+- the whole ordinary provider ring failed;
+- Work Aiden integration is needed;
+- Chat/human research is requested;
+- access/credentials are required;
+- a long-lived deferred action must survive sessions;
+- a consequential review must be explicitly assigned.
+
+Ticket states can include:
+`open`, `claimed`, `resolved`, `waiting_provider_reset`, `blocked_access`, `needs_refresh`, `superseded`, `closed_no_answer`.
 
 ## Answers
 
-An answer references:
+An Answer references:
+- Question ID;
+- attempt ID when a worker/model produced it;
+- actor/model/runtime;
+- evidence references;
+- claims/counterevidence;
+- limitations;
+- birth requests;
+- status: provisional / ready_for_review / superseded.
 
-- the same ticket ID
-- actor/model/runtime
-- attempt ID if an API/model attempt produced it
-- evidence references
-- claims/counterevidence
-- limitations
-- birth requests
-- status: provisional / ready_for_review / superseded
-
-If Chat Aiden resolves a queued question before a worker bee gets it, the ticket becomes answered and later workers should not repeat it unless the answer explicitly requests review or freshness has expired.
+If Chat Aiden answers a Question before a sleeping Bee reaches it, later workers should see the existing answer and avoid duplicate work unless review/freshness requires it.
 
 ## Provider policy
 
-Do not assume one universal “best model.”
+No universal single “best model” is assumed.
 
-A provider/model is **eligible for a role** when current official documentation plus Dis-Unity tests show it is suitable for the job's needed capabilities (reasoning depth, context length, structured output, tool use, coding, vision, etc.).
+A provider/model becomes role-eligible after current documentation plus Dis-Unity testing show it is suitable for that role. Preserve actual provider/model identity. Free role-fit backups are allowed under the user's updated instruction. **Groq is excluded until the user explicitly reverses that instruction.**
 
-Rules:
-
-1. preserve actual provider/model identity;
-2. do not silently replace an unavailable requested/approved class with a materially weaker model;
-3. multiple independently suitable providers/models may attempt different tickets or review one another;
-4. a transient capacity error creates a deferred attempt, not a failed research conclusion;
-5. do not spray retries across many models merely to force an answer;
-6. provider diversity is useful when it creates independent reasoning, not fake corroboration.
-
-## Capacity behavior
-
-**Exponential backoff** means waiting progressively longer between retries rather than hammering a busy server: e.g. 1 second, then 2, 4, 8, with random jitter. Google officially recommends this for transient Gemini 429/503 errors.
-
-Dis-Unity should also use a higher-level queue. One or a few same-run retries can handle tiny hiccups; persistent provider capacity returns the ticket to `deferred_capacity` for a later run.
-
-No arbitrary project-wide ban on API concurrency is proposed. Each adapter should obey the provider's actual limits and the task's cost/priority. A circuit breaker may pause one failing provider without stopping other providers or non-model work.
+Provider diversity may provide independent reasoning, but different models do not become independent factual evidence.
 
 ## Worker tool surface
 
-The Python worker currently has repository files plus a Gemini HTTPS call. A GitHub Actions runner itself has outbound Internet access, so future adapters can expose much more.
+The Python worker currently has repository files plus a Gemini HTTPS call. A GitHub Actions runner has outbound Internet access, so future adapters can expose:
 
-### Protocols
+- HTTPS REST/JSON APIs;
+- RSS/Atom feeds;
+- CSV/JSON/XML public datasets;
+- OAuth 2.0 for scoped private APIs;
+- API-key authentication via Actions Secrets;
+- webhooks;
+- Git/GitHub APIs;
+- published Google Sheets/CSV;
+- explicit search adapters such as Tavily/Brave;
+- other approved model providers;
+- ordinary Python packages.
 
-- HTTPS REST/JSON
-- RSS/Atom
-- CSV/JSON/XML public datasets
-- OAuth 2.0 for scoped private APIs
-- API-key authentication via Actions Secrets
-- Webhooks for inbound events
-- Git/GitHub APIs
-- published Google Sheets/CSV feeds
-- SMTP/IMAP only when explicitly chosen; OAuth APIs are preferred for account access
-- ordinary package installation inside ephemeral GitHub Actions jobs
-
-### Tool classes
-
-**Sensors**
-- EIA, USDA, USGS, BLS, Census, NOAA, FRED and similar public APIs
-- RSS/Atom alert feeds
-- published Thinking Mailbox
-- direct HTTP page retrieval where lawful and technically appropriate
-- structured local/public datasets
-
-**Search**
-A worker does not automatically possess ChatGPT web search. Give it an explicit search adapter. Current free/small-use options include:
-- Tavily free plan: 1,000 API credits/month, no card required
-- Brave Search API: $5 monthly credits, roughly 1,000 Search-plan requests, card verification required
-Search output remains a discovery surface; agents should open/inspect primary sources rather than treating snippets as evidence.
-
-**Other model brains**
-- Gemini free-tier eligible models
-- Groq free tier for supported hosted models
-- Cloudflare Workers AI free daily allocation and eligible open models
-- OpenRouter free models (limited daily requests)
-- other providers only after current terms/capabilities are checked
-
-**Compute/storage**
-- GitHub Actions standard public-repository runners: ephemeral VMs, free standard runner usage
-- Cloudflare Workers Free: lightweight public endpoints/cron/orchestration, not heavy Python jobs
-- Git repository, Actions artifacts, and later purpose-built object/queue storage
-
-## Free-resource reality
-
-Free does not mean “guaranteed.”
-
-Free AI tiers typically have no contractual SLA and may expose lower quotas or capacity pressure. The architecture should therefore assume:
-- a provider sometimes says no;
-- a question can wait;
-- another suitable provider may handle a different ticket;
-- evidence collection can continue while model inference is unavailable;
-- every pending job is recoverable.
-
-That makes free resources useful without making any one of them foundational.
+Sensors gather evidence. Search discovers sources. Models reason. Git/Questions preserve memory. Tickets coordinate exceptions and deferred work.
