@@ -26,6 +26,8 @@ No closed-cycle records or canonical state are changed. No API call is executed 
 - Questions answered by Chat Aiden or another worker should resolve the same ticket rather than creating an orphan answer.
 - Commons participation is not head-count surveillance. Qualitative observations range from **a few** through **crowds upon crowds** with no hidden numeric conversion.
 - Local commons mapping should grow outward from Oakland only as useful, while keeping the local mapper authoritative for local facts.
+- **NO GROQ:** provider is vibe-banned until the user explicitly reverses that instruction; do not call or hide it behind an aggregator/fallback.
+- Question/Scout Bees should remain useful with ordinary source sensors even when higher-level model capacity is unavailable.
 
 ## Files
 
