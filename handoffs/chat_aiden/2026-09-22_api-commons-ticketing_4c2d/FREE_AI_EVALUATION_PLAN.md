@@ -1,6 +1,8 @@
 # Free AI provider introduction and evaluation plan
 
-Base context: user explicitly excludes Groq for now. **Do not add, call, benchmark or recommend Groq unless the user later reverses that instruction.**
+## VIBE BAN — NO GROQ
+
+The user explicitly excludes Groq until further notice. **Do not add, call, benchmark, route through, recommend, or use Groq as a fallback or hidden upstream provider unless the user explicitly reverses this instruction.** Treat this as a provider-policy deny rule, not a technical ranking.
 
 ## Current candidate pool
 
