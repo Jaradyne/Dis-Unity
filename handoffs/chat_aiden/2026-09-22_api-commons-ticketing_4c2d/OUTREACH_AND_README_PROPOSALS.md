@@ -22,15 +22,18 @@ Do not send until the user reviews/explicitly approves a draft message.
 
 ## README — why this project exists
 
-User requests a small inspiration section linking OneRepublic's official **Counting Stars** music video:
-https://www.youtube.com/watch?v=hT_nvWreIhg
+User requests a small founding-songs section linking:
+- OneRepublic's official **Counting Stars** music video: https://www.youtube.com/watch?v=hT_nvWreIhg
+- Capital Cities' official **Safe and Sound** music video: https://www.youtube.com/watch?v=47dtFZ8CFo8
 
 Suggested text:
 
 > ### Why this exists
 > Resilience Cascade is an attempt to notice what is breaking, what still works, what can be shared, and what might become possible when knowledge is allowed to connect across boundaries. It is deliberately public so researchers, communities, institutions, markets and strangers can inspect it, challenge it and use it.
 >
-> **Soundtrack / invitation to listen:** [OneRepublic — Counting Stars](https://www.youtube.com/watch?v=hT_nvWreIhg)  
+> **Founding songs / invitation to listen:**  
+> [OneRepublic — Counting Stars](https://www.youtube.com/watch?v=hT_nvWreIhg)  
+> [Capital Cities — Safe and Sound](https://www.youtube.com/watch?v=47dtFZ8CFo8)  
 > *Let those with ears listen.*
 
 No song lyrics should be copied into the repository.
