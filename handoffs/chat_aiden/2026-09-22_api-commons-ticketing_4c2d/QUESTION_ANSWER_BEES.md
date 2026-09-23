@@ -6,6 +6,23 @@ The skills for noticing **what deserves asking** are not the same as the skills 
 
 Each domain role can expose two modes without duplicating all domain knowledge.
 
+## Scout Equipper
+
+The Scout Equipper prepares Question Bees to work **without waiting for a high-level AI model** when the needed operation is ordinary sensing or retrieval.
+
+A scout may be equipped with:
+- RSS/Atom feeds;
+- public REST/JSON/CSV/XML APIs;
+- direct local/public source retrieval;
+- Thinking Mailbox/public Sheets;
+- explicit search adapters such as Tavily/Brave;
+- repository/question-state lookup;
+- geography-specific source lists.
+
+The Scout Equipper should choose the cheapest/most direct sensor that can answer **what changed / what exists / where should we look next**. It does not invent interpretation merely because a reasoning model is unavailable.
+
+If the question requires synthesis, causal reasoning, dispute resolution, multilingual judgment, or other higher-level functionality, the Question can wait for an eligible Answer Bee/provider ring.
+
 ## Question Bee / Scout
 
 Purpose:
@@ -82,3 +99,8 @@ Question Bee notices the need for a child.
 Answer Bee may confirm that the parent role cannot resolve it.
 Orchestrator validates the birth request.
 No child launches merely because a model wrote `birth_requests`.
+
+
+## Provider deny rules
+
+The current provider policy includes an explicit **NO GROQ / vibe-ban**. Question and Answer Bees must not call Groq directly, indirectly through an aggregator selection, or as an automatic fallback until the user explicitly removes that rule.
