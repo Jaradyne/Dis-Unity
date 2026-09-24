@@ -1,0 +1,9 @@
+{
+  "attempt_id": "ATT-F0AA8CA75B1B4EE284AC1B39733FCD12",
+  "brake": false,
+  "category": "audit_pending",
+  "cooldown_hours": 12,
+  "finished_at": "2026-09-24T09:29:08.318279+00:00",
+  "reason": "Saved generation awaits its audit; recover this receipt without another POST",
+  "run_id": "gh-35981423237-2"
+}
