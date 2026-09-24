@@ -128,6 +128,7 @@
       },
       "post_reserved": 1,
       "question_id": "Q-RESEARCH-Q01",
+      "recovered_by": "gh-35981423237-2",
       "recovery_from": null,
       "reflection_ids": [
         "REFL-434B4142921CCC6BA0AAFA25"
@@ -154,6 +155,23 @@
       "sources": "operations/week-one/runs/gh-35981423237-1/sources.json",
       "started_at": "2026-09-24T09:28:25.568016+00:00",
       "status": "deferred"
+    },
+    "gh-35981423237-2": {
+      "attempt_id": "ATT-F0AA8CA75B1B4EE284AC1B39733FCD12",
+      "audit_tries": 2,
+      "epoch": 1,
+      "execution_url": "https://github.com/Jaradyne/Dis-Unity/actions/runs/35981423237",
+      "post_reserved": 0,
+      "question_id": "Q-RESEARCH-Q01",
+      "recovery_from": "gh-35980783938-2",
+      "run_id": "gh-35981423237-2",
+      "scout_reflections": [
+        "REFL-1FED135A5B30673A039E50BB"
+      ],
+      "slot": "20260924-AM",
+      "sources": "operations/week-one/runs/gh-35981423237-2/sources.json",
+      "started_at": "2026-09-24T09:29:05.692346+00:00",
+      "status": "prepared"
     }
   },
   "version": 1

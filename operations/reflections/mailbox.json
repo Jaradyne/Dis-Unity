@@ -96,6 +96,38 @@
         "The right reflection density should be learned from use rather than fixed in advance."
       ]
     },
+    "REFL-1FED135A5B30673A039E50BB": {
+      "actor": "Week One public scout",
+      "context": {
+        "call_id": "gh-35981423237-2-scouts",
+        "parent_call_id": "gh-35981423237-2",
+        "run_id": "gh-35981423237-2"
+      },
+      "created_at": "2026-09-24T09:29:06.089494+00:00",
+      "level": "subcall",
+      "observations": [
+        "eia-diesel: retrieved",
+        "eia-energy: retrieved",
+        "nws-ca: retrieved"
+      ],
+      "origin": "runtime_observation",
+      "questions": [],
+      "reflection_id": "REFL-1FED135A5B30673A039E50BB",
+      "related_reflection_ids": [],
+      "source_refs": [
+        "SRC-W1-97CA29FEC390AC98",
+        "SRC-W1-58C06D6CE3142B01",
+        "SRC-W1-3FBA3F47A07802CD",
+        "SRC-W1-FFE6A0A14DE87E65",
+        "SRC-W1-4F8CF05A57A8538A",
+        "SRC-W1-5D359E6E578E46A0"
+      ],
+      "suggestions": [],
+      "summary": "Retrieved 3/3 public surfaces; 0 new/changed selected items.",
+      "uncertainties": [
+        "Selected feeds and alerts do not measure delivery performance, stocks or caregiver capacity."
+      ]
+    },
     "REFL-3B9FEC4AF2674E91082281DC": {
       "actor": "Work Aiden",
       "context": {

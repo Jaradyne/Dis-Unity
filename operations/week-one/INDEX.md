@@ -10,6 +10,7 @@ Each provider attempt reads public sources, a shared Question and the reflection
 
 | Run | Status | Question | Sources / output |
 |---|---|---|---|
+| gh-35981423237-2 | prepared /  | Q-RESEARCH-Q01 | [Sources](runs/gh-35981423237-2/sources.json) · [Note](runs/gh-35981423237-2/HUMAN_NOTE.md) |
 | gh-35981423237-1 | deferred / operator_review_required |  | [Sources](runs/gh-35981423237-1/sources.json) · [Note](runs/gh-35981423237-1/HUMAN_NOTE.md) |
 | gh-35980783938-2 | complete / policy_blocked | Q-RESEARCH-Q01 | [Sources](runs/gh-35980783938-2/sources.json) · [Note](runs/gh-35980783938-2/HUMAN_NOTE.md) |
 | gh-35980155892-2 | complete / policy_blocked | Q-RESEARCH-Q17 | [Sources](runs/gh-35980155892-2/sources.json) · [Note](runs/gh-35980155892-2/HUMAN_NOTE.md) |
@@ -19,8 +20,8 @@ Each provider attempt reads public sources, a shared Question and the reflection
 | gh-35971974980-1 | deferred / operator_review_required |  | [Sources](runs/gh-35971974980-1/sources.json) · [Note](runs/gh-35971974980-1/HUMAN_NOTE.md) |
 | gh-35971438628-1 | complete / auth_or_configuration_error | Q-RESEARCH-Q01 | [Sources](runs/gh-35971438628-1/sources.json) · [Note](runs/gh-35971438628-1/HUMAN_NOTE.md) |
 
-Provider brake: {"at": "2026-09-24T09:23:07.478322+00:00", "reason": "Inline usage does not establish zero cost and non-BYOK", "run_id": "gh-35980783938-2"}
-Cooldown until: 2026-09-24T21:23:05.626575+00:00
+Provider brake: null
+Cooldown until: None
 
 Public-source coverage: EIA diesel/energy feed metadata and up to 12 NWS California active alerts.
 Research publication, source access, current operating capacity and model interpretation have separate provenance.
