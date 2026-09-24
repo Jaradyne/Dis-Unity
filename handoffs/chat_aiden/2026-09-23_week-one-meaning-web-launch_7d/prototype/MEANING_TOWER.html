@@ -27,6 +27,11 @@ h1{margin:.35rem 0 .6rem;font-size:clamp(1.8rem,4vw,3.3rem)} .summary{color:#ddd
 .journal h2{margin-top:0}.choice{border:1px solid var(--line);padding:10px;border-radius:10px;margin-bottom:9px;background:var(--panel);font-size:.9rem}
 textarea{width:100%;min-height:120px;background:var(--panel);color:var(--ink);border:1px solid var(--line);border-radius:10px;padding:10px}
 .copy{width:100%;margin-top:10px}.note{color:var(--muted);font-size:.82rem;line-height:1.4}
+.boss{display:none;margin-top:18px;padding:16px;border:1px solid var(--line);border-radius:14px;background:#12161d}
+.boss.on{display:block}.bossTitle{font-weight:800;letter-spacing:.08em;color:var(--accent);margin-bottom:7px}
+.bossMeter{height:10px;border:1px solid var(--line);border-radius:999px;overflow:hidden;margin:8px 0 14px}.bossFill{height:100%;background:linear-gradient(90deg,#6f8fb0,#e3c17a);width:0;transition:width .25s}
+.wordArena{display:flex;gap:9px;flex-wrap:wrap;min-height:48px}.word{border:1px solid var(--line);background:var(--soft);color:var(--ink);padding:9px 12px;border-radius:999px;cursor:pointer}.word.active{outline:2px solid var(--accent);transform:translateY(-2px)}
+.judge{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}.judge button{border:1px solid var(--line);background:#202632;color:var(--ink);padding:8px 10px;border-radius:9px;cursor:pointer}.bossLog{color:var(--muted);font-size:.9rem;margin-top:10px;line-height:1.4}.secret{margin-top:10px;padding:9px;border:1px dashed var(--line);border-radius:10px;color:var(--muted)}
 @media(max-width:900px){.app{grid-template-columns:1fr}.tower,.journal{position:relative;height:auto;border:0}.tower{display:flex;gap:10px;overflow:auto}.brand,.sub{display:none}.floor{min-width:210px}.journal{border-top:1px solid var(--line)}}
 </style>
 </head>
@@ -50,6 +55,19 @@ textarea{width:100%;min-height:120px;background:var(--panel);color:var(--ink);bo
         <button id="clearStory">clear this room's choices</button>
       </div>
       <div class="hotspots" id="hotspots"></div>
+      <div class="boss" id="bossArena">
+        <div class="bossTitle">PARALLAX BOSS · SIGNAL OR WEATHER?</div>
+        <div class="note" id="bossPrompt"></div>
+        <div class="bossMeter"><div class="bossFill" id="bossFill"></div></div>
+        <div class="wordArena" id="wordArena"></div>
+        <div class="judge">
+          <button data-judge="routine">routine / translation weather</button>
+          <button data-judge="curious">hmm, curious</button>
+          <button data-judge="carry">carry forward</button>
+        </div>
+        <div class="bossLog" id="bossLog"></div>
+        <div class="secret" id="secretMsg" hidden>🐝 Secret message: careful noticing counts as progress too.</div>
+      </div>
       <div class="sourcebox" id="sources"></div>
     </div>
   </section>
@@ -124,10 +142,30 @@ const stories = [
   ["Birth","When should a second table appear rather than making the first one enormous?"],
   ["Beauty","What makes people linger, return, alter the place, and bring something of themselves?"]
  ]
+},
+{
+ id:"translation-boss",
+ floor:"04 · Translation Boss",
+ type:"Meaning Tower boss room · translation-adjacent play",
+ title:"A blizzard of trivia, or a breeze worth following?",
+ summary:"A language surface can shift tone, agency, metaphor, certainty or emphasis without changing the underlying policy. The boss is not another language. The boss is telling routine translation weather from a difference worth carrying forward.",
+ source:"Prototype interaction for the Multilingual Official-Surface Bee and English Parallax Feed. Demo tokens below are illustrative prompts, not live evidence.",
+ sourceLinks:[],
+ tone:[210,164,245],
+ boss:true,
+ bossWords:["support","hype","stability","concern","welcome","smear","responsibility","cooperation"],
+ points:[
+  ["Boss packet","Imagine 38 matched differences: 35 routine, 3 still curious, plus 1 boring control."],
+  ["English pivot","Use English as Jared's human nuance pivot without treating it as the authoritative source."],
+  ["Control sample","Keep one boring example so weirdness has something normal to stand next to."],
+  ["Noise gate","Could grammar, idiom, space, timing or translator habit explain this?"],
+  ["Ask Jared","When nuance survives the noise gate, make it playable rather than turning it straight into a conclusion."],
+  ["Secret message","Sometimes careful reading earns a tiny bit of delight."]
+ ]
 }
 ];
 
-let current=stories[0], chosen=[];
+let current=stories[0], chosen=[], bossState={index:0,selected:null,routine:0,curious:0,carry:0};
 const $=s=>document.querySelector(s);
 
 function art(story){
@@ -137,6 +175,34 @@ function art(story){
  }).join('');
  return '<svg viewBox="0 0 720 240" role="img" aria-label="Connected pressure-point illustration"><path d="M50 120 C170 20, 260 220, 370 120 S560 20,670 120" fill="none" stroke="currentColor" stroke-width="3" opacity=".6"/>'+labels+'</svg>';
 }
+
+function renderBoss(){
+ const arena=$('#bossArena');
+ if(!current.boss){arena.classList.remove('on');return;}
+ arena.classList.add('on');
+ const words=current.bossWords||[];
+ if(bossState.index>=words.length){
+   $('#bossPrompt').textContent='Boss packet complete. The point is not to be right instantly — it is to preserve what still deserves a second look.';
+   $('#wordArena').innerHTML='';
+   $('#bossFill').style.width='100%';
+   $('#bossLog').textContent='Routine: '+bossState.routine+' · Curious: '+bossState.curious+' · Carry forward: '+bossState.carry+'. In a live run, only the survivors and one boring control need reach Jared.';
+   $('#secretMsg').hidden=false;
+   return;
+ }
+ $('#secretMsg').hidden=true;
+ $('#bossPrompt').textContent='Tap the current word, then decide how much attention it deserves. Imagine you are comparing official renderings, not grading a language.';
+ $('#wordArena').innerHTML=words.map((w,i)=>'<button class="word '+(i===bossState.index?'active':'')+'" data-word="'+i+'">'+w+'</button>').join('');
+ $('#bossFill').style.width=Math.round((bossState.index/words.length)*100)+'%';
+ $('#bossLog').textContent='Routine: '+bossState.routine+' · Curious: '+bossState.curious+' · Carry forward: '+bossState.carry;
+}
+document.querySelectorAll('.judge button').forEach(b=>b.onclick=()=>{
+ if(!current.boss || bossState.index>=(current.bossWords||[]).length) return;
+ const j=b.dataset.judge; bossState[j]++;
+ const word=current.bossWords[bossState.index];
+ addChoice('Translation dance: '+word, j==='routine'?'Felt like routine translation weather.':j==='curious'?'Felt peculiar enough to compare again.':'Carry this wording into the discussion packet.');
+ bossState.index++;
+ renderBoss();
+});
 
 function render(){
  document.querySelectorAll('.floor').forEach(b=>b.classList.toggle('active',b.dataset.id===current.id));
@@ -155,6 +221,7 @@ function render(){
  const links=current.sourceLinks.map(([n,u])=>'<a target="_blank" rel="noopener" href="'+u+'">'+n+'</a>').join(' · ');
  $('#sources').innerHTML='<strong>Provenance:</strong> '+current.source+(links?'<br>'+links:'');
  renderChoices();
+ renderBoss();
 }
 
 function addChoice(name,desc){
@@ -199,7 +266,7 @@ const floors=$('#floors');
 stories.forEach(s=>{
  const b=document.createElement('button'); b.className='floor';b.dataset.id=s.id;
  b.innerHTML='<strong>'+s.floor+'</strong><small>'+s.title+'</small>';
- b.onclick=()=>{stopSound();current=s;render();};
+ b.onclick=()=>{stopSound();current=s;if(current.boss) bossState={index:0,selected:null,routine:0,curious:0,carry:0};render();};
  floors.appendChild(b);
 });
 render();
