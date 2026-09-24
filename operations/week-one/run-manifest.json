@@ -1,11 +1,7 @@
 {
-  "brake": {
-    "at": "2026-09-24T09:23:07.478322+00:00",
-    "reason": "Inline usage does not establish zero cost and non-BYOK",
-    "run_id": "gh-35980783938-2"
-  },
+  "brake": null,
   "closed": false,
-  "cooldown_until": "2026-09-24T21:23:05.626575+00:00",
+  "cooldown_until": null,
   "operator_reflight": {
     "authorized_at": "2026-09-24T09:22:00Z",
     "authorized_by": "Jared",
