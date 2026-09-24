@@ -78,18 +78,39 @@ class ProviderTests(unittest.TestCase):
             with self.assertRaises(fp.ProviderFailure): fp.call(fp.payload('public prompt'), transport)
         self.assertEqual(posts, [])
 
-    def test_response_checkpoint_precedes_audit_failure(self):
+    def test_response_checkpoint_precedes_inline_cost_failure(self):
         saved = []
         def transport(url, **kwargs):
             if url == fp.CATALOG: return self.catalog()
             if url.endswith('/api/v1/key'): return {'data': {'is_management_key': False}}
-            if url == fp.ENDPOINT: return {'id': 'gen-one', 'choices': [{'finish_reason': 'stop', 'message': {'content': '{}', 'reasoning': 'must not retain'}}]}
-            self.assertEqual(saved[0]['id'], 'gen-one')
-            self.assertNotIn('reasoning', saved[0]['choices'][0]['message'])
-            raise fp.ProviderFailure('model_unavailable', 'Audit not ready')
+            if url == fp.ENDPOINT:
+                return {'id': 'gen-one', 'model': fp.MODEL,
+                        'openrouter_metadata': {'requested': fp.MODEL, 'is_byok': False,
+                                                'endpoints': {'available': [{'provider': 'Nvidia', 'selected': True}]}},
+                        'usage': {'cost': 0.01, 'is_byok': False, 'prompt_tokens': 10, 'completion_tokens': 4},
+                        'choices': [{'finish_reason': 'stop', 'message': {'content': '{}', 'reasoning': 'must not retain'}}]}
+            raise AssertionError('unexpected transport call')
         with patch.dict(os.environ, {'OPENROUTER_API_KEY': 'test-fixture'}):
-            with self.assertRaises(fp.ProviderFailure) as error: fp.call(fp.payload('public prompt'), transport, saved.append)
-        self.assertEqual(error.exception.category, 'audit_pending')
+            with self.assertRaises(fp.ProviderFailure) as error:
+                fp.call(fp.payload('public prompt'), transport, saved.append)
+        self.assertEqual(error.exception.category, 'policy_blocked')
+        self.assertEqual(saved[0]['id'], 'gen-one')
+        self.assertNotIn('reasoning', saved[0]['choices'][0]['message'])
+
+    def test_inline_receipt_requires_zero_cost_non_byok_and_nvidia(self):
+        base = {'id': 'gen-one', 'model': fp.MODEL,
+                'openrouter_metadata': {'requested': fp.MODEL, 'is_byok': False,
+                                        'endpoints': {'available': [{'provider': 'Nvidia', 'selected': True}]}},
+                'usage': {'cost': 0, 'is_byok': False, 'prompt_tokens': 10, 'completion_tokens': 4}}
+        receipt = fp.verify_inline_receipt(base)
+        self.assertEqual(receipt['total_cost'], 0)
+        self.assertFalse(receipt['is_byok'])
+        for mutate in ('cost', 'byok', 'provider'):
+            bad = deepcopy(base)
+            if mutate == 'cost': bad['usage']['cost'] = 0.001
+            elif mutate == 'byok': bad['usage']['is_byok'] = True
+            else: bad['openrouter_metadata']['endpoints']['available'][0]['provider'] = 'Groq'
+            with self.assertRaises(fp.ProviderFailure): fp.verify_inline_receipt(bad)
 
 
 class RuntimeTests(unittest.TestCase):
@@ -164,6 +185,31 @@ class RuntimeTests(unittest.TestCase):
         self.assertEqual(result['status'], 'prepared')
         self.assertEqual(w.manifest(self.root)['runs']['recovery']['post_reserved'], 1)
         self.assertEqual(self.prepare('fourth', now='2026-09-24T08:08:00Z')['status'], 'slot_attempt_limit')
+
+    def test_explicit_operator_reflight_can_exceed_slot_once_but_not_daily_budget(self):
+        self.assertEqual(self.prepare('first')['status'], 'prepared')
+        state = w.manifest(self.root)
+        first = state['runs']['first']
+        questions.finish_attempt(self.root, 'Q-TEST', first['attempt_id'], 'auth_or_configuration_error',
+                                 details={'reason': 'fixture'})
+        first.update(status='complete', result='auth_or_configuration_error', post_reserved=1)
+        state['runs']['second'] = {
+            'run_id': 'second', 'started_at': '2026-09-24T08:06:00+00:00',
+            'slot': '20260924-AM', 'status': 'complete', 'result': 'invalid_response',
+            'post_reserved': 1
+        }
+        state['operator_reflight'] = {
+            'authorized_by': 'Jared', 'reason': 'reviewed redesign', 'authorized_at': '2026-09-24T09:00:00Z',
+            'remaining': 1
+        }
+        w.write(self.root, w.BASE / 'run-manifest.json', state)
+        result = self.prepare('reflight', now='2026-09-24T08:07:00Z')
+        self.assertEqual(result['status'], 'prepared')
+        rec = w.manifest(self.root)['runs']['reflight']
+        self.assertEqual(rec['post_reserved'], 1)
+        self.assertEqual(rec['operator_reflight']['authorized_by'], 'Jared')
+        self.assertEqual(w.manifest(self.root)['operator_reflight']['remaining'], 0)
+        self.assertEqual(self.prepare('blocked-again', now='2026-09-24T08:08:00Z')['status'], 'slot_attempt_limit')
 
     def test_question_reflection_allows_honest_nonanswer_without_filler_claims(self):
         self.prepare()
