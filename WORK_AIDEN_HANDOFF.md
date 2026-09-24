@@ -1,3 +1,7 @@
+# 24 September Week One launch — current entry point
+
+Read [WEEK_ONE_HANDOFF.md](WEEK_ONE_HANDOFF.md) first. It supersedes the older provider pause and architecture-only next steps below. PRs #5 and #6 are preserved in full. Live operational records are on `week-one-state`; main holds reviewed runtime and policy.
+
 # Work Aiden handoff
 
 **24 September reflection and common room update — read first:** `operations/reflections/README.md` and `operations/INTEGRATION_2026-09-24.md` describe the new mailbox, worker projection, governor review and current notes-sheet access boundary. Reflections preserve original authorship, call/parent references and reconsidered decisions. Chat, Work, the governor and the human are thought partners. The first Work contribution and review are recorded; no separate autonomous governor or 50-call run is claimed. Keep the notes sheet's unadvertised address out of public Git. Chat PR #5 contains a later provider-policy clarification; it has been read but remains staged for separate integration. Do not ask the user to repeat that clarification. Live providers remain technically paused.

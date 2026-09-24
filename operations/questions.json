@@ -1,7 +1,67 @@
 {
   "questions": {
-    "Q-OPS-PROVIDER-POLICY": {
+    "Q-MEANING-TRANSLATION-BOSS": {
       "answers": {},
+      "attempts": {},
+      "claim": null,
+      "context_refs": [
+        "operations/week-one/meaning-tower-attention.json"
+      ],
+      "created_at": "2026-09-24T07:38:23.037074+00:00",
+      "created_by": "Work Aiden",
+      "epoch": 1,
+      "geography": "Matched official multilingual surfaces; begin with one reviewed document pair",
+      "history": [],
+      "identity_key": "bdbe0ac43622b9d9419bd295aae8e7a64626976a5f9af0a9f023b75d5f86e73b",
+      "question": "Do the meaning differences Jared selected (stability, concern, responsibility and cooperation) survive matched official-document comparison, ordinary translation explanations and a control sample?",
+      "question_id": "Q-MEANING-TRANSLATION-BOSS",
+      "relations": [
+        {
+          "actor": "Work Aiden",
+          "kind": "related",
+          "question_id": "Q-RESEARCH-Q01"
+        },
+        {
+          "actor": "Work Aiden",
+          "kind": "related",
+          "question_id": "Q-RESEARCH-Q09"
+        },
+        {
+          "actor": "Work Aiden",
+          "kind": "related",
+          "question_id": "Q-RESEARCH-Q17"
+        }
+      ],
+      "status": "open",
+      "tickets": {}
+    },
+    "Q-OPS-PROVIDER-POLICY": {
+      "answers": {
+        "ANS-3FB94BBF363A54970B13469A": {
+          "actor": "Chat Aiden / PR 5 admitted by Work Aiden",
+          "answer_id": "ANS-3FB94BBF363A54970B13469A",
+          "attempt_id": null,
+          "created_at": "2026-09-24T07:38:23.043223+00:00",
+          "epoch": 1,
+          "payload": {
+            "counterevidence": [
+              "Earlier instruction required best eligible Gemini only and no weaker fallback; the later user clarification supersedes that narrower interpretation while retaining no-silent-downgrade and explicit model identity."
+            ],
+            "evidence_refs": [
+              "Current user instruction in Chat, 2026-09-22: 'Best can mean any model meant for this work well.'",
+              "Current user instruction in Chat, 2026-09-22: free models are acceptable as backup and should be tested/rated by task.",
+              "Current user instruction in Chat, 2026-09-22: 'NO GROQ' / vibe-banned until further notice."
+            ],
+            "limitations": [
+              "This resolves policy, not provider eligibility. Exact model IDs, quotas, terms and role fitness still require current verification and testing before live use.",
+              "It does not authorize paid resources or hidden upstream providers."
+            ],
+            "status": "ready_for_review",
+            "summary": "Current user policy is role-fit free-model eligibility rather than Gemini-only. Models may be introduced, tested, classified by task fitness, and used as explicit fallbacks when they are demonstrably suitable for the assigned role. Every attempt must preserve the actual provider/model identity and result; no silent downgrade. Groq is explicitly denied, including indirect selection through aggregators, until the user reverses that instruction."
+          },
+          "question_id": "Q-OPS-PROVIDER-POLICY"
+        }
+      },
       "attempts": {},
       "claim": null,
       "context_refs": [
@@ -17,16 +77,18 @@
       "question": "Which provider/model eligibility rule is current: best eligible Gemini only, or evaluated role-fit free backups?",
       "question_id": "Q-OPS-PROVIDER-POLICY",
       "relations": [],
-      "status": "open",
+      "status": "answered",
       "tickets": {
         "TKT-5FC0766124B511AE50EB": {
+          "answer_id": "ANS-3FB94BBF363A54970B13469A",
           "created_at": "2026-09-23T02:42:30.284732+00:00",
           "created_by": "work-integration-20260923",
           "epoch": 1,
           "notes": "Nonblocking for mock, sensors and integration. User is tired; preserve both instructions and wait for a later natural clarification. No live provider calls meanwhile.",
           "question_id": "Q-OPS-PROVIDER-POLICY",
           "reason": "human_review_required",
-          "status": "open",
+          "resolved_at": "2026-09-24T07:38:23.043235+00:00",
+          "status": "resolved",
           "ticket_id": "TKT-5FC0766124B511AE50EB"
         }
       }
@@ -47,7 +109,13 @@
       "identity_key": "2076af330d408ee74c09574a4d4de7e3dce1ad8a2c7fd1f34e66360c2c2e840a",
       "question": "Are fuel costs becoming actual missed essential deliveries?",
       "question_id": "Q-RESEARCH-Q01",
-      "relations": [],
+      "relations": [
+        {
+          "actor": "Work Aiden",
+          "kind": "related",
+          "question_id": "Q-MEANING-TRANSLATION-BOSS"
+        }
+      ],
       "status": "open",
       "tickets": {}
     },
@@ -207,7 +275,13 @@
       "identity_key": "1e815dbad72bdfdb7b4a8ce6e2b55712d54a495e4ab2ba51f2706901a929f774",
       "question": "What current water and care continuity indicators can be verified?",
       "question_id": "Q-RESEARCH-Q09",
-      "relations": [],
+      "relations": [
+        {
+          "actor": "Work Aiden",
+          "kind": "related",
+          "question_id": "Q-MEANING-TRANSLATION-BOSS"
+        }
+      ],
       "status": "open",
       "tickets": {}
     },
@@ -367,7 +441,13 @@
       "identity_key": "d164db65af9a10dd2f1bddb080bc65c089904373ffe6627e2e775fb6d947d76e",
       "question": "How many usable food-service days survive losing a major supply channel?",
       "question_id": "Q-RESEARCH-Q17",
-      "relations": [],
+      "relations": [
+        {
+          "actor": "Work Aiden",
+          "kind": "related",
+          "question_id": "Q-MEANING-TRANSLATION-BOSS"
+        }
+      ],
       "status": "open",
       "tickets": {}
     },

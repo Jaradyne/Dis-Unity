@@ -18,7 +18,7 @@ RESULTS = {
     "usable_answer", "partial_answer", "mock_only", "policy_blocked",
     "transient_capacity", "short_rate_limit", "daily_quota_exhausted",
     "auth_or_configuration_error", "model_unavailable", "transport_timeout",
-    "invalid_response", "interrupted",
+    "invalid_response", "interrupted", "audit_pending",
 }
 REASONS = {
     "provider_ring_exhausted", "chat_research_requested", "work_integration_required",

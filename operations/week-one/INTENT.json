@@ -1,0 +1,13 @@
+{
+  "intent_id": "INTENT-WEEK-ONE-20260924",
+  "actor": "Work Aiden implementing Jared's explicit Week One launch request",
+  "goal": "Run bounded public-source research for seven days and preserve useful meaning, questions, reflections and samples",
+  "scope": ["reviewed public EIA/NWS sources", "one explicit zero-price Nvidia route through OpenRouter", "Dis-Unity week-one-state branch"],
+  "authority": ["public read-only sensing", "free bounded provider trials and synthesis", "publish operational records in the existing public repository", "schedule and stop this seven-day workflow"],
+  "affected_parties": ["Jared and voluntary readers", "public data services within small request bounds"],
+  "reversibility": "reversible",
+  "stop_conditions": ["run end reached", "enabled flag false", "unverified cost or provider", "authentication or policy brake", "provenance failure"],
+  "verification": ["successful real scout record", "classified real provider attempt", "durable pre-call journal and result", "enabled schedule", "recovery tests", "inspect the first live output"],
+  "limits": {"paid_spend_usd": 0, "max_provider_posts_per_run": 1, "max_provider_posts_per_utc_day": 4, "automatic_children": 0},
+  "reflection_required": true
+}

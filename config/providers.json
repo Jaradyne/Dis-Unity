@@ -1,18 +1,29 @@
 {
-  "schema_version": "0.1",
-  "real_execution": "paused",
-  "allowed_runtime_providers": ["mock"],
-  "denied_providers": ["groq"],
+  "schema_version": "0.2",
+  "real_execution": "bounded_week_one_only",
+  "allowed_runtime_providers": [
+    "mock",
+    "openrouter via scripts/free_provider.py"
+  ],
+  "denied_providers": [
+    "groq"
+  ],
   "deny_includes_aggregator_upstreams": true,
   "default_real_model": null,
-  "pending_decision": "Chat PR #4 records permission for role-fit free backups; this conflicts with the earlier direct best-Gemini-only instruction. Preserve the proposal without authorizing live calls until reconciled.",
-  "requirements_before_enabling": [
-    "Resolve policy against the user's current instruction",
-    "Verify exact model IDs, availability, terms and quotas in current official documentation",
-    "Evaluate a model for the assigned role with preserved results",
-    "Implement reviewed provider adapters and bounded per-provider retry state",
-    "Persist prompt/context before every attempt; never silently downgrade",
-    "Confirm account/resource authorization for the concrete connection"
-  ],
-  "note": "No configuration switch currently enables network model calls. Worker v0.2 records a deferred attempt instead. Candidate model names and quotas in the preserved Chat packet are unverified leads."
+  "policy_question": "Q-OPS-PROVIDER-POLICY",
+  "policy_resolution": "Later user clarification preserved in PR 5: explicit role-fit free models may be tested and used; actual identity and outcome are retained. Zero spend and no Groq.",
+  "enabled_route": {
+    "model": "nvidia/nemotron-3-super-120b-a12b:free",
+    "upstream": "nvidia",
+    "price_ceiling": 0,
+    "prerequisites": [
+      "live zero-price model-specific catalog",
+      "read-only confirmation of no active applicable BYOK",
+      "durable request checkpoint",
+      "bounded budget and time window"
+    ],
+    "verification": "per-generation identity, cost and BYOK receipt"
+  },
+  "generic_worker": "scripts/worker.py remains mock or deferred Gemini; Week One uses its own reviewed adapter.",
+  "gemini": "Deferred; retain prompts. No automatic downgrade or fallback."
 }

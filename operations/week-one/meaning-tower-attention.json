@@ -1,0 +1,97 @@
+{
+  "story": "translation-boss",
+  "title": "A blizzard of trivia, or a breeze worth following?",
+  "decision_points": [
+    {
+      "key": "translation-boss|Ask Jared",
+      "story": "A blizzard of trivia, or a breeze worth following?",
+      "point": "Ask Jared",
+      "why": "When nuance survives the noise gate, make it playable rather than turning it straight into a conclusion."
+    },
+    {
+      "key": "translation-boss|Secret message",
+      "story": "A blizzard of trivia, or a breeze worth following?",
+      "point": "Secret message",
+      "why": "Sometimes careful reading earns a tiny bit of delight."
+    },
+    {
+      "key": "translation-boss|Control sample",
+      "story": "A blizzard of trivia, or a breeze worth following?",
+      "point": "Control sample",
+      "why": "Keep one boring example so weirdness has something normal to stand next to."
+    },
+    {
+      "key": "translation-boss|English pivot",
+      "story": "A blizzard of trivia, or a breeze worth following?",
+      "point": "English pivot",
+      "why": "Use English as Jared's human nuance pivot without treating it as the authoritative source."
+    },
+    {
+      "key": "translation-boss|Boss packet",
+      "story": "A blizzard of trivia, or a breeze worth following?",
+      "point": "Boss packet",
+      "why": "Imagine 38 matched differences: 35 routine, 3 still curious, plus 1 boring control."
+    },
+    {
+      "key": "translation-boss|Noise gate",
+      "story": "A blizzard of trivia, or a breeze worth following?",
+      "point": "Noise gate",
+      "why": "Could grammar, idiom, space, timing or translator habit explain this?"
+    },
+    {
+      "key": "translation-boss|Translation dance: support",
+      "story": "A blizzard of trivia, or a breeze worth following?",
+      "point": "Translation dance: support",
+      "why": "Felt like routine translation weather."
+    },
+    {
+      "key": "translation-boss|Translation dance: hype",
+      "story": "A blizzard of trivia, or a breeze worth following?",
+      "point": "Translation dance: hype",
+      "why": "Felt like routine translation weather."
+    },
+    {
+      "key": "translation-boss|Translation dance: stability",
+      "story": "A blizzard of trivia, or a breeze worth following?",
+      "point": "Translation dance: stability",
+      "why": "Felt peculiar enough to compare again."
+    },
+    {
+      "key": "translation-boss|Translation dance: concern",
+      "story": "A blizzard of trivia, or a breeze worth following?",
+      "point": "Translation dance: concern",
+      "why": "Felt peculiar enough to compare again."
+    },
+    {
+      "key": "translation-boss|Translation dance: welcome",
+      "story": "A blizzard of trivia, or a breeze worth following?",
+      "point": "Translation dance: welcome",
+      "why": "Felt like routine translation weather."
+    },
+    {
+      "key": "translation-boss|Translation dance: smear",
+      "story": "A blizzard of trivia, or a breeze worth following?",
+      "point": "Translation dance: smear",
+      "why": "Felt like routine translation weather."
+    },
+    {
+      "key": "translation-boss|Translation dance: responsibility",
+      "story": "A blizzard of trivia, or a breeze worth following?",
+      "point": "Translation dance: responsibility",
+      "why": "Felt peculiar enough to compare again."
+    },
+    {
+      "key": "translation-boss|Translation dance: cooperation",
+      "story": "A blizzard of trivia, or a breeze worth following?",
+      "point": "Translation dance: cooperation",
+      "why": "Felt peculiar enough to compare again."
+    }
+  ],
+  "user_note": "",
+  "request": "Discuss these with me without turning them into a score. Connect them to relevant Questions, evidence and pressure points.",
+  "intake_provenance": {
+    "actor": "Jared",
+    "received": "2026-09-24",
+    "evidence_status": "user attention and illustrative scenario, not observations of actual matched documents"
+  }
+}

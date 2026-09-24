@@ -1,3 +1,5 @@
+**Week One Meaning Web:** [operating handoff](WEEK_ONE_HANDOFF.md) · [live output index](https://github.com/Jaradyne/Dis-Unity/blob/week-one-state/operations/week-one/INDEX.md) · [runs](https://github.com/Jaradyne/Dis-Unity/actions/workflows/week-one.yml).
+
 # Dis-Unity — Resilience Cascade
 
 **Stress → interaction → opportunity → adaptation → resilience.**

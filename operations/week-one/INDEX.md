@@ -1,0 +1,18 @@
+# Week One Meaning Web
+
+Window: 2026-09-24T07:45:13+00:00 through 2026-10-01T07:45:13+00:00 (UTC).
+
+Operational records are provisional. The admitted research state remains RC-004.
+
+Each provider attempt reads public sources, a shared Question and the reflection mailbox. The Governor lens leaves attributed responses and proposals.
+
+[Restart and handoff](https://github.com/Jaradyne/Dis-Unity/blob/main/WEEK_ONE_HANDOFF.md)
+
+| Run | Status | Question | Sources / output |
+|---|---|---|---|
+
+Provider brake: null
+Cooldown until: None
+
+Public-source coverage: EIA diesel/energy feed metadata and up to 12 NWS California active alerts.
+Research publication, source access, current operating capacity and model interpretation have separate provenance.

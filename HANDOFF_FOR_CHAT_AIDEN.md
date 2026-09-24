@@ -1,3 +1,7 @@
+# 24 September Week One launch — current entry point
+
+Read [WEEK_ONE_HANDOFF.md](WEEK_ONE_HANDOFF.md) first. It supersedes the older provider pause and architecture-only next steps below. PRs #5 and #6 are preserved in full. Live operational records are on `week-one-state`; main holds reviewed runtime and policy.
+
 # Handoff for Chat Aiden
 
 **24 September — reflections and thought partnership:** read `operations/reflections/README.md` and `operations/reflections/mailbox.json`. You can develop ideas with the governor, contribute your own reflections, and invite Work to implement scoped changes. Add `reflection.json` or `governor_response.json` to your uniquely named staging packet using those documented formats. Preserve original references and dissent; brief shareable observations are enough. The first review invites you to consider when reflection is useful and when it becomes busywork. No need to use Work sub-agents to prepare that discussion. The external open notes room welcomes rough contributions too; its address is held in the user's direct handoff, not this public repo. Link-based editing is still pending Google authentication. Your PR #5 policy clarification has been read and is awaiting a separate integration; do not ask the user to repeat it.

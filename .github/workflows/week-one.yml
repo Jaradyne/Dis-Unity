@@ -1,0 +1,63 @@
+name: Week One Meaning Web
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/week_one*.py'
+      - 'scripts/free_provider.py'
+      - 'config/week-one.json'
+      - '.github/workflows/week-one.yml'
+  schedule:
+    - cron: '47 3,15 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: week-one-meaning-web
+  cancel-in-progress: false
+
+jobs:
+  bounded-run:
+    if: github.repository == 'Jaradyne/Dis-Unity' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    env:
+      WEEK_ONE_RUN_ID: gh-${{ github.run_id }}-${{ github.run_attempt }}
+      WEEK_ONE_PERSIST: '1'
+    steps:
+      - name: Read reviewed runtime from main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 1
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Restore durable operational state
+        id: restore
+        run: python scripts/week_one_state.py load
+      - name: Scout and journal the attempt
+        id: prepare
+        run: python scripts/week_one.py prepare
+      - name: Persist prompt before inference
+        run: python scripts/week_one_state.py save
+      - name: One bounded provider attempt or audit recovery
+        if: steps.prepare.outputs.prepared == 'true'
+        env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+        run: python scripts/week_one.py execute
+      - name: Project answer and reflection
+        if: always() && steps.restore.outcome == 'success' && steps.prepare.outputs.prepared == 'true'
+        run: python scripts/week_one.py finalize
+      - name: Preserve outcome and review
+        if: always() && steps.restore.outcome == 'success'
+        run: python scripts/week_one_state.py save
+      - name: End the seven-day schedule
+        if: steps.prepare.outputs.closed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api --method PUT repos/Jaradyne/Dis-Unity/actions/workflows/week-one.yml/disable
