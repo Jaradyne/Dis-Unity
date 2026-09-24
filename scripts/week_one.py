@@ -288,7 +288,10 @@ def prepare(root, rid, *, now=None, fetcher=source_fetch):
     same_slot = [r for r in state['runs'].values() if r.get('slot') == slot]
     if any(r['status'] == 'complete' and r.get('result') == 'partial_answer' for r in same_slot):
         return {'status': 'slot_already_completed', 'run_id': rid}
-    if len(same_slot) >= 2:
+    # Count provider reservations, not read-only sensing/deferred wakes. This permits one
+    # bounded operator-authorized recovery after a configuration brake without turning
+    # harmless scout wakes into exhausted inference slots.
+    if sum(int(r.get('post_reserved', 0) or 0) for r in same_slot) >= 2:
         return {'status': 'slot_attempt_limit', 'run_id': rid}
     daily = sum(r.get('post_reserved', 0) for r in state['runs'].values() if r['started_at'][:10] == stamp.date().isoformat())
     if daily >= cfg['max_provider_posts_per_utc_day']:
