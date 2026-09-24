@@ -99,7 +99,7 @@ def validate_payload(value):
 def verify_receipt(response, audit):
     data = audit.get("data", {})
     served_model = str(data.get("model", ""))
-    model_ok = bool(re.fullmatch(r"nvidia/nemotron-3-super-120b-a12b(?:-\\d{8})?(?::free)?", served_model))
+    model_ok = bool(re.fullmatch(r"nvidia/nemotron-3-super-120b-a12b(?:-\d{8})?(?::free)?", served_model))
     checks = {
         "id_match": data.get("id") == response.get("id"),
         "provider_nvidia": str(data.get("provider_name", "")).casefold() == "nvidia",
