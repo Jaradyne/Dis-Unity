@@ -293,7 +293,7 @@ def prepare(root, rid, *, now=None, fetcher=source_fetch):
     # recovery after a configuration brake without allowing parallel recovery/new POSTs.
     slot_units = sum(
         int(r.get('post_reserved', 0) or 0)
-        + (1 if not r.get('post_reserved') and r.get('status') == 'prepared' and r.get('recovery_from') else 0)
+        + (1 if not r.get('post_reserved') and r.get('recovery_from') else 0)
         for r in same_slot
     )
     if slot_units >= 2:
