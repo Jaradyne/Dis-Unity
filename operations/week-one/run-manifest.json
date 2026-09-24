@@ -2,6 +2,12 @@
   "brake": null,
   "closed": false,
   "cooldown_until": null,
+  "operator_reflight": {
+    "authorized_at": "2026-09-24T09:22:00Z",
+    "authorized_by": "Jared",
+    "reason": "Explicit post-audit reflight after Question reflection/source-fit and inline zero-cost receipt changes",
+    "remaining": 0
+  },
   "runs": {
     "gh-35971438628-1": {
       "attempt_id": "ATT-400018C15B8047E184B972B9BB95D02F",
@@ -108,13 +114,29 @@
       "sources": "operations/week-one/runs/gh-35980155892-2/sources.json",
       "started_at": "2026-09-24T09:16:46.784680+00:00",
       "status": "complete"
+    },
+    "gh-35980783938-2": {
+      "attempt_id": "ATT-811D87D156344129A59BA4E8C0139A35",
+      "audit_tries": 1,
+      "epoch": 1,
+      "execution_url": "https://github.com/Jaradyne/Dis-Unity/actions/runs/35980783938",
+      "operator_reflight": {
+        "authorized_at": "2026-09-24T09:22:00Z",
+        "authorized_by": "Jared",
+        "reason": "Explicit post-audit reflight after Question reflection/source-fit and inline zero-cost receipt changes"
+      },
+      "post_reserved": 1,
+      "question_id": "Q-RESEARCH-Q01",
+      "recovery_from": null,
+      "run_id": "gh-35980783938-2",
+      "scout_reflections": [
+        "REFL-9B1972063CA49FCDDEF05552"
+      ],
+      "slot": "20260924-AM",
+      "sources": "operations/week-one/runs/gh-35980783938-2/sources.json",
+      "started_at": "2026-09-24T09:23:00.589368+00:00",
+      "status": "prepared"
     }
   },
-  "version": 1,
-  "operator_reflight": {
-    "authorized_by": "Jared",
-    "reason": "Explicit post-audit reflight after Question reflection/source-fit and inline zero-cost receipt changes",
-    "authorized_at": "2026-09-24T09:22:00Z",
-    "remaining": 1
-  }
+  "version": 1
 }
