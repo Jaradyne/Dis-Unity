@@ -1,11 +1,7 @@
 {
-  "brake": {
-    "at": "2026-09-24T09:16:50.806369+00:00",
-    "reason": "Generation receipt does not establish the pinned zero-cost route",
-    "run_id": "gh-35980155892-2"
-  },
+  "brake": null,
   "closed": false,
-  "cooldown_until": "2026-09-24T21:16:49.137976+00:00",
+  "cooldown_until": null,
   "runs": {
     "gh-35971438628-1": {
       "attempt_id": "ATT-400018C15B8047E184B972B9BB95D02F",
@@ -114,5 +110,11 @@
       "status": "complete"
     }
   },
-  "version": 1
+  "version": 1,
+  "operator_reflight": {
+    "authorized_by": "Jared",
+    "reason": "Explicit post-audit reflight after Question reflection/source-fit and inline zero-cost receipt changes",
+    "authorized_at": "2026-09-24T09:22:00Z",
+    "remaining": 1
+  }
 }
