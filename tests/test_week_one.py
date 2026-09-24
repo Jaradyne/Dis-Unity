@@ -42,16 +42,16 @@ class ProviderTests(unittest.TestCase):
     def catalog(self):
         return {'data': {'id': fp.MODEL, 'endpoints': [{'model_id': fp.MODEL, 'provider_name': 'Nvidia', 'tag': 'nvidia', 'status': 0, 'pricing': {'prompt': '0', 'completion': '0', 'discount': 0}}]}}
 
-    def test_price_identity_and_upstream_preflight(self):
+    def test_price_identity_and_inference_key_preflight(self):
         fp.verify_catalog(self.catalog())
         for field, value in [('model_id', 'unapproved'), ('provider_name', 'Groq'), ('pricing', {'prompt': '0', 'completion': '0.001'})]:
             obj = self.catalog(); obj['data']['endpoints'][0][field] = value
             with self.assertRaises(fp.ProviderFailure): fp.verify_catalog(obj)
         obj = self.catalog(); obj['data']['id'] = 'wrong'
         with self.assertRaises(fp.ProviderFailure): fp.verify_catalog(obj)
-        fp.verify_no_byok({'data': [], 'total_count': 0})
-        for obj in [{'data': [{'disabled': False}], 'total_count': 1}, {'data': [], 'total_count': 1}, {'data': []}]:
-            with self.assertRaises(fp.ProviderFailure): fp.verify_no_byok(obj)
+        fp.verify_inference_key({'data': {'is_management_key': False}})
+        for obj in [{'data': {'is_management_key': True}}, {'data': None}, {}]:
+            with self.assertRaises(fp.ProviderFailure): fp.verify_inference_key(obj)
 
     def test_receipt_binds_generation_and_cost(self):
         response = {'id': 'gen-one'}
@@ -61,11 +61,12 @@ class ProviderTests(unittest.TestCase):
             altered = deepcopy(audit); altered['data'][field] = value
             with self.assertRaises(fp.ProviderFailure): fp.verify_receipt(response, altered)
 
-    def test_no_inference_when_byok_check_fails(self):
+    def test_no_inference_when_key_preflight_fails(self):
         posts = []
         def transport(url, **kwargs):
             if url == fp.CATALOG: return self.catalog()
-            if '/byok?' in url: raise fp.ProviderFailure('auth_or_configuration_error', 'Forbidden', brake=True)
+            if url.endswith('/api/v1/key'):
+                raise fp.ProviderFailure('auth_or_configuration_error', 'Forbidden', brake=True)
             posts.append(url); return {}
         with patch.dict(os.environ, {'OPENROUTER_API_KEY': 'test-fixture'}):
             with self.assertRaises(fp.ProviderFailure): fp.call(fp.payload('public prompt'), transport)
@@ -75,7 +76,7 @@ class ProviderTests(unittest.TestCase):
         saved = []
         def transport(url, **kwargs):
             if url == fp.CATALOG: return self.catalog()
-            if '/byok?' in url: return {'data': [], 'total_count': 0}
+            if url.endswith('/api/v1/key'): return {'data': {'is_management_key': False}}
             if url == fp.ENDPOINT: return {'id': 'gen-one', 'choices': [{'finish_reason': 'stop', 'message': {'content': '{}', 'reasoning': 'must not retain'}}]}
             self.assertEqual(saved[0]['id'], 'gen-one')
             self.assertNotIn('reasoning', saved[0]['choices'][0]['message'])
