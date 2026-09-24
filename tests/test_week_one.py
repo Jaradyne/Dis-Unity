@@ -139,6 +139,23 @@ class RuntimeTests(unittest.TestCase):
         self.assertEqual(self.prepare('later', '2026-09-25T08:11:00Z')['status'], 'prepared')
         self.assertEqual(w.manifest(self.root)['runs']['later']['post_reserved'], 0)
 
+    def test_operator_recovery_counts_provider_reservations_not_scout_wakes(self):
+        self.assertEqual(self.prepare('first')['status'], 'prepared')
+        state = w.manifest(self.root)
+        state['runs']['first']['status'] = 'complete'
+        state['runs']['first']['result'] = 'auth_or_configuration_error'
+        state['runs']['first']['post_reserved'] = 1
+        state['runs']['second'] = {
+            'run_id': 'second', 'started_at': '2026-09-24T08:06:00+00:00',
+            'slot': '20260924-AM', 'status': 'deferred',
+            'result': 'operator_review_required', 'post_reserved': 0
+        }
+        w.write(self.root, w.BASE / 'run-manifest.json', state)
+        result = self.prepare('recovery', now='2026-09-24T08:07:00Z')
+        self.assertEqual(result['status'], 'prepared')
+        self.assertEqual(w.manifest(self.root)['runs']['recovery']['post_reserved'], 1)
+        self.assertEqual(self.prepare('fourth', now='2026-09-24T08:08:00Z')['status'], 'slot_attempt_limit')
+
     def test_thought_partner_mailbox_is_idempotent_and_answer_stays_staged(self):
         packet = {'question_id': 'Q-TEST', 'answer': {'summary': 'An unadmitted thought'},
                   'reflection': {'summary': 'A meaningful shared note', 'source_refs': []}}
