@@ -125,6 +125,38 @@
       "summary": "Week One has a durable finite operating window. Independent review caught stale-state overwrite and cost-route audit gaps before launch. A smaller real loop makes recovery and evidence limits visible.",
       "uncertainties": []
     },
+    "REFL-5F7D89EAEDEAF12202434C03": {
+      "actor": "Week One public scout",
+      "context": {
+        "call_id": "gh-35971974980-1-scouts",
+        "parent_call_id": "gh-35971974980-1",
+        "run_id": "gh-35971974980-1"
+      },
+      "created_at": "2026-09-24T07:52:20.148764+00:00",
+      "level": "subcall",
+      "observations": [
+        "eia-diesel: retrieved",
+        "eia-energy: retrieved",
+        "nws-ca: retrieved"
+      ],
+      "origin": "runtime_observation",
+      "questions": [],
+      "reflection_id": "REFL-5F7D89EAEDEAF12202434C03",
+      "related_reflection_ids": [],
+      "source_refs": [
+        "SRC-W1-97CA29FEC390AC98",
+        "SRC-W1-58C06D6CE3142B01",
+        "SRC-W1-3FBA3F47A07802CD",
+        "SRC-W1-FFE6A0A14DE87E65",
+        "SRC-W1-4F8CF05A57A8538A",
+        "SRC-W1-5D359E6E578E46A0"
+      ],
+      "suggestions": [],
+      "summary": "Retrieved 3/3 public surfaces; 0 new/changed selected items.",
+      "uncertainties": [
+        "Selected feeds and alerts do not measure delivery performance, stocks or caregiver capacity."
+      ]
+    },
     "REFL-9C680736D68D54DF63675371": {
       "actor": "Week One public scout",
       "context": {

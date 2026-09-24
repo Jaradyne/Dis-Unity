@@ -1,0 +1,140 @@
+{
+  "items": [
+    {
+      "access": "feed_metadata_only",
+      "fingerprint": "05d3eb0682404e0c7ed727a2578e387292c8222c9de3fb678f2fe56c0da995e4",
+      "observation_period": "unknown; inspect the linked source",
+      "publication_date_raw": "Tue, 22 Sep 2026 09:29:04 EST",
+      "retrieved_at": "2026-09-24T07:52:19.735457+00:00",
+      "sensor_id": "eia-diesel",
+      "source_id": "SRC-W1-97CA29FEC390AC98",
+      "source_item_id": "http://www.eia.gov/petroleum/gasdiesel/",
+      "status": "unreviewed_lead",
+      "title": "Data For 09/21/26",
+      "updated_date_raw": null,
+      "url": "http://www.eia.gov/petroleum/gasdiesel/"
+    },
+    {
+      "access": "feed_metadata_only",
+      "fingerprint": "182998f5bf832e093af9cc91409e41c89eafe9b721f576add44e983885871fd6",
+      "observation_period": "unknown; inspect the linked source",
+      "publication_date_raw": "Tue, 22 Sep 2026  09:00:00 EST",
+      "retrieved_at": "2026-09-24T07:52:19.882685+00:00",
+      "sensor_id": "eia-energy",
+      "source_id": "SRC-W1-58C06D6CE3142B01",
+      "source_item_id": "https://www.eia.gov/todayinenergy/detail.php?id=68184",
+      "status": "unreviewed_lead",
+      "title": "Public companies produce most U.S. crude oil and natural gas",
+      "updated_date_raw": null,
+      "url": "https://www.eia.gov/todayinenergy/detail.php?id=68184"
+    },
+    {
+      "access": "feed_metadata_only",
+      "fingerprint": "931dfe95f21bfa449b7ba313c2fb52a50813cffabf1d29611a928fa6eca6b93f",
+      "observation_period": "unknown; inspect the linked source",
+      "publication_date_raw": "Fri, 18 Sep 2026  09:00:00 EST",
+      "retrieved_at": "2026-09-24T07:52:19.882685+00:00",
+      "sensor_id": "eia-energy",
+      "source_id": "SRC-W1-3FBA3F47A07802CD",
+      "source_item_id": "https://www.eia.gov/todayinenergy/detail.php?id=68164",
+      "status": "unreviewed_lead",
+      "title": "What goes into diesel prices?",
+      "updated_date_raw": null,
+      "url": "https://www.eia.gov/todayinenergy/detail.php?id=68164"
+    },
+    {
+      "access": "feed_metadata_only",
+      "fingerprint": "fa9d7553c8db1a2e22f99d24ffde63258182c35710a190e34b25f3ce3d5e7349",
+      "observation_period": "unknown; inspect the linked source",
+      "publication_date_raw": "Tue, 15 Sep 2026  09:00:00 EST",
+      "retrieved_at": "2026-09-24T07:52:19.882685+00:00",
+      "sensor_id": "eia-energy",
+      "source_id": "SRC-W1-FFE6A0A14DE87E65",
+      "source_item_id": "https://www.eia.gov/todayinenergy/detail.php?id=68144",
+      "status": "unreviewed_lead",
+      "title": "Corpus Christi LNG expansion makes facility the second-largest in the United States",
+      "updated_date_raw": null,
+      "url": "https://www.eia.gov/todayinenergy/detail.php?id=68144"
+    },
+    {
+      "access": "feed_metadata_only",
+      "fingerprint": "a13a4cf7199ec1b6fde8bce91f9be291316d7a4525ad0d6e5e307f6529b4ac89",
+      "observation_period": "unknown; inspect the linked source",
+      "publication_date_raw": "Thu, 10 Sep 2026  09:00:00 EST",
+      "retrieved_at": "2026-09-24T07:52:19.882685+00:00",
+      "sensor_id": "eia-energy",
+      "source_id": "SRC-W1-4F8CF05A57A8538A",
+      "source_item_id": "https://www.eia.gov/todayinenergy/detail.php?id=68125",
+      "status": "unreviewed_lead",
+      "title": "United States on track for record crude oil production in 2026",
+      "updated_date_raw": null,
+      "url": "https://www.eia.gov/todayinenergy/detail.php?id=68125"
+    },
+    {
+      "access": "official_alert_excerpt",
+      "areaDesc": "Modoc County Except for the Surprise Valley",
+      "certainty": "Likely",
+      "classification": "FACT about the issued alert; hazard is conditional",
+      "description": "* IMPACTS...Any fires that develop will likely spread rapidly.\n\n* AFFECTED AREA...In CAZ285...Fire weather zone 285.\n\n* WIND...Southwest 12 to 20 mph with gusts of 30 to 35 mph.\n\n* HUMIDITY...Daytime humidities of 11 to 15 percent.\n\n* DETAILED URL...View the hazard area in detail at\nhttps://weather.gov/wrh/hazards?wfo=mfr",
+      "effective": "2026-09-23T23:00:00-07:00",
+      "ends": "2026-09-24T20:00:00-07:00",
+      "event": "Red Flag Warning",
+      "expires": "2026-09-24T11:00:00-07:00",
+      "headline": "Red Flag Warning issued September 23 at 11:00PM PDT until September 24 at 8:00PM PDT by NWS Medford OR",
+      "id": "urn:oid:2.49.0.1.840.0.d59de53616ff9253e452f0be6740fe8662f11f3b.001.1",
+      "onset": "2026-09-24T14:00:00-07:00",
+      "retrieved_at": "2026-09-24T07:52:19.982707+00:00",
+      "sensor_id": "nws-ca",
+      "sent": "2026-09-23T23:00:00-07:00",
+      "severity": "Severe",
+      "source_id": "SRC-W1-5D359E6E578E46A0",
+      "title": "Red Flag Warning issued September 23 at 11:00PM PDT until September 24 at 8:00PM PDT by NWS Medford OR",
+      "urgency": "Expected",
+      "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d59de53616ff9253e452f0be6740fe8662f11f3b.001.1"
+    }
+  ],
+  "new_or_changed_ids": [],
+  "retrieved_at": "2026-09-24T07:52:20.146028+00:00",
+  "sensors": [
+    {
+      "body_sha256": "6410a425310044475bb852d78af56f1a643cdf4153d26c12d131eb9f150a6cd3",
+      "retrieved_at": "2026-09-24T07:52:19.735457+00:00",
+      "selected_source_ids": [
+        "SRC-W1-97CA29FEC390AC98"
+      ],
+      "selection": "First four feed entries; metadata only",
+      "sensor_id": "eia-diesel",
+      "status": "retrieved",
+      "total_items": 1,
+      "url": "https://www.eia.gov/petroleum/gasdiesel/includes/gas_diesel_rss.xml"
+    },
+    {
+      "body_sha256": "7d5a30ebbea33eefa8085f4d12fa396ff66a78da6806166faab662d4a5d3fba1",
+      "retrieved_at": "2026-09-24T07:52:19.882685+00:00",
+      "selected_source_ids": [
+        "SRC-W1-58C06D6CE3142B01",
+        "SRC-W1-3FBA3F47A07802CD",
+        "SRC-W1-FFE6A0A14DE87E65",
+        "SRC-W1-4F8CF05A57A8538A"
+      ],
+      "selection": "First four feed entries; metadata only",
+      "sensor_id": "eia-energy",
+      "status": "retrieved",
+      "total_items": 18,
+      "url": "https://www.eia.gov/rss/todayinenergy.xml"
+    },
+    {
+      "body_sha256": "2f5fc34f0964c7ad3fea640bba9b06604263314434c284c84bd9325153a3138c",
+      "retrieved_at": "2026-09-24T07:52:19.982707+00:00",
+      "selected_source_ids": [
+        "SRC-W1-5D359E6E578E46A0"
+      ],
+      "selection": "Up to 12 active alerts in source order; not a statewide risk census",
+      "sensor_id": "nws-ca",
+      "status": "retrieved",
+      "total_items": 1,
+      "updated": "2026-09-24T07:43:29+00:00",
+      "url": "https://api.weather.gov/alerts/active?area=CA"
+    }
+  ]
+}
