@@ -212,6 +212,41 @@
       "summary": "Provider attempt recorded: audit_pending",
       "uncertainties": []
     },
+    "REFL-5A4DEEE4477155CB503D988F": {
+      "actor": "Week One public scout",
+      "context": {
+        "call_id": "gh-36048555357-1-scouts",
+        "parent_call_id": "gh-36048555357-1",
+        "run_id": "gh-36048555357-1"
+      },
+      "created_at": "2026-09-24T19:30:07.106633+00:00",
+      "level": "subcall",
+      "observations": [
+        "eia-diesel: retrieved",
+        "eia-energy: retrieved",
+        "nws-ca: retrieved"
+      ],
+      "origin": "runtime_observation",
+      "questions": [],
+      "reflection_id": "REFL-5A4DEEE4477155CB503D988F",
+      "related_reflection_ids": [],
+      "source_refs": [
+        "SRC-W1-97CA29FEC390AC98",
+        "SRC-W1-58C06D6CE3142B01",
+        "SRC-W1-3FBA3F47A07802CD",
+        "SRC-W1-FFE6A0A14DE87E65",
+        "SRC-W1-4F8CF05A57A8538A",
+        "SRC-W1-4483B5053CB35225",
+        "SRC-W1-318BA11C6B075EB6",
+        "SRC-W1-D0B030F744CD223E",
+        "SRC-W1-12AAB1539EC26CAB"
+      ],
+      "suggestions": [],
+      "summary": "Retrieved 3/3 public surfaces; 4 new/changed selected items.",
+      "uncertainties": [
+        "Selected feeds and alerts do not measure delivery performance, stocks or caregiver capacity."
+      ]
+    },
     "REFL-5DE545740373F870F8C9F78E": {
       "actor": "Work Aiden",
       "context": {},
