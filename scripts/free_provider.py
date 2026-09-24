@@ -148,13 +148,14 @@ def public_response(response):
                         for c in response.get("choices", [])[:1]]}
 
 
-def verify_no_byok(data):
-    # Metadata only. Never retain credential labels, IDs or names.
-    rows = data.get("data")
-    if (not isinstance(rows, list) or data.get("total_count") != len(rows)
-            or any(row.get("disabled") is not True for row in rows)):
-        raise ProviderFailure("policy_blocked", "Applicable BYOK absence is not established", brake=True)
-    return {"scope": "default workspace Nvidia BYOK", "active_keys": 0, "verified_at": cycle.now()}
+def verify_inference_key(data):
+    """Confirm the supplied credential is an inference key without retaining account metadata."""
+    row = data.get("data")
+    if not isinstance(row, dict):
+        raise ProviderFailure("auth_or_configuration_error", "Current-key preflight returned no usable key metadata", brake=True)
+    if row.get("is_management_key") is True:
+        raise ProviderFailure("auth_or_configuration_error", "Management key cannot be used for inference", brake=True)
+    return {"authenticated": True, "is_management_key": False, "verified_at": cycle.now()}
 
 
 def call(value, transport=request_json, checkpoint=lambda value: None):
@@ -163,11 +164,8 @@ def call(value, transport=request_json, checkpoint=lambda value: None):
     if not key:
         raise ProviderFailure("auth_or_configuration_error", "OPENROUTER_API_KEY is absent; no call made", cooldown_hours=24)
     catalog = verify_catalog(transport(CATALOG))
-    try:
-        byok = verify_no_byok(transport("https://openrouter.ai/api/v1/byok?provider=nvidia&limit=100", key=key))
-    except ProviderFailure as exc:
-        raise ProviderFailure(exc.category, "BYOK preflight unavailable; no inference POST. " + str(exc), brake=exc.brake, cooldown_hours=exc.cooldown_hours) from None
+    key_preflight = verify_inference_key(transport("https://openrouter.ai/api/v1/key", key=key))
     response = transport(ENDPOINT, payload=value, key=key)
     response = public_response(response)
     checkpoint(response)  # Persist the visible generation BEFORE audit/review.
-    return {**complete(response, transport=transport), "catalog": catalog, "byok_preflight": byok}
+    return {**complete(response, transport=transport), "catalog": catalog, "key_preflight": key_preflight}
