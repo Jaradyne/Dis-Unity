@@ -3,6 +3,7 @@
 from decimal import Decimal, InvalidOperation
 import json
 import os
+import re
 import socket
 import urllib.error
 import urllib.parse
@@ -97,10 +98,19 @@ def validate_payload(value):
 
 def verify_receipt(response, audit):
     data = audit.get("data", {})
-    if (data.get("id") != response.get("id") or str(data.get("provider_name", "")).casefold() != "nvidia"
-            or data.get("is_byok") is not False or not zero(data.get("total_cost"))
-            or data.get("model") not in {MODEL, "nvidia/nemotron-3-super-120b-a12b"}):
-        raise ProviderFailure("policy_blocked", "Generation receipt does not establish the pinned zero-cost route", brake=True)
+    served_model = str(data.get("model", ""))
+    model_ok = bool(re.fullmatch(r"nvidia/nemotron-3-super-120b-a12b(?:-\\d{8})?(?::free)?", served_model))
+    checks = {
+        "id_match": data.get("id") == response.get("id"),
+        "provider_nvidia": str(data.get("provider_name", "")).casefold() == "nvidia",
+        "non_byok": data.get("is_byok") is False,
+        "zero_cost": zero(data.get("total_cost")),
+        "model_family": model_ok,
+    }
+    if not all(checks.values()):
+        safe = {**checks, "provider_name": data.get("provider_name"), "model": served_model,
+                "total_cost": data.get("total_cost"), "is_byok": data.get("is_byok")}
+        raise ProviderFailure("policy_blocked", "Generation receipt mismatch: " + json.dumps(safe, sort_keys=True), brake=True)
     metadata = response.get("openrouter_metadata", {})
     attempts = metadata.get("attempts", [])
     requested = metadata.get("requested")
@@ -114,7 +124,7 @@ def verify_receipt(response, audit):
 
 
 def complete(response, *, transport=request_json):
-    """Audit and parse an already saved generation without making another POST."""
+    """Audit/recover an already saved generation without making another inference POST."""
     key = os.environ.get("OPENROUTER_API_KEY")
     if not key:
         raise ProviderFailure("auth_or_configuration_error", "Audit key is absent", cooldown_hours=24)
@@ -128,15 +138,23 @@ def complete(response, *, transport=request_json):
             raise ProviderFailure("audit_pending", "Saved generation awaits its audit; recover this receipt without another POST", cooldown_hours=12) from None
         raise
     receipt = verify_receipt(response, audit)
-    try:
-        choice = response["choices"][0]
-        if choice.get("finish_reason") != "stop":
-            raise ValueError("Incomplete response")
-        result = json.loads(choice["message"]["content"])
-        if not isinstance(result, dict):
-            raise ValueError("Object required")
-    except (KeyError, TypeError, ValueError, IndexError):
-        raise ProviderFailure("invalid_response", "Provider output is not one complete JSON object") from None
+    if response.get("choices"):
+        result = parse_result(response)
+    else:
+        try:
+            content = transport("https://openrouter.ai/api/v1/generation/content?id="
+                                + urllib.parse.quote(generation_id, safe=""), key=key)
+            completion = content["data"]["output"]["completion"]
+            result = json.loads(completion)
+            if not isinstance(result, dict):
+                raise ValueError("Object required")
+        except ProviderFailure as exc:
+            if not exc.brake:
+                raise ProviderFailure("audit_pending", "Generation exists but stored completion is not ready; recover by ID without another POST",
+                                      cooldown_hours=12) from None
+            raise
+        except (KeyError, TypeError, ValueError):
+            raise ProviderFailure("invalid_response", "Stored generation content is not one complete JSON object") from None
     return {"result": result, "receipt": receipt}
 
 
@@ -203,7 +221,13 @@ def call(value, transport=request_json, checkpoint=lambda value: None):
     key_preflight = verify_inference_key(transport("https://openrouter.ai/api/v1/key", key=key))
     response = transport(ENDPOINT, payload=value, key=key)
     response = public_response(response)
-    checkpoint(response)  # Persist the visible generation BEFORE zero-cost verification/review.
-    receipt = verify_inline_receipt(response)
-    return {"result": parse_result(response), "receipt": receipt,
+    checkpoint(response)  # Persist the visible generation ID/body BEFORE verification/review.
+    usage = response.get("usage", {})
+    if (isinstance(usage, dict) and "cost" in usage and "is_byok" in usage and response.get("choices")):
+        receipt = verify_inline_receipt(response)
+        result = parse_result(response)
+    else:
+        recovered = complete(response, transport=transport)
+        receipt, result = recovered["receipt"], recovered["result"]
+    return {"result": result, "receipt": receipt,
             "catalog": catalog, "key_preflight": key_preflight}
