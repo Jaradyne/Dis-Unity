@@ -416,6 +416,38 @@
         "A missing middle can be caused by source selection, platform norms, translation practice or true polarization."
       ]
     },
+    "REFL-EFF5FA6BF86EF4CF07ABC2C1": {
+      "actor": "Week One public scout",
+      "context": {
+        "call_id": "gh-35980155892-2-scouts",
+        "parent_call_id": "gh-35980155892-2",
+        "run_id": "gh-35980155892-2"
+      },
+      "created_at": "2026-09-24T09:16:47.295366+00:00",
+      "level": "subcall",
+      "observations": [
+        "eia-diesel: retrieved",
+        "eia-energy: retrieved",
+        "nws-ca: retrieved"
+      ],
+      "origin": "runtime_observation",
+      "questions": [],
+      "reflection_id": "REFL-EFF5FA6BF86EF4CF07ABC2C1",
+      "related_reflection_ids": [],
+      "source_refs": [
+        "SRC-W1-97CA29FEC390AC98",
+        "SRC-W1-58C06D6CE3142B01",
+        "SRC-W1-3FBA3F47A07802CD",
+        "SRC-W1-FFE6A0A14DE87E65",
+        "SRC-W1-4F8CF05A57A8538A",
+        "SRC-W1-5D359E6E578E46A0"
+      ],
+      "suggestions": [],
+      "summary": "Retrieved 3/3 public surfaces; 0 new/changed selected items.",
+      "uncertainties": [
+        "Selected feeds and alerts do not measure delivery performance, stocks or caregiver capacity."
+      ]
+    },
     "REFL-F12166973B023E33556128F0": {
       "actor": "Week One public scout",
       "context": {
