@@ -63,3 +63,24 @@ Do not surface every anomaly.
 
 The ecology should be capable of saying:
 > "I found 38 tiny wording differences. Thirty-five look routine. Here are the three I cannot comfortably dismiss, plus one boring control example."
+
+
+## Current display level
+
+**Keep the present level of detail as the default "Show Jared" level for now.**
+
+The user expects this to evolve through use. Do not overfit a permanent summary depth in advance. Learn context gradually from what he opens, mutes, asks about and discusses.
+
+A Sample should generally be short enough to inspect quickly but rich enough to contain the counter-reading/noise explanation.
+
+## Secret messages / delight
+
+Meaning Tower and other human-facing interfaces may occasionally hide **benign secret messages, cute images or small discoveries** as delight/easter eggs.
+
+Rules:
+- never hide safety-critical information;
+- never use hidden content to manipulate a decision;
+- easter eggs are optional rewards/play, not evidence;
+- preserve accessibility so important information does not require finding them.
+
+"Secret message" is a playful interface mechanic, not a covert communication channel.
