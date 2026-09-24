@@ -362,17 +362,21 @@ def prepare(root, rid, *, now=None, fetcher=source_fetch):
                       r.get('audit_tries', 1) < 2 and
                       (root / run_path(r['run_id'], 'provider-response.json')).exists()), None)
     same_slot = [r for r in state['runs'].values() if r.get('slot') == slot]
+    operator = state.get('operator_reflight') or {}
+    operator_extra = bool(operator.get('remaining', 0) > 0)
+    slot_units = 0
     if not recovered:
-        if any(r['status'] == 'complete' and r.get('result') == 'partial_answer' for r in same_slot):
+        if any(r['status'] == 'complete' and r.get('result') == 'partial_answer' for r in same_slot) and not operator_extra:
             return {'status': 'slot_already_completed', 'run_id': rid}
         # Count provider reservations plus an in-flight saved-generation recovery, but not
-        # read-only sensing/deferred wakes.
+        # read-only sensing/deferred wakes. A one-time explicit operator reflight may exceed
+        # the ordinary slot bound but never the daily provider-post budget.
         slot_units = sum(
             int(r.get('post_reserved', 0) or 0)
-            + (1 if not r.get('post_reserved') and r.get('recovery_from') else 0)
+            + (1 if not r.get('post_reserved') and r.get('status') == 'prepared' and r.get('recovery_from') else 0)
             for r in same_slot
         )
-        if slot_units >= 2:
+        if slot_units >= 2 and not operator_extra:
             return {'status': 'slot_attempt_limit', 'run_id': rid}
         daily = sum(r.get('post_reserved', 0) for r in state['runs'].values()
                     if r['started_at'][:10] == stamp.date().isoformat())
@@ -433,6 +437,14 @@ def prepare(root, rid, *, now=None, fetcher=source_fetch):
             rec.update(status='prepared', question_id=qid, attempt_id=attempt['attempt_id'], epoch=q['epoch'],
                        audit_tries=recovered.get('audit_tries', 0) + 1 if recovered else 1,
                        post_reserved=0 if recovered else 1, recovery_from=recovered['run_id'] if recovered else None)
+            if not recovered and operator_extra and slot_units >= 2:
+                rec['operator_reflight'] = {
+                    'authorized_by': operator.get('authorized_by', 'operator'),
+                    'reason': operator.get('reason', 'explicit bounded reflight'),
+                    'authorized_at': operator.get('authorized_at')
+                }
+                operator['remaining'] = max(0, int(operator.get('remaining', 0)) - 1)
+                state['operator_reflight'] = operator
             write(root, run_path(rid, 'request.json'), request)
     write(root, BASE / 'run-manifest.json', state)
     render(root)
