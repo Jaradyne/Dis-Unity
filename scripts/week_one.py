@@ -316,6 +316,16 @@ def recover(root, state):
     write(root, BASE / 'run-manifest.json', state)
 
 
+def id_only_saved_generation(root, rec):
+    path = root / run_path(rec['run_id'], 'provider-response.json')
+    if not path.exists():
+        return False
+    value = read(root, run_path(rec['run_id'], 'provider-response.json'), {})
+    generation_id = value.get('id')
+    return (isinstance(generation_id, str) and generation_id.startswith('gen-')
+            and not value.get('choices') and not value.get('usage'))
+
+
 def ingest_thought_partners(root):
     """Admit bounded shareable notes/decisions, never code, policy or canonical answers."""
     records = []
@@ -358,8 +368,10 @@ def prepare(root, rid, *, now=None, fetcher=source_fetch):
     # A saved generation is recovery work, not a new provider reservation. Discover it
     # before slot-budget checks so an audit can finish even after that slot used its POSTs.
     recovered = next((r for r in reversed(list(state['runs'].values()))
-                      if r['status'] in {'interrupted', 'audit_pending'} and not r.get('recovered_by') and
-                      r.get('audit_tries', 1) < 2 and
+                      if not r.get('recovered_by') and r.get('audit_tries', 1) < 2 and
+                      (r['status'] in {'interrupted', 'audit_pending'}
+                       or (r['status'] == 'complete' and r.get('result') == 'policy_blocked'
+                           and id_only_saved_generation(root, r))) and
                       (root / run_path(r['run_id'], 'provider-response.json')).exists()), None)
     same_slot = [r for r in state['runs'].values() if r.get('slot') == slot]
     operator = state.get('operator_reflight') or {}

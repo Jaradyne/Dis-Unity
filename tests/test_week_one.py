@@ -63,9 +63,30 @@ class ProviderTests(unittest.TestCase):
         response = {'id': 'gen-one'}
         audit = {'data': {'id': 'gen-one', 'model': fp.MODEL, 'provider_name': 'Nvidia', 'total_cost': 0, 'is_byok': False}}
         fp.verify_receipt(response, audit)
+        versioned = deepcopy(audit); versioned['data']['model'] = 'nvidia/nemotron-3-super-120b-a12b-20230311'
+        fp.verify_receipt(response, versioned)
         for field, value in [('id', 'gen-other'), ('total_cost', 0.01), ('provider_name', 'Groq'), ('is_byok', True), ('model', 'wrong')]:
             altered = deepcopy(audit); altered['data'][field] = value
             with self.assertRaises(fp.ProviderFailure): fp.verify_receipt(response, altered)
+
+    def test_id_only_generation_recovers_by_get_without_second_post(self):
+        calls = []
+        def transport(url, **kwargs):
+            calls.append((url, kwargs.get('payload') is not None))
+            if url == fp.CATALOG: return self.catalog()
+            if url.endswith('/api/v1/key'): return {'data': {'is_management_key': False}}
+            if url == fp.ENDPOINT: return {'id': 'gen-one'}
+            if '/api/v1/generation/content?' in url:
+                return {'data': {'output': {'completion': '{"ok": true}'}}}
+            if '/api/v1/generation?' in url:
+                return {'data': {'id': 'gen-one', 'model': 'nvidia/nemotron-3-super-120b-a12b-20230311',
+                                 'provider_name': 'Nvidia', 'total_cost': 0, 'is_byok': False}}
+            raise AssertionError(url)
+        with patch.dict(os.environ, {'OPENROUTER_API_KEY': 'test-fixture'}):
+            value = fp.call(fp.payload('public prompt'), transport)
+        self.assertEqual(value['result'], {'ok': True})
+        self.assertEqual(value['receipt']['total_cost'], 0)
+        self.assertEqual(sum(1 for url, is_post in calls if url == fp.ENDPOINT and is_post), 1)
 
     def test_no_inference_when_key_preflight_fails(self):
         posts = []
@@ -157,6 +178,22 @@ class RuntimeTests(unittest.TestCase):
         self.assertIn('recovery_from', req)
         self.assertEqual(w.read(self.root, w.run_path('recovery', 'provider-response.json'))['id'], 'gen-saved')
         self.assertEqual(self.prepare('third')['status'], 'slot_attempt_limit')
+
+    def test_legacy_policy_blocked_id_only_envelope_is_read_only_recoverable(self):
+        self.prepare('first')
+        state = w.manifest(self.root)
+        first = state['runs']['first']
+        questions.finish_attempt(self.root, 'Q-TEST', first['attempt_id'], 'policy_blocked',
+                                 details={'reason': 'legacy inline envelope lacked fields'})
+        first.update(status='complete', result='policy_blocked', audit_tries=1)
+        w.write(self.root, w.run_path('first', 'provider-response.json'),
+                {'id': 'gen-saved', 'choices': [], 'usage': {}, 'model': None, 'openrouter_metadata': {}})
+        w.write(self.root, w.BASE / 'run-manifest.json', state)
+        result = self.prepare('recover-id-only', now='2026-09-24T08:06:00Z')
+        self.assertEqual(result['status'], 'prepared')
+        rec = w.manifest(self.root)['runs']['recover-id-only']
+        self.assertEqual(rec['post_reserved'], 0)
+        self.assertEqual(rec['recovery_from'], 'first')
 
     def test_audit_pending_recovers_without_regeneration(self):
         self.prepare()
