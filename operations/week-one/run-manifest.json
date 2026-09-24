@@ -1,7 +1,7 @@
 {
   "brake": null,
   "closed": false,
-  "cooldown_until": null,
+  "cooldown_until": "2026-09-24T21:29:08.318279+00:00",
   "operator_reflight": {
     "authorized_at": "2026-09-24T09:22:00Z",
     "authorized_by": "Jared",
@@ -161,9 +161,14 @@
       "audit_tries": 2,
       "epoch": 1,
       "execution_url": "https://github.com/Jaradyne/Dis-Unity/actions/runs/35981423237",
+      "finished_at": "2026-09-24T09:29:08.318279+00:00",
       "post_reserved": 0,
       "question_id": "Q-RESEARCH-Q01",
       "recovery_from": "gh-35980783938-2",
+      "reflection_ids": [
+        "REFL-56C2BE466F15ACC84510F748"
+      ],
+      "result": "audit_pending",
       "run_id": "gh-35981423237-2",
       "scout_reflections": [
         "REFL-1FED135A5B30673A039E50BB"
@@ -171,7 +176,7 @@
       "slot": "20260924-AM",
       "sources": "operations/week-one/runs/gh-35981423237-2/sources.json",
       "started_at": "2026-09-24T09:29:05.692346+00:00",
-      "status": "prepared"
+      "status": "audit_pending"
     }
   },
   "version": 1
