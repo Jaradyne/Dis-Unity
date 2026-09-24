@@ -77,6 +77,18 @@ Protect functions that people rely on while allowing:
 Ask not only "How do we keep this structure alive?" but:
 > **What function needs to survive, and what other form could carry it?**
 
+## Caretaker reality check
+
+A first-principles pressure-point question is:
+
+> **"Someone will take care of it" — who, exactly?**
+
+For critical functions, do not accept abstract reassurance as an operational bridge. Identify the actual caretaker, authority, activation trigger, funding/cashflow, capacity, access, response time, dependencies and backup.
+
+Plans, legal authority and good intentions are not the same thing as executable service tomorrow morning.
+
+If the assumed caretaker is absent or overloaded, look for a bounded alternative rather than only declaring failure.
+
 ## Reflection at the root
 
 Reflection is part of the architecture, not an after-action decoration.
