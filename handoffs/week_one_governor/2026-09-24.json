@@ -1,0 +1,171 @@
+{
+  "packet_version": "week-one-governor-1",
+  "packet_id": "W1-GOV-2026-09-24",
+  "created_at": "2026-09-24T07:56:04Z",
+  "base_commit": "a4fdb4e8d14b0bec152d206fa547762ad25a6393",
+  "actor": {
+    "runtime": "ChatGPT Week One Governor session",
+    "model": "unknown"
+  },
+  "question_id": "Q-RESEARCH-Q17",
+  "epoch": 1,
+  "answer": {
+    "summary": "Usable food-service days after losing a major channel remain unknown for Alameda County. ACCFB's published 2025 response demonstrates a surge mechanism, not a current stock buffer: it reports procurement increases and emergency distributions. Its 2026 agenda identifies added demand pressure, while the current help page offers a same-day referral pathway. The next useful measurement is dated accessible stock and confirmed replenishment against daily need at one distribution point.",
+    "status": "provisional",
+    "evidence_refs": [
+      "GOV-20260924-01",
+      "GOV-20260924-02",
+      "GOV-20260924-03"
+    ],
+    "counterevidence": [
+      "ACCFB reports having expanded procurement and launched pop-up distributions in 2025; lost benefits do not imply that all replacement channels fail.",
+      "A currently published referral service is evidence of an access pathway, although not evidence of fulfilled meals or spare capacity."
+    ],
+    "limitations": [
+      "Three primary pages from one organization; no independent corroboration or live service test.",
+      "Historical surge response is not September 2026 operating capacity. No stock, daily demand, current unrestricted cash, staffed throughput or confirmed incoming loads was established.",
+      "Benefit loss is household purchasing-power loss, not itself a missing food-bank shipment. Its effect on pantry demand is a plausible interacting stress, not a measured demand increment here.",
+      "No inference that fuel prices have caused missed food deliveries. Repository feed leads do not measure fulfillment.",
+      "No new canonical answer admitted; Work review pending."
+    ],
+    "conditional_link": {
+      "kind": "PLAUSIBLE MECHANISM",
+      "stress": "Loss of household food-purchasing support or a food-bank supply channel",
+      "dependent_function": "Accessible, usable meals",
+      "mechanism": "More households may seek pantry food while usable inflows or purchasing capacity fail to keep pace. Transport, staffing and access can bind before warehouse stocks run out.",
+      "confirmation": "At one named site, obtain a dated public report of usable inventory, daily household demand, confirmed arrival dates and documented shortfalls attributable to the lost channel; compare cover with replenishment lead time.",
+      "falsification": "For that site and interval, independently financed replacement arrivals plus accessible stock and staffed distribution meet demand without missed service; benefit or fuel changes alone do not activate the proposed link.",
+      "time_horizon": "Daily service and next replenishment; no run-out date calculated."
+    },
+    "resilience": {
+      "buffers": "Candidate: rotating usable staples and confirmed purchased replenishment. Actual quantities, funding and cover are unknown.",
+      "safe_shedding": "Proposal: reduce duplicated collection trips and optional handling, not meal adequacy or access for people unable to travel; avoid concentrating pickups into inaccessible windows.",
+      "adaptation_growth": "Proposal: build a small shared pickup/return-container routine, then expand only after a provider confirms supply, staffing, safe handling and receiving capacity.",
+      "lifeboat": "Published ACCFB helpline offers same-day food-provider connection during weekday business hours; actual food availability, travel access and after-hours fallback remain unverified.",
+      "outside_donor_capacity": "Unknown. Count only dated, compatible surplus after the donor's existing commitments and contingency floor, with transport and receiving staff confirmed.",
+      "commons": "Proposal: a one-page, opt-in food-access board showing last-verified opening times, next pickup, transport need and a backup provider. No beneficiary names or sensitive details; no partner or volunteer commitment is claimed."
+    },
+    "caretaker": {
+      "actor": "ACCFB publishes the referral pathway; a specific receiving provider is not yet verified.",
+      "authority": "Published service remit, not an emergency guarantee.",
+      "trigger": "A food-help request; any surge activation trigger is unknown.",
+      "cash_available_now": "unknown",
+      "service_capacity": "unknown",
+      "response_time": "Published same-day referral during listed helpline hours; actual fulfillment time unknown.",
+      "dependencies": [
+        "provider stock",
+        "staff",
+        "transport/access",
+        "safe storage",
+        "confirmed inflows"
+      ],
+      "backup": "unknown",
+      "tomorrow_test": "Can one identified site verify an accessible food handoff tomorrow, with quantity, hours, transport and a fallback if its expected load does not arrive?"
+    }
+  },
+  "source_ledger": [
+    {
+      "source_id": "GOV-20260924-01",
+      "title": "2026 Policy Agenda",
+      "publisher": "Alameda County Community Food Bank",
+      "url": "https://www.accfb.org/policy-agenda/",
+      "publication_date": "2026-05-07 (page timestamp; initial publication versus update not distinguished)",
+      "observation_date": "2026 policy agenda; forecasts and estimates rather than a September operating census",
+      "retrieval_date": "2026-09-24",
+      "access": "Full public text via web tool",
+      "access_limitations": "Advocacy source. Estimate not independently checked; budget requests are not cash received.",
+      "finding": "ACCFB estimates 20,000 county SNAP/CalFresh recipients will lose or have benefits reduced and describes pressure shifting to food banks."
+    },
+    {
+      "source_id": "GOV-20260924-02",
+      "title": "ACCFB Responds to 2025 Government Shutdown",
+      "publisher": "Alameda County Community Food Bank",
+      "url": "https://www.accfb.org/distributing-food-government-shutdown-2025/",
+      "publication_date": "2025-10-20",
+      "updated_date": "2025-11-18",
+      "observation_date": "October-November 2025",
+      "retrieval_date": "2026-09-24",
+      "access": "Full public text via web tool",
+      "access_limitations": "Historical organizational self-report; no present stock or independent fulfillment audit.",
+      "finding": "Reports nearly 75% higher procurement in October and doubling for November; pop-up pantries with county SSA served over 630 households. These are historical response observations, not current reserves."
+    },
+    {
+      "source_id": "GOV-20260924-03",
+      "title": "Get Food Today",
+      "publisher": "Alameda County Community Food Bank",
+      "url": "https://www.accfb.org/get-food/",
+      "publication_date": "unknown",
+      "updated_date": "2025-02-21 page timestamp; date semantics unspecified",
+      "observation_date": "Service statement observed on 2026-09-24; service not tested",
+      "retrieval_date": "2026-09-24",
+      "access": "Full public text via web tool",
+      "access_limitations": "Published referral promise, not real-time opening/stock confirmation; linked FoodNow service was not inspected.",
+      "finding": "Lists 510-635-3663, Monday-Friday 9 a.m.-4 p.m., multilingual assistance and same-day connection to groceries or a hot meal."
+    }
+  ],
+  "sample_for_jared": {
+    "title": "A bridge is not the same as a pantry",
+    "original": "Clearly hypothetical: a pantry holds 240 usable household food packages and needs 80 per day. With no new arrivals, stock-only cover is three days. If transport cannot reach it, accessible cover may be lower.",
+    "english_pivot": "The important question is not just 'Is there food?' but 'Can people actually receive it before the next load?'",
+    "control": "Clearly hypothetical ordinary case: confirmed replenishment arrives on day two and distribution continues normally. A larger procurement bill alone does not establish a shortage.",
+    "translation_note": "No multilingual pair was inspected in this food-cover session. Jared's language selections remain open; grammar, idiom, space, timing and translator habit remain ordinary explanations to test in a future matched comparison.",
+    "question_refs": [
+      "Q-RESEARCH-Q17"
+    ]
+  },
+  "reflection": {
+    "summary": "A demonstrated emergency response and a published access pathway are useful bridges, but neither supplies the missing denominator for days of food cover.",
+    "observations": [
+      "The 2025 response provides counterevidence to an assumption of helplessness without proving spare capacity today.",
+      "The missing measurement is usable food in reachable service, not merely an organization's existence or a larger purchasing percentage.",
+      "Three pages from one organization supply different kinds of evidence, not three independent confirmations."
+    ],
+    "suggestions": [
+      "Keep stock, throughput, referral and fulfilled service as separate fields.",
+      "Use a small capacity card at one site before enlarging the research network."
+    ],
+    "questions": [
+      "What is the smallest public operational record that could establish reachable food cover and next replenishment for one East Bay site?"
+    ],
+    "uncertainties": [
+      "Current inventory, demand, cash, transport and donor floor remain unknown."
+    ],
+    "source_refs": [
+      "https://www.accfb.org/policy-agenda/",
+      "https://www.accfb.org/distributing-food-government-shutdown-2025/",
+      "https://www.accfb.org/get-food/"
+    ]
+  },
+  "governor_response": {
+    "reflection_ids": [
+      "REFL-09597C470206F257E1F83D57",
+      "REFL-3B9FEC4AF2674E91082281DC",
+      "REFL-5F7D89EAEDEAF12202434C03",
+      "REFL-A4EE3A13D7EECFC680D8F257",
+      "REFL-EE5CFC158BA9B9D16A9E7BDB"
+    ],
+    "summary": "Explore the scouts' missing operating-capacity denominator through Q17, acknowledge unchanged feed retrieval without treating repetition as corroboration, and retain the provider brake. The food-bank comparison shows useful reflection changing the next evidence target. Rhetorical framing is separate from the service claims tested here; no silent beliefs or translation mismatch are inferred.",
+    "followups": [
+      {
+        "recipient": "Work Aiden",
+        "question": "Review this provisional Q17 packet; retain historical surge capability separately from unknown current service cover."
+      },
+      {
+        "recipient": "Chat Aiden",
+        "question": "Within a later bounded session, can one public site-level record establish usable stock, daily service demand and the next confirmed delivery without contacting anyone?"
+      }
+    ],
+    "self_reflection": "A helpful finding can be a demonstrated bridge plus a precise missing measurement. Reflection should change the next check, not inflate uncertainty into a collapse claim."
+  },
+  "operational_review": {
+    "latest_run": "https://github.com/Jaradyne/Dis-Unity/actions/runs/35971974980",
+    "workflow_status": "completed / success",
+    "research_result": "deferred / operator_review_required",
+    "provider_brake": "BYOK preflight HTTP 401; no inference POST in saved initial outcome",
+    "cooldown_until": "2026-09-24T19:46:30.329444+00:00",
+    "action": "No rerun: no failed infrastructure job; authentication/configuration brake preserved.",
+    "preceding_packets": "No staging prefix in main tree when checked; contents endpoint returned 404.",
+    "source_state": "Latest saved sources and HUMAN_NOTE read; latest saved outcome is from gh-35971438628-1. Latest deferred run has no synthesis.",
+    "window": "Active; configured end 2026-10-01T07:45:13+00:00"
+  }
+}
