@@ -246,6 +246,32 @@ def recover(root, state):
     write(root, BASE / 'run-manifest.json', state)
 
 
+def ingest_thought_partners(root):
+    """Admit bounded shareable notes/decisions, never code, policy or canonical answers."""
+    records = []
+    for path in sorted((root / 'handoffs/week_one_governor').glob('*.json'))[:16]:
+        relative = str(path.relative_to(root))
+        try:
+            if path.is_symlink() or path.stat().st_size > 40000:
+                raise ValueError('Packet exceeds import boundary')
+            value = cycle.read_json(path)
+            actor = 'ChatGPT Week One Governor task'
+            note = value['reflection']
+            ids = reflections.post(root, {**note, 'actor': actor, 'level': 'governor', 'origin': 'self_report',
+                'context': {'packet': relative, 'question_id': value['question_id']},
+                'source_refs': [relative] + note.get('source_refs', [])})
+            decision = value.get('governor_response')
+            if decision:
+                reflections.respond(root, {**decision, 'actor': actor,
+                    'review_id': 'W1-CHAT-' + cycle.digest(value)[:24], 'keep_open': True,
+                    'disposition': 'Thought-partner review and proposals'})
+            records.append({'packet': relative, 'reflection_ids': ids, 'status': 'imported'})
+        except (OSError, ValueError, KeyError, TypeError, cycle.CycleError) as exc:
+            records.append({'packet': relative, 'status': 'needs_review', 'error_type': type(exc).__name__})
+    write(root, BASE / 'thought-partner-imports.json', records)
+    return records
+
+
 def prepare(root, rid, *, now=None, fetcher=source_fetch):
     run_path(rid, 'check')
     cfg, state, stamp = catalog(root), manifest(root), clock(now)
@@ -257,6 +283,7 @@ def prepare(root, rid, *, now=None, fetcher=source_fetch):
         if reason == 'window_complete':
             close(root)
         return {'status': reason, 'run_id': rid}
+    ingest_thought_partners(root)
     slot = stamp.strftime('%Y%m%d') + ('-AM' if stamp.hour < 12 else '-PM')
     same_slot = [r for r in state['runs'].values() if r.get('slot') == slot]
     if any(r['status'] == 'complete' and r.get('result') == 'partial_answer' for r in same_slot):

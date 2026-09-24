@@ -1,0 +1,73 @@
+{
+  "actor": "Work Aiden",
+  "retrieved_on": "2026-09-24",
+  "status": "provisional operational research",
+  "sources": [
+    {
+      "source_id": "W1-WORK-EIA-PRICE-20260921",
+      "url": "https://www.eia.gov/petroleum/gasdiesel/",
+      "publication_date": "2026-09-22",
+      "observation_date": "2026-09-21",
+      "access": "official table read through public web retrieval",
+      "selected_observations": {
+        "us_diesel_usd_per_gallon": 6.529,
+        "us_weekly_change": 0.244,
+        "california_diesel_usd_per_gallon": 8.246,
+        "california_weekly_change": 0.207,
+        "taxes_included": true
+      },
+      "limitations": [
+        "Weighted retail prices, not individual fleet contracts or local physical availability",
+        "Dynamic page; dated observations retained"
+      ]
+    },
+    {
+      "source_id": "W1-WORK-EIA-CONTEXT-20260918",
+      "url": "https://www.eia.gov/todayinenergy/detail.php?id=68164",
+      "publication_date": "2026-09-18",
+      "observation_period": "January-August and week ending September 11, 2026",
+      "access": "official article read",
+      "selected_observation": "EIA describes reduced overseas refining, strong U.S. output, high net exports and below-seasonal distillate stocks.",
+      "limitations": [
+        "Older context, not a new September 24 inventory observation"
+      ]
+    },
+    {
+      "source_id": "W1-WORK-NWS-20260924",
+      "url": "https://api.weather.gov/alerts/active?area=CA",
+      "publication_date": "2026-09-23T23:00:00-07:00",
+      "observation_period": "Warning onset 2026-09-24T14:00:00-07:00; ends 20:00 local",
+      "access": "saved official alert excerpt from live hosted scout",
+      "record_ref": "week-one-state:operations/week-one/runs/gh-35971438628-1/sources.json",
+      "limitations": [
+        "Fire weather warning, not evidence of an actual fire",
+        "One regional alert, not a statewide service assessment"
+      ]
+    },
+    {
+      "source_id": "W1-WORK-DOE-SURCHARGE-20260923",
+      "url": "https://atlas.doe.gov/RateRoute/FuelSurcharge/2026CurrentFSCMatrix.pdf",
+      "publication_date": "2026-09-22 (printed date)",
+      "observation_date": "2026-09-23 effective date",
+      "access": "official PDF table and scope notes read",
+      "selected_observations": {
+        "truckload_surcharge_usd_per_mile": 0.86,
+        "prior_week": 0.81
+      },
+      "limitations": [
+        "DOE rate tender schedule only; not a universal carrier tariff",
+        "Payment timing and applicability to local organizations unverified"
+      ]
+    }
+  ],
+  "illustration": {
+    "trip_miles": 300,
+    "assumed_mpg": 6,
+    "gallons": 50,
+    "california_price": 8.246,
+    "fuel_total": 412.3,
+    "weekly_price_increment": 0.207,
+    "incremental_trip_cost": 10.35,
+    "classification": "arithmetic scenario, not measured carrier economics"
+  }
+}

@@ -138,6 +138,16 @@ class RuntimeTests(unittest.TestCase):
         self.assertEqual(self.prepare('later', '2026-09-25T08:11:00Z')['status'], 'prepared')
         self.assertEqual(w.manifest(self.root)['runs']['later']['post_reserved'], 0)
 
+    def test_thought_partner_mailbox_is_idempotent_and_answer_stays_staged(self):
+        packet = {'question_id': 'Q-TEST', 'answer': {'summary': 'An unadmitted thought'},
+                  'reflection': {'summary': 'A meaningful shared note', 'source_refs': []}}
+        w.write(self.root, Path('handoffs/week_one_governor/2026-09-24.json'), packet)
+        first = w.ingest_thought_partners(self.root)
+        second = w.ingest_thought_partners(self.root)
+        self.assertEqual(first, second)
+        self.assertEqual(len(questions.question(questions.load(self.root), 'Q-TEST')['answers']), 0)
+        self.assertEqual(len(reflections.load(self.root)['entries']), 2)
+
     def test_end_date_stops_all_reads_and_writes_digest(self):
         with patch.object(w, 'gather') as gather:
             result = self.prepare(now='2026-10-01T00:00:00Z')

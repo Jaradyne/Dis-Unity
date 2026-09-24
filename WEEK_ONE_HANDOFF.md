@@ -12,11 +12,19 @@ Configured window: **24 September 2026 07:45:13 UTC through 01 October 2026 07:4
 - [Shared Questions](https://github.com/Jaradyne/Dis-Unity/blob/week-one-state/operations/questions.json)
 - [Reflection mailbox and Governor decisions](https://github.com/Jaradyne/Dis-Unity/blob/week-one-state/operations/reflections/mailbox.json)
 
-**These files describe the installed pipeline. Actual successful executions and provider eligibility must be read from the manifest and receipts.** A launch verification note will name the first observed execution.
+**Verified launch:** [run 35971438628](https://github.com/Jaradyne/Dis-Unity/actions/runs/35971438628) completed on 24 September at 07:46 UTC. All three public sources were retrieved, yielding six selected records. Prompt, attempt and runtime reflections were committed to `week-one-state`. The workflow is active. PRs #5 and #6 are merged with ancestry preserved. CI and worker smoke checks passed. The new local integrity total is 42 tests, plus a real Git stale-write exercise.
+
+**Current provider state:** OpenRouter's BYOK management preflight returned HTTP 401. Zero inference POSTs were sent. An explicit provider brake is preserved; the API Answer Bee has not passed a live role trial. Public sensing continues. A normal inference key may lack management access, so do not label this key invalid on that evidence alone. Chat can help investigate the account-scope verification requirement through already authorized read-only settings; Work reviews an appropriate fix. Broader credentials are not a prerequisite for keeping Week One useful.
+
+**Chat Governor:** a separate enabled ChatGPT task performs one bounded review/research session each evening for seven occurrences, using the existing ChatGPT session and public search/GitHub tools. It stages one Question-linked finding, a sample, source ledger, reflection and Governor response under `main:handoffs/week_one_governor/YYYY-MM-DD.{json,md}`. The exact staging prefix is authorized for that task; it cannot edit runtime, policy, canonical research or `week-one-state`. The hosted runner imports only its shareable reflection/response into the common mailbox at the next wake. Check actual dated files before claiming a session completed. Its requested immediate first run is recorded separately in the launch verification note.
+
+[First Work research briefing](reports/week-one/2026-09-24_FIRST_REVIEW.md) follows the first feed lead through the current EIA table. It is an attributed Work review, separate from task/API outputs.
 
 ## What runs
 
-A serialized, bounded workflow reads three official public surfaces: EIA diesel RSS, EIA Today in Energy RSS, and NWS California active alerts. It retains access errors, event/publication/retrieval distinctions, source hashes and selected excerpts/metadata. An unchanged item retains its identity. A failed feed is a coverage gap.
+Current active roles: public scouts, deterministic runtime caretaker/reflection logging, and the scheduled Chat Governor thought partner. The API Answer Bee is installed and awaiting the preflight access resolution above.
+
+A serialized, bounded workflow reads three official public surfaces: EIA diesel RSS, EIA Today in Energy RSS, and NWS California active alerts. It retains access errors, event/publication/retrieval distinctions, source hashes and selected excerpts/metadata. An unchanged item retains its identity. Initial discoveries are separate from newly occurring events. A failed feed is a coverage gap.
 
 One Answer Bee uses the selected shared Question, those sources, previous summaries, root culture and a rotating portion of the reflection mailbox. Its Governor lens responds to reflections and proposes followups. This is one inference with two attributed roles, not independent peer review. Every source run leaves a runtime reflection even when inference is unavailable.
 
@@ -55,7 +63,7 @@ The run manifest links shared attempt/answer/reflection/decision IDs. Prompts ar
 2. For an interrupted infrastructure job, GitHub **Re-run failed jobs** (or **Run workflow** on main) is sufficient. It starts a new execution identity. The serialized runner finishes saved outcomes idempotently; unfinished attempts are marked interrupted and linked recovery attempts retain their original prompt. A saved generation is audited with GET, without another inference POST.
 3. Successful half-day slots are idempotent. Two attempts per slot and daily budgets limit retries. Cooldowns survive restarts. Never delete history to bypass them.
 4. `audit_pending` means verify the existing generation. `auth_or_configuration_error`, `policy_blocked`, an active `brake`, or conflicting provenance means inspect and repair the concrete cause before resuming inference. Chat may stage a fix; Work reviews/integrates. A restart does not override that boundary.
-5. A state-branch push conflict fails rather than overwriting concurrent work. Keep Chat contributions in uniquely named staging files on a separate branch/PR. The workflow is the sole operational-branch writer during a run. Do not edit Questions/mailbox concurrently there.
+5. A state-branch change since the initial load or last save fails before publication; a later push conflict also fails rather than overwriting concurrent work. Keep Chat contributions in uniquely named staging files on a separate branch/PR. The workflow is the sole operational-branch writer during a run. The scheduled Chat task writes only its separate staging prefix on main, which cannot trigger inference or change runtime authority. Do not edit Questions/mailbox concurrently there.
 6. To stop: disable **Week One Meaning Web** in Actions and set `config/week-one.json` `enabled` to false through reviewed Git. Disabling the config also blocks an already prepared provider step. The seven-day end gate is enforced independently.
 7. To extend past the configured end, get a newly authorized window and update reviewed configuration; do not reset the clock by re-running a job.
 
@@ -79,3 +87,10 @@ The latest Meaning Tower selections are preserved in `operations/week-one/meanin
 Preserved PR #6 proposals remain available for focused growth: Carrier Lifeline/backhaul, multilingual Bee, Regional AI Lab, Voice Garden and broader Meaning Tower. The operational launch uses the carrier/caretaker questions and sample contract; expand when a concrete question justifies it. Preserve root mission and reflection at every scale.
 
 The private-address open notes room remains separate. Its address must stay out of this public repository. Email proposals remain drafts unless Jared explicitly authorizes sending.
+
+
+## Governor task recovery
+
+The task is named **Week One Governor** in ChatGPT Tasks. It has seven scheduled evening occurrences (24–30 September Pacific), plus an explicitly requested immediate launch review. If a task invocation cannot publish, its response must retain the complete small packet. Chat can stage that exact packet with provenance for Work, rather than ask Jared to reconstruct it. Re-run only an incomplete session after reading its dated packet; an existing UTC-date packet makes that day's task idempotent. The import log is `week-one-state:operations/week-one/thought-partner-imports.json`.
+
+Stop the task as well as the GitHub workflow if ending early. A task after the configured end reviews closure without starting new research. No further recurring watch is authorized by this launch.
