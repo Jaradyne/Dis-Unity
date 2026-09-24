@@ -1,0 +1,9 @@
+{
+  "attempt_id": "ATT-811D87D156344129A59BA4E8C0139A35",
+  "brake": true,
+  "category": "policy_blocked",
+  "cooldown_hours": 12,
+  "finished_at": "2026-09-24T09:23:05.626575+00:00",
+  "reason": "Inline usage does not establish zero cost and non-BYOK",
+  "run_id": "gh-35980783938-2"
+}
