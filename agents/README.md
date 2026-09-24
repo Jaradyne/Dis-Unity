@@ -1,5 +1,7 @@
 # Agent definitions
 
+**24 September reflection update:** every role can contribute to [the reflection mailbox](../operations/reflections/README.md). Worker v0.3 saves reflection output alongside its checkpoint, with recoverable projection and per-call provenance. `governor.json` and `scripts/governor.py` define and prepare on-demand review; responses can invite Chat Aiden, Work Aiden, the human or other thought partners. No unattended governor is running. The open notes room is a separate, informal contribution space.
+
 **23 September operating update:** `../operations/README.md` describes shared questions and recoverable attempts. Reuse Question IDs and evidence epochs; a ticket is an escalation, not a prerequisite for asking. The Oakland mapper is now an available role definition. Public RSS/Atom scouts can operate through explicit commands without a model. Live model execution remains paused pending reconciliation of the old Gemini instruction and newer role-fit proposal; Groq is excluded. No automatic worker spawning or schedule is enabled.
 
 For work allocation and contribution boundaries, read [HANDOFF_FOR_CHAT_AIDEN.md](../HANDOFF_FOR_CHAT_AIDEN.md). Effective provider status and the pending policy decision are in [operations/README.md](../operations/README.md). Retained task material is in [GEMINI_RESEARCH_PROMPTS.md](../handoffs/deferred_prompts/GEMINI_RESEARCH_PROMPTS.md).

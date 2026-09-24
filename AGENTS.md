@@ -10,6 +10,12 @@ Question discipline: read `operations/README.md` and check shared Question IDs/e
 
 Agent roles may be instantiated by chat/Work agents, API-driven Python workers, other model providers, local models or humans. New workers should read [agents/README.md](agents/README.md) and may use [agents/AGENT_TEMPLATE.yaml](agents/AGENT_TEMPLATE.yaml). The definition describes a role and its boundaries; it does not prescribe the worker's reasoning. Python/API workers use the same inbox and cycle submission path as any other contributor.
 
+## Reflection practice
+
+Read `operations/reflections/README.md`. Every participant is invited to leave brief, shareable observations about what helped, failed, changed their mind, or could improve. Include application-level neuron/subcall provenance when available; do not claim access to hidden model reasoning. Worker v0.3 projects reflections into a separate durable mailbox. No extra model calls are required to manufacture a lesson.
+
+At the start of a governor session, read `scripts/governor.py`'s review packet or the pending mailbox. The governor decides how to respond and preserves the originals. Chat Aiden, Work Aiden, the user and other participants are welcome thought partners. Followups are recorded proposals; existing authorization governs implementation and external communication. Chat stages reflection/response packets for Work integration. An external open notes room is described in the mailbox README; keep its unadvertised address out of this public repository.
+
 ## Design compass
 
 When two otherwise reasonable implementations compete, gently prefer open over closed, modular over monolithic, recoverable over brittle, distributed knowledge over privileged knowledge, human-legible state over opaque scoring, multiple access modes over one mandatory interface, and human override over inaccessible automation. This is a tiebreaker and direction of travel, not a substitute for evidence, safety, legality, feasibility or explicit user direction.

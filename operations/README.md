@@ -1,5 +1,7 @@
 # Working questions and recoverable attempts
 
+**24 September:** [reflection mailbox](reflections/README.md), worker v0.3 reflection projection, and on-demand governor review are implemented. See [the integration record](INTEGRATION_2026-09-24.md). This adds operational learning; it does not open a research cycle or activate providers.
+
 Integrated 23 September 2026 from Chat Aiden's PR #4, head `25cee5fa5184ebdd5e3b66e4018656ed8e9e6e8f`. The original staging packet remains intact under `handoffs/chat_aiden/2026-09-22_api-commons-ticketing_4c2d/`.
 
 This is operational memory, separate from the admitted research in `Resilience_Cascade_STATE.json`. RC-004 remains closed. A runtime change or sensor retrieval is not a new empirical research cycle.

@@ -23,6 +23,7 @@ import hashlib
 
 import cycle
 import questions
+import reflections
 
 
 DEFAULT_CONTEXT = [
@@ -92,6 +93,9 @@ questions: array of open questions worth handing to the collective
 correspondence: array of messages to peers, with kind support/challenge/correction/question/handoff/synthesis when useful
 birth_requests: array of proposed child investigations, not automatically spawned; each should explain why the parent role is insufficient, what scope would be narrower, and what evidence would justify the extra worker
 limitations: array of limitations
+reflections: array of brief shareable observations about this work: what helped, what failed, a mistaken assumption, uncertainty, or something worth trying. Each may be a string or an object with summary, observations, suggestions, questions, uncertainties, and source_refs.
+
+Reflection is welcome from every participant, including the governor and each application-level subcall. A short honest note or an empty array is valid. Do not manufacture a lesson, expose private reasoning, or make extra calls just to fill this field. The runtime records missing reflection coverage honestly. The governor can develop ideas with Chat Aiden, ask Work Aiden to implement them, and invite the human or other thought partners. Suggestions are contributions, not authorization to act.
 
 Do not claim that repository context is fresh evidence merely because it is present.
 Do not invent source IDs, facts, access, or completed research.
@@ -106,6 +110,8 @@ def mock_response(role, task):
         "questions": [task] if task else [],
         "correspondence": [],
         "birth_requests": [],
+        "reflections": [{"summary": "Mock fixture: checkpoint and reflection paths can be exercised without a model call.",
+                         "uncertainties": ["This is deterministic test content, not model self-reflection or research."]}],
         "limitations": ["Mock provider performs no research or inference."],
     }
 
@@ -128,7 +134,7 @@ def build_checkpoint(role, cycle_id, provider, model, task, result):
             "kind": "python_api_worker",
             "provider": provider,
             "model": model,
-            "worker_version": "0.2",
+            "worker_version": "0.3",
             "completed_at": now(),
         },
         "coverage": role.get("beat", {}),
@@ -139,6 +145,7 @@ def build_checkpoint(role, cycle_id, provider, model, task, result):
         "correspondence": result.get("correspondence", []),
         "birth_requests": result.get("birth_requests", []),
         "limitations": result.get("limitations", []),
+        "reflections": result.get("reflections", []),
     }
 
 
@@ -177,6 +184,9 @@ def parser():
     p.add_argument("--provider", choices=["mock", "gemini"], default="mock")
     p.add_argument("--model", default=None, help="Explicit candidate ID; real providers currently paused")
     p.add_argument("--question", help="Existing shared Question ID; otherwise register task text")
+    p.add_argument("--run-id", help="Shared identifier for an application-level call tree")
+    p.add_argument("--parent-call-id", help="Recorded parent call, when this invocation is a subcall")
+    p.add_argument("--reflection-level", choices=["worker", "neuron", "subcall", "governor"], default="worker")
     p.add_argument("--context", action="append", default=[])
     p.add_argument("--max-context-chars", type=int, default=90000)
     p.add_argument("--timeout", type=int, default=120)
@@ -220,13 +230,15 @@ def main():
                              capture_output=True, check=False)
         model = "deterministic-mock" if args.provider == "mock" else args.model or "unselected"
         attempt = questions.begin_attempt(root, qid, lease["token"], {
-            "actor": role["id"], "runtime": "python_worker_0.2", "provider": args.provider,
+            "actor": role["id"], "runtime": "python_worker_0.3", "provider": args.provider,
             "model": model, "role": role, "role_sha256": cycle.digest(role),
             "prompt": prompt, "context_refs": context_paths,
             "context_sha256": hashlib.sha256(context.encode("utf-8")).hexdigest(),
             "base_commit": git.stdout.strip() if git.returncode == 0 else "unknown",
             "evidence_cutoff": cycle.read_json(root / cycle.CANONICAL).get("meta", {}).get("research_cutoff"),
             "settings": {"timeout_seconds": args.timeout, "response_format": "json"},
+            "call_context": {"run_id": args.run_id, "parent_call_id": args.parent_call_id,
+                             "reflection_level": args.reflection_level},
         })
         aid = attempt["attempt_id"]
         if args.provider == "mock":
@@ -239,14 +251,24 @@ def main():
             outcome = "policy_blocked"
         checkpoint = build_checkpoint(role, args.cycle, args.provider, model, task, result)
         checkpoint.update(question_id=qid, attempt_id=aid, attempt_result=outcome)
+        checkpoint.update(run_id=args.run_id or aid, parent_call_id=args.parent_call_id,
+                          reflection_level=args.reflection_level)
         output = (args.output or root / "operations" / "checkpoints" / f"{aid}.json").resolve()
         if root in output.parents and output.relative_to(root).parts[0] != "operations":
             raise WorkerError("Repository checkpoints must stay under operations/; closed cycles are protected")
         # Save the complete result to shared memory even if later checkpoint export fails.
         questions.finish_attempt(root, qid, aid, outcome, details={"checkpoint": checkpoint})
+        # Projection is separate from research completion and can be replayed from
+        # the durable attempt if interrupted or temporarily unable to write.
+        try:
+            reflection_status = {"status": "recorded", "ids": reflections.from_checkpoint(root, checkpoint)}
+        except (cycle.CycleError, OSError, ValueError, KeyError, TypeError) as exc:
+            reflection_status = {"status": "pending_projection", "reason": str(exc),
+                                 "recovery": {"question_id": qid, "attempt_id": aid}}
         write_checkpoint(output, checkpoint)
         response = {"status": "checkpoint_written" if outcome == "mock_only" else "deferred_policy",
-                    "path": str(output), "question_id": qid, "attempt_id": aid}
+                    "path": str(output), "question_id": qid, "attempt_id": aid,
+                    "reflection_mailbox": reflection_status}
         if args.submit:
             if outcome != "mock_only":
                 raise WorkerError("Deferred provider requests cannot be submitted as research")

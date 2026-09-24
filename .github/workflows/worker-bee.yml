@@ -5,17 +5,23 @@ on:
     paths:
       - "scripts/worker.py"
       - "scripts/questions.py"
+      - "scripts/reflections.py"
+      - "scripts/governor.py"
       - "config/providers.json"
       - "agents/**"
       - "tests/test_worker.py"
+      - "tests/test_reflections.py"
       - ".github/workflows/worker-bee.yml"
   pull_request:
     paths:
       - "scripts/worker.py"
       - "scripts/questions.py"
+      - "scripts/reflections.py"
+      - "scripts/governor.py"
       - "config/providers.json"
       - "agents/**"
       - "tests/test_worker.py"
+      - "tests/test_reflections.py"
       - ".github/workflows/worker-bee.yml"
   workflow_dispatch:
     inputs:
@@ -49,7 +55,7 @@ jobs:
         with:
           python-version: "3.12"
       - name: Run worker tests
-        run: python -m unittest tests.test_worker -v
+        run: python -m unittest tests.test_worker tests.test_reflections -v
       - name: Run worker
         shell: bash
         env:
@@ -70,6 +76,9 @@ jobs:
         run: |
           mkdir -p "$RUNNER_TEMP/worker-bee"
           cp operations/questions.json "$RUNNER_TEMP/worker-bee/questions.json"
+          if [ -f operations/reflections/mailbox.json ]; then
+            cp operations/reflections/mailbox.json "$RUNNER_TEMP/worker-bee/reflections.json"
+          fi
       - name: Upload recoverable worker records
         if: always()
         uses: actions/upload-artifact@v4

@@ -1,6 +1,6 @@
 # Dis-Unity declarative agent template
 # Copy and adapt this file for a role. Unknown fields may be ignored by older runtimes.
-schema_version: "0.2"
+schema_version: "0.3"
 
 id: example_agent
 display_name: Example Agent
@@ -94,6 +94,18 @@ birth_policy:
     do_not_infer_protected_traits_from_proxies: true
     child_of_child_consumes_shared_budget: true
 
+reflection:
+  practice: "Brief shareable observations, questions and lessons are welcome at every level."
+  mailbox: operations/reflections/mailbox.json
+  post_via: scripts/reflections.py
+  same_response_as_work: true
+  extra_model_call_required: false
+  include_call_and_parent_references_when_available: true
+  preserve_originals: true
+  governor_chooses_response: true
+  thought_partners: [Chat_Aiden, Work_Aiden, human, other_contributors]
+  note: "Application subcalls can be instrumented. Hidden model reasoning and internal neurons are not accessible."
+
 continuity:
   checkpoint_immediately_on_start: true
   checkpoint_after_material_findings: true
@@ -142,6 +154,7 @@ outputs:
     - unresolved_questions
     - relevant_peer_references
     - proposed_birth_requests
+    - reflections
 
 integration:
   coordinator_is_canonical_writer: true
