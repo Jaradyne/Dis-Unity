@@ -83,6 +83,7 @@ def payload(prompt):
             "stream": False, "max_tokens": 6000, "temperature": 0.2,
             "reasoning": {"effort": "low", "exclude": True},
             "response_format": {"type": "json_object"},
+            "usage": {"include": True},
             "provider": {"only": ["nvidia"], "order": ["nvidia"], "ignore": ["groq"],
                          "allow_fallbacks": False, "require_parameters": True,
                          "max_price": {"prompt": 0, "completion": 0, "request": 0, "image": 0}}}
@@ -140,12 +141,47 @@ def complete(response, *, transport=request_json):
 
 
 def public_response(response):
-    """Keep the visible answer and receipt fields; exclude hidden reasoning."""
+    """Keep the visible answer and zero-cost receipt fields; exclude hidden reasoning."""
     return {"id": response.get("id"), "model": response.get("model"),
             "openrouter_metadata": response.get("openrouter_metadata", {}),
+            "usage": response.get("usage", {}),
             "choices": [{"finish_reason": c.get("finish_reason"),
                          "message": {"content": c.get("message", {}).get("content")}}
                         for c in response.get("choices", [])[:1]]}
+
+
+def parse_result(response):
+    try:
+        choice = response["choices"][0]
+        if choice.get("finish_reason") != "stop":
+            raise ValueError("Incomplete response")
+        result = json.loads(choice["message"]["content"])
+        if not isinstance(result, dict):
+            raise ValueError("Object required")
+        return result
+    except (KeyError, TypeError, ValueError, IndexError):
+        raise ProviderFailure("invalid_response", "Provider output is not one complete JSON object") from None
+
+
+def verify_inline_receipt(response):
+    """Establish zero-cost/non-BYOK/provider identity from the original completion response."""
+    usage = response.get("usage", {})
+    metadata = response.get("openrouter_metadata", {})
+    selected = [e for e in metadata.get("endpoints", {}).get("available", []) if e.get("selected")]
+    if not isinstance(usage, dict) or not zero(usage.get("cost")) or usage.get("is_byok") is not False:
+        raise ProviderFailure("policy_blocked", "Inline usage does not establish zero cost and non-BYOK", brake=True)
+    if response.get("model") != MODEL:
+        raise ProviderFailure("policy_blocked", "Response model differs from the pinned free model", brake=True)
+    if metadata.get("requested") not in (None, MODEL):
+        raise ProviderFailure("policy_blocked", "Routing metadata names a different requested model", brake=True)
+    if metadata.get("is_byok") is True:
+        raise ProviderFailure("policy_blocked", "Routing metadata reports BYOK", brake=True)
+    if len(selected) != 1 or str(selected[0].get("provider", "")).casefold() != "nvidia":
+        raise ProviderFailure("policy_blocked", "Routing metadata does not establish Nvidia as the sole selected provider", brake=True)
+    return {"source": "inline_usage", "id": response.get("id"), "model": response.get("model"),
+            "provider_name": selected[0].get("provider"), "total_cost": usage.get("cost"),
+            "is_byok": usage.get("is_byok"), "tokens_prompt": usage.get("prompt_tokens"),
+            "tokens_completion": usage.get("completion_tokens"), "verified_at": cycle.now()}
 
 
 def verify_inference_key(data):
@@ -167,5 +203,7 @@ def call(value, transport=request_json, checkpoint=lambda value: None):
     key_preflight = verify_inference_key(transport("https://openrouter.ai/api/v1/key", key=key))
     response = transport(ENDPOINT, payload=value, key=key)
     response = public_response(response)
-    checkpoint(response)  # Persist the visible generation BEFORE audit/review.
-    return {**complete(response, transport=transport), "catalog": catalog, "key_preflight": key_preflight}
+    checkpoint(response)  # Persist the visible generation BEFORE zero-cost verification/review.
+    receipt = verify_inline_receipt(response)
+    return {"result": parse_result(response), "receipt": receipt,
+            "catalog": catalog, "key_preflight": key_preflight}
