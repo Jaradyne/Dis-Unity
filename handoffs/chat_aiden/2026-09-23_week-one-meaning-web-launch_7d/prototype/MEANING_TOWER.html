@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Meaning Tower — Dis-Unity Readout Prototype</title>
+<style>
+:root{--bg:#111318;--panel:#1b1e25;--ink:#f4f0e7;--muted:#b8b1a5;--line:#3a3f4c;--accent:#e3c17a;--soft:#262b35}
+*{box-sizing:border-box} body{margin:0;font-family:system-ui,-apple-system,Segoe UI,sans-serif;background:var(--bg);color:var(--ink)}
+button,a{font:inherit} a{color:var(--accent)}
+.app{display:grid;grid-template-columns:230px minmax(0,1fr) 300px;min-height:100vh}
+.tower{border-right:1px solid var(--line);padding:18px;background:#0d0f13;position:sticky;top:0;height:100vh;overflow:auto}
+.brand{font-weight:800;letter-spacing:.08em;margin-bottom:8px}.sub{color:var(--muted);font-size:.88rem;line-height:1.35;margin-bottom:18px}
+.floor{width:100%;text-align:left;border:1px solid var(--line);background:var(--panel);color:var(--ink);border-radius:12px;padding:12px;margin:0 0 10px;cursor:pointer}
+.floor.active{outline:2px solid var(--accent)} .floor small{display:block;color:var(--muted);margin-top:4px}
+.room{padding:26px;max-width:980px;margin:auto;width:100%}
+.hero{border:1px solid var(--line);border-radius:18px;overflow:hidden;background:var(--panel)}
+.visual{min-height:260px;display:grid;place-items:center;background:linear-gradient(135deg,#273142,#151a23);position:relative}
+.visual svg{width:min(88%,720px);height:240px}.heroText{padding:22px}
+.kicker{color:var(--accent);font-size:.8rem;text-transform:uppercase;letter-spacing:.12em}
+h1{margin:.35rem 0 .6rem;font-size:clamp(1.8rem,4vw,3.3rem)} .summary{color:#ddd6ca;line-height:1.55}
+.controls{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px}.controls button,.hotspot,.copy{background:var(--soft);border:1px solid var(--line);color:var(--ink);padding:9px 12px;border-radius:10px;cursor:pointer}
+.hotspots{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px;margin-top:18px}.hotspot{text-align:left;min-height:100px}
+.hotspot strong{display:block;margin-bottom:5px}.hotspot span{color:var(--muted);font-size:.9rem;line-height:1.35}
+.sourcebox{margin-top:18px;padding:14px;border-left:3px solid var(--accent);background:#171a20;color:var(--muted);font-size:.9rem}
+.journal{border-left:1px solid var(--line);padding:18px;background:#0d0f13;position:sticky;top:0;height:100vh;overflow:auto}
+.journal h2{margin-top:0}.choice{border:1px solid var(--line);padding:10px;border-radius:10px;margin-bottom:9px;background:var(--panel);font-size:.9rem}
+textarea{width:100%;min-height:120px;background:var(--panel);color:var(--ink);border:1px solid var(--line);border-radius:10px;padding:10px}
+.copy{width:100%;margin-top:10px}.note{color:var(--muted);font-size:.82rem;line-height:1.4}
+@media(max-width:900px){.app{grid-template-columns:1fr}.tower,.journal{position:relative;height:auto;border:0}.tower{display:flex;gap:10px;overflow:auto}.brand,.sub{display:none}.floor{min-width:210px}.journal{border-top:1px solid var(--line)}}
+</style>
+</head>
+<body>
+<div class="app">
+<aside class="tower">
+  <div class="brand">MEANING TOWER</div>
+  <div class="sub">Click a floor. Explore the pressure points. Keep the points you want to discuss.</div>
+  <div id="floors"></div>
+</aside>
+
+<main class="room">
+  <section class="hero">
+    <div class="visual" id="visual"></div>
+    <div class="heroText">
+      <div class="kicker" id="kicker"></div>
+      <h1 id="title"></h1>
+      <div class="summary" id="summary"></div>
+      <div class="controls">
+        <button id="soundBtn">▶ procedural mood sketch</button>
+        <button id="clearStory">clear this room's choices</button>
+      </div>
+      <div class="hotspots" id="hotspots"></div>
+      <div class="sourcebox" id="sources"></div>
+    </div>
+  </section>
+</main>
+
+<aside class="journal">
+  <h2>Decision points</h2>
+  <p class="note">These are not scores or votes. They are the things you want Aiden/the Governor to carry into discussion.</p>
+  <div id="choices"></div>
+  <label class="note" for="notes">Your note</label>
+  <textarea id="notes" placeholder="What did this make you wonder, care about, or want to test?"></textarea>
+  <button class="copy" id="copyBtn">Copy discussion packet</button>
+  <p class="note" id="copyState"></p>
+</aside>
+</div>
+
+<script>
+const stories = [
+{
+ id:"diesel-nerve",
+ floor:"01 · Diesel Nerve",
+ type:"Pressure-web demo · project research",
+ title:"Where does diesel become function failure first?",
+ summary:"A diesel signal is not one problem. It can touch emergency power, cold chain, harvest windows, rural first/last-mile access and small-carrier cashflow at very different speeds. This room asks which function has the least tolerance and what can bend before it breaks.",
+ source:"Project demo derived from Resilience Cascade's existing diesel work. It is not a live shortage alert.",
+ sourceLinks:[],
+ tone:[110,147,165],
+ points:[
+  ["Emergency power","How much service time exists at actual load, and can protected fuel really arrive?"],
+  ["Cold chain","Which medicine or food loads have the shortest temperature tolerance?"],
+  ["Harvest window","Which farm operations cannot simply wait a week?"],
+  ["Rural last mile","Where does distance from rail, water or storage turn price stress into access stress?"],
+  ["Carrier cashflow","Can a delivery service fail financially before fuel physically runs out?"],
+  ["Elasticity","What lower-priority diesel use can shed demand without harming essential function?"]
+ ]
+},
+{
+ id:"ai-governance-cn",
+ floor:"02 · AI Governance",
+ type:"Current official-source room · China",
+ title:"Speed, control, diversity, and the human hand",
+ summary:"Xi Jinping's July 2026 World AI Conference address pairs rapid innovation and open collaboration with risk awareness, human control, cultural diversity and international governance. Rather than asking whether that is simply 'fast' or 'slow,' this room asks which layer should accelerate and which layer should acquire authority more carefully.",
+ source:"Official English-language State Council publication of Xi Jinping's July 17, 2026 keynote. The English State Council site says it is the official English communication platform; for State Council Gazette discrepancies, the Chinese version prevails.",
+ sourceLinks:[
+  ["Official English keynote","https://english.www.gov.cn/news/202607/17/content_WS6a5a1172c6d00ca5f9a0c46b.html"],
+  ["State Council English site/about","https://english.www.gov.cn/archive/202303/28/content_WS64227cbfc6d0f528699dc56b.html"]
+ ],
+ tone:[196,220,247],
+ points:[
+  ["Innovation","What should be allowed to move quickly because delay itself has costs?"],
+  ["Human control","What capability should never gain authority merely by becoming more intelligent?"],
+  ["Civilizational diversity","How can models synthesize across cultures without flattening local meaning?"],
+  ["Global governance","Which risks actually require coordination beyond one company or country?"],
+  ["Adaptive governance","What can be monitored and revised instead of frozen permanently?"],
+  ["Articulation","What should a person or agent have to state clearly before operating high-impact capability?"]
+ ]
+},
+{
+ id:"commons-metabolism",
+ floor:"03 · Commons Metabolism",
+ type:"Resilience / growth room",
+ title:"A table can become a network",
+ summary:"A commons can begin with shade, tools, food and people who like being there. Its resilience comes from what it can receive, produce, maintain, spare, teach and replicate without turning into one giant centralized node.",
+ source:"Project design room based on COMMONS_METABOLISM and the Start With a Table brochure.",
+ sourceLinks:[],
+ tone:[174,220,162],
+ points:[
+  ["Needs","What inputs make this place actually usable?"],
+  ["Produces","What useful capability leaves the table?"],
+  ["Maintains","What breaks first if no one cares for it?"],
+  ["Can spare","What can be shared without weakening current users?"],
+  ["Birth","When should a second table appear rather than making the first one enormous?"],
+  ["Beauty","What makes people linger, return, alter the place, and bring something of themselves?"]
+ ]
+}
+];
+
+let current=stories[0], chosen=[];
+const $=s=>document.querySelector(s);
+
+function art(story){
+ const labels=story.points.slice(0,5).map((p,i)=>{
+   const x=120+i*120, y=i%2?155:90;
+   return '<g><circle cx="'+x+'" cy="'+y+'" r="34" fill="none" stroke="currentColor" stroke-width="2"/><text x="'+x+'" y="'+(y+4)+'" text-anchor="middle" fill="currentColor" font-size="11">'+p[0].replace(/&/g,'&amp;')+'</text></g>';
+ }).join('');
+ return '<svg viewBox="0 0 720 240" role="img" aria-label="Connected pressure-point illustration"><path d="M50 120 C170 20, 260 220, 370 120 S560 20,670 120" fill="none" stroke="currentColor" stroke-width="3" opacity=".6"/>'+labels+'</svg>';
+}
+
+function render(){
+ document.querySelectorAll('.floor').forEach(b=>b.classList.toggle('active',b.dataset.id===current.id));
+ $('#kicker').textContent=current.type;
+ $('#title').textContent=current.title;
+ $('#summary').textContent=current.summary;
+ $('#visual').innerHTML=art(current);
+ $('#visual').style.color='rgb('+current.tone.join(',')+')';
+ $('#hotspots').innerHTML='';
+ current.points.forEach(([name,desc])=>{
+   const b=document.createElement('button'); b.className='hotspot';
+   b.innerHTML='<strong>'+name+'</strong><span>'+desc+'</span>';
+   b.onclick=()=>addChoice(name,desc);
+   $('#hotspots').appendChild(b);
+ });
+ const links=current.sourceLinks.map(([n,u])=>'<a target="_blank" rel="noopener" href="'+u+'">'+n+'</a>').join(' · ');
+ $('#sources').innerHTML='<strong>Provenance:</strong> '+current.source+(links?'<br>'+links:'');
+ renderChoices();
+}
+
+function addChoice(name,desc){
+ const key=current.id+'|'+name;
+ if(!chosen.some(x=>x.key===key)) chosen.push({key,story:current.title,point:name,why:desc});
+ renderChoices();
+}
+function renderChoices(){
+ $('#choices').innerHTML=chosen.length?chosen.map((c,i)=>'<div class="choice"><strong>'+c.point+'</strong><br>'+c.story+'<br><button data-i="'+i+'">remove</button></div>').join(''):'<p class="note">Nothing collected yet. Click anything that feels worth carrying forward.</p>';
+ document.querySelectorAll('.choice button').forEach(b=>b.onclick=()=>{chosen.splice(+b.dataset.i,1);renderChoices();});
+}
+$('#clearStory').onclick=()=>{chosen=chosen.filter(x=>!x.key.startsWith(current.id+'|'));renderChoices();};
+
+let audioCtx=null, nodes=[];
+function stopSound(){nodes.forEach(n=>{try{n.stop()}catch(e){};try{n.disconnect()}catch(e){}});nodes=[];if(audioCtx){audioCtx.close();audioCtx=null;} $('#soundBtn').textContent='▶ procedural mood sketch';}
+function playSound(){
+ if(audioCtx){stopSound();return;}
+ audioCtx=new (window.AudioContext||window.webkitAudioContext)();
+ current.tone.forEach((f,i)=>{
+  const o=audioCtx.createOscillator(), g=audioCtx.createGain();
+  o.type=i===0?'sine':'triangle'; o.frequency.value=f;
+  g.gain.value=.018/(i+1); o.connect(g).connect(audioCtx.destination); o.start(); nodes.push(o);
+ });
+ $('#soundBtn').textContent='■ stop mood sketch';
+}
+$('#soundBtn').onclick=playSound;
+
+$('#copyBtn').onclick=async()=>{
+ const packet={
+   story:current.id,
+   title:current.title,
+   decision_points:chosen,
+   user_note:$('#notes').value,
+   request:"Discuss these with me without turning them into a score. Connect them to relevant Questions, evidence and pressure points."
+ };
+ const text='MEANING TOWER DISCUSSION PACKET\n'+JSON.stringify(packet,null,2);
+ try{await navigator.clipboard.writeText(text);$('#copyState').textContent='Copied. Bring it to Aiden.'}
+ catch(e){$('#copyState').textContent='Clipboard blocked; select and copy from the browser console packet.';console.log(text)}
+};
+
+const floors=$('#floors');
+stories.forEach(s=>{
+ const b=document.createElement('button'); b.className='floor';b.dataset.id=s.id;
+ b.innerHTML='<strong>'+s.floor+'</strong><small>'+s.title+'</small>';
+ b.onclick=()=>{stopSound();current=s;render();};
+ floors.appendChild(b);
+});
+render();
+</script>
+</body>
+</html>
