@@ -220,6 +220,31 @@
         "Current inventory, demand, cash, transport and donor floor remain unknown."
       ]
     },
+    "REFL-8A2988FC6CF8A8BDD9C5B122": {
+      "actor": "Week One runtime caretaker",
+      "context": {
+        "attempt_id": "ATT-4261CA9D5D674DFAA2F47704E1A839CE",
+        "call_id": "ATT-4261CA9D5D674DFAA2F47704E1A839CE",
+        "parent_call_id": "gh-35978438646-2",
+        "question_id": "Q-RESEARCH-Q17",
+        "run_id": "gh-35978438646-2"
+      },
+      "created_at": "2026-09-24T09:00:33.578719+00:00",
+      "level": "subcall",
+      "observations": [
+        "Saved generation awaits its audit; recover this receipt without another POST"
+      ],
+      "origin": "runtime_observation",
+      "questions": [],
+      "reflection_id": "REFL-8A2988FC6CF8A8BDD9C5B122",
+      "related_reflection_ids": [],
+      "source_refs": [],
+      "suggestions": [
+        "Inspect the saved prompt, provider response if present, and classified result before retrying."
+      ],
+      "summary": "Provider attempt recorded: audit_pending",
+      "uncertainties": []
+    },
     "REFL-9C680736D68D54DF63675371": {
       "actor": "Week One public scout",
       "context": {

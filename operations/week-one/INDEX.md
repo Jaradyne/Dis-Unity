@@ -10,13 +10,13 @@ Each provider attempt reads public sources, a shared Question and the reflection
 
 | Run | Status | Question | Sources / output |
 |---|---|---|---|
-| gh-35978438646-2 | prepared /  | Q-RESEARCH-Q17 | [Sources](runs/gh-35978438646-2/sources.json) · [Note](runs/gh-35978438646-2/HUMAN_NOTE.md) |
+| gh-35978438646-2 | audit_pending / audit_pending | Q-RESEARCH-Q17 | [Sources](runs/gh-35978438646-2/sources.json) · [Note](runs/gh-35978438646-2/HUMAN_NOTE.md) |
 | gh-35978438646-1 | deferred / operator_review_required |  | [Sources](runs/gh-35978438646-1/sources.json) · [Note](runs/gh-35978438646-1/HUMAN_NOTE.md) |
 | gh-35971974980-1 | deferred / operator_review_required |  | [Sources](runs/gh-35971974980-1/sources.json) · [Note](runs/gh-35971974980-1/HUMAN_NOTE.md) |
 | gh-35971438628-1 | complete / auth_or_configuration_error | Q-RESEARCH-Q01 | [Sources](runs/gh-35971438628-1/sources.json) · [Note](runs/gh-35971438628-1/HUMAN_NOTE.md) |
 
 Provider brake: null
-Cooldown until: None
+Cooldown until: 2026-09-24T21:00:31.926210+00:00
 
 Public-source coverage: EIA diesel/energy feed metadata and up to 12 NWS California active alerts.
 Research publication, source access, current operating capacity and model interpretation have separate provenance.
