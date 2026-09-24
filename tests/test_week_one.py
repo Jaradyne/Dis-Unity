@@ -27,9 +27,15 @@ def source(url, accept):
 
 def valid_result(request, sources):
     sid = sources['items'][0]['source_id']
-    return {'answer': {'summary': 'Delivery capacity is unknown.', 'evidence_refs': [sid], 'counterevidence': ['A price update does not measure missed deliveries.'], 'limitations': ['No delivery observation']},
+    return {'question_reflection': {'why_this_question': 'It tests whether the observed source bears on essential delivery continuity.',
+                                    'source_fit': 'partial',
+                                    'what_can_be_tested': ['Whether an update is present in supplied metadata.'],
+                                    'what_cannot_be_tested': ['Actual missed deliveries.'],
+                                    'reframe_or_next_query': 'Find direct delivery-performance observations.',
+                                    'should_answer': True},
+            'answer': {'summary': 'Delivery capacity is unknown.', 'evidence_refs': [sid], 'counterevidence': ['A price update does not measure missed deliveries.'], 'limitations': ['No delivery observation']},
             'claims': [{'kind': 'FACT', 'text': 'An update appears in the supplied feed.', 'evidence_refs': [sid]}],
-            'conditional_link': {**{k: 'conditional / unknown' for k in ['initiating_stress', 'dependent_system', 'mechanism', 'time_horizon', 'uncertainty', 'confirm', 'falsify']},
+            'conditional_link': {'active': False, **{k: 'conditional / unknown' for k in ['initiating_stress', 'dependent_system', 'mechanism', 'time_horizon', 'uncertainty', 'confirm', 'falsify']},
                                  **{k: [] for k in ['evidence_refs', 'buffering_mechanisms', 'threshold_conditions', 'substitutes']}},
             'resilience': {k: 'Option to verify' for k in ['reserve', 'release', 'substitution', 'growth', 'conversion', 'lifeboat', 'outside_support', 'commons']},
             'caretaker': {k: 'unknown' for k in ['actor', 'authority', 'trigger', 'cash_available_now', 'service_capacity', 'access', 'response_time', 'dependencies', 'backup', 'proof_status', 'tomorrow_test']},
@@ -158,6 +164,36 @@ class RuntimeTests(unittest.TestCase):
         self.assertEqual(result['status'], 'prepared')
         self.assertEqual(w.manifest(self.root)['runs']['recovery']['post_reserved'], 1)
         self.assertEqual(self.prepare('fourth', now='2026-09-24T08:08:00Z')['status'], 'slot_attempt_limit')
+
+    def test_question_reflection_allows_honest_nonanswer_without_filler_claims(self):
+        self.prepare()
+        req = w.read(self.root, w.run_path('test-one', 'request.json'))
+        sources = w.read(self.root, w.run_path('test-one', 'sources.json'))
+        value = valid_result(req, sources)
+        value['question_reflection'] = {
+            'why_this_question': 'The scheduler selected it for bounded inspection.',
+            'source_fit': 'poor',
+            'what_can_be_tested': ['Only feed publication metadata.'],
+            'what_cannot_be_tested': ['Actual service continuity.'],
+            'reframe_or_next_query': 'Find direct service observations.',
+            'should_answer': False,
+        }
+        value['answer']['summary'] = 'Unknown from supplied evidence.'
+        value['answer']['evidence_refs'] = []
+        value['claims'] = []
+        ids = {x['source_id'] for x in sources['items']}
+        w.validate_answer(value, ids, set(req['reflection_ids']), 'Q-TEST')
+
+    def test_source_affinity_selects_better_fit_before_round_robin(self):
+        questions.ask(self.root, 'Food-service days?', 'test', qid='Q-OTHER')
+        cfg = w.catalog(self.root)
+        cfg['questions'] = ['Q-OTHER', 'Q-TEST']
+        cfg['question_sensor_affinity'] = {'Q-OTHER': [], 'Q-TEST': ['eia-diesel']}
+        sources = {'sensors': [{'sensor_id': 'eia-diesel', 'status': 'retrieved'}], 'items': []}
+        qid, reflection = w.select_question(self.root, cfg, sources)
+        self.assertEqual(qid, 'Q-TEST')
+        self.assertEqual(reflection['selected_question_id'], 'Q-TEST')
+        self.assertEqual(reflection['candidate_source_fit'][1]['matched_sensors'], ['eia-diesel'])
 
     def test_thought_partner_mailbox_is_idempotent_and_answer_stays_staged(self):
         packet = {'question_id': 'Q-TEST', 'answer': {'summary': 'An unadmitted thought'},
