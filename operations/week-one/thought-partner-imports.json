@@ -1,1 +1,9 @@
-[]
+[
+  {
+    "packet": "handoffs/week_one_governor/2026-09-24.json",
+    "reflection_ids": [
+      "REFL-7CE785B4BA9EB9DF6FEFB7C7"
+    ],
+    "status": "imported"
+  }
+]

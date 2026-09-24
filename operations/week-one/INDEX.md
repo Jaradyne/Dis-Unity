@@ -10,6 +10,7 @@ Each provider attempt reads public sources, a shared Question and the reflection
 
 | Run | Status | Question | Sources / output |
 |---|---|---|---|
+| gh-35978438646-1 | deferred / operator_review_required |  | [Sources](runs/gh-35978438646-1/sources.json) · [Note](runs/gh-35978438646-1/HUMAN_NOTE.md) |
 | gh-35971974980-1 | deferred / operator_review_required |  | [Sources](runs/gh-35971974980-1/sources.json) · [Note](runs/gh-35971974980-1/HUMAN_NOTE.md) |
 | gh-35971438628-1 | complete / auth_or_configuration_error | Q-RESEARCH-Q01 | [Sources](runs/gh-35971438628-1/sources.json) · [Note](runs/gh-35971438628-1/HUMAN_NOTE.md) |
 
