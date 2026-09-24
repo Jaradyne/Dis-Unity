@@ -163,15 +163,19 @@
             }
           },
           "request_sha256": "974f28d19be5d264afeb047581bd7a73863458704583aa910b2c73b560357703",
-          "result": null
+          "result": {
+            "category": "auth_or_configuration_error",
+            "details": {
+              "outcome_path": "operations/week-one/runs/gh-35971438628-1/outcome.json",
+              "reason": "BYOK preflight unavailable; no inference POST. HTTP 401; explicit operator review required",
+              "receipt": null,
+              "run_id": "gh-35971438628-1"
+            },
+            "recorded_at": "2026-09-24T07:46:32.184606+00:00"
+          }
         }
       },
-      "claim": {
-        "actor": "Week One Answer Bee / OpenRouter / Nvidia",
-        "epoch": 1,
-        "expires_at": "2026-09-24T08:46:28.168774+00:00",
-        "token": "1736d23935b945c7964b2e336764fd3c"
-      },
+      "claim": null,
       "context_refs": [
         "Resilience_Cascade_STATE.json#QUESTIONS_TO_WATCH/Q01",
         "RC-004; evidence cutoff 2026-09-21; reread before use"
@@ -191,7 +195,7 @@
           "question_id": "Q-MEANING-TRANSLATION-BOSS"
         }
       ],
-      "status": "answering",
+      "status": "open",
       "tickets": {}
     },
     "Q-RESEARCH-Q02": {

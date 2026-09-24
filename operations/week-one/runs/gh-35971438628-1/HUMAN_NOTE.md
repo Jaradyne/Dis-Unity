@@ -1,6 +1,6 @@
 # Week One · gh-35971438628-1
 
-Status: prepared / 
+Status: complete / auth_or_configuration_error
 
 WHAT MOVED
 
@@ -9,7 +9,7 @@ WHAT MOVED
 - eia-energy: retrieved (18 items returned)
 - nws-ca: retrieved (1 items returned)
 
-Public sensing is recorded; a synthesis is not available in this run.
+BYOK preflight unavailable; no inference POST. HTTP 401; explicit operator review required
 
 Source selection is bounded. Retrieval date is separate from event time.
 

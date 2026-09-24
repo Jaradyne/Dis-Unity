@@ -157,6 +157,31 @@
         "Selected feeds and alerts do not measure delivery performance, stocks or caregiver capacity."
       ]
     },
+    "REFL-A4EE3A13D7EECFC680D8F257": {
+      "actor": "Week One runtime caretaker",
+      "context": {
+        "attempt_id": "ATT-400018C15B8047E184B972B9BB95D02F",
+        "call_id": "ATT-400018C15B8047E184B972B9BB95D02F",
+        "parent_call_id": "gh-35971438628-1",
+        "question_id": "Q-RESEARCH-Q01",
+        "run_id": "gh-35971438628-1"
+      },
+      "created_at": "2026-09-24T07:46:32.191722+00:00",
+      "level": "subcall",
+      "observations": [
+        "BYOK preflight unavailable; no inference POST. HTTP 401; explicit operator review required"
+      ],
+      "origin": "runtime_observation",
+      "questions": [],
+      "reflection_id": "REFL-A4EE3A13D7EECFC680D8F257",
+      "related_reflection_ids": [],
+      "source_refs": [],
+      "suggestions": [
+        "Inspect the saved prompt, provider response if present, and classified result before retrying."
+      ],
+      "summary": "Provider attempt recorded: auth_or_configuration_error",
+      "uncertainties": []
+    },
     "REFL-AE0B0BAFCAB4E9BEB56DBE05": {
       "actor": "week_one_provider_check",
       "context": {},
