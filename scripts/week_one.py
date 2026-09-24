@@ -359,6 +359,7 @@ def prepare(root, rid, *, now=None, fetcher=source_fetch):
     # before slot-budget checks so an audit can finish even after that slot used its POSTs.
     recovered = next((r for r in reversed(list(state['runs'].values()))
                       if r['status'] in {'interrupted', 'audit_pending'} and not r.get('recovered_by') and
+                      r.get('audit_tries', 1) < 2 and
                       (root / run_path(r['run_id'], 'provider-response.json')).exists()), None)
     same_slot = [r for r in state['runs'].values() if r.get('slot') == slot]
     if not recovered:
