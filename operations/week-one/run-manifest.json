@@ -1,7 +1,11 @@
 {
-  "brake": null,
+  "brake": {
+    "at": "2026-09-24T09:23:07.478322+00:00",
+    "reason": "Inline usage does not establish zero cost and non-BYOK",
+    "run_id": "gh-35980783938-2"
+  },
   "closed": false,
-  "cooldown_until": null,
+  "cooldown_until": "2026-09-24T21:23:05.626575+00:00",
   "operator_reflight": {
     "authorized_at": "2026-09-24T09:22:00Z",
     "authorized_by": "Jared",
@@ -120,6 +124,7 @@
       "audit_tries": 1,
       "epoch": 1,
       "execution_url": "https://github.com/Jaradyne/Dis-Unity/actions/runs/35980783938",
+      "finished_at": "2026-09-24T09:23:05.626575+00:00",
       "operator_reflight": {
         "authorized_at": "2026-09-24T09:22:00Z",
         "authorized_by": "Jared",
@@ -128,6 +133,10 @@
       "post_reserved": 1,
       "question_id": "Q-RESEARCH-Q01",
       "recovery_from": null,
+      "reflection_ids": [
+        "REFL-434B4142921CCC6BA0AAFA25"
+      ],
+      "result": "policy_blocked",
       "run_id": "gh-35980783938-2",
       "scout_reflections": [
         "REFL-9B1972063CA49FCDDEF05552"
@@ -135,7 +144,7 @@
       "slot": "20260924-AM",
       "sources": "operations/week-one/runs/gh-35980783938-2/sources.json",
       "started_at": "2026-09-24T09:23:00.589368+00:00",
-      "status": "prepared"
+      "status": "complete"
     }
   },
   "version": 1

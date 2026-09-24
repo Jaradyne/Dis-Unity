@@ -130,6 +130,31 @@
         "Google Sheets link editing still needs authenticated sharing access."
       ]
     },
+    "REFL-434B4142921CCC6BA0AAFA25": {
+      "actor": "Week One runtime caretaker",
+      "context": {
+        "attempt_id": "ATT-811D87D156344129A59BA4E8C0139A35",
+        "call_id": "ATT-811D87D156344129A59BA4E8C0139A35",
+        "parent_call_id": "gh-35980783938-2",
+        "question_id": "Q-RESEARCH-Q01",
+        "run_id": "gh-35980783938-2"
+      },
+      "created_at": "2026-09-24T09:23:07.460633+00:00",
+      "level": "subcall",
+      "observations": [
+        "Inline usage does not establish zero cost and non-BYOK"
+      ],
+      "origin": "runtime_observation",
+      "questions": [],
+      "reflection_id": "REFL-434B4142921CCC6BA0AAFA25",
+      "related_reflection_ids": [],
+      "source_refs": [],
+      "suggestions": [
+        "Inspect the saved prompt, provider response if present, and classified result before retrying."
+      ],
+      "summary": "Provider attempt recorded: policy_blocked",
+      "uncertainties": []
+    },
     "REFL-5DE545740373F870F8C9F78E": {
       "actor": "Work Aiden",
       "context": {},

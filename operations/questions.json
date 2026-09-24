@@ -302,15 +302,19 @@
             }
           },
           "request_sha256": "65b9d585c1c1d9defc3115df36e21417920ff91faca254f4e65ac716fb83443a",
-          "result": null
+          "result": {
+            "category": "policy_blocked",
+            "details": {
+              "outcome_path": "operations/week-one/runs/gh-35980783938-2/outcome.json",
+              "reason": "Inline usage does not establish zero cost and non-BYOK",
+              "receipt": null,
+              "run_id": "gh-35980783938-2"
+            },
+            "recorded_at": "2026-09-24T09:23:07.437138+00:00"
+          }
         }
       },
-      "claim": {
-        "actor": "Week One Answer Bee / OpenRouter / Nvidia",
-        "epoch": 1,
-        "expires_at": "2026-09-24T10:23:01.213275+00:00",
-        "token": "10cdfcb5538a44f2829e88d5dbb6f25b"
-      },
+      "claim": null,
       "context_refs": [
         "Resilience_Cascade_STATE.json#QUESTIONS_TO_WATCH/Q01",
         "RC-004; evidence cutoff 2026-09-21; reread before use"
@@ -330,7 +334,7 @@
           "question_id": "Q-MEANING-TRANSLATION-BOSS"
         }
       ],
-      "status": "answering",
+      "status": "open",
       "tickets": {}
     },
     "Q-RESEARCH-Q02": {
