@@ -1,7 +1,7 @@
 {
   "brake": null,
   "closed": false,
-  "cooldown_until": "2026-09-24T21:00:31.926210+00:00",
+  "cooldown_until": null,
   "runs": {
     "gh-35971438628-1": {
       "attempt_id": "ATT-400018C15B8047E184B972B9BB95D02F",
