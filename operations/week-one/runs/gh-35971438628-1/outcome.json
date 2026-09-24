@@ -1,0 +1,9 @@
+{
+  "attempt_id": "ATT-400018C15B8047E184B972B9BB95D02F",
+  "brake": true,
+  "category": "auth_or_configuration_error",
+  "cooldown_hours": 12,
+  "finished_at": "2026-09-24T07:46:30.329444+00:00",
+  "reason": "BYOK preflight unavailable; no inference POST. HTTP 401; explicit operator review required",
+  "run_id": "gh-35971438628-1"
+}
