@@ -1,11 +1,7 @@
 {
-  "brake": {
-    "at": "2026-09-24T07:46:32.193282+00:00",
-    "reason": "BYOK preflight unavailable; no inference POST. HTTP 401; explicit operator review required",
-    "run_id": "gh-35971438628-1"
-  },
+  "brake": null,
   "closed": false,
-  "cooldown_until": "2026-09-24T19:46:30.329444+00:00",
+  "cooldown_until": null,
   "runs": {
     "gh-35971438628-1": {
       "attempt_id": "ATT-400018C15B8047E184B972B9BB95D02F",
