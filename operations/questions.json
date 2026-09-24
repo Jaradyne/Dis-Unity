@@ -643,15 +643,19 @@
             }
           },
           "request_sha256": "22522697a58c1cff4eef286352e38a28a65015bd8c4a0bfeec0c444b6d126dae",
-          "result": null
+          "result": {
+            "category": "policy_blocked",
+            "details": {
+              "outcome_path": "operations/week-one/runs/gh-35980155892-2/outcome.json",
+              "reason": "Generation receipt does not establish the pinned zero-cost route",
+              "receipt": null,
+              "run_id": "gh-35980155892-2"
+            },
+            "recorded_at": "2026-09-24T09:16:50.800243+00:00"
+          }
         }
       },
-      "claim": {
-        "actor": "Week One Answer Bee / OpenRouter / Nvidia",
-        "epoch": 1,
-        "expires_at": "2026-09-24T10:16:47.299234+00:00",
-        "token": "1556bc3b734a4a279bb61c40d3f1d2df"
-      },
+      "claim": null,
       "context_refs": [
         "Resilience_Cascade_STATE.json#QUESTIONS_TO_WATCH/Q17",
         "RC-004; evidence cutoff 2026-09-21; reread before use"
@@ -671,7 +675,7 @@
           "question_id": "Q-MEANING-TRANSLATION-BOSS"
         }
       ],
-      "status": "answering",
+      "status": "open",
       "tickets": {}
     },
     "Q-RESEARCH-Q18": {

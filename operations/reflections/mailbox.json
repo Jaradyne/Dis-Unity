@@ -220,6 +220,31 @@
         "Current inventory, demand, cash, transport and donor floor remain unknown."
       ]
     },
+    "REFL-8625C1AEAA4C410AABF9BD5A": {
+      "actor": "Week One runtime caretaker",
+      "context": {
+        "attempt_id": "ATT-5CC274EF42AB40B183E29BA51716BA47",
+        "call_id": "ATT-5CC274EF42AB40B183E29BA51716BA47",
+        "parent_call_id": "gh-35980155892-2",
+        "question_id": "Q-RESEARCH-Q17",
+        "run_id": "gh-35980155892-2"
+      },
+      "created_at": "2026-09-24T09:16:50.804684+00:00",
+      "level": "subcall",
+      "observations": [
+        "Generation receipt does not establish the pinned zero-cost route"
+      ],
+      "origin": "runtime_observation",
+      "questions": [],
+      "reflection_id": "REFL-8625C1AEAA4C410AABF9BD5A",
+      "related_reflection_ids": [],
+      "source_refs": [],
+      "suggestions": [
+        "Inspect the saved prompt, provider response if present, and classified result before retrying."
+      ],
+      "summary": "Provider attempt recorded: policy_blocked",
+      "uncertainties": []
+    },
     "REFL-8A2988FC6CF8A8BDD9C5B122": {
       "actor": "Week One runtime caretaker",
       "context": {

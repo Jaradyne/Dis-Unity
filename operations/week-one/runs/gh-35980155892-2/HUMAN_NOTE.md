@@ -1,6 +1,6 @@
 # Week One · gh-35980155892-2
 
-Status: prepared / 
+Status: complete / policy_blocked
 
 WHAT MOVED
 
@@ -9,7 +9,7 @@ WHAT MOVED
 - eia-energy: retrieved (18 items returned)
 - nws-ca: retrieved (1 items returned)
 
-Public sensing is recorded; a synthesis is not available in this run.
+Generation receipt does not establish the pinned zero-cost route
 
 Source selection is bounded. Retrieval date is separate from event time.
 
