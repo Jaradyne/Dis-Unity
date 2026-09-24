@@ -186,3 +186,36 @@ If a provider cannot be enabled safely in the available Work window, launch the 
 Future Chat Aiden should be able to open one daily packet or one Question ID and continue meaningfully without re-running the week.
 
 The week is intended to create **material for many later conversations**, not one enormous report the user must digest at once.
+
+
+## Restartability and Chat Aiden recovery
+
+Design Week One processes so interruption is ordinary and **restartable without erasing provenance**.
+
+Requirements:
+- every scheduled unit has a stable run/task/Question reference;
+- write checkpoint/provenance before consequential computation;
+- a restart creates a **new attempt** linked to the interrupted/failed attempt rather than rewriting its result;
+- idempotent discovery/projection prevents duplicate records when a safe step is rerun;
+- provider cooldown/quota state survives restart;
+- no automatic infinite restart loops.
+
+### Chat Aiden restart surface
+
+Where GitHub permissions allow, expose a small documented recovery surface so Chat Aiden can inspect a failed/cancelled Actions run and request/re-run the appropriate failed job without spending a Work session merely to press Retry.
+
+The current Chat GitHub connection can, when authorized by repository Actions permissions:
+- inspect workflow runs/jobs/logs/artifacts;
+- re-run failed jobs in a workflow run;
+- re-run a specific workflow job.
+
+Work should therefore:
+1. give Week One jobs clear names tied to Question/run IDs;
+2. retain checkpoint artifacts before/after provider work;
+3. document which jobs are safe for Chat to re-run;
+4. distinguish `retry same bounded work` from `start a new research question`;
+5. require Work/human review for restarts that would expand capability, spend money, send external messages, or alter canonical state.
+
+If a process was stopped because a safety/quota/provider-policy brake fired, Chat must not simply restart it until the blocking condition is resolved.
+
+A restart is **recovery, not amnesia**.
