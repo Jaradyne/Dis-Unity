@@ -142,6 +142,9 @@ class RuntimeTests(unittest.TestCase):
     def test_operator_recovery_counts_provider_reservations_not_scout_wakes(self):
         self.assertEqual(self.prepare('first')['status'], 'prepared')
         state = w.manifest(self.root)
+        first = state['runs']['first']
+        questions.finish_attempt(self.root, 'Q-TEST', first['attempt_id'], 'auth_or_configuration_error',
+                                 details={'reason': 'test configuration brake'})
         state['runs']['first']['status'] = 'complete'
         state['runs']['first']['result'] = 'auth_or_configuration_error'
         state['runs']['first']['post_reserved'] = 1
