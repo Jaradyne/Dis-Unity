@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "enabled": true,
   "starts_at": "2026-09-24T07:45:13+00:00",
   "ends_at": "2026-10-01T07:45:13+00:00",
@@ -15,5 +15,18 @@
   ],
   "state_branch": "week-one-state",
   "runtime_branch": "main",
-  "provider_model": "nvidia/nemotron-3-super-120b-a12b:free"
+  "provider_model": "nvidia/nemotron-3-super-120b-a12b:free",
+  "question_sensor_affinity": {
+    "Q-RESEARCH-Q01": [
+      "eia-diesel",
+      "eia-energy"
+    ],
+    "Q-RESEARCH-Q17": [],
+    "Q-RESEARCH-Q09": [
+      "nws-ca"
+    ],
+    "Q-RESEARCH-Q21": [
+      "nws-ca"
+    ]
+  }
 }
