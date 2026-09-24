@@ -1,0 +1,9 @@
+{
+  "attempt_id": "ATT-5CC274EF42AB40B183E29BA51716BA47",
+  "brake": true,
+  "category": "policy_blocked",
+  "cooldown_hours": 12,
+  "finished_at": "2026-09-24T09:16:49.137976+00:00",
+  "reason": "Generation receipt does not establish the pinned zero-cost route",
+  "run_id": "gh-35980155892-2"
+}
