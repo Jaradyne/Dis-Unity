@@ -1,0 +1,23 @@
+{
+  "pass_id": "WORK-GARDEN-Q18-20260925-grammar-1",
+  "question_id": "Q-RESEARCH-Q18",
+  "epoch": 1,
+  "actor": {"name": "Work Aiden", "runtime": "ChatGPT/Codex session", "model": "unknown"},
+  "status": "design_example; no new source retrieval",
+  "input_refs": ["handoffs/week_one_governor/2026-09-25.json", "daily_scroll"],
+  "steps": [
+    {"node_id": "ROOT-0001", "name": "A vessel needs a voyage"},
+    {"node_id": "ARRIVAL-0002", "arrival": {"id": "Q18-DELIVERY-PACKET-1", "from": "handoffs/week_one_governor/2026-09-25.json", "to": "INIT:ROOT-0001", "payload": {"kind": "staged_provisional_finding", "question": "Does a delivered electric vessel establish dependable freight service?"}}},
+    {"node_id": "EPIST-0003", "prompt": "What would demonstrate dependable service replacing a diesel function?", "starting_state": "UNKNOWN: delivered hardware does not establish route reliability or usable reserve."},
+    {"node_id": "FUNC-0004", "task": "Identify a bounded operating-evidence test", "function": "Dependable coastal freight; essential-cargo role remains unknown"},
+    {"node_id": "MIRROR-0005", "comparisons": [
+      {"explanation": "A construction milestone is reported before dependable service can be measured.", "queries": [{"text": "Named route: planned and completed loaded sailings, dates, cargo and downtime", "status": "proposed; not issued in this design example"}], "answers": []},
+      {"explanation": "Control: a newly delivered diesel vessel would need the same operating evidence.", "queries": [], "answers": []}
+    ]},
+    {"node_id": "CROSS-0006", "inherited": [{"ref": "handoffs/week_one_governor/2026-09-25.json", "status": "provisional staged source ledger"}], "independent": [], "bridge": [{"question": "Can one route's recorded voyages connect delivery to a demonstrated freight function?", "status": "proposed test, not corroboration"}]},
+    {"node_id": "RESID-0007", "summary": "Operating performance remains unknown; missing observations do not establish failure.", "specialist": {"question": "What actual loaded-service record exists for one named route?", "why_specialist": "If consequential after the Collector pass, a narrow operating-record search can resolve this gap.", "stop_condition": "One bounded primary record or an explicit missing-data/access-limit result", "budget": {"primary_sources": 1, "inference_posts": 0}, "return_to": "INIT:ARRIVAL-0002", "status": "proposal only"}},
+    {"node_id": "MEAN-0008", "summary": "Keep engineering progress visible while asking what supports dependable care and delivery.", "culture_flower": {"text": "A vessel needs a voyage.", "evidence": false}},
+    {"node_id": "EXIT-0009", "kind": "question", "summary": "Which recorded voyage turns installed capacity into dependable service?"},
+    {"node_id": "RETURN-0010", "new_arrival": null, "reason": "Rest until genuinely new evidence or a changed question arrives."}
+  ]
+}

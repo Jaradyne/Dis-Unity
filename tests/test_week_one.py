@@ -114,7 +114,7 @@ class ProviderTests(unittest.TestCase):
         with patch.dict(os.environ, {'OPENROUTER_API_KEY': 'test-fixture'}):
             with self.assertRaises(fp.ProviderFailure) as error:
                 fp.call(fp.payload('public prompt'), transport, saved.append)
-        self.assertEqual(error.exception.category, 'policy_blocked')
+        self.assertEqual(error.exception.category, 'spend_detected')
         self.assertEqual(saved[0]['id'], 'gen-one')
         self.assertNotIn('reasoning', saved[0]['choices'][0]['message'])
 
@@ -132,6 +132,71 @@ class ProviderTests(unittest.TestCase):
             elif mutate == 'byok': bad['usage']['is_byok'] = True
             else: bad['openrouter_metadata']['endpoints']['available'][0]['provider'] = 'Groq'
             with self.assertRaises(fp.ProviderFailure): fp.verify_inline_receipt(bad)
+
+    def test_missing_inline_metadata_uses_same_generation_audit(self):
+        calls = []
+        def transport(url, **kwargs):
+            calls.append((url, kwargs.get('payload') is not None))
+            if url == fp.CATALOG: return self.catalog()
+            if url.endswith('/api/v1/key'): return {'data': {'is_management_key': False}}
+            if url == fp.ENDPOINT:
+                return {'id': 'gen-one', 'model': 'nvidia/nemotron-3-super-120b-a12b-20230311',
+                        'usage': {'cost': 0, 'is_byok': False},
+                        'choices': [{'finish_reason': 'stop', 'message': {'content': '{"ok":true}'}}]}
+            if '/api/v1/generation?' in url:
+                return {'data': {'id': 'gen-one', 'model': fp.MODEL, 'provider_name': 'Nvidia',
+                                 'total_cost': 0, 'is_byok': False}}
+            raise AssertionError(url)
+        with patch.dict(os.environ, {'OPENROUTER_API_KEY': 'test-fixture'}):
+            result = fp.call(fp.payload('public prompt'), transport)
+        self.assertEqual(result['result'], {'ok': True})
+        self.assertEqual(sum(is_post for _, is_post in calls), 1)
+        self.assertEqual(len([url for url, _ in calls if '/generation?' in url]), 1)
+
+    def test_recovery_shortens_transient_wait_but_preserves_quota_and_auth(self):
+        with patch.dict(os.environ, {'OPENROUTER_API_KEY': 'test-fixture'}):
+            for category, brake, delay in [('transient_capacity', False, 1),
+                                            ('daily_quota_exhausted', False, 24),
+                                            ('auth_or_configuration_error', True, 12)]:
+                with self.subTest(category=category):
+                    failure = fp.ProviderFailure(category, 'fixture', brake=brake,
+                                                 cooldown_hours=24 if category == 'daily_quota_exhausted' else 12)
+                    with self.assertRaises(fp.ProviderFailure) as error:
+                        fp.complete({'id': 'gen-one'}, transport=lambda *a, **k: (_ for _ in ()).throw(failure), recovery_hours=1)
+                    self.assertEqual(error.exception.cooldown_hours, delay)
+                    self.assertEqual(error.exception.brake, brake)
+            with self.assertRaises(fp.ProviderFailure) as error:
+                fp.complete({'id': 'gen-one'}, transport=lambda *a, **k: {'data': {'id': 'gen-one'}}, recovery_hours=1)
+            self.assertEqual(error.exception.category, 'audit_pending')
+            self.assertEqual(error.exception.cooldown_hours, 1)
+
+    def test_missing_endpoint_provider_recovers_but_conflicting_model_brakes(self):
+        response = {'id': 'gen-one', 'model': fp.MODEL, 'usage': {'cost': 0, 'is_byok': False},
+                    'openrouter_metadata': {'endpoints': {'available': [{'selected': True}]}},
+                    'choices': [{'finish_reason': 'stop', 'message': {'content': '{"ok":true}'}}]}
+        with self.assertRaises(fp.ProviderFailure) as error:
+            fp.verify_inline_receipt(response)
+        self.assertEqual(error.exception.category, 'audit_pending')
+        audit = {'data': {'id': 'gen-one', 'model': fp.MODEL, 'provider_name': 'Nvidia',
+                          'total_cost': 0, 'is_byok': False}}
+        with patch.dict(os.environ, {'OPENROUTER_API_KEY': 'test-fixture'}):
+            self.assertEqual(fp.complete(response, transport=lambda *a, **k: audit)['result'], {'ok': True})
+        for surface in ('endpoints', 'attempts'):
+            bad = deepcopy(response)
+            endpoint = {'provider': 'Nvidia', 'model': 'different/model', 'selected': True}
+            bad['openrouter_metadata'][surface] = {'available': [endpoint]} if surface == 'endpoints' else [endpoint]
+            with self.assertRaises(fp.ProviderFailure) as error:
+                fp.verify_receipt(bad, audit)
+            self.assertTrue(error.exception.brake)
+
+    def test_saved_positive_charge_stops_before_any_network(self):
+        with patch.object(fp, 'request_json') as network:
+            with self.assertRaises(fp.ProviderFailure) as error:
+                fp.complete({'id': 'gen-one', 'usage': {'cost': 0.01}}, transport=network)
+            self.assertEqual(error.exception.category, 'spend_detected')
+            network.assert_not_called()
+        self.assertEqual(fp.payload('public')['plugins'], [
+            {'id': name, 'enabled': False} for name in ['web', 'file-parser', 'response-healing']])
 
 
 class RuntimeTests(unittest.TestCase):
@@ -177,7 +242,92 @@ class RuntimeTests(unittest.TestCase):
         req = w.read(self.root, w.run_path('recovery', 'request.json'))
         self.assertIn('recovery_from', req)
         self.assertEqual(w.read(self.root, w.run_path('recovery', 'provider-response.json'))['id'], 'gen-saved')
-        self.assertEqual(self.prepare('third')['status'], 'slot_attempt_limit')
+        self.assertEqual(self.prepare('third')['status'], 'prepared')
+        self.assertEqual(w.manifest(self.root)['runs']['third']['audit_tries'], 3)
+        self.assertEqual(w.manifest(self.root)['runs']['third']['post_reserved'], 0)
+        self.assertEqual(self.prepare('fourth')['result'], 'operator_review_required')
+        self.assertEqual(w.manifest(self.root)['runs']['fourth']['post_reserved'], 0)
+
+    def test_third_pending_attempt_is_get_only_and_then_brakes(self):
+        self.prepare('first')
+        w.write(self.root, w.run_path('first', 'provider-response.json'), {'id': 'gen-saved'})
+        for rid, when in [('first', '2026-09-24T08:10:00Z'), ('second', '2026-09-25T08:10:00Z')]:
+            if rid == 'second':
+                self.assertEqual(self.prepare(rid, '2026-09-25T08:00:00Z')['status'], 'prepared')
+            w.write(self.root, w.run_path(rid, 'outcome.json'),
+                    {'category': 'audit_pending', 'finished_at': when, 'cooldown_hours': 1})
+            w.finalize(self.root, rid)
+        self.assertEqual(self.prepare('third', '2026-09-26T08:00:00Z')['status'], 'prepared')
+        third = w.manifest(self.root)['runs']['third']
+        self.assertEqual((third['audit_tries'], third['post_reserved']), (3, 0))
+        with patch.object(w.cycle, 'now', return_value='2026-09-26T08:01:00Z'), \
+             patch.object(fp, 'call') as new_post, \
+             patch.object(fp, 'complete', side_effect=fp.ProviderFailure('audit_pending', 'still waiting', cooldown_hours=1)) as complete:
+            self.assertEqual(w.execute(self.root, 'third')['status'], 'audit_pending')
+            complete.assert_called_once_with({'id': 'gen-saved'}, recovery_hours=12)
+            new_post.assert_not_called()
+        w.finalize(self.root, 'third')
+        self.assertTrue(w.manifest(self.root)['brake'])
+        self.assertEqual(self.prepare('fourth', '2026-09-27T08:00:00Z')['result'], 'operator_review_required')
+        self.assertEqual(sum(r.get('post_reserved', 0) for r in w.manifest(self.root)['runs'].values()), 1)
+
+    def test_missing_recovery_response_never_starts_fresh_inference(self):
+        self.prepare('first')
+        w.write(self.root, w.run_path('first', 'provider-response.json'), {'id': 'gen-saved'})
+        self.prepare('second')
+        (self.root / w.run_path('second', 'provider-response.json')).unlink()
+        with patch.object(w.cycle, 'now', return_value='2026-09-24T08:06:00Z'), patch.object(fp, 'call') as new_post:
+            self.assertEqual(w.execute(self.root, 'second')['status'], 'policy_blocked')
+            new_post.assert_not_called()
+        self.assertTrue(w.read(self.root, w.run_path('second', 'outcome.json'))['brake'])
+
+    def test_missing_saved_response_before_prepare_holds_for_review(self):
+        self.prepare('first')
+        w.write(self.root, w.run_path('first', 'provider-response.json'), {'id': 'gen-saved'})
+        w.write(self.root, w.run_path('first', 'outcome.json'),
+                {'category': 'audit_pending', 'finished_at': '2026-09-24T08:10:00Z', 'cooldown_hours': 1})
+        w.finalize(self.root, 'first')
+        (self.root / w.run_path('first', 'provider-response.json')).unlink()
+        self.assertEqual(self.prepare('later', '2026-09-25T08:00:00Z')['result'], 'operator_review_required')
+        self.assertEqual(w.manifest(self.root)['runs']['later']['post_reserved'], 0)
+        self.assertTrue(w.manifest(self.root)['brake'])
+
+    def test_configured_recovery_wait_and_invalid_values(self):
+        cfg = w.catalog(self.root)
+        cfg['audit_recovery_cooldown_hours'] = 1
+        w.write(self.root, Path('config/week-one.json'), cfg)
+        self.prepare('first')
+        w.write(self.root, w.run_path('first', 'provider-response.json'), {'id': 'gen-saved'})
+        self.prepare('second')
+        with patch.object(w.cycle, 'now', return_value='2026-09-24T08:06:00Z'), \
+             patch.object(fp, 'complete', side_effect=fp.ProviderFailure('audit_pending', 'waiting', cooldown_hours=1)) as complete:
+            w.execute(self.root, 'second')
+            complete.assert_called_once_with({'id': 'gen-saved'}, recovery_hours=1)
+        w.finalize(self.root, 'second')
+        self.assertEqual(w.manifest(self.root)['cooldown_until'], '2026-09-24T09:06:00+00:00')
+        for invalid in [0, -1, 13, True, '1', 1.5]:
+            cfg['audit_recovery_cooldown_hours'] = invalid
+            w.write(self.root, Path('config/week-one.json'), cfg)
+            with self.assertRaises(cycle.CycleError):
+                w.catalog(self.root)
+
+    def test_detected_spend_closes_all_week_one_work(self):
+        self.prepare('first')
+        w.write(self.root, w.run_path('first', 'outcome.json'), {
+            'category': 'spend_detected', 'reason': 'Positive receipt', 'brake': True,
+            'finished_at': '2026-09-24T08:10:00Z'})
+        github_output = self.root / 'step-output.txt'
+        with patch.dict(os.environ, {'GITHUB_OUTPUT': str(github_output)}), patch.object(sys, 'argv',
+                ['week_one.py', 'finalize', '--root', str(self.root), '--run-id', 'first']), patch('builtins.print'):
+            w.main()
+        self.assertIn('closed=true', github_output.read_text())
+        state = w.manifest(self.root)
+        self.assertTrue(state['closed'])
+        self.assertEqual(state['closure_reason'], 'spend_detected')
+        with patch.object(w, 'gather') as gather:
+            self.assertEqual(self.prepare('second', '2026-09-25T08:00:00Z')['status'], 'window_complete')
+            gather.assert_not_called()
+        self.assertIn('spend_detected', (self.root / w.BASE / 'WEEK_ONE_DIGEST.md').read_text())
 
     def test_legacy_policy_blocked_id_only_envelope_is_read_only_recoverable(self):
         self.prepare('first')

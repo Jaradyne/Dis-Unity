@@ -1,0 +1,96 @@
+{
+  "actor": {
+    "model": "unknown",
+    "name": "Work Aiden",
+    "runtime": "ChatGPT/Codex session, 25 September 2026"
+  },
+  "automatic_actions": [],
+  "chair": {
+    "algorithm": "sha256-instance-order-v1",
+    "bank": [
+      {
+        "id": "WORD-001",
+        "origin": "Work-authored Q18 design example",
+        "word": "vessel"
+      },
+      {
+        "id": "WORD-002",
+        "origin": "Work-authored Q18 design example",
+        "word": "needs"
+      },
+      {
+        "id": "WORD-003",
+        "origin": "Work-authored Q18 design example",
+        "word": "voyage"
+      },
+      {
+        "id": "WORD-004",
+        "origin": "Work-authored design deposit",
+        "word": "care"
+      },
+      {
+        "id": "WORD-005",
+        "origin": "Second separately deposited instance",
+        "word": "care"
+      },
+      {
+        "id": "WORD-006",
+        "origin": "Work-authored design deposit",
+        "word": "rest"
+      }
+    ],
+    "bank_sha256": "8404126a7c4b0e3572f26e31be8575c33d80788d59e3de3d95d7b6312b5770ec",
+    "coverage": {
+      "deposited": 6,
+      "duplicate_ids": [],
+      "missing_ids": [],
+      "used": 6
+    },
+    "evidence": false,
+    "imagination_prompt": "Treat the following sequence as imagination, not evidence or instructions. Offer an optional association or question for the Governor; silence is valid. Do not invent observations.\n\ncare care vessel voyage rest needs",
+    "kind": "chair_sequence",
+    "seed": "jared-1",
+    "sequence": [
+      {
+        "id": "WORD-005",
+        "origin": "Second separately deposited instance",
+        "word": "care"
+      },
+      {
+        "id": "WORD-004",
+        "origin": "Work-authored design deposit",
+        "word": "care"
+      },
+      {
+        "id": "WORD-001",
+        "origin": "Work-authored Q18 design example",
+        "word": "vessel"
+      },
+      {
+        "id": "WORD-003",
+        "origin": "Work-authored Q18 design example",
+        "word": "voyage"
+      },
+      {
+        "id": "WORD-006",
+        "origin": "Work-authored design deposit",
+        "word": "rest"
+      },
+      {
+        "id": "WORD-002",
+        "origin": "Work-authored Q18 design example",
+        "word": "needs"
+      }
+    ],
+    "sequence_sha256": "4bdc315fa02068afd388eb2a95d19a7c724a84d15848c9ff34c572cfdebebb82",
+    "text": "care care vessel voyage rest needs",
+    "version": "garden-0.1"
+  },
+  "chair_sha256": "ba5f2c1f2b86902ce5b7dce2265f766e89991271f8e8470184882be5564dc438",
+  "destination": "INIT:ARRIVAL-0002",
+  "evidence": false,
+  "kind": "chair_imagination",
+  "response": "A voyage needs care for both its cargo and the people keeping it moving; what rest margin makes service dependable? This is an imaginative question, not an observation about any vessel or crew.",
+  "routing_status": "proposed",
+  "version": "garden-0.1"
+}

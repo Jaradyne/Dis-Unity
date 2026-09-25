@@ -16,6 +16,7 @@ import subprocess
 import urllib.request
 
 import cycle
+import daily_scroll
 import free_provider
 import questions
 import reflections
@@ -25,6 +26,7 @@ BASE = Path('operations/week-one')
 ACTOR = 'Week One Answer Bee / OpenRouter / Nvidia'
 KINDS = {'FACT', 'PLAUSIBLE MECHANISM', 'EARLY SIGNAL', 'UNKNOWN', 'SPECULATION'}
 NWS = 'https://api.weather.gov/alerts/active?area=CA'
+MAX_AUDIT_TRIES = 3
 
 
 def read(root, path, default=None):
@@ -57,7 +59,11 @@ def run_path(rid, filename):
 
 
 def catalog(root):
-    return read(root, Path('config/week-one.json'))
+    config = read(root, Path('config/week-one.json'))
+    delay = config.get('audit_recovery_cooldown_hours', 12)
+    if type(delay) is not int or not 1 <= delay <= 12:
+        raise cycle.CycleError('Audit recovery delay must be 1 through 12 whole hours')
+    return config
 
 
 def gate(config, state, now):
@@ -206,6 +212,7 @@ def make_prompt(root, q, sources, pending, history, selection):
         'question': {k: q[k] for k in ['question_id', 'question', 'epoch', 'geography']},
         'question_selection': selection,
         'sources': sources, 'pending_reflections': pending, 'previous_run_summaries': history,
+        'daily_scroll': daily_scroll.snapshot(root, limit=3),
         'root': (root / 'CULTURE.md').read_text(),
         'jared_attention': read(root, BASE / 'meaning-tower-attention.json'),
     }
@@ -222,6 +229,7 @@ def make_prompt(root, q, sources, pending, history, selection):
             "A conditional link need not be activated. Give confirmation AND falsification tests; donor reserve unknown unless measured. "
             "Preserve essential functions, managed shedding, transition opportunity, practical commons and caretaker operating capacity. "
             "Treat Jared's Translation Boss choices as attention, not observed translations. English is a human pivot; retain originals. "
+            "Daily Scroll summarizes recorded work for your Governor lens; it adds no independent evidence. "
             "For every named real-world factual claim use provided source IDs. Separate options/inferences from established facts. "
             "Do not fill the schema with unrelated facts just because they are available. If source_fit is poor and the Question cannot "
             "be answered, set should_answer=false, say UNKNOWN plainly, allow claims=[], keep conditional_link inactive, and identify the "
@@ -367,12 +375,26 @@ def prepare(root, rid, *, now=None, fetcher=source_fetch):
     slot = stamp.strftime('%Y%m%d') + ('-AM' if stamp.hour < 12 else '-PM')
     # A saved generation is recovery work, not a new provider reservation. Discover it
     # before slot-budget checks so an audit can finish even after that slot used its POSTs.
+    missing = next((r for r in reversed(list(state['runs'].values()))
+                    if not r.get('recovered_by') and
+                    (r['status'] == 'audit_pending' or (r['status'] == 'interrupted' and r.get('recovery_from')))
+                    and not (root / run_path(r['run_id'], 'provider-response.json')).exists()), None)
     recovered = next((r for r in reversed(list(state['runs'].values()))
-                      if not r.get('recovered_by') and r.get('audit_tries', 1) < 2 and
+                      if not r.get('recovered_by') and
                       (r['status'] in {'interrupted', 'audit_pending'}
                        or (r['status'] == 'complete' and r.get('result') == 'policy_blocked'
                            and id_only_saved_generation(root, r))) and
                       (root / run_path(r['run_id'], 'provider-response.json')).exists()), None)
+    if missing:
+        recovered = missing
+        state['brake'] = {'run_id': missing['run_id'], 'at': cycle.now(),
+                          'reason': 'Saved recovery response is missing; inspect history before any new POST'}
+        reason = 'operator_review_required'
+    elif recovered and recovered.get('audit_tries', 1) >= MAX_AUDIT_TRIES:
+        # An exhausted saved generation is a review task, never permission for a new POST.
+        state['brake'] = {'run_id': recovered['run_id'], 'at': cycle.now(),
+                          'reason': 'Saved generation reached its three-attempt recovery limit'}
+        reason = 'operator_review_required'
     same_slot = [r for r in state['runs'].values() if r.get('slot') == slot]
     operator = state.get('operator_reflight') or {}
     operator_extra = bool(operator.get('remaining', 0) > 0)
@@ -473,7 +495,8 @@ def execute(root, rid):
     request = read(root, run_path(rid, 'request.json'))
     outcome = {'run_id': rid, 'attempt_id': rec['attempt_id'], 'finished_at': cycle.now()}
     try:
-        reason = gate(catalog(root), state, clock())
+        config = catalog(root)
+        reason = gate(config, state, clock())
         if reason:
             raise free_provider.ProviderFailure('policy_blocked', reason, brake=reason == 'operator_review_required')
         # Verify immutable prompt before transmitting anything.
@@ -485,7 +508,11 @@ def execute(root, rid):
             write(root, response_path, value)
             durable(root)
         existing = read(root, response_path)
-        result = free_provider.complete(existing) if existing else free_provider.call(request['settings'], checkpoint=checkpoint)
+        if rec.get('recovery_from') and not existing:
+            raise free_provider.ProviderFailure('policy_blocked', 'Saved recovery response is missing; no new POST', brake=True)
+        delay = config.get('audit_recovery_cooldown_hours', 12)
+        result = (free_provider.complete(existing, recovery_hours=delay) if existing else
+                  free_provider.call(request['settings'], checkpoint=checkpoint, recovery_hours=delay))
         ids = {s['source_id'] for s in read(root, run_path(rid, 'sources.json'))['items']}
         validate_answer(result['result'], ids, set(request['reflection_ids']), rec['question_id'])
         outcome.update(category='partial_answer', output=result, answer_summary=result['result']['answer']['summary'])
@@ -534,12 +561,18 @@ def finalize(root, rid):
             'observations': [outcome.get('reason', category)],
             'suggestions': ['Inspect the saved prompt, provider response if present, and classified result before retrying.']})
         rec['reflection_ids'] = ids
-        if outcome.get('brake') or (category == 'audit_pending' and rec.get('audit_tries', 1) >= 3):
+        if outcome.get('brake') or (category == 'audit_pending' and rec.get('audit_tries', 1) >= MAX_AUDIT_TRIES):
             state['brake'] = {'run_id': rid, 'reason': outcome.get('reason'), 'at': cycle.now()}
         state['cooldown_until'] = (clock(outcome['finished_at']) + timedelta(hours=outcome.get('cooldown_hours', 12))).isoformat()
     rec.update(status='audit_pending' if category == 'audit_pending' else 'complete', result=category, finished_at=outcome['finished_at'])
+    if category == 'spend_detected':
+        state['closed'] = True
+        state['closure_reason'] = 'spend_detected'
     write(root, BASE / 'run-manifest.json', state)
-    render(root)
+    if category == 'spend_detected':
+        close(root)
+    else:
+        render(root)
     return {'status': category, 'run_id': rid}
 
 
@@ -578,6 +611,7 @@ def render(root):
               'Public-source coverage: EIA diesel/energy feed metadata and up to 12 NWS California active alerts.',
               'Research publication, source access, current operating capacity and model interpretation have separate provenance.']
     cycle.write_bytes(root / BASE / 'INDEX.md', ('\n'.join(lines) + '\n').encode(), replace=True)
+    daily_scroll.render(root)
 
 
 def close(root):
@@ -588,6 +622,7 @@ def close(root):
     render(root)
     runs = list(state['runs'].values())
     summary = ['# Week One digest', '', f"Closed {state['closed_at']}.", '',
+               f"Closure reason: {state.get('closure_reason', 'configured window complete')}.", '',
                f"{len(runs)} recorded runs; {sum(r.get('result') == 'partial_answer' for r in runs)} provisional answers.", '',
                'Review the [run index](INDEX.md), shared Questions, provider receipts and reflection decisions before admitting findings.', '']
     for rid in state['runs']:
@@ -611,10 +646,11 @@ def main():
     root = args.root.resolve()
     result = close(root) if args.command == 'close' else globals()[args.command](root, args.run_id)
     print(json.dumps(result or {'status': 'closed'}))
-    if args.command == 'prepare' and os.environ.get('GITHUB_OUTPUT'):
+    if args.command in {'prepare', 'finalize'} and os.environ.get('GITHUB_OUTPUT'):
         with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
-            f.write('prepared=' + str(result['status'] == 'prepared').lower() + '\n')
-            f.write('closed=' + str(result['status'] == 'window_complete').lower() + '\n')
+            if args.command == 'prepare':
+                f.write('prepared=' + str(result['status'] == 'prepared').lower() + '\n')
+            f.write('closed=' + str(bool(manifest(root).get('closed'))).lower() + '\n')
 
 
 if __name__ == '__main__':
