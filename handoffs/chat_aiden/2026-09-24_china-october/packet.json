@@ -1,0 +1,292 @@
+{
+  "packet_version": "chat-handoff-1",
+  "packet_id": "CHAT-20260924-china-october",
+  "created_at": "2026-09-24",
+  "date_precision": "UTC date",
+  "base_commit": "0a4fc4d1ceaac3ffd1248d72f8c1828f292ab28f",
+  "base_cycle": "RC-004",
+  "actor": {
+    "runtime": "Codex / Work Aiden preparing a staged thought-partner packet",
+    "provider": "OpenAI",
+    "model": "unknown"
+  },
+  "status": "ready_for_review",
+  "question_id": "Q-RESEARCH-Q23",
+  "epoch": 1,
+  "question_refs": [
+    {
+      "question_id": "Q-RESEARCH-Q23",
+      "epoch": 1
+    },
+    {
+      "question_id": "Q-RESEARCH-Q18",
+      "epoch": 1
+    },
+    {
+      "question_id": "Q-RESEARCH-Q01",
+      "epoch": 1
+    },
+    {
+      "question_id": "Q-RESEARCH-Q11",
+      "epoch": 1
+    },
+    {
+      "question_id": "Q-MEANING-TRANSLATION-BOSS",
+      "epoch": 1
+    }
+  ],
+  "task": "Investigate Chinese diesel allocations ahead of October, official-site meaning differences, downstream service exposure and freight electrification.",
+  "answer": {
+    "summary": "October allocation, diesel-specific permissions and actual arrival cover remain unverified. Published truck policies establish an electrification push but not deployed October capacity. The English/Chinese subsidy comparison preserves consistent priority and a summary-length omission, not a contradiction.",
+    "status": "provisional",
+    "evidence_refs": [
+      "CN-OCT-01",
+      "CN-OCT-02",
+      "CN-OCT-03",
+      "CN-OCT-04"
+    ],
+    "counterevidence": [
+      "Matched subsidy wording is consistent.",
+      "Reported August export growth is a lead against a monotonic deterioration hypothesis.",
+      "Alternative shipments, inventory and substitution may buffer a permission reduction."
+    ],
+    "limitations": [
+      "No official October diesel quantity verified in the bounded search.",
+      "Direct customs monthly-page access timed out.",
+      "Policy records are not operational stock, disbursement or route-performance measurements.",
+      "No matched October export-language pair; the actual comparison concerns truck policy.",
+      "English policy digest is an editorial summary, not a certified translation."
+    ]
+  },
+  "sources": [
+    {
+      "source_id": "CN-OCT-01",
+      "publisher": "MOFCOM/GACC",
+      "title": "2026 export-license goods catalogue",
+      "url": "https://wms.mofcom.gov.cn/zcfb/wmgl/art/2025/art_c7cfa341670b456c8119042be393e062.html",
+      "publication_date": "2025-12-31",
+      "document_date": "2025-12-30",
+      "observation_period": "2026 licensing framework; effective 2026-01-01",
+      "retrieval_date": "2026-09-24",
+      "access": "full public text",
+      "limitations": "No allocation amount or October loading plan established.",
+      "finding": "Relevant refined-product export licenses require quota documentation."
+    },
+    {
+      "source_id": "CN-OCT-02",
+      "publisher": "MOT/NDRC",
+      "title": "2026 commercial-truck scrappage and replacement policy",
+      "url": "https://xxgk.mot.gov.cn/jigou/zhghs/202604/t20260427_4204392.html",
+      "publication_date": "2026-04-28",
+      "document_date": "2026-03-20",
+      "observation_period": "Program applies 2026-01-01 through 2026-12-31",
+      "retrieval_date": "2026-09-24",
+      "access": "full public text; subsidy annex not inspected",
+      "limitations": "URL date is not publication date. Actual payouts unverified.",
+      "finding": "Electric replacements receive priority; earlier funding gaps require separate funding."
+    },
+    {
+      "source_id": "CN-OCT-03",
+      "publisher": "State Council website; source credited to China Daily",
+      "title": "Govt policy moves from past week",
+      "url": "https://english.www.gov.cn/policies/policywatch/202605/06/content_WS69fad36ac6d00ca5f9a0ac80.html",
+      "publication_date": "unknown; page labels its displayed date as Updated",
+      "observation_period": "Summary of the 2026 truck-replacement program",
+      "retrieval_date": "2026-09-24",
+      "access": "full public text",
+      "limitations": "Government-hosted summary; not the operative notice or a line-by-line translation.",
+      "finding": "Electric priority and local responsibility beyond allocated central funding are retained.",
+      "updated_date": "2026-05-06 13:36 (timezone not stated on page)"
+    },
+    {
+      "source_id": "CN-OCT-04",
+      "publisher": "MOT and ten other bodies",
+      "title": "Large-scale new-energy heavy-truck application plan",
+      "url": "https://xxgk.mot.gov.cn/jigou/zhghs/202606/t20260612_4207423.html",
+      "publication_date": "2026-06-12",
+      "document_date": "2026-05-29",
+      "observation_period": "Policy with targets through 2030",
+      "retrieval_date": "2026-09-24",
+      "access": "full public text",
+      "limitations": "Targets are not achieved fleet or delivered freight; new-energy does not mean exclusively battery-electric.",
+      "finding": "Targets include >1.6 million new-energy heavy trucks and roughly 3,000 charging/swapping stations; grid and repair support are included."
+    },
+    {
+      "source_id": "CN-OCT-05",
+      "publisher": "MOFCOM",
+      "title": "2026 non-state-trade fuel-oil import allowance",
+      "url": "https://wms.mofcom.gov.cn/zcfb/wmgl/art/2025/art_99e46c7e9c174ad5a0e074430ce77665.html",
+      "publication_date": "2025-12-11",
+      "document_date": "2025-12-05",
+      "observation_period": "2026 annual imports",
+      "retrieval_date": "2026-09-24",
+      "access": "full public text",
+      "limitations": "Different commodity/trade direction from diesel exports.",
+      "finding": "20 million tonnes is a fuel-oil import allowance, not an October diesel-export allocation."
+    },
+    {
+      "source_id": "CN-OCT-06",
+      "publisher": "Reuters",
+      "title": "China's August refined fuel exports exceed pre-Iran war levels, jet fuel exports hit record high",
+      "url": "https://www.reuters.com/business/energy/chinas-august-refined-fuel-exports-exceed-pre-iran-war-levels-jet-fuel-exports-2026-09-18/",
+      "publication_date": "2026-09-18",
+      "observation_period": "August 2026",
+      "retrieval_date": "2026-09-24",
+      "access": "search-returned article excerpt; direct open failed",
+      "limitations": "Secondary attributed customs report; underlying series not independently retrieved.",
+      "finding": "Reports August diesel-export growth; retained only as a verification lead."
+    }
+  ],
+  "access_gaps": [
+    {
+      "url": "https://english.customs.gov.cn/statics/report/monthly.html",
+      "retrieval_date": "2026-09-24",
+      "result": "Direct web retrieval timed out; no current table inspected."
+    },
+    {
+      "url": "https://www.ndrc.gov.cn/xwdt/xwfb/202609/t20260924_1407824.html",
+      "retrieval_date": "2026-09-24",
+      "result": "Search text returned, direct page retrieval failed twice; not used as a full-page finding."
+    },
+    {
+      "url": "https://english.scio.gov.cn/pressroom/2026-07/21/content_118610556.html",
+      "retrieval_date": "2026-09-24",
+      "result": "Direct retrieval timed out; not used for a matched comparison."
+    }
+  ],
+  "comparison": {
+    "question_id": "Q-MEANING-TRANSLATION-BOSS",
+    "sources": [
+      "CN-OCT-02",
+      "CN-OCT-03"
+    ],
+    "match_basis": "Same 2026 commercial-truck replacement program, agencies, electric priority and central/local funding mechanism. English digest omits document number; it is an account of the policy, not an official translation.",
+    "original_short": "优先支持更新为电动货车",
+    "english_pivot": "Give priority to replacement with electric trucks.",
+    "control": "Both accounts preserve electric priority and the funding boundary.",
+    "difference": "Prior-year funding-gap details in the full Chinese notice are absent from the short English account.",
+    "ordinary_explanations": [
+      "Different document genre and length",
+      "English item is a later news digest"
+    ],
+    "status": "No substantive contradiction established",
+    "operational_question": "Can an eligible carrier receive the subsidy and charging access in time to replace working freight capacity?"
+  },
+  "sample_for_jared": {
+    "title": "Who carries the gap?",
+    "text": "The two accounts agree on electric priority. The longer notice raises a practical next question: when does the support become cash that lets a carrier finish the change?",
+    "control": "Consistent policy wording across the notice and digest; missing administrative detail is not proof of concealment."
+  },
+  "watch_protocol": {
+    "october_focus": "Chinese diesel allocation, actual deliveries, official wording and freight electrification",
+    "permission_fields": [
+      "issuer/document",
+      "publication/effective/retrieval dates",
+      "product/grade",
+      "units",
+      "annual/batch/monthly period",
+      "recipient scope",
+      "amendments"
+    ],
+    "operating_fields": [
+      "refinery output and domestic commitments",
+      "diesel-specific customs flow",
+      "cargo loading and arrival dates",
+      "importer usable stock and replenishment",
+      "delivered trucks",
+      "energized charging",
+      "paid subsidies",
+      "freight completed and fuel displaced"
+    ],
+    "confirmation": "Reduced cargoes plus insufficient compatible replacement before accessible stock cover expires; name the receiving service and interval.",
+    "falsification": "Timely replacement deliveries or tested substitution maintain service; explain the tested location and period.",
+    "stop_rule": "No run-out date, donor reserve or October quantity from an allocation headline alone."
+  },
+  "resilience": {
+    "buffers": "Compatible usable inventory and confirmed arriving cargoes; quantities unknown.",
+    "safe_shedding": "Consolidate optional trips and use backhauls while protecting essential access and food handling.",
+    "adaptation_growth": "A tested depot-return route, shared charging and repair capability; no operator commitment.",
+    "lifeboat": "A verified alternative carrier or compatible rail/electric service; spare capacity unknown.",
+    "outside_support": "Require export authority, donor capacity after commitments, route access and receiving compatibility.",
+    "commons": "Opt-in shared delivery/backhaul board; no private recipient data or claimed partner."
+  },
+  "reflection": {
+    "actor": "Work Aiden",
+    "level": "coordinator",
+    "origin": "self_report",
+    "summary": "Permission, policy support and completed service need separate evidence. Official-language comparison helped identify a practical funding question without manufacturing a contradiction.",
+    "observations": [
+      "Full notices and short summaries can agree while exposing different operational details.",
+      "The food-cover denominator gap recurs in fuel arrivals and usable electric-freight capacity."
+    ],
+    "suggestions": [
+      "Preserve product, trade direction, date and denominator before comparing amounts.",
+      "Prefer a dated payout or shipment record for the next bounded check."
+    ],
+    "questions": [
+      "Which October permission can be paired with a corresponding shipment and a receiving-stock observation?"
+    ],
+    "uncertainties": [
+      "October allocation and usable donor/export capacity remain unknown."
+    ],
+    "source_refs": [
+      "CN-OCT-01",
+      "CN-OCT-02",
+      "CN-OCT-03",
+      "CN-OCT-04"
+    ]
+  },
+  "governor_response": {
+    "reflection_ids": [
+      "REFL-EE5CFC158BA9B9D16A9E7BDB",
+      "REFL-7CE785B4BA9EB9DF6FEFB7C7"
+    ],
+    "summary": "Apply the mailbox's ordinary-explanation discipline to the matched truck-policy account, and carry its operating-capacity lesson into October diesel permissions and arrivals.",
+    "followups": [
+      {
+        "recipient": "Chat Aiden",
+        "question": "Seek one primary October export allocation/operating instruction and a corresponding physical flow indicator."
+      },
+      {
+        "recipient": "Work Aiden",
+        "question": "Review this staging packet under Q23 and related Q18/Translation Boss; keep all unverified capacities open."
+      }
+    ],
+    "self_reflection": "A missing detail becomes useful when it directs a check of service or cash flow, rather than a claim about intent."
+  },
+  "scope": {
+    "canonical_research_changed": false,
+    "runtime_changed": false,
+    "paid_services_used": false,
+    "providers_contacted": [],
+    "emails_sent": false,
+    "automation_updates": {
+      "verified_on": "2026-09-24",
+      "tasks": [
+        "Diesel Nerve Watch",
+        "Week One Governor"
+      ],
+      "result": "October topic priority added to both existing prompts; success confirmed. Schedules and Week One end unchanged."
+    }
+  },
+  "next_action": "Verify a primary October allocation or operating instruction and pair it with a shipment/arrival observation.",
+  "stop_reason": "Bounded source pass; October amount and actual service cover unresolved.",
+  "review": {
+    "reviewer": "Codex specialist china_packet_review",
+    "scope": "Independent check of the three truck-policy/English-digest pages and staged claims; not a whole-source or operational audit.",
+    "result": "No substantive blocker in checked comparison and electrification claims; provisional status retained.",
+    "corrections_applied": [
+      "Narrowed funding restriction to central subsidy allocations.",
+      "Preserved English page date as Updated rather than known publication.",
+      "Described notice/digest wording as consistent, not a verified translation relationship."
+    ],
+    "unreviewed": [
+      "MOFCOM sources",
+      "Reuters/customs underlying series",
+      "October allocations",
+      "actual disbursements",
+      "deployed fleet",
+      "usable reserve"
+    ]
+  }
+}
