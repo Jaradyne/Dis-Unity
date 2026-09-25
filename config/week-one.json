@@ -7,6 +7,7 @@
   "schedule_utc": "47 3,15 * * *",
   "human_timezone": "America/Los_Angeles",
   "max_provider_posts_per_utc_day": 4,
+  "audit_recovery_cooldown_hours": 1,
   "questions": [
     "Q-RESEARCH-Q01",
     "Q-RESEARCH-Q17",

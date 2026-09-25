@@ -1,0 +1,112 @@
+{
+  "schema_version": "garden-worked-example-0.1",
+  "status": "design_example_pending_discussion",
+  "pass_id": "WORK-GARDEN-Q18-20260925-1",
+  "actor": {"name": "Work Aiden", "runtime": "ChatGPT/Codex session", "model": "unknown"},
+  "basis": {
+    "main_commit": "b27ff7a6dbdfb23ea3e98bcd63c6e9f9ac209856",
+    "state_commit": "4351e8b62d1887df9a81fb7692e36650225b0258",
+    "design_pr_head": "2f685fe07323c828f3982306b3a371477c46d90d",
+    "template": "INIT from Logic Tree Garden, 2026-09-24 draft",
+    "input_packet": "handoffs/week_one_governor/2026-09-25.json",
+    "input_status": "provisional; awaiting Work evidence review",
+    "source_retrieval_in_this_review": false
+  },
+  "question_id": "Q-RESEARCH-Q18",
+  "epoch": 1,
+  "question": "Which local diesel function can be replaced with demonstrated reliable service?",
+  "evidence_refs": ["GOV-20260925-01", "GOV-20260925-02"],
+  "evidence_namespace": "source_ledger in the pinned input_packet; not new canonical source IDs",
+  "source_urls": [
+    "https://www.ccs.org.cn/ccswz/articleDetail?id=202604070331469396",
+    "https://www.ccs.org.cn/ccswz/articleDetail?id=202607060127336064"
+  ],
+  "steps": [
+    {
+      "node_id": "ROOT-0001",
+      "result": "The staged Q18 packet reports construction certification and a sister vessel's delivery, while reliable freight service remains unverified."
+    },
+    {
+      "node_id": "ARRIVAL-0002",
+      "arrival_type": "staged_research_output",
+      "result": "Retain the packet's authorship, source access limits and provisional status."
+    },
+    {
+      "node_id": "EPIST-0003",
+      "epistemic_state": "UNKNOWN",
+      "result": "Reliable diesel replacement is unknown. Milestone claims and plausible replacement mechanisms remain separately attributed to the input packet."
+    },
+    {
+      "node_id": "FUNC-0004",
+      "result": "Potential function: dependable coastal freight. Essential-cargo role, route, schedule, energy availability, crew and backup capacity remain unknown."
+    },
+    {
+      "node_id": "MIRROR-0005",
+      "expected_observations_if_claim_supported": [
+        "Dated loaded departures and arrivals on one named route",
+        "Freight carried and planned versus completed sailings over a defined interval",
+        "Energy replenishment, downtime and use of diesel substitutes"
+      ],
+      "expected_numeric_band": null,
+      "observed_numeric_band": null,
+      "result": "No numeric performance band is justified by the saved packet. Missing service measurements are a coverage gap."
+    },
+    {
+      "node_id": "CROSS-0006",
+      "controls": [
+        "A delivery announcement describes a construction milestone, not later timetable reliability.",
+        "A newly delivered diesel vessel has the same service-evidence requirement.",
+        "Two sister vessels must not be conflated, and two pages from one publisher are not independent service confirmation.",
+        "There is no matched official English original in this packet; no Chinese/English contradiction is established."
+      ],
+      "result": "Ordinary genre and stage distinctions explain why positive delivery wording does not establish a service claim. Actual operating performance remains unknown."
+    },
+    {
+      "node_id": "RESID-0007",
+      "residual_kind": "missing_operating_evidence",
+      "result": "Seek one route-specific operating record. This residual does not by itself prove failure, reliability, diesel displacement or exportable surplus.",
+      "teleport": {
+        "status": "proposed",
+        "destination_tree_id": null,
+        "existing_question_id": "Q-RESEARCH-Q18",
+        "reason": "A general milestone report cannot answer the route-performance question.",
+        "stop_condition": "One bounded primary operating record establishes comparable measures, or the missing measures and access limits are explicitly retained."
+      }
+    },
+    {
+      "node_id": "MEAN-0008",
+      "result": "Protect essential-delivery claims from premature certainty while recognizing concrete engineering progress. Missing care capacity is a measurement to seek, not a reason to erase the progress.",
+      "culture_flower": {"text": "A vessel needs a voyage.", "kind": "Work-authored design metaphor", "evidence_status": "none"}
+    },
+    {
+      "node_id": "EXIT-0009",
+      "outputs": ["linked provisional packet", "bounded followup proposal", "unresolved operating-capacity fields"],
+      "result": "Keep Q18 open. Record no reserve quantity, donor commitment, completed freight or earned power."
+    },
+    {
+      "node_id": "RETURN-0010",
+      "result": "A later actual service record can become a linked arrival. Repeating this unchanged packet does not require another pass.",
+      "automatic_reentry": false
+    }
+  ],
+  "governor_preview": {
+    "status": "Work-authored illustration, not a Governor execution",
+    "reflection_ids": [
+      "REFL-7CE785B4BA9EB9DF6FEFB7C7",
+      "REFL-EE5CFC158BA9B9D16A9E7BDB",
+      "REFL-5A4DEEE4477155CB503D988F"
+    ],
+    "possible_disposition": "question",
+    "possible_response": "Which recorded voyage turns installed capacity into dependable service?",
+    "other_valid_responses": ["acknowledge", "silence"],
+    "automatic_actions": []
+  },
+  "bee_arrangement": {"status": "awaiting Jared's design choice", "selected": null},
+  "boss_preview": {
+    "name": "The Unresolved",
+    "status": "design illustration, not played",
+    "useful_unknown_to_keep": "Reliable service until route-performance evidence is available",
+    "unsupported_inference_to_drop": "A delivered electric vessel already proves dependable diesel replacement",
+    "earned_power": null
+  }
+}

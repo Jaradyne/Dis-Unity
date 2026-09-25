@@ -18,11 +18,12 @@
     "price_ceiling": 0,
     "prerequisites": [
       "live zero-price model-specific catalog",
-      "read-only confirmation of no active applicable BYOK",
+      "authenticated inference key; account setup excludes applicable BYOK and enforced paid plugins",
       "durable request checkpoint",
       "bounded budget and time window"
     ],
-    "verification": "per-generation identity, cost and BYOK receipt"
+    "verification": "per-generation identity, cost and BYOK receipt; missing fields recover by generation ID; positive cost closes Week One",
+    "account_setup": "Auto top-up off; no applicable Nvidia BYOK; paid default plugins off. Account settings were not inspected in this integration. No unverified key-limit-zero guarantee is assumed."
   },
   "generic_worker": "scripts/worker.py remains mock or deferred Gemini; Week One uses its own reviewed adapter.",
   "gemini": "Deferred; retain prompts. No automatic downgrade or fallback."

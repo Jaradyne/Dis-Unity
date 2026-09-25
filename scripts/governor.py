@@ -6,15 +6,27 @@ import json
 import sys
 
 import cycle
+import daily_scroll
+import garden
 import reflections
 
 
-def prepare(root, limit=50, offset=0):
+def prepare(root, limit=50, offset=0, imagination=None):
     attention = reflections.attend(root, limit, offset)
+    if imagination is not None:
+        if (not isinstance(imagination, dict) or imagination.get('kind') != 'chair_imagination'
+                or imagination.get('evidence') is not False or len(cycle.encoded(imagination)) > 24000):
+            raise cycle.CycleError('Governor imagination input must be a bounded non-evidence Chair response')
+        expected = garden.attach_imagination(imagination.get('chair', {}), imagination.get('response'),
+                                             imagination.get('actor'), imagination.get('destination'))
+        if imagination != expected:
+            raise cycle.CycleError('Chair input differs from its preserved sequence and response envelope')
     return {
         "kind": "governor_reflection_review", "prepared_at": cycle.now(),
         "role": cycle.read_json(Path(root) / "agents/governor.json"),
         "attention": attention,
+        "inputs": {"daily_scroll": daily_scroll.snapshot(root), "chair_imagination": imagination},
+        "input_treatment": "Daily Scroll is a projection of dated records. Chair sequence and AI interpretation are imagination, never evidence. Read as context; choose a response or silence. No followup executes automatically.",
         "request": "Consider these contributions and choose your own response. Share brief conclusions and lessons, not private reasoning. Collaborate with Chat Aiden, Work Aiden, the human, or other thought partners as useful. Record a response with scripts/reflections.py respond. Followups are recorded invitations, not sent messages or executed tasks.",
         "response_fields": {"review_id": "unique ID", "actor": "actual reviewer/runtime",
             "reflection_ids": "IDs actually considered", "disposition": "your chosen response",
@@ -29,11 +41,13 @@ def main():
     p.add_argument("--root", type=Path, default=Path(__file__).resolve().parents[1])
     p.add_argument("--limit", type=int, default=50)
     p.add_argument("--offset", type=int, default=0)
+    p.add_argument("--imagination", type=Path, help="Optional saved Chair + attributed AI response; non-evidence")
     p.add_argument("--output", type=Path, help="Optional immutable review packet under operations/")
     args = p.parse_args()
     try:
         root = args.root.resolve()
-        result = prepare(root, args.limit, args.offset)
+        imagination = cycle.read_json(args.imagination) if args.imagination else None
+        result = prepare(root, args.limit, args.offset, imagination)
         if args.output:
             path = args.output.resolve()
             if root in path.parents and path.relative_to(root).parts[0] != "operations":

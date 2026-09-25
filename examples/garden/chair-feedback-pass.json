@@ -1,0 +1,82 @@
+{
+  "actor": {
+    "model": "unknown",
+    "name": "Work Aiden",
+    "runtime": "ChatGPT/Codex session, 25 September 2026"
+  },
+  "epoch": 1,
+  "input_refs": [
+    "examples/garden/chair-imagination.json"
+  ],
+  "pass_id": "WORK-GARDEN-CHAIR-Q18-20260925-1",
+  "question_id": "Q-RESEARCH-Q18",
+  "status": "Work-session imagination feedback; non-evidence",
+  "steps": [
+    {
+      "name": "Care for cargo and caretakers",
+      "node_id": "ROOT-0001"
+    },
+    {
+      "arrival": {
+        "from": "Work Aiden imagination response",
+        "id": "CHAIR-Q18-20260925-1",
+        "payload": {
+          "evidence": false,
+          "kind": "chair_imagination",
+          "ref": "examples/garden/chair-imagination.json",
+          "sha256": "835cacc1a6883a7aaacda70e2092c8f45dc007ba3c0e93ee322a9362a57c4010"
+        },
+        "to": "INIT:ROOT-0001"
+      },
+      "node_id": "ARRIVAL-0002"
+    },
+    {
+      "node_id": "EPIST-0003",
+      "prompt": "What rest margin would help make a freight service dependable?",
+      "starting_state": "IMAGINATION: this association supplies a possible question, no evidence or capacity estimate."
+    },
+    {
+      "function": "Dependable service with caretaker recovery",
+      "node_id": "FUNC-0004",
+      "task": "Offer the Governor one possible question"
+    },
+    {
+      "comparisons": [
+        {
+          "answers": [],
+          "explanation": "Repeated care may refer to cargo and caretakers, or simply be an effect of the word bank.",
+          "queries": []
+        }
+      ],
+      "node_id": "MIRROR-0005"
+    },
+    {
+      "bridge": [],
+      "independent": [],
+      "inherited": [],
+      "node_id": "CROSS-0006"
+    },
+    {
+      "node_id": "RESID-0007",
+      "summary": "No empirical residual is established by the Chair. A participant may choose to investigate the question."
+    },
+    {
+      "culture_flower": {
+        "evidence": false,
+        "text": "Care carries the voyage; rest carries care."
+      },
+      "node_id": "MEAN-0008",
+      "summary": "The word bank suggested attention to the people sustaining a voyage."
+    },
+    {
+      "kind": "question",
+      "node_id": "EXIT-0009",
+      "summary": "What rest or relief arrangement would make one route dependable, and what evidence could show it?"
+    },
+    {
+      "new_arrival": null,
+      "node_id": "RETURN-0010",
+      "reason": "Rest until someone deliberately adopts the question or supplies a new arrival."
+    }
+  ]
+}

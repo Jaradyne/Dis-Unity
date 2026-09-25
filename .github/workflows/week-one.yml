@@ -51,13 +51,14 @@ jobs:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
         run: python scripts/week_one.py execute
       - name: Project answer and reflection
+        id: finalize
         if: always() && steps.restore.outcome == 'success' && steps.prepare.outputs.prepared == 'true'
         run: python scripts/week_one.py finalize
       - name: Preserve outcome and review
         if: always() && steps.restore.outcome == 'success'
         run: python scripts/week_one_state.py save
-      - name: End the seven-day schedule
-        if: steps.prepare.outputs.closed == 'true'
+      - name: Stop Week One after closure
+        if: always() && (steps.prepare.outputs.closed == 'true' || steps.finalize.outputs.closed == 'true')
         env:
           GH_TOKEN: ${{ github.token }}
         run: gh api --method PUT repos/Jaradyne/Dis-Unity/actions/workflows/week-one.yml/disable

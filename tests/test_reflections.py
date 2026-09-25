@@ -6,6 +6,8 @@ from unittest.mock import patch
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
 import cycle
+import daily_scroll
+import garden
 import governor
 import questions
 import reflections
@@ -100,6 +102,32 @@ class ReflectionTests(unittest.TestCase):
         self.assertEqual(packet["attention"]["pending_count"], 1)
         self.assertIn("Work Aiden", packet["request"])
         self.assertEqual(before, (self.root / reflections.STORE).read_bytes())
+
+    def test_daily_scroll_dates_order_and_chair_feedback_preserve_sources(self):
+        (self.root / 'agents').mkdir()
+        (self.root / 'agents/governor.json').write_text('{"id":"governor"}')
+        state = {'runs': {name: {'started_at': date, 'status': 'complete', 'result': 'partial_answer'}
+                         for name, date in [('z-old', '2026-09-24T01:00:00Z'), ('a-new', '2026-09-25T01:00:00Z')]}}
+        manifest = self.root / daily_scroll.BASE / 'run-manifest.json'
+        cycle.write_json(manifest, state)
+        folder = self.root / daily_scroll.BASE / 'runs/a-new'
+        cycle.write_json(folder / 'outcome.json', {'answer_summary': 'Usable reserve is unknown.'})
+        cycle.write_json(folder / 'sources.json', {'retrieved_at': '2026-09-25T00:59:00Z', 'new_or_changed_ids': ['s1']})
+        reflections.post(self.root, {'actor': 'test', 'level': 'worker', 'summary': 'Read recorded work.'})
+        before = {p: p.read_bytes() for p in self.root.rglob('*') if p.is_file()}
+        scroll = daily_scroll.snapshot(self.root, limit=1)
+        self.assertEqual([r['run_id'] for r in scroll['recent_runs']], ['a-new'])
+        self.assertEqual(scroll['recent_runs'][0]['retrieved_at'], '2026-09-25T00:59:00Z')
+        imagination = garden.attach_imagination(garden.generate_chair([
+            {'id': 'ONE', 'word': 'care'}, {'id': 'TWO', 'word': 'care'}], 'fixture'),
+            'Who needs rest?', {'name': 'test fixture', 'runtime': 'unit test'})
+        packet = governor.prepare(self.root, imagination=imagination)
+        self.assertEqual(packet['inputs']['chair_imagination'], imagination)
+        self.assertEqual([r['run_id'] for r in packet['inputs']['daily_scroll']['recent_runs']], ['z-old', 'a-new'])
+        self.assertEqual(before, {p: p.read_bytes() for p in self.root.rglob('*') if p.is_file()})
+        imagination['chair']['text'] = 'altered sequence'
+        with self.assertRaises(cycle.CycleError):
+            governor.prepare(self.root, imagination=imagination)
 
 
 if __name__ == "__main__":

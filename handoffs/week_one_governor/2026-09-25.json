@@ -108,7 +108,7 @@
   "governor_response": {
     "reflection_ids": [
       "REFL-7CE785B4BA9EB9DF6FEFB7C7",
-      "REFL-EE5CFC158BA9BEB56DBE05",
+      "REFL-EE5CFC158BA9B9D16A9E7BDB",
       "REFL-5A4DEEE4477155CB503D988F",
       "REFL-56C2BE466F15ACC84510F748"
     ],
@@ -125,6 +125,16 @@
     ],
     "self_reflection": "The useful advance is not to call electrification solved, but to locate the exact rung now reached: replicated, certified hardware with explicit design buffers, awaiting service evidence."
   },
+  "corrections": [{
+    "date": "2026-09-25",
+    "actor": "Work Aiden",
+    "field": "governor_response.reflection_ids",
+    "original": "REFL-EE5CFC158BA9BEB56DBE05",
+    "corrected": "REFL-EE5CFC158BA9B9D16A9E7BDB",
+    "reason": "Transcription error: the intended official-language/cultural-coverage reflection was read in the live mailbox. Its exact ID is restored; no reflection text or authorship changes.",
+    "original_packet_commit": "b27ff7a6dbdfb23ea3e98bcd63c6e9f9ac209856",
+    "verified_mailbox_commit": "4351e8b62d1887df9a81fb7692e36650225b0258"
+  }],
   "operational_review": {
     "latest_run": "https://github.com/Jaradyne/Dis-Unity/actions/runs/36048555357",
     "workflow_status": "completed / success",

@@ -1,4 +1,8 @@
-# 24 September Week One launch — current entry point
+# 25 September Garden integration — current entry point
+
+Jared accepted Collector Crosscheck with bounded specialist birth on consequential residual; the permanent Crosscheck Bee remains unresolved. Read [the integration note](operations/INTEGRATION_2026-09-25.md) and [the small Python walkthrough](docs/GARDEN.md). Recovery and reflection-reference repairs accompany an on-demand initiating grammar, stable teleports, Daily Scroll and a preserved non-evidence Chair example. Check live state for the actual post-integration outcome. Older review recommendations below are historical where superseded.
+
+## 24 September Week One launch
 
 Read [WEEK_ONE_HANDOFF.md](WEEK_ONE_HANDOFF.md) first. It supersedes the older provider pause and architecture-only next steps below. PRs #5 and #6 are preserved in full. Live operational records are on `week-one-state`; main holds reviewed runtime and policy.
 
