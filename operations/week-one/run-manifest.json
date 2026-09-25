@@ -1,7 +1,7 @@
 {
   "brake": {
-    "at": "2026-09-25T17:17:15.064961+00:00",
-    "reason": "Saved generation awaits its audit; recover this receipt without another POST",
+    "at": "2026-09-25T19:34:23.210541+00:00",
+    "reason": "Saved generation reached its three-attempt recovery limit",
     "run_id": "gh-36166138616-1"
   },
   "closed": false,
@@ -241,6 +241,19 @@
       "sources": "operations/week-one/runs/gh-36166138616-1/sources.json",
       "started_at": "2026-09-25T17:17:10.189274+00:00",
       "status": "audit_pending"
+    },
+    "gh-36180495833-1": {
+      "execution_url": "https://github.com/Jaradyne/Dis-Unity/actions/runs/36180495833",
+      "post_reserved": 0,
+      "result": "operator_review_required",
+      "run_id": "gh-36180495833-1",
+      "scout_reflections": [
+        "REFL-A091469CC8BBA8E6C71A0BC6"
+      ],
+      "slot": "20260925-PM",
+      "sources": "operations/week-one/runs/gh-36180495833-1/sources.json",
+      "started_at": "2026-09-25T19:34:23.200922+00:00",
+      "status": "deferred"
     }
   },
   "version": 1

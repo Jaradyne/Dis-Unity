@@ -2,17 +2,9 @@
 
 Current snapshot of up to 6 recent recorded runs; their original dates remain visible.
 
-As of 2026-09-25T17:17:15.078454+00:00.
+As of 2026-09-25T19:34:23.536595+00:00.
 
 Projection of records, not additional corroboration or admitted research.
-
-## gh-35980783938-2
-
-2026-09-24T09:23:00.589368+00:00 · complete / policy_blocked
-
-Inline usage does not establish zero cost and non-BYOK
-
-[Saved note](runs/gh-35980783938-2/HUMAN_NOTE.md) · 0 changed selected source records.
 
 ## gh-35981423237-1
 
@@ -53,3 +45,11 @@ UNKNOWN – the supplied evidence does not measure delivery performance or the e
 Saved generation awaits its audit; recover this receipt without another POST
 
 [Saved note](runs/gh-36166138616-1/HUMAN_NOTE.md) · 0 changed selected source records.
+
+## gh-36180495833-1
+
+2026-09-25T19:34:23.200922+00:00 · deferred / operator_review_required
+
+No synthesis recorded.
+
+[Saved note](runs/gh-36180495833-1/HUMAN_NOTE.md) · 6 changed selected source records.
