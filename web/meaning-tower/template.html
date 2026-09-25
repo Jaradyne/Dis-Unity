@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="dark">
+<meta name="description" content="A Meaning Tower encounter. Preserve a question under uncertainty; leave evidence intact.">
+<title>Meaning Tower · The Unresolved</title>
+<style>__BOSS_CSS__</style>
+</head>
+<body>
+<a class="skip-link" href="#encounter">Skip to encounter</a>
+<div class="tower-shell">
+  <header class="masthead">
+    <a class="tower-mark" href="./index.html" aria-label="Meaning Tower home"><span aria-hidden="true">✦</span> MEANING TOWER</a>
+    <span class="masthead-note">a garden of things worth keeping</span>
+    <span class="mode-mark">NO SCORE · NO FALSE VERDICTS</span>
+  </header>
+  <nav class="series" aria-label="Weekly boss series">
+    <div class="series-heading"><span class="eyebrow" id="seriesTitle">THE WEEKLY PASSAGE</span><span id="seriesNote">Seven places. Stories still arriving.</span></div>
+    <ol id="seriesSlots" class="series-slots"></ol>
+  </nav>
+  <main>
+    <header class="encounter-heading">
+      <div><p class="eyebrow">THE FIRST KEEPER OF THE TIDE</p><h1>The Unresolved<span>· Tide-Shepherd ·</span></h1></div>
+      <p class="invitation">The sea offers many pieces.<br>Keep one steady.<br><em>Let the question survive.</em></p>
+    </header>
+    <section class="encounter" id="encounter" aria-label="Boss encounter">
+      <div class="battle-grid">
+        <div class="sea-stage">
+          <canvas id="sea" width="640" height="420" aria-label="A pixel-art aqua Tide-Shepherd with a crown, coral fork and tentacles above a whirlpool" role="img"></canvas>
+          <div class="scene-topline"><span id="seaState">THE WATER IS LISTENING</span><span aria-hidden="true">✦</span></div>
+          <div class="sea-caption"><p id="tamarianLine">Jared at the whirlpool, his hands steady.</p><span id="tamarianGloss">A piece held for attention. The others remain possible.</span></div>
+        </div>
+        <div class="briefing">
+          <div class="round-top"><span class="eyebrow" id="roundLabel"></span><span class="round-kind" id="roundKind"></span></div>
+          <h2 id="roundTitle"></h2>
+          <p id="roundPrompt" class="round-prompt"></p>
+          <p id="roundContext" class="round-context"></p>
+          <div class="chapter-dots" id="chapterDots" aria-label="Encounter progress"></div>
+          <div class="mechanic-note"><span aria-hidden="true">⌁</span><p>Hold one piece for <strong>1.9 seconds</strong> to calm this whirlpool. Your choice preserves attention; it does not make an item true.</p></div>
+        </div>
+      </div>
+      <div class="flotsam-dock">
+        <div class="dock-heading"><h3>Pieces on the water</h3><span id="dockInstruction">Hold with a pointer, Space or Enter</span></div>
+        <div id="pieces" class="pieces"></div>
+        <div class="hold-row"><div class="hold-track" id="holdTrack" role="progressbar" aria-label="Continuous steadiness" aria-valuemin="0" aria-valuemax="1900" aria-valuenow="0"><div id="holdFill"></div></div><span id="holdStatus" aria-live="polite">Choose a piece to steady.</span></div>
+        <div class="round-resolution" id="roundResolution" hidden><p id="resolutionText" role="status"></p><button class="button primary" id="nextButton" hidden>Enter the next whirlpool <span aria-hidden="true">→</span></button></div>
+      </div>
+      <div class="access-controls">
+        <label><input type="checkbox" id="motionOff"> Still waters <span>reduce motion</span></label>
+        <label><input type="checkbox" id="assistMode"> Steady assist <span>select, then wait</span></label>
+        <button class="text-button" id="restartButton">Start a new encounter</button>
+      </div>
+      <p class="assist-explanation" id="assistExplanation" hidden>Assist records a continuously selected piece, without requiring a physical hold. Selecting another piece or leaving the page cancels the timer.</p>
+    </section>
+    <section class="result-panel" id="resultPanel" aria-labelledby="resultTitle" hidden>
+      <div class="receipt-seal" aria-hidden="true">✦</div><div class="receipt-content"><p class="eyebrow">A PIECE KEPT · A QUESTION CARRIED</p><h2 id="resultTitle">The local Governor inbox has received your encounter.</h2><p id="receiptExplanation"></p><p class="storage-status" id="storageStatus" role="status"></p><div id="receiptChoices" class="receipt-choices"></div><p id="powerNotice" class="power-notice"></p><div class="export-controls"><button class="button primary" id="downloadButton">Download encounter</button><button class="button" id="copyButton">Copy encounter</button><span id="exportStatus" role="status"></span></div><details class="json-details"><summary>Inspect or select the complete JSON</summary><textarea id="bundleText" readonly spellcheck="false" aria-label="Complete encounter and local Governor input JSON"></textarea></details></div>
+    </section>
+    <section class="evidence-room" aria-label="Evidence for this encounter">
+      <div class="section-title"><div><p class="eyebrow">THE CHARTS BENEATH THE WATER</p><h2>Read what the sources actually say.</h2></div><span id="packetMark" class="packet-mark"></span></div>
+      <p id="comparisonSummary" class="comparison-summary"></p>
+      <div class="evidence-layout"><div><h3>This round’s originals</h3><div id="originals" class="originals"></div></div><aside class="comparison-notes"><details open><summary>Ordinary explanations to test</summary><ul id="ordinaryExplanations"></ul></details><details><summary>What remains unknown</summary><ul id="comparisonLimitations"></ul></details><p class="evidence-rule">Sinking is a visual departure from this round. Every piece and its original evidence status travels to the Governor.</p></aside></div>
+      <details class="source-ledger"><summary>Source ledger · URLs, dates and access limits</summary><div id="sources"></div></details>
+    </section>
+    <aside class="local-inbox"><span class="inbox-icon" aria-hidden="true">▤</span><div><strong>Governor inbox · this browser</strong><p id="inboxStatus">No completed encounters saved here yet.</p></div><button class="text-button" id="restoreButton" hidden>Open last receipt</button></aside>
+  </main>
+  <footer><span>Attention is yours. Evidence keeps its history.</span><span>Local play · no model request · no score</span></footer>
+</div>
+<div class="fatal-error" id="fatalError" role="alert" hidden></div>
+<script type="application/json" id="tower-data">__TOWER_DATA__</script>
+<script>__BOSS_JS__</script>
+</body>
+</html>

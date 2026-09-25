@@ -1,0 +1,440 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Meaning Tower — The Unresolved</title>
+<style>
+:root{
+  --night:#06131b;--deep:#082432;--water:#0d5565;--foam:#8ce7df;--aqua:#45c8c2;
+  --ink:#eefcf8;--muted:#a8cbc8;--gold:#f1d18a;--panel:#0a1b24;--line:#1f6670;
+}
+*{box-sizing:border-box}
+html,body{margin:0;min-height:100%;background:var(--night);color:var(--ink);font-family:"Courier New",ui-monospace,monospace}
+body{display:grid;place-items:center;padding:18px}
+.shell{width:min(1040px,100%);border:4px solid #183b46;background:#041017;box-shadow:0 0 0 4px #02070a,0 20px 80px #0009}
+.header{padding:14px 16px;border-bottom:3px solid #183b46;display:flex;gap:14px;justify-content:space-between;align-items:flex-start;background:#071820}
+.eyebrow{font-size:.72rem;letter-spacing:.16em;color:var(--foam)}
+h1{font-size:clamp(1.2rem,3vw,2rem);margin:.22rem 0 .35rem;color:var(--gold);text-shadow:3px 3px #092c36}
+.sub{color:var(--muted);font-size:.82rem;line-height:1.45;max-width:700px}
+.tag{font-size:.7rem;border:2px solid var(--line);padding:7px 9px;color:var(--foam);white-space:nowrap}
+.stage{position:relative;aspect-ratio:16/9;overflow:hidden;background:#073041}
+canvas{width:100%;height:100%;display:block;image-rendering:pixelated}
+.flotsam-layer{position:absolute;inset:0;pointer-events:none}
+.flotsam{
+ position:absolute;transform:translate(-50%,-50%);pointer-events:auto;
+ min-width:128px;max-width:190px;padding:9px 10px;border:3px solid #17323a;
+ background:#d1b27a;color:#1c1510;font-weight:800;font-size:.72rem;line-height:1.15;
+ box-shadow:4px 4px #031015;cursor:pointer;touch-action:none;user-select:none;
+}
+.flotsam::before{content:"";position:absolute;inset:3px;border:1px dashed #614a2d;pointer-events:none}
+.flotsam.holding{outline:4px solid var(--foam);background:#f0d99e}
+.flotsam.preserved{background:#bde9dc;border-color:#4ab5aa;color:#07333b}
+.flotsam.sunk{opacity:0;transform:translate(-50%,35%) rotate(18deg) scale(.75);transition:.8s ease}
+.hud{display:grid;grid-template-columns:minmax(0,1fr) 260px;border-top:3px solid #183b46}
+.panel{padding:14px 16px;background:var(--panel);min-height:174px}
+.panel+.panel{border-left:3px solid #183b46}
+.round{color:var(--foam);font-size:.75rem;letter-spacing:.1em}
+.prompt{font-size:.95rem;line-height:1.45;margin:.45rem 0 .65rem}
+.holdbar{height:16px;border:3px solid #183b46;background:#02090d;position:relative}
+.holdfill{height:100%;width:0;background:repeating-linear-gradient(90deg,var(--aqua) 0 12px,#78e2d8 12px 24px);transition:width .06s linear}
+.tip{font-size:.72rem;color:var(--muted);margin-top:7px;line-height:1.35}
+.controls{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
+button.ctrl{font:inherit;border:2px solid var(--line);background:#0c2b35;color:var(--ink);padding:8px 10px;cursor:pointer}
+button.ctrl:hover,button.ctrl:focus{outline:3px solid var(--foam);outline-offset:1px}
+.log{font-size:.72rem;color:var(--muted);line-height:1.45;max-height:120px;overflow:auto;white-space:pre-wrap}
+.power{margin-top:8px;padding:8px;border:2px solid #8a744a;color:var(--gold);background:#18150d}
+.footer{padding:10px 14px;border-top:3px solid #183b46;color:var(--muted);font-size:.68rem;line-height:1.4;background:#06151c}
+@media(max-width:760px){
+ .header{display:block}.tag{display:inline-block;margin-top:8px}
+ .hud{grid-template-columns:1fr}.panel+.panel{border-left:0;border-top:3px solid #183b46}
+ .flotsam{min-width:104px;max-width:140px;font-size:.62rem;padding:7px}
+}
+</style>
+</head>
+<body>
+<div class="shell">
+  <div class="header">
+    <div>
+      <div class="eyebrow">MEANING TOWER · RECURRING BOSS PROTOTYPE</div>
+      <h1>THE UNRESOLVED · TIDE-SHEPHERD</h1>
+      <div class="sub">He does not demand that you choose the “right” answer. He floods the room with plausible pieces. Hold one piece of flotsam steady long enough to calm each whirlpool. What you preserve becomes part of the Boss Result; what sinks is not declared false.</div>
+    </div>
+    <div class="tag">NO SCORE · PRESERVE A QUESTION</div>
+  </div>
+
+  <div class="stage" id="stage">
+    <canvas id="sea" width="640" height="360" aria-label="Pixel-art aqua sea boss and animated whirlpool"></canvas>
+    <div class="flotsam-layer" id="flotsamLayer"></div>
+  </div>
+
+  <div class="hud">
+    <section class="panel">
+      <div class="round" id="roundLabel"></div>
+      <div class="prompt" id="prompt"></div>
+      <div class="holdbar" aria-label="steadiness meter"><div class="holdfill" id="holdFill"></div></div>
+      <div class="tip" id="tip">Mouse/touch: hold a flotsam card. Keyboard: Tab to a card, then hold Space or Enter. Releasing early lets the water become turbulent again.</div>
+      <div class="controls">
+        <button class="ctrl" id="nextBtn" hidden>next surge</button>
+        <button class="ctrl" id="replayBtn">restart encounter</button>
+        <button class="ctrl" id="copyBtn" hidden>copy Boss Result</button>
+      </div>
+    </section>
+    <section class="panel">
+      <div class="round">BOSS LOG</div>
+      <div class="log" id="log"></div>
+      <div class="power" id="power" hidden></div>
+    </section>
+  </div>
+  <div class="footer">
+    Demo content is illustrative, not evidence. A live Boss Packet should carry source IDs, ordinary controls, surviving residuals and provenance. The visual encounter records attention; it does not make the preserved item true.
+  </div>
+</div>
+
+<script>
+(function(){
+  "use strict";
+
+  const defaultPacket = {
+    boss_id:"THE-UNRESOLVED",
+    packet_status:"illustrative_demo",
+    source_refs:[],
+    control_note:"One ordinary control should accompany any real Boss Packet.",
+    rounds:[
+      {
+        id:"translation-weather",
+        title:"A difference survives first contact.",
+        prompt:"The wording feels different. What deserves to remain steady while ordinary translation weather churns around it?",
+        pieces:["stability","concern","translator habit","missing context"]
+      },
+      {
+        id:"crosscheck-residual",
+        title:"The easy explanations have had their turn.",
+        prompt:"One observation may still matter. Preserve the piece whose uncertainty would teach us the most if we looked again.",
+        pieces:["boring control","surviving nuance","weak rumor","funny possibility"]
+      },
+      {
+        id:"answer-peculiarity",
+        title:"An answer has arrived — and something about it is odd.",
+        prompt:"Which fragment should be allowed to return to the Garden as a question rather than being flattened into closure?",
+        pieces:["known answer","peculiar edge","unmeasured denominator","quiet contradiction"]
+      }
+    ]
+  };
+
+  const packet = window.MEANING_TOWER_BOSS_PACKET || defaultPacket;
+  const canvas = document.getElementById("sea");
+  const ctx = canvas.getContext("2d");
+  const stage = document.getElementById("stage");
+  const layer = document.getElementById("flotsamLayer");
+  const roundLabel = document.getElementById("roundLabel");
+  const promptEl = document.getElementById("prompt");
+  const holdFill = document.getElementById("holdFill");
+  const nextBtn = document.getElementById("nextBtn");
+  const replayBtn = document.getElementById("replayBtn");
+  const copyBtn = document.getElementById("copyBtn");
+  const logEl = document.getElementById("log");
+  const powerEl = document.getElementById("power");
+
+  const HOLD_MS = 1900;
+  let roundIndex = 0;
+  let selected = null;
+  let holdMs = 0;
+  let resolved = false;
+  let lastTs = performance.now();
+  let t = 0;
+  let turbulence = 1;
+  let results = [];
+  let buttons = [];
+
+  function px(x,y,w,h,c){
+    ctx.fillStyle=c;
+    ctx.fillRect(Math.round(x),Math.round(y),Math.round(w),Math.round(h));
+  }
+
+  function drawBoss(time){
+    const bob = Math.round(Math.sin(time*1.7)*2);
+    const bx=320, by=72+bob;
+
+    // shadow halo / watery crown
+    px(bx-46,by-40,92,5,"#0b8390");
+    px(bx-34,by-47,12,11,"#65e2d1");
+    px(bx-6,by-54,12,18,"#91f2df");
+    px(bx+22,by-47,12,11,"#65e2d1");
+
+    // shoulders and torso
+    px(bx-34,by-20,68,16,"#147a86");
+    px(bx-26,by-4,52,34,"#1794a0");
+    px(bx-18,by+30,36,14,"#0d6674");
+
+    // face
+    px(bx-18,by-32,36,25,"#63d7cf");
+    px(bx-13,by-24,6,5,"#06252d");
+    px(bx+7,by-24,6,5,"#06252d");
+    px(bx-5,by-13,10,4,"#0d5c67");
+
+    // beard/tentacles
+    for(let i=0;i<7;i++){
+      let x=bx-24+i*8;
+      let sway=Math.sin(time*2+i*.8)*5;
+      px(x,by-7,6,29+(i%2)*7,"#36b7ad");
+      px(x+sway,by+18+(i%2)*7,6,17,"#78e5d8");
+    }
+
+    // arms
+    px(bx-48,by-10,14,34,"#13818d");
+    px(bx+34,by-10,14,34,"#13818d");
+    px(bx-58,by+12,12,10,"#5cd5cb");
+    px(bx+46,by+12,12,10,"#5cd5cb");
+
+    // trident-like tide fork, more coral than weapon
+    px(bx+61,by-40,4,78,"#b9efe4");
+    px(bx+53,by-42,4,19,"#b9efe4");
+    px(bx+69,by-42,4,19,"#b9efe4");
+    px(bx+53,by-43,20,4,"#b9efe4");
+
+    // lower tentacles
+    for(let i=0;i<5;i++){
+      const baseX=bx-34+i*17;
+      for(let s=0;s<5;s++){
+        const tx=baseX+Math.sin(time*2.2+s*.8+i)*7;
+        const ty=by+42+s*8;
+        px(tx,ty,9,7,i%2?"#0f7c88":"#1598a0");
+      }
+    }
+  }
+
+  function drawSea(time){
+    ctx.fillStyle="#052531";
+    ctx.fillRect(0,0,640,360);
+
+    // layered pixel waves
+    for(let row=0;row<8;row++){
+      const y=135+row*28;
+      const c=row%2?"#0a4250":"#0b5260";
+      for(let x=-30;x<680;x+=40){
+        const yy=y+Math.sin(time*1.3+x*.03+row)*4;
+        px(x,yy,24,5,c);
+      }
+    }
+
+    // whirlpool
+    const cx=320, cy=257;
+    const calm = 1-turbulence;
+    for(let ring=0;ring<7;ring++){
+      ctx.beginPath();
+      const radius=26+ring*15;
+      const start=time*(1.8+ring*.08)*(ring%2?1:-1);
+      ctx.strokeStyle=ring%2?"#2a9cab":"#78ded4";
+      ctx.globalAlpha=.18+.06*ring;
+      ctx.lineWidth=3;
+      ctx.arc(cx,cy,radius,start,start+Math.PI*(1.15+calm*.45));
+      ctx.stroke();
+    }
+    ctx.globalAlpha=1;
+
+    // calm eye grows while holding
+    ctx.beginPath();
+    ctx.fillStyle="#09333e";
+    ctx.arc(cx,cy,8+calm*34,0,Math.PI*2);
+    ctx.fill();
+
+    drawBoss(time);
+
+    // titleplate
+    px(18,18,210,28,"#031219");
+    ctx.fillStyle="#a5f1e7";
+    ctx.font="12px monospace";
+    ctx.fillText("THE UNRESOLVED",29,37);
+  }
+
+  function makeButtons(){
+    layer.innerHTML="";
+    buttons=[];
+    const round=packet.rounds[roundIndex];
+    const n=round.pieces.length;
+    round.pieces.forEach((piece,i)=>{
+      const b=document.createElement("button");
+      b.className="flotsam";
+      b.textContent=piece;
+      b.dataset.index=String(i);
+      b.setAttribute("aria-label","Hold steady: "+piece);
+
+      b.addEventListener("pointerdown",e=>{
+        if(resolved)return;
+        e.preventDefault();
+        b.setPointerCapture && b.setPointerCapture(e.pointerId);
+        beginHold(i);
+      });
+      b.addEventListener("pointerup",()=>endHold(i));
+      b.addEventListener("pointercancel",()=>endHold(i));
+      b.addEventListener("lostpointercapture",()=>endHold(i));
+      b.addEventListener("keydown",e=>{
+        if((e.code==="Space"||e.code==="Enter")&&!e.repeat){
+          e.preventDefault(); beginHold(i);
+        }
+      });
+      b.addEventListener("keyup",e=>{
+        if(e.code==="Space"||e.code==="Enter"){
+          e.preventDefault(); endHold(i);
+        }
+      });
+      layer.appendChild(b);
+      buttons.push(b);
+    });
+    positionButtons();
+  }
+
+  function positionButtons(){
+    if(!buttons.length)return;
+    const rect=stage.getBoundingClientRect();
+    const cx=rect.width*.5, cy=rect.height*.72;
+    const baseR=Math.min(rect.width,rect.height)*(.25+.025*turbulence);
+    buttons.forEach((b,i)=>{
+      const angle=(Math.PI*2/buttons.length)*i+t*(.38*turbulence);
+      const wobble=Math.sin(t*3+i*2.3)*12*turbulence;
+      const x=cx+Math.cos(angle)*(baseR+wobble);
+      const y=cy+Math.sin(angle)*(baseR*.45+wobble*.35);
+      b.style.left=x+"px";
+      b.style.top=y+"px";
+    });
+  }
+
+  function beginHold(i){
+    if(resolved)return;
+    selected=i;
+    buttons.forEach((b,j)=>b.classList.toggle("holding",j===i));
+    appendLog("Holding: "+packet.rounds[roundIndex].pieces[i]);
+  }
+
+  function endHold(i){
+    if(selected!==i||resolved)return;
+    selected=null;
+    buttons.forEach(b=>b.classList.remove("holding"));
+  }
+
+  function settleRound(){
+    if(resolved||selected===null)return;
+    resolved=true;
+    const round=packet.rounds[roundIndex];
+    const preserved=round.pieces[selected];
+    results.push({
+      round_id:round.id,
+      preserved:preserved,
+      other_pieces:round.pieces.filter((_,i)=>i!==selected),
+      interpretation:"attention_preserved_not_truth_claim"
+    });
+
+    buttons.forEach((b,i)=>{
+      b.classList.remove("holding");
+      if(i===selected)b.classList.add("preserved");
+      else b.classList.add("sunk");
+      b.disabled=true;
+    });
+
+    appendLog("Whirlpool calmed. Preserved: "+preserved+".");
+    appendLog("The other pieces sank from this round; they were not declared false.");
+    holdFill.style.width="100%";
+
+    if(roundIndex<packet.rounds.length-1){
+      nextBtn.hidden=false;
+    }else{
+      finishEncounter();
+    }
+  }
+
+  function finishEncounter(){
+    nextBtn.hidden=true;
+    copyBtn.hidden=false;
+    powerEl.hidden=false;
+    powerEl.textContent="POWER-UP CANDIDATE · PECULIARITY SENSE — an answer may return as a question when its oddness carries information. Canonical only after Jared/Work accepts this play result.";
+    appendLog("The Tide-Shepherd lowers the water. Encounter complete.");
+  }
+
+  function loadRound(){
+    resolved=false; selected=null; holdMs=0; turbulence=1;
+    holdFill.style.width="0%";
+    nextBtn.hidden=true;
+    const round=packet.rounds[roundIndex];
+    roundLabel.textContent="WHIRLPOOL "+(roundIndex+1)+" / "+packet.rounds.length+" · "+round.title.toUpperCase();
+    promptEl.textContent=round.prompt;
+    makeButtons();
+    appendLog("Surge "+(roundIndex+1)+": "+round.id);
+  }
+
+  function restart(){
+    roundIndex=0;results=[];powerEl.hidden=true;copyBtn.hidden=true;logEl.textContent="";
+    loadRound();
+  }
+
+  function appendLog(text){
+    logEl.textContent+=(logEl.textContent?"\n":"")+text;
+    logEl.scrollTop=logEl.scrollHeight;
+  }
+
+  function resultPacket(){
+    return {
+      schema_version:"meaning-tower-boss-result-0.1",
+      boss_id:packet.boss_id,
+      source_packet_status:packet.packet_status,
+      source_refs:packet.source_refs||[],
+      completed_at:new Date().toISOString(),
+      mechanic:"hold_one_piece_steady_to_calm_each_whirlpool",
+      results:results,
+      earned_in_play:results.length===packet.rounds.length,
+      proposed_governor_power:results.length===packet.rounds.length ? {
+        id:"PECULIARITY_SENSE",
+        text:"An answer may return to the Garden as a question when its peculiarity is informative.",
+        canonical_status:"proposed_until_integrated"
+      } : null,
+      note:"Preserved pieces are attention choices, not factual verdicts."
+    };
+  }
+
+  nextBtn.addEventListener("click",()=>{
+    if(!resolved)return;
+    roundIndex++;
+    loadRound();
+  });
+  replayBtn.addEventListener("click",restart);
+  copyBtn.addEventListener("click",async()=>{
+    const text="MEANING TOWER BOSS RESULT\n"+JSON.stringify(resultPacket(),null,2);
+    try{
+      await navigator.clipboard.writeText(text);
+      appendLog("Boss Result copied.");
+    }catch(e){
+      appendLog("Clipboard blocked. Boss Result printed to console.");
+      console.log(text);
+    }
+  });
+
+  function tick(ts){
+    const dt=Math.min(50,ts-lastTs);
+    lastTs=ts;t=ts/1000;
+
+    if(!resolved){
+      if(selected!==null){
+        holdMs+=dt;
+      }else{
+        holdMs=Math.max(0,holdMs-dt*.7);
+      }
+      const p=Math.min(1,holdMs/HOLD_MS);
+      turbulence=1-p*.9;
+      holdFill.style.width=Math.round(p*100)+"%";
+      if(p>=1)settleRound();
+    }else{
+      turbulence=Math.max(.08,turbulence-.02);
+    }
+
+    drawSea(t);
+    positionButtons();
+    requestAnimationFrame(tick);
+  }
+
+  window.addEventListener("resize",positionButtons);
+  restart();
+  requestAnimationFrame(tick);
+})();
+</script>
+</body>
+</html>

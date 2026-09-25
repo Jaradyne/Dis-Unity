@@ -178,31 +178,14 @@ function art(story){
 
 function renderBoss(){
  const arena=$('#bossArena');
- if(!current.boss){arena.classList.remove('on');return;}
- arena.classList.add('on');
- const words=current.bossWords||[];
- if(bossState.index>=words.length){
-   $('#bossPrompt').textContent='Boss packet complete. The point is not to be right instantly — it is to preserve what still deserves a second look.';
-   $('#wordArena').innerHTML='';
-   $('#bossFill').style.width='100%';
-   $('#bossLog').textContent='Routine: '+bossState.routine+' · Curious: '+bossState.curious+' · Carry forward: '+bossState.carry+'. In a live run, only the survivors and one boring control need reach Jared.';
-   $('#secretMsg').hidden=false;
-   return;
- }
- $('#secretMsg').hidden=true;
- $('#bossPrompt').textContent='Tap the current word, then decide how much attention it deserves. Imagine you are comparing official renderings, not grading a language.';
- $('#wordArena').innerHTML=words.map((w,i)=>'<button class="word '+(i===bossState.index?'active':'')+'" data-word="'+i+'">'+w+'</button>').join('');
- $('#bossFill').style.width=Math.round((bossState.index/words.length)*100)+'%';
- $('#bossLog').textContent='Routine: '+bossState.routine+' · Curious: '+bossState.curious+' · Carry forward: '+bossState.carry;
+ arena.classList.toggle('on',Boolean(current.boss));
+ if(!current.boss)return;
+ arena.replaceChildren();
+ const title=document.createElement('div');title.className='bossTitle';title.textContent='THE UNRESOLVED · TIDE-SHEPHERD';
+ const note=document.createElement('p');note.className='note';note.textContent='The first real source-backed encounter is ready. Hold one piece for attention; the others remain possible. No score and no evidence changes.';
+ const link=document.createElement('a');link.href='../../../../web/meaning-tower/index.html';link.textContent='Enter the Tide-Shepherd encounter →';
+ arena.append(title,note,link);
 }
-document.querySelectorAll('.judge button').forEach(b=>b.onclick=()=>{
- if(!current.boss || bossState.index>=(current.bossWords||[]).length) return;
- const j=b.dataset.judge; bossState[j]++;
- const word=current.bossWords[bossState.index];
- addChoice('Translation dance: '+word, j==='routine'?'Felt like routine translation weather.':j==='curious'?'Felt peculiar enough to compare again.':'Carry this wording into the discussion packet.');
- bossState.index++;
- renderBoss();
-});
 
 function render(){
  document.querySelectorAll('.floor').forEach(b=>b.classList.toggle('active',b.dataset.id===current.id));

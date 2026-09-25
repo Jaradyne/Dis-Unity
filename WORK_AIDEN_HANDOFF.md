@@ -1,4 +1,12 @@
-# 25 September Garden integration — current entry point
+# 25 September Meaning Tower integration — current entry point
+
+PR15's original Tide-Shepherd proposal is preserved and reviewed against main. Read [the playable encounter and Python walkthrough](docs/MEANING_TOWER.md). A reusable packet-driven component replaces the old Translation demo doorway; its first packet has two inspected official sources and no invented contradiction. Completed play reaches a local Governor inbox even with no powers, and its exported bundle can enter `scripts/governor.py --boss-bundle`. Browser storage is not remote sync. No actual Jared play or canonical power is claimed.
+
+The Governor now has Tamarian-style allusions with plain meanings, a weekly repertoire/order input, and Jared override. Parallax's stable destination is registered as available/not-running. The [Mirror boss](docs/MIRROR_BOSS_DESIGN.md) is Jared's newer design proposal for assumed care versus reachable care; it is not yet playable. The permanent Crosscheck Bee question remains unresolved.
+
+Mistral's [public free-mode review](reports/work-review/2026-09-25-mistral-free.md) and [unexecuted role-fit prompt](prompts/mistral-parallax-role-fit.md) are ready. Its subscription page requires sign-in; the saved secret alone does not verify the Organization's Free mode/PAYG-off setting. No Mistral adapter or request was enabled. Preserve the live saved-generation operator-review brake.
+
+## 25 September Garden integration
 
 Jared accepted Collector Crosscheck with bounded specialist birth on consequential residual; the permanent Crosscheck Bee remains unresolved. Read [the integration note](operations/INTEGRATION_2026-09-25.md) and [the small Python walkthrough](docs/GARDEN.md). Recovery and reflection-reference repairs accompany an on-demand initiating grammar, stable teleports, Daily Scroll and a preserved non-evidence Chair example. Check live state for the actual post-integration outcome. Older review recommendations below are historical where superseded.
 

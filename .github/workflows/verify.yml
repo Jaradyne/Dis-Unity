@@ -27,6 +27,12 @@ jobs:
           python scripts/cycle.py status "$cycle_id"
       - name: Run integrity tests
         run: python -m unittest discover -s tests -v
+      - name: Check Meaning Tower interaction contract
+        run: node tests/test_boss_ui.js
+      - name: Verify portable encounter is reproducible
+        run: |
+          python scripts/build_meaning_tower.py
+          git diff --exit-code -- web/meaning-tower/index.html
       - name: Verify generated views are reproducible
         run: |
           python scripts/render_state.py Resilience_Cascade_STATE.json

@@ -1,0 +1,205 @@
+{
+  "actor": {
+    "model": "unknown",
+    "name": "Work Aiden acting as Parallax Collector",
+    "runtime": "Current ChatGPT/Codex session; two public pages reviewed"
+  },
+  "boss_id": "THE-UNRESOLVED",
+  "comparison": {
+    "kind": "official_notice_and_summary",
+    "limitations": [
+      "No substantive Chinese/English contradiction established.",
+      "Actual subsidy payment, operating vehicles, charging uptime and completed freight remain unmeasured.",
+      "This comparison establishes no October diesel export permission, shipment or exportable surplus."
+    ],
+    "ordinary_explanations": [
+      "Full administrative notice versus a short policy roundup.",
+      "Different publication dates; no evidence here of a changed rule.",
+      "New-energy is a broader category; electric priority is not proof every replacement is battery-only."
+    ],
+    "summary": "Both surfaces prioritize electric trucks and assign additional funding to local finances if the central allocation is exhausted. The longer Chinese notice also addresses 2025 subsidy funding gaps. A shorter later summary can omit implementation detail without contradicting it."
+  },
+  "created_at": "2026-09-25T21:25:01.412434+00:00",
+  "cross": {
+    "bridge": [
+      "Check agreement on electric priority and funding responsibility; then ask which payment record could connect policy to usable service. Both pages concern one policy family, not independent corroboration."
+    ],
+    "independent": [],
+    "inherited": [
+      "MOT-CN-2026-TRUCKS",
+      "GOV-EN-2026-TRUCKS"
+    ]
+  },
+  "epoch": 1,
+  "packet_id": "PARALLAX-TRUCKS-20260925-1",
+  "packet_status": "evidence_backed",
+  "power_candidate": {
+    "canonical_status": "proposed",
+    "id": "PECULIARITY_SENSE",
+    "text": "An answer may return as a question when its peculiarity is informative. Decide what this play taught the Governor after Jared plays."
+  },
+  "question_id": "Q-MEANING-TRANSLATION-BOSS",
+  "rounds": [
+    {
+      "context": "Ordinary control: the quoted phrases agree on policy priority. They do not establish deployment.",
+      "id": "SHARED-DIRECTION",
+      "kind": "control",
+      "originals": [
+        {
+          "english_pivot": "Prioritize support for replacement with electric trucks (Work pivot).",
+          "source_id": "MOT-CN-2026-TRUCKS",
+          "text": "优先支持更新为电动货车"
+        },
+        {
+          "english_pivot": "Original English summary.",
+          "source_id": "GOV-EN-2026-TRUCKS",
+          "text": "priority support given to the purchase of electric trucks"
+        }
+      ],
+      "pieces": [
+        {
+          "evidence_status": "source_statement",
+          "id": "POLICY-PRIORITY",
+          "note": "Agreement on electric priority is an ordinary control.",
+          "source_refs": [
+            "MOT-CN-2026-TRUCKS",
+            "GOV-EN-2026-TRUCKS"
+          ],
+          "text": "Shared direction"
+        },
+        {
+          "evidence_status": "question",
+          "id": "CATEGORY-BOUNDARY",
+          "note": "What powertrains are actually purchased? Keep new-energy and battery-only distinct.",
+          "source_refs": [
+            "MOT-CN-2026-TRUCKS",
+            "GOV-EN-2026-TRUCKS"
+          ],
+          "text": "Which vehicles?"
+        },
+        {
+          "evidence_status": "question",
+          "id": "SERVICE-MEASURE",
+          "note": "Which completed deliveries would show useful service?",
+          "source_refs": [],
+          "text": "A working route"
+        }
+      ],
+      "prompt": "Both texts support electric trucks. Which piece will you keep in view?",
+      "title": "Two surfaces, one direction"
+    },
+    {
+      "context": "Both surfaces assign additional funding to local finances. Authority and an available balance are different things.",
+      "id": "FUNDING-RESPONSIBILITY",
+      "kind": "control",
+      "originals": [
+        {
+          "english_pivot": "Support through local funds (Work pivot).",
+          "source_id": "MOT-CN-2026-TRUCKS",
+          "text": "地方资金支持"
+        },
+        {
+          "english_pivot": "Original English summary.",
+          "source_id": "GOV-EN-2026-TRUCKS",
+          "text": "any additional funding required must be covered by local finances"
+        }
+      ],
+      "pieces": [
+        {
+          "evidence_status": "source_statement",
+          "id": "NAMED-RESPONSIBILITY",
+          "note": "The policy names local financial responsibility; it does not measure cash available now.",
+          "source_refs": [
+            "MOT-CN-2026-TRUCKS",
+            "GOV-EN-2026-TRUCKS"
+          ],
+          "text": "A named payer"
+        },
+        {
+          "evidence_status": "question",
+          "id": "PAYMENT-RECEIPT",
+          "note": "What dated receipt shows a carrier actually received the subsidy?",
+          "source_refs": [],
+          "text": "Payment received"
+        },
+        {
+          "evidence_status": "inference",
+          "id": "CARRIER-BUFFER",
+          "note": "Could a voluntary shared delivery or repair arrangement bridge a wait? Capacity is unknown.",
+          "source_refs": [],
+          "text": "Until payment"
+        }
+      ],
+      "prompt": "If central funds run out, what deserves your attention?",
+      "title": "Who carries the next load?"
+    },
+    {
+      "context": "The Chinese notice addresses 2025 funding gaps and separates those from 2026 funds. The English roundup omits that detail. Genre is an ordinary explanation; the remaining question is whether support arrives in time.",
+      "id": "REACHABLE-SUPPORT",
+      "kind": "question",
+      "originals": [
+        {
+          "english_pivot": "Funding gap (Work pivot).",
+          "source_id": "MOT-CN-2026-TRUCKS",
+          "text": "资金缺口"
+        }
+      ],
+      "pieces": [
+        {
+          "evidence_status": "question",
+          "id": "TIMELY-PAYOUT",
+          "note": "Which claim was paid, on what date, and before which need?",
+          "source_refs": [],
+          "text": "When can it be used?"
+        },
+        {
+          "evidence_status": "question",
+          "id": "CARETAKER-CAPACITY",
+          "note": "Who has staff, cash, authority and a reachable backup to make the promise usable?",
+          "source_refs": [],
+          "text": "Who can carry it?"
+        },
+        {
+          "evidence_status": "inference",
+          "id": "ORDINARY-OMISSION",
+          "note": "A brief summary can omit a provision. Omission alone is not contradiction or motive.",
+          "source_refs": [
+            "MOT-CN-2026-TRUCKS",
+            "GOV-EN-2026-TRUCKS"
+          ],
+          "text": "A shorter account"
+        }
+      ],
+      "prompt": "The longer notice mentions prior funding gaps. Which unanswered question should survive?",
+      "title": "Support on paper, access in time"
+    }
+  ],
+  "schema_version": "meaning-tower-boss-packet-1",
+  "source_ledger": [
+    {
+      "access_limitations": [
+        "Full notice accessed. Issued 2026-03-20; publication is separately marked 2026-04-28. No operating observation date: this is policy, not proof of payouts or completed freight. The linked subsidy attachment was not inspected."
+      ],
+      "language": "zh-Hans",
+      "observation_date": null,
+      "publication_date": "2026-04-28",
+      "retrieved_at": "2026-09-25T21:25:01.412434+00:00",
+      "source_id": "MOT-CN-2026-TRUCKS",
+      "title": "MOT/NDRC 2026 commercial truck replacement notice (Chinese)",
+      "url": "https://xxgk.mot.gov.cn/jigou/zhghs/202604/t20260427_4204392.html"
+    },
+    {
+      "access_limitations": [
+        "English government-hosted China Daily summary, not an authoritative line-by-line translation of the notice. No operating observation date; first section only. This reports the same 2026 program, not independent operating evidence."
+      ],
+      "language": "en",
+      "observation_date": null,
+      "publication_date": "2026-05-06",
+      "retrieved_at": "2026-09-25T21:25:01.412434+00:00",
+      "source_id": "GOV-EN-2026-TRUCKS",
+      "title": "Government English policy roundup: truck subsidy section",
+      "url": "https://english.www.gov.cn/policies/policywatch/202605/06/content_WS69fad36ac6d00ca5f9a0ac80.html"
+    }
+  ],
+  "title": "Electric trucks: support, payment, service"
+}
