@@ -1,0 +1,24 @@
+{
+  "allusions": [
+    {
+      "gloss": "A piece was preserved for attention; the others were not declared false.",
+      "id": "FLOTSAM-HELD",
+      "line": "Jared at the whirlpool, his hands steady."
+    },
+    {
+      "gloss": "A named service may still be inaccessible. Ask what access is actually available.",
+      "id": "MAP-AND-DOOR",
+      "line": "The shelter on the map; the door beyond reach.",
+      "status": "proposed design metaphor; not an observation about a named shelter"
+    }
+  ],
+  "inspiration": "The Children of Tama: shared-story allusions. This is a project voice, not a claim to translate a complete fictional language.",
+  "mode": "tamarian_with_plain_gloss",
+  "practice": [
+    "Offer a short allusion, followed by plain meaning.",
+    "Use shared project stories or explain a new allusion before relying on it.",
+    "Keep decisions, uncertainty, sources and instructions legible; metaphor never substitutes for evidence.",
+    "Silence remains valid."
+  ],
+  "schema_version": "governor-voice-1"
+}

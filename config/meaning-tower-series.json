@@ -1,0 +1,93 @@
+{
+  "curator": "Governor",
+  "human_override": true,
+  "jared_contribution": "At least one new boss per week after this opening week; other encounters draw from the repertoire by thematic fit. This is a creative intention, not a schedule.",
+  "ordering": {
+    "authority": "Governor may choose the repertoire, order and finale; Jared may rearrange.",
+    "basis": "A short explanation connecting each chosen boss to this week’s observations and learning; no numerical ranking.",
+    "status": "Tide-Shepherd is available; Mirror boss is a design proposal. Later positions and finale await available packets and a Governor selection."
+  },
+  "roster": [
+    {
+      "available_packet": "PARALLAX-TRUCKS-20260925-1",
+      "boss_id": "THE-UNRESOLVED",
+      "name": "The Unresolved · Tide-Shepherd",
+      "status": "playable",
+      "themes": [
+        "REACHABLE-CARE",
+        "ATTENTION-UNDER-UNCERTAINTY"
+      ]
+    },
+    {
+      "available_packet": null,
+      "boss_id": "MIRROR-BOSS-PROPOSAL",
+      "design_ref": "docs/MIRROR_BOSS_DESIGN.md",
+      "name": "Mirror boss · name open",
+      "status": "design_proposal",
+      "themes": [
+        "REACHABLE-CARE"
+      ]
+    }
+  ],
+  "schema_version": "meaning-tower-series-1",
+  "series_id": "WEEK-ONE",
+  "slots": [
+    {
+      "boss_id": "THE-UNRESOLVED",
+      "packet_id": "PARALLAX-TRUCKS-20260925-1",
+      "slot_id": "SLOT-1",
+      "status": "ready",
+      "title": "The Unresolved"
+    },
+    {
+      "boss_id": null,
+      "packet_id": null,
+      "slot_id": "SLOT-2",
+      "status": "unassigned",
+      "title": "Mirror boss · proposed"
+    },
+    {
+      "boss_id": null,
+      "packet_id": null,
+      "slot_id": "SLOT-3",
+      "status": "unassigned",
+      "title": "Awaiting the repertoire"
+    },
+    {
+      "boss_id": null,
+      "packet_id": null,
+      "slot_id": "SLOT-4",
+      "status": "unassigned",
+      "title": "Awaiting the repertoire"
+    },
+    {
+      "boss_id": null,
+      "packet_id": null,
+      "slot_id": "SLOT-5",
+      "status": "unassigned",
+      "title": "Awaiting the repertoire"
+    },
+    {
+      "boss_id": null,
+      "packet_id": null,
+      "slot_id": "SLOT-6",
+      "status": "unassigned",
+      "title": "Awaiting the repertoire"
+    },
+    {
+      "boss_id": null,
+      "packet_id": null,
+      "slot_id": "SLOT-7",
+      "status": "unassigned",
+      "title": "Awaiting the repertoire"
+    }
+  ],
+  "themes": [
+    {
+      "description": "Explore the distance between the support people expect and what someone can actually reach in time. A human design theme, not a verdict on every service.",
+      "id": "REACHABLE-CARE",
+      "title": "Assumed care, reachable care"
+    }
+  ],
+  "title": "Week One · Assumed care, reachable care"
+}

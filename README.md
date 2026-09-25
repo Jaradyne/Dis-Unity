@@ -2,6 +2,8 @@
 
 # Dis-Unity — Resilience Cascade
 
+**Meaning Tower:** [playable Tide-Shepherd and small Python walkthrough](docs/MEANING_TOWER.md) · [Mirror boss design](docs/MIRROR_BOSS_DESIGN.md). Preserve attention under uncertainty; evidence keeps its history.
+
 **Stress → interaction → opportunity → adaptation → resilience.**
 
 A public-source research system for understanding how dependent systems carry one another's load. It follows stresses, tests conditional cascades, finds usable buffers and transitions, and develops cooperative responses from neighborhood to international scale.

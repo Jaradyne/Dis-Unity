@@ -6,16 +6,57 @@
     "INIT": {
       "name": "Initiating Garden",
       "nodes": [
-        {"id": "ROOT-0001", "purpose": "Pass name and identity"},
-        {"id": "ARRIVAL-0002", "purpose": "What arrived, from where, sent to where"},
-        {"id": "EPIST-0003", "purpose": "Prompt/question and starting epistemic state"},
-        {"id": "FUNC-0004", "purpose": "Task and function being investigated"},
-        {"id": "MIRROR-0005", "purpose": "Competing explanations, queries and recorded answers"},
-        {"id": "CROSS-0006", "purpose": "Inherited, independently derived and deliberate bridge attachments"},
-        {"id": "RESID-0007", "purpose": "Surviving residual and bounded specialist proposal"},
-        {"id": "MEAN-0008", "purpose": "Changed meaning and non-evidence culture flower"},
-        {"id": "EXIT-0009", "purpose": "Bounded answer, question, teleport, silence or error"},
-        {"id": "RETURN-0010", "purpose": "New linked arrival or rest"}
+        {
+          "id": "ROOT-0001",
+          "purpose": "Pass name and identity"
+        },
+        {
+          "id": "ARRIVAL-0002",
+          "purpose": "What arrived, from where, sent to where"
+        },
+        {
+          "id": "EPIST-0003",
+          "purpose": "Prompt/question and starting epistemic state"
+        },
+        {
+          "id": "FUNC-0004",
+          "purpose": "Task and function being investigated"
+        },
+        {
+          "id": "MIRROR-0005",
+          "purpose": "Competing explanations, queries and recorded answers"
+        },
+        {
+          "id": "CROSS-0006",
+          "purpose": "Inherited, independently derived and deliberate bridge attachments"
+        },
+        {
+          "id": "RESID-0007",
+          "purpose": "Surviving residual and bounded specialist proposal"
+        },
+        {
+          "id": "MEAN-0008",
+          "purpose": "Changed meaning and non-evidence culture flower"
+        },
+        {
+          "id": "EXIT-0009",
+          "purpose": "Bounded answer, question, teleport, silence or error"
+        },
+        {
+          "id": "RETURN-0010",
+          "purpose": "New linked arrival or rest"
+        }
+      ]
+    },
+    "PYGENT": {
+      "name": "Bounded specialist destinations",
+      "nodes": [
+        {
+          "id": "PARALLAX-0001",
+          "purpose": "One bounded matched official-language Boss Packet",
+          "role": "parallax_collector_bee",
+          "status": "available_not_running"
+        }
       ]
     }
   },
@@ -24,6 +65,21 @@
     "consequential_residual": "May request or propose teleport to a bounded Pygent Collector/specialist",
     "permanent_crosscheck_bee": "Unresolved pending repeated cases showing the value of persistent specialist memory"
   },
-  "governor_input_refs": ["daily_scroll", "reflection_mailbox", "meaning_tower", "chair_imagination"],
-  "external_execution": false
+  "governor_input_refs": [
+    "daily_scroll",
+    "reflection_mailbox",
+    "meaning_tower",
+    "chair_imagination",
+    "meaning_boss_result"
+  ],
+  "external_execution": false,
+  "routes": [
+    {
+      "from": "INIT:RESID-0007",
+      "via": "PYGENT:PARALLAX-0001",
+      "to": "INIT:RETURN-0010",
+      "status": "available_not_running",
+      "automatic_execution": false
+    }
+  ]
 }
