@@ -1,0 +1,90 @@
+{
+  "schema_version": "meaning-tower-boss-packet-0.1",
+  "boss_id": "THE-UNRESOLVED",
+  "encounter_lane": "parallax",
+  "question_id": "Q-MEANING-TRANSLATION-BOSS",
+  "evidence_status": "public official multilingual texts; attention packet, not a factual verdict",
+  "source_family": {
+    "title": "WHO Pandemic Agreement, WHA78.1",
+    "adopted": "2025-05-20",
+    "authentic_text_rule": "Arabic, Chinese, English, French, Russian and Spanish texts are equally authentic.",
+    "sources": [
+      {
+        "id": "WHO-WHA78-EN",
+        "language": "English",
+        "url": "https://apps.who.int/gb/ebwha/pdf_files/WHA78/A78_R1-en.pdf"
+      },
+      {
+        "id": "WHO-WHA78-FR",
+        "language": "French",
+        "url": "https://apps.who.int/gb/ebwha/pdf_files/WHA78/A78_R1-fr.pdf"
+      },
+      {
+        "id": "WHO-WHA78-ES",
+        "language": "Spanish",
+        "url": "https://apps.who.int/gb/ebwha/pdf_files/WHA78/A78_R1-sp.pdf"
+      }
+    ]
+  },
+  "boring_control": {
+    "label": "Primary responsibility",
+    "english": "States bear the primary responsibility for the health and well-being of their peoples.",
+    "french_gloss": "The French says that health and well-being fall first and foremost to States.",
+    "spanish_gloss": "The Spanish says States are the principal parties responsible for health and well-being.",
+    "disposition": "routine",
+    "why": "Different grammar preserves the same assignment of primary responsibility."
+  },
+  "residuals": [
+    {
+      "id": "RESID-ACCOUNTABILITY",
+      "label": "Accountability / responsabilité / rendición de cuentas",
+      "english_unit": "inclusivity, transparency and accountability",
+      "french_unit": "inclusivité, transparence et responsabilité",
+      "spanish_unit": "inclusión, transparencia y rendición de cuentas",
+      "ordinary_explanation": "French commonly uses responsabilité where English legal/institutional prose uses accountability; this may be standard terminology rather than a policy shift.",
+      "why_preserve": "Spanish explicitly encodes account-giving, while French uses the broader responsabilité. The human-facing nuance is worth inspecting without inferring motive or legal divergence.",
+      "disposition": "curious"
+    },
+    {
+      "id": "RESID-WORLD-SUBJECT",
+      "label": "Who is together?",
+      "english_unit": "The world together equitably",
+      "french_unit": "Communauté internationale – ensemble en toute équité",
+      "spanish_unit": "El mundo unido con equidad",
+      "ordinary_explanation": "Headings are often naturalized rather than translated word-for-word.",
+      "why_preserve": "French names the international community as the subject where English and Spanish use world/world-united language. This may be harmless editorial naturalization, but it changes the imagined actor in the heading.",
+      "disposition": "curious"
+    },
+    {
+      "id": "RESID-CARE-WORKFORCE",
+      "label": "Care workforce scope",
+      "english_unit": "Health and care workforce",
+      "french_unit": "Personnels de santé et d’aide à la personne",
+      "spanish_unit": "Trabajadores de la salud y asistenciales",
+      "ordinary_explanation": "The three languages have different conventional labels for health and social/personal-care workers.",
+      "why_preserve": "French makes personal assistance explicit; Spanish uses an adjectival care/support category; English is compact and potentially broader. Worth checking against WHO terminology before reading significance into it.",
+      "disposition": "carry_forward"
+    }
+  ],
+  "boss_mechanic": {
+    "rule": "Jared holds one flotsam piece steady to calm each whirlpool.",
+    "meaning": "Preservation is an attention choice, not an evidence upgrade.",
+    "recurrence": "Sunk and preserved pieces may resurface in later rounds, in the same location or new admixtures, with bounded seeded randomness. Recurrence does not count as corroboration."
+  },
+  "cross": {
+    "inherited": [
+      "WHO-WHA78-EN",
+      "WHO-WHA78-FR"
+    ],
+    "independent": [
+      "WHO-WHA78-ES"
+    ],
+    "bridge": [
+      "Article 35 authentic-text rule",
+      "same Article 3 principle across three official texts",
+      "same preamble responsibility clause across three official texts"
+    ]
+  },
+  "stop_condition": "One official source family; one boring control; no more than three residuals. Stop here and let Jared play/interpret before widening languages.",
+  "proposed_garden_return": "INIT:RETURN-0010"
+}
