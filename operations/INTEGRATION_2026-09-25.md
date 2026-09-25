@@ -22,6 +22,8 @@ Reviewed main `b27ff7a6dbdfb23ea3e98bcd63c6e9f9ac209856`, PR13 head `b54a6a01036
 
 69 integrity tests pass. Meaningful new cases cover the third attempt, interruption and missing saved responses, cost shutdown and workflow output, receipt contradictions versus missing fields, transient/429/auth delays, stable addresses, unknown predicates, repeated word instances, immutable sequences and Governor input preservation. Canonical RC-004 validates and all ten generated views reproduce unchanged. The corrected real packet/import replay used a temporary copy, not live writes.
 
+Post-merge verification: PR14 merged as `1043281dc45dee0b46d43276b4853716af095c1c`; PR13 is also marked merged with ancestry preserved. Hosted verify and worker smoke checks passed. Week One run `36166138616` completed its third saved-generation recovery with zero new POST reservations, imported both Governor packets, and generated the Daily Scroll. The saved audit remains pending, so the manifest holds further inference for operator review. Its provider failure is classified only as awaiting audit; the underlying cause and old generation cost remain unknown. No fourth retry or brake reset was made. Live state inspected: `1b772799174eb0241f1fa38e51fdc4552179773d`.
+
 Two bounded assistants contributed: `garden_mechanism` implemented and reviewed the grammar/Chair slice; `free_only_research` researched official provider controls and independently reviewed recovery/provider code. Review caught missing-response fall-through and missing-versus-conflicting endpoint metadata; those cases were repaired and tested. Work owns integration. This is software review, not independent corroboration of empirical research.
 
 ## Still a design
