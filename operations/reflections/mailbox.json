@@ -96,6 +96,40 @@
         "The right reflection density should be learned from use rather than fixed in advance."
       ]
     },
+    "REFL-1DD8A64253D18853CFF1200F": {
+      "actor": "Week One public scout",
+      "context": {
+        "call_id": "gh-36116582032-1-scouts",
+        "parent_call_id": "gh-36116582032-1",
+        "run_id": "gh-36116582032-1"
+      },
+      "created_at": "2026-09-25T09:06:33.059153+00:00",
+      "level": "subcall",
+      "observations": [
+        "eia-diesel: retrieved",
+        "eia-energy: retrieved",
+        "nws-ca: retrieved"
+      ],
+      "origin": "runtime_observation",
+      "questions": [],
+      "reflection_id": "REFL-1DD8A64253D18853CFF1200F",
+      "related_reflection_ids": [],
+      "source_refs": [
+        "SRC-W1-97CA29FEC390AC98",
+        "SRC-W1-58C06D6CE3142B01",
+        "SRC-W1-3FBA3F47A07802CD",
+        "SRC-W1-FFE6A0A14DE87E65",
+        "SRC-W1-4F8CF05A57A8538A",
+        "SRC-W1-DE5F3D3C97F11620",
+        "SRC-W1-4483B5053CB35225",
+        "SRC-W1-318BA11C6B075EB6"
+      ],
+      "suggestions": [],
+      "summary": "Retrieved 3/3 public surfaces; 1 new/changed selected items.",
+      "uncertainties": [
+        "Selected feeds and alerts do not measure delivery performance, stocks or caregiver capacity."
+      ]
+    },
     "REFL-1FED135A5B30673A039E50BB": {
       "actor": "Week One public scout",
       "context": {
@@ -386,6 +420,39 @@
       ],
       "summary": "Provider attempt recorded: audit_pending",
       "uncertainties": []
+    },
+    "REFL-8A9EEE632E739DFF13721995": {
+      "actor": "ChatGPT Week One Governor task",
+      "context": {
+        "packet": "handoffs/week_one_governor/2026-09-25.json",
+        "question_id": "Q-RESEARCH-Q18"
+      },
+      "created_at": "2026-09-25T09:06:32.565575+00:00",
+      "level": "governor",
+      "observations": [
+        "Two physical sister vessels make the electric coastal-container option more concrete than a target or subsidy announcement.",
+        "Redundancy and dual replenishment address plausible failure modes, yet installed design is not measured availability.",
+        "Milestone language can be translated accurately while still being over-read operationally."
+      ],
+      "origin": "self_report",
+      "questions": [
+        "Can one operator or port record show repeated loaded Ningbo-area voyages and the share completed without diesel substitution?"
+      ],
+      "reflection_id": "REFL-8A9EEE632E739DFF13721995",
+      "related_reflection_ids": [],
+      "source_refs": [
+        "handoffs/week_one_governor/2026-09-25.json",
+        "https://www.ccs.org.cn/ccswz/articleDetail?id=202604070331469396",
+        "https://www.ccs.org.cn/ccswz/articleDetail?id=202607060127336064"
+      ],
+      "suggestions": [
+        "Make the next record a route-performance card: loaded freight, planned/actual times, energy replenishment, downtime and fallback.",
+        "Keep vessel delivery, revenue entry, completed freight and diesel displacement as separate fields."
+      ],
+      "summary": "Replication is a meaningful step between policy and service, but the evidence ladder still stops before completed freight.",
+      "uncertainties": [
+        "Revenue-service status, freight completed, route reliability, charger uptime, repair capacity and diesel displacement remain unknown."
+      ]
     },
     "REFL-90F28AB84A32435CAD1BF011": {
       "actor": "Week One public scout",
