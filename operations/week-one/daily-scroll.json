@@ -1,0 +1,85 @@
+{
+  "as_of": "2026-09-25T17:17:10.834805+00:00",
+  "brake": null,
+  "closed": false,
+  "closure_reason": null,
+  "cooldown_until": null,
+  "evidence_status": "Projection of records, not additional corroboration or admitted research.",
+  "kind": "daily_scroll",
+  "manifest_hash": "8352a82167c4981320e31d9b55d6bc392fad6dd4087013f90703b448753d0109",
+  "recent_runs": [
+    {
+      "changed_source_count": 0,
+      "note_ref": "operations/week-one/runs/gh-35980783938-2/HUMAN_NOTE.md",
+      "question_id": "Q-RESEARCH-Q01",
+      "result": "policy_blocked",
+      "retrieved_at": "2026-09-24T09:23:01.204694+00:00",
+      "run_id": "gh-35980783938-2",
+      "source_ref": "operations/week-one/runs/gh-35980783938-2/sources.json",
+      "started_at": "2026-09-24T09:23:00.589368+00:00",
+      "status": "complete",
+      "summary": "Inline usage does not establish zero cost and non-BYOK"
+    },
+    {
+      "changed_source_count": 0,
+      "note_ref": "operations/week-one/runs/gh-35981423237-1/HUMAN_NOTE.md",
+      "question_id": null,
+      "result": "operator_review_required",
+      "retrieved_at": "2026-09-24T09:28:26.279448+00:00",
+      "run_id": "gh-35981423237-1",
+      "source_ref": "operations/week-one/runs/gh-35981423237-1/sources.json",
+      "started_at": "2026-09-24T09:28:25.568016+00:00",
+      "status": "deferred",
+      "summary": "No synthesis recorded."
+    },
+    {
+      "changed_source_count": 0,
+      "note_ref": "operations/week-one/runs/gh-35981423237-2/HUMAN_NOTE.md",
+      "question_id": "Q-RESEARCH-Q01",
+      "result": "audit_pending",
+      "retrieved_at": "2026-09-24T09:23:01.204694+00:00",
+      "run_id": "gh-35981423237-2",
+      "source_ref": "operations/week-one/runs/gh-35981423237-2/sources.json",
+      "started_at": "2026-09-24T09:29:05.692346+00:00",
+      "status": "audit_pending",
+      "summary": "Saved generation awaits its audit; recover this receipt without another POST"
+    },
+    {
+      "changed_source_count": 4,
+      "note_ref": "operations/week-one/runs/gh-36048555357-1/HUMAN_NOTE.md",
+      "question_id": null,
+      "result": "cooldown",
+      "retrieved_at": "2026-09-24T19:30:07.104622+00:00",
+      "run_id": "gh-36048555357-1",
+      "source_ref": "operations/week-one/runs/gh-36048555357-1/sources.json",
+      "started_at": "2026-09-24T19:30:06.342417+00:00",
+      "status": "deferred",
+      "summary": "No synthesis recorded."
+    },
+    {
+      "changed_source_count": 1,
+      "note_ref": "operations/week-one/runs/gh-36116582032-1/HUMAN_NOTE.md",
+      "question_id": "Q-RESEARCH-Q01",
+      "result": "partial_answer",
+      "retrieved_at": "2026-09-25T09:06:33.054892+00:00",
+      "run_id": "gh-36116582032-1",
+      "source_ref": "operations/week-one/runs/gh-36116582032-1/sources.json",
+      "started_at": "2026-09-25T09:06:32.560255+00:00",
+      "status": "complete",
+      "summary": "UNKNOWN – the supplied evidence does not measure delivery performance or the effect of fuel costs on essential deliveries."
+    },
+    {
+      "changed_source_count": 0,
+      "note_ref": "operations/week-one/runs/gh-36166138616-1/HUMAN_NOTE.md",
+      "question_id": "Q-RESEARCH-Q01",
+      "result": null,
+      "retrieved_at": "2026-09-24T09:23:01.204694+00:00",
+      "run_id": "gh-36166138616-1",
+      "source_ref": "operations/week-one/runs/gh-36166138616-1/sources.json",
+      "started_at": "2026-09-25T17:17:10.189274+00:00",
+      "status": "prepared",
+      "summary": "No synthesis recorded."
+    }
+  ],
+  "scope": "Current snapshot of up to 6 recent recorded runs; their original dates remain visible."
+}
