@@ -322,7 +322,16 @@
             }
           },
           "request_sha256": "28ead32a1db4f6df86c051a767b318f5a0c4f4f3833aefe767ee7ae21c2a6340",
-          "result": null
+          "result": {
+            "category": "audit_pending",
+            "details": {
+              "outcome_path": "operations/week-one/runs/gh-36166138616-1/outcome.json",
+              "reason": "Saved generation awaits its audit; recover this receipt without another POST",
+              "receipt": null,
+              "run_id": "gh-36166138616-1"
+            },
+            "recorded_at": "2026-09-25T17:17:15.051569+00:00"
+          }
         },
         "ATT-811D87D156344129A59BA4E8C0139A35": {
           "attempt_id": "ATT-811D87D156344129A59BA4E8C0139A35",
@@ -753,12 +762,7 @@
           }
         }
       },
-      "claim": {
-        "actor": "Week One Answer Bee / OpenRouter / Nvidia",
-        "epoch": 1,
-        "expires_at": "2026-09-25T18:17:10.793765+00:00",
-        "token": "8f95c0a09b234bca8dde8954750de75d"
-      },
+      "claim": null,
       "context_refs": [
         "Resilience_Cascade_STATE.json#QUESTIONS_TO_WATCH/Q01",
         "RC-004; evidence cutoff 2026-09-21; reread before use"
@@ -778,7 +782,7 @@
           "question_id": "Q-MEANING-TRANSLATION-BOSS"
         }
       ],
-      "status": "answering",
+      "status": "open",
       "tickets": {}
     },
     "Q-RESEARCH-Q02": {

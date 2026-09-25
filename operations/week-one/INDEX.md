@@ -10,7 +10,7 @@ Each provider attempt reads public sources, a shared Question and the reflection
 
 | Run | Status | Question | Sources / output |
 |---|---|---|---|
-| gh-36166138616-1 | prepared /  | Q-RESEARCH-Q01 | [Sources](runs/gh-36166138616-1/sources.json) · [Note](runs/gh-36166138616-1/HUMAN_NOTE.md) |
+| gh-36166138616-1 | audit_pending / audit_pending | Q-RESEARCH-Q01 | [Sources](runs/gh-36166138616-1/sources.json) · [Note](runs/gh-36166138616-1/HUMAN_NOTE.md) |
 | gh-36116582032-1 | complete / partial_answer | Q-RESEARCH-Q01 | [Sources](runs/gh-36116582032-1/sources.json) · [Note](runs/gh-36116582032-1/HUMAN_NOTE.md) |
 | gh-36048555357-1 | deferred / cooldown |  | [Sources](runs/gh-36048555357-1/sources.json) · [Note](runs/gh-36048555357-1/HUMAN_NOTE.md) |
 | gh-35981423237-2 | audit_pending / audit_pending | Q-RESEARCH-Q01 | [Sources](runs/gh-35981423237-2/sources.json) · [Note](runs/gh-35981423237-2/HUMAN_NOTE.md) |
@@ -23,8 +23,8 @@ Each provider attempt reads public sources, a shared Question and the reflection
 | gh-35971974980-1 | deferred / operator_review_required |  | [Sources](runs/gh-35971974980-1/sources.json) · [Note](runs/gh-35971974980-1/HUMAN_NOTE.md) |
 | gh-35971438628-1 | complete / auth_or_configuration_error | Q-RESEARCH-Q01 | [Sources](runs/gh-35971438628-1/sources.json) · [Note](runs/gh-35971438628-1/HUMAN_NOTE.md) |
 
-Provider brake: null
-Cooldown until: None
+Provider brake: {"at": "2026-09-25T17:17:15.064961+00:00", "reason": "Saved generation awaits its audit; recover this receipt without another POST", "run_id": "gh-36166138616-1"}
+Cooldown until: 2026-09-25T18:17:13.108690+00:00
 
 Public-source coverage: EIA diesel/energy feed metadata and up to 12 NWS California active alerts.
 Research publication, source access, current operating capacity and model interpretation have separate provenance.

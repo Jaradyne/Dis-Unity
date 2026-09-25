@@ -1,12 +1,16 @@
 {
-  "as_of": "2026-09-25T17:17:10.834805+00:00",
-  "brake": null,
+  "as_of": "2026-09-25T17:17:15.078454+00:00",
+  "brake": {
+    "at": "2026-09-25T17:17:15.064961+00:00",
+    "reason": "Saved generation awaits its audit; recover this receipt without another POST",
+    "run_id": "gh-36166138616-1"
+  },
   "closed": false,
   "closure_reason": null,
-  "cooldown_until": null,
+  "cooldown_until": "2026-09-25T18:17:13.108690+00:00",
   "evidence_status": "Projection of records, not additional corroboration or admitted research.",
   "kind": "daily_scroll",
-  "manifest_hash": "8352a82167c4981320e31d9b55d6bc392fad6dd4087013f90703b448753d0109",
+  "manifest_hash": "43f3caec10c9bdf7a553a5086c69221591ba0f6f5362eadb6eca532d2eab2f66",
   "recent_runs": [
     {
       "changed_source_count": 0,
@@ -72,13 +76,13 @@
       "changed_source_count": 0,
       "note_ref": "operations/week-one/runs/gh-36166138616-1/HUMAN_NOTE.md",
       "question_id": "Q-RESEARCH-Q01",
-      "result": null,
+      "result": "audit_pending",
       "retrieved_at": "2026-09-24T09:23:01.204694+00:00",
       "run_id": "gh-36166138616-1",
       "source_ref": "operations/week-one/runs/gh-36166138616-1/sources.json",
       "started_at": "2026-09-25T17:17:10.189274+00:00",
-      "status": "prepared",
-      "summary": "No synthesis recorded."
+      "status": "audit_pending",
+      "summary": "Saved generation awaits its audit; recover this receipt without another POST"
     }
   ],
   "scope": "Current snapshot of up to 6 recent recorded runs; their original dates remain visible."

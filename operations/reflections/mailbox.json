@@ -724,6 +724,31 @@
       "summary": "Zero-cost routing needs both prevention before execution and attributable receipts afterward. A missing audit should preserve an unfinished verification task, not cause another generation.",
       "uncertainties": []
     },
+    "REFL-CDBEF849F7436763785284AC": {
+      "actor": "Week One runtime caretaker",
+      "context": {
+        "attempt_id": "ATT-5AEFCA91D14F4E75A31667D6B2863377",
+        "call_id": "ATT-5AEFCA91D14F4E75A31667D6B2863377",
+        "parent_call_id": "gh-36166138616-1",
+        "question_id": "Q-RESEARCH-Q01",
+        "run_id": "gh-36166138616-1"
+      },
+      "created_at": "2026-09-25T17:17:15.062548+00:00",
+      "level": "subcall",
+      "observations": [
+        "Saved generation awaits its audit; recover this receipt without another POST"
+      ],
+      "origin": "runtime_observation",
+      "questions": [],
+      "reflection_id": "REFL-CDBEF849F7436763785284AC",
+      "related_reflection_ids": [],
+      "source_refs": [],
+      "suggestions": [
+        "Inspect the saved prompt, provider response if present, and classified result before retrying."
+      ],
+      "summary": "Provider attempt recorded: audit_pending",
+      "uncertainties": []
+    },
     "REFL-D62F8784B5531FB53E3A09C5": {
       "actor": "Week One Answer Bee / OpenRouter / Nvidia / Governor lens",
       "context": {

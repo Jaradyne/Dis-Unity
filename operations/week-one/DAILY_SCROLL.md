@@ -2,7 +2,7 @@
 
 Current snapshot of up to 6 recent recorded runs; their original dates remain visible.
 
-As of 2026-09-25T17:17:10.834805+00:00.
+As of 2026-09-25T17:17:15.078454+00:00.
 
 Projection of records, not additional corroboration or admitted research.
 
@@ -48,8 +48,8 @@ UNKNOWN – the supplied evidence does not measure delivery performance or the e
 
 ## gh-36166138616-1
 
-2026-09-25T17:17:10.189274+00:00 · prepared / None
+2026-09-25T17:17:10.189274+00:00 · audit_pending / audit_pending
 
-No synthesis recorded.
+Saved generation awaits its audit; recover this receipt without another POST
 
 [Saved note](runs/gh-36166138616-1/HUMAN_NOTE.md) · 0 changed selected source records.
