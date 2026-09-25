@@ -1,0 +1,51 @@
+{
+  "packet_version": "chat-handoff-1",
+  "packet_id": "CHAT-20260924-logic-tree-garden-1",
+  "base_commit": "0a4fc4d1ceaac3ffd1248d72f8c1828f292ab28f",
+  "base_cycle": "RC-004 / Week One active",
+  "actor": {
+    "runtime": "Chat",
+    "provider": "OpenAI",
+    "model": "GPT-5.6 Sol"
+  },
+  "status": "ready_for_review",
+  "task": "Stage the Logic Tree Garden public surface and calibrate the next Work Aiden design/integration session.",
+  "created_at": "2026-09-24 Pacific evening",
+  "summary": "One initiating logic tree with AND/OR and teleport semantics; separate Governor design; adjacent Expected Flow Engine; Markov Chair candidate; country resilience/shock/priority profiles; new clinical, drone and graphene lanes; configurable receipt-recovery delay.",
+  "sources": [],
+  "claims": [],
+  "counterevidence": [],
+  "correspondence": [
+    {
+      "recipient": "Work Aiden",
+      "kind": "handoff",
+      "ref": "WAKE_WORK_AIDEN.md"
+    },
+    {
+      "recipient": "Jared",
+      "kind": "question",
+      "summary": "Bee architecture must be raised explicitly: reusable Crosscheck Bee vs Collector lens vs birth-on-residual specialist."
+    }
+  ],
+  "proposed_changes": [
+    "Review a repo-side schema for logic nodes/edges while keeping the Drive workbook as projection.",
+    "Design a distinct Governor runtime identity and Governor-only inverted logic tree.",
+    "Expose Expected Flow Engine snapshots to Governor without internalizing engine logic.",
+    "Move audit/content recovery delay to reviewed config and shorten appropriately for Week One.",
+    "Add bounded birth/design proposals for clinical capacity, drone industrial substrate, and graphene reality checking."
+  ],
+  "birth_requests": [
+    {
+      "role": "Clinical Capacity & Judgment Bee",
+      "stop_condition": "One cross-region comparison with source-backed care-delivery consequences and at least one ordinary counterexample/adaptation."
+    }
+  ],
+  "pending_prompts": [],
+  "limitations": [
+    "Drive connector cannot set unrestricted anyone-with-link public sharing.",
+    "Spreadsheet is a design/projection surface; no importer/exporter or canonical sync exists yet.",
+    "No new autonomous Governor runtime has been launched by this packet."
+  ],
+  "next_action": "Work Aiden reads live state and begins discussion with Jared using WAKE_WORK_AIDEN.md.",
+  "stop_reason": "Bounded staging packet complete."
+}
