@@ -1,0 +1,76 @@
+name: Mistral Safe Probe
+
+on:
+  push:
+    branches:
+      - chat-aiden/mistral-safe-probe-20260925
+    paths:
+      - .github/workflows/mistral-safe-probe.yml
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+    env:
+      MISTRAL_API_KEY: ${{ secrets.MISTRAL_API_KEY }}
+    steps:
+      - name: Probe Mistral model-list endpoint
+        shell: bash
+        run: |
+          set -u
+          if [ -z "${MISTRAL_API_KEY:-}" ]; then
+            echo "MISTRAL_API_KEY secret is not available to this workflow."
+            echo "## Mistral safe probe" >> "$GITHUB_STEP_SUMMARY"
+            echo "- Secret available: no" >> "$GITHUB_STEP_SUMMARY"
+            exit 0
+          fi
+
+          status="$(
+            curl --silent --show-error               --output "$RUNNER_TEMP/mistral-models.json"               --write-out "%{http_code}"               --request GET               --header "Authorization: Bearer $MISTRAL_API_KEY"               --connect-timeout 10               --max-time 30               https://api.mistral.ai/v1/models
+          )"
+
+          echo "HTTP status: $status"
+          echo "## Mistral safe probe" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Request: authenticated GET /v1/models" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Inference request sent: no" >> "$GITHUB_STEP_SUMMARY"
+          echo "- HTTP status: $status" >> "$GITHUB_STEP_SUMMARY"
+
+          python - "$status" "$RUNNER_TEMP/mistral-models.json" "$GITHUB_STEP_SUMMARY" <<'PY'
+          import json, sys
+          status, path, summary = sys.argv[1:]
+          try:
+              with open(path, "r", encoding="utf-8") as f:
+                  body = json.load(f)
+          except Exception as exc:
+              print(f"Response was not parseable JSON: {exc}")
+              with open(summary, "a", encoding="utf-8") as s:
+                  s.write("- JSON response: no\n")
+              raise SystemExit(0)
+
+          if status == "200":
+              data = body.get("data", body if isinstance(body, list) else [])
+              ids = [m.get("id") for m in data if isinstance(m, dict) and m.get("id")]
+              print("Available model IDs:")
+              for mid in ids:
+                  print(f"- {mid}")
+              with open(summary, "a", encoding="utf-8") as s:
+                  s.write(f"- API access: yes\n")
+                  s.write(f"- Models visible: {len(ids)}\n")
+                  if ids:
+                      s.write("\n### Visible model IDs\n")
+                      for mid in ids:
+                          s.write(f"- `{mid}`\n")
+          else:
+              message = body.get("message") or body.get("detail") or body.get("error")
+              print("Non-200 response.")
+              if message:
+                  print(f"Service message: {message}")
+              with open(summary, "a", encoding="utf-8") as s:
+                  s.write("- API access: not confirmed\n")
+                  if message:
+                      s.write(f"- Service message: {str(message)[:500]}\n")
+          PY
