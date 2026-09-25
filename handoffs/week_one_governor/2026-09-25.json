@@ -1,0 +1,137 @@
+{
+  "packet_version": "week-one-governor-1",
+  "packet_id": "W1-GOV-2026-09-25",
+  "created_at": "2026-09-25T04:19:03.724Z",
+  "base_commit": "0a4fc4d1ceaac3ffd1248d72f8c1828f292ab28f",
+  "actor": {
+    "runtime": "ChatGPT Week One Governor session",
+    "model": "unknown"
+  },
+  "question_id": "Q-RESEARCH-Q18",
+  "epoch": 1,
+  "answer": {
+    "summary": "A bounded coastal-container function has crossed from target to replicated pure-electric hardware: China Classification Society records construction certification of the first 740-TEU vessel in April 2026 and delivery of its sister vessel in July. The delivered sister has charging-plus-battery-swapping hardware and propulsion redundancy. This is evidence of buildable replacement capacity, not yet demonstrated reliable freight service: this session found no primary public record of loaded voyages, schedule completion, uptime, charger availability, freight completed or diesel actually displaced.",
+    "status": "provisional",
+    "evidence_refs": [
+      "GOV-20260925-01",
+      "GOV-20260925-02"
+    ],
+    "counterevidence": [
+      "Delivery of a second sister vessel weakens a claim that the design is only a one-off prototype.",
+      "The delivered vessel's single-failure propulsion redundancy and two replenishment modes are concrete engineering buffers, although their operating availability is unmeasured."
+    ],
+    "limitations": [
+      "Two pages from the same classification body; they are not independent service-performance confirmation.",
+      "The April primary page timed out on direct open; only its official search-index excerpt was accessible.",
+      "Certification and delivery do not establish revenue service, carried cargo, timetable reliability, charging uptime, repair time or diesel displacement.",
+      "No completed-freight metric, route-specific essential-delivery role, outside spare vessel or operating reserve was verified.",
+      "This does not establish an October diesel-export allocation or an exportable Chinese diesel surplus.",
+      "No canonical answer is admitted; Work review remains pending."
+    ],
+    "tests": {
+      "confirmation": "Obtain a dated operator or port record for one named route showing loaded departures and arrivals, TEU or tonnes carried, scheduled versus actual completion, charging or battery-swap availability, maintenance downtime and diesel use avoided over a defined interval.",
+      "falsification": "The vessels remain outside revenue service, routinely require diesel substitution, or fail the route's payload/timetable requirement; alternatively, a verified operating record shows no material diesel displacement.",
+      "ordinary_control": "A newly delivered diesel ship also does not prove reliable scheduled service; delivery language should be tested against later voyage records in either propulsion category."
+    },
+    "resilience": {
+      "buffers": "Installed candidates are charge-plus-swap replenishment and propulsion redundancy. Actual charged battery inventory, energized shore power, maintenance staffing and reserve margin remain unknown.",
+      "safe_shedding": "If capacity is tight, consolidate or defer low-priority empty repositioning only within safety and customer commitments; protect cold-chain/essential cargo, vessel safety, crew rest and accessible delivery windows.",
+      "adaptation_growth": "Start with repeatable short coastal routes where berth power, battery handling and repair support can be measured; grow shared charging, battery logistics and technician capacity only after service records confirm the bottleneck.",
+      "lifeboat": "A pre-confirmed substitute vessel and berth window that can carry the affected essential load. No spare vessel or slot is established here.",
+      "outside_donor_capacity": "Unknown. Count a supporting vessel, battery set or charger only after compatibility, existing commitments, access, crew, berth and response time are verified.",
+      "commons": "An opt-in route reliability board can publish last verified departure/arrival, cargo class, charging status, maintenance interruption and fallback capacity without exposing customer or crew data."
+    }
+  },
+  "source_ledger": [
+    {
+      "source_id": "GOV-20260925-01",
+      "title": "CCS completes construction inspection and certification of the pure-electric vessel Ningyuan Diankun",
+      "publisher": "China Classification Society",
+      "url": "https://www.ccs.org.cn/ccswz/articleDetail?id=202604070331469396",
+      "publication_date": "2026-04-07",
+      "observation_date": "The page describes completion of construction inspection/certification before 2026-04-07; exact event date not stated in the accessible excerpt.",
+      "retrieval_date": "2026-09-25",
+      "access": "Official search-index excerpt; direct page open timed out twice.",
+      "access_limitations": "Full article text was not retrieved. Certification is not an operating or cargo-performance record.",
+      "finding": "The official excerpt identifies the first 740-TEU pure-electric open-container vessel and says CCS completed construction inspection and certification."
+    },
+    {
+      "source_id": "GOV-20260925-02",
+      "title": "CCS supports delivery of the 10,000-ton-class pure-electric intelligent vessel Ningyuan Dianpeng",
+      "publisher": "China Classification Society",
+      "url": "https://www.ccs.org.cn/ccswz/articleDetail?id=202607060127336064",
+      "publication_date": "2026-07-06 13:07 (page time; timezone not shown)",
+      "observation_date": "Delivery occurred shortly before publication; the page says 'recently' and supplies no exact delivery date.",
+      "retrieval_date": "2026-09-25",
+      "access": "Full public text.",
+      "access_limitations": "Classification-body account; no operator voyage log, cargo result, uptime series or independent performance audit.",
+      "finding": "CCS reports delivery of the 740-TEU pure-electric sister vessel with ten containerized battery packs, high-voltage shore fast charging, charge-plus-swap replenishment and propulsion redundancy."
+    }
+  ],
+  "sample_for_jared": {
+    "title": "Delivered is a door, not the journey",
+    "original": "顺利交付",
+    "english_pivot": "Successfully delivered.",
+    "meaning": "The ship exists, passed the described delivery stage and can enter the operator's hands. The phrase does not itself mean it has carried scheduled freight reliably.",
+    "ordinary_translation_explanations": [
+      "A technical/project-news genre celebrates completion of a milestone.",
+      "顺利 is ordinary positive milestone wording and need not encode a service-performance claim.",
+      "The article's later statement 如期交付 means delivered on schedule for the build, not that later voyages ran on schedule."
+    ],
+    "control": "Ordinary control: a new train can be successfully delivered while passenger timetable reliability remains unknown. The same evidence boundary applies to a diesel ship.",
+    "question_refs": [
+      "Q-RESEARCH-Q18"
+    ]
+  },
+  "reflection": {
+    "summary": "Replication is a meaningful step between policy and service, but the evidence ladder still stops before completed freight.",
+    "observations": [
+      "Two physical sister vessels make the electric coastal-container option more concrete than a target or subsidy announcement.",
+      "Redundancy and dual replenishment address plausible failure modes, yet installed design is not measured availability.",
+      "Milestone language can be translated accurately while still being over-read operationally."
+    ],
+    "suggestions": [
+      "Make the next record a route-performance card: loaded freight, planned/actual times, energy replenishment, downtime and fallback.",
+      "Keep vessel delivery, revenue entry, completed freight and diesel displacement as separate fields."
+    ],
+    "questions": [
+      "Can one operator or port record show repeated loaded Ningbo-area voyages and the share completed without diesel substitution?"
+    ],
+    "uncertainties": [
+      "Revenue-service status, freight completed, route reliability, charger uptime, repair capacity and diesel displacement remain unknown."
+    ],
+    "source_refs": [
+      "https://www.ccs.org.cn/ccswz/articleDetail?id=202604070331469396",
+      "https://www.ccs.org.cn/ccswz/articleDetail?id=202607060127336064"
+    ]
+  },
+  "governor_response": {
+    "reflection_ids": [
+      "REFL-7CE785B4BA9EB9DF6FEFB7C7",
+      "REFL-EE5CFC158BA9BEB56DBE05",
+      "REFL-5A4DEEE4477155CB503D988F",
+      "REFL-56C2BE466F15ACC84510F748"
+    ],
+    "summary": "Carry the mailbox's missing-denominator lesson from food cover into electrified freight: a delivered asset is not completed service. Preserve ordinary language explanations and the current provider audit boundary while public sensing continues.",
+    "followups": [
+      {
+        "recipient": "Work Aiden",
+        "question": "Review this provisional Q18 packet and keep certification/delivery separate from reliable service and diesel displacement."
+      },
+      {
+        "recipient": "Chat Aiden",
+        "question": "In a later bounded check, seek one primary operator or port record of repeated loaded voyages, planned/actual completion and energy/maintenance interruptions."
+      }
+    ],
+    "self_reflection": "The useful advance is not to call electrification solved, but to locate the exact rung now reached: replicated, certified hardware with explicit design buffers, awaiting service evidence."
+  },
+  "operational_review": {
+    "latest_run": "https://github.com/Jaradyne/Dis-Unity/actions/runs/36048555357",
+    "workflow_status": "completed / success",
+    "research_result": "deferred / cooldown",
+    "action": "No rerun: the infrastructure job and all executed steps succeeded; provider execution was skipped under the saved cooldown.",
+    "source_state": "Latest saved sources and HUMAN_NOTE were read; the latest run has no outcome.json because it deferred before synthesis. The earlier saved audit_pending outcome was also inspected.",
+    "preceding_handoffs": "Read the 2026-09-24 Governor packet and open PR #11 China/October packet before selecting this non-duplicative service-capacity lane.",
+    "window": "Active; configured end 2026-10-01T07:45:13+00:00"
+  }
+}
