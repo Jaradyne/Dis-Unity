@@ -100,6 +100,8 @@ button.ctrl:hover,button.ctrl:focus{outline:3px solid var(--foam);outline-offset
     packet_status:"illustrative_demo",
     source_refs:[],
     control_note:"One ordinary control should accompany any real Boss Packet.",
+    seed:"tide-shepherd-week-one",
+    recurrence:{max_resurfaced_per_round:2,same_place_chance:0.5},
     rounds:[
       {
         id:"translation-weather",
@@ -146,6 +148,56 @@ button.ctrl:hover,button.ctrl:focus{outline:3px solid var(--foam);outline-offset
   let turbulence = 1;
   let results = [];
   let buttons = [];
+  let activePieces = [];
+
+  function hashSeed(text){
+    let h=2166136261>>>0;
+    for(let i=0;i<text.length;i++){h^=text.charCodeAt(i);h=Math.imul(h,16777619);}
+    return h>>>0;
+  }
+  function mulberry32(a){
+    return function(){
+      a|=0;a=a+0x6D2B79F5|0;
+      let t=Math.imul(a^a>>>15,1|a);
+      t=t+Math.imul(t^t>>>7,61|t)^t;
+      return ((t^t>>>14)>>>0)/4294967296;
+    };
+  }
+  function roundRng(index){
+    return mulberry32(hashSeed(String(packet.seed||packet.boss_id)+"|"+index));
+  }
+  function shuffled(items,rng){
+    const out=items.slice();
+    for(let i=out.length-1;i>0;i--){const j=Math.floor(rng()*(i+1));[out[i],out[j]]=[out[j],out[i]];}
+    return out;
+  }
+  function composeRoundPieces(){
+    const round=packet.rounds[roundIndex];
+    const rng=roundRng(roundIndex);
+    let pieces=round.pieces.map((label,i)=>({
+      label, resurfaced:false, origin_round:round.id,
+      same_place:false, angle_fraction:null, mix_jitter:(rng()-.5)*.08
+    }));
+    if(roundIndex>0 && results.length){
+      const prior=[];
+      results.forEach(r=>(r.piece_states||[]).forEach(p=>prior.push(p)));
+      const candidates=shuffled(prior,rng).filter(p=>!pieces.some(x=>x.label===p.label));
+      const max=Math.min((packet.recurrence&&packet.recurrence.max_resurfaced_per_round)||2,candidates.length);
+      for(let i=0;i<max;i++){
+        const old=candidates[i], same=rng()<((packet.recurrence&&packet.recurrence.same_place_chance)||0.5);
+        pieces.push({
+          label:old.label,
+          resurfaced:true,
+          origin_round:old.origin_round,
+          same_place:same,
+          angle_fraction:same?old.angle_fraction:null,
+          mix_jitter:(rng()-.5)*.08
+        });
+      }
+      pieces=shuffled(pieces,rng);
+    }
+    return pieces;
+  }
 
   function px(x,y,w,h,c){
     ctx.fillStyle=c;
@@ -252,13 +304,16 @@ button.ctrl:hover,button.ctrl:focus{outline:3px solid var(--foam);outline-offset
     layer.innerHTML="";
     buttons=[];
     const round=packet.rounds[roundIndex];
-    const n=round.pieces.length;
-    round.pieces.forEach((piece,i)=>{
+    activePieces=composeRoundPieces();
+    const n=activePieces.length;
+    activePieces.forEach((piece,i)=>{
       const b=document.createElement("button");
       b.className="flotsam";
-      b.textContent=piece;
+      b.textContent=piece.label+(piece.resurfaced?" ↟":"");
       b.dataset.index=String(i);
-      b.setAttribute("aria-label","Hold steady: "+piece);
+      b.dataset.angleFraction=piece.angle_fraction===null?"":String(piece.angle_fraction);
+      b.dataset.mixJitter=String(piece.mix_jitter||0);
+      b.setAttribute("aria-label","Hold steady: "+piece.label+(piece.resurfaced?" resurfaced":""));
 
       b.addEventListener("pointerdown",e=>{
         if(resolved)return;
@@ -291,7 +346,10 @@ button.ctrl:hover,button.ctrl:focus{outline:3px solid var(--foam);outline-offset
     const cx=rect.width*.5, cy=rect.height*.72;
     const baseR=Math.min(rect.width,rect.height)*(.25+.025*turbulence);
     buttons.forEach((b,i)=>{
-      const angle=(Math.PI*2/buttons.length)*i+t*(.38*turbulence);
+      const remembered=Number.parseFloat(b.dataset.angleFraction);
+      const jitter=Number.parseFloat(b.dataset.mixJitter)||0;
+      const base=Number.isFinite(remembered)?remembered*Math.PI*2:(Math.PI*2/buttons.length)*i+jitter*Math.PI*2;
+      const angle=base+t*(.38*turbulence);
       const wobble=Math.sin(t*3+i*2.3)*12*turbulence;
       const x=cx+Math.cos(angle)*(baseR+wobble);
       const y=cy+Math.sin(angle)*(baseR*.45+wobble*.35);
@@ -304,7 +362,7 @@ button.ctrl:hover,button.ctrl:focus{outline:3px solid var(--foam);outline-offset
     if(resolved)return;
     selected=i;
     buttons.forEach((b,j)=>b.classList.toggle("holding",j===i));
-    appendLog("Holding: "+packet.rounds[roundIndex].pieces[i]);
+    appendLog("Holding: "+activePieces[i].label+(activePieces[i].resurfaced?" (resurfaced)":""));
   }
 
   function endHold(i){
@@ -317,11 +375,25 @@ button.ctrl:hover,button.ctrl:focus{outline:3px solid var(--foam);outline-offset
     if(resolved||selected===null)return;
     resolved=true;
     const round=packet.rounds[roundIndex];
-    const preserved=round.pieces[selected];
+    const preserved=activePieces[selected].label;
+    const pieceStates=activePieces.map((p,i)=>{
+      const remembered=Number.parseFloat(buttons[i].dataset.angleFraction);
+      const jitter=Number.parseFloat(buttons[i].dataset.mixJitter)||0;
+      const fraction=Number.isFinite(remembered)?remembered:(((i/activePieces.length)+jitter)%1+1)%1;
+      return {
+        label:p.label,
+        origin_round:p.origin_round,
+        preserved:i===selected,
+        resurfaced:p.resurfaced,
+        same_place:p.same_place,
+        angle_fraction:fraction
+      };
+    });
     results.push({
       round_id:round.id,
       preserved:preserved,
-      other_pieces:round.pieces.filter((_,i)=>i!==selected),
+      other_pieces:activePieces.filter((_,i)=>i!==selected).map(p=>p.label),
+      piece_states:pieceStates,
       interpretation:"attention_preserved_not_truth_claim"
     });
 
@@ -334,6 +406,7 @@ button.ctrl:hover,button.ctrl:focus{outline:3px solid var(--foam);outline-offset
 
     appendLog("Whirlpool calmed. Preserved: "+preserved+".");
     appendLog("The other pieces sank from this round; they were not declared false.");
+    appendLog("The Tide-Shepherd remembers the debris. Some pieces may surface again in the same place or in a new admixture.");
     holdFill.style.width="100%";
 
     if(roundIndex<packet.rounds.length-1){
@@ -360,6 +433,8 @@ button.ctrl:hover,button.ctrl:focus{outline:3px solid var(--foam);outline-offset
     promptEl.textContent=round.prompt;
     makeButtons();
     appendLog("Surge "+(roundIndex+1)+": "+round.id);
+    const returning=activePieces.filter(p=>p.resurfaced).map(p=>p.label);
+    if(returning.length)appendLog("Resurfaced: "+returning.join(", ")+". Recurrence is not corroboration.");
   }
 
   function restart(){
@@ -379,7 +454,7 @@ button.ctrl:hover,button.ctrl:focus{outline:3px solid var(--foam);outline-offset
       source_packet_status:packet.packet_status,
       source_refs:packet.source_refs||[],
       completed_at:new Date().toISOString(),
-      mechanic:"hold_one_piece_steady_to_calm_each_whirlpool",
+      mechanic:"hold_one_piece_steady_to_calm_each_whirlpool_with_seeded_flotsam_recurrence",
       results:results,
       earned_in_play:results.length===packet.rounds.length,
       proposed_governor_power:results.length===packet.rounds.length ? {
