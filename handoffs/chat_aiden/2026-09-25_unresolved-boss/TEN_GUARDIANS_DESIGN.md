@@ -9,7 +9,7 @@ A full Meaning Tower arc contains **ten boss seats**.
 - **Seats 1–6 — weekly/ordinary guardians.** These are drawn from the week's actual epistemic and resilience problems. A newly invented weekly boss can occupy one of these seats. Bosses may recur in later weeks when the same cognitive pressure returns in a new form.
 - **Seats 7–9 — empowered major guardians.** Three earlier boss families return in intensified form. Each major guardian embodies one candidate Governor power.
 - **Seat 10 — final guardian.** The final boss may wield all three candidate powers at once. Defeating it does **not** automatically give the Governor all three.
-- **After the final fight, Jared chooses one of the three candidate powers** to become the Governor's earned power for that arc. The unchosen powers remain possible future growth rather than being destroyed.
+- **After the final fight, Jared chooses one of the three offered upgrades** to add permanently to the Governor's skill tree. The unchosen branches remain available for later growth rather than being destroyed.
 
 The roster is deliberately not frozen before the week's material earns it.
 
@@ -122,6 +122,8 @@ The final boss therefore tests coordination between powers before Jared chooses 
 
 ## Governor power rule
 
+Boss powers are **permanent Governor capabilities** once Jared selects them and Work admits them. They complement, rather than replace, the Governor's internal logic tree: the logic tree routes/refines thought; the skill tree records earned processing capacities.
+
 Boss powers are not arbitrary skill-tree perks. They are a compact record of what Jared demonstrated during play.
 
 A candidate power must have:
@@ -131,4 +133,11 @@ A candidate power must have:
 - no claim that play changed external evidence;
 - an explicit post-final choice by Jared before it becomes canonical Governor capability.
 
-The final choice can influence how the Governor routes future Garden material without becoming an irreversible personality lock. Future arcs can teach other powers.
+The final choice becomes a durable capability and may influence how the Governor routes/processes future Garden material. Later bosses can deepen an existing path or open another branch; permanence does not mean every upgrade must be used on every cycle.
+
+
+## Boss 10 identity
+
+The current Aiden-original final guardian is **The Spiral Witness**. See `BOSS_10_SPIRAL_WITNESS.md`.
+
+It is a black-shelled nautilus/sea-oracle whose mirrored spiral shell and tidal arms merge all three major mechanics into one coordinated encounter. It is explicitly not a sequential replay of the three bosses. Its final phase reflects sentence/paragraph-sized preserved context across attempts before Jared chooses one permanent Governor upgrade.
