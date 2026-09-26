@@ -1,0 +1,104 @@
+name: Mistral Small 4 One-Shot Evaluation
+
+on:
+  push:
+    branches:
+      - chat-aiden/mistral-safe-probe-20260925
+    paths:
+      - .github/workflows/mistral-small4-eval.yml
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  evaluate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    env:
+      MISTRAL_API_KEY: ${{ secrets.MISTRAL_API_KEY }}
+    steps:
+      - name: One bounded Small 4 inference
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [ -z "${MISTRAL_API_KEY:-}" ]; then
+            echo "MISTRAL_API_KEY unavailable"
+            exit 1
+          fi
+
+          cat > "$RUNNER_TEMP/request.json" <<'JSON'
+          {
+            "model": "mistral-small-latest",
+            "temperature": 0.2,
+            "max_tokens": 500,
+            "messages": [
+              {
+                "role": "system",
+                "content": "You are evaluating multilingual semantic differences conservatively. Distinguish ordinary translation variation from a curiosity worth preserving. Do not infer motive, legal divergence, or factual difference unless the text supports it. Return concise JSON only."
+              },
+              {
+                "role": "user",
+                "content": "Compare these three official renderings of one WHO principle. English: 'inclusivity, transparency and accountability'. French: 'inclusivité, transparence et responsabilité'. Spanish: 'inclusión, transparencia y rendición de cuentas'. Return JSON with keys: ordinary_explanation, surviving_curiosity, what_not_to_claim, next_check. Keep each value under 70 words."
+              }
+            ]
+          }
+          JSON
+
+          status="$(
+            curl --silent --show-error \
+              --output "$RUNNER_TEMP/response.json" \
+              --write-out "%{http_code}" \
+              --request POST \
+              --header "Authorization: Bearer $MISTRAL_API_KEY" \
+              --header "Content-Type: application/json" \
+              --data @"$RUNNER_TEMP/request.json" \
+              --connect-timeout 10 \
+              --max-time 90 \
+              https://api.mistral.ai/v1/chat/completions
+          )"
+
+          echo "HTTP status: $status"
+
+          python - "$status" "$RUNNER_TEMP/response.json" "$GITHUB_STEP_SUMMARY" <<'PY'
+          import json, sys
+          status, path, summary = sys.argv[1:]
+          with open(path, "r", encoding="utf-8") as f:
+              body = json.load(f)
+
+          with open(summary, "a", encoding="utf-8") as s:
+              s.write("## Mistral Small 4 one-shot evaluation\n")
+              s.write(f"- HTTP status: {status}\n")
+              s.write("- Model requested: mistral-small-latest\n")
+              s.write("- PAYG state: user-confirmed off before launch\n")
+              s.write("- Max output tokens: 500\n")
+
+          if status != "200":
+              print(json.dumps(body, indent=2))
+              raise SystemExit(1)
+
+          model = body.get("model")
+          usage = body.get("usage", {})
+          prompt_tokens = int(usage.get("prompt_tokens") or 0)
+          completion_tokens = int(usage.get("completion_tokens") or 0)
+          input_cost = prompt_tokens * 0.15 / 1_000_000
+          output_cost = completion_tokens * 0.60 / 1_000_000
+          est_cost = input_cost + output_cost
+          content = body["choices"][0]["message"]["content"]
+
+          print("Returned model:", model)
+          print("Prompt tokens:", prompt_tokens)
+          print("Completion tokens:", completion_tokens)
+          print("Estimated list-price usage: $%.8f" % est_cost)
+          print("---- RESPONSE ----")
+          print(content)
+
+          with open(summary, "a", encoding="utf-8") as s:
+              s.write(f"- Returned model: {model}\n")
+              s.write(f"- Prompt tokens: {prompt_tokens}\n")
+              s.write(f"- Completion tokens: {completion_tokens}\n")
+              s.write(f"- Estimated list-price usage: ${est_cost:.8f}\n")
+              s.write("\n### Response\n")
+              s.write(content[:6000])
+              s.write("\n")
+          PY
