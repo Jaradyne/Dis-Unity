@@ -33,7 +33,8 @@
       "Jared Meaning Tower attention selections",
       "English pivot notes",
       "prior control samples",
-      "relevant Daily Scroll references"
+      "relevant Daily Scroll references",
+      "site-derived language roster for one selected government/public institution"
     ]
   },
   "initiating_garden_mapping": {
@@ -87,7 +88,7 @@
   },
   "stopping": {
     "normal": "One matched source family has been independently inspected, ordinary controls applied, up to three residuals plus one boring control prepared, or no residual survives.",
-    "attention_budget": "One source family per pass. No open-ended crawl.",
+    "attention_budget": "One source family or one selected government/public institution + one exact item per pass. No open-ended crawl.",
     "silence_is_valid": true
   },
   "permissions": {
@@ -120,5 +121,28 @@
     "may_run_deterministically_when_source_text_is_supplied": true,
     "scheduled": false,
     "autonomous": false
+  },
+  "surface_discovery_mode": {
+    "enabled_as_bounded_mode": true,
+    "purpose": "For one selected public institution and one exact item, discover every language variant that institution actually publishes for the same or materially equivalent content.",
+    "steps": [
+      "start from one issuing institution and one canonical item",
+      "enumerate language/locale links exposed for that item",
+      "distinguish full translations from summaries, machine-translation widgets, alternate editions and menu-only shells",
+      "record canonical URL, locale/script, publication/version date and source status for each surface",
+      "compare only matched semantic units",
+      "treat a missing language surface as publication metadata, not motive evidence"
+    ],
+    "seed_countries": [
+      "India",
+      "Singapore",
+      "Indonesia",
+      "Philippines",
+      "Democratic Republic of the Congo",
+      "Republic of the Congo",
+      "Ethiopia",
+      "Eritrea"
+    ],
+    "no_global_crawl": true
   }
 }
