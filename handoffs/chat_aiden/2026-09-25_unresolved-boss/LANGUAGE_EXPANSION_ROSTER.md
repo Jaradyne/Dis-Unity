@@ -16,7 +16,9 @@ For the first WHO Pandemic Agreement encounter, WHO itself supplies six equally 
 Only these belong in the equal-authenticity comparison unless another institution publishes an authoritative rendering of the same instrument.
 
 ### Lane B — wider language garden
-Jared wants a much wider set of language surfaces available for later bosses and experiments. A lane may be used only when we have one of:
+Jared wants a much wider set of language surfaces available for later bosses and experiments. **Government-site collector rule:** for a selected government or public institution, discover and record every language in which that institution publishes the *same or materially equivalent* item, then compare only those matched surfaces. Language menus alone are leads, not proof that a matched document exists.
+
+A lane may be used only when we have one of:
 1. an official/local-government rendering of the same material;
 2. a clearly attributed institutional translation;
 3. an explicitly synthetic translation experiment, labelled **non-evidence**.
@@ -28,6 +30,7 @@ Do not silently mix these provenance classes.
 - **Persian / Farsi** — Persian (فارسی). Iran is the primary state-language context.
 - **Hebrew** — עברית.
 - **Singapore** — English, Malay, Mandarin Chinese and Tamil are official; Malay is the national language. Use all four when the same official Singapore material exists.
+- **India** — begin with Hindi and English at Union-government level. The Union's official-language framework uses Hindi in Devanagari and also permits English for official purposes. When a specific Government of India site publishes additional matched language versions, collect the languages that site actually publishes rather than assuming a fixed all-India list.
 - **Indonesia** — Bahasa Indonesia / Indonesian.
 - **Philippines** — Filipino and English are official for communication/instruction; regional Philippine languages can form local surfaces when source material exists.
 - **Democratic Republic of the Congo (DRC)** — French is official; Lingala, Kikongo, Kiswahili and Tshiluba have national-language status.
@@ -63,3 +66,17 @@ Every flotsam item must retain:
 - whether the difference survived the Noise Gate.
 
 The wider language roster is a **garden of possible surfaces**, not a demand to crawl all languages every cycle.
+
+
+## Government-site expansion rule
+
+For country/institution studies, prefer a **site-derived language roster** over a predeclared global language list:
+
+1. choose the issuing government/institution and one exact item;
+2. discover the language variants that the issuer actually exposes for that item;
+3. preserve locale/script labels and canonical URLs;
+4. distinguish full translations from summaries, machine translation widgets, and language-menu shells;
+5. run the Noise Gate only on genuinely comparable semantic units;
+6. keep absent languages as an observation about publication practice, not as evidence of exclusionary intent.
+
+This lets India, Singapore, the DRC, Ethiopia, Eritrea and others grow their own realistic language surfaces instead of forcing them into a single master list.
