@@ -80,3 +80,25 @@ For country/institution studies, prefer a **site-derived language roster** over 
 6. keep absent languages as an observation about publication practice, not as evidence of exclusionary intent.
 
 This lets India, Singapore, the DRC, Ethiopia, Eritrea and others grow their own realistic language surfaces instead of forcing them into a single master list.
+
+
+## Office / partner translation cross-reference
+
+Yes: regional offices, country offices and government/partner translations can be compared against the core official-language surfaces **when their provenance is explicit**.
+
+Do not flatten these into one authority class. Preserve whether each surface is:
+- legally/equally authentic text;
+- official human translation issued by the same institution;
+- regional/country-office communication;
+- licensed partner translation;
+- official-site machine translation;
+- synthetic research translation.
+
+A regional/country-office rendering can be excellent evidence for **how that office communicates locally** without becoming de jure equal to an instrument's designated authentic texts.
+
+For WHO specifically:
+- the global organization prioritizes six official languages;
+- WHO says partner translations have extended publications into more than 63 languages;
+- some WHO web/data surfaces also use machine translation and explicitly state that English remains binding/authentic for those machine-translated pages.
+
+For the National Portal of India, the portal's current disclaimer says non-English translations are generated with automated tools and are informational/non-authoritative. Treat those as an unusually useful **officially hosted machine-translation surface**, not as an authoritative legal translation.
