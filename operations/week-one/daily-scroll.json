@@ -1,7 +1,7 @@
 {
-  "as_of": "2026-09-25T19:34:23.536595+00:00",
+  "as_of": "2026-09-26T08:50:11.381011+00:00",
   "brake": {
-    "at": "2026-09-25T19:34:23.210541+00:00",
+    "at": "2026-09-26T08:50:11.134136+00:00",
     "reason": "Saved generation reached its three-attempt recovery limit",
     "run_id": "gh-36166138616-1"
   },
@@ -10,20 +10,8 @@
   "cooldown_until": "2026-09-25T18:17:13.108690+00:00",
   "evidence_status": "Projection of records, not additional corroboration or admitted research.",
   "kind": "daily_scroll",
-  "manifest_hash": "5fa2c8a818908f669aec46fa39fba1498a11938049a833afd5754763af4a541b",
+  "manifest_hash": "a3d0ba553973b0a55456e3c526045ba8607b3fc008154df9846b24152d5d4671",
   "recent_runs": [
-    {
-      "changed_source_count": 0,
-      "note_ref": "operations/week-one/runs/gh-35981423237-1/HUMAN_NOTE.md",
-      "question_id": null,
-      "result": "operator_review_required",
-      "retrieved_at": "2026-09-24T09:28:26.279448+00:00",
-      "run_id": "gh-35981423237-1",
-      "source_ref": "operations/week-one/runs/gh-35981423237-1/sources.json",
-      "started_at": "2026-09-24T09:28:25.568016+00:00",
-      "status": "deferred",
-      "summary": "No synthesis recorded."
-    },
     {
       "changed_source_count": 0,
       "note_ref": "operations/week-one/runs/gh-35981423237-2/HUMAN_NOTE.md",
@@ -81,6 +69,18 @@
       "run_id": "gh-36180495833-1",
       "source_ref": "operations/week-one/runs/gh-36180495833-1/sources.json",
       "started_at": "2026-09-25T19:34:23.200922+00:00",
+      "status": "deferred",
+      "summary": "No synthesis recorded."
+    },
+    {
+      "changed_source_count": 3,
+      "note_ref": "operations/week-one/runs/gh-36230966851-1/HUMAN_NOTE.md",
+      "question_id": null,
+      "result": "operator_review_required",
+      "retrieved_at": "2026-09-26T08:50:11.348830+00:00",
+      "run_id": "gh-36230966851-1",
+      "source_ref": "operations/week-one/runs/gh-36230966851-1/sources.json",
+      "started_at": "2026-09-26T08:50:11.117772+00:00",
       "status": "deferred",
       "summary": "No synthesis recorded."
     }

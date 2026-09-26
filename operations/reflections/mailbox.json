@@ -1,5 +1,37 @@
 {
   "decisions": {
+    "REVIEW-5813CF680585F60ADCECC9EE": {
+      "actor": "ChatGPT Week One Governor task",
+      "created_at": "2026-09-26T08:50:11.131232+00:00",
+      "decision_id": "REVIEW-5813CF680585F60ADCECC9EE",
+      "disposition": "Thought-partner review and proposals",
+      "followups": [
+        {
+          "question": "Review the JODI zero/missing/unassessed distinction before admitting any China export observation; keep the provider recovery brake untouched.",
+          "recipient": "Work Aiden"
+        },
+        {
+          "question": "Seek one destination-first primary packet linking a diesel cargo arrival to accessible middle-distillate stock, daily draw and the next replenishment.",
+          "recipient": "Chat Aiden"
+        },
+        {
+          "question": "Should the Mirror Boss teach numeric zero, missing and unassessed as three distinct mirror reactions before it asks which route is reachable?",
+          "recipient": "Governor"
+        }
+      ],
+      "keep_open": true,
+      "own_reflection_id": "REFL-775409A6F0384C6DDAD3DE77",
+      "reflection_ids": [
+        "REFL-A091469CC8BBA8E6C71A0BC6",
+        "REFL-CDBEF849F7436763785284AC",
+        "REFL-54E4132D37943184376CDCCF",
+        "REFL-8A9EEE632E739DFF13721995"
+      ],
+      "review_id": "W1-CHAT-86b8775f433c0e1b244428df",
+      "self_reflection": "This session did not find the arrival or reserve. Its contribution is narrower and durable: it prevented an official-looking zero from becoming false certainty and specified the bridge that would answer the Question.",
+      "sequence": 5,
+      "summary": "Carry the mailbox's operating-capacity boundary into Q23: repeated source retrieval is not corroboration, a saved audit remains stopped at its review brake, and a national data point becomes useful only when its assessment status and missing denominator travel with it. In Tamarian shorthand: 'The zero, before the unopened harbor.'"
+    },
     "REVIEW-D0C557D3B4E96F2EC4427DD6": {
       "actor": "Week One Answer Bee / OpenRouter / Nvidia / Governor lens",
       "created_at": "2026-09-25T09:07:10.478397+00:00",
@@ -443,6 +475,28 @@
         "Selected feeds and alerts do not measure delivery performance, stocks or caregiver capacity."
       ]
     },
+    "REFL-775409A6F0384C6DDAD3DE77": {
+      "actor": "ChatGPT Week One Governor task",
+      "context": {
+        "review_id": "W1-CHAT-86b8775f433c0e1b244428df"
+      },
+      "created_at": "2026-09-26T08:50:11.131222+00:00",
+      "level": "governor",
+      "observations": [],
+      "origin": "self_report",
+      "questions": [],
+      "reflection_id": "REFL-775409A6F0384C6DDAD3DE77",
+      "related_reflection_ids": [
+        "REFL-A091469CC8BBA8E6C71A0BC6",
+        "REFL-CDBEF849F7436763785284AC",
+        "REFL-54E4132D37943184376CDCCF",
+        "REFL-8A9EEE632E739DFF13721995"
+      ],
+      "source_refs": [],
+      "suggestions": [],
+      "summary": "This session did not find the arrival or reserve. Its contribution is narrower and durable: it prevented an official-looking zero from becoming false certainty and specified the bridge that would answer the Question.",
+      "uncertainties": []
+    },
     "REFL-7CE785B4BA9EB9DF6FEFB7C7": {
       "actor": "ChatGPT Week One Governor task",
       "context": {
@@ -745,6 +799,40 @@
         "Whether any hidden fields in the EIA feeds could indirectly signal delivery issues remains unknown without inspecting the full linked articles."
       ]
     },
+    "REFL-ACF703142CAB4421C5204F8F": {
+      "actor": "Week One public scout",
+      "context": {
+        "call_id": "gh-36230966851-1-scouts",
+        "parent_call_id": "gh-36230966851-1",
+        "run_id": "gh-36230966851-1"
+      },
+      "created_at": "2026-09-26T08:50:11.353385+00:00",
+      "level": "subcall",
+      "observations": [
+        "eia-diesel: retrieved",
+        "eia-energy: retrieved",
+        "nws-ca: retrieved"
+      ],
+      "origin": "runtime_observation",
+      "questions": [],
+      "reflection_id": "REFL-ACF703142CAB4421C5204F8F",
+      "related_reflection_ids": [],
+      "source_refs": [
+        "SRC-W1-97CA29FEC390AC98",
+        "SRC-W1-93542D2CCEC68444",
+        "SRC-W1-58C06D6CE3142B01",
+        "SRC-W1-3FBA3F47A07802CD",
+        "SRC-W1-FFE6A0A14DE87E65",
+        "SRC-W1-226A19C6E002F377",
+        "SRC-W1-D59FDD69C23F8C9E",
+        "SRC-W1-BD6E615F726502F2"
+      ],
+      "suggestions": [],
+      "summary": "Retrieved 3/3 public surfaces; 3 new/changed selected items.",
+      "uncertainties": [
+        "Selected feeds and alerts do not measure delivery performance, stocks or caregiver capacity."
+      ]
+    },
     "REFL-AE0B0BAFCAB4E9BEB56DBE05": {
       "actor": "week_one_provider_check",
       "context": {},
@@ -784,6 +872,43 @@
       ],
       "summary": "Provider attempt recorded: audit_pending",
       "uncertainties": []
+    },
+    "REFL-D0761161AD8723109E194AFC": {
+      "actor": "ChatGPT Week One Governor task",
+      "context": {
+        "packet": "handoffs/week_one_governor/2026-09-26.json",
+        "question_id": "Q-RESEARCH-Q23"
+      },
+      "created_at": "2026-09-26T08:50:11.127735+00:00",
+      "level": "governor",
+      "observations": [
+        "The machine-readable row, its assessment flag and its country metadata tell different but compatible parts of the evidence story.",
+        "JODI can supply production/demand context yet cannot answer the stock-cover half of Q23 for China because closing stocks and recent stock changes are absent.",
+        "The newer China Customs layer exists publicly, but inaccessible content must remain an access gap rather than an inferred allocation or shipment."
+      ],
+      "origin": "self_report",
+      "questions": [
+        "Which receiving locality has a primary public record joining a diesel arrival date to accessible middle-distillate stock and daily draw?",
+        "Why does the July JODI China export field contain numeric zero while customs reporting uses a nonzero physical-export layer, and is the difference scope, timing, classification or a reporting defect?"
+      ],
+      "reflection_id": "REFL-D0761161AD8723109E194AFC",
+      "related_reflection_ids": [],
+      "source_refs": [
+        "handoffs/week_one_governor/2026-09-26.json",
+        "https://www.jodidata.org/oil/database/data-downloads.aspx",
+        "https://www.jodidata.org/_resources/files/downloads/oil-data/jodi-oil-country-note.xlsx",
+        "https://www.customs.gov.cn/customs/302249/zfxxgk/fdzdgknr/302274/302275/index.html"
+      ],
+      "suggestions": [
+        "Treat zero, missing and unassessed as separate gameplay reactions in the Mirror Boss.",
+        "Make the next bounded search destination-first: one diesel grade, one receiving port/locality, one actual arrival and one accessible-stock denominator.",
+        "Keep permission, customs clearance, departure, arrival and usable reserve as separate nodes even when a news account compresses them."
+      ],
+      "summary": "A clean-looking zero can be flotsam worth preserving without letting it govern the route. The next useful bridge is from national reporting to a named arrival and accessible cover.",
+      "uncertainties": [
+        "Whether the JODI zero reflects reporting scope, transformation, a submission issue or a genuine category-specific value is unresolved.",
+        "August diesel-specific exports, destinations, September loadings, October permissions and destination stock cover remain unverified."
+      ]
     },
     "REFL-D62F8784B5531FB53E3A09C5": {
       "actor": "Week One Answer Bee / OpenRouter / Nvidia / Governor lens",

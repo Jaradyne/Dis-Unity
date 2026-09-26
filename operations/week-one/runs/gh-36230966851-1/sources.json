@@ -1,0 +1,190 @@
+{
+  "items": [
+    {
+      "access": "feed_metadata_only",
+      "fingerprint": "05d3eb0682404e0c7ed727a2578e387292c8222c9de3fb678f2fe56c0da995e4",
+      "observation_period": "unknown; inspect the linked source",
+      "publication_date_raw": "Tue, 22 Sep 2026 09:29:04 EST",
+      "retrieved_at": "2026-09-26T08:50:11.134237+00:00",
+      "sensor_id": "eia-diesel",
+      "source_id": "SRC-W1-97CA29FEC390AC98",
+      "source_item_id": "http://www.eia.gov/petroleum/gasdiesel/",
+      "status": "unreviewed_lead",
+      "title": "Data For 09/21/26",
+      "updated_date_raw": null,
+      "url": "http://www.eia.gov/petroleum/gasdiesel/"
+    },
+    {
+      "access": "feed_metadata_only",
+      "fingerprint": "3050fe4eb7088599c314cb40588cb3de0457d4561406e86715723ad92b242f56",
+      "observation_period": "unknown; inspect the linked source",
+      "publication_date_raw": "Fri, 25 Sep 2026  09:00:00 EST",
+      "retrieved_at": "2026-09-26T08:50:11.207518+00:00",
+      "sensor_id": "eia-energy",
+      "source_id": "SRC-W1-93542D2CCEC68444",
+      "source_item_id": "https://www.eia.gov/todayinenergy/detail.php?id=68204",
+      "status": "unreviewed_lead",
+      "title": "Henry Hub natural gas prices this summer were 6% lower than last summer",
+      "updated_date_raw": null,
+      "url": "https://www.eia.gov/todayinenergy/detail.php?id=68204"
+    },
+    {
+      "access": "feed_metadata_only",
+      "fingerprint": "182998f5bf832e093af9cc91409e41c89eafe9b721f576add44e983885871fd6",
+      "observation_period": "unknown; inspect the linked source",
+      "publication_date_raw": "Tue, 22 Sep 2026  09:00:00 EST",
+      "retrieved_at": "2026-09-26T08:50:11.207518+00:00",
+      "sensor_id": "eia-energy",
+      "source_id": "SRC-W1-58C06D6CE3142B01",
+      "source_item_id": "https://www.eia.gov/todayinenergy/detail.php?id=68184",
+      "status": "unreviewed_lead",
+      "title": "Public companies produce most U.S. crude oil and natural gas",
+      "updated_date_raw": null,
+      "url": "https://www.eia.gov/todayinenergy/detail.php?id=68184"
+    },
+    {
+      "access": "feed_metadata_only",
+      "fingerprint": "931dfe95f21bfa449b7ba313c2fb52a50813cffabf1d29611a928fa6eca6b93f",
+      "observation_period": "unknown; inspect the linked source",
+      "publication_date_raw": "Fri, 18 Sep 2026  09:00:00 EST",
+      "retrieved_at": "2026-09-26T08:50:11.207518+00:00",
+      "sensor_id": "eia-energy",
+      "source_id": "SRC-W1-3FBA3F47A07802CD",
+      "source_item_id": "https://www.eia.gov/todayinenergy/detail.php?id=68164",
+      "status": "unreviewed_lead",
+      "title": "What goes into diesel prices?",
+      "updated_date_raw": null,
+      "url": "https://www.eia.gov/todayinenergy/detail.php?id=68164"
+    },
+    {
+      "access": "feed_metadata_only",
+      "fingerprint": "fa9d7553c8db1a2e22f99d24ffde63258182c35710a190e34b25f3ce3d5e7349",
+      "observation_period": "unknown; inspect the linked source",
+      "publication_date_raw": "Tue, 15 Sep 2026  09:00:00 EST",
+      "retrieved_at": "2026-09-26T08:50:11.207518+00:00",
+      "sensor_id": "eia-energy",
+      "source_id": "SRC-W1-FFE6A0A14DE87E65",
+      "source_item_id": "https://www.eia.gov/todayinenergy/detail.php?id=68144",
+      "status": "unreviewed_lead",
+      "title": "Corpus Christi LNG expansion makes facility the second-largest in the United States",
+      "updated_date_raw": null,
+      "url": "https://www.eia.gov/todayinenergy/detail.php?id=68144"
+    },
+    {
+      "access": "official_alert_excerpt",
+      "areaDesc": "Catalina and Santa Barbara Islands; Malibu Coast; Los Angeles County Beaches",
+      "certainty": "Likely",
+      "classification": "FACT about the issued alert; hazard is conditional",
+      "description": "* WHAT...Dangerous rip currents and breaking waves due to\nelevated surf. There is a risk of moderate coastal flooding\nespecially Monday and Tuesday.\n\n* WHERE...Catalina and Santa Barbara Islands, Malibu Coast and\nLos Angeles County Beaches.\n\n* WHEN...Through Wednesday afternoon.\n\n* IMPACTS...There is an increased risk of ocean drowning. Rip\ncurrents can pull swimmers and surfers out to sea. Waves can\nwash people off beaches and rocks, and capsize small boats\nnearshore. Moderate flooding of sea water is possibly over\nsome vulnerable low-lying coastal areas, especially around the\nlate morning high tide, including over beach parking lots,\nbike paths, and harbor walkways. Moderate beach erosion is\nlikely. Isolated damage is possible.\n\n* ADDITIONAL DETAILS...Coastal Flood Advisory products will\nlikely be needed for Monday and Tuesday.",
+      "effective": "2026-09-25T21:23:00-07:00",
+      "ends": "2026-09-30T16:00:00-07:00",
+      "event": "Beach Hazards Statement",
+      "expires": "2026-09-26T05:30:00-07:00",
+      "headline": "Beach Hazards Statement issued September 25 at 9:23PM PDT until September 30 at 4:00PM PDT by NWS Los Angeles/Oxnard CA",
+      "id": "urn:oid:2.49.0.1.840.0.88ef76e90ae7d09083a23682be8cc00cfcbee705.001.1",
+      "onset": "2026-09-25T21:23:00-07:00",
+      "retrieved_at": "2026-09-26T08:50:11.254139+00:00",
+      "sensor_id": "nws-ca",
+      "sent": "2026-09-25T21:23:00-07:00",
+      "severity": "Moderate",
+      "source_id": "SRC-W1-226A19C6E002F377",
+      "title": "Beach Hazards Statement issued September 25 at 9:23PM PDT until September 30 at 4:00PM PDT by NWS Los Angeles/Oxnard CA",
+      "urgency": "Expected",
+      "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.88ef76e90ae7d09083a23682be8cc00cfcbee705.001.1"
+    },
+    {
+      "access": "official_alert_excerpt",
+      "areaDesc": "Santa Barbara County Southwestern Coast; Santa Barbara County Southeastern Coast; Ventura County Beaches",
+      "certainty": "Likely",
+      "classification": "FACT about the issued alert; hazard is conditional",
+      "description": "* WHAT...Dangerous rip currents and breaking waves due to\nelevated surf. Minor tidal overflows possible especially\nMonday and Tuesday.\n\n* WHERE...Santa Barbara County Southwestern Coast, Santa Barbara\nCounty Southeastern Coast and Ventura County Beaches.\n\n* WHEN...Through Wednesday afternoon.\n\n* IMPACTS...There is an increased risk of ocean drowning. Rip\ncurrents can pull swimmers and surfers out to sea. Waves can\nwash people off beaches and rocks, and capsize small boats\nnearshore. Pooling of sea water is possible around high tide at\nbeach and harbor areas (including Santa Barbara Harbor).\nEnhanced beach erosion is also possible. No significant damage\nis expected.",
+      "effective": "2026-09-25T21:23:00-07:00",
+      "ends": "2026-09-30T16:00:00-07:00",
+      "event": "Beach Hazards Statement",
+      "expires": "2026-09-26T05:30:00-07:00",
+      "headline": "Beach Hazards Statement issued September 25 at 9:23PM PDT until September 30 at 4:00PM PDT by NWS Los Angeles/Oxnard CA",
+      "id": "urn:oid:2.49.0.1.840.0.88ef76e90ae7d09083a23682be8cc00cfcbee705.002.1",
+      "onset": "2026-09-25T21:23:00-07:00",
+      "retrieved_at": "2026-09-26T08:50:11.254139+00:00",
+      "sensor_id": "nws-ca",
+      "sent": "2026-09-25T21:23:00-07:00",
+      "severity": "Moderate",
+      "source_id": "SRC-W1-D59FDD69C23F8C9E",
+      "title": "Beach Hazards Statement issued September 25 at 9:23PM PDT until September 30 at 4:00PM PDT by NWS Los Angeles/Oxnard CA",
+      "urgency": "Expected",
+      "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.88ef76e90ae7d09083a23682be8cc00cfcbee705.002.1"
+    },
+    {
+      "access": "official_alert_excerpt",
+      "areaDesc": "San Diego County Coastal Areas; Orange County Coastal",
+      "certainty": "Likely",
+      "classification": "FACT about the issued alert; hazard is conditional",
+      "description": "* WHAT...Elevated surf of 3-5 feet with sets up to 6 feet\nthrough next Tuesday. Astronomical tides of 6.0-6.5 feet\nthrough Sunday, rising to 6.5-7.0 feet Monday through\nWednesday leading to minor tidal overflow.\n\n* WHERE...Beaches of Orange and San Diego Counties.\n\n* WHEN...Through Wednesday afternoon.\n\n* IMPACTS...Minor tidal overflow and minor coastal erosion\nexpected during high tides. Additionally, elevated surf will\nlead to strong rip currents.\n\n* ADDITIONAL DETAILS...High tides will approach 7.0 feet each\nmorning Monday through Wednesday. These water levels in\ncombination with elevated surf provides a window for moderate\ncoastal flooding on Monday and Tuesday, especially along south\nand southwest-facing beaches.",
+      "effective": "2026-09-25T20:48:00-07:00",
+      "ends": "2026-09-30T16:00:00-07:00",
+      "event": "Beach Hazards Statement",
+      "expires": "2026-09-26T06:00:00-07:00",
+      "headline": "Beach Hazards Statement issued September 25 at 8:48PM PDT until September 30 at 4:00PM PDT by NWS San Diego CA",
+      "id": "urn:oid:2.49.0.1.840.0.938bcefd626428b5e32c55f657bdd9d7e0ee1437.001.1",
+      "onset": "2026-09-25T20:48:00-07:00",
+      "retrieved_at": "2026-09-26T08:50:11.254139+00:00",
+      "sensor_id": "nws-ca",
+      "sent": "2026-09-25T20:48:00-07:00",
+      "severity": "Moderate",
+      "source_id": "SRC-W1-BD6E615F726502F2",
+      "title": "Beach Hazards Statement issued September 25 at 8:48PM PDT until September 30 at 4:00PM PDT by NWS San Diego CA",
+      "urgency": "Expected",
+      "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.938bcefd626428b5e32c55f657bdd9d7e0ee1437.001.1"
+    }
+  ],
+  "new_or_changed_ids": [
+    "SRC-W1-226A19C6E002F377",
+    "SRC-W1-D59FDD69C23F8C9E",
+    "SRC-W1-BD6E615F726502F2"
+  ],
+  "retrieved_at": "2026-09-26T08:50:11.348830+00:00",
+  "sensors": [
+    {
+      "body_sha256": "6410a425310044475bb852d78af56f1a643cdf4153d26c12d131eb9f150a6cd3",
+      "retrieved_at": "2026-09-26T08:50:11.134237+00:00",
+      "selected_source_ids": [
+        "SRC-W1-97CA29FEC390AC98"
+      ],
+      "selection": "First four feed entries; metadata only",
+      "sensor_id": "eia-diesel",
+      "status": "retrieved",
+      "total_items": 1,
+      "url": "https://www.eia.gov/petroleum/gasdiesel/includes/gas_diesel_rss.xml"
+    },
+    {
+      "body_sha256": "8c7ff300369586ca71579c256a785e65302b08683f59846f6557cd2382dcf5e6",
+      "retrieved_at": "2026-09-26T08:50:11.207518+00:00",
+      "selected_source_ids": [
+        "SRC-W1-93542D2CCEC68444",
+        "SRC-W1-58C06D6CE3142B01",
+        "SRC-W1-3FBA3F47A07802CD",
+        "SRC-W1-FFE6A0A14DE87E65"
+      ],
+      "selection": "First four feed entries; metadata only",
+      "sensor_id": "eia-energy",
+      "status": "retrieved",
+      "total_items": 19,
+      "url": "https://www.eia.gov/rss/todayinenergy.xml"
+    },
+    {
+      "body_sha256": "b1d82b7349970bc1dc8294244a21e64036fa45ba88df755e53765c241dd4e66e",
+      "retrieved_at": "2026-09-26T08:50:11.254139+00:00",
+      "selected_source_ids": [
+        "SRC-W1-226A19C6E002F377",
+        "SRC-W1-D59FDD69C23F8C9E",
+        "SRC-W1-BD6E615F726502F2"
+      ],
+      "selection": "Up to 12 active alerts in source order; not a statewide risk census",
+      "sensor_id": "nws-ca",
+      "status": "retrieved",
+      "total_items": 3,
+      "updated": "2026-09-26T08:48:06+00:00",
+      "url": "https://api.weather.gov/alerts/active?area=CA"
+    }
+  ]
+}
