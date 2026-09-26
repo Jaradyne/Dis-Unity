@@ -43,3 +43,16 @@ Do **not** schedule it merely because the role file exists.
 ## Provider note
 
 Jared is separately exploring Mistral Free mode. Do not add a Mistral adapter or secret solely because signup is available. If/when Jared provides the key and asks to integrate it, verify Free-mode/PAYG-off account state and role fit first. Preserve zero-spend and NO GROQ boundaries.
+
+
+## Late update before Jared wakes Work
+
+Jared added several decisions after the original wake note:
+
+- Governor boss powers are **permanent skill-tree capabilities**, not one-arc temporary buffs. The skill tree complements the Governor's internal logic tree.
+- Current prototype progression is ten guardians: six weekly/ordinary seats, three empowered major guardians, then an Aiden-original final synthesis boss.
+- Chat designed Boss 10 as **The Spiral Witness**; review `BOSS_10_SPIRAL_WITNESS.md`.
+- The Minotaur's preserved material should be reflected upon at sentence/paragraph scale, not compressed into a single lesson. Empowered runs may require multiple attempts to build a larger low-redundancy context with provenance.
+- Lady Assumed Care now has Jared's visual direction: black/scarlet goth vampire, oversized witch's hat, wings and devil tail, white accent only.
+- Parallax now includes India/Hindi and a bounded mode that discovers the languages a selected government site actually publishes for one exact item.
+- Mistral account state is confirmed Free with $10 monthly API allowance and PAYG OFF. The first Small 4 inference test returned **HTTP 429 rate_limited** and was not retried. Before touching Mistral inference, inspect the Admin Limits page / exact model limits rather than treating the 429 as a quality result.
