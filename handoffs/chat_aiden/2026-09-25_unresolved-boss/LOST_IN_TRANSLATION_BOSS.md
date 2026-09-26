@@ -14,7 +14,7 @@ Holding **Shift** enters a temporary **re-centering mode**:
 - releasing Shift returns to normal maze traversal;
 - the player is choosing which region of meaning will be most protected from the next clipping walls.
 
-The objective is not to preserve the most words. It is to preserve the **best surviving center of meaning**.
+The objective is not to preserve the most words. It is to preserve the **best surviving center of meaning**. What survives should ordinarily feel like a useful sentence or paragraph-sized piece of information, not a tiny slogan, unless the source itself is that small.
 
 ## Boss
 
@@ -55,6 +55,31 @@ Record:
 - Jared's note on what he intentionally protected.
 
 This makes the encounter inspectable rather than a hidden semantic score.
+
+## Reflection, not reduction
+
+The preserved material is **not reduced to a lesson** after the run.
+
+Instead, the boss/system reflects on what actually reached the center:
+- what sentence/paragraph meaning remained coherent;
+- which actor, relation, qualifier or uncertainty survived;
+- what was lost;
+- whether a second attempt preserves complementary context;
+- where repetition can be removed without erasing a distinction.
+
+The reflection may create questions or connections, but the preserved text remains available beside it.
+
+## Empowered form
+
+The empowered Minotaur should normally take **multiple attempts**.
+
+Each attempt can protect a different center. A later attempt may use what earlier clipping revealed to bring a larger, cleaner context through the maze.
+
+The super encounter can assemble an inspectable paragraph-scale context from several attempts, but it must:
+- preserve attempt provenance;
+- avoid needless repetition;
+- never pretend independently clipped fragments were contiguous in the source when they were not;
+- reflect on the assembled context rather than merely naming a takeaway.
 
 ## Relationship to other bosses
 
