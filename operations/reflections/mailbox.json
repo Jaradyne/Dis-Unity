@@ -1029,6 +1029,42 @@
         "A missing middle can be caused by source selection, platform norms, translation practice or true polarization."
       ]
     },
+    "REFL-EF65F6C723F12BE657BC6AAC": {
+      "actor": "Week One public scout",
+      "context": {
+        "call_id": "gh-36263567422-1-scouts",
+        "parent_call_id": "gh-36263567422-1",
+        "run_id": "gh-36263567422-1"
+      },
+      "created_at": "2026-09-26T18:43:55.687122+00:00",
+      "level": "subcall",
+      "observations": [
+        "eia-diesel: retrieved",
+        "eia-energy: retrieved",
+        "nws-ca: retrieved"
+      ],
+      "origin": "runtime_observation",
+      "questions": [],
+      "reflection_id": "REFL-EF65F6C723F12BE657BC6AAC",
+      "related_reflection_ids": [],
+      "source_refs": [
+        "SRC-W1-97CA29FEC390AC98",
+        "SRC-W1-93542D2CCEC68444",
+        "SRC-W1-58C06D6CE3142B01",
+        "SRC-W1-3FBA3F47A07802CD",
+        "SRC-W1-FFE6A0A14DE87E65",
+        "SRC-W1-7B50787FA23B6E93",
+        "SRC-W1-33B42C2AE6EAFA91",
+        "SRC-W1-506FA052AA912CDC",
+        "SRC-W1-D5E4A08FB8F87E4C",
+        "SRC-W1-CCE8BE665A04D8DA"
+      ],
+      "suggestions": [],
+      "summary": "Retrieved 3/3 public surfaces; 5 new/changed selected items.",
+      "uncertainties": [
+        "Selected feeds and alerts do not measure delivery performance, stocks or caregiver capacity."
+      ]
+    },
     "REFL-EFF5FA6BF86EF4CF07ABC2C1": {
       "actor": "Week One public scout",
       "context": {

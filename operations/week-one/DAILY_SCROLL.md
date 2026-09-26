@@ -2,17 +2,9 @@
 
 Current snapshot of up to 6 recent recorded runs; their original dates remain visible.
 
-As of 2026-09-26T08:50:11.381011+00:00.
+As of 2026-09-26T18:43:56.258267+00:00.
 
 Projection of records, not additional corroboration or admitted research.
-
-## gh-35981423237-2
-
-2026-09-24T09:29:05.692346+00:00 · audit_pending / audit_pending
-
-Saved generation awaits its audit; recover this receipt without another POST
-
-[Saved note](runs/gh-35981423237-2/HUMAN_NOTE.md) · 0 changed selected source records.
 
 ## gh-36048555357-1
 
@@ -53,3 +45,11 @@ No synthesis recorded.
 No synthesis recorded.
 
 [Saved note](runs/gh-36230966851-1/HUMAN_NOTE.md) · 3 changed selected source records.
+
+## gh-36263567422-1
+
+2026-09-26T18:43:54.859675+00:00 · deferred / operator_review_required
+
+No synthesis recorded.
+
+[Saved note](runs/gh-36263567422-1/HUMAN_NOTE.md) · 5 changed selected source records.
