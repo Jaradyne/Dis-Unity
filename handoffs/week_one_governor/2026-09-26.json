@@ -1,0 +1,138 @@
+{
+  "question_id": "Q-RESEARCH-Q23",
+  "epoch": 1,
+  "answer": {
+    "summary": "The newest freely downloadable JODI-Oil release does not establish an East Asian diesel arrival delay beyond accessible stock cover. Its 22 September 2026 update reaches July data. For China in July, the gas/diesel rows show 13.701 million tonnes of refinery output and demand, numeric zeroes for imports and exports, and no reported closing-stock or stock-change value; the rows carry JODI assessment code 3 (white/unassessed). JODI's China note says exports are within the submitted balance but that China cannot provide stock levels and stopped reporting stock changes in October 2020. The official China Customs index advertises August 2026 major-export tables, but the table content could not be retrieved in this session. Therefore the zero must not be promoted into a claim of no physical diesel exports, and neither dataset currently supplies destination, cargo arrival, accessible reserve or service-continuity evidence.",
+    "status": "provisional",
+    "evidence_refs": [
+      "GOV-20260926-01",
+      "GOV-20260926-02",
+      "GOV-20260926-03"
+    ],
+    "counterevidence": [
+      "JODI's machine-readable July row contains a numeric zero rather than its '-' marker for unreported data; this is a real database observation and should not be silently replaced.",
+      "The China country note says imports and exports are part of China's JODI submission, so the zero cannot be dismissed solely as a field outside the reported balance.",
+      "China Customs publicly lists August major-export tables, showing that a newer official customs measurement layer exists even though its underlying table was not accessible here."
+    ],
+    "limitations": [
+      "JODI's latest update is through July 2026, not August, September or October.",
+      "JODI provides a country balance, not a bilateral route, cargo, departure, arrival or receiving-site record.",
+      "China's JODI closing-stock values are '-' (not reported), and the country note says stock levels are unavailable and stock changes have not been reported since October 2020.",
+      "Assessment code 3 is white/unassessed; it is not a confidence endorsement.",
+      "The direct China Customs index/table timed out and failed certificate verification in available retrieval paths; only its official search-index listing was observed, so no August diesel quantity was extracted.",
+      "No October allocation, compatible cargo, destination arrival, accessible reserve or essential-delivery interruption was established. Work review remains pending."
+    ],
+    "conditional_link": {
+      "kind": "UNRESOLVED EVIDENCE BRIDGE",
+      "stress": "A permission or supply change in Chinese diesel exports",
+      "dependent_function": "Timely fuel available to an East Asian essential-delivery route",
+      "mechanism": "A permission can become service stress only if it changes compatible loadings and arrivals faster than a receiving locality's accessible stocks and substitution capacity can bridge.",
+      "confirmation": "For one named destination and diesel grade, join a dated official allocation or customs export, a vessel or port departure and arrival, receiving stock available to the relevant service, daily draw, next confirmed replenishment and documented delivery performance.",
+      "falsification": "The named route receives compatible replacement cargo before accessible cover is exhausted and essential service continues within its delivery window; a quota headline or national balance alone cannot activate the link.",
+      "time_horizon": "Next cargo and receiving stock-cover window; no run-out date calculated."
+    },
+    "resilience": {
+      "buffers": "Dated compatible stock at the receiving point plus a confirmed next cargo. Quantity, ownership, access rights, reserve floor and days of cover remain unknown.",
+      "safe_shedding": "If fuel is constrained, combine discretionary trips and empty repositioning only where commitments allow; protect cold-chain and medical loads, accessible delivery windows, emergency response and driver rest.",
+      "adaptation_growth": "Build one route-performance card that links permission, customs clearance, departure, arrival, accessible stock and completed essential freight. Expand only after the fields are repeatedly observable.",
+      "lifeboat": "A pre-confirmed compatible cargo, carrier, rail movement or already-operating electric route able to carry the essential load in time. No such spare capacity is established here.",
+      "outside_donor_capacity": "Unknown. Count donor fuel or transport only after grade compatibility, existing commitments, loading access, travel time, insurance and receiving capacity are verified.",
+      "commons": "An opt-in route-and-cover board can publish dated ranges for last arrival, next confirmed replenishment, accessible cover and fallback readiness without exposing customer identities or commercially sensitive exact inventories."
+    }
+  },
+  "source_ledger": [
+    {
+      "source_id": "GOV-20260926-01",
+      "title": "JODI-Oil World Database: 1st update on 22 September 2026; 2026 Extended Secondary CSV",
+      "publisher": "Joint Organizations Data Initiative",
+      "url": "https://www.jodidata.org/oil/database/data-downloads.aspx",
+      "data_url": "https://www.jodidata.org/_resources/files/downloads/oil-data/annual-csv/secondary/secondaryyear2026.csv",
+      "publication_date": "2026-09-22",
+      "observation_date": "2026-07",
+      "retrieval_date": "2026-09-26",
+      "access": "Full public CSV downloaded without login; relevant rows filtered locally without modifying the source.",
+      "access_limitations": "Country balance only; no destination, cargo, arrival or service record. Code 3 is white/unassessed. Latest release reaches July for 52 reporting countries.",
+      "finding": "China July gas/diesel rows report 13,701 KTONS refinery output and demand; imports and exports are numeric 0.0000 KTONS; closing stock and stock change are '-'."
+    },
+    {
+      "source_id": "GOV-20260926-02",
+      "title": "JODI-Oil World Database Country Notes",
+      "publisher": "Joint Organizations Data Initiative",
+      "url": "https://www.jodidata.org/_resources/files/downloads/oil-data/jodi-oil-country-note.xlsx",
+      "publication_date": "unknown; live metadata workbook carries no visible publication date",
+      "observation_date": "Notes describe reporting practice through at least October 2020; current validity checked only by live availability on 2026-09-26",
+      "retrieval_date": "2026-09-26",
+      "access": "Full public XLSX downloaded without login; China rows read from the APEC sheet.",
+      "access_limitations": "Method note rather than an operating measurement; no revision timestamp inside the inspected China rows.",
+      "finding": "China reports production, imports, exports, stock changes and demand to APEC, but cannot provide stock levels and stopped reporting stock changes for crude and petroleum products in October 2020."
+    },
+    {
+      "source_id": "GOV-20260926-03",
+      "title": "China Customs statistical bulletin index",
+      "publisher": "General Administration of Customs of the People's Republic of China",
+      "url": "https://www.customs.gov.cn/customs/302249/zfxxgk/fdzdgknr/302274/302275/index.html",
+      "publication_date": "The official index lists August 2026 tables; individual table publication dates were not retrieved",
+      "observation_date": "2026-08",
+      "retrieval_date": "2026-09-26",
+      "access": "Official search-index listing only.",
+      "access_limitations": "Direct web retrieval timed out and browser/curl paths returned certificate-chain 502 errors. No table contents, product quantity or destination detail was used.",
+      "finding": "The official index advertises August 2026 total-trade, country/region and major import/export commodity tables, identifying a newer primary layer for later retrieval."
+    }
+  ],
+  "sample_for_jared": {
+    "title": "The zero mirror",
+    "sample": "One official spreadsheet cell says China exported 0.0000 thousand tonnes of gas/diesel oil in July. But the same system colors that row white—unassessed—and its country note says stock levels are unavailable. So the move is not 'believe the zero' or 'shatter it as false.' Hold it steady as a recorded database value, then ask for the bridge: customs-cleared diesel, its destination arrival, and usable stock cover there.",
+    "ordinary_translation": "In this dataset, 0 is a numeric entry, '-' means not reported, and white means not assessed. Those three states are different.",
+    "control_example": "A published national export total is not a cargo arrival, just as a bus being scheduled is not the same as the bus reaching your stop."
+  },
+  "reflection": {
+    "summary": "A clean-looking zero can be flotsam worth preserving without letting it govern the route. The next useful bridge is from national reporting to a named arrival and accessible cover.",
+    "observations": [
+      "The machine-readable row, its assessment flag and its country metadata tell different but compatible parts of the evidence story.",
+      "JODI can supply production/demand context yet cannot answer the stock-cover half of Q23 for China because closing stocks and recent stock changes are absent.",
+      "The newer China Customs layer exists publicly, but inaccessible content must remain an access gap rather than an inferred allocation or shipment."
+    ],
+    "suggestions": [
+      "Treat zero, missing and unassessed as separate gameplay reactions in the Mirror Boss.",
+      "Make the next bounded search destination-first: one diesel grade, one receiving port/locality, one actual arrival and one accessible-stock denominator.",
+      "Keep permission, customs clearance, departure, arrival and usable reserve as separate nodes even when a news account compresses them."
+    ],
+    "questions": [
+      "Which receiving locality has a primary public record joining a diesel arrival date to accessible middle-distillate stock and daily draw?",
+      "Why does the July JODI China export field contain numeric zero while customs reporting uses a nonzero physical-export layer, and is the difference scope, timing, classification or a reporting defect?"
+    ],
+    "uncertainties": [
+      "Whether the JODI zero reflects reporting scope, transformation, a submission issue or a genuine category-specific value is unresolved.",
+      "August diesel-specific exports, destinations, September loadings, October permissions and destination stock cover remain unverified."
+    ],
+    "source_refs": [
+      "https://www.jodidata.org/oil/database/data-downloads.aspx",
+      "https://www.jodidata.org/_resources/files/downloads/oil-data/jodi-oil-country-note.xlsx",
+      "https://www.customs.gov.cn/customs/302249/zfxxgk/fdzdgknr/302274/302275/index.html"
+    ]
+  },
+  "governor_response": {
+    "reflection_ids": [
+      "REFL-A091469CC8BBA8E6C71A0BC6",
+      "REFL-CDBEF849F7436763785284AC",
+      "REFL-54E4132D37943184376CDCCF",
+      "REFL-8A9EEE632E739DFF13721995"
+    ],
+    "summary": "Carry the mailbox's operating-capacity boundary into Q23: repeated source retrieval is not corroboration, a saved audit remains stopped at its review brake, and a national data point becomes useful only when its assessment status and missing denominator travel with it. In Tamarian shorthand: 'The zero, before the unopened harbor.'",
+    "followups": [
+      {
+        "recipient": "Work Aiden",
+        "question": "Review the JODI zero/missing/unassessed distinction before admitting any China export observation; keep the provider recovery brake untouched."
+      },
+      {
+        "recipient": "Chat Aiden",
+        "question": "Seek one destination-first primary packet linking a diesel cargo arrival to accessible middle-distillate stock, daily draw and the next replenishment."
+      },
+      {
+        "recipient": "Governor",
+        "question": "Should the Mirror Boss teach numeric zero, missing and unassessed as three distinct mirror reactions before it asks which route is reachable?"
+      }
+    ],
+    "self_reflection": "This session did not find the arrival or reserve. Its contribution is narrower and durable: it prevented an official-looking zero from becoming false certainty and specified the bridge that would answer the Question."
+  }
+}
