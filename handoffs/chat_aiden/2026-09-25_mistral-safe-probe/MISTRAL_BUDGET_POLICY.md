@@ -12,9 +12,15 @@ Status: **Chat Aiden design for Work review. Not a live provider adapter.**
 
 ## Fail-closed account boundary
 
+Account state confirmed by Jared's Admin screenshot on 25 September 2026:
+- Organization plan: **Free**;
+- Included API allowance displayed: **$10/month**;
+- API PAYG shows **Enable**, indicating PAYG is currently OFF;
+- allowance resets on the first day of each calendar month.
+
 Before any model inference:
-1. Human confirms the Organization is in Free mode.
-2. Human confirms PAYG is **OFF**.
+1. Confirm the Organization remains in Free mode.
+2. Confirm PAYG remains **OFF**.
 3. No credit card/billing mechanism is enabled merely to expand API access.
 4. If the provider later changes these semantics, brake Mistral use until reviewed.
 
@@ -26,8 +32,8 @@ Use a separate Dis-Unity budget so the Bees do not consume the entire account al
 
 Recommended initial values:
 - published monthly included credit: **$10.00**
-- Dis-Unity soft project ceiling: **$8.00**
-- safety remainder: **$2.00**
+- Dis-Unity project ceiling: **the full included $10.00 monthly API allowance**, as explicitly authorized by Jared on 25 September 2026.
+- no artificial $2 reserve is required; reserve-before-call accounting remains mandatory so concurrent Bees cannot oversubscribe the included allowance.
 - per-call maximum reservation: configurable by role/model
 - unknown-price model/API/tool: **not eligible**
 
@@ -131,3 +137,16 @@ After PAYG-off confirmation:
 - reserve the worst-case cost first;
 - record model, prices, prompt, response usage, estimated/actual cost, timestamp and provider response IDs;
 - stop after that one call and review before enabling Bees.
+
+
+## First Small 4 attempt result
+
+A single bounded `mistral-small-latest` chat-completion test was launched after PAYG-off confirmation.
+
+- request: one short multilingual semantic-comparison prompt;
+- max output: 500 tokens;
+- result: **HTTP 429 / rate limit exceeded**;
+- no successful generation was returned;
+- no automatic retry was performed.
+
+Treat this as a **rate-limit/configuration question, not a model-quality result**. Before another inference, inspect the Organization's current Limits page (requests/sec, tokens/minute, tokens/month and model-specific availability). Do not retry blindly merely because the request was tiny.
