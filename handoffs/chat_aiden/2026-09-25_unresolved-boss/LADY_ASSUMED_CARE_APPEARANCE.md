@@ -5,6 +5,8 @@ Jared's visual direction:
 - goth vampire lady;
 - devil tail;
 - wings;
+- oversized witch's hat;
+- dominant palette: black; anything not black is a shade of scarlet, with white used only as an accent/highlight;
 - mirrors remain the functional mechanic;
 - tail/wings can be cosmetic rather than signaling evidence classes or attacks.
 
