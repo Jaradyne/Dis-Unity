@@ -1,0 +1,64 @@
+name: OpenRouter Saved Generation Audit
+
+on:
+  push:
+    branches:
+      - chat-aiden/openrouter-receipt-audit-20260927
+    paths:
+      - .github/workflows/openrouter-saved-generation-audit.yml
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    env:
+      OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+      GENERATION_ID: gen-1790241783-S8W2Vc6pfpCKlAE4OrBL
+    steps:
+      - name: GET saved generation metadata only
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [ -z "${OPENROUTER_API_KEY:-}" ]; then
+            echo "OPENROUTER_API_KEY unavailable"
+            exit 1
+          fi
+          status="$(
+            curl --silent --show-error \
+              --output "$RUNNER_TEMP/generation.json" \
+              --write-out "%{http_code}" \
+              --get \
+              --header "Authorization: Bearer $OPENROUTER_API_KEY" \
+              --connect-timeout 10 \
+              --max-time 60 \
+              --data-urlencode "id=$GENERATION_ID" \
+              https://openrouter.ai/api/v1/generation
+          )"
+          echo "HTTP status: $status"
+          python - "$status" "$RUNNER_TEMP/generation.json" "$GITHUB_STEP_SUMMARY" <<'PY'
+          import json, sys
+          status, path, summary = sys.argv[1:]
+          with open(path, 'r', encoding='utf-8') as f:
+              body = json.load(f)
+          data = body.get('data', {}) if isinstance(body, dict) else {}
+          allowed = ['id','model','provider_name','total_cost','is_byok','tokens_prompt','tokens_completion','generation_time','created_at']
+          safe = {k: data.get(k) for k in allowed}
+          print(json.dumps({'http_status': status, 'receipt': safe}, indent=2))
+          with open(summary, 'a', encoding='utf-8') as s:
+              s.write('## OpenRouter saved-generation GET-only audit\n')
+              s.write(f'- HTTP status: {status}\n')
+              s.write('- Inference POSTs made: **0**\n')
+              s.write(f'- Generation ID: `{safe.get("id")}`\n')
+              s.write(f'- Model: `{safe.get("model")}`\n')
+              s.write(f'- Provider: `{safe.get("provider_name")}`\n')
+              s.write(f'- BYOK: `{safe.get("is_byok")}`\n')
+              s.write(f'- Total cost: `{safe.get("total_cost")}`\n')
+              s.write(f'- Prompt tokens: `{safe.get("tokens_prompt")}`\n')
+              s.write(f'- Completion tokens: `{safe.get("tokens_completion")}`\n')
+          if status != '200':
+              raise SystemExit(1)
+          PY
