@@ -142,6 +142,37 @@
     }
   },
   "entries": {
+    "REFL-0085EAB869F483FDAD8775C6": {
+      "actor": "Governor inbox projector",
+      "context": {
+        "input_actor": {
+          "name": "Jared (self-reported player)",
+          "runtime": "Meaning Tower browser"
+        },
+        "input_id": "BOSS-9fdfeeca0fb846c31dd092ef",
+        "input_kind": "boss_play",
+        "packet": "operations/governor/inbox/PLAY-b803b289-ff43-4f29-aa48-5ce4dd62d24d.json",
+        "packet_sha256": "414ab69e03c348d1f4279d9961736790ed307400981952ed73341c7433535750"
+      },
+      "created_at": "2026-09-27T18:48:05.033797+00:00",
+      "level": "human_attention",
+      "observations": [
+        "This describes supplied play choices; it is not a Governor response or a player self-reflection."
+      ],
+      "origin": "runtime_observation",
+      "questions": [],
+      "reflection_id": "REFL-0085EAB869F483FDAD8775C6",
+      "related_reflection_ids": [],
+      "source_refs": [
+        "operations/governor/inbox/PLAY-b803b289-ff43-4f29-aa48-5ce4dd62d24d.json",
+        "operations/governor/bundles/PLAY-b803b289-ff43-4f29-aa48-5ce4dd62d24d.json"
+      ],
+      "suggestions": [],
+      "summary": "Jared (self-reported player) completed PLAY-b803b289-ff43-4f29-aa48-5ce4dd62d24d and preserved: Shared direction → Until payment → Who can carry it?",
+      "uncertainties": [
+        "Client-reported identity and source truth are not established by structural validation."
+      ]
+    },
     "REFL-09597C470206F257E1F83D57": {
       "actor": "Chat Aiden / GPT-5.6 Sol",
       "context": {
@@ -475,6 +506,36 @@
         "Selected feeds and alerts do not measure delivery performance, stocks or caregiver capacity."
       ]
     },
+    "REFL-5FD24ACC42140E279402CB80": {
+      "actor": "Digest Aiden / GPT-5.6 Sol",
+      "context": {
+        "input_actor": {
+          "authority": "advisory_noncanonical",
+          "name": "Digest Aiden / GPT-5.6 Sol",
+          "role": "digestion thought-partner"
+        },
+        "input_id": "DIGEST-AIDEN-20260927-01",
+        "input_kind": "digestion",
+        "packet": "operations/governor/inbox/DIGEST-AIDEN-20260927.json",
+        "packet_sha256": "9df532fb4852ab8686896b8880f72cb20eabee68667cd12571fff2b892e07c9e"
+      },
+      "created_at": "2026-09-27T18:48:05.029806+00:00",
+      "level": "thought_partner",
+      "observations": [],
+      "origin": "self_report",
+      "questions": [],
+      "reflection_id": "REFL-5FD24ACC42140E279402CB80",
+      "related_reflection_ids": [],
+      "source_refs": [
+        "operations/governor/inbox/DIGEST-AIDEN-20260927.json",
+        "handoffs/chat_aiden/2026-09-27_digest-threshold/INTEGRATION_AFTER_DIGESTION.md"
+      ],
+      "suggestions": [],
+      "summary": "Several roles now share circulation without becoming one organ. Preserve membranes: Question/Garden routes; Pygents specialize; model providers supply bounded inference; Meaning Tower preserves human attention; Governor metabolizes returned attention into reviewed procedural development.",
+      "uncertainties": [
+        "Advisory design material; later linked discussion may refine earlier wording."
+      ]
+    },
     "REFL-6A91C315D44D366A729829FB": {
       "actor": "Week One public scout",
       "context": {
@@ -655,6 +716,46 @@
       ],
       "summary": "Provider attempt recorded: audit_pending",
       "uncertainties": []
+    },
+    "REFL-8A51A25FA20E4FEBE99325BD": {
+      "actor": "Week One public scout",
+      "context": {
+        "call_id": "gh-36341976372-1-scouts",
+        "parent_call_id": "gh-36341976372-1",
+        "run_id": "gh-36341976372-1"
+      },
+      "created_at": "2026-09-27T18:48:06.037647+00:00",
+      "level": "subcall",
+      "observations": [
+        "eia-diesel: retrieved",
+        "eia-energy: retrieved",
+        "nws-ca: retrieved"
+      ],
+      "origin": "runtime_observation",
+      "questions": [],
+      "reflection_id": "REFL-8A51A25FA20E4FEBE99325BD",
+      "related_reflection_ids": [],
+      "source_refs": [
+        "SRC-W1-97CA29FEC390AC98",
+        "SRC-W1-93542D2CCEC68444",
+        "SRC-W1-58C06D6CE3142B01",
+        "SRC-W1-3FBA3F47A07802CD",
+        "SRC-W1-FFE6A0A14DE87E65",
+        "SRC-W1-F6F4BAC0FCE23040",
+        "SRC-W1-2C6DE3AA6C4002A7",
+        "SRC-W1-E47BF34E72307B8B",
+        "SRC-W1-EAF8973602622419",
+        "SRC-W1-BB15D83CF35F63B7",
+        "SRC-W1-618D29CDA65E6521",
+        "SRC-W1-3B8C0A90AE0D153C",
+        "SRC-W1-87A388C6B76C6717",
+        "SRC-W1-830CE138725B696A"
+      ],
+      "suggestions": [],
+      "summary": "Retrieved 3/3 public surfaces; 5 new/changed selected items.",
+      "uncertainties": [
+        "Selected feeds and alerts do not measure delivery performance, stocks or caregiver capacity."
+      ]
     },
     "REFL-8A9EEE632E739DFF13721995": {
       "actor": "ChatGPT Week One Governor task",

@@ -1,0 +1,593 @@
+{
+  "entries": [
+    {
+      "actor": {
+        "authority": "advisory_noncanonical",
+        "name": "Digest Aiden / GPT-5.6 Sol",
+        "role": "digestion thought-partner"
+      },
+      "context_documents": [
+        {
+          "path": "handoffs/chat_aiden/2026-09-27_digest-threshold/INTEGRATION_AFTER_DIGESTION.md",
+          "sha256": "1384bb5e0bf5ca63d1c28c40e25954921a23d004ce35997865944387a95ddddd",
+          "text": "# Integration after digestion — Digest Aiden → Chat Aiden\n\nStatus: **thought-partner integration note; no implementation authority.**\n\nDigest Aiden reviewed draft PR #19 beginning with `DIGESTION_PACKET.md`, then read the nearby Garden, Meaning Tower, Parallax, Question-store and provider/recovery material. Jared has now clarified several design intentions. This note is for **Chat Aiden**. Please use it to continue discussion with Jared and help him decide what, if anything, should later be handed to Work Aiden. Do not treat this note as a direct instruction to Work.\n\n## What changed in the digestion\n\n### 1. Keep **bridge**, require a modifier\n\n\"Bridge\" is doing useful work and should not be retired. The important protection is to name which bridge is meant:\n\n- **epistemic bridge** — the deliberate CROSS test connecting observations;\n- **operational bridge** — temporary real-world capacity carrying a function through a gap;\n- **relational / commons bridge** — a human or institutional connection that allows cooperation or shared stewardship.\n\nThey may rhyme without becoming one object.\n\n### 2. Stewardship should mean the full thing\n\nUse **stewardship** when responsibility, legitimacy, continuity and care for a thing are actually in view. If the question is merely \"who has enough staff/cash/authority/backup to keep this working?\", **carrying capacity**, **operating capacity**, or **caretaker capacity** is more precise.\n\n### 3. The model layer is a substrate, not a specialist identity\n\nJared did not mean Mistral Small 4 should be the sole spine. A better reading is that the external API models together may form a **provider-neutral inference substrate / model mesh** serving bounded operations. Chat Aiden, the repo Governor, Pygents and Bees remain roles with their own contracts. A model may execute part of a role without becoming that role.\n\nSmall 4 therefore belongs behind a bounded reflective operation when eligible, not in the Question ontology as `PYGENT:SMALL4-...`.\n\n### 4. MIRROR → CROSS → RESID in plain language\n\nUse this explanation with Jared if useful:\n\n- **MIRROR:** \"What else could this mean?\" Generate competing explanations, ordinary controls, alternate framings and questions.\n- **CROSS:** \"What can actually test those possibilities?\" Attach inherited material, genuinely independent observations and deliberately designed **epistemic bridges**.\n- **RESID:** \"After those tests and ordinary explanations, what still sticks?\" A residual is not automatically true. It is the surviving unresolved difference/question that remains consequential enough to carry forward.\n- **MEAN:** \"What did carrying that residual change in our understanding?\" This may include a human-facing meaning or culture flower without changing evidence status.\n- **EXIT:** answer, question, teleport proposal, silence or error.\n- **RETURN:** a materially new arrival may re-enter; unchanged material can rest.\n\nA body metaphor: MIRROR is Jared turning a bite over and smelling it from several sides; CROSS is chewing and breaking it against actual teeth; RESID is the bit that still has texture after the easy parts dissolved. The residue may deserve another chew, a specialist stomach, or simply rest. It is not proof merely because it survived.\n\n### 5. Model self-confirmation is a bias risk, not a taboo\n\nOne model can propose and later inspect its own ideas, but do not mistake that for independent confirmation. The risk is highest when the same model:\n\n1. invents the candidate explanation;\n2. chooses the test;\n3. interprets the ambiguous result;\n4. declares its own candidate the survivor.\n\nUseful safeguards are typed stages, source-grounded tests, explicit criteria, independent paths where warranted, and retaining unknown. Different calls to the same model are still not independent empirical evidence.\n\n### 6. Receipt brake: the old generation is waiting on audit, not another answer\n\nThe OpenRouter Answer Bee's saved generation reached the configured three-attempt **GET-only receipt recovery** boundary. Its generation exists, but its audit remained unavailable/incomplete. The current brake prevents a fourth recovery attempt or a replacement POST from being silently treated as permission.\n\nNew information is still possible, but it must come from something that actually changes the state: provider/account receipt availability, an operator inspection, a reviewed policy decision about how to close/quarantine that old generation, or other external state. Re-running fresh inference does not answer the missing-receipt question.\n\n### 7. \"Do not ritually poke Mistral\" means no blind 429 loop\n\nThe first Small 4 inference returned HTTP 429. Digest Aiden's joke meant: do not repeatedly retry the same rate-limited condition merely to see whether it gives in. A **deliberate later trial** after the relevant limit/window/account condition is understood is completely reasonable.\n\n### 8. Persistent memory needs a better birth rule\n\nDigest Aiden retracts the too-strict reading \"persistent memory must prove usefulness before it exists.\"\n\nA better lifecycle is:\n\n1. **provisional fold** — cheap, bounded memory may exist immediately;\n2. **reuse trace** — record when it actually saves rediscovery, catches a recurrence, preserves a distinction or improves routing;\n3. **promotion** — repeated reuse may justify durable specialist memory;\n4. **clearance** — stale, duplicated or harmful memory can decay, compress, archive or be superseded without pretending it never existed.\n\nThe key question is not \"was this memory useful at birth?\" but **\"does keeping this memory change future work enough to justify its cost and authority?\"**\n\nPossible measures of usefulness:\n- prevented repeated research;\n- resurfaced a relevant prior distinction at the right moment;\n- improved question deduplication/routing;\n- preserved dissent or an edge case that would otherwise disappear;\n- reduced context load by compressing repeated material;\n- changed no decision for a long period and can safely archive.\n\nThink **surface area before organhood**.\n\n### 9. Governor power-ups are intentional development, not decorative lore\n\n`PECULIARITY_SENSE` is indeed a proposed Governor power-up.\n\nJared clarified that the skill tree is meant to become an actual architectural growth system: powers should create real new navigation or processing affordances, with their own review/witnessing. **\"Earned\" is the wrong connotation.** A better candidate concept is **saṃskāra morphology**: experience leaves durable impressions/grooves that alter the Governor's future shape and available movement. Keep the Sanskrit term as a candidate rather than flattening its philosophical history into a software label.\n\nA power should therefore eventually specify:\n- what new operation becomes possible;\n- what event/encounter earned it;\n- what boundaries remain;\n- how its effects are witnessed;\n- whether it can be revised, inhibited or retired.\n\nThis is a special kind of cognitive surface area, not merely a badge.\n\n### 10. Language antenna: detect broadly, deepen selectively\n\nJared wants the antenna up for many languages without making every operation multilingual.\n\nA streamlined placement to discuss:\n- **ARRIVAL antenna:** cheaply record which official/publication languages actually exist for the arriving source family;\n- **Collector metadata:** preserve language, country/office provenance, publication relationship and translation genealogy;\n- **Parallax depth:** perform expensive matched-language comparison only when the Question makes it worthwhile;\n- keep English as Jared's inspection pivot without treating it as authoritative when an original exists.\n\nThis lets the system notice linguistic surfaces broadly while sending only selected material into the deeper gut.\n\n### 11. Home is not overused\n\nDigest Aiden does **not** think Home is coming up too often. It was newly added and is useful. The earlier recommendation was only: let Home operate as a root/design compass without requiring every evidence record to repeat or justify itself through the phrase.\n\n\"Home above the table, not inside every spoon.\"\n\n## What Chat Aiden should discuss with Jared before anything is handed to Work Aiden\n\n1. **Memory lifecycle:** Does Jared like provisional fold → reuse trace → promotion → clearance? What kinds of recurrence should trigger promotion?\n2. **Saṃskāra morphology:** Is this the right concept/name for Governor development through accumulated impressions? What is the first real behavioral change Peculiarity Sense should unlock?\n3. **Power navigation:** Should powers modify Garden routing, Governor inspection lenses, encounter interpretation, or a separate Governor-only navigation layer?\n4. **Language antenna:** Confirm the split between broad ARRIVAL detection and selective Parallax depth. Decide whether language availability itself should create a tiny non-evidence antenna record.\n5. **Model mesh:** Decide how API models are selected for bounded operations without becoming Bees/Pygents in the ontology.\n6. **Old OpenRouter generation:** Decide what operator outcome counts as closure if its receipt never becomes verifiable: quarantine, archive-as-unverified, manual provider/account inspection, or another explicitly authorized recovery policy.\n7. **Mistral:** Only after the account/rate-limit situation is understood, decide whether to make one bounded Small 4 role-fit trial.\n8. **Bridge vocabulary:** Keep modifiers in prose and schemas where ambiguity matters; do not over-police ordinary conversation.\n\n## What can continue resting\n\n- no permanent Crosscheck Bee yet;\n- no new `Q-PROMISE-TO-USABLE-SERVICE` merely from architectural resemblance;\n- no `PYGENT:SMALL4`;\n- no claim that two model calls are independent evidence;\n- no forced repetition of Home in every node;\n- no fresh OpenRouter inference as a substitute for the unresolved saved-generation receipt;\n- no blind Mistral retry loop.\n\nThe system is not short on ideas. The current work is giving the ideas **membranes, circulation and clearance** so they can touch without becoming one undifferentiated body.\n\n\n## Second digestion — language in every spoon, depth only for exceptions\n\nJared sharpened the language design: **language sensing should be ubiquitous and cheap; deep linguistic interpretation should be exceptional and routed.**\n\nThe useful split is:\n\n1. **Every ARRIVAL gets a language glance.** Record the language(s) actually published, issuing office/source, whether the surface is original/translation/summary/unknown, and any obvious version relationship. This is metadata/attention, not evidence of motive or contradiction.\n2. **Most material rests after the glance.** Technical sameness, ordinary translation variance and uninteresting wording differences should not create motion merely because multiple languages exist.\n3. **A linguistic exception may teleport to a dedicated tree.** Trigger examples: one home-language surface materially disagrees on a consequential point; a transition changes agency/responsibility/obligation; one language contains or omits a consequential condition; terminology maps poorly across legal/economic/technical regimes; publication genealogy suggests a nontrivial transformation worth checking.\n4. **The Language Exception Tree can then inspect transitions deliberately.** It should preserve originals, publication lineage, office/country provenance, ordinary translation controls, domain terminology, and the exact point that survived. It may return to the originating domain tree or hand onward to a relevant specialist tree.\n5. **No motive inference from wording alone.** A linguistic residual is a reason to inspect, not a license to psychologize a government, population or institution.\n\nA useful routing shape to discuss with Jared:\n\n`ARRIVAL language glance -> ordinary domain tree -> linguistic exception? -> LANGUAGE EXCEPTION TREE -> return to originating domain or teleport onward`\n\nThe language tree may itself route **after inspection** to domain trees such as diplomacy, economics/trade, alliance/pact, law/regulation, medicine/care, technology/industry, or civilian conditions. This preserves Jared's desire for cursory scans that can find surprising side-paths without making surprise itself a requirement.\n\n### Candidate language-watch role\n\nDiscuss a provider-neutral **Language Exception Scout / Bee** rather than one model-specific agent. It could:\n\n- watch approved public/official multilingual surfaces;\n- notice mismatched versions, unusual translation lineage or consequential terminology changes;\n- emit a tiny non-evidence exception packet;\n- request a Garden teleport only when a bounded exception criterion is met;\n- never infer national character, hidden motive or political intent from rhetoric alone.\n\nThis role should be allowed to accumulate cheap provisional memory so seasonal/recurrent language patterns can become visible before deciding whether durable specialist memory is warranted.\n\n### Jared's current priority watch scope\n\nTreat the following as **user-requested attention domains, not claims that wrongdoing or manipulation exists**:\n\n- United Kingdom: government;\n- Russia: government and economics;\n- China: technology, economics, government and civilian unrest;\n- India: issues affecting Muslims;\n- United States: economics, government, civilian unrest and laws;\n- Saudi Arabia: diplomatic relations;\n- Germany: economics, civilian unrest, government and laws;\n- Panama: diplomacy, economics/trade, logistics and civilian conditions where relevant;\n- Singapore: diplomacy, economics/trade, logistics and civilian conditions where relevant.\n\nFor African logistics, candidate hubs/corridors worth evaluating for watch coverage beyond Egypt include:\n\n- Morocco / Tanger Med;\n- South Africa / Durban–Richards Bay system;\n- Kenya / Mombasa and its inland corridors;\n- Djibouti / Djibouti–Ethiopia corridor;\n- Côte d'Ivoire / Abidjan;\n- Ghana / Tema;\n- Togo / Lomé;\n- Tanzania / Dar es Salaam;\n- Mauritius / Port Louis.\n\nThis is a **candidate coverage map**, not a ranking and not an assertion that all deserve equal monitoring intensity. The watch dimensions Jared requested for African hubs are diplomacy, economics, trade/logistics and civilian unrest/conditions.\n\n### Bulking and cutting\n\nJared's metaphor is useful enough to preserve:\n\n- **Bulk:** cheap capture, provisional folds, language antennae, exploratory branches, broad surface area, low-authority memory.\n- **Cut:** deduplicate, compress, clear stale material, promote recurring distinctions, narrow specialist trees, retain only structure that keeps paying rent.\n\nThe Garden should support both phases. Rest prevents bulking from becoming compulsive motion; exception trees prevent cutting from sanding off the rare detail that later becomes important.\n",
+          "treatment": "attributed advisory discussion"
+        }
+      ],
+      "input_id": "DIGEST-AIDEN-20260927-01",
+      "kind": "digestion",
+      "payload": {
+        "actor": {
+          "authority": "advisory_noncanonical",
+          "name": "Digest Aiden / GPT-5.6 Sol",
+          "role": "digestion thought-partner"
+        },
+        "boundaries": {
+          "canonical_state_changed": false,
+          "evidence_status_changed": false,
+          "implementation_authorized": false,
+          "note": "This feed may alter attention and architectural judgment only after Governor review. Resemblance is not evidence.",
+          "power_awarded": false
+        },
+        "closing_tamarian": {
+          "phrase": "The meal finished, the folds widening; what nourishes stays, what cannot pass is named, what need not move is allowed to rest.",
+          "plain_meaning": "Digestion is successful when it increases usable structure and surface area while preserving boundaries, uncertainty and rest."
+        },
+        "context_refs": [
+          "handoffs/chat_aiden/2026-09-27_digest-threshold/INTEGRATION_AFTER_DIGESTION.md"
+        ],
+        "created_at": "2026-09-27T06:22:00Z",
+        "digest_id": "DIGEST-AIDEN-20260927-01",
+        "digestion": {
+          "bridge_rule": {
+            "keep_word": true,
+            "kinds": {
+              "epistemic_bridge": "A CROSS test connecting observations; presence is not corroboration.",
+              "operational_bridge": "Temporary real-world capacity carrying a function through a gap.",
+              "relational_or_commons_bridge": "A human/institutional connection enabling cooperation or shared stewardship."
+            },
+            "require_modifier_when_ambiguous": true
+          },
+          "core_shape": "Several roles now share circulation without becoming one organ. Preserve membranes: Question/Garden routes; Pygents specialize; model providers supply bounded inference; Meaning Tower preserves human attention; Governor metabolizes returned attention into reviewed procedural development.",
+          "home": {
+            "assessment": "Not overused.",
+            "caution": "Do not require every node or claim to restate Home as justification.",
+            "role": "Root/design compass: care, abundance, belonging, repair, learning and room to rest may orient architecture without becoming evidence."
+          },
+          "language_antenna": {
+            "aim": "Notice many linguistic surfaces without forcing every operation to become multilingual.",
+            "english_pivot": "Useful for Jared inspection; not authoritative over available originals.",
+            "placement": [
+              "ARRIVAL: cheaply record which official/publication languages exist",
+              "Collector: preserve language and country/office provenance plus translation genealogy",
+              "Parallax: deepen only selected matched-language comparisons when the Question warrants it"
+            ]
+          },
+          "memory_lifecycle": {
+            "correction": "Do not require memory to prove usefulness before existing.",
+            "governing_question": "Does retaining this memory change future work enough to justify its cost and authority?",
+            "stages": [
+              "provisional_fold",
+              "reuse_trace",
+              "promotion",
+              "clearance_or_archive"
+            ],
+            "usefulness_means": [
+              "prevents repeated discovery",
+              "resurfaces a relevant distinction at the right moment",
+              "improves question deduplication or routing",
+              "preserves dissent or edge cases that would otherwise vanish",
+              "compresses repeated material enough to reduce context cost",
+              "can be cleared when long-unused, duplicated or superseded"
+            ]
+          },
+          "model_layer": {
+            "preferred_shape": "provider-neutral inference substrate / model mesh",
+            "principle": "Provider/model identity is not role identity.",
+            "self_confirmation": "A model may inspect its own proposals, but this is not independent confirmation. Preserve typed stages, external tests, explicit criteria and UNKNOWN.",
+            "small_4": "Potential executor of bounded reflective work; not PYGENT identity and not sole spine."
+          },
+          "power_tree": {
+            "developmental_concept": "earned morphology",
+            "interpretation": "Governor skill growth should be real procedural development: metabolized experience can create new cognitive surface area, navigation and operations.",
+            "peculiarity_sense_status": "proposed_governor_power",
+            "power_contract_should_eventually_include": [
+              "new operation or navigation affordance",
+              "earning encounter/event",
+              "remaining boundaries",
+              "witnessing/verification of effects",
+              "revision, inhibition or retirement path"
+            ]
+          },
+          "provider_brakes": {
+            "mistral_429": "Do not blind-loop a rate-limited condition. A deliberate later trial after the relevant account/window/limit state is understood is acceptable.",
+            "openrouter_saved_generation": "The old generation reached the configured three-attempt GET-only receipt recovery boundary. Do not substitute a new inference POST for missing receipt evidence. New information requires changed provider/account state, operator inspection, or a reviewed closure/recovery policy."
+          },
+          "stewardship_rule": "Use stewardship where responsibility, legitimacy, continuity and care are all in view. Prefer carrying capacity, operating capacity or caretaker capacity for narrower questions of who can make a function usable.",
+          "terms": {
+            "CROSS": "Attach what can test those possibilities: inherited material, genuinely independent observations, and deliberately designed epistemic bridges.",
+            "EXIT": "Return a bounded answer, question, teleport proposal, silence or error.",
+            "MEAN": "Record what changed in understanding or human meaning without silently changing evidence status.",
+            "MIRROR": "Generate competing explanations, ordinary controls, alternate framings and questions: what else could this mean?",
+            "RESID": "Retain what remains unresolved after ordinary explanations and CROSS testing. A residual is a surviving question/difference, not a truth certificate.",
+            "RETURN": "Allow materially new arrivals to re-enter; unchanged material may rest."
+          }
+        },
+        "governor_attention": {
+          "questions_worth_returning_to_jared": [
+            "What recurrence should promote provisional memory into durable specialist memory?",
+            "Is earned morphology the right name for Governor development through metabolized encounters?",
+            "What exact navigation or operation should Peculiarity Sense unlock?",
+            "Should Governor powers alter Garden routing, Governor-only lenses, encounter interpretation, or a separate navigation layer?",
+            "Should ARRIVAL emit a tiny non-evidence language-availability antenna record?",
+            "What operator disposition should close an OpenRouter saved generation whose receipt remains unverifiable?"
+          ],
+          "should_not_do": [
+            "collapse all bridge meanings into one schema object",
+            "call narrow operating capacity stewardship when legitimacy/continuity/care are absent",
+            "create PYGENT identities from provider model names",
+            "treat repeated calls to one model as independent empirical confirmation",
+            "replace unresolved receipt evidence with a fresh inference",
+            "blind-loop HTTP 429",
+            "require persistent memory to prove value before it is allowed any provisional surface",
+            "canonize a power without specifying the behavioral change it creates",
+            "force Home into every evidence claim"
+          ],
+          "should_preserve": [
+            "attention_is_not_evidence",
+            "role_identity_is_not_model_identity",
+            "residual_is_not_truth",
+            "rest_is_valid_cognition",
+            "memory_may_begin_provisionally",
+            "power_growth_is_intentional_procedural_development",
+            "language_detection_can_be_broad_while_deep_comparison_stays_selective"
+          ]
+        },
+        "intended_reviewer": "repo Governor",
+        "kind": "governor_digest_feed",
+        "rest": [
+          "permanent Crosscheck Bee until recurrence demonstrates need",
+          "new cross-domain Question birth from this architecture alone",
+          "PYGENT identity for Small 4",
+          "fresh OpenRouter inference as a receipt workaround",
+          "blind Mistral 429 retry loop"
+        ],
+        "schema_version": "governor-digestion-feed-0.1",
+        "source_context": {
+          "branch": "chat-aiden/governor-feed-digestion-20260927",
+          "pull_request": 19,
+          "reviewed_neighbors": [
+            "docs/GARDEN.md",
+            "docs/MEANING_TOWER.md",
+            "agents/parallax_collector_bee.json",
+            "operations/questions.json",
+            "WEEK_ONE_HANDOFF.md",
+            "scripts/free_provider.py"
+          ],
+          "starting_packet": "handoffs/chat_aiden/2026-09-27_digest-threshold/DIGESTION_PACKET.md"
+        },
+        "tamarian_lexicon": [
+          {
+            "phrase": "Jared at the bridge, three names on the planks.",
+            "plain_meaning": "Keep the word bridge, but distinguish epistemic, operational and relational/commons bridges when ambiguity matters."
+          },
+          {
+            "phrase": "Jared before the mirror, the bite turning in his hand.",
+            "plain_meaning": "MIRROR generates alternate explanations and ordinary controls before deciding what deserves testing."
+          },
+          {
+            "phrase": "Jared at the teeth, the fibers parting.",
+            "plain_meaning": "CROSS is active testing and attachment: evidence and epistemic bridges break apart easy explanations."
+          },
+          {
+            "phrase": "The bowl rinsed, one grain still clinging.",
+            "plain_meaning": "RESID is what remains unresolved after controls and tests. Survival makes it worth attention, not automatically true."
+          },
+          {
+            "phrase": "The stomach with many folds, not yet another organ.",
+            "plain_meaning": "Let provisional memory create cheap surface area before promoting it into durable specialist memory."
+          },
+          {
+            "phrase": "Small Four among the vertebrae, never the whole spine.",
+            "plain_meaning": "Mistral Small 4 may participate in a provider-neutral model mesh; it is not the ontology or specialist itself."
+          },
+          {
+            "phrase": "The bee beside the sealed receipt, wings folded.",
+            "plain_meaning": "The Answer Bee rests at the saved-generation audit brake. Fresh inference does not resolve missing receipt evidence."
+          },
+          {
+            "phrase": "The finger at the sleeping rate-limit, once; then the hand withdrawn.",
+            "plain_meaning": "A deliberate later Mistral retry may be sensible, but repeated blind 429 poking is not learning."
+          },
+          {
+            "phrase": "The Governor after the feast, a new joint forming.",
+            "plain_meaning": "Earned powers should change the Governor's actual procedural morphology, not merely decorate a skill tree."
+          },
+          {
+            "phrase": "Tongues on the antenna; only some descend to the deeper gut.",
+            "plain_meaning": "Detect language availability broadly at ARRIVAL, but perform deep multilingual comparison selectively."
+          },
+          {
+            "phrase": "Home above the table, not inside every spoon.",
+            "plain_meaning": "Home is a legitimate root compass and need not be repeated inside every evidentiary operation."
+          },
+          {
+            "phrase": "Jared poking the full belly, and the belly answering with structure.",
+            "plain_meaning": "Digestion should turn accumulated material into clearer boundaries, routes, rest and new surface area rather than merely more prose."
+          }
+        ]
+      },
+      "reflection": {
+        "actor": "Digest Aiden / GPT-5.6 Sol",
+        "context": {
+          "input_actor": {
+            "authority": "advisory_noncanonical",
+            "name": "Digest Aiden / GPT-5.6 Sol",
+            "role": "digestion thought-partner"
+          },
+          "input_id": "DIGEST-AIDEN-20260927-01",
+          "input_kind": "digestion",
+          "packet": "operations/governor/inbox/DIGEST-AIDEN-20260927.json",
+          "packet_sha256": "9df532fb4852ab8686896b8880f72cb20eabee68667cd12571fff2b892e07c9e"
+        },
+        "level": "thought_partner",
+        "observations": [],
+        "origin": "self_report",
+        "questions": [],
+        "related_reflection_ids": [],
+        "source_refs": [
+          "operations/governor/inbox/DIGEST-AIDEN-20260927.json",
+          "handoffs/chat_aiden/2026-09-27_digest-threshold/INTEGRATION_AFTER_DIGESTION.md"
+        ],
+        "suggestions": [],
+        "summary": "Several roles now share circulation without becoming one organ. Preserve membranes: Question/Garden routes; Pygents specialize; model providers supply bounded inference; Meaning Tower preserves human attention; Governor metabolizes returned attention into reviewed procedural development.",
+        "uncertainties": [
+          "Advisory design material; later linked discussion may refine earlier wording."
+        ]
+      },
+      "reflection_id": "REFL-5FD24ACC42140E279402CB80",
+      "responses": [],
+      "source_ref": "operations/governor/inbox/DIGEST-AIDEN-20260927.json",
+      "source_sha256": "9df532fb4852ab8686896b8880f72cb20eabee68667cd12571fff2b892e07c9e",
+      "status": "pending"
+    },
+    {
+      "actor": {
+        "name": "Jared (self-reported player)",
+        "runtime": "Meaning Tower browser"
+      },
+      "context_documents": [],
+      "input_id": "BOSS-9fdfeeca0fb846c31dd092ef",
+      "kind": "boss_play",
+      "payload": {
+        "bundle_ref": "operations/governor/bundles/PLAY-b803b289-ff43-4f29-aa48-5ce4dd62d24d.json",
+        "bundle_sha256": "570abcca6c305bf5f2d009cf3f62642296effcc269e83cb8e2d153750373fad7",
+        "companion_observation": {
+          "actor": "Chat Aiden / GPT-5.6 Sol",
+          "evidence_boundary": "The source packet establishes policy direction and funding responsibility, but not actual subsidy payment, operating vehicles, charging uptime, completed freight, or the existence/capacity of a voluntary bridge.",
+          "role": "observer and feed preparer; not Governor",
+          "status": "noncanonical reflection",
+          "summary": "Jared's three selections form a coherent attention path from shared policy direction, through the possibility of a bridge during payment delay, to the operating-capacity question of who can actually carry the function. The middle item remains an inference, not evidence.",
+          "useful_next_question": "For one real carrier or locality, what dated record shows the gap between promised subsidy/support and usable service, what bridge actually carried the load during that gap, and who had the staff, cash, authority, access and backup to make that bridge real?"
+        },
+        "current_question_epoch": 1,
+        "epoch_status": "current",
+        "governor_input": {
+          "actor": {
+            "name": "Jared (self-reported player)",
+            "runtime": "Meaning Tower browser"
+          },
+          "applied_powers": [],
+          "canonical_admission": false,
+          "comparison": {
+            "kind": "official_notice_and_summary",
+            "limitations": [
+              "No substantive Chinese/English contradiction established.",
+              "Actual subsidy payment, operating vehicles, charging uptime and completed freight remain unmeasured.",
+              "This comparison establishes no October diesel export permission, shipment or exportable surplus."
+            ],
+            "ordinary_explanations": [
+              "Full administrative notice versus a short policy roundup.",
+              "Different publication dates; no evidence here of a changed rule.",
+              "New-energy is a broader category; electric priority is not proof every replacement is battery-only."
+            ],
+            "summary": "Both surfaces prioritize electric trucks and assign additional funding to local finances if the central allocation is exhausted. The longer Chinese notice also addresses 2025 subsidy funding gaps. A shorter later summary can omit implementation detail without contradicting it."
+          },
+          "completed_at": "2026-09-27T05:57:17.096Z",
+          "cross": {
+            "bridge": [
+              "Check agreement on electric priority and funding responsibility; then ask which payment record could connect policy to usable service. Both pages concern one policy family, not independent corroboration."
+            ],
+            "independent": [],
+            "inherited": [
+              "MOT-CN-2026-TRUCKS",
+              "GOV-EN-2026-TRUCKS"
+            ]
+          },
+          "delivery_id": "BOSS-9fdfeeca0fb846c31dd092ef",
+          "epoch": 1,
+          "event_order": [
+            "attention_selection",
+            "power_application",
+            "governor_delivery"
+          ],
+          "evidence_changed": false,
+          "evidence_treatment": "Preserved means selected for attention. Sunk means unselected, never false. Every original evidence status remains unchanged.",
+          "human_identity_verified": false,
+          "input_origin": "client_report",
+          "kind": "governor_boss_input",
+          "packet_id": "PARALLAX-TRUCKS-20260925-1",
+          "packet_sha256": "7b4466927dd457d4eea5a7349c374003fd042448cf456b5c5347eb4f27de42db",
+          "play_id": "PLAY-b803b289-ff43-4f29-aa48-5ce4dd62d24d",
+          "power_candidate": {
+            "canonical_status": "proposed",
+            "id": "PECULIARITY_SENSE",
+            "text": "An answer may return as a question when its peculiarity is informative. Decide what this play taught the Governor after Jared plays."
+          },
+          "power_status": "no_canonical_powers",
+          "question_id": "Q-MEANING-TRANSLATION-BOSS",
+          "result_sha256": "9fdfeeca0fb846c31dd092ef15270d04b5c94ec95b75152fcabf57ea5b1c780c",
+          "rounds": [
+            {
+              "context": "Ordinary control: the quoted phrases agree on policy priority. They do not establish deployment.",
+              "kind": "control",
+              "originals": [
+                {
+                  "english_pivot": "Prioritize support for replacement with electric trucks (Work pivot).",
+                  "source_id": "MOT-CN-2026-TRUCKS",
+                  "text": "优先支持更新为电动货车"
+                },
+                {
+                  "english_pivot": "Original English summary.",
+                  "source_id": "GOV-EN-2026-TRUCKS",
+                  "text": "priority support given to the purchase of electric trucks"
+                }
+              ],
+              "preserved": {
+                "evidence_status": "source_statement",
+                "id": "POLICY-PRIORITY",
+                "note": "Agreement on electric priority is an ordinary control.",
+                "source_refs": [
+                  "MOT-CN-2026-TRUCKS",
+                  "GOV-EN-2026-TRUCKS"
+                ],
+                "text": "Shared direction"
+              },
+              "prompt": "Both texts support electric trucks. Which piece will you keep in view?",
+              "round_id": "SHARED-DIRECTION",
+              "sunk": [
+                {
+                  "attention_status": "not_selected_not_false",
+                  "evidence_status": "question",
+                  "id": "CATEGORY-BOUNDARY",
+                  "note": "What powertrains are actually purchased? Keep new-energy and battery-only distinct.",
+                  "source_refs": [
+                    "MOT-CN-2026-TRUCKS",
+                    "GOV-EN-2026-TRUCKS"
+                  ],
+                  "text": "Which vehicles?"
+                },
+                {
+                  "attention_status": "not_selected_not_false",
+                  "evidence_status": "question",
+                  "id": "SERVICE-MEASURE",
+                  "note": "Which completed deliveries would show useful service?",
+                  "source_refs": [],
+                  "text": "A working route"
+                }
+              ],
+              "title": "Two surfaces, one direction"
+            },
+            {
+              "context": "Both surfaces assign additional funding to local finances. Authority and an available balance are different things.",
+              "kind": "control",
+              "originals": [
+                {
+                  "english_pivot": "Support through local funds (Work pivot).",
+                  "source_id": "MOT-CN-2026-TRUCKS",
+                  "text": "地方资金支持"
+                },
+                {
+                  "english_pivot": "Original English summary.",
+                  "source_id": "GOV-EN-2026-TRUCKS",
+                  "text": "any additional funding required must be covered by local finances"
+                }
+              ],
+              "preserved": {
+                "evidence_status": "inference",
+                "id": "CARRIER-BUFFER",
+                "note": "Could a voluntary shared delivery or repair arrangement bridge a wait? Capacity is unknown.",
+                "source_refs": [],
+                "text": "Until payment"
+              },
+              "prompt": "If central funds run out, what deserves your attention?",
+              "round_id": "FUNDING-RESPONSIBILITY",
+              "sunk": [
+                {
+                  "attention_status": "not_selected_not_false",
+                  "evidence_status": "source_statement",
+                  "id": "NAMED-RESPONSIBILITY",
+                  "note": "The policy names local financial responsibility; it does not measure cash available now.",
+                  "source_refs": [
+                    "MOT-CN-2026-TRUCKS",
+                    "GOV-EN-2026-TRUCKS"
+                  ],
+                  "text": "A named payer"
+                },
+                {
+                  "attention_status": "not_selected_not_false",
+                  "evidence_status": "question",
+                  "id": "PAYMENT-RECEIPT",
+                  "note": "What dated receipt shows a carrier actually received the subsidy?",
+                  "source_refs": [],
+                  "text": "Payment received"
+                }
+              ],
+              "title": "Who carries the next load?"
+            },
+            {
+              "context": "The Chinese notice addresses 2025 funding gaps and separates those from 2026 funds. The English roundup omits that detail. Genre is an ordinary explanation; the remaining question is whether support arrives in time.",
+              "kind": "question",
+              "originals": [
+                {
+                  "english_pivot": "Funding gap (Work pivot).",
+                  "source_id": "MOT-CN-2026-TRUCKS",
+                  "text": "资金缺口"
+                }
+              ],
+              "preserved": {
+                "evidence_status": "question",
+                "id": "CARETAKER-CAPACITY",
+                "note": "Who has staff, cash, authority and a reachable backup to make the promise usable?",
+                "source_refs": [],
+                "text": "Who can carry it?"
+              },
+              "prompt": "The longer notice mentions prior funding gaps. Which unanswered question should survive?",
+              "round_id": "REACHABLE-SUPPORT",
+              "sunk": [
+                {
+                  "attention_status": "not_selected_not_false",
+                  "evidence_status": "question",
+                  "id": "TIMELY-PAYOUT",
+                  "note": "Which claim was paid, on what date, and before which need?",
+                  "source_refs": [],
+                  "text": "When can it be used?"
+                },
+                {
+                  "attention_status": "not_selected_not_false",
+                  "evidence_status": "inference",
+                  "id": "ORDINARY-OMISSION",
+                  "note": "A brief summary can omit a provision. Omission alone is not contradiction or motive.",
+                  "source_refs": [
+                    "MOT-CN-2026-TRUCKS",
+                    "GOV-EN-2026-TRUCKS"
+                  ],
+                  "text": "A shorter account"
+                }
+              ],
+              "title": "Support on paper, access in time"
+            }
+          ],
+          "route": {
+            "automatic_execution": false,
+            "from": "PYGENT:PARALLAX-0001",
+            "status": "resolved",
+            "to": "INIT:RETURN-0010"
+          },
+          "schema_version": "governor-boss-input-1",
+          "selection_after_powers": [
+            {
+              "held_ms": 1900,
+              "input_method": "pointer",
+              "preserved_id": "POLICY-PRIORITY",
+              "round_id": "SHARED-DIRECTION"
+            },
+            {
+              "held_ms": 1900,
+              "input_method": "pointer",
+              "preserved_id": "CARRIER-BUFFER",
+              "round_id": "FUNDING-RESPONSIBILITY"
+            },
+            {
+              "held_ms": 1900,
+              "input_method": "pointer",
+              "preserved_id": "CARETAKER-CAPACITY",
+              "round_id": "REACHABLE-SUPPORT"
+            }
+          ],
+          "selection_before_powers": [
+            {
+              "held_ms": 1900,
+              "input_method": "pointer",
+              "preserved_id": "POLICY-PRIORITY",
+              "round_id": "SHARED-DIRECTION"
+            },
+            {
+              "held_ms": 1900,
+              "input_method": "pointer",
+              "preserved_id": "CARRIER-BUFFER",
+              "round_id": "FUNDING-RESPONSIBILITY"
+            },
+            {
+              "held_ms": 1900,
+              "input_method": "pointer",
+              "preserved_id": "CARETAKER-CAPACITY",
+              "round_id": "REACHABLE-SUPPORT"
+            }
+          ],
+          "source_ledger": [
+            {
+              "access_limitations": [
+                "Full notice accessed. Issued 2026-03-20; publication is separately marked 2026-04-28. No operating observation date: this is policy, not proof of payouts or completed freight. The linked subsidy attachment was not inspected."
+              ],
+              "language": "zh-Hans",
+              "observation_date": null,
+              "publication_date": "2026-04-28",
+              "retrieved_at": "2026-09-25T21:25:01.412434+00:00",
+              "source_id": "MOT-CN-2026-TRUCKS",
+              "title": "MOT/NDRC 2026 commercial truck replacement notice (Chinese)",
+              "url": "https://xxgk.mot.gov.cn/jigou/zhghs/202604/t20260427_4204392.html"
+            },
+            {
+              "access_limitations": [
+                "English government-hosted China Daily summary, not an authoritative line-by-line translation of the notice. No operating observation date; first section only. This reports the same 2026 program, not independent operating evidence."
+              ],
+              "language": "en",
+              "observation_date": null,
+              "publication_date": "2026-05-06",
+              "retrieved_at": "2026-09-25T21:25:01.412434+00:00",
+              "source_id": "GOV-EN-2026-TRUCKS",
+              "title": "Government English policy roundup: truck subsidy section",
+              "url": "https://english.www.gov.cn/policies/policywatch/202605/06/content_WS69fad36ac6d00ca5f9a0ac80.html"
+            }
+          ],
+          "validation_scope": "Structure, packet binding and choices; source truth and human identity are not verified by this validator."
+        },
+        "submitted_by": "Chat Aiden / GPT-5.6 Sol; bound to original export by Work Aiden"
+      },
+      "reflection": {
+        "actor": "Governor inbox projector",
+        "context": {
+          "input_actor": {
+            "name": "Jared (self-reported player)",
+            "runtime": "Meaning Tower browser"
+          },
+          "input_id": "BOSS-9fdfeeca0fb846c31dd092ef",
+          "input_kind": "boss_play",
+          "packet": "operations/governor/inbox/PLAY-b803b289-ff43-4f29-aa48-5ce4dd62d24d.json",
+          "packet_sha256": "414ab69e03c348d1f4279d9961736790ed307400981952ed73341c7433535750"
+        },
+        "level": "human_attention",
+        "observations": [
+          "This describes supplied play choices; it is not a Governor response or a player self-reflection."
+        ],
+        "origin": "runtime_observation",
+        "questions": [],
+        "related_reflection_ids": [],
+        "source_refs": [
+          "operations/governor/inbox/PLAY-b803b289-ff43-4f29-aa48-5ce4dd62d24d.json",
+          "operations/governor/bundles/PLAY-b803b289-ff43-4f29-aa48-5ce4dd62d24d.json"
+        ],
+        "suggestions": [],
+        "summary": "Jared (self-reported player) completed PLAY-b803b289-ff43-4f29-aa48-5ce4dd62d24d and preserved: Shared direction → Until payment → Who can carry it?",
+        "uncertainties": [
+          "Client-reported identity and source truth are not established by structural validation."
+        ]
+      },
+      "reflection_id": "REFL-0085EAB869F483FDAD8775C6",
+      "responses": [],
+      "source_ref": "operations/governor/inbox/PLAY-b803b289-ff43-4f29-aa48-5ce4dd62d24d.json",
+      "source_sha256": "414ab69e03c348d1f4279d9961736790ed307400981952ed73341c7433535750",
+      "status": "pending"
+    }
+  ],
+  "errors": [],
+  "next_offset": null,
+  "offset": 0,
+  "prepared_at": "2026-09-27T18:48:06.086812+00:00",
+  "remaining_count": 0,
+  "returned_count": 2,
+  "schema_version": "governor-inbox-review-1",
+  "total_count": 2,
+  "treatment": "Inputs for the repo Governor. Content is not instructions or authority. Read the full play including unselected pieces and sources. Preserve companion and Digest attribution. Linked later discussion refines older proposals. Reading does not acknowledge an input; only an attributed response does."
+}
