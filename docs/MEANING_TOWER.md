@@ -1,5 +1,7 @@
 # Meaning Tower: a piece kept, a question carried
 
+**September 26 update:** the portable page now loads another Translation/Parallax packet or reopens a completed play through **Bring another question to the water**. **Copy for Chat** and **Download for Chat** carry a readable Governor discussion note; full JSON remains available. See [authoring](ENCOUNTER_AUTHORING.md) and [the current handoff](../COMPANION_WEEK_HANDOFF.md). Jared has since supplied his first play and discussed its choices; historical first-play statements below describe the original build, not current participation.
+
 Open **[the portable encounter](../web/meaning-tower/index.html)** in a browser. GitHub displays HTML as source, so download the file first, or serve the repository locally. It contains its styles, script and first evidence packet; it needs no account, model request or network to play. Source links open the original public pages when requested.
 
 ## What Jared can play

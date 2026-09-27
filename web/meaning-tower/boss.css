@@ -6,3 +6,17 @@
 @media(max-width:660px){.pieces{grid-template-columns:1fr}.piece{min-height:115px}.piece-note{font-size:12px}.round-context{font-size:12px}.round-prompt{font-size:13px}}
 
 .original blockquote:lang(zh-Hans){font-family:"PingFang SC","Microsoft YaHei","Noto Sans CJK SC",sans-serif}
+
+.encounter-library{margin-top:25px;padding:15px 18px;border:1px solid var(--line);background:var(--deep);font-size:12px}
+.encounter-library summary{cursor:pointer;color:var(--foam);font-size:14px}
+.encounter-library p{color:var(--muted);margin:12px 0}
+.library-controls{display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin:12px 0}
+.library-controls label.button{position:relative;overflow:hidden;cursor:pointer}
+.library-controls input[type=file]{position:absolute;inset:0;opacity:0;width:100%;cursor:pointer}
+.library-controls label:focus-within{outline:3px solid var(--gold);outline-offset:4px}
+.paste-label{display:block;margin-top:16px;color:var(--muted)}
+#packetText{display:block;width:100%;height:110px;margin:8px 0 12px;padding:10px;background:var(--night);border:1px solid var(--line);color:var(--ink);font-size:12px;resize:vertical}
+#loadStatus{color:var(--foam);overflow-wrap:anywhere}
+.active-packet{font-size:12px;color:var(--muted);overflow-wrap:anywhere;margin:16px 0 0}
+.export-controls{flex-wrap:wrap}.export-controls .button{min-height:44px}
+@media(max-width:660px){.encounter-library{padding:12px}.library-controls .button{min-height:44px}.library-controls{align-items:stretch}}

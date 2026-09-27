@@ -21,6 +21,14 @@
     <ol id="seriesSlots" class="series-slots"></ol>
   </nav>
   <main>
+    <details class="encounter-library" id="encounterLibrary">
+      <summary>Bring another question to the water</summary>
+      <p>Load a Translation/Parallax encounter from Chat, or reopen a completed play.</p>
+      <div class="library-controls"><label class="button">Load JSON file<input type="file" id="packetFile" accept=".json,application/json"></label><button class="button" id="exampleButton">Save example for Chat</button><button class="text-button" id="defaultButton">Return to first encounter</button></div>
+      <label class="paste-label" for="packetText">Or paste the encounter or play JSON</label><textarea id="packetText" spellcheck="false" placeholder="Paste JSON from Chat here"></textarea><button class="button" id="loadTextButton">Load pasted JSON</button>
+      <p id="loadStatus" role="status" aria-live="polite"></p>
+    </details>
+    <p class="active-packet" id="activePacket"></p>
     <header class="encounter-heading">
       <div><p class="eyebrow">THE FIRST KEEPER OF THE TIDE</p><h1>The Unresolved<span>· Tide-Shepherd ·</span></h1></div>
       <p class="invitation">The sea offers many pieces.<br>Keep one steady.<br><em>Let the question survive.</em></p>
@@ -55,7 +63,7 @@
       <p class="assist-explanation" id="assistExplanation" hidden>Assist records a continuously selected piece, without requiring a physical hold. Selecting another piece or leaving the page cancels the timer.</p>
     </section>
     <section class="result-panel" id="resultPanel" aria-labelledby="resultTitle" hidden>
-      <div class="receipt-seal" aria-hidden="true">✦</div><div class="receipt-content"><p class="eyebrow">A PIECE KEPT · A QUESTION CARRIED</p><h2 id="resultTitle">The local Governor inbox has received your encounter.</h2><p id="receiptExplanation"></p><p class="storage-status" id="storageStatus" role="status"></p><div id="receiptChoices" class="receipt-choices"></div><p id="powerNotice" class="power-notice"></p><div class="export-controls"><button class="button primary" id="downloadButton">Download encounter</button><button class="button" id="copyButton">Copy encounter</button><span id="exportStatus" role="status"></span></div><details class="json-details"><summary>Inspect or select the complete JSON</summary><textarea id="bundleText" readonly spellcheck="false" aria-label="Complete encounter and local Governor input JSON"></textarea></details></div>
+      <div class="receipt-seal" aria-hidden="true">✦</div><div class="receipt-content"><p class="eyebrow">A PIECE KEPT · A Question Carried</p><h2 id="resultTitle">The local Governor inbox has received your encounter.</h2><p id="receiptExplanation"></p><p class="storage-status" id="storageStatus" role="status"></p><div id="receiptChoices" class="receipt-choices"></div><p id="powerNotice" class="power-notice"></p><div class="export-controls"><button class="button primary" id="copyChatButton">Copy for Chat</button><button class="button" id="downloadChatButton">Download for Chat</button><button class="button" id="downloadButton">Download encounter JSON</button><button class="button" id="copyButton">Copy encounter JSON</button><span id="exportStatus" role="status"></span></div><details class="json-details"><summary>Read the note for Chat</summary><textarea id="chatText" readonly spellcheck="false" aria-label="Readable Governor discussion note"></textarea></details><details class="json-details"><summary>Inspect or select the complete JSON</summary><textarea id="bundleText" readonly spellcheck="false" aria-label="Complete encounter and local Governor input JSON"></textarea></details></div>
     </section>
     <section class="evidence-room" aria-label="Evidence for this encounter">
       <div class="section-title"><div><p class="eyebrow">THE CHARTS BENEATH THE WATER</p><h2>Read what the sources actually say.</h2></div><span id="packetMark" class="packet-mark"></span></div>
@@ -69,6 +77,7 @@
 </div>
 <div class="fatal-error" id="fatalError" role="alert" hidden></div>
 <script type="application/json" id="tower-data">__TOWER_DATA__</script>
+<script>__PACKET_JS__</script>
 <script>__BOSS_JS__</script>
 </body>
 </html>

@@ -4,7 +4,7 @@ Owner: Jared. Integration: Work Aiden. Thought partners: Chat Aiden, Governor, w
 
 ## Run window and entry points
 
-Configured window: **24 September 2026 07:45:13 UTC through 01 October 2026 07:45:13 UTC**. GitHub Actions wakes at **03:47 and 15:47 UTC** (20:47 previous day and 08:47 Pacific during this week). GitHub scheduling may be delayed. The time gate rejects new work after the window; the next wake writes a digest and disables this workflow.
+Configured window: **24 September 2026 07:45:13 UTC through 04 October 2026 07:45:13 UTC**. Jared authorized the three-day extension on September 26 to cover all of October 3 Pacific. GitHub Actions wakes at **03:47 and 15:47 UTC** (20:47 previous day and 08:47 Pacific during this window). Scheduling may be delayed. The time gate rejects new work after the end; the next wake writes a digest and disables this workflow. Read [the current companion handoff](COMPANION_WEEK_HANDOFF.md); existing provider brakes and budgets remain intact.
 
 - [Live output index](https://github.com/Jaradyne/Dis-Unity/blob/week-one-state/operations/week-one/INDEX.md)
 - [Actual runs](https://github.com/Jaradyne/Dis-Unity/actions/workflows/week-one.yml)
@@ -74,7 +74,7 @@ The run manifest links shared attempt/answer/reflection/decision IDs. Prompts ar
 3. Successful half-day slots are idempotent. Two attempts per slot and daily budgets limit retries. Cooldowns survive restarts. Never delete history to bypass them.
 4. `audit_pending` means verify the existing generation. `auth_or_configuration_error`, `policy_blocked`, an active `brake`, or conflicting provenance means inspect and repair the concrete cause before resuming inference. Chat may stage a fix; Work reviews/integrates. A restart does not override that boundary.
 5. A state-branch change since the initial load or last save fails before publication; a later push conflict also fails rather than overwriting concurrent work. Keep Chat contributions in uniquely named staging files on a separate branch/PR. The workflow is the sole operational-branch writer during a run. The scheduled Chat task writes only its separate staging prefix on main, which cannot trigger inference or change runtime authority. Do not edit Questions/mailbox concurrently there.
-6. To stop: disable **Week One Meaning Web** in Actions and set `config/week-one.json` `enabled` to false through reviewed Git. Disabling the config also blocks an already prepared provider step. The seven-day end gate is enforced independently.
+6. To stop: disable **Week One Meaning Web** in Actions and set `config/week-one.json` `enabled` to false through reviewed Git. Disabling the config also blocks an already prepared provider step. The configured end gate is enforced independently.
 7. To extend past the configured end, get a newly authorized window and update reviewed configuration; do not reset the clock by re-running a job.
 
 Operator reproduction from a clean authorized checkout:
@@ -101,6 +101,6 @@ The private-address open notes room remains separate. Its address must stay out 
 
 ## Governor task recovery
 
-The task is named **Week One Governor** in ChatGPT Tasks. It has seven scheduled evening occurrences (24–30 September Pacific), plus an explicitly requested immediate launch review. If a task invocation cannot publish, its response must retain the complete small packet. Chat can stage that exact packet with provenance for Work, rather than ask Jared to reconstruct it. Re-run only an incomplete session after reading its dated packet; an existing UTC-date packet makes that day's task idempotent. The import log is `week-one-state:operations/week-one/thought-partner-imports.json`.
+The task is named **Week One Governor** in ChatGPT Tasks. Its evening run has been extended through October 3 Pacific; the original launch review remains part of its history. If an invocation cannot publish, retain the complete small packet in the task response. Chat can stage that exact packet with provenance for Work. Re-run only an incomplete session after reading its dated packet; an existing UTC-date packet makes that day's research idempotent. The import log is `week-one-state:operations/week-one/thought-partner-imports.json`.
 
 Stop the task as well as the GitHub workflow if ending early. A task after the configured end reviews closure without starting new research. No further recurring watch is authorized by this launch.

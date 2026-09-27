@@ -1,6 +1,12 @@
 {
   "allusions": [
     {
+      "gloss": "The chosen pieces have arrived; belonging and reflection leave room to rest.",
+      "id": "FLOTSAM-REST",
+      "line": "Jared at the whirlpool, his hands, at rest.",
+      "origin": "Jared after his first play, September 26, 2026"
+    },
+    {
       "gloss": "A piece was preserved for attention; the others were not declared false.",
       "id": "FLOTSAM-HELD",
       "line": "Jared at the whirlpool, his hands steady."

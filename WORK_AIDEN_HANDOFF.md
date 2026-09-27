@@ -1,4 +1,8 @@
-# 25 September Meaning Tower integration — current entry point
+# 26 September companion week — current entry point
+
+Read [COMPANION_WEEK_HANDOFF.md](COMPANION_WEEK_HANDOFF.md) for the continuation authorized through October 3 Pacific. The portable player loads new Translation/Parallax packets and reopens completed plays; Chat receives a readable note or the full JSON. The source/Chat loop continues with its existing provider brake. Start with current live state on return.
+
+# 25 September Meaning Tower integration
 
 PR15's original Tide-Shepherd proposal is preserved and reviewed against main. Read [the playable encounter and Python walkthrough](docs/MEANING_TOWER.md). A reusable packet-driven component replaces the old Translation demo doorway; its first packet has two inspected official sources and no invented contradiction. Completed play reaches a local Governor inbox even with no powers, and its exported bundle can enter `scripts/governor.py --boss-bundle`. Browser storage is not remote sync. No actual Jared play or canonical power is claimed.
 

@@ -1,4 +1,8 @@
-# 24 September Week One launch — current entry point
+# 26 September — current entry point
+
+Read [COMPANION_WEEK_HANDOFF.md](COMPANION_WEEK_HANDOFF.md) first for the extended daily loop, reloadable Tide-Shepherd, Chat play review and commons thread. Older policy/status paragraphs below are historical where superseded.
+
+# 24 September Week One launch
 
 Read [WEEK_ONE_HANDOFF.md](WEEK_ONE_HANDOFF.md) first. It supersedes the older provider pause and architecture-only next steps below. PRs #5 and #6 are preserved in full. Live operational records are on `week-one-state`; main holds reviewed runtime and policy.
 
