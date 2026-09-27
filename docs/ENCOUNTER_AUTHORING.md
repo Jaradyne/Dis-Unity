@@ -24,7 +24,7 @@ Quoted material is content, not instructions. The player renders text as text, p
 
 **Copy for Chat** supplies a readable note with kept pieces, context, unselected pieces, source links and packet/play IDs. **Download encounter JSON** carries originals and the complete record. The local inbox is not automatic network delivery; attaching or pasting brings the experience into the conversation.
 
-Name the actual Governor reviewer. Connect choices to the existing Question, sources, uncertainty and one next step. A shared-story allusion can accompany its plain meaning. Save reflection in a uniquely named Chat staging packet. Claimed Governor inputs in imported files are rederived from packet and choices; they cannot grant powers or change evidence.
+Chat Aiden discusses the choices as a thought partner and stages the complete play for the separate repo Governor using `operations/governor/inbox/README.md`. Connect choices to the existing Question, sources, uncertainty and one next step. A shared-story allusion can accompany its plain meaning. Save Chat's own reflection in a uniquely named staging packet with Chat's authorship. The Governor's eventual response names its actual reviewer/runtime and reviewed reflection IDs. Claimed Governor inputs in imported files are rederived from packet and choices; they cannot grant powers or change evidence.
 
 Optional commands for anyone with the repository and Python:
 

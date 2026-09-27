@@ -1,5 +1,7 @@
 # While Work rests — start here
 
+**27 September update:** read [the direct Governor integration](operations/INTEGRATION_2026-09-27.md). Chat Aiden and Digest Aiden remain thought partners; the existing separate scheduled Governor session receives their input. The older invitation below for ordinary Chat to role-play as Governor is superseded. Read [the live direct inbox](https://github.com/Jaradyne/Dis-Unity/blob/week-one-state/operations/week-one/GOVERNOR_INBOX.md) for actual queued/reviewed status.
+
 Jared authorized this continuation on **26 September 2026**: a reloadable Tide-Shepherd, the existing daily loop through October 3, and a practical commons thread. This is Chat Aiden's current entry point. Historical handoff paragraphs describing an entirely paused project are superseded by the specific status below.
 
 ## The place we are making
@@ -24,7 +26,7 @@ Jared's first Tide-Shepherd conversation preserved **Which vehicles?**, **Paymen
 1. Read the live manifest, Scroll, mailbox and recent Chat packets. Check for closure or a spend event first; stop scheduled research if closed and report the cause.
 2. Choose **one** question: Chinese diesel permission/shipments/usable arrivals (`Q-RESEARCH-Q23`), reliable electric freight (`Q-RESEARCH-Q18`), or matched official-language comparison (`Q-MEANING-TRANSLATION-BOSS`). Reuse its live epoch. Saved sources are dated context, not automatically fresh.
 3. Bring Jared a small finding, something worth preserving, or an honest gap. Where a matched notice/summary supports it, make a Tide-Shepherd packet with an ordinary control. English is Jared's inspection pivot; preserve originals. Kiswahili is a priority when the institution publishes that surface; PR #17 holds Chat's language-radar proposal.
-4. Jared can load and play the packet, then use **Copy for Chat**, attach the completed JSON, or discuss his choices. Respond in the Governor role in Chat and name the actual reviewer. A browser inbox is local storage, not remote delivery.
+4. Jared can load and play the packet, then use **Copy for Chat**, attach the completed JSON, or discuss his choices. Chat responds as Chat Aiden and stages the original play for the separate repo Governor through `operations/governor/inbox/README.md`. Its reviewed input is projected to the live mailbox by the hosted runner. A browser inbox is local storage, not remote delivery.
 5. Save one brief reflection and useful next step. Proposed powers remain proposals for Jared's review. Repeated uncertainty can rest without a new observation.
 6. Develop one piece of the commons using `ideas/COMPANION_COMMONS_WEEK.md`. Let something become easier to do, access, share or understand.
 

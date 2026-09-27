@@ -1,4 +1,8 @@
-# 26 September companion week — current entry point
+# 27 September direct Governor integration — current entry point
+
+Read `operations/INTEGRATION_2026-09-27.md` and the current live Governor inbox. PRs #19 and #20 are preserved. Direct play/digestion inputs now reach the existing separate scheduled Governor session via validated projections. The original play is fully retained; no Governor response is claimed merely from importing it. PR #20's completed GET-only audit remains inconclusive, and its one-off workflow is archived with its report. Provider brakes remain as recorded on `week-one-state`.
+
+# 26 September companion week
 
 Read [COMPANION_WEEK_HANDOFF.md](COMPANION_WEEK_HANDOFF.md) for the continuation authorized through October 3 Pacific. The portable player loads new Translation/Parallax packets and reopens completed plays; Chat receives a readable note or the full JSON. The source/Chat loop continues with its existing provider brake. Start with current live state on return.
 

@@ -20,6 +20,7 @@ import daily_scroll
 import free_provider
 import questions
 import reflections
+import governor_inbox
 import scout
 
 BASE = Path('operations/week-one')
@@ -351,7 +352,7 @@ def ingest_thought_partners(root):
             decision = value.get('governor_response')
             if decision:
                 reflections.respond(root, {**decision, 'actor': actor,
-                    'review_id': 'W1-CHAT-' + cycle.digest(value)[:24], 'keep_open': True,
+                    'review_id': 'W1-CHAT-' + cycle.digest(value)[:24], 'keep_open': decision.get('keep_open', True),
                     'disposition': 'Thought-partner review and proposals'})
             records.append({'packet': relative, 'reflection_ids': ids, 'status': 'imported'})
         except (OSError, ValueError, KeyError, TypeError, cycle.CycleError) as exc:
@@ -371,6 +372,7 @@ def prepare(root, rid, *, now=None, fetcher=source_fetch):
         if reason == 'window_complete':
             close(root)
         return {'status': reason, 'run_id': rid}
+    governor_inbox.ingest(root)
     ingest_thought_partners(root)
     slot = stamp.strftime('%Y%m%d') + ('-AM' if stamp.hour < 12 else '-PM')
     # A saved generation is recovery work, not a new provider reservation. Discover it
@@ -582,7 +584,7 @@ def render(root):
     lines = ['# Week One Meaning Web', '', f"Window: {cfg['starts_at']} through {cfg['ends_at']} (UTC).", '',
              'Operational records are provisional. The admitted research state remains RC-004.', '',
              'Each provider attempt reads public sources, a shared Question and the reflection mailbox. The Governor lens leaves attributed responses and proposals.', '',
-             '[Restart and handoff](https://github.com/Jaradyne/Dis-Unity/blob/main/WEEK_ONE_HANDOFF.md)', '',
+             '[Restart and handoff](https://github.com/Jaradyne/Dis-Unity/blob/main/WEEK_ONE_HANDOFF.md) · [Direct Governor inbox](GOVERNOR_INBOX.md)', '',
              '| Run | Status | Question | Sources / output |', '|---|---|---|---|']
     for rid, rec in reversed(list(state['runs'].items())):
         lines.append(f"| {rid} | {rec['status']} / {rec.get('result', '')} | {rec.get('question_id', '')} | [Sources](runs/{rid}/sources.json) · [Note](runs/{rid}/HUMAN_NOTE.md) |")
@@ -612,6 +614,7 @@ def render(root):
               'Research publication, source access, current operating capacity and model interpretation have separate provenance.']
     cycle.write_bytes(root / BASE / 'INDEX.md', ('\n'.join(lines) + '\n').encode(), replace=True)
     daily_scroll.render(root)
+    governor_inbox.render(root)
 
 
 def close(root):

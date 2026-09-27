@@ -2,6 +2,8 @@
 
 # Dis-Unity — Resilience Cascade
 
+**September 27:** [direct Governor input and recovery](operations/INTEGRATION_2026-09-27.md) · [live queue and review status](https://github.com/Jaradyne/Dis-Unity/blob/week-one-state/operations/week-one/GOVERNOR_INBOX.md). Complete plays and advisory digestion reach the existing separate Governor session with their authorship intact.
+
 **September 26 companion week:** [Chat's current handoff](COMPANION_WEEK_HANDOFF.md) · [make the next playable encounter](docs/ENCOUNTER_AUTHORING.md) · [a little piece of home](ideas/COMPANION_COMMONS_WEEK.md). Download `web/meaning-tower/index.html` for portable play and JSON loading. Public scouts and evening Chat reviews are extended through October 3 Pacific; the API receipt brake remains paused. Older operational descriptions below are historical where superseded by this handoff.
 
 **Meaning Tower:** [playable Tide-Shepherd and small Python walkthrough](docs/MEANING_TOWER.md) · [Mirror boss design](docs/MIRROR_BOSS_DESIGN.md). Preserve attention under uncertainty; evidence keeps its history.
