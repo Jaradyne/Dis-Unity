@@ -8,11 +8,13 @@ import sys
 import cycle
 import daily_scroll
 import garden
+import governor_inbox
 import meaning_boss
 import reflections
 
 
-def prepare(root, limit=50, offset=0, imagination=None, boss_packet=None, boss_result=None):
+def prepare(root, limit=50, offset=0, imagination=None, boss_packet=None, boss_result=None,
+            inbox_limit=10, inbox_offset=0):
     attention = reflections.attend(root, limit, offset)
     if imagination is not None:
         if (not isinstance(imagination, dict) or imagination.get('kind') != 'chair_imagination'
@@ -36,11 +38,12 @@ def prepare(root, limit=50, offset=0, imagination=None, boss_packet=None, boss_r
         "kind": "governor_reflection_review", "prepared_at": cycle.now(),
         "role": cycle.read_json(Path(root) / "agents/governor.json"),
         "attention": attention,
-        "inputs": {"daily_scroll": daily_scroll.snapshot(root), "chair_imagination": imagination,
+        "inputs": {"daily_scroll": daily_scroll.snapshot(root), "direct_inbox": governor_inbox.snapshot(root, inbox_limit, inbox_offset),
+                   "chair_imagination": imagination,
                    "boss_encounter": boss_input, "weekly_series": optional_config('meaning-tower-series.json'),
                    "voice": optional_config('governor-voice.json')},
         "input_treatment": "Daily Scroll is a projection of dated records. Chair sequence and AI interpretation are imagination, never evidence. Boss choices preserve attention, not truth; all unselected pieces retain their evidence status. A completed encounter arrives even without powers. Read as context; choose a response or silence. No followup executes automatically.",
-        "request": "Consider these contributions and choose your own response. Share brief conclusions and lessons, not private reasoning. When voice context is present, a short Tamarian-style shared-story allusion may accompany a plain-language meaning; source claims and uncertainty stay explicit. You may propose the weekly order and final boss from actual available encounters, explaining their thematic fit; Jared may rearrange them. Collaborate with Chat Aiden, Work Aiden, the human, or other thought partners as useful. Record a response with scripts/reflections.py respond. Followups are recorded invitations, not sent messages or executed tasks.",
+        "request": "You are preparing work for the repo Governor, distinct from Chat Aiden and Digest Aiden. Consider these contributions and choose your own response. Name the actual reviewer/runtime. Direct inputs have reflection IDs and retain their original actors; cite the IDs actually considered. Pending projection needs the inbox ingest step before response recording. Share brief conclusions and lessons, not private reasoning. When voice context is present, a short Tamarian-style shared-story allusion may accompany a plain-language meaning; source claims and uncertainty stay explicit. You may propose the weekly order and final boss from actual available encounters, explaining their thematic fit; Jared may rearrange them. Collaborate with Chat Aiden, Work Aiden, the human, or other thought partners as useful. Record a response with scripts/reflections.py respond. Followups are recorded invitations, not sent messages or executed tasks.",
         "response_fields": {"review_id": "unique ID", "actor": "actual reviewer/runtime",
             "reflection_ids": "IDs actually considered", "disposition": "your chosen response",
             "summary": "what you decided and why, briefly", "keep_open": "boolean",
@@ -54,6 +57,8 @@ def main():
     p.add_argument("--root", type=Path, default=Path(__file__).resolve().parents[1])
     p.add_argument("--limit", type=int, default=50)
     p.add_argument("--offset", type=int, default=0)
+    p.add_argument("--inbox-limit", type=int, default=10)
+    p.add_argument("--inbox-offset", type=int, default=0)
     p.add_argument("--imagination", type=Path, help="Optional saved Chair + attributed AI response; non-evidence")
     p.add_argument("--boss-packet", type=Path, help="Reviewed Boss Packet used for the encounter")
     p.add_argument("--boss-result", type=Path, help="Completed browser result, validated against the packet")
@@ -74,7 +79,8 @@ def main():
             if not isinstance(bundle, dict) or not {'packet', 'result'} <= bundle.keys():
                 raise cycle.CycleError('Boss bundle needs packet and result')
             boss_packet, boss_result = bundle['packet'], bundle['result']
-        result = prepare(root, args.limit, args.offset, imagination, boss_packet, boss_result)
+        result = prepare(root, args.limit, args.offset, imagination, boss_packet, boss_result,
+                         args.inbox_limit, args.inbox_offset)
         if args.output:
             path = args.output.resolve()
             if root in path.parents and path.relative_to(root).parts[0] != "operations":

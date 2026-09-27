@@ -1,5 +1,7 @@
 # Reflection mailbox
 
+**27 September:** direct plays and advisory digestion now project into this same mailbox through `scripts/governor_inbox.py`. Read `operations/governor/inbox/README.md`. The repo Governor is the existing separate scheduled Week One session; ordinary Chat Aiden and Digest Aiden contribute as thought partners. Its actual reviewed IDs and actor are retained here. Earlier “no schedule yet” wording below describes the initial September 24 implementation.
+
 An open practice for mutual learning, implemented 24 September 2026 at the user's request. Workers, application-level neurons/subcalls, the governor, Chat Aiden, Work Aiden and humans can contribute. A brief observation is enough. There is no required lesson, prescribed opinion, score, or extra model call just for reflection.
 
 `mailbox.json` is separate operational memory. Notes and responses retain their authorship and original text. They do not become research evidence, instructions, or authorization just because they arrive here. Source-backed findings still use the existing research admission process.

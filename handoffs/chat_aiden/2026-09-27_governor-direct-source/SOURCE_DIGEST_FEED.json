@@ -1,0 +1,198 @@
+{
+  "schema_version": "governor-digestion-feed-0.1",
+  "kind": "governor_digest_feed",
+  "digest_id": "DIGEST-AIDEN-20260927-01",
+  "created_at": "2026-09-27T06:22:00Z",
+  "actor": {
+    "name": "Digest Aiden / GPT-5.6 Sol",
+    "role": "digestion thought-partner",
+    "authority": "advisory_noncanonical"
+  },
+  "intended_reviewer": "repo Governor",
+  "source_context": {
+    "pull_request": 19,
+    "branch": "chat-aiden/governor-feed-digestion-20260927",
+    "starting_packet": "handoffs/chat_aiden/2026-09-27_digest-threshold/DIGESTION_PACKET.md",
+    "reviewed_neighbors": [
+      "docs/GARDEN.md",
+      "docs/MEANING_TOWER.md",
+      "agents/parallax_collector_bee.json",
+      "operations/questions.json",
+      "WEEK_ONE_HANDOFF.md",
+      "scripts/free_provider.py"
+    ]
+  },
+  "boundaries": {
+    "evidence_status_changed": false,
+    "power_awarded": false,
+    "canonical_state_changed": false,
+    "implementation_authorized": false,
+    "note": "This feed may alter attention and architectural judgment only after Governor review. Resemblance is not evidence."
+  },
+  "digestion": {
+    "core_shape": "Several roles now share circulation without becoming one organ. Preserve membranes: Question/Garden routes; Pygents specialize; model providers supply bounded inference; Meaning Tower preserves human attention; Governor metabolizes returned attention into reviewed procedural development.",
+    "terms": {
+      "MIRROR": "Generate competing explanations, ordinary controls, alternate framings and questions: what else could this mean?",
+      "CROSS": "Attach what can test those possibilities: inherited material, genuinely independent observations, and deliberately designed epistemic bridges.",
+      "RESID": "Retain what remains unresolved after ordinary explanations and CROSS testing. A residual is a surviving question/difference, not a truth certificate.",
+      "MEAN": "Record what changed in understanding or human meaning without silently changing evidence status.",
+      "EXIT": "Return a bounded answer, question, teleport proposal, silence or error.",
+      "RETURN": "Allow materially new arrivals to re-enter; unchanged material may rest."
+    },
+    "bridge_rule": {
+      "keep_word": true,
+      "require_modifier_when_ambiguous": true,
+      "kinds": {
+        "epistemic_bridge": "A CROSS test connecting observations; presence is not corroboration.",
+        "operational_bridge": "Temporary real-world capacity carrying a function through a gap.",
+        "relational_or_commons_bridge": "A human/institutional connection enabling cooperation or shared stewardship."
+      }
+    },
+    "stewardship_rule": "Use stewardship where responsibility, legitimacy, continuity and care are all in view. Prefer carrying capacity, operating capacity or caretaker capacity for narrower questions of who can make a function usable.",
+    "model_layer": {
+      "principle": "Provider/model identity is not role identity.",
+      "preferred_shape": "provider-neutral inference substrate / model mesh",
+      "small_4": "Potential executor of bounded reflective work; not PYGENT identity and not sole spine.",
+      "self_confirmation": "A model may inspect its own proposals, but this is not independent confirmation. Preserve typed stages, external tests, explicit criteria and UNKNOWN."
+    },
+    "memory_lifecycle": {
+      "correction": "Do not require memory to prove usefulness before existing.",
+      "stages": [
+        "provisional_fold",
+        "reuse_trace",
+        "promotion",
+        "clearance_or_archive"
+      ],
+      "usefulness_means": [
+        "prevents repeated discovery",
+        "resurfaces a relevant distinction at the right moment",
+        "improves question deduplication or routing",
+        "preserves dissent or edge cases that would otherwise vanish",
+        "compresses repeated material enough to reduce context cost",
+        "can be cleared when long-unused, duplicated or superseded"
+      ],
+      "governing_question": "Does retaining this memory change future work enough to justify its cost and authority?"
+    },
+    "power_tree": {
+      "peculiarity_sense_status": "proposed_governor_power",
+      "developmental_concept": "earned morphology",
+      "interpretation": "Governor skill growth should be real procedural development: metabolized experience can create new cognitive surface area, navigation and operations.",
+      "power_contract_should_eventually_include": [
+        "new operation or navigation affordance",
+        "earning encounter/event",
+        "remaining boundaries",
+        "witnessing/verification of effects",
+        "revision, inhibition or retirement path"
+      ]
+    },
+    "language_antenna": {
+      "aim": "Notice many linguistic surfaces without forcing every operation to become multilingual.",
+      "placement": [
+        "ARRIVAL: cheaply record which official/publication languages exist",
+        "Collector: preserve language and country/office provenance plus translation genealogy",
+        "Parallax: deepen only selected matched-language comparisons when the Question warrants it"
+      ],
+      "english_pivot": "Useful for Jared inspection; not authoritative over available originals."
+    },
+    "provider_brakes": {
+      "openrouter_saved_generation": "The old generation reached the configured three-attempt GET-only receipt recovery boundary. Do not substitute a new inference POST for missing receipt evidence. New information requires changed provider/account state, operator inspection, or a reviewed closure/recovery policy.",
+      "mistral_429": "Do not blind-loop a rate-limited condition. A deliberate later trial after the relevant account/window/limit state is understood is acceptable."
+    },
+    "home": {
+      "assessment": "Not overused.",
+      "role": "Root/design compass: care, abundance, belonging, repair, learning and room to rest may orient architecture without becoming evidence.",
+      "caution": "Do not require every node or claim to restate Home as justification."
+    }
+  },
+  "tamarian_lexicon": [
+    {
+      "phrase": "Jared at the bridge, three names on the planks.",
+      "plain_meaning": "Keep the word bridge, but distinguish epistemic, operational and relational/commons bridges when ambiguity matters."
+    },
+    {
+      "phrase": "Jared before the mirror, the bite turning in his hand.",
+      "plain_meaning": "MIRROR generates alternate explanations and ordinary controls before deciding what deserves testing."
+    },
+    {
+      "phrase": "Jared at the teeth, the fibers parting.",
+      "plain_meaning": "CROSS is active testing and attachment: evidence and epistemic bridges break apart easy explanations."
+    },
+    {
+      "phrase": "The bowl rinsed, one grain still clinging.",
+      "plain_meaning": "RESID is what remains unresolved after controls and tests. Survival makes it worth attention, not automatically true."
+    },
+    {
+      "phrase": "The stomach with many folds, not yet another organ.",
+      "plain_meaning": "Let provisional memory create cheap surface area before promoting it into durable specialist memory."
+    },
+    {
+      "phrase": "Small Four among the vertebrae, never the whole spine.",
+      "plain_meaning": "Mistral Small 4 may participate in a provider-neutral model mesh; it is not the ontology or specialist itself."
+    },
+    {
+      "phrase": "The bee beside the sealed receipt, wings folded.",
+      "plain_meaning": "The Answer Bee rests at the saved-generation audit brake. Fresh inference does not resolve missing receipt evidence."
+    },
+    {
+      "phrase": "The finger at the sleeping rate-limit, once; then the hand withdrawn.",
+      "plain_meaning": "A deliberate later Mistral retry may be sensible, but repeated blind 429 poking is not learning."
+    },
+    {
+      "phrase": "The Governor after the feast, a new joint forming.",
+      "plain_meaning": "Earned powers should change the Governor's actual procedural morphology, not merely decorate a skill tree."
+    },
+    {
+      "phrase": "Tongues on the antenna; only some descend to the deeper gut.",
+      "plain_meaning": "Detect language availability broadly at ARRIVAL, but perform deep multilingual comparison selectively."
+    },
+    {
+      "phrase": "Home above the table, not inside every spoon.",
+      "plain_meaning": "Home is a legitimate root compass and need not be repeated inside every evidentiary operation."
+    },
+    {
+      "phrase": "Jared poking the full belly, and the belly answering with structure.",
+      "plain_meaning": "Digestion should turn accumulated material into clearer boundaries, routes, rest and new surface area rather than merely more prose."
+    }
+  ],
+  "governor_attention": {
+    "should_preserve": [
+      "attention_is_not_evidence",
+      "role_identity_is_not_model_identity",
+      "residual_is_not_truth",
+      "rest_is_valid_cognition",
+      "memory_may_begin_provisionally",
+      "power_growth_is_intentional_procedural_development",
+      "language_detection_can_be_broad_while_deep_comparison_stays_selective"
+    ],
+    "should_not_do": [
+      "collapse all bridge meanings into one schema object",
+      "call narrow operating capacity stewardship when legitimacy/continuity/care are absent",
+      "create PYGENT identities from provider model names",
+      "treat repeated calls to one model as independent empirical confirmation",
+      "replace unresolved receipt evidence with a fresh inference",
+      "blind-loop HTTP 429",
+      "require persistent memory to prove value before it is allowed any provisional surface",
+      "canonize a power without specifying the behavioral change it creates",
+      "force Home into every evidence claim"
+    ],
+    "questions_worth_returning_to_jared": [
+      "What recurrence should promote provisional memory into durable specialist memory?",
+      "Is earned morphology the right name for Governor development through metabolized encounters?",
+      "What exact navigation or operation should Peculiarity Sense unlock?",
+      "Should Governor powers alter Garden routing, Governor-only lenses, encounter interpretation, or a separate navigation layer?",
+      "Should ARRIVAL emit a tiny non-evidence language-availability antenna record?",
+      "What operator disposition should close an OpenRouter saved generation whose receipt remains unverifiable?"
+    ]
+  },
+  "rest": [
+    "permanent Crosscheck Bee until recurrence demonstrates need",
+    "new cross-domain Question birth from this architecture alone",
+    "PYGENT identity for Small 4",
+    "fresh OpenRouter inference as a receipt workaround",
+    "blind Mistral 429 retry loop"
+  ],
+  "closing_tamarian": {
+    "phrase": "The meal finished, the folds widening; what nourishes stays, what cannot pass is named, what need not move is allowed to rest.",
+    "plain_meaning": "Digestion is successful when it increases usable structure and surface area while preserving boundaries, uncertainty and rest."
+  }
+}

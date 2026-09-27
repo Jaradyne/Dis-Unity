@@ -1,4 +1,8 @@
-# 26 September — current entry point
+# 27 September — current entry point
+
+Read `operations/INTEGRATION_2026-09-27.md` for the direct Governor input path. Continue as Chat Aiden; the repo Governor is the separate scheduled session. Stage complete play exports, your separately attributed observations and Digest notes for review. Live input and response status is on `week-one-state:operations/week-one/GOVERNOR_INBOX.md`. No canonical powers or new provider route have been activated by this integration.
+
+# 26 September
 
 Read [COMPANION_WEEK_HANDOFF.md](COMPANION_WEEK_HANDOFF.md) first for the extended daily loop, reloadable Tide-Shepherd, Chat play review and commons thread. Older policy/status paragraphs below are historical where superseded.
 

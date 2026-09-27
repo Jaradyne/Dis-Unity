@@ -1,5 +1,7 @@
 # Continuing Resilience Cascade
 
+**September 27 continuation:** direct play/digestion inputs now use `operations/governor/inbox/README.md` and `operations/INTEGRATION_2026-09-27.md`. Keep Chat Aiden, Digest Aiden and the separate scheduled repo Governor distinct. Queue status and actual responses are projected on `week-one-state`; input presence alone is not a Governor review.
+
 **September 26 continuation:** read `COMPANION_WEEK_HANDOFF.md` first. Jared extended the existing bounded source/Chat loop through October 3 Pacific; the new configuration ends October 4 at 00:45:13 Pacific. Preserve all existing provider brakes and budgets. Reloadable local encounters let Chat/Jared continue without runtime changes.
 
 Read README.md, COMMON_STATE.md, WORK_AIDEN_HANDOFF.md, agents/ALCHEMICAL_MAILBOX.md, the canonical state metadata/changelog, and the latest cycle status before acting. The user authorizes multi-agent research for this project. Public, lawful, nonintrusive evidence only. User instructions govern scope and authorization.
