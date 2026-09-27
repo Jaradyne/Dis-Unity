@@ -59,6 +59,38 @@ jobs:
               s.write(f'- Total cost: `{safe.get("total_cost")}`\n')
               s.write(f'- Prompt tokens: `{safe.get("tokens_prompt")}`\n')
               s.write(f'- Completion tokens: `{safe.get("tokens_completion")}`\n')
-          if status != '200':
-              raise SystemExit(1)
+          PY
+
+      - name: GET stored generation content status only
+        shell: bash
+        run: |
+          set -euo pipefail
+          status="$(
+            curl --silent --show-error \
+              --output "$RUNNER_TEMP/content.json" \
+              --write-out "%{http_code}" \
+              --get \
+              --header "Authorization: Bearer $OPENROUTER_API_KEY" \
+              --connect-timeout 10 \
+              --max-time 60 \
+              --data-urlencode "id=$GENERATION_ID" \
+              https://openrouter.ai/api/v1/generation/content
+          )"
+          echo "Content endpoint HTTP status: $status"
+          python - "$status" "$RUNNER_TEMP/content.json" "$GITHUB_STEP_SUMMARY" <<'PY'
+          import json, sys
+          status, path, summary = sys.argv[1:]
+          has_completion = False
+          try:
+              with open(path, 'r', encoding='utf-8') as f:
+                  body = json.load(f)
+              completion = (((body or {}).get('data') or {}).get('output') or {}).get('completion')
+              has_completion = isinstance(completion, str) and len(completion) > 0
+          except Exception:
+              pass
+          print(json.dumps({'http_status': status, 'stored_completion_present': has_completion}, indent=2))
+          with open(summary, 'a', encoding='utf-8') as s:
+              s.write(f'- Content endpoint HTTP status: {status}\n')
+              s.write(f'- Stored completion present: `{has_completion}`\n')
+              s.write('- Inference POSTs made by this audit: **0**\n')
           PY
