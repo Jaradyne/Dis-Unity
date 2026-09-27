@@ -87,7 +87,7 @@ Think **surface area before organhood**.
 
 `PECULIARITY_SENSE` is indeed a proposed Governor power-up.
 
-Jared clarified that the skill tree is meant to become an actual architectural growth system: earned powers should create real new navigation or processing affordances, with their own review/witnessing. Digest Aiden suggests the phrase **earned morphology** (or **acquired morphology**) for the larger concept: the Governor changes shape through metabolized experience.
+Jared clarified that the skill tree is meant to become an actual architectural growth system: powers should create real new navigation or processing affordances, with their own review/witnessing. **"Earned" is the wrong connotation.** A better candidate concept is **saṃskāra morphology**: experience leaves durable impressions/grooves that alter the Governor's future shape and available movement. Keep the Sanskrit term as a candidate rather than flattening its philosophical history into a software label.
 
 A power should therefore eventually specify:
 - what new operation becomes possible;
@@ -119,7 +119,7 @@ Digest Aiden does **not** think Home is coming up too often. It was newly added 
 ## What Chat Aiden should discuss with Jared before anything is handed to Work Aiden
 
 1. **Memory lifecycle:** Does Jared like provisional fold → reuse trace → promotion → clearance? What kinds of recurrence should trigger promotion?
-2. **Earned morphology:** Is that the right concept/name for Governor skill-tree growth? What is the first real behavioral change Peculiarity Sense should unlock?
+2. **Saṃskāra morphology:** Is this the right concept/name for Governor development through accumulated impressions? What is the first real behavioral change Peculiarity Sense should unlock?
 3. **Power navigation:** Should powers modify Garden routing, Governor inspection lenses, encounter interpretation, or a separate Governor-only navigation layer?
 4. **Language antenna:** Confirm the split between broad ARRIVAL detection and selective Parallax depth. Decide whether language availability itself should create a tiny non-evidence antenna record.
 5. **Model mesh:** Decide how API models are selected for bounded operations without becoming Bees/Pygents in the ontology.
@@ -138,3 +138,71 @@ Digest Aiden does **not** think Home is coming up too often. It was newly added 
 - no blind Mistral retry loop.
 
 The system is not short on ideas. The current work is giving the ideas **membranes, circulation and clearance** so they can touch without becoming one undifferentiated body.
+
+
+## Second digestion — language in every spoon, depth only for exceptions
+
+Jared sharpened the language design: **language sensing should be ubiquitous and cheap; deep linguistic interpretation should be exceptional and routed.**
+
+The useful split is:
+
+1. **Every ARRIVAL gets a language glance.** Record the language(s) actually published, issuing office/source, whether the surface is original/translation/summary/unknown, and any obvious version relationship. This is metadata/attention, not evidence of motive or contradiction.
+2. **Most material rests after the glance.** Technical sameness, ordinary translation variance and uninteresting wording differences should not create motion merely because multiple languages exist.
+3. **A linguistic exception may teleport to a dedicated tree.** Trigger examples: one home-language surface materially disagrees on a consequential point; a transition changes agency/responsibility/obligation; one language contains or omits a consequential condition; terminology maps poorly across legal/economic/technical regimes; publication genealogy suggests a nontrivial transformation worth checking.
+4. **The Language Exception Tree can then inspect transitions deliberately.** It should preserve originals, publication lineage, office/country provenance, ordinary translation controls, domain terminology, and the exact point that survived. It may return to the originating domain tree or hand onward to a relevant specialist tree.
+5. **No motive inference from wording alone.** A linguistic residual is a reason to inspect, not a license to psychologize a government, population or institution.
+
+A useful routing shape to discuss with Jared:
+
+`ARRIVAL language glance -> ordinary domain tree -> linguistic exception? -> LANGUAGE EXCEPTION TREE -> return to originating domain or teleport onward`
+
+The language tree may itself route **after inspection** to domain trees such as diplomacy, economics/trade, alliance/pact, law/regulation, medicine/care, technology/industry, or civilian conditions. This preserves Jared's desire for cursory scans that can find surprising side-paths without making surprise itself a requirement.
+
+### Candidate language-watch role
+
+Discuss a provider-neutral **Language Exception Scout / Bee** rather than one model-specific agent. It could:
+
+- watch approved public/official multilingual surfaces;
+- notice mismatched versions, unusual translation lineage or consequential terminology changes;
+- emit a tiny non-evidence exception packet;
+- request a Garden teleport only when a bounded exception criterion is met;
+- never infer national character, hidden motive or political intent from rhetoric alone.
+
+This role should be allowed to accumulate cheap provisional memory so seasonal/recurrent language patterns can become visible before deciding whether durable specialist memory is warranted.
+
+### Jared's current priority watch scope
+
+Treat the following as **user-requested attention domains, not claims that wrongdoing or manipulation exists**:
+
+- United Kingdom: government;
+- Russia: government and economics;
+- China: technology, economics, government and civilian unrest;
+- India: issues affecting Muslims;
+- United States: economics, government, civilian unrest and laws;
+- Saudi Arabia: diplomatic relations;
+- Germany: economics, civilian unrest, government and laws;
+- Panama: diplomacy, economics/trade, logistics and civilian conditions where relevant;
+- Singapore: diplomacy, economics/trade, logistics and civilian conditions where relevant.
+
+For African logistics, candidate hubs/corridors worth evaluating for watch coverage beyond Egypt include:
+
+- Morocco / Tanger Med;
+- South Africa / Durban–Richards Bay system;
+- Kenya / Mombasa and its inland corridors;
+- Djibouti / Djibouti–Ethiopia corridor;
+- Côte d'Ivoire / Abidjan;
+- Ghana / Tema;
+- Togo / Lomé;
+- Tanzania / Dar es Salaam;
+- Mauritius / Port Louis.
+
+This is a **candidate coverage map**, not a ranking and not an assertion that all deserve equal monitoring intensity. The watch dimensions Jared requested for African hubs are diplomacy, economics, trade/logistics and civilian unrest/conditions.
+
+### Bulking and cutting
+
+Jared's metaphor is useful enough to preserve:
+
+- **Bulk:** cheap capture, provisional folds, language antennae, exploratory branches, broad surface area, low-authority memory.
+- **Cut:** deduplicate, compress, clear stale material, promote recurring distinctions, narrow specialist trees, retain only structure that keeps paying rent.
+
+The Garden should support both phases. Rest prevents bulking from becoming compulsive motion; exception trees prevent cutting from sanding off the rare detail that later becomes important.
