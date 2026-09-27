@@ -1,0 +1,79 @@
+{
+  "schema_version": "governor-direct-feed-0.1",
+  "kind": "governor_input_envelope",
+  "created_at": "2026-09-27T06:07:00Z",
+  "requested_by": "Jared",
+  "intended_reviewer": "repo Governor",
+  "routing_note": "Chat Aiden is supplying the validated browser encounter as input, not acting in the Governor role. No response, power, evidence admission, or canonical decision is implied by this feed.",
+  "source_bundle": {
+    "play_id": "PLAY-b803b289-ff43-4f29-aa48-5ce4dd62d24d",
+    "packet_id": "PARALLAX-TRUCKS-20260925-1",
+    "question_id": "Q-MEANING-TRANSLATION-BOSS",
+    "epoch": 1,
+    "completion_status": "completed"
+  },
+  "governor_input": {
+    "schema_version": "governor-boss-input-1",
+    "kind": "governor_boss_input",
+    "delivery_id": "BOSS-9fdfeeca0fb846c31dd092ef",
+    "packet_id": "PARALLAX-TRUCKS-20260925-1",
+    "packet_sha256": "7b4466927dd457d4eea5a7349c374003fd042448cf456b5c5347eb4f27de42db",
+    "play_id": "PLAY-b803b289-ff43-4f29-aa48-5ce4dd62d24d",
+    "result_sha256": "9fdfeeca0fb846c31dd092ef15270d04b5c94ec95b75152fcabf57ea5b1c780c",
+    "question_id": "Q-MEANING-TRANSLATION-BOSS",
+    "epoch": 1,
+    "actor": {
+      "name": "Jared (self-reported player)",
+      "runtime": "Meaning Tower browser"
+    },
+    "completed_at": "2026-09-27T05:57:17.096Z",
+    "input_origin": "client_report",
+    "human_identity_verified": false,
+    "validation_scope": "Structure, packet binding and choices; source truth and human identity are not verified by this validator.",
+    "route": {
+      "from": "PYGENT:PARALLAX-0001",
+      "to": "INIT:RETURN-0010",
+      "status": "resolved",
+      "automatic_execution": false
+    },
+    "applied_powers": [],
+    "power_status": "no_canonical_powers",
+    "power_candidate": {
+      "canonical_status": "proposed",
+      "id": "PECULIARITY_SENSE",
+      "text": "An answer may return as a question when its peculiarity is informative. Decide what this play taught the Governor after Jared plays."
+    },
+    "preserved_attention": [
+      {
+        "round_id": "SHARED-DIRECTION",
+        "preserved_id": "POLICY-PRIORITY",
+        "evidence_status": "source_statement",
+        "text": "Shared direction",
+        "note": "Agreement on electric priority is an ordinary control."
+      },
+      {
+        "round_id": "FUNDING-RESPONSIBILITY",
+        "preserved_id": "CARRIER-BUFFER",
+        "evidence_status": "inference",
+        "text": "Until payment",
+        "note": "Could a voluntary shared delivery or repair arrangement bridge a wait? Capacity is unknown."
+      },
+      {
+        "round_id": "REACHABLE-SUPPORT",
+        "preserved_id": "CARETAKER-CAPACITY",
+        "evidence_status": "question",
+        "text": "Who can carry it?",
+        "note": "Who has staff, cash, authority and a reachable backup to make the promise usable?"
+      }
+    ],
+    "evidence_changed": false
+  },
+  "chat_aiden_observation": {
+    "actor": "Chat Aiden / GPT-5.6 Sol",
+    "role": "observer and feed preparer; not Governor",
+    "status": "noncanonical reflection",
+    "summary": "Jared's three selections form a coherent attention path from shared policy direction, through the possibility of a bridge during payment delay, to the operating-capacity question of who can actually carry the function. The middle item remains an inference, not evidence.",
+    "useful_next_question": "For one real carrier or locality, what dated record shows the gap between promised subsidy/support and usable service, what bridge actually carried the load during that gap, and who had the staff, cash, authority, access and backup to make that bridge real?",
+    "evidence_boundary": "The source packet establishes policy direction and funding responsibility, but not actual subsidy payment, operating vehicles, charging uptime, completed freight, or the existence/capacity of a voluntary bridge."
+  }
+}
