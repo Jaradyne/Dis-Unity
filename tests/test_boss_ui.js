@@ -3,7 +3,8 @@ const assert=require('node:assert/strict');
 const fs=require('node:fs');
 const path=require('node:path');
 const crypto=require('node:crypto');
-const {HoldSession,digest,sha256,makeDelivery,canonical}=require('../web/meaning-tower/boss.js');
+const {HoldSession,digest,sha256,makeDelivery,normalizeBundle,chatNote,canonical}=require('../web/meaning-tower/boss.js');
+const {validatePacket}=require('../web/meaning-tower/packet.js');
 const packet=JSON.parse(fs.readFileSync(path.join(__dirname,'../examples/meaning-tower/parallax-trucks-2026-09-25.json')));
 const original=JSON.stringify(packet);
 for(const text of ['', 'abc', '电动货车 🌊', 'x'.repeat(1200)]) assert.equal(sha256(text),crypto.createHash('sha256').update(text).digest('hex'));
@@ -26,5 +27,25 @@ assert.equal(delivery.evidence_changed,false);
 assert.equal(delivery.canonical_admission,false);
 packet.rounds.forEach((round,i)=>assert.equal(delivery.rounds[i].sunk.length+1,round.pieces.length));
 assert.equal(JSON.stringify(packet),original,'play preserves the complete source packet');
+validatePacket(packet,1,canonical);
+// A changed content packet can be loaded without rebuilding the player.
+const next=JSON.parse(original);next.packet_id='TEST-RELOADED';next.title='Another question 🌊';
+validatePacket(next,1,canonical);
+const nextResult={...result,packet_id:next.packet_id,packet_sha256:digest(next)};
+const reopened=normalizeBundle({packet:next,result:nextResult,governor_input:{applied_powers:['FORGED'],evidence_changed:true}},1);
+assert.deepEqual(reopened.governor_input.applied_powers,[],'receipt imports derive delivery again');
+assert.equal(reopened.governor_input.evidence_changed,false);
+assert.ok(chatNote(reopened).includes(second.text));
+assert.ok(chatNote(reopened).includes('Other pieces, still possible:'));
+assert.ok(chatNote(reopened).includes(next.source_ledger[0].url));
+assert.throws(()=>normalizeBundle({packet:next,result},1),/exact encounter/,'changed text cannot reuse an old result');
+for(const url of ['javascript:alert(1)','https://127.0.0.1/x','https://2130706433/x','https://u:p@example.org/x','https://a.local/x']){
+  const invalid=JSON.parse(original);invalid.source_ledger[0].url=url;
+  assert.throws(()=>validatePacket(invalid,1,canonical));
+}
+for(const change of [p=>p.epoch=2,p=>p.rounds[0].pieces[0].source_refs=['MISSING'],p=>p.rounds[0].pieces[0].score=1,
+  p=>p.source_ledger[0].publication_date='2026-02-30',p=>p.power_candidate.canonical_status='approved']){
+  const invalid=JSON.parse(original);change(invalid);assert.throws(()=>validatePacket(invalid,1,canonical));
+}
 if(process.argv.includes('--fixture')) process.stdout.write(JSON.stringify({packet,result,governor_input:delivery}));
-else process.stdout.write('Hold reset, release, input methods, deterministic digest, unconditional delivery and evidence preservation passed.\n');
+else process.stdout.write('Hold integrity, reloadable content, imported receipt derivation, source links, packet binding and Chat handoff passed.\n');

@@ -14,17 +14,20 @@ DEFAULT_PACKET = "examples/meaning-tower/parallax-trucks-2026-09-25.json"
 def build(root, packet_path=None, output=None):
     root = Path(root)
     packet = cycle.read_json(packet_path or root / DEFAULT_PACKET)
-    meaning_boss.validate_packet(packet, cycle.read_json(root / "operations/questions.json"))
+    registry = cycle.read_json(root / "operations/questions.json")
+    meaning_boss.validate_packet(packet, registry)
     series = cycle.read_json(root / "config/meaning-tower-series.json")
     voice = cycle.read_json(root / "config/governor-voice.json")
     data = {"packet": packet, "packet_sha256": cycle.digest(packet),
-            "series": series, "voice": voice, "approved_powers": []}
+            "series": series, "voice": voice, "approved_powers": [],
+            "question_epoch": registry["questions"][meaning_boss.QUESTION]["epoch"]}
     folder = root / "web/meaning-tower"
     html = (folder / "template.html").read_text()
     replacements = {
         "__TOWER_DATA__": json.dumps(data, ensure_ascii=False, sort_keys=True).replace("<", "\\u003c"),
         "__BOSS_CSS__": (folder / "boss.css").read_text(),
         "__BOSS_JS__": (folder / "boss.js").read_text(),
+        "__PACKET_JS__": (folder / "packet.js").read_text(),
     }
     for token, value in replacements.items():
         if html.count(token) != 1:
