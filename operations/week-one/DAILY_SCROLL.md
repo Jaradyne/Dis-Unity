@@ -2,17 +2,9 @@
 
 Current snapshot of up to 6 recent recorded runs; their original dates remain visible.
 
-As of 2026-09-27T03:05:27.713091+00:00.
+As of 2026-09-27T09:32:26.850944+00:00.
 
 Projection of records, not additional corroboration or admitted research.
-
-## gh-36116582032-1
-
-2026-09-25T09:06:32.560255+00:00 · complete / partial_answer
-
-UNKNOWN – the supplied evidence does not measure delivery performance or the effect of fuel costs on essential deliveries.
-
-[Saved note](runs/gh-36116582032-1/HUMAN_NOTE.md) · 1 changed selected source records.
 
 ## gh-36166138616-1
 
@@ -53,3 +45,11 @@ No synthesis recorded.
 No synthesis recorded.
 
 [Saved note](runs/gh-36290391567-1/HUMAN_NOTE.md) · 7 changed selected source records.
+
+## gh-36309693193-1
+
+2026-09-27T09:32:26.335450+00:00 · deferred / operator_review_required
+
+No synthesis recorded.
+
+[Saved note](runs/gh-36309693193-1/HUMAN_NOTE.md) · 2 changed selected source records.

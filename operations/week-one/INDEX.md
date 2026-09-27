@@ -10,6 +10,7 @@ Each provider attempt reads public sources, a shared Question and the reflection
 
 | Run | Status | Question | Sources / output |
 |---|---|---|---|
+| gh-36309693193-1 | deferred / operator_review_required |  | [Sources](runs/gh-36309693193-1/sources.json) · [Note](runs/gh-36309693193-1/HUMAN_NOTE.md) |
 | gh-36290391567-1 | deferred / operator_review_required |  | [Sources](runs/gh-36290391567-1/sources.json) · [Note](runs/gh-36290391567-1/HUMAN_NOTE.md) |
 | gh-36263567422-1 | deferred / operator_review_required |  | [Sources](runs/gh-36263567422-1/sources.json) · [Note](runs/gh-36263567422-1/HUMAN_NOTE.md) |
 | gh-36230966851-1 | deferred / operator_review_required |  | [Sources](runs/gh-36230966851-1/sources.json) · [Note](runs/gh-36230966851-1/HUMAN_NOTE.md) |
@@ -27,7 +28,7 @@ Each provider attempt reads public sources, a shared Question and the reflection
 | gh-35971974980-1 | deferred / operator_review_required |  | [Sources](runs/gh-35971974980-1/sources.json) · [Note](runs/gh-35971974980-1/HUMAN_NOTE.md) |
 | gh-35971438628-1 | complete / auth_or_configuration_error | Q-RESEARCH-Q01 | [Sources](runs/gh-35971438628-1/sources.json) · [Note](runs/gh-35971438628-1/HUMAN_NOTE.md) |
 
-Provider brake: {"at": "2026-09-27T03:05:27.112040+00:00", "reason": "Saved generation reached its three-attempt recovery limit", "run_id": "gh-36166138616-1"}
+Provider brake: {"at": "2026-09-27T09:32:26.368940+00:00", "reason": "Saved generation reached its three-attempt recovery limit", "run_id": "gh-36166138616-1"}
 Cooldown until: 2026-09-25T18:17:13.108690+00:00
 
 Public-source coverage: EIA diesel/energy feed metadata and up to 12 NWS California active alerts.

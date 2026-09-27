@@ -1,7 +1,7 @@
 {
-  "as_of": "2026-09-27T03:05:27.713091+00:00",
+  "as_of": "2026-09-27T09:32:26.850944+00:00",
   "brake": {
-    "at": "2026-09-27T03:05:27.112040+00:00",
+    "at": "2026-09-27T09:32:26.368940+00:00",
     "reason": "Saved generation reached its three-attempt recovery limit",
     "run_id": "gh-36166138616-1"
   },
@@ -10,20 +10,8 @@
   "cooldown_until": "2026-09-25T18:17:13.108690+00:00",
   "evidence_status": "Projection of records, not additional corroboration or admitted research.",
   "kind": "daily_scroll",
-  "manifest_hash": "03cd16ad0e488a78196976def5b610df2981ee70fe5c396517f8a93ad2b2a08d",
+  "manifest_hash": "7b4d2c89e62671d12ede1c329f230f177e488e7e2be9a672fa322071def547bd",
   "recent_runs": [
-    {
-      "changed_source_count": 1,
-      "note_ref": "operations/week-one/runs/gh-36116582032-1/HUMAN_NOTE.md",
-      "question_id": "Q-RESEARCH-Q01",
-      "result": "partial_answer",
-      "retrieved_at": "2026-09-25T09:06:33.054892+00:00",
-      "run_id": "gh-36116582032-1",
-      "source_ref": "operations/week-one/runs/gh-36116582032-1/sources.json",
-      "started_at": "2026-09-25T09:06:32.560255+00:00",
-      "status": "complete",
-      "summary": "UNKNOWN – the supplied evidence does not measure delivery performance or the effect of fuel costs on essential deliveries."
-    },
     {
       "changed_source_count": 0,
       "note_ref": "operations/week-one/runs/gh-36166138616-1/HUMAN_NOTE.md",
@@ -81,6 +69,18 @@
       "run_id": "gh-36290391567-1",
       "source_ref": "operations/week-one/runs/gh-36290391567-1/sources.json",
       "started_at": "2026-09-27T03:05:27.098357+00:00",
+      "status": "deferred",
+      "summary": "No synthesis recorded."
+    },
+    {
+      "changed_source_count": 2,
+      "note_ref": "operations/week-one/runs/gh-36309693193-1/HUMAN_NOTE.md",
+      "question_id": null,
+      "result": "operator_review_required",
+      "retrieved_at": "2026-09-27T09:32:26.814804+00:00",
+      "run_id": "gh-36309693193-1",
+      "source_ref": "operations/week-one/runs/gh-36309693193-1/sources.json",
+      "started_at": "2026-09-27T09:32:26.335450+00:00",
       "status": "deferred",
       "summary": "No synthesis recorded."
     }
