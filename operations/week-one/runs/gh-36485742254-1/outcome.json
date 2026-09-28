@@ -1,0 +1,8 @@
+{
+  "attempt_id": "ATT-D42983BFE252465AB51BF8951F4190A6",
+  "category": "invalid_response",
+  "cooldown_hours": 12,
+  "finished_at": "2026-09-28T21:24:33.642425+00:00",
+  "reason": "Output contract failed: CycleError",
+  "run_id": "gh-36485742254-1"
+}
