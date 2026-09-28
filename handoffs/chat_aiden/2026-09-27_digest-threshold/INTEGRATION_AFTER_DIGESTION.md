@@ -2,6 +2,9 @@
 
 Status: **thought-partner integration note; no implementation authority.**
 
+**28 September state correction:** PR #22 retired the exact old OpenRouter generation as historically unverified after Jared reported no dashboard charge, and a later authorized Nvidia/OpenRouter generation returned a generation-specific non-BYOK / $0 receipt. PR #23 now records full transport-level API exchanges with credentials/cookies redacted and publishes a digestion ledger. Older paragraphs below that describe the Answer Bee as still blocked by the old receipt are historical and superseded by this note. Do not rewrite the old generation itself as verified $0.
+
+
 Digest Aiden reviewed draft PR #19 beginning with `DIGESTION_PACKET.md`, then read the nearby Garden, Meaning Tower, Parallax, Question-store and provider/recovery material. Jared has now clarified several design intentions. This note is for **Chat Aiden**. Please use it to continue discussion with Jared and help him decide what, if anything, should later be handed to Work Aiden. Do not treat this note as a direct instruction to Work.
 
 ## What changed in the digestion
@@ -39,22 +42,27 @@ Use this explanation with Jared if useful:
 
 A body metaphor: MIRROR is Jared turning a bite over and smelling it from several sides; CROSS is chewing and breaking it against actual teeth; RESID is the bit that still has texture after the easy parts dissolved. The residue may deserve another chew, a specialist stomach, or simply rest. It is not proof merely because it survived.
 
-### 5. Model self-confirmation is a bias risk, not a taboo
+### 5. Model self-confirmation is mostly an information-lineage problem
 
-One model can propose and later inspect its own ideas, but do not mistake that for independent confirmation. The risk is highest when the same model:
+One model can propose and later inspect its own ideas, and a fresh instance of the same model can be a useful second pass. The deeper issue is **what information path the second pass inherits**.
+
+Risk is highest when one context:
 
 1. invents the candidate explanation;
 2. chooses the test;
-3. interprets the ambiguous result;
-4. declares its own candidate the survivor.
+3. supplies the framing and evidence;
+4. interprets an ambiguous result;
+5. declares its own candidate the survivor.
 
-Useful safeguards are typed stages, source-grounded tests, explicit criteria, independent paths where warranted, and retaining unknown. Different calls to the same model are still not independent empirical evidence.
+Two different model names can still share one confirmation loop if both receive the same anchored framing. Conversely, the same model in a fresh/blinded context may provide a meaningfully different inspection path. Model diversity helps; **source, prompt, context and answer lineage determine independence more directly**.
 
-### 6. Receipt brake: the old generation is waiting on audit, not another answer
+Garden/API records should therefore preserve whether a call saw the parent answer, which sources and criteria it inherited, whether its test was independently specified, and whether its evidence path is actually distinct. A second model call is not automatically independent empirical evidence.
 
-The OpenRouter Answer Bee's saved generation reached the configured three-attempt **GET-only receipt recovery** boundary. Its generation exists, but its audit remained unavailable/incomplete. The current brake prevents a fourth recovery attempt or a replacement POST from being silently treated as permission.
+### 6. OpenRouter receipt knot — now resolved operationally, not rewritten historically
 
-New information is still possible, but it must come from something that actually changes the state: provider/account receipt availability, an operator inspection, a reviewed policy decision about how to close/quarantine that old generation, or other external state. Re-running fresh inference does not answer the missing-receipt question.
+The old saved generation exhausted GET-only recovery and later returned 404 from both saved-generation endpoints. Jared reported no charge visible on the OpenRouter dashboard and explicitly authorized moving on. PR #22 therefore retired that exact generation as **historically unverified / no positive spend observed**, without relabeling it as a verified zero-cost generation.
+
+A later authorized run produced a generation-specific Nvidia / non-BYOK / $0 receipt, showing that the reviewed route can currently complete and audit successfully. PR #23 now preserves the full available request/response transport material for future authorized calls. The lesson to keep is not "the old receipt was secretly fine"; it is "unknown may remain unknown, and the recorder should preserve enough material that future failures are diagnosable."
 
 ### 7. "Do not ritually poke Mistral" means no blind 429 loop
 
@@ -87,7 +95,7 @@ Think **surface area before organhood**.
 
 `PECULIARITY_SENSE` is indeed a proposed Governor power-up.
 
-Jared clarified that the skill tree is meant to become an actual architectural growth system: powers should create real new navigation or processing affordances, with their own review/witnessing. **"Earned" is the wrong connotation.** A better candidate concept is **saṃskāra morphology**: experience leaves durable impressions/grooves that alter the Governor's future shape and available movement. Keep the Sanskrit term as a candidate rather than flattening its philosophical history into a software label.
+Jared clarified that the skill tree is meant to become an actual architectural growth system: powers should create real new navigation or processing affordances, with their own review/witnessing. **"Earned" is the wrong connotation.** Jared has now adopted **Saṃskāra Morphology** as the name of the Governor's skill tree: experience leaves formative dispositions/grooves that alter the Governor's future shape and available movement. Keep the project's use explicitly narrower than the Sanskrit term's much larger philosophical and religious histories.
 
 A power should therefore eventually specify:
 - what new operation becomes possible;
@@ -119,7 +127,7 @@ Digest Aiden does **not** think Home is coming up too often. It was newly added 
 ## What Chat Aiden should discuss with Jared before anything is handed to Work Aiden
 
 1. **Memory lifecycle:** Does Jared like provisional fold → reuse trace → promotion → clearance? What kinds of recurrence should trigger promotion?
-2. **Saṃskāra morphology:** Is this the right concept/name for Governor development through accumulated impressions? What is the first real behavioral change Peculiarity Sense should unlock?
+2. **Saṃskāra Morphology:** The name is adopted. Discuss what first real behavioral change Peculiarity Sense should unlock, and what witnessing would show that the new cultural shape helped rather than merely adding motion.
 3. **Power navigation:** Should powers modify Garden routing, Governor inspection lenses, encounter interpretation, or a separate Governor-only navigation layer?
 4. **Language antenna:** Confirm the split between broad ARRIVAL detection and selective Parallax depth. Decide whether language availability itself should create a tiny non-evidence antenna record.
 5. **Model mesh:** Decide how API models are selected for bounded operations without becoming Bees/Pygents in the ontology.
@@ -206,3 +214,211 @@ Jared's metaphor is useful enough to preserve:
 - **Cut:** deduplicate, compress, clear stale material, promote recurring distinctions, narrow specialist trees, retain only structure that keeps paying rent.
 
 The Garden should support both phases. Rest prevents bulking from becoming compulsive motion; exception trees prevent cutting from sanding off the rare detail that later becomes important.
+
+
+## Third digestion — build the Garden's muscles, nerves and branches
+
+Jared wants the unbuilt Garden made explicit enough that model placement can be chosen intentionally. Chat Aiden should treat the list below as a design agenda to discuss with Jared and later package for Work Aiden, not as a claim that these mechanisms already run.
+
+### A. Model weight belongs beside API provenance, not inside evidence status
+
+PR #23's full API records are the right substrate for a **model-weight assessment sidecar**. Recommendation: collect enough data to decide how much operational responsibility a model should receive for a specific Garden function without inventing one universal intelligence score.
+
+Separate two meanings of "weight":
+
+- **declared model scale/capability metadata** — exact provider/model/version; architecture or parameter count only when an authoritative source supplies it; context/output limits; modalities; tool/structured-output support; published pricing/rate/account mode;
+- **operational role weight** — observed fitness for a bounded job such as MIRROR generation, CROSS comparison, schema repair, RESID articulation, MEAN reflection, translation inspection or counterpoint generation.
+
+Useful observed fields:
+- actual provider/model and version;
+- exact Garden stage / Bee role attempted;
+- prompt/schema version;
+- sources and parent outputs visible to the call;
+- whether the call saw a prior proposed answer;
+- latency, truncation and typed failure categories;
+- format adherence;
+- source-reference preservation;
+- tendency to invent unsupported bridges or collapse UNKNOWN;
+- successful boring-control behavior;
+- human/Work review outcome;
+- season/date so drift can be noticed.
+
+The eventual "weight" should be **task-local and revisable**, not a permanent rank of models. Raw transport facts and the derived role-fit assessment should remain separate records.
+
+### B. Unbuilt Garden pieces worth fleshing out
+
+The current Garden validates a supplied pass. A fuller Garden needs, in roughly this dependency order:
+
+1. **Traversal state** — one durable pass object that knows current tree/node, Question/epoch, parent branch, evidence lineage, budget and rest state.
+2. **Node contracts** — explicit input/output schemas for ROOT, ARRIVAL, EPIST, FUNC, MIRROR, CROSS, RESID, MEAN, EXIT and RETURN.
+3. **Deterministic router** — evaluate explicit conditions and route proposals without a model silently choosing the graph.
+4. **Model mesh dispatcher** — choose an eligible provider/model for a bounded node operation using task-local role weight, budget and policy.
+5. **MIRROR engine** — propose competing explanations, boring controls and discriminating questions while preserving which context generated each one.
+6. **CROSS engine** — request/attach inherited, independent and epistemic-bridge material; record actual source lineage so duplicated evidence is not multiplied.
+7. **RESID evaluator** — record what survives tests as unresolved attention, not truth; support "nothing consequential survives" as a normal outcome.
+8. **Specialist-tree registry** — reusable tree templates plus jurisdiction/domain instances; Pygents resolve stable destinations without provider names becoming role identities.
+9. **Teleport + clonal routing** — move one branch, clone a child, or boundedly fan out when distinct domains are genuinely warranted.
+10. **Universal language glance + Language Exception Tree** — cheap sensing everywhere, deep inspection only on a consequential linguistic residual.
+11. **Memory folds and seasonal recurrence** — provisional storage, reuse traces, recurrence interval, promotion, compression, archive and reawakening.
+12. **Governor arbitration** — eventually let the Governor choose among expensive fan-outs or morphology-dependent routes, while deterministic rules can handle obvious cases now.
+13. **Saṃskāra Morphology hooks** — active Governor powers may add explicit routing/inspection obligations without rewriting the Garden's evidence rules.
+14. **Replay/audit** — rerun a saved pass deterministically from its supplied inputs, model records and route decisions; distinguish reproduction from new evidence.
+15. **Spreadsheet projection** — keep the workbook as a human map while repository IDs/contracts remain authoritative. Generated spreadsheet views should not become a second source of truth.
+16. **Attention/cost brakes** — branch budgets, model-call budgets, loop detection, seasonal wake rules and valid rest/silence at every expensive boundary.
+
+Smallest useful next build: **Traversal state + deterministic router + clone lineage**, still with supplied MIRROR/CROSS content. That creates the skeleton models can later inhabit without letting model behavior define the architecture.
+
+### C. Clonal teleport
+
+Jared's intended teleport system can branch without forcing the parent to disappear.
+
+Use three distinct actions:
+
+- **MOVE** — this branch leaves the current tree for another tree;
+- **CLONE** — preserve the current branch and create one linked child in another tree;
+- **FANOUT** — create a bounded set of linked children because several distinct functions genuinely need inspection.
+
+Example:
+
+`ECONOMICS -> continue/clone into PRODUCTION + clone/teleport into DIPLOMACY`
+
+Every clone should inherit:
+- parent pass/branch ID;
+- parent Question/epoch;
+- exact source/evidence refs;
+- reason for cloning;
+- originating residual or peculiarity;
+- the route authority that allowed it.
+
+Sibling clones are **not independent evidence** merely because they are inspected by different trees or models.
+
+Until the repo Governor can arbitrate fan-out, use explicit deterministic conditions or human-reviewed route proposals. Later, Governor attention and active morphology can help decide whether the extra surface area is worth its attention cost.
+
+### D. Customs Authority: archetype plus jurisdiction, not one global blob
+
+Jared's question is worth preserving as a real tree-design question.
+
+Digest recommendation: customs looks like a strong candidate for a reusable **Customs Authority archetype** instantiated per jurisdiction, with separate treaty/customs-union overlays where applicable.
+
+Shared anatomy can ask:
+- who has legal authority;
+- tariff/classification and valuation rules;
+- exemptions and special regimes;
+- inspection/enforcement powers;
+- ports/entry points and digital clearance systems;
+- appeals/review;
+- revenue collection versus trade-facilitation duties;
+- emergency/sanctions controls;
+- anti-corruption/integrity controls;
+- treaty, customs-union or supranational constraints.
+
+The archetype supplies the questions; the country/jurisdiction instance supplies the actual agencies, laws, procedures and language surfaces. This avoids both extremes: rebuilding customs from scratch for every nation or pretending national customs authority is globally uniform.
+
+Language sensing belongs in every customs instance because small changes in obligation, exemption, classification or agency can be consequential.
+
+### E. Old World Digest intake: Homelessness Governance & Integrity
+
+Jared identifies the second homelessness digest as mature enough to become its own eventual tree and Bee. The recovered lineage supports a coherent role rather than a one-off archive.
+
+**Candidate role:** `Homelessness Governance & Integrity Bee`
+
+**Candidate tree:** a bounded homelessness law / governance / implementation / integrity specialist tree. Do not register it as running merely from this note.
+
+Its standing job should preserve distinctions the older digest already cared about:
+
+- binding law/regulation/ruling versus authoritative-but-nonbinding text;
+- official finding versus formal allegation;
+- audit/control failure versus proven misconduct;
+- investigation, charge, conviction, settlement and clawback as different states;
+- red flags requiring verification versus established facts;
+- policy text versus implementation practice;
+- consultation/lived-experience participation versus actual shared decision power.
+
+For an integrity red flag, require:
+- the public record that creates the anomaly;
+- what information is missing;
+- plausible ordinary/innocent explanations;
+- what remains unproven;
+- the institution controlling funds/services rather than treating unhoused people as the presumptive fraud target.
+
+For lived-experience governance, preserve the old practical test: look for actual charter/contract or bylaws, membership and minutes, agenda-setting or votes, procurement authority, response duties and traceable recommendation-to-decision changes before calling consultation shared power.
+
+For implementation, keep attention on actual practices such as encampment/vehicle/property actions, outreach coordination, shelter offers and whether implementation disrupts service relationships or system data. A policy-only digest is insufficient when practice diverges.
+
+Jared reports that the standing questions in this digest have **not been fundamentally superseded**. Treat the questions as durable design inputs, while refreshing empirical/legal evidence by date when the Bee is eventually activated.
+
+The earlier homelessness-law digest and the later broader World Condition Digest lineage should be **selectively metabolized later**, not wholesale copied. For each old digest: preserve durable Questions, tree/bee implications, seasonal patterns and still-useful source lineages; let stale snapshots rest.
+
+### F. Seasonal memory is a feature, not a clearance failure
+
+A memory that goes quiet for eleven months and becomes useful every winter is not dead memory.
+
+Reuse/clearance should therefore track:
+- recurrence interval;
+- known season/event windows;
+- rarity versus frequency;
+- consequence when it does recur;
+- whether the memory saves expensive rediscovery.
+
+Bulking can accumulate cheap folds; cutting can compress them without deleting the recurrence signature.
+
+### G. Saṃskāra Morphology is now a real system surface
+
+The Governor now has:
+- `config/governor-samskara-morphology.json`;
+- `docs/GOVERNOR_SAMSKARA_MORPHOLOGY.md`;
+- Governor review packets that read the morphology registry.
+
+This implements the **skill-tree container and cultural contract**, not an autonomous Governor and not an activated power.
+
+`PECULIARITY_SENSE` remains proposed but now has a concrete shape: after a usable answer, a bounded peculiar residual may create a linked child Question or clonal teleport while the parent answer rests. Its cultural rule is:
+
+**Do not sand the strange thing flat. Do not worship it either.**
+
+That is a useful first morphology because it adds surface area without making curiosity compulsory.
+
+
+## Fourth digestion — curiosity, customs coverage and Minotaur
+
+### Curiosity belongs beside Peculiarity, not inside it
+
+Jared identifies **Curiosity** as its own Governor power-up. Novelty may justify a new Question even when no anomaly exists.
+
+Saṃskāra Morphology now contains proposed `CURIOSITY` with a growth path:
+- **Spark** — one bounded novelty may propose one linked Question;
+- **Branch** — a small bounded set of genuinely distinct child Questions;
+- **Canopy** — advanced bounded FANOUT into multiple specialist trees with preserved lineage and an explicit attention budget.
+
+Peculiarity Sense remains narrower: it protects an exception relative to a baseline. Curiosity creates question surface area from new terrain. Neither turns questions into evidence.
+
+### Customs now has a global archetype
+
+See `docs/CUSTOMS_AUTHORITY_ARCHETYPE.md`.
+
+Apply the archetype through:
+`continent -> national/customs-union jurisdiction -> regional/state/provincial interface -> city/port-of-entry instance`
+
+Support sea, air, land, rail, inland/dry-port, postal/express and free-zone/special-regime gateways. The architecture should cover Africa, Asia, Europe, North America, South America, Oceania and an Antarctica special-case gateway/logistics overlay without pretending Antarctic logistics are an ordinary national-customs jurisdiction.
+
+Every Customs instance gets the cheap language glance.
+
+Enforcement must remain typed:
+`AUTHORIZED -> PLANNED -> RESOURCED -> REPORTED_EVENT -> OBSERVED_ACTIVITY -> MEASURED_VOLUME -> AUDITED_OUTCOME`, with `UNKNOWN` available at every gap.
+
+Expected staffing, authorized headcount, targets and modeled throughput are **not actual enforcement numbers**. Preserve time period, unit, denominator, source and evidence state for every operational figure.
+
+### Minotaur of Translation — design direction to discuss with Jared
+
+The Minotaur should not duplicate Curiosity, Peculiarity Sense or the Mirror Lady's possible dissent reward.
+
+A strong gameplay fit is **lineage through transformation**.
+
+The player carries a central paragraph/claim through a labyrinth. Rooms transform it through translation, summary, legal/technical terminology, omitted qualifiers, changed actors, reordered clauses or domain handoffs. The challenge is not to find one "correct English" string. It is to preserve which meaning components stayed invariant, explicitly mark which changed, and retain a path back to the originating surface.
+
+The Minotaur can pressure shortcuts: apparently equivalent doors that save distance but lose provenance or collapse a distinction. A thread/marker mechanic can let the player preserve a route back through the maze.
+
+Candidate reward/power concept for later discussion: **Ariadne / Golden Thread / Thread of Return** — an ability to trace a claim, translation, clone or summary back through its transformation lineage and recover the last point where meaning/evidence changed. Do not add this as a Governor power until Jared chooses the name and actual gameplay lesson.
+
+Possible Tamarian:
+**The walls turning, the thread still warm in the hand.**
+Plain meaning: transformations may accumulate, but preserved lineage lets the Governor return to where a meaning changed.

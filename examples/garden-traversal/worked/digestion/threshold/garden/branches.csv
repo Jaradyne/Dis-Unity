@@ -1,0 +1,4 @@
+run_id,branch_id,parent_branch,question_id,epoch,tree,node,status,focus,rest_reason,steps_used,branches_used,model_calls,record
+Q18-SUPPLIED-TRAVERSAL-20260928,B0,,Q-RESEARCH-Q18,1,INIT,RETURN,resting,Separate a delivered vessel from dependable service,No new arrival supplied,12,3,0,https://github.com/Jaradyne/Dis-Unity/blob/main/examples/garden-traversal/worked/operations/garden/runs/Q18-SUPPLIED-TRAVERSAL-20260928.json
+Q18-SUPPLIED-TRAVERSAL-20260928,B1,B0,Q-RESEARCH-Q18,1,PRODUCTION,ARRIVAL,ready,Specify a bounded vessel operating-record test,,12,3,0,https://github.com/Jaradyne/Dis-Unity/blob/main/examples/garden-traversal/worked/operations/garden/runs/Q18-SUPPLIED-TRAVERSAL-20260928.json
+Q18-SUPPLIED-TRAVERSAL-20260928,B2,B0,Q-RESEARCH-Q18,1,ECONOMICS,ARRIVAL,ready,Specify the usable freight-function comparison,,12,3,0,https://github.com/Jaradyne/Dis-Unity/blob/main/examples/garden-traversal/worked/operations/garden/runs/Q18-SUPPLIED-TRAVERSAL-20260928.json

@@ -1,0 +1,14 @@
+{
+  "branches": [
+    "B0",
+    "B1",
+    "B2"
+  ],
+  "meaning": "Supplied traversal and routing; no new evidence, model dispatch or Governor review.",
+  "record_ref": "operations/garden/runs/Q18-SUPPLIED-TRAVERSAL-20260928.json",
+  "record_sha256": "7f5fc261d9e3c7a2ae0589e1865eddd789898c8db89a3ac20e788f3de5f1af16",
+  "run_id": "Q18-SUPPLIED-TRAVERSAL-20260928",
+  "schema_version": "digestion-garden-materials-1",
+  "state_sha256": "e5c3261be8bb7b7add2d310b17b53552186d6af32de634cd5174031e741ad3d6",
+  "status": "available_for_digestion"
+}

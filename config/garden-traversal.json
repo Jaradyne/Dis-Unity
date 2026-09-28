@@ -1,0 +1,190 @@
+{
+  "schema_version": "garden-traversal-config-1",
+  "status": "supplied_content_runtime",
+  "model_execution": false,
+  "limits": {
+    "max_steps": 80,
+    "max_branches": 8,
+    "max_events": 128,
+    "max_fanout": 3,
+    "model_calls": 0
+  },
+  "trees": {
+    "INIT": {
+      "name": "Initiating Garden",
+      "node_template": "INIT",
+      "status": "traversable_with_supplied_content"
+    },
+    "ECONOMICS": {
+      "name": "Economics",
+      "node_template": "INIT",
+      "status": "traversable_with_supplied_content"
+    },
+    "PRODUCTION": {
+      "name": "Production",
+      "node_template": "INIT",
+      "status": "traversable_with_supplied_content"
+    },
+    "DIPLOMACY": {
+      "name": "Diplomacy",
+      "node_template": "INIT",
+      "status": "traversable_with_supplied_content"
+    },
+    "LANGUAGE": {
+      "name": "Language Exception",
+      "node_template": "INIT",
+      "status": "traversable_with_supplied_content"
+    },
+    "CUSTOMS": {
+      "name": "Customs Authority",
+      "node_template": "INIT",
+      "status": "traversable_with_supplied_content"
+    },
+    "HOMELESSNESS": {
+      "name": "Homelessness Governance and Integrity",
+      "node_template": "INIT",
+      "status": "traversable_with_supplied_content"
+    }
+  },
+  "node_contracts": {
+    "ROOT": {
+      "strings": [
+        "name"
+      ]
+    },
+    "ARRIVAL": {
+      "objects": [
+        "arrival",
+        "language_glance"
+      ]
+    },
+    "EPIST": {
+      "strings": [
+        "prompt",
+        "starting_state"
+      ]
+    },
+    "FUNC": {
+      "strings": [
+        "task",
+        "function"
+      ]
+    },
+    "MIRROR": {
+      "lists": [
+        "comparisons"
+      ],
+      "objects": [
+        "information_lineage"
+      ]
+    },
+    "CROSS": {
+      "lists": [
+        "inherited",
+        "independent",
+        "bridge"
+      ]
+    },
+    "RESID": {
+      "strings": [
+        "summary"
+      ],
+      "objects": [
+        "predicates"
+      ]
+    },
+    "MEAN": {
+      "strings": [
+        "summary"
+      ]
+    },
+    "EXIT": {
+      "strings": [
+        "kind",
+        "summary"
+      ]
+    },
+    "RETURN": {
+      "strings": [
+        "reason"
+      ]
+    }
+  },
+  "rules": [
+    {
+      "id": "LANGUAGE-EXCEPTION",
+      "at": [
+        "RESID",
+        "MEAN",
+        "EXIT",
+        "RETURN"
+      ],
+      "actions": [
+        "MOVE",
+        "CLONE"
+      ],
+      "from": [
+        "INIT",
+        "ECONOMICS",
+        "PRODUCTION",
+        "DIPLOMACY",
+        "LANGUAGE",
+        "CUSTOMS",
+        "HOMELESSNESS"
+      ],
+      "to": [
+        "LANGUAGE"
+      ],
+      "condition": {
+        "op": "AND",
+        "members": [
+          "consequential",
+          "language_exception"
+        ]
+      },
+      "review_required": false
+    },
+    {
+      "id": "DOMAIN-BRANCH",
+      "at": [
+        "RESID",
+        "MEAN",
+        "EXIT",
+        "RETURN"
+      ],
+      "actions": [
+        "MOVE",
+        "CLONE",
+        "FANOUT"
+      ],
+      "from": [
+        "INIT",
+        "ECONOMICS",
+        "PRODUCTION",
+        "DIPLOMACY",
+        "LANGUAGE",
+        "CUSTOMS",
+        "HOMELESSNESS"
+      ],
+      "to": [
+        "INIT",
+        "ECONOMICS",
+        "PRODUCTION",
+        "DIPLOMACY",
+        "LANGUAGE",
+        "CUSTOMS",
+        "HOMELESSNESS"
+      ],
+      "condition": {
+        "op": "AND",
+        "members": [
+          "consequential",
+          "distinct_functions"
+        ]
+      },
+      "review_required": true
+    }
+  ],
+  "authority": "Reviewed configuration determines eligible routes. Supplied content cannot edit this graph or activate morphology.",
+  "independence": "A different branch, tree, context or model is not independent empirical evidence."
+}

@@ -2,6 +2,8 @@
 
 # Dis-Unity — Resilience Cascade
 
+**Digest integration, September 28:** the [Garden traversal runtime](docs/GARDEN_TRAVERSAL.md) now saves partial passes, moves and branches with inherited lineage, and resumes supplied work. Inspect the [Q18 branch spreadsheet](examples/garden-traversal/worked/digestion/threshold/garden/branches.csv). This first slice follows Digest's roadmap; model execution and Governor powers remain separate future work.
+
 **API materials for digestion:** [recording contract](digestion/threshold/README.md) · [live CSV ledger](https://github.com/Jaradyne/Dis-Unity/blob/week-one-state/digestion/threshold/api/interactions.csv) · [material packets](https://github.com/Jaradyne/Dis-Unity/tree/week-one-state/digestion/threshold/api/runs). New exchanges retain the complete received request/response material with credentials redacted; historical records show their actual gaps.
 
 **September 28 UTC / September 27 Pacific:** [OpenRouter record and repair](reports/work-review/2026-09-28-openrouter-recovery.md). Jared authorized retiring the specific unverified historical generation after reporting no dashboard charge. The Answer Bee may continue under its existing free-route limits and contributes worker reflections. The separate scheduled Governor is disabled while the repo Governor awaits implementation; direct inputs remain queued. This supersedes the older pause and Governor status below. Check the live index for actual attempts.

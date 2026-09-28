@@ -1,3 +1,9 @@
+# 28 September — Digest integration and saved Garden traversal
+
+Read [the integration record](operations/INTEGRATION_2026-09-28_GARDEN.md) and [Garden traversal contract](docs/GARDEN_TRAVERSAL.md). Digest PR #24 is preserved. Work implemented its first suggested slice: saved per-node traversal, deterministic routing, clone lineage, rest/re-entry, replay and a digestion CSV. The supplied Q18 demonstration has one resting parent and two children awaiting input. It is not new research or a live specialist run.
+
+The next build is the provider-neutral operation interface using recorded API exchanges and explicit information lineage, followed by domain-specific processing and provisional memory/reuse records. Continue without a Governor; morphology powers remain proposed. Older statements that Garden has only a whole-pass grammar are superseded by this entry.
+
 # 28 September UTC / 27 September Pacific — current entry point
 
 Read [the OpenRouter record and repair](reports/work-review/2026-09-28-openrouter-recovery.md). Jared reported no dashboard charge and authorized moving on from the specific old generation with its receipt still unknown. The runtime applies the reviewed disposition from `config/provider-dispositions.json`, preserves the original record and permits future bounded free-route attempts. Check live state for the actual result. The separate scheduled Governor is disabled; the Answer Bee leaves worker reflections, and direct Governor inputs wait for the repo Governor. Older status statements below are historical where superseded.

@@ -22,6 +22,15 @@ For a new play, stage the original bundle and a `governor-direct-feed-1` envelop
 
 These inputs can shape attention and proposals. Evidence admission, provider policy and canonical power changes retain their existing review paths.
 
+## Saṃskāra Morphology
+
+Jared has adopted **Saṃskāra Morphology** as the name of the Governor's cultural skill tree. See [the design](../../../docs/GOVERNOR_SAMSKARA_MORPHOLOGY.md) and [the registry](../../../config/governor-samskara-morphology.json).
+
+The Governor review packet reads this registry directly. Powers can represent new affordances, obligations, inhibitions or navigation created by metabolized experience. This is intended to make cultural shape explicit rather than letting it accumulate as invisible prompt drift.
+
+The registry currently describes **Peculiarity Sense** in detail, but its status remains `proposed`. Reading a proposed power does not activate it, award it, change evidence or create a route automatically.
+
+
 ## Original Chat integration request
 
 Jared asked Chat Aiden to stop role-blurring: **Chat remains Chat Aiden; the repo Governor gets a JSON feed and does the Governor review.**

@@ -17,3 +17,10 @@ Historical rows are labelled `legacy_partial`. They index the original prompt, f
 Each run has a threshold packet containing file paths, GitHub links and hashes for its saved materials. Full bodies live once under `operations/week-one/runs/<run-id>/api/`; the threshold points to them. Runtime output and the ledger are saved on `week-one-state`; reviewed code and this contract stay on `main`. Journaling and indexing are deterministic and make no new inference call.
 
 GitHub CSV rendering: [official documentation](https://docs.github.com/en/repositories/working-with-files/using-files/working-with-non-code-files#rendering-csv-and-tsv-data).
+
+
+## Garden traversal materials
+
+The supplied-content Garden runtime also projects `digestion/threshold/garden/branches.csv` and per-run material references. Each reference links to the complete event history, source lineage and current branch state under `operations/garden/runs/` on `week-one-state`. Projection records availability, not digestion or Governor review. These records supplement the API ledger; traversal itself makes zero API calls.
+
+Inspect the [committed example CSV](../../examples/garden-traversal/worked/digestion/threshold/garden/branches.csv) or [operating contract](../../docs/GARDEN_TRAVERSAL.md). The example is design material on main; future operational runs use the state branch.

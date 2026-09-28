@@ -9,12 +9,13 @@ import tempfile
 
 ROOT = Path(__file__).resolve().parents[1]
 BRANCH = 'week-one-state'
-PATHS = ['operations/week-one', 'operations/questions.json', 'operations/reflections/mailbox.json',
-         'digestion/threshold/api']
+REQUIRED_PATHS = ['operations/week-one', 'operations/questions.json', 'operations/reflections/mailbox.json']
+OPTIONAL_PATHS = ['digestion/threshold/api', 'operations/garden/runs', 'digestion/threshold/garden']
+PATHS = REQUIRED_PATHS + OPTIONAL_PATHS
 
 
-def git(*args, cwd=ROOT, check=True):
-    return subprocess.run(['git', *args], cwd=cwd, check=check, stdout=subprocess.PIPE,
+def git(*args, cwd=None, check=True):
+    return subprocess.run(['git', *args], cwd=cwd or ROOT, check=check, stdout=subprocess.PIPE,
                           stderr=subprocess.PIPE, text=True)
 
 
@@ -32,10 +33,9 @@ def main():
         tree = git('ls-tree', '-r', f'origin/{BRANCH}', '--', *PATHS).stdout
         if any(line.split()[0] != '100644' for line in tree.splitlines()):
             raise RuntimeError('State branch contains a non-regular data file')
-        # New recording folders may not exist on the pre-migration state branch.
-        existing = PATHS[:-1]
-        if git('cat-file', '-e', f'origin/{BRANCH}:{PATHS[-1]}', check=False).returncode == 0:
-            existing = PATHS
+        # New data folders may not exist on an older state branch.
+        existing = REQUIRED_PATHS + [path for path in OPTIONAL_PATHS
+            if git('cat-file', '-e', f'origin/{BRANCH}:{path}', check=False).returncode == 0]
         git('restore', '--source', f'origin/{BRANCH}', '--worktree', '--', *existing)
         baseline.write_text(remote_sha + '\n')
         return
@@ -53,7 +53,7 @@ def main():
             elif source.exists():
                 dest.parent.mkdir(parents=True, exist_ok=True)
                 shutil.copy2(source, dest)
-        git('add', '--', *PATHS, cwd=target)
+        git('add', '--', *[path for path in PATHS if (target / path).exists()], cwd=target)
         if not git('diff', '--cached', '--quiet', cwd=target, check=False).returncode:
             return
         git('-c', 'user.name=Dis-Unity Week One', '-c', 'user.email=41898282+github-actions[bot]@users.noreply.github.com',
