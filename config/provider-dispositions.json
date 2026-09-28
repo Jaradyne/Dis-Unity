@@ -1,0 +1,28 @@
+{
+  "schema_version": "operator-provider-dispositions-1",
+  "decisions": [
+    {
+      "decision_id": "OR-RETIRE-20260928-01",
+      "authorized_by": "Jared",
+      "authorized_at": "2026-09-28T00:19:24Z",
+      "disposition": "retired_unverified",
+      "generation_id": "gen-1790241783-S8W2Vc6pfpCKlAE4OrBL",
+      "run_ids": [
+        "gh-35980783938-2",
+        "gh-35981423237-2",
+        "gh-36166138616-1"
+      ],
+      "response_sha256": "b8f5309ea29021c6fca1e538b027f88beb8c4f7a7b77c1df17d075d3a3979a78",
+      "receipt_verified": false,
+      "allow_future_bounded_attempts": true,
+      "account_observation": {
+        "actor": "Jared",
+        "source": "user report from OpenRouter dashboard",
+        "observed_at": "2026-09-28T00:19:24Z",
+        "observation": "No charge visible.",
+        "independently_inspected_by_Work": false
+      },
+      "authorization": "Jared explicitly said we can move on even if the receipt is unknown. Retire this historical incomplete interaction while preserving its evidence and the existing free-only route, NO GROQ, budgets, and stop-on-positive-cost behavior."
+    }
+  ]
+}
