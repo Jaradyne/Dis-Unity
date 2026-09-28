@@ -1,0 +1,41 @@
+{
+  "attempt_id": "ATT-F0AA8CA75B1B4EE284AC1B39733FCD12",
+  "coverage": "legacy_partial",
+  "materials": [
+    {
+      "path": "operations/week-one/runs/gh-35981423237-2/HUMAN_NOTE.md",
+      "sha256": "53f4311c7ccaaf6a388c5cc01c4e985c8946494a5e1e538ad1db2d8f7249d1fd",
+      "url": "https://github.com/Jaradyne/Dis-Unity/blob/week-one-state/operations/week-one/runs/gh-35981423237-2/HUMAN_NOTE.md"
+    },
+    {
+      "path": "operations/week-one/runs/gh-35981423237-2/outcome.json",
+      "sha256": "397651c0d0954c01761fa75df191aee3a5782a7fcdf0db6fe722bfec916f137f",
+      "url": "https://github.com/Jaradyne/Dis-Unity/blob/week-one-state/operations/week-one/runs/gh-35981423237-2/outcome.json"
+    },
+    {
+      "path": "operations/week-one/runs/gh-35981423237-2/provider-response.json",
+      "sha256": "b8f5309ea29021c6fca1e538b027f88beb8c4f7a7b77c1df17d075d3a3979a78",
+      "url": "https://github.com/Jaradyne/Dis-Unity/blob/week-one-state/operations/week-one/runs/gh-35981423237-2/provider-response.json"
+    },
+    {
+      "path": "operations/week-one/runs/gh-35981423237-2/request.json",
+      "sha256": "f5400ed633c3b7f37ccadd1d41f7543599603288d60f60967a871fcd701382c6",
+      "url": "https://github.com/Jaradyne/Dis-Unity/blob/week-one-state/operations/week-one/runs/gh-35981423237-2/request.json"
+    },
+    {
+      "path": "operations/week-one/runs/gh-35981423237-2/sources.json",
+      "sha256": "d12bd56a99a50b84e2a260ea4662c074d80f275ec7107058c8ff8041fafbd0f8",
+      "url": "https://github.com/Jaradyne/Dis-Unity/blob/week-one-state/operations/week-one/runs/gh-35981423237-2/sources.json"
+    }
+  ],
+  "meaning": "Capture and delivery only; not a Governor review, digestion result or canonical admission.",
+  "operator_disposition": "OR-RETIRE-20260928-01",
+  "question_id": "Q-RESEARCH-Q01",
+  "record_ids": [
+    "LEGACY-gh-35981423237-2"
+  ],
+  "run_id": "gh-35981423237-2",
+  "run_status": "audit_pending",
+  "schema_version": "digestion-api-materials-1",
+  "status": "available_for_digestion"
+}

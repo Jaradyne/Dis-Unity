@@ -1,0 +1,26 @@
+{
+  "attempt_id": null,
+  "coverage": "legacy_partial",
+  "materials": [
+    {
+      "path": "operations/week-one/runs/gh-36048555357-1/HUMAN_NOTE.md",
+      "sha256": "8a23f5e4b0e3db44040fc1258bf1fd6e871f3ca984c29f8255d35378c7de16a0",
+      "url": "https://github.com/Jaradyne/Dis-Unity/blob/week-one-state/operations/week-one/runs/gh-36048555357-1/HUMAN_NOTE.md"
+    },
+    {
+      "path": "operations/week-one/runs/gh-36048555357-1/sources.json",
+      "sha256": "cb4efa660ac35287b095c84d1e0dffdfef00625a2b172ae76f5f39ac6755d9d9",
+      "url": "https://github.com/Jaradyne/Dis-Unity/blob/week-one-state/operations/week-one/runs/gh-36048555357-1/sources.json"
+    }
+  ],
+  "meaning": "Capture and delivery only; not a Governor review, digestion result or canonical admission.",
+  "operator_disposition": null,
+  "question_id": null,
+  "record_ids": [
+    "LEGACY-gh-36048555357-1"
+  ],
+  "run_id": "gh-36048555357-1",
+  "run_status": "cooldown",
+  "schema_version": "digestion-api-materials-1",
+  "status": "available_for_digestion"
+}

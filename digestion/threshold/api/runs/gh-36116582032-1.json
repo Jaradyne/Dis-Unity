@@ -1,0 +1,46 @@
+{
+  "attempt_id": "ATT-B31C65421D224EC182927AF060F248DA",
+  "coverage": "legacy_partial",
+  "materials": [
+    {
+      "path": "operations/week-one/runs/gh-36116582032-1/HUMAN_NOTE.md",
+      "sha256": "62980334e355de667b883ec89936d1dbb7591f1df42b25015b531ad616ddfca9",
+      "url": "https://github.com/Jaradyne/Dis-Unity/blob/week-one-state/operations/week-one/runs/gh-36116582032-1/HUMAN_NOTE.md"
+    },
+    {
+      "path": "operations/week-one/runs/gh-36116582032-1/outcome.json",
+      "sha256": "2ffd6d49332863c64fc21c1a3e02a63c1c1644baec33ef15c58d8fa3004081e0",
+      "url": "https://github.com/Jaradyne/Dis-Unity/blob/week-one-state/operations/week-one/runs/gh-36116582032-1/outcome.json"
+    },
+    {
+      "path": "operations/week-one/runs/gh-36116582032-1/provider-response.json",
+      "sha256": "68ac2ebf0fde6599b04a8a213c4bf0da8f756d256152dac4c8a66c1693a7ca0d",
+      "url": "https://github.com/Jaradyne/Dis-Unity/blob/week-one-state/operations/week-one/runs/gh-36116582032-1/provider-response.json"
+    },
+    {
+      "path": "operations/week-one/runs/gh-36116582032-1/request.json",
+      "sha256": "692afdfc66a2a85675297f73da07ad8f8d77eaea9349f04ae815612f8bd00ea4",
+      "url": "https://github.com/Jaradyne/Dis-Unity/blob/week-one-state/operations/week-one/runs/gh-36116582032-1/request.json"
+    },
+    {
+      "path": "operations/week-one/runs/gh-36116582032-1/samples-for-jared.json",
+      "sha256": "c9d11a0358a16353fd8f4462ad109441778995609bad74194233958ac6826631",
+      "url": "https://github.com/Jaradyne/Dis-Unity/blob/week-one-state/operations/week-one/runs/gh-36116582032-1/samples-for-jared.json"
+    },
+    {
+      "path": "operations/week-one/runs/gh-36116582032-1/sources.json",
+      "sha256": "7a8c83500c4f2d14ff4c4ff89718a5b09cc8b6765f340917f77685fcc4c2e22e",
+      "url": "https://github.com/Jaradyne/Dis-Unity/blob/week-one-state/operations/week-one/runs/gh-36116582032-1/sources.json"
+    }
+  ],
+  "meaning": "Capture and delivery only; not a Governor review, digestion result or canonical admission.",
+  "operator_disposition": null,
+  "question_id": "Q-RESEARCH-Q01",
+  "record_ids": [
+    "LEGACY-gh-36116582032-1"
+  ],
+  "run_id": "gh-36116582032-1",
+  "run_status": "partial_answer",
+  "schema_version": "digestion-api-materials-1",
+  "status": "available_for_digestion"
+}

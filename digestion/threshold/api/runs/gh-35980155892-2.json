@@ -1,0 +1,41 @@
+{
+  "attempt_id": "ATT-5CC274EF42AB40B183E29BA51716BA47",
+  "coverage": "legacy_partial",
+  "materials": [
+    {
+      "path": "operations/week-one/runs/gh-35980155892-2/HUMAN_NOTE.md",
+      "sha256": "f79512e57fb7441eb0a278699f57ade606f85c4e0196922f27cb04b84692c556",
+      "url": "https://github.com/Jaradyne/Dis-Unity/blob/week-one-state/operations/week-one/runs/gh-35980155892-2/HUMAN_NOTE.md"
+    },
+    {
+      "path": "operations/week-one/runs/gh-35980155892-2/outcome.json",
+      "sha256": "487cb0bf83fc068651cfa62fd49b803c87949a240580fd9b46b36bb6a139aaf7",
+      "url": "https://github.com/Jaradyne/Dis-Unity/blob/week-one-state/operations/week-one/runs/gh-35980155892-2/outcome.json"
+    },
+    {
+      "path": "operations/week-one/runs/gh-35980155892-2/provider-response.json",
+      "sha256": "d511af641b45540eb6c3e0c7e8b9ed05d80807eb8746848ac9ab13674ccdb7f2",
+      "url": "https://github.com/Jaradyne/Dis-Unity/blob/week-one-state/operations/week-one/runs/gh-35980155892-2/provider-response.json"
+    },
+    {
+      "path": "operations/week-one/runs/gh-35980155892-2/request.json",
+      "sha256": "22522697a58c1cff4eef286352e38a28a65015bd8c4a0bfeec0c444b6d126dae",
+      "url": "https://github.com/Jaradyne/Dis-Unity/blob/week-one-state/operations/week-one/runs/gh-35980155892-2/request.json"
+    },
+    {
+      "path": "operations/week-one/runs/gh-35980155892-2/sources.json",
+      "sha256": "3a0b305bdcd2e22c0d31e185a9afeda3776614ef8555c54f1836e78b081c071e",
+      "url": "https://github.com/Jaradyne/Dis-Unity/blob/week-one-state/operations/week-one/runs/gh-35980155892-2/sources.json"
+    }
+  ],
+  "meaning": "Capture and delivery only; not a Governor review, digestion result or canonical admission.",
+  "operator_disposition": null,
+  "question_id": "Q-RESEARCH-Q17",
+  "record_ids": [
+    "LEGACY-gh-35980155892-2"
+  ],
+  "run_id": "gh-35980155892-2",
+  "run_status": "policy_blocked",
+  "schema_version": "digestion-api-materials-1",
+  "status": "available_for_digestion"
+}

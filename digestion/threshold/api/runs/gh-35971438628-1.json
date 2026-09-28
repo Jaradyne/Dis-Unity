@@ -1,0 +1,36 @@
+{
+  "attempt_id": "ATT-400018C15B8047E184B972B9BB95D02F",
+  "coverage": "legacy_partial",
+  "materials": [
+    {
+      "path": "operations/week-one/runs/gh-35971438628-1/HUMAN_NOTE.md",
+      "sha256": "ff1d5d88fe46c0ae776eee5b42b7dcea9c03a418f34f4e52c8ed04d871706922",
+      "url": "https://github.com/Jaradyne/Dis-Unity/blob/week-one-state/operations/week-one/runs/gh-35971438628-1/HUMAN_NOTE.md"
+    },
+    {
+      "path": "operations/week-one/runs/gh-35971438628-1/outcome.json",
+      "sha256": "9734a73e470a4c07de2cdf7fdc8ac066dd566b56aa9d9d2ade305ce59ae35f82",
+      "url": "https://github.com/Jaradyne/Dis-Unity/blob/week-one-state/operations/week-one/runs/gh-35971438628-1/outcome.json"
+    },
+    {
+      "path": "operations/week-one/runs/gh-35971438628-1/request.json",
+      "sha256": "974f28d19be5d264afeb047581bd7a73863458704583aa910b2c73b560357703",
+      "url": "https://github.com/Jaradyne/Dis-Unity/blob/week-one-state/operations/week-one/runs/gh-35971438628-1/request.json"
+    },
+    {
+      "path": "operations/week-one/runs/gh-35971438628-1/sources.json",
+      "sha256": "37995619f7e56884c036d266c12e826df78729158e9f9a97aa4ac961edd49c9d",
+      "url": "https://github.com/Jaradyne/Dis-Unity/blob/week-one-state/operations/week-one/runs/gh-35971438628-1/sources.json"
+    }
+  ],
+  "meaning": "Capture and delivery only; not a Governor review, digestion result or canonical admission.",
+  "operator_disposition": null,
+  "question_id": "Q-RESEARCH-Q01",
+  "record_ids": [
+    "LEGACY-gh-35971438628-1"
+  ],
+  "run_id": "gh-35971438628-1",
+  "run_status": "auth_or_configuration_error",
+  "schema_version": "digestion-api-materials-1",
+  "status": "available_for_digestion"
+}

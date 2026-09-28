@@ -1,0 +1,41 @@
+{
+  "attempt_id": "ATT-4261CA9D5D674DFAA2F47704E1A839CE",
+  "coverage": "legacy_partial",
+  "materials": [
+    {
+      "path": "operations/week-one/runs/gh-35978438646-2/HUMAN_NOTE.md",
+      "sha256": "c060040c131b4904bb9b53160e3d39addb2089c9cee8d696b056391a29aaa24b",
+      "url": "https://github.com/Jaradyne/Dis-Unity/blob/week-one-state/operations/week-one/runs/gh-35978438646-2/HUMAN_NOTE.md"
+    },
+    {
+      "path": "operations/week-one/runs/gh-35978438646-2/outcome.json",
+      "sha256": "f950fb2e50efcf15da4ec81d2dceedab2a1ea3bb911357cbe6f4cf3b93fa76ee",
+      "url": "https://github.com/Jaradyne/Dis-Unity/blob/week-one-state/operations/week-one/runs/gh-35978438646-2/outcome.json"
+    },
+    {
+      "path": "operations/week-one/runs/gh-35978438646-2/provider-response.json",
+      "sha256": "d511af641b45540eb6c3e0c7e8b9ed05d80807eb8746848ac9ab13674ccdb7f2",
+      "url": "https://github.com/Jaradyne/Dis-Unity/blob/week-one-state/operations/week-one/runs/gh-35978438646-2/provider-response.json"
+    },
+    {
+      "path": "operations/week-one/runs/gh-35978438646-2/request.json",
+      "sha256": "9fff5ce99d30d684be2ecd1bc14482f5bba9f5a2d720e00434c25de73d61375b",
+      "url": "https://github.com/Jaradyne/Dis-Unity/blob/week-one-state/operations/week-one/runs/gh-35978438646-2/request.json"
+    },
+    {
+      "path": "operations/week-one/runs/gh-35978438646-2/sources.json",
+      "sha256": "3a0b305bdcd2e22c0d31e185a9afeda3776614ef8555c54f1836e78b081c071e",
+      "url": "https://github.com/Jaradyne/Dis-Unity/blob/week-one-state/operations/week-one/runs/gh-35978438646-2/sources.json"
+    }
+  ],
+  "meaning": "Capture and delivery only; not a Governor review, digestion result or canonical admission.",
+  "operator_disposition": null,
+  "question_id": "Q-RESEARCH-Q17",
+  "record_ids": [
+    "LEGACY-gh-35978438646-2"
+  ],
+  "run_id": "gh-35978438646-2",
+  "run_status": "audit_pending",
+  "schema_version": "digestion-api-materials-1",
+  "status": "available_for_digestion"
+}
