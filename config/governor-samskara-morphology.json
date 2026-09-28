@@ -1,0 +1,87 @@
+{
+  "schema_version": "governor-samskara-morphology-0.1",
+  "name": "Saṃskāra Morphology",
+  "ascii_name": "Samskara Morphology",
+  "kind": "governor_cultural_skill_tree",
+  "status": "framework_adopted",
+  "runtime_effects": "Only powers with status=active may change Governor behavior. Proposed powers are inspectable culture/design inputs only.",
+  "project_usage_note": "The project uses saṃskāra narrowly as a metaphor for experience leaving formative dispositions or grooves. This does not claim to reproduce the full philosophical or religious meanings of the Sanskrit term.",
+  "purpose": "Preserve how metabolized encounters change the Governor's future attention, obligations, navigation and available operations without confusing cultural shape with evidence.",
+  "principles": [
+    "A morphology change is more than a badge: it changes an affordance, obligation, inhibition, routing option or inspection practice.",
+    "A power may create a cultural obligation: something the Governor must acknowledge, preserve, inspect or refrain from doing before continuing.",
+    "Happenstance history matters. Morphology may reflect how systems grew together, but every active effect remains explicit and reviewable.",
+    "No power may silently change source-level evidence status, provider permissions, spending authority or canonical research.",
+    "Powers may be proposed, active, inhibited, revised or retired. History is append-only even when a power stops affecting behavior.",
+    "One encounter may leave a trace without immediately activating a power."
+  ],
+  "power_states": [
+    "proposed",
+    "active",
+    "inhibited",
+    "retired"
+  ],
+  "activation_contract": {
+    "required_fields": [
+      "origin",
+      "cultural_shape",
+      "new_affordances",
+      "obligations",
+      "inhibitions",
+      "routing_effects",
+      "evidence_boundary",
+      "witnessing"
+    ],
+    "activation_authority": "Jared plus reviewed repository integration",
+    "note": "A completed encounter or Digest recommendation may propose a power, but proposal alone is not activation."
+  },
+  "powers": {
+    "PECULIARITY_SENSE": {
+      "name": "Peculiarity Sense",
+      "status": "proposed",
+      "origin": {
+        "encounter": "The Unresolved · Tide-Shepherd",
+        "play_id": "PLAY-b803b289-ff43-4f29-aa48-5ce4dd62d24d",
+        "source_question": "Q-MEANING-TRANSLATION-BOSS",
+        "digestion_ref": "operations/governor/inbox/DIGEST-AIDEN-20260927.json"
+      },
+      "cultural_shape": "Do not sand an odd surviving detail flat merely because the main answer is usable; do not worship the oddity merely because it is strange.",
+      "new_affordances": [
+        "At EXIT/RETURN, identify a bounded peculiarity relative to an explicit expectation, control or ordinary explanation.",
+        "Propose a linked child Question for the peculiar remainder while allowing the resolved parent branch to rest.",
+        "Propose a clonal teleport when the same peculiarity warrants inspection in a different specialist tree.",
+        "Preserve a peculiar residual without forcing immediate action when no bounded test is available."
+      ],
+      "obligations": [
+        "Name what expectation or ordinary pattern makes the item peculiar.",
+        "Preserve the distinction between anomaly, contradiction, threat, motive and unknown.",
+        "Keep the original answer intact when the peculiarity does not overturn it.",
+        "Carry lineage into any child Question or clone so siblings are not mistaken for independent evidence."
+      ],
+      "inhibitions": [
+        "Do not reopen every completed answer.",
+        "Do not create a child Question from novelty alone.",
+        "Do not infer motive or malicious intent from rhetorical, linguistic or statistical peculiarity alone.",
+        "Do not count cloned branches as independent corroboration."
+      ],
+      "routing_effects": {
+        "current_runtime_effect": "none_until_active",
+        "proposed_route": "EXIT or RETURN -> PECULIARITY inspection -> rest, linked child Question, or reviewed clonal teleport",
+        "suggested_budget": "At most one new peculiarity child or clone per completed pass unless the Governor explicitly records why fan-out is warranted."
+      },
+      "evidence_boundary": "Peculiarity changes attention and routing, not evidence status.",
+      "witnessing": {
+        "required_when_active": [
+          "record the peculiar item and explicit baseline/expectation",
+          "record whether the parent answer stayed intact",
+          "record any child Question or clone lineage",
+          "later record whether the branch produced useful new evidence, rested, or was retired"
+        ]
+      },
+      "tamarian": {
+        "phrase": "The bowl clean, one grain catching light.",
+        "plain_meaning": "A mostly resolved pass may still contain one bounded oddity worth preserving without declaring the whole answer wrong."
+      }
+    }
+  }
+}
