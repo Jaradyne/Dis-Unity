@@ -1,12 +1,12 @@
 {
-  "as_of": "2026-09-28T21:23:57.598603+00:00",
+  "as_of": "2026-09-28T21:24:35.516214+00:00",
   "brake": null,
   "closed": false,
   "closure_reason": null,
-  "cooldown_until": null,
+  "cooldown_until": "2026-09-29T09:24:33.642425+00:00",
   "evidence_status": "Projection of records, not additional corroboration or admitted research.",
   "kind": "daily_scroll",
-  "manifest_hash": "ae54822c919d5007bb691117f4096914d9abc5f9568a38117d2466a9c78f1b26",
+  "manifest_hash": "02fc100c7a23f68483dc9ce52c681a109a91c8b915b55db337ecdeed4115d51a",
   "recent_runs": [
     {
       "changed_source_count": 7,
@@ -72,13 +72,13 @@
       "changed_source_count": 7,
       "note_ref": "operations/week-one/runs/gh-36485742254-1/HUMAN_NOTE.md",
       "question_id": "Q-RESEARCH-Q01",
-      "result": null,
+      "result": "invalid_response",
       "retrieved_at": "2026-09-28T21:23:57.466186+00:00",
       "run_id": "gh-36485742254-1",
       "source_ref": "operations/week-one/runs/gh-36485742254-1/sources.json",
       "started_at": "2026-09-28T21:23:56.762070+00:00",
-      "status": "prepared",
-      "summary": "No synthesis recorded."
+      "status": "complete",
+      "summary": "Output contract failed: CycleError"
     }
   ],
   "scope": "Current snapshot of up to 6 recent recorded runs; their original dates remain visible."

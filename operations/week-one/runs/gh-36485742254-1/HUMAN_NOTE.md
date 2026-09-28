@@ -1,6 +1,6 @@
 # Week One · gh-36485742254-1
 
-Status: prepared / 
+Status: complete / invalid_response
 
 WHAT MOVED
 
@@ -9,7 +9,7 @@ WHAT MOVED
 - eia-energy: retrieved (19 items returned)
 - nws-ca: retrieved (8 items returned)
 
-Public sensing is recorded; a synthesis is not available in this run.
+Output contract failed: CycleError
 
 Source selection is bounded. Retrieval date is separate from event time.
 

@@ -2,7 +2,7 @@
 
 Current snapshot of up to 6 recent recorded runs; their original dates remain visible.
 
-As of 2026-09-28T21:23:57.598603+00:00.
+As of 2026-09-28T21:24:35.516214+00:00.
 
 Projection of records, not additional corroboration or admitted research.
 
@@ -48,8 +48,8 @@ UNKNOWN
 
 ## gh-36485742254-1
 
-2026-09-28T21:23:56.762070+00:00 · prepared / None
+2026-09-28T21:23:56.762070+00:00 · complete / invalid_response
 
-No synthesis recorded.
+Output contract failed: CycleError
 
 [Saved note](runs/gh-36485742254-1/HUMAN_NOTE.md) · 7 changed selected source records.

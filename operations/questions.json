@@ -943,7 +943,16 @@
             }
           },
           "request_sha256": "82502be825794405a49924df5850ecae20dc1e0ba5e5ad30d32b10c0b98b7dba",
-          "result": null
+          "result": {
+            "category": "invalid_response",
+            "details": {
+              "outcome_path": "operations/week-one/runs/gh-36485742254-1/outcome.json",
+              "reason": "Output contract failed: CycleError",
+              "receipt": null,
+              "run_id": "gh-36485742254-1"
+            },
+            "recorded_at": "2026-09-28T21:24:35.425754+00:00"
+          }
         },
         "ATT-F0AA8CA75B1B4EE284AC1B39733FCD12": {
           "attempt_id": "ATT-F0AA8CA75B1B4EE284AC1B39733FCD12",
@@ -1086,12 +1095,7 @@
           }
         }
       },
-      "claim": {
-        "actor": "Week One Answer Bee / OpenRouter / Nvidia",
-        "epoch": 1,
-        "expires_at": "2026-09-28T22:23:57.489478+00:00",
-        "token": "f72baf9774bf4b0b8d18f04d0ae2aee4"
-      },
+      "claim": null,
       "context_refs": [
         "Resilience_Cascade_STATE.json#QUESTIONS_TO_WATCH/Q01",
         "RC-004; evidence cutoff 2026-09-21; reread before use"
@@ -1111,7 +1115,7 @@
           "question_id": "Q-MEANING-TRANSLATION-BOSS"
         }
       ],
-      "status": "answering",
+      "status": "open",
       "tickets": {}
     },
     "Q-RESEARCH-Q02": {
