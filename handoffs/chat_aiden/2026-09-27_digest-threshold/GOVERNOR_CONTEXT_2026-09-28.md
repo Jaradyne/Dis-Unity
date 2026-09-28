@@ -11,7 +11,7 @@ Status: **advisory context only.** This is the bounded Governor-facing projectio
 
 ## Saṃskāra Morphology
 
-Jared adopts **Saṃskāra Morphology** as the name of the Governor's cultural skill tree.
+Jared adopts **Saṃskāra Morphology** as the name of the Governor's cultural skill tree. In this project, **saṃskāra** names the formative-groove metaphor within that system.
 
 The project's usage is deliberately narrow: experience can leave formative dispositions or grooves that change later attention and action. A morphology may add an affordance, obligation, inhibition, inspection practice or route. It is more than a badge and more than memory.
 
