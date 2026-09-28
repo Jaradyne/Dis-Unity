@@ -22,6 +22,7 @@ import questions
 import reflections
 import governor_inbox
 import scout
+import api_records
 
 BASE = Path('operations/week-one')
 ACTOR = 'Week One Answer Bee / OpenRouter / Nvidia'
@@ -87,8 +88,8 @@ def source_fetch(url, accept):
     scout.checked_url(url, ['www.eia.gov', 'api.weather.gov'])
     req = urllib.request.Request(url, headers={
         'User-Agent': 'Dis-Unity-Week-One/1 (https://github.com/Jaradyne/Dis-Unity)', 'Accept': accept})
-    with urllib.request.build_opener(scout.NoRedirect()).open(req, timeout=25) as response:
-        data = response.read(1_000_001)
+    data, _ = api_records.http(req, opener=urllib.request.build_opener(scout.NoRedirect()),
+                               timeout=25, max_bytes=1_000_000)
     if len(data) > 1_000_000:
         raise cycle.CycleError('Source exceeded byte bound')
     return data
@@ -418,6 +419,7 @@ def ingest_thought_partners(root):
     return records
 
 
+@api_records.recorded_run
 def prepare(root, rid, *, now=None, fetcher=source_fetch):
     run_path(rid, 'check')
     cfg, state, stamp = catalog(root), manifest(root), clock(now)
@@ -545,7 +547,9 @@ def prepare(root, rid, *, now=None, fetcher=source_fetch):
     return {'status': rec['status'], 'run_id': rid, 'result': rec.get('result')}
 
 
+@api_records.recorded_run
 def execute(root, rid):
+    api_records.ACTIVE.get().checkpoint = lambda: durable(root)
     state = manifest(root)
     rec = state['runs'].get(rid)
     if not rec or rec['status'] != 'prepared':
@@ -642,12 +646,13 @@ def finalize(root, rid):
 
 
 def render(root):
+    api_records.publish(root)
     state = manifest(root)
     cfg = catalog(root)
     lines = ['# Week One Meaning Web', '', f"Window: {cfg['starts_at']} through {cfg['ends_at']} (UTC).", '',
              'Operational records are provisional. The admitted research state remains RC-004.', '',
              'Each provider attempt reads public sources, a shared Question and the reflection mailbox. The Answer Bee leaves worker contributions; Governor review is paused.', '',
-             '[Restart and handoff](https://github.com/Jaradyne/Dis-Unity/blob/main/WEEK_ONE_HANDOFF.md) · [Direct Governor inbox](GOVERNOR_INBOX.md)', '',
+             '[Restart and handoff](https://github.com/Jaradyne/Dis-Unity/blob/main/WEEK_ONE_HANDOFF.md) · [Direct Governor inbox](GOVERNOR_INBOX.md) · [API ledger for digestion](../../digestion/threshold/api/interactions.csv)', '',
              '| Run | Status | Question | Sources / output |', '|---|---|---|---|']
     for rid, rec in reversed(list(state['runs'].items())):
         lines.append(f"| {rid} | {rec['status']} / {rec.get('result', '')} | {rec.get('question_id', '')} | [Sources](runs/{rid}/sources.json) · [Note](runs/{rid}/HUMAN_NOTE.md) |")

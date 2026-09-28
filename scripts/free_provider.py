@@ -11,6 +11,7 @@ import urllib.request
 
 import cycle
 import scout
+import api_records
 
 MODEL = "nvidia/nemotron-3-super-120b-a12b:free"
 CATALOG = f"https://openrouter.ai/api/v1/models/{MODEL}/endpoints"
@@ -45,19 +46,19 @@ def request_json(url, *, payload=None, key=None):
         data = json.dumps(payload, ensure_ascii=False).encode("utf-8")
     request = urllib.request.Request(url, headers=headers, data=data)
     try:
-        with urllib.request.build_opener(scout.NoRedirect()).open(request, timeout=120 if data else 25) as response:
-            body = response.read(512001)
+        body, status = api_records.http(request, opener=urllib.request.build_opener(scout.NoRedirect()),
+                                       timeout=120 if data else 25, max_bytes=512000)
         if len(body) > 512000:
             raise ProviderFailure("invalid_response", "Response exceeded size bound", brake=True)
         value = json.loads(body)
         if not isinstance(value, dict):
             raise ValueError('Response must be an object')
-        value['_transport'] = {'http_status': response.status}
+        value['_transport'] = {'http_status': status}
         return value
     except urllib.error.HTTPError as exc:
         # Retain typed diagnostics, never raw messages/bodies which can echo secrets.
         try:
-            value = json.loads(exc.read(16000))
+            value = json.loads(exc.read(512001))
         except (ValueError, OSError):
             value = {}
         if not isinstance(value, dict):
@@ -65,6 +66,9 @@ def request_json(url, *, payload=None, key=None):
         value.setdefault('error', {'code': exc.code})
         value['_transport'] = {'http_status': exc.code}
         safe = public_response(value)
+        if 300 <= exc.code < 400:
+            raise ProviderFailure('policy_blocked', 'Unapproved redirect; no alternate URL fetched',
+                                  brake=True, diagnostics=safe) from None
         try:
             if isinstance(safe.get('usage'), dict):
                 check_spend(safe['usage'].get('cost'))

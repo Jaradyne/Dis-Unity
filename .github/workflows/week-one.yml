@@ -6,6 +6,7 @@ on:
     paths:
       - 'scripts/week_one*.py'
       - 'scripts/free_provider.py'
+      - 'scripts/api_records.py'
       - 'config/week-one.json'
       - '.github/workflows/week-one.yml'
   schedule:
