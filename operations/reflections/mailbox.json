@@ -408,6 +408,31 @@
       "summary": "Provider attempt recorded: policy_blocked",
       "uncertainties": []
     },
+    "REFL-47C664839280B7C1D0320391": {
+      "actor": "Week One Answer Bee / OpenRouter / Nvidia",
+      "context": {
+        "attempt_id": "ATT-133314ADD95A45FCB54FC8F4F4B58408",
+        "call_id": "ATT-133314ADD95A45FCB54FC8F4F4B58408",
+        "model": "nvidia/nemotron-3-super-120b-a12b:free",
+        "parent_call_id": "gh-36362719964-1",
+        "provider": "openrouter",
+        "question_id": "Q-RESEARCH-Q01",
+        "run_id": "gh-36362719964-1"
+      },
+      "created_at": "2026-09-28T00:35:19.009169+00:00",
+      "level": "worker",
+      "observations": [],
+      "origin": "self_report",
+      "questions": [],
+      "reflection_id": "REFL-47C664839280B7C1D0320391",
+      "related_reflection_ids": [],
+      "source_refs": [],
+      "suggestions": [],
+      "summary": "Recognized lack of direct data linking fuel costs to missed essential deliveries.",
+      "uncertainties": [
+        "Whether future runs will include actual EIA numeric data rather than just metadata."
+      ]
+    },
     "REFL-54E4132D37943184376CDCCF": {
       "actor": "ChatGPT Week One Governor task",
       "context": {
@@ -575,6 +600,33 @@
       "uncertainties": [
         "Advisory design material; later linked discussion may refine earlier wording."
       ]
+    },
+    "REFL-6A0519C184C6486F23848994": {
+      "actor": "Week One Answer Bee / OpenRouter / Nvidia",
+      "context": {
+        "attempt_id": "ATT-133314ADD95A45FCB54FC8F4F4B58408",
+        "kind": "peer_reflection",
+        "run_id": "gh-36362719964-1"
+      },
+      "created_at": "2026-09-28T00:35:19.013568+00:00",
+      "level": "worker",
+      "observations": [
+        "Always verify that source metadata includes actual measurements before drawing causal links."
+      ],
+      "origin": "self_report",
+      "questions": [],
+      "reflection_id": "REFL-6A0519C184C6486F23848994",
+      "related_reflection_ids": [
+        "REFL-ACF703142CAB4421C5204F8F",
+        "REFL-EF65F6C723F12BE657BC6AAC",
+        "REFL-6E62A0E5C35996AD2FC3B631"
+      ],
+      "source_refs": [],
+      "suggestions": [
+        "Chat Aiden: Can we integrate external diesel price datasets to assess impact on essential deliveries?"
+      ],
+      "summary": "All selected reflections note that the retrieved feeds and alerts do not measure delivery performance, stocks, or caregiver capacity.",
+      "uncertainties": []
     },
     "REFL-6A91C315D44D366A729829FB": {
       "actor": "Week One public scout",

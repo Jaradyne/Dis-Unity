@@ -112,6 +112,23 @@
             "summary": "UNKNOWN – the supplied evidence does not measure delivery performance or the effect of fuel costs on essential deliveries."
           },
           "question_id": "Q-RESEARCH-Q01"
+        },
+        "ANS-C0DF398FE3BC7CB91E6F41B6": {
+          "actor": "Week One Answer Bee / OpenRouter / Nvidia",
+          "answer_id": "ANS-C0DF398FE3BC7CB91E6F41B6",
+          "attempt_id": "ATT-133314ADD95A45FCB54FC8F4F4B58408",
+          "created_at": "2026-09-28T00:35:18.997241+00:00",
+          "epoch": 1,
+          "payload": {
+            "counterevidence": [],
+            "evidence_refs": [],
+            "limitations": [
+              "No actual fuel cost or delivery performance data supplied; only feed metadata."
+            ],
+            "status": "provisional",
+            "summary": "UNKNOWN"
+          },
+          "question_id": "Q-RESEARCH-Q01"
         }
       },
       "attempts": {
@@ -257,7 +274,26 @@
             }
           },
           "request_sha256": "e1d2fb40748ac979ba697a9af008266abf616a1ff90f0caafdf5a5dcf8ac069c",
-          "result": null
+          "result": {
+            "category": "partial_answer",
+            "details": {
+              "outcome_path": "operations/week-one/runs/gh-36362719964-1/outcome.json",
+              "reason": null,
+              "receipt": {
+                "id": "gen-1790555692-ZAd4cuoOMpGgNH49719L",
+                "is_byok": false,
+                "model": "nvidia/nemotron-3-super-120b-a12b:free",
+                "provider_name": "Nvidia",
+                "source": "inline_usage",
+                "tokens_completion": 1911,
+                "tokens_prompt": 17377,
+                "total_cost": 0,
+                "verified_at": "2026-09-28T00:35:17.304103+00:00"
+              },
+              "run_id": "gh-36362719964-1"
+            },
+            "recorded_at": "2026-09-28T00:35:18.978669+00:00"
+          }
         },
         "ATT-400018C15B8047E184B972B9BB95D02F": {
           "attempt_id": "ATT-400018C15B8047E184B972B9BB95D02F",
@@ -906,12 +942,7 @@
           }
         }
       },
-      "claim": {
-        "actor": "Week One Answer Bee / OpenRouter / Nvidia",
-        "epoch": 1,
-        "expires_at": "2026-09-28T01:34:50.476370+00:00",
-        "token": "4cb12fadf65a4c19b278e69ed394142d"
-      },
+      "claim": null,
       "context_refs": [
         "Resilience_Cascade_STATE.json#QUESTIONS_TO_WATCH/Q01",
         "RC-004; evidence cutoff 2026-09-21; reread before use"
@@ -931,7 +962,7 @@
           "question_id": "Q-MEANING-TRANSLATION-BOSS"
         }
       ],
-      "status": "answering",
+      "status": "open",
       "tickets": {}
     },
     "Q-RESEARCH-Q02": {

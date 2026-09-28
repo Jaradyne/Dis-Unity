@@ -1,12 +1,12 @@
 {
-  "as_of": "2026-09-28T00:34:50.527502+00:00",
+  "as_of": "2026-09-28T00:35:19.040378+00:00",
   "brake": null,
   "closed": false,
   "closure_reason": null,
-  "cooldown_until": "2026-09-25T18:17:13.108690+00:00",
+  "cooldown_until": null,
   "evidence_status": "Projection of records, not additional corroboration or admitted research.",
   "kind": "daily_scroll",
-  "manifest_hash": "6902f28a074ddf8f2c08deb5f3df21ca51812104dc0c3b3e07c0f8c00ef86c80",
+  "manifest_hash": "5ec5bbc2a66ee005f7463afa33a11ded11d3b21366caccb1a436e95752ef8488",
   "recent_runs": [
     {
       "changed_source_count": 5,
@@ -72,13 +72,13 @@
       "changed_source_count": 6,
       "note_ref": "operations/week-one/runs/gh-36362719964-1/HUMAN_NOTE.md",
       "question_id": "Q-RESEARCH-Q01",
-      "result": null,
+      "result": "partial_answer",
       "retrieved_at": "2026-09-28T00:34:50.460595+00:00",
       "run_id": "gh-36362719964-1",
       "source_ref": "operations/week-one/runs/gh-36362719964-1/sources.json",
       "started_at": "2026-09-28T00:34:50.009747+00:00",
-      "status": "prepared",
-      "summary": "No synthesis recorded."
+      "status": "complete",
+      "summary": "UNKNOWN"
     }
   ],
   "scope": "Current snapshot of up to 6 recent recorded runs; their original dates remain visible."
