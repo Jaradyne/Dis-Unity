@@ -613,6 +613,48 @@
         "Selected feeds and alerts do not measure delivery performance, stocks or caregiver capacity."
       ]
     },
+    "REFL-6CA2884BD500ABC0524169FE": {
+      "actor": "Week One public scout",
+      "context": {
+        "call_id": "gh-36362719964-1-scouts",
+        "parent_call_id": "gh-36362719964-1",
+        "run_id": "gh-36362719964-1"
+      },
+      "created_at": "2026-09-28T00:34:50.464778+00:00",
+      "level": "subcall",
+      "observations": [
+        "eia-diesel: retrieved",
+        "eia-energy: retrieved",
+        "nws-ca: retrieved"
+      ],
+      "origin": "runtime_observation",
+      "questions": [],
+      "reflection_id": "REFL-6CA2884BD500ABC0524169FE",
+      "related_reflection_ids": [],
+      "source_refs": [
+        "SRC-W1-97CA29FEC390AC98",
+        "SRC-W1-93542D2CCEC68444",
+        "SRC-W1-58C06D6CE3142B01",
+        "SRC-W1-3FBA3F47A07802CD",
+        "SRC-W1-FFE6A0A14DE87E65",
+        "SRC-W1-F747527A9994E424",
+        "SRC-W1-F24F2017CB8B569A",
+        "SRC-W1-EA0E3BBF8954AC5B",
+        "SRC-W1-40C0E8B3F06E6D70",
+        "SRC-W1-486176C5BFF47F40",
+        "SRC-W1-4D2B841E83B83F0B",
+        "SRC-W1-56C6E565D885E991",
+        "SRC-W1-F06F411C1B2902C6",
+        "SRC-W1-F6F4BAC0FCE23040",
+        "SRC-W1-2C6DE3AA6C4002A7",
+        "SRC-W1-E47BF34E72307B8B"
+      ],
+      "suggestions": [],
+      "summary": "Retrieved 3/3 public surfaces; 6 new/changed selected items.",
+      "uncertainties": [
+        "Selected feeds and alerts do not measure delivery performance, stocks or caregiver capacity."
+      ]
+    },
     "REFL-6E62A0E5C35996AD2FC3B631": {
       "actor": "Week One public scout",
       "context": {
@@ -1145,6 +1187,32 @@
       "suggestions": [],
       "summary": "Recognizing when available data are insufficient prevents premature conclusions and guides toward more targeted evidence collection.",
       "uncertainties": []
+    },
+    "REFL-E237ED2361AEA2AFD7B4F4AB": {
+      "actor": "Work Aiden / operator decision integration",
+      "context": {
+        "decision_id": "OR-RETIRE-20260928-01",
+        "generation_id": "gen-1790241783-S8W2Vc6pfpCKlAE4OrBL"
+      },
+      "created_at": "2026-09-28T00:34:50.014726+00:00",
+      "level": "coordinator",
+      "observations": [
+        "The original request, empty saved response and failed audit attempts remain intact."
+      ],
+      "origin": "coordinator_note",
+      "questions": [],
+      "reflection_id": "REFL-E237ED2361AEA2AFD7B4F4AB",
+      "related_reflection_ids": [],
+      "source_refs": [
+        "config/provider-dispositions.json"
+      ],
+      "suggestions": [
+        "Retain typed API errors so a failed response is not mistaken for a completion awaiting a receipt."
+      ],
+      "summary": "Jared checked the dashboard, reports no charge, and authorized moving on from this unverified historical generation.",
+      "uncertainties": [
+        "The historical API receipt and original discarded error body remain unavailable."
+      ]
     },
     "REFL-E26E7466C1A1235EFDD0E612": {
       "actor": "Week One public scout",

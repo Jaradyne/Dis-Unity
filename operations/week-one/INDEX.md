@@ -4,12 +4,13 @@ Window: 2026-09-24T07:45:13+00:00 through 2026-10-04T07:45:13+00:00 (UTC).
 
 Operational records are provisional. The admitted research state remains RC-004.
 
-Each provider attempt reads public sources, a shared Question and the reflection mailbox. The Governor lens leaves attributed responses and proposals.
+Each provider attempt reads public sources, a shared Question and the reflection mailbox. The Answer Bee leaves worker contributions; Governor review is paused.
 
 [Restart and handoff](https://github.com/Jaradyne/Dis-Unity/blob/main/WEEK_ONE_HANDOFF.md) · [Direct Governor inbox](GOVERNOR_INBOX.md)
 
 | Run | Status | Question | Sources / output |
 |---|---|---|---|
+| gh-36362719964-1 | prepared /  | Q-RESEARCH-Q01 | [Sources](runs/gh-36362719964-1/sources.json) · [Note](runs/gh-36362719964-1/HUMAN_NOTE.md) |
 | gh-36343843057-1 | deferred / operator_review_required |  | [Sources](runs/gh-36343843057-1/sources.json) · [Note](runs/gh-36343843057-1/HUMAN_NOTE.md) |
 | gh-36341976372-1 | deferred / operator_review_required |  | [Sources](runs/gh-36341976372-1/sources.json) · [Note](runs/gh-36341976372-1/HUMAN_NOTE.md) |
 | gh-36309693193-1 | deferred / operator_review_required |  | [Sources](runs/gh-36309693193-1/sources.json) · [Note](runs/gh-36309693193-1/HUMAN_NOTE.md) |
@@ -30,8 +31,10 @@ Each provider attempt reads public sources, a shared Question and the reflection
 | gh-35971974980-1 | deferred / operator_review_required |  | [Sources](runs/gh-35971974980-1/sources.json) · [Note](runs/gh-35971974980-1/HUMAN_NOTE.md) |
 | gh-35971438628-1 | complete / auth_or_configuration_error | Q-RESEARCH-Q01 | [Sources](runs/gh-35971438628-1/sources.json) · [Note](runs/gh-35971438628-1/HUMAN_NOTE.md) |
 
-Provider brake: {"at": "2026-09-27T19:18:07.663779+00:00", "reason": "Saved generation reached its three-attempt recovery limit", "run_id": "gh-36166138616-1"}
+Provider brake: null
 Cooldown until: 2026-09-25T18:17:13.108690+00:00
 
 Public-source coverage: EIA diesel/energy feed metadata and up to 12 NWS California active alerts.
 Research publication, source access, current operating capacity and model interpretation have separate provenance.
+
+Operator disposition OR-RETIRE-20260928-01: gen-1790241783-S8W2Vc6pfpCKlAE4OrBL is retired_unverified; API receipt remains unverified. See main:config/provider-dispositions.json.

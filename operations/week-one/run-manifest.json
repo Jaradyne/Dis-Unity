@@ -1,11 +1,30 @@
 {
-  "brake": {
-    "at": "2026-09-27T19:18:07.663779+00:00",
-    "reason": "Saved generation reached its three-attempt recovery limit",
-    "run_id": "gh-36166138616-1"
-  },
+  "brake": null,
   "closed": false,
   "cooldown_until": "2026-09-25T18:17:13.108690+00:00",
+  "operator_dispositions": {
+    "OR-RETIRE-20260928-01": {
+      "account_observation": {
+        "actor": "Jared",
+        "independently_inspected_by_Work": false,
+        "observation": "No charge visible.",
+        "observed_at": "2026-09-28T00:19:24Z",
+        "source": "user report from OpenRouter dashboard"
+      },
+      "applied_at": "2026-09-28T00:34:50.013231+00:00",
+      "authorization": "Jared explicitly said we can move on even if the receipt is unknown. Retire this historical incomplete interaction while preserving its evidence and the existing free-only route, NO GROQ, budgets, and stop-on-positive-cost behavior.",
+      "decision_sha256": "5fdbe1e6f7636cf58fc0d80e882aba654de6109a5911bed2c127cdd3c0ddee27",
+      "disposition": "retired_unverified",
+      "generation_id": "gen-1790241783-S8W2Vc6pfpCKlAE4OrBL",
+      "previous_brake": {
+        "at": "2026-09-27T19:18:07.663779+00:00",
+        "reason": "Saved generation reached its three-attempt recovery limit",
+        "run_id": "gh-36166138616-1"
+      },
+      "receipt_verified": false,
+      "source_ref": "config/provider-dispositions.json"
+    }
+  },
   "operator_reflight": {
     "authorized_at": "2026-09-24T09:22:00Z",
     "authorized_by": "Jared",
@@ -125,6 +144,7 @@
       "epoch": 1,
       "execution_url": "https://github.com/Jaradyne/Dis-Unity/actions/runs/35980783938",
       "finished_at": "2026-09-24T09:23:05.626575+00:00",
+      "operator_disposition": "OR-RETIRE-20260928-01",
       "operator_reflight": {
         "authorized_at": "2026-09-24T09:22:00Z",
         "authorized_by": "Jared",
@@ -166,6 +186,7 @@
       "epoch": 1,
       "execution_url": "https://github.com/Jaradyne/Dis-Unity/actions/runs/35981423237",
       "finished_at": "2026-09-24T09:29:08.318279+00:00",
+      "operator_disposition": "OR-RETIRE-20260928-01",
       "post_reserved": 0,
       "question_id": "Q-RESEARCH-Q01",
       "recovered_by": "gh-36166138616-1",
@@ -226,6 +247,7 @@
       "epoch": 1,
       "execution_url": "https://github.com/Jaradyne/Dis-Unity/actions/runs/36166138616",
       "finished_at": "2026-09-25T17:17:13.108690+00:00",
+      "operator_disposition": "OR-RETIRE-20260928-01",
       "post_reserved": 0,
       "question_id": "Q-RESEARCH-Q01",
       "recovery_from": "gh-35981423237-2",
@@ -332,6 +354,23 @@
       "sources": "operations/week-one/runs/gh-36343843057-1/sources.json",
       "started_at": "2026-09-27T19:18:07.620673+00:00",
       "status": "deferred"
+    },
+    "gh-36362719964-1": {
+      "attempt_id": "ATT-133314ADD95A45FCB54FC8F4F4B58408",
+      "audit_tries": 1,
+      "epoch": 1,
+      "execution_url": "https://github.com/Jaradyne/Dis-Unity/actions/runs/36362719964",
+      "post_reserved": 1,
+      "question_id": "Q-RESEARCH-Q01",
+      "recovery_from": null,
+      "run_id": "gh-36362719964-1",
+      "scout_reflections": [
+        "REFL-6CA2884BD500ABC0524169FE"
+      ],
+      "slot": "20260928-AM",
+      "sources": "operations/week-one/runs/gh-36362719964-1/sources.json",
+      "started_at": "2026-09-28T00:34:50.009747+00:00",
+      "status": "prepared"
     }
   },
   "version": 1

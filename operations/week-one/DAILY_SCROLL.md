@@ -2,17 +2,9 @@
 
 Current snapshot of up to 6 recent recorded runs; their original dates remain visible.
 
-As of 2026-09-27T19:18:08.236863+00:00.
+As of 2026-09-28T00:34:50.527502+00:00.
 
 Projection of records, not additional corroboration or admitted research.
-
-## gh-36230966851-1
-
-2026-09-26T08:50:11.117772+00:00 · deferred / operator_review_required
-
-No synthesis recorded.
-
-[Saved note](runs/gh-36230966851-1/HUMAN_NOTE.md) · 3 changed selected source records.
 
 ## gh-36263567422-1
 
@@ -53,3 +45,11 @@ No synthesis recorded.
 No synthesis recorded.
 
 [Saved note](runs/gh-36343843057-1/HUMAN_NOTE.md) · 2 changed selected source records.
+
+## gh-36362719964-1
+
+2026-09-28T00:34:50.009747+00:00 · prepared / None
+
+No synthesis recorded.
+
+[Saved note](runs/gh-36362719964-1/HUMAN_NOTE.md) · 6 changed selected source records.
