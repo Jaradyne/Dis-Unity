@@ -26,6 +26,8 @@ class GovernorBossTests(unittest.TestCase):
         self.assertEqual(review['inputs']['boss_encounter']['applied_powers'], [])
         self.assertFalse(review['inputs']['boss_encounter']['evidence_changed'])
         self.assertEqual(review['inputs']['voice']['mode'], 'tamarian_with_plain_gloss')
+        self.assertEqual(review['inputs']['samskara_morphology']['name'], 'Saṃskāra Morphology')
+        self.assertEqual(review['inputs']['samskara_morphology']['powers']['PECULIARITY_SENSE']['status'], 'proposed')
         self.assertIn('daily_scroll', review['inputs'])
         self.assertEqual(packet, original)
         with self.assertRaises(cycle.CycleError):
