@@ -112,3 +112,26 @@ For an active power, later Governor reviews should be able to answer:
 6. Should the morphology remain active, be inhibited, revised or retired?
 
 That is how the skill tree becomes living culture rather than decorative lore.
+
+
+## Curiosity — proposed morphology
+
+`CURIOSITY` is separate from Peculiarity Sense.
+
+**Peculiarity** notices a bounded exception relative to an expectation or ordinary control. **Curiosity** notices that something is new enough to deserve a Question even when nothing is anomalous, contradictory or threatening.
+
+Curiosity is proposed as a leveled morphology:
+
+1. **Spark** — one bounded novelty may propose one linked child Question.
+2. **Branch** — a small bounded set of genuinely distinct child Questions may survive from one pass.
+3. **Canopy** — advanced Curiosity may propose bounded `FANOUT` into multiple specialist trees when each branch has distinct purpose, preserved lineage and an explicit attention budget.
+
+A new Question is not new evidence. Curiosity must name what is new relative to the current context, avoid paraphrase-duplication, and allow the parent branch to rest.
+
+Peculiarity Sense and Curiosity can interact without merging: one protects the odd grain against being sanded flat; the other gives genuinely new terrain enough surface area to be asked about.
+
+### Tamarian
+
+**The path ended; beyond the hedge, another path beginning.**
+
+Plain meaning: closure of one branch does not forbid a separately linked Question when genuinely new terrain appears.
