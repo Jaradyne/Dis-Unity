@@ -6,10 +6,11 @@ Operational records are provisional. The admitted research state remains RC-004.
 
 Each provider attempt reads public sources, a shared Question and the reflection mailbox. The Answer Bee leaves worker contributions; Governor review is paused.
 
-[Restart and handoff](https://github.com/Jaradyne/Dis-Unity/blob/main/WEEK_ONE_HANDOFF.md) · [Direct Governor inbox](GOVERNOR_INBOX.md)
+[Restart and handoff](https://github.com/Jaradyne/Dis-Unity/blob/main/WEEK_ONE_HANDOFF.md) · [Direct Governor inbox](GOVERNOR_INBOX.md) · [API ledger for digestion](../../digestion/threshold/api/interactions.csv)
 
 | Run | Status | Question | Sources / output |
 |---|---|---|---|
+| gh-36485742254-1 | prepared /  | Q-RESEARCH-Q01 | [Sources](runs/gh-36485742254-1/sources.json) · [Note](runs/gh-36485742254-1/HUMAN_NOTE.md) |
 | gh-36362719964-1 | complete / partial_answer | Q-RESEARCH-Q01 | [Sources](runs/gh-36362719964-1/sources.json) · [Note](runs/gh-36362719964-1/HUMAN_NOTE.md) |
 | gh-36343843057-1 | deferred / operator_review_required |  | [Sources](runs/gh-36343843057-1/sources.json) · [Note](runs/gh-36343843057-1/HUMAN_NOTE.md) |
 | gh-36341976372-1 | deferred / operator_review_required |  | [Sources](runs/gh-36341976372-1/sources.json) · [Note](runs/gh-36341976372-1/HUMAN_NOTE.md) |
