@@ -376,3 +376,49 @@ This implements the **skill-tree container and cultural contract**, not an auton
 **Do not sand the strange thing flat. Do not worship it either.**
 
 That is a useful first morphology because it adds surface area without making curiosity compulsory.
+
+
+## Fourth digestion — curiosity, customs coverage and Minotaur
+
+### Curiosity belongs beside Peculiarity, not inside it
+
+Jared identifies **Curiosity** as its own Governor power-up. Novelty may justify a new Question even when no anomaly exists.
+
+Saṃskāra Morphology now contains proposed `CURIOSITY` with a growth path:
+- **Spark** — one bounded novelty may propose one linked Question;
+- **Branch** — a small bounded set of genuinely distinct child Questions;
+- **Canopy** — advanced bounded FANOUT into multiple specialist trees with preserved lineage and an explicit attention budget.
+
+Peculiarity Sense remains narrower: it protects an exception relative to a baseline. Curiosity creates question surface area from new terrain. Neither turns questions into evidence.
+
+### Customs now has a global archetype
+
+See `docs/CUSTOMS_AUTHORITY_ARCHETYPE.md`.
+
+Apply the archetype through:
+`continent -> national/customs-union jurisdiction -> regional/state/provincial interface -> city/port-of-entry instance`
+
+Support sea, air, land, rail, inland/dry-port, postal/express and free-zone/special-regime gateways. The architecture should cover Africa, Asia, Europe, North America, South America, Oceania and an Antarctica special-case gateway/logistics overlay without pretending Antarctic logistics are an ordinary national-customs jurisdiction.
+
+Every Customs instance gets the cheap language glance.
+
+Enforcement must remain typed:
+`AUTHORIZED -> PLANNED -> RESOURCED -> REPORTED_EVENT -> OBSERVED_ACTIVITY -> MEASURED_VOLUME -> AUDITED_OUTCOME`, with `UNKNOWN` available at every gap.
+
+Expected staffing, authorized headcount, targets and modeled throughput are **not actual enforcement numbers**. Preserve time period, unit, denominator, source and evidence state for every operational figure.
+
+### Minotaur of Translation — design direction to discuss with Jared
+
+The Minotaur should not duplicate Curiosity, Peculiarity Sense or the Mirror Lady's possible dissent reward.
+
+A strong gameplay fit is **lineage through transformation**.
+
+The player carries a central paragraph/claim through a labyrinth. Rooms transform it through translation, summary, legal/technical terminology, omitted qualifiers, changed actors, reordered clauses or domain handoffs. The challenge is not to find one "correct English" string. It is to preserve which meaning components stayed invariant, explicitly mark which changed, and retain a path back to the originating surface.
+
+The Minotaur can pressure shortcuts: apparently equivalent doors that save distance but lose provenance or collapse a distinction. A thread/marker mechanic can let the player preserve a route back through the maze.
+
+Candidate reward/power concept for later discussion: **Ariadne / Golden Thread / Thread of Return** — an ability to trace a claim, translation, clone or summary back through its transformation lineage and recover the last point where meaning/evidence changed. Do not add this as a Governor power until Jared chooses the name and actual gameplay lesson.
+
+Possible Tamarian:
+**The walls turning, the thread still warm in the hand.**
+Plain meaning: transformations may accumulate, but preserved lineage lets the Governor return to where a meaning changed.
