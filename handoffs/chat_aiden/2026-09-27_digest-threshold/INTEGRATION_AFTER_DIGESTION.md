@@ -422,3 +422,30 @@ Candidate reward/power concept for later discussion: **Ariadne / Golden Thread /
 Possible Tamarian:
 **The walls turning, the thread still warm in the hand.**
 Plain meaning: transformations may accumulate, but preserved lineage lets the Governor return to where a meaning changed.
+
+
+## Fifth digestion — keep the original Minotaur, preserve traceback as a later idea
+
+Jared prefers the original **Minotaur of Translation** gameplay as the core design: a maze in which the player carries the paragraph toward the center. Keep that as the primary encounter. Do not replace it with Digest Aiden's heavier transformation-lineage simulation.
+
+Digest's lineage idea may still fit as **optional seasoning**:
+- a few maze moments may expose or hint at altered wording, summaries, terminology or lost context;
+- a thread/marker mechanic may help the player remember a route;
+- none of this should displace the basic maze objective or make every room a provenance exercise.
+
+The more interesting part may be the **reward / later Governor power idea**, not the boss mechanic itself.
+
+Candidate concept for Chat to discuss with Jared:
+- **Traceback / Thread of Return / Ariadne-style power**;
+- given two claims, translations, summaries, memories or descendant branches, ask: **"When did these last mean the same thing?"**
+- walk backward through preserved lineage to find the last shared meaning-state and the first consequential divergence;
+- support delayed reflection long after the original transformation, rather than requiring immediate suspicion at the moment of change;
+- distinguish changes in wording from changes in actor, scope, obligation, certainty, evidence status or source lineage.
+
+This could become a powerful non-immediate reflective morphology later, but **do not register or activate it yet**. Let the final name and effect emerge after the Minotaur encounter is designed and played.
+
+Possible Tamarian remains useful as an image, not as a commitment to gameplay:
+
+**The walls turning, the thread still warm in the hand.**
+
+Plain meaning: after many transformations, preserved lineage may still let the Governor return to the point where two meanings parted.
