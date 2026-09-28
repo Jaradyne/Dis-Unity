@@ -9,7 +9,8 @@ import tempfile
 
 ROOT = Path(__file__).resolve().parents[1]
 BRANCH = 'week-one-state'
-PATHS = ['operations/week-one', 'operations/questions.json', 'operations/reflections/mailbox.json']
+PATHS = ['operations/week-one', 'operations/questions.json', 'operations/reflections/mailbox.json',
+         'digestion/threshold/api']
 
 
 def git(*args, cwd=ROOT, check=True):
@@ -31,7 +32,11 @@ def main():
         tree = git('ls-tree', '-r', f'origin/{BRANCH}', '--', *PATHS).stdout
         if any(line.split()[0] != '100644' for line in tree.splitlines()):
             raise RuntimeError('State branch contains a non-regular data file')
-        git('restore', '--source', f'origin/{BRANCH}', '--worktree', '--', *PATHS)
+        # New recording folders may not exist on the pre-migration state branch.
+        existing = PATHS[:-1]
+        if git('cat-file', '-e', f'origin/{BRANCH}:{PATHS[-1]}', check=False).returncode == 0:
+            existing = PATHS
+        git('restore', '--source', f'origin/{BRANCH}', '--worktree', '--', *existing)
         baseline.write_text(remote_sha + '\n')
         return
     if not baseline.exists() or baseline.read_text().strip() != remote_sha:

@@ -2,6 +2,8 @@
 
 Owner: Jared. Integration: Work Aiden. Thought partners: Chat Aiden, Governor, workers and voluntary human contributors.
 
+**API recording update:** Jared requests full interaction records and a digestion/threshold record for now. Read `digestion/threshold/README.md`. Each request, response and error is captured before parsing under the run's `api/` directory; credential values are redacted. The state branch holds `digestion/threshold/api/interactions.csv` plus material packets. The compact `provider-response.json` remains a derived projection. Historical rows cannot restore fields discarded before this change. Recording itself makes no extra inference call.
+
 **Current update — 28 September UTC / 27 September Pacific:** Jared reported no OpenRouter dashboard charge and authorized moving on from the specific unresolved generation. Its receipt remains unknown. `config/provider-dispositions.json` retires that interaction and clears only its exhausted-recovery brake; future bounded free-route attempts may proceed. API errors now retain typed diagnostics and are classified before missing-receipt recovery. Read [the record and repair](reports/work-review/2026-09-28-openrouter-recovery.md) and live state for actual results. Jared also authorized continuing without a Governor: the separate scheduled task is disabled, and the Answer Bee contributes worker reflections. Older status paragraphs below are historical where superseded.
 
 ## Run window and entry points

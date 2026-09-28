@@ -11,8 +11,10 @@ import urllib.error
 import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
+import uuid
 
 import cycle
+import api_records
 
 MAX_BYTES = 1_000_000
 
@@ -27,15 +29,17 @@ def checked_url(url, hosts):
 
 class NoRedirect(urllib.request.HTTPRedirectHandler):
     def redirect_request(self, req, fp, code, msg, headers, newurl):
-        raise cycle.CycleError("Sensor redirect needs review; no alternate URL was fetched")
+        # Returning None makes urllib raise HTTPError with the original body and
+        # headers, allowing the journal to retain them without following the URL.
+        return None
 
 
 def fetch(source):
     url = checked_url(source["url"], source["allowed_hosts"])
     request = urllib.request.Request(url, headers={"User-Agent": "Dis-Unity-Public-Scout/0.1",
                                                    "Accept": "application/rss+xml, application/atom+xml, application/xml, text/xml"})
-    with urllib.request.build_opener(NoRedirect()).open(request, timeout=20) as response:
-        body = response.read(MAX_BYTES + 1)
+    body, _ = api_records.http(request, opener=urllib.request.build_opener(NoRedirect()),
+                               timeout=20, max_bytes=MAX_BYTES)
     if len(body) > MAX_BYTES:
         raise cycle.CycleError("Feed exceeded the bounded response size")
     return body
@@ -99,7 +103,8 @@ def run(root, source_id, fetcher=fetch):
     path = root / "operations" / "sensors" / f"{source_id}.json"
     started_at = cycle.now()
     try:
-        body = fetcher(source)
+        with api_records.recording(root, 'scout-' + source_id + '-' + uuid.uuid4().hex[:12]):
+            body = fetcher(source)
         items = parse_feed(body, source["url"])
         result = {"status": "retrieved", "started_at": started_at, "finished_at": cycle.now(),
                   "body_sha256": hashlib.sha256(body).hexdigest(), "items": items}

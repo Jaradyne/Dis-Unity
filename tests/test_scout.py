@@ -29,8 +29,8 @@ class ScoutTests(unittest.TestCase):
                      '<!DOCTYPE rss [<!ENTITY e "x">]><rss/>'.encode("utf-16")]:
             with self.assertRaises(cycle.CycleError):
                 scout.parse_feed(body, "https://www.eia.gov/feed")
-        with self.assertRaises(cycle.CycleError):
-            scout.NoRedirect().redirect_request(None, None, 302, "", {}, "https://other.example")
+        # None rejects redirect following while retaining the original HTTP error.
+        self.assertIsNone(scout.NoRedirect().redirect_request(None, None, 302, "", {}, "https://other.example"))
 
     def test_repeat_is_not_new_and_failure_preserves_last_success(self):
         with tempfile.TemporaryDirectory() as tmp:
