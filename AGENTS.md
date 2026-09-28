@@ -1,5 +1,7 @@
 # Continuing Resilience Cascade
 
+**September 28 UTC / September 27 Pacific:** Jared authorized continuing without a Governor until the repo Governor is ready. The separate scheduled Governor is disabled; the Answer Bee contributes worker reflections, not Governor decisions. Jared also reported no dashboard charge and authorized moving on from the named unresolved OpenRouter generation. Apply only the recorded disposition in `config/provider-dispositions.json`; preserve its unknown receipt and historical records. Read `reports/work-review/2026-09-28-openrouter-recovery.md`. This supersedes older instructions to keep that specific exhausted-recovery brake indefinitely; existing route, budget and stop-on-spend rules remain.
+
 **September 27 continuation:** direct play/digestion inputs now use `operations/governor/inbox/README.md` and `operations/INTEGRATION_2026-09-27.md`. Keep Chat Aiden, Digest Aiden and the separate scheduled repo Governor distinct. Queue status and actual responses are projected on `week-one-state`; input presence alone is not a Governor review.
 
 **September 26 continuation:** read `COMPANION_WEEK_HANDOFF.md` first. Jared extended the existing bounded source/Chat loop through October 3 Pacific; the new configuration ends October 4 at 00:45:13 Pacific. Preserve all existing provider brakes and budgets. Reloadable local encounters let Chat/Jared continue without runtime changes.

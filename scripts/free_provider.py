@@ -18,9 +18,10 @@ ENDPOINT = "https://openrouter.ai/api/v1/chat/completions"
 
 
 class ProviderFailure(Exception):
-    def __init__(self, category, reason, *, brake=False, cooldown_hours=12):
+    def __init__(self, category, reason, *, brake=False, cooldown_hours=12, diagnostics=None):
         super().__init__(reason)
         self.category, self.brake, self.cooldown_hours = category, brake, cooldown_hours
+        self.diagnostics = diagnostics
 
 
 def check_spend(value):
@@ -48,16 +49,29 @@ def request_json(url, *, payload=None, key=None):
             body = response.read(512001)
         if len(body) > 512000:
             raise ProviderFailure("invalid_response", "Response exceeded size bound", brake=True)
-        return json.loads(body)
+        value = json.loads(body)
+        if not isinstance(value, dict):
+            raise ValueError('Response must be an object')
+        value['_transport'] = {'http_status': response.status}
+        return value
     except urllib.error.HTTPError as exc:
-        # Do not persist raw provider error bodies, which can echo request/credential data.
-        if exc.code == 429:
-            raise ProviderFailure("daily_quota_exhausted", "HTTP 429; defer at least 24 hours", cooldown_hours=24) from None
-        if exc.code in (401, 402, 403):
-            raise ProviderFailure("auth_or_configuration_error", f"HTTP {exc.code}; explicit operator review required", brake=True) from None
-        if exc.code in (404, 400, 422):
-            raise ProviderFailure("model_unavailable", f"HTTP {exc.code}; bounded route unavailable") from None
-        raise ProviderFailure("transient_capacity", f"HTTP {exc.code}; retry only in a later unit") from None
+        # Retain typed diagnostics, never raw messages/bodies which can echo secrets.
+        try:
+            value = json.loads(exc.read(16000))
+        except (ValueError, OSError):
+            value = {}
+        if not isinstance(value, dict):
+            value = {}
+        value.setdefault('error', {'code': exc.code})
+        value['_transport'] = {'http_status': exc.code}
+        safe = public_response(value)
+        try:
+            if isinstance(safe.get('usage'), dict):
+                check_spend(safe['usage'].get('cost'))
+            raise_response_error(safe, fallback_code=exc.code)
+        except ProviderFailure as failure:
+            failure.diagnostics = safe
+            raise failure from None
     except (socket.timeout, TimeoutError, urllib.error.URLError):
         raise ProviderFailure("transport_timeout", "Transport did not return a verifiable result; no immediate repeat") from None
     except (ValueError, cycle.CycleError):
@@ -156,6 +170,7 @@ def complete(response, *, transport=request_json, recovery_hours=12):
     verify_routing_metadata(response)
     if response.get('model') and not model_matches(response['model']):
         raise ProviderFailure('policy_blocked', 'Saved response model differs', brake=True)
+    raise_response_error(response)
     key = os.environ.get("OPENROUTER_API_KEY")
     if not key:
         raise ProviderFailure("auth_or_configuration_error", "Audit key is absent", brake=True, cooldown_hours=24)
@@ -196,14 +211,59 @@ def complete(response, *, transport=request_json, recovery_hours=12):
     return {"result": result, "receipt": receipt}
 
 
+def safe_error(value):
+    """Enough to diagnose protocol failures without storing echoed prompts or keys."""
+    value = value if isinstance(value, dict) else {}
+    metadata = value.get('metadata') if isinstance(value.get('metadata'), dict) else {}
+    code = value.get('code')
+    code = int(code) if type(code) is int or (isinstance(code, str) and re.fullmatch(r'\d{3}', code)) else None
+    error_type = metadata.get('error_type', value.get('error_type'))
+    known = {'rate_limit_exceeded', 'provider_overloaded', 'provider_unavailable', 'timeout', 'server',
+             'authentication', 'permission_denied', 'payment_required', 'invalid_request', 'invalid_prompt',
+             'not_found', 'precondition_failed', 'payload_too_large', 'unprocessable', 'content_policy_violation',
+             'refusal', 'context_length_exceeded', 'max_tokens_exceeded', 'token_limit_exceeded', 'string_too_long'}
+    return {'code': code, 'error_type': error_type if isinstance(error_type, str) and error_type in known else 'unmapped',
+            'message_treatment': 'Raw error message and metadata omitted; typed diagnostic retained.'}
+
+
+def raise_response_error(response, fallback_code=None):
+    errors = [response['error']] if 'error' in response else []
+    errors += [c['error'] for c in response.get('choices', []) if isinstance(c, dict) and 'error' in c]
+    if not errors:
+        return
+    error = safe_error(errors[0])
+    code, kind = error['code'] or fallback_code, error['error_type']
+    reason = f'OpenRouter error body: {kind} (code {code}); no usable completed answer'
+    if code == 429 or kind == 'rate_limit_exceeded':
+        raise ProviderFailure('daily_quota_exhausted', reason, cooldown_hours=24)
+    if code in (401, 402, 403) or kind in {'authentication', 'permission_denied', 'payment_required'}:
+        raise ProviderFailure('auth_or_configuration_error', reason, brake=True)
+    if code in (400, 404, 413, 422) or kind in {'invalid_request', 'invalid_prompt', 'not_found', 'unprocessable', 'payload_too_large'}:
+        raise ProviderFailure('model_unavailable', reason, cooldown_hours=1)
+    raise ProviderFailure('transient_capacity', reason, cooldown_hours=1)
+
+
 def public_response(response):
     """Keep the visible answer and zero-cost receipt fields; exclude hidden reasoning."""
-    return {"id": response.get("id"), "model": response.get("model"),
+    if not isinstance(response, dict):
+        raise ProviderFailure('invalid_response', 'Provider response must be an object')
+    choices = response.get('choices') or []
+    if not isinstance(choices, list):
+        choices = []
+    result = {"id": response.get("id"), "model": response.get("model"),
             "openrouter_metadata": response.get("openrouter_metadata", {}),
             "usage": response.get("usage", {}),
             "choices": [{"finish_reason": c.get("finish_reason"),
-                         "message": {"content": c.get("message", {}).get("content")}}
-                        for c in response.get("choices", [])[:1]]}
+                         "message": {"content": c['message'].get('content') if isinstance(c.get('message'), dict) else None},
+                         **({'error': safe_error(c['error'])} if 'error' in c else {})}
+                        for c in choices[:1] if isinstance(c, dict)]}
+    if 'error' in response:
+        result['error'] = safe_error(response['error'])
+    transport = response.get('_transport') or {}
+    status = transport.get('http_status') if isinstance(transport, dict) else None
+    if type(status) is int:
+        result['_transport'] = {'http_status': status}
+    return result
 
 
 def parse_result(response):
@@ -259,12 +319,25 @@ def call(value, transport=request_json, checkpoint=lambda value: None, *, recove
         raise ProviderFailure("auth_or_configuration_error", "OPENROUTER_API_KEY is absent; no call made", brake=True, cooldown_hours=24)
     catalog = verify_catalog(transport(CATALOG))
     key_preflight = verify_inference_key(transport("https://openrouter.ai/api/v1/key", key=key))
-    response = transport(ENDPOINT, payload=value, key=key)
+    try:
+        response = transport(ENDPOINT, payload=value, key=key)
+    except ProviderFailure as exc:
+        if exc.diagnostics is not None:
+            checkpoint(exc.diagnostics)
+        raise
     response = public_response(response)
     checkpoint(response)  # Persist the visible generation ID/body BEFORE verification/review.
     usage = response.get("usage", {})
     if isinstance(usage, dict):
         check_spend(usage.get("cost"))
+    # HTTP 200 can carry an error with a generation ID but no completion. Diagnose
+    # it before receipt recovery; an ID alone does not establish a successful call.
+    verify_routing_metadata(response)
+    if isinstance(usage, dict) and usage.get('is_byok') is True:
+        raise ProviderFailure('policy_blocked', 'Response reports BYOK', brake=True)
+    if response.get('model') and not model_matches(response['model']):
+        raise ProviderFailure('policy_blocked', 'Response model differs', brake=True)
+    raise_response_error(response)
     try:
         receipt = verify_inline_receipt(response)
         if not response.get('choices'):

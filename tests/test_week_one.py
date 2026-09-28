@@ -48,6 +48,56 @@ class ProviderTests(unittest.TestCase):
     def catalog(self):
         return {'data': {'id': fp.MODEL, 'endpoints': [{'model_id': fp.MODEL, 'provider_name': 'Nvidia', 'tag': 'nvidia', 'status': 0, 'pricing': {'prompt': '0', 'completion': '0', 'discount': 0}}]}}
 
+    def test_http_200_error_is_saved_and_classified_without_receipt_get_or_repeat_post(self):
+        calls, saved = [], []
+        def transport(url, **kwargs):
+            calls.append(url)
+            if url == fp.CATALOG: return self.catalog()
+            if url.endswith('/api/v1/key'): return {'data': {'is_management_key': False}}
+            if url == fp.ENDPOINT:
+                return {'id': 'gen-failed', '_transport': {'http_status': 200},
+                        'error': {'code': 502, 'message': 'sensitive echoed request',
+                                  'metadata': {'error_type': 'provider_unavailable', 'raw': 'private'}}}
+            raise AssertionError('Failed completion must not turn into receipt recovery')
+        with patch.dict(os.environ, {'OPENROUTER_API_KEY': 'fixture-secret'}):
+            with self.assertRaises(fp.ProviderFailure) as error:
+                fp.call(fp.payload('public prompt'), transport, saved.append)
+        self.assertEqual(error.exception.category, 'transient_capacity')
+        self.assertFalse(error.exception.brake)
+        self.assertEqual(calls.count(fp.ENDPOINT), 1)
+        self.assertEqual(saved[0]['error']['error_type'], 'provider_unavailable')
+        self.assertEqual(saved[0]['_transport']['http_status'], 200)
+        self.assertNotIn('sensitive', json.dumps(saved))
+        self.assertNotIn('private', json.dumps(saved))
+        self.assertNotIn('fixture-secret', json.dumps(saved))
+        self.assertEqual(fp.public_response(saved[0]), saved[0])
+
+    def test_choice_error_and_positive_cost_take_priority_over_missing_receipt(self):
+        response = {'id': 'gen-failed', 'choices': [{'finish_reason': 'error', 'message': {'content': ''},
+                    'error': {'code': 429, 'metadata': {'error_type': 'rate_limit_exceeded'}}}]}
+        safe = fp.public_response(response)
+        with self.assertRaises(fp.ProviderFailure) as error:
+            fp.complete(safe, transport=lambda *a, **k: self.fail('No audit for an explicit error'))
+        self.assertEqual(error.exception.category, 'daily_quota_exhausted')
+        safe['usage'] = {'cost': 0.01}
+        with self.assertRaises(fp.ProviderFailure) as error:
+            fp.complete(safe, transport=lambda *a, **k: self.fail('No network after spend'))
+        self.assertEqual(error.exception.category, 'spend_detected')
+
+    def test_http_error_retains_only_safe_typed_diagnostics(self):
+        import io
+        failure = fp.urllib.error.HTTPError(fp.ENDPOINT, 429, 'Too Many Requests', {},
+            io.BytesIO(json.dumps({'id': 'gen-http-failed', 'error': {'code': 429, 'message': 'echoed secret',
+                    'metadata': {'error_type': 'rate_limit_exceeded', 'raw': 'private'}}}).encode()))
+        with patch.object(fp.scout, 'checked_url'), patch.object(fp.urllib.request, 'build_opener') as opener:
+            opener.return_value.open.side_effect = failure
+            with self.assertRaises(fp.ProviderFailure) as error:
+                fp.request_json(fp.ENDPOINT, payload={'public': 'prompt'}, key='fixture-secret')
+        self.assertEqual(error.exception.category, 'daily_quota_exhausted')
+        self.assertEqual(error.exception.diagnostics['id'], 'gen-http-failed')
+        self.assertEqual(error.exception.diagnostics['_transport']['http_status'], 429)
+        self.assertNotIn('secret', json.dumps(error.exception.diagnostics))
+
     def test_price_identity_and_inference_key_preflight(self):
         fp.verify_catalog(self.catalog())
         for field, value in [('model_id', 'unapproved'), ('provider_name', 'Groq'), ('pricing', {'prompt': '0', 'completion': '0.001'})]:
@@ -215,6 +265,77 @@ class RuntimeTests(unittest.TestCase):
     def prepare(self, rid='test-one', now='2026-09-24T08:05:00Z'):
         return w.prepare(self.root, rid, now=now, fetcher=source)
 
+    def disposition_fixture(self):
+        response = {'id': 'gen-retired', 'choices': [], 'model': None, 'usage': {}, 'openrouter_metadata': {}}
+        w.write(self.root, w.run_path('historical', 'provider-response.json'), response)
+        state = {'version': 1, 'closed': False, 'runs': {'historical': {'run_id': 'historical',
+                 'started_at': '2026-09-24T00:00:00Z', 'status': 'audit_pending', 'result': 'audit_pending',
+                 'audit_tries': 3, 'question_id': 'Q-TEST', 'post_reserved': 1}},
+                 'brake': {'run_id': 'historical', 'reason': 'Saved generation reached its three-attempt recovery limit'}}
+        decision = {'decision_id': 'OPERATOR-TEST', 'disposition': 'retired_unverified', 'authorized_by': 'Jared',
+                    'allow_future_bounded_attempts': True, 'receipt_verified': False, 'run_ids': ['historical'],
+                    'generation_id': 'gen-retired', 'response_sha256': cycle.digest(response),
+                    'account_observation': {'actor': 'Jared', 'observation': 'No charge visible; test fixture.'},
+                    'authorization': 'Move on from this named historical response.'}
+        w.write(self.root, Path('config/provider-dispositions.json'), {'decisions': [decision]})
+        w.write(self.root, w.BASE / 'run-manifest.json', state)
+        return state, response
+
+    def test_operator_retirement_preserves_history_and_allows_one_new_bounded_attempt(self):
+        state, response = self.disposition_fixture()
+        result = self.prepare('after-retirement', now='2026-09-25T08:00:00Z')
+        self.assertEqual(result['status'], 'prepared')
+        updated = w.manifest(self.root)
+        self.assertIsNone(updated['brake'])
+        self.assertEqual(updated['runs']['historical']['status'], 'audit_pending')
+        self.assertEqual(updated['runs']['historical']['audit_tries'], 3)
+        self.assertEqual(updated['runs']['historical']['operator_disposition'], 'OPERATOR-TEST')
+        self.assertEqual(w.read(self.root, w.run_path('historical', 'provider-response.json')), response)
+        self.assertFalse(updated['operator_dispositions']['OPERATOR-TEST']['receipt_verified'])
+        self.assertIsNone(updated['runs']['after-retirement']['recovery_from'])
+        self.assertEqual(updated['runs']['after-retirement']['post_reserved'], 1)
+        before = cycle.digest(reflections.load(self.root))
+        w.apply_operator_dispositions(self.root, updated)
+        self.assertEqual(before, cycle.digest(reflections.load(self.root)))
+
+    def test_operator_retirement_cannot_clear_closed_or_unrelated_brake_or_new_evidence(self):
+        state, response = self.disposition_fixture()
+        closed = deepcopy(state); closed['closed'] = True; closed['closure_reason'] = 'spend_detected'
+        w.apply_operator_dispositions(self.root, closed)
+        self.assertEqual(closed['brake'], state['brake'])
+        self.assertNotIn('operator_dispositions', closed)
+        unrelated = deepcopy(state); unrelated['brake'] = {'run_id': 'other-run', 'reason': 'Contradictory route'}
+        w.apply_operator_dispositions(self.root, unrelated)
+        self.assertEqual(unrelated['brake']['run_id'], 'other-run')
+        w.write(self.root, w.run_path('historical', 'provider-response.json'), {**response, 'usage': {'cost': 0.01}})
+        with self.assertRaises(cycle.CycleError): w.apply_operator_dispositions(self.root, state)
+        self.assertIsNotNone(state['brake'])
+
+    def test_retirement_does_not_waive_daily_budget_and_error_is_not_id_only_recovery(self):
+        state, response = self.disposition_fixture()
+        cfg = w.read(self.root, Path('config/week-one.json'))
+        cfg['max_provider_posts_per_utc_day'] = 0
+        w.write(self.root, Path('config/week-one.json'), cfg)
+        self.assertEqual(self.prepare('budget-stays', now='2026-09-25T08:00:00Z')['result'], 'daily_budget')
+        w.write(self.root, w.run_path('failed', 'provider-response.json'),
+                {**response, 'error': {'code': 502, 'error_type': 'provider_unavailable'}})
+        self.assertFalse(w.id_only_saved_generation(self.root, {'run_id': 'failed'}))
+
+    def test_answer_bee_leaves_worker_reflection_without_acting_as_governor(self):
+        self.prepare()
+        value, req, rec = self.save_result()
+        self.assertIn('peer_reflection', req['prompt'])
+        self.assertNotIn('Governor reflection lens', req['prompt'])
+        w.finalize(self.root, 'test-one')
+        state = w.manifest(self.root)
+        self.assertNotIn('governor_decision', state['runs']['test-one'])
+        self.assertTrue(state['runs']['test-one']['peer_reflection_ids'])
+        self.assertEqual(reflections.load(self.root)['decisions'], {})
+        modern = deepcopy(value)
+        modern['peer_reflection'] = modern.pop('governor')
+        w.validate_answer(modern, {s['source_id'] for s in w.read(self.root, w.run_path('test-one', 'sources.json'))['items']},
+                          set(req['reflection_ids']), 'Q-TEST')
+
     def save_result(self, rid='test-one'):
         req = w.read(self.root, w.run_path(rid, 'request.json'))
         value = valid_result(req, w.read(self.root, w.run_path(rid, 'sources.json')))
@@ -230,7 +351,8 @@ class RuntimeTests(unittest.TestCase):
         q = questions.question(questions.load(self.root), 'Q-TEST')
         self.assertEqual(len(q['answers']), 1)
         self.assertEqual(q['status'], 'open')
-        self.assertEqual(len(reflections.load(self.root)['decisions']), 1)
+        self.assertEqual(len(reflections.load(self.root)['decisions']), 0)
+        self.assertTrue(w.manifest(self.root)['runs']['test-one']['peer_reflection_ids'])
 
     def test_interrupt_links_saved_generation_without_new_post(self):
         self.prepare()

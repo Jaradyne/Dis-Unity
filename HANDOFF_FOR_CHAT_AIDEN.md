@@ -1,4 +1,8 @@
-# 27 September — current entry point
+# 28 September UTC / 27 September Pacific — current entry point
+
+Jared authorized continuing without a Governor until the repo Governor is ready. The separate scheduled Governor is disabled. Continue as Chat Aiden; preserve complete plays and separately attributed notes in the direct inbox for later review. The Answer Bee now contributes worker reflections without a Governor role. Read [the OpenRouter record and repair](reports/work-review/2026-09-28-openrouter-recovery.md): the specific historical generation is retired with receipt unknown and Jared's no-charge dashboard observation preserved. Existing bounded free-route work may continue. This supersedes older Governor and provider-brake status below.
+
+# 27 September
 
 Read `operations/INTEGRATION_2026-09-27.md` for the direct Governor input path. Continue as Chat Aiden; the repo Governor is the separate scheduled session. Stage complete play exports, your separately attributed observations and Digest notes for review. Live input and response status is on `week-one-state:operations/week-one/GOVERNOR_INBOX.md`. No canonical powers or new provider route have been activated by this integration.
 

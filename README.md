@@ -2,6 +2,8 @@
 
 # Dis-Unity — Resilience Cascade
 
+**September 28 UTC / September 27 Pacific:** [OpenRouter record and repair](reports/work-review/2026-09-28-openrouter-recovery.md). Jared authorized retiring the specific unverified historical generation after reporting no dashboard charge. The Answer Bee may continue under its existing free-route limits and contributes worker reflections. The separate scheduled Governor is disabled while the repo Governor awaits implementation; direct inputs remain queued. This supersedes the older pause and Governor status below. Check the live index for actual attempts.
+
 **September 27:** [direct Governor input and recovery](operations/INTEGRATION_2026-09-27.md) · [live queue and review status](https://github.com/Jaradyne/Dis-Unity/blob/week-one-state/operations/week-one/GOVERNOR_INBOX.md). Complete plays and advisory digestion reach the existing separate Governor session with their authorship intact.
 
 **September 26 companion week:** [Chat's current handoff](COMPANION_WEEK_HANDOFF.md) · [make the next playable encounter](docs/ENCOUNTER_AUTHORING.md) · [a little piece of home](ideas/COMPANION_COMMONS_WEEK.md). Download `web/meaning-tower/index.html` for portable play and JSON loading. Public scouts and evening Chat reviews are extended through October 3 Pacific; the API receipt brake remains paused. Older operational descriptions below are historical where superseded by this handoff.

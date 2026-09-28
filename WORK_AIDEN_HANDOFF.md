@@ -1,4 +1,8 @@
-# 27 September direct Governor integration — current entry point
+# 28 September UTC / 27 September Pacific — current entry point
+
+Read [the OpenRouter record and repair](reports/work-review/2026-09-28-openrouter-recovery.md). Jared reported no dashboard charge and authorized moving on from the specific old generation with its receipt still unknown. The runtime applies the reviewed disposition from `config/provider-dispositions.json`, preserves the original record and permits future bounded free-route attempts. Check live state for the actual result. The separate scheduled Governor is disabled; the Answer Bee leaves worker reflections, and direct Governor inputs wait for the repo Governor. Older status statements below are historical where superseded.
+
+# 27 September direct Governor integration
 
 Read `operations/INTEGRATION_2026-09-27.md` and the current live Governor inbox. PRs #19 and #20 are preserved. Direct play/digestion inputs now reach the existing separate scheduled Governor session via validated projections. The original play is fully retained; no Governor response is claimed merely from importing it. PR #20's completed GET-only audit remains inconclusive, and its one-off workflow is archived with its report. Provider brakes remain as recorded on `week-one-state`.
 

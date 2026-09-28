@@ -25,6 +25,8 @@ class GovernorInboxTests(unittest.TestCase):
         self.root = Path(tmp.name)
         for name in ['operations/governor', 'config', 'agents', 'handoffs/chat_aiden/2026-09-27_digest-threshold']:
             shutil.copytree(ROOT / name, self.root / name)
+        # Synthetic histories have no production generation to retire.
+        cycle.write_json(self.root / 'config/provider-dispositions.json', {'decisions': []}, replace=True)
         for name in [cycle.CANONICAL, 'CULTURE.md', 'operations/questions.json']:
             shutil.copy2(ROOT / name, self.root / name)
 

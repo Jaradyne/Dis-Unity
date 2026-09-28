@@ -2,6 +2,8 @@
 
 Owner: Jared. Integration: Work Aiden. Thought partners: Chat Aiden, Governor, workers and voluntary human contributors.
 
+**Current update — 28 September UTC / 27 September Pacific:** Jared reported no OpenRouter dashboard charge and authorized moving on from the specific unresolved generation. Its receipt remains unknown. `config/provider-dispositions.json` retires that interaction and clears only its exhausted-recovery brake; future bounded free-route attempts may proceed. API errors now retain typed diagnostics and are classified before missing-receipt recovery. Read [the record and repair](reports/work-review/2026-09-28-openrouter-recovery.md) and live state for actual results. Jared also authorized continuing without a Governor: the separate scheduled task is disabled, and the Answer Bee contributes worker reflections. Older status paragraphs below are historical where superseded.
+
 ## Run window and entry points
 
 Configured window: **24 September 2026 07:45:13 UTC through 04 October 2026 07:45:13 UTC**. Jared authorized the three-day extension on September 26 to cover all of October 3 Pacific. GitHub Actions wakes at **03:47 and 15:47 UTC** (20:47 previous day and 08:47 Pacific during this window). Scheduling may be delayed. The time gate rejects new work after the end; the next wake writes a digest and disables this workflow. Read [the current companion handoff](COMPANION_WEEK_HANDOFF.md); existing provider brakes and budgets remain intact.
@@ -20,17 +22,17 @@ Configured window: **24 September 2026 07:45:13 UTC through 04 October 2026 07:4
 
 Read [the September 25 integration note](operations/INTEGRATION_2026-09-25.md), [Garden/Python walkthrough](docs/GARDEN.md), and [free-only findings](docs/OPENROUTER_FREE_ONLY.md). The accepted Bee arrangement is Collector Crosscheck first, a bounded specialist for a consequential residual, and a permanent Crosscheck Bee still unresolved. Garden and Chair feedback are on-demand prototypes; a distinct autonomous Governor and Expected Flow Engine are not running.
 
-**Chat Governor:** a separate enabled ChatGPT task performs one bounded review/research session each evening for seven occurrences, using the existing ChatGPT session and public search/GitHub tools. It stages one Question-linked finding, a sample, source ledger, reflection and Governor response under `main:handoffs/week_one_governor/YYYY-MM-DD.{json,md}`. The exact staging prefix is authorized for that task; it cannot edit runtime, policy, canonical research or `week-one-state`. The hosted runner imports only its shareable reflection/response into the common mailbox at the next wake. Check actual dated files before claiming a session completed. Its requested immediate first run is recorded separately in the launch verification note.
+**Chat Governor:** the separate scheduled ChatGPT task is disabled while the repo Governor is not ready. Historical packets remain under `main:handoffs/week_one_governor/YYYY-MM-DD.{json,md}` with their actual authorship. Existing imports are idempotent; input presence alone is not a new review. Direct play and digestion inputs remain queued for later Governor review.
 
 [First Work research briefing](reports/week-one/2026-09-24_FIRST_REVIEW.md) follows the first feed lead through the current EIA table. It is an attributed Work review, separate from task/API outputs.
 
 ## What runs
 
-Current active roles: public scouts, deterministic runtime caretaker/reflection logging, the bounded API Answer Bee with a Governor lens, and the scheduled Chat Governor thought partner. Their actual results and brakes are recorded on the operational branch.
+Current roles: public scouts, deterministic runtime caretaker/reflection logging and the bounded API Answer Bee. Their actual results and brakes are recorded on the operational branch. Governor review is paused.
 
 A serialized, bounded workflow reads three official public surfaces: EIA diesel RSS, EIA Today in Energy RSS, and NWS California active alerts. It retains access errors, event/publication/retrieval distinctions, source hashes and selected excerpts/metadata. An unchanged item retains its identity. Initial discoveries are separate from newly occurring events. A failed feed is a coverage gap.
 
-One Answer Bee uses the selected shared Question, those sources, previous summaries, root culture and a rotating portion of the reflection mailbox. Its Governor lens responds to reflections and proposes followups. This is one inference with two attributed roles, not independent peer review. Every source run leaves a runtime reflection even when inference is unavailable.
+One Answer Bee uses the selected shared Question, those sources, previous summaries, root culture and a rotating portion of the reflection mailbox. It leaves a worker reflection and may suggest followups. These are worker contributions, not Governor decisions or independent review. Every source run leaves a runtime reflection even when inference is unavailable.
 
 Question rotation: `Q-RESEARCH-Q01` (fuel costs and essential delivery), `Q-RESEARCH-Q17` (food assistance cover), `Q-RESEARCH-Q09` (water/care), `Q-RESEARCH-Q21` (usable logistics routes). Each answer remains provisional and keeps its Question open. The output contract asks for a conditional link, buffers, shedding, substitution, growth, lifeboats, outside reserve, commons and a concrete caretaker tomorrow-test. Sources alone may not resolve the Question; that is a useful limitation to retain.
 
