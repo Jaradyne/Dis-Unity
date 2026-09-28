@@ -1,5 +1,7 @@
 # The initiating Garden, one small working slice
 
+**September 28:** the [saved traversal runtime](GARDEN_TRAVERSAL.md) now adds per-node continuation, MOVE/CLONE/FANOUT, lineage and a digestion spreadsheet. This page documents the earlier whole-pass grammar and Chair tools, which remain available.
+
 The Garden now has an **on-demand grammar prototype**. It checks and preserves a supplied pass through the ten initiating nodes, resolves named destinations, and makes a reproducible Chair sequence. It does not run a researcher, issue search queries, call an AI, or schedule another pass. Recorded answers must be supplied by the actual participant who obtained them.
 
 Jared's current Bee choice is part of `config/garden.json`: basic Crosscheck belongs to a Collector. A consequential residual may justify a bounded Pygent Collector/specialist request. A permanent Crosscheck Bee remains unresolved until repeated cases show that persistent specialist memory helps.

@@ -29,6 +29,10 @@ jobs:
         run: python -m unittest discover -s tests -v
       - name: Check Meaning Tower interaction contract
         run: node tests/test_boss_ui.js
+      - name: Verify Garden traversal example is reproducible
+        run: |
+          python scripts/garden_example.py --output examples/garden-traversal/worked
+          git diff --exit-code -- examples/garden-traversal/worked
       - name: Verify portable encounter is reproducible
         run: |
           python scripts/build_meaning_tower.py

@@ -1,0 +1,368 @@
+{
+  "schema_version": "garden-scenario-1",
+  "status": "supplied demonstration; does not register a live run",
+  "recorded_at": "2026-09-28T11:00:00+00:00",
+  "recorded_at_meaning": "fixed example timestamp for deterministic replay, not a live execution time",
+  "record_base_url": "https://github.com/Jaradyne/Dis-Unity/blob/main/examples/garden-traversal/worked/",
+  "question_snapshot": {
+    "questions": {
+      "Q-RESEARCH-Q18": {
+        "epoch": 1
+      }
+    }
+  },
+  "start": {
+    "run_id": "Q18-SUPPLIED-TRAVERSAL-20260928",
+    "question_id": "Q-RESEARCH-Q18",
+    "epoch": 1,
+    "actor": {
+      "name": "Work Aiden",
+      "runtime": "ChatGPT/Codex session",
+      "model": "unknown"
+    },
+    "tree": "INIT",
+    "focus": "Separate a delivered vessel from dependable service",
+    "status": "design_example; supplied content only; no new source retrieval",
+    "arrival": {
+      "id": "Q18-DELIVERY-PACKET-1",
+      "from": "handoffs/week_one_governor/2026-09-25.json",
+      "to": "INIT:ROOT-0001",
+      "payload": {
+        "kind": "staged_provisional_finding",
+        "question": "Does a delivered electric vessel establish dependable freight service?"
+      }
+    },
+    "sources": [
+      {
+        "ref": "handoffs/week_one_governor/2026-09-25.json",
+        "lineage_id": "Q18-STAGED-20260925",
+        "kind": "context",
+        "status": "provisional staged finding, not newly inspected evidence"
+      }
+    ]
+  },
+  "commands": [
+    {
+      "event_id": "Q18-EVENT-01",
+      "expected_revision": 0,
+      "actor": {
+        "name": "Work Aiden",
+        "runtime": "ChatGPT/Codex session",
+        "model": "unknown"
+      },
+      "branch_id": "B0",
+      "kind": "step",
+      "node": "ROOT",
+      "output": {
+        "name": "A vessel needs a voyage"
+      }
+    },
+    {
+      "event_id": "Q18-EVENT-02",
+      "expected_revision": 1,
+      "actor": {
+        "name": "Work Aiden",
+        "runtime": "ChatGPT/Codex session",
+        "model": "unknown"
+      },
+      "branch_id": "B0",
+      "kind": "step",
+      "node": "ARRIVAL",
+      "output": {
+        "arrival": {
+          "id": "Q18-DELIVERY-PACKET-1",
+          "from": "handoffs/week_one_governor/2026-09-25.json",
+          "to": "INIT:ROOT-0001",
+          "payload": {
+            "kind": "staged_provisional_finding",
+            "question": "Does a delivered electric vessel establish dependable freight service?"
+          }
+        },
+        "language_glance": {
+          "languages": [],
+          "issuing_office": "unknown",
+          "basis": "unknown",
+          "surface_kind": "summary",
+          "source_refs": [
+            "handoffs/week_one_governor/2026-09-25.json"
+          ],
+          "note": "The source-family publication languages were not inspected in this supplied example."
+        }
+      }
+    },
+    {
+      "event_id": "Q18-EVENT-03",
+      "expected_revision": 2,
+      "actor": {
+        "name": "Work Aiden",
+        "runtime": "ChatGPT/Codex session",
+        "model": "unknown"
+      },
+      "branch_id": "B0",
+      "kind": "step",
+      "node": "EPIST",
+      "output": {
+        "prompt": "What would demonstrate dependable service replacing a diesel function?",
+        "starting_state": "UNKNOWN: delivered hardware does not establish route reliability or usable reserve."
+      }
+    },
+    {
+      "event_id": "Q18-EVENT-04",
+      "expected_revision": 3,
+      "actor": {
+        "name": "Work Aiden",
+        "runtime": "ChatGPT/Codex session",
+        "model": "unknown"
+      },
+      "branch_id": "B0",
+      "kind": "step",
+      "node": "FUNC",
+      "output": {
+        "task": "Identify a bounded operating-evidence test",
+        "function": "Dependable coastal freight; essential-cargo role remains unknown"
+      }
+    },
+    {
+      "event_id": "Q18-EVENT-05",
+      "expected_revision": 4,
+      "actor": {
+        "name": "Work Aiden",
+        "runtime": "ChatGPT/Codex session",
+        "model": "unknown"
+      },
+      "branch_id": "B0",
+      "kind": "step",
+      "node": "MIRROR",
+      "output": {
+        "comparisons": [
+          {
+            "explanation": "A construction milestone is reported before dependable service can be measured.",
+            "queries": [
+              {
+                "text": "Named route: planned and completed loaded sailings, dates, cargo and downtime",
+                "status": "proposed; not issued in this design example"
+              }
+            ],
+            "answers": []
+          },
+          {
+            "explanation": "Control: a newly delivered diesel vessel would need the same operating evidence.",
+            "queries": [],
+            "answers": []
+          }
+        ],
+        "information_lineage": {
+          "parent_answer_visible": true,
+          "source_refs": [
+            "handoffs/week_one_governor/2026-09-25.json"
+          ],
+          "parent_output_refs": [
+            "examples/garden/q18-pass.json"
+          ],
+          "criteria_refs": [
+            "docs/GARDEN.md"
+          ],
+          "api_record_refs": [],
+          "test_origin": "inherited"
+        }
+      }
+    },
+    {
+      "event_id": "Q18-EVENT-06",
+      "expected_revision": 5,
+      "actor": {
+        "name": "Work Aiden",
+        "runtime": "ChatGPT/Codex session",
+        "model": "unknown"
+      },
+      "branch_id": "B0",
+      "kind": "step",
+      "node": "CROSS",
+      "output": {
+        "inherited": [
+          {
+            "ref": "handoffs/week_one_governor/2026-09-25.json",
+            "status": "provisional staged source ledger"
+          }
+        ],
+        "independent": [],
+        "bridge": [
+          {
+            "question": "Can one route's recorded voyages connect delivery to a demonstrated freight function?",
+            "status": "proposed test, not corroboration"
+          }
+        ]
+      }
+    },
+    {
+      "event_id": "Q18-EVENT-07",
+      "expected_revision": 6,
+      "actor": {
+        "name": "Work Aiden",
+        "runtime": "ChatGPT/Codex session",
+        "model": "unknown"
+      },
+      "branch_id": "B0",
+      "kind": "step",
+      "node": "RESID",
+      "output": {
+        "summary": "Operating performance remains unknown; missing observations do not establish failure.",
+        "specialist": {
+          "question": "What actual loaded-service record exists for one named route?",
+          "why_specialist": "If consequential after the Collector pass, a narrow operating-record search can resolve this gap.",
+          "stop_condition": "One bounded primary record or an explicit missing-data/access-limit result",
+          "budget": {
+            "primary_sources": 1,
+            "inference_posts": 0
+          },
+          "return_to": "INIT:ARRIVAL-0002",
+          "status": "proposal only"
+        },
+        "predicates": {
+          "consequential": true,
+          "distinct_functions": true,
+          "language_exception": null
+        }
+      }
+    },
+    {
+      "event_id": "Q18-EVENT-08",
+      "expected_revision": 7,
+      "actor": {
+        "name": "Work Aiden",
+        "runtime": "ChatGPT/Codex session",
+        "model": "unknown"
+      },
+      "branch_id": "B0",
+      "kind": "rest",
+      "reason": "Checkpoint before reviewing the two distinct operating questions."
+    },
+    {
+      "event_id": "Q18-EVENT-09",
+      "expected_revision": 8,
+      "actor": {
+        "name": "Work Aiden",
+        "runtime": "ChatGPT/Codex session",
+        "model": "unknown"
+      },
+      "branch_id": "B0",
+      "kind": "resume",
+      "reason": "Work integration continues from the saved residual."
+    },
+    {
+      "event_id": "Q18-EVENT-10",
+      "expected_revision": 9,
+      "actor": {
+        "name": "Work Aiden",
+        "runtime": "ChatGPT/Codex session",
+        "model": "unknown"
+      },
+      "branch_id": "B0",
+      "kind": "route",
+      "rule_id": "DOMAIN-BRANCH",
+      "action": "FANOUT",
+      "targets": [
+        {
+          "tree": "PRODUCTION",
+          "focus": "Specify a bounded vessel operating-record test",
+          "reason": "Installed equipment and usable service are different stages."
+        },
+        {
+          "tree": "ECONOMICS",
+          "focus": "Specify the usable freight-function comparison",
+          "reason": "Nominal cargo capacity alone does not show which dependable service is carried."
+        }
+      ],
+      "review": {
+        "actor": {
+          "name": "Work Aiden",
+          "runtime": "ChatGPT/Codex session",
+          "model": "unknown"
+        },
+        "reference": "Jared request 2026-09-28: inspect Digest integration and begin fleshing out the system; supplied demonstration only",
+        "decision": "approved"
+      }
+    },
+    {
+      "event_id": "Q18-EVENT-11",
+      "expected_revision": 10,
+      "actor": {
+        "name": "Work Aiden",
+        "runtime": "ChatGPT/Codex session",
+        "model": "unknown"
+      },
+      "branch_id": "B0",
+      "kind": "step",
+      "node": "MEAN",
+      "output": {
+        "summary": "Keep engineering progress visible while asking what supports dependable care and delivery.",
+        "culture_flower": {
+          "text": "A vessel needs a voyage.",
+          "evidence": false
+        }
+      }
+    },
+    {
+      "event_id": "Q18-EVENT-12",
+      "expected_revision": 11,
+      "actor": {
+        "name": "Work Aiden",
+        "runtime": "ChatGPT/Codex session",
+        "model": "unknown"
+      },
+      "branch_id": "B0",
+      "kind": "step",
+      "node": "EXIT",
+      "output": {
+        "kind": "question",
+        "summary": "Which recorded voyage turns installed capacity into dependable service?"
+      }
+    },
+    {
+      "event_id": "Q18-EVENT-13",
+      "expected_revision": 12,
+      "actor": {
+        "name": "Work Aiden",
+        "runtime": "ChatGPT/Codex session",
+        "model": "unknown"
+      },
+      "branch_id": "B0",
+      "kind": "step",
+      "node": "RETURN",
+      "output": {
+        "new_arrival": null,
+        "reason": "Rest until genuinely new evidence or a changed question arrives."
+      }
+    },
+    {
+      "event_id": "Q18-EVENT-14",
+      "expected_revision": 13,
+      "actor": {
+        "name": "Work Aiden",
+        "runtime": "ChatGPT/Codex session",
+        "model": "unknown"
+      },
+      "branch_id": "B1",
+      "kind": "step",
+      "node": "ROOT",
+      "output": {
+        "name": "Await a supplied specialist pass; no source search has run"
+      }
+    },
+    {
+      "event_id": "Q18-EVENT-15",
+      "expected_revision": 14,
+      "actor": {
+        "name": "Work Aiden",
+        "runtime": "ChatGPT/Codex session",
+        "model": "unknown"
+      },
+      "branch_id": "B2",
+      "kind": "step",
+      "node": "ROOT",
+      "output": {
+        "name": "Await a supplied specialist pass; no source search has run"
+      }
+    }
+  ]
+}
