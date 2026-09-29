@@ -3,6 +3,11 @@
   "coverage": "recorded_exchanges",
   "materials": [
     {
+      "path": "operations/week-one/runs/go-1f54c4f41471de699e9c2b45/outcome.json",
+      "sha256": "627ac5f05ffccd057d3cfa454055cc0e56aad38977ad7397375de91c618ff7b6",
+      "url": "https://github.com/Jaradyne/Dis-Unity/blob/week-one-state/operations/week-one/runs/go-1f54c4f41471de699e9c2b45/outcome.json"
+    },
+    {
       "path": "operations/week-one/runs/go-1f54c4f41471de699e9c2b45/request.json",
       "sha256": "854cf5141686722196fd862380b5d491a2836e62055fcdad37cc7403f362b766",
       "url": "https://github.com/Jaradyne/Dis-Unity/blob/week-one-state/operations/week-one/runs/go-1f54c4f41471de699e9c2b45/request.json"

@@ -2,11 +2,19 @@
   "materials": [
     {
       "path": "operations/garden/operations/Q18-LINEAGE-20260929-CHILD.json",
-      "sha256": "d5f4bf5373f6d0281773ba9413496e6ccc49830f06795b839c4ad7e1bbcc96a9"
+      "sha256": "89004d40be48715e51be3d76f529c74227961a7791461f1691e6167596163b66"
+    },
+    {
+      "path": "operations/week-one/runs/go-1f54c4f41471de699e9c2b45/api/0001.json",
+      "sha256": "563d1ba8484f370c34350d2ddbeafd08f0247ce04c21368ad3bb3b7e191bc1aa"
+    },
+    {
+      "path": "operations/week-one/runs/go-1f54c4f41471de699e9c2b45/outcome.json",
+      "sha256": "627ac5f05ffccd057d3cfa454055cc0e56aad38977ad7397375de91c618ff7b6"
     },
     {
       "path": "operations/week-one/runs/go-1f54c4f41471de699e9c2b45/request.json",
-      "sha256": "8886aca75433aa01d6832be10629c9cb82fe0edcff733692b0205b1782046b51"
+      "sha256": "854cf5141686722196fd862380b5d491a2836e62055fcdad37cc7403f362b766"
     }
   ],
   "meaning": "Complete saved operation material; capture is not review or evidence admission.",

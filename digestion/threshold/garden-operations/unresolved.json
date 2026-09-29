@@ -18,6 +18,23 @@
       "tree": "INIT"
     },
     {
+      "birth_decision": null,
+      "branch_id": "B1",
+      "executor": "public-collector",
+      "node": "ROOT",
+      "operation_id": "Q18-LINEAGE-20260929-CHILD",
+      "question_id": "Q-RESEARCH-Q18",
+      "recipients": [
+        "Chat Aiden",
+        "Digest Aiden"
+      ],
+      "record": "https://github.com/Jaradyne/Dis-Unity/blob/week-one-state/operations/garden/operations/Q18-LINEAGE-20260929-CHILD.json",
+      "run_id": "Q18-NERVOUS-SYSTEM-20260929",
+      "status": "error",
+      "summary": "Source exceeded byte bound",
+      "tree": "PRODUCTION"
+    },
+    {
       "birth_decision": {
         "child_branch": "B1",
         "return_to": {

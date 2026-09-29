@@ -1,0 +1,29 @@
+{
+  "anchor": {
+    "arrival_id": "ARR-6f4d41e28b87b9acf721e7b9",
+    "branch_id": "B1",
+    "epoch": 1,
+    "node": "ROOT",
+    "parent_output_hash": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "question_id": "Q-RESEARCH-Q18",
+    "run_id": "Q18-NERVOUS-SYSTEM-20260929",
+    "tree": "PRODUCTION",
+    "visit": 0
+  },
+  "api_records": [
+    "operations/week-one/runs/go-1f54c4f41471de699e9c2b45/api/0001.json"
+  ],
+  "category": "operation_failed",
+  "executor": "public-collector",
+  "finished_at": "2026-09-29T19:08:13.404176+00:00",
+  "independent_evidence": false,
+  "operation_id": "Q18-LINEAGE-20260929-CHILD",
+  "provider_posts": 0,
+  "started_at": "2026-09-29T19:08:03.603139+00:00",
+  "status": "error",
+  "summary": "Source exceeded byte bound",
+  "validation": {
+    "status": "not_admitted",
+    "type": "CycleError"
+  }
+}

@@ -1345,6 +1345,46 @@
         "status": "requested"
       },
       "recorded_at": "2026-09-29T19:08:01.568847+00:00"
+    },
+    {
+      "after": "71a0be1cc3a812cb400c4f914b7cf5a4b97a16552abf3bb21ab34dd437db2057",
+      "before": "cdde825db23042f0303a86b71cd1bfeb43e2b05ea64aa4224160b17c6b7d4464",
+      "command": {
+        "actor": {
+          "name": "Garden operation orchestrator",
+          "runtime": "Python; reviewed main configuration"
+        },
+        "branch_id": "B1",
+        "event_id": "RET-Q18-LINEAGE-20260929-CHILD",
+        "expected_revision": 13,
+        "kind": "operation_return",
+        "operation_id": "Q18-LINEAGE-20260929-CHILD",
+        "return": {
+          "executor": "public-collector",
+          "independent_evidence": false,
+          "material_ref": "operations/week-one/runs/go-1f54c4f41471de699e9c2b45/outcome.json",
+          "material_sha256": "627ac5f05ffccd057d3cfa454055cc0e56aad38977ad7397375de91c618ff7b6",
+          "provider_posts": 0,
+          "status": "error",
+          "summary": "Source exceeded byte bound"
+        }
+      },
+      "decision": {
+        "anchor": {
+          "arrival_id": "ARR-6f4d41e28b87b9acf721e7b9",
+          "branch_id": "B1",
+          "epoch": 1,
+          "node": "ROOT",
+          "parent_output_hash": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+          "question_id": "Q-RESEARCH-Q18",
+          "run_id": "Q18-NERVOUS-SYSTEM-20260929",
+          "tree": "PRODUCTION",
+          "visit": 0
+        },
+        "operation_id": "Q18-LINEAGE-20260929-CHILD",
+        "status": "returned"
+      },
+      "recorded_at": "2026-09-29T19:08:13.461463+00:00"
     }
   ],
   "initial": {
@@ -3050,11 +3090,20 @@
           "stop_condition": "One public GET; retain full response and return UNKNOWN unless separately reviewed operating measures exist.",
           "task": "Does the saved CCS Ningyuan Dianpeng delivery surface supply a dated completed-freight record?"
         },
-        "status": "requested"
+        "result": {
+          "executor": "public-collector",
+          "independent_evidence": false,
+          "material_ref": "operations/week-one/runs/go-1f54c4f41471de699e9c2b45/outcome.json",
+          "material_sha256": "627ac5f05ffccd057d3cfa454055cc0e56aad38977ad7397375de91c618ff7b6",
+          "provider_posts": 0,
+          "status": "error",
+          "summary": "Source exceeded byte bound"
+        },
+        "status": "returned"
       }
     },
     "question_id": "Q-RESEARCH-Q18",
-    "revision": 13,
+    "revision": 14,
     "route_decisions": [],
     "route_signatures": [],
     "run_id": "Q18-NERVOUS-SYSTEM-20260929",
@@ -3116,5 +3165,5 @@
       "steps": 7
     }
   },
-  "state_sha256": "cdde825db23042f0303a86b71cd1bfeb43e2b05ea64aa4224160b17c6b7d4464"
+  "state_sha256": "71a0be1cc3a812cb400c4f914b7cf5a4b97a16552abf3bb21ab34dd437db2057"
 }
