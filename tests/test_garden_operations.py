@@ -126,14 +126,31 @@ class OperationTests(unittest.TestCase):
 
     def test_cooldown_no_eligible_returns_to_chat_and_digest(self):
         self.model();state=week_one.manifest(self.root);state['cooldown_until']='2026-09-30T00:00:00+00:00'
+        state['cooldown_category']='audit_pending'
         ops.write(self.root,week_one.BASE/'run-manifest.json',state)
         self.prepare();result=ops.execute(self.root,'OP-1')
         self.assertEqual(result['outcome']['status'],'deferred')
         self.assertEqual(self.load()['state']['operation_requests']['OP-1']['status'],'returned')
         queue=ops.read(self.root,ops.THRESHOLD/'unresolved.json')
+        self.assertEqual(queue['capacity_mode'],'luna')
         self.assertEqual(queue['items'][0]['recipients'],['Chat Aiden','Digest Aiden'])
+        handoff=ops.read(self.root,Path(queue['items'][0]['handoff']['path']))
+        self.assertEqual(handoff['schema_version'],'bee-handoff-1')
+        self.assertEqual(handoff['return_path']['on_failure'],['Chat Aiden','Digest Aiden'])
+        capacity=ops.read(self.root,ops.THRESHOLD/'capacity.json')
+        self.assertEqual(capacity['mode'],'luna')
+        self.assertEqual(capacity['bandwidth_wait_category'],'audit_pending')
         api=ops.read(self.root,api_records.THRESHOLD/'runs'/(ops.api_id('OP-1')+'.json'))
         self.assertEqual(api['coverage'],'no_http_exchange')
+
+    def test_non_bandwidth_failure_does_not_create_global_wait(self):
+        self.model();self.prepare()
+        with patch.object(fp,'call',side_effect=fp.ProviderFailure('model_unavailable','route missing',cooldown_hours=12)):
+            result=ops.execute(self.root,'OP-1')
+        self.assertEqual(result['outcome']['category'],'model_unavailable')
+        state=week_one.manifest(self.root)
+        self.assertIsNone(state.get('cooldown_until'))
+        self.assertIsNone(week_one.bandwidth_wait_category(state))
 
     def test_approved_model_full_record_and_shared_budget(self):
         self.model();self.prepare()

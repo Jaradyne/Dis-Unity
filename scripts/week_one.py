@@ -29,6 +29,29 @@ ACTOR = 'Week One Answer Bee / OpenRouter / Nvidia'
 KINDS = {'FACT', 'PLAUSIBLE MECHANISM', 'EARLY SIGNAL', 'UNKNOWN', 'SPECULATION'}
 NWS = 'https://api.weather.gov/alerts/active?area=CA'
 MAX_AUDIT_TRIES = 3
+# Only genuine external waiting conditions suspend provider traffic. Local validation,
+# unavailable routes, and review/policy questions should reroute or wait for a participant,
+# not freeze the whole nervous system behind a generic timer.
+BANDWIDTH_WAIT_CATEGORIES = {'audit_pending', 'daily_quota_exhausted', 'transient_capacity', 'transport_timeout'}
+
+
+def bandwidth_wait_category(state):
+    """Return the category responsible for a legacy/global wait, if it is truly bandwidth-like.
+
+    New records write cooldown_category explicitly. Older state may only carry cooldown_until;
+    infer its cause from the latest substantive provider result so a historical model_unavailable
+    or local validation failure cannot keep blocking Garden work.
+    """
+    category = state.get('cooldown_category')
+    if category:
+        return category if category in BANDWIDTH_WAIT_CATEGORIES else None
+    rows = list(state.get('runs', {}).values()) + list(state.get('garden_operations', {}).values())
+    rows = [r for r in rows if r.get('result') and r.get('result') != 'cooldown']
+    if not rows:
+        return None
+    rows.sort(key=lambda r: r.get('finished_at') or r.get('started_at') or '')
+    category = rows[-1].get('result')
+    return category if category in BANDWIDTH_WAIT_CATEGORIES else None
 
 
 def read(root, path, default=None):
@@ -82,7 +105,8 @@ def gate(config, state, now):
     if any(r.get('status') in {'reserved','executing','audit_pending','uncertain'}
            for r in state.get('garden_operations', {}).values()):
         return 'garden_operation_pending'
-    if state.get('cooldown_until') and now < clock(state['cooldown_until']):
+    if (state.get('cooldown_until') and now < clock(state['cooldown_until'])
+            and bandwidth_wait_category(state)):
         return 'cooldown'
     return None
 
@@ -606,7 +630,8 @@ def execute(root, rid):
             outcome['provider_diagnostics'] = exc.diagnostics
     except (ValueError, TypeError, KeyError, AttributeError, cycle.CycleError) as exc:
         detail = outcome.get('validation_error', {}).get('message', type(exc).__name__)
-        outcome.update(category='invalid_response', reason='Output contract failed: ' + detail, cooldown_hours=12)
+        outcome.update(category='invalid_response', reason='Output contract failed: ' + detail,
+                       hold='local_repair_or_peer_handoff')
     outcome['finished_at'] = cycle.now()
     write(root, run_path(rid, 'outcome.json'), outcome)
     durable(root)
@@ -629,6 +654,7 @@ def finalize(root, rid):
     questions.finish_attempt(root, rec['question_id'], rec['attempt_id'], category, details=details)
     if category == 'partial_answer':
         state['cooldown_until'] = None
+        state['cooldown_category'] = None
         value = outcome['output']['result']
         answer = questions.answer(root, rec['question_id'], ACTOR, {**value['answer'], 'status': 'provisional'},
                                   epoch=rec['epoch'], attempt_id=rec['attempt_id'])
@@ -655,7 +681,13 @@ def finalize(root, rid):
         rec['reflection_ids'] = ids
         if outcome.get('brake') or (category == 'audit_pending' and rec.get('audit_tries', 1) >= MAX_AUDIT_TRIES):
             state['brake'] = {'run_id': rid, 'reason': outcome.get('reason'), 'at': cycle.now()}
-        state['cooldown_until'] = (clock(outcome['finished_at']) + timedelta(hours=outcome.get('cooldown_hours', 12))).isoformat()
+        if category in BANDWIDTH_WAIT_CATEGORIES:
+            state['cooldown_category'] = category
+            state['cooldown_until'] = (clock(outcome['finished_at']) + timedelta(hours=outcome.get('cooldown_hours', 1))).isoformat()
+        else:
+            # Review/local-repair/unavailable-path outcomes remain visible but do not globally idle other work.
+            state['cooldown_category'] = None
+            state['cooldown_until'] = None
     rec.update(status='audit_pending' if category == 'audit_pending' else 'complete', result=category, finished_at=outcome['finished_at'])
     if category == 'spend_detected':
         state['closed'] = True
@@ -704,7 +736,10 @@ def render(root):
                 note += ['', 'A verified provider receipt is retained in [outcome.json](outcome.json); answer validation is separate.']
         note += ['', 'Source selection is bounded. Retrieval date is separate from event time.', '', '[Selected source records](sources.json)']
         cycle.write_bytes(root / run_path(rid, 'HUMAN_NOTE.md'), ('\n'.join(note) + '\n').encode(), replace=True)
-    lines += ['', f"Provider brake: {json.dumps(state.get('brake'))}", f"Cooldown until: {state.get('cooldown_until')}", '',
+    wait_category = bandwidth_wait_category(state)
+    wait_until = state.get('cooldown_until') if wait_category else None
+    lines += ['', f"Provider brake: {json.dumps(state.get('brake'))}",
+              f"Provider bandwidth wait: {wait_category or 'none'} · until: {wait_until}", '',
               'Public-source coverage: EIA diesel/energy feed metadata and up to 12 NWS California active alerts.',
               'Research publication, source access, current operating capacity and model interpretation have separate provenance.']
     for did, decision in state.get('operator_dispositions', {}).items():
