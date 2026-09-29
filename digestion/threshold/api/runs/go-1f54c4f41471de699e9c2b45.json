@@ -1,0 +1,26 @@
+{
+  "attempt_id": null,
+  "coverage": "recorded_exchanges",
+  "materials": [
+    {
+      "path": "operations/week-one/runs/go-1f54c4f41471de699e9c2b45/request.json",
+      "sha256": "854cf5141686722196fd862380b5d491a2836e62055fcdad37cc7403f362b766",
+      "url": "https://github.com/Jaradyne/Dis-Unity/blob/week-one-state/operations/week-one/runs/go-1f54c4f41471de699e9c2b45/request.json"
+    },
+    {
+      "path": "operations/week-one/runs/go-1f54c4f41471de699e9c2b45/api/0001.json",
+      "sha256": "563d1ba8484f370c34350d2ddbeafd08f0247ce04c21368ad3bb3b7e191bc1aa",
+      "url": "https://github.com/Jaradyne/Dis-Unity/blob/week-one-state/operations/week-one/runs/go-1f54c4f41471de699e9c2b45/api/0001.json"
+    }
+  ],
+  "meaning": "Capture and delivery only; not a Governor review, digestion result or canonical admission.",
+  "operator_disposition": null,
+  "question_id": "Q-RESEARCH-Q18",
+  "record_ids": [
+    "API-go-1f54c4f41471de699e9c2b45-0001"
+  ],
+  "run_id": "go-1f54c4f41471de699e9c2b45",
+  "run_status": "operation_materials",
+  "schema_version": "digestion-api-materials-1",
+  "status": "available_for_digestion"
+}
