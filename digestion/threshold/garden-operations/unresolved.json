@@ -16,6 +16,23 @@
       "status": "deferred",
       "summary": "No eligible executor; request retained for Chat Aiden and Digest Aiden.",
       "tree": "INIT"
+    },
+    {
+      "birth_decision": null,
+      "branch_id": "B0",
+      "executor": "local-lineage",
+      "node": "MIRROR",
+      "operation_id": "Q18-LINEAGE-20260929",
+      "question_id": "Q-RESEARCH-Q18",
+      "recipients": [
+        "Chat Aiden",
+        "Digest Aiden"
+      ],
+      "record": "https://github.com/Jaradyne/Dis-Unity/blob/week-one-state/operations/garden/operations/Q18-LINEAGE-20260929.json",
+      "run_id": "Q18-NERVOUS-SYSTEM-20260929",
+      "status": "unknown",
+      "summary": "Inventoried 3 inherited source references. This deterministic inventory makes no service-performance inference; the empirical question remains open.",
+      "tree": "INIT"
     }
   ],
   "schema_version": "garden-unresolved-1"

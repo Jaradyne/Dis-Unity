@@ -863,6 +863,46 @@
         "status": "requested"
       },
       "recorded_at": "2026-09-29T19:07:54.434139+00:00"
+    },
+    {
+      "after": "fc104694096b9e6645275e63e99ab66f1febbb02ab19b70fcd6412972102aa0d",
+      "before": "c304dd4d9288f4ea58c51b96dbc4e884b6077d06f3e5749a0ff716606be76e14",
+      "command": {
+        "actor": {
+          "name": "Garden operation orchestrator",
+          "runtime": "Python; reviewed main configuration"
+        },
+        "branch_id": "B0",
+        "event_id": "RET-Q18-LINEAGE-20260929",
+        "expected_revision": 7,
+        "kind": "operation_return",
+        "operation_id": "Q18-LINEAGE-20260929",
+        "return": {
+          "executor": "local-lineage",
+          "independent_evidence": false,
+          "material_ref": "operations/week-one/runs/go-353e2218eac46ac94c86ddf2/outcome.json",
+          "material_sha256": "96cf37caf2aff852c3b732af4b145fe5962a32464c00ac6440b5cd3a1fb26799",
+          "provider_posts": 0,
+          "status": "unknown",
+          "summary": "Inventoried 3 inherited source references. This deterministic inventory makes no service-performance inference; the empirical question remains open."
+        }
+      },
+      "decision": {
+        "anchor": {
+          "arrival_id": "Q18-NERVES-ARRIVAL-1",
+          "branch_id": "B0",
+          "epoch": 1,
+          "node": "MIRROR",
+          "parent_output_hash": "ce0985403afdcc9f9fb18cb02ca60cef5d8a852119ae4c5ce00577ace217afce",
+          "question_id": "Q-RESEARCH-Q18",
+          "run_id": "Q18-NERVOUS-SYSTEM-20260929",
+          "tree": "INIT",
+          "visit": 0
+        },
+        "operation_id": "Q18-LINEAGE-20260929",
+        "status": "returned"
+      },
+      "recorded_at": "2026-09-29T19:07:58.878500+00:00"
     }
   ],
   "initial": {
@@ -2133,11 +2173,20 @@
           "stop_condition": "One structured return, or explicit defer/UNKNOWN; no inference retry.",
           "task": "Specify one ordinary control and one narrow test distinguishing vessel delivery from dependable freight service."
         },
-        "status": "requested"
+        "result": {
+          "executor": "local-lineage",
+          "independent_evidence": false,
+          "material_ref": "operations/week-one/runs/go-353e2218eac46ac94c86ddf2/outcome.json",
+          "material_sha256": "96cf37caf2aff852c3b732af4b145fe5962a32464c00ac6440b5cd3a1fb26799",
+          "provider_posts": 0,
+          "status": "unknown",
+          "summary": "Inventoried 3 inherited source references. This deterministic inventory makes no service-performance inference; the empirical question remains open."
+        },
+        "status": "returned"
       }
     },
     "question_id": "Q-RESEARCH-Q18",
-    "revision": 7,
+    "revision": 8,
     "route_decisions": [],
     "route_signatures": [],
     "run_id": "Q18-NERVOUS-SYSTEM-20260929",
@@ -2199,5 +2248,5 @@
       "steps": 4
     }
   },
-  "state_sha256": "c304dd4d9288f4ea58c51b96dbc4e884b6077d06f3e5749a0ff716606be76e14"
+  "state_sha256": "fc104694096b9e6645275e63e99ab66f1febbb02ab19b70fcd6412972102aa0d"
 }

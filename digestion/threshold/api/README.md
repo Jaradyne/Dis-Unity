@@ -2,7 +2,7 @@
 
 [Open the CSV ledger](interactions.csv) · [Per-run material packets](runs/)
 
-13 recorded HTTP exchanges; 20 historical run summaries with partial coverage; 1 operation records without HTTP exchanges. Historical summaries are not a count of API calls.
+13 recorded HTTP exchanges; 20 historical run summaries with partial coverage; 2 operation records without HTTP exchanges. Historical summaries are not a count of API calls.
 
 Each new exchange preserves the method, URL, request headers/body, status, response headers/body and transport errors before parsing. Credentials and authentication cookies are redacted. Bodies exceeding existing transport bounds, interrupted reads and missing responses are explicitly marked incomplete. Unknown cost stays blank; zero means a reported zero. Full provider-returned fields are retained in the exchange record; the smaller operational response is a separate projection.
 

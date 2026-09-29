@@ -1,0 +1,52 @@
+{
+  "anchor": {
+    "arrival_id": "Q18-NERVES-ARRIVAL-1",
+    "branch_id": "B0",
+    "epoch": 1,
+    "node": "MIRROR",
+    "parent_output_hash": "ce0985403afdcc9f9fb18cb02ca60cef5d8a852119ae4c5ce00577ace217afce",
+    "question_id": "Q-RESEARCH-Q18",
+    "run_id": "Q18-NERVOUS-SYSTEM-20260929",
+    "tree": "INIT",
+    "visit": 0
+  },
+  "api_records": [],
+  "category": "validated_output",
+  "executor": "local-lineage",
+  "finished_at": "2026-09-29T19:07:58.855489+00:00",
+  "independent_evidence": false,
+  "operation_id": "Q18-LINEAGE-20260929",
+  "output": {
+    "birth": {
+      "budget": {
+        "model_posts": 0,
+        "operations": 1,
+        "source_gets": 1
+      },
+      "need": "q18-ccs-delivery",
+      "question": "Does the saved CCS Ningyuan Dianpeng delivery surface supply a dated completed-freight record?",
+      "role": "collector",
+      "stop_condition": "One public GET; retain full response and return UNKNOWN unless separately reviewed operating measures exist.",
+      "tree": "PRODUCTION",
+      "why_parent_cannot_answer": "Inherited construction/delivery reporting supplies no validated voyage-performance series."
+    },
+    "proposed_tests": [
+      "Specify one ordinary control and one narrow test distinguishing vessel delivery from dependable freight service."
+    ],
+    "source_refs": [
+      "handoffs/week_one_governor/2026-09-25.json",
+      "GOV-20260925-01",
+      "GOV-20260925-02"
+    ],
+    "status": "unknown",
+    "summary": "Inventoried 3 inherited source references. This deterministic inventory makes no service-performance inference; the empirical question remains open."
+  },
+  "provider_posts": 0,
+  "started_at": "2026-09-29T19:07:56.476971+00:00",
+  "status": "unknown",
+  "summary": "Inventoried 3 inherited source references. This deterministic inventory makes no service-performance inference; the empirical question remains open.",
+  "validation": {
+    "schema": "garden-output-1",
+    "status": "passed"
+  }
+}
