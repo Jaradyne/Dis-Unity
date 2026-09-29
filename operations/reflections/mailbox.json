@@ -1742,6 +1742,42 @@
       "suggestions": [],
       "summary": "A helpful finding can be a demonstrated bridge plus a precise missing measurement. Reflection should change the next check, not inflate uncertainty into a collapse claim.",
       "uncertainties": []
+    },
+    "REFL-FF9825E7F4B0A37CE29CB87B": {
+      "actor": "Week One public scout",
+      "context": {
+        "call_id": "gh-36619142520-1-scouts",
+        "parent_call_id": "gh-36619142520-1",
+        "run_id": "gh-36619142520-1"
+      },
+      "created_at": "2026-09-29T19:25:52.986421+00:00",
+      "level": "subcall",
+      "observations": [
+        "eia-diesel: retrieved",
+        "eia-energy: retrieved",
+        "nws-ca: retrieved"
+      ],
+      "origin": "runtime_observation",
+      "questions": [],
+      "reflection_id": "REFL-FF9825E7F4B0A37CE29CB87B",
+      "related_reflection_ids": [],
+      "source_refs": [
+        "SRC-W1-1D08357354B57D85",
+        "SRC-W1-93542D2CCEC68444",
+        "SRC-W1-58C06D6CE3142B01",
+        "SRC-W1-3FBA3F47A07802CD",
+        "SRC-W1-FFE6A0A14DE87E65",
+        "SRC-W1-6A750A9EC1876AD1",
+        "SRC-W1-19AB7F54C028A06F",
+        "SRC-W1-01B9653F42178884",
+        "SRC-W1-F20C19E56AC7A93F",
+        "SRC-W1-149E227B1F1F08E1"
+      ],
+      "suggestions": [],
+      "summary": "Retrieved 3/3 public surfaces; 0 new/changed selected items.",
+      "uncertainties": [
+        "Selected feeds and alerts do not measure delivery performance, stocks or caregiver capacity."
+      ]
     }
   },
   "schema_version": "0.1"
