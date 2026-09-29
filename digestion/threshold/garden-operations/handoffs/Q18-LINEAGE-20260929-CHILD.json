@@ -1,0 +1,102 @@
+{
+  "attempted_executor": "public-collector",
+  "automatic_wake": false,
+  "candidate_states": [
+    {
+      "id": "local-lineage",
+      "reason": "Different operation method; no silent substitution",
+      "state": "eligible_but_not_needed"
+    },
+    {
+      "id": "public-collector",
+      "reason": "One reviewed public surface; inherited lineage remains inherited",
+      "state": "eligible_now"
+    },
+    {
+      "id": "or-nvidia",
+      "reason": "Different operation method; no silent substitution",
+      "state": "eligible_but_not_needed"
+    },
+    {
+      "id": "gemini",
+      "reason": "Different operation method; no silent substitution",
+      "state": "eligible_but_not_needed"
+    },
+    {
+      "id": "mistral-small-4",
+      "reason": "Different operation method; no silent substitution",
+      "state": "eligible_but_not_needed"
+    },
+    {
+      "id": "cloudflare",
+      "reason": "Different operation method; no silent substitution",
+      "state": "eligible_but_not_needed"
+    }
+  ],
+  "currently_selected": "public-collector",
+  "epoch": 1,
+  "from": {
+    "branch_id": "B1",
+    "node": "ROOT",
+    "run_id": "Q18-NERVOUS-SYSTEM-20260929",
+    "tree": "PRODUCTION"
+  },
+  "information_lineage": {
+    "inherited_branch_lineage": {
+      "independent_evidence": false,
+      "parent_arrival_id": "Q18-NERVES-ARRIVAL-1",
+      "parent_output_hash": "9546129d5a6464fe7dec3545550da325adca3497082e39553b0bdc30ac98b636",
+      "source_refs": [
+        "handoffs/week_one_governor/2026-09-25.json",
+        "GOV-20260925-01",
+        "GOV-20260925-02"
+      ]
+    },
+    "parent_answer_visible": true,
+    "parent_output_hash": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "prior_operation_refs": [
+      "operations/garden/operations/Q18-BOUNDED-COGNITION-20260929.json",
+      "operations/garden/operations/Q18-LINEAGE-20260929.json"
+    ],
+    "source_refs": [
+      "handoffs/week_one_governor/2026-09-25.json",
+      "GOV-20260925-01",
+      "GOV-20260925-02"
+    ]
+  },
+  "next_actors": [
+    "Chat Aiden",
+    "Digest Aiden"
+  ],
+  "operation_id": "Q18-LINEAGE-20260929-CHILD",
+  "question_id": "Q-RESEARCH-Q18",
+  "reason": "Source exceeded byte bound",
+  "required_capabilities": {
+    "method": "public_source",
+    "model": false,
+    "public_http": true,
+    "role": "collector",
+    "source_key": "q18-ccs-delivery"
+  },
+  "resume_rule": "Use a new linked operation ID for changed work. Recover only saved same-generation transport; never repost an uncertain inference.",
+  "return_path": {
+    "anchor": {
+      "arrival_id": "ARR-6f4d41e28b87b9acf721e7b9",
+      "branch_id": "B1",
+      "epoch": 1,
+      "node": "ROOT",
+      "parent_output_hash": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "question_id": "Q-RESEARCH-Q18",
+      "run_id": "Q18-NERVOUS-SYSTEM-20260929",
+      "tree": "PRODUCTION",
+      "visit": 0
+    },
+    "on_failure": [
+      "Chat Aiden",
+      "Digest Aiden"
+    ]
+  },
+  "schema_version": "bee-handoff-1",
+  "status": "error",
+  "stop_condition": "One public GET; retain full response and return UNKNOWN unless separately reviewed operating measures exist."
+}

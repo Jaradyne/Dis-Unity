@@ -1,0 +1,15 @@
+{
+  "bandwidth_wait_category": null,
+  "bandwidth_wait_until": null,
+  "meaning": "Normal mode means an approved model lane is locally eligible; this is not a promise of remote availability.",
+  "mode": "normal",
+  "reason": "approved model lane locally eligible; live provider checks still occur at execution",
+  "routes": {
+    "chat_aiden": "research, repair, source work, GitHub-preparable operations",
+    "deterministic": "continue when the requested method fits",
+    "digest_aiden": "cross-operation digestion, contradiction/pattern review, structural handoff",
+    "model_work": "use contextual eligible executors; first/peculiar providers still require Jared approval",
+    "public_collectors": "continue within source budgets"
+  },
+  "schema_version": "garden-capacity-1"
+}

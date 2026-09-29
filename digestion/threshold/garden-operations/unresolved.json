@@ -1,9 +1,14 @@
 {
+  "capacity_mode": "normal",
   "items": [
     {
       "birth_decision": null,
       "branch_id": "B0",
       "executor": null,
+      "handoff": {
+        "path": "digestion/threshold/garden-operations/handoffs/Q18-BOUNDED-COGNITION-20260929.json",
+        "url": "https://github.com/Jaradyne/Dis-Unity/blob/week-one-state/digestion/threshold/garden-operations/handoffs/Q18-BOUNDED-COGNITION-20260929.json"
+      },
       "node": "MIRROR",
       "operation_id": "Q18-BOUNDED-COGNITION-20260929",
       "question_id": "Q-RESEARCH-Q18",
@@ -21,6 +26,10 @@
       "birth_decision": null,
       "branch_id": "B1",
       "executor": "public-collector",
+      "handoff": {
+        "path": "digestion/threshold/garden-operations/handoffs/Q18-LINEAGE-20260929-CHILD.json",
+        "url": "https://github.com/Jaradyne/Dis-Unity/blob/week-one-state/digestion/threshold/garden-operations/handoffs/Q18-LINEAGE-20260929-CHILD.json"
+      },
       "node": "ROOT",
       "operation_id": "Q18-LINEAGE-20260929-CHILD",
       "question_id": "Q-RESEARCH-Q18",
@@ -46,6 +55,10 @@
       },
       "branch_id": "B0",
       "executor": "local-lineage",
+      "handoff": {
+        "path": "digestion/threshold/garden-operations/handoffs/Q18-LINEAGE-20260929.json",
+        "url": "https://github.com/Jaradyne/Dis-Unity/blob/week-one-state/digestion/threshold/garden-operations/handoffs/Q18-LINEAGE-20260929.json"
+      },
       "node": "MIRROR",
       "operation_id": "Q18-LINEAGE-20260929",
       "question_id": "Q-RESEARCH-Q18",
@@ -60,5 +73,5 @@
       "tree": "INIT"
     }
   ],
-  "schema_version": "garden-unresolved-1"
+  "schema_version": "garden-unresolved-2"
 }

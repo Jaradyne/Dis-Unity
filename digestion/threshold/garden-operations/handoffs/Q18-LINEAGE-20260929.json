@@ -1,0 +1,99 @@
+{
+  "attempted_executor": "local-lineage",
+  "automatic_wake": false,
+  "candidate_states": [
+    {
+      "id": "local-lineage",
+      "reason": "Deterministic inventory needs no model or network",
+      "state": "eligible_now"
+    },
+    {
+      "id": "public-collector",
+      "reason": "Different operation method; no silent substitution",
+      "state": "eligible_but_not_needed"
+    },
+    {
+      "id": "or-nvidia",
+      "reason": "Different operation method; no silent substitution",
+      "state": "eligible_but_not_needed"
+    },
+    {
+      "id": "gemini",
+      "reason": "Different operation method; no silent substitution",
+      "state": "eligible_but_not_needed"
+    },
+    {
+      "id": "mistral-small-4",
+      "reason": "Different operation method; no silent substitution",
+      "state": "eligible_but_not_needed"
+    },
+    {
+      "id": "cloudflare",
+      "reason": "Different operation method; no silent substitution",
+      "state": "eligible_but_not_needed"
+    }
+  ],
+  "currently_selected": "local-lineage",
+  "epoch": 1,
+  "from": {
+    "branch_id": "B0",
+    "node": "MIRROR",
+    "run_id": "Q18-NERVOUS-SYSTEM-20260929",
+    "tree": "INIT"
+  },
+  "information_lineage": {
+    "inherited_branch_lineage": {
+      "independent_evidence": false,
+      "source_refs": [
+        "handoffs/week_one_governor/2026-09-25.json",
+        "GOV-20260925-01",
+        "GOV-20260925-02"
+      ]
+    },
+    "parent_answer_visible": true,
+    "parent_output_hash": "ce0985403afdcc9f9fb18cb02ca60cef5d8a852119ae4c5ce00577ace217afce",
+    "prior_operation_refs": [
+      "operations/garden/operations/Q18-BOUNDED-COGNITION-20260929.json"
+    ],
+    "source_refs": [
+      "handoffs/week_one_governor/2026-09-25.json",
+      "GOV-20260925-01",
+      "GOV-20260925-02"
+    ]
+  },
+  "next_actors": [
+    "Chat Aiden",
+    "Digest Aiden"
+  ],
+  "operation_id": "Q18-LINEAGE-20260929",
+  "question_id": "Q-RESEARCH-Q18",
+  "reason": "Inventoried 3 inherited source references. This deterministic inventory makes no service-performance inference; the empirical question remains open.",
+  "required_capabilities": {
+    "method": "lineage_inventory",
+    "model": false,
+    "public_http": false,
+    "role": "crosscheck",
+    "source_key": null
+  },
+  "resume_rule": "Use a new linked operation ID for changed work. Recover only saved same-generation transport; never repost an uncertain inference.",
+  "return_path": {
+    "anchor": {
+      "arrival_id": "Q18-NERVES-ARRIVAL-1",
+      "branch_id": "B0",
+      "epoch": 1,
+      "node": "MIRROR",
+      "parent_output_hash": "ce0985403afdcc9f9fb18cb02ca60cef5d8a852119ae4c5ce00577ace217afce",
+      "question_id": "Q-RESEARCH-Q18",
+      "run_id": "Q18-NERVOUS-SYSTEM-20260929",
+      "tree": "INIT",
+      "visit": 0
+    },
+    "on_failure": [
+      "Chat Aiden",
+      "Digest Aiden"
+    ]
+  },
+  "schema_version": "bee-handoff-1",
+  "status": "unknown",
+  "stop_condition": "One structured return, or explicit defer/UNKNOWN; no inference retry."
+}
