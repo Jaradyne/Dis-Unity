@@ -463,6 +463,46 @@
         "status": "requested"
       },
       "recorded_at": "2026-09-29T19:07:50.414620+00:00"
+    },
+    {
+      "after": "7b93e23662148861056a8f7bc9517f5ce4aeffe489145b2e1325a51d37fecb45",
+      "before": "c39314ef9d8f45cfcb09d3c7932a05ff4687a271398097e6d9942942744ea54e",
+      "command": {
+        "actor": {
+          "name": "Garden operation orchestrator",
+          "runtime": "Python; reviewed main configuration"
+        },
+        "branch_id": "B0",
+        "event_id": "RET-Q18-BOUNDED-COGNITION-20260929",
+        "expected_revision": 5,
+        "kind": "operation_return",
+        "operation_id": "Q18-BOUNDED-COGNITION-20260929",
+        "return": {
+          "executor": null,
+          "independent_evidence": false,
+          "material_ref": "operations/week-one/runs/go-c494f6bd722da02b00649801/outcome.json",
+          "material_sha256": "8ee138e1380b71a6659f7d5aff67ed48c0f83554fa90ba660baf20e9baa81392",
+          "provider_posts": 0,
+          "status": "deferred",
+          "summary": "No eligible executor; request retained for Chat Aiden and Digest Aiden."
+        }
+      },
+      "decision": {
+        "anchor": {
+          "arrival_id": "Q18-NERVES-ARRIVAL-1",
+          "branch_id": "B0",
+          "epoch": 1,
+          "node": "MIRROR",
+          "parent_output_hash": "ce0985403afdcc9f9fb18cb02ca60cef5d8a852119ae4c5ce00577ace217afce",
+          "question_id": "Q-RESEARCH-Q18",
+          "run_id": "Q18-NERVOUS-SYSTEM-20260929",
+          "tree": "INIT",
+          "visit": 0
+        },
+        "operation_id": "Q18-BOUNDED-COGNITION-20260929",
+        "status": "returned"
+      },
+      "recorded_at": "2026-09-29T19:07:52.429244+00:00"
     }
   ],
   "initial": {
@@ -1391,11 +1431,20 @@
           "stop_condition": "One structured return, or explicit defer/UNKNOWN; no inference retry.",
           "task": "Specify one ordinary control and one narrow test distinguishing vessel delivery from dependable freight service."
         },
-        "status": "requested"
+        "result": {
+          "executor": null,
+          "independent_evidence": false,
+          "material_ref": "operations/week-one/runs/go-c494f6bd722da02b00649801/outcome.json",
+          "material_sha256": "8ee138e1380b71a6659f7d5aff67ed48c0f83554fa90ba660baf20e9baa81392",
+          "provider_posts": 0,
+          "status": "deferred",
+          "summary": "No eligible executor; request retained for Chat Aiden and Digest Aiden."
+        },
+        "status": "returned"
       }
     },
     "question_id": "Q-RESEARCH-Q18",
-    "revision": 5,
+    "revision": 6,
     "route_decisions": [],
     "route_signatures": [],
     "run_id": "Q18-NERVOUS-SYSTEM-20260929",
@@ -1457,5 +1506,5 @@
       "steps": 4
     }
   },
-  "state_sha256": "c39314ef9d8f45cfcb09d3c7932a05ff4687a271398097e6d9942942744ea54e"
+  "state_sha256": "7b93e23662148861056a8f7bc9517f5ce4aeffe489145b2e1325a51d37fecb45"
 }

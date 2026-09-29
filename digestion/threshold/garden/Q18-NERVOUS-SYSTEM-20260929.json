@@ -4,9 +4,9 @@
   ],
   "meaning": "Attributed operation returns; no automatic evidence admission or Governor review.",
   "record_ref": "operations/garden/runs/Q18-NERVOUS-SYSTEM-20260929.json",
-  "record_sha256": "08a4570d19fb0d95d327fdc891985b690867d22f0df266cb6b0d17cd592fbbef",
+  "record_sha256": "19690cd877feb94d3e76c5875cacbd44dcfd0e92f04e5c42c3dcb79f737170d7",
   "run_id": "Q18-NERVOUS-SYSTEM-20260929",
   "schema_version": "digestion-garden-materials-1",
-  "state_sha256": "c39314ef9d8f45cfcb09d3c7932a05ff4687a271398097e6d9942942744ea54e",
+  "state_sha256": "7b93e23662148861056a8f7bc9517f5ce4aeffe489145b2e1325a51d37fecb45",
   "status": "available_for_digestion"
 }

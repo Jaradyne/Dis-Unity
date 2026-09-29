@@ -2,7 +2,11 @@
   "materials": [
     {
       "path": "operations/garden/operations/Q18-BOUNDED-COGNITION-20260929.json",
-      "sha256": "81fe8391f6aabbbe557031f97060e73c31fda430caab65c17d6770e8f8bf6c40"
+      "sha256": "1d50789220372f64f6f1815a6022ccf809ba42ab646791bac18ffa8cab00889a"
+    },
+    {
+      "path": "operations/week-one/runs/go-c494f6bd722da02b00649801/outcome.json",
+      "sha256": "8ee138e1380b71a6659f7d5aff67ed48c0f83554fa90ba660baf20e9baa81392"
     },
     {
       "path": "operations/week-one/runs/go-c494f6bd722da02b00649801/request.json",

@@ -1,0 +1,23 @@
+{
+  "anchor": {
+    "arrival_id": "Q18-NERVES-ARRIVAL-1",
+    "branch_id": "B0",
+    "epoch": 1,
+    "node": "MIRROR",
+    "parent_output_hash": "ce0985403afdcc9f9fb18cb02ca60cef5d8a852119ae4c5ce00577ace217afce",
+    "question_id": "Q-RESEARCH-Q18",
+    "run_id": "Q18-NERVOUS-SYSTEM-20260929",
+    "tree": "INIT",
+    "visit": 0
+  },
+  "api_records": [],
+  "category": "no_eligible_worker",
+  "executor": null,
+  "finished_at": "2026-09-29T19:07:52.412431+00:00",
+  "independent_evidence": false,
+  "operation_id": "Q18-BOUNDED-COGNITION-20260929",
+  "provider_posts": 0,
+  "started_at": "2026-09-29T19:07:52.412404+00:00",
+  "status": "deferred",
+  "summary": "No eligible executor; request retained for Chat Aiden and Digest Aiden."
+}
