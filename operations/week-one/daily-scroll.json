@@ -1,25 +1,13 @@
 {
-  "as_of": "2026-09-28T21:24:35.516214+00:00",
+  "as_of": "2026-09-29T01:47:21.242677+00:00",
   "brake": null,
   "closed": false,
   "closure_reason": null,
   "cooldown_until": "2026-09-29T09:24:33.642425+00:00",
   "evidence_status": "Projection of records, not additional corroboration or admitted research.",
   "kind": "daily_scroll",
-  "manifest_hash": "02fc100c7a23f68483dc9ce52c681a109a91c8b915b55db337ecdeed4115d51a",
+  "manifest_hash": "37ed4f1212da315e1aa053034551d872ab24016464af174255918a998547a9e6",
   "recent_runs": [
-    {
-      "changed_source_count": 7,
-      "note_ref": "operations/week-one/runs/gh-36290391567-1/HUMAN_NOTE.md",
-      "question_id": null,
-      "result": "operator_review_required",
-      "retrieved_at": "2026-09-27T03:05:27.680264+00:00",
-      "run_id": "gh-36290391567-1",
-      "source_ref": "operations/week-one/runs/gh-36290391567-1/sources.json",
-      "started_at": "2026-09-27T03:05:27.098357+00:00",
-      "status": "deferred",
-      "summary": "No synthesis recorded."
-    },
     {
       "changed_source_count": 2,
       "note_ref": "operations/week-one/runs/gh-36309693193-1/HUMAN_NOTE.md",
@@ -79,6 +67,18 @@
       "started_at": "2026-09-28T21:23:56.762070+00:00",
       "status": "complete",
       "summary": "Output contract failed: CycleError"
+    },
+    {
+      "changed_source_count": 7,
+      "note_ref": "operations/week-one/runs/gh-36509534121-1/HUMAN_NOTE.md",
+      "question_id": null,
+      "result": "cooldown",
+      "retrieved_at": "2026-09-29T01:47:21.198152+00:00",
+      "run_id": "gh-36509534121-1",
+      "source_ref": "operations/week-one/runs/gh-36509534121-1/sources.json",
+      "started_at": "2026-09-29T01:47:20.715191+00:00",
+      "status": "deferred",
+      "summary": "No synthesis recorded."
     }
   ],
   "scope": "Current snapshot of up to 6 recent recorded runs; their original dates remain visible."

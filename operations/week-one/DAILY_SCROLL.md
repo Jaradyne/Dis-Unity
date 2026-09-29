@@ -2,17 +2,9 @@
 
 Current snapshot of up to 6 recent recorded runs; their original dates remain visible.
 
-As of 2026-09-28T21:24:35.516214+00:00.
+As of 2026-09-29T01:47:21.242677+00:00.
 
 Projection of records, not additional corroboration or admitted research.
-
-## gh-36290391567-1
-
-2026-09-27T03:05:27.098357+00:00 · deferred / operator_review_required
-
-No synthesis recorded.
-
-[Saved note](runs/gh-36290391567-1/HUMAN_NOTE.md) · 7 changed selected source records.
 
 ## gh-36309693193-1
 
@@ -53,3 +45,11 @@ UNKNOWN
 Output contract failed: CycleError
 
 [Saved note](runs/gh-36485742254-1/HUMAN_NOTE.md) · 7 changed selected source records.
+
+## gh-36509534121-1
+
+2026-09-29T01:47:20.715191+00:00 · deferred / cooldown
+
+No synthesis recorded.
+
+[Saved note](runs/gh-36509534121-1/HUMAN_NOTE.md) · 7 changed selected source records.
