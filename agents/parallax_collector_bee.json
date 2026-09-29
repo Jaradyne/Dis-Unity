@@ -135,5 +135,30 @@
     "to": "INIT:RETURN-0010",
     "status": "available_not_running",
     "automatic_execution": false
+  },
+  "language_radar": {
+    "rule": "Prefer the languages actually published by the selected institution/item. This radar highlights useful cross-border surfaces without manufacturing a comparison.",
+    "african_bridge_surfaces": [
+      {
+        "language": "Kiswahili",
+        "status": "priority",
+        "use": "Cross-border East/Central/Southern African surface; especially valuable where the same institution or policy family publishes matched Kiswahili material."
+      },
+      {
+        "language": "Hausa",
+        "status": "radar",
+        "use": "West African/Sahel bridge surface when matched official or institutional material exists."
+      },
+      {
+        "language": "Fulfulde/Fula/Pulaar",
+        "status": "radar",
+        "use": "Cross-border West African/Sahel surface; preserve exact local name/variant and issuing institution."
+      },
+      {
+        "language": "Lingala",
+        "status": "radar",
+        "use": "Central African/Congo-basin bridge surface; useful for same-language/different-state comparisons when provenance matches."
+      }
+    ]
   }
 }

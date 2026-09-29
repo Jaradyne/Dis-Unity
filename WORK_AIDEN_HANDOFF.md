@@ -1,3 +1,7 @@
+# September 28 Pacific / September 29 UTC — readiness while Work rests
+
+Read [the current readiness review](operations/COMPANION_WEEK_READINESS_2026-09-29.md). Digest PR #26 and Chat PR #17 are integrated; the recorded API sample-contract failure and material-hash order are repaired. The bounded collection loop can support Jared/Chat/Digest review. Automatic model-to-Garden integration remains unbuilt. The existing October 4 cutoff is still active; the proposed October 5 evening extension awaits Jared's confirmation.
+
 # 28 September — Digest integration and saved Garden traversal
 
 Read [the integration record](operations/INTEGRATION_2026-09-28_GARDEN.md) and [Garden traversal contract](docs/GARDEN_TRAVERSAL.md). Digest PR #24 is preserved. Work implemented its first suggested slice: saved per-node traversal, deterministic routing, clone lineage, rest/re-entry, replay and a digestion CSV. The supplied Q18 demonstration has one resting parent and two children awaiting input. It is not new research or a live specialist run.

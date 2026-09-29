@@ -248,7 +248,7 @@ def publish(root):
                              'url': row['full_record']})
         if not exchanges:
             request, response, outcome = read(root / request_path, {}), read(root / response_path, {}), read(root / outcome_path, {})
-            receipt = outcome.get('output', {}).get('receipt', {})
+            receipt = outcome.get('provider_receipt', outcome.get('output', {}).get('receipt', {}))
             rows.append({'record_id': 'LEGACY-' + rid, 'run_id': rid, 'question_id': rec.get('question_id'),
                          'started_at_utc': rec.get('started_at'),
                          'kind': 'legacy_run_materials', 'service': request.get('provider', ''), 'method': '', 'url': '',
