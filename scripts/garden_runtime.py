@@ -92,7 +92,7 @@ def initial_state(config, packet, registry):
         require(type(value) is int and 0 <= value <= limits[key], 'Budget cannot exceed reviewed limits')
         limits[key] = value
     require(limits['max_branches'] >= 1, 'Budget must include the root branch')
-    return {'run_id': packet['run_id'], 'question_id': qid, 'epoch': epoch, 'revision': 0,
+    state = {'run_id': packet['run_id'], 'question_id': qid, 'epoch': epoch, 'revision': 0,
             'limits': limits, 'used': {'steps': 0, 'branches': 1, 'model_calls': 0},
             'sources': catalog, 'route_decisions': [], 'route_signatures': [],
             'branches': {'B0': {'id':'B0', 'parent_branch':None, 'root_branch':'B0', 'question_id':qid, 'epoch':epoch,
@@ -100,6 +100,16 @@ def initial_state(config, packet, registry):
                  'lineage':{'source_refs':list(catalog), 'independent_evidence':False},
                  'visits':[visit(tree, arrival)], 'seen_arrival_ids':[arrival['id']],
                  'visited':[{'tree':tree,'payload_hash':cycle.digest(arrival['payload'])}]}}}
+    if 'operations' in config:
+        limits = config['operations']['limits']
+        require(set(limits) == {'max_operations','max_child_work','max_child_depth','max_model_posts','max_source_gets'}
+                and all(type(v) is int and 0 <= v <= 16 for v in limits.values()), 'Invalid operation limits')
+        state.update(operation_requests={}, child_signatures=[])
+        state['used'].update(operations=0, child_work=0)
+        # The reducer still dispatches nothing; this counts adapter calls
+        # attached to this linked run, respecting an explicit lower start cap.
+        state['limits']['model_calls'] = requested.get('model_calls', limits['max_model_posts'])
+    return state
 
 
 def new_document(config, packet, registry):
@@ -301,6 +311,105 @@ def route(state, branch, command, config):
     return decision
 
 
+def operation_event(state, branch, command, config):
+    """Pure event reducer. Workers return attachments, never traversal authority."""
+    require('operations' in config, 'Start an operation-enabled linked run')
+    limits = config['operations']['limits']
+    kind = command['kind']
+    if kind == 'operation_request':
+        request = command['request']
+        oid = garden.identifier(request.get('operation_id'))
+        require(oid not in state['operation_requests'], 'Operation ID already requested')
+        require(branch['status'] == 'ready', 'Operation requires an active branch')
+        require(state['used']['operations'] < limits['max_operations'], 'Operation budget exhausted')
+        if branch.get('birth'):
+            require(not any(r['request']['anchor']['branch_id'] == branch['id']
+                            for r in state['operation_requests'].values()), 'Child operation budget exhausted')
+            require(request.get('method') == 'public_source' and request.get('budget') == {'model_posts':0,'source_gets':1}
+                    and request.get('permissions') == {'model':False,'public_http':True}, 'Child inherits its source-only budget')
+        # Leave an event slot for every outstanding return, including this one.
+        pending = sum(r['status'] == 'requested' for r in state['operation_requests'].values())
+        require(state['revision'] + pending + 2 <= state['limits']['max_events'], 'No event capacity for operation return')
+        anchor = {'run_id':state['run_id'], 'question_id':state['question_id'], 'epoch':state['epoch'],
+                  'branch_id':branch['id'], 'tree':current(branch)['tree'], 'node':node(branch),
+                  'visit':len(branch['visits'])-1, 'arrival_id':current(branch)['arrival']['id'],
+                  'parent_output_hash':cycle.digest(current(branch)['steps'])}
+        require(request['anchor'] == anchor, 'Operation must bind to this exact node and history')
+        require(isinstance(request.get('reason'), str) and request['reason'].strip(), 'Operation needs a reason')
+        state['operation_requests'][oid] = {'request':copy.deepcopy(request), 'status':'requested'}
+        state['used']['operations'] += 1
+        return {'status':'requested','operation_id':oid,'anchor':anchor}
+    if kind == 'operation_return':
+        record = state['operation_requests'][command['operation_id']]
+        require(record['status'] == 'requested' and record['request']['anchor']['branch_id'] == branch['id'], 'Return needs its pending branch')
+        anchor = record['request']['anchor']
+        require(anchor['visit'] == len(branch['visits'])-1 and anchor['node'] == node(branch)
+                and anchor['parent_output_hash'] == cycle.digest(current(branch)['steps']), 'Return target moved')
+        value = command['return']
+        require(value.get('independent_evidence') is False and value.get('status') in {'complete','unknown','deferred','error'}, 'Operation output remains attributed non-evidence')
+        require(value.get('material_ref') and value.get('material_sha256'), 'Return needs inspectable material')
+        record.update(status='returned', result=copy.deepcopy(value))
+        posts = value.get('provider_posts', 0)
+        require(type(posts) is int and 0 <= posts <= 1
+                and state['used']['model_calls'] + posts <= state['limits']['model_calls'], 'Invalid provider call count')
+        state['used']['model_calls'] += posts
+        return {'status':'returned','operation_id':command['operation_id'],'anchor':anchor}
+    if kind == 'operation_audit':
+        record = state['operation_requests'][command['operation_id']]
+        require(record['status'] == 'returned' and record['request']['anchor']['branch_id'] == branch['id'], 'Audit needs its original returned operation')
+        value = command['audit']
+        require(value.get('independent_evidence') is False and value.get('material_ref') and value.get('material_sha256'), 'Audit is attributed material, not evidence admission')
+        record.setdefault('audits',[]).append(copy.deepcopy(value))
+        return {'status':'audit_attached','anchor':record['request']['anchor']}
+    if kind == 'birth':
+        birth = command['birth']
+        for key in ('why_parent_cannot_answer','question','tree','role','need','stop_condition'):
+            require(isinstance(birth.get(key), str) and birth[key].strip(), 'Birth needs ' + key)
+        require(branch['status'] == 'ready', 'Birth requires an active parent')
+        require(birth['tree'] in config['trees'], 'Unknown child tree')
+        require(birth['budget'] == {'operations':1,'model_posts':0,'source_gets':1}, 'Child v1 has one source operation and no inference')
+        signature = cycle.digest([current(branch)['arrival']['id'], birth['tree'], birth['role'], birth['need'], birth['question']])
+        depth = branch.get('work_depth', 0) + 1
+        reason = ('duplicate' if signature in state['child_signatures'] else
+                  'depth_budget' if depth > limits['max_child_depth'] else
+                  'child_budget' if state['used']['child_work'] >= limits['max_child_work'] else
+                  'branch_budget' if state['used']['branches'] >= state['limits']['max_branches'] else
+                  'step_budget' if state['used']['steps'] >= state['limits']['max_steps'] else
+                  'operation_budget' if state['used']['operations'] >= limits['max_operations'] else
+                  'event_budget' if state['revision'] + 5 > state['limits']['max_events'] else None)
+        if reason:
+            return {'status':'deferred','reason':reason,'recipients':['Chat Aiden','Digest Aiden']}
+        bid = 'B' + str(state['used']['branches'])
+        arrival = copy.deepcopy(current(branch)['arrival'])
+        arrival.update(id='ARR-' + cycle.digest(command)[:24], to=birth['tree']+':ROOT-0001',
+                       parent_arrival_id=arrival['id'], origin=copy.deepcopy(arrival.get('origin', arrival)))
+        anchor = {'branch_id':branch['id'],'visit':len(branch['visits'])-1,'node':node(branch)}
+        state['branches'][bid] = {'id':bid,'parent_branch':branch['id'],'root_branch':branch['root_branch'],
+            'question_id':state['question_id'],'epoch':state['epoch'],'status':'ready','rest':None,
+            'focus':birth['question'],'work_depth':depth,'birth':copy.deepcopy(birth),'return_to':anchor,
+            'lineage':{'source_refs':copy.deepcopy(branch['lineage']['source_refs']), 'independent_evidence':False,
+                       'parent_output_hash':cycle.digest(current(branch)['steps']), 'parent_arrival_id':current(branch)['arrival']['id']},
+            'visits':[visit(birth['tree'],arrival)],'seen_arrival_ids':[arrival['id']],
+            'visited':copy.deepcopy(branch['visited']) + [{'tree':birth['tree'],'payload_hash':cycle.digest(arrival['payload'])}]}
+        state['child_signatures'].append(signature)
+        state['used']['branches'] += 1
+        state['used']['child_work'] += 1
+        return {'status':'born','child_branch':bid,'return_to':anchor}
+    if kind == 'child_return':
+        child = state['branches'][command['child_branch']]
+        require(child.get('return_to', {}).get('branch_id') == branch['id'], 'Child must return to its own parent')
+        op = state['operation_requests'][command['operation_id']]
+        require(op['status'] == 'returned' and op['request']['anchor']['branch_id'] == child['id'], 'Child result is not ready')
+        require(not child.get('returned_operation'), 'Child already returned')
+        target = branch['visits'][child['return_to']['visit']]
+        target.setdefault('child_returns', []).append({'anchor':child['return_to'], 'operation_id':command['operation_id'],
+                                                       'child_branch':child['id'], 'result':copy.deepcopy(op['result'])})
+        child['returned_operation'] = command['operation_id']
+        rest(child, 'Bounded child returned to parent', 'return')
+        return {'status':'child_returned','anchor':child['return_to']}
+    raise cycle.CycleError('Unknown operation event')
+
+
 def apply_event(document, command, recorded_at=None):
     require(isinstance(command, dict) and len(cycle.encoded(command)) <= 70000, 'Keep a command bounded')
     garden.identifier(command.get('event_id'))
@@ -317,7 +426,12 @@ def apply_event(document, command, recorded_at=None):
     branch = state['branches'].get(command.get('branch_id'))
     require(branch is not None, 'Unknown branch')
     kind = command.get('kind')
-    if kind == 'step':
+    pending = [r for r in state.get('operation_requests', {}).values()
+               if r['status'] == 'requested' and r['request']['anchor']['branch_id'] == branch['id']]
+    require(not pending or kind == 'operation_return', 'Return the pending operation before moving its branch')
+    if kind in {'operation_request','operation_return','operation_audit','birth','child_return'}:
+        decision = operation_event(state, branch, command, result['initial']['config'])
+    elif kind == 'step':
         decision = step(state, branch, command, result['initial']['config'])
     elif kind == 'route':
         decision = route(state, branch, command, result['initial']['config'])
@@ -337,6 +451,17 @@ def apply_event(document, command, recorded_at=None):
         decision = return_arrival(state, branch, command['new_arrival'], command.get('reason'))
     else:
         raise cycle.CycleError('Unknown Garden command')
+    # Reserve enough events to finish every accepted operation/child even if a
+    # sibling or the parent advances while work is outstanding.
+    requests = list(state.get('operation_requests', {}).values())
+    reserved = sum(r['status'] == 'requested' for r in requests)
+    for child in state['branches'].values():
+        if child.get('birth') and not child.get('returned_operation'):
+            reserved += 1  # child -> original parent return
+            if not any(r['request']['anchor']['branch_id'] == child['id'] for r in requests):
+                reserved += 2  # child request + operation return
+    require(len(document['events']) + 1 + reserved <= state['limits']['max_events'],
+            'Preserve event capacity for pending operation and child returns')
     state['revision'] += 1
     result['state_sha256'] = cycle.digest(state)
     result['events'].append({'command':copy.deepcopy(command), 'recorded_at':recorded_at or cycle.now(),
@@ -374,7 +499,10 @@ def start(root, packet):
             require(old['initial']['packet'] == packet, 'Run ID already belongs to another start packet')
             project(root)
             return old
-        document = new_document(load_config(root), packet, cycle.read_json(root / 'operations/questions.json'))
+        config = load_config(root)
+        if packet.get('operations') is True:
+            config['operations'] = cycle.read_json(root / 'config/garden-operations.json')
+        document = new_document(config, packet, cycle.read_json(root / 'operations/questions.json'))
         save(root, document)
         return document
 
@@ -402,13 +530,14 @@ def project(root, destination=None, record_base_url='https://github.com/Jaradyne
                          'question_id':branch['question_id'],'epoch':branch['epoch'],'tree':current(branch)['tree'],
                          'node':node(branch),'status':branch['status'],'focus':branch['focus'],
                          'rest_reason':(branch['rest'] or {}).get('reason',''), 'steps_used':state['used']['steps'],
-                         'branches_used':state['used']['branches'],'model_calls':0,
+                         'branches_used':state['used']['branches'],'model_calls':state['used']['model_calls'],
                          'record':record_base_url + path.relative_to(root).as_posix()})
         cycle.write_json(destination / (state['run_id'] + '.json'), {
             'schema_version':'digestion-garden-materials-1','run_id':state['run_id'],'status':'available_for_digestion',
             'record_ref':str(path.relative_to(root)), 'record_sha256':cycle.digest(document),
             'state_sha256':document['state_sha256'],'branches':list(state['branches']),
-            'meaning':'Supplied traversal and routing; no new evidence, model dispatch or Governor review.'}, replace=True)
+            'meaning':('Attributed operation returns; no automatic evidence admission or Governor review.' if 'operations' in document['initial']['config'] else
+                       'Supplied traversal and routing; no new evidence, model dispatch or Governor review.')}, replace=True)
     fields = ['run_id','branch_id','parent_branch','question_id','epoch','tree','node','status','focus','rest_reason','steps_used','branches_used','model_calls','record']
     out = io.StringIO(newline=''); writer = csv.DictWriter(out, fieldnames=fields, lineterminator='\n'); writer.writeheader()
     for row in rows:

@@ -10,7 +10,8 @@ import tempfile
 ROOT = Path(__file__).resolve().parents[1]
 BRANCH = 'week-one-state'
 REQUIRED_PATHS = ['operations/week-one', 'operations/questions.json', 'operations/reflections/mailbox.json']
-OPTIONAL_PATHS = ['digestion/threshold/api', 'operations/garden/runs', 'digestion/threshold/garden']
+OPTIONAL_PATHS = ['digestion/threshold/api', 'operations/garden/runs', 'digestion/threshold/garden',
+                  'operations/garden/operations', 'digestion/threshold/garden-operations']
 PATHS = REQUIRED_PATHS + OPTIONAL_PATHS
 
 

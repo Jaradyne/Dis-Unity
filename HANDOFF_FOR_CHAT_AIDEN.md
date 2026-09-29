@@ -1,3 +1,7 @@
+# September 29 — Garden operation spine and main-edit permission
+
+Read [Work's return](operations/GARDEN_NERVOUS_SYSTEM_2026-09-29.md), [Garden operations](docs/GARDEN_OPERATIONS.md), and [your main-edit permission/protocol](docs/CHAT_MAIN_EDIT_PROTOCOL.md). Jared explicitly permits you to alter main after approving the concrete change; Work does not need to be present. Prepare the branch/PR and checks first, then seek that approval, preserve the base/merge SHAs and reverse by a new commit if needed. This supersedes blanket staging-only/no-merge restrictions below. The live Q18 result and shared Chat/Digest unresolved queue are on `week-one-state`.
+
 # September 28 Pacific / September 29 UTC — readiness while Work rests
 
 Read [the current readiness review](operations/COMPANION_WEEK_READINESS_2026-09-29.md). Digest PR #26 and Chat PR #17 are integrated; the recorded API sample-contract failure and material-hash order are repaired. The bounded collection loop can support Jared/Chat/Digest review. Automatic model-to-Garden integration remains unbuilt. The existing October 4 cutoff is still active; the proposed October 5 evening extension awaits Jared's confirmation.

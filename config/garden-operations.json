@@ -1,0 +1,31 @@
+{
+  "schema_version": "garden-operations-1",
+  "enabled": true,
+  "authorization": "Jared 2026-09-29; PR #28 primary request. Existing Week One window, zero spend, NO GROQ and brakes apply.",
+  "limits": {"max_operations": 8, "max_child_work": 2, "max_child_depth": 1, "max_model_posts": 1, "max_source_gets": 2},
+  "tree_roles": {
+    "INIT": "crosscheck", "PRODUCTION": "operations", "ECONOMICS": "cash_flow",
+    "DIPLOMACY": "official_comparison", "LANGUAGE": "parallax", "CUSTOMS": "trade_flow",
+    "HOMELESSNESS": "service_access"
+  },
+  "executors": [
+    {"id": "local-lineage", "kind": "deterministic", "method": "lineage_inventory", "roles": ["*"], "approval": "approved", "languages": ["*"], "fitness": "Exact source/history inventory; no empirical interpretation."},
+    {"id": "public-collector", "kind": "collector", "method": "public_source", "roles": ["collector"], "approval": "approved", "languages": ["*"], "fitness": "One reviewed public surface, full received bytes; discovery only."},
+    {"id": "or-nvidia", "kind": "model", "method": "cognition", "provider": "openrouter", "upstream": "nvidia", "model": "nvidia/nemotron-3-super-120b-a12b:free", "roles": ["crosscheck", "operations", "cash_flow", "official_comparison", "parallax", "trade_flow", "service_access", "summarizer"], "approval": "approved", "approval_ref": "operations/COMPANION_WEEK_READINESS_2026-09-29.md", "languages": [], "fitness": "Prior zero-cost provisional answers and one invalid sample; no domain or language benchmark established."},
+    {"id": "gemini", "kind": "model", "method": "cognition", "provider": "gemini", "roles": ["*"], "approval": "first_use_required", "languages": [], "fitness": "Unknown; exact eligible flagship and route need review; no downgrade."},
+    {"id": "mistral-small-4", "kind": "model", "method": "cognition", "provider": "mistral", "roles": ["*"], "approval": "first_use_required", "languages": [], "fitness": "Proposed candidate label only; endpoint, free quota and role fitness unverified."},
+    {"id": "cloudflare", "kind": "model", "method": "cognition", "provider": "cloudflare", "roles": ["*"], "approval": "first_use_required", "languages": [], "fitness": "Proposed platform only; model, route and free quota unverified."}
+  ],
+  "public_sources": {
+    "q18-ccs-delivery": {
+      "url": "https://www.ccs.org.cn/ccswz/articleDetail?id=202607060127336064",
+      "allowed_hosts": ["www.ccs.org.cn"],
+      "publisher": "China Classification Society",
+      "publication_date": "2026-07-06 (inherited metadata; recheck page)",
+      "languages": ["zh"],
+      "lineage_id": "CCS-202607060127336064",
+      "authorization_ref": "handoffs/week_one_governor/2026-09-25.json#GOV-20260925-02",
+      "limitation": "Classification-body delivery page, not an operator voyage log. A re-fetch does not create independent evidence."
+    }
+  }
+}

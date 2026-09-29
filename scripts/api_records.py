@@ -214,6 +214,10 @@ def publish(root):
         folder = RUNS / rid
         rec = manifest['runs'].get(rid, {})
         request_path, response_path = folder / 'request.json', folder / 'provider-response.json'
+        operation_request = read(root / request_path, {})
+        is_operation = operation_request.get('kind') == 'garden_operation'
+        if is_operation and not rec:
+            rec = {'question_id':operation_request.get('question_id'), 'status':'operation_materials'}
         outcome_path = folder / 'outcome.json'
         material = []
         for path in sorted((root / folder).glob('*')):
@@ -251,19 +255,20 @@ def publish(root):
             receipt = outcome.get('provider_receipt', outcome.get('output', {}).get('receipt', {}))
             rows.append({'record_id': 'LEGACY-' + rid, 'run_id': rid, 'question_id': rec.get('question_id'),
                          'started_at_utc': rec.get('started_at'),
-                         'kind': 'legacy_run_materials', 'service': request.get('provider', ''), 'method': '', 'url': '',
+                         'kind': 'operation_materials' if is_operation else 'legacy_run_materials', 'service': request.get('provider', ''), 'method': '', 'url': '',
                          'http_status': response.get('_transport', {}).get('http_status'),
-                         'state': rec.get('result', rec.get('status', 'historical_materials')), 'coverage': 'legacy_partial',
+                         'state': outcome.get('category') if is_operation else rec.get('result', rec.get('status', 'historical_materials')), 'coverage': 'no_http_exchange' if is_operation else 'legacy_partial',
                          'generation_id': response.get('id'), 'model': response.get('model') or request.get('model'),
                          'cost_usd': receipt.get('total_cost'), 'prompt_tokens': receipt.get('tokens_prompt'),
                          'completion_tokens': receipt.get('tokens_completion'), 'full_record': '',
                          'request_material': link(root, request_path), 'response_material': link(root, response_path),
                          'outcome': link(root, outcome_path),
-                         'notes': 'Run materials, not an HTTP call count. Raw exchanges were not retained; no missing content reconstructed.'})
+                         'notes': ('Recorded operation with no HTTP exchange; see exact task, selection and outcome.' if is_operation else
+                                   'Run materials, not an HTTP call count. Raw exchanges were not retained; no missing content reconstructed.')})
         packet = {'schema_version': 'digestion-api-materials-1', 'run_id': rid, 'status': 'available_for_digestion',
                   'question_id': rec.get('question_id'), 'attempt_id': rec.get('attempt_id'),
                   'record_ids': [r['record_id'] for r in rows if r['run_id'] == rid], 'materials': material,
-                  'coverage': 'recorded_exchanges' if exchanges else 'legacy_partial',
+                  'coverage': 'recorded_exchanges' if exchanges else 'no_http_exchange' if is_operation else 'legacy_partial',
                   'run_status': rec.get('result', rec.get('status')), 'operator_disposition': rec.get('operator_disposition'),
                   'meaning': 'Capture and delivery only; not a Governor review, digestion result or canonical admission.'}
         cycle.write_json(root / THRESHOLD / 'runs' / (rid + '.json'), packet, replace=True)
@@ -276,10 +281,11 @@ def publish(root):
         writer.writerow({k: "'" + v if isinstance(v, str) and v.lstrip().startswith(('=', '+', '-', '@')) else v for k, v in row.items()})
     cycle.write_bytes(root / THRESHOLD / 'interactions.csv', output.getvalue().encode(), replace=True)
     full = sum(r['kind'] == 'http_exchange' for r in rows)
-    legacy = len(rows) - full
+    legacy = sum(r['kind'] == 'legacy_run_materials' for r in rows)
+    operations = sum(r['kind'] == 'operation_materials' for r in rows)
     text = ('# API materials for digestion\n\n'
             '[Open the CSV ledger](interactions.csv) · [Per-run material packets](runs/)\n\n'
-            f'{full} recorded HTTP exchanges; {legacy} historical run summaries with partial coverage. '
+            f'{full} recorded HTTP exchanges; {legacy} historical run summaries with partial coverage; {operations} operation records without HTTP exchanges. '
             'Historical summaries are not a count of API calls.\n\n'
             'Each new exchange preserves the method, URL, request headers/body, status, response headers/body and transport errors before parsing. '
             'Credentials and authentication cookies are redacted. Bodies exceeding existing transport bounds, interrupted reads and missing responses are explicitly marked incomplete. '
