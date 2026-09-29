@@ -1,6 +1,6 @@
 # Week One · gh-36553756526-1
 
-Status: prepared / 
+Status: complete / model_unavailable
 
 WHAT MOVED
 
@@ -9,7 +9,7 @@ WHAT MOVED
 - eia-energy: retrieved (19 items returned)
 - nws-ca: retrieved (7 items returned)
 
-Public sensing is recorded; a synthesis is not available in this run.
+Pinned Nvidia zero-price endpoint is unavailable
 
 Source selection is bounded. Retrieval date is separate from event time.
 

@@ -2,7 +2,7 @@
 
 Current snapshot of up to 6 recent recorded runs; their original dates remain visible.
 
-As of 2026-09-29T10:09:11.780570+00:00.
+As of 2026-09-29T10:09:17.044421+00:00.
 
 Projection of records, not additional corroboration or admitted research.
 
@@ -48,8 +48,8 @@ No synthesis recorded.
 
 ## gh-36553756526-1
 
-2026-09-29T10:09:11.326647+00:00 · prepared / None
+2026-09-29T10:09:11.326647+00:00 · complete / model_unavailable
 
-No synthesis recorded.
+Pinned Nvidia zero-price endpoint is unavailable
 
 [Saved note](runs/gh-36553756526-1/HUMAN_NOTE.md) · 3 changed selected source records.

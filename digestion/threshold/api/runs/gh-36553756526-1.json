@@ -4,8 +4,13 @@
   "materials": [
     {
       "path": "operations/week-one/runs/gh-36553756526-1/HUMAN_NOTE.md",
-      "sha256": "ea6f8a3349f4f709c0443a36fc80b38c98d195b47a38d924d557c01e01ae8fe0",
+      "sha256": "cc28c4bca8768349b1cf1540b1444017480a3b3b41ec06124397d623686ca886",
       "url": "https://github.com/Jaradyne/Dis-Unity/blob/week-one-state/operations/week-one/runs/gh-36553756526-1/HUMAN_NOTE.md"
+    },
+    {
+      "path": "operations/week-one/runs/gh-36553756526-1/outcome.json",
+      "sha256": "991cb35ecb4e74a1df83002e60267c1a4014738f33d8aabead4b32ad7c44565d",
+      "url": "https://github.com/Jaradyne/Dis-Unity/blob/week-one-state/operations/week-one/runs/gh-36553756526-1/outcome.json"
     },
     {
       "path": "operations/week-one/runs/gh-36553756526-1/request.json",
@@ -48,7 +53,7 @@
     "API-gh-36553756526-1-0004"
   ],
   "run_id": "gh-36553756526-1",
-  "run_status": "prepared",
+  "run_status": "model_unavailable",
   "schema_version": "digestion-api-materials-1",
   "status": "available_for_digestion"
 }
