@@ -1,6 +1,7 @@
 from copy import deepcopy
 from pathlib import Path
 import json
+import hashlib
 import os
 import shutil
 import subprocess
@@ -538,6 +539,71 @@ class RuntimeTests(unittest.TestCase):
         value['claims'] = []
         ids = {x['source_id'] for x in sources['items']}
         w.validate_answer(value, ids, set(req['reflection_ids']), 'Q-TEST')
+
+    def test_explicitly_absent_sample_preserves_nonanswer_and_reflection(self):
+        self.prepare()
+        req = w.read(self.root, w.run_path('test-one', 'request.json'))
+        value = valid_result(req, w.read(self.root, w.run_path('test-one', 'sources.json')))
+        value['question_reflection'].update(source_fit='poor', should_answer=False)
+        value['claims'] = []
+        value['sample'] = None
+        receipt = {'id':'gen-fixture', 'total_cost':0, 'provider_name':'Nvidia', 'is_byok':False}
+        real_clock = w.clock
+        with patch.object(w, 'clock', side_effect=lambda value=None: real_clock(value or '2026-09-24T08:06:00Z')), \
+             patch.object(fp, 'call', return_value={'result':value, 'receipt':receipt}) as call:
+            self.assertEqual(w.execute(self.root, 'test-one')['status'], 'partial_answer')
+        call.assert_called_once()
+        w.finalize(self.root, 'test-one')
+        self.assertEqual(len(questions.question(questions.load(self.root), 'Q-TEST')['answers']), 1)
+        self.assertTrue(w.manifest(self.root)['runs']['test-one']['peer_reflection_ids'])
+        self.assertFalse((self.root / w.run_path('test-one', 'samples-for-jared.json')).exists())
+        self.assertIn('No grounded sample supplied', (self.root / w.run_path('test-one', 'HUMAN_NOTE.md')).read_text())
+
+    def test_invalid_sample_retains_receipt_and_specific_error_without_admitting_answer(self):
+        self.prepare()
+        req = w.read(self.root, w.run_path('test-one', 'request.json'))
+        value = valid_result(req, w.read(self.root, w.run_path('test-one', 'sources.json')))
+        value['sample'].update(title='', english_pivot='')  # Observed September 28 failure.
+        receipt = {'id':'gen-fixture', 'total_cost':0, 'provider_name':'Nvidia', 'is_byok':False}
+        real_clock = w.clock
+        with patch.object(w, 'clock', side_effect=lambda value=None: real_clock(value or '2026-09-24T08:06:00Z')), \
+             patch.object(fp, 'call', return_value={'result':value, 'receipt':receipt}) as call:
+            self.assertEqual(w.execute(self.root, 'test-one')['status'], 'invalid_response')
+        call.assert_called_once()
+        outcome = w.read(self.root, w.run_path('test-one', 'outcome.json'))
+        self.assertEqual(outcome['provider_receipt'], receipt)
+        self.assertEqual(outcome['validation_error']['message'], 'sample.title must be non-empty text')
+        self.assertNotIn('output', outcome)
+        w.finalize(self.root, 'test-one')
+        self.assertEqual(len(questions.question(questions.load(self.root), 'Q-TEST')['answers']), 0)
+        note = (self.root / w.run_path('test-one', 'HUMAN_NOTE.md')).read_text()
+        self.assertIn('sample.title', note)
+        self.assertIn('verified provider receipt', note)
+
+    def test_optional_sample_does_not_relax_evidence_or_question_references(self):
+        self.prepare()
+        req = w.read(self.root, w.run_path('test-one', 'request.json'))
+        sources = w.read(self.root, w.run_path('test-one', 'sources.json'))
+        value = valid_result(req, sources)
+        ids = {x['source_id'] for x in sources['items']}
+        value['sample']['question_refs'] = ['WRONG']
+        with self.assertRaisesRegex(ValueError, 'selected Question'):
+            w.validate_answer(value, ids, set(req['reflection_ids']), 'Q-TEST')
+        value['sample'] = None
+        value['claims'][0]['evidence_refs'] = ['invented']
+        with self.assertRaisesRegex(ValueError, 'Unknown evidence'):
+            w.validate_answer(value, ids, set(req['reflection_ids']), 'Q-TEST')
+
+    def test_digestion_hashes_include_the_finished_human_note(self):
+        self.prepare()
+        self.save_result()
+        w.finalize(self.root, 'test-one')
+        packet = w.read(self.root, Path('digestion/threshold/api/runs/test-one.json'))
+        paths = []
+        for item in packet['materials']:
+            self.assertEqual(hashlib.sha256((self.root / item['path']).read_bytes()).hexdigest(), item['sha256'])
+            paths.append(item['path'])
+        self.assertIn(str(w.run_path('test-one', 'HUMAN_NOTE.md')), paths)
 
     def test_source_affinity_selects_better_fit_before_round_robin(self):
         questions.ask(self.root, 'Food-service days?', 'test', qid='Q-OTHER')

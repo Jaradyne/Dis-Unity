@@ -204,8 +204,10 @@ def make_prompt(root, q, sources, pending, history, selection):
                        ['reserve', 'release', 'substitution', 'growth', 'conversion', 'lifeboat', 'outside_support', 'commons']},
         'caretaker': {k: 'evidence or unknown' for k in ['actor', 'authority', 'trigger', 'cash_available_now',
                         'service_capacity', 'access', 'response_time', 'dependencies', 'backup', 'proof_status', 'tomorrow_test']},
-        'sample': {'title': '', 'original': 'short sourced item or clearly labeled hypothetical', 'english_pivot': '',
-                   'why_curious': '', 'control': 'ordinary explanation to compare', 'question_refs': [q['question_id']]},
+        'sample': {'title': 'short descriptive title', 'original': 'short sourced item or clearly labeled hypothetical',
+                   'english_pivot': 'English rendering; may repeat an already-English original',
+                   'why_curious': 'what this grounded example helps inspect',
+                   'control': 'ordinary explanation to compare', 'question_refs': [q['question_id']]},
         'peer_reflection': {'reflection_ids': ['one or more supplied pending IDs'], 'summary': 'worker observation about those reflections',
                      'followups': [{'recipient': 'Chat Aiden', 'question': 'one tractable next step'}],
                      'self_reflection': 'a useful shareable lesson'},
@@ -236,13 +238,14 @@ def make_prompt(root, q, sources, pending, history, selection):
             "Do not fill the schema with unrelated facts just because they are available. If source_fit is poor and the Question cannot "
             "be answered, set should_answer=false, say UNKNOWN plainly, allow claims=[], keep conditional_link inactive, and identify the "
             "missing evidence or better next query. Reflect on the supplied mailbox entries; select IDs actually read and leave a response without closing them. "
+            "If there is no useful grounded sample, set sample=null. Otherwise fill every sample text field; do not return empty placeholders. "
             "You are a worker, not the Governor. Your peer_reflection is an attributed contribution for future review, not a Governor decision or independent corroboration. Keep total output under 1800 words.\n"
             + 'CONTRACT:\n' + json.dumps(contract, ensure_ascii=False)
             + '\nDATA:\n' + json.dumps(context, ensure_ascii=False))
 
 
 def validate_answer(value, source_ids, reflection_ids, qid):
-    for name in ['question_reflection', 'answer', 'conditional_link', 'resilience', 'caretaker', 'sample', 'reflection']:
+    for name in ['question_reflection', 'answer', 'conditional_link', 'resilience', 'caretaker', 'reflection']:
         if not isinstance(value.get(name), dict):
             raise ValueError('Missing output section: ' + name)
     qr = value['question_reflection']
@@ -301,10 +304,15 @@ def validate_answer(value, source_ids, reflection_ids, qid):
     for item in gov['followups']:
         questions.text(item.get('recipient'), 'recipient')
         questions.text(item.get('question'), 'followup question')
-    if value['sample'].get('question_refs') != [qid]:
-        raise ValueError('Sample must preserve selected Question ID')
-    for field in ['title', 'original', 'english_pivot', 'why_curious', 'control']:
-        questions.text(value['sample'].get(field), field)
+    if 'sample' not in value:
+        raise ValueError('Supply sample as an object or explicit null')
+    if value['sample'] is not None:
+        if not isinstance(value['sample'], dict):
+            raise ValueError('Sample must be an object or explicit null')
+        if value['sample'].get('question_refs') != [qid]:
+            raise ValueError('Sample must preserve selected Question ID')
+        for field in ['title', 'original', 'english_pivot', 'why_curious', 'control']:
+            questions.text(value['sample'].get(field), 'sample.' + field)
     reflections.entry_body({'actor': ACTOR, 'level': 'worker', **value['reflection']})
     return value
 
@@ -577,15 +585,24 @@ def execute(root, rid):
         delay = config.get('audit_recovery_cooldown_hours', 12)
         result = (free_provider.complete(existing, recovery_hours=delay) if existing else
                   free_provider.call(request['settings'], checkpoint=checkpoint, recovery_hours=delay))
+        # A valid transport receipt remains valid even if the answer contract fails.
+        outcome['provider_receipt'] = result['receipt']
         ids = {s['source_id'] for s in read(root, run_path(rid, 'sources.json'))['items']}
-        validate_answer(result['result'], ids, set(request['reflection_ids']), rec['question_id'])
+        try:
+            validate_answer(result['result'], ids, set(request['reflection_ids']), rec['question_id'])
+        except (ValueError, TypeError, KeyError, AttributeError, cycle.CycleError) as exc:
+            # Validator labels are authored here; never echo provider output or keys.
+            message = str(exc) if isinstance(exc, (ValueError, cycle.CycleError)) else 'Invalid output structure'
+            outcome['validation_error'] = {'type':type(exc).__name__, 'message':message[:240]}
+            raise
         outcome.update(category='partial_answer', output=result, answer_summary=result['result']['answer']['summary'])
     except free_provider.ProviderFailure as exc:
         outcome.update(category=exc.category, reason=str(exc), brake=exc.brake, cooldown_hours=exc.cooldown_hours)
         if exc.diagnostics is not None:
             outcome['provider_diagnostics'] = exc.diagnostics
-    except (ValueError, TypeError, KeyError, cycle.CycleError) as exc:
-        outcome.update(category='invalid_response', reason=f'Output contract failed: {type(exc).__name__}', cooldown_hours=12)
+    except (ValueError, TypeError, KeyError, AttributeError, cycle.CycleError) as exc:
+        detail = outcome.get('validation_error', {}).get('message', type(exc).__name__)
+        outcome.update(category='invalid_response', reason='Output contract failed: ' + detail, cooldown_hours=12)
     outcome['finished_at'] = cycle.now()
     write(root, run_path(rid, 'outcome.json'), outcome)
     durable(root)
@@ -603,7 +620,8 @@ def finalize(root, rid):
         return {'status': 'awaiting_recovery', 'run_id': rid}
     category = outcome['category']
     details = {'run_id': rid, 'outcome_path': str(run_path(rid, 'outcome.json')),
-               'reason': outcome.get('reason'), 'receipt': outcome.get('output', {}).get('receipt')}
+               'reason': outcome.get('reason'),
+               'receipt': outcome.get('provider_receipt', outcome.get('output', {}).get('receipt'))}
     questions.finish_attempt(root, rec['question_id'], rec['attempt_id'], category, details=details)
     if category == 'partial_answer':
         state['cooldown_until'] = None
@@ -621,7 +639,8 @@ def finalize(root, rid):
             'related_reflection_ids': peer['reflection_ids'],
             'context': {'run_id': rid, 'attempt_id': rec['attempt_id'], 'kind': 'peer_reflection'}})
         rec.update(answer_id=answer['answer_id'], reflection_ids=ids, peer_reflection_ids=peer_ids)
-        write(root, run_path(rid, 'samples-for-jared.json'), value['sample'])
+        if value['sample'] is not None:
+            write(root, run_path(rid, 'samples-for-jared.json'), value['sample'])
     else:
         ids = reflections.post(root, {'actor': 'Week One runtime caretaker', 'level': 'subcall', 'origin': 'runtime_observation',
             'summary': 'Provider attempt recorded: ' + category,
@@ -646,7 +665,6 @@ def finalize(root, rid):
 
 
 def render(root):
-    api_records.publish(root)
     state = manifest(root)
     cfg = catalog(root)
     lines = ['# Week One Meaning Web', '', f"Window: {cfg['starts_at']} through {cfg['ends_at']} (UTC).", '',
@@ -670,11 +688,16 @@ def render(root):
                      'ISLANDS OF STABILITY', '', value['resilience']['outside_support'], '',
                      'COMMONS OPPORTUNITIES', '', value['resilience']['commons'], '', 'WHAT WE MAY BE WRONG ABOUT', '']
             note += ['- ' + x for x in value['answer']['counterevidence'] + value['answer']['limitations']]
-            note += ['', 'WHAT DESERVES MORE AGENTS', '', value['caretaker']['tomorrow_test'], '',
-                     'SAMPLE FOR JARED', '', value['sample']['title'], '', value['sample']['why_curious'], '',
-                     'Full classifications, source references and conditions: [outcome.json](outcome.json).']
+            note += ['', 'WHAT DESERVES MORE AGENTS', '', value['caretaker']['tomorrow_test'], '', 'SAMPLE FOR JARED', '']
+            if value['sample'] is None:
+                note += ['No grounded sample supplied; the recorded finding or gap stands on its own.']
+            else:
+                note += [value['sample']['title'], '', value['sample']['why_curious']]
+            note += ['', 'Full classifications, source references and conditions: [outcome.json](outcome.json).']
         else:
             note += ['', outcome.get('reason', 'Public sensing is recorded; a synthesis is not available in this run.')]
+            if outcome.get('provider_receipt'):
+                note += ['', 'A verified provider receipt is retained in [outcome.json](outcome.json); answer validation is separate.']
         note += ['', 'Source selection is bounded. Retrieval date is separate from event time.', '', '[Selected source records](sources.json)']
         cycle.write_bytes(root / run_path(rid, 'HUMAN_NOTE.md'), ('\n'.join(note) + '\n').encode(), replace=True)
     lines += ['', f"Provider brake: {json.dumps(state.get('brake'))}", f"Cooldown until: {state.get('cooldown_until')}", '',
@@ -685,6 +708,8 @@ def render(root):
     cycle.write_bytes(root / BASE / 'INDEX.md', ('\n'.join(lines) + '\n').encode(), replace=True)
     daily_scroll.render(root)
     governor_inbox.render(root)
+    # Hash the final rendered notes, not the previous checkpoint's projection.
+    api_records.publish(root)
 
 
 def close(root):
@@ -705,7 +730,8 @@ def close(root):
     cycle.write_bytes(root / BASE / 'WEEK_ONE_DIGEST.md', ('\n'.join(summary) + '\n').encode(), replace=True)
     cycle.write_bytes(root / BASE / 'CHAT_INDEX.md', b'# Chat Aiden\n\nStart with INDEX.md and WEEK_ONE_DIGEST.md. Source, request, outcome, receipt and sample files are under runs/. Questions and reflections are on this same state branch. See main:WEEK_ONE_HANDOFF.md for recovery.\n', replace=True)
     write(root, BASE / 'PROVIDER_NOTES.json', [{'run_id': r['run_id'], 'result': r.get('result'),
-         'receipt': read(root, run_path(r['run_id'], 'outcome.json'), {}).get('output', {}).get('receipt')} for r in runs])
+         'receipt': read(root, run_path(r['run_id'], 'outcome.json'), {}).get('provider_receipt',
+             read(root, run_path(r['run_id'], 'outcome.json'), {}).get('output', {}).get('receipt'))} for r in runs])
     write(root, BASE / 'REFLECTION_THEMES.json', {'instruction': 'Attributed reflections and responses for Chat synthesis; titles are not fabricated themes.',
                                                'mailbox': reflections.load(root)})
 

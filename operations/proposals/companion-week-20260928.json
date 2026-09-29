@@ -1,0 +1,22 @@
+{
+  "schema_version": "bounded-window-proposal-1",
+  "status": "awaiting_Jared_confirmation",
+  "prepared_by": "Work Aiden / ChatGPT Codex session",
+  "prepared_on": "2026-09-28 America/Los_Angeles",
+  "target": "config/week-one.json",
+  "expected_current_ends_at": "2026-10-04T07:45:13+00:00",
+  "proposed_ends_at": "2026-10-06T02:00:00+00:00",
+  "proposed_end_local": "2026-10-05T19:00:00-07:00",
+  "human_timezone": "America/Los_Angeles",
+  "purpose": "One week of existing bounded collection and Jared/Chat/Digest review while Work is away.",
+  "preserve": {
+    "starts_at": "2026-09-24T07:45:13+00:00",
+    "schedule_utc": "47 3,15 * * *",
+    "max_provider_posts_per_utc_day": 4,
+    "zero_spend": true,
+    "no_groq_including_upstreams": true,
+    "existing_history_cooldowns_and_brakes": true,
+    "governor_inactive": true
+  },
+  "execution": "Proposal only. The runtime does not read this file. Applying it requires a confirmed continuation window and a reviewed configuration update; keep historical extension entries and update duration metadata accurately."
+}

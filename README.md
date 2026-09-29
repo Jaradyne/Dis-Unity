@@ -2,6 +2,8 @@
 
 # Dis-Unity — Resilience Cascade
 
+**While Work is away:** [current readiness and handoff](operations/COMPANION_WEEK_READINESS_2026-09-29.md). Digest's follow-up and Kiswahili radar are integrated. Collection, full API records and supplied Garden traversal are available; automatic model-to-Garden integration remains the next build.
+
 **Digest integration, September 28:** the [Garden traversal runtime](docs/GARDEN_TRAVERSAL.md) now saves partial passes, moves and branches with inherited lineage, and resumes supplied work. Inspect the [Q18 branch spreadsheet](examples/garden-traversal/worked/digestion/threshold/garden/branches.csv). This first slice follows Digest's roadmap; model execution and Governor powers remain separate future work.
 
 **API materials for digestion:** [recording contract](digestion/threshold/README.md) · [live CSV ledger](https://github.com/Jaradyne/Dis-Unity/blob/week-one-state/digestion/threshold/api/interactions.csv) · [material packets](https://github.com/Jaradyne/Dis-Unity/tree/week-one-state/digestion/threshold/api/runs). New exchanges retain the complete received request/response material with credentials redacted; historical records show their actual gaps.
