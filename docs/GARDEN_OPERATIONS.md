@@ -22,7 +22,7 @@ Candidate lists are saved before selection. They include current tree/node and r
 
 `config/garden-operations.json` caps a linked run at eight operations, two child births, depth one, one model POST reservation and two public source GET reservations. Each child inherits one source operation and zero model calls. Traversal branch/step/event limits also apply; accepted work reserves enough event slots for its returns. Requests can narrow permissions and per-operation budgets. They cannot raise the reviewed ceilings.
 
-Garden model reservations share Week One's UTC daily/half-day limits, window, cooldowns and spend brakes. A pending or uncertain Garden model attempt blocks a new Week One inference. Positive cost closes the shared window. First or peculiar provider paths defer to Jared; no Groq upstream or paid fallback is permitted. This integration does not extend the October 4, 00:45:13 Pacific cutoff.
+Garden model reservations share Week One's UTC daily/half-day limits, window and spend brakes. **There is no generic provider cooldown.** Only genuine external waiting states—saved-generation audit delay, rate/quota pressure, transient provider capacity, or transport timeout—may create a timed bandwidth wait. Local schema/validator failures, an unavailable pinned model, first-use questions and policy/review conditions remain visible for rerouting or peer/operator attention without idling unrelated work. A pending or uncertain Garden model attempt still blocks a replacement POST for that same uncertain generation. Positive cost closes the shared window. First or peculiar provider paths defer to Jared; no Groq upstream or paid fallback is permitted. This integration does not extend the October 4, 00:45:13 Pacific cutoff.
 
 Requests and reservations are durably saved before transport. The full recorder checkpoints HTTP material before parsing; outcomes and stable event IDs make a partially saved return repairable. An interrupted POST is never repeated. A saved generation may be recovered by GET only. With no generation, the uncertainty and shared brake remain for review. `audit_pending` has at most three total audit attempts, respects cooldowns and preserves the original return while appending audit material. Recovery is explicit, not an unattended retry loop.
 
@@ -30,7 +30,13 @@ Requests and reservations are durably saved before transport. The full recorder 
 
 A valid birth carries the narrow question, why the parent cannot answer, registered target tree, role, named source need, budget and stop condition. The orchestrator derives the return location, parent/arrival/source lineage and depth. Duplicate, branch, child, depth and event limits prevent expansion. A child may fetch one reviewed public surface, then return to its original parent visit even if the parent has moved. The parent does not wait indefinitely for an unavailable executor.
 
-Unregistered trees, unavailable sources, first-use providers and unresolved results remain available to **Chat Aiden and Digest Aiden** in the shared unresolved queue. They are records for those participants, not a claim that either has read them. v1's executable child is a Collector; model-backed specialists remain deferred preparation.
+Unregistered trees, unavailable sources, first-use providers and unresolved results remain available to **Chat Aiden and Digest Aiden** in the shared unresolved queue. Each unresolved operation also gets a small **Bee handoff** packet describing what was attempted, what blocked it, required capabilities, current candidate states, lineage and the exact return path. These are records for those participants, not a claim that either has read them. v1's executable child is a Collector; model-backed specialists remain deferred preparation.
+
+## Capacity weather and Luna Mode
+
+`digestion/threshold/garden-operations/capacity.json` projects current routing weather. **Luna Mode** means no approved model lane is locally eligible at that moment. It is not a weaker model and it is not a global stop. Deterministic work and public Collectors may continue within their budgets; unresolved cognition is routed to Chat Aiden and Digest Aiden for research, repair, digestion or preparation while provider capacity/approval changes. The projection does not wake either conversation automatically.
+
+When an approved model lane becomes locally eligible again, the projection returns to `normal`. Remote availability is still checked at execution. Later provider adapters may let a task move among approved contextual executors rather than waiting on one provider, while preserving first-use approval and exact lineage.
 
 ## Run from reviewed main
 
@@ -53,7 +59,9 @@ All live data is on `week-one-state`:
 - `operations/garden/runs/Q18-NERVOUS-SYSTEM-20260929.json`: linked real Question run, events and replay hashes.
 - `operations/garden/operations/`: exact requests, candidate sets, rendered prompts, structured returns and birth decisions.
 - `digestion/threshold/garden-operations/operations.csv`: formula-safe operation ledger.
-- `digestion/threshold/garden-operations/unresolved.json`: shared Chat/Digest queue.
+- `digestion/threshold/garden-operations/unresolved.json`: shared Chat/Digest queue, including the current capacity mode and per-operation handoff references.
+- `digestion/threshold/garden-operations/handoffs/`: resumable Bee handoff packets for unresolved/deferred/error/UNKNOWN work.
+- `digestion/threshold/garden-operations/capacity.json`: normal/Luna routing projection and any genuine bandwidth wait.
 - `digestion/threshold/garden-operations/Q18-acceptance.json`: actual calls, receipt if available, result and supplied/automatic boundaries.
 - `digestion/threshold/garden/branches.csv`: current traversal branches.
 - `digestion/threshold/api/`: full HTTP ledger and material hashes. Deterministic/deferred operations are explicitly `no_http_exchange`, not historical missing data.
