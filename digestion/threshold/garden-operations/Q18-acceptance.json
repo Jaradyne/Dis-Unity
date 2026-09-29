@@ -1,0 +1,29 @@
+{
+  "automatic_parts": [
+    "contextual candidates",
+    "recorded operation execution/return",
+    "bounded child Collector",
+    "digestion projection",
+    "replay"
+  ],
+  "child_status": "error",
+  "cognition_executor": null,
+  "cognition_status": "deferred",
+  "empirical_result": "UNKNOWN; no validated loaded-service/uptime series admitted.",
+  "epoch": 1,
+  "event_count": 18,
+  "finished_at": "2026-09-29T19:08:18.748558+00:00",
+  "inventory_status": "unknown",
+  "provider_posts": 0,
+  "provider_receipt": null,
+  "question_id": "Q-RESEARCH-Q18",
+  "replay": "identical",
+  "run_id": "Q18-NERVOUS-SYSTEM-20260929",
+  "schema_version": "garden-acceptance-1",
+  "source_gets": 1,
+  "state_sha256": "02a5cd82835e0d4a59246b0eb8fb1a7ca4ef6161c4220c8ce8a3fe55174f2e53",
+  "supplied_parts": [
+    "Q18 framing",
+    "MIRROR/CROSS/RESID interpretation and conservative continuation policy"
+  ]
+}

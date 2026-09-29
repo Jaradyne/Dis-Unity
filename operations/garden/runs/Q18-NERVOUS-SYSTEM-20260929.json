@@ -1410,6 +1410,76 @@
         "status": "child_returned"
       },
       "recorded_at": "2026-09-29T19:08:15.772559+00:00"
+    },
+    {
+      "after": "1a582531df00e896578885a77c3e057cf35c0dad804b4a767b0307b01c3e3736",
+      "before": "fc5460046f70a57831ff924555d62dc70c4446daf06c6ac5cc8559a6cf5b5eac",
+      "command": {
+        "actor": {
+          "name": "Garden operation orchestrator",
+          "runtime": "Python; reviewed main configuration"
+        },
+        "branch_id": "B0",
+        "event_id": "Q18-LIVE-MEAN",
+        "expected_revision": 15,
+        "kind": "step",
+        "node": "MEAN",
+        "output": {
+          "summary": "Preserve the engineering milestone while keeping usable freight service unproven."
+        }
+      },
+      "decision": {
+        "next_node": "EXIT",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-09-29T19:08:18.126894+00:00"
+    },
+    {
+      "after": "2eddd08731fb592eeaeb761629af8a8a7f442cb578781ef4d864a01a0f9bd0d7",
+      "before": "1a582531df00e896578885a77c3e057cf35c0dad804b4a767b0307b01c3e3736",
+      "command": {
+        "actor": {
+          "name": "Garden operation orchestrator",
+          "runtime": "Python; reviewed main configuration"
+        },
+        "branch_id": "B0",
+        "event_id": "Q18-LIVE-EXIT",
+        "expected_revision": 16,
+        "kind": "step",
+        "node": "EXIT",
+        "output": {
+          "kind": "question",
+          "summary": "UNKNOWN retained for Chat Aiden and Digest Aiden with complete operation materials."
+        }
+      },
+      "decision": {
+        "next_node": "RETURN",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-09-29T19:08:18.344477+00:00"
+    },
+    {
+      "after": "02a5cd82835e0d4a59246b0eb8fb1a7ca4ef6161c4220c8ce8a3fe55174f2e53",
+      "before": "2eddd08731fb592eeaeb761629af8a8a7f442cb578781ef4d864a01a0f9bd0d7",
+      "command": {
+        "actor": {
+          "name": "Garden operation orchestrator",
+          "runtime": "Python; reviewed main configuration"
+        },
+        "branch_id": "B0",
+        "event_id": "Q18-LIVE-RETURN",
+        "expected_revision": 17,
+        "kind": "step",
+        "node": "RETURN",
+        "output": {
+          "reason": "Bounded acceptance run complete; no new material warrants another pass."
+        }
+      },
+      "decision": {
+        "reason": "No new arrival supplied",
+        "status": "rest"
+      },
+      "recorded_at": "2026-09-29T19:08:18.581301+00:00"
     }
   ],
   "initial": {
@@ -1909,12 +1979,15 @@
         },
         "parent_branch": null,
         "question_id": "Q-RESEARCH-Q18",
-        "rest": null,
+        "rest": {
+          "kind": "return",
+          "reason": "No new arrival supplied"
+        },
         "root_branch": "B0",
         "seen_arrival_ids": [
           "Q18-NERVES-ARRIVAL-1"
         ],
-        "status": "ready",
+        "status": "resting",
         "visited": [
           {
             "payload_hash": "051257d8cdbd5a38e6b3b5c629abff19274bd484ee5f38972182aa4fe20c075b",
@@ -1954,7 +2027,7 @@
                 }
               }
             ],
-            "status": "ready",
+            "status": "completed",
             "steps": [
               {
                 "actor": {
@@ -2111,6 +2184,40 @@
                     "language_exception": null
                   },
                   "summary": "Operating reliability remains unknown; a bounded child may inspect one inherited public surface."
+                }
+              },
+              {
+                "actor": {
+                  "name": "Garden operation orchestrator",
+                  "runtime": "Python; reviewed main configuration"
+                },
+                "event_id": "Q18-LIVE-MEAN",
+                "node": "MEAN",
+                "output": {
+                  "summary": "Preserve the engineering milestone while keeping usable freight service unproven."
+                }
+              },
+              {
+                "actor": {
+                  "name": "Garden operation orchestrator",
+                  "runtime": "Python; reviewed main configuration"
+                },
+                "event_id": "Q18-LIVE-EXIT",
+                "node": "EXIT",
+                "output": {
+                  "kind": "question",
+                  "summary": "UNKNOWN retained for Chat Aiden and Digest Aiden with complete operation materials."
+                }
+              },
+              {
+                "actor": {
+                  "name": "Garden operation orchestrator",
+                  "runtime": "Python; reviewed main configuration"
+                },
+                "event_id": "Q18-LIVE-RETURN",
+                "node": "RETURN",
+                "output": {
+                  "reason": "Bounded acceptance run complete; no new material warrants another pass."
                 }
               }
             ],
@@ -3152,7 +3259,7 @@
       }
     },
     "question_id": "Q-RESEARCH-Q18",
-    "revision": 15,
+    "revision": 18,
     "route_decisions": [],
     "route_signatures": [],
     "run_id": "Q18-NERVOUS-SYSTEM-20260929",
@@ -3211,8 +3318,8 @@
       "child_work": 1,
       "model_calls": 0,
       "operations": 3,
-      "steps": 7
+      "steps": 10
     }
   },
-  "state_sha256": "fc5460046f70a57831ff924555d62dc70c4446daf06c6ac5cc8559a6cf5b5eac"
+  "state_sha256": "02a5cd82835e0d4a59246b0eb8fb1a7ca4ef6161c4220c8ce8a3fe55174f2e53"
 }
