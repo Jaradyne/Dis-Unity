@@ -903,6 +903,448 @@
         "status": "returned"
       },
       "recorded_at": "2026-09-29T19:07:58.878500+00:00"
+    },
+    {
+      "after": "301d213c142df7655759c4ff9a75d6fcb4ee20ba1cc4c06bd456a87c83199209",
+      "before": "fc104694096b9e6645275e63e99ab66f1febbb02ab19b70fcd6412972102aa0d",
+      "command": {
+        "actor": {
+          "name": "Garden operation orchestrator",
+          "runtime": "Python; reviewed main configuration"
+        },
+        "branch_id": "B0",
+        "event_id": "Q18-LIVE-MIRROR",
+        "expected_revision": 8,
+        "kind": "step",
+        "node": "MIRROR",
+        "output": {
+          "comparisons": [
+            {
+              "answers": [
+                {
+                  "independent_evidence": false,
+                  "operation_id": "Q18-BOUNDED-COGNITION-20260929",
+                  "status": "deferred"
+                }
+              ],
+              "explanation": "No eligible executor; request retained for Chat Aiden and Digest Aiden.",
+              "queries": [
+                {
+                  "status": "deferred",
+                  "text": "Specify one ordinary control and one narrow test distinguishing vessel delivery from dependable freight service."
+                }
+              ]
+            }
+          ],
+          "information_lineage": {
+            "api_record_refs": [],
+            "criteria_refs": [
+              "handoffs/chat_aiden/2026-09-29_nervous-system-work-request/WORK_AIDEN_PRIMARY.md"
+            ],
+            "parent_answer_visible": true,
+            "parent_output_refs": [
+              "examples/garden/q18-pass.json"
+            ],
+            "source_refs": [
+              "handoffs/week_one_governor/2026-09-25.json",
+              "GOV-20260925-01",
+              "GOV-20260925-02"
+            ],
+            "test_origin": "inherited"
+          }
+        }
+      },
+      "decision": {
+        "next_node": "CROSS",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-09-29T19:08:01.056480+00:00"
+    },
+    {
+      "after": "3d0ec4cc8a90a9a48114c4eb7aca8b194d41c5413d7c540dff432d7a5aaf4f0c",
+      "before": "301d213c142df7655759c4ff9a75d6fcb4ee20ba1cc4c06bd456a87c83199209",
+      "command": {
+        "actor": {
+          "name": "Garden operation orchestrator",
+          "runtime": "Python; reviewed main configuration"
+        },
+        "branch_id": "B0",
+        "event_id": "Q18-LIVE-CROSS",
+        "expected_revision": 9,
+        "kind": "step",
+        "node": "CROSS",
+        "output": {
+          "bridge": [
+            {
+              "question": "Specify one ordinary control and one narrow test distinguishing vessel delivery from dependable freight service.",
+              "source_refs": [
+                "handoffs/week_one_governor/2026-09-25.json",
+                "GOV-20260925-01",
+                "GOV-20260925-02"
+              ],
+              "status": "Attributed operation return; no independent operating evidence admitted"
+            }
+          ],
+          "independent": [],
+          "inherited": [
+            "handoffs/week_one_governor/2026-09-25.json",
+            "GOV-20260925-01",
+            "GOV-20260925-02"
+          ]
+        }
+      },
+      "decision": {
+        "next_node": "RESID",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-09-29T19:08:01.155899+00:00"
+    },
+    {
+      "after": "710960031fba62304e52c28be03460c613039690299c34e13d4e2269b2e20da7",
+      "before": "3d0ec4cc8a90a9a48114c4eb7aca8b194d41c5413d7c540dff432d7a5aaf4f0c",
+      "command": {
+        "actor": {
+          "name": "Garden operation orchestrator",
+          "runtime": "Python; reviewed main configuration"
+        },
+        "branch_id": "B0",
+        "event_id": "Q18-LIVE-RESID",
+        "expected_revision": 10,
+        "kind": "step",
+        "node": "RESID",
+        "output": {
+          "predicates": {
+            "consequential": true,
+            "distinct_functions": true,
+            "language_exception": null
+          },
+          "summary": "Operating reliability remains unknown; a bounded child may inspect one inherited public surface."
+        }
+      },
+      "decision": {
+        "next_node": "MEAN",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-09-29T19:08:01.278385+00:00"
+    },
+    {
+      "after": "214d6e3aba66c6c735f4edc24eb8874ab266ba59c35d16aaa5a21459faa93dc2",
+      "before": "710960031fba62304e52c28be03460c613039690299c34e13d4e2269b2e20da7",
+      "command": {
+        "actor": {
+          "name": "Garden operation orchestrator",
+          "runtime": "Python; reviewed main configuration"
+        },
+        "birth": {
+          "budget": {
+            "model_posts": 0,
+            "operations": 1,
+            "source_gets": 1
+          },
+          "need": "q18-ccs-delivery",
+          "question": "Does the saved CCS Ningyuan Dianpeng delivery surface supply a dated completed-freight record?",
+          "role": "collector",
+          "stop_condition": "One public GET; retain full response and return UNKNOWN unless separately reviewed operating measures exist.",
+          "tree": "PRODUCTION",
+          "why_parent_cannot_answer": "Inherited construction/delivery reporting supplies no validated voyage-performance series."
+        },
+        "branch_id": "B0",
+        "event_id": "BIRTH-Q18-LINEAGE-20260929",
+        "expected_revision": 11,
+        "kind": "birth"
+      },
+      "decision": {
+        "child_branch": "B1",
+        "return_to": {
+          "branch_id": "B0",
+          "node": "MEAN",
+          "visit": 0
+        },
+        "status": "born"
+      },
+      "recorded_at": "2026-09-29T19:08:01.401401+00:00"
+    },
+    {
+      "after": "cdde825db23042f0303a86b71cd1bfeb43e2b05ea64aa4224160b17c6b7d4464",
+      "before": "214d6e3aba66c6c735f4edc24eb8874ab266ba59c35d16aaa5a21459faa93dc2",
+      "command": {
+        "actor": {
+          "name": "Garden operation orchestrator",
+          "runtime": "Python; reviewed main configuration"
+        },
+        "branch_id": "B1",
+        "event_id": "REQ-Q18-LINEAGE-20260929-CHILD",
+        "expected_revision": 12,
+        "kind": "operation_request",
+        "request": {
+          "anchor": {
+            "arrival_id": "ARR-6f4d41e28b87b9acf721e7b9",
+            "branch_id": "B1",
+            "epoch": 1,
+            "node": "ROOT",
+            "parent_output_hash": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+            "question_id": "Q-RESEARCH-Q18",
+            "run_id": "Q18-NERVOUS-SYSTEM-20260929",
+            "tree": "PRODUCTION",
+            "visit": 0
+          },
+          "branch_id": "B1",
+          "budget": {
+            "model_posts": 0,
+            "source_gets": 1
+          },
+          "context": {
+            "parent_operation_ref": "operations/garden/operations/Q18-LINEAGE-20260929.json"
+          },
+          "exposed_context": {
+            "arrival": {
+              "from": "examples/garden-traversal/worked/operations/garden/runs/Q18-SUPPLIED-TRAVERSAL-20260928.json",
+              "id": "ARR-6f4d41e28b87b9acf721e7b9",
+              "origin": {
+                "from": "examples/garden-traversal/worked/operations/garden/runs/Q18-SUPPLIED-TRAVERSAL-20260928.json",
+                "id": "Q18-NERVES-ARRIVAL-1",
+                "payload": {
+                  "kind": "linked_operational_followup",
+                  "old_example_is_unchanged": true,
+                  "question": "Which local diesel function can be replaced with demonstrated reliable service?",
+                  "source_packet": "handoffs/week_one_governor/2026-09-25.json"
+                },
+                "to": "INIT:ROOT-0001"
+              },
+              "parent_arrival_id": "Q18-NERVES-ARRIVAL-1",
+              "payload": {
+                "kind": "linked_operational_followup",
+                "old_example_is_unchanged": true,
+                "question": "Which local diesel function can be replaced with demonstrated reliable service?",
+                "source_packet": "handoffs/week_one_governor/2026-09-25.json"
+              },
+              "to": "PRODUCTION:ROOT-0001"
+            },
+            "prior_answers": {},
+            "prior_attempts": {},
+            "prior_node_outputs": [],
+            "question": "Which local diesel function can be replaced with demonstrated reliable service?",
+            "question_history": [],
+            "sources": [
+              {
+                "kind": "context",
+                "lineage_id": "Q18-STAGED-20260925",
+                "ref": "handoffs/week_one_governor/2026-09-25.json",
+                "status": "Attributed historical provisional packet; not newly verified"
+              },
+              {
+                "inherited_source_metadata": {
+                  "access": "Official search-index excerpt; direct page open timed out twice.",
+                  "access_limitations": "Full article text was not retrieved. Certification is not an operating or cargo-performance record.",
+                  "finding": "The official excerpt identifies the first 740-TEU pure-electric open-container vessel and says CCS completed construction inspection and certification.",
+                  "observation_date": "The page describes completion of construction inspection/certification before 2026-04-07; exact event date not stated in the accessible excerpt.",
+                  "publication_date": "2026-04-07",
+                  "publisher": "China Classification Society",
+                  "retrieval_date": "2026-09-25",
+                  "source_id": "GOV-20260925-01",
+                  "title": "CCS completes construction inspection and certification of the pure-electric vessel Ningyuan Diankun",
+                  "url": "https://www.ccs.org.cn/ccswz/articleDetail?id=202604070331469396"
+                },
+                "kind": "context",
+                "languages": [
+                  "zh"
+                ],
+                "lineage_id": "CCS-202604070331469396",
+                "publication_metadata_basis": "inherited packet; not language detection",
+                "ref": "GOV-20260925-01"
+              },
+              {
+                "inherited_source_metadata": {
+                  "access": "Full public text.",
+                  "access_limitations": "Classification-body account; no operator voyage log, cargo result, uptime series or independent performance audit.",
+                  "finding": "CCS reports delivery of the 740-TEU pure-electric sister vessel with ten containerized battery packs, high-voltage shore fast charging, charge-plus-swap replenishment and propulsion redundancy.",
+                  "observation_date": "Delivery occurred shortly before publication; the page says 'recently' and supplies no exact delivery date.",
+                  "publication_date": "2026-07-06 13:07 (page time; timezone not shown)",
+                  "publisher": "China Classification Society",
+                  "retrieval_date": "2026-09-25",
+                  "source_id": "GOV-20260925-02",
+                  "title": "CCS supports delivery of the 10,000-ton-class pure-electric intelligent vessel Ningyuan Dianpeng",
+                  "url": "https://www.ccs.org.cn/ccswz/articleDetail?id=202607060127336064"
+                },
+                "kind": "context",
+                "languages": [
+                  "zh"
+                ],
+                "lineage_id": "CCS-202607060127336064",
+                "publication_metadata_basis": "inherited packet; not language detection",
+                "ref": "GOV-20260925-02"
+              }
+            ],
+            "task_context": {
+              "parent_operation_ref": "operations/garden/operations/Q18-LINEAGE-20260929.json"
+            }
+          },
+          "independence": {
+            "blind_parent": false,
+            "distinct_executor": false
+          },
+          "information_lineage": {
+            "inherited_branch_lineage": {
+              "independent_evidence": false,
+              "parent_arrival_id": "Q18-NERVES-ARRIVAL-1",
+              "parent_output_hash": "9546129d5a6464fe7dec3545550da325adca3497082e39553b0bdc30ac98b636",
+              "source_refs": [
+                "handoffs/week_one_governor/2026-09-25.json",
+                "GOV-20260925-01",
+                "GOV-20260925-02"
+              ]
+            },
+            "parent_answer_visible": true,
+            "parent_output_hash": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+            "prior_operation_refs": [
+              "operations/garden/operations/Q18-BOUNDED-COGNITION-20260929.json",
+              "operations/garden/operations/Q18-LINEAGE-20260929.json"
+            ],
+            "source_refs": [
+              "handoffs/week_one_governor/2026-09-25.json",
+              "GOV-20260925-01",
+              "GOV-20260925-02"
+            ]
+          },
+          "method": "public_source",
+          "operation_id": "Q18-LINEAGE-20260929-CHILD",
+          "permissions": {
+            "model": false,
+            "public_http": true
+          },
+          "reason": "Inherited construction/delivery reporting supplies no validated voyage-performance series.",
+          "required_output_schema": {
+            "additionalProperties": false,
+            "properties": {
+              "birth": {
+                "oneOf": [
+                  {
+                    "type": "null"
+                  },
+                  {
+                    "additionalProperties": false,
+                    "properties": {
+                      "budget": {
+                        "const": {
+                          "model_posts": 0,
+                          "operations": 1,
+                          "source_gets": 1
+                        }
+                      },
+                      "need": {
+                        "minLength": 1,
+                        "type": "string"
+                      },
+                      "question": {
+                        "minLength": 1,
+                        "type": "string"
+                      },
+                      "role": {
+                        "minLength": 1,
+                        "type": "string"
+                      },
+                      "stop_condition": {
+                        "minLength": 1,
+                        "type": "string"
+                      },
+                      "tree": {
+                        "minLength": 1,
+                        "type": "string"
+                      },
+                      "why_parent_cannot_answer": {
+                        "minLength": 1,
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "why_parent_cannot_answer",
+                      "question",
+                      "tree",
+                      "role",
+                      "need",
+                      "stop_condition",
+                      "budget"
+                    ],
+                    "type": "object"
+                  }
+                ]
+              },
+              "proposed_tests": {
+                "items": {
+                  "minLength": 1,
+                  "type": "string"
+                },
+                "type": "array"
+              },
+              "source_refs": {
+                "description": "Only exposed source references; no evidence promotion",
+                "items": {
+                  "type": "string"
+                },
+                "type": "array"
+              },
+              "status": {
+                "enum": [
+                  "complete",
+                  "unknown"
+                ]
+              },
+              "summary": {
+                "maxLength": 12000,
+                "minLength": 1,
+                "type": "string"
+              }
+            },
+            "required": [
+              "status",
+              "summary",
+              "source_refs",
+              "proposed_tests",
+              "birth"
+            ],
+            "type": "object",
+            "version": "garden-output-1"
+          },
+          "return_path": {
+            "anchor": {
+              "arrival_id": "ARR-6f4d41e28b87b9acf721e7b9",
+              "branch_id": "B1",
+              "epoch": 1,
+              "node": "ROOT",
+              "parent_output_hash": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+              "question_id": "Q-RESEARCH-Q18",
+              "run_id": "Q18-NERVOUS-SYSTEM-20260929",
+              "tree": "PRODUCTION",
+              "visit": 0
+            },
+            "on_failure": [
+              "Chat Aiden",
+              "Digest Aiden"
+            ]
+          },
+          "role": "collector",
+          "schema_version": "garden-request-1",
+          "source_key": "q18-ccs-delivery",
+          "stop_condition": "One public GET; retain full response and return UNKNOWN unless separately reviewed operating measures exist.",
+          "task": "Does the saved CCS Ningyuan Dianpeng delivery surface supply a dated completed-freight record?"
+        }
+      },
+      "decision": {
+        "anchor": {
+          "arrival_id": "ARR-6f4d41e28b87b9acf721e7b9",
+          "branch_id": "B1",
+          "epoch": 1,
+          "node": "ROOT",
+          "parent_output_hash": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+          "question_id": "Q-RESEARCH-Q18",
+          "run_id": "Q18-NERVOUS-SYSTEM-20260929",
+          "tree": "PRODUCTION",
+          "visit": 0
+        },
+        "operation_id": "Q18-LINEAGE-20260929-CHILD",
+        "status": "requested"
+      },
+      "recorded_at": "2026-09-29T19:08:01.568847+00:00"
     }
   ],
   "initial": {
@@ -1498,14 +1940,185 @@
                   "function": "Dependable freight substituting a diesel function; no empirical admission.",
                   "task": "Inspect the delivery-to-service inference and seek one bounded source return."
                 }
+              },
+              {
+                "actor": {
+                  "name": "Garden operation orchestrator",
+                  "runtime": "Python; reviewed main configuration"
+                },
+                "event_id": "Q18-LIVE-MIRROR",
+                "node": "MIRROR",
+                "output": {
+                  "comparisons": [
+                    {
+                      "answers": [
+                        {
+                          "independent_evidence": false,
+                          "operation_id": "Q18-BOUNDED-COGNITION-20260929",
+                          "status": "deferred"
+                        }
+                      ],
+                      "explanation": "No eligible executor; request retained for Chat Aiden and Digest Aiden.",
+                      "queries": [
+                        {
+                          "status": "deferred",
+                          "text": "Specify one ordinary control and one narrow test distinguishing vessel delivery from dependable freight service."
+                        }
+                      ]
+                    }
+                  ],
+                  "information_lineage": {
+                    "api_record_refs": [],
+                    "criteria_refs": [
+                      "handoffs/chat_aiden/2026-09-29_nervous-system-work-request/WORK_AIDEN_PRIMARY.md"
+                    ],
+                    "parent_answer_visible": true,
+                    "parent_output_refs": [
+                      "examples/garden/q18-pass.json"
+                    ],
+                    "source_refs": [
+                      "handoffs/week_one_governor/2026-09-25.json",
+                      "GOV-20260925-01",
+                      "GOV-20260925-02"
+                    ],
+                    "test_origin": "inherited"
+                  }
+                }
+              },
+              {
+                "actor": {
+                  "name": "Garden operation orchestrator",
+                  "runtime": "Python; reviewed main configuration"
+                },
+                "event_id": "Q18-LIVE-CROSS",
+                "node": "CROSS",
+                "output": {
+                  "bridge": [
+                    {
+                      "question": "Specify one ordinary control and one narrow test distinguishing vessel delivery from dependable freight service.",
+                      "source_refs": [
+                        "handoffs/week_one_governor/2026-09-25.json",
+                        "GOV-20260925-01",
+                        "GOV-20260925-02"
+                      ],
+                      "status": "Attributed operation return; no independent operating evidence admitted"
+                    }
+                  ],
+                  "independent": [],
+                  "inherited": [
+                    "handoffs/week_one_governor/2026-09-25.json",
+                    "GOV-20260925-01",
+                    "GOV-20260925-02"
+                  ]
+                }
+              },
+              {
+                "actor": {
+                  "name": "Garden operation orchestrator",
+                  "runtime": "Python; reviewed main configuration"
+                },
+                "event_id": "Q18-LIVE-RESID",
+                "node": "RESID",
+                "output": {
+                  "predicates": {
+                    "consequential": true,
+                    "distinct_functions": true,
+                    "language_exception": null
+                  },
+                  "summary": "Operating reliability remains unknown; a bounded child may inspect one inherited public surface."
+                }
               }
             ],
             "tree": "INIT"
           }
         ]
+      },
+      "B1": {
+        "birth": {
+          "budget": {
+            "model_posts": 0,
+            "operations": 1,
+            "source_gets": 1
+          },
+          "need": "q18-ccs-delivery",
+          "question": "Does the saved CCS Ningyuan Dianpeng delivery surface supply a dated completed-freight record?",
+          "role": "collector",
+          "stop_condition": "One public GET; retain full response and return UNKNOWN unless separately reviewed operating measures exist.",
+          "tree": "PRODUCTION",
+          "why_parent_cannot_answer": "Inherited construction/delivery reporting supplies no validated voyage-performance series."
+        },
+        "epoch": 1,
+        "focus": "Does the saved CCS Ningyuan Dianpeng delivery surface supply a dated completed-freight record?",
+        "id": "B1",
+        "lineage": {
+          "independent_evidence": false,
+          "parent_arrival_id": "Q18-NERVES-ARRIVAL-1",
+          "parent_output_hash": "9546129d5a6464fe7dec3545550da325adca3497082e39553b0bdc30ac98b636",
+          "source_refs": [
+            "handoffs/week_one_governor/2026-09-25.json",
+            "GOV-20260925-01",
+            "GOV-20260925-02"
+          ]
+        },
+        "parent_branch": "B0",
+        "question_id": "Q-RESEARCH-Q18",
+        "rest": null,
+        "return_to": {
+          "branch_id": "B0",
+          "node": "MEAN",
+          "visit": 0
+        },
+        "root_branch": "B0",
+        "seen_arrival_ids": [
+          "ARR-6f4d41e28b87b9acf721e7b9"
+        ],
+        "status": "ready",
+        "visited": [
+          {
+            "payload_hash": "051257d8cdbd5a38e6b3b5c629abff19274bd484ee5f38972182aa4fe20c075b",
+            "tree": "INIT"
+          },
+          {
+            "payload_hash": "051257d8cdbd5a38e6b3b5c629abff19274bd484ee5f38972182aa4fe20c075b",
+            "tree": "PRODUCTION"
+          }
+        ],
+        "visits": [
+          {
+            "arrival": {
+              "from": "examples/garden-traversal/worked/operations/garden/runs/Q18-SUPPLIED-TRAVERSAL-20260928.json",
+              "id": "ARR-6f4d41e28b87b9acf721e7b9",
+              "origin": {
+                "from": "examples/garden-traversal/worked/operations/garden/runs/Q18-SUPPLIED-TRAVERSAL-20260928.json",
+                "id": "Q18-NERVES-ARRIVAL-1",
+                "payload": {
+                  "kind": "linked_operational_followup",
+                  "old_example_is_unchanged": true,
+                  "question": "Which local diesel function can be replaced with demonstrated reliable service?",
+                  "source_packet": "handoffs/week_one_governor/2026-09-25.json"
+                },
+                "to": "INIT:ROOT-0001"
+              },
+              "parent_arrival_id": "Q18-NERVES-ARRIVAL-1",
+              "payload": {
+                "kind": "linked_operational_followup",
+                "old_example_is_unchanged": true,
+                "question": "Which local diesel function can be replaced with demonstrated reliable service?",
+                "source_packet": "handoffs/week_one_governor/2026-09-25.json"
+              },
+              "to": "PRODUCTION:ROOT-0001"
+            },
+            "status": "ready",
+            "steps": [],
+            "tree": "PRODUCTION"
+          }
+        ],
+        "work_depth": 1
       }
     },
-    "child_signatures": [],
+    "child_signatures": [
+      "ffc206db4086a427e346609cc3c23b620080280ac2a8137cc3f08742e6abc19a"
+    ],
     "epoch": 1,
     "limits": {
       "max_branches": 8,
@@ -2183,10 +2796,265 @@
           "summary": "Inventoried 3 inherited source references. This deterministic inventory makes no service-performance inference; the empirical question remains open."
         },
         "status": "returned"
+      },
+      "Q18-LINEAGE-20260929-CHILD": {
+        "request": {
+          "anchor": {
+            "arrival_id": "ARR-6f4d41e28b87b9acf721e7b9",
+            "branch_id": "B1",
+            "epoch": 1,
+            "node": "ROOT",
+            "parent_output_hash": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+            "question_id": "Q-RESEARCH-Q18",
+            "run_id": "Q18-NERVOUS-SYSTEM-20260929",
+            "tree": "PRODUCTION",
+            "visit": 0
+          },
+          "branch_id": "B1",
+          "budget": {
+            "model_posts": 0,
+            "source_gets": 1
+          },
+          "context": {
+            "parent_operation_ref": "operations/garden/operations/Q18-LINEAGE-20260929.json"
+          },
+          "exposed_context": {
+            "arrival": {
+              "from": "examples/garden-traversal/worked/operations/garden/runs/Q18-SUPPLIED-TRAVERSAL-20260928.json",
+              "id": "ARR-6f4d41e28b87b9acf721e7b9",
+              "origin": {
+                "from": "examples/garden-traversal/worked/operations/garden/runs/Q18-SUPPLIED-TRAVERSAL-20260928.json",
+                "id": "Q18-NERVES-ARRIVAL-1",
+                "payload": {
+                  "kind": "linked_operational_followup",
+                  "old_example_is_unchanged": true,
+                  "question": "Which local diesel function can be replaced with demonstrated reliable service?",
+                  "source_packet": "handoffs/week_one_governor/2026-09-25.json"
+                },
+                "to": "INIT:ROOT-0001"
+              },
+              "parent_arrival_id": "Q18-NERVES-ARRIVAL-1",
+              "payload": {
+                "kind": "linked_operational_followup",
+                "old_example_is_unchanged": true,
+                "question": "Which local diesel function can be replaced with demonstrated reliable service?",
+                "source_packet": "handoffs/week_one_governor/2026-09-25.json"
+              },
+              "to": "PRODUCTION:ROOT-0001"
+            },
+            "prior_answers": {},
+            "prior_attempts": {},
+            "prior_node_outputs": [],
+            "question": "Which local diesel function can be replaced with demonstrated reliable service?",
+            "question_history": [],
+            "sources": [
+              {
+                "kind": "context",
+                "lineage_id": "Q18-STAGED-20260925",
+                "ref": "handoffs/week_one_governor/2026-09-25.json",
+                "status": "Attributed historical provisional packet; not newly verified"
+              },
+              {
+                "inherited_source_metadata": {
+                  "access": "Official search-index excerpt; direct page open timed out twice.",
+                  "access_limitations": "Full article text was not retrieved. Certification is not an operating or cargo-performance record.",
+                  "finding": "The official excerpt identifies the first 740-TEU pure-electric open-container vessel and says CCS completed construction inspection and certification.",
+                  "observation_date": "The page describes completion of construction inspection/certification before 2026-04-07; exact event date not stated in the accessible excerpt.",
+                  "publication_date": "2026-04-07",
+                  "publisher": "China Classification Society",
+                  "retrieval_date": "2026-09-25",
+                  "source_id": "GOV-20260925-01",
+                  "title": "CCS completes construction inspection and certification of the pure-electric vessel Ningyuan Diankun",
+                  "url": "https://www.ccs.org.cn/ccswz/articleDetail?id=202604070331469396"
+                },
+                "kind": "context",
+                "languages": [
+                  "zh"
+                ],
+                "lineage_id": "CCS-202604070331469396",
+                "publication_metadata_basis": "inherited packet; not language detection",
+                "ref": "GOV-20260925-01"
+              },
+              {
+                "inherited_source_metadata": {
+                  "access": "Full public text.",
+                  "access_limitations": "Classification-body account; no operator voyage log, cargo result, uptime series or independent performance audit.",
+                  "finding": "CCS reports delivery of the 740-TEU pure-electric sister vessel with ten containerized battery packs, high-voltage shore fast charging, charge-plus-swap replenishment and propulsion redundancy.",
+                  "observation_date": "Delivery occurred shortly before publication; the page says 'recently' and supplies no exact delivery date.",
+                  "publication_date": "2026-07-06 13:07 (page time; timezone not shown)",
+                  "publisher": "China Classification Society",
+                  "retrieval_date": "2026-09-25",
+                  "source_id": "GOV-20260925-02",
+                  "title": "CCS supports delivery of the 10,000-ton-class pure-electric intelligent vessel Ningyuan Dianpeng",
+                  "url": "https://www.ccs.org.cn/ccswz/articleDetail?id=202607060127336064"
+                },
+                "kind": "context",
+                "languages": [
+                  "zh"
+                ],
+                "lineage_id": "CCS-202607060127336064",
+                "publication_metadata_basis": "inherited packet; not language detection",
+                "ref": "GOV-20260925-02"
+              }
+            ],
+            "task_context": {
+              "parent_operation_ref": "operations/garden/operations/Q18-LINEAGE-20260929.json"
+            }
+          },
+          "independence": {
+            "blind_parent": false,
+            "distinct_executor": false
+          },
+          "information_lineage": {
+            "inherited_branch_lineage": {
+              "independent_evidence": false,
+              "parent_arrival_id": "Q18-NERVES-ARRIVAL-1",
+              "parent_output_hash": "9546129d5a6464fe7dec3545550da325adca3497082e39553b0bdc30ac98b636",
+              "source_refs": [
+                "handoffs/week_one_governor/2026-09-25.json",
+                "GOV-20260925-01",
+                "GOV-20260925-02"
+              ]
+            },
+            "parent_answer_visible": true,
+            "parent_output_hash": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+            "prior_operation_refs": [
+              "operations/garden/operations/Q18-BOUNDED-COGNITION-20260929.json",
+              "operations/garden/operations/Q18-LINEAGE-20260929.json"
+            ],
+            "source_refs": [
+              "handoffs/week_one_governor/2026-09-25.json",
+              "GOV-20260925-01",
+              "GOV-20260925-02"
+            ]
+          },
+          "method": "public_source",
+          "operation_id": "Q18-LINEAGE-20260929-CHILD",
+          "permissions": {
+            "model": false,
+            "public_http": true
+          },
+          "reason": "Inherited construction/delivery reporting supplies no validated voyage-performance series.",
+          "required_output_schema": {
+            "additionalProperties": false,
+            "properties": {
+              "birth": {
+                "oneOf": [
+                  {
+                    "type": "null"
+                  },
+                  {
+                    "additionalProperties": false,
+                    "properties": {
+                      "budget": {
+                        "const": {
+                          "model_posts": 0,
+                          "operations": 1,
+                          "source_gets": 1
+                        }
+                      },
+                      "need": {
+                        "minLength": 1,
+                        "type": "string"
+                      },
+                      "question": {
+                        "minLength": 1,
+                        "type": "string"
+                      },
+                      "role": {
+                        "minLength": 1,
+                        "type": "string"
+                      },
+                      "stop_condition": {
+                        "minLength": 1,
+                        "type": "string"
+                      },
+                      "tree": {
+                        "minLength": 1,
+                        "type": "string"
+                      },
+                      "why_parent_cannot_answer": {
+                        "minLength": 1,
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "why_parent_cannot_answer",
+                      "question",
+                      "tree",
+                      "role",
+                      "need",
+                      "stop_condition",
+                      "budget"
+                    ],
+                    "type": "object"
+                  }
+                ]
+              },
+              "proposed_tests": {
+                "items": {
+                  "minLength": 1,
+                  "type": "string"
+                },
+                "type": "array"
+              },
+              "source_refs": {
+                "description": "Only exposed source references; no evidence promotion",
+                "items": {
+                  "type": "string"
+                },
+                "type": "array"
+              },
+              "status": {
+                "enum": [
+                  "complete",
+                  "unknown"
+                ]
+              },
+              "summary": {
+                "maxLength": 12000,
+                "minLength": 1,
+                "type": "string"
+              }
+            },
+            "required": [
+              "status",
+              "summary",
+              "source_refs",
+              "proposed_tests",
+              "birth"
+            ],
+            "type": "object",
+            "version": "garden-output-1"
+          },
+          "return_path": {
+            "anchor": {
+              "arrival_id": "ARR-6f4d41e28b87b9acf721e7b9",
+              "branch_id": "B1",
+              "epoch": 1,
+              "node": "ROOT",
+              "parent_output_hash": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+              "question_id": "Q-RESEARCH-Q18",
+              "run_id": "Q18-NERVOUS-SYSTEM-20260929",
+              "tree": "PRODUCTION",
+              "visit": 0
+            },
+            "on_failure": [
+              "Chat Aiden",
+              "Digest Aiden"
+            ]
+          },
+          "role": "collector",
+          "schema_version": "garden-request-1",
+          "source_key": "q18-ccs-delivery",
+          "stop_condition": "One public GET; retain full response and return UNKNOWN unless separately reviewed operating measures exist.",
+          "task": "Does the saved CCS Ningyuan Dianpeng delivery surface supply a dated completed-freight record?"
+        },
+        "status": "requested"
       }
     },
     "question_id": "Q-RESEARCH-Q18",
-    "revision": 8,
+    "revision": 13,
     "route_decisions": [],
     "route_signatures": [],
     "run_id": "Q18-NERVOUS-SYSTEM-20260929",
@@ -2241,12 +3109,12 @@
       }
     },
     "used": {
-      "branches": 1,
-      "child_work": 0,
+      "branches": 2,
+      "child_work": 1,
       "model_calls": 0,
-      "operations": 2,
-      "steps": 4
+      "operations": 3,
+      "steps": 7
     }
   },
-  "state_sha256": "fc104694096b9e6645275e63e99ab66f1febbb02ab19b70fcd6412972102aa0d"
+  "state_sha256": "cdde825db23042f0303a86b71cd1bfeb43e2b05ea64aa4224160b17c6b7d4464"
 }

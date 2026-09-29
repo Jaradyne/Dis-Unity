@@ -1,2 +1,3 @@
 run_id,branch_id,parent_branch,question_id,epoch,tree,node,status,focus,rest_reason,steps_used,branches_used,model_calls,record
-Q18-NERVOUS-SYSTEM-20260929,B0,,Q-RESEARCH-Q18,1,INIT,MIRROR,ready,Which local diesel function can be replaced with demonstrated reliable service?,,4,1,0,https://github.com/Jaradyne/Dis-Unity/blob/week-one-state/operations/garden/runs/Q18-NERVOUS-SYSTEM-20260929.json
+Q18-NERVOUS-SYSTEM-20260929,B0,,Q-RESEARCH-Q18,1,INIT,MEAN,ready,Which local diesel function can be replaced with demonstrated reliable service?,,7,2,0,https://github.com/Jaradyne/Dis-Unity/blob/week-one-state/operations/garden/runs/Q18-NERVOUS-SYSTEM-20260929.json
+Q18-NERVOUS-SYSTEM-20260929,B1,B0,Q-RESEARCH-Q18,1,PRODUCTION,ROOT,ready,Does the saved CCS Ningyuan Dianpeng delivery surface supply a dated completed-freight record?,,7,2,0,https://github.com/Jaradyne/Dis-Unity/blob/week-one-state/operations/garden/runs/Q18-NERVOUS-SYSTEM-20260929.json

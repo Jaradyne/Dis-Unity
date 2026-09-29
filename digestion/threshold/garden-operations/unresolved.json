@@ -18,7 +18,15 @@
       "tree": "INIT"
     },
     {
-      "birth_decision": null,
+      "birth_decision": {
+        "child_branch": "B1",
+        "return_to": {
+          "branch_id": "B0",
+          "node": "MEAN",
+          "visit": 0
+        },
+        "status": "born"
+      },
       "branch_id": "B0",
       "executor": "local-lineage",
       "node": "MIRROR",
