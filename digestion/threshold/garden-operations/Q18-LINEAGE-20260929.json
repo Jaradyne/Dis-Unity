@@ -1,0 +1,20 @@
+{
+  "materials": [
+    {
+      "path": "operations/garden/operations/Q18-LINEAGE-20260929.json",
+      "sha256": "3a2baa84aacf9a7ff65b3e451be8f1bef2fcf5169bbf463a571990fe42dd1b0a"
+    },
+    {
+      "path": "operations/week-one/runs/go-353e2218eac46ac94c86ddf2/request.json",
+      "sha256": "50c3be7aaa4c2bf5a40e3078ae3460487db29675618c28e026434afa5ab4e882"
+    }
+  ],
+  "meaning": "Complete saved operation material; capture is not review or evidence admission.",
+  "operation_id": "Q18-LINEAGE-20260929",
+  "recipients": [
+    "Chat Aiden",
+    "Digest Aiden"
+  ],
+  "schema_version": "digestion-garden-operation-1",
+  "status": "available_for_digestion"
+}
