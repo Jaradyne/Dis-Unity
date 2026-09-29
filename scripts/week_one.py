@@ -736,7 +736,10 @@ def render(root):
                 note += ['', 'A verified provider receipt is retained in [outcome.json](outcome.json); answer validation is separate.']
         note += ['', 'Source selection is bounded. Retrieval date is separate from event time.', '', '[Selected source records](sources.json)']
         cycle.write_bytes(root / run_path(rid, 'HUMAN_NOTE.md'), ('\n'.join(note) + '\n').encode(), replace=True)
-    lines += ['', f"Provider brake: {json.dumps(state.get('brake'))}", f"Cooldown until: {state.get('cooldown_until')}", '',
+    wait_category = bandwidth_wait_category(state)
+    wait_until = state.get('cooldown_until') if wait_category else None
+    lines += ['', f"Provider brake: {json.dumps(state.get('brake'))}",
+              f"Provider bandwidth wait: {wait_category or 'none'} · until: {wait_until}", '',
               'Public-source coverage: EIA diesel/energy feed metadata and up to 12 NWS California active alerts.',
               'Research publication, source access, current operating capacity and model interpretation have separate provenance.']
     for did, decision in state.get('operator_dispositions', {}).items():
