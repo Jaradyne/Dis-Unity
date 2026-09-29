@@ -79,6 +79,9 @@ def gate(config, state, now):
         return 'window_complete'
     if state.get('brake'):
         return 'operator_review_required'
+    if any(r.get('status') in {'reserved','executing','audit_pending','uncertain'}
+           for r in state.get('garden_operations', {}).values()):
+        return 'garden_operation_pending'
     if state.get('cooldown_until') and now < clock(state['cooldown_until']):
         return 'cooldown'
     return None
@@ -465,7 +468,8 @@ def prepare(root, rid, *, now=None, fetcher=source_fetch):
         state['brake'] = {'run_id': recovered['run_id'], 'at': cycle.now(),
                           'reason': 'Saved generation reached its three-attempt recovery limit'}
         reason = 'operator_review_required'
-    same_slot = [r for r in state['runs'].values() if r.get('slot') == slot]
+    shared_runs = list(state['runs'].values()) + list(state.get('garden_operations', {}).values())
+    same_slot = [r for r in shared_runs if r.get('slot') == slot]
     operator = state.get('operator_reflight') or {}
     operator_extra = bool(operator.get('remaining', 0) > 0)
     slot_units = 0
@@ -482,7 +486,7 @@ def prepare(root, rid, *, now=None, fetcher=source_fetch):
         )
         if slot_units >= 2 and not operator_extra:
             return {'status': 'slot_attempt_limit', 'run_id': rid}
-        daily = sum(r.get('post_reserved', 0) for r in state['runs'].values()
+        daily = sum(r.get('post_reserved', 0) for r in shared_runs
                     if r['started_at'][:10] == stamp.date().isoformat())
         if daily >= cfg['max_provider_posts_per_utc_day']:
             reason = 'daily_budget'

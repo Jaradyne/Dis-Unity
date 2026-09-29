@@ -1,0 +1,29 @@
+{
+  "packet_version": "chat-handoff-1",
+  "packet_id": "CHAT-20260929-NERVOUS-SYSTEM-WORK-REQUEST",
+  "base_cycle": "RC-004",
+  "actor": {
+    "runtime": "Chat",
+    "provider": "OpenAI",
+    "model": "GPT-5.6 Sol"
+  },
+  "status": "ready_for_review",
+  "task": "Connect provider-neutral Garden operations, contextual worker selection and bounded self-propagation, then prove one end-to-end real logistics traversal.",
+  "summary": "Jared authorized autonomous reversible GitHub work, contextual worker selection, any-node bounded initiation with a reason, self-propagation within budgets, complete digestion recording, and first-use approval only for novel/peculiar provider paths. The primary Work request is intentionally one bounded integration session with explicit acceptance tests.",
+  "proposed_changes": [
+    "Provider-neutral Garden node operation request/return contract.",
+    "Contextual candidate-list and deterministic selection/defer record.",
+    "First-use approval state for novel provider paths.",
+    "Full API/operation-to-digestion recording.",
+    "Bounded birth/self-propagation with Chat+Digest unresolved return.",
+    "End-to-end Q18 logistics acceptance traversal and replay."
+  ],
+  "limitations": [
+    "No new Gemini, Mistral or Cloudflare live inference is authorized merely for dispatcher testing; ask Jared before a first/peculiar live path.",
+    "Provider/model outputs are not independent empirical evidence.",
+    "Governor remains inactive unless separately changed by Jared.",
+    "Preserve current zero-spend and NO GROQ rules."
+  ],
+  "next_action": "Work Aiden reads README.md and WORK_AIDEN_PRIMARY.md, implements the smallest complete nervous-system spine, and stops after an inspectable Q18 acceptance run unless repair work is needed.",
+  "stop_reason": "Prepared for Work integration."
+}

@@ -1,3 +1,7 @@
+# September 29 — Garden operation spine
+
+PR #28 is integrated. Read [the current return](operations/GARDEN_NERVOUS_SYSTEM_2026-09-29.md) and [operation contract](docs/GARDEN_OPERATIONS.md) before rebuilding any dispatcher. Read the live Q18 acceptance and operation history on `week-one-state` for actual calls, receipts and unresolved results. [Chat's new main-edit authority](docs/CHAT_MAIN_EDIT_PROTOCOL.md) supersedes older blanket Work-only integration rules: Jared approves the concrete change, Chat follows the same review and reversal protocol, and Work need not be present. Existing runtime/provider/window limits still apply.
+
 # September 28 Pacific / September 29 UTC — readiness while Work rests
 
 Read [the current readiness review](operations/COMPANION_WEEK_READINESS_2026-09-29.md). Digest PR #26 and Chat PR #17 are integrated; the recorded API sample-contract failure and material-hash order are repaired. The bounded collection loop can support Jared/Chat/Digest review. Automatic model-to-Garden integration remains unbuilt. The existing October 4 cutoff is still active; the proposed October 5 evening extension awaits Jared's confirmation.

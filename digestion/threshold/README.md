@@ -1,5 +1,7 @@
 # Digestion threshold
 
+**Garden operations:** [live operation CSV](https://github.com/Jaradyne/Dis-Unity/blob/week-one-state/digestion/threshold/garden-operations/operations.csv) · [Chat/Digest unresolved queue](https://github.com/Jaradyne/Dis-Unity/blob/week-one-state/digestion/threshold/garden-operations/unresolved.json) · [Q18 acceptance](https://github.com/Jaradyne/Dis-Unity/blob/week-one-state/digestion/threshold/garden-operations/Q18-acceptance.json). Every deterministic, model-backed, deferred or failed operation retains its task, exposed context/lineage, candidate reasons, selection, structured outcome and return event. HTTP work uses the same complete recorder; records without a network exchange explicitly say `no_http_exchange`. See [the operation contract](../../docs/GARDEN_OPERATIONS.md).
+
 API material arrives here for Digest Aiden and other authorized thought partners. Capture and delivery do not imply that anyone has digested or reviewed it. The Governor remains paused.
 
 - [Live CSV ledger](https://github.com/Jaradyne/Dis-Unity/blob/week-one-state/digestion/threshold/api/interactions.csv)

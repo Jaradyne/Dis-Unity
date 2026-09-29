@@ -1,0 +1,76 @@
+name: Garden bounded operation
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/garden_operations.py'
+      - 'scripts/garden_acceptance.py'
+      - 'config/garden-operations.json'
+      - '.github/workflows/garden-operation.yml'
+  workflow_dispatch:
+    inputs:
+      request_path:
+        description: 'Optional reviewed main JSON packet under operations/garden/requests/. Empty replays Q18 acceptance.'
+        required: false
+        default: ''
+        type: string
+      recover_operation:
+        description: 'Optional saved operation ID to recover by GET only; leave request_path empty.'
+        required: false
+        default: ''
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: week-one-meaning-web
+  cancel-in-progress: false
+
+jobs:
+  operation:
+    if: github.repository == 'Jaradyne/Dis-Unity' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    env:
+      WEEK_ONE_PERSIST: '1'
+      WEEK_ONE_RUN_ID: garden-${{ github.run_id }}-${{ github.run_attempt }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Load current operational state
+        id: restore
+        run: python scripts/week_one_state.py load
+      - name: Execute one reviewed Garden packet or Q18 acceptance
+        env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          REQUEST_PATH: ${{ inputs.request_path }}
+          RECOVER_OPERATION: ${{ inputs.recover_operation }}
+        run: |
+          python - <<'PY'
+          import os, pathlib, subprocess
+          path = os.environ.get('REQUEST_PATH', '')
+          recovery = os.environ.get('RECOVER_OPERATION', '')
+          if path and recovery:
+              raise SystemExit('Choose a reviewed packet or an existing-operation recovery')
+          if recovery:
+              subprocess.run(['python','scripts/garden_operations.py','recover','--operation',recovery],check=True)
+          elif path:
+              candidate = pathlib.Path(path).resolve()
+              base = pathlib.Path('operations/garden/requests').resolve()
+              if candidate.parent != base or candidate.suffix != '.json' or not candidate.is_file():
+                  raise SystemExit('Use one reviewed request JSON file directly under operations/garden/requests/')
+              subprocess.run(['python','scripts/garden_operations.py','run','--file',str(candidate)],check=True)
+          else:
+              subprocess.run(['python','scripts/garden_acceptance.py'],check=True)
+          PY
+      - name: Preserve state and repair projections
+        if: always() && steps.restore.outcome == 'success'
+        run: |
+          python scripts/garden_operations.py project
+          python scripts/week_one_state.py save
