@@ -636,7 +636,10 @@ class RuntimeTests(unittest.TestCase):
     def test_budget_cooldown_and_source_reference_validation(self):
         cfg = w.catalog(self.root); state = w.manifest(self.root)
         state['cooldown_until'] = '2026-09-25T00:00:00Z'
+        state['cooldown_category'] = 'audit_pending'
         self.assertEqual(w.gate(cfg, state, w.clock('2026-09-24T08:00:00Z')), 'cooldown')
+        state['cooldown_category'] = 'model_unavailable'
+        self.assertIsNone(w.gate(cfg, state, w.clock('2026-09-24T08:00:00Z')))
         self.prepare(); value, req, rec = self.save_result()
         sources = w.read(self.root, w.run_path('test-one', 'sources.json'))
         ids = {x['source_id'] for x in sources['items']}
