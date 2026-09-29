@@ -2,17 +2,9 @@
 
 Current snapshot of up to 6 recent recorded runs; their original dates remain visible.
 
-As of 2026-09-29T10:09:17.044421+00:00.
+As of 2026-09-29T19:08:30.955380+00:00.
 
 Projection of records, not additional corroboration or admitted research.
-
-## gh-36341976372-1
-
-2026-09-27T18:48:05.019482+00:00 · deferred / operator_review_required
-
-No synthesis recorded.
-
-[Saved note](runs/gh-36341976372-1/HUMAN_NOTE.md) · 5 changed selected source records.
 
 ## gh-36343843057-1
 
@@ -53,3 +45,11 @@ No synthesis recorded.
 Pinned Nvidia zero-price endpoint is unavailable
 
 [Saved note](runs/gh-36553756526-1/HUMAN_NOTE.md) · 3 changed selected source records.
+
+## gh-36617015392-1
+
+2026-09-29T19:08:30.417303+00:00 · deferred / cooldown
+
+No synthesis recorded.
+
+[Saved note](runs/gh-36617015392-1/HUMAN_NOTE.md) · 1 changed selected source records.

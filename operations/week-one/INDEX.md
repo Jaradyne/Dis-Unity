@@ -10,6 +10,7 @@ Each provider attempt reads public sources, a shared Question and the reflection
 
 | Run | Status | Question | Sources / output |
 |---|---|---|---|
+| gh-36617015392-1 | deferred / cooldown |  | [Sources](runs/gh-36617015392-1/sources.json) · [Note](runs/gh-36617015392-1/HUMAN_NOTE.md) |
 | gh-36553756526-1 | complete / model_unavailable | Q-RESEARCH-Q01 | [Sources](runs/gh-36553756526-1/sources.json) · [Note](runs/gh-36553756526-1/HUMAN_NOTE.md) |
 | gh-36509534121-1 | deferred / cooldown |  | [Sources](runs/gh-36509534121-1/sources.json) · [Note](runs/gh-36509534121-1/HUMAN_NOTE.md) |
 | gh-36485742254-1 | complete / invalid_response | Q-RESEARCH-Q01 | [Sources](runs/gh-36485742254-1/sources.json) · [Note](runs/gh-36485742254-1/HUMAN_NOTE.md) |

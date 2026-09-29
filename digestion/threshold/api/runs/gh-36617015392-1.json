@@ -1,0 +1,43 @@
+{
+  "attempt_id": null,
+  "coverage": "recorded_exchanges",
+  "materials": [
+    {
+      "path": "operations/week-one/runs/gh-36617015392-1/HUMAN_NOTE.md",
+      "sha256": "0869d243715e230bb2c32ef236054d73132906596faa0bf410919c458375a740",
+      "url": "https://github.com/Jaradyne/Dis-Unity/blob/week-one-state/operations/week-one/runs/gh-36617015392-1/HUMAN_NOTE.md"
+    },
+    {
+      "path": "operations/week-one/runs/gh-36617015392-1/sources.json",
+      "sha256": "20648c33f0c90c235c342972ab5ab6bea98379cb8624757f0de0e0f86f99104a",
+      "url": "https://github.com/Jaradyne/Dis-Unity/blob/week-one-state/operations/week-one/runs/gh-36617015392-1/sources.json"
+    },
+    {
+      "path": "operations/week-one/runs/gh-36617015392-1/api/0001.json",
+      "sha256": "074b1983ab68fb3f7a4c2c64636d9ae0373d0d4e1d3251fa1d8bc8a90b701e5f",
+      "url": "https://github.com/Jaradyne/Dis-Unity/blob/week-one-state/operations/week-one/runs/gh-36617015392-1/api/0001.json"
+    },
+    {
+      "path": "operations/week-one/runs/gh-36617015392-1/api/0002.json",
+      "sha256": "4cc73412058d6e73faf8524f9dad29a7ff0cecc3ec4ae6cfe728fcc4170a3b1a",
+      "url": "https://github.com/Jaradyne/Dis-Unity/blob/week-one-state/operations/week-one/runs/gh-36617015392-1/api/0002.json"
+    },
+    {
+      "path": "operations/week-one/runs/gh-36617015392-1/api/0003.json",
+      "sha256": "7369d1224b79d448323951a827ea67666cf6bf547aea290b1d5ac8c4e3e2e4f1",
+      "url": "https://github.com/Jaradyne/Dis-Unity/blob/week-one-state/operations/week-one/runs/gh-36617015392-1/api/0003.json"
+    }
+  ],
+  "meaning": "Capture and delivery only; not a Governor review, digestion result or canonical admission.",
+  "operator_disposition": null,
+  "question_id": null,
+  "record_ids": [
+    "API-gh-36617015392-1-0001",
+    "API-gh-36617015392-1-0002",
+    "API-gh-36617015392-1-0003"
+  ],
+  "run_id": "gh-36617015392-1",
+  "run_status": "cooldown",
+  "schema_version": "digestion-api-materials-1",
+  "status": "available_for_digestion"
+}
