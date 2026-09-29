@@ -1,0 +1,12 @@
+{
+  "branches": [
+    "B0"
+  ],
+  "meaning": "Attributed operation returns; no automatic evidence admission or Governor review.",
+  "record_ref": "operations/garden/runs/Q18-NERVOUS-SYSTEM-20260929.json",
+  "record_sha256": "08a4570d19fb0d95d327fdc891985b690867d22f0df266cb6b0d17cd592fbbef",
+  "run_id": "Q18-NERVOUS-SYSTEM-20260929",
+  "schema_version": "digestion-garden-materials-1",
+  "state_sha256": "c39314ef9d8f45cfcb09d3c7932a05ff4687a271398097e6d9942942744ea54e",
+  "status": "available_for_digestion"
+}

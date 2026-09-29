@@ -1,0 +1,2 @@
+operation_id,run_id,question_id,branch_id,tree,node,executor,status,summary,record
+Q18-BOUNDED-COGNITION-20260929,Q18-NERVOUS-SYSTEM-20260929,Q-RESEARCH-Q18,B0,INIT,MIRROR,,prepared,Q18 has no admitted answer; inherited delivery claims need an operating-evidence test.,https://github.com/Jaradyne/Dis-Unity/blob/week-one-state/operations/garden/operations/Q18-BOUNDED-COGNITION-20260929.json

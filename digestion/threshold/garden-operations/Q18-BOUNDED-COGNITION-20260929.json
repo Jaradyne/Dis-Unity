@@ -1,0 +1,20 @@
+{
+  "materials": [
+    {
+      "path": "operations/garden/operations/Q18-BOUNDED-COGNITION-20260929.json",
+      "sha256": "81fe8391f6aabbbe557031f97060e73c31fda430caab65c17d6770e8f8bf6c40"
+    },
+    {
+      "path": "operations/week-one/runs/go-c494f6bd722da02b00649801/request.json",
+      "sha256": "29fec90df52f3b13fa04d54689d7e1def7b753fee3f649ee0732b7a4a553a008"
+    }
+  ],
+  "meaning": "Complete saved operation material; capture is not review or evidence admission.",
+  "operation_id": "Q18-BOUNDED-COGNITION-20260929",
+  "recipients": [
+    "Chat Aiden",
+    "Digest Aiden"
+  ],
+  "schema_version": "digestion-garden-operation-1",
+  "status": "available_for_digestion"
+}
