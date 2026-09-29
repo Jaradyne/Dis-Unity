@@ -277,9 +277,11 @@ def deterministic(request):
 def collect(root, request):
     source = policy(root)['public_sources'][request['source_key']]
     scout.checked_url(source['url'],source['allowed_hosts'])
+    limit = source.get('max_bytes', 1_000_000)
+    require(type(limit) is int and 1 <= limit <= 2_000_000, 'Invalid reviewed source byte bound')
     req = urllib.request.Request(source['url'],headers={'User-Agent':'Dis-Unity-Garden/1','Accept':'text/html, application/json, text/plain'})
-    body,status = api_records.http(req,opener=urllib.request.build_opener(scout.NoRedirect()),timeout=25,max_bytes=512000)
-    require(len(body) <= 512000,'Source exceeded byte bound')
+    body,status = api_records.http(req,opener=urllib.request.build_opener(scout.NoRedirect()),timeout=25,max_bytes=limit)
+    require(len(body) <= limit,'Source exceeded reviewed byte bound')
     return {'status':'unknown','summary':f"Public Collector received HTTP {status} and {len(body)} bytes from {source['publisher']}. "
             'The full exchange is recorded. Text/operating measures have not been validated; dependable freight service remains UNKNOWN. '+source['limitation'],
             'source_refs':request['information_lineage']['source_refs'],
@@ -387,8 +389,9 @@ def execute(root, oid, *, recover=False):
                 outcome.update(status=value['status'],category='validated_output',summary=value['summary'],output=value,
                                validation={'status':'passed','schema':SCHEMA['version']})
         except free_provider.ProviderFailure as exc:
+            hold = 'bandwidth_backoff' if exc.category in week_one.BANDWIDTH_WAIT_CATEGORIES else 'peer_review_or_reroute'
             outcome.update(status='error',category=exc.category,summary=str(exc),brake=exc.brake,cooldown_hours=exc.cooldown_hours,
-                           validation={'status':'not_admitted'})
+                           hold=hold, validation={'status':'not_admitted'})
         except (cycle.CycleError,OSError,ValueError,KeyError,TypeError,AttributeError) as exc:
             outcome.update(status='deferred' if isinstance(exc,cycle.CycleError) and record['phase'] != 'executing' else 'error',
                            category='invalid_response' if outcome.get('provider_receipt') else 'operation_failed',
@@ -443,7 +446,9 @@ def recover_receipt(root, record):
         state['brake']={'operation_id':oid,'reason':audit['summary'],'at':audit['finished_at']}
     elif audit.get('provider_receipt') and (state.get('brake') or {}).get('operation_id')==oid:
         state['brake']=None
-    if audit['status']=='error': state['cooldown_until']=(week_one.clock()+timedelta(hours=audit.get('cooldown_hours',12))).isoformat()
+    if audit['status']=='error' and audit['category'] in week_one.BANDWIDTH_WAIT_CATEGORIES:
+        state['cooldown_category']=audit['category']
+        state['cooldown_until']=(week_one.clock()+timedelta(hours=audit.get('cooldown_hours',1))).isoformat()
     if audit['category']=='spend_detected': state.update(closed=True,closure_reason='spend_detected')
     week_one.write(root,week_one.BASE/'run-manifest.json',state)
     project(root);api_records.publish(Path(root));week_one.durable(root)
@@ -478,8 +483,9 @@ def finish(root, record, outcome):
         elif outcome['category'] in {'transport_timeout','operation_failed'}: reservation['status'] = 'uncertain'
         if outcome.get('brake') or reservation['status'] == 'uncertain':
             state['brake'] = {'operation_id':oid,'reason':outcome['summary'],'at':outcome['finished_at']}
-        if outcome['status'] == 'error':
-            state['cooldown_until'] = (week_one.clock(outcome['finished_at'])+timedelta(hours=outcome.get('cooldown_hours',12))).isoformat()
+        if outcome['status'] == 'error' and outcome['category'] in week_one.BANDWIDTH_WAIT_CATEGORIES:
+            state['cooldown_category'] = outcome['category']
+            state['cooldown_until'] = (week_one.clock(outcome['finished_at'])+timedelta(hours=outcome.get('cooldown_hours',1))).isoformat()
         if outcome['category'] == 'spend_detected':
             state.update(closed=True,closure_reason='spend_detected')
         week_one.write(root,week_one.BASE/'run-manifest.json',state)
@@ -531,6 +537,61 @@ def spawn(root, parent_oid):
     return result
 
 
+def bee_handoff(root, record, row):
+    """Project an unresolved operation into a small resumable handoff for Chat/Digest/another worker."""
+    req = record['request']
+    current_rows, current_selected = candidates(root, req)
+    handoff = {
+        'schema_version':'bee-handoff-1',
+        'operation_id':req['operation_id'],
+        'question_id':req['anchor']['question_id'],
+        'epoch':req['anchor']['epoch'],
+        'from':{'run_id':req['anchor']['run_id'],'branch_id':req['anchor']['branch_id'],
+                'tree':req['anchor']['tree'],'node':req['anchor']['node']},
+        'status':row['status'],
+        'reason':row['summary'],
+        'attempted_executor':record.get('selected'),
+        'required_capabilities':{'method':req['method'],'role':req['role'],
+            'model':req['permissions']['model'],'public_http':req['permissions']['public_http'],
+            'source_key':req.get('source_key')},
+        'candidate_states':[{'id':x['id'],'state':x['state'],'reason':x['reasons'][-1]} for x in current_rows],
+        'currently_selected':current_selected,
+        'information_lineage':copy.deepcopy(req['information_lineage']),
+        'return_path':copy.deepcopy(req['return_path']),
+        'stop_condition':req['stop_condition'],
+        'next_actors':['Chat Aiden','Digest Aiden'],
+        'resume_rule':'Use a new linked operation ID for changed work. Recover only saved same-generation transport; never repost an uncertain inference.',
+        'automatic_wake':False
+    }
+    path = THRESHOLD/'handoffs'/(req['operation_id']+'.json')
+    write(root,path,handoff)
+    return {'path':str(path),'url':api_records.REMOTE+str(path)}
+
+
+def capacity_snapshot(root):
+    """Describe current routing weather; Luna Mode is a queueing/routing state, not another model."""
+    state = week_one.manifest(root)
+    reason = provider_gate(root)
+    mode = 'normal' if reason is None else 'luna'
+    return {
+        'schema_version':'garden-capacity-1',
+        'mode':mode,
+        'reason':reason or 'approved model lane locally eligible; live provider checks still occur at execution',
+        'meaning':('Luna Mode keeps deterministic/public work moving and routes unresolved cognition to Chat Aiden and Digest Aiden; '
+                   'it does not automatically wake either conversation.' if mode == 'luna' else
+                   'Normal mode means an approved model lane is locally eligible; this is not a promise of remote availability.'),
+        'bandwidth_wait_until':state.get('cooldown_until') if week_one.bandwidth_wait_category(state) else None,
+        'bandwidth_wait_category':week_one.bandwidth_wait_category(state),
+        'routes':{
+            'deterministic':'continue when the requested method fits',
+            'public_collectors':'continue within source budgets',
+            'chat_aiden':'research, repair, source work, GitHub-preparable operations',
+            'digest_aiden':'cross-operation digestion, contradiction/pattern review, structural handoff',
+            'model_work':'use contextual eligible executors; first/peculiar providers still require Jared approval'
+        }
+    }
+
+
 def project(root):
     root = Path(root)
     rows,unresolved = [],[]
@@ -546,15 +607,19 @@ def project(root):
                'summary':outcome.get('summary',req['reason']),'record':api_records.REMOTE+str(path_for(oid))}
         rows.append(row)
         if row['status'] in {'deferred','error','unknown'} or record.get('birth_decision',{}).get('status')=='deferred':
-            unresolved.append({**row,'recipients':['Chat Aiden','Digest Aiden'],'birth_decision':record.get('birth_decision')})
-    write(root,THRESHOLD/'unresolved.json',{'schema_version':'garden-unresolved-1','items':unresolved})
+            item={**row,'recipients':['Chat Aiden','Digest Aiden'],'birth_decision':record.get('birth_decision')}
+            item['handoff']=bee_handoff(root,record,row)
+            unresolved.append(item)
+    capacity=capacity_snapshot(root)
+    write(root,THRESHOLD/'capacity.json',capacity)
+    write(root,THRESHOLD/'unresolved.json',{'schema_version':'garden-unresolved-2','capacity_mode':capacity['mode'],'items':unresolved})
     out=io.StringIO(newline='')
     fields=['operation_id','run_id','question_id','branch_id','tree','node','executor','status','summary','record']
     writer=csv.DictWriter(out,fieldnames=fields,lineterminator='\n');writer.writeheader()
     for row in rows:
         writer.writerow({k:"'"+v if isinstance(v,str) and v.lstrip().startswith(('=','+','-','@')) else v for k,v in row.items()})
     cycle.write_bytes(root/THRESHOLD/'operations.csv',out.getvalue().encode(),replace=True)
-    return {'operations':len(rows),'unresolved':len(unresolved)}
+    return {'operations':len(rows),'unresolved':len(unresolved),'capacity_mode':capacity['mode']}
 
 
 def main():
