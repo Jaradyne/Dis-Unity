@@ -1,0 +1,95 @@
+{
+  "finished_at": "2026-09-30T20:19:15.219398+00:00",
+  "record_id": "API-gh-36771763478-1-0004",
+  "redaction": {
+    "policy": "Credentials and authentication cookies only; no content-field allowlist.",
+    "replacement_count": 1
+  },
+  "request": {
+    "body": null,
+    "headers": [
+      [
+        "Accept",
+        "application/json"
+      ],
+      [
+        "User-agent",
+        "Dis-Unity-Week-One/1"
+      ]
+    ],
+    "method": "GET",
+    "url": "https://openrouter.ai/api/v1/models/nvidia/nemotron-3-super-120b-a12b:free/endpoints"
+  },
+  "response": {
+    "body": {
+      "complete": true,
+      "content": "{\"data\":{\"id\":\"nvidia/nemotron-3-super-120b-a12b:free\",\"name\":\"NVIDIA: Nemotron 3 Super (free)\",\"created\":1773245239,\"description\":\"NVIDIA Nemotron 3 Super is a 120B-parameter open hybrid MoE model, activating just 12B parameters for maximum compute efficiency and accuracy in complex multi-agent applications. Built on a hybrid Mamba-Transformer...\",\"architecture\":{\"tokenizer\":\"Other\",\"instruct_type\":null,\"modality\":\"text->text\",\"input_modalities\":[\"text\"],\"output_modalities\":[\"text\"]},\"endpoints\":[{\"name\":\"Nvidia | nvidia/nemotron-3-super-120b-a12b-20230311:free\",\"model_id\":\"nvidia/nemotron-3-super-120b-a12b:free\",\"model_name\":\"NVIDIA: Nemotron 3 Super\",\"context_length\":262144,\"pricing\":{\"prompt\":\"0\",\"completion\":\"0\",\"discount\":0},\"provider_name\":\"Nvidia\",\"tag\":\"nvidia\",\"quantization\":\"unknown\",\"max_completion_tokens\":235929,\"max_prompt_tokens\":null,\"supported_parameters\":[\"reasoning\",\"include_reasoning\",\"temperature\",\"max_tokens\",\"seed\",\"top_p\",\"tools\",\"tool_choice\",\"structured_outputs\",\"response_format\",\"reasoning_effort\"],\"supports_tool_choice\":{\"none\":false,\"auto\":true,\"required\":true,\"function\":true},\"status\":0,\"uptime_last_30m\":99.22570919555982,\"uptime_last_5m\":99.34010152284264,\"uptime_last_1d\":98.45312200906743,\"supports_implicit_caching\":false,\"native_tools\":{},\"supports_voice_cloning\":false,\"supports_multiple_audio_references\":false,\"supports_image_reference\":false,\"latency_last_30m\":null,\"throughput_last_30m\":null}]}}",
+      "encoding": "utf-8",
+      "received_bytes": 1453,
+      "saved_sha256": "dbc4cebf9f44ca0d5cf7b3a3aa6774e6ef8720960f1ad0a5c52cb55a5585e720"
+    },
+    "headers": [
+      [
+        "Date",
+        "Wed, 30 Sep 2026 20:19:15 GMT"
+      ],
+      [
+        "Content-Type",
+        "application/json"
+      ],
+      [
+        "Transfer-Encoding",
+        "chunked"
+      ],
+      [
+        "Connection",
+        "close"
+      ],
+      [
+        "CF-Cache-Status",
+        "BYPASS"
+      ],
+      [
+        "Access-Control-Allow-Origin",
+        "*"
+      ],
+      [
+        "Cache-Control",
+        "private, no-store"
+      ],
+      [
+        "Access-Control-Expose-Headers",
+        "X-Generation-Id,X-Provider-Name,request-id,cf-ray"
+      ],
+      [
+        "set-cookie",
+        "[REDACTED]"
+      ],
+      [
+        "Permissions-Policy",
+        "payment=(self \"https://checkout.stripe.com\" \"https://connect-js.stripe.com\" \"https://js.stripe.com\" \"https://*.js.stripe.com\" \"https://hooks.stripe.com\")"
+      ],
+      [
+        "Referrer-Policy",
+        "no-referrer, strict-origin-when-cross-origin"
+      ],
+      [
+        "X-Content-Type-Options",
+        "nosniff"
+      ],
+      [
+        "Server",
+        "cloudflare"
+      ],
+      [
+        "CF-RAY",
+        "a435ebe3cdf0f153-ORD"
+      ]
+    ],
+    "http_status": 200
+  },
+  "run_id": "gh-36771763478-1",
+  "schema_version": "api-exchange-1",
+  "started_at": "2026-09-30T20:19:15.115852+00:00",
+  "state": "response_received"
+}
