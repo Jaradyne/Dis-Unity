@@ -1,25 +1,13 @@
 {
-  "as_of": "2026-09-30T10:01:21.196868+00:00",
+  "as_of": "2026-09-30T20:19:13.043665+00:00",
   "brake": null,
   "closed": false,
   "closure_reason": null,
   "cooldown_until": null,
   "evidence_status": "Projection of records, not additional corroboration or admitted research.",
   "kind": "daily_scroll",
-  "manifest_hash": "6511d6e65339e9c53ba1762966ced645081fe6b1b6762ccc6ed69b99b38f43b4",
+  "manifest_hash": "f53c290db77d14d008f5d3b802bd52fed0680514a095af44abdf1774d04053cb",
   "recent_runs": [
-    {
-      "changed_source_count": 7,
-      "note_ref": "operations/week-one/runs/gh-36485742254-1/HUMAN_NOTE.md",
-      "question_id": "Q-RESEARCH-Q01",
-      "result": "invalid_response",
-      "retrieved_at": "2026-09-28T21:23:57.466186+00:00",
-      "run_id": "gh-36485742254-1",
-      "source_ref": "operations/week-one/runs/gh-36485742254-1/sources.json",
-      "started_at": "2026-09-28T21:23:56.762070+00:00",
-      "status": "complete",
-      "summary": "Output contract failed: CycleError"
-    },
     {
       "changed_source_count": 7,
       "note_ref": "operations/week-one/runs/gh-36509534121-1/HUMAN_NOTE.md",
@@ -79,6 +67,18 @@
       "started_at": "2026-09-30T10:00:49.556611+00:00",
       "status": "complete",
       "summary": "UNKNOWN – the supplied evidence does not link fuel costs to missed essential deliveries."
+    },
+    {
+      "changed_source_count": 8,
+      "note_ref": "operations/week-one/runs/gh-36771763478-1/HUMAN_NOTE.md",
+      "question_id": "Q-RESEARCH-Q01",
+      "result": null,
+      "retrieved_at": "2026-09-30T20:19:12.963768+00:00",
+      "run_id": "gh-36771763478-1",
+      "source_ref": "operations/week-one/runs/gh-36771763478-1/sources.json",
+      "started_at": "2026-09-30T20:19:12.428462+00:00",
+      "status": "prepared",
+      "summary": "No synthesis recorded."
     }
   ],
   "scope": "Current snapshot of up to 6 recent recorded runs; their original dates remain visible."

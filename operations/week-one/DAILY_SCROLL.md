@@ -2,17 +2,9 @@
 
 Current snapshot of up to 6 recent recorded runs; their original dates remain visible.
 
-As of 2026-09-30T10:01:21.196868+00:00.
+As of 2026-09-30T20:19:13.043665+00:00.
 
 Projection of records, not additional corroboration or admitted research.
-
-## gh-36485742254-1
-
-2026-09-28T21:23:56.762070+00:00 · complete / invalid_response
-
-Output contract failed: CycleError
-
-[Saved note](runs/gh-36485742254-1/HUMAN_NOTE.md) · 7 changed selected source records.
 
 ## gh-36509534121-1
 
@@ -53,3 +45,11 @@ UNKNOWN – the supplied evidence does not link fuel costs to missed essential d
 UNKNOWN – the supplied evidence does not link fuel costs to missed essential deliveries.
 
 [Saved note](runs/gh-36699745991-1/HUMAN_NOTE.md) · 0 changed selected source records.
+
+## gh-36771763478-1
+
+2026-09-30T20:19:12.428462+00:00 · prepared / None
+
+No synthesis recorded.
+
+[Saved note](runs/gh-36771763478-1/HUMAN_NOTE.md) · 8 changed selected source records.

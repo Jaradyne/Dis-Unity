@@ -1159,6 +1159,44 @@
         "Selected feeds and alerts do not measure delivery performance, stocks or caregiver capacity."
       ]
     },
+    "REFL-99292B57167D3B656AED5D24": {
+      "actor": "Week One public scout",
+      "context": {
+        "call_id": "gh-36771763478-1-scouts",
+        "parent_call_id": "gh-36771763478-1",
+        "run_id": "gh-36771763478-1"
+      },
+      "created_at": "2026-09-30T20:19:12.968071+00:00",
+      "level": "subcall",
+      "observations": [
+        "eia-diesel: retrieved",
+        "eia-energy: retrieved",
+        "nws-ca: retrieved"
+      ],
+      "origin": "runtime_observation",
+      "questions": [],
+      "reflection_id": "REFL-99292B57167D3B656AED5D24",
+      "related_reflection_ids": [],
+      "source_refs": [
+        "SRC-W1-1D08357354B57D85",
+        "SRC-W1-B1ED5A531F937F2E",
+        "SRC-W1-93542D2CCEC68444",
+        "SRC-W1-58C06D6CE3142B01",
+        "SRC-W1-3FBA3F47A07802CD",
+        "SRC-W1-D7196ACE8D941214",
+        "SRC-W1-9D2DD86159302E82",
+        "SRC-W1-153721093AC01F5D",
+        "SRC-W1-5CC10EDE0A37E032",
+        "SRC-W1-0000FF8385117955",
+        "SRC-W1-00B200D2F08633ED",
+        "SRC-W1-AF6DAF78F38577FB"
+      ],
+      "suggestions": [],
+      "summary": "Retrieved 3/3 public surfaces; 8 new/changed selected items.",
+      "uncertainties": [
+        "Selected feeds and alerts do not measure delivery performance, stocks or caregiver capacity."
+      ]
+    },
     "REFL-9B1972063CA49FCDDEF05552": {
       "actor": "Week One public scout",
       "context": {
