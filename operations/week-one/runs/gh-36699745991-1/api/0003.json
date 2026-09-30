@@ -1,0 +1,87 @@
+{
+  "exception": {
+    "message": "HTTP Error 503: Service Unavailable",
+    "type": "HTTPError"
+  },
+  "finished_at": "2026-09-30T10:00:50.022963+00:00",
+  "record_id": "API-gh-36699745991-1-0003",
+  "redaction": {
+    "policy": "Credentials and authentication cookies only; no content-field allowlist.",
+    "replacement_count": 0
+  },
+  "request": {
+    "body": null,
+    "headers": [
+      [
+        "User-agent",
+        "Dis-Unity-Week-One/1 (https://github.com/Jaradyne/Dis-Unity)"
+      ],
+      [
+        "Accept",
+        "application/geo+json"
+      ]
+    ],
+    "method": "GET",
+    "url": "https://api.weather.gov/alerts/active?area=CA"
+  },
+  "response": {
+    "body": {
+      "complete": true,
+      "content": "<HTML><HEAD><TITLE>Error</TITLE></HEAD><BODY>\nAn error occurred while processing your request.<p>\nReference&#32;&#35;102&#46;c81c2117&#46;1790762449&#46;74c12a8f\n<P>https&#58;&#47;&#47;errors&#46;edgesuite&#46;net&#47;102&#46;c81c2117&#46;1790762449&#46;74c12a8f</P>\n</BODY></HTML>\n",
+      "encoding": "utf-8",
+      "received_bytes": 282,
+      "saved_sha256": "09c302353bdb80abe5cf32993489c8fa53b38351c3f6b21e39735d09f1bf72b2"
+    },
+    "headers": [
+      [
+        "Server",
+        "AkamaiGHost"
+      ],
+      [
+        "Mime-Version",
+        "1.0"
+      ],
+      [
+        "Content-Type",
+        "text/html"
+      ],
+      [
+        "Content-Length",
+        "282"
+      ],
+      [
+        "Cache-Control",
+        "max-age=0"
+      ],
+      [
+        "Expires",
+        "Wed, 30 Sep 2026 10:00:50 GMT"
+      ],
+      [
+        "Date",
+        "Wed, 30 Sep 2026 10:00:50 GMT"
+      ],
+      [
+        "Connection",
+        "close"
+      ],
+      [
+        "X-Edge-Request-ID",
+        "d1c0ba5"
+      ],
+      [
+        "Vary",
+        "Accept,Feature-Flags,Accept-Language"
+      ],
+      [
+        "Strict-Transport-Security",
+        "max-age=31536000 ; includeSubDomains ; preload"
+      ]
+    ],
+    "http_status": 503
+  },
+  "run_id": "gh-36699745991-1",
+  "schema_version": "api-exchange-1",
+  "started_at": "2026-09-30T10:00:49.859637+00:00",
+  "state": "http_error"
+}
