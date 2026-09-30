@@ -4,8 +4,18 @@
   "materials": [
     {
       "path": "operations/week-one/runs/gh-36771763478-1/HUMAN_NOTE.md",
-      "sha256": "c2a5ac4d9ef02bfd4efe6a8b4d16572181b8e26ebbea3da9d8864f14449ad194",
+      "sha256": "0981f2415372c0850ba718798a1d7e8bd8c74db464ada2c2ca8ab9cf213d906b",
       "url": "https://github.com/Jaradyne/Dis-Unity/blob/week-one-state/operations/week-one/runs/gh-36771763478-1/HUMAN_NOTE.md"
+    },
+    {
+      "path": "operations/week-one/runs/gh-36771763478-1/outcome.json",
+      "sha256": "3c49931007bc1a76ef50b66f36740a74776b0c45175be231e56391df92d1ef39",
+      "url": "https://github.com/Jaradyne/Dis-Unity/blob/week-one-state/operations/week-one/runs/gh-36771763478-1/outcome.json"
+    },
+    {
+      "path": "operations/week-one/runs/gh-36771763478-1/provider-response.json",
+      "sha256": "8de28a0f6b38d3aaa3314267e7968dc1f46c0a977e6251ffa0ef1bc9ef3c3bf9",
+      "url": "https://github.com/Jaradyne/Dis-Unity/blob/week-one-state/operations/week-one/runs/gh-36771763478-1/provider-response.json"
     },
     {
       "path": "operations/week-one/runs/gh-36771763478-1/request.json",
@@ -60,7 +70,7 @@
     "API-gh-36771763478-1-0006"
   ],
   "run_id": "gh-36771763478-1",
-  "run_status": "prepared",
+  "run_status": "partial_answer",
   "schema_version": "digestion-api-materials-1",
   "status": "available_for_digestion"
 }
