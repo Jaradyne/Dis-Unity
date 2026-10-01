@@ -1328,7 +1328,16 @@
             }
           },
           "request_sha256": "bda85c77993c679eba6c92f706bba0ae63a5eb86b3ad63656f0ad2309e415dd8",
-          "result": null
+          "result": {
+            "category": "model_unavailable",
+            "details": {
+              "outcome_path": "operations/week-one/runs/gh-36849348684-1/outcome.json",
+              "reason": "Pinned Nvidia zero-price endpoint is unavailable",
+              "receipt": null,
+              "run_id": "gh-36849348684-1"
+            },
+            "recorded_at": "2026-10-01T10:28:37.539932+00:00"
+          }
         },
         "ATT-B31C65421D224EC182927AF060F248DA": {
           "attempt_id": "ATT-B31C65421D224EC182927AF060F248DA",
@@ -1932,12 +1941,7 @@
           }
         }
       },
-      "claim": {
-        "actor": "Week One Answer Bee / OpenRouter / Nvidia",
-        "epoch": 1,
-        "expires_at": "2026-10-01T11:28:32.283191+00:00",
-        "token": "63a82edb25d04e4c95213763fcd568f5"
-      },
+      "claim": null,
       "context_refs": [
         "Resilience_Cascade_STATE.json#QUESTIONS_TO_WATCH/Q01",
         "RC-004; evidence cutoff 2026-09-21; reread before use"
@@ -1957,7 +1961,7 @@
           "question_id": "Q-MEANING-TRANSLATION-BOSS"
         }
       ],
-      "status": "answering",
+      "status": "open",
       "tickets": {}
     },
     "Q-RESEARCH-Q02": {

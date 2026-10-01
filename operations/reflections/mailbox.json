@@ -1621,6 +1621,31 @@
         "August diesel-specific exports, destinations, September loadings, October permissions and destination stock cover remain unverified."
       ]
     },
+    "REFL-D1B0CDDDA36919C3705816BC": {
+      "actor": "Week One runtime caretaker",
+      "context": {
+        "attempt_id": "ATT-95ECFCB5C1E747FE97F1C06682BB43F4",
+        "call_id": "ATT-95ECFCB5C1E747FE97F1C06682BB43F4",
+        "parent_call_id": "gh-36849348684-1",
+        "question_id": "Q-RESEARCH-Q01",
+        "run_id": "gh-36849348684-1"
+      },
+      "created_at": "2026-10-01T10:28:37.563406+00:00",
+      "level": "subcall",
+      "observations": [
+        "Pinned Nvidia zero-price endpoint is unavailable"
+      ],
+      "origin": "runtime_observation",
+      "questions": [],
+      "reflection_id": "REFL-D1B0CDDDA36919C3705816BC",
+      "related_reflection_ids": [],
+      "source_refs": [],
+      "suggestions": [
+        "Inspect the saved prompt, provider response if present, and classified result before retrying."
+      ],
+      "summary": "Provider attempt recorded: model_unavailable",
+      "uncertainties": []
+    },
     "REFL-D62F8784B5531FB53E3A09C5": {
       "actor": "Week One Answer Bee / OpenRouter / Nvidia / Governor lens",
       "context": {

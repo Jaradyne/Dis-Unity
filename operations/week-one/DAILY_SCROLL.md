@@ -2,7 +2,7 @@
 
 Current snapshot of up to 6 recent recorded runs; their original dates remain visible.
 
-As of 2026-10-01T10:28:32.391774+00:00.
+As of 2026-10-01T10:28:37.602834+00:00.
 
 Projection of records, not additional corroboration or admitted research.
 
@@ -48,8 +48,8 @@ UNKNOWN – the supplied evidence does not link fuel costs to missed essential d
 
 ## gh-36849348684-1
 
-2026-10-01T10:28:31.898566+00:00 · prepared / None
+2026-10-01T10:28:31.898566+00:00 · complete / model_unavailable
 
-No synthesis recorded.
+Pinned Nvidia zero-price endpoint is unavailable
 
 [Saved note](runs/gh-36849348684-1/HUMAN_NOTE.md) · 7 changed selected source records.
