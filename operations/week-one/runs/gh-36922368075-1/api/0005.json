@@ -1,0 +1,99 @@
+{
+  "finished_at": "2026-10-01T20:33:04.693944+00:00",
+  "record_id": "API-gh-36922368075-1-0005",
+  "redaction": {
+    "policy": "Credentials and authentication cookies only; no content-field allowlist.",
+    "replacement_count": 3
+  },
+  "request": {
+    "body": null,
+    "headers": [
+      [
+        "Accept",
+        "application/json"
+      ],
+      [
+        "User-agent",
+        "Dis-Unity-Week-One/1"
+      ],
+      [
+        "Authorization",
+        "[REDACTED]"
+      ],
+      [
+        "X-openrouter-metadata",
+        "enabled"
+      ]
+    ],
+    "method": "GET",
+    "url": "https://openrouter.ai/api/v1/key"
+  },
+  "response": {
+    "body": {
+      "complete": true,
+      "content": "{\"data\":{\"label\":\"[REDACTED]...8ef\",\"is_management_key\":false,\"is_provisioning_key\":false,\"limit\":100,\"limit_reset\":null,\"limit_remaining\":100,\"include_byok_in_limit\":false,\"usage\":0,\"usage_daily\":0,\"usage_weekly\":0,\"usage_monthly\":0,\"byok_usage\":0,\"byok_usage_daily\":0,\"byok_usage_weekly\":0,\"byok_usage_monthly\":0,\"is_free_tier\":true,\"expires_at\":\"2027-03-22T22:30:59.575Z\",\"creator_user_id\":\"user_3JkQYy15j8YxNs8peEh9mv1CAsR\",\"organization_id\":null,\"workspace_id\":\"272f3686-cc7b-5173-87a8-2210933930b5\",\"allowed_data_regions\":[\"global\"],\"free_model_daily_requests\":{\"used\":0,\"limit\":50,\"remaining\":50},\"rate_limit\":{\"requests\":-1,\"interval\":\"10s\",\"note\":\"This field is deprecated and safe to ignore.\"}}}",
+      "encoding": "utf-8",
+      "received_bytes": 707,
+      "saved_sha256": "0767d7f93dd221f447aade5ba44e9a30a0fb05faac0b17c4e1ba6f0f454f5c64"
+    },
+    "headers": [
+      [
+        "Date",
+        "Thu, 01 Oct 2026 20:33:04 GMT"
+      ],
+      [
+        "Content-Type",
+        "application/json"
+      ],
+      [
+        "Transfer-Encoding",
+        "chunked"
+      ],
+      [
+        "Connection",
+        "close"
+      ],
+      [
+        "Access-Control-Allow-Origin",
+        "*"
+      ],
+      [
+        "Cache-Control",
+        "private, no-store"
+      ],
+      [
+        "Access-Control-Expose-Headers",
+        "X-Generation-Id,X-Provider-Name,request-id,cf-ray"
+      ],
+      [
+        "set-cookie",
+        "[REDACTED]"
+      ],
+      [
+        "Permissions-Policy",
+        "payment=(self \"https://checkout.stripe.com\" \"https://connect-js.stripe.com\" \"https://js.stripe.com\" \"https://*.js.stripe.com\" \"https://hooks.stripe.com\")"
+      ],
+      [
+        "Referrer-Policy",
+        "no-referrer, strict-origin-when-cross-origin"
+      ],
+      [
+        "X-Content-Type-Options",
+        "nosniff"
+      ],
+      [
+        "Server",
+        "cloudflare"
+      ],
+      [
+        "CF-RAY",
+        "a43e3d83ff4d2c1d-ORD"
+      ]
+    ],
+    "http_status": 200
+  },
+  "run_id": "gh-36922368075-1",
+  "schema_version": "api-exchange-1",
+  "started_at": "2026-10-01T20:33:04.594074+00:00",
+  "state": "response_received"
+}
