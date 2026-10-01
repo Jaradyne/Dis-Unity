@@ -1,25 +1,13 @@
 {
-  "as_of": "2026-10-01T10:28:37.602834+00:00",
+  "as_of": "2026-10-01T20:33:00.458320+00:00",
   "brake": null,
   "closed": false,
   "closure_reason": null,
   "cooldown_until": null,
   "evidence_status": "Projection of records, not additional corroboration or admitted research.",
   "kind": "daily_scroll",
-  "manifest_hash": "6c6b9e422908ddf3bf3dfe3dcab06795def844934751aa832796399008c6c7dc",
+  "manifest_hash": "2eabda33cbe6a43cbcc50dadae505c1f2e4e9279ca67f568f18248307dc93a40",
   "recent_runs": [
-    {
-      "changed_source_count": 3,
-      "note_ref": "operations/week-one/runs/gh-36553756526-1/HUMAN_NOTE.md",
-      "question_id": "Q-RESEARCH-Q01",
-      "result": "model_unavailable",
-      "retrieved_at": "2026-09-29T10:09:11.681319+00:00",
-      "run_id": "gh-36553756526-1",
-      "source_ref": "operations/week-one/runs/gh-36553756526-1/sources.json",
-      "started_at": "2026-09-29T10:09:11.326647+00:00",
-      "status": "complete",
-      "summary": "Pinned Nvidia zero-price endpoint is unavailable"
-    },
     {
       "changed_source_count": 1,
       "note_ref": "operations/week-one/runs/gh-36617015392-1/HUMAN_NOTE.md",
@@ -79,6 +67,18 @@
       "started_at": "2026-10-01T10:28:31.898566+00:00",
       "status": "complete",
       "summary": "Pinned Nvidia zero-price endpoint is unavailable"
+    },
+    {
+      "changed_source_count": 12,
+      "note_ref": "operations/week-one/runs/gh-36922368075-1/HUMAN_NOTE.md",
+      "question_id": "Q-RESEARCH-Q01",
+      "result": null,
+      "retrieved_at": "2026-10-01T20:33:00.341350+00:00",
+      "run_id": "gh-36922368075-1",
+      "source_ref": "operations/week-one/runs/gh-36922368075-1/sources.json",
+      "started_at": "2026-10-01T20:32:59.596373+00:00",
+      "status": "prepared",
+      "summary": "No synthesis recorded."
     }
   ],
   "scope": "Current snapshot of up to 6 recent recorded runs; their original dates remain visible."
