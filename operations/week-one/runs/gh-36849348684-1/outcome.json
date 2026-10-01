@@ -1,0 +1,9 @@
+{
+  "attempt_id": "ATT-95ECFCB5C1E747FE97F1C06682BB43F4",
+  "brake": false,
+  "category": "model_unavailable",
+  "cooldown_hours": 12,
+  "finished_at": "2026-10-01T10:28:35.989418+00:00",
+  "reason": "Pinned Nvidia zero-price endpoint is unavailable",
+  "run_id": "gh-36849348684-1"
+}
