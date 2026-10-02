@@ -2,17 +2,9 @@
 
 Current snapshot of up to 6 recent recorded runs; their original dates remain visible.
 
-As of 2026-10-01T20:33:48.730947+00:00.
+As of 2026-10-02T10:04:01.657189+00:00.
 
 Projection of records, not additional corroboration or admitted research.
-
-## gh-36617015392-1
-
-2026-09-29T19:08:30.417303+00:00 · deferred / cooldown
-
-No synthesis recorded.
-
-[Saved note](runs/gh-36617015392-1/HUMAN_NOTE.md) · 1 changed selected source records.
 
 ## gh-36619142520-1
 
@@ -53,3 +45,11 @@ Pinned Nvidia zero-price endpoint is unavailable
 UNKNOWN – the supplied evidence does not link fuel costs to missed essential deliveries.
 
 [Saved note](runs/gh-36922368075-1/HUMAN_NOTE.md) · 12 changed selected source records.
+
+## gh-36993371924-1
+
+2026-10-02T10:04:00.918254+00:00 · prepared / None
+
+No synthesis recorded.
+
+[Saved note](runs/gh-36993371924-1/HUMAN_NOTE.md) · 12 changed selected source records.

@@ -1288,6 +1288,49 @@
         "Selected feeds and alerts do not measure delivery performance, stocks or caregiver capacity."
       ]
     },
+    "REFL-99D099540AD3D1A6A0A59E73": {
+      "actor": "Week One public scout",
+      "context": {
+        "call_id": "gh-36993371924-1-scouts",
+        "parent_call_id": "gh-36993371924-1",
+        "run_id": "gh-36993371924-1"
+      },
+      "created_at": "2026-10-02T10:04:01.552773+00:00",
+      "level": "subcall",
+      "observations": [
+        "eia-diesel: retrieved",
+        "eia-energy: retrieved",
+        "nws-ca: retrieved"
+      ],
+      "origin": "runtime_observation",
+      "questions": [],
+      "reflection_id": "REFL-99D099540AD3D1A6A0A59E73",
+      "related_reflection_ids": [],
+      "source_refs": [
+        "SRC-W1-1D08357354B57D85",
+        "SRC-W1-B1ED5A531F937F2E",
+        "SRC-W1-93542D2CCEC68444",
+        "SRC-W1-58C06D6CE3142B01",
+        "SRC-W1-3FBA3F47A07802CD",
+        "SRC-W1-51A2CDA36DA50998",
+        "SRC-W1-AE2E9451AC20D664",
+        "SRC-W1-C28727E0E374FAB4",
+        "SRC-W1-2343B7785CC25472",
+        "SRC-W1-0F988769446D3984",
+        "SRC-W1-931CB9D930BF385E",
+        "SRC-W1-A856B5C251F4A566",
+        "SRC-W1-5F6A37E2D08A5559",
+        "SRC-W1-CD45C7454BDD4996",
+        "SRC-W1-6EFFE6194DC978D3",
+        "SRC-W1-F85E5F13FA44E242",
+        "SRC-W1-9F0CAB2A1105B0CC"
+      ],
+      "suggestions": [],
+      "summary": "Retrieved 3/3 public surfaces; 12 new/changed selected items.",
+      "uncertainties": [
+        "Selected feeds and alerts do not measure delivery performance, stocks or caregiver capacity."
+      ]
+    },
     "REFL-9B1972063CA49FCDDEF05552": {
       "actor": "Week One public scout",
       "context": {
