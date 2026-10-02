@@ -41,6 +41,11 @@
       "path": "operations/week-one/runs/gh-36993371924-1/api/0005.json",
       "sha256": "da363d0a12b1729ecf7778372a07ee8cabfb8836c98aa3e7dbb1da6450f4fd50",
       "url": "https://github.com/Jaradyne/Dis-Unity/blob/week-one-state/operations/week-one/runs/gh-36993371924-1/api/0005.json"
+    },
+    {
+      "path": "operations/week-one/runs/gh-36993371924-1/api/0006.json",
+      "sha256": "207a0853fae999bfa343d7782db60a2526c48f682bb4ad9e4bb3e7e4e3faf955",
+      "url": "https://github.com/Jaradyne/Dis-Unity/blob/week-one-state/operations/week-one/runs/gh-36993371924-1/api/0006.json"
     }
   ],
   "meaning": "Capture and delivery only; not a Governor review, digestion result or canonical admission.",
@@ -51,7 +56,8 @@
     "API-gh-36993371924-1-0002",
     "API-gh-36993371924-1-0003",
     "API-gh-36993371924-1-0004",
-    "API-gh-36993371924-1-0005"
+    "API-gh-36993371924-1-0005",
+    "API-gh-36993371924-1-0006"
   ],
   "run_id": "gh-36993371924-1",
   "run_status": "prepared",
