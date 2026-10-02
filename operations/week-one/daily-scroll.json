@@ -1,12 +1,12 @@
 {
-  "as_of": "2026-10-02T20:08:53.650849+00:00",
+  "as_of": "2026-10-02T20:09:16.712508+00:00",
   "brake": null,
   "closed": false,
   "closure_reason": null,
   "cooldown_until": null,
   "evidence_status": "Projection of records, not additional corroboration or admitted research.",
   "kind": "daily_scroll",
-  "manifest_hash": "3b78c0463beda7df7433891cd6f83af1bd81f2cd2fc93ddf8a93ff626592068b",
+  "manifest_hash": "8dab754807bf5d974730644e199fdc061adbe0fe5083c6a7c003b16cc248e5e7",
   "recent_runs": [
     {
       "changed_source_count": 0,
@@ -72,13 +72,13 @@
       "changed_source_count": 14,
       "note_ref": "operations/week-one/runs/gh-37058685458-1/HUMAN_NOTE.md",
       "question_id": "Q-RESEARCH-Q01",
-      "result": null,
+      "result": "partial_answer",
       "retrieved_at": "2026-10-02T20:08:53.516655+00:00",
       "run_id": "gh-37058685458-1",
       "source_ref": "operations/week-one/runs/gh-37058685458-1/sources.json",
       "started_at": "2026-10-02T20:08:53.092646+00:00",
-      "status": "prepared",
-      "summary": "No synthesis recorded."
+      "status": "complete",
+      "summary": "UNKNOWN – the supplied evidence does not link fuel costs to missed essential deliveries."
     }
   ],
   "scope": "Current snapshot of up to 6 recent recorded runs; their original dates remain visible."

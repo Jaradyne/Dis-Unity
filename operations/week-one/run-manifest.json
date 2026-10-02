@@ -605,13 +605,22 @@
       "status": "complete"
     },
     "gh-37058685458-1": {
+      "answer_id": "ANS-59E036D0289335716746BC82",
       "attempt_id": "ATT-8CE3CEF73E014B26BEBA49DC22F5610F",
       "audit_tries": 1,
       "epoch": 1,
       "execution_url": "https://github.com/Jaradyne/Dis-Unity/actions/runs/37058685458",
+      "finished_at": "2026-10-02T20:09:14.752575+00:00",
+      "peer_reflection_ids": [
+        "REFL-60A0A279BBE95C8D2E2776A4"
+      ],
       "post_reserved": 1,
       "question_id": "Q-RESEARCH-Q01",
       "recovery_from": null,
+      "reflection_ids": [
+        "REFL-657666B9C56C4AED30DC7DCB"
+      ],
+      "result": "partial_answer",
       "run_id": "gh-37058685458-1",
       "scout_reflections": [
         "REFL-3E39C0C779BFA5319FDDB722"
@@ -619,7 +628,7 @@
       "slot": "20261002-PM",
       "sources": "operations/week-one/runs/gh-37058685458-1/sources.json",
       "started_at": "2026-10-02T20:08:53.092646+00:00",
-      "status": "prepared"
+      "status": "complete"
     }
   },
   "version": 1
