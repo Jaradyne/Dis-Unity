@@ -2,17 +2,9 @@
 
 Current snapshot of up to 6 recent recorded runs; their original dates remain visible.
 
-As of 2026-10-02T10:05:10.165025+00:00.
+As of 2026-10-02T20:08:53.650849+00:00.
 
 Projection of records, not additional corroboration or admitted research.
-
-## gh-36619142520-1
-
-2026-09-29T19:25:52.447773+00:00 · complete / partial_answer
-
-UNKNOWN – the supplied evidence does not link fuel costs to missed essential deliveries.
-
-[Saved note](runs/gh-36619142520-1/HUMAN_NOTE.md) · 0 changed selected source records.
 
 ## gh-36699745991-1
 
@@ -53,3 +45,11 @@ UNKNOWN – the supplied evidence does not link fuel costs to missed essential d
 UNKNOWN – the supplied evidence does not link fuel costs to missed essential deliveries.
 
 [Saved note](runs/gh-36993371924-1/HUMAN_NOTE.md) · 12 changed selected source records.
+
+## gh-37058685458-1
+
+2026-10-02T20:08:53.092646+00:00 · prepared / None
+
+No synthesis recorded.
+
+[Saved note](runs/gh-37058685458-1/HUMAN_NOTE.md) · 14 changed selected source records.
