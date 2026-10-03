@@ -584,7 +584,7 @@
   "errors": [],
   "next_offset": null,
   "offset": 0,
-  "prepared_at": "2026-10-03T18:50:03.163622+00:00",
+  "prepared_at": "2026-10-03T18:50:42.982416+00:00",
   "remaining_count": 0,
   "returned_count": 2,
   "schema_version": "governor-inbox-review-1",
