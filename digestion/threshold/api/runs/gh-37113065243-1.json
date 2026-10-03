@@ -1,0 +1,48 @@
+{
+  "attempt_id": "ATT-20D0FF74786D4922B6A12D9BFE097EB3",
+  "coverage": "recorded_exchanges",
+  "materials": [
+    {
+      "path": "operations/week-one/runs/gh-37113065243-1/HUMAN_NOTE.md",
+      "sha256": "b7abb6e97444682a4d783f2a3bf4dbec2fdc47ac8b2db2036bf510f27a2470dd",
+      "url": "https://github.com/Jaradyne/Dis-Unity/blob/week-one-state/operations/week-one/runs/gh-37113065243-1/HUMAN_NOTE.md"
+    },
+    {
+      "path": "operations/week-one/runs/gh-37113065243-1/request.json",
+      "sha256": "293c9cde80e7bf14d3377e78a77ee095a2ffa8de9285dba5ac6be60e5a16bb3c",
+      "url": "https://github.com/Jaradyne/Dis-Unity/blob/week-one-state/operations/week-one/runs/gh-37113065243-1/request.json"
+    },
+    {
+      "path": "operations/week-one/runs/gh-37113065243-1/sources.json",
+      "sha256": "4982386496d246f4718f15b000d0031a4e0d9d13a17ad6dbd9d1b205d2bbf961",
+      "url": "https://github.com/Jaradyne/Dis-Unity/blob/week-one-state/operations/week-one/runs/gh-37113065243-1/sources.json"
+    },
+    {
+      "path": "operations/week-one/runs/gh-37113065243-1/api/0001.json",
+      "sha256": "fe0f169388536fc270605df5f0b611e51b1cc8692ec39c671024b2c7cb2b7f8a",
+      "url": "https://github.com/Jaradyne/Dis-Unity/blob/week-one-state/operations/week-one/runs/gh-37113065243-1/api/0001.json"
+    },
+    {
+      "path": "operations/week-one/runs/gh-37113065243-1/api/0002.json",
+      "sha256": "bfe38afeb9907f771b6b632ccb927b05983bda9d27fdd988d10e85e709933b0e",
+      "url": "https://github.com/Jaradyne/Dis-Unity/blob/week-one-state/operations/week-one/runs/gh-37113065243-1/api/0002.json"
+    },
+    {
+      "path": "operations/week-one/runs/gh-37113065243-1/api/0003.json",
+      "sha256": "9374b2902bf23aecb7011a08ed97437a966be8b652d2a00bfa585b5cd3f4744f",
+      "url": "https://github.com/Jaradyne/Dis-Unity/blob/week-one-state/operations/week-one/runs/gh-37113065243-1/api/0003.json"
+    }
+  ],
+  "meaning": "Capture and delivery only; not a Governor review, digestion result or canonical admission.",
+  "operator_disposition": null,
+  "question_id": "Q-RESEARCH-Q01",
+  "record_ids": [
+    "API-gh-37113065243-1-0001",
+    "API-gh-37113065243-1-0002",
+    "API-gh-37113065243-1-0003"
+  ],
+  "run_id": "gh-37113065243-1",
+  "run_status": "prepared",
+  "schema_version": "digestion-api-materials-1",
+  "status": "available_for_digestion"
+}

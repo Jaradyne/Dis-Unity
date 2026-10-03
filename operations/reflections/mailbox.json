@@ -1623,6 +1623,49 @@
       "summary": "Provider attempt recorded: auth_or_configuration_error",
       "uncertainties": []
     },
+    "REFL-A68023F906816472D4725D69": {
+      "actor": "Week One public scout",
+      "context": {
+        "call_id": "gh-37113065243-1-scouts",
+        "parent_call_id": "gh-37113065243-1",
+        "run_id": "gh-37113065243-1"
+      },
+      "created_at": "2026-10-03T09:26:46.861064+00:00",
+      "level": "subcall",
+      "observations": [
+        "eia-diesel: retrieved",
+        "eia-energy: retrieved",
+        "nws-ca: retrieved"
+      ],
+      "origin": "runtime_observation",
+      "questions": [],
+      "reflection_id": "REFL-A68023F906816472D4725D69",
+      "related_reflection_ids": [],
+      "source_refs": [
+        "SRC-W1-1D08357354B57D85",
+        "SRC-W1-41983C7AC407D18D",
+        "SRC-W1-6DB3B6D238C00130",
+        "SRC-W1-B1ED5A531F937F2E",
+        "SRC-W1-93542D2CCEC68444",
+        "SRC-W1-2316F4092807ED43",
+        "SRC-W1-9F811EDB58FF9696",
+        "SRC-W1-1AAFDD6929251C3B",
+        "SRC-W1-F6C7D743BEF1EF2A",
+        "SRC-W1-EF00B561FACD66DA",
+        "SRC-W1-AF113E34A50E9EEF",
+        "SRC-W1-ACF949DB80719A6D",
+        "SRC-W1-AB4A3FA69F4A9A54",
+        "SRC-W1-E4AB34B174461EEE",
+        "SRC-W1-2A50842982F2C27B",
+        "SRC-W1-A4EA23C0CEB1D7D0",
+        "SRC-W1-67127358CD9A6ED3"
+      ],
+      "suggestions": [],
+      "summary": "Retrieved 3/3 public surfaces; 12 new/changed selected items.",
+      "uncertainties": [
+        "Selected feeds and alerts do not measure delivery performance, stocks or caregiver capacity."
+      ]
+    },
     "REFL-A914F8849FFD6AAA0D53D9B6": {
       "actor": "Week One Answer Bee / OpenRouter / Nvidia",
       "context": {
