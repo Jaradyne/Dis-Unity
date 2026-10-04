@@ -1,6 +1,7 @@
 {
   "brake": null,
-  "closed": false,
+  "closed": true,
+  "closed_at": "2026-10-04T10:13:31.495576+00:00",
   "cooldown_category": null,
   "cooldown_until": null,
   "operator_dispositions": {

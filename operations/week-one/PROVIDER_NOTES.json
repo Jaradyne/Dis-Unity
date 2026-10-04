@@ -1,0 +1,267 @@
+[
+  {
+    "receipt": null,
+    "result": "auth_or_configuration_error",
+    "run_id": "gh-35971438628-1"
+  },
+  {
+    "receipt": null,
+    "result": "operator_review_required",
+    "run_id": "gh-35971974980-1"
+  },
+  {
+    "receipt": null,
+    "result": "operator_review_required",
+    "run_id": "gh-35978438646-1"
+  },
+  {
+    "receipt": null,
+    "result": "audit_pending",
+    "run_id": "gh-35978438646-2"
+  },
+  {
+    "receipt": null,
+    "result": "cooldown",
+    "run_id": "gh-35980155892-1"
+  },
+  {
+    "receipt": null,
+    "result": "policy_blocked",
+    "run_id": "gh-35980155892-2"
+  },
+  {
+    "receipt": null,
+    "result": "policy_blocked",
+    "run_id": "gh-35980783938-2"
+  },
+  {
+    "receipt": null,
+    "result": "operator_review_required",
+    "run_id": "gh-35981423237-1"
+  },
+  {
+    "receipt": null,
+    "result": "audit_pending",
+    "run_id": "gh-35981423237-2"
+  },
+  {
+    "receipt": null,
+    "result": "cooldown",
+    "run_id": "gh-36048555357-1"
+  },
+  {
+    "receipt": {
+      "id": "gen-1790327195-43t7Cg064sAzTva87I4u",
+      "is_byok": false,
+      "model": "nvidia/nemotron-3-super-120b-a12b:free",
+      "provider_name": "Nvidia",
+      "source": "inline_usage",
+      "tokens_completion": 1544,
+      "tokens_prompt": 9032,
+      "total_cost": 0,
+      "verified_at": "2026-09-25T09:07:08.927152+00:00"
+    },
+    "result": "partial_answer",
+    "run_id": "gh-36116582032-1"
+  },
+  {
+    "receipt": null,
+    "result": "audit_pending",
+    "run_id": "gh-36166138616-1"
+  },
+  {
+    "receipt": null,
+    "result": "operator_review_required",
+    "run_id": "gh-36180495833-1"
+  },
+  {
+    "receipt": null,
+    "result": "operator_review_required",
+    "run_id": "gh-36230966851-1"
+  },
+  {
+    "receipt": null,
+    "result": "operator_review_required",
+    "run_id": "gh-36263567422-1"
+  },
+  {
+    "receipt": null,
+    "result": "operator_review_required",
+    "run_id": "gh-36290391567-1"
+  },
+  {
+    "receipt": null,
+    "result": "operator_review_required",
+    "run_id": "gh-36309693193-1"
+  },
+  {
+    "receipt": null,
+    "result": "operator_review_required",
+    "run_id": "gh-36341976372-1"
+  },
+  {
+    "receipt": null,
+    "result": "operator_review_required",
+    "run_id": "gh-36343843057-1"
+  },
+  {
+    "receipt": {
+      "id": "gen-1790555692-ZAd4cuoOMpGgNH49719L",
+      "is_byok": false,
+      "model": "nvidia/nemotron-3-super-120b-a12b:free",
+      "provider_name": "Nvidia",
+      "source": "inline_usage",
+      "tokens_completion": 1911,
+      "tokens_prompt": 17377,
+      "total_cost": 0,
+      "verified_at": "2026-09-28T00:35:17.304103+00:00"
+    },
+    "result": "partial_answer",
+    "run_id": "gh-36362719964-1"
+  },
+  {
+    "receipt": null,
+    "result": "invalid_response",
+    "run_id": "gh-36485742254-1"
+  },
+  {
+    "receipt": null,
+    "result": "cooldown",
+    "run_id": "gh-36509534121-1"
+  },
+  {
+    "receipt": null,
+    "result": "model_unavailable",
+    "run_id": "gh-36553756526-1"
+  },
+  {
+    "receipt": null,
+    "result": "cooldown",
+    "run_id": "gh-36617015392-1"
+  },
+  {
+    "receipt": {
+      "id": "gen-1790709961-YyQgzjTYrWJGwnsn6F2r",
+      "is_byok": false,
+      "model": "nvidia/nemotron-3-super-120b-a12b:free",
+      "provider_name": "Nvidia",
+      "source": "inline_usage",
+      "tokens_completion": 1602,
+      "tokens_prompt": 12651,
+      "total_cost": 0,
+      "verified_at": "2026-09-29T19:26:23.839907+00:00"
+    },
+    "result": "partial_answer",
+    "run_id": "gh-36619142520-1"
+  },
+  {
+    "receipt": {
+      "id": "gen-1790762457-TTdobi7qLtV0xtIWIS8M",
+      "is_byok": false,
+      "model": "nvidia/nemotron-3-super-120b-a12b:free",
+      "provider_name": "Nvidia",
+      "source": "inline_usage",
+      "tokens_completion": 1490,
+      "tokens_prompt": 8556,
+      "total_cost": 0,
+      "verified_at": "2026-09-30T10:01:19.345448+00:00"
+    },
+    "result": "partial_answer",
+    "run_id": "gh-36699745991-1"
+  },
+  {
+    "receipt": {
+      "id": "gen-1790799561-n6TC0vtIv3mY762Z7vpT",
+      "is_byok": false,
+      "model": "nvidia/nemotron-3-super-120b-a12b:free",
+      "provider_name": "Nvidia",
+      "source": "inline_usage",
+      "tokens_completion": 1815,
+      "tokens_prompt": 14117,
+      "total_cost": 0,
+      "verified_at": "2026-09-30T20:20:14.937115+00:00"
+    },
+    "result": "partial_answer",
+    "run_id": "gh-36771763478-1"
+  },
+  {
+    "receipt": null,
+    "result": "model_unavailable",
+    "run_id": "gh-36849348684-1"
+  },
+  {
+    "receipt": {
+      "id": "gen-1790886788-8LNPXV5PQ4VphJHRjjPQ",
+      "is_byok": false,
+      "model": "nvidia/nemotron-3-super-120b-a12b:free",
+      "provider_name": "Nvidia",
+      "source": "inline_usage",
+      "tokens_completion": 2378,
+      "tokens_prompt": 17661,
+      "total_cost": 0,
+      "verified_at": "2026-10-01T20:33:45.989605+00:00"
+    },
+    "result": "partial_answer",
+    "run_id": "gh-36922368075-1"
+  },
+  {
+    "receipt": {
+      "id": "gen-1790935448-ioJssU0GwIXBoaECwhY6",
+      "is_byok": false,
+      "model": "nvidia/nemotron-3-super-120b-a12b:free",
+      "provider_name": "Nvidia",
+      "source": "inline_usage",
+      "tokens_completion": 2915,
+      "tokens_prompt": 17332,
+      "total_cost": 0,
+      "verified_at": "2026-10-02T10:05:08.445248+00:00"
+    },
+    "result": "partial_answer",
+    "run_id": "gh-36993371924-1"
+  },
+  {
+    "receipt": {
+      "id": "gen-1790971742-2nS2yk9cR0xKGmGVsgR7",
+      "is_byok": false,
+      "model": "nvidia/nemotron-3-super-120b-a12b:free",
+      "provider_name": "Nvidia",
+      "source": "inline_usage",
+      "tokens_completion": 1898,
+      "tokens_prompt": 16921,
+      "total_cost": 0,
+      "verified_at": "2026-10-02T20:09:14.752150+00:00"
+    },
+    "result": "partial_answer",
+    "run_id": "gh-37058685458-1"
+  },
+  {
+    "receipt": {
+      "id": "gen-1791019613-VD8caLISoQRTuEDiEXaE",
+      "is_byok": false,
+      "model": "nvidia/nemotron-3-super-120b-a12b:free",
+      "provider_name": "Nvidia",
+      "source": "inline_usage",
+      "tokens_completion": 1880,
+      "tokens_prompt": 17184,
+      "total_cost": 0,
+      "verified_at": "2026-10-03T09:27:02.890980+00:00"
+    },
+    "result": "partial_answer",
+    "run_id": "gh-37113065243-1"
+  },
+  {
+    "receipt": {
+      "id": "gen-1791053411-d9azvOnJBHDqFAgW5H7V",
+      "is_byok": false,
+      "model": "nvidia/nemotron-3-super-120b-a12b:free",
+      "provider_name": "Nvidia",
+      "source": "inline_usage",
+      "tokens_completion": 2097,
+      "tokens_prompt": 17412,
+      "total_cost": 0,
+      "verified_at": "2026-10-03T18:50:41.213770+00:00"
+    },
+    "result": "partial_answer",
+    "run_id": "gh-37145675332-1"
+  }
+]

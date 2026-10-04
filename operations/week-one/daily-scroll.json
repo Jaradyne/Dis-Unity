@@ -1,12 +1,12 @@
 {
-  "as_of": "2026-10-03T18:50:42.972075+00:00",
+  "as_of": "2026-10-04T10:13:31.524096+00:00",
   "brake": null,
-  "closed": false,
+  "closed": true,
   "closure_reason": null,
   "cooldown_until": null,
   "evidence_status": "Projection of records, not additional corroboration or admitted research.",
   "kind": "daily_scroll",
-  "manifest_hash": "f7cf15aa2df6be7e2399921908ad2cfbeed7518544c1fa6bd7943558ea31eb0b",
+  "manifest_hash": "72fa445183b1bbe0cbd2baa4bc9f3a9fde46fb2a7247c6241d3fd90594fd4be8",
   "recent_runs": [
     {
       "changed_source_count": 7,
