@@ -6,7 +6,7 @@
     "provider": "OpenAI",
     "model": "GPT-5.6 Sol"
   },
-  "status": "draft_role_staged_not_running",
+  "status": "active_work_request",
   "goal": "Create a neutral, inspectable U.S. institutional-change collector capable of tracking executive-power concentration mechanisms and countervailing checks without regime prediction, political scoring or motive inference.",
   "seed_lenses": [
     "V-Dem",
@@ -25,5 +25,10 @@
     "agents/institutional_constraints_bee.json",
     "handoffs/chat_aiden/2026-10-02_institutional-constraints/DESIGN.md",
     "handoffs/chat_aiden/2026-10-02_institutional-constraints/FUTURE_WORK.md"
-  ]
+  ],
+  "activated_at": "2026-10-07",
+  "primary": "WORK_AIDEN_PRIMARY.md",
+  "primary_goal": "Build one complete retroactive military/institutional timeline lane, beginning with JAG/legal-system remaking, project it to Digest Aiden, and prove a Garden child before broadening.",
+  "design_correction": "Retroactive baseline is required: present-day small changes can only be distinguished as continuity, novelty, or convergence against prior authority/doctrine/personnel/oversight structures.",
+  "next_lane": "ORA / spiritual-fitness lineage"
 }
