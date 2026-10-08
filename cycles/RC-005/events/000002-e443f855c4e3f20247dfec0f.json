@@ -1,0 +1,15 @@
+{
+  "at": "2026-10-08T03:08:52.998890+00:00",
+  "cycle_id": "RC-005",
+  "event_id": "e443f855c4e3f20247dfec0f",
+  "event_type": "agent_submission",
+  "hash": "93c2ce026bdd7771e4c3786dace60a345843f8db0c0a3db441cbbd313176bd4c",
+  "payload": {
+    "agent": "military_conscience_baseline",
+    "payload_hash": "a4b1c997282ba75adefbe39f3606b184cd2f8b275ffd4b8d51decd590f954dd8",
+    "phase": "checkpoint",
+    "submission_id": "50fdaef899ff1d4cf2e9deea7e6136a85331679159c37fe9b75e0f73a7a2869e"
+  },
+  "previous_hash": "a8ee623d7d0835f3aae1240add24369c37cbecb10444ba8c289eb6c954223b89",
+  "sequence": 2
+}

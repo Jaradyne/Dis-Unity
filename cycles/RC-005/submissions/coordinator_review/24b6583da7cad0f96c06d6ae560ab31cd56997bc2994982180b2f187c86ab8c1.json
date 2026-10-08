@@ -1,0 +1,55 @@
+{
+  "agent": "coordinator_review",
+  "at": "2026-10-08T03:08:53.245402+00:00",
+  "base_hash": "16d04f8bb35a588caca60517f90a11944cfbafac7951402d059a6d6131de97b7",
+  "cycle_id": "RC-005",
+  "payload": {
+    "agent": "coordinator_review",
+    "author": "Work Aiden",
+    "base_commit": "6e07fa4dbb23b17d4dfe9e3642accd02ba015163",
+    "canonical_admission": false,
+    "completed_at": "2026-10-08T03:08:52.818838+00:00",
+    "cycle_id": "RC-005",
+    "events_count": 22,
+    "evidence_cutoff": "2026-10-08",
+    "external_inference_calls": 0,
+    "gaps": [
+      "ORA implementation, assessment/data rules, actual funding and career consequences",
+      "Course syllabus, grading and practical alternatives",
+      "Legal-service workload and current MJRP operations"
+    ],
+    "new_schedules": 0,
+    "original_checkpoints": [
+      "inbox/RC-005/coordinator.json",
+      "inbox/RC-005/military_conscience_baseline.json",
+      "inbox/RC-005/military_legal_checks.json"
+    ],
+    "recording_limit_ref": "reports/military-conscience-and-institutional-safeguards/METHOD_AND_REVIEW.md",
+    "recoveries": [
+      "Baseline source catalog reconstructed from saved specialist report/checkpoint; original files preserved.",
+      "Fresh three-record HTTP packet published separately from unavailable earlier temporary copies."
+    ],
+    "report_sha256": {
+      "reports/military-conscience-and-institutional-safeguards/DIGEST_REVIEW.md": "d8036b89f71c6e9ee75a66b8b29e9b458b4e7468d5211f4e6445226293a1e64a",
+      "reports/military-conscience-and-institutional-safeguards/LEGAL_AND_OVERSIGHT_CONTEXT.md": "605b82ac4017e8996a554a3804895d7af5fc3dde162fad9a9074ee0e6c1ca1c4",
+      "reports/military-conscience-and-institutional-safeguards/METHOD_AND_REVIEW.md": "c9451ec0fc3ee54263219c02ec0cb983eb8285bb6cc75744fe520a096ff67635",
+      "reports/military-conscience-and-institutional-safeguards/ORA_AND_YOUTH.md": "56a05d207df229d213b17c869b059e82306083ab5fbe4a719ed497126733de6f",
+      "reports/military-conscience-and-institutional-safeguards/README.md": "87f743bf1a99ba10c1adb74d72da95c1fb55d50edde9001b7e51697a562da3ce",
+      "reports/military-conscience-and-institutional-safeguards/SOURCES.md": "e4975f2dd9de16f99a3bc13ccbf3cbfe8b47894c00ea94e28839d92bf65f41b3",
+      "reports/military-conscience-and-institutional-safeguards/SPIRITUAL_READINESS_BASELINE.md": "fa52975994c06d9cbb9791377449520155e703f06813e4241963899bd33be3eb",
+      "reports/military-conscience-and-institutional-safeguards/TIMELINE.md": "68189228cb2fcc9de4b50badcd31fe2c0d1bb1c6e861b596395f77409f082e27",
+      "reports/military-conscience-and-institutional-safeguards/baseline_sources.json": "4af6cf492000e9e3db9d4c4302c8b8e4ae08f3f4702211ae43ba26b9d8bd1511",
+      "reports/military-conscience-and-institutional-safeguards/events.json": "17d52f23abdec3c6fe1560bd631ff2b93084f62dfa0fcd384041300f32f0cc11",
+      "reports/military-conscience-and-institutional-safeguards/legal_sources.json": "be7e9190d21dda3cb0db1e4cf3ab591f6c89a48f7c91d9737be480f7caf63a25",
+      "reports/military-conscience-and-institutional-safeguards/ora_sources.json": "1babd2fb6628afafe6c04a1610686078891a02fd6ceaedf784c7d4fbe97c7e25"
+    },
+    "research_packet": "reports/military-conscience-and-institutional-safeguards/README.md",
+    "review": "Selected primary source checks and coordinator assembly; not whole-packet independent verification",
+    "scope": "ORA, youth/education, spiritual-readiness baseline, legal checks",
+    "sources_count": 34,
+    "status": "packet_complete_for_jared_and_digest_review"
+  },
+  "payload_hash": "ac320dcbd6266d897a4efd2ca93a25d6580fd3def7a0d73852bad619471338cf",
+  "phase": "submitted",
+  "submission_id": "24b6583da7cad0f96c06d6ae560ab31cd56997bc2994982180b2f187c86ab8c1"
+}

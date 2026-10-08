@@ -1,0 +1,96 @@
+{
+  "cycle": "RC-005",
+  "agent": "military_conscience_baseline",
+  "status": "drafting_completed_research",
+  "evidence_cutoff": "2026-10-08",
+  "scope": "Pre-2025 spiritual-readiness and religious-liberty baseline; 2025-2026 chaplain and preference-code changes. Research staging only, no canonical admission.",
+  "roles": [
+    "Signal Intake",
+    "Skeptic",
+    "Resilience/Overflow",
+    "Commons"
+  ],
+  "queries": [
+    "site.esd.whs.mil \"1300.17\" \"Religious Liberty\" 2020",
+    "site.army.mil \"Spiritual Fitness Guide\" 2025 non religious",
+    "site.war.gov chaplain religious codes 31 2026",
+    "site.esd.whs.mil \"5120.08\" \"Under Secretary\"",
+    "\"DoDI 1300.17\" \"September 1, 2020\"",
+    "\"DoDI 5120.08\" \"April 24, 2024\"",
+    "\"DoDI 1304.28\" religious organizations 2024",
+    "\"FM 7-22\" \"spiritual readiness\" \"2020\" nonreligious",
+    "Army FM 7-22 2020 spiritual readiness nonreligious leaders assessment confidentiality",
+    "Armed Forces Chaplains Board 5120.08 2024 reports USD Personnel Readiness",
+    "2026 March June Religious Affiliation Codes memo chaplain 31 site:war.gov",
+    "2025 spiritual fitness guide Hegseth rescind site:war.gov",
+    "\"1300.17\" \"2020\" \"adverse personnel\"",
+    "\"5120.08\" \"2024\" \"Director\"",
+    "site:war.gov/News/News-Stories/Article/Article/4444113 chaplain reform March 2026 31",
+    "site:war.gov religious affiliation codes June 2026 31 list",
+    "DoDI 5120.08 April 24 2024 Deputy Assistant Secretary Military Personnel Policy board under authority",
+    "DoDI 1300.17 September 2020 adverse personnel actions sincere religious belief no religion pdf",
+    "Pentagon June 5 2026 religious affiliation codes 31 list pdf",
+    "Army Spiritual Fitness Guide December 2025 discontinued four stages god",
+    "\"5120.08\" \"2024\" \"DASD\" \"AFCB\"",
+    "\"1304.28\" \"May 8, 2024\" pdf",
+    "\"Armed Forces Chaplains Board\" \"2024\" \"DASD(MPP)\""
+  ],
+  "access_failures": [
+    {
+      "url": "https://www.esd.whs.mil/Portals/54/Documents/DD/issuances/dodi/130017p.pdf",
+      "result": "403 Forbidden",
+      "recovery": "2020 primary-document mirror at Defense Management Institute read"
+    },
+    {
+      "url": "https://www.esd.whs.mil/Portals/54/Documents/DD/issuances/dodi/130428p.pdf",
+      "result": "403 Forbidden",
+      "recovery": "2021 original at militaryatheists.org read; 2024 amended document at spirit-filled.org read"
+    },
+    {
+      "url": "https://www.esd.whs.mil/Portals/54/Documents/DD/issuances/dodi/512008p.pdf",
+      "result": "403 Forbidden, including indexed version-query URL",
+      "recovery": "Official search-index section 2 text only"
+    },
+    {
+      "url": "https://www.war.gov/News/News-Stories/Article/Article/4444113/hegseth-announces-reforms-to-chaplain-corps/",
+      "result": "Internal Error, no HTTP status exposed",
+      "recovery": "Official search-index excerpt only"
+    },
+    {
+      "url": "https://www.war.gov/News/News-Stories/Article/Article/4363226/hegseth-hosts-special-guests-during-pentagon-christmas-worship-service/",
+      "result": "403 Forbidden",
+      "recovery": "Official search-index excerpt only"
+    },
+    {
+      "url": "https://prhome.war.gov/M-RA/Inside-M-RA/MPP/AFCB/",
+      "result": "Internal Error, no HTTP status exposed",
+      "recovery": "Not relied on for exact reporting line"
+    },
+    {
+      "url": "https://apnews.com/article/002a610344189f4f456291d76b910d52",
+      "result": "Internal Error, no HTTP status exposed",
+      "recovery": "Not relied on; Air & Space Forces article read"
+    },
+    {
+      "url": "https://api.army.mil/e2/c/downloads/2025/08/01/0437a07e/u-s-army-spiritual-fitness-guide-2025.pdf",
+      "result": "404 Not Found",
+      "recovery": "Guide itself not reconstructed; 2025 Army development article and discontinuation announcement distinguished"
+    },
+    {
+      "origin": "https://www.airandspaceforces.com/pentagon-religion-codes-cut-list/",
+      "links": [
+        30,
+        34
+      ],
+      "result": "Two x.com primary-post links Internal Error, no status exposed",
+      "recovery": "May20 memo and June8 correction retained as source-qualified reporting, not original reviewed documents"
+    }
+  ],
+  "recording_limit": "Built-in web search/open exposes parsed excerpts and references, not raw HTTP headers or bodies. No raw receipt is claimed. No OpenRouter invocation.",
+  "outputs": [
+    "reports/military-conscience-and-institutional-safeguards/SPIRITUAL_READINESS_BASELINE.md",
+    "reports/military-conscience-and-institutional-safeguards/baseline_sources.json"
+  ],
+  "web_call_count": 10,
+  "recording_note": "The 10 built-in research calls combined 23 exact search queries with public opens/finds/clicks and screenshots. No direct repository HTTP adapter was added or invoked. Complete provider HTTP request/response material is unavailable from this built-in connector; the checkpoint records queries, relevant access failures and source provenance, not a fabricated receipt."
+}

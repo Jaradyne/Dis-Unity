@@ -1,0 +1,15 @@
+{
+  "at": "2026-10-08T03:08:53.140527+00:00",
+  "cycle_id": "RC-005",
+  "event_id": "c324742d652004f137f69dc9",
+  "event_type": "agent_submission",
+  "hash": "7c42f71ba1d6309f7277ead23b436fa5bb56eaf9e924a51dc2c56d4a7561fefd",
+  "payload": {
+    "agent": "military_legal_checks",
+    "payload_hash": "94544a18cffb543708922c45c21791261e1af4d6d92042d490201707f20a98c1",
+    "phase": "submitted",
+    "submission_id": "c5a6b036bc3c25766fc3e78e934dd2be2aab54ce7fd309f3764a70609332dc4b"
+  },
+  "previous_hash": "93c2ce026bdd7771e4c3786dace60a345843f8db0c0a3db441cbbd313176bd4c",
+  "sequence": 3
+}

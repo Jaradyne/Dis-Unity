@@ -1,0 +1,117 @@
+{
+  "research_cutoff": "2026-10-08",
+  "recovery_note": "Work Aiden reconstructed this catalog from the saved specialist report/checkpoint after interruption. Original specialist report and checkpoint remain unchanged. Selected claims separately reopened by coordinator; no recovered unsaved output is implied.",
+  "sources": [
+    {
+      "source_id": "B01",
+      "title": "FM 7-22 Holistic Health and Fitness, Change 1",
+      "url": "https://home.army.mil/hood/5517/2115/1094/FM_7-22.pdf",
+      "publication_date": "2020-10-08",
+      "retrieved_date_utc": "2026-10-08",
+      "locator": "Chapter 10; paragraphs 10-6–10-10, 10-28–10-34; assessment at PDF p.117",
+      "access_level": "Official Army PDF; selected text and screenshot inspected",
+      "source_family": "Army H2F doctrine",
+      "short_claim": "Self-directed development and self-selected assessment without repercussions.",
+      "limitations": "Army-specific doctrinal baseline; no claim every current implementing rule was audited. Coordinator verified base issue1 October2020 and Change1 dated8 October2020."
+    },
+    {
+      "source_id": "B02",
+      "title": "DoDI 1300.17 Religious Liberty in the Military Services",
+      "url": "https://www.esd.whs.mil/Portals/54/Documents/DD/issuances/dodi/130017p.pdf",
+      "publication_date": "2020-09-01",
+      "retrieved_date_utc": "2026-10-08",
+      "locator": "Sections 1.2(a)–(e), responsibilities and accommodation appeals",
+      "access_level": "Primary document read on DMI mirror; official endpoint403",
+      "source_family": "DoD religious-liberty instruction",
+      "short_claim": "Qualified protections for observance/nonobservance and against adverse personnel action.",
+      "limitations": "No later amendment established in this bounded pass; protections do not prove enforcement.",
+      "mirror_url": "https://www.dmi-ida.org/download-pdf/pdf/DoD%20Instruction%201300.17.pdf"
+    },
+    {
+      "source_id": "B03",
+      "title": "DoDI 5120.08 Armed Forces Chaplains Board",
+      "url": "https://www.esd.whs.mil/Portals/54/Documents/DD/issuances/dodi/512008p.pdf",
+      "publication_date": "2024-04-24",
+      "retrieved_date_utc": "2026-10-08",
+      "locator": "Section 2 responsibilities",
+      "access_level": "Official search-index text only; full endpoint403",
+      "source_family": "AFCB governance instruction",
+      "short_claim": "Board previously under Personnel and Readiness authority.",
+      "limitations": "Full original document verification remains open."
+    },
+    {
+      "source_id": "B04",
+      "title": "DoDI 1304.28 The Appointment and Service of Chaplains",
+      "url": "https://www.esd.whs.mil/Portals/54/Documents/DD/issuances/dodi/130428p.pdf",
+      "publication_date": "2021-05-12",
+      "retrieved_date_utc": "2026-10-08",
+      "locator": "Change effective2024-05-08; sections2.2 and3.1",
+      "access_level": "Amended document inspected on endorsing-organization mirror",
+      "source_family": "DoD chaplain appointment instruction",
+      "short_claim": "Chaplain endorsement/appointment requirements are distinct from personnel faith codes.",
+      "limitations": "Official endpoint blocked; mirror is an interested institutional host, not an independent evaluation.",
+      "version_date": "2024-05-08",
+      "mirror_url": "https://www.spirit-filled.org/documents/130428p.pdf"
+    },
+    {
+      "source_id": "B05",
+      "title": "III Armored Corps chaplains develop spiritual fitness guide",
+      "url": "https://www.army.mil/article/283276/iii_armored_corps_chaplains_develop_spiritual_fitness_guide",
+      "publication_date": "2025-02-21",
+      "retrieved_date_utc": "2026-10-08",
+      "locator": "Development meeting February19; passages on squad/team leaders",
+      "access_level": "Official Army article",
+      "source_family": "III Corps guide development",
+      "short_claim": "Describes leader-assessment development before ORA.",
+      "limitations": "Article records development and aspiration, not a service-wide mandatory order, data rules or career effects."
+    },
+    {
+      "source_id": "B06",
+      "title": "Hegseth hosts special guests during Pentagon Christmas worship service",
+      "url": "https://www.war.gov/News/News-Stories/Article/Article/4363226/hegseth-hosts-special-guests-during-pentagon-christmas-worship-service/",
+      "publication_date": "2025-12-17",
+      "retrieved_date_utc": "2026-10-08",
+      "locator": "Guide discontinuation and coding passages",
+      "access_level": "Official indexed excerpt; original open403",
+      "source_family": "December2025 chaplain policy announcement",
+      "short_claim": "Reports direction to discontinue the Army guide.",
+      "limitations": "Underlying implementing order and replacement not retrieved; guide URL404 does not itself prove policy."
+    },
+    {
+      "source_id": "B07",
+      "title": "Hegseth announces reforms to Chaplain Corps",
+      "url": "https://www.war.gov/News/News-Stories/Article/Article/4444113/hegseth-announces-reforms-to-chaplain-corps/",
+      "publication_date": "2026-03-25",
+      "retrieved_date_utc": "2026-10-08",
+      "locator": "Religious codes and insignia passages",
+      "access_level": "Official indexed excerpt; full open failed",
+      "source_family": "March2026 chaplain reform announcement",
+      "short_claim": "Reports code consolidation to31 and insignia reform.",
+      "limitations": "Announcement date does not establish rollout in every service. Code totals need consistent category definitions."
+    },
+    {
+      "source_id": "B08",
+      "title": "Pentagon religion-code consolidation and correction",
+      "url": "https://www.airandspaceforces.com/pentagon-religion-codes-cut-list/",
+      "publication_date": "2026-06-08",
+      "retrieved_date_utc": "2026-10-08",
+      "locator": "May20 memo, June5 release, June8 label correction",
+      "access_level": "Independent reporting; linked original posts unavailable",
+      "source_family": "June2026 religion-code reporting",
+      "short_claim": "Reports implementation memo and corrected labels.",
+      "limitations": "Preference codes, dog-tag text and endorsement eligibility must remain separate. Original tables not obtained."
+    },
+    {
+      "source_id": "B09",
+      "title": "Faith and Belief Codes for Reporting Personnel Data of Service Members",
+      "url": "https://americanhumanist.org/wp-content/uploads/2017/04/Faith-and-Belief-Codes-for-Reporting-Personnel-Data-of-Service-Members.pdf",
+      "publication_date": "2017-03-27",
+      "retrieved_date_utc": "2026-10-08",
+      "locator": "First two memorandum pages",
+      "access_level": "Government-document scan hosted by advocacy organization; visually checked",
+      "source_family": "AFCB2017 administrative recoding",
+      "short_claim": "Earlier codes served demographic and support planning.",
+      "limitations": "Complete attached code inventory not transcribed; official original not retrieved."
+    }
+  ]
+}

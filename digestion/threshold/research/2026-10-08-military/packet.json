@@ -1,0 +1,47 @@
+{
+  "schema_version": "research-materials-1",
+  "status": "available_for_jared_and_digest_review",
+  "canonical_admission": false,
+  "cycle_id": "RC-005",
+  "report": "../../../../reports/military-conscience-and-institutional-safeguards/README.md",
+  "records": [
+    {
+      "record_id": "API-public-documents-0001",
+      "started_at": "2026-10-08T02:56:49.929834+00:00",
+      "http_status": 200,
+      "request_url": "https://americanagecko.com/wp-content/uploads/2026/09/memo-page-1.png",
+      "received_bytes": 1397121,
+      "complete": true,
+      "sha256": "cd8939f430365f7de6294155e3bb45c5c9995b6b46f9abb772513cd43f068caa",
+      "record_path": "retrievals/public-documents/api/0001.json",
+      "body_path": "retrievals/public-documents/api/0001.png",
+      "cost_usd": null
+    },
+    {
+      "record_id": "API-public-documents-0002",
+      "started_at": "2026-10-08T02:56:56.216723+00:00",
+      "http_status": 200,
+      "request_url": "https://americanagecko.com/wp-content/uploads/2026/09/memo-page-2.png",
+      "received_bytes": 1035400,
+      "complete": true,
+      "sha256": "6af32fe0105f4cbca6e00178ad30819a7d0aac62bf2f30dba93cdcc9491dd4f0",
+      "record_path": "retrievals/public-documents/api/0002.json",
+      "body_path": "retrievals/public-documents/api/0002.png",
+      "cost_usd": null
+    },
+    {
+      "record_id": "API-public-documents-0003",
+      "started_at": "2026-10-08T02:57:03.910645+00:00",
+      "http_status": 200,
+      "request_url": "https://dodea.widen.net/content/dweya6jhob/web/western-civilization-1500-course-elective.pdf",
+      "received_bytes": 909092,
+      "complete": true,
+      "sha256": "5406066ae5e832019d6a9507481a9ae92b215b5c77e5755e6b3052f26ad1f906",
+      "record_path": "retrievals/public-documents/api/0003.json",
+      "body_path": "retrievals/public-documents/api/0003.jpg",
+      "cost_usd": null
+    }
+  ],
+  "coverage": "Three fresh direct public-document GETs fully retained at recorder application level; built-in web calls and earlier interrupted attempts have stated limits.",
+  "billing": "No OpenRouter call. No external inference invoked. Platform-tool billing receipts not exposed."
+}

@@ -1,0 +1,13 @@
+{
+  "agent": "Work Aiden",
+  "cycle_id": "RC-005",
+  "status": "initial_checkpoint",
+  "created_at": "2026-10-08T00:44:21.507784+00:00",
+  "cutoff": "2026-10-08",
+  "base_commit": "6e07fa4dbb23b17d4dfe9e3642accd02ba015163",
+  "scope": "Military Conscience and Institutional Safeguards: ORA, youth and education, baseline protections, legal checks; intake for Jared and Digest review, not canonical admission or Bee activation",
+  "question": "Do recent military religious-affairs and institutional changes create observable pathways for coerced belief, unequal opportunity, or weakened independent checks?",
+  "prior_question_match": "operations/questions.json searched; no existing military/institutional/spiritual/religious/JAG match",
+  "status_note": "ORA signed memo original URL indexed but HTTP 403 through web tool and one direct urllib probe. Government memo transcription and two-page scan mirror found; authenticity and reading checks ongoing.",
+  "recording_limit": "One direct unauthenticated public PDF GET probe printed HTTPError 403; full response headers/body were not retained. Built-in search/open calls expose tool excerpts and errors, not raw HTTP or billing receipts. No OpenRouter call."
+}

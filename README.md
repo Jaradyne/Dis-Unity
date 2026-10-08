@@ -1,3 +1,5 @@
+**October 7 Pacific / October 8 UTC — military research:** [Military Conscience and Institutional Safeguards](reports/military-conscience-and-institutional-safeguards/README.md) contains the new ORA, youth/education, spiritual-readiness and legal-oversight intake for Jared and Digest. RC-005 is open for review; RC-004 remains canonical.
+
 **Week One Meaning Web:** [operating handoff](WEEK_ONE_HANDOFF.md) · [live output index](https://github.com/Jaradyne/Dis-Unity/blob/week-one-state/operations/week-one/INDEX.md) · [runs](https://github.com/Jaradyne/Dis-Unity/actions/workflows/week-one.yml).
 
 # Dis-Unity — Resilience Cascade

@@ -1,0 +1,569 @@
+{
+  "schema_version": "military-research-events-1",
+  "research_cutoff": "2026-10-08",
+  "status": "staged_for_jared_and_digest",
+  "date_policy": "Event, publication, effective and retrieval dates distinct. Month-only dates retained; reported historical events are not redated as discoveries.",
+  "events": [
+    {
+      "event_id": "MC01",
+      "event_date": "2017-03-27",
+      "date_precision": "day",
+      "effective_date": null,
+      "publication_date": "2017-03-27",
+      "retrieved_date_utc": "2026-10-08",
+      "lane": "religion_codes",
+      "title": "Earlier faith/belief coding memo",
+      "implementation_status": "issued",
+      "source_ids": [
+        "B09"
+      ],
+      "source_families": [
+        "AFCB2017 administrative recoding"
+      ],
+      "previous_state": "Earlier personnel categories",
+      "new_state": "Administrative reporting categories updated",
+      "check_or_counterevidence": "Dog-tag preference and endorsement recognition remain distinct",
+      "uncertainty": "Complete old inventory comparison pending",
+      "continuity_assessment": "baseline",
+      "locator": null,
+      "discovery_status": "retrospective discovery in this packet"
+    },
+    {
+      "event_id": "MC02",
+      "event_date": "2019-06-14",
+      "date_precision": "day",
+      "effective_date": null,
+      "publication_date": "2019-06-14",
+      "retrieved_date_utc": "2026-10-08",
+      "lane": "youth",
+      "title": "Stuttgart youth/chapel support documented",
+      "implementation_status": "local program account",
+      "source_ids": [
+        "O06"
+      ],
+      "source_families": [
+        "Stuttgart religious-education program account"
+      ],
+      "previous_state": "Earlier military family support",
+      "new_state": "Religious education and youth activities described",
+      "check_or_counterevidence": "Local multi-tradition support rationale",
+      "uncertainty": "Not a nationwide participation or coercion audit",
+      "continuity_assessment": "baseline",
+      "locator": null,
+      "discovery_status": "retrospective discovery in this packet"
+    },
+    {
+      "event_id": "MC03",
+      "event_date": "2020-09-01",
+      "date_precision": "day",
+      "effective_date": "2020-09-01",
+      "publication_date": "2020-09-01",
+      "retrieved_date_utc": "2026-10-08",
+      "lane": "conscience",
+      "title": "Religious-liberty instruction",
+      "implementation_status": "policy",
+      "source_ids": [
+        "B02"
+      ],
+      "source_families": [
+        "DoD religious-liberty instruction"
+      ],
+      "previous_state": "Earlier religious-accommodation policy",
+      "new_state": "Protections for observance/nonobservance and qualified adverse-action limits",
+      "check_or_counterevidence": "Accommodation appeals and legal standards",
+      "uncertainty": "Current practice and later amendments not exhaustively audited",
+      "continuity_assessment": "baseline",
+      "locator": null,
+      "discovery_status": "retrospective discovery in this packet"
+    },
+    {
+      "event_id": "MC04",
+      "event_date": "2020-10-08",
+      "date_precision": "day",
+      "effective_date": null,
+      "publication_date": "2020-10-08",
+      "retrieved_date_utc": "2026-10-08",
+      "lane": "assessment",
+      "title": "Army H2F spiritual-readiness baseline",
+      "implementation_status": "doctrine",
+      "source_ids": [
+        "B01"
+      ],
+      "source_families": [
+        "Army H2F doctrine"
+      ],
+      "previous_state": "Earlier Army fitness/resilience programs",
+      "new_state": "Spiritual readiness includes nonreligious development and self-assessment",
+      "check_or_counterevidence": "Free choice without repercussions",
+      "uncertainty": "Service-wide implementation beyond Army not established",
+      "continuity_assessment": "baseline",
+      "locator": "Chapter10, especially10-28",
+      "discovery_status": "retrospective discovery in this packet"
+    },
+    {
+      "event_id": "MC05",
+      "event_date": "2024-04-24",
+      "date_precision": "day",
+      "effective_date": null,
+      "publication_date": "2024-04-24",
+      "retrieved_date_utc": "2026-10-08",
+      "lane": "governance",
+      "title": "AFCB Personnel and Readiness reporting baseline",
+      "implementation_status": "instruction",
+      "source_ids": [
+        "B03"
+      ],
+      "source_families": [
+        "AFCB governance instruction"
+      ],
+      "previous_state": "Prior Board arrangements not reconstructed",
+      "new_state": "Board under USD(P&R), with intermediate personnel offices",
+      "check_or_counterevidence": "Provides comparator for new direct ORA line",
+      "uncertainty": "Full original PDF inaccessible",
+      "continuity_assessment": "baseline",
+      "locator": null,
+      "discovery_status": "retrospective discovery in this packet"
+    },
+    {
+      "event_id": "MC06",
+      "event_date": "2025-01-01",
+      "date_precision": "day",
+      "effective_date": null,
+      "publication_date": "2025-01-02",
+      "retrieved_date_utc": "2026-10-08",
+      "lane": "legal_personnel",
+      "title": "Navy TJAG retirement and acting succession",
+      "implementation_status": "announced retirement",
+      "source_ids": [
+        "J05"
+      ],
+      "source_families": [
+        "Navy personnel communications"
+      ],
+      "previous_state": "Christopher French in office",
+      "new_state": "Lia Reynolds acting after voluntary retirement",
+      "check_or_counterevidence": "Precedes February nomination requests",
+      "uncertainty": "Complete succession intervals still incomplete",
+      "continuity_assessment": "change",
+      "locator": null,
+      "discovery_status": "retrospective discovery in this packet"
+    },
+    {
+      "event_id": "MC07",
+      "event_date": "2025-02",
+      "date_precision": "month_or_period",
+      "effective_date": null,
+      "publication_date": "2025-02-24",
+      "retrieved_date_utc": "2026-10-08",
+      "lane": "legal_personnel",
+      "title": "Top-lawyer replacement and nomination requests",
+      "implementation_status": "reported personnel action",
+      "source_ids": [
+        "J04",
+        "J05"
+      ],
+      "source_families": [
+        "AP February2025 personnel reporting",
+        "Navy personnel communications"
+      ],
+      "previous_state": "Existing service legal leadership",
+      "new_state": "Three service nomination requests; removals not identical across services",
+      "check_or_counterevidence": "Navy was already vacant",
+      "uncertainty": "Underlying full set of orders and capacity effects absent",
+      "continuity_assessment": "change",
+      "locator": null,
+      "discovery_status": "retrospective discovery in this packet"
+    },
+    {
+      "event_id": "MC08",
+      "event_date": "2025-02-19",
+      "date_precision": "day",
+      "effective_date": null,
+      "publication_date": "2025-02-21",
+      "retrieved_date_utc": "2026-10-08",
+      "lane": "assessment",
+      "title": "III Corps spiritual-fitness guide development",
+      "implementation_status": "development meeting",
+      "source_ids": [
+        "B05"
+      ],
+      "source_families": [
+        "III Corps guide development"
+      ],
+      "previous_state": "FM7-22 self-assessment protection",
+      "new_state": "Article proposes squad/team leader assessment",
+      "check_or_counterevidence": "Development aspiration is not service-wide mandatory order",
+      "uncertainty": "Current form, privacy rules and career use absent",
+      "continuity_assessment": "change",
+      "locator": null,
+      "discovery_status": "retrospective discovery in this packet"
+    },
+    {
+      "event_id": "MC17",
+      "event_date": "2025-03/2025-04",
+      "date_precision": "range",
+      "effective_date": null,
+      "publication_date": "2026-05-19",
+      "retrieved_date_utc": "2026-10-08",
+      "lane": "oversight",
+      "title": "MJRP interruption reported retrospectively",
+      "implementation_status": "reported historical interruption; current status unresolved",
+      "source_ids": [
+        "J16",
+        "J17"
+      ],
+      "source_families": [
+        "Rosenblatt-Fidell MJRP analysis",
+        "US statutory law"
+      ],
+      "previous_state": "Statutory independent panel",
+      "new_state": "Authors report 2025 interruption and internal-review alternative",
+      "check_or_counterevidence": "Statute still specifies independent panel",
+      "uncertainty": "Cessation record/current operations unresolved",
+      "continuity_assessment": "change",
+      "locator": "Reported underlying events March–April2025; May19 is publication, not interruption date",
+      "discovery_status": "retrospective discovery in this packet"
+    },
+    {
+      "event_id": "MC09",
+      "event_date": "2025-08-28",
+      "date_precision": "day",
+      "effective_date": "2025-08-28",
+      "publication_date": "2025-08-28",
+      "retrieved_date_utc": "2026-10-08",
+      "lane": "legal_capacity",
+      "title": "Temporary immigration-judge eligibility expanded",
+      "implementation_status": "effective rule",
+      "source_ids": [
+        "J09"
+      ],
+      "source_families": [
+        "DOJ EOIR rulemaking"
+      ],
+      "previous_state": "Specified earlier eligibility categories",
+      "new_state": "Broader attorney eligibility",
+      "check_or_counterevidence": "Training and renewable term limits retained",
+      "uncertainty": "Actual qualifications and outcomes require separate data",
+      "continuity_assessment": "change",
+      "locator": null,
+      "discovery_status": "retrospective discovery in this packet"
+    },
+    {
+      "event_id": "MC10",
+      "event_date": "2025-10-23",
+      "date_precision": "day",
+      "effective_date": null,
+      "publication_date": "2025-10-23",
+      "retrieved_date_utc": "2026-10-08",
+      "lane": "legal_capacity",
+      "title": "DOJ opinion on military attorney details",
+      "implementation_status": "executive legal analysis",
+      "source_ids": [
+        "J10"
+      ],
+      "source_families": [
+        "DOJ OLC detail legal analysis"
+      ],
+      "previous_state": "Existing detail authority",
+      "new_state": "Phased requested ceiling of600, cohorts up to150",
+      "check_or_counterevidence": "Civilian supervision and reimbursement conditions",
+      "uncertainty": "Authorization is not deployed headcount; no full workload denominator",
+      "continuity_assessment": "change",
+      "locator": null,
+      "discovery_status": "retrospective discovery in this packet"
+    },
+    {
+      "event_id": "MC11",
+      "event_date": "2025-10-24",
+      "date_precision": "day",
+      "effective_date": null,
+      "publication_date": "2025-10-24",
+      "retrieved_date_utc": "2026-10-08",
+      "lane": "legal_capacity",
+      "title": "First sampled EOIR temporary appointments",
+      "implementation_status": "appointment notice",
+      "source_ids": [
+        "J11"
+      ],
+      "source_families": [
+        "DOJ EOIR appointment announcements"
+      ],
+      "previous_state": "Prior temporary/permanent judiciary staffing",
+      "new_state": "25 temporary appointments announced",
+      "check_or_counterevidence": "Separate permanent hiring also reported",
+      "uncertainty": "Military share and unique active headcount not established",
+      "continuity_assessment": "change",
+      "locator": null,
+      "discovery_status": "retrospective discovery in this packet"
+    },
+    {
+      "event_id": "MC12",
+      "event_date": "2025-12-17",
+      "date_precision": "day",
+      "effective_date": null,
+      "publication_date": "2025-12-17",
+      "retrieved_date_utc": "2026-10-08",
+      "lane": "chaplain_policy",
+      "title": "Guide discontinuation announced",
+      "implementation_status": "indexed official announcement",
+      "source_ids": [
+        "B06"
+      ],
+      "source_families": [
+        "December2025 chaplain policy announcement"
+      ],
+      "previous_state": "2025 Army guide development",
+      "new_state": "Direction to discontinue guide and simplify codes",
+      "check_or_counterevidence": "Original instruction protections separately retained in dossier",
+      "uncertainty": "Implementing order/replacement not obtained",
+      "continuity_assessment": "change",
+      "locator": null,
+      "discovery_status": "retrospective discovery in this packet"
+    },
+    {
+      "event_id": "MC13",
+      "event_date": "2025-12-18",
+      "date_precision": "day",
+      "effective_date": "2025-12-18",
+      "publication_date": "2025-12-18",
+      "retrieved_date_utc": "2026-10-08",
+      "lane": "legal_safeguards",
+      "title": "NDAA adds JAG counterchecks",
+      "implementation_status": "enacted law",
+      "source_ids": [
+        "J03"
+      ],
+      "source_families": [
+        "US statutory law"
+      ],
+      "previous_state": "Older independent-advice and appointment framework",
+      "new_state": "Removal notice/reasons, qualifications and sufficient-advice provisions",
+      "check_or_counterevidence": "Notification and staffing duties are real additional checks",
+      "uncertainty": "Notification is not a veto; enforcement not measured",
+      "continuity_assessment": "change",
+      "locator": "Sections506,561,562",
+      "discovery_status": "retrospective discovery in this packet"
+    },
+    {
+      "event_id": "MC14",
+      "event_date": "2026-02-05",
+      "date_precision": "day",
+      "effective_date": null,
+      "publication_date": "2026-02-05",
+      "retrieved_date_utc": "2026-10-08",
+      "lane": "legal_capacity",
+      "title": "Second sampled EOIR temporary appointments",
+      "implementation_status": "appointment notice",
+      "source_ids": [
+        "J12"
+      ],
+      "source_families": [
+        "DOJ EOIR appointment announcements"
+      ],
+      "previous_state": "Previous cohorts",
+      "new_state": "27 temporary appointments announced",
+      "check_or_counterevidence": "Cohorts are flows, not current stock",
+      "uncertainty": "Renewals/departures/military share not reconciled",
+      "continuity_assessment": "change",
+      "locator": null,
+      "discovery_status": "retrospective discovery in this packet"
+    },
+    {
+      "event_id": "MC15",
+      "event_date": "2026-03-11",
+      "date_precision": "day",
+      "effective_date": null,
+      "publication_date": "2026-03-11",
+      "retrieved_date_utc": "2026-10-08",
+      "lane": "legal_structure",
+      "title": "Legal-function alignment assessment",
+      "implementation_status": "memorandum/implementation plan directed",
+      "source_ids": [
+        "J15"
+      ],
+      "source_families": [
+        "March2026 legal-functions memorandum"
+      ],
+      "previous_state": "January25,2025 functions are requested baseline",
+      "new_state": "Review military versus civilian legal functions",
+      "check_or_counterevidence": "Statutory independence and military legal subjects retained",
+      "uncertainty": "Actual six-month implementation outcome not verified",
+      "continuity_assessment": "change",
+      "locator": null,
+      "discovery_status": "retrospective discovery in this packet"
+    },
+    {
+      "event_id": "MC16",
+      "event_date": "2026-03-25",
+      "date_precision": "day",
+      "effective_date": null,
+      "publication_date": "2026-03-25",
+      "retrieved_date_utc": "2026-10-08",
+      "lane": "chaplain_policy",
+      "title": "Chaplain insignia and code reforms announced",
+      "implementation_status": "indexed official announcement",
+      "source_ids": [
+        "B07"
+      ],
+      "source_families": [
+        "March2026 chaplain reform announcement"
+      ],
+      "previous_state": "Older detailed affiliation codes",
+      "new_state": "31-code consolidation and insignia reform announced",
+      "check_or_counterevidence": "Codes do not alone determine endorsement eligibility",
+      "uncertainty": "All-service effective dates and complete tables absent",
+      "continuity_assessment": "change",
+      "locator": null,
+      "discovery_status": "retrospective discovery in this packet"
+    },
+    {
+      "event_id": "MC18",
+      "event_date": "2026-06-08",
+      "date_precision": "day",
+      "effective_date": null,
+      "publication_date": "2026-06-08",
+      "retrieved_date_utc": "2026-10-08",
+      "lane": "religion_codes",
+      "title": "Code implementation and label correction reported",
+      "implementation_status": "reported memo/revision",
+      "source_ids": [
+        "B08"
+      ],
+      "source_families": [
+        "June2026 religion-code reporting"
+      ],
+      "previous_state": "March announcement; May20 memo reported",
+      "new_state": "June5 release followed by June8 label correction",
+      "check_or_counterevidence": "Correction and dog-tag flexibility recorded",
+      "uncertainty": "Original versioned tables unavailable",
+      "continuity_assessment": "change",
+      "locator": null,
+      "discovery_status": "retrospective discovery in this packet"
+    },
+    {
+      "event_id": "MC19",
+      "event_date": "2026-08-14",
+      "date_precision": "day",
+      "effective_date": null,
+      "publication_date": "2026-08-14",
+      "retrieved_date_utc": "2026-10-08",
+      "lane": "education",
+      "title": "School-course rollout publicly reported",
+      "implementation_status": "reporting of planned2026–27 elective",
+      "source_ids": [
+        "O04",
+        "O05"
+      ],
+      "source_families": [
+        "AP August14 curriculum investigation",
+        "DoDEA school-year2026–27 course description"
+      ],
+      "previous_state": "Existing school history curriculum; exact prior syllabus not audited",
+      "new_state": "Western Civilization course and named resource",
+      "check_or_counterevidence": "Official flyer calls it elective",
+      "uncertainty": "Syllabus, classroom delivery, enrollment and practical alternatives absent",
+      "continuity_assessment": "change",
+      "locator": "Official flyer is undated; date belongs to AP reporting, not first implementation",
+      "discovery_status": "retrospective discovery in this packet"
+    },
+    {
+      "event_id": "MC20",
+      "event_date": "2026-09-24",
+      "date_precision": "day",
+      "effective_date": null,
+      "publication_date": "2026-09-24",
+      "retrieved_date_utc": "2026-10-08",
+      "lane": "legal_capacity",
+      "title": "Latest sampled EOIR temporary appointments",
+      "implementation_status": "appointment notice",
+      "source_ids": [
+        "J13"
+      ],
+      "source_families": [
+        "DOJ EOIR appointment announcements"
+      ],
+      "previous_state": "Earlier cohorts",
+      "new_state": "Six temporary appointments announced",
+      "check_or_counterevidence": "Does not equal military staffing stock",
+      "uncertainty": "Incomplete cohort series, departures and renewals",
+      "continuity_assessment": "change",
+      "locator": null,
+      "discovery_status": "retrospective discovery in this packet"
+    },
+    {
+      "event_id": "MC21",
+      "event_date": "2026-09-30",
+      "date_precision": "day",
+      "effective_date": "2026-09-30",
+      "publication_date": "2026-09-30",
+      "retrieved_date_utc": "2026-10-08",
+      "lane": "ora",
+      "title": "Office of Religious Affairs established",
+      "implementation_status": "effective memorandum",
+      "source_ids": [
+        "O01",
+        "B03"
+      ],
+      "source_families": [
+        "AFCB governance instruction",
+        "September30 ORA memorandum"
+      ],
+      "previous_state": "Board governance under Personnel and Readiness; older chaplain/youth programs",
+      "new_state": "Direct-report director, Board realignment, policy/resources/assessment remit",
+      "check_or_counterevidence": "Noncompulsion and any-faith/no-faith protection in same memo",
+      "uncertainty": "Director, charter, budget, tools and actual outcomes unresolved",
+      "continuity_assessment": "change",
+      "locator": null,
+      "discovery_status": "retrospective discovery in this packet"
+    },
+    {
+      "event_id": "MC22",
+      "event_date": "2026-10-01",
+      "date_precision": "day",
+      "effective_date": null,
+      "publication_date": "2026-10-01",
+      "retrieved_date_utc": "2026-10-08",
+      "lane": "ora_scrutiny",
+      "title": "Stakeholder support and records scrutiny",
+      "implementation_status": "public statements",
+      "source_ids": [
+        "O03",
+        "O08"
+      ],
+      "source_families": [
+        "Archdiocese response",
+        "FFRF ORA records inquiry"
+      ],
+      "previous_state": "Newly issued memo",
+      "new_state": "Supportive expectations and announced inquiry",
+      "check_or_counterevidence": "Competing expectations preserved",
+      "uncertainty": "Neither statement measures implementation",
+      "continuity_assessment": "change",
+      "locator": null,
+      "discovery_status": "retrospective discovery in this packet"
+    }
+  ],
+  "future_document_checkpoints": [
+    {
+      "id": "D01",
+      "calculated_date": "2026-11-29",
+      "basis": "September30 +60 calendar days",
+      "document": "ORA baseline budget/FY27 funding plan",
+      "source_ids": [
+        "O01"
+      ],
+      "status": "not_yet_due_at_cutoff"
+    },
+    {
+      "id": "D02",
+      "calculated_date": "2026-12-29",
+      "basis": "September30 +90 calendar days",
+      "document": "ORA charter and service needs inventories",
+      "source_ids": [
+        "O01"
+      ],
+      "status": "not_yet_due_at_cutoff"
+    }
+  ],
+  "deadline_note": "Calendar calculations, not a claim of public release or definitive agency deadline convention. No automation scheduled."
+}

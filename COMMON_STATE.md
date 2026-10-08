@@ -1,3 +1,7 @@
+## Military research intake — 8 October 2026 UTC
+
+[RC-005 military-conscience packet](reports/military-conscience-and-institutional-safeguards/README.md) is available for Jared and Digest review. It preserves retroactive baselines, dated changes, counterevidence and implementation gaps. This is an open intake, not canonical admission or Bee activation. RC-004 and its evidence cutoff remain unchanged.
+
 # Common research state — RC-004
 
 Canonical state: `Resilience_Cascade_STATE.json`. Empirical evidence cutoff: **21 September 2026**. Completion and user-authorized design intake: **22 September**. Public repository: https://github.com/Jaradyne/Dis-Unity.
