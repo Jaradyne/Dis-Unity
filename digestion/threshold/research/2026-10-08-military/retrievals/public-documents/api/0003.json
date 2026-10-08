@@ -1,0 +1,97 @@
+{
+  "finished_at": "2026-10-08T02:57:10.594913+00:00",
+  "record_id": "API-public-documents-0003",
+  "redaction": {
+    "policy": "Credentials and authentication cookies only; no content-field allowlist.",
+    "replacement_count": 0
+  },
+  "request": {
+    "body": null,
+    "headers": [],
+    "method": "GET",
+    "url": "https://dodea.widen.net/content/dweya6jhob/web/western-civilization-1500-course-elective.pdf"
+  },
+  "response": {
+    "body": {
+      "complete": true,
+      "encoding": "base64",
+      "received_bytes": 909092,
+      "saved_sha256": "5406066ae5e832019d6a9507481a9ae92b215b5c77e5755e6b3052f26ad1f906",
+      "content_file": "0003.jpg",
+      "original_inline_encoding": "base64",
+      "storage": "external_bytes_same_directory"
+    },
+    "headers": [
+      [
+        "Content-Type",
+        "image/jpeg"
+      ],
+      [
+        "Content-Length",
+        "909092"
+      ],
+      [
+        "Connection",
+        "close"
+      ],
+      [
+        "Date",
+        "Thu, 08 Oct 2026 02:57:10 GMT"
+      ],
+      [
+        "X-Widen-App",
+        "pixelfront/3476+fe5f6b287ad1762cc82d81c1032b496266522626"
+      ],
+      [
+        "Accept-Ranges",
+        "bytes"
+      ],
+      [
+        "ETag",
+        "\"e7b803fa827a11c37beb262d85629675\""
+      ],
+      [
+        "Last-Modified",
+        "Wed, 05 Aug 2026 20:41:48 GMT"
+      ],
+      [
+        "Cache-Control",
+        "max-age=3600"
+      ],
+      [
+        "Access-Control-Allow-Origin",
+        "*"
+      ],
+      [
+        "Content-Disposition",
+        "inline; filename=\"western-civilization-1500-course-elective.jpg\""
+      ],
+      [
+        "Vary",
+        "Accept"
+      ],
+      [
+        "X-Cache",
+        "Miss from cloudfront"
+      ],
+      [
+        "Via",
+        "1.1 663bb84d90dc678d22cfa3b5a0fbd7ac.cloudfront.net (CloudFront)"
+      ],
+      [
+        "X-Amz-Cf-Pop",
+        "SFO53-P8"
+      ],
+      [
+        "X-Amz-Cf-Id",
+        "9jsr29IGBNxZRw6aklFGrONCo7lxB-TJO9gT4m33IxOI0Hnv5OoVlw=="
+      ]
+    ],
+    "http_status": 200
+  },
+  "run_id": "public-documents",
+  "schema_version": "api-exchange-1",
+  "started_at": "2026-10-08T02:57:03.910645+00:00",
+  "state": "response_received",
+  "packet_note": "Original recorder body separated losslessly into adjacent file; request/response metadata retained."
+}

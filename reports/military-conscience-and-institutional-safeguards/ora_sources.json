@@ -1,0 +1,114 @@
+{
+  "research_cutoff": "2026-10-08",
+  "sources": [
+    {
+      "source_id": "O01",
+      "title": "Establishment of the Office of Religious Affairs",
+      "url": "https://media.defense.gov/2026/Sep/30/2004009308/-1/-1/1/ESTABLISHMENT-OF-THE-OFFICE-OF-RELIGIOUS-AFFAIRS.PDF",
+      "publication_date": "2026-09-30",
+      "retrieved_date_utc": "2026-10-08",
+      "locator": "Both pages; authority/free-exercise/resource/assessment clauses p.1; Board and deadlines p.2",
+      "access_level": "Official endpoint indexed but403; both signed-memo facsimile pages visually inspected on public mirror",
+      "source_family": "September30 ORA memorandum",
+      "short_claim": "Creates direct-report office, defined policy/resource/assessment roles and conscience protection.",
+      "limitations": "Facsimile agrees with separately hosted transcription and indexed primary reference; original government PDF bytes could not be compared. Implementation not established.",
+      "mirror_urls": [
+        "https://americanagecko.com/wp-content/uploads/2026/09/memo-page-1.png",
+        "https://americanagecko.com/wp-content/uploads/2026/09/memo-page-2.png",
+        "https://starrs.us/establishment-of-the-office-of-religious-affairs/"
+      ],
+      "local_materials": [
+        "../../digestion/threshold/research/2026-10-08-military/retrievals/public-documents/api/0001.png",
+        "../../digestion/threshold/research/2026-10-08-military/retrievals/public-documents/api/0002.png"
+      ]
+    },
+    {
+      "source_id": "O02",
+      "title": "Secretary Hegseth announces six major initiatives at Quantico speech",
+      "url": "https://www.war.gov/News/Releases/Release/Article/4615424/secretary-hegseth-announces-six-major-initiatives-at-quantico-speech/",
+      "publication_date": "2026-09-30",
+      "retrieved_date_utc": "2026-10-08",
+      "locator": "ORA item in indexed announcement",
+      "access_level": "Official indexed excerpt; full endpoint403",
+      "source_family": "September30 Pentagon announcement",
+      "short_claim": "Announcement context for ORA.",
+      "limitations": "No inference that ORA controls other same-day initiatives; full release not inspected."
+    },
+    {
+      "source_id": "O03",
+      "title": "Archbishop Broglio statement on establishment of ORA",
+      "url": "https://www.milarch.org/archbishop-broglios-statement-on-the-establishment-of-the-office-of-religious-affairs/",
+      "publication_date": "2026-10-01",
+      "retrieved_date_utc": "2026-10-08",
+      "locator": "Two-paragraph statement",
+      "access_level": "Primary stakeholder statement; full page read",
+      "source_family": "Archdiocese response",
+      "short_claim": "Welcomes improved support and faster decisions.",
+      "limitations": "Interested stakeholder expectation, not evidence of outcomes."
+    },
+    {
+      "source_id": "O04",
+      "title": "Western Civilization to1500 course elective flyer",
+      "url": "https://dodea.widen.net/content/dweya6jhob/web/western-civilization-1500-course-elective.pdf",
+      "publication_date": null,
+      "retrieved_date_utc": "2026-10-08",
+      "locator": "Single-page flyer; elective label, course note, format and resources",
+      "access_level": "Official hosted image; visually inspected, full received bytes retained",
+      "source_family": "DoDEA school-year2026–27 course description",
+      "short_claim": "Grades9–12 elective, year-long online, world-history credit and named text.",
+      "limitations": "URL ends .pdf but endpoint delivered JPEG. Undated flyer; actual enrollment, schedules, syllabus and grading not established.",
+      "observation_period": "school year2026–27",
+      "local_materials": [
+        "../../digestion/threshold/research/2026-10-08-military/retrievals/public-documents/api/0003.jpg"
+      ]
+    },
+    {
+      "source_id": "O05",
+      "title": "AP Exclusive: US military base schools put new emphasis on Western civilization and Christianity",
+      "url": "https://apnews.com/article/c29537087c0dbf3271cf293a9b17053f",
+      "publication_date": "2026-08-14",
+      "retrieved_date_utc": "2026-10-08",
+      "locator": "Textbook debate and course rollout",
+      "access_level": "AP indexed text and syndication-derived reporting; AP direct open unavailable",
+      "source_family": "AP August14 curriculum investigation",
+      "short_claim": "Reports textbook criticism and author disagreement before ORA.",
+      "limitations": "Not a full textbook/classroom audit. Multiple syndications count as one reporting family."
+    },
+    {
+      "source_id": "O06",
+      "title": "Resilience in the lives of military children: The effect of chapel relationships",
+      "url": "https://www.army.mil/article/221465/resilience_in_the_lives_of_military_children_the_effect_of_chapel_relationships",
+      "publication_date": "2019-06-14",
+      "retrieved_date_utc": "2026-10-08",
+      "locator": "Body and final Stuttgart program paragraph",
+      "access_level": "Official Army article, full page read",
+      "source_family": "Stuttgart religious-education program account",
+      "short_claim": "Documents older local child/youth religious support.",
+      "limitations": "Program official describes rationale; no controlled benefit study or nationwide choice audit."
+    },
+    {
+      "source_id": "O07",
+      "title": "The Golden Thread, Volume I: The Ancient World and Christendom",
+      "url": "https://www.encounterbooks.com/books/golden-thread-history-western-tradition/",
+      "publication_date": "2025-08-26",
+      "retrieved_date_utc": "2026-10-08",
+      "locator": "Publication details/ISBN9781641773997 and author; related split-part listings",
+      "access_level": "Publisher indexed product text",
+      "source_family": "Encounter Books edition metadata",
+      "short_claim": "Identifies2025 combined volume and authorship.",
+      "limitations": "Publication date is book availability, not page date. Publisher metadata does not validate scholarship or classroom use."
+    },
+    {
+      "source_id": "O08",
+      "title": "FFRF investigates Hegseth’s new religious office at Pentagon",
+      "url": "https://ffrf.org/news/releases/ffrf-investigates-hegseths-new-religious-office-at-pentagon/",
+      "publication_date": "2026-10-01",
+      "retrieved_date_utc": "2026-10-08",
+      "locator": "FOIA targets and disclaimer discussion",
+      "access_level": "Primary advocacy announcement, public page read",
+      "source_family": "FFRF ORA records inquiry",
+      "short_claim": "Announces scrutiny and intended records requests.",
+      "limitations": "No response production, adjudicated violation or independent prevalence finding established."
+    }
+  ]
+}

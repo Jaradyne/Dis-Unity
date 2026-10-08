@@ -1,0 +1,95 @@
+{
+  "agent": "military_legal_checks",
+  "cycle": "RC-005",
+  "status": "complete_with_limits",
+  "scope": "Bounded pre-2025 baseline and 2025-present JAG/legal safeguard changes; no ORA causal link assumed",
+  "evidence_cutoff": "2026-10-08",
+  "retrieval_date_utc": "2026-10-08",
+  "authorization": "AGENTS bounded specialist research; coordinator-only canonical changes",
+  "canonical_admission": false,
+  "external_provider_calls": false,
+  "queries": [
+    "site.law.cornell.edu 10 USC Judge Advocate General independent legal advice",
+    "site.defense.gov judge advocates general February 2025 removal",
+    "site.justice.gov military lawyers immigration judges 2025 2026 600 300",
+    "Hegseth 250 military lawyers special assistant United States attorneys 2025 Department Justice",
+    "site.justice.gov eoir 2025 2026 temporary immigration judges military 600",
+    "site.defense.gov February 21 2025 judge advocates general nominations statement",
+    "site.war.gov military justice 2025 review Hegseth",
+    "site.congress.gov IN12664 immigration judges 2026",
+    "site.army.mil Joseph Berger Bobby Christine judge advocate general 2025",
+    "Military Justice Review Panel May 8,2025 report",
+    "Hegseth allocation of legal resources March2026",
+    "Hegseth 48 attorneys memorandum October27,2025 PDF",
+    "Military Justice Review Panel 2025 final site:media.defense.gov",
+    "Military Justice Review Panel 2025 report site:mjrp.osd.mil",
+    "judge advocate Navy vacant February2025",
+    "Thomas Bligh Stock judge advocate 2025 replacement",
+    "Military Justice Review Panel May8 report pdf",
+    "site.af.mil Eason Judge Advocate General 2026",
+    "site.navy.mil French Judge Advocate General retirement2024"
+  ],
+  "access_failures": [
+    {
+      "target": "uscode.house.gov preliminary 7037 and806",
+      "result": "Maintenance page"
+    },
+    {
+      "target": "GovInfo guessed 2024 statute HTML URLs",
+      "result": "Internal fetch errors; /link/uscode PDF succeeded"
+    },
+    {
+      "target": "DoD/War February21,2025 nomination release",
+      "result": "403/internal fetch error"
+    },
+    {
+      "target": "Congress.gov CRS IN12664 and enacted-law PDF",
+      "result": "Internal fetch error; CRS public mirror and GovInfo enacted-law PDF succeeded"
+    },
+    {
+      "target": "Army leadership page and National Guard Christine bio",
+      "result": "Internal fetch errors; GoArmyJAG About page succeeded"
+    },
+    {
+      "target": "Official March2026 memo and MJRP report links; mjrp.osd.mil/Reports/",
+      "result": "Internal fetch errors; legal-functions memo obtained NIMJ mirror; MJRP final report unresolved"
+    },
+    {
+      "target": "AP February2025 article and guessed PBS mirror URL",
+      "result": "Internal fetch errors; only search excerpt used"
+    },
+    {
+      "target": "Air Force Eason bio full page",
+      "result": "Internal fetch error; indexed official excerpt provisional"
+    },
+    {
+      "target": "PublicNow/GlobalSecurity nomination release mirrors",
+      "result": "Internal fetch error/403"
+    }
+  ],
+  "method_limitations": [
+    "Search/open tool excerpts are not raw HTTP request/response receipts.",
+    "First search engine returned mostly irrelevant results; subsequent routine searches used system2, primary documents opened directly.",
+    "17 ledger entries include ancillary statutory/version/personnel checks; approximately8 core document families.",
+    "PDF skill read; web PDF screenshots used to verify statute provisions and two-column memo allocation table. No PDF artifact created."
+  ],
+  "outputs": [
+    "reports/military-conscience-and-institutional-safeguards/LEGAL_AND_OVERSIGHT_CONTEXT.md",
+    "reports/military-conscience-and-institutional-safeguards/legal_sources.json"
+  ],
+  "web_research_calls": 10,
+  "scope_limit": "No further browsing after ten calls; specialist report staged, no canonical admission.",
+  "verified_findings": [
+    "FY2026 NDAA counterchecks enacted December18,2025",
+    "Navy TJAG vacancy preceded February2025 nomination request",
+    "600 requested attorneys were phased, not simultaneous deployed count",
+    "March2026 memo retains military legal functions and statutory independence"
+  ],
+  "unresolved": [
+    "Full acting/confirmation succession chronology",
+    "Actual military detail person-months and home-unit workload",
+    "Current MJRP operations and original cessation records",
+    "Implementation of March2026 legal-functions assessment"
+  ],
+  "review": "Self-reviewed for source provenance, date/version conflation and authorization-versus-implementation; independent coordinator review pending"
+}

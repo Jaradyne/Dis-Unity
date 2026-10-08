@@ -1,0 +1,97 @@
+{
+  "finished_at": "2026-10-08T02:57:03.880423+00:00",
+  "record_id": "API-public-documents-0002",
+  "redaction": {
+    "policy": "Credentials and authentication cookies only; no content-field allowlist.",
+    "replacement_count": 0
+  },
+  "request": {
+    "body": null,
+    "headers": [],
+    "method": "GET",
+    "url": "https://americanagecko.com/wp-content/uploads/2026/09/memo-page-2.png"
+  },
+  "response": {
+    "body": {
+      "complete": true,
+      "encoding": "base64",
+      "received_bytes": 1035400,
+      "saved_sha256": "6af32fe0105f4cbca6e00178ad30819a7d0aac62bf2f30dba93cdcc9491dd4f0",
+      "content_file": "0002.png",
+      "original_inline_encoding": "base64",
+      "storage": "external_bytes_same_directory"
+    },
+    "headers": [
+      [
+        "Server",
+        "nginx"
+      ],
+      [
+        "Date",
+        "Thu, 08 Oct 2026 02:57:03 GMT"
+      ],
+      [
+        "Content-Type",
+        "image/png"
+      ],
+      [
+        "Content-Length",
+        "1035400"
+      ],
+      [
+        "Connection",
+        "close"
+      ],
+      [
+        "Strict-Transport-Security",
+        "max-age=31536000"
+      ],
+      [
+        "Last-Modified",
+        "Thu, 01 Oct 2026 01:25:12 GMT"
+      ],
+      [
+        "ETag",
+        "\"6abdb678-fcc88\""
+      ],
+      [
+        "Expires",
+        "Fri, 08 Oct 2027 02:57:03 GMT"
+      ],
+      [
+        "Cache-Control",
+        "max-age=31536000"
+      ],
+      [
+        "Access-Control-Allow-Origin",
+        "*"
+      ],
+      [
+        "Access-Control-Allow-Methods",
+        "GET, HEAD"
+      ],
+      [
+        "X-ac",
+        "1.sjc _atomic_bur MISS"
+      ],
+      [
+        "Accept-Ranges",
+        "bytes"
+      ],
+      [
+        "Alt-Svc",
+        "clear"
+      ],
+      [
+        "Server-Timing",
+        "a8c-cdn, dc;desc=sjc, cache;desc=MISS;dur=57.0"
+      ]
+    ],
+    "http_status": 200
+  },
+  "run_id": "public-documents",
+  "schema_version": "api-exchange-1",
+  "started_at": "2026-10-08T02:56:56.216723+00:00",
+  "state": "response_received",
+  "packet_note": "Original recorder body separated losslessly into adjacent file; request/response metadata retained."
+}
