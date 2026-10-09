@@ -72,6 +72,11 @@ Three preserved received-image bodies can be opened via GitHub:
 
 The first two are mirrored facsimiles and should not be misidentified as verified original-host bytes. The flyer endpoint has `.pdf` in its URL but delivered JPEG bytes.
 
+
+## Shared retroactive memory once, not once per Bee
+
+Jared wants the historical intake to become **shared inherited memory**, as with diesel. Work should construct a single source-versioned, indexed institutional-history spine that specialized Bees consult by stable references. Each specialist supplies *task-local retrieval, comparison, exceptions and fresh evidence*, not its own redundant reconstruction of the same twentieth-century past. Preserve provenance and differential subject scope; one shared event source does not make independent child evidence. Load historical depth only as a Question warrants it, with provenance and update rules, rather than copying giant history contexts into every Bee.
+
 ## Chat and Work next
 
 **Chat Aiden:** follow Jared's questions rather than mechanically progressing through chapters; explain the legal, organizational-cultural and observed-outcome layers without reassurance by disclaimer. Check which claim the public record can answer and which needs an explicit unknown or FOIA. Discuss historical terms whose referents remain unresolved.
