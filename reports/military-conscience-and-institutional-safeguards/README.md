@@ -24,6 +24,7 @@ That possibility deserves investigation as a connected institutional process. A 
 3. [Spiritual-readiness baseline](SPIRITUAL_READINESS_BASELINE.md) — nonreligious options, assessments, coding and chaplain endorsement.
 4. [Legal and oversight context](LEGAL_AND_OVERSIGHT_CONTEXT.md) — JAG changes, civilian details, statutory counterchecks and unresolved operational status.
 5. [Digest review questions](DIGEST_REVIEW.md) — possible connections, disconfirming evidence and the next small collection targets.
+   - [Digest Aiden's review](DIGEST_AIDEN_REVIEW.md) — continuity/coupling diagnosis, suggested cross-lane edge model, new primary-source leads and Chat/Work handoffs (advisory, not admitted evidence).
 6. [Source index](SOURCES.md) and [method/review record](METHOD_AND_REVIEW.md) — exact URLs, dates, access limits, provenance and corrections.
 
 The [digestion materials packet](../../digestion/threshold/research/2026-10-08-military/README.md) contains the preserved memo scans, course flyer and recorded retrieval metadata. Source links and JSON can be read directly in GitHub. No external inference, Bee activation or scheduled follow-up is part of this packet. The proposed Bee in [Chat's PR #33](https://github.com/Jaradyne/Dis-Unity/pull/33) remains a separate design decision after review.
