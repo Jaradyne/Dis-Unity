@@ -1,0 +1,34 @@
+{
+  "packet_version": "chat-design-handoff-1",
+  "packet_id": "CHAT-20261002-INSTITUTIONAL-CONSTRAINTS-BEE",
+  "actor": {
+    "runtime": "Chat",
+    "provider": "OpenAI",
+    "model": "GPT-5.6 Sol"
+  },
+  "status": "active_work_request",
+  "goal": "Create a neutral, inspectable U.S. institutional-change collector capable of tracking executive-power concentration mechanisms and countervailing checks without regime prediction, political scoring or motive inference.",
+  "seed_lenses": [
+    "V-Dem",
+    "Bright Line Watch",
+    "Freedom House"
+  ],
+  "priority_seed": "ORA implementation and military-professionalism lane",
+  "crosslinks": [
+    "FORTRESS America resilience/logistics",
+    "Garden child spawning",
+    "deterministic sensors",
+    "Doctrine Genealogy specialist"
+  ],
+  "manual_approval": "First live provider/source path or other peculiar new automation remains subject to Jared's existing approval rule.",
+  "files": [
+    "agents/institutional_constraints_bee.json",
+    "handoffs/chat_aiden/2026-10-02_institutional-constraints/DESIGN.md",
+    "handoffs/chat_aiden/2026-10-02_institutional-constraints/FUTURE_WORK.md"
+  ],
+  "activated_at": "2026-10-07",
+  "primary": "WORK_AIDEN_PRIMARY.md",
+  "primary_goal": "Build one complete retroactive military/institutional timeline lane, beginning with JAG/legal-system remaking, project it to Digest Aiden, and prove a Garden child before broadening.",
+  "design_correction": "Retroactive baseline is required: present-day small changes can only be distinguished as continuity, novelty, or convergence against prior authority/doctrine/personnel/oversight structures.",
+  "next_lane": "ORA / spiritual-fitness lineage"
+}
