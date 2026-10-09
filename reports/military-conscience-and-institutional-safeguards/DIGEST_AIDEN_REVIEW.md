@@ -2,6 +2,8 @@
 
 **Date:** 8 October 2026. **Status:** attributed advisory digestion for Jared, Chat Aiden and Work Aiden. **Evidence cutoff:** Work's RC-005 packet through 8 October UTC, plus a few separately identified public-source checks below. **Not** an RC-005 evidence-admission decision, automatic Bee birth, canonical verdict, operational authorization or claim that a coordinated program has been proved.
 
+**9 October conversation follow-up:** [Cultural pressure, wide historical baseline, public evidence and FOIA](DIGEST_FOLLOWUP_2026-10-09.md) preserves Jared's corrections and separate Chat/Work recommendations; it is advisory and adds no admitted RC-005 evidence.
+
 **Read with:** [README](README.md), [Work's questions](DIGEST_REVIEW.md), [timeline](TIMELINE.md), [methods](METHOD_AND_REVIEW.md), [ORA/youth](ORA_AND_YOUTH.md), [spiritual baseline](SPIRITUAL_READINESS_BASELINE.md), [legal and oversight](LEGAL_AND_OVERSIGHT_CONTEXT.md), [sources](SOURCES.md), and the distinct proposed [Institutional Constraints Bee in Chat PR #33](https://github.com/Jaradyne/Dis-Unity/pull/33).
 
 ## Digestion diagnosis
