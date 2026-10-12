@@ -1,0 +1,448 @@
+{
+  "research_cutoff": "2026-10-10",
+  "status": "staged_for_jared_and_digest",
+  "author": "postwar_recovery",
+  "sources": [
+    {
+      "source_id": "H01",
+      "title": "Charter of the United Nations (1945 text)",
+      "url": "https://treaties.un.org/doc/publication/ctc/uncharter.pdf",
+      "publication_date": "1945-06-26",
+      "retrieved_date_utc": "2026-10-10",
+      "locator": "Preamble; Articles 1(3), 2, 55–56",
+      "access_level": "Official UN treaty text; relevant passages parsed",
+      "source_family": "UN Charter",
+      "short_claim": "Postwar international framework articulates rights without religious distinction and limits on force.",
+      "limitations": "Signature-year baseline; this lane does not audit enforcement, reservations or every later amendment.",
+      "reference_ids": [
+        "turn94view3",
+        "turn100view11"
+      ]
+    },
+    {
+      "source_id": "H02",
+      "title": "Charter of the International Military Tribunal",
+      "url": "https://avalon.law.yale.edu/imt/imtconst.asp",
+      "publication_date": "1945-08-08",
+      "retrieved_date_utc": "2026-10-10",
+      "locator": "Articles 1, 6–8",
+      "access_level": "Primary charter transcribed by Yale Avalon",
+      "source_family": "Nuremberg IMT Charter",
+      "short_claim": "Official position and superior orders do not erase individual responsibility under this tribunal charter.",
+      "limitations": "European Axis tribunal scope; not a universal finding about all postwar conduct.",
+      "reference_ids": [
+        "turn117view3",
+        "turn122view1",
+        "turn128view7"
+      ]
+    },
+    {
+      "source_id": "H03",
+      "title": "The Nuremberg Trials, 75 Years Later",
+      "url": "https://unwritten-record.blogs.archives.gov/2020/11/17/the-nuremberg-trials-75-years-later/",
+      "publication_date": "2020-11-17",
+      "retrieved_date_utc": "2026-10-10",
+      "locator": "Opening description of November 20, 1945–October 1, 1946 proceedings",
+      "access_level": "Official archive retrospective",
+      "source_family": "NARA Nuremberg record guide",
+      "short_claim": "Dates the major trial after WWII.",
+      "limitations": "Retrospective chronology; trial opening differs from August charter date.",
+      "reference_ids": [
+        "turn126view1"
+      ]
+    },
+    {
+      "source_id": "H04",
+      "title": "Executive Order 9835: federal employee loyalty program",
+      "url": "https://www.trumanlibrary.gov/library/executive-orders/9835/executive-order-9835",
+      "publication_date": "1947-03-21",
+      "retrieved_date_utc": "2026-10-10",
+      "locator": "Parts I–II; III.2–3; IV.2; V; VI.4",
+      "access_level": "Primary presidential order transcript",
+      "source_family": "EO9835",
+      "short_claim": "Civilian loyalty screening joins information across agencies; provides administrative hearing, counsel and appeal.",
+      "limitations": "Security can limit charge/source disclosure; temporary suspension allowed. Text is not an implementation audit.",
+      "reference_ids": [
+        "turn94view0",
+        "turn129view6"
+      ]
+    },
+    {
+      "source_id": "H05",
+      "title": "National Security Act of 1947, Public Law 80-253",
+      "url": "https://www.govinfo.gov/content/pkg/STATUTE-61/pdf/STATUTE-61-Pg495.pdf",
+      "publication_date": "1947-07-26",
+      "retrieved_date_utc": "2026-10-10",
+      "locator": "Sections 2, 101, 102(d)(3), 201–208; 61 Stat.495–503",
+      "access_level": "Original law parsed",
+      "source_family": "National Security Act 1947",
+      "short_claim": "Creates NSC/CIA and coordinated military structure under civilian control; CIA expressly lacks police and internal-security functions.",
+      "limitations": "Original enactment is July26; later organizational amendments are not backdated.",
+      "reference_ids": [
+        "turn94view1",
+        "turn100view7"
+      ]
+    },
+    {
+      "source_id": "H06",
+      "title": "Executive Order 9981: equality in armed services",
+      "url": "https://www.archives.gov/milestone-documents/executive-order-9981",
+      "publication_date": "1948-07-26",
+      "retrieved_date_utc": "2026-10-10",
+      "locator": "Order clauses 1–5 and archive introduction",
+      "access_level": "Primary order with archive context",
+      "source_family": "EO9981",
+      "short_claim": "Orders equal treatment regardless of race, color, religion or national origin and creates an implementation advisory committee.",
+      "limitations": "Order does not establish immediate compliance; archival account describes resistance.",
+      "reference_ids": [
+        "turn94view2",
+        "turn113view4",
+        "turn129view7"
+      ]
+    },
+    {
+      "source_id": "H07",
+      "title": "Uniform Code of Military Justice, 1952 United States Code edition",
+      "url": "https://tile.loc.gov/storage-services/service/ll/uscode/uscode1952-00505/uscode1952-005050022/uscode1952-005050022.pdf",
+      "publication_date": "1952",
+      "retrieved_date_utc": "2026-10-10",
+      "locator": "Enactment/effective-date notes at §§551–552; Article67 (§654), PDFp17",
+      "access_level": "Historical official code; relevant provisions parsed",
+      "source_family": "UCMJ1950 historical codification",
+      "short_claim": "May5,1950 enactment; May31,1951 effectiveness; civilian judges on Court of Military Appeals.",
+      "limitations": "1952 edition is publication vintage, not enactment date; later amendments and current jurisdiction not audited.",
+      "reference_ids": [
+        "turn117view4",
+        "turn122view2"
+      ]
+    },
+    {
+      "source_id": "H08",
+      "title": "Emergency detention provisions: historical and repeal notes, Title50 Chapter23 SubchapterII",
+      "url": "https://uscode.house.gov/view.xhtml?edition=prelim&path=%2Fprelim%40title50%2Fchapter23%2Fsubchapter2",
+      "publication_date": null,
+      "retrieved_date_utc": "2026-10-10",
+      "locator": "Historical notes for former §§811–826",
+      "access_level": "Official indexed legislative-history notes; original 1950 PDF endpoint failed",
+      "source_family": "Emergency Detention Act1950",
+      "short_claim": "Identifies September23,1950 detention/emergency provisions; 1971 original repeal independently inspected.",
+      "limitations": "Do not treat current compilation as original 1950 text. COMPS-10345 misleading discovery title led to TitlesI/III amended2006, excluded from evidentiary basis. Detailed powers/actual use not reconstructed.",
+      "reference_ids": [
+        "turn126search8",
+        "turn126search6"
+      ],
+      "event_date": "1950-09-23",
+      "original_url": "https://www.govinfo.gov/content/pkg/STATUTE-64/pdf/STATUTE-64-Pg987.pdf"
+    },
+    {
+      "source_id": "H09",
+      "title": "Public Law92-128: Non-Detention Act",
+      "url": "https://www.govinfo.gov/content/pkg/STATUTE-85/pdf/STATUTE-85-Pg347-2.pdf",
+      "publication_date": "1971-09-25",
+      "retrieved_date_utc": "2026-10-10",
+      "locator": "85 Stat.347–348, §§1–2",
+      "access_level": "Original law parsed",
+      "source_family": "Non-Detention Act1971",
+      "short_claim": "Repeals Emergency Detention Act title and requires congressional authority for federal detention of citizens.",
+      "limitations": "Citizen-specific statutory protection; not an absolute detention prohibition and not a general noncitizen immigration remedy.",
+      "reference_ids": [
+        "turn94view9",
+        "turn100view10"
+      ]
+    },
+    {
+      "source_id": "H10",
+      "title": "The Immigration and Nationality Act of 1952",
+      "url": "https://history.state.gov/milestones/1945-1952/immigration-act",
+      "publication_date": null,
+      "retrieved_date_utc": "2026-10-10",
+      "locator": "Quota, naturalization and Cold War debate paragraphs",
+      "access_level": "Official historian retrospective",
+      "source_family": "State Department INA1952 history",
+      "short_claim": "Continues national-origins quotas while removing racial naturalization exclusions; documents security/exclusion debate.",
+      "limitations": "Retired and unmaintained history page; original act unavailable in this bounded retrieval.",
+      "reference_ids": [
+        "turn100view2"
+      ]
+    },
+    {
+      "source_id": "H11",
+      "title": "FRUS1952–1954, volumeI part2, document236 editorial note",
+      "url": "https://history.state.gov/historicaldocuments/frus1952-54v01p2/d236",
+      "publication_date": null,
+      "retrieved_date_utc": "2026-10-10",
+      "locator": "Enactment and effective-date paragraph",
+      "access_level": "Official documentary edition editorial chronology",
+      "source_family": "State Department INA1952 history",
+      "short_claim": "INA enacted June27,1952 over veto; effective December24,1952.",
+      "limitations": "Edition publication date not established; source is editorial chronology rather than statute text.",
+      "reference_ids": [
+        "turn123view3"
+      ]
+    },
+    {
+      "source_id": "H12",
+      "title": "Overview of INS History",
+      "url": "https://www.uscis.gov/sites/default/files/document/fact-sheets/INSHistory.pdf",
+      "publication_date": null,
+      "retrieved_date_utc": "2026-10-10",
+      "locator": "Indexed p7 phrase naming1954 Mexican-border enforcement initiative",
+      "access_level": "Agency history indexed excerpt; full PDF endpoint failed",
+      "source_family": "USCIS INS history",
+      "short_claim": "Identifies1954 Operation Wetback as a targeted deportation initiative long before ICE.",
+      "limitations": "Only event existence/year used. No deportation totals, citizen-removal estimates or operational detail inferred from inaccessible full text. Historical official name contains a slur.",
+      "reference_ids": [
+        "turn98search48"
+      ]
+    },
+    {
+      "source_id": "H13",
+      "title": "Executive Order10631: Code of Conduct",
+      "url": "https://www.archives.gov/federal-register/codification/executive-order/10631.html",
+      "publication_date": "1955-08-17",
+      "retrieved_date_utc": "2026-10-10",
+      "locator": "Opening combat/captivity instruction; ArticleVI; amendment notes",
+      "access_level": "Official codification, incorporating later amendments",
+      "source_family": "Military Code of Conduct",
+      "short_claim": "Contains God language in a code addressed to combat and captivity.",
+      "limitations": "Displayed ArticleVI includes1988 amendment; do not present whole codified wording as verbatim1955 text or infer a general religious promotion test.",
+      "reference_ids": [
+        "turn110view1",
+        "turn100view8",
+        "turn113view3"
+      ]
+    },
+    {
+      "source_id": "H14",
+      "title": "Dwight Eisenhower farewell address",
+      "url": "https://www.archives.gov/milestone-documents/president-dwight-d-eisenhowers-farewell-address",
+      "publication_date": "1961-01-17",
+      "retrieved_date_utc": "2026-10-10",
+      "locator": "Transcript military establishment/armaments industry and unwarranted influence paragraphs",
+      "access_level": "Primary speech with archive context",
+      "source_family": "Eisenhower farewell",
+      "short_claim": "Warns that a permanent military-industrial relationship can acquire misplaced political power.",
+      "limitations": "Contemporaneous warning, not a quantified measure or proof about a later agency.",
+      "reference_ids": [
+        "turn113view2",
+        "turn129view8"
+      ]
+    },
+    {
+      "source_id": "H15",
+      "title": "Public Law89-236: Immigration and Nationality Act amendments1965",
+      "url": "https://www.govinfo.gov/content/pkg/STATUTE-79/pdf/STATUTE-79-Pg911.pdf",
+      "publication_date": "1965-10-03",
+      "retrieved_date_utc": "2026-10-10",
+      "locator": "79 Stat.911–922, §1 and preference provisions; House retrospective introduction",
+      "access_level": "Original law and official House historical page",
+      "source_family": "INA1965",
+      "short_claim": "Replaces national-origins quota allocation with a new admissions/preferences structure.",
+      "limitations": "Transition and numerical limits remain; not an end to immigration exclusion or enforcement. House page contains inconsistent image-caption Congress metadata, not relied upon.",
+      "reference_ids": [
+        "turn123view4",
+        "turn117view7",
+        "turn126view5"
+      ],
+      "companion_urls": [
+        "https://history.house.gov/Historical-Highlights/1951-2000/Immigration-and-Nationality-Act-of-1965/"
+      ]
+    },
+    {
+      "source_id": "H16",
+      "title": "Welsh v. United States, 398 U.S.333",
+      "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep398/usrep398333/usrep398333.pdf",
+      "publication_date": "1970-06-15",
+      "retrieved_date_utc": "2026-10-10",
+      "locator": "Syllabus; opinion pp339–344; Harlan concurrence",
+      "access_level": "Official United States Reports",
+      "source_family": "Welsh conscientious objection",
+      "short_claim": "Reverses denial of conscientious objection for deeply held nontraditional moral/ethical convictions.",
+      "limitations": "Scope concerns sincere opposition to participation in war in any form; plurality statutory reasoning and concurrence differ. Not exemption for every policy disagreement.",
+      "reference_ids": [
+        "turn110view3",
+        "turn122view7"
+      ]
+    },
+    {
+      "source_id": "H17",
+      "title": "Laird v. Tatum, 408 U.S.1",
+      "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep408/usrep408001/usrep408001.pdf",
+      "publication_date": "1972-06-26",
+      "retrieved_date_utc": "2026-10-10",
+      "locator": "Syllabus; majority pp10–16, especially specific harm discussion",
+      "access_level": "Official United States Reports",
+      "source_family": "Laird domestic Army surveillance challenge",
+      "short_claim": "Standing barrier defeats challenge based on subjective chill absent sufficient specific injury or threat.",
+      "limitations": "Jurisdiction/standing ruling does not approve every surveillance practice on its merits; dissents disagree.",
+      "reference_ids": [
+        "turn94view8",
+        "turn100view9",
+        "turn126view7"
+      ]
+    },
+    {
+      "source_id": "H18",
+      "title": "Senate history of the Church Committee",
+      "url": "https://www.senate.gov/about/powers-procedures/investigations/church-committee.htm",
+      "publication_date": null,
+      "retrieved_date_utc": "2026-10-10",
+      "locator": "Investigation and outcome sections; April29,1976 report date;1976 committee and1978 FISA",
+      "access_level": "Official Senate historical account; original BookII download failed",
+      "source_family": "Church Committee1975–1976",
+      "short_claim": "Documents investigation of intelligence abuses and reforms including permanent legislative oversight.",
+      "limitations": "Historical synthesis, not complete original report review. No blanket inference that reforms eliminated abuse.",
+      "reference_ids": [
+        "turn110view12"
+      ],
+      "original_report_index": "https://www.intelligence.senate.gov/resources/intelligence-related-commissions/"
+    },
+    {
+      "source_id": "H19",
+      "title": "Foreign Intelligence Surveillance Act of1978, Public Law95-511",
+      "url": "https://www.govinfo.gov/content/pkg/STATUTE-92/pdf/STATUTE-92-Pg1783.pdf",
+      "publication_date": "1978-10-25",
+      "retrieved_date_utc": "2026-10-10",
+      "locator": "Original §§103–105,108–111; effective-date§301",
+      "access_level": "Original law parsed",
+      "source_family": "FISA1978",
+      "short_claim": "Creates designated court-order process and oversight for defined foreign-intelligence surveillance.",
+      "limitations": "Contains exceptions/defined scope; not a universal warrant requirement for every intelligence activity. Current law differs.",
+      "reference_ids": [
+        "turn117view6",
+        "turn123view6"
+      ]
+    },
+    {
+      "source_id": "H20",
+      "title": "Refugee Act of1980, National Archives document presentation",
+      "url": "https://docsteach.org/document/refugee-act/",
+      "publication_date": "1980-03-17",
+      "retrieved_date_utc": "2026-10-10",
+      "locator": "Document citation and contextual description; NAID24465841",
+      "access_level": "Archival enrolled-act presentation and official description; full statutory PDF failed",
+      "source_family": "Refugee Act1980",
+      "short_claim": "Builds a regular refugee admissions/resettlement framework around fear of persecution, with executive/congressional consultation.",
+      "limitations": "Publication_date records displayed original act date; this lane did not audit all18 scanned pages or later implementation.",
+      "reference_ids": [
+        "turn110view11",
+        "turn117view5"
+      ]
+    },
+    {
+      "source_id": "H21",
+      "title": "Military Cooperation With Civilian Law Enforcement Agencies, GAO testimony122004",
+      "url": "https://www.gao.gov/assets/122004.pdf",
+      "publication_date": "1983-07-28",
+      "retrieved_date_utc": "2026-10-10",
+      "locator": "PDFpp1–4:1981 law, earlier assistance, coordination and1982 DoD directive",
+      "access_level": "Contemporaneous GAO oversight testimony",
+      "source_family": "GAO military drug-interdiction review1983",
+      "short_claim": "December1,1981 legislation facilitates assistance; GAO observes increased involvement and coordination problems.",
+      "limitations": "Original PL97-86 not retrieved. GAO uses Posse Comitatus amendment shorthand; do not infer complete repeal of direct-enforcement limits.",
+      "reference_ids": [
+        "turn117view1",
+        "turn123view1",
+        "turn128view2"
+      ],
+      "event_date": "1981-12-01"
+    },
+    {
+      "source_id": "H22",
+      "title": "FY1997 National Defense Authorization Act, Public Law104-201",
+      "url": "https://www.govinfo.gov/content/pkg/PLAW-104publ201/pdf/PLAW-104publ201.pdf",
+      "publication_date": "1996-09-23",
+      "retrieved_date_utc": "2026-10-10",
+      "locator": "§1033;110 Stat.2639–2640;PDFpp219–220",
+      "access_level": "Original law parsed",
+      "source_family": "NDAA1997 section1033",
+      "short_claim": "Authorizes transfer of excess DoD property, including arms, suitable for federal/state law-enforcement use.",
+      "limitations": "Authorization is not a count of actual recipients, transfers or missions. Original1996 rule distinct from later amendments.",
+      "reference_ids": [
+        "turn107view9",
+        "turn128view5"
+      ]
+    },
+    {
+      "source_id": "H23",
+      "title": "IIRIRA, divisionC of Public Law104-208",
+      "url": "https://www.govinfo.gov/content/pkg/PLAW-104publ208/pdf/PLAW-104publ208.pdf",
+      "publication_date": "1996-09-30",
+      "retrieved_date_utc": "2026-10-10",
+      "locator": "§133/287(g):3009-563;§302:3009-580;§309:3009-625;closed-base pilot:3009-655",
+      "access_level": "Original law; selected provisions parsed",
+      "source_family": "IIRIRA1996",
+      "short_claim": "Delegated enforcement, expedited removal and closed-military-base detention pilot provisions precede ICE.",
+      "limitations": "Different provisions have different effective dates; §309 titleIII-A formula yieldsApril1,1997. No pilot implementation or current program prevalence established.",
+      "reference_ids": [
+        "turn129view3",
+        "turn122view5",
+        "turn123view9",
+        "turn129view2"
+      ]
+    },
+    {
+      "source_id": "H24",
+      "title": "Authorization for Use of Military Force, Public Law107-40",
+      "url": "https://www.govinfo.gov/content/pkg/PLAW-107publ40/pdf/PLAW-107publ40.pdf",
+      "publication_date": "2001-09-18",
+      "retrieved_date_utc": "2026-10-10",
+      "locator": "§2;115 Stat.224–225",
+      "access_level": "Original joint resolution parsed",
+      "source_family": "AUMF2001",
+      "short_claim": "Authorizes force against specified9/11-connected nations, organizations or persons and harborers.",
+      "limitations": "Does not itself establish ICE or grant general immigration police authority; later interpretation not reconstructed here.",
+      "reference_ids": [
+        "turn117view14"
+      ]
+    },
+    {
+      "source_id": "H25",
+      "title": "USA PATRIOT Act, Public Law107-56",
+      "url": "https://www.govinfo.gov/content/pkg/PLAW-107publ56/pdf/PLAW-107publ56.pdf",
+      "publication_date": "2001-10-26",
+      "retrieved_date_utc": "2026-10-10",
+      "locator": "§412/INA236A;115 Stat.350–352;PDFpp80–82",
+      "access_level": "Original law parsed",
+      "source_family": "PATRIOT2001",
+      "short_claim": "Adds security-certified noncitizen detention with proceedings deadline, periodic review and a specified habeas route.",
+      "limitations": "Selected clause only; no count of actual use or survey of later case law. Do not equate all immigration detention with this provision.",
+      "reference_ids": [
+        "turn129view5"
+      ]
+    },
+    {
+      "source_id": "H26",
+      "title": "Homeland Security Act of2002, Public Law107-296",
+      "url": "https://www.govinfo.gov/content/pkg/PLAW-107publ296/pdf/PLAW-107publ296.pdf",
+      "publication_date": "2002-11-25",
+      "retrieved_date_utc": "2026-10-10",
+      "locator": "§§101–102;TitleIV;§471;original effective and transfer provisions",
+      "access_level": "Original law parsed",
+      "source_family": "Homeland Security Act2002",
+      "short_claim": "Creates DHS and divides legacy immigration functions; abolishes INS after transfers and bars recombining the two specified bureaus.",
+      "limitations": "Enactment, department effectiveness and March2003 operational transfers are different milestones. No claim ICE is an armed service.",
+      "reference_ids": [
+        "turn104view4",
+        "turn110view9",
+        "turn126view6"
+      ]
+    },
+    {
+      "source_id": "H27",
+      "title": "Protecting the Homeland: Building a Layered and Coordinated Approach to Border Security, House hearing",
+      "url": "https://www.govinfo.gov/content/pkg/CHRG-108hhrg24602/html/CHRG-108hhrg24602.htm",
+      "publication_date": "2004-06-15",
+      "retrieved_date_utc": "2026-10-10",
+      "locator": "ICE testimony Background III, parsed lines383–405",
+      "access_level": "Official hearing; contemporaneous agency testimony",
+      "source_family": "ICE leadership2004 institutional account",
+      "short_claim": "Dates ICE formation toMarch1,2003 and describes combination of legacy INS and Customs enforcement functions.",
+      "limitations": "Descriptive leadership testimony is interested evidence, not independent validation of claimed effectiveness;2004 organizational description not assumed current.",
+      "reference_ids": [
+        "turn123view2",
+        "turn126view3"
+      ]
+    }
+  ]
+}

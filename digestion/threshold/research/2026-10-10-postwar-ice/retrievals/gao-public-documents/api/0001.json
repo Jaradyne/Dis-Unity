@@ -1,0 +1,92 @@
+{
+  "finished_at": "2026-10-10T00:54:59.324729+00:00",
+  "record_id": "API-gao-public-documents-0001",
+  "redaction": {
+    "policy": "Credentials and authentication cookies only; no content-field allowlist.",
+    "replacement_count": 0
+  },
+  "request": {
+    "body": null,
+    "headers": [
+      [
+        "User-agent",
+        "Dis-Unity public research/1.0"
+      ],
+      [
+        "Accept",
+        "application/pdf"
+      ]
+    ],
+    "method": "GET",
+    "url": "https://www.gao.gov/assets/gao-26-108886.pdf"
+  },
+  "response": {
+    "body": {
+      "complete": true,
+      "encoding": "external-file",
+      "received_bytes": 1908421,
+      "saved_sha256": "7d5316dff4f3abd0c385a22d7a7a300ae40ceec358c16ca3ee39def202f17e85",
+      "original_record_encoding": "base64",
+      "content_file": "0001.pdf"
+    },
+    "headers": [
+      [
+        "Content-Type",
+        "application/pdf"
+      ],
+      [
+        "Content-Length",
+        "1908421"
+      ],
+      [
+        "X-Content-Type-Options",
+        "nosniff"
+      ],
+      [
+        "Last-Modified",
+        "Tue, 09 Jun 2026 11:22:51 GMT"
+      ],
+      [
+        "Accept-Ranges",
+        "bytes"
+      ],
+      [
+        "X-Request-ID",
+        "v-37b0baa6-c445-11f1-bbb8-47d5a2b4d27a"
+      ],
+      [
+        "X-AH-Environment",
+        "prod"
+      ],
+      [
+        "X-Age",
+        "0"
+      ],
+      [
+        "Cache-Control",
+        "max-age=7200"
+      ],
+      [
+        "Expires",
+        "Sat, 10 Oct 2026 02:54:59 GMT"
+      ],
+      [
+        "Date",
+        "Sat, 10 Oct 2026 00:54:59 GMT"
+      ],
+      [
+        "Connection",
+        "close"
+      ],
+      [
+        "Strict-Transport-Security",
+        "max-age=15768000"
+      ]
+    ],
+    "http_status": 200
+  },
+  "run_id": "gao-public-documents",
+  "schema_version": "api-exchange-1",
+  "started_at": "2026-10-10T00:54:55.899702+00:00",
+  "state": "response_received"
+}

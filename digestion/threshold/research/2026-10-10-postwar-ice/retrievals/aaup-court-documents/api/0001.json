@@ -1,0 +1,92 @@
+{
+  "finished_at": "2026-10-10T06:44:20.668111+00:00",
+  "record_id": "API-aaup-court-documents-0001",
+  "redaction": {
+    "policy": "Credentials and authentication cookies only; no content-field allowlist.",
+    "replacement_count": 0
+  },
+  "request": {
+    "body": null,
+    "headers": [
+      [
+        "User-agent",
+        "Dis-Unity public research/1.0"
+      ],
+      [
+        "Accept",
+        "application/pdf"
+      ]
+    ],
+    "method": "GET",
+    "url": "https://kfai-documents.s3.amazonaws.com/documents/baaa1684e1/Opinion.pdf"
+  },
+  "response": {
+    "body": {
+      "complete": true,
+      "encoding": "external-file",
+      "received_bytes": 630835,
+      "saved_sha256": "f3ae6ef28838d8e123a71c5eb57663f5d2330fcac9aecb3de4da512db5b4c65e",
+      "original_record_encoding": "base64",
+      "content_file": "0001.pdf"
+    },
+    "headers": [
+      [
+        "x-amz-id-2",
+        "wP5DGrCPMtBpYOl+r3CZ8NsJEMbXt/F/LtBKG0i7qddGo3vCxYYKMg4mYKaJ+JAmnw37BBBCtBIYw33e4UtKVn6U/bfFEoxZ"
+      ],
+      [
+        "x-amz-request-id",
+        "MTKYXTWN8NRQMFPH"
+      ],
+      [
+        "Server",
+        "AmazonS3"
+      ],
+      [
+        "Date",
+        "Sat, 10 Oct 2026 06:44:21 GMT"
+      ],
+      [
+        "Last-Modified",
+        "Tue, 30 Sep 2025 17:14:18 GMT"
+      ],
+      [
+        "ETag",
+        "\"4b67791efa5e83e9dda072bcf004f36c\""
+      ],
+      [
+        "x-amz-server-side-encryption",
+        "AES256"
+      ],
+      [
+        "Content-Disposition",
+        "inline"
+      ],
+      [
+        "x-amz-version-id",
+        "null"
+      ],
+      [
+        "Accept-Ranges",
+        "bytes"
+      ],
+      [
+        "Content-Type",
+        "application/pdf"
+      ],
+      [
+        "Content-Length",
+        "630835"
+      ],
+      [
+        "Connection",
+        "close"
+      ]
+    ],
+    "http_status": 200
+  },
+  "run_id": "aaup-court-documents",
+  "schema_version": "api-exchange-1",
+  "started_at": "2026-10-10T06:44:16.156853+00:00",
+  "state": "response_received"
+}

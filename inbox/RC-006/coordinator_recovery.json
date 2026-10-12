@@ -1,0 +1,87 @@
+{
+  "agent": "coordinator_recovery",
+  "author": "Work Aiden",
+  "cycle_id": "RC-006",
+  "status": "complete_with_limits",
+  "retrieved_date_utc": "2026-10-10",
+  "interruption": "Usage interruption ended the original three specialist threads. Their saved checkpoints remain unchanged; no completed original specialist report exists. Two bounded recovery specialists resume history and operations; coordinator resumes rights cases and integration.",
+  "verified_primary_sources": [
+    {
+      "ref": "turn53view0",
+      "url": "https://www.gao.gov/products/gao-26-108886",
+      "finding": "Army contracting and ICE detention failures at Camp East Montana; current recommendation statuses open"
+    },
+    {
+      "ref": "turn63view0",
+      "url": "https://www.gao.gov/assets/gao-26-108663.pdf",
+      "finding": "September2026 detention expansion audit; source explicitly separates planned facilities and operating capacity"
+    },
+    {
+      "ref": "turn85view0",
+      "url": "https://www.govinfo.gov/content/pkg/PLAW-119publ21/html/PLAW-119publ21.htm",
+      "finding": "Section90003 $45b detention; section100052 $29.85b immigration enforcement throughSept2029"
+    },
+    {
+      "ref": "turn89view0",
+      "url": "https://www.govinfo.gov/content/pkg/PLAW-119publ98/html/PLAW-119publ98.htm",
+      "finding": "June10 2026 enactedlaw; §202 $31.075b ICE immigrationenforcement, §102 $7.45b otherHSImissions"
+    },
+    {
+      "ref": "turn85view1",
+      "url": "https://www.gao.gov/products/gao-25-107580",
+      "finding": "May2026 updates distinguish DHS claim OIDO eliminated viaappropriation from GAO finding statutorypositionremains"
+    },
+    {
+      "ref": "turn96view0",
+      "url": "https://www.supremecourt.gov/docket/docketfiles/html/public/26A90.html",
+      "finding": "Khalil petitionfilingdeadlineextended Sept17 toOct19 2026; notgrantofreview"
+    },
+    {
+      "ref": "turn101view0",
+      "url": "https://www.hrw.org/report/2025/11/12/you-have-arrived-in-hell/torture-and-other-abuses-against-venezuelans-in-el",
+      "finding": "HRW/Cristosal investigation fortyformerCECOTdetaineeinterviews plusdocuments;252VenezuelansreturnedJuly18 2025; attributedsystematictorturefinding"
+    },
+    {
+      "ref": "turn101view1",
+      "url": "https://www.hrw.org/report/2026/10/08/to-scare-people/us-expulsions-of-third-country-nationals-to-countries-in-africa",
+      "finding": "FreshAfricanthirdcountryreport;selectedsectionsreviewinprogress"
+    },
+    {
+      "ref": "turn96view1",
+      "url": "https://www.aclu.org/press-releases/after-earning-ph-d-rumeysa-ozturk-chooses-her-next-chapter",
+      "finding": "Counsel reports OzturkApril17 2026settlementandreturntoTurkiye"
+    }
+  ],
+  "recording_limits": [
+    "Earlier ephemeral functions.store query log did not survive interruption; source IDs and dated checked claims are recovered from conversation, not fabricated raw receipts.",
+    "Built-in search/open expose parsed materials, not upstream raw HTTP or providerbilling. DirectHTTP records preserved through repositoryrecorder."
+  ],
+  "canonical_admission": false,
+  "completed_at": "2026-10-11T20:02:14.814887+00:00",
+  "research_cutoff": "2026-10-10",
+  "selected_retrievals_through": "2026-10-11",
+  "source_record_count": 121,
+  "event_record_count": 92,
+  "direct_http_exchanges": 12,
+  "independent_review": "institutional_research_review: accepted_with_limitations; six chapters and twelve catalogs, not final integration views",
+  "coordinator_validation": [
+    "JSON parsing",
+    "Source-ID resolution",
+    "Local Markdown links",
+    "All retained response-body lengths and SHA-256 hashes",
+    "Eighteen independently reviewed file hashes",
+    "Unchanged canonical state, original source catalogs and event ledger",
+    "git diff --check"
+  ],
+  "publication_status": "Reviewed local packet ready for isolated branch and PR; CI/remote verification pending",
+  "scope_additions": [
+    "DHS creation and selected uses requested by Jared October11UTC",
+    "Adjacent federal, military and state/local institutions requested by Jared October11UTC"
+  ],
+  "corrections": [
+    "Park Police signed date August25,2025 controls over September2 filename",
+    "CRS LSB10121v4 date June15,2023 controls over newer search metadata",
+    "Portland OIG confirms deployment authority while identifying execution/designation deficiencies",
+    "D.V.D. September29order updates older report legal chronology"
+  ]
+}

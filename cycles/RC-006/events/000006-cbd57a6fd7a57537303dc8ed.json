@@ -1,0 +1,15 @@
+{
+  "at": "2026-10-11T20:02:15.064945+00:00",
+  "cycle_id": "RC-006",
+  "event_id": "cbd57a6fd7a57537303dc8ed",
+  "event_type": "agent_submission",
+  "hash": "5f6033a97102f56e8333d124d68dc9789b2a55f1f6459d3788b31b7ebf8cde55",
+  "payload": {
+    "agent": "ice_removals_speech",
+    "payload_hash": "f70ed9a1a5e99078e87cbbc233eb5d19ea3ee54eecabace905cdcc86803ef609",
+    "phase": "checkpoint",
+    "submission_id": "053e1b962190dda9ad27bb9f6aeb9b273d9d9bd4d459d8f75d9b51d910e7a7d3"
+  },
+  "previous_hash": "62a6d8ce49bf6965988681e9306015193a570f6deb4be1818a92ccfd535cffc6",
+  "sequence": 6
+}

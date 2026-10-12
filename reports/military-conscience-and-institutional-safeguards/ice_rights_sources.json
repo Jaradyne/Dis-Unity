@@ -1,0 +1,236 @@
+{
+  "research_cutoff": "2026-10-10",
+  "selected_rechecks_through": "2026-10-11",
+  "sources": [
+    {
+      "source_id": "R01",
+      "title": "You Have Arrived in Hell: Torture and Other Abuses Against Venezuelans in El Salvador’s Mega Prison",
+      "url": "https://www.hrw.org/report/2025/11/12/you-have-arrived-in-hell/torture-and-other-abuses-against-venezuelans-in-el",
+      "publication_date": "2025-11-12",
+      "retrieved_date_utc": "2026-10-11",
+      "locator": "Summary; methodology; transfer chronology",
+      "access_level": "Investigators’ original report; selected sections read",
+      "source_family": "HRW/Cristosal CECOT investigation",
+      "short_claim": "Investigative findings of abuse in the 252-person Venezuelan cohort.",
+      "limitations": "Attributed NGO findings; not a criminal verdict or current prison census.",
+      "tool_refs": [
+        "turn101view0",
+        "turn134view0"
+      ],
+      "local_materials": []
+    },
+    {
+      "source_id": "R02",
+      "title": "To Scare People: US Expulsions of Third-Country Nationals to Countries in Africa",
+      "url": "https://www.hrw.org/report/2026/10/08/to-scare-people/us-expulsions-of-third-country-nationals-to-countries-in-africa",
+      "publication_date": "2026-10-08",
+      "retrieved_date_utc": "2026-10-11",
+      "locator": "Summary; methods; ICE/EOIR data limits; legal section",
+      "access_level": "Original investigation and analysis; selected sections read",
+      "source_family": "HRW 2026 third-country Africa investigation",
+      "short_claim": "Reports transfers and risks; methods distinguish administrative data from interviews.",
+      "limitations": "Finalized September 28; legal status must be updated using R03. Data not independently replicated.",
+      "tool_refs": [
+        "turn101view1",
+        "turn108view4",
+        "turn108view5",
+        "turn134view1"
+      ],
+      "local_materials": [],
+      "observation_period": "ICE data 2025-01-20 through 2026-08-05; report finalized 2026-09-28"
+    },
+    {
+      "source_id": "R03",
+      "title": "Supreme Court docket 26A406: DHS v. D.V.D.",
+      "url": "https://www.supremecourt.gov/docket/docketfiles/html/public/26A406.html",
+      "publication_date": null,
+      "retrieved_date_utc": "2026-10-10",
+      "locator": "September 29, 2026 order; linked merits case 26-426",
+      "access_level": "Primary court docket via parsed web response; direct HTTP returned 406",
+      "source_family": "D.V.D. third-country litigation",
+      "short_claim": "Stay granted and merits review scheduled.",
+      "limitations": "Procedural order, not final merits resolution. Failed raw retrieval is retained, not represented as docket bytes.",
+      "tool_refs": [
+        "turn108view0",
+        "turn114view0",
+        "turn130view0"
+      ],
+      "local_materials": [
+        "digestion/threshold/research/2026-10-10-postwar-ice/retrievals/court-dockets/api/0001.json",
+        "digestion/threshold/research/2026-10-10-postwar-ice/retrievals/court-dockets/api/0001.txt"
+      ]
+    },
+    {
+      "source_id": "R04",
+      "title": "Government application for stay in DHS v. D.V.D.",
+      "url": "https://www.supremecourt.gov/DocketPDF/26/26A406/425583/20260924155624768_DVD%20stay%20Sept%202026%20FILE%20corrected.pdf",
+      "publication_date": "2026-09-24",
+      "retrieved_date_utc": "2026-10-10",
+      "locator": "Background and argument, especially opening discussion of removal authority and process",
+      "access_level": "Primary litigation submission; relevant PDF sections read",
+      "source_family": "D.V.D. third-country litigation",
+      "short_claim": "Government’s rationale and legal position on third-country removals.",
+      "limitations": "Advocacy submission, not adjudicated facts or independent assurance audit.",
+      "tool_refs": [
+        "turn116view3"
+      ],
+      "local_materials": []
+    },
+    {
+      "source_id": "R05",
+      "title": "Khalil v. Trump: Third Circuit opinion vacating district-court orders",
+      "url": "https://ccrjustice.org/sites/default/files/attach/2026/01/132_1-15-26_Opinion-vacating-orders.pdf",
+      "publication_date": "2026-01-15",
+      "retrieved_date_utc": "2026-10-10",
+      "locator": "Background; 8 USC 1252(b)(9) analysis; majority disposition and dissent",
+      "access_level": "Primary court opinion on counsel’s mirror; relevant text read",
+      "source_family": "Khalil habeas/removal litigation",
+      "short_claim": "Majority requires statutory review route rather than district-court adjudication.",
+      "limitations": "Jurisdictional decision does not resolve constitutional merits; current custody not established.",
+      "tool_refs": [
+        "turn108view3",
+        "turn111view3",
+        "turn112view5"
+      ],
+      "local_materials": []
+    },
+    {
+      "source_id": "R06",
+      "title": "Supreme Court docket 26A90: Mahmoud Khalil v. Donald Trump et al.",
+      "url": "https://www.supremecourt.gov/docket/docketfiles/html/public/26A90.html",
+      "publication_date": null,
+      "retrieved_date_utc": "2026-10-10",
+      "locator": "September 17, 2026 extension order",
+      "access_level": "Primary docket via parsed web response; direct HTTP returned 406",
+      "source_family": "Khalil habeas/removal litigation",
+      "short_claim": "Petition deadline extended to October 19.",
+      "limitations": "Extension is not certiorari or a custody finding.",
+      "tool_refs": [
+        "turn96view0",
+        "turn130view3"
+      ],
+      "local_materials": [
+        "digestion/threshold/research/2026-10-10-postwar-ice/retrievals/court-dockets/api/0002.json",
+        "digestion/threshold/research/2026-10-10-postwar-ice/retrievals/court-dockets/api/0002.txt"
+      ]
+    },
+    {
+      "source_id": "R07",
+      "title": "After Earning Ph.D., Rümeysa Öztürk Chooses Her Next Chapter",
+      "url": "https://www.aclu.org/press-releases/after-earning-ph-d-rumeysa-ozturk-chooses-her-next-chapter",
+      "publication_date": "2026-04-17",
+      "retrieved_date_utc": "2026-10-11",
+      "locator": "Settlement, return and immigration-appeal paragraphs",
+      "access_level": "Counsel’s public statement",
+      "source_family": "Öztürk litigation and settlement",
+      "short_claim": "Counsel reports settlement, return and joint termination request.",
+      "limitations": "Interested-party account; full settlement and final immigration disposition not independently audited.",
+      "tool_refs": [
+        "turn96view1",
+        "turn134view2"
+      ],
+      "local_materials": []
+    },
+    {
+      "source_id": "R08",
+      "title": "AAUP v. Rubio: Findings of Fact and Rulings of Law, Document 261",
+      "url": "https://kfai-documents.s3.amazonaws.com/documents/baaa1684e1/Opinion.pdf",
+      "publication_date": "2025-09-30",
+      "retrieved_date_utc": "2026-10-10",
+      "locator": "Printed pages 143–147; conclusion; case 1:25-cv-10685",
+      "access_level": "Primary court opinion, counsel-hosted facsimile; direct HTTP PDF retained; relevant extracted text read",
+      "source_family": "AAUP speech-targeting litigation",
+      "short_claim": "Posttrial finding of unconstitutional political-speech targeting.",
+      "limitations": "District-court finding; appellate and remedy status separately recorded.",
+      "tool_refs": [
+        "turn112view0",
+        "turn114view1"
+      ],
+      "local_materials": [
+        "digestion/threshold/research/2026-10-10-postwar-ice/retrievals/aaup-court-documents/api/0001.json",
+        "digestion/threshold/research/2026-10-10-postwar-ice/retrievals/aaup-court-documents/api/0001.pdf"
+      ],
+      "mirror_index_url": "https://knightcolumbia.org/documents/ahmr9jfap2"
+    },
+    {
+      "source_id": "R09",
+      "title": "AAUP v. Rubio: Annotated Judgment, Document 313",
+      "url": "https://kfai-documents.s3.amazonaws.com/documents/66bd5dcfd8/judgment.pdf",
+      "publication_date": "2026-01-22",
+      "retrieved_date_utc": "2026-10-10",
+      "locator": "Parts I–IV, printed pages 2–4",
+      "access_level": "Primary court judgment, counsel-hosted facsimile; direct HTTP PDF retained and read",
+      "source_family": "AAUP speech-targeting litigation",
+      "short_claim": "Declaration, vacatur and separate sanction remedy.",
+      "limitations": "Do not conflate Part IV sanction with entire judgment; see R10.",
+      "tool_refs": [
+        "turn112view2",
+        "turn114view3"
+      ],
+      "local_materials": [
+        "digestion/threshold/research/2026-10-10-postwar-ice/retrievals/aaup-court-documents/api/0003.json",
+        "digestion/threshold/research/2026-10-10-postwar-ice/retrievals/aaup-court-documents/api/0003.pdf"
+      ],
+      "mirror_index_url": "https://knightcolumbia.org/documents/k46x7mxbwz"
+    },
+    {
+      "source_id": "R10",
+      "title": "AAUP v. Rubio: First Circuit partial-stay order",
+      "url": "https://kfai-documents.s3.amazonaws.com/documents/e554385609/Document.pdf",
+      "publication_date": "2026-04-07",
+      "retrieved_date_utc": "2026-10-10",
+      "locator": "Page 2, operative paragraph; appeals 26-1141 and 26-1195",
+      "access_level": "Primary court order, counsel-hosted facsimile; full two-page order retained and read",
+      "source_family": "AAUP speech-targeting litigation",
+      "short_claim": "Unopposed stay limited to the Part IV sanction.",
+      "limitations": "Not a merits decision. Case-index check is not an exhaustive appellate-docket audit.",
+      "tool_refs": [
+        "turn112view1",
+        "turn114view2",
+        "turn134view3"
+      ],
+      "local_materials": [
+        "digestion/threshold/research/2026-10-10-postwar-ice/retrievals/aaup-court-documents/api/0002.json",
+        "digestion/threshold/research/2026-10-10-postwar-ice/retrievals/aaup-court-documents/api/0002.pdf"
+      ],
+      "related_urls": [
+        "https://knightcolumbia.org/cases/aaup-v-rubio"
+      ],
+      "mirror_index_url": "https://knightcolumbia.org/documents/7vc73z8hsd"
+    },
+    {
+      "source_id": "R11",
+      "title": "Noem v. Abrego Garcia: Supreme Court order, 24A949",
+      "url": "https://www.supremecourt.gov/opinions/24pdf/24a949_lkhn.pdf",
+      "publication_date": "2025-04-10",
+      "retrieved_date_utc": "2026-10-10",
+      "locator": "Order and accompanying statement",
+      "access_level": "Primary Supreme Court PDF read",
+      "source_family": "Abrego Garcia wrongful-removal litigation",
+      "short_claim": "Acknowledged wrongful removal and court-directed facilitation of release.",
+      "limitations": "Historical procedural ruling; no present-custody inference.",
+      "tool_refs": [
+        "turn108view2",
+        "turn112view4"
+      ],
+      "local_materials": []
+    },
+    {
+      "source_id": "R12",
+      "title": "Kilmar Abrego Garcia returned to the US, charged with transporting people in the country illegally",
+      "url": "https://apnews.com/article/a547f3a228c92d4e69be799354037c7f",
+      "publication_date": "2025-06-06",
+      "retrieved_date_utc": "2026-10-11",
+      "locator": "Dated AP dispatch and opening return account",
+      "access_level": "Indexed AP report; used only for historical return date",
+      "source_family": "Abrego Garcia June 2025 return",
+      "short_claim": "Returned to the United States on June 6, 2025.",
+      "limitations": "Later proceedings not updated from this old report; charges are not convictions.",
+      "tool_refs": [
+        "turn140news35"
+      ],
+      "local_materials": [],
+      "summary_word_limit": 100
+    }
+  ]
+}

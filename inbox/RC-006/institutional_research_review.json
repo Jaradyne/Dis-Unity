@@ -1,0 +1,194 @@
+{
+  "agent": "institutional_research_review",
+  "status": "complete",
+  "task": "Bounded independent challenge of RC-006 historical, ICE, rights, capacity, DHS and adjacent agency research",
+  "cutoff": "2026-10-11",
+  "web_call_budget": 6,
+  "web_calls_used": 6,
+  "findings": [
+    {
+      "id": "REV006-01",
+      "severity": "minor_clarification",
+      "file": "reports/military-conscience-and-institutional-safeguards/DHS_CREATION_AND_USE.md",
+      "claim": "Portland table: authority and execution problems",
+      "finding": "Ambiguous phrase can imply the OIG found no deployment authority, whereas it affirmatively found authority and separately identified execution and designation deficiencies.",
+      "requested_change": "State that OIG confirmed deployment authority while identifying planning, training and designation deficiencies.",
+      "status": "corrected_by_coordinator_and_rechecked",
+      "resolution": "Final table expressly distinguishes deployment authority from planning, training and designation deficiencies."
+    }
+  ],
+  "limits": [
+    "Independent claim review, not exhaustive source or legal audit; does not authorize canonical admission or runtime changes.",
+    "Does not independently audit every source, every named person’s current custody, payroll, glove health effects, all historical implementation or current deployment litigation.",
+    "Integration overview, merged timeline, entry links, material inventory and publication controls are outside this independent review and receive coordinator validation.",
+    "Review hashes identify the actual reviewed chapter/catalog revisions; later substantive changes require a dated review addendum.",
+    "No direct HTTP or inference-provider calls made; parsed built-in web returns do not expose raw upstream HTTP or billing records."
+  ],
+  "reviewed_files": [
+    {
+      "path": "reports/military-conscience-and-institutional-safeguards/ICE_REMOVALS_AND_SPEECH.md",
+      "sha256": "9045ba29e9b5df8f77a64f42dc4bd35a17f576050fb8aceb532d2e32ea69a596"
+    },
+    {
+      "path": "reports/military-conscience-and-institutional-safeguards/ICE_PERSONNEL_AND_EQUIPMENT.md",
+      "sha256": "10df1380c397d91326c11fb01fc1726886b591c4255217c1afaff8a119d0fa01"
+    },
+    {
+      "path": "reports/military-conscience-and-institutional-safeguards/ICE_CAPACITY_AND_OVERSIGHT.md",
+      "sha256": "d51d8ecdd00874c46e93b688d75a7ed8aea6a6249d4c38c6831e58ef912c5ed5"
+    },
+    {
+      "path": "reports/military-conscience-and-institutional-safeguards/POSTWAR_FOUNDATIONS.md",
+      "sha256": "b10e4bfb6c2e752221f661e4eefeae57db47abebf481b4d1252a0bf0b9f387f1"
+    },
+    {
+      "path": "reports/military-conscience-and-institutional-safeguards/ice_rights_sources.json",
+      "sha256": "24a25a546f62d2c8a9d1521ecbc526945087c93a26e9d58202fdbae024497cf7"
+    },
+    {
+      "path": "reports/military-conscience-and-institutional-safeguards/ice_rights_events.json",
+      "sha256": "3de7be27ec92c75ae93770c90a66a6e48ad6dbc55c8cac508bdf81da1370e31e"
+    },
+    {
+      "path": "reports/military-conscience-and-institutional-safeguards/ice_operations_sources.json",
+      "sha256": "182a32edadc077fc82a782fbff8f706cf84afcf7982301f1cc723e33dffed04f"
+    },
+    {
+      "path": "reports/military-conscience-and-institutional-safeguards/ice_operations_events.json",
+      "sha256": "96e84478254443e0c7096888292f82d8c79cb87d875fdc2adb100e2fc1c70f13"
+    },
+    {
+      "path": "reports/military-conscience-and-institutional-safeguards/ice_capacity_sources.json",
+      "sha256": "e8d68c7b9f0c0616c635a2e2c600cb58d645936237f62ffec4bb8e4c3eec7c21"
+    },
+    {
+      "path": "reports/military-conscience-and-institutional-safeguards/ice_capacity_events.json",
+      "sha256": "89169a627ac3f89a7f168dfd0a450ee3672ff486a9e2e6e97348d396b97eca91"
+    },
+    {
+      "path": "reports/military-conscience-and-institutional-safeguards/history_sources.json",
+      "sha256": "9571558bbafc66bf43e68ef7a281f99a7d067a6c14004549f90b009513fa32fc"
+    },
+    {
+      "path": "reports/military-conscience-and-institutional-safeguards/history_events.json",
+      "sha256": "985c198e590955e03de4df64b8b779d395d843defa21a407ac05799b9a10a5c1"
+    },
+    {
+      "path": "reports/military-conscience-and-institutional-safeguards/DHS_CREATION_AND_USE.md",
+      "sha256": "37ecf7276af516eb706594ffb5a42377e00d698048e167965b696d2b1eae5935"
+    },
+    {
+      "path": "reports/military-conscience-and-institutional-safeguards/dhs_sources.json",
+      "sha256": "c10903d83edf2a7ddd53dd6475a7c3034d4327b48b62d44e9d1bcb19271252a0"
+    },
+    {
+      "path": "reports/military-conscience-and-institutional-safeguards/dhs_events.json",
+      "sha256": "e8f58798d3e67dfae5f2badec243f070193f654ebbaf8a14d3d6e3f38ab86524"
+    },
+    {
+      "path": "reports/military-conscience-and-institutional-safeguards/AGENCY_MAP.md",
+      "sha256": "73a75cd40e5451060bc0dac0b279b9af9cc5aa33ef75a3562b4d61e91dd21101"
+    },
+    {
+      "path": "reports/military-conscience-and-institutional-safeguards/agency_sources.json",
+      "sha256": "5643fbb0070f99e7721dbd5370f1d2e64d1931ab0831f051a8fe4af2f6bb2425"
+    },
+    {
+      "path": "reports/military-conscience-and-institutional-safeguards/agency_events.json",
+      "sha256": "ecbb3d6faad1c0152b3bc1ac22e286806a8f74c53fb0c90d0b87e7bc4b0c26e8"
+    }
+  ],
+  "confirmed_claims": [
+    "Supreme Court D.V.D. September 29, 2026 stay and grant of certiorari; merits unresolved",
+    "AAUP April 7 partial stay applies to Part IV sanction; declaration and vacatur are separate parts",
+    "Public Law 119-21 sections 90003 and 100052 amounts, availability and discretionary signing-bonus agreement",
+    "Public Law 119-98 June 10 enactment and purpose-separated allocations",
+    "Official Army description of May 28, 2025 SkillBridge priority",
+    "GAO population and authorized-facility dates; not actual expenditure or all occupied sites",
+    "Glove acquisition justification includes active/passive resistance and civil disturbance; not deployment or safety proof",
+    "DHS March 1, 2003 major transfers distinguish 22 predecessor organizations from new agencies",
+    "2014 Secure Communities replacement retained fingerprint-based biometric data connection",
+    "Coast Guard is an armed service at all times under 14 USC 101",
+    "OIG identifies authority for Portland deployment and distinct execution/designation deficiencies",
+    "Interior Order 3440 handwritten signature is August 25, 2025, and Section 6 is immediately effective",
+    "CRS LSB10121.4 cover is June 15, 2023; military-support precedents are historical"
+  ],
+  "source_reopens": [
+    {
+      "url": "https://www.supremecourt.gov/docket/docketfiles/html/public/26A406.html",
+      "ref": "turn146view0"
+    },
+    {
+      "url": "https://www.govinfo.gov/content/pkg/PLAW-119publ98/html/PLAW-119publ98.htm",
+      "ref": "turn146view1"
+    },
+    {
+      "url": "https://www.army.mil/article/286600",
+      "ref": "turn146view2"
+    },
+    {
+      "url": "https://www.govinfo.gov/content/pkg/PLAW-119publ21/html/PLAW-119publ21.htm",
+      "refs": [
+        "turn150view0",
+        "turn150view1"
+      ]
+    },
+    {
+      "url": "https://www.gao.gov/assets/gao-26-108663.pdf",
+      "ref": "turn150view3"
+    },
+    {
+      "url": "https://americanoversight.org/press-release/ice-records-reveal-military-report-showing-shock-gloves-force-compliance-through-pain-did-not-evaluate-safety/",
+      "ref": "turn150view2"
+    },
+    {
+      "url": "https://www.govinfo.gov/content/pkg/STATUTE-61/pdf/STATUTE-61-Pg495.pdf",
+      "refs": [
+        "turn148view2",
+        "turn149view5"
+      ]
+    },
+    {
+      "url": "https://www.govinfo.gov/content/pkg/CHRG-108hhrg24602/html/CHRG-108hhrg24602.htm",
+      "ref": "turn149view6"
+    },
+    {
+      "url": "https://www.oversight.gov/sites/default/files/documents/reports/2021-05/OIG-21-31-Mar21.pdf",
+      "refs": [
+        "turn152view0",
+        "turn153view0"
+      ],
+      "scope": "Cover, highlights, cross-designation and deployment sections; final find for exact phrase uniforms complied returned no match and did not independently reopen that subsection."
+    },
+    {
+      "url": "https://www.aila.org/aila-files/8E04886B-A4C7-4054-9E93-B63CF52D7FDD/14112005.pdf",
+      "refs": [
+        "turn152view1",
+        "turn153view1"
+      ]
+    },
+    {
+      "url": "https://georgewbush-whitehouse.archives.gov/news/releases/2004/03/20040302-4.html",
+      "refs": [
+        "turn152view2",
+        "turn153view2"
+      ]
+    },
+    {
+      "url": "https://www.govinfo.gov/content/pkg/USCODE-2024-title14/html/USCODE-2024-title14-subtitleI-chap1-sec101.htm",
+      "refs": [
+        "turn152view3",
+        "turn153view3"
+      ]
+    }
+  ],
+  "local_primary_reads": [
+    "digestion/threshold/research/2026-10-10-postwar-ice/retrievals/aaup-court-documents/api/0002.pdf (complete order)",
+    "digestion/threshold/research/2026-10-10-postwar-ice/retrievals/aaup-court-documents/api/0003.pdf (pages 2–4)",
+    "digestion/threshold/research/2026-10-10-postwar-ice/retrievals/additional-public-documents/api/0001.pdf (pages 2–6)",
+    "digestion/threshold/research/2026-10-10-postwar-ice/retrievals/adjacent-agencies/api/0001.pdf (complete text and rendered signature page)",
+    "digestion/threshold/research/2026-10-10-postwar-ice/retrievals/adjacent-agencies/api/0002.pdf (cover and pages 1–3)"
+  ],
+  "remaining": [],
+  "decision": "accepted_with_limitations"
+}

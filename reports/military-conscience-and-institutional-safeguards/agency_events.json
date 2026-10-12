@@ -1,0 +1,104 @@
+{
+  "schema_version": "military-research-events-1",
+  "research_cutoff": "2026-10-10",
+  "status": "staged_for_jared_and_digest",
+  "date_policy": "Signed dates control over URL dates; retrieval and event dates separate.",
+  "events": [
+    {
+      "event_id": "AM01",
+      "event_date": "2006/2010",
+      "date_precision": "range",
+      "effective_date": null,
+      "publication_date": "2023-06-15",
+      "retrieved_date_utc": "2026-10-11",
+      "lane": "adjacent_agencies",
+      "title": "Guard support to CBP under Bush and Obama",
+      "implementation_status": "historical operations described",
+      "source_ids": [
+        "A06"
+      ],
+      "source_families": [
+        "CRS border-support legal baseline"
+      ],
+      "previous_state": "See cited institutional baseline",
+      "new_state": "Jump Start2006–2008; Phalanx2010.",
+      "check_or_counterevidence": "Command, legal authority and actual conduct must be distinguished",
+      "uncertainty": "Not continuous2006–2010 deployment or direct arrest authority",
+      "continuity_assessment": "documented connection or authority change; not a unified-program finding",
+      "locator": null,
+      "discovery_status": "Late discovery in RC-006 supplement"
+    },
+    {
+      "event_id": "AM02",
+      "event_date": "2018",
+      "date_precision": "year",
+      "effective_date": null,
+      "publication_date": "2023-06-15",
+      "retrieved_date_utc": "2026-10-11",
+      "lane": "adjacent_agencies",
+      "title": "Guard and active-duty border support",
+      "implementation_status": "historical deployments described",
+      "source_ids": [
+        "A06"
+      ],
+      "source_families": [
+        "CRS border-support legal baseline"
+      ],
+      "previous_state": "See cited institutional baseline",
+      "new_state": "Title32 Guard and later active-duty support.",
+      "check_or_counterevidence": "Command, legal authority and actual conduct must be distinguished",
+      "uncertainty": "Separate statuses and tasks",
+      "continuity_assessment": "documented connection or authority change; not a unified-program finding",
+      "locator": null,
+      "discovery_status": "Late discovery in RC-006 supplement"
+    },
+    {
+      "event_id": "AM03",
+      "event_date": "2023-05-02",
+      "date_precision": "day",
+      "effective_date": null,
+      "publication_date": "2023-06-15",
+      "retrieved_date_utc": "2026-10-11",
+      "lane": "adjacent_agencies",
+      "title": "Additional active-duty support for CBP announced",
+      "implementation_status": "announced support mission",
+      "source_ids": [
+        "A06"
+      ],
+      "source_families": [
+        "CRS border-support legal baseline"
+      ],
+      "previous_state": "See cited institutional baseline",
+      "new_state": "Monitoring, data and logistics roles described.",
+      "check_or_counterevidence": "Command, legal authority and actual conduct must be distinguished",
+      "uncertainty": "Announcement is not a deployment outcome audit",
+      "continuity_assessment": "documented connection or authority change; not a unified-program finding",
+      "locator": null,
+      "discovery_status": "Late discovery in RC-006 supplement"
+    },
+    {
+      "event_id": "AM04",
+      "event_date": "2025-08-25",
+      "date_precision": "day",
+      "effective_date": "2025-08-25",
+      "publication_date": null,
+      "retrieved_date_utc": "2026-10-11",
+      "lane": "adjacent_agencies",
+      "title": "Park Police supervision realigned",
+      "implementation_status": "signed immediately effective order",
+      "source_ids": [
+        "A04"
+      ],
+      "source_families": [
+        "Interior Order3440"
+      ],
+      "previous_state": "See cited institutional baseline",
+      "new_state": "Secretary or designee receives direct supervision.",
+      "check_or_counterevidence": "Command, legal authority and actual conduct must be distinguished",
+      "uncertainty": "URL filename date differs; implementation not audited",
+      "continuity_assessment": "documented connection or authority change; not a unified-program finding",
+      "locator": null,
+      "discovery_status": "Late discovery in RC-006 supplement"
+    }
+  ]
+}

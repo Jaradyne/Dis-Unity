@@ -39,3 +39,26 @@ Compare like populations and preserve time at risk, location, command, rank, occ
 - What finding would cause us to revise the concern downward, and what would justify escalation to a second investigator?
 
 The eventual Bee can collect dated changes and bring unresolved connections back to the Garden. This packet does not settle its architecture, operating window or automation budget. A useful first assignment would be one of the six finite collections above, with an explicit stop condition and preserved contrary evidence.
+
+## RC-006: military, DHS and ICE together
+
+The expanded research adds concrete personnel, information, contracting and custody connections. Review these as a connected system, while distinguishing a documented connection from a causal hypothesis. The original ORA questions above remain open.
+
+| Finite collection | What it would resolve | Stop condition |
+|---|---|---|
+| One SkillBridge hiring cohort | Placements, completed training and actual hires; whether duties begin before qualifications | One matched annual table plus governing program instructions, or a recorded bounded search failure |
+| Bonus offer and payment terms | Whether a specific payment was due and unpaid, rather than treating advertising as a payroll record | One redacted public agreement and verifiable payment/dispute record; no private-forum collection |
+| Glove rules and acquisition stage | Passive resistance, medical exclusions, training, delivery, issuance and activation review | First final policy plus delivery/issue record; unresolved safety evidence retained |
+| One interagency operation | Who directed CBP/ICE/FPS or other participants and under which authority | One signed designation/tasking record matched to an operation and its after-action review |
+| One facility and inspection cycle | Usable beds, care staffing, confidential access and corrective action | One before/after occupancy and deficiency record with a completed follow-up |
+| One overseas custody chain | Notice, destination-specific danger assessment, language/counsel access, receiving custody and release authority | One complete public case chain; missing custody/medical links remain explicit |
+| One court or oversight remedy | Whether the order changed conduct in time, and what relief reached affected people | Disposition plus compliance evidence and any appeal/stay, not the filing alone |
+| One shared-data decision | How a booking or identity match becomes an enforcement action, including errors and correction | Governing data agreement, decision rule and one documented correction process |
+
+**Evidence available before a tipping point:** appropriations and obligations, command delegations, staff qualification rules, contracts, assessment data fields, permitted force, inspection findings, complaint access, remedy delays and published court-compliance records. None requires public spiritual scores for individual soldiers. Missing records constrain certainty; they do not require waiting for catastrophic harm before recognizing institutional risk.
+
+**Strengthening observations:** capacity and discretion grow together; targeting expands into protected expression; force rules broaden to passive conduct; transfers obstruct effective review; repeated deficiencies persist after notice; oversight loses staff or access without an effective substitute. **Weakening or narrowing observations:** timely independent review halts improper action, erroneous classifications are corrected, meaningful alternatives work, force limits are enforced and public records demonstrate durable compliance. Test each mechanism rather than assigning a composite danger score.
+
+For every serious stress, name a usable buffer: legal or medical access, safe suspension or release, alternative reception, transparent staffing and records, independent review, outside support and a practical correction route. Record whether each is merely authorized or demonstrably available. Unknown community, legal-aid and receiving-country capacity stays unknown.
+
+The open conversation is now: **which connection would most change our judgment if verified or disproved?** Digest can preserve the concern about cumulative coercive power without presuming a single secret program or reducing each documented link to an isolated harmless detail. Bee architecture, operating window and budget remain a later decision.

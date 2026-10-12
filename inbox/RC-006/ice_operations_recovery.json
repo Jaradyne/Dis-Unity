@@ -1,0 +1,353 @@
+{
+  "agent": "ice_operations_recovery",
+  "cycle": "RC-006",
+  "status": "complete_with_limits",
+  "scope": "Bounded recovery of ICE personnel links, recruitment bonuses, electrical-glove procurement, and institutional distinctions",
+  "evidence_cutoff": "2026-10-10",
+  "retrieval_date_utc": "2026-10-10",
+  "authorization": "AGENTS.md bounded specialist research; coordinator integration only",
+  "prior_checkpoint": "inbox/RC-006/ice_personnel_equipment.json",
+  "canonical_admission": false,
+  "external_inference_calls": false,
+  "queries": [],
+  "web_calls": [
+    {
+      "batch": 1,
+      "requests": [
+        "Open Army article286600",
+        "Open ICE GLOVE justification mirrored at CBS",
+        "Open enacted PL119-21 PDF"
+      ],
+      "refs": [
+        "turn97view0",
+        "turn97view1",
+        "turn97view2"
+      ]
+    },
+    {
+      "batch": 2,
+      "queries": [
+        "ICE recruits \"50,000\" bonus \"paid\" \"2026\"",
+        "ICE electric gloves military rejected assessment October2026",
+        "ICE veterans percentage workforce recruiting2025 2026"
+      ],
+      "requests": [
+        "Open AP shock-glove article",
+        "Open American Oversight document index",
+        "Find100052 in law"
+      ],
+      "refs": [
+        "turn99news24",
+        "turn99news25",
+        "turn99search4",
+        "turn99search5",
+        "turn99search8"
+      ],
+      "limitations": [
+        "Combined output truncated in tool relay; unopened/omitted source details not assumed read"
+      ]
+    },
+    {
+      "batch": 3,
+      "queries": [
+        "ICE \"$50,000\" \"bonus\" \"unpaid\"",
+        "ICE \"$50,000\" \"bonus\" \"never\"",
+        "ICE \"bonus\" \"not paid\" agents2026"
+      ],
+      "requests": [
+        "Open American Oversight pressrelease",
+        "Open ICE veterans page",
+        "Open PL119-21 section100052 context"
+      ],
+      "refs": [
+        "turn103view0",
+        "turn103view1",
+        "turn103view2",
+        "turn103search3",
+        "turn103search7"
+      ],
+      "findings": [
+        "Bonus law confirms five years and written agreement; does not specify universal$50k",
+        "Social-media-origin unpaid-bonus allegation identified; not verified by this research"
+      ]
+    },
+    {
+      "batch": 4,
+      "queries": [
+        "site.dhs.gov ICE \"signing bonus\" \"$50,000\"",
+        "ICE signing bonuses unpaid recruits January2026 verified payments"
+      ],
+      "requests": [
+        "Open American Oversight pressrelease lines0",
+        "Open MEAWW factcheck",
+        "Reopen GAO20-710 tactical-teams report"
+      ],
+      "refs": [
+        "turn106search6",
+        "turn106view0",
+        "turn106view1",
+        "turn106view2",
+        "turn106news19",
+        "turn106news20"
+      ],
+      "findings": [
+        "DHS July29 2025 official campaign advertises maximum$50000",
+        "Latest vetting whistleblower allegations and March training reporting found; not yet admitted to finished report"
+      ]
+    },
+    {
+      "batch": 5,
+      "requests": [
+        "Open American Oversight document index",
+        "Open MEAWW claim context",
+        "Open DHS July29 campaign",
+        "Click original SkillBridge memo",
+        "Find ICE and supplemental in GAO report"
+      ],
+      "refs": [
+        "turn109view0",
+        "turn109view1",
+        "turn109view2",
+        "turn109view3",
+        "turn109view4",
+        "turn109view5"
+      ],
+      "findings": [
+        "GAO documents ICE tactical teams and historical DoD excess-equipment transfers; current inventory not inferred",
+        "Government campaign and original SkillBridge memo fetches failed; official indexed campaign and Army full article remain available"
+      ]
+    },
+    {
+      "batch": 6,
+      "queries": [
+        "site.cortezmasto.senate.gov \"gloves\" ICE",
+        "\"GLOVE\" \"Army\" \"rejected\" ICE2026",
+        "\"GLOVE\" \"technical\" \"safety\" \"Leavenworth\" assessment"
+      ],
+      "requests": [
+        "Screenshot procurement pages0 and6",
+        "Click observed American Oversight DocumentCloud link"
+      ],
+      "refs": [
+        "turn115search0",
+        "turn115search1",
+        "turn115news38",
+        "turn115view0",
+        "turn115view1",
+        "turn115view2"
+      ],
+      "findings": [
+        "American Oversight attributes assessment to Naval Surface Warfare Center Indian Head, Oct21–23 2024, and states no technical/statistically generalizable efficacy test",
+        "Senate Aug27 letter is a request for safeguards, not evidence deployment stopped"
+      ],
+      "limitations": [
+        "Screenshots returned placeholders through relay rather than inspectable images; no visual-signature verification claimed"
+      ]
+    },
+    {
+      "batch": 7,
+      "queries": [
+        "site.ice.gov \"recruitment bonus\" \"installments\"",
+        "site.ice.gov \"signing bonus\" \"retired\" \"50,000\""
+      ],
+      "requests": [
+        "Open MEAWW publicationdate/origin",
+        "Open Senate Aug27 letterrelease",
+        "Open official SkillBridge brochure",
+        "Open AP Aug27 awardreport"
+      ],
+      "refs": [
+        "turn118view0",
+        "turn118view1",
+        "turn118view2",
+        "turn118view3",
+        "turn118search2",
+        "turn118search24"
+      ],
+      "findings": [
+        "EarlyFebruary social-media complaints are source of similar nonpayment claim; exact user-seen story unknown",
+        "NPR syndication identifies retired-worker incentive installment schedule, not universal new-hire schedule"
+      ]
+    },
+    {
+      "batch": 8,
+      "queries": [
+        "site.ice.gov \"Return to Mission\" \"$10,000\"",
+        "site.americanoversight.org/press-release/ice-records-reveal-military-report \"operationally effective\""
+      ],
+      "requests": [
+        "Open NPR/OPB Aug1 report",
+        "Open Independent Oct7 report",
+        "Open SkillBridge brochure text"
+      ],
+      "refs": [
+        "turn121view0",
+        "turn121view1",
+        "turn121view2",
+        "turn121search0"
+      ],
+      "findings": [
+        "NPR distinguishes returnee installment offer; does not establish each new recruits contract or payment",
+        "American Oversight indexed text says assessment concluded operationally effective and suitable, conflicting with unqualified military-rejection claim",
+        "Official SkillBridge brochure confirms nationwide civilian-role opportunities and command approval"
+      ]
+    },
+    {
+      "batch": 9,
+      "queries": [
+        "site.ice.gov \"Enforcement and Removal Operations\" \"Homeland Security Investigations\" \"civil\"",
+        "site.cbp.gov \"U.S. Border Patrol\" \"between\" \"ports of entry\""
+      ],
+      "requests": [
+        "Open Independent story body",
+        "Open legacy ICE bonus policy",
+        "Click ICE returnee primary page",
+        "Click full Senate letter"
+      ],
+      "refs": [
+        "turn124view0",
+        "turn124view1",
+        "turn124view2",
+        "turn124view3"
+      ],
+      "findings": [
+        "Senate full primary letter successfully retrieved",
+        "Current primary ICE policy and returnee page blocked; no contents inferred"
+      ]
+    },
+    {
+      "batch": 10,
+      "requests": [
+        "Open Independent article remainder",
+        "Open full Senate letter",
+        "Open GAO ERO/HSI profiles"
+      ],
+      "refs": [
+        "turn127view0",
+        "turn127view1",
+        "turn127view2"
+      ],
+      "findings": [
+        "Independent body contains no military-rejection directive",
+        "Congressional letter obtains no halt merely by requesting one",
+        "GAO establishes distinct historical ICE component roles"
+      ]
+    }
+  ],
+  "access_failures": [
+    "ICE veterans page full fetch internal error; official indexed excerpt retained",
+    "DHS July29 campaign full fetch internal error",
+    "Original May28 SkillBridge memo linked from Army internal error",
+    "DocumentCloud embedded original assessment28727880 returned403",
+    "AP Aug27 awardreport direct open internal error; indexed result remains available",
+    "Legacy ICE directorate1017-1 bonus policy internalerror",
+    "ICE Return to Mission primarypage internalerror"
+  ],
+  "method_limitations": [
+    "Built-in web outputs are parsed excerpts and do not expose raw HTTP or billing receipts. No direct HTTP download by this recovery agent.",
+    "Predecessor checkpoint preserved; inherited leads are not labeled recovery verification until reopened."
+  ],
+  "outputs": [
+    "reports/military-conscience-and-institutional-safeguards/ICE_PERSONNEL_AND_EQUIPMENT.md",
+    "reports/military-conscience-and-institutional-safeguards/ice_operations_sources.json",
+    "reports/military-conscience-and-institutional-safeguards/ice_operations_events.json"
+  ],
+  "unresolved": [
+    "Exact user-seen nonpayment story and any verified cohort-specific overdue bonuses",
+    "Dated ICE veteran census and SkillBridge placement-to-hire outcomes",
+    "Any formal ICE-to-military pipeline",
+    "Original complete military assessment and independent safety evidence",
+    "Final glove policy, delivery, issuance, activation records and agency response to Senate inquiry"
+  ],
+  "verified_findings": [
+    "May28 2025 SkillBridge memorandum prioritized military-to-ICE/CBP opportunities; Army explanatory article published June25 2025",
+    "ICE procurement justification states6000 units and $16,700,640; characterizes anticipated usage including passive resistance; actual issue-to-officers not established",
+    "Current official indexed ICE veterans page says about one-third workforce; denominator date not supplied in snippet"
+  ],
+  "web_research_calls": 10,
+  "source_count": 15,
+  "event_count": 12,
+  "review_status": "Specialist self-check; coordinator review pending; no independent whole-packet audit",
+  "reflection": "Agency, date and evidence-layer distinctions made the capacity concern more testable. A favorable operational assessment cannot answer human safety, and an alarming headline cannot substitute for a rejection directive.",
+  "capacity_followup": {
+    "status": "complete_with_limits",
+    "scope": "Bounded capacity and oversight comparison from five coordinator-selected primary sources",
+    "evidence_cutoff": "2026-10-10",
+    "retrieved_date_utc": "2026-10-11",
+    "web_calls": [
+      {
+        "batch": 1,
+        "requests": [
+          "GAO-26-108886 product page",
+          "GAO-26-108663 PDF",
+          "GAO-25-107580 product page"
+        ],
+        "refs": [
+          "turn131view0",
+          "turn131view1",
+          "turn131view2"
+        ]
+      },
+      {
+        "batch": 2,
+        "requests": [
+          "PL119-98 enacted HTML",
+          "PL119-21 enacted HTML",
+          "GAO-25-107580 recommendations status",
+          "GAO-26-108886 recommendations status"
+        ],
+        "refs": [
+          "turn132view0",
+          "turn132view1",
+          "turn132view2",
+          "turn132view3"
+        ],
+        "findings": [
+          "PL119-98 approval June10 2026; sections102 and202 have different permitted purposes",
+          "GAO current pages retain four Camp East Montana and three oversight recommendations open",
+          "OIDO statutory-position disagreement remains attributed to DHS and GAO"
+        ]
+      },
+      {
+        "batch": 3,
+        "requests": [
+          "Find PL119-21 amounts",
+          "Find GAO plan date"
+        ],
+        "refs": [
+          "turn133view0",
+          "turn133view1",
+          "turn133view2"
+        ],
+        "limitations": [
+          "Statute amount-finds returned unrelated context; no additional independent reading inferred"
+        ],
+        "local_check": "Selected text extracted from recorded GAO expansion PDF corroborates45b, report date, population endpoints and future plan date."
+      }
+    ],
+    "limits": [
+      "No new events after cutoff added",
+      "Source prose limited across report/catalog/events; no independent full audit"
+    ],
+    "outputs": [
+      "reports/military-conscience-and-institutional-safeguards/ICE_CAPACITY_AND_OVERSIGHT.md",
+      "reports/military-conscience-and-institutional-safeguards/ice_capacity_sources.json",
+      "reports/military-conscience-and-institutional-safeguards/ice_capacity_events.json"
+    ],
+    "web_research_calls": 3,
+    "source_count": 5,
+    "event_count": 7,
+    "report_word_count": 646,
+    "validation": [
+      "Unique IDs and all event/report source references resolve",
+      "Four retained source bodies match recorded hashes",
+      "No shared index or canonical changes"
+    ],
+    "unresolved": [
+      "Facility-specific effective remedies and current usable capacity",
+      "Full independent review of April30 OIDO-related appropriation",
+      "Actual obligation/payment balances by statutory purpose"
+    ],
+    "review_status": "Specialist self-check; coordinator review pending"
+  }
+}

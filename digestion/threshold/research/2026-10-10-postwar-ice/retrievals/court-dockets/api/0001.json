@@ -1,0 +1,92 @@
+{
+  "exception": {
+    "message": "HTTP Error 406: Not Acceptable",
+    "type": "HTTPError"
+  },
+  "finished_at": "2026-10-10T06:43:46.092001+00:00",
+  "record_id": "API-court-dockets-0001",
+  "redaction": {
+    "policy": "Credentials and authentication cookies only; no content-field allowlist.",
+    "replacement_count": 1
+  },
+  "request": {
+    "body": null,
+    "headers": [
+      [
+        "User-agent",
+        "Dis-Unity public research/1.0"
+      ],
+      [
+        "Accept",
+        "application/pdf"
+      ]
+    ],
+    "method": "GET",
+    "url": "https://www.supremecourt.gov/docket/docketfiles/html/public/26A406.html"
+  },
+  "response": {
+    "body": {
+      "complete": true,
+      "encoding": "external-file",
+      "received_bytes": 995,
+      "saved_sha256": "0a0da2121e724fec0d4036984f68ad9987683008310899274c1ef9e1ad8c4040",
+      "original_record_encoding": "utf-8",
+      "content_file": "0001.txt"
+    },
+    "headers": [
+      [
+        "Content-Type",
+        "text/html"
+      ],
+      [
+        "Content-Length",
+        "995"
+      ],
+      [
+        "Cache-Control",
+        "max-age=5"
+      ],
+      [
+        "Date",
+        "Sat, 10 Oct 2026 06:43:46 GMT"
+      ],
+      [
+        "Connection",
+        "close"
+      ],
+      [
+        "Set-Cookie",
+        "[REDACTED]"
+      ],
+      [
+        "Server-Timing",
+        "cdn-cache; desc=REVALIDATE"
+      ],
+      [
+        "Server-Timing",
+        "edge; dur=38"
+      ],
+      [
+        "Server-Timing",
+        "origin; dur=25"
+      ],
+      [
+        "Alt-Svc",
+        "h3=\":443\"; ma=93600"
+      ],
+      [
+        "Strict-Transport-Security",
+        "max-age=31536000"
+      ],
+      [
+        "Server-Timing",
+        "ak_p; desc=\"1791614625907_399848477_98313059_7045_15102_1_81_-\";dur=1"
+      ]
+    ],
+    "http_status": 406
+  },
+  "run_id": "court-dockets",
+  "schema_version": "api-exchange-1",
+  "started_at": "2026-10-10T06:43:41.795245+00:00",
+  "state": "http_error"
+}

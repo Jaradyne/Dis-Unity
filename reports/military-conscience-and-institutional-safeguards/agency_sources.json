@@ -1,0 +1,145 @@
+{
+  "research_cutoff": "2026-10-10",
+  "retrieved_date_utc": "2026-10-11",
+  "sources": [
+    {
+      "source_id": "A01",
+      "title": "Department of Justice: Agencies",
+      "url": "https://www.justice.gov/agencies/chart",
+      "publication_date": null,
+      "retrieved_date_utc": "2026-10-11",
+      "locator": "Component descriptions for FBI, DEA, ATF, USMS, BOP, Civil Rights and OIG",
+      "access_level": "Official current agency directory",
+      "source_family": "DOJ public organizational descriptions",
+      "short_claim": "Stated roles and departmental placement.",
+      "limitations": "Self-description, not performance audit.",
+      "tool_refs": [
+        "turn142view0"
+      ],
+      "local_materials": []
+    },
+    {
+      "source_id": "A02",
+      "title": "14 USC 101: Establishment of Coast Guard",
+      "url": "https://www.govinfo.gov/content/pkg/USCODE-2024-title14/html/USCODE-2024-title14-subtitleI-chap1-sec101.htm",
+      "publication_date": "2024",
+      "retrieved_date_utc": "2026-10-11",
+      "locator": "Operative text",
+      "access_level": "Official 2024 code edition",
+      "source_family": "Coast Guard statutory status",
+      "short_claim": "Coast Guard is an armed service at all times.",
+      "limitations": "Historical notes distinguish earlier departmental arrangements.",
+      "tool_refs": [
+        "turn144view2"
+      ],
+      "local_materials": []
+    },
+    {
+      "source_id": "A03",
+      "title": "14 USC 103: Department in which the Coast Guard operates",
+      "url": "https://www.govinfo.gov/content/pkg/USCODE-2024-title14/html/USCODE-2024-title14-subtitleI-chap1-sec103.htm",
+      "publication_date": "2024",
+      "retrieved_date_utc": "2026-10-11",
+      "locator": "Subsections (a) and (b)",
+      "access_level": "Official 2024 code edition",
+      "source_family": "Coast Guard statutory status",
+      "short_claim": "DHS placement with provisions for Navy operation.",
+      "limitations": "Statutory baseline, not a particular operational order.",
+      "tool_refs": [
+        "turn144view3"
+      ],
+      "local_materials": []
+    },
+    {
+      "source_id": "A04",
+      "title": "Interior Order 3440: Realignment of supervision of the Chief, US Park Police",
+      "url": "https://www.doi.gov/sites/default/files/document_secretarys_orders/so-3440-uspp-nps-org-9.2.2025_final-signed_508.pdf",
+      "publication_date": null,
+      "retrieved_date_utc": "2026-10-11",
+      "locator": "Sections 1,4,6 and handwritten signature-page date",
+      "access_level": "Primary signed order; text and signature image inspected; full PDF retained",
+      "source_family": "Interior Order3440",
+      "short_claim": "Direct Secretary/designee supervision ordered.",
+      "limitations": "Signed/effective August25; URL says September2. Later implementation or supersession not comprehensively audited.",
+      "tool_refs": [
+        "turn144view0",
+        "turn145view2"
+      ],
+      "local_materials": [
+        "digestion/threshold/research/2026-10-10-postwar-ice/retrievals/adjacent-agencies/api/0001.json",
+        "digestion/threshold/research/2026-10-10-postwar-ice/retrievals/adjacent-agencies/api/0001.pdf"
+      ],
+      "document_date": "2025-08-25",
+      "effective_date": "2025-08-25",
+      "date_note": "Date handwritten on signed page2; first publication unresolved."
+    },
+    {
+      "source_id": "A05",
+      "title": "US Park Police: Office of the Chief",
+      "url": "https://www.nps.gov/subjects/uspp/office-of-the-chief.htm",
+      "publication_date": null,
+      "retrieved_date_utc": "2026-10-11",
+      "locator": "Organization and jurisdiction paragraphs",
+      "access_level": "Official NPS description",
+      "source_family": "USPP public organizational descriptions",
+      "short_claim": "Park Police role and affiliation.",
+      "limitations": "Generic affiliation page does not supersede the specific supervision order.",
+      "tool_refs": [
+        "turn144view4"
+      ],
+      "local_materials": []
+    },
+    {
+      "source_id": "A06",
+      "title": "The President’s Authority to Use the National Guard or the Armed Forces to Secure the Border, LSB10121 v4",
+      "url": "https://www.congress.gov/crs_external_products/LSB/PDF/LSB10121/LSB10121.4.pdf",
+      "publication_date": "2023-06-15",
+      "retrieved_date_utc": "2026-10-11",
+      "locator": "Pages1–3: precedents, Guard status and support restrictions",
+      "access_level": "Primary CRS analysis; web open failed, direct HTTP200 PDF retained and text read",
+      "source_family": "CRS border-support legal baseline",
+      "short_claim": "Describes military support precedents and differentiated authorities.",
+      "limitations": "Actual document date overrides newer index metadata. Not a 2026 deployment-litigation audit.",
+      "tool_refs": [
+        "turn143search37",
+        "turn144view1"
+      ],
+      "local_materials": [
+        "digestion/threshold/research/2026-10-10-postwar-ice/retrievals/adjacent-agencies/api/0002.json",
+        "digestion/threshold/research/2026-10-10-postwar-ice/retrievals/adjacent-agencies/api/0002.pdf"
+      ]
+    },
+    {
+      "source_id": "A07",
+      "title": "18 USC 1385: Posse Comitatus",
+      "url": "https://www.govinfo.gov/content/pkg/USCODE-2024-title18/html/USCODE-2024-title18-partI-chap67-sec1385.htm",
+      "publication_date": "2024",
+      "retrieved_date_utc": "2026-10-11",
+      "locator": "Operative text and amendment notes",
+      "access_level": "Official 2024 code edition",
+      "source_family": "Posse Comitatus statutory baseline",
+      "short_claim": "Statutory restriction with express constitutional/congressional exceptions.",
+      "limitations": "Does not determine lawfulness of a particular deployment.",
+      "tool_refs": [
+        "turn145view1"
+      ],
+      "local_materials": []
+    },
+    {
+      "source_id": "A08",
+      "title": "Executive Office for Immigration Review: About the Office",
+      "url": "https://www.justice.gov/eoir/about-office",
+      "publication_date": null,
+      "retrieved_date_utc": "2026-10-11",
+      "locator": "Mission and organization",
+      "access_level": "Official current agency page",
+      "source_family": "EOIR public organizational descriptions",
+      "short_claim": "Administrative immigration adjudication within DOJ.",
+      "limitations": "Mission statement is not evidence of independence or practical access.",
+      "tool_refs": [
+        "turn142view5"
+      ],
+      "local_materials": []
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "finished_at": "2026-10-11T07:01:09.395180+00:00",
+  "record_id": "API-adjacent-agencies-0002",
+  "redaction": {
+    "policy": "Credentials and authentication cookies only; no content-field allowlist.",
+    "replacement_count": 1
+  },
+  "request": {
+    "body": null,
+    "headers": [
+      [
+        "User-agent",
+        "Dis-Unity public research/1.0"
+      ],
+      [
+        "Accept",
+        "application/pdf"
+      ]
+    ],
+    "method": "GET",
+    "url": "https://www.congress.gov/crs_external_products/LSB/PDF/LSB10121/LSB10121.4.pdf"
+  },
+  "response": {
+    "body": {
+      "complete": true,
+      "encoding": "external-file",
+      "received_bytes": 499761,
+      "saved_sha256": "3b542dcdf5b6e122c851544f7fb0e17e4d135da5ddd5e8f12ad6b2670cb94e5b",
+      "original_record_encoding": "base64",
+      "content_file": "0002.pdf"
+    },
+    "headers": [
+      [
+        "Date",
+        "Sun, 11 Oct 2026 07:01:09 GMT"
+      ],
+      [
+        "Content-Type",
+        "application/pdf"
+      ],
+      [
+        "Content-Length",
+        "499761"
+      ],
+      [
+        "Connection",
+        "close"
+      ],
+      [
+        "Server",
+        "cloudflare"
+      ],
+      [
+        "last-modified",
+        "Sat, 21 Jun 2025 05:44:29 GMT"
+      ],
+      [
+        "Accept-Ranges",
+        "bytes"
+      ],
+      [
+        "Cache-Control",
+        "public, max-age=31536000"
+      ],
+      [
+        "expires",
+        "Mon, 11 Oct 2027 07:01:09 GMT"
+      ],
+      [
+        "x-content-type-options",
+        "nosniff"
+      ],
+      [
+        "strict-transport-security",
+        "max-age=31536000; includeSubDomains; preload"
+      ],
+      [
+        "x-xss-protection",
+        "1; mode=block"
+      ],
+      [
+        "access-control-allow-origin",
+        "*"
+      ],
+      [
+        "x-cacheable",
+        "YES"
+      ],
+      [
+        "content-security-policy",
+        "frame-ancestors http://*.house.gov https://*.house.gov http://*.senate.gov https://*.senate.gov http://*.loc.gov https://*.loc.gov http://*.congress.gov https://congress.gov https://*.congress.gov"
+      ],
+      [
+        "set-cookie",
+        "[REDACTED]"
+      ],
+      [
+        "cf-cache-status",
+        "REVALIDATED"
+      ],
+      [
+        "CF-RAY",
+        "a48bfdecfc5afa13-ORD"
+      ]
+    ],
+    "http_status": 200
+  },
+  "run_id": "adjacent-agencies",
+  "schema_version": "api-exchange-1",
+  "started_at": "2026-10-11T07:01:05.416735+00:00",
+  "state": "response_received"
+}

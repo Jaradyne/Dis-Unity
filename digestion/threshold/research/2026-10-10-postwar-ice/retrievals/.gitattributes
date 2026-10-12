@@ -1,0 +1,3 @@
+# Preserve received response bodies byte-for-byte; review metadata in adjacent JSON.
+**/api/*.pdf -text -diff
+**/api/*.txt -text -diff

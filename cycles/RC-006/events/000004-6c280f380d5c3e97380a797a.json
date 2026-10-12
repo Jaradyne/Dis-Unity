@@ -1,0 +1,15 @@
+{
+  "at": "2026-10-11T20:02:14.976773+00:00",
+  "cycle_id": "RC-006",
+  "event_id": "6c280f380d5c3e97380a797a",
+  "event_type": "agent_submission",
+  "hash": "f779ca8e47ebfdfbebb7587395051f6d5f546982b5718584f37ee7e26273fc8a",
+  "payload": {
+    "agent": "ice_operations_recovery",
+    "payload_hash": "5afd5d9499cb4c023b89b7fc774dd66114d8de222130c834cf344a74cc5ce266",
+    "phase": "submitted",
+    "submission_id": "5488360da08714c200f40f06cdcbb58104c262082fba4079fbb07edce302dd0c"
+  },
+  "previous_hash": "e98c0636d1ee250cb83c00da16be2f885707fda7a0b677d72ea68a71bdd88a61",
+  "sequence": 4
+}

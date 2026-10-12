@@ -1,0 +1,133 @@
+{
+  "research_cutoff": "2026-10-10",
+  "retrieved_date_utc": "2026-10-11",
+  "author": "ice_operations_recovery",
+  "sources": [
+    {
+      "source_id": "C01",
+      "title": "GAO-26-108886: Camp East Montana waste and performance issues",
+      "url": "https://www.gao.gov/products/gao-26-108886",
+      "publication_date": "2026-06-09",
+      "retrieved_date_utc": "2026-10-11",
+      "evidence_cutoff": "2026-10-10",
+      "locator": "Highlights and four recommendation statuses",
+      "access_level": "Official product page reopened; retained government PDF linked",
+      "short_claim": "Army/ICE contracting and deficient oversight at Fort Bliss.",
+      "limitations": "Single-facility findings; four open statuses are not proof no corrective work occurred.",
+      "tool_refs": [
+        "turn131view0",
+        "turn132view3"
+      ],
+      "source_family": "GAO ICE detention expansion2025–2026",
+      "observation_period": "August2025 onward; food-occupancy exampleFebruary2026",
+      "recommendation_status_as_of": "2026-10-10",
+      "recommendation_recheck": "2026-10-11: all four still displayed Open",
+      "materials": [
+        {
+          "record": "../../digestion/threshold/research/2026-10-10-postwar-ice/retrievals/gao-public-documents/api/0001.json",
+          "body": "../../digestion/threshold/research/2026-10-10-postwar-ice/retrievals/gao-public-documents/api/0001.pdf",
+          "sha256": "7d5316dff4f3abd0c385a22d7a7a300ae40ceec358c16ca3ee39def202f17e85",
+          "capture_attribution": "Coordinator via repository api_records; recovery worker checked retained-body hash"
+        }
+      ]
+    },
+    {
+      "source_id": "C02",
+      "title": "GAO-26-108663: Immigration detention urgent planning",
+      "url": "https://www.gao.gov/assets/gao-26-108663.pdf",
+      "publication_date": "2026-09-24",
+      "retrieved_date_utc": "2026-10-11",
+      "evidence_cutoff": "2026-10-10",
+      "locator": "pp1–2,6–7,13; population, authorized sites, Guantanamo and promised plan",
+      "access_level": "Official PDF reopened; selected retained text extracted",
+      "short_claim": "Expansion figures differ from operating, usable capacity.",
+      "limitations": "Facility count covers active agreements; population measures have different observation windows. Future plan is a commitment.",
+      "tool_refs": [
+        "turn131view1",
+        "turn133view2"
+      ],
+      "source_family": "GAO ICE detention expansion2025–2026",
+      "observation_period": "Expansion throughJuly2026; GuantanamoFY2026 average throughJune18",
+      "materials": [
+        {
+          "record": "../../digestion/threshold/research/2026-10-10-postwar-ice/retrievals/gao-public-documents/api/0002.json",
+          "body": "../../digestion/threshold/research/2026-10-10-postwar-ice/retrievals/gao-public-documents/api/0002.pdf",
+          "sha256": "07c4b2eeb319c8f565921f80ec038ef4f1865a541a0cfaf0dab4e225ccd68923",
+          "capture_attribution": "Coordinator via repository api_records; recovery worker checked retained-body hash"
+        }
+      ]
+    },
+    {
+      "source_id": "C03",
+      "title": "Public Law119-21: detention and enforcement appropriations",
+      "url": "https://www.govinfo.gov/content/pkg/PLAW-119publ21/html/PLAW-119publ21.htm",
+      "publication_date": "2025-07-04",
+      "retrieved_date_utc": "2026-10-11",
+      "evidence_cutoff": "2026-10-10",
+      "locator": "§§90003 and100052",
+      "access_level": "Enacted HTML reopened; §100052 previously read; §90003 coordinator check corroborated by C02p1",
+      "short_claim": "Additional multiyear detention and enforcement funding.",
+      "limitations": "Targeted HTML amount-finds returned irrelevant context; no new independent §90003 read claimed. No local full HTTP body retained.",
+      "tool_refs": [
+        "turn132view1",
+        "turn103view2"
+      ],
+      "source_family": "2025 reconciliation law",
+      "same_document_as": "I05 in ice_operations_sources.json",
+      "materials": [],
+      "recording_gap": "Built-in web output only; no complete raw exchange retained for this statute by recovery worker."
+    },
+    {
+      "source_id": "C04",
+      "title": "Public Law119-98: Secure America Act",
+      "url": "https://www.govinfo.gov/content/pkg/PLAW-119publ98/html/PLAW-119publ98.htm",
+      "publication_date": "2026-06-10",
+      "retrieved_date_utc": "2026-10-11",
+      "evidence_cutoff": "2026-10-10",
+      "locator": "§§102 and202",
+      "access_level": "Enacted government HTML read",
+      "short_claim": "Separate ICE enforcement and restricted HSI allocations.",
+      "limitations": "Appropriations throughSeptember2029 are neither annual budgets nor expenditure records.",
+      "tool_refs": [
+        "turn132view0"
+      ],
+      "source_family": "2026 Secure America Act",
+      "materials": [
+        {
+          "record": "../../digestion/threshold/research/2026-10-10-postwar-ice/retrievals/additional-public-documents/api/0002.json",
+          "body": "../../digestion/threshold/research/2026-10-10-postwar-ice/retrievals/additional-public-documents/api/0002.txt",
+          "sha256": "732dfc91a7aa4269d00508789592bdb50993b3ee2c932b0cf0150699e6f828e8",
+          "capture_attribution": "Coordinator via repository api_records; recovery worker checked retained-body hash"
+        }
+      ]
+    },
+    {
+      "source_id": "C05",
+      "title": "GAO-25-107580: detention inspection goals and measures",
+      "url": "https://www.gao.gov/products/gao-25-107580",
+      "publication_date": "2025-05-21",
+      "retrieved_date_utc": "2026-10-11",
+      "evidence_cutoff": "2026-10-10",
+      "locator": "Recommendation-status updates, especially recommendation3",
+      "access_level": "Official product page reopened; October10 HTML preserved",
+      "short_claim": "DHS/GAO disagreement on ombudsman status; unresolved inspection recommendations.",
+      "limitations": "Not a court ruling. April30 enactment not independently analyzed in this follow-up. Legal existence does not establish access or remedy.",
+      "tool_refs": [
+        "turn131view2",
+        "turn132view2"
+      ],
+      "source_family": "GAO detention-inspection effectiveness review",
+      "observation_period": "Inspection auditFY2022–FY2024; status updates throughMay2026",
+      "recommendation_status_as_of": "2026-10-10",
+      "recommendation_recheck": "2026-10-11: all three still displayed Open",
+      "materials": [
+        {
+          "record": "../../digestion/threshold/research/2026-10-10-postwar-ice/retrievals/additional-public-documents/api/0003.json",
+          "body": "../../digestion/threshold/research/2026-10-10-postwar-ice/retrievals/additional-public-documents/api/0003.txt",
+          "sha256": "3b11e61fde1874f39348b9df2942044568afe47bb2165ace4d10ea752c3f4c98",
+          "capture_attribution": "Coordinator via repository api_records; recovery worker checked retained-body hash"
+        }
+      ]
+    }
+  ]
+}

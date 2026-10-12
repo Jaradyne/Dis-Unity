@@ -1,0 +1,15 @@
+{
+  "at": "2026-10-11T20:02:15.153798+00:00",
+  "cycle_id": "RC-006",
+  "event_id": "09195c251164c74c9aaf54ad",
+  "event_type": "agent_submission",
+  "hash": "8d6c9e2161aa16d468064933f10af04069e88976318b0f601f63a5ae3aa45b39",
+  "payload": {
+    "agent": "postwar_institutions",
+    "payload_hash": "f8cd97cd921b6a0ba3e74d2c91472d741a1fa0120140861a7dcea7e42846bd22",
+    "phase": "checkpoint",
+    "submission_id": "0d54837a2a1a14179931c3a7607365dc6ed06ff33aad3c147676b712baca5bfa"
+  },
+  "previous_hash": "a84270e9a773a6be61795e6acfdcfdb33c19d06a54458d807f221854c655a06e",
+  "sequence": 8
+}
