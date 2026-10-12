@@ -1,0 +1,19 @@
+{
+  "schema_version": "case-local-question-snapshot-1",
+  "scope": "Case-local supplied-content replay only; not registered in shared operations/questions.json",
+  "questions": {
+    "Q-CASE-CAMP-EAST-MONTANA": {
+      "question_id": "Q-CASE-CAMP-EAST-MONTANA",
+      "question": "What safeguards existed at Camp East Montana, which failed in documented practice, and what evidence verifies subsequent correction?",
+      "epoch": 1,
+      "status": "case_study_for_review",
+      "created_at": "2026-10-12T10:16:22.649631+00:00",
+      "created_by": "Work Aiden",
+      "context_refs": [
+        "PR36:C01",
+        "PR36:IC02",
+        "PR36:IC03"
+      ]
+    }
+  }
+}

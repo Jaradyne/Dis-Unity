@@ -1,0 +1,1770 @@
+{
+  "config_sha256": "39152c8d17954a1d9097a0c55351ced98ad702f402cb9c12a27b116f4c0d1655",
+  "events": [
+    {
+      "after": "8882ff2e052330f27cc479667ced3e7379e641fa62a51bc7eddde92756ef055d",
+      "before": "f0ea1e92d1d754fd56098163e2a640e3f9817c813d2309f7df8797db7cba4465",
+      "command": {
+        "actor": {
+          "model": "unknown",
+          "name": "Work Aiden",
+          "runtime": "ChatGPT Work active session; supplied-content Garden"
+        },
+        "branch_id": "B0",
+        "event_id": "CEM-EVENT-01",
+        "expected_revision": 0,
+        "kind": "step",
+        "node": "ROOT",
+        "output": {
+          "name": "Camp East Montana: safeguards, operation and verified correction"
+        }
+      },
+      "decision": {
+        "next_node": "ARRIVAL",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-10-12T10:16:22.649631+00:00"
+    },
+    {
+      "after": "5f45a469dccabd00a4dba52c33167ee2e51220f53d63c2b7adb12f21ffb67c0e",
+      "before": "8882ff2e052330f27cc479667ced3e7379e641fa62a51bc7eddde92756ef055d",
+      "command": {
+        "actor": {
+          "model": "unknown",
+          "name": "Work Aiden",
+          "runtime": "ChatGPT Work active session; supplied-content Garden"
+        },
+        "branch_id": "B0",
+        "event_id": "CEM-EVENT-02",
+        "expected_revision": 1,
+        "kind": "step",
+        "node": "ARRIVAL",
+        "output": {
+          "arrival": {
+            "from": "PR36:RC006:C01:IC02:IC03",
+            "id": "CEM-RC006-ARRIVAL-20261012",
+            "payload": {
+              "canonical_admission": false,
+              "evidence_file": "evidence.json",
+              "kind": "bounded_research_case",
+              "question": "What safeguards existed at Camp East Montana, which failed in documented practice, and what evidence verifies subsequent correction?",
+              "status_file": "status-recheck.json"
+            },
+            "to": "INIT:ROOT-0001"
+          },
+          "language_glance": {
+            "basis": "source_metadata",
+            "issuing_office": "U.S. Government Accountability Office; agency letters reproduced in appendices",
+            "languages": [
+              "English"
+            ],
+            "note": "Original English GAO audit and agency responses; inherited RC006 ledger summaries. No translated or independent second-language source.",
+            "source_refs": [
+              "RC006:C01:PDF",
+              "RC006:IC02-IC03",
+              "C01:STATUS:20261012",
+              "RC006:C02:PDF"
+            ],
+            "surface_kind": "mixed"
+          }
+        }
+      },
+      "decision": {
+        "next_node": "EPIST",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-10-12T10:16:22.649631+00:00"
+    },
+    {
+      "after": "f99e0538d4d806f48242f9ae5e132d83094c9d8857e72f1f8170502b54ee2ad6",
+      "before": "5f45a469dccabd00a4dba52c33167ee2e51220f53d63c2b7adb12f21ffb67c0e",
+      "command": {
+        "actor": {
+          "model": "unknown",
+          "name": "Work Aiden",
+          "runtime": "ChatGPT Work active session; supplied-content Garden"
+        },
+        "branch_id": "B0",
+        "event_id": "CEM-EVENT-03",
+        "expected_revision": 2,
+        "kind": "step",
+        "node": "EPIST",
+        "output": {
+          "criteria": [
+            "requirement and responsible authority",
+            "dated observed practice",
+            "item-specific corrective action",
+            "dated validation of effectiveness"
+          ],
+          "prompt": "What safeguards existed at Camp East Montana, which failed in documented practice, and what evidence verifies subsequent correction?",
+          "source_refs": [
+            "RC006:C01:PDF",
+            "RC006:IC02-IC03",
+            "C01:STATUS:20261012",
+            "RC006:C02:PDF"
+          ],
+          "starting_state": "Documented historical failures; current correction UNKNOWN. Existing safeguards, attempted remedies and verified compliance are separate."
+        }
+      },
+      "decision": {
+        "next_node": "FUNC",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-10-12T10:16:22.649631+00:00"
+    },
+    {
+      "after": "f48d1f9b37eec7afb4f4a0a891c4e7444afed90377c13ce7f11fe231e082d5e4",
+      "before": "f99e0538d4d806f48242f9ae5e132d83094c9d8857e72f1f8170502b54ee2ad6",
+      "command": {
+        "actor": {
+          "model": "unknown",
+          "name": "Work Aiden",
+          "runtime": "ChatGPT Work active session; supplied-content Garden"
+        },
+        "branch_id": "B0",
+        "event_id": "CEM-EVENT-04",
+        "expected_revision": 3,
+        "kind": "step",
+        "node": "FUNC",
+        "output": {
+          "evidence": [
+            {
+              "case_read_date": "2026-10-12",
+              "claim": "DHS requested DOD assistance and access to military installations for ICE detention.",
+              "discovery": "case detail from retained source; historical event, not new occurrence",
+              "event_date": "2025-02-12",
+              "event_id": "CEM01",
+              "limits": "Original assistance/delegation instrument not independently examined; no blanket legal-authority conclusion.",
+              "locator": "p2 n5",
+              "parent_event_id": null,
+              "publication_date": "2026-06-09",
+              "source_id": "C01",
+              "source_lineage": "GAO-26-108886",
+              "status": "GAO account of request"
+            },
+            {
+              "case_read_date": "2026-10-12",
+              "claim": "ICE April award terminated after three days; May contracting attempt unsuccessful. Army and ICE jointly selected Army procurement, with ICE operational support and lead oversight.",
+              "discovery": "case detail from retained source; historical event, not new occurrence",
+              "event_date": "2025-04/2025-05",
+              "event_id": "CEM02",
+              "limits": "",
+              "locator": "p7",
+              "parent_event_id": null,
+              "publication_date": "2026-06-09",
+              "source_id": "C01",
+              "source_lineage": "GAO-26-108886",
+              "status": "GAO documented"
+            },
+            {
+              "case_read_date": "2026-10-12",
+              "claim": "Army issued solicitation using Navy-established WEXMAC small-business vehicle.",
+              "discovery": "case detail from retained source; historical event, not new occurrence",
+              "event_date": "2025-06-13",
+              "event_id": "CEM03",
+              "limits": "Acquisition mechanism, not authority for each custody action. Several proposed subcontractors had detention experience although the prime did not.",
+              "locator": "p8 figure2; pp8–10",
+              "parent_event_id": null,
+              "publication_date": "2026-06-09",
+              "source_id": "C01",
+              "source_lineage": "GAO-26-108886",
+              "status": "GAO documented"
+            },
+            {
+              "case_read_date": "2026-10-12",
+              "claim": "Army awarded task order worth up to $1.3 billion; 2.5-month base and two option years. Initial 1,000-bed capacity due August17. ERO approved contractor work statement; ICE contracting officers did not review it before award.",
+              "discovery": "case detail from retained source; historical event, not new occurrence",
+              "event_date": "2025-07-18",
+              "event_id": "CEM04",
+              "limits": "",
+              "locator": "pp7–11; figure2",
+              "parent_event_id": null,
+              "publication_date": "2026-06-09",
+              "source_id": "C01",
+              "source_lineage": "GAO-26-108886",
+              "status": "GAO documented"
+            },
+            {
+              "case_read_date": "2026-10-12",
+              "claim": "Army paid full operating-service costs before detainees arrived; GAO estimated up to $11.5m waste.",
+              "discovery": "case detail from retained source; historical event, not new occurrence",
+              "event_date": "2025-08-01/2025-08-15",
+              "event_id": "CEM05",
+              "limits": "Some preparation costs might be necessary; GAO found construction and staff vetting incomplete.",
+              "locator": "p11",
+              "parent_event_id": null,
+              "publication_date": "2026-06-09",
+              "source_id": "C01",
+              "source_lineage": "GAO-26-108886",
+              "status": "GAO documented"
+            },
+            {
+              "case_read_date": "2026-10-12",
+              "claim": "ICE began housing detainees before construction completion and without required pre-occupancy inspection. Initial operating capacity 1,000, scaling by 250 weekly toward 5,000.",
+              "discovery": "case detail from retained source; historical event, not new occurrence",
+              "event_date": "2025-08-16",
+              "event_id": "CEM06",
+              "limits": "Capacity schedule is not proof of standards-compliant usable capacity.",
+              "locator": "p5 n9; p8 figure2; pp15–16",
+              "parent_event_id": "IC02",
+              "publication_date": "2026-06-09",
+              "source_id": "C01",
+              "source_lineage": "GAO-26-108886",
+              "status": "GAO documented"
+            },
+            {
+              "case_read_date": "2026-10-12",
+              "claim": "GAO site visit: approximately 1,500 detainees; one recreation yard inadequate; accessible showers still absent; camera monitoring understaffed.",
+              "discovery": "case detail from retained source; historical event, not new occurrence",
+              "event_date": "2025-09-16",
+              "event_id": "CEM07",
+              "limits": "Table explicitly does not assess remedies after September2025.",
+              "locator": "p15 table1",
+              "parent_event_id": null,
+              "publication_date": "2026-06-09",
+              "source_id": "C01",
+              "source_lineage": "GAO-26-108886",
+              "status": "GAO documented"
+            },
+            {
+              "case_read_date": "2026-10-12",
+              "claim": "Army modification transferred contract administration effective October1.",
+              "discovery": "case detail from retained source; historical event, not new occurrence",
+              "event_date": "2025-09-23",
+              "event_id": "CEM08",
+              "limits": "",
+              "locator": "p2 n7",
+              "parent_event_id": "IC03",
+              "publication_date": "2026-06-09",
+              "source_id": "C01",
+              "source_lineage": "GAO-26-108886",
+              "status": "GAO documented"
+            },
+            {
+              "case_read_date": "2026-10-12",
+              "claim": "ICE assumed contract administration; Army had exercised first option. ICE already had operational/oversight role before transfer.",
+              "discovery": "case detail from retained source; historical event, not new occurrence",
+              "event_date": "2025-10-01",
+              "event_id": "CEM09",
+              "limits": "",
+              "locator": "pp7,12,17",
+              "parent_event_id": "IC03",
+              "publication_date": "2026-06-09",
+              "source_id": "C01",
+              "source_lineage": "GAO-26-108886",
+              "status": "GAO documented"
+            },
+            {
+              "case_read_date": "2026-10-12",
+              "claim": "ICE discrepancy report: required TB skin tests within12h replaced with symptom questionnaires; a November TB case was housed in general population.",
+              "discovery": "case detail from retained source; historical event, not new occurrence",
+              "event_date": "2025-12-03",
+              "event_id": "CEM10",
+              "limits": "No verified subsequent TB correction in reviewed record.",
+              "locator": "p17 table2",
+              "parent_event_id": null,
+              "publication_date": "2026-06-09",
+              "source_id": "C01",
+              "source_lineage": "GAO-26-108886",
+              "status": "GAO documented"
+            },
+            {
+              "case_read_date": "2026-10-12",
+              "claim": "ICE medical oversight found absent comprehensive assessments and no diabetes/HIV treatment plans.",
+              "discovery": "case detail from retained source; historical event, not new occurrence",
+              "event_date": "2025-12",
+              "event_id": "CEM11",
+              "limits": "Oversight findings reported by GAO, not independently reread underlying ICE report.",
+              "locator": "p17 table2",
+              "parent_event_id": null,
+              "publication_date": "2026-06-09",
+              "source_id": "C01",
+              "source_lineage": "GAO-26-108886",
+              "status": "GAO documented"
+            },
+            {
+              "case_read_date": "2026-10-12",
+              "claim": "Weapons discrepancy report followed loaded firearm loss; still unrecovered as of March according to ICE official.",
+              "discovery": "case detail from retained source; historical event, not new occurrence",
+              "event_date": "2026-01-26",
+              "event_id": "CEM12",
+              "limits": "March observation is not October current status.",
+              "locator": "p17 table2",
+              "parent_event_id": null,
+              "publication_date": "2026-06-09",
+              "source_id": "C01",
+              "source_lineage": "GAO-26-108886",
+              "status": "GAO documented"
+            },
+            {
+              "case_read_date": "2026-10-12",
+              "claim": "ODO inspection found49 deficiencies including3 priority issues and rated facility acceptable.",
+              "discovery": "case detail from retained source; historical event, not new occurrence",
+              "event_date": "2026-02",
+              "event_id": "CEM13",
+              "limits": "Tool control, ammunition controls, and TB-symptom notification were priority issues. Rating is not proof of all deficiencies corrected.",
+              "locator": "p16 n37",
+              "parent_event_id": null,
+              "publication_date": "2026-06-09",
+              "source_id": "C01",
+              "source_lineage": "GAO-26-108886",
+              "status": "GAO documented"
+            },
+            {
+              "case_read_date": "2026-10-12",
+              "claim": "ICE reports covered absent dietician menu-review evidence, six transportation failures, and missing use-of-force/death reports for January death; autopsy classified homicide due to asphyxia; associated evidence missing or destroyed.",
+              "discovery": "case detail from retained source; historical event, not new occurrence",
+              "event_date": "2026-02-20",
+              "event_id": "CEM14",
+              "limits": "Medical classification is not a criminal conviction; OPR inquiry paused pending criminal investigation as of April2026.",
+              "locator": "pp17–18 table2",
+              "parent_event_id": null,
+              "publication_date": "2026-06-09",
+              "source_id": "C01",
+              "source_lineage": "GAO-26-108886",
+              "status": "GAO documented"
+            },
+            {
+              "case_read_date": "2026-10-12",
+              "claim": "About1,600 detainees; five1,000-person units operating; meals paid for5,000. ICE cited segregation/isolation needs; GAO noted subdivisions within units.",
+              "discovery": "case detail from retained source; historical event, not new occurrence",
+              "event_date": "2026-02-end",
+              "event_id": "CEM15",
+              "limits": "Observed population, physical/contract capacity, safely usable capacity and paid quantity are separate.",
+              "locator": "p12",
+              "parent_event_id": null,
+              "publication_date": "2026-06-09",
+              "source_id": "C01",
+              "source_lineage": "GAO-26-108886",
+              "status": "GAO documented"
+            },
+            {
+              "case_read_date": "2026-10-12",
+              "claim": "Reports covered sanitation, October escape and January suicide: observation intervals exceeded15min and vision panels requested in October were not installed by the death.",
+              "discovery": "case detail from retained source; historical event, not new occurrence",
+              "event_date": "2026-03-03",
+              "event_id": "CEM16",
+              "limits": "Contractor reported ongoing/planned fixes; some reports draft/pending as of March; no item-level closure proof.",
+              "locator": "p18 table2",
+              "parent_event_id": null,
+              "publication_date": "2026-06-09",
+              "source_id": "C01",
+              "source_lineage": "GAO-26-108886",
+              "status": "GAO documented"
+            },
+            {
+              "case_read_date": "2026-10-12",
+              "claim": "ICE awarded noncompetitive undefinitized replacement contract to different vendor for operation beginning April18 through September30.",
+              "discovery": "case detail from retained source; historical event, not new occurrence",
+              "event_date": "2026-03-12",
+              "event_id": "CEM17",
+              "limits": "Award verified through GAO; operating success not established.",
+              "locator": "p7 n17; pp14,19",
+              "parent_event_id": null,
+              "publication_date": "2026-06-09",
+              "source_id": "C01",
+              "source_lineage": "GAO-26-108886",
+              "status": "GAO documented"
+            },
+            {
+              "case_read_date": "2026-10-12",
+              "claim": "Initial contract terminated for convenience; GAO could not yet assess replacement effectiveness or inclusion of quality-assurance surveillance plan.",
+              "discovery": "case detail from retained source; historical event, not new occurrence",
+              "event_date": "2026-04-mid",
+              "event_id": "CEM18",
+              "limits": "Termination for convenience is not a default finding or demonstrated cure.",
+              "locator": "pp14,19",
+              "parent_event_id": null,
+              "publication_date": "2026-06-09",
+              "source_id": "C01",
+              "source_lineage": "GAO-26-108886",
+              "status": "GAO documented"
+            },
+            {
+              "case_read_date": "2026-10-12",
+              "claim": "Defense response agreed to lessons assessment while disputing GAO conclusions and alleged overreliance on ICE.",
+              "discovery": "case detail from retained source; historical event, not new occurrence",
+              "event_date": "2026-05-22",
+              "event_id": "CEM19",
+              "limits": "Underlying January documentation and April10 rebuttal not independently read. GAO defended balanced attribution on p22.",
+              "locator": "pp29–30 scanned appendixII",
+              "parent_event_id": null,
+              "publication_date": "2026-06-09",
+              "source_id": "C01",
+              "source_lineage": "GAO-26-108886",
+              "status": "Agency position reproduced in GAO"
+            },
+            {
+              "case_read_date": "2026-10-12",
+              "claim": "DHS response planned tiered pricing, reduction from5,000 to4,000 beds with initial1,500 funding and250-bed increments; asserted existing inspection controls and requested recommendation closure.",
+              "discovery": "case detail from retained source; historical event, not new occurrence",
+              "event_date": "2026-05-29",
+              "event_id": "CEM20",
+              "limits": "Plans not verified implementation. Pricing target December31; DHS lessons date TBD. GAO rejected inspection-policy sufficiency.",
+              "locator": "pp25–28 scanned appendixI",
+              "parent_event_id": null,
+              "publication_date": "2026-06-09",
+              "source_id": "C01",
+              "source_lineage": "GAO-26-108886",
+              "status": "Agency position reproduced in GAO"
+            },
+            {
+              "case_read_date": "2026-10-12",
+              "claim": "GAO published four recommendations: pricing, pre-occupancy controls, Army lessons and DHS lessons.",
+              "discovery": "case detail from retained source; historical event, not new occurrence",
+              "event_date": "2026-06-09",
+              "event_id": "CEM21",
+              "limits": "",
+              "locator": "pp21–22",
+              "parent_event_id": null,
+              "publication_date": "2026-06-09",
+              "source_id": "C01",
+              "source_lineage": "GAO-26-108886",
+              "status": "GAO documented"
+            },
+            {
+              "case_read_date": "2026-10-12",
+              "claim": "As of August, replacement contract still lacked occupancy-sensitive cost-saving measures and ICE paid for unneeded services; contract prices remained under negotiation. Assistance agreement still active.",
+              "discovery": "case detail from retained source; historical observation, not new occurrence",
+              "event_date": "2026-08",
+              "event_id": "CEM22",
+              "limits": "Actual dated pricing nonimplementation, not proof of no safety fixes or of current October pricing. June findings recited in this follow-up are derivative, not independent corroboration.",
+              "locator": "pp7–8; p4 n14",
+              "parent_event_id": "IC07",
+              "publication_date": "2026-09-24",
+              "source_id": "C02",
+              "source_lineage": "GAO-26-108663:related-follow-up-to-GAO-26-108886",
+              "status": "GAO documented follow-up"
+            }
+          ],
+          "function": "Make safety and remedy evidence inspectable without promoting policy, a replacement contractor or an Open status into a claim about current conditions.",
+          "task": "Trace Army acquisition → ICE administration → dated capacity → inspection/oversight gaps → agency response → verified correction using two related GAO reports."
+        }
+      },
+      "decision": {
+        "next_node": "MIRROR",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-10-12T10:16:22.649631+00:00"
+    },
+    {
+      "after": "4683082858cad5b8494c19f44678c7c4923a3154334adb201d71526e8e32bc39",
+      "before": "f48d1f9b37eec7afb4f4a0a891c4e7444afed90377c13ce7f11fe231e082d5e4",
+      "command": {
+        "actor": {
+          "model": "unknown",
+          "name": "Work Aiden",
+          "runtime": "ChatGPT Work active session; supplied-content Garden"
+        },
+        "branch_id": "B0",
+        "event_id": "CEM-EVENT-05",
+        "expected_revision": 4,
+        "kind": "step",
+        "node": "MIRROR",
+        "output": {
+          "comparisons": [
+            {
+              "answers": [
+                "Army/ICE officials cite leadership deadlines and failed ICE procurements. Army cites speed, innovation and price; ICE contracting staff criticize absent review and LPTA. Defense disputes balance; GAO attributes decisions to both agencies. This does not establish a secret motive."
+              ],
+              "explanation": "Expedited deadlines and procurement design versus deliberate evasion.",
+              "queries": [
+                {
+                  "status": "answered from retained audit; no motive investigation",
+                  "text": "What does GAO and each agency actually attribute?"
+                }
+              ]
+            },
+            {
+              "answers": [
+                "ICE cited these functions. GAO observed subdividable units and invoices for unneeded meals. DHS describes short-stay staging near an air hub. No measured safe usable capacity follows from either gross beds or occupancy."
+              ],
+              "explanation": "Spare capacity may serve separation, isolation and surge needs.",
+              "queries": []
+            },
+            {
+              "answers": [
+                "One recreation yard opened but remained inadequate in September; contract replaced; Army milestones documented. Historical table excludes later fixes. No item-level reinspection establishes current correction."
+              ],
+              "explanation": "Open recommendations may coexist with corrective work or administrative closure lag.",
+              "queries": []
+            },
+            {
+              "answers": [
+                "February inspection still found49 deficiencies and3 priority issues. April replacement was too early to evaluate in GAO audit. Same dated requirement-specific evidence standard would apply to any operator."
+              ],
+              "explanation": "An acceptable overall inspection and a replacement vendor could indicate improvement without proving closure.",
+              "queries": []
+            },
+            {
+              "answers": [
+                "C02 pp7–8 documents absent cost-saving measures as of August2026, despite March replacement award. This is later dated evidence, not merely an inference from recommendation Open status. It does not resolve the safety residual."
+              ],
+              "explanation": "Pricing failure can be tested separately from medical correction.",
+              "queries": []
+            }
+          ],
+          "information_lineage": {
+            "api_record_refs": [
+              "digestion/threshold/research/2026-10-10-postwar-ice/retrievals/gao-public-documents/api/0001.json",
+              "digestion/threshold/research/2026-10-10-postwar-ice/retrievals/gao-public-documents/api/0002.json"
+            ],
+            "criteria_refs": [
+              "user request 2026-10-12T03:11:59-07:00",
+              "README.md#evidence-standard"
+            ],
+            "parent_answer_visible": true,
+            "parent_output_refs": [
+              "reports/military-conscience-and-institutional-safeguards/ICE_CAPACITY_AND_OVERSIGHT.md"
+            ],
+            "source_refs": [
+              "RC006:C01:PDF",
+              "RC006:IC02-IC03",
+              "C01:STATUS:20261012",
+              "RC006:C02:PDF"
+            ],
+            "test_origin": "separately_specified"
+          }
+        }
+      },
+      "decision": {
+        "next_node": "CROSS",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-10-12T10:16:22.649631+00:00"
+    },
+    {
+      "after": "03092b699ed243483c0c04ea37cfdf3652a057859241ba512afd1a1afb0033e4",
+      "before": "4683082858cad5b8494c19f44678c7c4923a3154334adb201d71526e8e32bc39",
+      "command": {
+        "actor": {
+          "model": "unknown",
+          "name": "Work Aiden",
+          "runtime": "ChatGPT Work active session; supplied-content Garden"
+        },
+        "branch_id": "B0",
+        "event_id": "CEM-EVENT-06",
+        "expected_revision": 5,
+        "kind": "step",
+        "node": "CROSS",
+        "output": {
+          "bridge": [
+            {
+              "question": "Does a recorded intervention bridge to verified correction?",
+              "source_refs": [
+                "RC006:C01:PDF",
+                "RC006:IC02-IC03",
+                "C01:STATUS:20261012"
+              ],
+              "status": "Partial intervention evidence only; no complete requirement → completed action → validation chain for cited safety failures."
+            }
+          ],
+          "independent": [],
+          "inherited": [
+            {
+              "ref": "RC006:C01:PDF",
+              "status": "same GAO source family; ledger is derivative"
+            },
+            {
+              "ref": "RC006:IC02-IC03",
+              "status": "same GAO source family; ledger is derivative"
+            },
+            {
+              "ref": "C01:STATUS:20261012",
+              "status": "same GAO source family; ledger is derivative"
+            },
+            {
+              "ref": "RC006:C02:PDF",
+              "status": "Related GAO follow-up; August pricing observation, no independent safety corroboration"
+            }
+          ],
+          "lineage_note": "C01 PDF, appendices, webpage and derivative ledger are one lineage. C02 explicitly cites C01, adds an August pricing observation, and remains a related GAO follow-up. No independent safety attachment claimed."
+        }
+      },
+      "decision": {
+        "next_node": "RESID",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-10-12T10:16:22.649631+00:00"
+    },
+    {
+      "after": "e5dddf605633a73bf89fea782f307089894ea84f52c07dbb8bb109184cef361f",
+      "before": "03092b699ed243483c0c04ea37cfdf3652a057859241ba512afd1a1afb0033e4",
+      "command": {
+        "actor": {
+          "model": "unknown",
+          "name": "Work Aiden",
+          "runtime": "ChatGPT Work active session; supplied-content Garden"
+        },
+        "branch_id": "B0",
+        "event_id": "CEM-EVENT-07",
+        "expected_revision": 6,
+        "kind": "step",
+        "node": "RESID",
+        "output": {
+          "predicates": {
+            "consequential": true,
+            "distinct_functions": false,
+            "language_exception": false
+          },
+          "specialist": {
+            "acceptance": "Actual sampled compliance or explicit verified closure with its scope and date; plan, vendor replacement or overall acceptable rating alone is insufficient.",
+            "budget": {
+              "model_posts": 0,
+              "official_records": 1
+            },
+            "question": "After the April18,2026 contractor change at Camp East Montana, does a dated ICE medical reinspection verify correction of the TB intake testing and notification deficiencies identified in GAO-26-108886?",
+            "question_id": "Q-CEM-TB-CORRECTION",
+            "return_to": "CEM-SAFEGUARDS-20261012 / B0 / new ARRIVAL linked to the retained RESID",
+            "source_need": "One official post-transition medical reinspection or deficiency-closure record identifying the TB requirement, corrective date, verification method and result.",
+            "status": "proposed_only; not registered in shared queue; no worker launched",
+            "stop_condition": "One qualifying official record or an explicit bounded unavailable/insufficient-evidence result.",
+            "why_narrow": "Tests one consequential patient-safety failure; does not require all49 deficiencies or expand to other facilities."
+          },
+          "summary": "Post-transition verification of TB screening/notification, medical assessments, suicide precautions, physical standards and oversight plan remains unknown. C02 verifies pricing measures absent as of August; October implementation remains unknown. Prioritize one TB reinspection Question."
+        }
+      },
+      "decision": {
+        "next_node": "MEAN",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-10-12T10:16:22.649631+00:00"
+    },
+    {
+      "after": "88e79a184d88846b0f4d79bb7f9fabd9956d6fbea648005c294129363c7142ad",
+      "before": "e5dddf605633a73bf89fea782f307089894ea84f52c07dbb8bb109184cef361f",
+      "command": {
+        "actor": {
+          "model": "unknown",
+          "name": "Work Aiden",
+          "runtime": "ChatGPT Work active session; supplied-content Garden"
+        },
+        "branch_id": "B0",
+        "event_id": "CEM-EVENT-08",
+        "expected_revision": 7,
+        "kind": "step",
+        "node": "MEAN",
+        "output": {
+          "summary": "A safeguard must operate before exposure and its remedy must be tested afterwards. Inspection policy and contract replacement alone cannot establish safe care. Preserve agency responses and partial progress without erasing documented harm."
+        }
+      },
+      "decision": {
+        "next_node": "EXIT",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-10-12T10:16:22.649631+00:00"
+    },
+    {
+      "after": "035ba0571b2f875ee0ece1dfee6db2b6237bc53f7831179dcf858695881fd54c",
+      "before": "88e79a184d88846b0f4d79bb7f9fabd9956d6fbea648005c294129363c7142ad",
+      "command": {
+        "actor": {
+          "model": "unknown",
+          "name": "Work Aiden",
+          "runtime": "ChatGPT Work active session; supplied-content Garden"
+        },
+        "branch_id": "B0",
+        "event_id": "CEM-EVENT-09",
+        "expected_revision": 8,
+        "kind": "step",
+        "node": "EXIT",
+        "output": {
+          "answer_status": "ready_for_Digest_review; not canonical evidence",
+          "follow_up_question": {
+            "acceptance": "Actual sampled compliance or explicit verified closure with its scope and date; plan, vendor replacement or overall acceptable rating alone is insufficient.",
+            "budget": {
+              "model_posts": 0,
+              "official_records": 1
+            },
+            "question": "After the April18,2026 contractor change at Camp East Montana, does a dated ICE medical reinspection verify correction of the TB intake testing and notification deficiencies identified in GAO-26-108886?",
+            "question_id": "Q-CEM-TB-CORRECTION",
+            "return_to": "CEM-SAFEGUARDS-20261012 / B0 / new ARRIVAL linked to the retained RESID",
+            "source_need": "One official post-transition medical reinspection or deficiency-closure record identifying the TB requirement, corrective date, verification method and result.",
+            "status": "proposed_only; not registered in shared queue; no worker launched",
+            "stop_condition": "One qualifying official record or an explicit bounded unavailable/insufficient-evidence result.",
+            "why_narrow": "Tests one consequential patient-safety failure; does not require all49 deficiencies or expand to other facilities."
+          },
+          "kind": "question",
+          "summary": "Formal detention standards and a pre-occupancy policy existed; the inspection was skipped, standards failed in documented operation, and a missing surveillance plan weakened enforcement. Remedial actions and promises exist, but item-level correction is not verified in this bounded record."
+        }
+      },
+      "decision": {
+        "next_node": "RETURN",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-10-12T10:16:22.649631+00:00"
+    },
+    {
+      "after": "c8a420c4349e79b7fc177b65c7168c7c6f90c2f341b8282f13a853fe7596fee8",
+      "before": "035ba0571b2f875ee0ece1dfee6db2b6237bc53f7831179dcf858695881fd54c",
+      "command": {
+        "actor": {
+          "model": "unknown",
+          "name": "Work Aiden",
+          "runtime": "ChatGPT Work active session; supplied-content Garden"
+        },
+        "branch_id": "B0",
+        "event_id": "CEM-EVENT-10",
+        "expected_revision": 9,
+        "kind": "step",
+        "node": "RETURN",
+        "output": {
+          "new_arrival": null,
+          "reason": "Bounded supplied-content pass complete. Rest with residual; resume only upon a materially new dated verification record. No Bee, provider dispatch or Governor action."
+        }
+      },
+      "decision": {
+        "reason": "No new arrival supplied",
+        "status": "rest"
+      },
+      "recorded_at": "2026-10-12T10:16:22.649631+00:00"
+    }
+  ],
+  "initial": {
+    "config": {
+      "authority": "Reviewed configuration determines eligible routes. Supplied content cannot edit this graph or activate morphology.",
+      "grammar": {
+        "crosscheck": {
+          "basic": "Collector capability",
+          "consequential_residual": "May request or propose teleport to a bounded Pygent Collector/specialist",
+          "permanent_crosscheck_bee": "Unresolved pending repeated cases showing the value of persistent specialist memory"
+        },
+        "entry": "INIT:ROOT-0001",
+        "external_execution": false,
+        "governor_input_refs": [
+          "daily_scroll",
+          "reflection_mailbox",
+          "meaning_tower",
+          "chair_imagination",
+          "meaning_boss_result"
+        ],
+        "routes": [
+          {
+            "automatic_execution": false,
+            "from": "INIT:RESID-0007",
+            "status": "available_not_running",
+            "to": "INIT:RETURN-0010",
+            "via": "PYGENT:PARALLAX-0001"
+          }
+        ],
+        "schema_version": "garden-config-0.1",
+        "status": "on_demand_grammar_prototype",
+        "trees": {
+          "INIT": {
+            "name": "Initiating Garden",
+            "nodes": [
+              {
+                "id": "ROOT-0001",
+                "purpose": "Pass name and identity"
+              },
+              {
+                "id": "ARRIVAL-0002",
+                "purpose": "What arrived, from where, sent to where"
+              },
+              {
+                "id": "EPIST-0003",
+                "purpose": "Prompt/question and starting epistemic state"
+              },
+              {
+                "id": "FUNC-0004",
+                "purpose": "Task and function being investigated"
+              },
+              {
+                "id": "MIRROR-0005",
+                "purpose": "Competing explanations, queries and recorded answers"
+              },
+              {
+                "id": "CROSS-0006",
+                "purpose": "Inherited, independently derived and deliberate bridge attachments"
+              },
+              {
+                "id": "RESID-0007",
+                "purpose": "Surviving residual and bounded specialist proposal"
+              },
+              {
+                "id": "MEAN-0008",
+                "purpose": "Changed meaning and non-evidence culture flower"
+              },
+              {
+                "id": "EXIT-0009",
+                "purpose": "Bounded answer, question, teleport, silence or error"
+              },
+              {
+                "id": "RETURN-0010",
+                "purpose": "New linked arrival or rest"
+              }
+            ]
+          },
+          "PYGENT": {
+            "name": "Bounded specialist destinations",
+            "nodes": [
+              {
+                "id": "PARALLAX-0001",
+                "purpose": "One bounded matched official-language Boss Packet",
+                "role": "parallax_collector_bee",
+                "status": "available_not_running"
+              }
+            ]
+          }
+        }
+      },
+      "independence": "A different branch, tree, context or model is not independent empirical evidence.",
+      "limits": {
+        "max_branches": 8,
+        "max_events": 128,
+        "max_fanout": 3,
+        "max_steps": 80,
+        "model_calls": 0
+      },
+      "model_execution": false,
+      "node_contracts": {
+        "ARRIVAL": {
+          "objects": [
+            "arrival",
+            "language_glance"
+          ]
+        },
+        "CROSS": {
+          "lists": [
+            "inherited",
+            "independent",
+            "bridge"
+          ]
+        },
+        "EPIST": {
+          "strings": [
+            "prompt",
+            "starting_state"
+          ]
+        },
+        "EXIT": {
+          "strings": [
+            "kind",
+            "summary"
+          ]
+        },
+        "FUNC": {
+          "strings": [
+            "task",
+            "function"
+          ]
+        },
+        "MEAN": {
+          "strings": [
+            "summary"
+          ]
+        },
+        "MIRROR": {
+          "lists": [
+            "comparisons"
+          ],
+          "objects": [
+            "information_lineage"
+          ]
+        },
+        "RESID": {
+          "objects": [
+            "predicates"
+          ],
+          "strings": [
+            "summary"
+          ]
+        },
+        "RETURN": {
+          "strings": [
+            "reason"
+          ]
+        },
+        "ROOT": {
+          "strings": [
+            "name"
+          ]
+        }
+      },
+      "rules": [
+        {
+          "actions": [
+            "MOVE",
+            "CLONE"
+          ],
+          "at": [
+            "RESID",
+            "MEAN",
+            "EXIT",
+            "RETURN"
+          ],
+          "condition": {
+            "members": [
+              "consequential",
+              "language_exception"
+            ],
+            "op": "AND"
+          },
+          "from": [
+            "INIT",
+            "ECONOMICS",
+            "PRODUCTION",
+            "DIPLOMACY",
+            "LANGUAGE",
+            "CUSTOMS",
+            "HOMELESSNESS"
+          ],
+          "id": "LANGUAGE-EXCEPTION",
+          "review_required": false,
+          "to": [
+            "LANGUAGE"
+          ]
+        },
+        {
+          "actions": [
+            "MOVE",
+            "CLONE",
+            "FANOUT"
+          ],
+          "at": [
+            "RESID",
+            "MEAN",
+            "EXIT",
+            "RETURN"
+          ],
+          "condition": {
+            "members": [
+              "consequential",
+              "distinct_functions"
+            ],
+            "op": "AND"
+          },
+          "from": [
+            "INIT",
+            "ECONOMICS",
+            "PRODUCTION",
+            "DIPLOMACY",
+            "LANGUAGE",
+            "CUSTOMS",
+            "HOMELESSNESS"
+          ],
+          "id": "DOMAIN-BRANCH",
+          "review_required": true,
+          "to": [
+            "INIT",
+            "ECONOMICS",
+            "PRODUCTION",
+            "DIPLOMACY",
+            "LANGUAGE",
+            "CUSTOMS",
+            "HOMELESSNESS"
+          ]
+        }
+      ],
+      "schema_version": "garden-traversal-config-1",
+      "status": "supplied_content_runtime",
+      "trees": {
+        "CUSTOMS": {
+          "name": "Customs Authority",
+          "node_template": "INIT",
+          "status": "traversable_with_supplied_content"
+        },
+        "DIPLOMACY": {
+          "name": "Diplomacy",
+          "node_template": "INIT",
+          "status": "traversable_with_supplied_content"
+        },
+        "ECONOMICS": {
+          "name": "Economics",
+          "node_template": "INIT",
+          "status": "traversable_with_supplied_content"
+        },
+        "HOMELESSNESS": {
+          "name": "Homelessness Governance and Integrity",
+          "node_template": "INIT",
+          "status": "traversable_with_supplied_content"
+        },
+        "INIT": {
+          "name": "Initiating Garden",
+          "node_template": "INIT",
+          "status": "traversable_with_supplied_content"
+        },
+        "LANGUAGE": {
+          "name": "Language Exception",
+          "node_template": "INIT",
+          "status": "traversable_with_supplied_content"
+        },
+        "PRODUCTION": {
+          "name": "Production",
+          "node_template": "INIT",
+          "status": "traversable_with_supplied_content"
+        }
+      }
+    },
+    "packet": {
+      "actor": {
+        "model": "unknown",
+        "name": "Work Aiden",
+        "runtime": "ChatGPT Work active session; supplied-content Garden"
+      },
+      "arrival": {
+        "from": "PR36:RC006:C01:IC02:IC03",
+        "id": "CEM-RC006-ARRIVAL-20261012",
+        "payload": {
+          "canonical_admission": false,
+          "evidence_file": "evidence.json",
+          "kind": "bounded_research_case",
+          "question": "What safeguards existed at Camp East Montana, which failed in documented practice, and what evidence verifies subsequent correction?",
+          "status_file": "status-recheck.json"
+        },
+        "to": "INIT:ROOT-0001"
+      },
+      "budget": {
+        "max_branches": 1,
+        "max_events": 10,
+        "max_fanout": 0,
+        "max_steps": 10,
+        "model_calls": 0
+      },
+      "epoch": 1,
+      "focus": "What safeguards existed at Camp East Montana, which failed in documented practice, and what evidence verifies subsequent correction?",
+      "question_id": "Q-CASE-CAMP-EAST-MONTANA",
+      "run_id": "CEM-SAFEGUARDS-20261012",
+      "sources": [
+        {
+          "kind": "public_source",
+          "lineage_id": "GAO-26-108886",
+          "path": "digestion/threshold/research/2026-10-10-postwar-ice/retrievals/gao-public-documents/api/0001.pdf",
+          "ref": "RC006:C01:PDF",
+          "source_id": "C01"
+        },
+        {
+          "kind": "context",
+          "lineage_id": "GAO-26-108886",
+          "path": "reports/military-conscience-and-institutional-safeguards/ice_capacity_events.json",
+          "ref": "RC006:IC02-IC03"
+        },
+        {
+          "kind": "public_source",
+          "lineage_id": "GAO-26-108886",
+          "path": "status-recheck.json",
+          "ref": "C01:STATUS:20261012"
+        },
+        {
+          "kind": "public_source",
+          "lineage_id": "GAO-26-108663:related-follow-up-to-GAO-26-108886",
+          "path": "digestion/threshold/research/2026-10-10-postwar-ice/retrievals/gao-public-documents/api/0002.pdf",
+          "ref": "RC006:C02:PDF",
+          "relationship": "Related GAO follow-up; recites C01 and adds dated August observation; not independent safety confirmation",
+          "source_id": "C02"
+        }
+      ],
+      "status": "bounded case study for review",
+      "tree": "INIT"
+    },
+    "registry": {
+      "questions": {
+        "Q-CASE-CAMP-EAST-MONTANA": {
+          "epoch": 1
+        }
+      }
+    }
+  },
+  "schema_version": "garden-traversal-1",
+  "state": {
+    "branches": {
+      "B0": {
+        "epoch": 1,
+        "focus": "What safeguards existed at Camp East Montana, which failed in documented practice, and what evidence verifies subsequent correction?",
+        "id": "B0",
+        "lineage": {
+          "independent_evidence": false,
+          "source_refs": [
+            "RC006:C01:PDF",
+            "RC006:IC02-IC03",
+            "C01:STATUS:20261012",
+            "RC006:C02:PDF"
+          ]
+        },
+        "parent_branch": null,
+        "question_id": "Q-CASE-CAMP-EAST-MONTANA",
+        "rest": {
+          "kind": "return",
+          "reason": "No new arrival supplied"
+        },
+        "root_branch": "B0",
+        "seen_arrival_ids": [
+          "CEM-RC006-ARRIVAL-20261012"
+        ],
+        "status": "resting",
+        "visited": [
+          {
+            "payload_hash": "6582013c3cb5897472599b7613b29e04e7f846cd019bf41bf85a27ae973cc41d",
+            "tree": "INIT"
+          }
+        ],
+        "visits": [
+          {
+            "arrival": {
+              "from": "PR36:RC006:C01:IC02:IC03",
+              "id": "CEM-RC006-ARRIVAL-20261012",
+              "payload": {
+                "canonical_admission": false,
+                "evidence_file": "evidence.json",
+                "kind": "bounded_research_case",
+                "question": "What safeguards existed at Camp East Montana, which failed in documented practice, and what evidence verifies subsequent correction?",
+                "status_file": "status-recheck.json"
+              },
+              "to": "INIT:ROOT-0001"
+            },
+            "status": "completed",
+            "steps": [
+              {
+                "actor": {
+                  "model": "unknown",
+                  "name": "Work Aiden",
+                  "runtime": "ChatGPT Work active session; supplied-content Garden"
+                },
+                "event_id": "CEM-EVENT-01",
+                "node": "ROOT",
+                "output": {
+                  "name": "Camp East Montana: safeguards, operation and verified correction"
+                }
+              },
+              {
+                "actor": {
+                  "model": "unknown",
+                  "name": "Work Aiden",
+                  "runtime": "ChatGPT Work active session; supplied-content Garden"
+                },
+                "event_id": "CEM-EVENT-02",
+                "node": "ARRIVAL",
+                "output": {
+                  "arrival": {
+                    "from": "PR36:RC006:C01:IC02:IC03",
+                    "id": "CEM-RC006-ARRIVAL-20261012",
+                    "payload": {
+                      "canonical_admission": false,
+                      "evidence_file": "evidence.json",
+                      "kind": "bounded_research_case",
+                      "question": "What safeguards existed at Camp East Montana, which failed in documented practice, and what evidence verifies subsequent correction?",
+                      "status_file": "status-recheck.json"
+                    },
+                    "to": "INIT:ROOT-0001"
+                  },
+                  "language_glance": {
+                    "basis": "source_metadata",
+                    "issuing_office": "U.S. Government Accountability Office; agency letters reproduced in appendices",
+                    "languages": [
+                      "English"
+                    ],
+                    "note": "Original English GAO audit and agency responses; inherited RC006 ledger summaries. No translated or independent second-language source.",
+                    "source_refs": [
+                      "RC006:C01:PDF",
+                      "RC006:IC02-IC03",
+                      "C01:STATUS:20261012",
+                      "RC006:C02:PDF"
+                    ],
+                    "surface_kind": "mixed"
+                  }
+                }
+              },
+              {
+                "actor": {
+                  "model": "unknown",
+                  "name": "Work Aiden",
+                  "runtime": "ChatGPT Work active session; supplied-content Garden"
+                },
+                "event_id": "CEM-EVENT-03",
+                "node": "EPIST",
+                "output": {
+                  "criteria": [
+                    "requirement and responsible authority",
+                    "dated observed practice",
+                    "item-specific corrective action",
+                    "dated validation of effectiveness"
+                  ],
+                  "prompt": "What safeguards existed at Camp East Montana, which failed in documented practice, and what evidence verifies subsequent correction?",
+                  "source_refs": [
+                    "RC006:C01:PDF",
+                    "RC006:IC02-IC03",
+                    "C01:STATUS:20261012",
+                    "RC006:C02:PDF"
+                  ],
+                  "starting_state": "Documented historical failures; current correction UNKNOWN. Existing safeguards, attempted remedies and verified compliance are separate."
+                }
+              },
+              {
+                "actor": {
+                  "model": "unknown",
+                  "name": "Work Aiden",
+                  "runtime": "ChatGPT Work active session; supplied-content Garden"
+                },
+                "event_id": "CEM-EVENT-04",
+                "node": "FUNC",
+                "output": {
+                  "evidence": [
+                    {
+                      "case_read_date": "2026-10-12",
+                      "claim": "DHS requested DOD assistance and access to military installations for ICE detention.",
+                      "discovery": "case detail from retained source; historical event, not new occurrence",
+                      "event_date": "2025-02-12",
+                      "event_id": "CEM01",
+                      "limits": "Original assistance/delegation instrument not independently examined; no blanket legal-authority conclusion.",
+                      "locator": "p2 n5",
+                      "parent_event_id": null,
+                      "publication_date": "2026-06-09",
+                      "source_id": "C01",
+                      "source_lineage": "GAO-26-108886",
+                      "status": "GAO account of request"
+                    },
+                    {
+                      "case_read_date": "2026-10-12",
+                      "claim": "ICE April award terminated after three days; May contracting attempt unsuccessful. Army and ICE jointly selected Army procurement, with ICE operational support and lead oversight.",
+                      "discovery": "case detail from retained source; historical event, not new occurrence",
+                      "event_date": "2025-04/2025-05",
+                      "event_id": "CEM02",
+                      "limits": "",
+                      "locator": "p7",
+                      "parent_event_id": null,
+                      "publication_date": "2026-06-09",
+                      "source_id": "C01",
+                      "source_lineage": "GAO-26-108886",
+                      "status": "GAO documented"
+                    },
+                    {
+                      "case_read_date": "2026-10-12",
+                      "claim": "Army issued solicitation using Navy-established WEXMAC small-business vehicle.",
+                      "discovery": "case detail from retained source; historical event, not new occurrence",
+                      "event_date": "2025-06-13",
+                      "event_id": "CEM03",
+                      "limits": "Acquisition mechanism, not authority for each custody action. Several proposed subcontractors had detention experience although the prime did not.",
+                      "locator": "p8 figure2; pp8–10",
+                      "parent_event_id": null,
+                      "publication_date": "2026-06-09",
+                      "source_id": "C01",
+                      "source_lineage": "GAO-26-108886",
+                      "status": "GAO documented"
+                    },
+                    {
+                      "case_read_date": "2026-10-12",
+                      "claim": "Army awarded task order worth up to $1.3 billion; 2.5-month base and two option years. Initial 1,000-bed capacity due August17. ERO approved contractor work statement; ICE contracting officers did not review it before award.",
+                      "discovery": "case detail from retained source; historical event, not new occurrence",
+                      "event_date": "2025-07-18",
+                      "event_id": "CEM04",
+                      "limits": "",
+                      "locator": "pp7–11; figure2",
+                      "parent_event_id": null,
+                      "publication_date": "2026-06-09",
+                      "source_id": "C01",
+                      "source_lineage": "GAO-26-108886",
+                      "status": "GAO documented"
+                    },
+                    {
+                      "case_read_date": "2026-10-12",
+                      "claim": "Army paid full operating-service costs before detainees arrived; GAO estimated up to $11.5m waste.",
+                      "discovery": "case detail from retained source; historical event, not new occurrence",
+                      "event_date": "2025-08-01/2025-08-15",
+                      "event_id": "CEM05",
+                      "limits": "Some preparation costs might be necessary; GAO found construction and staff vetting incomplete.",
+                      "locator": "p11",
+                      "parent_event_id": null,
+                      "publication_date": "2026-06-09",
+                      "source_id": "C01",
+                      "source_lineage": "GAO-26-108886",
+                      "status": "GAO documented"
+                    },
+                    {
+                      "case_read_date": "2026-10-12",
+                      "claim": "ICE began housing detainees before construction completion and without required pre-occupancy inspection. Initial operating capacity 1,000, scaling by 250 weekly toward 5,000.",
+                      "discovery": "case detail from retained source; historical event, not new occurrence",
+                      "event_date": "2025-08-16",
+                      "event_id": "CEM06",
+                      "limits": "Capacity schedule is not proof of standards-compliant usable capacity.",
+                      "locator": "p5 n9; p8 figure2; pp15–16",
+                      "parent_event_id": "IC02",
+                      "publication_date": "2026-06-09",
+                      "source_id": "C01",
+                      "source_lineage": "GAO-26-108886",
+                      "status": "GAO documented"
+                    },
+                    {
+                      "case_read_date": "2026-10-12",
+                      "claim": "GAO site visit: approximately 1,500 detainees; one recreation yard inadequate; accessible showers still absent; camera monitoring understaffed.",
+                      "discovery": "case detail from retained source; historical event, not new occurrence",
+                      "event_date": "2025-09-16",
+                      "event_id": "CEM07",
+                      "limits": "Table explicitly does not assess remedies after September2025.",
+                      "locator": "p15 table1",
+                      "parent_event_id": null,
+                      "publication_date": "2026-06-09",
+                      "source_id": "C01",
+                      "source_lineage": "GAO-26-108886",
+                      "status": "GAO documented"
+                    },
+                    {
+                      "case_read_date": "2026-10-12",
+                      "claim": "Army modification transferred contract administration effective October1.",
+                      "discovery": "case detail from retained source; historical event, not new occurrence",
+                      "event_date": "2025-09-23",
+                      "event_id": "CEM08",
+                      "limits": "",
+                      "locator": "p2 n7",
+                      "parent_event_id": "IC03",
+                      "publication_date": "2026-06-09",
+                      "source_id": "C01",
+                      "source_lineage": "GAO-26-108886",
+                      "status": "GAO documented"
+                    },
+                    {
+                      "case_read_date": "2026-10-12",
+                      "claim": "ICE assumed contract administration; Army had exercised first option. ICE already had operational/oversight role before transfer.",
+                      "discovery": "case detail from retained source; historical event, not new occurrence",
+                      "event_date": "2025-10-01",
+                      "event_id": "CEM09",
+                      "limits": "",
+                      "locator": "pp7,12,17",
+                      "parent_event_id": "IC03",
+                      "publication_date": "2026-06-09",
+                      "source_id": "C01",
+                      "source_lineage": "GAO-26-108886",
+                      "status": "GAO documented"
+                    },
+                    {
+                      "case_read_date": "2026-10-12",
+                      "claim": "ICE discrepancy report: required TB skin tests within12h replaced with symptom questionnaires; a November TB case was housed in general population.",
+                      "discovery": "case detail from retained source; historical event, not new occurrence",
+                      "event_date": "2025-12-03",
+                      "event_id": "CEM10",
+                      "limits": "No verified subsequent TB correction in reviewed record.",
+                      "locator": "p17 table2",
+                      "parent_event_id": null,
+                      "publication_date": "2026-06-09",
+                      "source_id": "C01",
+                      "source_lineage": "GAO-26-108886",
+                      "status": "GAO documented"
+                    },
+                    {
+                      "case_read_date": "2026-10-12",
+                      "claim": "ICE medical oversight found absent comprehensive assessments and no diabetes/HIV treatment plans.",
+                      "discovery": "case detail from retained source; historical event, not new occurrence",
+                      "event_date": "2025-12",
+                      "event_id": "CEM11",
+                      "limits": "Oversight findings reported by GAO, not independently reread underlying ICE report.",
+                      "locator": "p17 table2",
+                      "parent_event_id": null,
+                      "publication_date": "2026-06-09",
+                      "source_id": "C01",
+                      "source_lineage": "GAO-26-108886",
+                      "status": "GAO documented"
+                    },
+                    {
+                      "case_read_date": "2026-10-12",
+                      "claim": "Weapons discrepancy report followed loaded firearm loss; still unrecovered as of March according to ICE official.",
+                      "discovery": "case detail from retained source; historical event, not new occurrence",
+                      "event_date": "2026-01-26",
+                      "event_id": "CEM12",
+                      "limits": "March observation is not October current status.",
+                      "locator": "p17 table2",
+                      "parent_event_id": null,
+                      "publication_date": "2026-06-09",
+                      "source_id": "C01",
+                      "source_lineage": "GAO-26-108886",
+                      "status": "GAO documented"
+                    },
+                    {
+                      "case_read_date": "2026-10-12",
+                      "claim": "ODO inspection found49 deficiencies including3 priority issues and rated facility acceptable.",
+                      "discovery": "case detail from retained source; historical event, not new occurrence",
+                      "event_date": "2026-02",
+                      "event_id": "CEM13",
+                      "limits": "Tool control, ammunition controls, and TB-symptom notification were priority issues. Rating is not proof of all deficiencies corrected.",
+                      "locator": "p16 n37",
+                      "parent_event_id": null,
+                      "publication_date": "2026-06-09",
+                      "source_id": "C01",
+                      "source_lineage": "GAO-26-108886",
+                      "status": "GAO documented"
+                    },
+                    {
+                      "case_read_date": "2026-10-12",
+                      "claim": "ICE reports covered absent dietician menu-review evidence, six transportation failures, and missing use-of-force/death reports for January death; autopsy classified homicide due to asphyxia; associated evidence missing or destroyed.",
+                      "discovery": "case detail from retained source; historical event, not new occurrence",
+                      "event_date": "2026-02-20",
+                      "event_id": "CEM14",
+                      "limits": "Medical classification is not a criminal conviction; OPR inquiry paused pending criminal investigation as of April2026.",
+                      "locator": "pp17–18 table2",
+                      "parent_event_id": null,
+                      "publication_date": "2026-06-09",
+                      "source_id": "C01",
+                      "source_lineage": "GAO-26-108886",
+                      "status": "GAO documented"
+                    },
+                    {
+                      "case_read_date": "2026-10-12",
+                      "claim": "About1,600 detainees; five1,000-person units operating; meals paid for5,000. ICE cited segregation/isolation needs; GAO noted subdivisions within units.",
+                      "discovery": "case detail from retained source; historical event, not new occurrence",
+                      "event_date": "2026-02-end",
+                      "event_id": "CEM15",
+                      "limits": "Observed population, physical/contract capacity, safely usable capacity and paid quantity are separate.",
+                      "locator": "p12",
+                      "parent_event_id": null,
+                      "publication_date": "2026-06-09",
+                      "source_id": "C01",
+                      "source_lineage": "GAO-26-108886",
+                      "status": "GAO documented"
+                    },
+                    {
+                      "case_read_date": "2026-10-12",
+                      "claim": "Reports covered sanitation, October escape and January suicide: observation intervals exceeded15min and vision panels requested in October were not installed by the death.",
+                      "discovery": "case detail from retained source; historical event, not new occurrence",
+                      "event_date": "2026-03-03",
+                      "event_id": "CEM16",
+                      "limits": "Contractor reported ongoing/planned fixes; some reports draft/pending as of March; no item-level closure proof.",
+                      "locator": "p18 table2",
+                      "parent_event_id": null,
+                      "publication_date": "2026-06-09",
+                      "source_id": "C01",
+                      "source_lineage": "GAO-26-108886",
+                      "status": "GAO documented"
+                    },
+                    {
+                      "case_read_date": "2026-10-12",
+                      "claim": "ICE awarded noncompetitive undefinitized replacement contract to different vendor for operation beginning April18 through September30.",
+                      "discovery": "case detail from retained source; historical event, not new occurrence",
+                      "event_date": "2026-03-12",
+                      "event_id": "CEM17",
+                      "limits": "Award verified through GAO; operating success not established.",
+                      "locator": "p7 n17; pp14,19",
+                      "parent_event_id": null,
+                      "publication_date": "2026-06-09",
+                      "source_id": "C01",
+                      "source_lineage": "GAO-26-108886",
+                      "status": "GAO documented"
+                    },
+                    {
+                      "case_read_date": "2026-10-12",
+                      "claim": "Initial contract terminated for convenience; GAO could not yet assess replacement effectiveness or inclusion of quality-assurance surveillance plan.",
+                      "discovery": "case detail from retained source; historical event, not new occurrence",
+                      "event_date": "2026-04-mid",
+                      "event_id": "CEM18",
+                      "limits": "Termination for convenience is not a default finding or demonstrated cure.",
+                      "locator": "pp14,19",
+                      "parent_event_id": null,
+                      "publication_date": "2026-06-09",
+                      "source_id": "C01",
+                      "source_lineage": "GAO-26-108886",
+                      "status": "GAO documented"
+                    },
+                    {
+                      "case_read_date": "2026-10-12",
+                      "claim": "Defense response agreed to lessons assessment while disputing GAO conclusions and alleged overreliance on ICE.",
+                      "discovery": "case detail from retained source; historical event, not new occurrence",
+                      "event_date": "2026-05-22",
+                      "event_id": "CEM19",
+                      "limits": "Underlying January documentation and April10 rebuttal not independently read. GAO defended balanced attribution on p22.",
+                      "locator": "pp29–30 scanned appendixII",
+                      "parent_event_id": null,
+                      "publication_date": "2026-06-09",
+                      "source_id": "C01",
+                      "source_lineage": "GAO-26-108886",
+                      "status": "Agency position reproduced in GAO"
+                    },
+                    {
+                      "case_read_date": "2026-10-12",
+                      "claim": "DHS response planned tiered pricing, reduction from5,000 to4,000 beds with initial1,500 funding and250-bed increments; asserted existing inspection controls and requested recommendation closure.",
+                      "discovery": "case detail from retained source; historical event, not new occurrence",
+                      "event_date": "2026-05-29",
+                      "event_id": "CEM20",
+                      "limits": "Plans not verified implementation. Pricing target December31; DHS lessons date TBD. GAO rejected inspection-policy sufficiency.",
+                      "locator": "pp25–28 scanned appendixI",
+                      "parent_event_id": null,
+                      "publication_date": "2026-06-09",
+                      "source_id": "C01",
+                      "source_lineage": "GAO-26-108886",
+                      "status": "Agency position reproduced in GAO"
+                    },
+                    {
+                      "case_read_date": "2026-10-12",
+                      "claim": "GAO published four recommendations: pricing, pre-occupancy controls, Army lessons and DHS lessons.",
+                      "discovery": "case detail from retained source; historical event, not new occurrence",
+                      "event_date": "2026-06-09",
+                      "event_id": "CEM21",
+                      "limits": "",
+                      "locator": "pp21–22",
+                      "parent_event_id": null,
+                      "publication_date": "2026-06-09",
+                      "source_id": "C01",
+                      "source_lineage": "GAO-26-108886",
+                      "status": "GAO documented"
+                    },
+                    {
+                      "case_read_date": "2026-10-12",
+                      "claim": "As of August, replacement contract still lacked occupancy-sensitive cost-saving measures and ICE paid for unneeded services; contract prices remained under negotiation. Assistance agreement still active.",
+                      "discovery": "case detail from retained source; historical observation, not new occurrence",
+                      "event_date": "2026-08",
+                      "event_id": "CEM22",
+                      "limits": "Actual dated pricing nonimplementation, not proof of no safety fixes or of current October pricing. June findings recited in this follow-up are derivative, not independent corroboration.",
+                      "locator": "pp7–8; p4 n14",
+                      "parent_event_id": "IC07",
+                      "publication_date": "2026-09-24",
+                      "source_id": "C02",
+                      "source_lineage": "GAO-26-108663:related-follow-up-to-GAO-26-108886",
+                      "status": "GAO documented follow-up"
+                    }
+                  ],
+                  "function": "Make safety and remedy evidence inspectable without promoting policy, a replacement contractor or an Open status into a claim about current conditions.",
+                  "task": "Trace Army acquisition → ICE administration → dated capacity → inspection/oversight gaps → agency response → verified correction using two related GAO reports."
+                }
+              },
+              {
+                "actor": {
+                  "model": "unknown",
+                  "name": "Work Aiden",
+                  "runtime": "ChatGPT Work active session; supplied-content Garden"
+                },
+                "event_id": "CEM-EVENT-05",
+                "node": "MIRROR",
+                "output": {
+                  "comparisons": [
+                    {
+                      "answers": [
+                        "Army/ICE officials cite leadership deadlines and failed ICE procurements. Army cites speed, innovation and price; ICE contracting staff criticize absent review and LPTA. Defense disputes balance; GAO attributes decisions to both agencies. This does not establish a secret motive."
+                      ],
+                      "explanation": "Expedited deadlines and procurement design versus deliberate evasion.",
+                      "queries": [
+                        {
+                          "status": "answered from retained audit; no motive investigation",
+                          "text": "What does GAO and each agency actually attribute?"
+                        }
+                      ]
+                    },
+                    {
+                      "answers": [
+                        "ICE cited these functions. GAO observed subdividable units and invoices for unneeded meals. DHS describes short-stay staging near an air hub. No measured safe usable capacity follows from either gross beds or occupancy."
+                      ],
+                      "explanation": "Spare capacity may serve separation, isolation and surge needs.",
+                      "queries": []
+                    },
+                    {
+                      "answers": [
+                        "One recreation yard opened but remained inadequate in September; contract replaced; Army milestones documented. Historical table excludes later fixes. No item-level reinspection establishes current correction."
+                      ],
+                      "explanation": "Open recommendations may coexist with corrective work or administrative closure lag.",
+                      "queries": []
+                    },
+                    {
+                      "answers": [
+                        "February inspection still found49 deficiencies and3 priority issues. April replacement was too early to evaluate in GAO audit. Same dated requirement-specific evidence standard would apply to any operator."
+                      ],
+                      "explanation": "An acceptable overall inspection and a replacement vendor could indicate improvement without proving closure.",
+                      "queries": []
+                    },
+                    {
+                      "answers": [
+                        "C02 pp7–8 documents absent cost-saving measures as of August2026, despite March replacement award. This is later dated evidence, not merely an inference from recommendation Open status. It does not resolve the safety residual."
+                      ],
+                      "explanation": "Pricing failure can be tested separately from medical correction.",
+                      "queries": []
+                    }
+                  ],
+                  "information_lineage": {
+                    "api_record_refs": [
+                      "digestion/threshold/research/2026-10-10-postwar-ice/retrievals/gao-public-documents/api/0001.json",
+                      "digestion/threshold/research/2026-10-10-postwar-ice/retrievals/gao-public-documents/api/0002.json"
+                    ],
+                    "criteria_refs": [
+                      "user request 2026-10-12T03:11:59-07:00",
+                      "README.md#evidence-standard"
+                    ],
+                    "parent_answer_visible": true,
+                    "parent_output_refs": [
+                      "reports/military-conscience-and-institutional-safeguards/ICE_CAPACITY_AND_OVERSIGHT.md"
+                    ],
+                    "source_refs": [
+                      "RC006:C01:PDF",
+                      "RC006:IC02-IC03",
+                      "C01:STATUS:20261012",
+                      "RC006:C02:PDF"
+                    ],
+                    "test_origin": "separately_specified"
+                  }
+                }
+              },
+              {
+                "actor": {
+                  "model": "unknown",
+                  "name": "Work Aiden",
+                  "runtime": "ChatGPT Work active session; supplied-content Garden"
+                },
+                "event_id": "CEM-EVENT-06",
+                "node": "CROSS",
+                "output": {
+                  "bridge": [
+                    {
+                      "question": "Does a recorded intervention bridge to verified correction?",
+                      "source_refs": [
+                        "RC006:C01:PDF",
+                        "RC006:IC02-IC03",
+                        "C01:STATUS:20261012"
+                      ],
+                      "status": "Partial intervention evidence only; no complete requirement → completed action → validation chain for cited safety failures."
+                    }
+                  ],
+                  "independent": [],
+                  "inherited": [
+                    {
+                      "ref": "RC006:C01:PDF",
+                      "status": "same GAO source family; ledger is derivative"
+                    },
+                    {
+                      "ref": "RC006:IC02-IC03",
+                      "status": "same GAO source family; ledger is derivative"
+                    },
+                    {
+                      "ref": "C01:STATUS:20261012",
+                      "status": "same GAO source family; ledger is derivative"
+                    },
+                    {
+                      "ref": "RC006:C02:PDF",
+                      "status": "Related GAO follow-up; August pricing observation, no independent safety corroboration"
+                    }
+                  ],
+                  "lineage_note": "C01 PDF, appendices, webpage and derivative ledger are one lineage. C02 explicitly cites C01, adds an August pricing observation, and remains a related GAO follow-up. No independent safety attachment claimed."
+                }
+              },
+              {
+                "actor": {
+                  "model": "unknown",
+                  "name": "Work Aiden",
+                  "runtime": "ChatGPT Work active session; supplied-content Garden"
+                },
+                "event_id": "CEM-EVENT-07",
+                "node": "RESID",
+                "output": {
+                  "predicates": {
+                    "consequential": true,
+                    "distinct_functions": false,
+                    "language_exception": false
+                  },
+                  "specialist": {
+                    "acceptance": "Actual sampled compliance or explicit verified closure with its scope and date; plan, vendor replacement or overall acceptable rating alone is insufficient.",
+                    "budget": {
+                      "model_posts": 0,
+                      "official_records": 1
+                    },
+                    "question": "After the April18,2026 contractor change at Camp East Montana, does a dated ICE medical reinspection verify correction of the TB intake testing and notification deficiencies identified in GAO-26-108886?",
+                    "question_id": "Q-CEM-TB-CORRECTION",
+                    "return_to": "CEM-SAFEGUARDS-20261012 / B0 / new ARRIVAL linked to the retained RESID",
+                    "source_need": "One official post-transition medical reinspection or deficiency-closure record identifying the TB requirement, corrective date, verification method and result.",
+                    "status": "proposed_only; not registered in shared queue; no worker launched",
+                    "stop_condition": "One qualifying official record or an explicit bounded unavailable/insufficient-evidence result.",
+                    "why_narrow": "Tests one consequential patient-safety failure; does not require all49 deficiencies or expand to other facilities."
+                  },
+                  "summary": "Post-transition verification of TB screening/notification, medical assessments, suicide precautions, physical standards and oversight plan remains unknown. C02 verifies pricing measures absent as of August; October implementation remains unknown. Prioritize one TB reinspection Question."
+                }
+              },
+              {
+                "actor": {
+                  "model": "unknown",
+                  "name": "Work Aiden",
+                  "runtime": "ChatGPT Work active session; supplied-content Garden"
+                },
+                "event_id": "CEM-EVENT-08",
+                "node": "MEAN",
+                "output": {
+                  "summary": "A safeguard must operate before exposure and its remedy must be tested afterwards. Inspection policy and contract replacement alone cannot establish safe care. Preserve agency responses and partial progress without erasing documented harm."
+                }
+              },
+              {
+                "actor": {
+                  "model": "unknown",
+                  "name": "Work Aiden",
+                  "runtime": "ChatGPT Work active session; supplied-content Garden"
+                },
+                "event_id": "CEM-EVENT-09",
+                "node": "EXIT",
+                "output": {
+                  "answer_status": "ready_for_Digest_review; not canonical evidence",
+                  "follow_up_question": {
+                    "acceptance": "Actual sampled compliance or explicit verified closure with its scope and date; plan, vendor replacement or overall acceptable rating alone is insufficient.",
+                    "budget": {
+                      "model_posts": 0,
+                      "official_records": 1
+                    },
+                    "question": "After the April18,2026 contractor change at Camp East Montana, does a dated ICE medical reinspection verify correction of the TB intake testing and notification deficiencies identified in GAO-26-108886?",
+                    "question_id": "Q-CEM-TB-CORRECTION",
+                    "return_to": "CEM-SAFEGUARDS-20261012 / B0 / new ARRIVAL linked to the retained RESID",
+                    "source_need": "One official post-transition medical reinspection or deficiency-closure record identifying the TB requirement, corrective date, verification method and result.",
+                    "status": "proposed_only; not registered in shared queue; no worker launched",
+                    "stop_condition": "One qualifying official record or an explicit bounded unavailable/insufficient-evidence result.",
+                    "why_narrow": "Tests one consequential patient-safety failure; does not require all49 deficiencies or expand to other facilities."
+                  },
+                  "kind": "question",
+                  "summary": "Formal detention standards and a pre-occupancy policy existed; the inspection was skipped, standards failed in documented operation, and a missing surveillance plan weakened enforcement. Remedial actions and promises exist, but item-level correction is not verified in this bounded record."
+                }
+              },
+              {
+                "actor": {
+                  "model": "unknown",
+                  "name": "Work Aiden",
+                  "runtime": "ChatGPT Work active session; supplied-content Garden"
+                },
+                "event_id": "CEM-EVENT-10",
+                "node": "RETURN",
+                "output": {
+                  "new_arrival": null,
+                  "reason": "Bounded supplied-content pass complete. Rest with residual; resume only upon a materially new dated verification record. No Bee, provider dispatch or Governor action."
+                }
+              }
+            ],
+            "tree": "INIT"
+          }
+        ]
+      }
+    },
+    "epoch": 1,
+    "limits": {
+      "max_branches": 1,
+      "max_events": 10,
+      "max_fanout": 0,
+      "max_steps": 10,
+      "model_calls": 0
+    },
+    "question_id": "Q-CASE-CAMP-EAST-MONTANA",
+    "revision": 10,
+    "route_decisions": [],
+    "route_signatures": [],
+    "run_id": "CEM-SAFEGUARDS-20261012",
+    "sources": {
+      "C01:STATUS:20261012": {
+        "kind": "public_source",
+        "lineage_id": "GAO-26-108886",
+        "path": "status-recheck.json",
+        "ref": "C01:STATUS:20261012"
+      },
+      "RC006:C01:PDF": {
+        "kind": "public_source",
+        "lineage_id": "GAO-26-108886",
+        "path": "digestion/threshold/research/2026-10-10-postwar-ice/retrievals/gao-public-documents/api/0001.pdf",
+        "ref": "RC006:C01:PDF",
+        "source_id": "C01"
+      },
+      "RC006:C02:PDF": {
+        "kind": "public_source",
+        "lineage_id": "GAO-26-108663:related-follow-up-to-GAO-26-108886",
+        "path": "digestion/threshold/research/2026-10-10-postwar-ice/retrievals/gao-public-documents/api/0002.pdf",
+        "ref": "RC006:C02:PDF",
+        "relationship": "Related GAO follow-up; recites C01 and adds dated August observation; not independent safety confirmation",
+        "source_id": "C02"
+      },
+      "RC006:IC02-IC03": {
+        "kind": "context",
+        "lineage_id": "GAO-26-108886",
+        "path": "reports/military-conscience-and-institutional-safeguards/ice_capacity_events.json",
+        "ref": "RC006:IC02-IC03"
+      }
+    },
+    "used": {
+      "branches": 1,
+      "model_calls": 0,
+      "steps": 10
+    }
+  },
+  "state_sha256": "c8a420c4349e79b7fc177b65c7168c7c6f90c2f341b8282f13a853fe7596fee8"
+}

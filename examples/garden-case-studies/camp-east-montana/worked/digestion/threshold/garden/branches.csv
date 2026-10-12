@@ -1,0 +1,2 @@
+run_id,branch_id,parent_branch,question_id,epoch,tree,node,status,focus,rest_reason,steps_used,branches_used,model_calls,record
+CEM-SAFEGUARDS-20261012,B0,,Q-CASE-CAMP-EAST-MONTANA,1,INIT,RETURN,resting,"What safeguards existed at Camp East Montana, which failed in documented practice, and what evidence verifies subsequent correction?",No new arrival supplied,10,1,0,https://github.com/Jaradyne/Dis-Unity/blob/work/camp-east-montana-garden-20261012/examples/garden-case-studies/camp-east-montana/worked/operations/garden/runs/CEM-SAFEGUARDS-20261012.json

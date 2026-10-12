@@ -1,0 +1,14 @@
+{
+  "question_id": "Q-CEM-TB-CORRECTION",
+  "status": "proposed_only; not registered in shared queue; no worker launched",
+  "question": "After the April18,2026 contractor change at Camp East Montana, does a dated ICE medical reinspection verify correction of the TB intake testing and notification deficiencies identified in GAO-26-108886?",
+  "source_need": "One official post-transition medical reinspection or deficiency-closure record identifying the TB requirement, corrective date, verification method and result.",
+  "acceptance": "Actual sampled compliance or explicit verified closure with its scope and date; plan, vendor replacement or overall acceptable rating alone is insufficient.",
+  "stop_condition": "One qualifying official record or an explicit bounded unavailable/insufficient-evidence result.",
+  "budget": {
+    "official_records": 1,
+    "model_posts": 0
+  },
+  "return_to": "CEM-SAFEGUARDS-20261012 / B0 / new ARRIVAL linked to the retained RESID",
+  "why_narrow": "Tests one consequential patient-safety failure; does not require all49 deficiencies or expand to other facilities."
+}
