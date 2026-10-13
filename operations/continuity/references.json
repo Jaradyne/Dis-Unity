@@ -1,0 +1,109 @@
+{
+  "references": {
+    "E-AFCB-BASE": {
+      "collection": "events",
+      "id_field": "event_id",
+      "kind": "event",
+      "path": "reports/military-conscience-and-institutional-safeguards/events.json",
+      "record_id": "MC05",
+      "sha256": "8af42cb75ac6fe663b81791fbf358b9dada7571bdc56879c20bb00f2d345dde3"
+    },
+    "E-ASSESSMENT-GUIDE": {
+      "collection": "events",
+      "id_field": "event_id",
+      "kind": "event",
+      "path": "reports/military-conscience-and-institutional-safeguards/events.json",
+      "record_id": "MC08",
+      "sha256": "5004d242d85dd4fda8d4d9490a5591c8dfd46aa142e59f76a06e54488c7ef1e1"
+    },
+    "E-CEM-AWARD": {
+      "collection": "events",
+      "id_field": "event_id",
+      "kind": "event",
+      "path": "examples/garden-case-studies/camp-east-montana/evidence.json",
+      "record_id": "CEM04",
+      "sha256": "14e4f35f73dafaa61f372c8bb0a814467d12f11179d7e54396616292a9f3d7c7"
+    },
+    "E-CEM-HANDOFF": {
+      "collection": "events",
+      "id_field": "event_id",
+      "kind": "event",
+      "path": "examples/garden-case-studies/camp-east-montana/evidence.json",
+      "record_id": "CEM09",
+      "sha256": "ea61d1e11805fae069e875f52cfcc680897a76d640013a531314910200b1da4d"
+    },
+    "E-ICE-HANDOFF": {
+      "collection": "events",
+      "id_field": "event_id",
+      "kind": "event",
+      "path": "reports/military-conscience-and-institutional-safeguards/ice_capacity_events.json",
+      "record_id": "IC03",
+      "sha256": "d9bcebfed418a7a86aeb44abb6c8cc86ceb9d39d8907e193b36eebd118c467bf"
+    },
+    "E-ICE-OPEN": {
+      "collection": "events",
+      "id_field": "event_id",
+      "kind": "event",
+      "path": "reports/military-conscience-and-institutional-safeguards/ice_capacity_events.json",
+      "record_id": "IC02",
+      "sha256": "8d441735209c50e0314bc1bfada85f45886c0b429dfb33612ee552601ab7bd2c"
+    },
+    "E-ORA": {
+      "collection": "events",
+      "id_field": "event_id",
+      "kind": "event",
+      "path": "reports/military-conscience-and-institutional-safeguards/events.json",
+      "record_id": "MC21",
+      "sha256": "d5c3d7b9f29baf3558607f858b735294b36e744d401d19d1410eada9329c609b"
+    },
+    "E-SELF-ASSESSMENT": {
+      "collection": "events",
+      "id_field": "event_id",
+      "kind": "event",
+      "path": "reports/military-conscience-and-institutional-safeguards/events.json",
+      "record_id": "MC04",
+      "sha256": "5994c70ae7d47efc993aaa2904b09377668cbdf692b7c916ad8d89c60d67d422"
+    },
+    "S-AFCB": {
+      "collection": "sources",
+      "id_field": "source_id",
+      "kind": "source",
+      "path": "reports/military-conscience-and-institutional-safeguards/baseline_sources.json",
+      "record_id": "B03",
+      "sha256": "515564d73808a2c2431bcb7e79580271e446c4ad2742cb8fcaba68a5b5fcca2e"
+    },
+    "S-GAO-CEM": {
+      "collection": "sources",
+      "id_field": "source_id",
+      "kind": "source",
+      "path": "reports/military-conscience-and-institutional-safeguards/ice_capacity_sources.json",
+      "record_id": "C01",
+      "sha256": "a9c11371ba4ba511e6c99dde9db94ffc17f957b4e17ccf274ddf321cb2dd1858"
+    },
+    "S-GUIDE": {
+      "collection": "sources",
+      "id_field": "source_id",
+      "kind": "source",
+      "path": "reports/military-conscience-and-institutional-safeguards/baseline_sources.json",
+      "record_id": "B05",
+      "sha256": "c22c5182b4b075a61b9c21e48f4799e1147cf2a79a8b346f486dfb6402ba403e"
+    },
+    "S-H2F": {
+      "collection": "sources",
+      "id_field": "source_id",
+      "kind": "source",
+      "path": "reports/military-conscience-and-institutional-safeguards/baseline_sources.json",
+      "record_id": "B01",
+      "sha256": "8241ef71fd4a5cf42dfa53fe1eca81c0cfcf6ca6e09fe7e74a958b8d4a5e9a71"
+    },
+    "S-ORA": {
+      "collection": "sources",
+      "id_field": "source_id",
+      "kind": "source",
+      "path": "reports/military-conscience-and-institutional-safeguards/ora_sources.json",
+      "record_id": "O01",
+      "sha256": "c7372867891ccdb0f4b77242327258a1357ba5d47ead015761b4be32e2c1a954"
+    }
+  },
+  "version": "continuity-references-1"
+}

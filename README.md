@@ -1,3 +1,5 @@
+**October 13 — Thread of Continuity:** [Digest handoff](reports/continuity/DIGEST_HANDOFF.md) · [three shared-reference relationships](reports/continuity/generated/DIGEST.md) · [validation/replay contract](docs/THREAD_OF_CONTINUITY.md). Two documented institutional connections and one explicitly unverified career-selection hypothesis now reconstruct through Garden. Supplied review artifacts; no new workers or canonical admission.
+
 **October10–11 — expanded institutional research:** [1945–2026 military, DHS and ICE packet](reports/military-conscience-and-institutional-safeguards/ICE_AND_DOMESTIC_ENFORCEMENT.md) now includes overseas removals, political speech, personnel/equipment, detention capacity and adjacent agencies. RC-006 is review intake for Jared/Digest; RC-004 remains canonical.
 
 **October 7 Pacific / October 8 UTC — military research:** [Military Conscience and Institutional Safeguards](reports/military-conscience-and-institutional-safeguards/README.md) contains the new ORA, youth/education, spiritual-readiness and legal-oversight intake for Jared and Digest. RC-005 is open for review; RC-004 remains canonical.

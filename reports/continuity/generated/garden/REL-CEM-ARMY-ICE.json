@@ -1,0 +1,997 @@
+{
+  "config_sha256": "39152c8d17954a1d9097a0c55351ced98ad702f402cb9c12a27b116f4c0d1655",
+  "events": [
+    {
+      "after": "8d0628b8d17a1e8c774cba8efb95c720ce2c337f0fc3d88f95d0a66a75cda510",
+      "before": "24249024b5d3a090a3d484425760b9e80df63137fb05625e6d7efa8af7e1c22c",
+      "command": {
+        "actor": {
+          "model": "none invoked",
+          "name": "Work Aiden",
+          "runtime": "deterministic projection of supplied relationship"
+        },
+        "branch_id": "B0",
+        "event_id": "REL-CEM-ARMY-ICE-STEP-1",
+        "expected_revision": 0,
+        "kind": "step",
+        "node": "ROOT",
+        "output": {
+          "name": "REL-CEM-ARMY-ICE: contracts_for"
+        }
+      },
+      "decision": {
+        "next_node": "ARRIVAL",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-10-13T04:41:45.002255+00:00"
+    },
+    {
+      "after": "8c0ba9e38c894edcbde49d21726800c2bf171420bd38b9cb6fe8b9c31ec082f9",
+      "before": "8d0628b8d17a1e8c774cba8efb95c720ce2c337f0fc3d88f95d0a66a75cda510",
+      "command": {
+        "actor": {
+          "model": "none invoked",
+          "name": "Work Aiden",
+          "runtime": "deterministic projection of supplied relationship"
+        },
+        "branch_id": "B0",
+        "event_id": "REL-CEM-ARMY-ICE-STEP-2",
+        "expected_revision": 1,
+        "kind": "step",
+        "node": "ARRIVAL",
+        "output": {
+          "arrival": {
+            "from": "operations/continuity/journal.json",
+            "id": "REL-CEM-ARMY-ICE-ARRIVAL",
+            "payload": {
+              "relationship_id": "REL-CEM-ARMY-ICE",
+              "relationship_sha256": "44e7bed61a4a3749d4f5a270168332e40dea33a4d6054f81b0b52e10fda8fb90"
+            },
+            "to": "INIT:ROOT-0001"
+          },
+          "language_glance": {
+            "basis": "unknown",
+            "issuing_office": "See shared source metadata",
+            "languages": [],
+            "note": "This projector performs no language detection or fresh source reading.",
+            "source_refs": [
+              "S-GAO-CEM"
+            ],
+            "surface_kind": "summary"
+          }
+        }
+      },
+      "decision": {
+        "next_node": "EPIST",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-10-13T04:41:45.002255+00:00"
+    },
+    {
+      "after": "9efc8468e4bcea84d7fee8fd4bdb732cfd1887b140cb65ee8297163b120090df",
+      "before": "8c0ba9e38c894edcbde49d21726800c2bf171420bd38b9cb6fe8b9c31ec082f9",
+      "command": {
+        "actor": {
+          "model": "none invoked",
+          "name": "Work Aiden",
+          "runtime": "deterministic projection of supplied relationship"
+        },
+        "branch_id": "B0",
+        "event_id": "REL-CEM-ARMY-ICE-STEP-3",
+        "expected_revision": 2,
+        "kind": "step",
+        "node": "EPIST",
+        "output": {
+          "chronology": {
+            "from_event_date": "2025-07-18",
+            "lag_days": 75,
+            "meaning": "Date comparison only; no inference of mechanism, implementation or causation.",
+            "order": "precedes",
+            "to_event_date": "2025-10-01"
+          },
+          "prompt": "The Army awarded and administered the Camp East Montana task order on ICE’s behalf, then transferred contract administration to ICE effective October 1, 2025.",
+          "starting_state": "documented",
+          "time_scope": {
+            "end": "2025-10-01",
+            "note": "Award to administration handoff; ICE had an operational and oversight role before October. Not the duration of every continuing obligation.",
+            "start": "2025-07-18"
+          }
+        }
+      },
+      "decision": {
+        "next_node": "FUNC",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-10-13T04:41:45.002255+00:00"
+    },
+    {
+      "after": "c25c127a2c0c2da58116945cb22e81e88bc3890f894109a1edf9f178dcf0bb7f",
+      "before": "9efc8468e4bcea84d7fee8fd4bdb732cfd1887b140cb65ee8297163b120090df",
+      "command": {
+        "actor": {
+          "model": "none invoked",
+          "name": "Work Aiden",
+          "runtime": "deterministic projection of supplied relationship"
+        },
+        "branch_id": "B0",
+        "event_id": "REL-CEM-ARMY-ICE-STEP-4",
+        "expected_revision": 3,
+        "kind": "step",
+        "node": "FUNC",
+        "output": {
+          "evidence": [
+            {
+              "basis": "direct_record",
+              "locator": "pp. 2, 7–10; p. 8 figure 2; p. 2 n. 7",
+              "source_ref": "S-GAO-CEM",
+              "statement": "GAO identifies Army award July 18, September 23 transfer modification, and October 1 effective administration handoff. Existing CEM04/CEM09 expand RC-006 IC02/IC03 without replacing them."
+            }
+          ],
+          "from_event": "E-CEM-AWARD",
+          "function": "Contracting and administration relationship at one facility. It does not establish that the Army controlled every detention action or that transfer remedied deficiencies.",
+          "task": "Inspect the declared relationship against pinned shared references",
+          "to_event": "E-CEM-HANDOFF",
+          "unobserved_target": null
+        }
+      },
+      "decision": {
+        "next_node": "MIRROR",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-10-13T04:41:45.002255+00:00"
+    },
+    {
+      "after": "019a47fc274b4f80856de7b3ccc9b158f7bd429e540416bdde7dccb3f1085da5",
+      "before": "c25c127a2c0c2da58116945cb22e81e88bc3890f894109a1edf9f178dcf0bb7f",
+      "command": {
+        "actor": {
+          "model": "none invoked",
+          "name": "Work Aiden",
+          "runtime": "deterministic projection of supplied relationship"
+        },
+        "branch_id": "B0",
+        "event_id": "REL-CEM-ARMY-ICE-STEP-5",
+        "expected_revision": 4,
+        "kind": "step",
+        "node": "MIRROR",
+        "output": {
+          "comparisons": [
+            {
+              "answers": [
+                {
+                  "source_refs": [
+                    "S-GAO-CEM"
+                  ]
+                }
+              ],
+              "explanation": "Agencies cited expedited leadership deadlines and failed ICE procurement attempts; an available contracting vehicle offers an ordinary explanation for the interagency cooperation.",
+              "queries": []
+            }
+          ],
+          "counterevidence": [
+            {
+              "source_refs": [
+                "S-GAO-CEM"
+              ],
+              "statement": "ICE supplied operational support and led oversight before formal administration transferred. Several subcontractors had detention experience despite the prime lacking it. Neither fact erases the documented contract connection."
+            }
+          ],
+          "information_lineage": {
+            "api_record_refs": [],
+            "criteria_refs": [
+              "schemas/continuity-relationship.schema.json"
+            ],
+            "parent_answer_visible": true,
+            "parent_output_refs": [
+              "operations/continuity/journal.json"
+            ],
+            "source_refs": [
+              "S-GAO-CEM"
+            ],
+            "test_origin": "inherited"
+          }
+        }
+      },
+      "decision": {
+        "next_node": "CROSS",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-10-13T04:41:45.002255+00:00"
+    },
+    {
+      "after": "f75fdf1337820c7dbf27e27bd8c30017436202c2ba4126435bfb2ee7b14b731b",
+      "before": "019a47fc274b4f80856de7b3ccc9b158f7bd429e540416bdde7dccb3f1085da5",
+      "command": {
+        "actor": {
+          "model": "none invoked",
+          "name": "Work Aiden",
+          "runtime": "deterministic projection of supplied relationship"
+        },
+        "branch_id": "B0",
+        "event_id": "REL-CEM-ARMY-ICE-STEP-6",
+        "expected_revision": 5,
+        "kind": "step",
+        "node": "CROSS",
+        "output": {
+          "bridge": [
+            {
+              "question": "Does the original September 23, 2025 contract modification confirm the precise administrative functions and effective date of the transfer?",
+              "source_refs": [
+                "S-GAO-CEM"
+              ],
+              "status": "proposed only; not executed"
+            }
+          ],
+          "independent": [],
+          "inherited": [
+            {
+              "ref": "S-GAO-CEM",
+              "status": "inherited archive; not independent corroboration"
+            }
+          ]
+        }
+      },
+      "decision": {
+        "next_node": "RESID",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-10-13T04:41:45.002255+00:00"
+    },
+    {
+      "after": "bf8eb55820d6d1a5dc2b12580804dd7ccf23daf74624ed42a8be877a4460ea2d",
+      "before": "f75fdf1337820c7dbf27e27bd8c30017436202c2ba4126435bfb2ee7b14b731b",
+      "command": {
+        "actor": {
+          "model": "none invoked",
+          "name": "Work Aiden",
+          "runtime": "deterministic projection of supplied relationship"
+        },
+        "branch_id": "B0",
+        "event_id": "REL-CEM-ARMY-ICE-STEP-7",
+        "expected_revision": 6,
+        "kind": "step",
+        "node": "RESID",
+        "output": {
+          "next_test": {
+            "max_records": 1,
+            "question": "Does the original September 23, 2025 contract modification confirm the precise administrative functions and effective date of the transfer?",
+            "required_record": "One publicly available original signed contract-administration modification.",
+            "status": "proposed_only",
+            "stop_condition": "Stop after that one record or an explicit access/missing-record outcome; do not treat unavailable as refutation.",
+            "supports_if": "It names ICE as receiving administrator effective October 1 and specifies the transferred functions.",
+            "weakens_if": "It materially narrows, conditions or contradicts the transfer as summarized by GAO."
+          },
+          "predicates": {
+            "consequential": true,
+            "distinct_functions": false,
+            "language_exception": null
+          },
+          "summary": "GAO inspected underlying records; this ledger reuses its retained audit and source catalog, not a fresh independent contract audit.; Financial/custody outcomes and correction remain separate claims; no automatic causal inference from the 75-day award-to-handoff interval."
+        }
+      },
+      "decision": {
+        "next_node": "MEAN",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-10-13T04:41:45.002255+00:00"
+    },
+    {
+      "after": "266b95161b5a3be985a76cd5a3d19e934f332346001f56f4fe791fae11e83004",
+      "before": "bf8eb55820d6d1a5dc2b12580804dd7ccf23daf74624ed42a8be877a4460ea2d",
+      "command": {
+        "actor": {
+          "model": "none invoked",
+          "name": "Work Aiden",
+          "runtime": "deterministic projection of supplied relationship"
+        },
+        "branch_id": "B0",
+        "event_id": "REL-CEM-ARMY-ICE-STEP-8",
+        "expected_revision": 7,
+        "kind": "step",
+        "node": "MEAN",
+        "output": {
+          "summary": "The Army awarded and administered the Camp East Montana task order on ICE’s behalf, then transferred contract administration to ICE effective October 1, 2025. — supplied status: documented"
+        }
+      },
+      "decision": {
+        "next_node": "EXIT",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-10-13T04:41:45.002255+00:00"
+    },
+    {
+      "after": "bdaf7bc58fe9c9efcfcb0b6671bdab7da355993609c7cdc36f8fe4f0f9b203c2",
+      "before": "266b95161b5a3be985a76cd5a3d19e934f332346001f56f4fe791fae11e83004",
+      "command": {
+        "actor": {
+          "model": "none invoked",
+          "name": "Work Aiden",
+          "runtime": "deterministic projection of supplied relationship"
+        },
+        "branch_id": "B0",
+        "event_id": "REL-CEM-ARMY-ICE-STEP-9",
+        "expected_revision": 8,
+        "kind": "step",
+        "node": "EXIT",
+        "output": {
+          "epistemic_status": "documented",
+          "kind": "question",
+          "summary": "Does the original September 23, 2025 contract modification confirm the precise administrative functions and effective date of the transfer?"
+        }
+      },
+      "decision": {
+        "next_node": "RETURN",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-10-13T04:41:45.002255+00:00"
+    },
+    {
+      "after": "c1b0ed6cc97790f1ef5f74b760767a8dde345296a194ed4255e963f39b7d22f2",
+      "before": "bdaf7bc58fe9c9efcfcb0b6671bdab7da355993609c7cdc36f8fe4f0f9b203c2",
+      "command": {
+        "actor": {
+          "model": "none invoked",
+          "name": "Work Aiden",
+          "runtime": "deterministic projection of supplied relationship"
+        },
+        "branch_id": "B0",
+        "event_id": "REL-CEM-ARMY-ICE-STEP-10",
+        "expected_revision": 9,
+        "kind": "step",
+        "node": "RETURN",
+        "output": {
+          "new_arrival": null,
+          "reason": "Rest until the named instrument or a material correction arrives; no collection scheduled."
+        }
+      },
+      "decision": {
+        "reason": "No new arrival supplied",
+        "status": "rest"
+      },
+      "recorded_at": "2026-10-13T04:41:45.002255+00:00"
+    }
+  ],
+  "initial": {
+    "config": {
+      "authority": "Reviewed configuration determines eligible routes. Supplied content cannot edit this graph or activate morphology.",
+      "grammar": {
+        "crosscheck": {
+          "basic": "Collector capability",
+          "consequential_residual": "May request or propose teleport to a bounded Pygent Collector/specialist",
+          "permanent_crosscheck_bee": "Unresolved pending repeated cases showing the value of persistent specialist memory"
+        },
+        "entry": "INIT:ROOT-0001",
+        "external_execution": false,
+        "governor_input_refs": [
+          "daily_scroll",
+          "reflection_mailbox",
+          "meaning_tower",
+          "chair_imagination",
+          "meaning_boss_result"
+        ],
+        "routes": [
+          {
+            "automatic_execution": false,
+            "from": "INIT:RESID-0007",
+            "status": "available_not_running",
+            "to": "INIT:RETURN-0010",
+            "via": "PYGENT:PARALLAX-0001"
+          }
+        ],
+        "schema_version": "garden-config-0.1",
+        "status": "on_demand_grammar_prototype",
+        "trees": {
+          "INIT": {
+            "name": "Initiating Garden",
+            "nodes": [
+              {
+                "id": "ROOT-0001",
+                "purpose": "Pass name and identity"
+              },
+              {
+                "id": "ARRIVAL-0002",
+                "purpose": "What arrived, from where, sent to where"
+              },
+              {
+                "id": "EPIST-0003",
+                "purpose": "Prompt/question and starting epistemic state"
+              },
+              {
+                "id": "FUNC-0004",
+                "purpose": "Task and function being investigated"
+              },
+              {
+                "id": "MIRROR-0005",
+                "purpose": "Competing explanations, queries and recorded answers"
+              },
+              {
+                "id": "CROSS-0006",
+                "purpose": "Inherited, independently derived and deliberate bridge attachments"
+              },
+              {
+                "id": "RESID-0007",
+                "purpose": "Surviving residual and bounded specialist proposal"
+              },
+              {
+                "id": "MEAN-0008",
+                "purpose": "Changed meaning and non-evidence culture flower"
+              },
+              {
+                "id": "EXIT-0009",
+                "purpose": "Bounded answer, question, teleport, silence or error"
+              },
+              {
+                "id": "RETURN-0010",
+                "purpose": "New linked arrival or rest"
+              }
+            ]
+          },
+          "PYGENT": {
+            "name": "Bounded specialist destinations",
+            "nodes": [
+              {
+                "id": "PARALLAX-0001",
+                "purpose": "One bounded matched official-language Boss Packet",
+                "role": "parallax_collector_bee",
+                "status": "available_not_running"
+              }
+            ]
+          }
+        }
+      },
+      "independence": "A different branch, tree, context or model is not independent empirical evidence.",
+      "limits": {
+        "max_branches": 8,
+        "max_events": 128,
+        "max_fanout": 3,
+        "max_steps": 80,
+        "model_calls": 0
+      },
+      "model_execution": false,
+      "node_contracts": {
+        "ARRIVAL": {
+          "objects": [
+            "arrival",
+            "language_glance"
+          ]
+        },
+        "CROSS": {
+          "lists": [
+            "inherited",
+            "independent",
+            "bridge"
+          ]
+        },
+        "EPIST": {
+          "strings": [
+            "prompt",
+            "starting_state"
+          ]
+        },
+        "EXIT": {
+          "strings": [
+            "kind",
+            "summary"
+          ]
+        },
+        "FUNC": {
+          "strings": [
+            "task",
+            "function"
+          ]
+        },
+        "MEAN": {
+          "strings": [
+            "summary"
+          ]
+        },
+        "MIRROR": {
+          "lists": [
+            "comparisons"
+          ],
+          "objects": [
+            "information_lineage"
+          ]
+        },
+        "RESID": {
+          "objects": [
+            "predicates"
+          ],
+          "strings": [
+            "summary"
+          ]
+        },
+        "RETURN": {
+          "strings": [
+            "reason"
+          ]
+        },
+        "ROOT": {
+          "strings": [
+            "name"
+          ]
+        }
+      },
+      "rules": [
+        {
+          "actions": [
+            "MOVE",
+            "CLONE"
+          ],
+          "at": [
+            "RESID",
+            "MEAN",
+            "EXIT",
+            "RETURN"
+          ],
+          "condition": {
+            "members": [
+              "consequential",
+              "language_exception"
+            ],
+            "op": "AND"
+          },
+          "from": [
+            "INIT",
+            "ECONOMICS",
+            "PRODUCTION",
+            "DIPLOMACY",
+            "LANGUAGE",
+            "CUSTOMS",
+            "HOMELESSNESS"
+          ],
+          "id": "LANGUAGE-EXCEPTION",
+          "review_required": false,
+          "to": [
+            "LANGUAGE"
+          ]
+        },
+        {
+          "actions": [
+            "MOVE",
+            "CLONE",
+            "FANOUT"
+          ],
+          "at": [
+            "RESID",
+            "MEAN",
+            "EXIT",
+            "RETURN"
+          ],
+          "condition": {
+            "members": [
+              "consequential",
+              "distinct_functions"
+            ],
+            "op": "AND"
+          },
+          "from": [
+            "INIT",
+            "ECONOMICS",
+            "PRODUCTION",
+            "DIPLOMACY",
+            "LANGUAGE",
+            "CUSTOMS",
+            "HOMELESSNESS"
+          ],
+          "id": "DOMAIN-BRANCH",
+          "review_required": true,
+          "to": [
+            "INIT",
+            "ECONOMICS",
+            "PRODUCTION",
+            "DIPLOMACY",
+            "LANGUAGE",
+            "CUSTOMS",
+            "HOMELESSNESS"
+          ]
+        }
+      ],
+      "schema_version": "garden-traversal-config-1",
+      "status": "supplied_content_runtime",
+      "trees": {
+        "CUSTOMS": {
+          "name": "Customs Authority",
+          "node_template": "INIT",
+          "status": "traversable_with_supplied_content"
+        },
+        "DIPLOMACY": {
+          "name": "Diplomacy",
+          "node_template": "INIT",
+          "status": "traversable_with_supplied_content"
+        },
+        "ECONOMICS": {
+          "name": "Economics",
+          "node_template": "INIT",
+          "status": "traversable_with_supplied_content"
+        },
+        "HOMELESSNESS": {
+          "name": "Homelessness Governance and Integrity",
+          "node_template": "INIT",
+          "status": "traversable_with_supplied_content"
+        },
+        "INIT": {
+          "name": "Initiating Garden",
+          "node_template": "INIT",
+          "status": "traversable_with_supplied_content"
+        },
+        "LANGUAGE": {
+          "name": "Language Exception",
+          "node_template": "INIT",
+          "status": "traversable_with_supplied_content"
+        },
+        "PRODUCTION": {
+          "name": "Production",
+          "node_template": "INIT",
+          "status": "traversable_with_supplied_content"
+        }
+      }
+    },
+    "packet": {
+      "actor": {
+        "model": "none invoked",
+        "name": "Work Aiden",
+        "runtime": "deterministic projection of supplied relationship"
+      },
+      "arrival": {
+        "from": "operations/continuity/journal.json",
+        "id": "REL-CEM-ARMY-ICE-ARRIVAL",
+        "payload": {
+          "relationship_id": "REL-CEM-ARMY-ICE",
+          "relationship_sha256": "44e7bed61a4a3749d4f5a270168332e40dea33a4d6054f81b0b52e10fda8fb90"
+        },
+        "to": "INIT:ROOT-0001"
+      },
+      "budget": {
+        "max_branches": 1,
+        "max_events": 10,
+        "max_fanout": 0,
+        "max_steps": 10,
+        "model_calls": 0
+      },
+      "epoch": 1,
+      "focus": "The Army awarded and administered the Camp East Montana task order on ICE’s behalf, then transferred contract administration to ICE effective October 1, 2025.",
+      "question_id": "Q-REL-CEM-ARMY-ICE",
+      "run_id": "REL-CEM-ARMY-ICE-GARDEN",
+      "sources": [
+        {
+          "access_limit": "Single-facility findings; four open statuses are not proof no corrective work occurred.",
+          "binding": {
+            "collection": "sources",
+            "id_field": "source_id",
+            "kind": "source",
+            "path": "reports/military-conscience-and-institutional-safeguards/ice_capacity_sources.json",
+            "record_id": "C01",
+            "sha256": "a9c11371ba4ba511e6c99dde9db94ffc17f957b4e17ccf274ddf321cb2dd1858"
+          },
+          "kind": "public_source",
+          "lineage_id": "GAO ICE detention expansion2025–2026",
+          "ref": "S-GAO-CEM"
+        }
+      ],
+      "status": "case-local supplied projection; no shared Question registration",
+      "tree": "INIT"
+    },
+    "registry": {
+      "questions": {
+        "Q-REL-CEM-ARMY-ICE": {
+          "epoch": 1
+        }
+      }
+    }
+  },
+  "schema_version": "garden-traversal-1",
+  "state": {
+    "branches": {
+      "B0": {
+        "epoch": 1,
+        "focus": "The Army awarded and administered the Camp East Montana task order on ICE’s behalf, then transferred contract administration to ICE effective October 1, 2025.",
+        "id": "B0",
+        "lineage": {
+          "independent_evidence": false,
+          "source_refs": [
+            "S-GAO-CEM"
+          ]
+        },
+        "parent_branch": null,
+        "question_id": "Q-REL-CEM-ARMY-ICE",
+        "rest": {
+          "kind": "return",
+          "reason": "No new arrival supplied"
+        },
+        "root_branch": "B0",
+        "seen_arrival_ids": [
+          "REL-CEM-ARMY-ICE-ARRIVAL"
+        ],
+        "status": "resting",
+        "visited": [
+          {
+            "payload_hash": "911fa90497331cb567e49bfcc9ae20504515e54e1319d471aa7685158f3d664c",
+            "tree": "INIT"
+          }
+        ],
+        "visits": [
+          {
+            "arrival": {
+              "from": "operations/continuity/journal.json",
+              "id": "REL-CEM-ARMY-ICE-ARRIVAL",
+              "payload": {
+                "relationship_id": "REL-CEM-ARMY-ICE",
+                "relationship_sha256": "44e7bed61a4a3749d4f5a270168332e40dea33a4d6054f81b0b52e10fda8fb90"
+              },
+              "to": "INIT:ROOT-0001"
+            },
+            "status": "completed",
+            "steps": [
+              {
+                "actor": {
+                  "model": "none invoked",
+                  "name": "Work Aiden",
+                  "runtime": "deterministic projection of supplied relationship"
+                },
+                "event_id": "REL-CEM-ARMY-ICE-STEP-1",
+                "node": "ROOT",
+                "output": {
+                  "name": "REL-CEM-ARMY-ICE: contracts_for"
+                }
+              },
+              {
+                "actor": {
+                  "model": "none invoked",
+                  "name": "Work Aiden",
+                  "runtime": "deterministic projection of supplied relationship"
+                },
+                "event_id": "REL-CEM-ARMY-ICE-STEP-2",
+                "node": "ARRIVAL",
+                "output": {
+                  "arrival": {
+                    "from": "operations/continuity/journal.json",
+                    "id": "REL-CEM-ARMY-ICE-ARRIVAL",
+                    "payload": {
+                      "relationship_id": "REL-CEM-ARMY-ICE",
+                      "relationship_sha256": "44e7bed61a4a3749d4f5a270168332e40dea33a4d6054f81b0b52e10fda8fb90"
+                    },
+                    "to": "INIT:ROOT-0001"
+                  },
+                  "language_glance": {
+                    "basis": "unknown",
+                    "issuing_office": "See shared source metadata",
+                    "languages": [],
+                    "note": "This projector performs no language detection or fresh source reading.",
+                    "source_refs": [
+                      "S-GAO-CEM"
+                    ],
+                    "surface_kind": "summary"
+                  }
+                }
+              },
+              {
+                "actor": {
+                  "model": "none invoked",
+                  "name": "Work Aiden",
+                  "runtime": "deterministic projection of supplied relationship"
+                },
+                "event_id": "REL-CEM-ARMY-ICE-STEP-3",
+                "node": "EPIST",
+                "output": {
+                  "chronology": {
+                    "from_event_date": "2025-07-18",
+                    "lag_days": 75,
+                    "meaning": "Date comparison only; no inference of mechanism, implementation or causation.",
+                    "order": "precedes",
+                    "to_event_date": "2025-10-01"
+                  },
+                  "prompt": "The Army awarded and administered the Camp East Montana task order on ICE’s behalf, then transferred contract administration to ICE effective October 1, 2025.",
+                  "starting_state": "documented",
+                  "time_scope": {
+                    "end": "2025-10-01",
+                    "note": "Award to administration handoff; ICE had an operational and oversight role before October. Not the duration of every continuing obligation.",
+                    "start": "2025-07-18"
+                  }
+                }
+              },
+              {
+                "actor": {
+                  "model": "none invoked",
+                  "name": "Work Aiden",
+                  "runtime": "deterministic projection of supplied relationship"
+                },
+                "event_id": "REL-CEM-ARMY-ICE-STEP-4",
+                "node": "FUNC",
+                "output": {
+                  "evidence": [
+                    {
+                      "basis": "direct_record",
+                      "locator": "pp. 2, 7–10; p. 8 figure 2; p. 2 n. 7",
+                      "source_ref": "S-GAO-CEM",
+                      "statement": "GAO identifies Army award July 18, September 23 transfer modification, and October 1 effective administration handoff. Existing CEM04/CEM09 expand RC-006 IC02/IC03 without replacing them."
+                    }
+                  ],
+                  "from_event": "E-CEM-AWARD",
+                  "function": "Contracting and administration relationship at one facility. It does not establish that the Army controlled every detention action or that transfer remedied deficiencies.",
+                  "task": "Inspect the declared relationship against pinned shared references",
+                  "to_event": "E-CEM-HANDOFF",
+                  "unobserved_target": null
+                }
+              },
+              {
+                "actor": {
+                  "model": "none invoked",
+                  "name": "Work Aiden",
+                  "runtime": "deterministic projection of supplied relationship"
+                },
+                "event_id": "REL-CEM-ARMY-ICE-STEP-5",
+                "node": "MIRROR",
+                "output": {
+                  "comparisons": [
+                    {
+                      "answers": [
+                        {
+                          "source_refs": [
+                            "S-GAO-CEM"
+                          ]
+                        }
+                      ],
+                      "explanation": "Agencies cited expedited leadership deadlines and failed ICE procurement attempts; an available contracting vehicle offers an ordinary explanation for the interagency cooperation.",
+                      "queries": []
+                    }
+                  ],
+                  "counterevidence": [
+                    {
+                      "source_refs": [
+                        "S-GAO-CEM"
+                      ],
+                      "statement": "ICE supplied operational support and led oversight before formal administration transferred. Several subcontractors had detention experience despite the prime lacking it. Neither fact erases the documented contract connection."
+                    }
+                  ],
+                  "information_lineage": {
+                    "api_record_refs": [],
+                    "criteria_refs": [
+                      "schemas/continuity-relationship.schema.json"
+                    ],
+                    "parent_answer_visible": true,
+                    "parent_output_refs": [
+                      "operations/continuity/journal.json"
+                    ],
+                    "source_refs": [
+                      "S-GAO-CEM"
+                    ],
+                    "test_origin": "inherited"
+                  }
+                }
+              },
+              {
+                "actor": {
+                  "model": "none invoked",
+                  "name": "Work Aiden",
+                  "runtime": "deterministic projection of supplied relationship"
+                },
+                "event_id": "REL-CEM-ARMY-ICE-STEP-6",
+                "node": "CROSS",
+                "output": {
+                  "bridge": [
+                    {
+                      "question": "Does the original September 23, 2025 contract modification confirm the precise administrative functions and effective date of the transfer?",
+                      "source_refs": [
+                        "S-GAO-CEM"
+                      ],
+                      "status": "proposed only; not executed"
+                    }
+                  ],
+                  "independent": [],
+                  "inherited": [
+                    {
+                      "ref": "S-GAO-CEM",
+                      "status": "inherited archive; not independent corroboration"
+                    }
+                  ]
+                }
+              },
+              {
+                "actor": {
+                  "model": "none invoked",
+                  "name": "Work Aiden",
+                  "runtime": "deterministic projection of supplied relationship"
+                },
+                "event_id": "REL-CEM-ARMY-ICE-STEP-7",
+                "node": "RESID",
+                "output": {
+                  "next_test": {
+                    "max_records": 1,
+                    "question": "Does the original September 23, 2025 contract modification confirm the precise administrative functions and effective date of the transfer?",
+                    "required_record": "One publicly available original signed contract-administration modification.",
+                    "status": "proposed_only",
+                    "stop_condition": "Stop after that one record or an explicit access/missing-record outcome; do not treat unavailable as refutation.",
+                    "supports_if": "It names ICE as receiving administrator effective October 1 and specifies the transferred functions.",
+                    "weakens_if": "It materially narrows, conditions or contradicts the transfer as summarized by GAO."
+                  },
+                  "predicates": {
+                    "consequential": true,
+                    "distinct_functions": false,
+                    "language_exception": null
+                  },
+                  "summary": "GAO inspected underlying records; this ledger reuses its retained audit and source catalog, not a fresh independent contract audit.; Financial/custody outcomes and correction remain separate claims; no automatic causal inference from the 75-day award-to-handoff interval."
+                }
+              },
+              {
+                "actor": {
+                  "model": "none invoked",
+                  "name": "Work Aiden",
+                  "runtime": "deterministic projection of supplied relationship"
+                },
+                "event_id": "REL-CEM-ARMY-ICE-STEP-8",
+                "node": "MEAN",
+                "output": {
+                  "summary": "The Army awarded and administered the Camp East Montana task order on ICE’s behalf, then transferred contract administration to ICE effective October 1, 2025. — supplied status: documented"
+                }
+              },
+              {
+                "actor": {
+                  "model": "none invoked",
+                  "name": "Work Aiden",
+                  "runtime": "deterministic projection of supplied relationship"
+                },
+                "event_id": "REL-CEM-ARMY-ICE-STEP-9",
+                "node": "EXIT",
+                "output": {
+                  "epistemic_status": "documented",
+                  "kind": "question",
+                  "summary": "Does the original September 23, 2025 contract modification confirm the precise administrative functions and effective date of the transfer?"
+                }
+              },
+              {
+                "actor": {
+                  "model": "none invoked",
+                  "name": "Work Aiden",
+                  "runtime": "deterministic projection of supplied relationship"
+                },
+                "event_id": "REL-CEM-ARMY-ICE-STEP-10",
+                "node": "RETURN",
+                "output": {
+                  "new_arrival": null,
+                  "reason": "Rest until the named instrument or a material correction arrives; no collection scheduled."
+                }
+              }
+            ],
+            "tree": "INIT"
+          }
+        ]
+      }
+    },
+    "epoch": 1,
+    "limits": {
+      "max_branches": 1,
+      "max_events": 10,
+      "max_fanout": 0,
+      "max_steps": 10,
+      "model_calls": 0
+    },
+    "question_id": "Q-REL-CEM-ARMY-ICE",
+    "revision": 10,
+    "route_decisions": [],
+    "route_signatures": [],
+    "run_id": "REL-CEM-ARMY-ICE-GARDEN",
+    "sources": {
+      "S-GAO-CEM": {
+        "access_limit": "Single-facility findings; four open statuses are not proof no corrective work occurred.",
+        "binding": {
+          "collection": "sources",
+          "id_field": "source_id",
+          "kind": "source",
+          "path": "reports/military-conscience-and-institutional-safeguards/ice_capacity_sources.json",
+          "record_id": "C01",
+          "sha256": "a9c11371ba4ba511e6c99dde9db94ffc17f957b4e17ccf274ddf321cb2dd1858"
+        },
+        "kind": "public_source",
+        "lineage_id": "GAO ICE detention expansion2025–2026",
+        "ref": "S-GAO-CEM"
+      }
+    },
+    "used": {
+      "branches": 1,
+      "model_calls": 0,
+      "steps": 10
+    }
+  },
+  "state_sha256": "c1b0ed6cc97790f1ef5f74b760767a8dde345296a194ed4255e963f39b7d22f2"
+}

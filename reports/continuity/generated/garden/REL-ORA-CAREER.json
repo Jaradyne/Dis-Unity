@@ -1,0 +1,1111 @@
+{
+  "config_sha256": "39152c8d17954a1d9097a0c55351ced98ad702f402cb9c12a27b116f4c0d1655",
+  "events": [
+    {
+      "after": "c8700c48fd25a96d4fef26469db88cb694ccedbf6a858f0a447becceb8c28635",
+      "before": "5eb682f62418e4e73cd8c2189937d161a1c2fe129640a3f54b97182dfe76d75d",
+      "command": {
+        "actor": {
+          "model": "none invoked",
+          "name": "Work Aiden",
+          "runtime": "deterministic projection of supplied relationship"
+        },
+        "branch_id": "B0",
+        "event_id": "REL-ORA-CAREER-STEP-1",
+        "expected_revision": 0,
+        "kind": "step",
+        "node": "ROOT",
+        "output": {
+          "name": "REL-ORA-CAREER: affects_decision"
+        }
+      },
+      "decision": {
+        "next_node": "ARRIVAL",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-10-13T04:41:45.002255+00:00"
+    },
+    {
+      "after": "64fa94c82806928a0a5886ba83dc636eb5941ab1351d573a187336530f4c0f85",
+      "before": "c8700c48fd25a96d4fef26469db88cb694ccedbf6a858f0a447becceb8c28635",
+      "command": {
+        "actor": {
+          "model": "none invoked",
+          "name": "Work Aiden",
+          "runtime": "deterministic projection of supplied relationship"
+        },
+        "branch_id": "B0",
+        "event_id": "REL-ORA-CAREER-STEP-2",
+        "expected_revision": 1,
+        "kind": "step",
+        "node": "ARRIVAL",
+        "output": {
+          "arrival": {
+            "from": "operations/continuity/journal.json",
+            "id": "REL-ORA-CAREER-ARRIVAL",
+            "payload": {
+              "relationship_id": "REL-ORA-CAREER",
+              "relationship_sha256": "6cc05ab4732abf1e6a0aac602597d0446f5fb5662561017cb5a1b85f2c0f0e27"
+            },
+            "to": "INIT:ROOT-0001"
+          },
+          "language_glance": {
+            "basis": "unknown",
+            "issuing_office": "See shared source metadata",
+            "languages": [],
+            "note": "This projector performs no language detection or fresh source reading.",
+            "source_refs": [
+              "S-GUIDE",
+              "S-H2F",
+              "S-ORA"
+            ],
+            "surface_kind": "summary"
+          }
+        }
+      },
+      "decision": {
+        "next_node": "EPIST",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-10-13T04:41:45.002255+00:00"
+    },
+    {
+      "after": "89ddda93aaac18bb1c54e591d134f1d3e82340ad4407dda03d5d41caccdbaf60",
+      "before": "64fa94c82806928a0a5886ba83dc636eb5941ab1351d573a187336530f4c0f85",
+      "command": {
+        "actor": {
+          "model": "none invoked",
+          "name": "Work Aiden",
+          "runtime": "deterministic projection of supplied relationship"
+        },
+        "branch_id": "B0",
+        "event_id": "REL-ORA-CAREER-STEP-3",
+        "expected_revision": 2,
+        "kind": "step",
+        "node": "EPIST",
+        "output": {
+          "chronology": {
+            "from_event_date": "2026-09-30",
+            "lag_days": null,
+            "meaning": "Date comparison only; no inference of mechanism, implementation or causation.",
+            "order": "unresolved_or_imprecise",
+            "to_event_date": null
+          },
+          "prompt": "Hypothesis: individually identifiable ORA-linked spiritual assessment information could enter assignment, promotion or other career-selection decisions.",
+          "starting_state": "hypothesized",
+          "time_scope": {
+            "end": null,
+            "note": "No observed target date or established operational interval. The February 2025 guide-development event predates ORA; it cannot be counted as implementation caused by the September 2026 office.",
+            "start": null
+          }
+        }
+      },
+      "decision": {
+        "next_node": "FUNC",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-10-13T04:41:45.002255+00:00"
+    },
+    {
+      "after": "11bccb1695b20d6e8e8f1d610c8b2eef834c326b16520dbb9215c6984e88a224",
+      "before": "89ddda93aaac18bb1c54e591d134f1d3e82340ad4407dda03d5d41caccdbaf60",
+      "command": {
+        "actor": {
+          "model": "none invoked",
+          "name": "Work Aiden",
+          "runtime": "deterministic projection of supplied relationship"
+        },
+        "branch_id": "B0",
+        "event_id": "REL-ORA-CAREER-STEP-4",
+        "expected_revision": 3,
+        "kind": "step",
+        "node": "FUNC",
+        "output": {
+          "evidence": [
+            {
+              "basis": "context",
+              "locator": "p. 1 policy/resource/assessment remit",
+              "source_ref": "S-ORA",
+              "statement": "The memo establishes organizational capacity and an assessment remit, not a career-data path."
+            },
+            {
+              "basis": "context",
+              "locator": "Army article published February 21, 2025 about February 19 development meeting",
+              "source_ref": "S-GUIDE",
+              "statement": "Earlier development language anticipates team/squad leader assessment; instrument, retention, refusal and career use are unverified."
+            }
+          ],
+          "from_event": "E-ORA",
+          "function": "A candidate data/decision path. No inspected record establishes a deployed ORA assessment, identifiable command access, or use in career selection.",
+          "task": "Inspect the declared relationship against pinned shared references",
+          "to_event": null,
+          "unobserved_target": "No documented ORA assessment-to-career-selection event exists in the inspected archive. The target is a proposed personnel-decision consequence, not an invented historical event."
+        }
+      },
+      "decision": {
+        "next_node": "MIRROR",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-10-13T04:41:45.002255+00:00"
+    },
+    {
+      "after": "03acd7f3eede4bdb9c37bf041b4d6c440d1dafb8743f490eb45c2c089fa5593c",
+      "before": "11bccb1695b20d6e8e8f1d610c8b2eef834c326b16520dbb9215c6984e88a224",
+      "command": {
+        "actor": {
+          "model": "none invoked",
+          "name": "Work Aiden",
+          "runtime": "deterministic projection of supplied relationship"
+        },
+        "branch_id": "B0",
+        "event_id": "REL-ORA-CAREER-STEP-5",
+        "expected_revision": 4,
+        "kind": "step",
+        "node": "MIRROR",
+        "output": {
+          "comparisons": [
+            {
+              "answers": [
+                {
+                  "source_refs": [
+                    "S-H2F",
+                    "S-ORA"
+                  ]
+                }
+              ],
+              "explanation": "Voluntary self-development, confidential pastoral support or aggregate resource planning could explain assessment activity without individual career selection. These alternatives must also be tested rather than assumed.",
+              "queries": []
+            }
+          ],
+          "counterevidence": [
+            {
+              "source_refs": [
+                "S-H2F",
+                "S-ORA"
+              ],
+              "statement": "FM 7-22 preserves self-selected/self-assessed participation without repercussions; the ORA memorandum includes conscience/noncompulsion protections. They are formal counterconstraints, not proof of practical enforcement."
+            },
+            {
+              "source_refs": [
+                "S-GUIDE"
+              ],
+              "statement": "The February 2025 leader-assessment proposal precedes ORA and was development language, not a mandatory service-wide career rule."
+            }
+          ],
+          "information_lineage": {
+            "api_record_refs": [],
+            "criteria_refs": [
+              "schemas/continuity-relationship.schema.json"
+            ],
+            "parent_answer_visible": true,
+            "parent_output_refs": [
+              "operations/continuity/journal.json"
+            ],
+            "source_refs": [
+              "S-GUIDE",
+              "S-H2F",
+              "S-ORA"
+            ],
+            "test_origin": "inherited"
+          }
+        }
+      },
+      "decision": {
+        "next_node": "CROSS",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-10-13T04:41:45.002255+00:00"
+    },
+    {
+      "after": "2cc201b1a5c93a803e13c4c6fbc7352d743c8f94b296712522ff533cafa18e53",
+      "before": "03acd7f3eede4bdb9c37bf041b4d6c440d1dafb8743f490eb45c2c089fa5593c",
+      "command": {
+        "actor": {
+          "model": "none invoked",
+          "name": "Work Aiden",
+          "runtime": "deterministic projection of supplied relationship"
+        },
+        "branch_id": "B0",
+        "event_id": "REL-ORA-CAREER-STEP-6",
+        "expected_revision": 5,
+        "kind": "step",
+        "node": "CROSS",
+        "output": {
+          "bridge": [
+            {
+              "question": "Does a dated official ORA-linked assessment instrument or data-access rule authorize identifiable assessment data to reach personnel-selection decision makers?",
+              "source_refs": [
+                "S-GUIDE",
+                "S-H2F",
+                "S-ORA"
+              ],
+              "status": "proposed only; not executed"
+            }
+          ],
+          "independent": [],
+          "inherited": [
+            {
+              "ref": "S-GUIDE",
+              "status": "inherited archive; not independent corroboration"
+            },
+            {
+              "ref": "S-H2F",
+              "status": "inherited archive; not independent corroboration"
+            },
+            {
+              "ref": "S-ORA",
+              "status": "inherited archive; not independent corroboration"
+            }
+          ]
+        }
+      },
+      "decision": {
+        "next_node": "RESID",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-10-13T04:41:45.002255+00:00"
+    },
+    {
+      "after": "d4a6f7d29d6283bc6d6376ee40dcc7ab569adfa8c2015906985f1c02b5a7ab3c",
+      "before": "2cc201b1a5c93a803e13c4c6fbc7352d743c8f94b296712522ff533cafa18e53",
+      "command": {
+        "actor": {
+          "model": "none invoked",
+          "name": "Work Aiden",
+          "runtime": "deterministic projection of supplied relationship"
+        },
+        "branch_id": "B0",
+        "event_id": "REL-ORA-CAREER-STEP-7",
+        "expected_revision": 6,
+        "kind": "step",
+        "node": "RESID",
+        "output": {
+          "next_test": {
+            "max_records": 1,
+            "question": "Does a dated official ORA-linked assessment instrument or data-access rule authorize identifiable assessment data to reach personnel-selection decision makers?",
+            "required_record": "One official instrument/data-access specification with fields, recipients, permitted uses and date.",
+            "status": "proposed_only",
+            "stop_condition": "Stop after one qualifying public record or an explicit unknown/access-limited result. No private soldier records or belief dossiers.",
+            "supports_if": "It explicitly connects individually identifiable assessment data to authorized career-selection access/use; still distinguish authorized access from an observed decision.",
+            "weakens_if": "It explicitly limits data to confidential/self-assessed or nonidentifying aggregate use and bars personnel-selection access; that narrows the authorized path without proving no informal misuse."
+          },
+          "predicates": {
+            "consequential": true,
+            "distinct_functions": false,
+            "language_exception": null
+          },
+          "summary": "No target event, personnel-access authorization, selection rule or verified career outcome has been supplied. Missing public records neither prove the pathway nor conclusively disprove it.; Temporal proximity, organizational overlap, shared terminology and reused sources cannot promote this edge."
+        }
+      },
+      "decision": {
+        "next_node": "MEAN",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-10-13T04:41:45.002255+00:00"
+    },
+    {
+      "after": "2100206f8da74bbc171b22dd4a0b401f565da9f941f7354e8c618ab9edb890a8",
+      "before": "d4a6f7d29d6283bc6d6376ee40dcc7ab569adfa8c2015906985f1c02b5a7ab3c",
+      "command": {
+        "actor": {
+          "model": "none invoked",
+          "name": "Work Aiden",
+          "runtime": "deterministic projection of supplied relationship"
+        },
+        "branch_id": "B0",
+        "event_id": "REL-ORA-CAREER-STEP-8",
+        "expected_revision": 7,
+        "kind": "step",
+        "node": "MEAN",
+        "output": {
+          "summary": "Hypothesis: individually identifiable ORA-linked spiritual assessment information could enter assignment, promotion or other career-selection decisions. — supplied status: hypothesized"
+        }
+      },
+      "decision": {
+        "next_node": "EXIT",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-10-13T04:41:45.002255+00:00"
+    },
+    {
+      "after": "95b29300ddb57c8140a4cebbfdaf7c187e06883defdc1c757ada4e89fe835fe9",
+      "before": "2100206f8da74bbc171b22dd4a0b401f565da9f941f7354e8c618ab9edb890a8",
+      "command": {
+        "actor": {
+          "model": "none invoked",
+          "name": "Work Aiden",
+          "runtime": "deterministic projection of supplied relationship"
+        },
+        "branch_id": "B0",
+        "event_id": "REL-ORA-CAREER-STEP-9",
+        "expected_revision": 8,
+        "kind": "step",
+        "node": "EXIT",
+        "output": {
+          "epistemic_status": "hypothesized",
+          "kind": "question",
+          "summary": "Does a dated official ORA-linked assessment instrument or data-access rule authorize identifiable assessment data to reach personnel-selection decision makers?"
+        }
+      },
+      "decision": {
+        "next_node": "RETURN",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-10-13T04:41:45.002255+00:00"
+    },
+    {
+      "after": "f40f131b66cd77c04aef304899e8d42601fc622a92a2586eacb81dad39b45fc5",
+      "before": "95b29300ddb57c8140a4cebbfdaf7c187e06883defdc1c757ada4e89fe835fe9",
+      "command": {
+        "actor": {
+          "model": "none invoked",
+          "name": "Work Aiden",
+          "runtime": "deterministic projection of supplied relationship"
+        },
+        "branch_id": "B0",
+        "event_id": "REL-ORA-CAREER-STEP-10",
+        "expected_revision": 9,
+        "kind": "step",
+        "node": "RETURN",
+        "output": {
+          "new_arrival": null,
+          "reason": "Rest as hypothesized until a discriminating dated record arrives. Any newly observed target gets its own event and linked relationship under review; no Bee or model dispatch."
+        }
+      },
+      "decision": {
+        "reason": "No new arrival supplied",
+        "status": "rest"
+      },
+      "recorded_at": "2026-10-13T04:41:45.002255+00:00"
+    }
+  ],
+  "initial": {
+    "config": {
+      "authority": "Reviewed configuration determines eligible routes. Supplied content cannot edit this graph or activate morphology.",
+      "grammar": {
+        "crosscheck": {
+          "basic": "Collector capability",
+          "consequential_residual": "May request or propose teleport to a bounded Pygent Collector/specialist",
+          "permanent_crosscheck_bee": "Unresolved pending repeated cases showing the value of persistent specialist memory"
+        },
+        "entry": "INIT:ROOT-0001",
+        "external_execution": false,
+        "governor_input_refs": [
+          "daily_scroll",
+          "reflection_mailbox",
+          "meaning_tower",
+          "chair_imagination",
+          "meaning_boss_result"
+        ],
+        "routes": [
+          {
+            "automatic_execution": false,
+            "from": "INIT:RESID-0007",
+            "status": "available_not_running",
+            "to": "INIT:RETURN-0010",
+            "via": "PYGENT:PARALLAX-0001"
+          }
+        ],
+        "schema_version": "garden-config-0.1",
+        "status": "on_demand_grammar_prototype",
+        "trees": {
+          "INIT": {
+            "name": "Initiating Garden",
+            "nodes": [
+              {
+                "id": "ROOT-0001",
+                "purpose": "Pass name and identity"
+              },
+              {
+                "id": "ARRIVAL-0002",
+                "purpose": "What arrived, from where, sent to where"
+              },
+              {
+                "id": "EPIST-0003",
+                "purpose": "Prompt/question and starting epistemic state"
+              },
+              {
+                "id": "FUNC-0004",
+                "purpose": "Task and function being investigated"
+              },
+              {
+                "id": "MIRROR-0005",
+                "purpose": "Competing explanations, queries and recorded answers"
+              },
+              {
+                "id": "CROSS-0006",
+                "purpose": "Inherited, independently derived and deliberate bridge attachments"
+              },
+              {
+                "id": "RESID-0007",
+                "purpose": "Surviving residual and bounded specialist proposal"
+              },
+              {
+                "id": "MEAN-0008",
+                "purpose": "Changed meaning and non-evidence culture flower"
+              },
+              {
+                "id": "EXIT-0009",
+                "purpose": "Bounded answer, question, teleport, silence or error"
+              },
+              {
+                "id": "RETURN-0010",
+                "purpose": "New linked arrival or rest"
+              }
+            ]
+          },
+          "PYGENT": {
+            "name": "Bounded specialist destinations",
+            "nodes": [
+              {
+                "id": "PARALLAX-0001",
+                "purpose": "One bounded matched official-language Boss Packet",
+                "role": "parallax_collector_bee",
+                "status": "available_not_running"
+              }
+            ]
+          }
+        }
+      },
+      "independence": "A different branch, tree, context or model is not independent empirical evidence.",
+      "limits": {
+        "max_branches": 8,
+        "max_events": 128,
+        "max_fanout": 3,
+        "max_steps": 80,
+        "model_calls": 0
+      },
+      "model_execution": false,
+      "node_contracts": {
+        "ARRIVAL": {
+          "objects": [
+            "arrival",
+            "language_glance"
+          ]
+        },
+        "CROSS": {
+          "lists": [
+            "inherited",
+            "independent",
+            "bridge"
+          ]
+        },
+        "EPIST": {
+          "strings": [
+            "prompt",
+            "starting_state"
+          ]
+        },
+        "EXIT": {
+          "strings": [
+            "kind",
+            "summary"
+          ]
+        },
+        "FUNC": {
+          "strings": [
+            "task",
+            "function"
+          ]
+        },
+        "MEAN": {
+          "strings": [
+            "summary"
+          ]
+        },
+        "MIRROR": {
+          "lists": [
+            "comparisons"
+          ],
+          "objects": [
+            "information_lineage"
+          ]
+        },
+        "RESID": {
+          "objects": [
+            "predicates"
+          ],
+          "strings": [
+            "summary"
+          ]
+        },
+        "RETURN": {
+          "strings": [
+            "reason"
+          ]
+        },
+        "ROOT": {
+          "strings": [
+            "name"
+          ]
+        }
+      },
+      "rules": [
+        {
+          "actions": [
+            "MOVE",
+            "CLONE"
+          ],
+          "at": [
+            "RESID",
+            "MEAN",
+            "EXIT",
+            "RETURN"
+          ],
+          "condition": {
+            "members": [
+              "consequential",
+              "language_exception"
+            ],
+            "op": "AND"
+          },
+          "from": [
+            "INIT",
+            "ECONOMICS",
+            "PRODUCTION",
+            "DIPLOMACY",
+            "LANGUAGE",
+            "CUSTOMS",
+            "HOMELESSNESS"
+          ],
+          "id": "LANGUAGE-EXCEPTION",
+          "review_required": false,
+          "to": [
+            "LANGUAGE"
+          ]
+        },
+        {
+          "actions": [
+            "MOVE",
+            "CLONE",
+            "FANOUT"
+          ],
+          "at": [
+            "RESID",
+            "MEAN",
+            "EXIT",
+            "RETURN"
+          ],
+          "condition": {
+            "members": [
+              "consequential",
+              "distinct_functions"
+            ],
+            "op": "AND"
+          },
+          "from": [
+            "INIT",
+            "ECONOMICS",
+            "PRODUCTION",
+            "DIPLOMACY",
+            "LANGUAGE",
+            "CUSTOMS",
+            "HOMELESSNESS"
+          ],
+          "id": "DOMAIN-BRANCH",
+          "review_required": true,
+          "to": [
+            "INIT",
+            "ECONOMICS",
+            "PRODUCTION",
+            "DIPLOMACY",
+            "LANGUAGE",
+            "CUSTOMS",
+            "HOMELESSNESS"
+          ]
+        }
+      ],
+      "schema_version": "garden-traversal-config-1",
+      "status": "supplied_content_runtime",
+      "trees": {
+        "CUSTOMS": {
+          "name": "Customs Authority",
+          "node_template": "INIT",
+          "status": "traversable_with_supplied_content"
+        },
+        "DIPLOMACY": {
+          "name": "Diplomacy",
+          "node_template": "INIT",
+          "status": "traversable_with_supplied_content"
+        },
+        "ECONOMICS": {
+          "name": "Economics",
+          "node_template": "INIT",
+          "status": "traversable_with_supplied_content"
+        },
+        "HOMELESSNESS": {
+          "name": "Homelessness Governance and Integrity",
+          "node_template": "INIT",
+          "status": "traversable_with_supplied_content"
+        },
+        "INIT": {
+          "name": "Initiating Garden",
+          "node_template": "INIT",
+          "status": "traversable_with_supplied_content"
+        },
+        "LANGUAGE": {
+          "name": "Language Exception",
+          "node_template": "INIT",
+          "status": "traversable_with_supplied_content"
+        },
+        "PRODUCTION": {
+          "name": "Production",
+          "node_template": "INIT",
+          "status": "traversable_with_supplied_content"
+        }
+      }
+    },
+    "packet": {
+      "actor": {
+        "model": "none invoked",
+        "name": "Work Aiden",
+        "runtime": "deterministic projection of supplied relationship"
+      },
+      "arrival": {
+        "from": "operations/continuity/journal.json",
+        "id": "REL-ORA-CAREER-ARRIVAL",
+        "payload": {
+          "relationship_id": "REL-ORA-CAREER",
+          "relationship_sha256": "6cc05ab4732abf1e6a0aac602597d0446f5fb5662561017cb5a1b85f2c0f0e27"
+        },
+        "to": "INIT:ROOT-0001"
+      },
+      "budget": {
+        "max_branches": 1,
+        "max_events": 10,
+        "max_fanout": 0,
+        "max_steps": 10,
+        "model_calls": 0
+      },
+      "epoch": 1,
+      "focus": "Hypothesis: individually identifiable ORA-linked spiritual assessment information could enter assignment, promotion or other career-selection decisions.",
+      "question_id": "Q-REL-ORA-CAREER",
+      "run_id": "REL-ORA-CAREER-GARDEN",
+      "sources": [
+        {
+          "access_limit": "Article records development and aspiration, not a service-wide mandatory order, data rules or career effects.",
+          "binding": {
+            "collection": "sources",
+            "id_field": "source_id",
+            "kind": "source",
+            "path": "reports/military-conscience-and-institutional-safeguards/baseline_sources.json",
+            "record_id": "B05",
+            "sha256": "c22c5182b4b075a61b9c21e48f4799e1147cf2a79a8b346f486dfb6402ba403e"
+          },
+          "kind": "public_source",
+          "lineage_id": "III Corps guide development",
+          "ref": "S-GUIDE"
+        },
+        {
+          "access_limit": "Army-specific doctrinal baseline; no claim every current implementing rule was audited. Coordinator verified base issue1 October2020 and Change1 dated8 October2020.",
+          "binding": {
+            "collection": "sources",
+            "id_field": "source_id",
+            "kind": "source",
+            "path": "reports/military-conscience-and-institutional-safeguards/baseline_sources.json",
+            "record_id": "B01",
+            "sha256": "8241ef71fd4a5cf42dfa53fe1eca81c0cfcf6ca6e09fe7e74a958b8d4a5e9a71"
+          },
+          "kind": "public_source",
+          "lineage_id": "Army H2F doctrine",
+          "ref": "S-H2F"
+        },
+        {
+          "access_limit": "Facsimile agrees with separately hosted transcription and indexed primary reference; original government PDF bytes could not be compared. Implementation not established.",
+          "binding": {
+            "collection": "sources",
+            "id_field": "source_id",
+            "kind": "source",
+            "path": "reports/military-conscience-and-institutional-safeguards/ora_sources.json",
+            "record_id": "O01",
+            "sha256": "c7372867891ccdb0f4b77242327258a1357ba5d47ead015761b4be32e2c1a954"
+          },
+          "kind": "public_source",
+          "lineage_id": "September30 ORA memorandum",
+          "ref": "S-ORA"
+        }
+      ],
+      "status": "case-local supplied projection; no shared Question registration",
+      "tree": "INIT"
+    },
+    "registry": {
+      "questions": {
+        "Q-REL-ORA-CAREER": {
+          "epoch": 1
+        }
+      }
+    }
+  },
+  "schema_version": "garden-traversal-1",
+  "state": {
+    "branches": {
+      "B0": {
+        "epoch": 1,
+        "focus": "Hypothesis: individually identifiable ORA-linked spiritual assessment information could enter assignment, promotion or other career-selection decisions.",
+        "id": "B0",
+        "lineage": {
+          "independent_evidence": false,
+          "source_refs": [
+            "S-GUIDE",
+            "S-H2F",
+            "S-ORA"
+          ]
+        },
+        "parent_branch": null,
+        "question_id": "Q-REL-ORA-CAREER",
+        "rest": {
+          "kind": "return",
+          "reason": "No new arrival supplied"
+        },
+        "root_branch": "B0",
+        "seen_arrival_ids": [
+          "REL-ORA-CAREER-ARRIVAL"
+        ],
+        "status": "resting",
+        "visited": [
+          {
+            "payload_hash": "aca1f390911119d6f7a8f581d42f32d4e4e83268eff50f0186602e51df71937d",
+            "tree": "INIT"
+          }
+        ],
+        "visits": [
+          {
+            "arrival": {
+              "from": "operations/continuity/journal.json",
+              "id": "REL-ORA-CAREER-ARRIVAL",
+              "payload": {
+                "relationship_id": "REL-ORA-CAREER",
+                "relationship_sha256": "6cc05ab4732abf1e6a0aac602597d0446f5fb5662561017cb5a1b85f2c0f0e27"
+              },
+              "to": "INIT:ROOT-0001"
+            },
+            "status": "completed",
+            "steps": [
+              {
+                "actor": {
+                  "model": "none invoked",
+                  "name": "Work Aiden",
+                  "runtime": "deterministic projection of supplied relationship"
+                },
+                "event_id": "REL-ORA-CAREER-STEP-1",
+                "node": "ROOT",
+                "output": {
+                  "name": "REL-ORA-CAREER: affects_decision"
+                }
+              },
+              {
+                "actor": {
+                  "model": "none invoked",
+                  "name": "Work Aiden",
+                  "runtime": "deterministic projection of supplied relationship"
+                },
+                "event_id": "REL-ORA-CAREER-STEP-2",
+                "node": "ARRIVAL",
+                "output": {
+                  "arrival": {
+                    "from": "operations/continuity/journal.json",
+                    "id": "REL-ORA-CAREER-ARRIVAL",
+                    "payload": {
+                      "relationship_id": "REL-ORA-CAREER",
+                      "relationship_sha256": "6cc05ab4732abf1e6a0aac602597d0446f5fb5662561017cb5a1b85f2c0f0e27"
+                    },
+                    "to": "INIT:ROOT-0001"
+                  },
+                  "language_glance": {
+                    "basis": "unknown",
+                    "issuing_office": "See shared source metadata",
+                    "languages": [],
+                    "note": "This projector performs no language detection or fresh source reading.",
+                    "source_refs": [
+                      "S-GUIDE",
+                      "S-H2F",
+                      "S-ORA"
+                    ],
+                    "surface_kind": "summary"
+                  }
+                }
+              },
+              {
+                "actor": {
+                  "model": "none invoked",
+                  "name": "Work Aiden",
+                  "runtime": "deterministic projection of supplied relationship"
+                },
+                "event_id": "REL-ORA-CAREER-STEP-3",
+                "node": "EPIST",
+                "output": {
+                  "chronology": {
+                    "from_event_date": "2026-09-30",
+                    "lag_days": null,
+                    "meaning": "Date comparison only; no inference of mechanism, implementation or causation.",
+                    "order": "unresolved_or_imprecise",
+                    "to_event_date": null
+                  },
+                  "prompt": "Hypothesis: individually identifiable ORA-linked spiritual assessment information could enter assignment, promotion or other career-selection decisions.",
+                  "starting_state": "hypothesized",
+                  "time_scope": {
+                    "end": null,
+                    "note": "No observed target date or established operational interval. The February 2025 guide-development event predates ORA; it cannot be counted as implementation caused by the September 2026 office.",
+                    "start": null
+                  }
+                }
+              },
+              {
+                "actor": {
+                  "model": "none invoked",
+                  "name": "Work Aiden",
+                  "runtime": "deterministic projection of supplied relationship"
+                },
+                "event_id": "REL-ORA-CAREER-STEP-4",
+                "node": "FUNC",
+                "output": {
+                  "evidence": [
+                    {
+                      "basis": "context",
+                      "locator": "p. 1 policy/resource/assessment remit",
+                      "source_ref": "S-ORA",
+                      "statement": "The memo establishes organizational capacity and an assessment remit, not a career-data path."
+                    },
+                    {
+                      "basis": "context",
+                      "locator": "Army article published February 21, 2025 about February 19 development meeting",
+                      "source_ref": "S-GUIDE",
+                      "statement": "Earlier development language anticipates team/squad leader assessment; instrument, retention, refusal and career use are unverified."
+                    }
+                  ],
+                  "from_event": "E-ORA",
+                  "function": "A candidate data/decision path. No inspected record establishes a deployed ORA assessment, identifiable command access, or use in career selection.",
+                  "task": "Inspect the declared relationship against pinned shared references",
+                  "to_event": null,
+                  "unobserved_target": "No documented ORA assessment-to-career-selection event exists in the inspected archive. The target is a proposed personnel-decision consequence, not an invented historical event."
+                }
+              },
+              {
+                "actor": {
+                  "model": "none invoked",
+                  "name": "Work Aiden",
+                  "runtime": "deterministic projection of supplied relationship"
+                },
+                "event_id": "REL-ORA-CAREER-STEP-5",
+                "node": "MIRROR",
+                "output": {
+                  "comparisons": [
+                    {
+                      "answers": [
+                        {
+                          "source_refs": [
+                            "S-H2F",
+                            "S-ORA"
+                          ]
+                        }
+                      ],
+                      "explanation": "Voluntary self-development, confidential pastoral support or aggregate resource planning could explain assessment activity without individual career selection. These alternatives must also be tested rather than assumed.",
+                      "queries": []
+                    }
+                  ],
+                  "counterevidence": [
+                    {
+                      "source_refs": [
+                        "S-H2F",
+                        "S-ORA"
+                      ],
+                      "statement": "FM 7-22 preserves self-selected/self-assessed participation without repercussions; the ORA memorandum includes conscience/noncompulsion protections. They are formal counterconstraints, not proof of practical enforcement."
+                    },
+                    {
+                      "source_refs": [
+                        "S-GUIDE"
+                      ],
+                      "statement": "The February 2025 leader-assessment proposal precedes ORA and was development language, not a mandatory service-wide career rule."
+                    }
+                  ],
+                  "information_lineage": {
+                    "api_record_refs": [],
+                    "criteria_refs": [
+                      "schemas/continuity-relationship.schema.json"
+                    ],
+                    "parent_answer_visible": true,
+                    "parent_output_refs": [
+                      "operations/continuity/journal.json"
+                    ],
+                    "source_refs": [
+                      "S-GUIDE",
+                      "S-H2F",
+                      "S-ORA"
+                    ],
+                    "test_origin": "inherited"
+                  }
+                }
+              },
+              {
+                "actor": {
+                  "model": "none invoked",
+                  "name": "Work Aiden",
+                  "runtime": "deterministic projection of supplied relationship"
+                },
+                "event_id": "REL-ORA-CAREER-STEP-6",
+                "node": "CROSS",
+                "output": {
+                  "bridge": [
+                    {
+                      "question": "Does a dated official ORA-linked assessment instrument or data-access rule authorize identifiable assessment data to reach personnel-selection decision makers?",
+                      "source_refs": [
+                        "S-GUIDE",
+                        "S-H2F",
+                        "S-ORA"
+                      ],
+                      "status": "proposed only; not executed"
+                    }
+                  ],
+                  "independent": [],
+                  "inherited": [
+                    {
+                      "ref": "S-GUIDE",
+                      "status": "inherited archive; not independent corroboration"
+                    },
+                    {
+                      "ref": "S-H2F",
+                      "status": "inherited archive; not independent corroboration"
+                    },
+                    {
+                      "ref": "S-ORA",
+                      "status": "inherited archive; not independent corroboration"
+                    }
+                  ]
+                }
+              },
+              {
+                "actor": {
+                  "model": "none invoked",
+                  "name": "Work Aiden",
+                  "runtime": "deterministic projection of supplied relationship"
+                },
+                "event_id": "REL-ORA-CAREER-STEP-7",
+                "node": "RESID",
+                "output": {
+                  "next_test": {
+                    "max_records": 1,
+                    "question": "Does a dated official ORA-linked assessment instrument or data-access rule authorize identifiable assessment data to reach personnel-selection decision makers?",
+                    "required_record": "One official instrument/data-access specification with fields, recipients, permitted uses and date.",
+                    "status": "proposed_only",
+                    "stop_condition": "Stop after one qualifying public record or an explicit unknown/access-limited result. No private soldier records or belief dossiers.",
+                    "supports_if": "It explicitly connects individually identifiable assessment data to authorized career-selection access/use; still distinguish authorized access from an observed decision.",
+                    "weakens_if": "It explicitly limits data to confidential/self-assessed or nonidentifying aggregate use and bars personnel-selection access; that narrows the authorized path without proving no informal misuse."
+                  },
+                  "predicates": {
+                    "consequential": true,
+                    "distinct_functions": false,
+                    "language_exception": null
+                  },
+                  "summary": "No target event, personnel-access authorization, selection rule or verified career outcome has been supplied. Missing public records neither prove the pathway nor conclusively disprove it.; Temporal proximity, organizational overlap, shared terminology and reused sources cannot promote this edge."
+                }
+              },
+              {
+                "actor": {
+                  "model": "none invoked",
+                  "name": "Work Aiden",
+                  "runtime": "deterministic projection of supplied relationship"
+                },
+                "event_id": "REL-ORA-CAREER-STEP-8",
+                "node": "MEAN",
+                "output": {
+                  "summary": "Hypothesis: individually identifiable ORA-linked spiritual assessment information could enter assignment, promotion or other career-selection decisions. — supplied status: hypothesized"
+                }
+              },
+              {
+                "actor": {
+                  "model": "none invoked",
+                  "name": "Work Aiden",
+                  "runtime": "deterministic projection of supplied relationship"
+                },
+                "event_id": "REL-ORA-CAREER-STEP-9",
+                "node": "EXIT",
+                "output": {
+                  "epistemic_status": "hypothesized",
+                  "kind": "question",
+                  "summary": "Does a dated official ORA-linked assessment instrument or data-access rule authorize identifiable assessment data to reach personnel-selection decision makers?"
+                }
+              },
+              {
+                "actor": {
+                  "model": "none invoked",
+                  "name": "Work Aiden",
+                  "runtime": "deterministic projection of supplied relationship"
+                },
+                "event_id": "REL-ORA-CAREER-STEP-10",
+                "node": "RETURN",
+                "output": {
+                  "new_arrival": null,
+                  "reason": "Rest as hypothesized until a discriminating dated record arrives. Any newly observed target gets its own event and linked relationship under review; no Bee or model dispatch."
+                }
+              }
+            ],
+            "tree": "INIT"
+          }
+        ]
+      }
+    },
+    "epoch": 1,
+    "limits": {
+      "max_branches": 1,
+      "max_events": 10,
+      "max_fanout": 0,
+      "max_steps": 10,
+      "model_calls": 0
+    },
+    "question_id": "Q-REL-ORA-CAREER",
+    "revision": 10,
+    "route_decisions": [],
+    "route_signatures": [],
+    "run_id": "REL-ORA-CAREER-GARDEN",
+    "sources": {
+      "S-GUIDE": {
+        "access_limit": "Article records development and aspiration, not a service-wide mandatory order, data rules or career effects.",
+        "binding": {
+          "collection": "sources",
+          "id_field": "source_id",
+          "kind": "source",
+          "path": "reports/military-conscience-and-institutional-safeguards/baseline_sources.json",
+          "record_id": "B05",
+          "sha256": "c22c5182b4b075a61b9c21e48f4799e1147cf2a79a8b346f486dfb6402ba403e"
+        },
+        "kind": "public_source",
+        "lineage_id": "III Corps guide development",
+        "ref": "S-GUIDE"
+      },
+      "S-H2F": {
+        "access_limit": "Army-specific doctrinal baseline; no claim every current implementing rule was audited. Coordinator verified base issue1 October2020 and Change1 dated8 October2020.",
+        "binding": {
+          "collection": "sources",
+          "id_field": "source_id",
+          "kind": "source",
+          "path": "reports/military-conscience-and-institutional-safeguards/baseline_sources.json",
+          "record_id": "B01",
+          "sha256": "8241ef71fd4a5cf42dfa53fe1eca81c0cfcf6ca6e09fe7e74a958b8d4a5e9a71"
+        },
+        "kind": "public_source",
+        "lineage_id": "Army H2F doctrine",
+        "ref": "S-H2F"
+      },
+      "S-ORA": {
+        "access_limit": "Facsimile agrees with separately hosted transcription and indexed primary reference; original government PDF bytes could not be compared. Implementation not established.",
+        "binding": {
+          "collection": "sources",
+          "id_field": "source_id",
+          "kind": "source",
+          "path": "reports/military-conscience-and-institutional-safeguards/ora_sources.json",
+          "record_id": "O01",
+          "sha256": "c7372867891ccdb0f4b77242327258a1357ba5d47ead015761b4be32e2c1a954"
+        },
+        "kind": "public_source",
+        "lineage_id": "September30 ORA memorandum",
+        "ref": "S-ORA"
+      }
+    },
+    "used": {
+      "branches": 1,
+      "model_calls": 0,
+      "steps": 10
+    }
+  },
+  "state_sha256": "f40f131b66cd77c04aef304899e8d42601fc622a92a2586eacb81dad39b45fc5"
+}

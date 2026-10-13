@@ -33,6 +33,10 @@ jobs:
         run: |
           python scripts/garden_example.py --output examples/garden-traversal/worked
           git diff --exit-code -- examples/garden-traversal/worked
+      - name: Verify Thread of Continuity and retained Camp case
+        run: |
+          python scripts/continuity.py check
+          python examples/garden-case-studies/camp-east-montana/replay.py --check
       - name: Verify portable encounter is reproducible
         run: |
           python scripts/build_meaning_tower.py
