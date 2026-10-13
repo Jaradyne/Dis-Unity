@@ -1,0 +1,1052 @@
+{
+  "config_sha256": "39152c8d17954a1d9097a0c55351ced98ad702f402cb9c12a27b116f4c0d1655",
+  "events": [
+    {
+      "after": "20e6321a6d55434f6056e00bdd3cde158ef169b8a60ac474d09ab7dd23d20e46",
+      "before": "884752f9ae7f4a8a117c9ec8095e71127069f414da3d40d6dc5f4df2d8844330",
+      "command": {
+        "actor": {
+          "model": "none invoked",
+          "name": "Work Aiden",
+          "runtime": "deterministic projection of supplied relationship"
+        },
+        "branch_id": "B0",
+        "event_id": "REL-AFCB-REPORTING-STEP-1",
+        "expected_revision": 0,
+        "kind": "step",
+        "node": "ROOT",
+        "output": {
+          "name": "REL-AFCB-REPORTING: changes_reporting_authority"
+        }
+      },
+      "decision": {
+        "next_node": "ARRIVAL",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-10-13T04:41:45.002255+00:00"
+    },
+    {
+      "after": "dbf6c53f89ae8bd404ebd34610b5f207d38f0974561afd8b942b1ca33bd17f52",
+      "before": "20e6321a6d55434f6056e00bdd3cde158ef169b8a60ac474d09ab7dd23d20e46",
+      "command": {
+        "actor": {
+          "model": "none invoked",
+          "name": "Work Aiden",
+          "runtime": "deterministic projection of supplied relationship"
+        },
+        "branch_id": "B0",
+        "event_id": "REL-AFCB-REPORTING-STEP-2",
+        "expected_revision": 1,
+        "kind": "step",
+        "node": "ARRIVAL",
+        "output": {
+          "arrival": {
+            "from": "operations/continuity/journal.json",
+            "id": "REL-AFCB-REPORTING-ARRIVAL",
+            "payload": {
+              "relationship_id": "REL-AFCB-REPORTING",
+              "relationship_sha256": "53ba957efbe807a9dc77b03d5193fed31941e17fa1458711f946658de483f4df"
+            },
+            "to": "INIT:ROOT-0001"
+          },
+          "language_glance": {
+            "basis": "unknown",
+            "issuing_office": "See shared source metadata",
+            "languages": [],
+            "note": "This projector performs no language detection or fresh source reading.",
+            "source_refs": [
+              "S-AFCB",
+              "S-ORA"
+            ],
+            "surface_kind": "summary"
+          }
+        }
+      },
+      "decision": {
+        "next_node": "EPIST",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-10-13T04:41:45.002255+00:00"
+    },
+    {
+      "after": "6e8e5c5dfa9938d3ade6c9228993ec282d3052d0ea1a7ca05afb9420bb8a20e0",
+      "before": "dbf6c53f89ae8bd404ebd34610b5f207d38f0974561afd8b942b1ca33bd17f52",
+      "command": {
+        "actor": {
+          "model": "none invoked",
+          "name": "Work Aiden",
+          "runtime": "deterministic projection of supplied relationship"
+        },
+        "branch_id": "B0",
+        "event_id": "REL-AFCB-REPORTING-STEP-3",
+        "expected_revision": 2,
+        "kind": "step",
+        "node": "EPIST",
+        "output": {
+          "chronology": {
+            "from_event_date": "2024-04-24",
+            "lag_days": 889,
+            "meaning": "Date comparison only; no inference of mechanism, implementation or causation.",
+            "order": "precedes",
+            "to_event_date": "2026-09-30"
+          },
+          "prompt": "The September 30, 2026 ORA memorandum directs the Armed Forces Chaplains Board and its Executive Director under the ORA director, changing the Personnel and Readiness reporting baseline recorded in the April 24, 2024 instruction.",
+          "starting_state": "documented",
+          "time_scope": {
+            "end": null,
+            "note": "Memo effective immediately; the baseline event is dated April 24, 2024. An unknown end is not a claim of permanent/current implementation.",
+            "start": "2026-09-30"
+          }
+        }
+      },
+      "decision": {
+        "next_node": "FUNC",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-10-13T04:41:45.002255+00:00"
+    },
+    {
+      "after": "0f87ee04b46f7bc262b1b85943bddb2c896f0ae60c4b745c130c92de77a0aa40",
+      "before": "6e8e5c5dfa9938d3ade6c9228993ec282d3052d0ea1a7ca05afb9420bb8a20e0",
+      "command": {
+        "actor": {
+          "model": "none invoked",
+          "name": "Work Aiden",
+          "runtime": "deterministic projection of supplied relationship"
+        },
+        "branch_id": "B0",
+        "event_id": "REL-AFCB-REPORTING-STEP-4",
+        "expected_revision": 3,
+        "kind": "step",
+        "node": "FUNC",
+        "output": {
+          "evidence": [
+            {
+              "basis": "direct_record",
+              "locator": "DoDI 5120.08 §2; official search-index excerpt",
+              "source_ref": "S-AFCB",
+              "statement": "The earlier Board reporting baseline is under USD(P&R), with intervening personnel offices. Full original PDF was inaccessible in RC-005."
+            },
+            {
+              "basis": "direct_record",
+              "locator": "Memo p. 2 Board clause; p. 1 direct-report clause",
+              "source_ref": "S-ORA",
+              "statement": "Inspected memo facsimile places the Board and Executive Director under ORA; the ORA director reports directly without intervening authority. Original government bytes were not compared."
+            }
+          ],
+          "from_event": "E-AFCB-BASE",
+          "function": "Documented formal reporting direction, with source-access limitations. Staffing, actual exercise of authority, assessments and career effects are not established by this edge.",
+          "task": "Inspect the declared relationship against pinned shared references",
+          "to_event": "E-ORA",
+          "unobserved_target": null
+        }
+      },
+      "decision": {
+        "next_node": "MIRROR",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-10-13T04:41:45.002255+00:00"
+    },
+    {
+      "after": "842b243aea29fe9302cd03d6e6764b64af04302fe166de636335b593eba30027",
+      "before": "0f87ee04b46f7bc262b1b85943bddb2c896f0ae60c4b745c130c92de77a0aa40",
+      "command": {
+        "actor": {
+          "model": "none invoked",
+          "name": "Work Aiden",
+          "runtime": "deterministic projection of supplied relationship"
+        },
+        "branch_id": "B0",
+        "event_id": "REL-AFCB-REPORTING-STEP-5",
+        "expected_revision": 4,
+        "kind": "step",
+        "node": "MIRROR",
+        "output": {
+          "comparisons": [
+            {
+              "answers": [
+                {
+                  "source_refs": [
+                    "S-ORA"
+                  ]
+                }
+              ],
+              "explanation": "Administrative consolidation of chaplain/religious-support functions is consistent with the memorandum’s stated remit; the reporting change alone does not identify coercive implementation.",
+              "queries": []
+            }
+          ],
+          "counterevidence": [
+            {
+              "source_refs": [
+                "S-ORA"
+              ],
+              "statement": "The same memorandum protects conscience and forbids compelled religious participation. Those provisions constrain the claimed authority; they do not measure enforcement or undo the reporting change."
+            }
+          ],
+          "information_lineage": {
+            "api_record_refs": [],
+            "criteria_refs": [
+              "schemas/continuity-relationship.schema.json"
+            ],
+            "parent_answer_visible": true,
+            "parent_output_refs": [
+              "operations/continuity/journal.json"
+            ],
+            "source_refs": [
+              "S-AFCB",
+              "S-ORA"
+            ],
+            "test_origin": "inherited"
+          }
+        }
+      },
+      "decision": {
+        "next_node": "CROSS",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-10-13T04:41:45.002255+00:00"
+    },
+    {
+      "after": "169f04ca55b26d00dec73fb94e5e5a8e831e01d856a12826a7abbc49e3f611bc",
+      "before": "842b243aea29fe9302cd03d6e6764b64af04302fe166de636335b593eba30027",
+      "command": {
+        "actor": {
+          "model": "none invoked",
+          "name": "Work Aiden",
+          "runtime": "deterministic projection of supplied relationship"
+        },
+        "branch_id": "B0",
+        "event_id": "REL-AFCB-REPORTING-STEP-6",
+        "expected_revision": 5,
+        "kind": "step",
+        "node": "CROSS",
+        "output": {
+          "bridge": [
+            {
+              "question": "Does one operative implementing charter confirm the Board’s actual reporting path and any limits or changes to the September 30 direction?",
+              "source_refs": [
+                "S-AFCB",
+                "S-ORA"
+              ],
+              "status": "proposed only; not executed"
+            }
+          ],
+          "independent": [],
+          "inherited": [
+            {
+              "ref": "S-AFCB",
+              "status": "inherited archive; not independent corroboration"
+            },
+            {
+              "ref": "S-ORA",
+              "status": "inherited archive; not independent corroboration"
+            }
+          ]
+        }
+      },
+      "decision": {
+        "next_node": "RESID",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-10-13T04:41:45.002255+00:00"
+    },
+    {
+      "after": "40660ebaf4808028ddb9cac3dd47d7d6b3d8a85c7404ecbf1b092b4cd372f254",
+      "before": "169f04ca55b26d00dec73fb94e5e5a8e831e01d856a12826a7abbc49e3f611bc",
+      "command": {
+        "actor": {
+          "model": "none invoked",
+          "name": "Work Aiden",
+          "runtime": "deterministic projection of supplied relationship"
+        },
+        "branch_id": "B0",
+        "event_id": "REL-AFCB-REPORTING-STEP-7",
+        "expected_revision": 6,
+        "kind": "step",
+        "node": "RESID",
+        "output": {
+          "next_test": {
+            "max_records": 1,
+            "question": "Does one operative implementing charter confirm the Board’s actual reporting path and any limits or changes to the September 30 direction?",
+            "required_record": "One dated official ORA/AFCB implementing charter or superseding directive.",
+            "status": "proposed_only",
+            "stop_condition": "Stop after one authoritative document or explicit unknown; do not infer continued implementation from silence.",
+            "supports_if": "It confirms the directed path with effective date and responsibilities.",
+            "weakens_if": "It rescinds, qualifies or reallocates the reporting path; an administrative delay limits implementation only, not what the original memo directed."
+          },
+          "predicates": {
+            "consequential": true,
+            "distinct_functions": false,
+            "language_exception": null
+          },
+          "summary": "B03 is official indexed text only; O01 is a visually inspected public-mirror facsimile supported by transcription/index, not verified original-host byte identity.; The status documents what the retained records direct; it does not promote an instruction into observed implementation or a motive finding."
+        }
+      },
+      "decision": {
+        "next_node": "MEAN",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-10-13T04:41:45.002255+00:00"
+    },
+    {
+      "after": "5cd2cf258c4537b633fc2491f39d65bf58ec5e5b370a205a9c4f4a4c199f53ed",
+      "before": "40660ebaf4808028ddb9cac3dd47d7d6b3d8a85c7404ecbf1b092b4cd372f254",
+      "command": {
+        "actor": {
+          "model": "none invoked",
+          "name": "Work Aiden",
+          "runtime": "deterministic projection of supplied relationship"
+        },
+        "branch_id": "B0",
+        "event_id": "REL-AFCB-REPORTING-STEP-8",
+        "expected_revision": 7,
+        "kind": "step",
+        "node": "MEAN",
+        "output": {
+          "summary": "The September 30, 2026 ORA memorandum directs the Armed Forces Chaplains Board and its Executive Director under the ORA director, changing the Personnel and Readiness reporting baseline recorded in the April 24, 2024 instruction. — supplied status: documented"
+        }
+      },
+      "decision": {
+        "next_node": "EXIT",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-10-13T04:41:45.002255+00:00"
+    },
+    {
+      "after": "8cf4ac14657827676feb4c959a2656111e6e306aac266339ac019b5eec8d9dac",
+      "before": "5cd2cf258c4537b633fc2491f39d65bf58ec5e5b370a205a9c4f4a4c199f53ed",
+      "command": {
+        "actor": {
+          "model": "none invoked",
+          "name": "Work Aiden",
+          "runtime": "deterministic projection of supplied relationship"
+        },
+        "branch_id": "B0",
+        "event_id": "REL-AFCB-REPORTING-STEP-9",
+        "expected_revision": 8,
+        "kind": "step",
+        "node": "EXIT",
+        "output": {
+          "epistemic_status": "documented",
+          "kind": "question",
+          "summary": "Does one operative implementing charter confirm the Board’s actual reporting path and any limits or changes to the September 30 direction?"
+        }
+      },
+      "decision": {
+        "next_node": "RETURN",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-10-13T04:41:45.002255+00:00"
+    },
+    {
+      "after": "81bf6b2dd9e63bfe29e3d6d2d33e05f5cb21db6cc29fe158f6a7682c28c03f12",
+      "before": "8cf4ac14657827676feb4c959a2656111e6e306aac266339ac019b5eec8d9dac",
+      "command": {
+        "actor": {
+          "model": "none invoked",
+          "name": "Work Aiden",
+          "runtime": "deterministic projection of supplied relationship"
+        },
+        "branch_id": "B0",
+        "event_id": "REL-AFCB-REPORTING-STEP-10",
+        "expected_revision": 9,
+        "kind": "step",
+        "node": "RETURN",
+        "output": {
+          "new_arrival": null,
+          "reason": "Rest pending an operative charter, superseding directive or source correction; no monitoring enabled."
+        }
+      },
+      "decision": {
+        "reason": "No new arrival supplied",
+        "status": "rest"
+      },
+      "recorded_at": "2026-10-13T04:41:45.002255+00:00"
+    }
+  ],
+  "initial": {
+    "config": {
+      "authority": "Reviewed configuration determines eligible routes. Supplied content cannot edit this graph or activate morphology.",
+      "grammar": {
+        "crosscheck": {
+          "basic": "Collector capability",
+          "consequential_residual": "May request or propose teleport to a bounded Pygent Collector/specialist",
+          "permanent_crosscheck_bee": "Unresolved pending repeated cases showing the value of persistent specialist memory"
+        },
+        "entry": "INIT:ROOT-0001",
+        "external_execution": false,
+        "governor_input_refs": [
+          "daily_scroll",
+          "reflection_mailbox",
+          "meaning_tower",
+          "chair_imagination",
+          "meaning_boss_result"
+        ],
+        "routes": [
+          {
+            "automatic_execution": false,
+            "from": "INIT:RESID-0007",
+            "status": "available_not_running",
+            "to": "INIT:RETURN-0010",
+            "via": "PYGENT:PARALLAX-0001"
+          }
+        ],
+        "schema_version": "garden-config-0.1",
+        "status": "on_demand_grammar_prototype",
+        "trees": {
+          "INIT": {
+            "name": "Initiating Garden",
+            "nodes": [
+              {
+                "id": "ROOT-0001",
+                "purpose": "Pass name and identity"
+              },
+              {
+                "id": "ARRIVAL-0002",
+                "purpose": "What arrived, from where, sent to where"
+              },
+              {
+                "id": "EPIST-0003",
+                "purpose": "Prompt/question and starting epistemic state"
+              },
+              {
+                "id": "FUNC-0004",
+                "purpose": "Task and function being investigated"
+              },
+              {
+                "id": "MIRROR-0005",
+                "purpose": "Competing explanations, queries and recorded answers"
+              },
+              {
+                "id": "CROSS-0006",
+                "purpose": "Inherited, independently derived and deliberate bridge attachments"
+              },
+              {
+                "id": "RESID-0007",
+                "purpose": "Surviving residual and bounded specialist proposal"
+              },
+              {
+                "id": "MEAN-0008",
+                "purpose": "Changed meaning and non-evidence culture flower"
+              },
+              {
+                "id": "EXIT-0009",
+                "purpose": "Bounded answer, question, teleport, silence or error"
+              },
+              {
+                "id": "RETURN-0010",
+                "purpose": "New linked arrival or rest"
+              }
+            ]
+          },
+          "PYGENT": {
+            "name": "Bounded specialist destinations",
+            "nodes": [
+              {
+                "id": "PARALLAX-0001",
+                "purpose": "One bounded matched official-language Boss Packet",
+                "role": "parallax_collector_bee",
+                "status": "available_not_running"
+              }
+            ]
+          }
+        }
+      },
+      "independence": "A different branch, tree, context or model is not independent empirical evidence.",
+      "limits": {
+        "max_branches": 8,
+        "max_events": 128,
+        "max_fanout": 3,
+        "max_steps": 80,
+        "model_calls": 0
+      },
+      "model_execution": false,
+      "node_contracts": {
+        "ARRIVAL": {
+          "objects": [
+            "arrival",
+            "language_glance"
+          ]
+        },
+        "CROSS": {
+          "lists": [
+            "inherited",
+            "independent",
+            "bridge"
+          ]
+        },
+        "EPIST": {
+          "strings": [
+            "prompt",
+            "starting_state"
+          ]
+        },
+        "EXIT": {
+          "strings": [
+            "kind",
+            "summary"
+          ]
+        },
+        "FUNC": {
+          "strings": [
+            "task",
+            "function"
+          ]
+        },
+        "MEAN": {
+          "strings": [
+            "summary"
+          ]
+        },
+        "MIRROR": {
+          "lists": [
+            "comparisons"
+          ],
+          "objects": [
+            "information_lineage"
+          ]
+        },
+        "RESID": {
+          "objects": [
+            "predicates"
+          ],
+          "strings": [
+            "summary"
+          ]
+        },
+        "RETURN": {
+          "strings": [
+            "reason"
+          ]
+        },
+        "ROOT": {
+          "strings": [
+            "name"
+          ]
+        }
+      },
+      "rules": [
+        {
+          "actions": [
+            "MOVE",
+            "CLONE"
+          ],
+          "at": [
+            "RESID",
+            "MEAN",
+            "EXIT",
+            "RETURN"
+          ],
+          "condition": {
+            "members": [
+              "consequential",
+              "language_exception"
+            ],
+            "op": "AND"
+          },
+          "from": [
+            "INIT",
+            "ECONOMICS",
+            "PRODUCTION",
+            "DIPLOMACY",
+            "LANGUAGE",
+            "CUSTOMS",
+            "HOMELESSNESS"
+          ],
+          "id": "LANGUAGE-EXCEPTION",
+          "review_required": false,
+          "to": [
+            "LANGUAGE"
+          ]
+        },
+        {
+          "actions": [
+            "MOVE",
+            "CLONE",
+            "FANOUT"
+          ],
+          "at": [
+            "RESID",
+            "MEAN",
+            "EXIT",
+            "RETURN"
+          ],
+          "condition": {
+            "members": [
+              "consequential",
+              "distinct_functions"
+            ],
+            "op": "AND"
+          },
+          "from": [
+            "INIT",
+            "ECONOMICS",
+            "PRODUCTION",
+            "DIPLOMACY",
+            "LANGUAGE",
+            "CUSTOMS",
+            "HOMELESSNESS"
+          ],
+          "id": "DOMAIN-BRANCH",
+          "review_required": true,
+          "to": [
+            "INIT",
+            "ECONOMICS",
+            "PRODUCTION",
+            "DIPLOMACY",
+            "LANGUAGE",
+            "CUSTOMS",
+            "HOMELESSNESS"
+          ]
+        }
+      ],
+      "schema_version": "garden-traversal-config-1",
+      "status": "supplied_content_runtime",
+      "trees": {
+        "CUSTOMS": {
+          "name": "Customs Authority",
+          "node_template": "INIT",
+          "status": "traversable_with_supplied_content"
+        },
+        "DIPLOMACY": {
+          "name": "Diplomacy",
+          "node_template": "INIT",
+          "status": "traversable_with_supplied_content"
+        },
+        "ECONOMICS": {
+          "name": "Economics",
+          "node_template": "INIT",
+          "status": "traversable_with_supplied_content"
+        },
+        "HOMELESSNESS": {
+          "name": "Homelessness Governance and Integrity",
+          "node_template": "INIT",
+          "status": "traversable_with_supplied_content"
+        },
+        "INIT": {
+          "name": "Initiating Garden",
+          "node_template": "INIT",
+          "status": "traversable_with_supplied_content"
+        },
+        "LANGUAGE": {
+          "name": "Language Exception",
+          "node_template": "INIT",
+          "status": "traversable_with_supplied_content"
+        },
+        "PRODUCTION": {
+          "name": "Production",
+          "node_template": "INIT",
+          "status": "traversable_with_supplied_content"
+        }
+      }
+    },
+    "packet": {
+      "actor": {
+        "model": "none invoked",
+        "name": "Work Aiden",
+        "runtime": "deterministic projection of supplied relationship"
+      },
+      "arrival": {
+        "from": "operations/continuity/journal.json",
+        "id": "REL-AFCB-REPORTING-ARRIVAL",
+        "payload": {
+          "relationship_id": "REL-AFCB-REPORTING",
+          "relationship_sha256": "53ba957efbe807a9dc77b03d5193fed31941e17fa1458711f946658de483f4df"
+        },
+        "to": "INIT:ROOT-0001"
+      },
+      "budget": {
+        "max_branches": 1,
+        "max_events": 10,
+        "max_fanout": 0,
+        "max_steps": 10,
+        "model_calls": 0
+      },
+      "epoch": 1,
+      "focus": "The September 30, 2026 ORA memorandum directs the Armed Forces Chaplains Board and its Executive Director under the ORA director, changing the Personnel and Readiness reporting baseline recorded in the April 24, 2024 instruction.",
+      "question_id": "Q-REL-AFCB-REPORTING",
+      "run_id": "REL-AFCB-REPORTING-GARDEN",
+      "sources": [
+        {
+          "access_limit": "Full original document verification remains open.",
+          "binding": {
+            "collection": "sources",
+            "id_field": "source_id",
+            "kind": "source",
+            "path": "reports/military-conscience-and-institutional-safeguards/baseline_sources.json",
+            "record_id": "B03",
+            "sha256": "515564d73808a2c2431bcb7e79580271e446c4ad2742cb8fcaba68a5b5fcca2e"
+          },
+          "kind": "public_source",
+          "lineage_id": "AFCB governance instruction",
+          "ref": "S-AFCB"
+        },
+        {
+          "access_limit": "Facsimile agrees with separately hosted transcription and indexed primary reference; original government PDF bytes could not be compared. Implementation not established.",
+          "binding": {
+            "collection": "sources",
+            "id_field": "source_id",
+            "kind": "source",
+            "path": "reports/military-conscience-and-institutional-safeguards/ora_sources.json",
+            "record_id": "O01",
+            "sha256": "c7372867891ccdb0f4b77242327258a1357ba5d47ead015761b4be32e2c1a954"
+          },
+          "kind": "public_source",
+          "lineage_id": "September30 ORA memorandum",
+          "ref": "S-ORA"
+        }
+      ],
+      "status": "case-local supplied projection; no shared Question registration",
+      "tree": "INIT"
+    },
+    "registry": {
+      "questions": {
+        "Q-REL-AFCB-REPORTING": {
+          "epoch": 1
+        }
+      }
+    }
+  },
+  "schema_version": "garden-traversal-1",
+  "state": {
+    "branches": {
+      "B0": {
+        "epoch": 1,
+        "focus": "The September 30, 2026 ORA memorandum directs the Armed Forces Chaplains Board and its Executive Director under the ORA director, changing the Personnel and Readiness reporting baseline recorded in the April 24, 2024 instruction.",
+        "id": "B0",
+        "lineage": {
+          "independent_evidence": false,
+          "source_refs": [
+            "S-AFCB",
+            "S-ORA"
+          ]
+        },
+        "parent_branch": null,
+        "question_id": "Q-REL-AFCB-REPORTING",
+        "rest": {
+          "kind": "return",
+          "reason": "No new arrival supplied"
+        },
+        "root_branch": "B0",
+        "seen_arrival_ids": [
+          "REL-AFCB-REPORTING-ARRIVAL"
+        ],
+        "status": "resting",
+        "visited": [
+          {
+            "payload_hash": "58c0cc96b0982550699a7e2a20dfc9faa0ed6ff3590de96f928839b19f8eab50",
+            "tree": "INIT"
+          }
+        ],
+        "visits": [
+          {
+            "arrival": {
+              "from": "operations/continuity/journal.json",
+              "id": "REL-AFCB-REPORTING-ARRIVAL",
+              "payload": {
+                "relationship_id": "REL-AFCB-REPORTING",
+                "relationship_sha256": "53ba957efbe807a9dc77b03d5193fed31941e17fa1458711f946658de483f4df"
+              },
+              "to": "INIT:ROOT-0001"
+            },
+            "status": "completed",
+            "steps": [
+              {
+                "actor": {
+                  "model": "none invoked",
+                  "name": "Work Aiden",
+                  "runtime": "deterministic projection of supplied relationship"
+                },
+                "event_id": "REL-AFCB-REPORTING-STEP-1",
+                "node": "ROOT",
+                "output": {
+                  "name": "REL-AFCB-REPORTING: changes_reporting_authority"
+                }
+              },
+              {
+                "actor": {
+                  "model": "none invoked",
+                  "name": "Work Aiden",
+                  "runtime": "deterministic projection of supplied relationship"
+                },
+                "event_id": "REL-AFCB-REPORTING-STEP-2",
+                "node": "ARRIVAL",
+                "output": {
+                  "arrival": {
+                    "from": "operations/continuity/journal.json",
+                    "id": "REL-AFCB-REPORTING-ARRIVAL",
+                    "payload": {
+                      "relationship_id": "REL-AFCB-REPORTING",
+                      "relationship_sha256": "53ba957efbe807a9dc77b03d5193fed31941e17fa1458711f946658de483f4df"
+                    },
+                    "to": "INIT:ROOT-0001"
+                  },
+                  "language_glance": {
+                    "basis": "unknown",
+                    "issuing_office": "See shared source metadata",
+                    "languages": [],
+                    "note": "This projector performs no language detection or fresh source reading.",
+                    "source_refs": [
+                      "S-AFCB",
+                      "S-ORA"
+                    ],
+                    "surface_kind": "summary"
+                  }
+                }
+              },
+              {
+                "actor": {
+                  "model": "none invoked",
+                  "name": "Work Aiden",
+                  "runtime": "deterministic projection of supplied relationship"
+                },
+                "event_id": "REL-AFCB-REPORTING-STEP-3",
+                "node": "EPIST",
+                "output": {
+                  "chronology": {
+                    "from_event_date": "2024-04-24",
+                    "lag_days": 889,
+                    "meaning": "Date comparison only; no inference of mechanism, implementation or causation.",
+                    "order": "precedes",
+                    "to_event_date": "2026-09-30"
+                  },
+                  "prompt": "The September 30, 2026 ORA memorandum directs the Armed Forces Chaplains Board and its Executive Director under the ORA director, changing the Personnel and Readiness reporting baseline recorded in the April 24, 2024 instruction.",
+                  "starting_state": "documented",
+                  "time_scope": {
+                    "end": null,
+                    "note": "Memo effective immediately; the baseline event is dated April 24, 2024. An unknown end is not a claim of permanent/current implementation.",
+                    "start": "2026-09-30"
+                  }
+                }
+              },
+              {
+                "actor": {
+                  "model": "none invoked",
+                  "name": "Work Aiden",
+                  "runtime": "deterministic projection of supplied relationship"
+                },
+                "event_id": "REL-AFCB-REPORTING-STEP-4",
+                "node": "FUNC",
+                "output": {
+                  "evidence": [
+                    {
+                      "basis": "direct_record",
+                      "locator": "DoDI 5120.08 §2; official search-index excerpt",
+                      "source_ref": "S-AFCB",
+                      "statement": "The earlier Board reporting baseline is under USD(P&R), with intervening personnel offices. Full original PDF was inaccessible in RC-005."
+                    },
+                    {
+                      "basis": "direct_record",
+                      "locator": "Memo p. 2 Board clause; p. 1 direct-report clause",
+                      "source_ref": "S-ORA",
+                      "statement": "Inspected memo facsimile places the Board and Executive Director under ORA; the ORA director reports directly without intervening authority. Original government bytes were not compared."
+                    }
+                  ],
+                  "from_event": "E-AFCB-BASE",
+                  "function": "Documented formal reporting direction, with source-access limitations. Staffing, actual exercise of authority, assessments and career effects are not established by this edge.",
+                  "task": "Inspect the declared relationship against pinned shared references",
+                  "to_event": "E-ORA",
+                  "unobserved_target": null
+                }
+              },
+              {
+                "actor": {
+                  "model": "none invoked",
+                  "name": "Work Aiden",
+                  "runtime": "deterministic projection of supplied relationship"
+                },
+                "event_id": "REL-AFCB-REPORTING-STEP-5",
+                "node": "MIRROR",
+                "output": {
+                  "comparisons": [
+                    {
+                      "answers": [
+                        {
+                          "source_refs": [
+                            "S-ORA"
+                          ]
+                        }
+                      ],
+                      "explanation": "Administrative consolidation of chaplain/religious-support functions is consistent with the memorandum’s stated remit; the reporting change alone does not identify coercive implementation.",
+                      "queries": []
+                    }
+                  ],
+                  "counterevidence": [
+                    {
+                      "source_refs": [
+                        "S-ORA"
+                      ],
+                      "statement": "The same memorandum protects conscience and forbids compelled religious participation. Those provisions constrain the claimed authority; they do not measure enforcement or undo the reporting change."
+                    }
+                  ],
+                  "information_lineage": {
+                    "api_record_refs": [],
+                    "criteria_refs": [
+                      "schemas/continuity-relationship.schema.json"
+                    ],
+                    "parent_answer_visible": true,
+                    "parent_output_refs": [
+                      "operations/continuity/journal.json"
+                    ],
+                    "source_refs": [
+                      "S-AFCB",
+                      "S-ORA"
+                    ],
+                    "test_origin": "inherited"
+                  }
+                }
+              },
+              {
+                "actor": {
+                  "model": "none invoked",
+                  "name": "Work Aiden",
+                  "runtime": "deterministic projection of supplied relationship"
+                },
+                "event_id": "REL-AFCB-REPORTING-STEP-6",
+                "node": "CROSS",
+                "output": {
+                  "bridge": [
+                    {
+                      "question": "Does one operative implementing charter confirm the Board’s actual reporting path and any limits or changes to the September 30 direction?",
+                      "source_refs": [
+                        "S-AFCB",
+                        "S-ORA"
+                      ],
+                      "status": "proposed only; not executed"
+                    }
+                  ],
+                  "independent": [],
+                  "inherited": [
+                    {
+                      "ref": "S-AFCB",
+                      "status": "inherited archive; not independent corroboration"
+                    },
+                    {
+                      "ref": "S-ORA",
+                      "status": "inherited archive; not independent corroboration"
+                    }
+                  ]
+                }
+              },
+              {
+                "actor": {
+                  "model": "none invoked",
+                  "name": "Work Aiden",
+                  "runtime": "deterministic projection of supplied relationship"
+                },
+                "event_id": "REL-AFCB-REPORTING-STEP-7",
+                "node": "RESID",
+                "output": {
+                  "next_test": {
+                    "max_records": 1,
+                    "question": "Does one operative implementing charter confirm the Board’s actual reporting path and any limits or changes to the September 30 direction?",
+                    "required_record": "One dated official ORA/AFCB implementing charter or superseding directive.",
+                    "status": "proposed_only",
+                    "stop_condition": "Stop after one authoritative document or explicit unknown; do not infer continued implementation from silence.",
+                    "supports_if": "It confirms the directed path with effective date and responsibilities.",
+                    "weakens_if": "It rescinds, qualifies or reallocates the reporting path; an administrative delay limits implementation only, not what the original memo directed."
+                  },
+                  "predicates": {
+                    "consequential": true,
+                    "distinct_functions": false,
+                    "language_exception": null
+                  },
+                  "summary": "B03 is official indexed text only; O01 is a visually inspected public-mirror facsimile supported by transcription/index, not verified original-host byte identity.; The status documents what the retained records direct; it does not promote an instruction into observed implementation or a motive finding."
+                }
+              },
+              {
+                "actor": {
+                  "model": "none invoked",
+                  "name": "Work Aiden",
+                  "runtime": "deterministic projection of supplied relationship"
+                },
+                "event_id": "REL-AFCB-REPORTING-STEP-8",
+                "node": "MEAN",
+                "output": {
+                  "summary": "The September 30, 2026 ORA memorandum directs the Armed Forces Chaplains Board and its Executive Director under the ORA director, changing the Personnel and Readiness reporting baseline recorded in the April 24, 2024 instruction. — supplied status: documented"
+                }
+              },
+              {
+                "actor": {
+                  "model": "none invoked",
+                  "name": "Work Aiden",
+                  "runtime": "deterministic projection of supplied relationship"
+                },
+                "event_id": "REL-AFCB-REPORTING-STEP-9",
+                "node": "EXIT",
+                "output": {
+                  "epistemic_status": "documented",
+                  "kind": "question",
+                  "summary": "Does one operative implementing charter confirm the Board’s actual reporting path and any limits or changes to the September 30 direction?"
+                }
+              },
+              {
+                "actor": {
+                  "model": "none invoked",
+                  "name": "Work Aiden",
+                  "runtime": "deterministic projection of supplied relationship"
+                },
+                "event_id": "REL-AFCB-REPORTING-STEP-10",
+                "node": "RETURN",
+                "output": {
+                  "new_arrival": null,
+                  "reason": "Rest pending an operative charter, superseding directive or source correction; no monitoring enabled."
+                }
+              }
+            ],
+            "tree": "INIT"
+          }
+        ]
+      }
+    },
+    "epoch": 1,
+    "limits": {
+      "max_branches": 1,
+      "max_events": 10,
+      "max_fanout": 0,
+      "max_steps": 10,
+      "model_calls": 0
+    },
+    "question_id": "Q-REL-AFCB-REPORTING",
+    "revision": 10,
+    "route_decisions": [],
+    "route_signatures": [],
+    "run_id": "REL-AFCB-REPORTING-GARDEN",
+    "sources": {
+      "S-AFCB": {
+        "access_limit": "Full original document verification remains open.",
+        "binding": {
+          "collection": "sources",
+          "id_field": "source_id",
+          "kind": "source",
+          "path": "reports/military-conscience-and-institutional-safeguards/baseline_sources.json",
+          "record_id": "B03",
+          "sha256": "515564d73808a2c2431bcb7e79580271e446c4ad2742cb8fcaba68a5b5fcca2e"
+        },
+        "kind": "public_source",
+        "lineage_id": "AFCB governance instruction",
+        "ref": "S-AFCB"
+      },
+      "S-ORA": {
+        "access_limit": "Facsimile agrees with separately hosted transcription and indexed primary reference; original government PDF bytes could not be compared. Implementation not established.",
+        "binding": {
+          "collection": "sources",
+          "id_field": "source_id",
+          "kind": "source",
+          "path": "reports/military-conscience-and-institutional-safeguards/ora_sources.json",
+          "record_id": "O01",
+          "sha256": "c7372867891ccdb0f4b77242327258a1357ba5d47ead015761b4be32e2c1a954"
+        },
+        "kind": "public_source",
+        "lineage_id": "September30 ORA memorandum",
+        "ref": "S-ORA"
+      }
+    },
+    "used": {
+      "branches": 1,
+      "model_calls": 0,
+      "steps": 10
+    }
+  },
+  "state_sha256": "81bf6b2dd9e63bfe29e3d6d2d33e05f5cb21db6cc29fe158f6a7682c28c03f12"
+}

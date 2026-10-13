@@ -1,0 +1,287 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:dis-unity:continuity-relationship:1",
+  "title": "Supplied, reviewable temporal relationship; not canonical evidence",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "relationship_id": {
+      "type": "string",
+      "pattern": "^[A-Z][A-Z0-9-]*$"
+    },
+    "relationship_type": {
+      "enum": [
+        "precedes",
+        "contracts_for",
+        "changes_reporting_authority",
+        "affects_decision"
+      ]
+    },
+    "from_event": {
+      "type": "string",
+      "pattern": "^[A-Z][A-Z0-9-]*$"
+    },
+    "to_event": {
+      "anyOf": [
+        {
+          "type": "string",
+          "pattern": "^[A-Z][A-Z0-9-]*$"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "unobserved_target": {
+      "anyOf": [
+        {
+          "type": "string",
+          "minLength": 1
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "lanes": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "from": {
+          "type": "string",
+          "minLength": 1
+        },
+        "to": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "from",
+        "to"
+      ]
+    },
+    "claim": {
+      "type": "string",
+      "minLength": 1
+    },
+    "epistemic_status": {
+      "enum": [
+        "documented",
+        "partly_documented",
+        "hypothesized",
+        "contested",
+        "refuted",
+        "unknown"
+      ]
+    },
+    "scope": {
+      "type": "string",
+      "minLength": 1
+    },
+    "time_scope": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "start": {
+          "anyOf": [
+            {
+              "type": "string",
+              "minLength": 1
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "end": {
+          "anyOf": [
+            {
+              "type": "string",
+              "minLength": 1
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "note": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "start",
+        "end",
+        "note"
+      ]
+    },
+    "supporting_evidence": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "source_ref": {
+            "type": "string",
+            "pattern": "^[A-Z][A-Z0-9-]*$"
+          },
+          "basis": {
+            "enum": [
+              "direct_record",
+              "context",
+              "temporal_only"
+            ]
+          },
+          "locator": {
+            "type": "string",
+            "minLength": 1
+          },
+          "statement": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "required": [
+          "source_ref",
+          "basis",
+          "locator",
+          "statement"
+        ]
+      },
+      "minItems": 0
+    },
+    "context_events": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[A-Z][A-Z0-9-]*$"
+      },
+      "minItems": 0
+    },
+    "ordinary_explanations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "statement": {
+            "type": "string",
+            "minLength": 1
+          },
+          "source_refs": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^[A-Z][A-Z0-9-]*$"
+            },
+            "minItems": 0
+          }
+        },
+        "required": [
+          "statement",
+          "source_refs"
+        ]
+      },
+      "minItems": 1
+    },
+    "counterevidence": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "statement": {
+            "type": "string",
+            "minLength": 1
+          },
+          "source_refs": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^[A-Z][A-Z0-9-]*$"
+            },
+            "minItems": 0
+          }
+        },
+        "required": [
+          "statement",
+          "source_refs"
+        ]
+      },
+      "minItems": 1
+    },
+    "limitations": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1
+    },
+    "next_test": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "question": {
+          "type": "string",
+          "minLength": 1
+        },
+        "required_record": {
+          "type": "string",
+          "minLength": 1
+        },
+        "supports_if": {
+          "type": "string",
+          "minLength": 1
+        },
+        "weakens_if": {
+          "type": "string",
+          "minLength": 1
+        },
+        "stop_condition": {
+          "type": "string",
+          "minLength": 1
+        },
+        "max_records": {
+          "const": 1
+        },
+        "status": {
+          "const": "proposed_only"
+        }
+      },
+      "required": [
+        "question",
+        "required_record",
+        "supports_if",
+        "weakens_if",
+        "stop_condition",
+        "max_records",
+        "status"
+      ]
+    },
+    "rest_until": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "required": [
+    "relationship_id",
+    "relationship_type",
+    "from_event",
+    "to_event",
+    "unobserved_target",
+    "lanes",
+    "claim",
+    "epistemic_status",
+    "scope",
+    "time_scope",
+    "supporting_evidence",
+    "context_events",
+    "ordinary_explanations",
+    "counterevidence",
+    "limitations",
+    "next_test",
+    "rest_until"
+  ]
+}

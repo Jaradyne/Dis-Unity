@@ -1,0 +1,46 @@
+{
+  "reviewer": "camp_review",
+  "status": "accepted_with_limits",
+  "scope": "Bounded independent review of continuity ledger, schema, replay and three supplied cases. No web.",
+  "findings": [
+    {
+      "id": "R1",
+      "severity": "medium",
+      "issue": "Mixed ISO month/day time bounds are compared lexicographically and overlapping bounds can be rejected as reversed.",
+      "status": "fixed_and_verified"
+    },
+    {
+      "id": "R2",
+      "severity": "medium",
+      "issue": "A hypothesis with an unobserved target cannot be contested or refuted without inventing an observed endpoint.",
+      "status": "fixed_and_verified"
+    },
+    {
+      "id": "R3",
+      "severity": "low",
+      "issue": "Build/check CLI hardcodes three Garden runs for a reusable variable-size ledger.",
+      "status": "fixed_and_verified"
+    }
+  ],
+  "limitations": [
+    "Review of supplied records only; no fresh web retrieval or independent source authentication.",
+    "Digest/source-record hashes preserve referenced catalog records, not external URLs or every original archive byte.",
+    "Hash chain detects alterations against retained hashes but is not an authentication mechanism against wholesale resealing.",
+    "Evidence basis and epistemic status remain supplied reviewer judgments; structural validation cannot determine whether a source actually proves a claim.",
+    "Historical source/access qualifications were reviewed through existing records, not independently reauthenticated."
+  ],
+  "checks": [
+    "Existing five generated outputs replay identically.",
+    "Shared source catalogs retain access limitations, source families, publication/retrieval dates.",
+    "CEM contracting and AFCB reporting claims are bounded; ORA career effect remains hypothesis with missing target.",
+    "12 focused unittest cases passed, including mixed precision, missing-target retirement, revisions, source pin drift, duplicate JSON and schema guardrails.",
+    "Final continuity.py check passed: five exact deterministic outputs and three case-local ten-node resting Garden runs.",
+    "R1 calendar bounds accept overlapping month/day uncertainty and reject definitely reversed intervals.",
+    "R2 null-target candidates can be contested/refuted while established statuses remain disallowed.",
+    "R3 CLI run count derives from generated outputs rather than a hardcoded three.",
+    "Final contract and Digest handoff accurately describe supplied judgments, semantic catalog pins, hash-chain trust limits and no-activation boundary.",
+    "After readability/source-date projection updates, continuity.py check still reproduces all five outputs exactly."
+  ],
+  "conclusion": "Bounded independent review accepted after R1\u2013R3 fixes. No remaining material defects found in the supplied three-case ledger and deterministic replay scope.",
+  "editorial_note": "ACCEPTANCE final paragraph should not claim hosted/merge receipts are already attached before publication; coordinator notified. No runtime or evidence defect."
+}
