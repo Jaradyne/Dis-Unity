@@ -1,0 +1,181 @@
+{
+  "research_cutoff": "2026-10-10",
+  "author": "ice_operations_recovery",
+  "events": [
+    {
+      "event_id": "IO01",
+      "event_date": "2003",
+      "publication_date": "2020-09-10",
+      "retrieved_date_utc": "2026-10-10",
+      "title": "HSI tactical-team origin",
+      "source_ids": [
+        "I09"
+      ],
+      "claim": "GAO places investigative tactical-team establishment at ICE formation.",
+      "status": "documented",
+      "limitations": "Retrospective2020 description, not original2003 order.",
+      "discovery": "Late discovery"
+    },
+    {
+      "event_id": "IO02",
+      "event_date": "FY2004",
+      "publication_date": "2020-09-10",
+      "retrieved_date_utc": "2026-10-10",
+      "title": "ERO tactical-team origin",
+      "source_ids": [
+        "I09"
+      ],
+      "claim": "GAO dates removal-side response teams toFY2004.",
+      "status": "documented",
+      "limitations": "Historical baseline, not current deployment.",
+      "discovery": "Late discovery"
+    },
+    {
+      "event_id": "IO03",
+      "event_date": "2020-09-10",
+      "publication_date": "2020-09-10",
+      "retrieved_date_utc": "2026-10-10",
+      "title": "GAO publishes tactical-team baseline",
+      "source_ids": [
+        "I09"
+      ],
+      "claim": "Audit distinguishes components and documents earlier defense-equipment transfers.",
+      "status": "documented",
+      "limitations": "Not a2026 inventory.",
+      "discovery": "Late discovery",
+      "observation_period": "FY2015–FY2019 deployments and early2020 staffing"
+    },
+    {
+      "event_id": "IO04",
+      "event_date": "2024-10-21/2024-10-23",
+      "publication_date": "2026-10-06",
+      "retrieved_date_utc": "2026-10-10",
+      "title": "Limited-user electrical-glove exercise",
+      "source_ids": [
+        "I11",
+        "I12"
+      ],
+      "claim": "Disclosed assessment concerns Fort Leavenworth exercise.",
+      "status": "attributed document reporting",
+      "limitations": "Original report inaccessible; observed effectiveness does not establish safety.",
+      "discovery": "Late discovery",
+      "document_date": "2024-12-12"
+    },
+    {
+      "event_id": "IO05",
+      "event_date": "2025-05-28",
+      "publication_date": "2025-06-25",
+      "retrieved_date_utc": "2026-10-10",
+      "title": "ICE/CBP SkillBridge prioritization",
+      "source_ids": [
+        "I01",
+        "I02"
+      ],
+      "claim": "Military transition program expressly promotes existing agency placements.",
+      "status": "documented",
+      "limitations": "No placement/hire totals.",
+      "discovery": "Late discovery"
+    },
+    {
+      "event_id": "IO06",
+      "event_date": "2025-07-04",
+      "publication_date": "2025-07-04",
+      "retrieved_date_utc": "2026-10-10",
+      "title": "ICE incentive authority enacted",
+      "source_ids": [
+        "I05"
+      ],
+      "claim": "Statute authorizes conditional bonuses and written service agreements.",
+      "status": "documented",
+      "limitations": "No uniform$50000 payment requirement.",
+      "discovery": "Late discovery"
+    },
+    {
+      "event_id": "IO07",
+      "event_date": "2025-07-29",
+      "publication_date": "2025-07-29",
+      "retrieved_date_utc": "2026-10-10",
+      "title": "Maximum$50000 advertised",
+      "source_ids": [
+        "I06"
+      ],
+      "claim": "DHS campaign advertises recruitment incentive ceiling.",
+      "status": "documented",
+      "limitations": "Does not establish individual agreement or payment.",
+      "discovery": "Late discovery"
+    },
+    {
+      "event_id": "IO08",
+      "event_date": "2025-08-01",
+      "publication_date": "2025-08-01",
+      "retrieved_date_utc": "2026-10-10",
+      "title": "Returnee installment offer reported",
+      "source_ids": [
+        "I07"
+      ],
+      "claim": "NPR describes one cohort-specific returnee bonus structure.",
+      "status": "reported offer",
+      "limitations": "Publication/observation date; initial offer date not established here.",
+      "discovery": "Late discovery"
+    },
+    {
+      "event_id": "IO09",
+      "event_date": "2026-02",
+      "publication_date": "2026-02-15",
+      "retrieved_date_utc": "2026-10-10",
+      "title": "Online nonpayment allegations circulate",
+      "source_ids": [
+        "I08"
+      ],
+      "claim": "Posts and screenshots allege absent bonuses or pay.",
+      "status": "unverified allegation",
+      "limitations": "Not verified payment failures; exact story user encountered unknown.",
+      "discovery": "Late discovery"
+    },
+    {
+      "event_id": "IO10",
+      "event_date": "2026-08-27",
+      "publication_date": "2026-08-27",
+      "retrieved_date_utc": "2026-10-10",
+      "title": "Glove award notice reported",
+      "source_ids": [
+        "I04",
+        "I15"
+      ],
+      "claim": "Notice of planned6000-unit acquisition reported.",
+      "status": "documented justification; reported award notice",
+      "limitations": "Report/notice date not signing date; delivery/use unresolved.",
+      "discovery": "Late discovery"
+    },
+    {
+      "event_id": "IO11",
+      "event_date": "2026-08-27",
+      "publication_date": "2026-08-27",
+      "retrieved_date_utc": "2026-10-10",
+      "title": "Senators request cancellation or safeguards",
+      "source_ids": [
+        "I13"
+      ],
+      "claim": "Sixteen signatories seek answers and device-use controls.",
+      "status": "documented",
+      "limitations": "Letter does not establish a halt or effective remedy.",
+      "discovery": "Late discovery"
+    },
+    {
+      "event_id": "IO12",
+      "event_date": "2026-10-06",
+      "publication_date": "2026-10-06",
+      "retrieved_date_utc": "2026-10-10",
+      "title": "Assessment receives further public scrutiny",
+      "source_ids": [
+        "I10",
+        "I11",
+        "I12"
+      ],
+      "claim": "FOIA recipient and AP discuss earlier exercise and testing limits.",
+      "status": "documented publication",
+      "limitations": "Earlier document-index date means this is not a claim of first disclosure.",
+      "discovery": "Late discovery"
+    }
+  ]
+}

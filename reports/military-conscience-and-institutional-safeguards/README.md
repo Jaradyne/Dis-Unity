@@ -1,5 +1,11 @@
 # Military Conscience and Institutional Safeguards
 
+**Expanded 10–11 October 2026: postwar history, DHS, ICE and adjacent agencies.** Begin with [ICE within the larger enforcement system](ICE_AND_DOMESTIC_ENFORCEMENT.md), then the [agency map](AGENCY_MAP.md) and [1945–2026 timeline](TIMELINE.md). The new RC-006 intake connects documented capabilities and accountability failures while preserving contrary evidence and unknowns. It is prepared for Jared and Digest; RC-004 remains canonical.
+
+The expansion includes [postwar foundations](POSTWAR_FOUNDATIONS.md), [DHS creation and use](DHS_CREATION_AND_USE.md), [personnel and equipment](ICE_PERSONNEL_AND_EQUIPMENT.md), [detention capacity and oversight](ICE_CAPACITY_AND_OVERSIGHT.md), and [removals and political speech](ICE_REMOVALS_AND_SPEECH.md). The [recorded materials](../../digestion/threshold/research/2026-10-10-postwar-ice/README.md) and [review record](INDEPENDENT_REVIEW_RC006.md) make the limits inspectable. See the [combined ledger](expanded_events.json) for dated observations; the original [RC-005 ledger](events.json) is preserved unchanged.
+
+## Original 8 October intake
+
 **Research packet for Jared and Digest Aiden.** Prepared by Work Aiden, 7 October 2026 Pacific / 8 October UTC. Evidence cutoff: the public material retrieved on 8 October UTC. This is the first bounded intake in **RC-005**, awaiting discussion and evidence admission. RC-004 remains the accepted canonical state.
 
 ## The question

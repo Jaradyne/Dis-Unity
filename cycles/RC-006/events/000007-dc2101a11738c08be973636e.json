@@ -1,0 +1,15 @@
+{
+  "at": "2026-10-11T20:02:15.107121+00:00",
+  "cycle_id": "RC-006",
+  "event_id": "dc2101a11738c08be973636e",
+  "event_type": "agent_submission",
+  "hash": "a84270e9a773a6be61795e6acfdcfdb33c19d06a54458d807f221854c655a06e",
+  "payload": {
+    "agent": "institutional_research_review",
+    "payload_hash": "42aa9003cf88b41559bd000ba024c52b3e4d28f617ba2c4e5625995bd1088dbb",
+    "phase": "submitted",
+    "submission_id": "3fbab8f9438ceaedf314233047ee60fdf08b81a26eee880c62c67e08364ab01a"
+  },
+  "previous_hash": "5f6033a97102f56e8333d124d68dc9789b2a55f1f6459d3788b31b7ebf8cde55",
+  "sequence": 7
+}

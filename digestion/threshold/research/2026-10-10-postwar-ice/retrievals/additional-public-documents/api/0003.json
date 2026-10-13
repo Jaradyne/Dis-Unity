@@ -1,0 +1,144 @@
+{
+  "finished_at": "2026-10-10T06:42:14.256013+00:00",
+  "record_id": "API-additional-public-documents-0003",
+  "redaction": {
+    "policy": "Credentials and authentication cookies only; no content-field allowlist.",
+    "replacement_count": 0
+  },
+  "request": {
+    "body": null,
+    "headers": [
+      [
+        "User-agent",
+        "Dis-Unity public research/1.0"
+      ],
+      [
+        "Accept",
+        "application/pdf"
+      ]
+    ],
+    "method": "GET",
+    "url": "https://www.gao.gov/products/gao-25-107580"
+  },
+  "response": {
+    "body": {
+      "complete": true,
+      "encoding": "external-file",
+      "received_bytes": 94012,
+      "saved_sha256": "3b11e61fde1874f39348b9df2942044568afe47bb2165ace4d10ea752c3f4c98",
+      "original_record_encoding": "utf-8",
+      "content_file": "0003.txt"
+    },
+    "headers": [
+      [
+        "Content-Type",
+        "text/html; charset=UTF-8"
+      ],
+      [
+        "X-Drupal-Dynamic-Cache",
+        "MISS"
+      ],
+      [
+        "Content-Language",
+        "en"
+      ],
+      [
+        "X-Content-Type-Options",
+        "nosniff"
+      ],
+      [
+        "X-Frame-Options",
+        "SAMEORIGIN"
+      ],
+      [
+        "X-Generator",
+        "Drupal 11 (https://www.drupal.org)"
+      ],
+      [
+        "Content-Security-Policy",
+        "report-uri /report-csp-violation; upgrade-insecure-requests"
+      ],
+      [
+        "X-Content-Security-Policy",
+        "report-uri /report-csp-violation; upgrade-insecure-requests"
+      ],
+      [
+        "X-WebKit-CSP",
+        "report-uri /report-csp-violation; upgrade-insecure-requests"
+      ],
+      [
+        "X-XSS-Protection",
+        "1; mode=block"
+      ],
+      [
+        "Referrer-Policy",
+        "no-referrer"
+      ],
+      [
+        "X-Drupal-Cache",
+        "MISS"
+      ],
+      [
+        "Last-Modified",
+        "Fri, 09 Oct 2026 21:05:50 GMT"
+      ],
+      [
+        "ETag",
+        "\"1791579950-gzip\""
+      ],
+      [
+        "X-Request-ID",
+        "v-34c5919c-c425-11f1-9de2-8f7c8a316d2d"
+      ],
+      [
+        "X-AH-Environment",
+        "prod"
+      ],
+      [
+        "X-Cache-Hits",
+        "7"
+      ],
+      [
+        "X-Age",
+        "9137"
+      ],
+      [
+        "Vary",
+        "Accept-Encoding"
+      ],
+      [
+        "Cache-Control",
+        "public, max-age=300"
+      ],
+      [
+        "Expires",
+        "Sat, 10 Oct 2026 06:47:14 GMT"
+      ],
+      [
+        "Date",
+        "Sat, 10 Oct 2026 06:42:14 GMT"
+      ],
+      [
+        "Transfer-Encoding",
+        "chunked"
+      ],
+      [
+        "Connection",
+        "close"
+      ],
+      [
+        "Connection",
+        "Transfer-Encoding"
+      ],
+      [
+        "Strict-Transport-Security",
+        "max-age=15768000"
+      ]
+    ],
+    "http_status": 200
+  },
+  "run_id": "additional-public-documents",
+  "schema_version": "api-exchange-1",
+  "started_at": "2026-10-10T06:42:10.964427+00:00",
+  "state": "response_received"
+}

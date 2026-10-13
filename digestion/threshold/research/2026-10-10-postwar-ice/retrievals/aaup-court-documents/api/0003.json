@@ -1,0 +1,92 @@
+{
+  "finished_at": "2026-10-10T06:44:28.202443+00:00",
+  "record_id": "API-aaup-court-documents-0003",
+  "redaction": {
+    "policy": "Credentials and authentication cookies only; no content-field allowlist.",
+    "replacement_count": 0
+  },
+  "request": {
+    "body": null,
+    "headers": [
+      [
+        "User-agent",
+        "Dis-Unity public research/1.0"
+      ],
+      [
+        "Accept",
+        "application/pdf"
+      ]
+    ],
+    "method": "GET",
+    "url": "https://kfai-documents.s3.amazonaws.com/documents/66bd5dcfd8/judgment.pdf"
+  },
+  "response": {
+    "body": {
+      "complete": true,
+      "encoding": "external-file",
+      "received_bytes": 271950,
+      "saved_sha256": "72e9d21139f9773875b4281351afb3fd8445d29527cd772f93e6441c2dcb3fba",
+      "original_record_encoding": "base64",
+      "content_file": "0003.pdf"
+    },
+    "headers": [
+      [
+        "x-amz-id-2",
+        "juUF3JqVEwCvE36qus/okTUtm9BL/59yeYCf0QwGnmSaj4Tk9x1AmNxTTz+5zx3tTa3xcpcmVHZsSJuVHqpZL/FOUdZHF+bd"
+      ],
+      [
+        "x-amz-request-id",
+        "8YTTFB51T2JAPJWV"
+      ],
+      [
+        "Server",
+        "AmazonS3"
+      ],
+      [
+        "Date",
+        "Sat, 10 Oct 2026 06:44:29 GMT"
+      ],
+      [
+        "Last-Modified",
+        "Fri, 23 Jan 2026 00:39:23 GMT"
+      ],
+      [
+        "ETag",
+        "\"6631c9b2b64ed4baf08667f33486f60b\""
+      ],
+      [
+        "x-amz-server-side-encryption",
+        "AES256"
+      ],
+      [
+        "Content-Disposition",
+        "inline"
+      ],
+      [
+        "x-amz-version-id",
+        "null"
+      ],
+      [
+        "Accept-Ranges",
+        "bytes"
+      ],
+      [
+        "Content-Type",
+        "application/pdf"
+      ],
+      [
+        "Content-Length",
+        "271950"
+      ],
+      [
+        "Connection",
+        "close"
+      ]
+    ],
+    "http_status": 200
+  },
+  "run_id": "aaup-court-documents",
+  "schema_version": "api-exchange-1",
+  "started_at": "2026-10-10T06:44:24.338226+00:00",
+  "state": "response_received"
+}

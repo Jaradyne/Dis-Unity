@@ -1,0 +1,13 @@
+{
+  "cycle_id": "RC-006",
+  "agent": "coordinator",
+  "author": "Work Aiden",
+  "status": "initial_checkpoint",
+  "evidence_cutoff": "2026-10-10",
+  "base_commit": "aaf560dbe71bc03cb07c5937a2b2f4355f61025b",
+  "scope": "Expand military institutional-safeguards timeline from 1945; investigate ICE formation, militarization, personnel pathways, recruitment bonus, electrical gloves, foreign detention/removal and political-speech cases.",
+  "user_request_date": "2026-10-09 America/Los_Angeles",
+  "canonical_admission": false,
+  "plan": ["Three bounded specialist lanes", "Coordinator integration and selected primary checks", "Independent review of material claims", "Reversible research-only publication"],
+  "limits": ["Public lawful nonintrusive material", "No runtime or monitoring activation", "No new external inference", "Earlier research and cycle snapshots preserved"]
+}

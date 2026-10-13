@@ -1,0 +1,296 @@
+{
+  "schema_version": "military-research-events-1",
+  "research_cutoff": "2026-10-10",
+  "status": "staged_for_jared_and_digest",
+  "date_policy": "Observation, publication and retrieval dates remain separate.",
+  "events": [
+    {
+      "event_id": "IR01",
+      "event_date": "2025-03/2025-04",
+      "date_precision": "range",
+      "effective_date": null,
+      "publication_date": "2025-11-12",
+      "retrieved_date_utc": "2026-10-11",
+      "lane": "removals_and_speech",
+      "title": "Venezuelan cohort transferred to CECOT",
+      "implementation_status": "documented transfer history",
+      "source_ids": [
+        "R01"
+      ],
+      "source_families": [
+        "HRW/Cristosal CECOT investigation"
+      ],
+      "previous_state": "Earlier state retained in linked sources",
+      "new_state": "Venezuelan cohort transferred to CECOT",
+      "check_or_counterevidence": "No broader conclusion than the cited record",
+      "uncertainty": "Investigative account; no present-population inference",
+      "continuity_assessment": "dated change or later documentation; not proof of unified causal program",
+      "locator": null,
+      "discovery_status": "retrospective discovery in RC-006"
+    },
+    {
+      "event_id": "IR02",
+      "event_date": "2025-07-18",
+      "date_precision": "day",
+      "effective_date": null,
+      "publication_date": "2025-11-12",
+      "retrieved_date_utc": "2026-10-11",
+      "lane": "removals_and_speech",
+      "title": "CECOT cohort returned to Venezuela",
+      "implementation_status": "documented departure",
+      "source_ids": [
+        "R01"
+      ],
+      "source_families": [
+        "HRW/Cristosal CECOT investigation"
+      ],
+      "previous_state": "Earlier state retained in linked sources",
+      "new_state": "CECOT cohort returned to Venezuela",
+      "check_or_counterevidence": "No broader conclusion than the cited record",
+      "uncertainty": "Return does not settle later safety",
+      "continuity_assessment": "dated change or later documentation; not proof of unified causal program",
+      "locator": null,
+      "discovery_status": "retrospective discovery in RC-006"
+    },
+    {
+      "event_id": "IR03",
+      "event_date": "2025-04-10",
+      "date_precision": "day",
+      "effective_date": null,
+      "publication_date": "2025-04-10",
+      "retrieved_date_utc": "2026-10-10",
+      "lane": "removals_and_speech",
+      "title": "Abrego Garcia Supreme Court intervention",
+      "implementation_status": "court order",
+      "source_ids": [
+        "R11"
+      ],
+      "source_families": [
+        "Abrego Garcia wrongful-removal litigation"
+      ],
+      "previous_state": "Earlier state retained in linked sources",
+      "new_state": "Abrego Garcia Supreme Court intervention",
+      "check_or_counterevidence": "No broader conclusion than the cited record",
+      "uncertainty": "Scope and remedy limited by order",
+      "continuity_assessment": "dated change or later documentation; not proof of unified causal program",
+      "locator": null,
+      "discovery_status": "retrospective discovery in RC-006"
+    },
+    {
+      "event_id": "IR04",
+      "event_date": "2025-06-06",
+      "date_precision": "day",
+      "effective_date": null,
+      "publication_date": "2025-06-06",
+      "retrieved_date_utc": "2026-10-11",
+      "lane": "removals_and_speech",
+      "title": "Abrego Garcia returned to US",
+      "implementation_status": "reported historical return",
+      "source_ids": [
+        "R12"
+      ],
+      "source_families": [
+        "Abrego Garcia June 2025 return"
+      ],
+      "previous_state": "Earlier state retained in linked sources",
+      "new_state": "Abrego Garcia returned to US",
+      "check_or_counterevidence": "No broader conclusion than the cited record",
+      "uncertainty": "Subsequent custody and proceedings are separate",
+      "continuity_assessment": "dated change or later documentation; not proof of unified causal program",
+      "locator": null,
+      "discovery_status": "retrospective discovery in RC-006"
+    },
+    {
+      "event_id": "IR05",
+      "event_date": "2025-09-30",
+      "date_precision": "day",
+      "effective_date": null,
+      "publication_date": "2025-09-30",
+      "retrieved_date_utc": "2026-10-10",
+      "lane": "removals_and_speech",
+      "title": "AAUP trial findings on political speech",
+      "implementation_status": "district-court findings",
+      "source_ids": [
+        "R08"
+      ],
+      "source_families": [
+        "AAUP speech-targeting litigation"
+      ],
+      "previous_state": "Earlier state retained in linked sources",
+      "new_state": "AAUP trial findings on political speech",
+      "check_or_counterevidence": "No broader conclusion than the cited record",
+      "uncertainty": "Appeal and remedy remain distinct",
+      "continuity_assessment": "dated change or later documentation; not proof of unified causal program",
+      "locator": null,
+      "discovery_status": "retrospective discovery in RC-006"
+    },
+    {
+      "event_id": "IR06",
+      "event_date": "2026-01-15",
+      "date_precision": "day",
+      "effective_date": null,
+      "publication_date": "2026-01-15",
+      "retrieved_date_utc": "2026-10-10",
+      "lane": "removals_and_speech",
+      "title": "Khalil jurisdictional appeal ruling",
+      "implementation_status": "appellate decision",
+      "source_ids": [
+        "R05"
+      ],
+      "source_families": [
+        "Khalil habeas/removal litigation"
+      ],
+      "previous_state": "Earlier state retained in linked sources",
+      "new_state": "Khalil jurisdictional appeal ruling",
+      "check_or_counterevidence": "No broader conclusion than the cited record",
+      "uncertainty": "No constitutional-merits ruling",
+      "continuity_assessment": "dated change or later documentation; not proof of unified causal program",
+      "locator": null,
+      "discovery_status": "retrospective discovery in RC-006"
+    },
+    {
+      "event_id": "IR07",
+      "event_date": "2026-01-22",
+      "date_precision": "day",
+      "effective_date": null,
+      "publication_date": "2026-01-22",
+      "retrieved_date_utc": "2026-10-10",
+      "lane": "removals_and_speech",
+      "title": "AAUP judgment entered",
+      "implementation_status": "district-court judgment",
+      "source_ids": [
+        "R09"
+      ],
+      "source_families": [
+        "AAUP speech-targeting litigation"
+      ],
+      "previous_state": "Earlier state retained in linked sources",
+      "new_state": "AAUP judgment entered",
+      "check_or_counterevidence": "No broader conclusion than the cited record",
+      "uncertainty": "Later partial stay in IR08",
+      "continuity_assessment": "dated change or later documentation; not proof of unified causal program",
+      "locator": null,
+      "discovery_status": "retrospective discovery in RC-006"
+    },
+    {
+      "event_id": "IR08",
+      "event_date": "2026-04-07",
+      "date_precision": "day",
+      "effective_date": null,
+      "publication_date": "2026-04-07",
+      "retrieved_date_utc": "2026-10-10",
+      "lane": "removals_and_speech",
+      "title": "AAUP sanction partially stayed",
+      "implementation_status": "appellate interim order",
+      "source_ids": [
+        "R10"
+      ],
+      "source_families": [
+        "AAUP speech-targeting litigation"
+      ],
+      "previous_state": "Earlier state retained in linked sources",
+      "new_state": "AAUP sanction partially stayed",
+      "check_or_counterevidence": "No broader conclusion than the cited record",
+      "uncertainty": "Limited to Part IV; not entire judgment",
+      "continuity_assessment": "dated change or later documentation; not proof of unified causal program",
+      "locator": null,
+      "discovery_status": "retrospective discovery in RC-006"
+    },
+    {
+      "event_id": "IR09",
+      "event_date": "2026-04-17",
+      "date_precision": "day",
+      "effective_date": null,
+      "publication_date": "2026-04-17",
+      "retrieved_date_utc": "2026-10-11",
+      "lane": "removals_and_speech",
+      "title": "Öztürk settlement and return announced",
+      "implementation_status": "counsel announcement",
+      "source_ids": [
+        "R07"
+      ],
+      "source_families": [
+        "Öztürk litigation and settlement"
+      ],
+      "previous_state": "Earlier state retained in linked sources",
+      "new_state": "Öztürk settlement and return announced",
+      "check_or_counterevidence": "No broader conclusion than the cited record",
+      "uncertainty": "Announcement date; exact return day not supplied",
+      "continuity_assessment": "dated change or later documentation; not proof of unified causal program",
+      "locator": null,
+      "discovery_status": "retrospective discovery in RC-006"
+    },
+    {
+      "event_id": "IR10",
+      "event_date": "2026-09-17",
+      "date_precision": "day",
+      "effective_date": null,
+      "publication_date": "2026-09-17",
+      "retrieved_date_utc": "2026-10-10",
+      "lane": "removals_and_speech",
+      "title": "Khalil petition deadline extended",
+      "implementation_status": "extension order",
+      "source_ids": [
+        "R06"
+      ],
+      "source_families": [
+        "Khalil habeas/removal litigation"
+      ],
+      "previous_state": "Earlier state retained in linked sources",
+      "new_state": "Khalil petition deadline extended",
+      "check_or_counterevidence": "No broader conclusion than the cited record",
+      "uncertainty": "No grant of review or custody finding",
+      "continuity_assessment": "dated change or later documentation; not proof of unified causal program",
+      "locator": null,
+      "discovery_status": "retrospective discovery in RC-006"
+    },
+    {
+      "event_id": "IR11",
+      "event_date": "2026-09-29",
+      "date_precision": "day",
+      "effective_date": null,
+      "publication_date": "2026-09-29",
+      "retrieved_date_utc": "2026-10-10",
+      "lane": "removals_and_speech",
+      "title": "D.V.D. judgment stayed; review granted",
+      "implementation_status": "Supreme Court interim order",
+      "source_ids": [
+        "R03"
+      ],
+      "source_families": [
+        "D.V.D. third-country litigation"
+      ],
+      "previous_state": "Earlier state retained in linked sources",
+      "new_state": "D.V.D. judgment stayed; review granted",
+      "check_or_counterevidence": "No broader conclusion than the cited record",
+      "uncertainty": "Merits unresolved; December argument directed",
+      "continuity_assessment": "dated change or later documentation; not proof of unified causal program",
+      "locator": null,
+      "discovery_status": "retrospective discovery in RC-006"
+    },
+    {
+      "event_id": "IR12",
+      "event_date": "2026-10-08",
+      "date_precision": "day",
+      "effective_date": null,
+      "publication_date": "2026-10-08",
+      "retrieved_date_utc": "2026-10-11",
+      "lane": "removals_and_speech",
+      "title": "Africa third-country investigation published",
+      "implementation_status": "research publication",
+      "source_ids": [
+        "R02"
+      ],
+      "source_families": [
+        "HRW 2026 third-country Africa investigation"
+      ],
+      "previous_state": "Earlier state retained in linked sources",
+      "new_state": "Africa third-country investigation published",
+      "check_or_counterevidence": "No broader conclusion than the cited record",
+      "uncertainty": "Underlying observations end earlier; not new removals on publication day",
+      "continuity_assessment": "dated change or later documentation; not proof of unified causal program",
+      "locator": null,
+      "discovery_status": "retrospective discovery in RC-006"
+    }
+  ]
+}

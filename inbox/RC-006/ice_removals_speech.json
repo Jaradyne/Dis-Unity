@@ -1,0 +1,25 @@
+{
+  "agent": "ice_removals_speech",
+  "cycle": "RC-006",
+  "status": "initial_checkpoint",
+  "started_at_utc": "2026-10-10T00:54:07.176307+00:00",
+  "scope": [
+    "CECOT transfers and treatment",
+    "Third-country removals and procedural protection",
+    "Speech-linked student detention cases"
+  ],
+  "evidence_cutoff": "2026-10-10",
+  "tool_budget": 28,
+  "web_calls": 0,
+  "queries": [],
+  "limits": [
+    "Public lawful sources only; no private belief inference",
+    "Built-in web tools expose parsed results rather than complete raw upstream HTTP or billing",
+    "No external provider calls or canonical edits"
+  ],
+  "planned_outputs": [
+    "ICE_REMOVALS_AND_SPEECH.md",
+    "ice_rights_sources.json",
+    "ice_rights_events.json"
+  ]
+}

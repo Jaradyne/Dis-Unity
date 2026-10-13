@@ -1,0 +1,46 @@
+{
+  "agent": "postwar_institutions",
+  "at": "2026-10-11T20:02:15.152864+00:00",
+  "base_hash": "16d04f8bb35a588caca60517f90a11944cfbafac7951402d059a6d6131de97b7",
+  "cycle_id": "RC-006",
+  "payload": {
+    "agent": "postwar_institutions",
+    "consequential_findings": [
+      "Original 1947 law created national-security coordination but expressly separated CIA from police/internal-security authority; July26 enactment confirmed original, one official retrospective has July27 error.",
+      "EO9835 original includes employee hearing, counsel and administrative appeals; do not repeat no-appeal claim from secondary summary.",
+      "1955 military Code of Conduct contains God language, but combat/captivity scope distinct from general promotion loyalty test.",
+      "1971 repeal and 1972 Laird standing rule must be separate: Laird is not a merits endorsement of every surveillance practice."
+    ],
+    "cycle": "RC-006",
+    "limitations": [
+      "Specialist research not canonical admission.",
+      "Search/open provides parsed platform excerpts, not raw upstream HTTP receipts."
+    ],
+    "next_step": "Verify legislative implementation clauses and remaining 1980–2003 originals; write24-or-fewermilestones.",
+    "planned_outputs": [
+      "POSTWAR_FOUNDATIONS.md",
+      "history_sources.json",
+      "history_events.json"
+    ],
+    "queries": [],
+    "reference_ids": [
+      "turn70view2",
+      "turn70view3",
+      "turn70view4",
+      "turn75view0",
+      "turn75view1",
+      "turn75view4",
+      "turn75view5",
+      "turn75view6",
+      "turn75view7",
+      "turn75view8"
+    ],
+    "research_cutoff": "2026-10-10",
+    "scope": "Bounded postwar institutional history 1945–2003 linking national-security architecture, conscience safeguards, domestic enforcement and immigration; no claim of linear causal destiny.",
+    "state": "research_in_progress",
+    "web_call_count": 11
+  },
+  "payload_hash": "f8cd97cd921b6a0ba3e74d2c91472d741a1fa0120140861a7dcea7e42846bd22",
+  "phase": "checkpoint",
+  "submission_id": "0d54837a2a1a14179931c3a7607365dc6ed06ff33aad3c147676b712baca5bfa"
+}

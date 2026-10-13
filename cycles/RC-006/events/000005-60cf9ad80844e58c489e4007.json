@@ -1,0 +1,15 @@
+{
+  "at": "2026-10-11T20:02:15.018455+00:00",
+  "cycle_id": "RC-006",
+  "event_id": "60cf9ad80844e58c489e4007",
+  "event_type": "agent_submission",
+  "hash": "62a6d8ce49bf6965988681e9306015193a570f6deb4be1818a92ccfd535cffc6",
+  "payload": {
+    "agent": "ice_personnel_equipment",
+    "payload_hash": "207172ee23f3d8807fd71424c5ec7820e5289a202ffc3c82d6b6bbc6008ba6d2",
+    "phase": "checkpoint",
+    "submission_id": "86ab8f60897f66778439ec159f04e02f1328bd78604737f01c41f1581990542a"
+  },
+  "previous_hash": "f779ca8e47ebfdfbebb7587395051f6d5f546982b5718584f37ee7e26273fc8a",
+  "sequence": 5
+}

@@ -1,0 +1,269 @@
+{
+  "research_cutoff": "2026-10-10",
+  "author": "ice_operations_recovery",
+  "sources": [
+    {
+      "source_id": "I01",
+      "title": "Through SkillBridge, DOD provides boost to Southern Border mission",
+      "url": "https://www.army.mil/article/286600",
+      "publication_date": "2025-06-25",
+      "retrieved_date_utc": "2026-10-10",
+      "locator": "May28 memo discussion and transition-program explanation",
+      "access_level": "Official full article read; linked original memo fetch failed",
+      "source_family": "May2025 SkillBridge priority",
+      "short_claim": "New preference for existing ICE/CBP placements.",
+      "limitations": "Article date differs from directive date. No placement totals or current hiring outcomes.",
+      "tool_refs": [
+        "turn97view0"
+      ],
+      "event_date": "2025-05-28"
+    },
+    {
+      "source_id": "I02",
+      "title": "Strengthen Our Southern Border: CBP and ICE SkillBridge Career Opportunities",
+      "url": "https://skillbridge.mil/static/docs/DOW_SB_Southern_Border_Brochure.pdf",
+      "publication_date": null,
+      "retrieved_date_utc": "2026-10-10",
+      "locator": "Both pages",
+      "access_level": "Official PDF text read",
+      "source_family": "SkillBridge recruitment implementation",
+      "short_claim": "Nationwide civilian-role training opportunities with command approval.",
+      "limitations": "Undated present brochure; terminology must not be backdated to memo date.",
+      "tool_refs": [
+        "turn118view2",
+        "turn121view2"
+      ]
+    },
+    {
+      "source_id": "I03",
+      "title": "Federal Jobs for Veterans with U.S. Immigration and Customs Enforcement",
+      "url": "https://www.ice.gov/careers/veterans",
+      "publication_date": null,
+      "retrieved_date_utc": "2026-10-10",
+      "locator": "Official indexed workforce statement",
+      "access_level": "Official indexed excerpt; full fetch internal error",
+      "source_family": "ICE veteran recruitment claim",
+      "short_claim": "Agency says about one-third of workforce are veterans.",
+      "limitations": "Underlying census date and scope unknown; not verified October2026 percentage. Index displayed July8 2026, not established publication date.",
+      "tool_refs": [
+        "turn99search8",
+        "turn103view1"
+      ],
+      "indexed_date_label": "2026-07-08"
+    },
+    {
+      "source_id": "I04",
+      "title": "ICE justification for other than full and open competition: GLOVE",
+      "url": "https://assets1.cbsnewsstatic.com/hub/cms/prod_cms_alt/file/2026/08/27/98a184b9-cebe-4a1e-8217-768f1f42e242/1.4.1-far_6.3_glove-rev_4_r_redacted.pdf",
+      "publication_date": null,
+      "retrieved_date_utc": "2026-10-10",
+      "locator": "PDFpp2–6; quantity, total, requirements, market research",
+      "access_level": "Government acquisition document on news-host mirror; PDF text read; coordinator retained full received copy",
+      "source_family": "ICE2026 electrical-glove acquisition",
+      "short_claim": "6000units, $16,700,640 including support; active/passive-resistance rationale.",
+      "limitations": "Justification is not independent safety testing, receipt or deployment proof. Signature pages were not visually verified by this worker.",
+      "tool_refs": [
+        "turn97view1"
+      ],
+      "observation_period": "Market research: mid-June through July2026; publicly reported August2026",
+      "local_materials": [
+        "../../digestion/threshold/research/2026-10-10-postwar-ice/retrievals/additional-public-documents/api/0001.pdf"
+      ],
+      "sha256": "8947e7eef60be02877325e89ae60340fe6082ac6c9c34faed102933a39bc871e",
+      "capture_attribution": "Coordinator reported retained bytes via api_records; worker did not make direct HTTP retrieval"
+    },
+    {
+      "source_id": "I05",
+      "title": "Public Law119-21, §100052: ICE appropriation and incentives",
+      "url": "https://www.govinfo.gov/content/pkg/PLAW-119publ21/pdf/PLAW-119publ21.pdf",
+      "publication_date": "2025-07-04",
+      "retrieved_date_utc": "2026-10-10",
+      "locator": "§100052(2), PDFp318; printed139Stat388",
+      "access_level": "Enacted government PDF text read",
+      "source_family": "2025 reconciliation law",
+      "short_claim": "Separate discretionary bonuses; signing requires five years and written terms.",
+      "limitations": "No universal$50000 award or immediate payment schedule specified; individual agreements not obtained.",
+      "tool_refs": [
+        "turn97view2",
+        "turn103view2"
+      ]
+    },
+    {
+      "source_id": "I06",
+      "title": "DHS launches Defend the Homeland nationwide recruitment campaign",
+      "url": "https://www.dhs.gov/news/2025/07/29/dhs-launches-defend-homeland-nationwide-recruit-patriots-join-ice-law-enforcement",
+      "publication_date": "2025-07-29",
+      "retrieved_date_utc": "2026-10-10",
+      "locator": "Recruiting incentives",
+      "access_level": "Official indexed excerpt; full fetch internal error",
+      "source_family": "DHSJuly2025 recruitment advertising",
+      "short_claim": "Advertises maximum$50000 signing bonus.",
+      "limitations": "Advertising does not establish an individual entitlement or payment.",
+      "tool_refs": [
+        "turn106search6",
+        "turn109view2"
+      ]
+    },
+    {
+      "source_id": "I07",
+      "title": "ICE recruits former federal workers to join its ranks amid hiring spree",
+      "url": "https://www.opb.org/article/2025/08/01/retired-federal-workers-get-ice-recruitment-emails/",
+      "publication_date": "2025-08-01",
+      "retrieved_date_utc": "2026-10-10",
+      "locator": "Bonuses spread out over three years",
+      "access_level": "NPR reporting syndicated by OPB; full relevant text read",
+      "source_family": "NPR August2025 returnee recruitment reporting",
+      "short_claim": "Describes returnee offer with initial, deadline-dependent and annual installments.",
+      "limitations": "One cohort/program; underlying primary ICE returnee page inaccessible. Not a payroll audit or all-new-hire rule.",
+      "tool_refs": [
+        "turn121view0",
+        "turn124view2"
+      ]
+    },
+    {
+      "source_id": "I08",
+      "title": "Fact Check: Are ICE agents not receiving their pay or sign-up bonuses?",
+      "url": "https://news.meaww.com/fact-check-are-ice-agents-not-receiving-their-pay-or-sign-up-bonuses",
+      "publication_date": "2026-02-15",
+      "retrieved_date_utc": "2026-10-10",
+      "locator": "Claim origins and verification limits",
+      "access_level": "Secondary fact-check read; lead tracing only",
+      "source_family": "EarlyFebruary2026 online bonus complaints",
+      "short_claim": "Similar allegation circulated via posts and forum screenshots; nonpayment unverified.",
+      "limitations": "Not strong independent payroll evidence. Returnee-only implication not adopted; broader official offer and statute take precedence.",
+      "tool_refs": [
+        "turn118view0"
+      ],
+      "event_date": "2026-02",
+      "claim_status": "unverified allegation; not accepted as payment-failure evidence"
+    },
+    {
+      "source_id": "I09",
+      "title": "GAO-20-710: Federal Tactical Teams—Characteristics, Training, Deployments, and Inventory",
+      "url": "https://www.gao.gov/pdf/product/709297",
+      "publication_date": "2020-09-10",
+      "retrieved_date_utc": "2026-10-10",
+      "locator": "Printedpp7–8,20–21,30–33; component profiles and transfer table",
+      "access_level": "Primary government audit; relevant PDF text and tables read",
+      "source_family": "GAO2020 tactical-teams baseline",
+      "short_claim": "Distinct ICE/CBP tactical components and historical military-equipment transfers.",
+      "limitations": "Historical agency-reported information; not2026 staffing, equipment availability or deployment assessment.",
+      "tool_refs": [
+        "turn106view2",
+        "turn109view4",
+        "turn127view2"
+      ],
+      "observation_period": "Main deployment dataFY2015–FY2019; component staffing generallyJanuary2020"
+    },
+    {
+      "source_id": "I10",
+      "title": "ICE records regarding enforcement tactics and the use of G.L.O.V.E.",
+      "url": "https://americanoversight.org/featureddocument/ice-records-regarding-enforcement-tactics-and-the-use-of-g-l-o-v-e/",
+      "publication_date": "2026-08-14",
+      "retrieved_date_utc": "2026-10-10",
+      "locator": "Description and linked original disclosure",
+      "access_level": "FOIA-recipient document index read; original viewer403",
+      "source_family": "2024 GLOVE limited-user assessment and ICE disclosure",
+      "short_claim": "Index identifies an assessment among records obtained from ICE.",
+      "limitations": "Displayed index date may precede later additions; original public availability of each attachment is unresolved. No independent full-assessment read.",
+      "tool_refs": [
+        "turn109view0",
+        "turn115view0"
+      ],
+      "document_urls": [
+        "https://embed.documentcloud.org/documents/28727880-ice-records-regarding-enforcement-tactics-and-the-use-of-glove/?embed=1&embed=1&fullscreen=1&onlyshoworg=0&pdf=0"
+      ]
+    },
+    {
+      "source_id": "I11",
+      "title": "ICE records reveal military report showing shock gloves force compliance through pain, did not evaluate safety",
+      "url": "https://americanoversight.org/press-release/ice-records-reveal-military-report-showing-shock-gloves-force-compliance-through-pain-did-not-evaluate-safety/",
+      "publication_date": "2026-10-06",
+      "retrieved_date_utc": "2026-10-10",
+      "locator": "Indexed assessment description and methodological limits",
+      "access_level": "FOIA-recipient primary account; indexed text read; open extraction only metadata",
+      "source_family": "2024 GLOVE limited-user assessment and ICE disclosure",
+      "short_claim": "Describes operationally favorable but technically and statistically limited trial.",
+      "limitations": "Assessment original inaccessible; recipient is an advocacy organization. Independent technical/safety audit not performed.",
+      "tool_refs": [
+        "turn106view0",
+        "turn115search1",
+        "turn121search0"
+      ],
+      "event_date": "2024-10-21/2024-10-23",
+      "document_date": "2024-12-12"
+    },
+    {
+      "source_id": "I12",
+      "title": "Army study found shock gloves purchased by ICE cause pain, compliance and fear",
+      "url": "https://apnews.com/article/bf8e1ebf64eb6b7d79bed921cdb52676",
+      "publication_date": "2026-10-06",
+      "retrieved_date_utc": "2026-10-10",
+      "locator": "Study findings in indexed AP report",
+      "access_level": "AP indexed report; direct full open unavailable in predecessor/recovery context",
+      "source_family": "2024 GLOVE limited-user assessment and ICE disclosure",
+      "short_claim": "Reports pain and rapid compliance in role-playing exercise.",
+      "limitations": "Same assessment as I10–I11, not independent replication; syndications useOctober7.",
+      "tool_refs": [
+        "turn99news24",
+        "turn115news35"
+      ],
+      "date_note": "AP indexed timestampOctober6 16:50:29UTC; preserve syndication-date distinction",
+      "summary_word_limit": 100
+    },
+    {
+      "source_id": "I13",
+      "title": "Cortez Masto and colleagues letter to ICE concerning electrical gloves",
+      "url": "https://www.cortezmasto.senate.gov/wp-content/uploads/2026/08/Cortez-Masto-Letter-to-ICE-re-Electric-Shock-Gloves-8.27.26.pdf",
+      "publication_date": "2026-08-27",
+      "retrieved_date_utc": "2026-10-10",
+      "locator": "Six-page letter; safety, training and accountability requests",
+      "access_level": "Primary congressional letter PDF read; corresponding release read",
+      "source_family": "August2026 Senate glove oversight inquiry",
+      "short_claim": "Seeks cancellation or safeguards and supporting records.",
+      "limitations": "Lawmakers’ criticisms are attributed positions; letter is not a court finding or a halt order. Full agency response not obtained.",
+      "tool_refs": [
+        "turn118view1",
+        "turn124view3",
+        "turn127view1"
+      ],
+      "related_urls": [
+        "https://www.cortezmasto.senate.gov/news/press-releases/cortez-masto-colleagues-oppose-ice-rollout-of-electric-shock-gloves/"
+      ]
+    },
+    {
+      "source_id": "I14",
+      "title": "Electric shock gloves deemed too painful by US Army are being rolled out by ICE",
+      "url": "https://www.the-independent.com/news/world/americas/us-politics/ice-electric-shock-gloves-us-army-study-b3063132.html",
+      "publication_date": "2026-10-07",
+      "retrieved_date_utc": "2026-10-10",
+      "locator": "Headline and body paragraphs on study/deployment",
+      "access_level": "Secondary article body read to examine initiating claim",
+      "source_family": "2024 GLOVE limited-user assessment and ICE disclosure",
+      "short_claim": "Headline implies military disapproval more strongly than documented body.",
+      "limitations": "No rejection directive identified; study discussion relies on same disclosed report/AP. Not evidence of a military ban.",
+      "tool_refs": [
+        "turn121view1",
+        "turn124view0",
+        "turn127view0"
+      ]
+    },
+    {
+      "source_id": "I15",
+      "title": "ICE awards$16.7M contract to buy6000 pairs of gloves that deliver electric shocks",
+      "url": "https://apnews.com/article/680c6f8a96736f46529287178c57b44b",
+      "publication_date": "2026-08-27",
+      "retrieved_date_utc": "2026-10-10",
+      "locator": "Indexed notice/award report",
+      "access_level": "AP indexed report; direct open internal error",
+      "source_family": "ICE2026 electrical-glove acquisition",
+      "short_claim": "Reports award notice onAugust27.",
+      "limitations": "Notice/report date is not independently verified signing date. No receipt, issuance or field-use audit.",
+      "tool_refs": [
+        "turn115news38",
+        "turn118view3"
+      ],
+      "summary_word_limit": 100
+    }
+  ]
+}

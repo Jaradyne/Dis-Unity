@@ -1,0 +1,106 @@
+{
+  "research_cutoff": "2026-10-10",
+  "retrieved_date_utc": "2026-10-11",
+  "author": "ice_operations_recovery",
+  "events": [
+    {
+      "event_id": "IC01",
+      "event_date": "2025-07-04",
+      "publication_date": "2025-07-04",
+      "retrieved_date_utc": "2026-10-11",
+      "title": "Multiyear funding enacted",
+      "source_ids": [
+        "C03"
+      ],
+      "claim": "Detention/enforcement appropriations added.",
+      "limitations": "Not annual expenditure.",
+      "discovery": "Late discovery",
+      "status": "documented"
+    },
+    {
+      "event_id": "IC02",
+      "event_date": "2025-08",
+      "publication_date": "2026-06-09",
+      "retrieved_date_utc": "2026-10-11",
+      "title": "Camp East Montana opens",
+      "source_ids": [
+        "C01"
+      ],
+      "claim": "Army-supported ICE facility opens.",
+      "limitations": "Later audit identifies failures.",
+      "discovery": "Late discovery",
+      "status": "documented"
+    },
+    {
+      "event_id": "IC03",
+      "event_date": "2025-10",
+      "publication_date": "2026-06-09",
+      "retrieved_date_utc": "2026-10-11",
+      "title": "Contract administration transfers",
+      "source_ids": [
+        "C01"
+      ],
+      "claim": "ICE assumes administration from Army.",
+      "limitations": "Does not erase earlier responsibility.",
+      "discovery": "Late discovery",
+      "status": "documented"
+    },
+    {
+      "event_id": "IC04",
+      "event_date": "2026-05",
+      "publication_date": "2025-05-21",
+      "retrieved_date_utc": "2026-10-11",
+      "title": "Ombudsman-status disagreement recorded",
+      "source_ids": [
+        "C05"
+      ],
+      "claim": "DHS and GAO disagree over continuing statutory role.",
+      "limitations": "Status-update month, not judgment date.",
+      "discovery": "Late discovery",
+      "status": "documented",
+      "source_update_period": "2026-05"
+    },
+    {
+      "event_id": "IC05",
+      "event_date": "2026-06-10",
+      "publication_date": "2026-06-10",
+      "retrieved_date_utc": "2026-10-11",
+      "title": "Further purpose-separated funding enacted",
+      "source_ids": [
+        "C04"
+      ],
+      "claim": "Enforcement and other HSI allocations added.",
+      "limitations": "Different legal purposes retained.",
+      "discovery": "Late discovery",
+      "status": "documented"
+    },
+    {
+      "event_id": "IC06",
+      "event_date": "2026-07-23/2026-07-30",
+      "publication_date": "2026-09-24",
+      "retrieved_date_utc": "2026-10-11",
+      "title": "Expansion snapshot",
+      "source_ids": [
+        "C02"
+      ],
+      "claim": "Authorized-site and population measures have separate July endpoints.",
+      "limitations": "Neither is current available-bed count.",
+      "discovery": "Late discovery",
+      "status": "documented"
+    },
+    {
+      "event_id": "IC07",
+      "event_date": "2026-09-24",
+      "publication_date": "2026-09-24",
+      "retrieved_date_utc": "2026-10-11",
+      "title": "GAO expansion audit published",
+      "source_ids": [
+        "C02"
+      ],
+      "claim": "Unused construction and incomplete planning documented.",
+      "limitations": "Earlier observations; August2027 plan remains prospective.",
+      "discovery": "Late discovery",
+      "status": "documented"
+    }
+  ]
+}

@@ -1,0 +1,305 @@
+{
+  "schema_version": "military-research-events-1",
+  "research_cutoff": "2026-10-10",
+  "status": "staged_for_jared_and_digest",
+  "date_policy": "Event, enactment, effectiveness, report publication and retrieval are separate. Historical discoveries are not new events.",
+  "events": [
+    {
+      "event_id": "DH01",
+      "event_date": "2002-11-25",
+      "date_precision": "day",
+      "effective_date": null,
+      "publication_date": "2002-11-25",
+      "retrieved_date_utc": "2026-10-11",
+      "lane": "dhs_institutions",
+      "title": "Homeland Security Act creates department",
+      "implementation_status": "Historical enacted, directed, deployed or reported milestone as explicitly distinguished",
+      "source_ids": [
+        "D20"
+      ],
+      "source_families": [
+        "Homeland Security Act 2002"
+      ],
+      "previous_state": "See adjacent milestones; not a claim that predecessor functions were absent",
+      "new_state": "Creates DHS and separates legacy immigration functions.",
+      "check_or_counterevidence": "Statutory privacy and civil-rights offices; organizational limits matter.",
+      "uncertainty": "Enactment is not the date all transfers finished.",
+      "continuity_assessment": "Specific coordination or capacity mechanism; not an inevitable causal chain",
+      "locator": "See source catalog locators",
+      "discovery_status": "Retrospective intake; not a newly occurring October 2026 event"
+    },
+    {
+      "event_id": "DH02",
+      "event_date": "2003-03-01",
+      "date_precision": "day",
+      "effective_date": "2003-03-01",
+      "publication_date": "2004-03-02",
+      "retrieved_date_utc": "2026-10-11",
+      "lane": "dhs_institutions",
+      "title": "Organizational merger takes effect",
+      "implementation_status": "Historical enacted, directed, deployed or reported milestone as explicitly distinguished",
+      "source_ids": [
+        "D01",
+        "D02",
+        "D03",
+        "D04"
+      ],
+      "source_families": [
+        "DHS organizational history",
+        "DHS organization",
+        "DOJ EOIR",
+        "Coast Guard statutory status"
+      ],
+      "previous_state": "See adjacent milestones; not a claim that predecessor functions were absent",
+      "new_state": "Personnel from 22 predecessor organizations join DHS.",
+      "check_or_counterevidence": "EOIR stays in DOJ; Coast Guard retains military status.",
+      "uncertainty": "A Cabinet umbrella does not give every component identical authorities.",
+      "continuity_assessment": "Specific coordination or capacity mechanism; not an inevitable causal chain",
+      "locator": "See source catalog locators",
+      "discovery_status": "Retrospective intake; not a newly occurring October 2026 event"
+    },
+    {
+      "event_id": "DH03",
+      "event_date": "2004-01-05",
+      "date_precision": "day",
+      "effective_date": "2004-01-05",
+      "publication_date": "2004-05",
+      "retrieved_date_utc": "2026-10-11",
+      "lane": "dhs_institutions",
+      "title": "US-VISIT initial biometric deployment",
+      "implementation_status": "Historical enacted, directed, deployed or reported milestone as explicitly distinguished",
+      "source_ids": [
+        "D05"
+      ],
+      "source_families": [
+        "US-VISIT oversight"
+      ],
+      "previous_state": "See adjacent milestones; not a claim that predecessor functions were absent",
+      "new_state": "Initial port-of-entry biometric capability becomes operational.",
+      "check_or_counterevidence": "GAO identifies planning, testing and implementation gaps.",
+      "uncertainty": "Exit capability is incomplete; no net security-benefit estimate adopted.",
+      "continuity_assessment": "Specific coordination or capacity mechanism; not an inevitable causal chain",
+      "locator": "See source catalog locators",
+      "discovery_status": "Retrospective intake; not a newly occurring October 2026 event"
+    },
+    {
+      "event_id": "DH04",
+      "event_date": "2007-08-03",
+      "date_precision": "day",
+      "effective_date": null,
+      "publication_date": "2007-08-03",
+      "retrieved_date_utc": "2026-10-11",
+      "lane": "dhs_institutions",
+      "title": "DHS fusion-center initiative legislated",
+      "implementation_status": "Historical enacted, directed, deployed or reported milestone as explicitly distinguished",
+      "source_ids": [
+        "D06"
+      ],
+      "source_families": [
+        "DHS fusion-center authority"
+      ],
+      "previous_state": "See adjacent milestones; not a claim that predecessor functions were absent",
+      "new_state": "Formalizes a federal initiative supporting state, local and regional intelligence coordination.",
+      "check_or_counterevidence": "Distinct local ownership and missions remain.",
+      "uncertainty": "Authority is not proof of uniform implementation or benefit.",
+      "continuity_assessment": "Specific coordination or capacity mechanism; not an inevitable causal chain",
+      "locator": "See source catalog locators",
+      "discovery_status": "Retrospective intake; not a newly occurring October 2026 event"
+    },
+    {
+      "event_id": "DH05",
+      "event_date": "2008",
+      "date_precision": "year",
+      "effective_date": null,
+      "publication_date": "2012-07",
+      "retrieved_date_utc": "2026-10-11",
+      "lane": "dhs_institutions",
+      "title": "Secure Communities links booking checks and immigration systems",
+      "implementation_status": "Historical enacted, directed, deployed or reported milestone as explicitly distinguished",
+      "source_ids": [
+        "D08"
+      ],
+      "source_families": [
+        "Secure Communities oversight"
+      ],
+      "previous_state": "See adjacent milestones; not a claim that predecessor functions were absent",
+      "new_state": "Local fingerprint submissions through FBI can trigger DHS checks and ICE review.",
+      "check_or_counterevidence": "GAO documents incomplete data and removals without known convictions.",
+      "uncertainty": "Start is verified to year; October is the beginning of the reviewed removal series.",
+      "continuity_assessment": "Specific coordination or capacity mechanism; not an inevitable causal chain",
+      "locator": "See source catalog locators",
+      "discovery_status": "Retrospective intake; not a newly occurring October 2026 event"
+    },
+    {
+      "event_id": "DH06",
+      "event_date": "2012-10-03",
+      "date_precision": "day",
+      "effective_date": null,
+      "publication_date": "2012-10-03",
+      "retrieved_date_utc": "2026-10-11",
+      "lane": "dhs_institutions",
+      "title": "Senate challenges fusion-center reporting and safeguards",
+      "implementation_status": "Historical enacted, directed, deployed or reported milestone as explicitly distinguished",
+      "source_ids": [
+        "D07"
+      ],
+      "source_families": [
+        "Senate fusion-center oversight"
+      ],
+      "previous_state": "See adjacent milestones; not a claim that predecessor functions were absent",
+      "new_state": "Oversight report identifies weak federal counterterrorism reporting and privacy concerns.",
+      "check_or_counterevidence": "Privacy review blocked some reports; local benefits are not ruled out.",
+      "uncertainty": "Investigated reporting window and federal purpose limit generalization.",
+      "continuity_assessment": "Specific coordination or capacity mechanism; not an inevitable causal chain",
+      "locator": "See source catalog locators",
+      "discovery_status": "Retrospective intake; not a newly occurring October 2026 event"
+    },
+    {
+      "event_id": "DH07",
+      "event_date": "2014-11-20",
+      "date_precision": "day",
+      "effective_date": null,
+      "publication_date": "2014-11-20",
+      "retrieved_date_utc": "2026-10-11",
+      "lane": "dhs_institutions",
+      "title": "Secure Communities replaced by Priority Enforcement Program",
+      "implementation_status": "Historical enacted, directed, deployed or reported milestone as explicitly distinguished",
+      "source_ids": [
+        "D09"
+      ],
+      "source_families": [
+        "DHS Secure Communities policy"
+      ],
+      "previous_state": "See adjacent milestones; not a claim that predecessor functions were absent",
+      "new_state": "DHS directs a new enforcement-priority framework.",
+      "check_or_counterevidence": "Fingerprint-sharing infrastructure remains.",
+      "uncertainty": "Directive alone does not establish uniform implementation.",
+      "continuity_assessment": "Specific coordination or capacity mechanism; not an inevitable causal chain",
+      "locator": "See source catalog locators",
+      "discovery_status": "Retrospective intake; not a newly occurring October 2026 event"
+    },
+    {
+      "event_id": "DH08",
+      "event_date": "2017-01-25",
+      "date_precision": "day",
+      "effective_date": null,
+      "publication_date": "2017-01-25",
+      "retrieved_date_utc": "2026-10-11",
+      "lane": "dhs_institutions",
+      "title": "Executive order restores Secure Communities",
+      "implementation_status": "Historical enacted, directed, deployed or reported milestone as explicitly distinguished",
+      "source_ids": [
+        "D10"
+      ],
+      "source_families": [
+        "2017 immigration executive policy"
+      ],
+      "previous_state": "See adjacent milestones; not a claim that predecessor functions were absent",
+      "new_state": "EO 13768 §10 directs PEP termination and program restoration.",
+      "check_or_counterevidence": "A visible policy reversal shows executive choices matter.",
+      "uncertainty": "No assertion that this order remains uninterrupted current policy.",
+      "continuity_assessment": "Specific coordination or capacity mechanism; not an inevitable causal chain",
+      "locator": "See source catalog locators",
+      "discovery_status": "Retrospective intake; not a newly occurring October 2026 event"
+    },
+    {
+      "event_id": "DH09",
+      "event_date": "2018-11-16",
+      "date_precision": "day",
+      "effective_date": null,
+      "publication_date": "2018-11-16",
+      "retrieved_date_utc": "2026-10-11",
+      "lane": "dhs_institutions",
+      "title": "CISA established within DHS",
+      "implementation_status": "Historical enacted, directed, deployed or reported milestone as explicitly distinguished",
+      "source_ids": [
+        "D15"
+      ],
+      "source_families": [
+        "CISA statutory organization"
+      ],
+      "previous_state": "See adjacent milestones; not a claim that predecessor functions were absent",
+      "new_state": "Reorganizes cybersecurity and infrastructure responsibilities under CISA.",
+      "check_or_counterevidence": "Demonstrates DHS functions beyond immigration enforcement.",
+      "uncertainty": "Institutional authority is distinct from funding and usable capability.",
+      "continuity_assessment": "Specific coordination or capacity mechanism; not an inevitable causal chain",
+      "locator": "See source catalog locators",
+      "discovery_status": "Retrospective intake; not a newly occurring October 2026 event"
+    },
+    {
+      "event_id": "DH10",
+      "event_date": "2020-06-04",
+      "date_precision": "day",
+      "effective_date": null,
+      "publication_date": "2021-04-16",
+      "retrieved_date_utc": "2026-10-11",
+      "lane": "dhs_institutions",
+      "title": "Cross-component deployment assists FPS in Portland",
+      "implementation_status": "Historical enacted, directed, deployed or reported milestone as explicitly distinguished",
+      "source_ids": [
+        "D11"
+      ],
+      "source_families": [
+        "Portland DHS cross-component oversight"
+      ],
+      "previous_state": "See adjacent milestones; not a claim that predecessor functions were absent",
+      "new_state": "Additional DHS component officers assist federal-property protection.",
+      "check_or_counterevidence": "OIG later finds authority, planning/training deficiencies and compliant reviewed uniform markings.",
+      "uncertainty": "Not an adjudication of every encounter; OIG report issued April 16, 2021.",
+      "continuity_assessment": "Specific coordination or capacity mechanism; not an inevitable causal chain",
+      "locator": "See source catalog locators",
+      "discovery_status": "Retrospective intake; not a newly occurring October 2026 event"
+    },
+    {
+      "event_id": "DH11",
+      "event_date": "2025-07-04",
+      "date_precision": "day",
+      "effective_date": null,
+      "publication_date": "2025-07-04",
+      "retrieved_date_utc": "2026-10-11",
+      "lane": "dhs_institutions",
+      "title": "Large detention and border capacity appropriations",
+      "implementation_status": "Historical enacted, directed, deployed or reported milestone as explicitly distinguished",
+      "source_ids": [
+        "D12"
+      ],
+      "source_families": [
+        "2025 DHS capacity funding"
+      ],
+      "previous_state": "See adjacent milestones; not a claim that predecessor functions were absent",
+      "new_state": "Law provides ICE detention capacity and CBP resources.",
+      "check_or_counterevidence": "Appropriated detention funding is available through September 30, 2029.",
+      "uncertainty": "Not evidence all funds were spent, facilities completed or beds occupied.",
+      "continuity_assessment": "Specific coordination or capacity mechanism; not an inevitable causal chain",
+      "locator": "See source catalog locators",
+      "discovery_status": "Retrospective intake; not a newly occurring October 2026 event"
+    },
+    {
+      "event_id": "DH12",
+      "event_date": "2025-09-08",
+      "date_precision": "day",
+      "effective_date": null,
+      "publication_date": "2025-09-08",
+      "retrieved_date_utc": "2026-10-11",
+      "lane": "dhs_institutions",
+      "title": "DHS announces Operation Midway Blitz",
+      "implementation_status": "Historical enacted, directed, deployed or reported milestone as explicitly distinguished",
+      "source_ids": [
+        "D13",
+        "D14",
+        "D19"
+      ],
+      "source_families": [
+        "DHS Midway Blitz communications",
+        "CPOST Midway Blitz research"
+      ],
+      "previous_state": "See adjacent milestones; not a claim that predecessor functions were absent",
+      "new_state": "DHS launches a Chicago-area operation and later describes ICE/CBP participation.",
+      "check_or_counterevidence": "Independent scholarship offers a critical interpretation, distinct from proven intent.",
+      "uncertainty": "Agency details were indexed only; this lane does not independently validate arrest totals or every deployment.",
+      "continuity_assessment": "Specific coordination or capacity mechanism; not an inevitable causal chain",
+      "locator": "See source catalog locators",
+      "discovery_status": "Retrospective intake; not a newly occurring October 2026 event"
+    }
+  ]
+}

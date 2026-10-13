@@ -1,0 +1,571 @@
+{
+  "schema_version": "military-research-events-1",
+  "research_cutoff": "2026-10-10",
+  "status": "staged_for_jared_and_digest",
+  "date_policy": "Event dates differ from publication/retrieval. Year/range precision retained. Enactment is not presumed immediate implementation.",
+  "events": [
+    {
+      "event_id": "PH01",
+      "event_date": "1945",
+      "date_precision": "year",
+      "effective_date": null,
+      "publication_date": null,
+      "retrieved_date_utc": "2026-10-10",
+      "lane": "accountability",
+      "title": "Postwar accountability and rights baseline",
+      "implementation_status": "historical enacted/issued/reported milestone; scope as described",
+      "source_ids": [
+        "H01",
+        "H02",
+        "H03"
+      ],
+      "source_families": [
+        "UN Charter",
+        "Nuremberg IMT Charter",
+        "NARA Nuremberg record guide"
+      ],
+      "previous_state": "Earlier institutional arrangements; see adjacent milestones",
+      "new_state": "UN Charter articulates equal rights; Nuremberg charter rejects official-position or superior-order immunity. Major trial opensNovember20.",
+      "check_or_counterevidence": "Institutions assert constraints on state power.",
+      "uncertainty": "Unequal application and enforcement effectiveness not audited.",
+      "continuity_assessment": "historical baseline; not a proven linear causal chain",
+      "locator": "See linked source catalog locators",
+      "discovery_status": "Late discovery: retrospective intake, not a new2026event"
+    },
+    {
+      "event_id": "PH02",
+      "event_date": "1947-03-21",
+      "date_precision": "day",
+      "effective_date": "1947-03-21",
+      "publication_date": "1947-03-21",
+      "retrieved_date_utc": "2026-10-10",
+      "lane": "personnel",
+      "title": "Federal loyalty screening",
+      "implementation_status": "historical enacted/issued/reported milestone; scope as described",
+      "source_ids": [
+        "H04"
+      ],
+      "source_families": [
+        "EO9835"
+      ],
+      "previous_state": "Earlier institutional arrangements; see adjacent milestones",
+      "new_state": "EO9835 links civilian employment to loyalty review and cross-agency information.",
+      "check_or_counterevidence": "Notice, counsel, hearing and internal appeals coexist with secrecy and suspension.",
+      "uncertainty": "Formal process does not measure practical fairness.",
+      "continuity_assessment": "historical baseline; not a proven linear causal chain",
+      "locator": "See linked source catalog locators",
+      "discovery_status": "Late discovery: retrospective intake, not a new2026event"
+    },
+    {
+      "event_id": "PH03",
+      "event_date": "1947-07-26",
+      "date_precision": "day",
+      "effective_date": null,
+      "publication_date": "1947-07-26",
+      "retrieved_date_utc": "2026-10-10",
+      "lane": "governance",
+      "title": "National-security architecture",
+      "implementation_status": "historical enacted/issued/reported milestone; scope as described",
+      "source_ids": [
+        "H05"
+      ],
+      "source_families": [
+        "National Security Act 1947"
+      ],
+      "previous_state": "Earlier institutional arrangements; see adjacent milestones",
+      "new_state": "CreatesNSC/CIA and coordinates military departments under civilian control.",
+      "check_or_counterevidence": "CIA expressly lacks police and internal-security powers.",
+      "uncertainty": "Later departures from charter require their own evidence.",
+      "continuity_assessment": "historical baseline; not a proven linear causal chain",
+      "locator": "See linked source catalog locators",
+      "discovery_status": "Late discovery: retrospective intake, not a new2026event"
+    },
+    {
+      "event_id": "PH04",
+      "event_date": "1948-07-26",
+      "date_precision": "day",
+      "effective_date": null,
+      "publication_date": "1948-07-26",
+      "retrieved_date_utc": "2026-10-10",
+      "lane": "conscience",
+      "title": "Military equality order",
+      "implementation_status": "historical enacted/issued/reported milestone; scope as described",
+      "source_ids": [
+        "H06"
+      ],
+      "source_families": [
+        "EO9981"
+      ],
+      "previous_state": "Earlier institutional arrangements; see adjacent milestones",
+      "new_state": "EO9981 directs equal treatment regardless of race,color,religion,national origin.",
+      "check_or_counterevidence": "Implementation committee can examine rules and demand records.",
+      "uncertainty": "Resistance and delayed practice distinguish order from outcome.",
+      "continuity_assessment": "historical baseline; not a proven linear causal chain",
+      "locator": "See linked source catalog locators",
+      "discovery_status": "Late discovery: retrospective intake, not a new2026event"
+    },
+    {
+      "event_id": "PH05",
+      "event_date": "1950-05-05",
+      "date_precision": "day",
+      "effective_date": "1951-05-31",
+      "publication_date": "1952",
+      "retrieved_date_utc": "2026-10-10",
+      "lane": "legal_oversight",
+      "title": "Uniform military justice",
+      "implementation_status": "historical enacted/issued/reported milestone; scope as described",
+      "source_ids": [
+        "H07"
+      ],
+      "source_families": [
+        "UCMJ1950 historical codification"
+      ],
+      "previous_state": "Earlier institutional arrangements; see adjacent milestones",
+      "new_state": "UCMJ consolidates service law; civilian Court of Military Appeals added.",
+      "check_or_counterevidence": "Review is institutionally distinct from commanders.",
+      "uncertainty": "Later reform and current independence not established by original text.",
+      "continuity_assessment": "historical baseline; not a proven linear causal chain",
+      "locator": "See linked source catalog locators",
+      "discovery_status": "Late discovery: retrospective intake, not a new2026event"
+    },
+    {
+      "event_id": "PH06",
+      "event_date": "1950-09-23",
+      "date_precision": "day",
+      "effective_date": null,
+      "publication_date": null,
+      "retrieved_date_utc": "2026-10-10",
+      "lane": "detention",
+      "title": "Emergency detention title",
+      "implementation_status": "historical enacted/issued/reported milestone; scope as described",
+      "source_ids": [
+        "H08",
+        "H09"
+      ],
+      "source_families": [
+        "Emergency Detention Act1950",
+        "Non-Detention Act1971"
+      ],
+      "previous_state": "Earlier institutional arrangements; see adjacent milestones",
+      "new_state": "Internal Security Act includes emergency-detention machinery later expressly repealed.",
+      "check_or_counterevidence": "1971 repeal supplies a documented reversal.",
+      "uncertainty": "Original1950title unavailable; detailed powers and actual use not reconstructed.",
+      "continuity_assessment": "historical baseline; not a proven linear causal chain",
+      "locator": "See linked source catalog locators",
+      "discovery_status": "Late discovery: retrospective intake, not a new2026event"
+    },
+    {
+      "event_id": "PH07",
+      "event_date": "1952-06-27",
+      "date_precision": "day",
+      "effective_date": "1952-12-24",
+      "publication_date": null,
+      "retrieved_date_utc": "2026-10-10",
+      "lane": "immigration",
+      "title": "Immigration and Nationality Act",
+      "implementation_status": "historical enacted/issued/reported milestone; scope as described",
+      "source_ids": [
+        "H10",
+        "H11"
+      ],
+      "source_families": [
+        "State Department INA1952 history"
+      ],
+      "previous_state": "Earlier institutional arrangements; see adjacent milestones",
+      "new_state": "National-origins quotas continue while racial naturalization exclusions end.",
+      "check_or_counterevidence": "Partial inclusion and continuing exclusion coexist.",
+      "uncertainty": "Official history rather than full original law audited.",
+      "continuity_assessment": "historical baseline; not a proven linear causal chain",
+      "locator": "See linked source catalog locators",
+      "discovery_status": "Late discovery: retrospective intake, not a new2026event"
+    },
+    {
+      "event_id": "PH08",
+      "event_date": "1954",
+      "date_precision": "year",
+      "effective_date": null,
+      "publication_date": null,
+      "retrieved_date_utc": "2026-10-10",
+      "lane": "immigration",
+      "title": "Operation Wetback",
+      "implementation_status": "historical enacted/issued/reported milestone; scope as described",
+      "source_ids": [
+        "H12"
+      ],
+      "source_families": [
+        "USCIS INS history"
+      ],
+      "previous_state": "Earlier institutional arrangements; see adjacent milestones",
+      "new_state": "USCIS history identifies a targeted Mexican-border deportation initiative.",
+      "check_or_counterevidence": "Earlier INS enforcement prevents treating2003as the origin of deportation power.",
+      "uncertainty": "Indexed official excerpt only; no operation totals accepted.",
+      "continuity_assessment": "historical baseline; not a proven linear causal chain",
+      "locator": "See linked source catalog locators",
+      "discovery_status": "Late discovery: retrospective intake, not a new2026event"
+    },
+    {
+      "event_id": "PH09",
+      "event_date": "1955-08-17",
+      "date_precision": "day",
+      "effective_date": null,
+      "publication_date": "1955-08-17",
+      "retrieved_date_utc": "2026-10-10",
+      "lane": "conscience",
+      "title": "Combat/captivity Code of Conduct",
+      "implementation_status": "historical enacted/issued/reported milestone; scope as described",
+      "source_ids": [
+        "H13"
+      ],
+      "source_families": [
+        "Military Code of Conduct"
+      ],
+      "previous_state": "Earlier institutional arrangements; see adjacent milestones",
+      "new_state": "EO10631 contains religious language and standards for captured or combat personnel.",
+      "check_or_counterevidence": "Stated scope differs from a general advancement test.",
+      "uncertainty": "Codified page incorporates amendments; actual inclusion/coercion not measured.",
+      "continuity_assessment": "historical baseline; not a proven linear causal chain",
+      "locator": "See linked source catalog locators",
+      "discovery_status": "Late discovery: retrospective intake, not a new2026event"
+    },
+    {
+      "event_id": "PH10",
+      "event_date": "1961-01-17",
+      "date_precision": "day",
+      "effective_date": null,
+      "publication_date": "1961-01-17",
+      "retrieved_date_utc": "2026-10-10",
+      "lane": "political_economy",
+      "title": "Eisenhower institutional warning",
+      "implementation_status": "historical enacted/issued/reported milestone; scope as described",
+      "source_ids": [
+        "H14"
+      ],
+      "source_families": [
+        "Eisenhower farewell"
+      ],
+      "previous_state": "Earlier institutional arrangements; see adjacent milestones",
+      "new_state": "Farewell warns of unwarranted influence from permanent military/industry structures.",
+      "check_or_counterevidence": "Public accountability is presented as a necessary counterweight.",
+      "uncertainty": "Warning is not proof of later coordinated intent.",
+      "continuity_assessment": "historical baseline; not a proven linear causal chain",
+      "locator": "See linked source catalog locators",
+      "discovery_status": "Late discovery: retrospective intake, not a new2026event"
+    },
+    {
+      "event_id": "PH11",
+      "event_date": "1965-10-03",
+      "date_precision": "day",
+      "effective_date": null,
+      "publication_date": "1965-10-03",
+      "retrieved_date_utc": "2026-10-10",
+      "lane": "immigration",
+      "title": "Immigration selection revised",
+      "implementation_status": "historical enacted/issued/reported milestone; scope as described",
+      "source_ids": [
+        "H15"
+      ],
+      "source_families": [
+        "INA1965"
+      ],
+      "previous_state": "Earlier institutional arrangements; see adjacent milestones",
+      "new_state": "Hart–Celler changes quota allocation and preferences.",
+      "check_or_counterevidence": "National-origins selection is dismantled through legislation.",
+      "uncertainty": "Numerical limits and exclusion persist; transition not instantaneous.",
+      "continuity_assessment": "historical baseline; not a proven linear causal chain",
+      "locator": "See linked source catalog locators",
+      "discovery_status": "Late discovery: retrospective intake, not a new2026event"
+    },
+    {
+      "event_id": "PH12",
+      "event_date": "1970-06-15",
+      "date_precision": "day",
+      "effective_date": null,
+      "publication_date": "1970-06-15",
+      "retrieved_date_utc": "2026-10-10",
+      "lane": "conscience",
+      "title": "Nontraditional conscience recognized",
+      "implementation_status": "historical enacted/issued/reported milestone; scope as described",
+      "source_ids": [
+        "H16"
+      ],
+      "source_families": [
+        "Welsh conscientious objection"
+      ],
+      "previous_state": "Earlier institutional arrangements; see adjacent milestones",
+      "new_state": "Welsh reverses denial of conscientious objection based on deep moral/ethical conviction.",
+      "check_or_counterevidence": "Religious labeling need not determine eligibility.",
+      "uncertainty": "Opposition to war in any form; not every policy disagreement.",
+      "continuity_assessment": "historical baseline; not a proven linear causal chain",
+      "locator": "See linked source catalog locators",
+      "discovery_status": "Late discovery: retrospective intake, not a new2026event"
+    },
+    {
+      "event_id": "PH13",
+      "event_date": "1971-09-25",
+      "date_precision": "day",
+      "effective_date": "1971-09-25",
+      "publication_date": "1971-09-25",
+      "retrieved_date_utc": "2026-10-10",
+      "lane": "detention",
+      "title": "Detention authority repealed and limited",
+      "implementation_status": "historical enacted/issued/reported milestone; scope as described",
+      "source_ids": [
+        "H09"
+      ],
+      "source_families": [
+        "Non-Detention Act1971"
+      ],
+      "previous_state": "Earlier institutional arrangements; see adjacent milestones",
+      "new_state": "Congress repeals1950TitleII; federal citizen detention requires an Act of Congress.",
+      "check_or_counterevidence": "Statutory reversal is a real constraint.",
+      "uncertainty": "Not an absolute bar and not a universal noncitizen remedy.",
+      "continuity_assessment": "historical baseline; not a proven linear causal chain",
+      "locator": "See linked source catalog locators",
+      "discovery_status": "Late discovery: retrospective intake, not a new2026event"
+    },
+    {
+      "event_id": "PH14",
+      "event_date": "1972-06-26",
+      "date_precision": "day",
+      "effective_date": null,
+      "publication_date": "1972-06-26",
+      "retrieved_date_utc": "2026-10-10",
+      "lane": "oversight",
+      "title": "Army surveillance challenge loses on standing",
+      "implementation_status": "historical enacted/issued/reported milestone; scope as described",
+      "source_ids": [
+        "H17"
+      ],
+      "source_families": [
+        "Laird domestic Army surveillance challenge"
+      ],
+      "previous_state": "Earlier institutional arrangements; see adjacent milestones",
+      "new_state": "Laird rejects subjective chill as sufficient injury in the case.",
+      "check_or_counterevidence": "Judicial challenge can fail before underlying conduct receives merits review.",
+      "uncertainty": "Not blanket approval of military surveillance.",
+      "continuity_assessment": "historical baseline; not a proven linear causal chain",
+      "locator": "See linked source catalog locators",
+      "discovery_status": "Late discovery: retrospective intake, not a new2026event"
+    },
+    {
+      "event_id": "PH15",
+      "event_date": "1975/1978",
+      "date_precision": "range",
+      "effective_date": null,
+      "publication_date": null,
+      "retrieved_date_utc": "2026-10-10",
+      "lane": "oversight",
+      "title": "Church investigation and surveillance oversight",
+      "implementation_status": "historical enacted/issued/reported milestone; scope as described",
+      "source_ids": [
+        "H18",
+        "H19"
+      ],
+      "source_families": [
+        "Church Committee1975–1976",
+        "FISA1978"
+      ],
+      "previous_state": "Earlier institutional arrangements; see adjacent milestones",
+      "new_state": "Senate exposes intelligence abuses;1976report/oversight committee precede1978FISA.",
+      "check_or_counterevidence": "Public investigation can produce institutional repair.",
+      "uncertainty": "OriginalBookIIunavailable; FISA has defined scope and exceptions.",
+      "continuity_assessment": "historical baseline; not a proven linear causal chain",
+      "locator": "See linked source catalog locators",
+      "discovery_status": "Late discovery: retrospective intake, not a new2026event"
+    },
+    {
+      "event_id": "PH16",
+      "event_date": "1980-03-17",
+      "date_precision": "day",
+      "effective_date": null,
+      "publication_date": "1980-03-17",
+      "retrieved_date_utc": "2026-10-10",
+      "lane": "refugee_protection",
+      "title": "Refugee protection framework",
+      "implementation_status": "historical enacted/issued/reported milestone; scope as described",
+      "source_ids": [
+        "H20"
+      ],
+      "source_families": [
+        "Refugee Act1980"
+      ],
+      "previous_state": "Earlier institutional arrangements; see adjacent milestones",
+      "new_state": "RefugeeAct regularizes admissions/resettlement and consultation around persecution-based protection.",
+      "check_or_counterevidence": "Protection and organized resettlement are part of the state architecture.",
+      "uncertainty": "Original18-page scan not fully audited; delivery depends on policy/resources.",
+      "continuity_assessment": "historical baseline; not a proven linear causal chain",
+      "locator": "See linked source catalog locators",
+      "discovery_status": "Late discovery: retrospective intake, not a new2026event"
+    },
+    {
+      "event_id": "PH17",
+      "event_date": "1981-12-01",
+      "date_precision": "day",
+      "effective_date": null,
+      "publication_date": "1983-07-28",
+      "retrieved_date_utc": "2026-10-10",
+      "lane": "military_civilian_bridge",
+      "title": "Military assistance to civilian enforcement expands",
+      "implementation_status": "historical enacted/issued/reported milestone; scope as described",
+      "source_ids": [
+        "H21"
+      ],
+      "source_families": [
+        "GAO military drug-interdiction review1983"
+      ],
+      "previous_state": "Earlier institutional arrangements; see adjacent milestones",
+      "new_state": "Legislation facilitates support;GAO1983reports more military drug-interdiction assistance.",
+      "check_or_counterevidence": "Coordination and military-readiness limits remain relevant.",
+      "uncertainty": "Original act not retrieved; GAO operational evidence bounded to its review.",
+      "continuity_assessment": "historical baseline; not a proven linear causal chain",
+      "locator": "See linked source catalog locators",
+      "discovery_status": "Late discovery: retrospective intake, not a new2026event"
+    },
+    {
+      "event_id": "PH18",
+      "event_date": "1996-09-23",
+      "date_precision": "day",
+      "effective_date": null,
+      "publication_date": "1996-09-23",
+      "retrieved_date_utc": "2026-10-10",
+      "lane": "equipment_transfer",
+      "title": "Excess military equipment transfer authority",
+      "implementation_status": "historical enacted/issued/reported milestone; scope as described",
+      "source_ids": [
+        "H22"
+      ],
+      "source_families": [
+        "NDAA1997 section1033"
+      ],
+      "previous_state": "Earlier institutional arrangements; see adjacent milestones",
+      "new_state": "NDAA§1033authorizes suitable excess DoD property for federal/state law enforcement.",
+      "check_or_counterevidence": "Transfers have statutory conditions.",
+      "uncertainty": "Authority alone establishes neither a specific shipment nor misuse.",
+      "continuity_assessment": "historical baseline; not a proven linear causal chain",
+      "locator": "See linked source catalog locators",
+      "discovery_status": "Late discovery: retrospective intake, not a new2026event"
+    },
+    {
+      "event_id": "PH19",
+      "event_date": "1996-09-30",
+      "date_precision": "day",
+      "effective_date": null,
+      "publication_date": "1996-09-30",
+      "retrieved_date_utc": "2026-10-10",
+      "lane": "immigration",
+      "title": "Enforcement delegation and faster removal",
+      "implementation_status": "historical enacted/issued/reported milestone; scope as described",
+      "source_ids": [
+        "H23"
+      ],
+      "source_families": [
+        "IIRIRA1996"
+      ],
+      "previous_state": "Earlier institutional arrangements; see adjacent milestones",
+      "new_state": "IIRIRA adds287(g),expedited removal and a closed-base detention pilot.",
+      "check_or_counterevidence": "Training/supervision and fear/asylum referral specified.",
+      "uncertainty": "TitleIII-A generally effectiveApril1,1997; implementation separate.",
+      "continuity_assessment": "historical baseline; not a proven linear causal chain",
+      "locator": "See linked source catalog locators",
+      "discovery_status": "Late discovery: retrospective intake, not a new2026event"
+    },
+    {
+      "event_id": "PH20",
+      "event_date": "2001-09-18",
+      "date_precision": "day",
+      "effective_date": null,
+      "publication_date": "2001-09-18",
+      "retrieved_date_utc": "2026-10-10",
+      "lane": "military_authority",
+      "title": "September11 force authorization",
+      "implementation_status": "historical enacted/issued/reported milestone; scope as described",
+      "source_ids": [
+        "H24"
+      ],
+      "source_families": [
+        "AUMF2001"
+      ],
+      "previous_state": "Earlier institutional arrangements; see adjacent milestones",
+      "new_state": "AUMF authorizes force tied to those responsible for9/11and harborers.",
+      "check_or_counterevidence": "Statutory target connection matters.",
+      "uncertainty": "Later interpretations excluded; not ICE authority.",
+      "continuity_assessment": "historical baseline; not a proven linear causal chain",
+      "locator": "See linked source catalog locators",
+      "discovery_status": "Late discovery: retrospective intake, not a new2026event"
+    },
+    {
+      "event_id": "PH21",
+      "event_date": "2001-10-26",
+      "date_precision": "day",
+      "effective_date": null,
+      "publication_date": "2001-10-26",
+      "retrieved_date_utc": "2026-10-10",
+      "lane": "detention",
+      "title": "PATRIOT security-detention provision",
+      "implementation_status": "historical enacted/issued/reported milestone; scope as described",
+      "source_ids": [
+        "H25"
+      ],
+      "source_families": [
+        "PATRIOT2001"
+      ],
+      "previous_state": "Earlier institutional arrangements; see adjacent milestones",
+      "new_state": "§412provides detention for certified noncitizens on specified security grounds.",
+      "check_or_counterevidence": "Seven-day proceedings/charge rule, periodic review, habeas route.",
+      "uncertainty": "No actual use or current litigation measured.",
+      "continuity_assessment": "historical baseline; not a proven linear causal chain",
+      "locator": "See linked source catalog locators",
+      "discovery_status": "Late discovery: retrospective intake, not a new2026event"
+    },
+    {
+      "event_id": "PH22",
+      "event_date": "2002-11-25",
+      "date_precision": "day",
+      "effective_date": null,
+      "publication_date": "2002-11-25",
+      "retrieved_date_utc": "2026-10-10",
+      "lane": "governance",
+      "title": "Homeland Security Act",
+      "implementation_status": "historical enacted/issued/reported milestone; scope as described",
+      "source_ids": [
+        "H26"
+      ],
+      "source_families": [
+        "Homeland Security Act2002"
+      ],
+      "previous_state": "Earlier institutional arrangements; see adjacent milestones",
+      "new_state": "CreatesDHS and separates legacy immigration functions.",
+      "check_or_counterevidence": "Law bars recombining specified enforcement/services bureaus.",
+      "uncertainty": "Administrative distinction does not by itself ensure fair outcomes.",
+      "continuity_assessment": "historical baseline; not a proven linear causal chain",
+      "locator": "See linked source catalog locators",
+      "discovery_status": "Late discovery: retrospective intake, not a new2026event"
+    },
+    {
+      "event_id": "PH23",
+      "event_date": "2003-03-01",
+      "date_precision": "day",
+      "effective_date": "2003-03-01",
+      "publication_date": "2004-06-15",
+      "retrieved_date_utc": "2026-10-10",
+      "lane": "agency_formation",
+      "title": "ICE operational formation",
+      "implementation_status": "historical enacted/issued/reported milestone; scope as described",
+      "source_ids": [
+        "H27",
+        "H26"
+      ],
+      "source_families": [
+        "ICE leadership2004 institutional account",
+        "Homeland Security Act2002"
+      ],
+      "previous_state": "Earlier institutional arrangements; see adjacent milestones",
+      "new_state": "Combines legacy immigration and customs enforcement capacities inDHS.",
+      "check_or_counterevidence": "Civilian law-enforcement agency remains institutionally distinct from armed services.",
+      "uncertainty": "2004agency account; current structure and performance require separate evidence.",
+      "continuity_assessment": "historical baseline; not a proven linear causal chain",
+      "locator": "See linked source catalog locators",
+      "discovery_status": "Late discovery: retrospective intake, not a new2026event"
+    }
+  ]
+}

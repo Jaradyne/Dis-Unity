@@ -1,0 +1,32 @@
+{
+  "agent": "coordinator",
+  "at": "2026-10-11T20:02:14.863734+00:00",
+  "base_hash": "16d04f8bb35a588caca60517f90a11944cfbafac7951402d059a6d6131de97b7",
+  "cycle_id": "RC-006",
+  "payload": {
+    "agent": "coordinator",
+    "author": "Work Aiden",
+    "base_commit": "aaf560dbe71bc03cb07c5937a2b2f4355f61025b",
+    "canonical_admission": false,
+    "cycle_id": "RC-006",
+    "evidence_cutoff": "2026-10-10",
+    "limits": [
+      "Public lawful nonintrusive material",
+      "No runtime or monitoring activation",
+      "No new external inference",
+      "Earlier research and cycle snapshots preserved"
+    ],
+    "plan": [
+      "Three bounded specialist lanes",
+      "Coordinator integration and selected primary checks",
+      "Independent review of material claims",
+      "Reversible research-only publication"
+    ],
+    "scope": "Expand military institutional-safeguards timeline from 1945; investigate ICE formation, militarization, personnel pathways, recruitment bonus, electrical gloves, foreign detention/removal and political-speech cases.",
+    "status": "initial_checkpoint",
+    "user_request_date": "2026-10-09 America/Los_Angeles"
+  },
+  "payload_hash": "331d44fd5e7ba61a814f6ca341dc224c375da119ca3d434f937abc80aaf16e13",
+  "phase": "checkpoint",
+  "submission_id": "d393009596544f6ad585efa746edb87e27a801c967173901daf47f65f4090142"
+}

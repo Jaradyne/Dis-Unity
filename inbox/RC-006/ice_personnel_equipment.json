@@ -1,0 +1,48 @@
+{
+  "agent": "ice_personnel_equipment",
+  "cycle": "RC-006",
+  "status": "research_in_progress",
+  "scope": "ICE formation, institutional and military personnel links, signing bonus and electrical-glove procurement allegations",
+  "evidence_cutoff": "2026-10-10",
+  "retrieval_date_utc": "2026-10-10",
+  "authorization": "AGENTS.md bounded specialist research; coordinator-only integration",
+  "canonical_admission": false,
+  "external_inference_calls": false,
+  "queries": [],
+  "web_calls": [],
+  "access_failures": [
+    "ice.gov/history 403",
+    "ICE careers FAQs, veterans pages internal fetch errors",
+    "DocumentCloud assessment viewer 403 and guessed s3 PDF inaccessible",
+    "DHS recruitment and Veterans pages failed",
+    "Congress House H.R.1 passed-House text restricted; enacted GovInfo PDF succeeded",
+    "PBS glove story 403",
+    "USCIS history and DHS creation pages failed"
+  ],
+  "method_limitations": [
+    "Built-in web search/open outputs are parsed excerpts, not raw HTTP exchanges or billing receipts. No direct HTTP download performed."
+  ],
+  "outputs": [],
+  "unresolved": [
+    "Full assessment original PDF access",
+    "Claim military rejected gloves",
+    "Recruit signing-bonus payment ledger and exact current installment policies",
+    "Institutional origins full source; history specialist notified",
+    "Military logistics primary releases and current oversight context"
+  ],
+  "web_research_calls": 10,
+  "verified_findings": [
+    "ICE-to-military reverse pipeline not established; military-to-ICE SkillBridge placements officially prioritized May 28 2025",
+    "Enacted PL119-21 section100052 requires written signing-bonus agreement and five years service; no universal immediate $50000 statutory entitlement",
+    "ICE GLOVE sole-source justification states 6000 units and $16700640; HSI and ERO jointly researched requirements",
+    "Released military assessment reportedly supports operational utility but does not evaluate safety; military rejection claim not verified"
+  ],
+  "key_refs": {
+    "skillbridge": "turn67view0",
+    "skillbridge_brochure": "turn67view1",
+    "tactical_teams": "turn67view2",
+    "procurement": "turn52view1",
+    "bonus_law": "turn64view5",
+    "released_assessment": "turn49view1"
+  }
+}

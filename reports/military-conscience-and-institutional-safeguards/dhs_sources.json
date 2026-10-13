@@ -1,0 +1,349 @@
+{
+  "research_cutoff": "2026-10-10",
+  "retrieved_date_utc": "2026-10-11",
+  "status": "staged_for_jared_and_digest",
+  "author": "postwar_recovery",
+  "scope": "Selective DHS creation and use supplement; public primary records with explicitly limited institutional excerpts and one original scholarly counter-perspective.",
+  "sources": [
+    {
+      "source_id": "D01",
+      "title": "First anniversary of the Department of Homeland Security: White House fact sheet",
+      "url": "https://georgewbush-whitehouse.archives.gov/news/releases/2004/03/20040302-4.html",
+      "publication_date": "2004-03-02",
+      "retrieved_date_utc": "2026-10-11",
+      "locator": "Paragraph beginning On March 1, 2003; parsed lines 158–162",
+      "access_level": "Contemporaneous presidential administration statement",
+      "source_family": "DHS organizational history",
+      "short_claim": "Personnel from 22 organizations joined DHS on March 1, 2003.",
+      "limitations": "Organizational chronology is used; administration claims of improved effectiveness are not adopted. Not every predecessor was transferred in its entirety.",
+      "reference_ids": [
+        "turn136view3",
+        "turn151view8"
+      ]
+    },
+    {
+      "source_id": "D02",
+      "title": "DHS operational and support components",
+      "url": "https://www.dhs.gov/operational-and-support-components",
+      "publication_date": "2026-05-05",
+      "retrieved_date_utc": "2026-10-11",
+      "locator": "Indexed component list",
+      "access_level": "Official search-index excerpt; direct open blocked",
+      "source_family": "DHS organization",
+      "short_claim": "Lists USCIS, Coast Guard, CBP, CISA, FEMA, FLETC, ICE and Secret Service as components.",
+      "limitations": "Dateline is as indexed. Full page unavailable; listing does not verify staffing, powers or functioning of every office. Functions are separately grounded where possible.",
+      "reference_ids": [
+        "turn136search1",
+        "turn138view4"
+      ]
+    },
+    {
+      "source_id": "D03",
+      "title": "Executive Office for Immigration Review: About the Office",
+      "url": "https://www.justice.gov/eoir/about-office",
+      "publication_date": null,
+      "retrieved_date_utc": "2026-10-11",
+      "locator": "EOIR Mission; Background Information; parsed lines 43–49",
+      "access_level": "Official DOJ institutional page",
+      "source_family": "DOJ EOIR",
+      "short_claim": "EOIR adjudicates immigration cases under delegated Attorney General authority within DOJ.",
+      "limitations": "Undated live page. Organizational separation from DHS does not mean Article III judicial independence.",
+      "reference_ids": [
+        "turn136view2",
+        "turn151view7"
+      ]
+    },
+    {
+      "source_id": "D04",
+      "title": "14 U.S.C. §101: Establishment of Coast Guard",
+      "url": "https://www.govinfo.gov/content/pkg/USCODE-2024-title14/pdf/USCODE-2024-title14-subtitleI-chap1-sec101.pdf",
+      "publication_date": "2024",
+      "retrieved_date_utc": "2026-10-11",
+      "locator": "Section 101, first paragraph and historical notes",
+      "access_level": "Official 2024 United States Code edition",
+      "source_family": "Coast Guard statutory status",
+      "short_claim": "The Coast Guard is a military service and branch of the armed forces at all times.",
+      "limitations": "Edition year, not original enactment date. This provision does not make every DHS component military or give ICE Coast Guard powers.",
+      "reference_ids": [
+        "turn137view5",
+        "turn147view2"
+      ]
+    },
+    {
+      "source_id": "D05",
+      "title": "GAO-04-586: First Phase of Visitor and Immigration Status Program Operating, but Improvements Needed",
+      "url": "https://www.gao.gov/assets/gao-04-586.pdf",
+      "publication_date": "2004-05",
+      "retrieved_date_utc": "2026-10-11",
+      "locator": "Highlights; printed pp. 6, 29; Appendix III initial deployment discussion",
+      "access_level": "Official GAO evaluation",
+      "source_family": "US-VISIT oversight",
+      "short_claim": "Initial biometric entry capability began January 5, 2004; exit functionality remained limited.",
+      "limitations": "Historical implementation review, not proof of a complete entry/exit system or demonstrated net security benefit. Publication precision is month.",
+      "reference_ids": [
+        "turn138view3",
+        "turn139view10",
+        "turn141view4"
+      ]
+    },
+    {
+      "source_id": "D06",
+      "title": "Public Law 110-53: Implementing Recommendations of the 9/11 Commission Act of 2007",
+      "url": "https://www.govinfo.gov/content/pkg/PLAW-110publ53/pdf/PLAW-110publ53.pdf",
+      "publication_date": "2007-08-03",
+      "retrieved_date_utc": "2026-10-11",
+      "locator": "Section 511; 121 Stat. 317 onward; PDF p. 53",
+      "access_level": "Original enacted law",
+      "source_family": "DHS fusion-center authority",
+      "short_claim": "Establishes the DHS State, Local, and Regional Fusion Center Initiative.",
+      "limitations": "Statutory initiative is not proof that DHS owns every center, that all centers operate alike, or that all planned support was delivered.",
+      "reference_ids": [
+        "turn136view4",
+        "turn138view6",
+        "turn147view3",
+        "turn151view4"
+      ]
+    },
+    {
+      "source_id": "D07",
+      "title": "Federal Support for and Involvement in State and Local Fusion Centers: Senate Permanent Subcommittee on Investigations staff report",
+      "url": "https://www.hsgac.senate.gov/wp-content/uploads/imo/media/doc/10-3-2012%20PSI%20STAFF%20REPORT%20re%20FUSION%20CENTERS.2.pdf",
+      "publication_date": "2012-10-03",
+      "retrieved_date_utc": "2026-10-11",
+      "locator": "Executive summary, printed pp. 1–5; sections on counterterrorism reporting and privacy review",
+      "access_level": "Bipartisan congressional oversight investigation",
+      "source_family": "Senate fusion-center oversight",
+      "short_claim": "Finds poor federal counterterrorism reporting and privacy problems; also describes reports stopped by privacy review.",
+      "limitations": "Reviewed reporting includes April 2009–April 2010. Findings do not establish that every center lacked every local public-safety benefit; potential legal problems are not court judgments.",
+      "reference_ids": [
+        "turn136view1",
+        "turn138view7",
+        "turn141view1",
+        "turn141view2"
+      ],
+      "date_verification_url": "https://www.hsgac.senate.gov/subcommittees/investigations/rep/investigative-report-criticizes-counterterrorism-reporting-waste-at-state-local-intelligence-fusion-centers/"
+    },
+    {
+      "source_id": "D08",
+      "title": "GAO-12-708: Secure Communities—Criminal Alien Removals Increased, but Technology Planning Improvements Needed",
+      "url": "https://www.gao.gov/assets/gao-12-708.pdf",
+      "publication_date": "2012-07",
+      "retrieved_date_utc": "2026-10-11",
+      "locator": "Highlights; printed pp. 1, 7–8, 12–16; Figures 1–3",
+      "access_level": "Official GAO evaluation of ICE data and implementation",
+      "source_family": "Secure Communities oversight",
+      "short_claim": "A 2008 program connected local booking fingerprints through FBI to DHS checks; removals included people without known criminal convictions.",
+      "limitations": "October 2008–March 2012 removal cohort is historical. Missing charge data and selected interviews limit inference; no current ICE-wide proportions are inferred.",
+      "reference_ids": [
+        "turn138view0",
+        "turn139view9",
+        "turn141view3",
+        "turn147view4",
+        "turn151view13"
+      ]
+    },
+    {
+      "source_id": "D09",
+      "title": "Secretary Jeh Johnson memorandum: Secure Communities",
+      "url": "https://www.aila.org/aila-files/8E04886B-A4C7-4054-9E93-B63CF52D7FDD/14112005.pdf",
+      "publication_date": "2014-11-20",
+      "retrieved_date_utc": "2026-10-11",
+      "locator": "All three pages; opening discontinuation and Priority Enforcement Program instructions",
+      "access_level": "Original government memorandum, readable AILA mirror",
+      "source_family": "DHS Secure Communities policy",
+      "short_claim": "Directs replacement with Priority Enforcement Program while retaining fingerprint-based information sharing.",
+      "limitations": "Original DHS URL blocked. This directive changed program priorities and requests; it did not erase the data connection or establish present policy.",
+      "reference_ids": [
+        "turn139view6",
+        "turn151view5"
+      ],
+      "original_url": "https://www.dhs.gov/sites/default/files/publications/14_1120_memo_secure_communities_0.pdf"
+    },
+    {
+      "source_id": "D10",
+      "title": "Executive Order 13768: Enhancing Public Safety in the Interior of the United States",
+      "url": "https://trumpwhitehouse.archives.gov/presidential-actions/executive-order-enhancing-public-safety-interior-united-states/",
+      "publication_date": "2017-01-25",
+      "retrieved_date_utc": "2026-10-11",
+      "locator": "Section 10",
+      "access_level": "Archived presidential order",
+      "source_family": "2017 immigration executive policy",
+      "short_claim": "Orders termination of PEP and restoration of Secure Communities.",
+      "limitations": "Historical directive only. Later administrations changed immigration policy; this is not presented as current legal advice or an uninterrupted policy through 2026.",
+      "reference_ids": [
+        "turn138view2",
+        "turn141view5"
+      ]
+    },
+    {
+      "source_id": "D11",
+      "title": "OIG-21-31: DHS Had Authority to Deploy Federal Law Enforcement Officers to Protect Federal Facilities in Portland, Oregon, but Should Ensure Better Planning and Execution in Future Cross-Component Activities",
+      "url": "https://www.oversight.gov/sites/default/files/documents/reports/2021-05/OIG-21-31-Mar21.pdf",
+      "publication_date": "2021-04-16",
+      "retrieved_date_utc": "2026-10-11",
+      "locator": "Results summary; cross-designation authority; printed pp. 8–12 on training, equipment and uniforms",
+      "access_level": "Official DHS Inspector General report, hosted by Oversight.gov",
+      "source_family": "Portland DHS cross-component oversight",
+      "short_claim": "Finds authority and execution deficiencies; reviewed uniforms complied with component identification rules.",
+      "limitations": "Report date differs from May 3 catalog issue/posting date. Review is not a ruling on every arrest, force incident or visibility dispute.",
+      "reference_ids": [
+        "turn138view5",
+        "turn139view7",
+        "turn141view0",
+        "turn151view9",
+        "turn151view12"
+      ],
+      "catalog_url": "https://www.oversight.gov/reports/audit/dhs-had-authority-deploy-federal-law-enforcement-officers-protect-federal-facilities",
+      "catalog_date": "2021-05-03"
+    },
+    {
+      "source_id": "D12",
+      "title": "Public Law 119-21: DHS border and immigration appropriations",
+      "url": "https://www.govinfo.gov/content/pkg/PLAW-119publ21/pdf/PLAW-119publ21.pdf",
+      "publication_date": "2025-07-04",
+      "retrieved_date_utc": "2026-10-11",
+      "locator": "Sections 90002–90003; 139 Stat. 358; PDF p. 288 for detention appropriation",
+      "access_level": "Original enacted appropriations law",
+      "source_family": "2025 DHS capacity funding",
+      "short_claim": "Appropriates $45 billion for ICE detention capacity, available through September 30, 2029; also funds CBP capacity.",
+      "limitations": "Budget authority is not spending, completed construction, occupied beds, staffing on duty or an outcome measurement. Other agencies also receive funding elsewhere in the law.",
+      "reference_ids": [
+        "turn137view4",
+        "turn138view10",
+        "turn139view11"
+      ]
+    },
+    {
+      "source_id": "D13",
+      "title": "ICE launches Operation Midway Blitz: DHS announcement",
+      "url": "https://www.dhs.gov/news/2025/09/08/ice-launches-operation-midway-blitz-honor-katie-abraham-target-criminal-illegal",
+      "publication_date": "2025-09-08",
+      "retrieved_date_utc": "2026-10-11",
+      "locator": "Announcement headline and indexed excerpt",
+      "access_level": "Official agency announcement, indexed only; full open blocked",
+      "source_family": "DHS Midway Blitz communications",
+      "short_claim": "DHS announces Chicago-area Operation Midway Blitz.",
+      "limitations": "Establishes announcement and stated purpose, not every arrest, allegation, motive or operational outcome.",
+      "reference_ids": [
+        "turn136search0",
+        "turn137view3"
+      ]
+    },
+    {
+      "source_id": "D14",
+      "title": "DHS statement on Operation Midway Blitz in Chicago",
+      "url": "https://www.dhs.gov/news/2025/10/06/dhs-debunks-governor-pritzkers-harmful-lies-about-operation-midway-blitz-chicago",
+      "publication_date": "2025-10-06",
+      "retrieved_date_utc": "2026-10-11",
+      "locator": "Indexed excerpt identifying ICE and CBP personnel",
+      "access_level": "Official agency statement, indexed only; full open blocked",
+      "source_family": "DHS Midway Blitz communications",
+      "short_claim": "DHS describes ICE and CBP participation in the operation.",
+      "limitations": "Interested account. Arrest totals, characterization of targets and claims about critics are not independently adopted.",
+      "reference_ids": [
+        "turn136search12",
+        "turn137view2"
+      ]
+    },
+    {
+      "source_id": "D15",
+      "title": "Cybersecurity and Infrastructure Security Agency Act of 2018, Public Law 115-278",
+      "url": "https://www.govinfo.gov/content/pkg/PLAW-115publ278/pdf/PLAW-115publ278.pdf",
+      "publication_date": "2018-11-16",
+      "retrieved_date_utc": "2026-10-11",
+      "locator": "Section 2; amended Homeland Security Act §2202; approval line",
+      "access_level": "Original enacted law",
+      "source_family": "CISA statutory organization",
+      "short_claim": "Establishes CISA within DHS with cybersecurity, infrastructure-security and emergency-communications responsibilities.",
+      "limitations": "CISA is an evolution of existing DHS infrastructure functions, not evidence those functions began from nothing in 2018. Authority does not prove present operational capacity.",
+      "reference_ids": [
+        "turn147view0",
+        "turn151view6",
+        "turn151view10"
+      ]
+    },
+    {
+      "source_id": "D16",
+      "title": "TSA recognizes the twentieth anniversary of its establishment",
+      "url": "https://content.govdelivery.com/accounts/USDHSTSA/bulletins/2fd0d13",
+      "publication_date": "2021-11-19",
+      "retrieved_date_utc": "2026-10-11",
+      "locator": "Release title and mission descriptions",
+      "access_level": "Official TSA distributed release",
+      "source_family": "TSA transportation mission",
+      "short_claim": "TSA protects transportation systems.",
+      "limitations": "Used only for role description. Agency anniversary advocacy does not establish performance.",
+      "reference_ids": [
+        "turn147search16",
+        "turn151view2"
+      ]
+    },
+    {
+      "source_id": "D17",
+      "title": "We Are FEMA: Publication 1",
+      "url": "https://www.fema.gov/sites/default/files/documents/fema_publication-one_english_2025.pdf",
+      "publication_date": null,
+      "retrieved_date_utc": "2026-10-11",
+      "locator": "Title and indexed mission statement",
+      "access_level": "Official agency publication, indexed excerpt",
+      "source_family": "FEMA disaster mission",
+      "short_claim": "FEMA helps people before, during and after disasters.",
+      "limitations": "Filename identifies a 2025 edition; exact publication date and full text were not verified. Used only for stable mission description, not 2026 staffing or effectiveness.",
+      "reference_ids": [
+        "turn147search50"
+      ],
+      "edition_label": "2025 filename"
+    },
+    {
+      "source_id": "D18",
+      "title": "United States Secret Service FY2012 annual report",
+      "url": "https://www.secretservice.gov/sites/default/files/reports/2021-03/USSS_FY2012AR.pdf",
+      "publication_date": null,
+      "retrieved_date_utc": "2026-10-11",
+      "locator": "Indexed mission description",
+      "access_level": "Official report indexed excerpt; direct open failed",
+      "source_family": "Secret Service dual mission",
+      "short_claim": "Secret Service combines protective responsibilities with investigations protecting financial integrity.",
+      "limitations": "Fiscal 2012 reporting period is not the publication or hosting date. Only mission description is used; no current performance inference.",
+      "reference_ids": [
+        "turn141search48",
+        "turn151view3"
+      ],
+      "reporting_period": "FY2012"
+    },
+    {
+      "source_id": "D19",
+      "title": "Operation Midway Blitz: A New Experiment in Federal Power, Robert A. Pape",
+      "url": "https://cpost.uchicago.edu/publications/operation_midway_blitz_a_new_experiment_in_federal_power/",
+      "publication_date": "2026-03-06",
+      "retrieved_date_utc": "2026-10-11",
+      "locator": "Dateline and introduction; survey summary reviewed but not adopted",
+      "access_level": "University-hosted original research and author interpretation",
+      "source_family": "CPOST Midway Blitz research",
+      "short_claim": "Provides an independent scholarly interpretation of the 2025 operation.",
+      "limitations": "Public opinion is not proof of government intent. Survey methodology and operation-wide causal claims were not independently audited in this bounded lane. No survey percentages are used.",
+      "reference_ids": [
+        "turn147view1",
+        "turn151view0",
+        "turn151view11"
+      ]
+    },
+    {
+      "source_id": "D20",
+      "title": "Homeland Security Act of 2002, Public Law 107-296 (DHS supplement reread)",
+      "url": "https://www.govinfo.gov/content/pkg/PLAW-107publ296/pdf/PLAW-107publ296.pdf",
+      "publication_date": "2002-11-25",
+      "retrieved_date_utc": "2026-10-11",
+      "locator": "Sections 101–102, 222, 451, 471, 705; component transfers including Title XVII",
+      "access_level": "Original enacted law; supplements source H26 with new retrieval and locators",
+      "source_family": "Homeland Security Act 2002",
+      "short_claim": "Creates department and divides immigration functions; establishes privacy and civil-rights offices.",
+      "limitations": "Formal safeguards are not proof of continuing staffing, access or effective remedies. H26 preserves the separate earlier retrieval rather than silently revising its date.",
+      "reference_ids": [
+        "turn139view12",
+        "turn139view13"
+      ],
+      "related_source_id": "H26"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "agent": "ice_removals_speech",
+  "at": "2026-10-11T20:02:15.063962+00:00",
+  "base_hash": "16d04f8bb35a588caca60517f90a11944cfbafac7951402d059a6d6131de97b7",
+  "cycle_id": "RC-006",
+  "payload": {
+    "agent": "ice_removals_speech",
+    "cycle": "RC-006",
+    "evidence_cutoff": "2026-10-10",
+    "limits": [
+      "Public lawful sources only; no private belief inference",
+      "Built-in web tools expose parsed results rather than complete raw upstream HTTP or billing",
+      "No external provider calls or canonical edits"
+    ],
+    "planned_outputs": [
+      "ICE_REMOVALS_AND_SPEECH.md",
+      "ice_rights_sources.json",
+      "ice_rights_events.json"
+    ],
+    "queries": [],
+    "scope": [
+      "CECOT transfers and treatment",
+      "Third-country removals and procedural protection",
+      "Speech-linked student detention cases"
+    ],
+    "started_at_utc": "2026-10-10T00:54:07.176307+00:00",
+    "status": "initial_checkpoint",
+    "tool_budget": 28,
+    "web_calls": 0
+  },
+  "payload_hash": "f70ed9a1a5e99078e87cbbc233eb5d19ea3ee54eecabace905cdcc86803ef609",
+  "phase": "checkpoint",
+  "submission_id": "053e1b962190dda9ad27bb9f6aeb9b273d9d9bd4d459d8f75d9b51d910e7a7d3"
+}

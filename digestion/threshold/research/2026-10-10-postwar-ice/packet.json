@@ -1,0 +1,215 @@
+{
+  "schema_version": "public-research-materials-1",
+  "cycle_id": "RC-006",
+  "research_cutoff": "2026-10-10",
+  "selected_retrievals_through": "2026-10-11",
+  "status": "staged_for_jared_and_digest",
+  "direct_http_exchange_count": 12,
+  "materials": [
+    {
+      "record_id": "API-aaup-court-documents-0001",
+      "request_url": "https://kfai-documents.s3.amazonaws.com/documents/baaa1684e1/Opinion.pdf",
+      "method": "GET",
+      "http_status": 200,
+      "started_at": "2026-10-10T06:44:16.156853+00:00",
+      "finished_at": "2026-10-10T06:44:20.668111+00:00",
+      "state": "response_received",
+      "exchange_file": "digestion/threshold/research/2026-10-10-postwar-ice/retrievals/aaup-court-documents/api/0001.json",
+      "body_file": "digestion/threshold/research/2026-10-10-postwar-ice/retrievals/aaup-court-documents/api/0001.pdf",
+      "body_bytes": 630835,
+      "body_sha256": "f3ae6ef28838d8e123a71c5eb57663f5d2330fcac9aecb3de4da512db5b4c65e",
+      "complete": true,
+      "source_ids": [
+        "R08"
+      ]
+    },
+    {
+      "record_id": "API-aaup-court-documents-0002",
+      "request_url": "https://kfai-documents.s3.amazonaws.com/documents/e554385609/Document.pdf",
+      "method": "GET",
+      "http_status": 200,
+      "started_at": "2026-10-10T06:44:20.674425+00:00",
+      "finished_at": "2026-10-10T06:44:24.335833+00:00",
+      "state": "response_received",
+      "exchange_file": "digestion/threshold/research/2026-10-10-postwar-ice/retrievals/aaup-court-documents/api/0002.json",
+      "body_file": "digestion/threshold/research/2026-10-10-postwar-ice/retrievals/aaup-court-documents/api/0002.pdf",
+      "body_bytes": 96552,
+      "body_sha256": "b83d5878873b5b0588ad96afd63c05adbcdf037f4f7ef94e9cf02d3d6b12bd63",
+      "complete": true,
+      "source_ids": [
+        "R10"
+      ]
+    },
+    {
+      "record_id": "API-aaup-court-documents-0003",
+      "request_url": "https://kfai-documents.s3.amazonaws.com/documents/66bd5dcfd8/judgment.pdf",
+      "method": "GET",
+      "http_status": 200,
+      "started_at": "2026-10-10T06:44:24.338226+00:00",
+      "finished_at": "2026-10-10T06:44:28.202443+00:00",
+      "state": "response_received",
+      "exchange_file": "digestion/threshold/research/2026-10-10-postwar-ice/retrievals/aaup-court-documents/api/0003.json",
+      "body_file": "digestion/threshold/research/2026-10-10-postwar-ice/retrievals/aaup-court-documents/api/0003.pdf",
+      "body_bytes": 271950,
+      "body_sha256": "72e9d21139f9773875b4281351afb3fd8445d29527cd772f93e6441c2dcb3fba",
+      "complete": true,
+      "source_ids": [
+        "R09"
+      ]
+    },
+    {
+      "record_id": "API-additional-public-documents-0001",
+      "request_url": "https://assets1.cbsnewsstatic.com/hub/cms/prod_cms_alt/file/2026/08/27/98a184b9-cebe-4a1e-8217-768f1f42e242/1.4.1-far_6.3_glove-rev_4_r_redacted.pdf",
+      "method": "GET",
+      "http_status": 200,
+      "started_at": "2026-10-10T06:42:02.235713+00:00",
+      "finished_at": "2026-10-10T06:42:07.214564+00:00",
+      "state": "response_received",
+      "exchange_file": "digestion/threshold/research/2026-10-10-postwar-ice/retrievals/additional-public-documents/api/0001.json",
+      "body_file": "digestion/threshold/research/2026-10-10-postwar-ice/retrievals/additional-public-documents/api/0001.pdf",
+      "body_bytes": 566228,
+      "body_sha256": "8947e7eef60be02877325e89ae60340fe6082ac6c9c34faed102933a39bc871e",
+      "complete": true,
+      "source_ids": [
+        "I04"
+      ]
+    },
+    {
+      "record_id": "API-additional-public-documents-0002",
+      "request_url": "https://www.govinfo.gov/content/pkg/PLAW-119publ98/html/PLAW-119publ98.htm",
+      "method": "GET",
+      "http_status": 200,
+      "started_at": "2026-10-10T06:42:07.220646+00:00",
+      "finished_at": "2026-10-10T06:42:10.961528+00:00",
+      "state": "response_received",
+      "exchange_file": "digestion/threshold/research/2026-10-10-postwar-ice/retrievals/additional-public-documents/api/0002.json",
+      "body_file": "digestion/threshold/research/2026-10-10-postwar-ice/retrievals/additional-public-documents/api/0002.txt",
+      "body_bytes": 14011,
+      "body_sha256": "732dfc91a7aa4269d00508789592bdb50993b3ee2c932b0cf0150699e6f828e8",
+      "complete": true,
+      "source_ids": [
+        "C04"
+      ]
+    },
+    {
+      "record_id": "API-additional-public-documents-0003",
+      "request_url": "https://www.gao.gov/products/gao-25-107580",
+      "method": "GET",
+      "http_status": 200,
+      "started_at": "2026-10-10T06:42:10.964427+00:00",
+      "finished_at": "2026-10-10T06:42:14.256013+00:00",
+      "state": "response_received",
+      "exchange_file": "digestion/threshold/research/2026-10-10-postwar-ice/retrievals/additional-public-documents/api/0003.json",
+      "body_file": "digestion/threshold/research/2026-10-10-postwar-ice/retrievals/additional-public-documents/api/0003.txt",
+      "body_bytes": 94012,
+      "body_sha256": "3b11e61fde1874f39348b9df2942044568afe47bb2165ace4d10ea752c3f4c98",
+      "complete": true,
+      "source_ids": [
+        "C05"
+      ]
+    },
+    {
+      "record_id": "API-adjacent-agencies-0001",
+      "request_url": "https://www.doi.gov/sites/default/files/document_secretarys_orders/so-3440-uspp-nps-org-9.2.2025_final-signed_508.pdf",
+      "method": "GET",
+      "http_status": 200,
+      "started_at": "2026-10-11T07:00:59.673545+00:00",
+      "finished_at": "2026-10-11T07:01:05.412689+00:00",
+      "state": "response_received",
+      "exchange_file": "digestion/threshold/research/2026-10-10-postwar-ice/retrievals/adjacent-agencies/api/0001.json",
+      "body_file": "digestion/threshold/research/2026-10-10-postwar-ice/retrievals/adjacent-agencies/api/0001.pdf",
+      "body_bytes": 268862,
+      "body_sha256": "99831e27c98eb375d5c2249bc711174911b5d9c3405120dbd27c885120a520ec",
+      "complete": true,
+      "source_ids": [
+        "A04"
+      ]
+    },
+    {
+      "record_id": "API-adjacent-agencies-0002",
+      "request_url": "https://www.congress.gov/crs_external_products/LSB/PDF/LSB10121/LSB10121.4.pdf",
+      "method": "GET",
+      "http_status": 200,
+      "started_at": "2026-10-11T07:01:05.416735+00:00",
+      "finished_at": "2026-10-11T07:01:09.395180+00:00",
+      "state": "response_received",
+      "exchange_file": "digestion/threshold/research/2026-10-10-postwar-ice/retrievals/adjacent-agencies/api/0002.json",
+      "body_file": "digestion/threshold/research/2026-10-10-postwar-ice/retrievals/adjacent-agencies/api/0002.pdf",
+      "body_bytes": 499761,
+      "body_sha256": "3b542dcdf5b6e122c851544f7fb0e17e4d135da5ddd5e8f12ad6b2670cb94e5b",
+      "complete": true,
+      "source_ids": [
+        "A06"
+      ]
+    },
+    {
+      "record_id": "API-court-dockets-0001",
+      "request_url": "https://www.supremecourt.gov/docket/docketfiles/html/public/26A406.html",
+      "method": "GET",
+      "http_status": 406,
+      "started_at": "2026-10-10T06:43:41.795245+00:00",
+      "finished_at": "2026-10-10T06:43:46.092001+00:00",
+      "state": "http_error",
+      "exchange_file": "digestion/threshold/research/2026-10-10-postwar-ice/retrievals/court-dockets/api/0001.json",
+      "body_file": "digestion/threshold/research/2026-10-10-postwar-ice/retrievals/court-dockets/api/0001.txt",
+      "body_bytes": 995,
+      "body_sha256": "0a0da2121e724fec0d4036984f68ad9987683008310899274c1ef9e1ad8c4040",
+      "complete": true,
+      "source_ids": [
+        "R03"
+      ]
+    },
+    {
+      "record_id": "API-court-dockets-0002",
+      "request_url": "https://www.supremecourt.gov/docket/docketfiles/html/public/26A90.html",
+      "method": "GET",
+      "http_status": 406,
+      "started_at": "2026-10-10T06:43:46.093512+00:00",
+      "finished_at": "2026-10-10T06:43:50.018959+00:00",
+      "state": "http_error",
+      "exchange_file": "digestion/threshold/research/2026-10-10-postwar-ice/retrievals/court-dockets/api/0002.json",
+      "body_file": "digestion/threshold/research/2026-10-10-postwar-ice/retrievals/court-dockets/api/0002.txt",
+      "body_bytes": 995,
+      "body_sha256": "0a0da2121e724fec0d4036984f68ad9987683008310899274c1ef9e1ad8c4040",
+      "complete": true,
+      "source_ids": [
+        "R06"
+      ]
+    },
+    {
+      "record_id": "API-gao-public-documents-0001",
+      "request_url": "https://www.gao.gov/assets/gao-26-108886.pdf",
+      "method": "GET",
+      "http_status": 200,
+      "started_at": "2026-10-10T00:54:55.899702+00:00",
+      "finished_at": "2026-10-10T00:54:59.324729+00:00",
+      "state": "response_received",
+      "exchange_file": "digestion/threshold/research/2026-10-10-postwar-ice/retrievals/gao-public-documents/api/0001.json",
+      "body_file": "digestion/threshold/research/2026-10-10-postwar-ice/retrievals/gao-public-documents/api/0001.pdf",
+      "body_bytes": 1908421,
+      "body_sha256": "7d5316dff4f3abd0c385a22d7a7a300ae40ceec358c16ca3ee39def202f17e85",
+      "complete": true,
+      "source_ids": []
+    },
+    {
+      "record_id": "API-gao-public-documents-0002",
+      "request_url": "https://www.gao.gov/assets/gao-26-108663.pdf",
+      "method": "GET",
+      "http_status": 200,
+      "started_at": "2026-10-10T00:54:59.338128+00:00",
+      "finished_at": "2026-10-10T00:55:02.471955+00:00",
+      "state": "response_received",
+      "exchange_file": "digestion/threshold/research/2026-10-10-postwar-ice/retrievals/gao-public-documents/api/0002.json",
+      "body_file": "digestion/threshold/research/2026-10-10-postwar-ice/retrievals/gao-public-documents/api/0002.pdf",
+      "body_bytes": 1026899,
+      "body_sha256": "07c4b2eeb319c8f565921f80ec038ef4f1865a541a0cfaf0dab4e225ccd68923",
+      "complete": true,
+      "source_ids": [
+        "C02"
+      ]
+    }
+  ],
+  "built_in_tools": "Parsed search/open outputs and access errors only; upstream raw HTTP and billing unavailable. Source catalogs/checkpoints preserve observable provenance; not represented as complete raw receipts.",
+  "external_inference": false,
+  "canonical_admission": false
+}

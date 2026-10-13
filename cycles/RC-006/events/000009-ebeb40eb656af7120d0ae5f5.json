@@ -1,0 +1,15 @@
+{
+  "at": "2026-10-11T20:02:15.210231+00:00",
+  "cycle_id": "RC-006",
+  "event_id": "ebeb40eb656af7120d0ae5f5",
+  "event_type": "agent_submission",
+  "hash": "43c755cbe0e189328e42ba6ac94eaf2b9fca7e2206aa89674b945888af10d02a",
+  "payload": {
+    "agent": "postwar_recovery",
+    "payload_hash": "cf0ab7124f8d52326ddfbfabf61b745f1e06ab918592f36c60910b1309568f02",
+    "phase": "submitted",
+    "submission_id": "1640f93a4bb83bb6a3275d069e6492041b4a348772d10dc49fa2fb8337112d63"
+  },
+  "previous_hash": "8d6c9e2161aa16d468064933f10af04069e88976318b0f601f63a5ae3aa45b39",
+  "sequence": 9
+}

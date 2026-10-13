@@ -1,0 +1,2367 @@
+{
+  "schema_version": "institutional-research-combined-ledger-1",
+  "research_cutoff": "2026-10-10",
+  "selected_retrievals_through": "2026-10-11",
+  "status": "staged_for_jared_and_digest",
+  "record_count": 92,
+  "date_policy": "Original lane payloads retained without normalization. Fiscal years, ranges, event dates, publication dates, retrieval dates and update months are distinct. Chronological display sorts by label, not inferred day.",
+  "duplication_policy": "Some records describe overlapping parts of one development; record count is not a count of independent events. See aliases.",
+  "aliases": [
+    {
+      "ids": [
+        "PH22",
+        "DH01"
+      ],
+      "relationship": "Same2002 enactment, different analytical scopes"
+    },
+    {
+      "ids": [
+        "PH23",
+        "DH02"
+      ],
+      "relationship": "Same2003 organizational transfer, ICE and department scopes"
+    },
+    {
+      "ids": [
+        "IO06",
+        "IC01",
+        "DH11"
+      ],
+      "relationship": "Overlapping provisions of same2025 appropriations act"
+    }
+  ],
+  "entries": [
+    {
+      "record_file": "history_events.json",
+      "record": {
+        "event_id": "PH01",
+        "event_date": "1945",
+        "date_precision": "year",
+        "effective_date": null,
+        "publication_date": null,
+        "retrieved_date_utc": "2026-10-10",
+        "lane": "accountability",
+        "title": "Postwar accountability and rights baseline",
+        "implementation_status": "historical enacted/issued/reported milestone; scope as described",
+        "source_ids": [
+          "H01",
+          "H02",
+          "H03"
+        ],
+        "source_families": [
+          "UN Charter",
+          "Nuremberg IMT Charter",
+          "NARA Nuremberg record guide"
+        ],
+        "previous_state": "Earlier institutional arrangements; see adjacent milestones",
+        "new_state": "UN Charter articulates equal rights; Nuremberg charter rejects official-position or superior-order immunity. Major trial opensNovember20.",
+        "check_or_counterevidence": "Institutions assert constraints on state power.",
+        "uncertainty": "Unequal application and enforcement effectiveness not audited.",
+        "continuity_assessment": "historical baseline; not a proven linear causal chain",
+        "locator": "See linked source catalog locators",
+        "discovery_status": "Late discovery: retrospective intake, not a new2026event"
+      }
+    },
+    {
+      "record_file": "history_events.json",
+      "record": {
+        "event_id": "PH02",
+        "event_date": "1947-03-21",
+        "date_precision": "day",
+        "effective_date": "1947-03-21",
+        "publication_date": "1947-03-21",
+        "retrieved_date_utc": "2026-10-10",
+        "lane": "personnel",
+        "title": "Federal loyalty screening",
+        "implementation_status": "historical enacted/issued/reported milestone; scope as described",
+        "source_ids": [
+          "H04"
+        ],
+        "source_families": [
+          "EO9835"
+        ],
+        "previous_state": "Earlier institutional arrangements; see adjacent milestones",
+        "new_state": "EO9835 links civilian employment to loyalty review and cross-agency information.",
+        "check_or_counterevidence": "Notice, counsel, hearing and internal appeals coexist with secrecy and suspension.",
+        "uncertainty": "Formal process does not measure practical fairness.",
+        "continuity_assessment": "historical baseline; not a proven linear causal chain",
+        "locator": "See linked source catalog locators",
+        "discovery_status": "Late discovery: retrospective intake, not a new2026event"
+      }
+    },
+    {
+      "record_file": "history_events.json",
+      "record": {
+        "event_id": "PH03",
+        "event_date": "1947-07-26",
+        "date_precision": "day",
+        "effective_date": null,
+        "publication_date": "1947-07-26",
+        "retrieved_date_utc": "2026-10-10",
+        "lane": "governance",
+        "title": "National-security architecture",
+        "implementation_status": "historical enacted/issued/reported milestone; scope as described",
+        "source_ids": [
+          "H05"
+        ],
+        "source_families": [
+          "National Security Act 1947"
+        ],
+        "previous_state": "Earlier institutional arrangements; see adjacent milestones",
+        "new_state": "CreatesNSC/CIA and coordinates military departments under civilian control.",
+        "check_or_counterevidence": "CIA expressly lacks police and internal-security powers.",
+        "uncertainty": "Later departures from charter require their own evidence.",
+        "continuity_assessment": "historical baseline; not a proven linear causal chain",
+        "locator": "See linked source catalog locators",
+        "discovery_status": "Late discovery: retrospective intake, not a new2026event"
+      }
+    },
+    {
+      "record_file": "history_events.json",
+      "record": {
+        "event_id": "PH04",
+        "event_date": "1948-07-26",
+        "date_precision": "day",
+        "effective_date": null,
+        "publication_date": "1948-07-26",
+        "retrieved_date_utc": "2026-10-10",
+        "lane": "conscience",
+        "title": "Military equality order",
+        "implementation_status": "historical enacted/issued/reported milestone; scope as described",
+        "source_ids": [
+          "H06"
+        ],
+        "source_families": [
+          "EO9981"
+        ],
+        "previous_state": "Earlier institutional arrangements; see adjacent milestones",
+        "new_state": "EO9981 directs equal treatment regardless of race,color,religion,national origin.",
+        "check_or_counterevidence": "Implementation committee can examine rules and demand records.",
+        "uncertainty": "Resistance and delayed practice distinguish order from outcome.",
+        "continuity_assessment": "historical baseline; not a proven linear causal chain",
+        "locator": "See linked source catalog locators",
+        "discovery_status": "Late discovery: retrospective intake, not a new2026event"
+      }
+    },
+    {
+      "record_file": "history_events.json",
+      "record": {
+        "event_id": "PH05",
+        "event_date": "1950-05-05",
+        "date_precision": "day",
+        "effective_date": "1951-05-31",
+        "publication_date": "1952",
+        "retrieved_date_utc": "2026-10-10",
+        "lane": "legal_oversight",
+        "title": "Uniform military justice",
+        "implementation_status": "historical enacted/issued/reported milestone; scope as described",
+        "source_ids": [
+          "H07"
+        ],
+        "source_families": [
+          "UCMJ1950 historical codification"
+        ],
+        "previous_state": "Earlier institutional arrangements; see adjacent milestones",
+        "new_state": "UCMJ consolidates service law; civilian Court of Military Appeals added.",
+        "check_or_counterevidence": "Review is institutionally distinct from commanders.",
+        "uncertainty": "Later reform and current independence not established by original text.",
+        "continuity_assessment": "historical baseline; not a proven linear causal chain",
+        "locator": "See linked source catalog locators",
+        "discovery_status": "Late discovery: retrospective intake, not a new2026event"
+      }
+    },
+    {
+      "record_file": "history_events.json",
+      "record": {
+        "event_id": "PH06",
+        "event_date": "1950-09-23",
+        "date_precision": "day",
+        "effective_date": null,
+        "publication_date": null,
+        "retrieved_date_utc": "2026-10-10",
+        "lane": "detention",
+        "title": "Emergency detention title",
+        "implementation_status": "historical enacted/issued/reported milestone; scope as described",
+        "source_ids": [
+          "H08",
+          "H09"
+        ],
+        "source_families": [
+          "Emergency Detention Act1950",
+          "Non-Detention Act1971"
+        ],
+        "previous_state": "Earlier institutional arrangements; see adjacent milestones",
+        "new_state": "Internal Security Act includes emergency-detention machinery later expressly repealed.",
+        "check_or_counterevidence": "1971 repeal supplies a documented reversal.",
+        "uncertainty": "Original1950title unavailable; detailed powers and actual use not reconstructed.",
+        "continuity_assessment": "historical baseline; not a proven linear causal chain",
+        "locator": "See linked source catalog locators",
+        "discovery_status": "Late discovery: retrospective intake, not a new2026event"
+      }
+    },
+    {
+      "record_file": "history_events.json",
+      "record": {
+        "event_id": "PH07",
+        "event_date": "1952-06-27",
+        "date_precision": "day",
+        "effective_date": "1952-12-24",
+        "publication_date": null,
+        "retrieved_date_utc": "2026-10-10",
+        "lane": "immigration",
+        "title": "Immigration and Nationality Act",
+        "implementation_status": "historical enacted/issued/reported milestone; scope as described",
+        "source_ids": [
+          "H10",
+          "H11"
+        ],
+        "source_families": [
+          "State Department INA1952 history"
+        ],
+        "previous_state": "Earlier institutional arrangements; see adjacent milestones",
+        "new_state": "National-origins quotas continue while racial naturalization exclusions end.",
+        "check_or_counterevidence": "Partial inclusion and continuing exclusion coexist.",
+        "uncertainty": "Official history rather than full original law audited.",
+        "continuity_assessment": "historical baseline; not a proven linear causal chain",
+        "locator": "See linked source catalog locators",
+        "discovery_status": "Late discovery: retrospective intake, not a new2026event"
+      }
+    },
+    {
+      "record_file": "history_events.json",
+      "record": {
+        "event_id": "PH08",
+        "event_date": "1954",
+        "date_precision": "year",
+        "effective_date": null,
+        "publication_date": null,
+        "retrieved_date_utc": "2026-10-10",
+        "lane": "immigration",
+        "title": "Operation Wetback",
+        "implementation_status": "historical enacted/issued/reported milestone; scope as described",
+        "source_ids": [
+          "H12"
+        ],
+        "source_families": [
+          "USCIS INS history"
+        ],
+        "previous_state": "Earlier institutional arrangements; see adjacent milestones",
+        "new_state": "USCIS history identifies a targeted Mexican-border deportation initiative.",
+        "check_or_counterevidence": "Earlier INS enforcement prevents treating2003as the origin of deportation power.",
+        "uncertainty": "Indexed official excerpt only; no operation totals accepted.",
+        "continuity_assessment": "historical baseline; not a proven linear causal chain",
+        "locator": "See linked source catalog locators",
+        "discovery_status": "Late discovery: retrospective intake, not a new2026event"
+      }
+    },
+    {
+      "record_file": "history_events.json",
+      "record": {
+        "event_id": "PH09",
+        "event_date": "1955-08-17",
+        "date_precision": "day",
+        "effective_date": null,
+        "publication_date": "1955-08-17",
+        "retrieved_date_utc": "2026-10-10",
+        "lane": "conscience",
+        "title": "Combat/captivity Code of Conduct",
+        "implementation_status": "historical enacted/issued/reported milestone; scope as described",
+        "source_ids": [
+          "H13"
+        ],
+        "source_families": [
+          "Military Code of Conduct"
+        ],
+        "previous_state": "Earlier institutional arrangements; see adjacent milestones",
+        "new_state": "EO10631 contains religious language and standards for captured or combat personnel.",
+        "check_or_counterevidence": "Stated scope differs from a general advancement test.",
+        "uncertainty": "Codified page incorporates amendments; actual inclusion/coercion not measured.",
+        "continuity_assessment": "historical baseline; not a proven linear causal chain",
+        "locator": "See linked source catalog locators",
+        "discovery_status": "Late discovery: retrospective intake, not a new2026event"
+      }
+    },
+    {
+      "record_file": "history_events.json",
+      "record": {
+        "event_id": "PH10",
+        "event_date": "1961-01-17",
+        "date_precision": "day",
+        "effective_date": null,
+        "publication_date": "1961-01-17",
+        "retrieved_date_utc": "2026-10-10",
+        "lane": "political_economy",
+        "title": "Eisenhower institutional warning",
+        "implementation_status": "historical enacted/issued/reported milestone; scope as described",
+        "source_ids": [
+          "H14"
+        ],
+        "source_families": [
+          "Eisenhower farewell"
+        ],
+        "previous_state": "Earlier institutional arrangements; see adjacent milestones",
+        "new_state": "Farewell warns of unwarranted influence from permanent military/industry structures.",
+        "check_or_counterevidence": "Public accountability is presented as a necessary counterweight.",
+        "uncertainty": "Warning is not proof of later coordinated intent.",
+        "continuity_assessment": "historical baseline; not a proven linear causal chain",
+        "locator": "See linked source catalog locators",
+        "discovery_status": "Late discovery: retrospective intake, not a new2026event"
+      }
+    },
+    {
+      "record_file": "history_events.json",
+      "record": {
+        "event_id": "PH11",
+        "event_date": "1965-10-03",
+        "date_precision": "day",
+        "effective_date": null,
+        "publication_date": "1965-10-03",
+        "retrieved_date_utc": "2026-10-10",
+        "lane": "immigration",
+        "title": "Immigration selection revised",
+        "implementation_status": "historical enacted/issued/reported milestone; scope as described",
+        "source_ids": [
+          "H15"
+        ],
+        "source_families": [
+          "INA1965"
+        ],
+        "previous_state": "Earlier institutional arrangements; see adjacent milestones",
+        "new_state": "Hart–Celler changes quota allocation and preferences.",
+        "check_or_counterevidence": "National-origins selection is dismantled through legislation.",
+        "uncertainty": "Numerical limits and exclusion persist; transition not instantaneous.",
+        "continuity_assessment": "historical baseline; not a proven linear causal chain",
+        "locator": "See linked source catalog locators",
+        "discovery_status": "Late discovery: retrospective intake, not a new2026event"
+      }
+    },
+    {
+      "record_file": "history_events.json",
+      "record": {
+        "event_id": "PH12",
+        "event_date": "1970-06-15",
+        "date_precision": "day",
+        "effective_date": null,
+        "publication_date": "1970-06-15",
+        "retrieved_date_utc": "2026-10-10",
+        "lane": "conscience",
+        "title": "Nontraditional conscience recognized",
+        "implementation_status": "historical enacted/issued/reported milestone; scope as described",
+        "source_ids": [
+          "H16"
+        ],
+        "source_families": [
+          "Welsh conscientious objection"
+        ],
+        "previous_state": "Earlier institutional arrangements; see adjacent milestones",
+        "new_state": "Welsh reverses denial of conscientious objection based on deep moral/ethical conviction.",
+        "check_or_counterevidence": "Religious labeling need not determine eligibility.",
+        "uncertainty": "Opposition to war in any form; not every policy disagreement.",
+        "continuity_assessment": "historical baseline; not a proven linear causal chain",
+        "locator": "See linked source catalog locators",
+        "discovery_status": "Late discovery: retrospective intake, not a new2026event"
+      }
+    },
+    {
+      "record_file": "history_events.json",
+      "record": {
+        "event_id": "PH13",
+        "event_date": "1971-09-25",
+        "date_precision": "day",
+        "effective_date": "1971-09-25",
+        "publication_date": "1971-09-25",
+        "retrieved_date_utc": "2026-10-10",
+        "lane": "detention",
+        "title": "Detention authority repealed and limited",
+        "implementation_status": "historical enacted/issued/reported milestone; scope as described",
+        "source_ids": [
+          "H09"
+        ],
+        "source_families": [
+          "Non-Detention Act1971"
+        ],
+        "previous_state": "Earlier institutional arrangements; see adjacent milestones",
+        "new_state": "Congress repeals1950TitleII; federal citizen detention requires an Act of Congress.",
+        "check_or_counterevidence": "Statutory reversal is a real constraint.",
+        "uncertainty": "Not an absolute bar and not a universal noncitizen remedy.",
+        "continuity_assessment": "historical baseline; not a proven linear causal chain",
+        "locator": "See linked source catalog locators",
+        "discovery_status": "Late discovery: retrospective intake, not a new2026event"
+      }
+    },
+    {
+      "record_file": "history_events.json",
+      "record": {
+        "event_id": "PH14",
+        "event_date": "1972-06-26",
+        "date_precision": "day",
+        "effective_date": null,
+        "publication_date": "1972-06-26",
+        "retrieved_date_utc": "2026-10-10",
+        "lane": "oversight",
+        "title": "Army surveillance challenge loses on standing",
+        "implementation_status": "historical enacted/issued/reported milestone; scope as described",
+        "source_ids": [
+          "H17"
+        ],
+        "source_families": [
+          "Laird domestic Army surveillance challenge"
+        ],
+        "previous_state": "Earlier institutional arrangements; see adjacent milestones",
+        "new_state": "Laird rejects subjective chill as sufficient injury in the case.",
+        "check_or_counterevidence": "Judicial challenge can fail before underlying conduct receives merits review.",
+        "uncertainty": "Not blanket approval of military surveillance.",
+        "continuity_assessment": "historical baseline; not a proven linear causal chain",
+        "locator": "See linked source catalog locators",
+        "discovery_status": "Late discovery: retrospective intake, not a new2026event"
+      }
+    },
+    {
+      "record_file": "history_events.json",
+      "record": {
+        "event_id": "PH15",
+        "event_date": "1975/1978",
+        "date_precision": "range",
+        "effective_date": null,
+        "publication_date": null,
+        "retrieved_date_utc": "2026-10-10",
+        "lane": "oversight",
+        "title": "Church investigation and surveillance oversight",
+        "implementation_status": "historical enacted/issued/reported milestone; scope as described",
+        "source_ids": [
+          "H18",
+          "H19"
+        ],
+        "source_families": [
+          "Church Committee1975–1976",
+          "FISA1978"
+        ],
+        "previous_state": "Earlier institutional arrangements; see adjacent milestones",
+        "new_state": "Senate exposes intelligence abuses;1976report/oversight committee precede1978FISA.",
+        "check_or_counterevidence": "Public investigation can produce institutional repair.",
+        "uncertainty": "OriginalBookIIunavailable; FISA has defined scope and exceptions.",
+        "continuity_assessment": "historical baseline; not a proven linear causal chain",
+        "locator": "See linked source catalog locators",
+        "discovery_status": "Late discovery: retrospective intake, not a new2026event"
+      }
+    },
+    {
+      "record_file": "history_events.json",
+      "record": {
+        "event_id": "PH16",
+        "event_date": "1980-03-17",
+        "date_precision": "day",
+        "effective_date": null,
+        "publication_date": "1980-03-17",
+        "retrieved_date_utc": "2026-10-10",
+        "lane": "refugee_protection",
+        "title": "Refugee protection framework",
+        "implementation_status": "historical enacted/issued/reported milestone; scope as described",
+        "source_ids": [
+          "H20"
+        ],
+        "source_families": [
+          "Refugee Act1980"
+        ],
+        "previous_state": "Earlier institutional arrangements; see adjacent milestones",
+        "new_state": "RefugeeAct regularizes admissions/resettlement and consultation around persecution-based protection.",
+        "check_or_counterevidence": "Protection and organized resettlement are part of the state architecture.",
+        "uncertainty": "Original18-page scan not fully audited; delivery depends on policy/resources.",
+        "continuity_assessment": "historical baseline; not a proven linear causal chain",
+        "locator": "See linked source catalog locators",
+        "discovery_status": "Late discovery: retrospective intake, not a new2026event"
+      }
+    },
+    {
+      "record_file": "history_events.json",
+      "record": {
+        "event_id": "PH17",
+        "event_date": "1981-12-01",
+        "date_precision": "day",
+        "effective_date": null,
+        "publication_date": "1983-07-28",
+        "retrieved_date_utc": "2026-10-10",
+        "lane": "military_civilian_bridge",
+        "title": "Military assistance to civilian enforcement expands",
+        "implementation_status": "historical enacted/issued/reported milestone; scope as described",
+        "source_ids": [
+          "H21"
+        ],
+        "source_families": [
+          "GAO military drug-interdiction review1983"
+        ],
+        "previous_state": "Earlier institutional arrangements; see adjacent milestones",
+        "new_state": "Legislation facilitates support;GAO1983reports more military drug-interdiction assistance.",
+        "check_or_counterevidence": "Coordination and military-readiness limits remain relevant.",
+        "uncertainty": "Original act not retrieved; GAO operational evidence bounded to its review.",
+        "continuity_assessment": "historical baseline; not a proven linear causal chain",
+        "locator": "See linked source catalog locators",
+        "discovery_status": "Late discovery: retrospective intake, not a new2026event"
+      }
+    },
+    {
+      "record_file": "history_events.json",
+      "record": {
+        "event_id": "PH18",
+        "event_date": "1996-09-23",
+        "date_precision": "day",
+        "effective_date": null,
+        "publication_date": "1996-09-23",
+        "retrieved_date_utc": "2026-10-10",
+        "lane": "equipment_transfer",
+        "title": "Excess military equipment transfer authority",
+        "implementation_status": "historical enacted/issued/reported milestone; scope as described",
+        "source_ids": [
+          "H22"
+        ],
+        "source_families": [
+          "NDAA1997 section1033"
+        ],
+        "previous_state": "Earlier institutional arrangements; see adjacent milestones",
+        "new_state": "NDAA§1033authorizes suitable excess DoD property for federal/state law enforcement.",
+        "check_or_counterevidence": "Transfers have statutory conditions.",
+        "uncertainty": "Authority alone establishes neither a specific shipment nor misuse.",
+        "continuity_assessment": "historical baseline; not a proven linear causal chain",
+        "locator": "See linked source catalog locators",
+        "discovery_status": "Late discovery: retrospective intake, not a new2026event"
+      }
+    },
+    {
+      "record_file": "history_events.json",
+      "record": {
+        "event_id": "PH19",
+        "event_date": "1996-09-30",
+        "date_precision": "day",
+        "effective_date": null,
+        "publication_date": "1996-09-30",
+        "retrieved_date_utc": "2026-10-10",
+        "lane": "immigration",
+        "title": "Enforcement delegation and faster removal",
+        "implementation_status": "historical enacted/issued/reported milestone; scope as described",
+        "source_ids": [
+          "H23"
+        ],
+        "source_families": [
+          "IIRIRA1996"
+        ],
+        "previous_state": "Earlier institutional arrangements; see adjacent milestones",
+        "new_state": "IIRIRA adds287(g),expedited removal and a closed-base detention pilot.",
+        "check_or_counterevidence": "Training/supervision and fear/asylum referral specified.",
+        "uncertainty": "TitleIII-A generally effectiveApril1,1997; implementation separate.",
+        "continuity_assessment": "historical baseline; not a proven linear causal chain",
+        "locator": "See linked source catalog locators",
+        "discovery_status": "Late discovery: retrospective intake, not a new2026event"
+      }
+    },
+    {
+      "record_file": "history_events.json",
+      "record": {
+        "event_id": "PH20",
+        "event_date": "2001-09-18",
+        "date_precision": "day",
+        "effective_date": null,
+        "publication_date": "2001-09-18",
+        "retrieved_date_utc": "2026-10-10",
+        "lane": "military_authority",
+        "title": "September11 force authorization",
+        "implementation_status": "historical enacted/issued/reported milestone; scope as described",
+        "source_ids": [
+          "H24"
+        ],
+        "source_families": [
+          "AUMF2001"
+        ],
+        "previous_state": "Earlier institutional arrangements; see adjacent milestones",
+        "new_state": "AUMF authorizes force tied to those responsible for9/11and harborers.",
+        "check_or_counterevidence": "Statutory target connection matters.",
+        "uncertainty": "Later interpretations excluded; not ICE authority.",
+        "continuity_assessment": "historical baseline; not a proven linear causal chain",
+        "locator": "See linked source catalog locators",
+        "discovery_status": "Late discovery: retrospective intake, not a new2026event"
+      }
+    },
+    {
+      "record_file": "history_events.json",
+      "record": {
+        "event_id": "PH21",
+        "event_date": "2001-10-26",
+        "date_precision": "day",
+        "effective_date": null,
+        "publication_date": "2001-10-26",
+        "retrieved_date_utc": "2026-10-10",
+        "lane": "detention",
+        "title": "PATRIOT security-detention provision",
+        "implementation_status": "historical enacted/issued/reported milestone; scope as described",
+        "source_ids": [
+          "H25"
+        ],
+        "source_families": [
+          "PATRIOT2001"
+        ],
+        "previous_state": "Earlier institutional arrangements; see adjacent milestones",
+        "new_state": "§412provides detention for certified noncitizens on specified security grounds.",
+        "check_or_counterevidence": "Seven-day proceedings/charge rule, periodic review, habeas route.",
+        "uncertainty": "No actual use or current litigation measured.",
+        "continuity_assessment": "historical baseline; not a proven linear causal chain",
+        "locator": "See linked source catalog locators",
+        "discovery_status": "Late discovery: retrospective intake, not a new2026event"
+      }
+    },
+    {
+      "record_file": "dhs_events.json",
+      "record": {
+        "event_id": "DH01",
+        "event_date": "2002-11-25",
+        "date_precision": "day",
+        "effective_date": null,
+        "publication_date": "2002-11-25",
+        "retrieved_date_utc": "2026-10-11",
+        "lane": "dhs_institutions",
+        "title": "Homeland Security Act creates department",
+        "implementation_status": "Historical enacted, directed, deployed or reported milestone as explicitly distinguished",
+        "source_ids": [
+          "D20"
+        ],
+        "source_families": [
+          "Homeland Security Act 2002"
+        ],
+        "previous_state": "See adjacent milestones; not a claim that predecessor functions were absent",
+        "new_state": "Creates DHS and separates legacy immigration functions.",
+        "check_or_counterevidence": "Statutory privacy and civil-rights offices; organizational limits matter.",
+        "uncertainty": "Enactment is not the date all transfers finished.",
+        "continuity_assessment": "Specific coordination or capacity mechanism; not an inevitable causal chain",
+        "locator": "See source catalog locators",
+        "discovery_status": "Retrospective intake; not a newly occurring October 2026 event"
+      }
+    },
+    {
+      "record_file": "history_events.json",
+      "record": {
+        "event_id": "PH22",
+        "event_date": "2002-11-25",
+        "date_precision": "day",
+        "effective_date": null,
+        "publication_date": "2002-11-25",
+        "retrieved_date_utc": "2026-10-10",
+        "lane": "governance",
+        "title": "Homeland Security Act",
+        "implementation_status": "historical enacted/issued/reported milestone; scope as described",
+        "source_ids": [
+          "H26"
+        ],
+        "source_families": [
+          "Homeland Security Act2002"
+        ],
+        "previous_state": "Earlier institutional arrangements; see adjacent milestones",
+        "new_state": "CreatesDHS and separates legacy immigration functions.",
+        "check_or_counterevidence": "Law bars recombining specified enforcement/services bureaus.",
+        "uncertainty": "Administrative distinction does not by itself ensure fair outcomes.",
+        "continuity_assessment": "historical baseline; not a proven linear causal chain",
+        "locator": "See linked source catalog locators",
+        "discovery_status": "Late discovery: retrospective intake, not a new2026event"
+      }
+    },
+    {
+      "record_file": "ice_operations_events.json",
+      "record": {
+        "event_id": "IO01",
+        "event_date": "2003",
+        "publication_date": "2020-09-10",
+        "retrieved_date_utc": "2026-10-10",
+        "title": "HSI tactical-team origin",
+        "source_ids": [
+          "I09"
+        ],
+        "claim": "GAO places investigative tactical-team establishment at ICE formation.",
+        "status": "documented",
+        "limitations": "Retrospective2020 description, not original2003 order.",
+        "discovery": "Late discovery"
+      }
+    },
+    {
+      "record_file": "dhs_events.json",
+      "record": {
+        "event_id": "DH02",
+        "event_date": "2003-03-01",
+        "date_precision": "day",
+        "effective_date": "2003-03-01",
+        "publication_date": "2004-03-02",
+        "retrieved_date_utc": "2026-10-11",
+        "lane": "dhs_institutions",
+        "title": "Organizational merger takes effect",
+        "implementation_status": "Historical enacted, directed, deployed or reported milestone as explicitly distinguished",
+        "source_ids": [
+          "D01",
+          "D02",
+          "D03",
+          "D04"
+        ],
+        "source_families": [
+          "DHS organizational history",
+          "DHS organization",
+          "DOJ EOIR",
+          "Coast Guard statutory status"
+        ],
+        "previous_state": "See adjacent milestones; not a claim that predecessor functions were absent",
+        "new_state": "Personnel from 22 predecessor organizations join DHS.",
+        "check_or_counterevidence": "EOIR stays in DOJ; Coast Guard retains military status.",
+        "uncertainty": "A Cabinet umbrella does not give every component identical authorities.",
+        "continuity_assessment": "Specific coordination or capacity mechanism; not an inevitable causal chain",
+        "locator": "See source catalog locators",
+        "discovery_status": "Retrospective intake; not a newly occurring October 2026 event"
+      }
+    },
+    {
+      "record_file": "history_events.json",
+      "record": {
+        "event_id": "PH23",
+        "event_date": "2003-03-01",
+        "date_precision": "day",
+        "effective_date": "2003-03-01",
+        "publication_date": "2004-06-15",
+        "retrieved_date_utc": "2026-10-10",
+        "lane": "agency_formation",
+        "title": "ICE operational formation",
+        "implementation_status": "historical enacted/issued/reported milestone; scope as described",
+        "source_ids": [
+          "H27",
+          "H26"
+        ],
+        "source_families": [
+          "ICE leadership2004 institutional account",
+          "Homeland Security Act2002"
+        ],
+        "previous_state": "Earlier institutional arrangements; see adjacent milestones",
+        "new_state": "Combines legacy immigration and customs enforcement capacities inDHS.",
+        "check_or_counterevidence": "Civilian law-enforcement agency remains institutionally distinct from armed services.",
+        "uncertainty": "2004agency account; current structure and performance require separate evidence.",
+        "continuity_assessment": "historical baseline; not a proven linear causal chain",
+        "locator": "See linked source catalog locators",
+        "discovery_status": "Late discovery: retrospective intake, not a new2026event"
+      }
+    },
+    {
+      "record_file": "ice_operations_events.json",
+      "record": {
+        "event_id": "IO02",
+        "event_date": "FY2004",
+        "publication_date": "2020-09-10",
+        "retrieved_date_utc": "2026-10-10",
+        "title": "ERO tactical-team origin",
+        "source_ids": [
+          "I09"
+        ],
+        "claim": "GAO dates removal-side response teams toFY2004.",
+        "status": "documented",
+        "limitations": "Historical baseline, not current deployment.",
+        "discovery": "Late discovery"
+      }
+    },
+    {
+      "record_file": "dhs_events.json",
+      "record": {
+        "event_id": "DH03",
+        "event_date": "2004-01-05",
+        "date_precision": "day",
+        "effective_date": "2004-01-05",
+        "publication_date": "2004-05",
+        "retrieved_date_utc": "2026-10-11",
+        "lane": "dhs_institutions",
+        "title": "US-VISIT initial biometric deployment",
+        "implementation_status": "Historical enacted, directed, deployed or reported milestone as explicitly distinguished",
+        "source_ids": [
+          "D05"
+        ],
+        "source_families": [
+          "US-VISIT oversight"
+        ],
+        "previous_state": "See adjacent milestones; not a claim that predecessor functions were absent",
+        "new_state": "Initial port-of-entry biometric capability becomes operational.",
+        "check_or_counterevidence": "GAO identifies planning, testing and implementation gaps.",
+        "uncertainty": "Exit capability is incomplete; no net security-benefit estimate adopted.",
+        "continuity_assessment": "Specific coordination or capacity mechanism; not an inevitable causal chain",
+        "locator": "See source catalog locators",
+        "discovery_status": "Retrospective intake; not a newly occurring October 2026 event"
+      }
+    },
+    {
+      "record_file": "agency_events.json",
+      "record": {
+        "event_id": "AM01",
+        "event_date": "2006/2010",
+        "date_precision": "range",
+        "effective_date": null,
+        "publication_date": "2023-06-15",
+        "retrieved_date_utc": "2026-10-11",
+        "lane": "adjacent_agencies",
+        "title": "Guard support to CBP under Bush and Obama",
+        "implementation_status": "historical operations described",
+        "source_ids": [
+          "A06"
+        ],
+        "source_families": [
+          "CRS border-support legal baseline"
+        ],
+        "previous_state": "See cited institutional baseline",
+        "new_state": "Jump Start2006–2008; Phalanx2010.",
+        "check_or_counterevidence": "Command, legal authority and actual conduct must be distinguished",
+        "uncertainty": "Not continuous2006–2010 deployment or direct arrest authority",
+        "continuity_assessment": "documented connection or authority change; not a unified-program finding",
+        "locator": null,
+        "discovery_status": "Late discovery in RC-006 supplement"
+      }
+    },
+    {
+      "record_file": "dhs_events.json",
+      "record": {
+        "event_id": "DH04",
+        "event_date": "2007-08-03",
+        "date_precision": "day",
+        "effective_date": null,
+        "publication_date": "2007-08-03",
+        "retrieved_date_utc": "2026-10-11",
+        "lane": "dhs_institutions",
+        "title": "DHS fusion-center initiative legislated",
+        "implementation_status": "Historical enacted, directed, deployed or reported milestone as explicitly distinguished",
+        "source_ids": [
+          "D06"
+        ],
+        "source_families": [
+          "DHS fusion-center authority"
+        ],
+        "previous_state": "See adjacent milestones; not a claim that predecessor functions were absent",
+        "new_state": "Formalizes a federal initiative supporting state, local and regional intelligence coordination.",
+        "check_or_counterevidence": "Distinct local ownership and missions remain.",
+        "uncertainty": "Authority is not proof of uniform implementation or benefit.",
+        "continuity_assessment": "Specific coordination or capacity mechanism; not an inevitable causal chain",
+        "locator": "See source catalog locators",
+        "discovery_status": "Retrospective intake; not a newly occurring October 2026 event"
+      }
+    },
+    {
+      "record_file": "dhs_events.json",
+      "record": {
+        "event_id": "DH05",
+        "event_date": "2008",
+        "date_precision": "year",
+        "effective_date": null,
+        "publication_date": "2012-07",
+        "retrieved_date_utc": "2026-10-11",
+        "lane": "dhs_institutions",
+        "title": "Secure Communities links booking checks and immigration systems",
+        "implementation_status": "Historical enacted, directed, deployed or reported milestone as explicitly distinguished",
+        "source_ids": [
+          "D08"
+        ],
+        "source_families": [
+          "Secure Communities oversight"
+        ],
+        "previous_state": "See adjacent milestones; not a claim that predecessor functions were absent",
+        "new_state": "Local fingerprint submissions through FBI can trigger DHS checks and ICE review.",
+        "check_or_counterevidence": "GAO documents incomplete data and removals without known convictions.",
+        "uncertainty": "Start is verified to year; October is the beginning of the reviewed removal series.",
+        "continuity_assessment": "Specific coordination or capacity mechanism; not an inevitable causal chain",
+        "locator": "See source catalog locators",
+        "discovery_status": "Retrospective intake; not a newly occurring October 2026 event"
+      }
+    },
+    {
+      "record_file": "dhs_events.json",
+      "record": {
+        "event_id": "DH06",
+        "event_date": "2012-10-03",
+        "date_precision": "day",
+        "effective_date": null,
+        "publication_date": "2012-10-03",
+        "retrieved_date_utc": "2026-10-11",
+        "lane": "dhs_institutions",
+        "title": "Senate challenges fusion-center reporting and safeguards",
+        "implementation_status": "Historical enacted, directed, deployed or reported milestone as explicitly distinguished",
+        "source_ids": [
+          "D07"
+        ],
+        "source_families": [
+          "Senate fusion-center oversight"
+        ],
+        "previous_state": "See adjacent milestones; not a claim that predecessor functions were absent",
+        "new_state": "Oversight report identifies weak federal counterterrorism reporting and privacy concerns.",
+        "check_or_counterevidence": "Privacy review blocked some reports; local benefits are not ruled out.",
+        "uncertainty": "Investigated reporting window and federal purpose limit generalization.",
+        "continuity_assessment": "Specific coordination or capacity mechanism; not an inevitable causal chain",
+        "locator": "See source catalog locators",
+        "discovery_status": "Retrospective intake; not a newly occurring October 2026 event"
+      }
+    },
+    {
+      "record_file": "dhs_events.json",
+      "record": {
+        "event_id": "DH07",
+        "event_date": "2014-11-20",
+        "date_precision": "day",
+        "effective_date": null,
+        "publication_date": "2014-11-20",
+        "retrieved_date_utc": "2026-10-11",
+        "lane": "dhs_institutions",
+        "title": "Secure Communities replaced by Priority Enforcement Program",
+        "implementation_status": "Historical enacted, directed, deployed or reported milestone as explicitly distinguished",
+        "source_ids": [
+          "D09"
+        ],
+        "source_families": [
+          "DHS Secure Communities policy"
+        ],
+        "previous_state": "See adjacent milestones; not a claim that predecessor functions were absent",
+        "new_state": "DHS directs a new enforcement-priority framework.",
+        "check_or_counterevidence": "Fingerprint-sharing infrastructure remains.",
+        "uncertainty": "Directive alone does not establish uniform implementation.",
+        "continuity_assessment": "Specific coordination or capacity mechanism; not an inevitable causal chain",
+        "locator": "See source catalog locators",
+        "discovery_status": "Retrospective intake; not a newly occurring October 2026 event"
+      }
+    },
+    {
+      "record_file": "dhs_events.json",
+      "record": {
+        "event_id": "DH08",
+        "event_date": "2017-01-25",
+        "date_precision": "day",
+        "effective_date": null,
+        "publication_date": "2017-01-25",
+        "retrieved_date_utc": "2026-10-11",
+        "lane": "dhs_institutions",
+        "title": "Executive order restores Secure Communities",
+        "implementation_status": "Historical enacted, directed, deployed or reported milestone as explicitly distinguished",
+        "source_ids": [
+          "D10"
+        ],
+        "source_families": [
+          "2017 immigration executive policy"
+        ],
+        "previous_state": "See adjacent milestones; not a claim that predecessor functions were absent",
+        "new_state": "EO 13768 §10 directs PEP termination and program restoration.",
+        "check_or_counterevidence": "A visible policy reversal shows executive choices matter.",
+        "uncertainty": "No assertion that this order remains uninterrupted current policy.",
+        "continuity_assessment": "Specific coordination or capacity mechanism; not an inevitable causal chain",
+        "locator": "See source catalog locators",
+        "discovery_status": "Retrospective intake; not a newly occurring October 2026 event"
+      }
+    },
+    {
+      "record_file": "events.json",
+      "record": {
+        "event_id": "MC01",
+        "event_date": "2017-03-27",
+        "date_precision": "day",
+        "effective_date": null,
+        "publication_date": "2017-03-27",
+        "retrieved_date_utc": "2026-10-08",
+        "lane": "religion_codes",
+        "title": "Earlier faith/belief coding memo",
+        "implementation_status": "issued",
+        "source_ids": [
+          "B09"
+        ],
+        "source_families": [
+          "AFCB2017 administrative recoding"
+        ],
+        "previous_state": "Earlier personnel categories",
+        "new_state": "Administrative reporting categories updated",
+        "check_or_counterevidence": "Dog-tag preference and endorsement recognition remain distinct",
+        "uncertainty": "Complete old inventory comparison pending",
+        "continuity_assessment": "baseline",
+        "locator": null,
+        "discovery_status": "retrospective discovery in this packet"
+      }
+    },
+    {
+      "record_file": "agency_events.json",
+      "record": {
+        "event_id": "AM02",
+        "event_date": "2018",
+        "date_precision": "year",
+        "effective_date": null,
+        "publication_date": "2023-06-15",
+        "retrieved_date_utc": "2026-10-11",
+        "lane": "adjacent_agencies",
+        "title": "Guard and active-duty border support",
+        "implementation_status": "historical deployments described",
+        "source_ids": [
+          "A06"
+        ],
+        "source_families": [
+          "CRS border-support legal baseline"
+        ],
+        "previous_state": "See cited institutional baseline",
+        "new_state": "Title32 Guard and later active-duty support.",
+        "check_or_counterevidence": "Command, legal authority and actual conduct must be distinguished",
+        "uncertainty": "Separate statuses and tasks",
+        "continuity_assessment": "documented connection or authority change; not a unified-program finding",
+        "locator": null,
+        "discovery_status": "Late discovery in RC-006 supplement"
+      }
+    },
+    {
+      "record_file": "dhs_events.json",
+      "record": {
+        "event_id": "DH09",
+        "event_date": "2018-11-16",
+        "date_precision": "day",
+        "effective_date": null,
+        "publication_date": "2018-11-16",
+        "retrieved_date_utc": "2026-10-11",
+        "lane": "dhs_institutions",
+        "title": "CISA established within DHS",
+        "implementation_status": "Historical enacted, directed, deployed or reported milestone as explicitly distinguished",
+        "source_ids": [
+          "D15"
+        ],
+        "source_families": [
+          "CISA statutory organization"
+        ],
+        "previous_state": "See adjacent milestones; not a claim that predecessor functions were absent",
+        "new_state": "Reorganizes cybersecurity and infrastructure responsibilities under CISA.",
+        "check_or_counterevidence": "Demonstrates DHS functions beyond immigration enforcement.",
+        "uncertainty": "Institutional authority is distinct from funding and usable capability.",
+        "continuity_assessment": "Specific coordination or capacity mechanism; not an inevitable causal chain",
+        "locator": "See source catalog locators",
+        "discovery_status": "Retrospective intake; not a newly occurring October 2026 event"
+      }
+    },
+    {
+      "record_file": "events.json",
+      "record": {
+        "event_id": "MC02",
+        "event_date": "2019-06-14",
+        "date_precision": "day",
+        "effective_date": null,
+        "publication_date": "2019-06-14",
+        "retrieved_date_utc": "2026-10-08",
+        "lane": "youth",
+        "title": "Stuttgart youth/chapel support documented",
+        "implementation_status": "local program account",
+        "source_ids": [
+          "O06"
+        ],
+        "source_families": [
+          "Stuttgart religious-education program account"
+        ],
+        "previous_state": "Earlier military family support",
+        "new_state": "Religious education and youth activities described",
+        "check_or_counterevidence": "Local multi-tradition support rationale",
+        "uncertainty": "Not a nationwide participation or coercion audit",
+        "continuity_assessment": "baseline",
+        "locator": null,
+        "discovery_status": "retrospective discovery in this packet"
+      }
+    },
+    {
+      "record_file": "dhs_events.json",
+      "record": {
+        "event_id": "DH10",
+        "event_date": "2020-06-04",
+        "date_precision": "day",
+        "effective_date": null,
+        "publication_date": "2021-04-16",
+        "retrieved_date_utc": "2026-10-11",
+        "lane": "dhs_institutions",
+        "title": "Cross-component deployment assists FPS in Portland",
+        "implementation_status": "Historical enacted, directed, deployed or reported milestone as explicitly distinguished",
+        "source_ids": [
+          "D11"
+        ],
+        "source_families": [
+          "Portland DHS cross-component oversight"
+        ],
+        "previous_state": "See adjacent milestones; not a claim that predecessor functions were absent",
+        "new_state": "Additional DHS component officers assist federal-property protection.",
+        "check_or_counterevidence": "OIG later finds authority, planning/training deficiencies and compliant reviewed uniform markings.",
+        "uncertainty": "Not an adjudication of every encounter; OIG report issued April 16, 2021.",
+        "continuity_assessment": "Specific coordination or capacity mechanism; not an inevitable causal chain",
+        "locator": "See source catalog locators",
+        "discovery_status": "Retrospective intake; not a newly occurring October 2026 event"
+      }
+    },
+    {
+      "record_file": "events.json",
+      "record": {
+        "event_id": "MC03",
+        "event_date": "2020-09-01",
+        "date_precision": "day",
+        "effective_date": "2020-09-01",
+        "publication_date": "2020-09-01",
+        "retrieved_date_utc": "2026-10-08",
+        "lane": "conscience",
+        "title": "Religious-liberty instruction",
+        "implementation_status": "policy",
+        "source_ids": [
+          "B02"
+        ],
+        "source_families": [
+          "DoD religious-liberty instruction"
+        ],
+        "previous_state": "Earlier religious-accommodation policy",
+        "new_state": "Protections for observance/nonobservance and qualified adverse-action limits",
+        "check_or_counterevidence": "Accommodation appeals and legal standards",
+        "uncertainty": "Current practice and later amendments not exhaustively audited",
+        "continuity_assessment": "baseline",
+        "locator": null,
+        "discovery_status": "retrospective discovery in this packet"
+      }
+    },
+    {
+      "record_file": "ice_operations_events.json",
+      "record": {
+        "event_id": "IO03",
+        "event_date": "2020-09-10",
+        "publication_date": "2020-09-10",
+        "retrieved_date_utc": "2026-10-10",
+        "title": "GAO publishes tactical-team baseline",
+        "source_ids": [
+          "I09"
+        ],
+        "claim": "Audit distinguishes components and documents earlier defense-equipment transfers.",
+        "status": "documented",
+        "limitations": "Not a2026 inventory.",
+        "discovery": "Late discovery",
+        "observation_period": "FY2015–FY2019 deployments and early2020 staffing"
+      }
+    },
+    {
+      "record_file": "events.json",
+      "record": {
+        "event_id": "MC04",
+        "event_date": "2020-10-08",
+        "date_precision": "day",
+        "effective_date": null,
+        "publication_date": "2020-10-08",
+        "retrieved_date_utc": "2026-10-08",
+        "lane": "assessment",
+        "title": "Army H2F spiritual-readiness baseline",
+        "implementation_status": "doctrine",
+        "source_ids": [
+          "B01"
+        ],
+        "source_families": [
+          "Army H2F doctrine"
+        ],
+        "previous_state": "Earlier Army fitness/resilience programs",
+        "new_state": "Spiritual readiness includes nonreligious development and self-assessment",
+        "check_or_counterevidence": "Free choice without repercussions",
+        "uncertainty": "Service-wide implementation beyond Army not established",
+        "continuity_assessment": "baseline",
+        "locator": "Chapter10, especially10-28",
+        "discovery_status": "retrospective discovery in this packet"
+      }
+    },
+    {
+      "record_file": "agency_events.json",
+      "record": {
+        "event_id": "AM03",
+        "event_date": "2023-05-02",
+        "date_precision": "day",
+        "effective_date": null,
+        "publication_date": "2023-06-15",
+        "retrieved_date_utc": "2026-10-11",
+        "lane": "adjacent_agencies",
+        "title": "Additional active-duty support for CBP announced",
+        "implementation_status": "announced support mission",
+        "source_ids": [
+          "A06"
+        ],
+        "source_families": [
+          "CRS border-support legal baseline"
+        ],
+        "previous_state": "See cited institutional baseline",
+        "new_state": "Monitoring, data and logistics roles described.",
+        "check_or_counterevidence": "Command, legal authority and actual conduct must be distinguished",
+        "uncertainty": "Announcement is not a deployment outcome audit",
+        "continuity_assessment": "documented connection or authority change; not a unified-program finding",
+        "locator": null,
+        "discovery_status": "Late discovery in RC-006 supplement"
+      }
+    },
+    {
+      "record_file": "events.json",
+      "record": {
+        "event_id": "MC05",
+        "event_date": "2024-04-24",
+        "date_precision": "day",
+        "effective_date": null,
+        "publication_date": "2024-04-24",
+        "retrieved_date_utc": "2026-10-08",
+        "lane": "governance",
+        "title": "AFCB Personnel and Readiness reporting baseline",
+        "implementation_status": "instruction",
+        "source_ids": [
+          "B03"
+        ],
+        "source_families": [
+          "AFCB governance instruction"
+        ],
+        "previous_state": "Prior Board arrangements not reconstructed",
+        "new_state": "Board under USD(P&R), with intermediate personnel offices",
+        "check_or_counterevidence": "Provides comparator for new direct ORA line",
+        "uncertainty": "Full original PDF inaccessible",
+        "continuity_assessment": "baseline",
+        "locator": null,
+        "discovery_status": "retrospective discovery in this packet"
+      }
+    },
+    {
+      "record_file": "ice_operations_events.json",
+      "record": {
+        "event_id": "IO04",
+        "event_date": "2024-10-21/2024-10-23",
+        "publication_date": "2026-10-06",
+        "retrieved_date_utc": "2026-10-10",
+        "title": "Limited-user electrical-glove exercise",
+        "source_ids": [
+          "I11",
+          "I12"
+        ],
+        "claim": "Disclosed assessment concerns Fort Leavenworth exercise.",
+        "status": "attributed document reporting",
+        "limitations": "Original report inaccessible; observed effectiveness does not establish safety.",
+        "discovery": "Late discovery",
+        "document_date": "2024-12-12"
+      }
+    },
+    {
+      "record_file": "events.json",
+      "record": {
+        "event_id": "MC06",
+        "event_date": "2025-01-01",
+        "date_precision": "day",
+        "effective_date": null,
+        "publication_date": "2025-01-02",
+        "retrieved_date_utc": "2026-10-08",
+        "lane": "legal_personnel",
+        "title": "Navy TJAG retirement and acting succession",
+        "implementation_status": "announced retirement",
+        "source_ids": [
+          "J05"
+        ],
+        "source_families": [
+          "Navy personnel communications"
+        ],
+        "previous_state": "Christopher French in office",
+        "new_state": "Lia Reynolds acting after voluntary retirement",
+        "check_or_counterevidence": "Precedes February nomination requests",
+        "uncertainty": "Complete succession intervals still incomplete",
+        "continuity_assessment": "change",
+        "locator": null,
+        "discovery_status": "retrospective discovery in this packet"
+      }
+    },
+    {
+      "record_file": "events.json",
+      "record": {
+        "event_id": "MC07",
+        "event_date": "2025-02",
+        "date_precision": "month_or_period",
+        "effective_date": null,
+        "publication_date": "2025-02-24",
+        "retrieved_date_utc": "2026-10-08",
+        "lane": "legal_personnel",
+        "title": "Top-lawyer replacement and nomination requests",
+        "implementation_status": "reported personnel action",
+        "source_ids": [
+          "J04",
+          "J05"
+        ],
+        "source_families": [
+          "AP February2025 personnel reporting",
+          "Navy personnel communications"
+        ],
+        "previous_state": "Existing service legal leadership",
+        "new_state": "Three service nomination requests; removals not identical across services",
+        "check_or_counterevidence": "Navy was already vacant",
+        "uncertainty": "Underlying full set of orders and capacity effects absent",
+        "continuity_assessment": "change",
+        "locator": null,
+        "discovery_status": "retrospective discovery in this packet"
+      }
+    },
+    {
+      "record_file": "events.json",
+      "record": {
+        "event_id": "MC08",
+        "event_date": "2025-02-19",
+        "date_precision": "day",
+        "effective_date": null,
+        "publication_date": "2025-02-21",
+        "retrieved_date_utc": "2026-10-08",
+        "lane": "assessment",
+        "title": "III Corps spiritual-fitness guide development",
+        "implementation_status": "development meeting",
+        "source_ids": [
+          "B05"
+        ],
+        "source_families": [
+          "III Corps guide development"
+        ],
+        "previous_state": "FM7-22 self-assessment protection",
+        "new_state": "Article proposes squad/team leader assessment",
+        "check_or_counterevidence": "Development aspiration is not service-wide mandatory order",
+        "uncertainty": "Current form, privacy rules and career use absent",
+        "continuity_assessment": "change",
+        "locator": null,
+        "discovery_status": "retrospective discovery in this packet"
+      }
+    },
+    {
+      "record_file": "ice_rights_events.json",
+      "record": {
+        "event_id": "IR01",
+        "event_date": "2025-03/2025-04",
+        "date_precision": "range",
+        "effective_date": null,
+        "publication_date": "2025-11-12",
+        "retrieved_date_utc": "2026-10-11",
+        "lane": "removals_and_speech",
+        "title": "Venezuelan cohort transferred to CECOT",
+        "implementation_status": "documented transfer history",
+        "source_ids": [
+          "R01"
+        ],
+        "source_families": [
+          "HRW/Cristosal CECOT investigation"
+        ],
+        "previous_state": "Earlier state retained in linked sources",
+        "new_state": "Venezuelan cohort transferred to CECOT",
+        "check_or_counterevidence": "No broader conclusion than the cited record",
+        "uncertainty": "Investigative account; no present-population inference",
+        "continuity_assessment": "dated change or later documentation; not proof of unified causal program",
+        "locator": null,
+        "discovery_status": "retrospective discovery in RC-006"
+      }
+    },
+    {
+      "record_file": "events.json",
+      "record": {
+        "event_id": "MC17",
+        "event_date": "2025-03/2025-04",
+        "date_precision": "range",
+        "effective_date": null,
+        "publication_date": "2026-05-19",
+        "retrieved_date_utc": "2026-10-08",
+        "lane": "oversight",
+        "title": "MJRP interruption reported retrospectively",
+        "implementation_status": "reported historical interruption; current status unresolved",
+        "source_ids": [
+          "J16",
+          "J17"
+        ],
+        "source_families": [
+          "Rosenblatt-Fidell MJRP analysis",
+          "US statutory law"
+        ],
+        "previous_state": "Statutory independent panel",
+        "new_state": "Authors report 2025 interruption and internal-review alternative",
+        "check_or_counterevidence": "Statute still specifies independent panel",
+        "uncertainty": "Cessation record/current operations unresolved",
+        "continuity_assessment": "change",
+        "locator": "Reported underlying events March–April2025; May19 is publication, not interruption date",
+        "discovery_status": "retrospective discovery in this packet"
+      }
+    },
+    {
+      "record_file": "ice_rights_events.json",
+      "record": {
+        "event_id": "IR03",
+        "event_date": "2025-04-10",
+        "date_precision": "day",
+        "effective_date": null,
+        "publication_date": "2025-04-10",
+        "retrieved_date_utc": "2026-10-10",
+        "lane": "removals_and_speech",
+        "title": "Abrego Garcia Supreme Court intervention",
+        "implementation_status": "court order",
+        "source_ids": [
+          "R11"
+        ],
+        "source_families": [
+          "Abrego Garcia wrongful-removal litigation"
+        ],
+        "previous_state": "Earlier state retained in linked sources",
+        "new_state": "Abrego Garcia Supreme Court intervention",
+        "check_or_counterevidence": "No broader conclusion than the cited record",
+        "uncertainty": "Scope and remedy limited by order",
+        "continuity_assessment": "dated change or later documentation; not proof of unified causal program",
+        "locator": null,
+        "discovery_status": "retrospective discovery in RC-006"
+      }
+    },
+    {
+      "record_file": "ice_operations_events.json",
+      "record": {
+        "event_id": "IO05",
+        "event_date": "2025-05-28",
+        "publication_date": "2025-06-25",
+        "retrieved_date_utc": "2026-10-10",
+        "title": "ICE/CBP SkillBridge prioritization",
+        "source_ids": [
+          "I01",
+          "I02"
+        ],
+        "claim": "Military transition program expressly promotes existing agency placements.",
+        "status": "documented",
+        "limitations": "No placement/hire totals.",
+        "discovery": "Late discovery"
+      }
+    },
+    {
+      "record_file": "ice_rights_events.json",
+      "record": {
+        "event_id": "IR04",
+        "event_date": "2025-06-06",
+        "date_precision": "day",
+        "effective_date": null,
+        "publication_date": "2025-06-06",
+        "retrieved_date_utc": "2026-10-11",
+        "lane": "removals_and_speech",
+        "title": "Abrego Garcia returned to US",
+        "implementation_status": "reported historical return",
+        "source_ids": [
+          "R12"
+        ],
+        "source_families": [
+          "Abrego Garcia June 2025 return"
+        ],
+        "previous_state": "Earlier state retained in linked sources",
+        "new_state": "Abrego Garcia returned to US",
+        "check_or_counterevidence": "No broader conclusion than the cited record",
+        "uncertainty": "Subsequent custody and proceedings are separate",
+        "continuity_assessment": "dated change or later documentation; not proof of unified causal program",
+        "locator": null,
+        "discovery_status": "retrospective discovery in RC-006"
+      }
+    },
+    {
+      "record_file": "dhs_events.json",
+      "record": {
+        "event_id": "DH11",
+        "event_date": "2025-07-04",
+        "date_precision": "day",
+        "effective_date": null,
+        "publication_date": "2025-07-04",
+        "retrieved_date_utc": "2026-10-11",
+        "lane": "dhs_institutions",
+        "title": "Large detention and border capacity appropriations",
+        "implementation_status": "Historical enacted, directed, deployed or reported milestone as explicitly distinguished",
+        "source_ids": [
+          "D12"
+        ],
+        "source_families": [
+          "2025 DHS capacity funding"
+        ],
+        "previous_state": "See adjacent milestones; not a claim that predecessor functions were absent",
+        "new_state": "Law provides ICE detention capacity and CBP resources.",
+        "check_or_counterevidence": "Appropriated detention funding is available through September 30, 2029.",
+        "uncertainty": "Not evidence all funds were spent, facilities completed or beds occupied.",
+        "continuity_assessment": "Specific coordination or capacity mechanism; not an inevitable causal chain",
+        "locator": "See source catalog locators",
+        "discovery_status": "Retrospective intake; not a newly occurring October 2026 event"
+      }
+    },
+    {
+      "record_file": "ice_capacity_events.json",
+      "record": {
+        "event_id": "IC01",
+        "event_date": "2025-07-04",
+        "publication_date": "2025-07-04",
+        "retrieved_date_utc": "2026-10-11",
+        "title": "Multiyear funding enacted",
+        "source_ids": [
+          "C03"
+        ],
+        "claim": "Detention/enforcement appropriations added.",
+        "limitations": "Not annual expenditure.",
+        "discovery": "Late discovery",
+        "status": "documented"
+      }
+    },
+    {
+      "record_file": "ice_operations_events.json",
+      "record": {
+        "event_id": "IO06",
+        "event_date": "2025-07-04",
+        "publication_date": "2025-07-04",
+        "retrieved_date_utc": "2026-10-10",
+        "title": "ICE incentive authority enacted",
+        "source_ids": [
+          "I05"
+        ],
+        "claim": "Statute authorizes conditional bonuses and written service agreements.",
+        "status": "documented",
+        "limitations": "No uniform$50000 payment requirement.",
+        "discovery": "Late discovery"
+      }
+    },
+    {
+      "record_file": "ice_rights_events.json",
+      "record": {
+        "event_id": "IR02",
+        "event_date": "2025-07-18",
+        "date_precision": "day",
+        "effective_date": null,
+        "publication_date": "2025-11-12",
+        "retrieved_date_utc": "2026-10-11",
+        "lane": "removals_and_speech",
+        "title": "CECOT cohort returned to Venezuela",
+        "implementation_status": "documented departure",
+        "source_ids": [
+          "R01"
+        ],
+        "source_families": [
+          "HRW/Cristosal CECOT investigation"
+        ],
+        "previous_state": "Earlier state retained in linked sources",
+        "new_state": "CECOT cohort returned to Venezuela",
+        "check_or_counterevidence": "No broader conclusion than the cited record",
+        "uncertainty": "Return does not settle later safety",
+        "continuity_assessment": "dated change or later documentation; not proof of unified causal program",
+        "locator": null,
+        "discovery_status": "retrospective discovery in RC-006"
+      }
+    },
+    {
+      "record_file": "ice_operations_events.json",
+      "record": {
+        "event_id": "IO07",
+        "event_date": "2025-07-29",
+        "publication_date": "2025-07-29",
+        "retrieved_date_utc": "2026-10-10",
+        "title": "Maximum$50000 advertised",
+        "source_ids": [
+          "I06"
+        ],
+        "claim": "DHS campaign advertises recruitment incentive ceiling.",
+        "status": "documented",
+        "limitations": "Does not establish individual agreement or payment.",
+        "discovery": "Late discovery"
+      }
+    },
+    {
+      "record_file": "ice_capacity_events.json",
+      "record": {
+        "event_id": "IC02",
+        "event_date": "2025-08",
+        "publication_date": "2026-06-09",
+        "retrieved_date_utc": "2026-10-11",
+        "title": "Camp East Montana opens",
+        "source_ids": [
+          "C01"
+        ],
+        "claim": "Army-supported ICE facility opens.",
+        "limitations": "Later audit identifies failures.",
+        "discovery": "Late discovery",
+        "status": "documented"
+      }
+    },
+    {
+      "record_file": "ice_operations_events.json",
+      "record": {
+        "event_id": "IO08",
+        "event_date": "2025-08-01",
+        "publication_date": "2025-08-01",
+        "retrieved_date_utc": "2026-10-10",
+        "title": "Returnee installment offer reported",
+        "source_ids": [
+          "I07"
+        ],
+        "claim": "NPR describes one cohort-specific returnee bonus structure.",
+        "status": "reported offer",
+        "limitations": "Publication/observation date; initial offer date not established here.",
+        "discovery": "Late discovery"
+      }
+    },
+    {
+      "record_file": "agency_events.json",
+      "record": {
+        "event_id": "AM04",
+        "event_date": "2025-08-25",
+        "date_precision": "day",
+        "effective_date": "2025-08-25",
+        "publication_date": null,
+        "retrieved_date_utc": "2026-10-11",
+        "lane": "adjacent_agencies",
+        "title": "Park Police supervision realigned",
+        "implementation_status": "signed immediately effective order",
+        "source_ids": [
+          "A04"
+        ],
+        "source_families": [
+          "Interior Order3440"
+        ],
+        "previous_state": "See cited institutional baseline",
+        "new_state": "Secretary or designee receives direct supervision.",
+        "check_or_counterevidence": "Command, legal authority and actual conduct must be distinguished",
+        "uncertainty": "URL filename date differs; implementation not audited",
+        "continuity_assessment": "documented connection or authority change; not a unified-program finding",
+        "locator": null,
+        "discovery_status": "Late discovery in RC-006 supplement"
+      }
+    },
+    {
+      "record_file": "events.json",
+      "record": {
+        "event_id": "MC09",
+        "event_date": "2025-08-28",
+        "date_precision": "day",
+        "effective_date": "2025-08-28",
+        "publication_date": "2025-08-28",
+        "retrieved_date_utc": "2026-10-08",
+        "lane": "legal_capacity",
+        "title": "Temporary immigration-judge eligibility expanded",
+        "implementation_status": "effective rule",
+        "source_ids": [
+          "J09"
+        ],
+        "source_families": [
+          "DOJ EOIR rulemaking"
+        ],
+        "previous_state": "Specified earlier eligibility categories",
+        "new_state": "Broader attorney eligibility",
+        "check_or_counterevidence": "Training and renewable term limits retained",
+        "uncertainty": "Actual qualifications and outcomes require separate data",
+        "continuity_assessment": "change",
+        "locator": null,
+        "discovery_status": "retrospective discovery in this packet"
+      }
+    },
+    {
+      "record_file": "dhs_events.json",
+      "record": {
+        "event_id": "DH12",
+        "event_date": "2025-09-08",
+        "date_precision": "day",
+        "effective_date": null,
+        "publication_date": "2025-09-08",
+        "retrieved_date_utc": "2026-10-11",
+        "lane": "dhs_institutions",
+        "title": "DHS announces Operation Midway Blitz",
+        "implementation_status": "Historical enacted, directed, deployed or reported milestone as explicitly distinguished",
+        "source_ids": [
+          "D13",
+          "D14",
+          "D19"
+        ],
+        "source_families": [
+          "DHS Midway Blitz communications",
+          "CPOST Midway Blitz research"
+        ],
+        "previous_state": "See adjacent milestones; not a claim that predecessor functions were absent",
+        "new_state": "DHS launches a Chicago-area operation and later describes ICE/CBP participation.",
+        "check_or_counterevidence": "Independent scholarship offers a critical interpretation, distinct from proven intent.",
+        "uncertainty": "Agency details were indexed only; this lane does not independently validate arrest totals or every deployment.",
+        "continuity_assessment": "Specific coordination or capacity mechanism; not an inevitable causal chain",
+        "locator": "See source catalog locators",
+        "discovery_status": "Retrospective intake; not a newly occurring October 2026 event"
+      }
+    },
+    {
+      "record_file": "ice_rights_events.json",
+      "record": {
+        "event_id": "IR05",
+        "event_date": "2025-09-30",
+        "date_precision": "day",
+        "effective_date": null,
+        "publication_date": "2025-09-30",
+        "retrieved_date_utc": "2026-10-10",
+        "lane": "removals_and_speech",
+        "title": "AAUP trial findings on political speech",
+        "implementation_status": "district-court findings",
+        "source_ids": [
+          "R08"
+        ],
+        "source_families": [
+          "AAUP speech-targeting litigation"
+        ],
+        "previous_state": "Earlier state retained in linked sources",
+        "new_state": "AAUP trial findings on political speech",
+        "check_or_counterevidence": "No broader conclusion than the cited record",
+        "uncertainty": "Appeal and remedy remain distinct",
+        "continuity_assessment": "dated change or later documentation; not proof of unified causal program",
+        "locator": null,
+        "discovery_status": "retrospective discovery in RC-006"
+      }
+    },
+    {
+      "record_file": "ice_capacity_events.json",
+      "record": {
+        "event_id": "IC03",
+        "event_date": "2025-10",
+        "publication_date": "2026-06-09",
+        "retrieved_date_utc": "2026-10-11",
+        "title": "Contract administration transfers",
+        "source_ids": [
+          "C01"
+        ],
+        "claim": "ICE assumes administration from Army.",
+        "limitations": "Does not erase earlier responsibility.",
+        "discovery": "Late discovery",
+        "status": "documented"
+      }
+    },
+    {
+      "record_file": "events.json",
+      "record": {
+        "event_id": "MC10",
+        "event_date": "2025-10-23",
+        "date_precision": "day",
+        "effective_date": null,
+        "publication_date": "2025-10-23",
+        "retrieved_date_utc": "2026-10-08",
+        "lane": "legal_capacity",
+        "title": "DOJ opinion on military attorney details",
+        "implementation_status": "executive legal analysis",
+        "source_ids": [
+          "J10"
+        ],
+        "source_families": [
+          "DOJ OLC detail legal analysis"
+        ],
+        "previous_state": "Existing detail authority",
+        "new_state": "Phased requested ceiling of600, cohorts up to150",
+        "check_or_counterevidence": "Civilian supervision and reimbursement conditions",
+        "uncertainty": "Authorization is not deployed headcount; no full workload denominator",
+        "continuity_assessment": "change",
+        "locator": null,
+        "discovery_status": "retrospective discovery in this packet"
+      }
+    },
+    {
+      "record_file": "events.json",
+      "record": {
+        "event_id": "MC11",
+        "event_date": "2025-10-24",
+        "date_precision": "day",
+        "effective_date": null,
+        "publication_date": "2025-10-24",
+        "retrieved_date_utc": "2026-10-08",
+        "lane": "legal_capacity",
+        "title": "First sampled EOIR temporary appointments",
+        "implementation_status": "appointment notice",
+        "source_ids": [
+          "J11"
+        ],
+        "source_families": [
+          "DOJ EOIR appointment announcements"
+        ],
+        "previous_state": "Prior temporary/permanent judiciary staffing",
+        "new_state": "25 temporary appointments announced",
+        "check_or_counterevidence": "Separate permanent hiring also reported",
+        "uncertainty": "Military share and unique active headcount not established",
+        "continuity_assessment": "change",
+        "locator": null,
+        "discovery_status": "retrospective discovery in this packet"
+      }
+    },
+    {
+      "record_file": "events.json",
+      "record": {
+        "event_id": "MC12",
+        "event_date": "2025-12-17",
+        "date_precision": "day",
+        "effective_date": null,
+        "publication_date": "2025-12-17",
+        "retrieved_date_utc": "2026-10-08",
+        "lane": "chaplain_policy",
+        "title": "Guide discontinuation announced",
+        "implementation_status": "indexed official announcement",
+        "source_ids": [
+          "B06"
+        ],
+        "source_families": [
+          "December2025 chaplain policy announcement"
+        ],
+        "previous_state": "2025 Army guide development",
+        "new_state": "Direction to discontinue guide and simplify codes",
+        "check_or_counterevidence": "Original instruction protections separately retained in dossier",
+        "uncertainty": "Implementing order/replacement not obtained",
+        "continuity_assessment": "change",
+        "locator": null,
+        "discovery_status": "retrospective discovery in this packet"
+      }
+    },
+    {
+      "record_file": "events.json",
+      "record": {
+        "event_id": "MC13",
+        "event_date": "2025-12-18",
+        "date_precision": "day",
+        "effective_date": "2025-12-18",
+        "publication_date": "2025-12-18",
+        "retrieved_date_utc": "2026-10-08",
+        "lane": "legal_safeguards",
+        "title": "NDAA adds JAG counterchecks",
+        "implementation_status": "enacted law",
+        "source_ids": [
+          "J03"
+        ],
+        "source_families": [
+          "US statutory law"
+        ],
+        "previous_state": "Older independent-advice and appointment framework",
+        "new_state": "Removal notice/reasons, qualifications and sufficient-advice provisions",
+        "check_or_counterevidence": "Notification and staffing duties are real additional checks",
+        "uncertainty": "Notification is not a veto; enforcement not measured",
+        "continuity_assessment": "change",
+        "locator": "Sections506,561,562",
+        "discovery_status": "retrospective discovery in this packet"
+      }
+    },
+    {
+      "record_file": "ice_rights_events.json",
+      "record": {
+        "event_id": "IR06",
+        "event_date": "2026-01-15",
+        "date_precision": "day",
+        "effective_date": null,
+        "publication_date": "2026-01-15",
+        "retrieved_date_utc": "2026-10-10",
+        "lane": "removals_and_speech",
+        "title": "Khalil jurisdictional appeal ruling",
+        "implementation_status": "appellate decision",
+        "source_ids": [
+          "R05"
+        ],
+        "source_families": [
+          "Khalil habeas/removal litigation"
+        ],
+        "previous_state": "Earlier state retained in linked sources",
+        "new_state": "Khalil jurisdictional appeal ruling",
+        "check_or_counterevidence": "No broader conclusion than the cited record",
+        "uncertainty": "No constitutional-merits ruling",
+        "continuity_assessment": "dated change or later documentation; not proof of unified causal program",
+        "locator": null,
+        "discovery_status": "retrospective discovery in RC-006"
+      }
+    },
+    {
+      "record_file": "ice_rights_events.json",
+      "record": {
+        "event_id": "IR07",
+        "event_date": "2026-01-22",
+        "date_precision": "day",
+        "effective_date": null,
+        "publication_date": "2026-01-22",
+        "retrieved_date_utc": "2026-10-10",
+        "lane": "removals_and_speech",
+        "title": "AAUP judgment entered",
+        "implementation_status": "district-court judgment",
+        "source_ids": [
+          "R09"
+        ],
+        "source_families": [
+          "AAUP speech-targeting litigation"
+        ],
+        "previous_state": "Earlier state retained in linked sources",
+        "new_state": "AAUP judgment entered",
+        "check_or_counterevidence": "No broader conclusion than the cited record",
+        "uncertainty": "Later partial stay in IR08",
+        "continuity_assessment": "dated change or later documentation; not proof of unified causal program",
+        "locator": null,
+        "discovery_status": "retrospective discovery in RC-006"
+      }
+    },
+    {
+      "record_file": "ice_operations_events.json",
+      "record": {
+        "event_id": "IO09",
+        "event_date": "2026-02",
+        "publication_date": "2026-02-15",
+        "retrieved_date_utc": "2026-10-10",
+        "title": "Online nonpayment allegations circulate",
+        "source_ids": [
+          "I08"
+        ],
+        "claim": "Posts and screenshots allege absent bonuses or pay.",
+        "status": "unverified allegation",
+        "limitations": "Not verified payment failures; exact story user encountered unknown.",
+        "discovery": "Late discovery"
+      }
+    },
+    {
+      "record_file": "events.json",
+      "record": {
+        "event_id": "MC14",
+        "event_date": "2026-02-05",
+        "date_precision": "day",
+        "effective_date": null,
+        "publication_date": "2026-02-05",
+        "retrieved_date_utc": "2026-10-08",
+        "lane": "legal_capacity",
+        "title": "Second sampled EOIR temporary appointments",
+        "implementation_status": "appointment notice",
+        "source_ids": [
+          "J12"
+        ],
+        "source_families": [
+          "DOJ EOIR appointment announcements"
+        ],
+        "previous_state": "Previous cohorts",
+        "new_state": "27 temporary appointments announced",
+        "check_or_counterevidence": "Cohorts are flows, not current stock",
+        "uncertainty": "Renewals/departures/military share not reconciled",
+        "continuity_assessment": "change",
+        "locator": null,
+        "discovery_status": "retrospective discovery in this packet"
+      }
+    },
+    {
+      "record_file": "events.json",
+      "record": {
+        "event_id": "MC15",
+        "event_date": "2026-03-11",
+        "date_precision": "day",
+        "effective_date": null,
+        "publication_date": "2026-03-11",
+        "retrieved_date_utc": "2026-10-08",
+        "lane": "legal_structure",
+        "title": "Legal-function alignment assessment",
+        "implementation_status": "memorandum/implementation plan directed",
+        "source_ids": [
+          "J15"
+        ],
+        "source_families": [
+          "March2026 legal-functions memorandum"
+        ],
+        "previous_state": "January25,2025 functions are requested baseline",
+        "new_state": "Review military versus civilian legal functions",
+        "check_or_counterevidence": "Statutory independence and military legal subjects retained",
+        "uncertainty": "Actual six-month implementation outcome not verified",
+        "continuity_assessment": "change",
+        "locator": null,
+        "discovery_status": "retrospective discovery in this packet"
+      }
+    },
+    {
+      "record_file": "events.json",
+      "record": {
+        "event_id": "MC16",
+        "event_date": "2026-03-25",
+        "date_precision": "day",
+        "effective_date": null,
+        "publication_date": "2026-03-25",
+        "retrieved_date_utc": "2026-10-08",
+        "lane": "chaplain_policy",
+        "title": "Chaplain insignia and code reforms announced",
+        "implementation_status": "indexed official announcement",
+        "source_ids": [
+          "B07"
+        ],
+        "source_families": [
+          "March2026 chaplain reform announcement"
+        ],
+        "previous_state": "Older detailed affiliation codes",
+        "new_state": "31-code consolidation and insignia reform announced",
+        "check_or_counterevidence": "Codes do not alone determine endorsement eligibility",
+        "uncertainty": "All-service effective dates and complete tables absent",
+        "continuity_assessment": "change",
+        "locator": null,
+        "discovery_status": "retrospective discovery in this packet"
+      }
+    },
+    {
+      "record_file": "ice_rights_events.json",
+      "record": {
+        "event_id": "IR08",
+        "event_date": "2026-04-07",
+        "date_precision": "day",
+        "effective_date": null,
+        "publication_date": "2026-04-07",
+        "retrieved_date_utc": "2026-10-10",
+        "lane": "removals_and_speech",
+        "title": "AAUP sanction partially stayed",
+        "implementation_status": "appellate interim order",
+        "source_ids": [
+          "R10"
+        ],
+        "source_families": [
+          "AAUP speech-targeting litigation"
+        ],
+        "previous_state": "Earlier state retained in linked sources",
+        "new_state": "AAUP sanction partially stayed",
+        "check_or_counterevidence": "No broader conclusion than the cited record",
+        "uncertainty": "Limited to Part IV; not entire judgment",
+        "continuity_assessment": "dated change or later documentation; not proof of unified causal program",
+        "locator": null,
+        "discovery_status": "retrospective discovery in RC-006"
+      }
+    },
+    {
+      "record_file": "ice_rights_events.json",
+      "record": {
+        "event_id": "IR09",
+        "event_date": "2026-04-17",
+        "date_precision": "day",
+        "effective_date": null,
+        "publication_date": "2026-04-17",
+        "retrieved_date_utc": "2026-10-11",
+        "lane": "removals_and_speech",
+        "title": "Öztürk settlement and return announced",
+        "implementation_status": "counsel announcement",
+        "source_ids": [
+          "R07"
+        ],
+        "source_families": [
+          "Öztürk litigation and settlement"
+        ],
+        "previous_state": "Earlier state retained in linked sources",
+        "new_state": "Öztürk settlement and return announced",
+        "check_or_counterevidence": "No broader conclusion than the cited record",
+        "uncertainty": "Announcement date; exact return day not supplied",
+        "continuity_assessment": "dated change or later documentation; not proof of unified causal program",
+        "locator": null,
+        "discovery_status": "retrospective discovery in RC-006"
+      }
+    },
+    {
+      "record_file": "ice_capacity_events.json",
+      "record": {
+        "event_id": "IC04",
+        "event_date": "2026-05",
+        "publication_date": "2025-05-21",
+        "retrieved_date_utc": "2026-10-11",
+        "title": "Ombudsman-status disagreement recorded",
+        "source_ids": [
+          "C05"
+        ],
+        "claim": "DHS and GAO disagree over continuing statutory role.",
+        "limitations": "Status-update month, not judgment date.",
+        "discovery": "Late discovery",
+        "status": "documented",
+        "source_update_period": "2026-05"
+      }
+    },
+    {
+      "record_file": "events.json",
+      "record": {
+        "event_id": "MC18",
+        "event_date": "2026-06-08",
+        "date_precision": "day",
+        "effective_date": null,
+        "publication_date": "2026-06-08",
+        "retrieved_date_utc": "2026-10-08",
+        "lane": "religion_codes",
+        "title": "Code implementation and label correction reported",
+        "implementation_status": "reported memo/revision",
+        "source_ids": [
+          "B08"
+        ],
+        "source_families": [
+          "June2026 religion-code reporting"
+        ],
+        "previous_state": "March announcement; May20 memo reported",
+        "new_state": "June5 release followed by June8 label correction",
+        "check_or_counterevidence": "Correction and dog-tag flexibility recorded",
+        "uncertainty": "Original versioned tables unavailable",
+        "continuity_assessment": "change",
+        "locator": null,
+        "discovery_status": "retrospective discovery in this packet"
+      }
+    },
+    {
+      "record_file": "ice_capacity_events.json",
+      "record": {
+        "event_id": "IC05",
+        "event_date": "2026-06-10",
+        "publication_date": "2026-06-10",
+        "retrieved_date_utc": "2026-10-11",
+        "title": "Further purpose-separated funding enacted",
+        "source_ids": [
+          "C04"
+        ],
+        "claim": "Enforcement and other HSI allocations added.",
+        "limitations": "Different legal purposes retained.",
+        "discovery": "Late discovery",
+        "status": "documented"
+      }
+    },
+    {
+      "record_file": "ice_capacity_events.json",
+      "record": {
+        "event_id": "IC06",
+        "event_date": "2026-07-23/2026-07-30",
+        "publication_date": "2026-09-24",
+        "retrieved_date_utc": "2026-10-11",
+        "title": "Expansion snapshot",
+        "source_ids": [
+          "C02"
+        ],
+        "claim": "Authorized-site and population measures have separate July endpoints.",
+        "limitations": "Neither is current available-bed count.",
+        "discovery": "Late discovery",
+        "status": "documented"
+      }
+    },
+    {
+      "record_file": "events.json",
+      "record": {
+        "event_id": "MC19",
+        "event_date": "2026-08-14",
+        "date_precision": "day",
+        "effective_date": null,
+        "publication_date": "2026-08-14",
+        "retrieved_date_utc": "2026-10-08",
+        "lane": "education",
+        "title": "School-course rollout publicly reported",
+        "implementation_status": "reporting of planned2026–27 elective",
+        "source_ids": [
+          "O04",
+          "O05"
+        ],
+        "source_families": [
+          "AP August14 curriculum investigation",
+          "DoDEA school-year2026–27 course description"
+        ],
+        "previous_state": "Existing school history curriculum; exact prior syllabus not audited",
+        "new_state": "Western Civilization course and named resource",
+        "check_or_counterevidence": "Official flyer calls it elective",
+        "uncertainty": "Syllabus, classroom delivery, enrollment and practical alternatives absent",
+        "continuity_assessment": "change",
+        "locator": "Official flyer is undated; date belongs to AP reporting, not first implementation",
+        "discovery_status": "retrospective discovery in this packet"
+      }
+    },
+    {
+      "record_file": "ice_operations_events.json",
+      "record": {
+        "event_id": "IO10",
+        "event_date": "2026-08-27",
+        "publication_date": "2026-08-27",
+        "retrieved_date_utc": "2026-10-10",
+        "title": "Glove award notice reported",
+        "source_ids": [
+          "I04",
+          "I15"
+        ],
+        "claim": "Notice of planned6000-unit acquisition reported.",
+        "status": "documented justification; reported award notice",
+        "limitations": "Report/notice date not signing date; delivery/use unresolved.",
+        "discovery": "Late discovery"
+      }
+    },
+    {
+      "record_file": "ice_operations_events.json",
+      "record": {
+        "event_id": "IO11",
+        "event_date": "2026-08-27",
+        "publication_date": "2026-08-27",
+        "retrieved_date_utc": "2026-10-10",
+        "title": "Senators request cancellation or safeguards",
+        "source_ids": [
+          "I13"
+        ],
+        "claim": "Sixteen signatories seek answers and device-use controls.",
+        "status": "documented",
+        "limitations": "Letter does not establish a halt or effective remedy.",
+        "discovery": "Late discovery"
+      }
+    },
+    {
+      "record_file": "ice_rights_events.json",
+      "record": {
+        "event_id": "IR10",
+        "event_date": "2026-09-17",
+        "date_precision": "day",
+        "effective_date": null,
+        "publication_date": "2026-09-17",
+        "retrieved_date_utc": "2026-10-10",
+        "lane": "removals_and_speech",
+        "title": "Khalil petition deadline extended",
+        "implementation_status": "extension order",
+        "source_ids": [
+          "R06"
+        ],
+        "source_families": [
+          "Khalil habeas/removal litigation"
+        ],
+        "previous_state": "Earlier state retained in linked sources",
+        "new_state": "Khalil petition deadline extended",
+        "check_or_counterevidence": "No broader conclusion than the cited record",
+        "uncertainty": "No grant of review or custody finding",
+        "continuity_assessment": "dated change or later documentation; not proof of unified causal program",
+        "locator": null,
+        "discovery_status": "retrospective discovery in RC-006"
+      }
+    },
+    {
+      "record_file": "ice_capacity_events.json",
+      "record": {
+        "event_id": "IC07",
+        "event_date": "2026-09-24",
+        "publication_date": "2026-09-24",
+        "retrieved_date_utc": "2026-10-11",
+        "title": "GAO expansion audit published",
+        "source_ids": [
+          "C02"
+        ],
+        "claim": "Unused construction and incomplete planning documented.",
+        "limitations": "Earlier observations; August2027 plan remains prospective.",
+        "discovery": "Late discovery",
+        "status": "documented"
+      }
+    },
+    {
+      "record_file": "events.json",
+      "record": {
+        "event_id": "MC20",
+        "event_date": "2026-09-24",
+        "date_precision": "day",
+        "effective_date": null,
+        "publication_date": "2026-09-24",
+        "retrieved_date_utc": "2026-10-08",
+        "lane": "legal_capacity",
+        "title": "Latest sampled EOIR temporary appointments",
+        "implementation_status": "appointment notice",
+        "source_ids": [
+          "J13"
+        ],
+        "source_families": [
+          "DOJ EOIR appointment announcements"
+        ],
+        "previous_state": "Earlier cohorts",
+        "new_state": "Six temporary appointments announced",
+        "check_or_counterevidence": "Does not equal military staffing stock",
+        "uncertainty": "Incomplete cohort series, departures and renewals",
+        "continuity_assessment": "change",
+        "locator": null,
+        "discovery_status": "retrospective discovery in this packet"
+      }
+    },
+    {
+      "record_file": "ice_rights_events.json",
+      "record": {
+        "event_id": "IR11",
+        "event_date": "2026-09-29",
+        "date_precision": "day",
+        "effective_date": null,
+        "publication_date": "2026-09-29",
+        "retrieved_date_utc": "2026-10-10",
+        "lane": "removals_and_speech",
+        "title": "D.V.D. judgment stayed; review granted",
+        "implementation_status": "Supreme Court interim order",
+        "source_ids": [
+          "R03"
+        ],
+        "source_families": [
+          "D.V.D. third-country litigation"
+        ],
+        "previous_state": "Earlier state retained in linked sources",
+        "new_state": "D.V.D. judgment stayed; review granted",
+        "check_or_counterevidence": "No broader conclusion than the cited record",
+        "uncertainty": "Merits unresolved; December argument directed",
+        "continuity_assessment": "dated change or later documentation; not proof of unified causal program",
+        "locator": null,
+        "discovery_status": "retrospective discovery in RC-006"
+      }
+    },
+    {
+      "record_file": "events.json",
+      "record": {
+        "event_id": "MC21",
+        "event_date": "2026-09-30",
+        "date_precision": "day",
+        "effective_date": "2026-09-30",
+        "publication_date": "2026-09-30",
+        "retrieved_date_utc": "2026-10-08",
+        "lane": "ora",
+        "title": "Office of Religious Affairs established",
+        "implementation_status": "effective memorandum",
+        "source_ids": [
+          "O01",
+          "B03"
+        ],
+        "source_families": [
+          "AFCB governance instruction",
+          "September30 ORA memorandum"
+        ],
+        "previous_state": "Board governance under Personnel and Readiness; older chaplain/youth programs",
+        "new_state": "Direct-report director, Board realignment, policy/resources/assessment remit",
+        "check_or_counterevidence": "Noncompulsion and any-faith/no-faith protection in same memo",
+        "uncertainty": "Director, charter, budget, tools and actual outcomes unresolved",
+        "continuity_assessment": "change",
+        "locator": null,
+        "discovery_status": "retrospective discovery in this packet"
+      }
+    },
+    {
+      "record_file": "events.json",
+      "record": {
+        "event_id": "MC22",
+        "event_date": "2026-10-01",
+        "date_precision": "day",
+        "effective_date": null,
+        "publication_date": "2026-10-01",
+        "retrieved_date_utc": "2026-10-08",
+        "lane": "ora_scrutiny",
+        "title": "Stakeholder support and records scrutiny",
+        "implementation_status": "public statements",
+        "source_ids": [
+          "O03",
+          "O08"
+        ],
+        "source_families": [
+          "Archdiocese response",
+          "FFRF ORA records inquiry"
+        ],
+        "previous_state": "Newly issued memo",
+        "new_state": "Supportive expectations and announced inquiry",
+        "check_or_counterevidence": "Competing expectations preserved",
+        "uncertainty": "Neither statement measures implementation",
+        "continuity_assessment": "change",
+        "locator": null,
+        "discovery_status": "retrospective discovery in this packet"
+      }
+    },
+    {
+      "record_file": "ice_operations_events.json",
+      "record": {
+        "event_id": "IO12",
+        "event_date": "2026-10-06",
+        "publication_date": "2026-10-06",
+        "retrieved_date_utc": "2026-10-10",
+        "title": "Assessment receives further public scrutiny",
+        "source_ids": [
+          "I10",
+          "I11",
+          "I12"
+        ],
+        "claim": "FOIA recipient and AP discuss earlier exercise and testing limits.",
+        "status": "documented publication",
+        "limitations": "Earlier document-index date means this is not a claim of first disclosure.",
+        "discovery": "Late discovery"
+      }
+    },
+    {
+      "record_file": "ice_rights_events.json",
+      "record": {
+        "event_id": "IR12",
+        "event_date": "2026-10-08",
+        "date_precision": "day",
+        "effective_date": null,
+        "publication_date": "2026-10-08",
+        "retrieved_date_utc": "2026-10-11",
+        "lane": "removals_and_speech",
+        "title": "Africa third-country investigation published",
+        "implementation_status": "research publication",
+        "source_ids": [
+          "R02"
+        ],
+        "source_families": [
+          "HRW 2026 third-country Africa investigation"
+        ],
+        "previous_state": "Earlier state retained in linked sources",
+        "new_state": "Africa third-country investigation published",
+        "check_or_counterevidence": "No broader conclusion than the cited record",
+        "uncertainty": "Underlying observations end earlier; not new removals on publication day",
+        "continuity_assessment": "dated change or later documentation; not proof of unified causal program",
+        "locator": null,
+        "discovery_status": "retrospective discovery in RC-006"
+      }
+    }
+  ]
+}

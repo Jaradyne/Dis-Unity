@@ -1,5 +1,7 @@
 ## Military research intake — 8 October 2026 UTC
 
+[RC-006 expanded research](reports/military-conscience-and-institutional-safeguards/ICE_AND_DOMESTIC_ENFORCEMENT.md) adds postwar history, DHS, ICE and an adjacent-agency map, with source-attributed findings and explicit gaps. Evidence cutoff October10; selected rechecks October11. This is research publication for Jared/Digest, not canonical admission or operational activation.
+
 [RC-005 military-conscience packet](reports/military-conscience-and-institutional-safeguards/README.md) is available for Jared and Digest review. It preserves retroactive baselines, dated changes, counterevidence and implementation gaps. This is an open intake, not canonical admission or Bee activation. RC-004 and its evidence cutoff remain unchanged.
 
 # Common research state — RC-004

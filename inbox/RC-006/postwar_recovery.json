@@ -1,0 +1,521 @@
+{
+  "cycle": "RC-006",
+  "agent": "postwar_recovery",
+  "state": "dhs_supplement_in_progress",
+  "research_cutoff": "2026-10-10",
+  "scope": "Recovery of bounded postwar history lane after earlier worker interruption; original checkpoint preserved.",
+  "planned_outputs": [
+    "POSTWAR_FOUNDATIONS.md",
+    "history_sources.json",
+    "history_events.json"
+  ],
+  "web_call_count": 14,
+  "queries": [
+    {
+      "call": 1,
+      "operation": "open prior primary document references",
+      "inputs": [
+        "turn70view2",
+        "turn70view3",
+        "turn70view4",
+        "turn75view0",
+        "turn75view1",
+        "turn75view4",
+        "turn75view5",
+        "turn75view6",
+        "turn75view7",
+        "turn75view8"
+      ]
+    },
+    {
+      "call": 2,
+      "operation": "system2_search_query",
+      "inputs": [
+        "site.history.state.gov milestones 1945 1952 immigration nationality act 1952",
+        "site.gov uniform code military justice 1950 May 5 1951 effective",
+        "site.senate.gov Church Committee 1975 domestic intelligence abuses",
+        "site.uscis.gov Operation Wetback 1954 history"
+      ]
+    },
+    {
+      "call": 3,
+      "operation": "open/find originals",
+      "inputs": [
+        "STATUTE-64-Pg107 UCMJ",
+        "STATUTE-64-Pg987 Internal Security Act",
+        "State INA1952",
+        "USCIS INSHistory",
+        "Senate Church report index",
+        "NARA INA1965 milestone",
+        "STATUTE-94-Pg102 RefugeeAct",
+        "1947 police restriction",
+        "Code of Conduct God",
+        "Laird specific present",
+        "NonDetentionAct section2",
+        "UN Charter human rights"
+      ]
+    },
+    {
+      "call": 4,
+      "operation": "system1_search_query",
+      "inputs": [
+        "site.govinfo.gov Refugee Act of 1980 94 STAT.102",
+        "site.govinfo.gov Military Cooperation with Civilian Law Enforcement 1981",
+        "site.govinfo.gov 1996 1033 2576a",
+        "site.ice.gov March 1,2003 history"
+      ]
+    },
+    {
+      "call": 5,
+      "operation": "system2_search_query/open/click",
+      "inputs": [
+        "site.gov Refugee Act of1980 March17",
+        "site.gov Military Cooperation 1981 375",
+        "site.ice.gov history March1,2003",
+        "site.archives.gov1945 Nuremberg November20",
+        "ChurchBookII",
+        "PLAW-104publ201",
+        "PLAW-104publ208",
+        "PLAW-107publ40",
+        "PLAW-107publ56",
+        "PLAW-107publ296"
+      ]
+    },
+    {
+      "call": 6,
+      "operation": "open/find",
+      "inputs": [
+        "STATUTE-64-Pg987-2",
+        "STATUTE-64-Pg107-2",
+        "STATUTE-94-Pg102-2",
+        "STATUTE-95-Pg1099",
+        "House INA1965",
+        "ICE history",
+        "DHS creation",
+        "USCIS INSHistory.pdf retry",
+        "Church94755_II.pdf",
+        "1033 \u00a72576a",
+        "IIRIRA performance and expedited removal",
+        "Patriot \u00a7412",
+        "DHS abolishment INS"
+      ]
+    },
+    {
+      "call": 7,
+      "operation": "targeted open",
+      "inputs": [
+        "EO9981",
+        "EO10631",
+        "Eisenhowerfarewell",
+        "Welsh",
+        "HouseINA1965",
+        "1033clause",
+        "IIRIRA\u00a7302",
+        "PATRIOT\u00a7412",
+        "AUMF",
+        "DHS\u00a7471",
+        "UCMJpage",
+        "RefugeeDocsTeach",
+        "SenateChurch",
+        "1981militarysupporthistoricalcode"
+      ]
+    },
+    {
+      "call": 8,
+      "operation": "system2_search_query/find",
+      "inputs": [
+        "GAOMilitaryCooperation1983",
+        "EmergencyDetentionAct1950September",
+        "DHSICE March1,2003",
+        "NARAOperationWetback1954",
+        "IIRIRAg1",
+        "INA1965October03",
+        "Eisenhowerunwarranted",
+        "Codecaptivity",
+        "EO9981religion"
+      ]
+    },
+    {
+      "call": 9,
+      "operation": "open originals/clauses",
+      "inputs": [
+        "COMPS-10345",
+        "GAO122004.pdf",
+        "DHS2003Yearbook",
+        "YaleNurembergCharter",
+        "1952USCodeUCMJ",
+        "NARARefugeeActblog",
+        "STATUTE-92-Pg1783FISA",
+        "INA1965body",
+        "Eisenhowerwarning",
+        "Welshholding",
+        "IIRIRA287gtext",
+        "IIRIRAfearreferral",
+        "PATRIOTdetentionlimits",
+        "1033conditions",
+        "AUMFoperative"
+      ]
+    },
+    {
+      "call": 10,
+      "operation": "find/system2_search_query",
+      "inputs": [
+        "EmergencyActsec103",
+        "Nurembergsuperior",
+        "UCMJcivilianlife",
+        "GAOdirect",
+        "IIRIRAdirection",
+        "IIRIRAfear",
+        "PATRIOT7days",
+        "Welshheld",
+        "Laird1972",
+        "DHSICEcreated2003",
+        "USCISINSHistory1954",
+        "PL97-86Dec1lawenforcement",
+        "66Stat163June27"
+      ]
+    },
+    {
+      "call": 11,
+      "operation": "open/find",
+      "inputs": [
+        "EmergencyDetentionActfull",
+        "GAO1983lawclauses",
+        "2003HousehearingICEcreation",
+        "StateINA1952date",
+        "STATUTE79Pg911INA1965",
+        "STATUTE66Pg163INA1952",
+        "FISA1978",
+        "Nuremberg8August",
+        "UNratification",
+        "IIRIRAeffective\u00a7309"
+      ]
+    },
+    {
+      "call": 12,
+      "operation": "system2_search_query/open/find",
+      "inputs": [
+        "TrumanVetoInternalSecurity1950",
+        "EmergencyDetention1950Stat1019",
+        "USCISINSHistory1954date",
+        "UNcharterhomepage",
+        "NARANuremberg2020",
+        "STATUTE95Pg1099-2",
+        "2004hearingdate",
+        "INA1965nationaloriginanddate",
+        "DHSenactmentdate",
+        "Lairddecisiondate"
+      ]
+    },
+    {
+      "call": 13,
+      "operation": "open/find",
+      "inputs": [
+        "1952USCodechapter23original",
+        "Trumanveto1950",
+        "GAO1983policy",
+        "STAT64Pg987retryindexed",
+        "IIRIRAAGsupervision",
+        "1033suitable",
+        "1965race",
+        "Nuremberg1945"
+      ]
+    },
+    {
+      "call": 14,
+      "operation": "final bounded verification find",
+      "inputs": [
+        "Truman detention title",
+        "GAO prohibits",
+        "IIRIRA military-base pilot",
+        "287g written certification",
+        "1965 nondiscrimination",
+        "PATRIOT habeas",
+        "EO9835date",
+        "EO9981date",
+        "Eisenhowerdate"
+      ]
+    }
+  ],
+  "reference_ids": [
+    "turn100view0",
+    "turn100view10",
+    "turn100view11",
+    "turn100view2",
+    "turn100view4",
+    "turn100view7",
+    "turn100view8",
+    "turn100view9",
+    "turn104view0",
+    "turn104view1",
+    "turn104view2",
+    "turn104view3",
+    "turn104view4",
+    "turn107view9",
+    "turn110view0",
+    "turn110view1",
+    "turn110view10",
+    "turn110view11",
+    "turn110view12",
+    "turn110view2",
+    "turn110view3",
+    "turn110view4",
+    "turn110view5",
+    "turn110view6",
+    "turn110view7",
+    "turn110view8",
+    "turn110view9",
+    "turn113search0",
+    "turn113search1",
+    "turn113search48",
+    "turn113search49",
+    "turn113view2",
+    "turn113view3",
+    "turn113view4",
+    "turn117view0",
+    "turn117view1",
+    "turn117view10",
+    "turn117view11",
+    "turn117view12",
+    "turn117view13",
+    "turn117view14",
+    "turn117view3",
+    "turn117view4",
+    "turn117view5",
+    "turn117view6",
+    "turn117view7",
+    "turn117view8",
+    "turn117view9",
+    "turn122view1",
+    "turn122view2",
+    "turn122view5",
+    "turn122view7",
+    "turn123view1",
+    "turn123view2",
+    "turn123view3",
+    "turn123view4",
+    "turn123view6",
+    "turn123view9",
+    "turn126search6",
+    "turn126search8",
+    "turn126view1",
+    "turn126view3",
+    "turn126view5",
+    "turn126view6",
+    "turn126view7",
+    "turn128view2",
+    "turn128view5",
+    "turn128view7",
+    "turn129view2",
+    "turn129view3",
+    "turn129view5",
+    "turn129view6",
+    "turn129view7",
+    "turn129view8",
+    "turn94view0",
+    "turn94view1",
+    "turn94view2",
+    "turn94view3",
+    "turn94view5",
+    "turn94view6",
+    "turn94view7",
+    "turn94view8",
+    "turn94view9",
+    "turn98search48"
+  ],
+  "limitations": [
+    "Specialist research is not canonical admission.",
+    "Parsed web tool output is not a raw HTTP receipt.",
+    "Earlier worker had no saved report/catalog; independently verify material assertions.",
+    "14 recovery web calls, in addition to earlier interrupted worker calls.",
+    "1950 original detention title, full USCIS history, full RefugeeAct scan, original1981 act and ChurchBookII not fully accessible; exact access limits preserved by source.",
+    "Selective23-milestone history is not exhaustive institutional or current-law review."
+  ],
+  "next_step": "Write final bounded DHS report and catalogs; validate local files, then coordinator review.",
+  "consequential_findings": [
+    "EO9835 original confirms notice, hearing, counsel, internal appeal, security-qualified disclosure and temporary suspension.",
+    "National Security Act enacted July 26, 1947; avoid July 27 retrospective dating.",
+    "Recovery independently reopened nine primary historical documents; remaining legislation and institutional dates need verification.",
+    "Do not cite GovInfo COMPS-10345 as original detention-title text: despite search metadata, retrieved file contains Titles I and III as amended through 2006, not repealed Title II.",
+    "Original 1996 statutes distinguish defense equipment transfers from immigration officer delegation; expedited removal retains fear/asylum referral in statutory text.",
+    "2004 ICE leadership testimony directly dates formation to March 1, 2003 and describes merged enforcement capabilities; treat effectiveness statements as agency testimony."
+  ],
+  "output_files": [
+    "reports/military-conscience-and-institutional-safeguards/POSTWAR_FOUNDATIONS.md",
+    "reports/military-conscience-and-institutional-safeguards/history_sources.json",
+    "reports/military-conscience-and-institutional-safeguards/history_events.json"
+  ],
+  "source_count": 27,
+  "event_count": 23,
+  "report_word_count": 1374,
+  "additional_authorization": "Coordinator relayed user expansion to include creation and use of Homeland Security.",
+  "dhs_supplement": {
+    "research_cutoff": "2026-10-10",
+    "retrieved_date_utc": "2026-10-11",
+    "web_call_count": 8,
+    "queries": [
+      {
+        "call": 1,
+        "operation": "system2_search_query",
+        "inputs": [
+          "DHS22agenciesMarch2003",
+          "EOIRDOJ",
+          "OIGPortland21-31",
+          "Senatefusion2012"
+        ]
+      },
+      {
+        "call": 2,
+        "operation": "system1_search_query/open",
+        "inputs": [
+          "DHSICECBPMidwayBlitzrecency400",
+          "DHScomponentsrecency365",
+          "SecureCommunities2014/2017",
+          "GAOUSVISITJan2004",
+          "OIG-21-31PDF",
+          "2012PSIfusionPDF",
+          "EOIRabout",
+          "BushDHSanniversary2004",
+          "PLAW110publ53"
+        ]
+      },
+      {
+        "call": 3,
+        "operation": "system2_search_query/open",
+        "inputs": [
+          "GAOSecureCommunities2008fingerprints",
+          "DHSNov202014SecureCommunities",
+          "EO13768SecureCommunities",
+          "GAOUSVISITJan52004",
+          "OversightPortlandreport",
+          "GPOcomponentguide",
+          "DHSBlitzOct62025",
+          "DHSBlitzSep82025",
+          "PL119-21",
+          "14USC101"
+        ]
+      },
+      {
+        "call": 4,
+        "operation": "open/click/find",
+        "inputs": [
+          "OversightPortlanddownload",
+          "GAO12-708",
+          "DHS2014SecureCommunitiesmemo",
+          "EO13768",
+          "GAO04-586",
+          "DHScomponents",
+          "PL110-53\u00a7511",
+          "2012fusioncivilliberties",
+          "14USCarmedforces",
+          "2025funding45b",
+          "2025ICEheading"
+        ]
+      },
+      {
+        "call": 5,
+        "operation": "open/find",
+        "inputs": [
+          "CISAabout",
+          "FEMAabout",
+          "TSAmission",
+          "USSSoverview",
+          "USCISmission",
+          "CBPabout",
+          "2014memoAILAmirror",
+          "PortlandApril/identification",
+          "SecureCommunitiesOct2008",
+          "USVISITJan2004",
+          "2025detentioncapacity",
+          "DHSAct222/705"
+        ]
+      },
+      {
+        "call": 6,
+        "operation": "system2_search_query/find",
+        "inputs": [
+          "DHScomponentsroles",
+          "CISAmission",
+          "CBPmission",
+          "SecretServicemission",
+          "Portlanduniforms",
+          "fusion2009/2010andusefulness",
+          "GAOdates",
+          "EO13768date"
+        ]
+      },
+      {
+        "call": 7,
+        "operation": "system2_search_query/open/find",
+        "inputs": [
+          "TSA mission",
+          "FEMA disaster mission",
+          "USCIS benefits",
+          "FPS federal property",
+          "CISA Act 2018",
+          "CPOST Midway Blitz original research",
+          "14 USC 101",
+          "fusion initiative section 511",
+          "GAO Secure Communities fingerprints"
+        ]
+      },
+      {
+        "call": 8,
+        "operation": "final bounded primary-source verification open/find",
+        "inputs": [
+          "CPOST report dateline and introduction",
+          "GPO FY2023 DHS budget appendix",
+          "TSA anniversary release",
+          "Secret Service annual report (blocked)",
+          "fusion statutory clause",
+          "2014 DHS memo AILA mirror",
+          "CISA Act duties and approval date",
+          "EOIR mission",
+          "Bush anniversary merger",
+          "Portland uniform finding",
+          "Secure Communities data periods"
+        ]
+      }
+    ],
+    "planned_outputs": [
+      "DHS_CREATION_AND_USE.md",
+      "dhs_sources.json",
+      "dhs_events.json"
+    ],
+    "limitations": [
+      "Selective historical supplement; no claim of complete DHS audit.",
+      "Inherited postwar outputs remain saved."
+    ],
+    "reference_ids": [
+      "turn136view1",
+      "turn136view2",
+      "turn136view3",
+      "turn136view4",
+      "turn136search0",
+      "turn136search1",
+      "turn136search9",
+      "turn136search12",
+      "turn147view0",
+      "turn147view1",
+      "turn147view2",
+      "turn147view3",
+      "turn147view4",
+      "turn147search15",
+      "turn147search16",
+      "turn151view0",
+      "turn151view1",
+      "turn151view2",
+      "turn151view3",
+      "turn151view4",
+      "turn151view5",
+      "turn151view6",
+      "turn151view7",
+      "turn151view8",
+      "turn151view9",
+      "turn151view10",
+      "turn151view11",
+      "turn151view12",
+      "turn151view13"
+    ]
+  }
+}

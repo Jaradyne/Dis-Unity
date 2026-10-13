@@ -1,0 +1,92 @@
+{
+  "finished_at": "2026-10-11T07:01:05.412689+00:00",
+  "record_id": "API-adjacent-agencies-0001",
+  "redaction": {
+    "policy": "Credentials and authentication cookies only; no content-field allowlist.",
+    "replacement_count": 0
+  },
+  "request": {
+    "body": null,
+    "headers": [
+      [
+        "User-agent",
+        "Dis-Unity public research/1.0"
+      ],
+      [
+        "Accept",
+        "application/pdf"
+      ]
+    ],
+    "method": "GET",
+    "url": "https://www.doi.gov/sites/default/files/document_secretarys_orders/so-3440-uspp-nps-org-9.2.2025_final-signed_508.pdf"
+  },
+  "response": {
+    "body": {
+      "complete": true,
+      "encoding": "external-file",
+      "received_bytes": 268862,
+      "saved_sha256": "99831e27c98eb375d5c2249bc711174911b5d9c3405120dbd27c885120a520ec",
+      "original_record_encoding": "base64",
+      "content_file": "0001.pdf"
+    },
+    "headers": [
+      [
+        "Content-Type",
+        "application/pdf"
+      ],
+      [
+        "Content-Length",
+        "268862"
+      ],
+      [
+        "X-Content-Type-Options",
+        "nosniff"
+      ],
+      [
+        "Last-Modified",
+        "Wed, 03 Sep 2025 17:11:36 GMT"
+      ],
+      [
+        "Accept-Ranges",
+        "bytes"
+      ],
+      [
+        "X-Request-ID",
+        "v-266290c2-9807-11f1-965e-6b86ac427c8a"
+      ],
+      [
+        "X-AH-Environment",
+        "prod"
+      ],
+      [
+        "X-Age",
+        "0"
+      ],
+      [
+        "Cache-Control",
+        "max-age=300, s-maxage=43200"
+      ],
+      [
+        "Expires",
+        "Sun, 11 Oct 2026 07:06:05 GMT"
+      ],
+      [
+        "Date",
+        "Sun, 11 Oct 2026 07:01:05 GMT"
+      ],
+      [
+        "Connection",
+        "close"
+      ],
+      [
+        "Strict-Transport-Security",
+        "max-age=63072000 ; includeSubDomains"
+      ]
+    ],
+    "http_status": 200
+  },
+  "run_id": "adjacent-agencies",
+  "schema_version": "api-exchange-1",
+  "started_at": "2026-10-11T07:00:59.673545+00:00",
+  "state": "response_received"
+}

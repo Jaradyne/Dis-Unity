@@ -1,0 +1,75 @@
+{
+  "schema_version": "research-assembly-manifest-1",
+  "cycle_id": "RC-006",
+  "base_commit": "aaf560dbe71bc03cb07c5937a2b2f4355f61025b",
+  "source_record_count": 121,
+  "event_record_count": 92,
+  "transformation": "Combined ledger nests each original event payload unchanged; Markdown projection maps new_state/claim and uncertainty/limitations without deleting input fields.",
+  "inputs": [
+    {
+      "path": "reports/military-conscience-and-institutional-safeguards/ora_sources.json",
+      "sha256": "1babd2fb6628afafe6c04a1610686078891a02fd6ceaedf784c7d4fbe97c7e25"
+    },
+    {
+      "path": "reports/military-conscience-and-institutional-safeguards/baseline_sources.json",
+      "sha256": "4af6cf492000e9e3db9d4c4302c8b8e4ae08f3f4702211ae43ba26b9d8bd1511"
+    },
+    {
+      "path": "reports/military-conscience-and-institutional-safeguards/legal_sources.json",
+      "sha256": "be7e9190d21dda3cb0db1e4cf3ab591f6c89a48f7c91d9737be480f7caf63a25"
+    },
+    {
+      "path": "reports/military-conscience-and-institutional-safeguards/history_sources.json",
+      "sha256": "9571558bbafc66bf43e68ef7a281f99a7d067a6c14004549f90b009513fa32fc"
+    },
+    {
+      "path": "reports/military-conscience-and-institutional-safeguards/dhs_sources.json",
+      "sha256": "c10903d83edf2a7ddd53dd6475a7c3034d4327b48b62d44e9d1bcb19271252a0"
+    },
+    {
+      "path": "reports/military-conscience-and-institutional-safeguards/ice_operations_sources.json",
+      "sha256": "182a32edadc077fc82a782fbff8f706cf84afcf7982301f1cc723e33dffed04f"
+    },
+    {
+      "path": "reports/military-conscience-and-institutional-safeguards/ice_capacity_sources.json",
+      "sha256": "e8d68c7b9f0c0616c635a2e2c600cb58d645936237f62ffec4bb8e4c3eec7c21"
+    },
+    {
+      "path": "reports/military-conscience-and-institutional-safeguards/ice_rights_sources.json",
+      "sha256": "24a25a546f62d2c8a9d1521ecbc526945087c93a26e9d58202fdbae024497cf7"
+    },
+    {
+      "path": "reports/military-conscience-and-institutional-safeguards/agency_sources.json",
+      "sha256": "5643fbb0070f99e7721dbd5370f1d2e64d1931ab0831f051a8fe4af2f6bb2425"
+    },
+    {
+      "path": "reports/military-conscience-and-institutional-safeguards/events.json",
+      "sha256": "17d52f23abdec3c6fe1560bd631ff2b93084f62dfa0fcd384041300f32f0cc11"
+    },
+    {
+      "path": "reports/military-conscience-and-institutional-safeguards/history_events.json",
+      "sha256": "985c198e590955e03de4df64b8b779d395d843defa21a407ac05799b9a10a5c1"
+    },
+    {
+      "path": "reports/military-conscience-and-institutional-safeguards/dhs_events.json",
+      "sha256": "e8f58798d3e67dfae5f2badec243f070193f654ebbaf8a14d3d6e3f38ab86524"
+    },
+    {
+      "path": "reports/military-conscience-and-institutional-safeguards/ice_operations_events.json",
+      "sha256": "96e84478254443e0c7096888292f82d8c79cb87d875fdc2adb100e2fc1c70f13"
+    },
+    {
+      "path": "reports/military-conscience-and-institutional-safeguards/ice_capacity_events.json",
+      "sha256": "89169a627ac3f89a7f168dfd0a450ee3672ff486a9e2e6e97348d396b97eca91"
+    },
+    {
+      "path": "reports/military-conscience-and-institutional-safeguards/ice_rights_events.json",
+      "sha256": "3de7be27ec92c75ae93770c90a66a6e48ad6dbc55c8cac508bdf81da1370e31e"
+    },
+    {
+      "path": "reports/military-conscience-and-institutional-safeguards/agency_events.json",
+      "sha256": "ecbb3d6faad1c0152b3bc1ac22e286806a8f74c53fb0c90d0b87e7bc4b0c26e8"
+    }
+  ],
+  "canonical_state_sha256": "16d04f8bb35a588caca60517f90a11944cfbafac7951402d059a6d6131de97b7"
+}
