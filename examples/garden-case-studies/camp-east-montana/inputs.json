@@ -1,0 +1,74 @@
+{
+  "case_id": "CEM-20261012",
+  "parent_pr": 36,
+  "parent_commit": "ff9dcf3e6c622073991bef9b6e633f4217839110",
+  "parent_tree": "5ec782421e960cea59d1c0905ded0ec085e24715",
+  "source_id": "C01",
+  "source_family": "GAO-26-108886",
+  "parent_event_ids": [
+    "IC02",
+    "IC03"
+  ],
+  "built_at": "2026-10-12T10:16:22.649631+00:00",
+  "files": [
+    {
+      "path": "digestion/threshold/research/2026-10-10-postwar-ice/retrievals/gao-public-documents/api/0001.pdf",
+      "sha256": "7d5316dff4f3abd0c385a22d7a7a300ae40ceec358c16ca3ee39def202f17e85"
+    },
+    {
+      "path": "reports/military-conscience-and-institutional-safeguards/ice_capacity_sources.json",
+      "sha256": "e8d68c7b9f0c0616c635a2e2c600cb58d645936237f62ffec4bb8e4c3eec7c21"
+    },
+    {
+      "path": "reports/military-conscience-and-institutional-safeguards/ice_capacity_events.json",
+      "sha256": "89169a627ac3f89a7f168dfd0a450ee3672ff486a9e2e6e97348d396b97eca91"
+    },
+    {
+      "path": "reports/military-conscience-and-institutional-safeguards/expanded_events.json",
+      "sha256": "fa53864402e087219315f8588eb3b62580189757d30e4f3c8da86c49f5189fad"
+    },
+    {
+      "path": "digestion/threshold/research/2026-10-10-postwar-ice/retrievals/gao-public-documents/api/0001.json",
+      "sha256": "2396325dd430622358acbf569afc77632cee8862d2bfd9bd4d3f87fd6a65c2a1"
+    },
+    {
+      "path": "config/garden-traversal.json",
+      "sha256": "cabe4d51ecca052abfcb386dc1e3f8b97cc440a23d6a15bf955b40b8719f8e18"
+    },
+    {
+      "path": "config/garden.json",
+      "sha256": "ea44459eefebfe9389ce45f753425f58f03eebd9f2126b1c3fec8453b6d5aef0"
+    },
+    {
+      "path": "digestion/threshold/research/2026-10-10-postwar-ice/retrievals/gao-public-documents/api/0002.pdf",
+      "sha256": "07c4b2eeb319c8f565921f80ec038ef4f1865a541a0cfaf0dab4e225ccd68923"
+    },
+    {
+      "path": "digestion/threshold/research/2026-10-10-postwar-ice/retrievals/gao-public-documents/api/0002.json",
+      "sha256": "8321ca5eb1d06ea41968f3d2bc57109ac6cf35e29a5bb3d030fb4222afca3c57"
+    },
+    {
+      "path": "scripts/garden_example.py",
+      "sha256": "fa2f95a65702b7fec5e4de200a08ecbbe172480d1b19ad6f862e43efc62a6c2b"
+    },
+    {
+      "path": "scripts/garden_runtime.py",
+      "sha256": "78046a738a28d81f856d04afeeedb890be70b934398cb4cd86625394a8dd93c9"
+    },
+    {
+      "path": "scripts/garden.py",
+      "sha256": "3269ba10388056f6aa58474215e09a12008e26a244807598298894ae35e2eabd"
+    },
+    {
+      "path": "scripts/cycle.py",
+      "sha256": "ffa04cf9514785c95904eb549bdcb76f2966df56bae7905a3964da45ed81d387"
+    },
+    {
+      "path": "examples/garden-case-studies/camp-east-montana/status-recheck.json",
+      "sha256": "6f3d07935df3f2834df04edb183d9f528726db571314b9504e8a02b30f0f712f"
+    }
+  ],
+  "provenance_note": "C01 catalog reports review on October 11. Retained PDF HTTP record records capture October 10, 2026 at 00:54:59 UTC. PDF publication June 9. Distinct dates are preserved. October 12 product-page recheck is a case-local supplement, not an edit of RC-006 cutoff or ledger.",
+  "related_source_id": "C02",
+  "related_parent_event_id": "IC07"
+}

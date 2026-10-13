@@ -1,0 +1,43 @@
+{
+  "source_id": "C01-STATUS-20261012",
+  "parent_source_id": "C01",
+  "lineage_id": "GAO-26-108886",
+  "url": "https://www.gao.gov/products/gao-26-108886",
+  "publication_date": "2026-06-09",
+  "observed_date": "2026-10-12",
+  "access": "Official product page reopened with built-in web tool; normalized text only, not a retained raw HTTP response. This file is a paraphrased observation.",
+  "tool_reference": "turn0view0",
+  "recommendations": [
+    {
+      "number": 1,
+      "status": "Open",
+      "response_date": "2026-05",
+      "response": "DHS said it was shifting the contract to tiered pricing.",
+      "estimated_completion": "2026-12-31",
+      "verification": "No implemented pricing or invoices supplied by this status entry."
+    },
+    {
+      "number": 2,
+      "status": "Open",
+      "response_date": "2026-05",
+      "response": "DHS relied on existing pre-occupancy inspection policy. GAO maintained that controls were still needed because the policy was not followed.",
+      "verification": "No completed new occupancy control demonstrated by this entry."
+    },
+    {
+      "number": 3,
+      "status": "Open",
+      "response_date": "2026-08",
+      "response": "Army provided documentation of milestones for a lessons-learned white paper.",
+      "estimated_completion": "2026-12-30",
+      "verification": "Documented planning progress; not a completed white paper or verified facility remedy."
+    },
+    {
+      "number": 4,
+      "status": "Open",
+      "response_date": "2026-05",
+      "response": "ICE and DHS readiness office planned a joint acquisition lessons assessment.",
+      "verification": "No completed assessment demonstrated by this entry."
+    }
+  ],
+  "interpretation": "Open is GAO recommendation status, not proof that no corrective work occurred; recommendation closure is also not a complete facility-safety certification."
+}
