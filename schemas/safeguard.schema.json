@@ -1,0 +1,502 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:dis-unity:safeguard:1",
+  "title": "Separate formal, operational and observed safeguard claims",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "safeguard_id": {
+      "type": "string",
+      "pattern": "^[A-Z][A-Z0-9-]*$"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "scope": {
+      "type": "string",
+      "minLength": 1
+    },
+    "evidence_cutoff": {
+      "type": "string",
+      "minLength": 1
+    },
+    "event_refs": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[A-Z][A-Z0-9-]*$"
+      },
+      "minItems": 1
+    },
+    "evidence": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "evidence_id": {
+            "type": "string",
+            "pattern": "^[A-Z][A-Z0-9-]*$"
+          },
+          "kind": {
+            "enum": [
+              "formal_text",
+              "implementation_observation",
+              "effectiveness_observation",
+              "noncompliance_observation",
+              "agency_response",
+              "recommendation_status",
+              "reported_concern",
+              "context"
+            ]
+          },
+          "claim": {
+            "type": "string",
+            "minLength": 1
+          },
+          "period": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "start": {
+                "anyOf": [
+                  {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "end": {
+                "anyOf": [
+                  {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "note": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "required": [
+              "start",
+              "end",
+              "note"
+            ]
+          },
+          "citations": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "source_ref": {
+                  "type": "string",
+                  "pattern": "^[A-Z][A-Z0-9-]*$"
+                },
+                "locator": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "required": [
+                "source_ref",
+                "locator"
+              ]
+            },
+            "minItems": 1
+          },
+          "event_refs": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^[A-Z][A-Z0-9-]*$"
+            },
+            "minItems": 0
+          },
+          "limits": {
+            "type": "string",
+            "minLength": 1
+          },
+          "effect": {
+            "anyOf": [
+              {
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                  "kind": {
+                    "enum": [
+                      "prevented",
+                      "stopped",
+                      "remedied"
+                    ]
+                  },
+                  "harm": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "action": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "result": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "scope": {
+                    "type": "string",
+                    "minLength": 1
+                  }
+                },
+                "required": [
+                  "kind",
+                  "harm",
+                  "action",
+                  "result",
+                  "scope"
+                ]
+              },
+              {
+                "type": "null"
+              }
+            ]
+          }
+        },
+        "required": [
+          "evidence_id",
+          "kind",
+          "claim",
+          "period",
+          "citations",
+          "event_refs",
+          "limits",
+          "effect"
+        ]
+      },
+      "minItems": 1
+    },
+    "formal": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "status": {
+          "enum": [
+            "documented",
+            "not_in_force",
+            "unknown"
+          ]
+        },
+        "claim": {
+          "type": "string",
+          "minLength": 1
+        },
+        "evidence_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[A-Z][A-Z0-9-]*$"
+          },
+          "minItems": 0
+        }
+      },
+      "required": [
+        "status",
+        "claim",
+        "evidence_ids"
+      ]
+    },
+    "operational": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "people": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "status": {
+              "enum": [
+                "observed",
+                "partial",
+                "absent",
+                "unknown"
+              ]
+            },
+            "claim": {
+              "type": "string",
+              "minLength": 1
+            },
+            "evidence_ids": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "pattern": "^[A-Z][A-Z0-9-]*$"
+              },
+              "minItems": 0
+            }
+          },
+          "required": [
+            "status",
+            "claim",
+            "evidence_ids"
+          ]
+        },
+        "procedures": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "status": {
+              "enum": [
+                "observed",
+                "partial",
+                "absent",
+                "unknown"
+              ]
+            },
+            "claim": {
+              "type": "string",
+              "minLength": 1
+            },
+            "evidence_ids": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "pattern": "^[A-Z][A-Z0-9-]*$"
+              },
+              "minItems": 0
+            }
+          },
+          "required": [
+            "status",
+            "claim",
+            "evidence_ids"
+          ]
+        },
+        "authority": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "status": {
+              "enum": [
+                "observed",
+                "partial",
+                "absent",
+                "unknown"
+              ]
+            },
+            "claim": {
+              "type": "string",
+              "minLength": 1
+            },
+            "evidence_ids": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "pattern": "^[A-Z][A-Z0-9-]*$"
+              },
+              "minItems": 0
+            }
+          },
+          "required": [
+            "status",
+            "claim",
+            "evidence_ids"
+          ]
+        }
+      },
+      "required": [
+        "people",
+        "procedures",
+        "authority"
+      ]
+    },
+    "effectiveness": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "status": {
+          "enum": [
+            "observed",
+            "unknown"
+          ]
+        },
+        "claim": {
+          "type": "string",
+          "minLength": 1
+        },
+        "evidence_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[A-Z][A-Z0-9-]*$"
+          },
+          "minItems": 0
+        }
+      },
+      "required": [
+        "status",
+        "claim",
+        "evidence_ids"
+      ]
+    },
+    "failure": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "status": {
+          "enum": [
+            "documented",
+            "reported",
+            "unknown"
+          ]
+        },
+        "claim": {
+          "type": "string",
+          "minLength": 1
+        },
+        "evidence_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[A-Z][A-Z0-9-]*$"
+          },
+          "minItems": 0
+        }
+      },
+      "required": [
+        "status",
+        "claim",
+        "evidence_ids"
+      ]
+    },
+    "contrary_evidence": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "claim": {
+            "type": "string",
+            "minLength": 1
+          },
+          "evidence_ids": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^[A-Z][A-Z0-9-]*$"
+            },
+            "minItems": 1
+          }
+        },
+        "required": [
+          "claim",
+          "evidence_ids"
+        ]
+      },
+      "minItems": 1
+    },
+    "ordinary_explanations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "claim": {
+            "type": "string",
+            "minLength": 1
+          },
+          "evidence_ids": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^[A-Z][A-Z0-9-]*$"
+            },
+            "minItems": 1
+          }
+        },
+        "required": [
+          "claim",
+          "evidence_ids"
+        ]
+      },
+      "minItems": 1
+    },
+    "residuals": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1
+    },
+    "next_test": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "question": {
+          "type": "string",
+          "minLength": 1
+        },
+        "required_record": {
+          "type": "string",
+          "minLength": 1
+        },
+        "supports_if": {
+          "type": "string",
+          "minLength": 1
+        },
+        "weakens_if": {
+          "type": "string",
+          "minLength": 1
+        },
+        "stop_condition": {
+          "type": "string",
+          "minLength": 1
+        },
+        "max_records": {
+          "const": 1
+        },
+        "status": {
+          "const": "proposed_only"
+        }
+      },
+      "required": [
+        "question",
+        "required_record",
+        "supports_if",
+        "weakens_if",
+        "stop_condition",
+        "max_records",
+        "status"
+      ]
+    },
+    "rest_until": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "required": [
+    "safeguard_id",
+    "title",
+    "scope",
+    "evidence_cutoff",
+    "event_refs",
+    "evidence",
+    "formal",
+    "operational",
+    "effectiveness",
+    "failure",
+    "contrary_evidence",
+    "ordinary_explanations",
+    "residuals",
+    "next_test",
+    "rest_until"
+  ]
+}

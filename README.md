@@ -1,3 +1,5 @@
+**October 14 — Safeguard Reality Check:** [Chat handoff](reports/safeguards/CHAT_HANDOFF.md) · [Digest handoff](reports/safeguards/DIGEST_HANDOFF.md) · [three demonstrations](reports/safeguards/generated/SAFEGUARDS.md) · [contract](docs/SAFEGUARD_REALITY_CHECK.md). Formal protections, operational capacity, observed effectiveness and failure remain separate evidence claims.
+
 **October 13 — Thread of Continuity:** [Digest handoff](reports/continuity/DIGEST_HANDOFF.md) · [three shared-reference relationships](reports/continuity/generated/DIGEST.md) · [validation/replay contract](docs/THREAD_OF_CONTINUITY.md). Two documented institutional connections and one explicitly unverified career-selection hypothesis now reconstruct through Garden. Supplied review artifacts; no new workers or canonical admission.
 
 **October10–11 — expanded institutional research:** [1945–2026 military, DHS and ICE packet](reports/military-conscience-and-institutional-safeguards/ICE_AND_DOMESTIC_ENFORCEMENT.md) now includes overseas removals, political speech, personnel/equipment, detention capacity and adjacent agencies. RC-006 is review intake for Jared/Digest; RC-004 remains canonical.

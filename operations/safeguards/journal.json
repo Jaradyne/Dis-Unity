@@ -1,0 +1,996 @@
+{
+  "entries": [
+    {
+      "actor": "Work Aiden",
+      "entry_sha256": "eef54a2f2826779fdf4d5ddf9d0cdeed2290d32358be03a26b55fa281b00f373",
+      "expected_revision": 0,
+      "previous_entry_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "reason": "Supplied safeguard assessment of retained RC-005 evidence; formal protection remains distinct from practice.",
+      "recorded_at": "2026-10-14T08:56:19.122587+00:00",
+      "safeguard": {
+        "contrary_evidence": [
+          {
+            "claim": "The formal protections constrain what the memo authorizes, but are not empirical counterevidence to informal pressure or ineffective remedy.",
+            "evidence_ids": [
+              "ORA-FORMAL",
+              "LIBERTY-BASE"
+            ]
+          },
+          {
+            "claim": "Concentrated policy/resource/assessment responsibility gives a reason to test implementation; it does not itself document a violation.",
+            "evidence_ids": [
+              "ORA-DIRECTION"
+            ]
+          }
+        ],
+        "effectiveness": {
+          "claim": "No dated ORA-linked case demonstrates prevention, cessation or remedy of coercion, retaliation or unequal access.",
+          "evidence_ids": [
+            "ORA-FORMAL",
+            "LIBERTY-BASE"
+          ],
+          "status": "unknown"
+        },
+        "event_refs": [
+          "E-ORA",
+          "E-LIBERTY"
+        ],
+        "evidence": [
+          {
+            "citations": [
+              {
+                "locator": "p. 1 conscience/free-exercise/noncompulsion clauses",
+                "source_ref": "S-ORA"
+              }
+            ],
+            "claim": "The ORA memo expressly protects conscience and any-faith/no-faith participation, and forbids compelled religious participation.",
+            "effect": null,
+            "event_refs": [
+              "E-ORA"
+            ],
+            "evidence_id": "ORA-FORMAL",
+            "kind": "formal_text",
+            "limits": "Public-mirror facsimile inspected; original government PDF bytes not compared. Text is not proof of enforcement.",
+            "period": {
+              "end": "2026-09-30",
+              "note": "Dates describe the retained record, not a new observation.",
+              "start": "2026-09-30"
+            }
+          },
+          {
+            "citations": [
+              {
+                "locator": "sections 1.2(a)–(e), responsibilities and appeals",
+                "source_ref": "S-LIBERTY"
+              }
+            ],
+            "claim": "DoDI 1300.17 provides qualified observance/nonobservance and adverse-personnel-action protections, assigned responsibilities and accommodation appeals.",
+            "effect": null,
+            "event_refs": [
+              "E-LIBERTY"
+            ],
+            "evidence_id": "LIBERTY-BASE",
+            "kind": "formal_text",
+            "limits": "Primary document read on mirror; later amendments and actual remedy access were not exhaustively audited.",
+            "period": {
+              "end": "2020-09-01",
+              "note": "Dates describe the retained record, not a new observation.",
+              "start": "2020-09-01"
+            }
+          },
+          {
+            "citations": [
+              {
+                "locator": "p. 1 remit; p. 2 Board and implementation deadlines",
+                "source_ref": "S-ORA"
+              }
+            ],
+            "claim": "ORA receives policy, resource and assessment-development duties and a directed reporting structure; charter, staffing and actual outcomes remain unresolved.",
+            "effect": null,
+            "event_refs": [
+              "E-ORA"
+            ],
+            "evidence_id": "ORA-DIRECTION",
+            "kind": "formal_text",
+            "limits": "Creating an office or directing a charter is not a verified staffed, accessible enforcement route.",
+            "period": {
+              "end": "2026-09-30",
+              "note": "Dates describe the retained record, not a new observation.",
+              "start": "2026-09-30"
+            }
+          }
+        ],
+        "evidence_cutoff": "2026-10-08",
+        "failure": {
+          "claim": "The supplied records do not establish a specific violation of these protections. This is not a finding that no coercion or anticipatory compliance occurs.",
+          "evidence_ids": [
+            "ORA-DIRECTION"
+          ],
+          "status": "unknown"
+        },
+        "formal": {
+          "claim": "Express conscience/noncompulsion text exists, alongside the qualified religious-liberty baseline.",
+          "evidence_ids": [
+            "ORA-FORMAL",
+            "LIBERTY-BASE"
+          ],
+          "status": "documented"
+        },
+        "next_test": {
+          "max_records": 1,
+          "question": "Does one public, anonymized ORA-linked conscience/accommodation disposition show usable refusal or an effective remedy without adverse consequences?",
+          "required_record": "One dated official oversight or appeal disposition tracing the request, handling, decision and observed result.",
+          "status": "proposed_only",
+          "stop_condition": "Stop after one qualifying public record or an explicit unavailable/access-limited outcome; do not infer either side from silence.",
+          "supports_if": "It documents practical access and a completed protective outcome within that case.",
+          "weakens_if": "It substantiates coercion, retaliation, blocked appeal, unequal alternatives or an ordered remedy that was not carried out."
+        },
+        "operational": {
+          "authority": {
+            "claim": "The records allocate formal responsibilities, but do not show usable independent remedial authority in an ORA-linked case.",
+            "evidence_ids": [
+              "ORA-DIRECTION",
+              "LIBERTY-BASE"
+            ],
+            "status": "unknown"
+          },
+          "people": {
+            "claim": "No verified ORA conscience-case staffing or accessible reviewer is supplied. An office on paper does not establish staffed access.",
+            "evidence_ids": [
+              "ORA-DIRECTION"
+            ],
+            "status": "unknown"
+          },
+          "procedures": {
+            "claim": "Accommodation and appeal rules are specified; practical refusal, equivalent alternatives, confidentiality and timely remedy are unmeasured.",
+            "evidence_ids": [
+              "LIBERTY-BASE"
+            ],
+            "status": "unknown"
+          }
+        },
+        "ordinary_explanations": [
+          {
+            "claim": "Voluntary religious support and accommodation are consistent with the stated remit; ordinary support and coercive implementation must be distinguished by actual access and outcomes.",
+            "evidence_ids": [
+              "ORA-DIRECTION",
+              "LIBERTY-BASE"
+            ]
+          }
+        ],
+        "residuals": [
+          "Neither a public protection nor the absence of public complaints establishes practical freedom to refuse.",
+          "Actual opt-outs, equivalent alternatives, incentives, personnel consequences and effective appeal remain unverified. A narrow positive case would not establish prevalence or system-wide protection."
+        ],
+        "rest_until": "Rest pending the one proposed disposition or a material source correction; no collection or worker activation.",
+        "safeguard_id": "SG-ORA-CONSCIENCE",
+        "scope": "Whether the September 30, 2026 ORA conscience/noncompulsion provisions protect practical refusal, equal access and remedies; assessed only against the retained RC-005 record.",
+        "title": "ORA conscience protections"
+      },
+      "sequence": 1
+    },
+    {
+      "actor": "Work Aiden",
+      "entry_sha256": "6866b4dfd0f4e58d5821edb5d7fef6ad8fb05ef08f6cc1aedddffb024539d497",
+      "expected_revision": 0,
+      "previous_entry_sha256": "eef54a2f2826779fdf4d5ddf9d0cdeed2290d32358be03a26b55fa281b00f373",
+      "reason": "Reconstruct the June GAO inspection finding and agency responses from the preserved Camp case; not a June assessment timestamp.",
+      "recorded_at": "2026-10-14T08:56:19.122822+00:00",
+      "safeguard": {
+        "contrary_evidence": [
+          {
+            "claim": "Real later inspections, discrepancy reports, a partial recreation improvement and a contractor change contradict a blanket assertion that nothing was done. They do not establish effective correction.",
+            "evidence_ids": [
+              "CEM-INSPECTION",
+              "CEM-ACTIONS"
+            ]
+          },
+          {
+            "claim": "DHS sought closure based on existing policy, and Defense disputed the audit framing; both responses are retained with GAO’s disagreement.",
+            "evidence_ids": [
+              "CEM-DHS",
+              "CEM-DEFENSE"
+            ]
+          }
+        ],
+        "effectiveness": {
+          "claim": "The record does not verify prevention or effective correction of the named inspection/safety failures. Detection and vendor change are not a completed remedy.",
+          "evidence_ids": [
+            "CEM-INSPECTION",
+            "CEM-ACTIONS"
+          ],
+          "status": "unknown"
+        },
+        "event_refs": [
+          "E-CEM06",
+          "E-CEM07",
+          "E-CEM10",
+          "E-CEM13",
+          "E-CEM17",
+          "E-CEM18",
+          "E-CEM19",
+          "E-CEM20"
+        ],
+        "evidence": [
+          {
+            "citations": [
+              {
+                "locator": "pp. 14–16; February 8, 2022 inspection-policy reference",
+                "source_ref": "S-GAO-CEM"
+              }
+            ],
+            "claim": "ICE policy required a Custody Management Division pre-occupancy inspection; the contract incorporated detention standards.",
+            "effect": null,
+            "event_refs": [],
+            "evidence_id": "CEM-POLICY",
+            "kind": "formal_text",
+            "limits": "Underlying policy/contract not independently reread here; this is the retained GAO audit account.",
+            "period": {
+              "end": null,
+              "note": "Policy date reported by GAO; the obligation applied to the 2025 opening.",
+              "start": "2022-02-08"
+            }
+          },
+          {
+            "citations": [
+              {
+                "locator": "pp. 15–16; p. 8 figure 2",
+                "source_ref": "S-GAO-CEM"
+              }
+            ],
+            "claim": "Occupancy began August 16 without the required pre-occupancy inspection. GAO found no effective control preventing occupancy before inspection and standards compliance.",
+            "effect": null,
+            "event_refs": [
+              "E-CEM06"
+            ],
+            "evidence_id": "CEM-OPENING",
+            "kind": "noncompliance_observation",
+            "limits": "Specific opening-gate failure; not proof that every inspection or later safeguard failed.",
+            "period": {
+              "end": "2025-08-16",
+              "note": "Dates describe the retained record, not a new observation.",
+              "start": "2025-08-16"
+            }
+          },
+          {
+            "citations": [
+              {
+                "locator": "p. 16 n. 37",
+                "source_ref": "S-GAO-CEM"
+              }
+            ],
+            "claim": "ICE oversight operated after occupancy: the February 2026 ODO inspection rated the facility acceptable while identifying 49 deficiencies, including three priority issues.",
+            "effect": null,
+            "event_refs": [
+              "E-CEM13"
+            ],
+            "evidence_id": "CEM-INSPECTION",
+            "kind": "implementation_observation",
+            "limits": "Inspection/detection is observed operation. A rating does not show that any named deficiency was corrected.",
+            "period": {
+              "end": "2026-02",
+              "note": "Dates describe the retained record, not a new observation.",
+              "start": "2026-02"
+            }
+          },
+          {
+            "citations": [
+              {
+                "locator": "p. 15 table 1; p. 17 table 2",
+                "source_ref": "S-GAO-CEM"
+              }
+            ],
+            "claim": "September GAO observations included inadequate recreation, missing accessible showers and understaffed camera monitoring; the December discrepancy report documented substituted TB questionnaires and a November TB case in general population.",
+            "effect": null,
+            "event_refs": [
+              "E-CEM07",
+              "E-CEM10"
+            ],
+            "evidence_id": "CEM-DEFICIENCIES",
+            "kind": "noncompliance_observation",
+            "limits": "Table 1 does not evaluate post-September fixes; report dates are not automatically dates of every underlying event.",
+            "period": {
+              "end": "2025-12-03",
+              "note": "Dates describe the retained record, not a new observation.",
+              "start": "2025-09-16"
+            }
+          },
+          {
+            "citations": [
+              {
+                "locator": "p. 15 table 1; pp. 14, 19",
+                "source_ref": "S-GAO-CEM"
+              }
+            ],
+            "claim": "A recreation yard opened but remained inadequate on September 16; a replacement contract was awarded March 12 and the first contract terminated in April.",
+            "effect": null,
+            "event_refs": [
+              "E-CEM07",
+              "E-CEM17",
+              "E-CEM18"
+            ],
+            "evidence_id": "CEM-ACTIONS",
+            "kind": "implementation_observation",
+            "limits": "Concrete activity/partial improvement, not demonstrated correction of the inspection gate or medical/safety failures. GAO could not yet assess replacement effectiveness.",
+            "period": {
+              "end": "2026-04",
+              "note": "Dates describe the retained record, not a new observation.",
+              "start": "2025-09-16"
+            }
+          },
+          {
+            "citations": [
+              {
+                "locator": "pp. 21–22; pp. 25–28 agency letter",
+                "source_ref": "S-GAO-CEM"
+              }
+            ],
+            "claim": "DHS asserted existing inspection policy was adequate and requested closure; GAO rejected that sufficiency because policy had not prevented uninspected occupancy.",
+            "effect": null,
+            "event_refs": [
+              "E-CEM20"
+            ],
+            "evidence_id": "CEM-DHS",
+            "kind": "agency_response",
+            "limits": "Preserves agency position and GAO disagreement; the response is not an implementation or outcome record.",
+            "period": {
+              "end": "2026-05-29",
+              "note": "Dates describe the retained record, not a new observation.",
+              "start": "2026-05-29"
+            }
+          },
+          {
+            "citations": [
+              {
+                "locator": "p. 22; pp. 29–30 scanned response",
+                "source_ref": "S-GAO-CEM"
+              }
+            ],
+            "claim": "Defense agreed to a lessons assessment while disputing GAO conclusions and balance; GAO maintained that both agencies made consequential decisions.",
+            "effect": null,
+            "event_refs": [
+              "E-CEM19"
+            ],
+            "evidence_id": "CEM-DEFENSE",
+            "kind": "agency_response",
+            "limits": "Underlying rebuttal was not independently read; disagreement does not by itself resolve the factual inspection failure.",
+            "period": {
+              "end": "2026-05-22",
+              "note": "Dates describe the retained record, not a new observation.",
+              "start": "2026-05-22"
+            }
+          }
+        ],
+        "evidence_cutoff": "2026-06-09",
+        "failure": {
+          "claim": "The inspection gate failed at the August 16, 2025 opening; additional dated noncompliance is documented. Later operation does not erase this historical finding.",
+          "evidence_ids": [
+            "CEM-OPENING",
+            "CEM-DEFICIENCIES"
+          ],
+          "status": "documented"
+        },
+        "formal": {
+          "claim": "Pre-occupancy inspection and detention-standard requirements existed.",
+          "evidence_ids": [
+            "CEM-POLICY"
+          ],
+          "status": "documented"
+        },
+        "next_test": {
+          "max_records": 1,
+          "question": "Does one dated official post-April 18, 2026 medical reinspection/closure record verify the TB intake-testing and notification corrections?",
+          "required_record": "The same one-record TB follow-up proposed in the preserved Camp case; public official findings tied to the named requirements.",
+          "status": "proposed_only",
+          "stop_condition": "Stop after one qualifying public record or an explicit unavailable/access-limited outcome; do not infer either side from silence.",
+          "supports_if": "It records completed testing/notification changes and verifies that they satisfied the requirements in the inspected scope.",
+          "weakens_if": "It records persistent deficiencies, incomplete fixes or only promises/overall ratings; absence of a record leaves correction unknown."
+        },
+        "operational": {
+          "authority": {
+            "claim": "ICE had oversight responsibilities and exercised inspection functions, but GAO found no effective occupancy-prevention control. Usable stop authority was not demonstrated at opening.",
+            "evidence_ids": [
+              "CEM-INSPECTION",
+              "CEM-OPENING"
+            ],
+            "status": "partial"
+          },
+          "people": {
+            "claim": "Inspectors and oversight personnel demonstrably acted after occupancy; pre-opening staffing/readiness was not established.",
+            "evidence_ids": [
+              "CEM-INSPECTION"
+            ],
+            "status": "partial"
+          },
+          "procedures": {
+            "claim": "Later inspections and discrepancy reporting operated, while the required opening procedure was skipped.",
+            "evidence_ids": [
+              "CEM-INSPECTION",
+              "CEM-OPENING"
+            ],
+            "status": "partial"
+          }
+        },
+        "ordinary_explanations": [
+          {
+            "claim": "Officials cited an expedited opening timeline for the omission. That explains the reported administrative choice without satisfying the required inspection.",
+            "evidence_ids": [
+              "CEM-OPENING"
+            ]
+          }
+        ],
+        "residuals": [
+          "A later inspection cannot retroactively satisfy a pre-occupancy gate.",
+          "Effective medical/safety correction after transition remains unverified. Preserve the existing case’s one bounded TB follow-up rather than creating another collection queue.",
+          "Pricing nonimplementation documented elsewhere as of August is a separate outcome, not proof of inspection or medical correction."
+        ],
+        "rest_until": "Rest with the existing Camp TB Question proposed only; no duplicate Question registration or collection.",
+        "safeguard_id": "SG-CEM-INSPECTIONS",
+        "scope": "The pre-occupancy inspection gate at the August 2025 opening and later evidence of inspection activity and remedy at Camp East Montana; later activity cannot repair the historical fact of uninspected opening.",
+        "title": "Camp East Montana inspection requirements"
+      },
+      "sequence": 2
+    },
+    {
+      "actor": "Work Aiden",
+      "entry_sha256": "543417b830129fc9b859d2e8fb66aecbc2caa3d2b4e17a64a3b4934763074463",
+      "expected_revision": 0,
+      "previous_entry_sha256": "6866b4dfd0f4e58d5821edb5d7fef6ad8fb05ef08f6cc1aedddffb024539d497",
+      "reason": "Supplied assessment of statutory versions, staffing sample and reorganization limits; no canonical admission.",
+      "recorded_at": "2026-10-14T08:56:19.123085+00:00",
+      "safeguard": {
+        "contrary_evidence": [
+          {
+            "claim": "Enacted additional checks and preserved independence narrow the formal claim but cannot serve as empirical proof that independent advice remains effective.",
+            "evidence_ids": [
+              "JAG-AMENDMENTS",
+              "JAG-ALIGNMENT"
+            ]
+          },
+          {
+            "claim": "Actual leadership/acting service and the preexisting Navy vacancy contradict the shorthand of three simultaneous removals or complete disappearance of legal personnel.",
+            "evidence_ids": [
+              "JAG-OFFICE",
+              "JAG-NAVY"
+            ]
+          },
+          {
+            "claim": "Reported replacement and reallocation merit scrutiny; neither record establishes a blocked legal remedy.",
+            "evidence_ids": [
+              "JAG-REPLACEMENTS",
+              "JAG-ALIGNMENT"
+            ]
+          }
+        ],
+        "effectiveness": {
+          "claim": "No traced legal-review outcome shows these protections preventing interference, stopping harm or producing a verified remedy within the tested restructuring scope.",
+          "evidence_ids": [
+            "JAG-AMENDMENTS",
+            "JAG-ALIGNMENT"
+          ],
+          "status": "unknown"
+        },
+        "event_refs": [
+          "E-MC06",
+          "E-MC07",
+          "E-MC13",
+          "E-MC15"
+        ],
+        "evidence": [
+          {
+            "citations": [
+              {
+                "locator": "10 USC 7037(a)–(e)",
+                "source_ref": "S-J01"
+              }
+            ],
+            "claim": "The Army TJAG statute prohibits interference with independent legal advice and sets appointment qualifications.",
+            "effect": null,
+            "event_refs": [],
+            "evidence_id": "JAG-BASE",
+            "kind": "formal_text",
+            "limits": "Dynamic URL returned an older pre-December 2025 version. Do not mistake retrieval date for enactment or silently omit J03 amendments.",
+            "period": {
+              "end": null,
+              "note": "Dates describe the retained record, not a new observation.",
+              "start": null
+            }
+          },
+          {
+            "citations": [
+              {
+                "locator": "10 USC 806(a)–(d)",
+                "source_ref": "S-J02"
+              }
+            ],
+            "claim": "Article 6 preserves direct legal communication and permits qualifying civilian-office details.",
+            "effect": null,
+            "event_refs": [],
+            "evidence_id": "JAG-COMMUNICATION",
+            "kind": "formal_text",
+            "limits": "Retained numbering predates December 2025 amendments; formal communication rights do not demonstrate practical access.",
+            "period": {
+              "end": null,
+              "note": "Dates describe the retained record, not a new observation.",
+              "start": null
+            }
+          },
+          {
+            "citations": [
+              {
+                "locator": "§506, 139 Stat. 858 / PDF p. 142; §§561–562, 139 Stat. 881–882 / PDF pp. 165–166",
+                "source_ref": "S-J03"
+              }
+            ],
+            "claim": "The FY2026 NDAA adds five-day congressional notice/reasons for early TJAG removal, current legal-license requirements and sufficient qualified advice for commanders.",
+            "effect": null,
+            "event_refs": [
+              "E-MC13"
+            ],
+            "evidence_id": "JAG-AMENDMENTS",
+            "kind": "formal_text",
+            "limits": "Notice is not a congressional veto; staffing and enforcement are not measured by enacted requirements.",
+            "period": {
+              "end": "2025-12-18",
+              "note": "Dates describe the retained record, not a new observation.",
+              "start": "2025-12-18"
+            }
+          },
+          {
+            "citations": [
+              {
+                "locator": "PDF pp. 1–3; attachment table 1, PDF p. 5",
+                "source_ref": "S-J15"
+              }
+            ],
+            "claim": "The March 11 memo directs allocation review and an implementation plan while preserving statutory independence and specified military legal functions.",
+            "effect": null,
+            "event_refs": [
+              "E-MC15"
+            ],
+            "evidence_id": "JAG-ALIGNMENT",
+            "kind": "formal_text",
+            "limits": "Inspected NIMJ mirror; official-host link failed. Directed plans are not verified implementation or workload outcomes.",
+            "period": {
+              "end": "2026-03-11",
+              "note": "Dates describe the retained record, not a new observation.",
+              "start": "2026-03-11"
+            }
+          },
+          {
+            "citations": [
+              {
+                "locator": "Corps leadership entry",
+                "source_ref": "S-J06"
+              }
+            ],
+            "claim": "The retained official Army page records Bobby Christine assuming Army TJAG duties July 1, 2025.",
+            "effect": null,
+            "event_refs": [],
+            "evidence_id": "JAG-OFFICE",
+            "kind": "implementation_observation",
+            "limits": "One filled leadership role, not a full staff inventory, advice capacity measure, independence test or current recheck.",
+            "period": {
+              "end": "2025-07-01",
+              "note": "Dates describe the retained record, not a new observation.",
+              "start": "2025-07-01"
+            }
+          },
+          {
+            "citations": [
+              {
+                "locator": "Retained search-result article excerpt",
+                "source_ref": "S-J04"
+              }
+            ],
+            "claim": "Contemporary AP reporting describes the top-lawyer replacement/nomination shake-up and the stated suitability rationale.",
+            "effect": null,
+            "event_refs": [
+              "E-MC07"
+            ],
+            "evidence_id": "JAG-REPLACEMENTS",
+            "kind": "reported_concern",
+            "limits": "Full article and complete personnel orders not retrieved; replacement itself does not prove unlawful interference or disabled legal review.",
+            "period": {
+              "end": "2025-02",
+              "note": "Dates describe the retained record, not a new observation.",
+              "start": "2025-02"
+            }
+          },
+          {
+            "citations": [
+              {
+                "locator": "Opening succession facts",
+                "source_ref": "S-J05"
+              }
+            ],
+            "claim": "The Navy bulletin records French’s voluntary January 1 retirement and Reynolds acting before the February nomination requests.",
+            "effect": null,
+            "event_refs": [
+              "E-MC06"
+            ],
+            "evidence_id": "JAG-NAVY",
+            "kind": "implementation_observation",
+            "limits": "Corrects three-simultaneous-removals shorthand; does not establish that every later leadership action was benign or that remedies worked.",
+            "period": {
+              "end": "2025-01-01",
+              "note": "Dates describe the retained record, not a new observation.",
+              "start": "2025-01-01"
+            }
+          }
+        ],
+        "evidence_cutoff": "2026-10-08",
+        "failure": {
+          "claim": "Personnel change and a directed reorganization do not themselves establish unlawful interference or wholesale failure of independent military advice.",
+          "evidence_ids": [
+            "JAG-REPLACEMENTS",
+            "JAG-NAVY"
+          ],
+          "status": "unknown"
+        },
+        "formal": {
+          "claim": "Independent advice and direct communication protections exist in the retained law; December 2025 added counterchecks and the March memo expressly preserves independence.",
+          "evidence_ids": [
+            "JAG-BASE",
+            "JAG-COMMUNICATION",
+            "JAG-AMENDMENTS",
+            "JAG-ALIGNMENT"
+          ],
+          "status": "documented"
+        },
+        "next_test": {
+          "max_records": 1,
+          "question": "Does one public oversight disposition trace an independent JAG advice/interference dispute after the March 11, 2026 realignment direction through its actual outcome?",
+          "required_record": "One dated official, publicly releasable oversight or adjudication record documenting access, interference finding and any completed remedy.",
+          "status": "proposed_only",
+          "stop_condition": "Stop after one qualifying public record or an explicit unavailable/access-limited outcome; do not infer either side from silence.",
+          "supports_if": "It shows usable independent advice/review and an observed protective result within that case.",
+          "weakens_if": "It substantiates blocked independent advice, insufficient qualified access, retaliation or an unexecuted remedy; an order alone does not prove correction."
+        },
+        "operational": {
+          "authority": {
+            "claim": "Formal noninterference and retained military legal responsibilities are clear; an exercised, usable independent remedy after restructuring is not supplied.",
+            "evidence_ids": [
+              "JAG-BASE",
+              "JAG-ALIGNMENT"
+            ],
+            "status": "unknown"
+          },
+          "people": {
+            "claim": "A staffed Army TJAG role and a Navy acting succession are documented; sufficient staffing, workload and independent access across services remain unverified.",
+            "evidence_ids": [
+              "JAG-OFFICE",
+              "JAG-NAVY"
+            ],
+            "status": "partial"
+          },
+          "procedures": {
+            "claim": "Direct communication, removal notice and alignment procedures are specified; compliant use, response times and implemented safeguards are not measured.",
+            "evidence_ids": [
+              "JAG-COMMUNICATION",
+              "JAG-AMENDMENTS",
+              "JAG-ALIGNMENT"
+            ],
+            "status": "unknown"
+          }
+        },
+        "ordinary_explanations": [
+          {
+            "claim": "A division of civilian support work and military legal subjects can be administrative allocation; capacity and independence effects require implementation and outcome records.",
+            "evidence_ids": [
+              "JAG-ALIGNMENT"
+            ]
+          },
+          {
+            "claim": "Civilian legal details have a preexisting statutory basis; authorization alone measures neither deployed headcount nor loss of home-unit legal capacity.",
+            "evidence_ids": [
+              "JAG-COMMUNICATION"
+            ]
+          }
+        ],
+        "residuals": [
+          "Sufficient staffed access, actual freedom to give unwelcome advice, notice compliance and completed remedies are unverified.",
+          "A separate Military Justice Review Panel interruption report is not imported as proof that JAG independence was abolished; that mechanism and its current status remain separate in the original archive.",
+          "No ORA-to-JAG interference link, private belief, motive or career outcome is inferred."
+        ],
+        "rest_until": "Rest pending that one public outcome record or a source correction; no broader review-panel or personnel investigation starts.",
+        "safeguard_id": "SG-JAG-INDEPENDENCE",
+        "scope": "Independent military legal advice, direct legal communication and sufficient qualified counsel under the retained statutory and March 2026 reorganization records; no blanket finding about all services or every legal remedy.",
+        "title": "Military JAG independence"
+      },
+      "sequence": 3
+    },
+    {
+      "actor": "Work Aiden",
+      "entry_sha256": "48da23a578dce5aaa224057c445db6ce5927f0773fce5e1efc6e7b1b15592284",
+      "expected_revision": 1,
+      "previous_entry_sha256": "543417b830129fc9b859d2e8fb66aecbc2caa3d2b4e17a64a3b4934763074463",
+      "reason": "Append the already-retained October 12 recommendation-status observation without promoting Open into no correction or changing the historical failure.",
+      "recorded_at": "2026-10-14T08:56:19.123441+00:00",
+      "safeguard": {
+        "contrary_evidence": [
+          {
+            "claim": "Real later inspections, discrepancy reports, a partial recreation improvement and a contractor change contradict a blanket assertion that nothing was done. They do not establish effective correction.",
+            "evidence_ids": [
+              "CEM-INSPECTION",
+              "CEM-ACTIONS"
+            ]
+          },
+          {
+            "claim": "DHS sought closure based on existing policy, and Defense disputed the audit framing; both responses are retained with GAO’s disagreement.",
+            "evidence_ids": [
+              "CEM-DHS",
+              "CEM-DEFENSE"
+            ]
+          },
+          {
+            "claim": "Open recommendation status tracks GAO follow-up, not the absence of all corrective activity. It neither erases observed steps nor verifies an effective occupancy gate.",
+            "evidence_ids": [
+              "CEM-OPEN-STATUS",
+              "CEM-ACTIONS"
+            ]
+          }
+        ],
+        "effectiveness": {
+          "claim": "The record does not verify prevention or effective correction of the named inspection/safety failures. Detection and vendor change are not a completed remedy.",
+          "evidence_ids": [
+            "CEM-INSPECTION",
+            "CEM-ACTIONS"
+          ],
+          "status": "unknown"
+        },
+        "event_refs": [
+          "E-CEM06",
+          "E-CEM07",
+          "E-CEM10",
+          "E-CEM13",
+          "E-CEM17",
+          "E-CEM18",
+          "E-CEM19",
+          "E-CEM20"
+        ],
+        "evidence": [
+          {
+            "citations": [
+              {
+                "locator": "pp. 14–16; February 8, 2022 inspection-policy reference",
+                "source_ref": "S-GAO-CEM"
+              }
+            ],
+            "claim": "ICE policy required a Custody Management Division pre-occupancy inspection; the contract incorporated detention standards.",
+            "effect": null,
+            "event_refs": [],
+            "evidence_id": "CEM-POLICY",
+            "kind": "formal_text",
+            "limits": "Underlying policy/contract not independently reread here; this is the retained GAO audit account.",
+            "period": {
+              "end": null,
+              "note": "Policy date reported by GAO; the obligation applied to the 2025 opening.",
+              "start": "2022-02-08"
+            }
+          },
+          {
+            "citations": [
+              {
+                "locator": "pp. 15–16; p. 8 figure 2",
+                "source_ref": "S-GAO-CEM"
+              }
+            ],
+            "claim": "Occupancy began August 16 without the required pre-occupancy inspection. GAO found no effective control preventing occupancy before inspection and standards compliance.",
+            "effect": null,
+            "event_refs": [
+              "E-CEM06"
+            ],
+            "evidence_id": "CEM-OPENING",
+            "kind": "noncompliance_observation",
+            "limits": "Specific opening-gate failure; not proof that every inspection or later safeguard failed.",
+            "period": {
+              "end": "2025-08-16",
+              "note": "Dates describe the retained record, not a new observation.",
+              "start": "2025-08-16"
+            }
+          },
+          {
+            "citations": [
+              {
+                "locator": "p. 16 n. 37",
+                "source_ref": "S-GAO-CEM"
+              }
+            ],
+            "claim": "ICE oversight operated after occupancy: the February 2026 ODO inspection rated the facility acceptable while identifying 49 deficiencies, including three priority issues.",
+            "effect": null,
+            "event_refs": [
+              "E-CEM13"
+            ],
+            "evidence_id": "CEM-INSPECTION",
+            "kind": "implementation_observation",
+            "limits": "Inspection/detection is observed operation. A rating does not show that any named deficiency was corrected.",
+            "period": {
+              "end": "2026-02",
+              "note": "Dates describe the retained record, not a new observation.",
+              "start": "2026-02"
+            }
+          },
+          {
+            "citations": [
+              {
+                "locator": "p. 15 table 1; p. 17 table 2",
+                "source_ref": "S-GAO-CEM"
+              }
+            ],
+            "claim": "September GAO observations included inadequate recreation, missing accessible showers and understaffed camera monitoring; the December discrepancy report documented substituted TB questionnaires and a November TB case in general population.",
+            "effect": null,
+            "event_refs": [
+              "E-CEM07",
+              "E-CEM10"
+            ],
+            "evidence_id": "CEM-DEFICIENCIES",
+            "kind": "noncompliance_observation",
+            "limits": "Table 1 does not evaluate post-September fixes; report dates are not automatically dates of every underlying event.",
+            "period": {
+              "end": "2025-12-03",
+              "note": "Dates describe the retained record, not a new observation.",
+              "start": "2025-09-16"
+            }
+          },
+          {
+            "citations": [
+              {
+                "locator": "p. 15 table 1; pp. 14, 19",
+                "source_ref": "S-GAO-CEM"
+              }
+            ],
+            "claim": "A recreation yard opened but remained inadequate on September 16; a replacement contract was awarded March 12 and the first contract terminated in April.",
+            "effect": null,
+            "event_refs": [
+              "E-CEM07",
+              "E-CEM17",
+              "E-CEM18"
+            ],
+            "evidence_id": "CEM-ACTIONS",
+            "kind": "implementation_observation",
+            "limits": "Concrete activity/partial improvement, not demonstrated correction of the inspection gate or medical/safety failures. GAO could not yet assess replacement effectiveness.",
+            "period": {
+              "end": "2026-04",
+              "note": "Dates describe the retained record, not a new observation.",
+              "start": "2025-09-16"
+            }
+          },
+          {
+            "citations": [
+              {
+                "locator": "pp. 21–22; pp. 25–28 agency letter",
+                "source_ref": "S-GAO-CEM"
+              }
+            ],
+            "claim": "DHS asserted existing inspection policy was adequate and requested closure; GAO rejected that sufficiency because policy had not prevented uninspected occupancy.",
+            "effect": null,
+            "event_refs": [
+              "E-CEM20"
+            ],
+            "evidence_id": "CEM-DHS",
+            "kind": "agency_response",
+            "limits": "Preserves agency position and GAO disagreement; the response is not an implementation or outcome record.",
+            "period": {
+              "end": "2026-05-29",
+              "note": "Dates describe the retained record, not a new observation.",
+              "start": "2026-05-29"
+            }
+          },
+          {
+            "citations": [
+              {
+                "locator": "p. 22; pp. 29–30 scanned response",
+                "source_ref": "S-GAO-CEM"
+              }
+            ],
+            "claim": "Defense agreed to a lessons assessment while disputing GAO conclusions and balance; GAO maintained that both agencies made consequential decisions.",
+            "effect": null,
+            "event_refs": [
+              "E-CEM19"
+            ],
+            "evidence_id": "CEM-DEFENSE",
+            "kind": "agency_response",
+            "limits": "Underlying rebuttal was not independently read; disagreement does not by itself resolve the factual inspection failure.",
+            "period": {
+              "end": "2026-05-22",
+              "note": "Dates describe the retained record, not a new observation.",
+              "start": "2026-05-22"
+            }
+          },
+          {
+            "citations": [
+              {
+                "locator": "recommendation 2 and interpretation",
+                "source_ref": "S-CEM-STATUS"
+              }
+            ],
+            "claim": "The October 12 retained GAO product-page recheck marks the inspection-control recommendation Open and preserves DHS’s reliance on existing policy and GAO’s disagreement.",
+            "effect": null,
+            "event_refs": [],
+            "evidence_id": "CEM-OPEN-STATUS",
+            "kind": "recommendation_status",
+            "limits": "Paraphrased page observation, not a new HTTP capture or independent source. Open is not proof that no corrective work occurred; closure would not be a full safety certification.",
+            "period": {
+              "end": "2026-10-12",
+              "note": "Dates describe the retained record, not a new observation.",
+              "start": "2026-10-12"
+            }
+          }
+        ],
+        "evidence_cutoff": "2026-10-12",
+        "failure": {
+          "claim": "The inspection gate failed at the August 16, 2025 opening; additional dated noncompliance is documented. Later operation does not erase this historical finding.",
+          "evidence_ids": [
+            "CEM-OPENING",
+            "CEM-DEFICIENCIES"
+          ],
+          "status": "documented"
+        },
+        "formal": {
+          "claim": "Pre-occupancy inspection and detention-standard requirements existed.",
+          "evidence_ids": [
+            "CEM-POLICY"
+          ],
+          "status": "documented"
+        },
+        "next_test": {
+          "max_records": 1,
+          "question": "Does one dated official post-April 18, 2026 medical reinspection/closure record verify the TB intake-testing and notification corrections?",
+          "required_record": "The same one-record TB follow-up proposed in the preserved Camp case; public official findings tied to the named requirements.",
+          "status": "proposed_only",
+          "stop_condition": "Stop after one qualifying public record or an explicit unavailable/access-limited outcome; do not infer either side from silence.",
+          "supports_if": "It records completed testing/notification changes and verifies that they satisfied the requirements in the inspected scope.",
+          "weakens_if": "It records persistent deficiencies, incomplete fixes or only promises/overall ratings; absence of a record leaves correction unknown."
+        },
+        "operational": {
+          "authority": {
+            "claim": "ICE had oversight responsibilities and exercised inspection functions, but GAO found no effective occupancy-prevention control. Usable stop authority was not demonstrated at opening.",
+            "evidence_ids": [
+              "CEM-INSPECTION",
+              "CEM-OPENING"
+            ],
+            "status": "partial"
+          },
+          "people": {
+            "claim": "Inspectors and oversight personnel demonstrably acted after occupancy; pre-opening staffing/readiness was not established.",
+            "evidence_ids": [
+              "CEM-INSPECTION"
+            ],
+            "status": "partial"
+          },
+          "procedures": {
+            "claim": "Later inspections and discrepancy reporting operated, while the required opening procedure was skipped.",
+            "evidence_ids": [
+              "CEM-INSPECTION",
+              "CEM-OPENING"
+            ],
+            "status": "partial"
+          }
+        },
+        "ordinary_explanations": [
+          {
+            "claim": "Officials cited an expedited opening timeline for the omission. That explains the reported administrative choice without satisfying the required inspection.",
+            "evidence_ids": [
+              "CEM-OPENING"
+            ]
+          }
+        ],
+        "residuals": [
+          "A later inspection cannot retroactively satisfy a pre-occupancy gate.",
+          "Effective medical/safety correction after transition remains unverified. Preserve the existing case’s one bounded TB follow-up rather than creating another collection queue.",
+          "Pricing nonimplementation documented elsewhere as of August is a separate outcome, not proof of inspection or medical correction.",
+          "The retained October 12 status observation adds no item-level medical or safety closure record; effectiveness remains unknown and the historical opening failure remains documented."
+        ],
+        "rest_until": "Rest with the existing Camp TB Question proposed only; no duplicate Question registration or collection.",
+        "safeguard_id": "SG-CEM-INSPECTIONS",
+        "scope": "The pre-occupancy inspection gate at the August 2025 opening and later evidence of inspection activity and remedy at Camp East Montana; later activity cannot repair the historical fact of uninspected opening.",
+        "title": "Camp East Montana inspection requirements"
+      },
+      "sequence": 4
+    }
+  ],
+  "references_sha256": "36301d53aa98ef51fe4269fc6c98062341a0291be06750fb8aee26b967213798",
+  "schema_sha256": "0b1847ead2aad9510195705dae9b0a8dd1c31baf7edf9c77d957f7e65fb40b04",
+  "version": "safeguard-journal-1"
+}

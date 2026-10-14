@@ -1,0 +1,1268 @@
+{
+  "config_sha256": "39152c8d17954a1d9097a0c55351ced98ad702f402cb9c12a27b116f4c0d1655",
+  "events": [
+    {
+      "after": "9208e2ea630b80564639b6ed4a31800837e8495dd08007777f1f94ee6bb386ac",
+      "before": "7c4daca824a37a20fb35da3c28a43fe58e0e192ed1660040584a16eafd781447",
+      "command": {
+        "actor": {
+          "model": "none invoked",
+          "name": "Work Aiden",
+          "runtime": "deterministic supplied safeguard projection"
+        },
+        "branch_id": "B0",
+        "event_id": "SG-ORA-CONSCIENCE-STEP-1",
+        "expected_revision": 0,
+        "kind": "step",
+        "node": "ROOT",
+        "output": {
+          "name": "ORA conscience protections"
+        }
+      },
+      "decision": {
+        "next_node": "ARRIVAL",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-10-14T08:56:19.122587+00:00"
+    },
+    {
+      "after": "7959d27088786f6844c0f3fb6501a0f6144818f49e01071be8c6b2442edd6d20",
+      "before": "9208e2ea630b80564639b6ed4a31800837e8495dd08007777f1f94ee6bb386ac",
+      "command": {
+        "actor": {
+          "model": "none invoked",
+          "name": "Work Aiden",
+          "runtime": "deterministic supplied safeguard projection"
+        },
+        "branch_id": "B0",
+        "event_id": "SG-ORA-CONSCIENCE-STEP-2",
+        "expected_revision": 1,
+        "kind": "step",
+        "node": "ARRIVAL",
+        "output": {
+          "arrival": {
+            "from": "operations/safeguards/journal.json",
+            "id": "SG-ORA-CONSCIENCE-ARRIVAL",
+            "payload": {
+              "safeguard_id": "SG-ORA-CONSCIENCE",
+              "safeguard_sha256": "9511a27b8c0fd03e41d7c2ed10bba0e69ec730de463622eeeecb269a5ebb3249"
+            },
+            "to": "INIT:ROOT-0001"
+          },
+          "language_glance": {
+            "basis": "unknown",
+            "issuing_office": "See shared source records",
+            "languages": [],
+            "note": "Supplied metadata; no fresh source-language observation.",
+            "source_refs": [
+              "S-LIBERTY",
+              "S-ORA"
+            ],
+            "surface_kind": "summary"
+          }
+        }
+      },
+      "decision": {
+        "next_node": "EPIST",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-10-14T08:56:19.122587+00:00"
+    },
+    {
+      "after": "01ce0b1260678fa410dd82c0f9e5d2724780825413e37d1740353858f9ed8eea",
+      "before": "7959d27088786f6844c0f3fb6501a0f6144818f49e01071be8c6b2442edd6d20",
+      "command": {
+        "actor": {
+          "model": "none invoked",
+          "name": "Work Aiden",
+          "runtime": "deterministic supplied safeguard projection"
+        },
+        "branch_id": "B0",
+        "event_id": "SG-ORA-CONSCIENCE-STEP-3",
+        "expected_revision": 2,
+        "kind": "step",
+        "node": "EPIST",
+        "output": {
+          "cutoff": "2026-10-08",
+          "dimensions": {
+            "effectiveness": "unknown",
+            "failure": "unknown",
+            "formal": "documented",
+            "operational": {
+              "authority": "unknown",
+              "people": "unknown",
+              "procedures": "unknown"
+            }
+          },
+          "prompt": "Which safeguard claims are supported?",
+          "rule": "Formal existence never promotes operation or effectiveness.",
+          "starting_state": "Separate formal, operational, effectiveness and failure claims; see dimensions."
+        }
+      },
+      "decision": {
+        "next_node": "FUNC",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-10-14T08:56:19.122587+00:00"
+    },
+    {
+      "after": "173098257bf5bf563829e7b1e9918039bd8913656e867478e1f0febb168e3ead",
+      "before": "01ce0b1260678fa410dd82c0f9e5d2724780825413e37d1740353858f9ed8eea",
+      "command": {
+        "actor": {
+          "model": "none invoked",
+          "name": "Work Aiden",
+          "runtime": "deterministic supplied safeguard projection"
+        },
+        "branch_id": "B0",
+        "event_id": "SG-ORA-CONSCIENCE-STEP-4",
+        "expected_revision": 3,
+        "kind": "step",
+        "node": "FUNC",
+        "output": {
+          "effectiveness": {
+            "claim": "No dated ORA-linked case demonstrates prevention, cessation or remedy of coercion, retaliation or unequal access.",
+            "evidence_ids": [
+              "ORA-FORMAL",
+              "LIBERTY-BASE"
+            ],
+            "status": "unknown"
+          },
+          "evidence": [
+            {
+              "citations": [
+                {
+                  "locator": "p. 1 conscience/free-exercise/noncompulsion clauses",
+                  "source_ref": "S-ORA"
+                }
+              ],
+              "claim": "The ORA memo expressly protects conscience and any-faith/no-faith participation, and forbids compelled religious participation.",
+              "effect": null,
+              "event_refs": [
+                "E-ORA"
+              ],
+              "evidence_id": "ORA-FORMAL",
+              "kind": "formal_text",
+              "limits": "Public-mirror facsimile inspected; original government PDF bytes not compared. Text is not proof of enforcement.",
+              "period": {
+                "end": "2026-09-30",
+                "note": "Dates describe the retained record, not a new observation.",
+                "start": "2026-09-30"
+              }
+            },
+            {
+              "citations": [
+                {
+                  "locator": "sections 1.2(a)–(e), responsibilities and appeals",
+                  "source_ref": "S-LIBERTY"
+                }
+              ],
+              "claim": "DoDI 1300.17 provides qualified observance/nonobservance and adverse-personnel-action protections, assigned responsibilities and accommodation appeals.",
+              "effect": null,
+              "event_refs": [
+                "E-LIBERTY"
+              ],
+              "evidence_id": "LIBERTY-BASE",
+              "kind": "formal_text",
+              "limits": "Primary document read on mirror; later amendments and actual remedy access were not exhaustively audited.",
+              "period": {
+                "end": "2020-09-01",
+                "note": "Dates describe the retained record, not a new observation.",
+                "start": "2020-09-01"
+              }
+            },
+            {
+              "citations": [
+                {
+                  "locator": "p. 1 remit; p. 2 Board and implementation deadlines",
+                  "source_ref": "S-ORA"
+                }
+              ],
+              "claim": "ORA receives policy, resource and assessment-development duties and a directed reporting structure; charter, staffing and actual outcomes remain unresolved.",
+              "effect": null,
+              "event_refs": [
+                "E-ORA"
+              ],
+              "evidence_id": "ORA-DIRECTION",
+              "kind": "formal_text",
+              "limits": "Creating an office or directing a charter is not a verified staffed, accessible enforcement route.",
+              "period": {
+                "end": "2026-09-30",
+                "note": "Dates describe the retained record, not a new observation.",
+                "start": "2026-09-30"
+              }
+            }
+          ],
+          "failure": {
+            "claim": "The supplied records do not establish a specific violation of these protections. This is not a finding that no coercion or anticipatory compliance occurs.",
+            "evidence_ids": [
+              "ORA-DIRECTION"
+            ],
+            "status": "unknown"
+          },
+          "formal": {
+            "claim": "Express conscience/noncompulsion text exists, alongside the qualified religious-liberty baseline.",
+            "evidence_ids": [
+              "ORA-FORMAL",
+              "LIBERTY-BASE"
+            ],
+            "status": "documented"
+          },
+          "function": "Keep each safeguard claim within its cited evidence class and scope.",
+          "operational": {
+            "authority": {
+              "claim": "The records allocate formal responsibilities, but do not show usable independent remedial authority in an ORA-linked case.",
+              "evidence_ids": [
+                "ORA-DIRECTION",
+                "LIBERTY-BASE"
+              ],
+              "status": "unknown"
+            },
+            "people": {
+              "claim": "No verified ORA conscience-case staffing or accessible reviewer is supplied. An office on paper does not establish staffed access.",
+              "evidence_ids": [
+                "ORA-DIRECTION"
+              ],
+              "status": "unknown"
+            },
+            "procedures": {
+              "claim": "Accommodation and appeal rules are specified; practical refusal, equivalent alternatives, confidentiality and timely remedy are unmeasured.",
+              "evidence_ids": [
+                "LIBERTY-BASE"
+              ],
+              "status": "unknown"
+            }
+          },
+          "task": "Whether the September 30, 2026 ORA conscience/noncompulsion provisions protect practical refusal, equal access and remedies; assessed only against the retained RC-005 record."
+        }
+      },
+      "decision": {
+        "next_node": "MIRROR",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-10-14T08:56:19.122587+00:00"
+    },
+    {
+      "after": "e7b196c29e3fa82893f132033cb70383580cd37024597880362533fb642a9f80",
+      "before": "173098257bf5bf563829e7b1e9918039bd8913656e867478e1f0febb168e3ead",
+      "command": {
+        "actor": {
+          "model": "none invoked",
+          "name": "Work Aiden",
+          "runtime": "deterministic supplied safeguard projection"
+        },
+        "branch_id": "B0",
+        "event_id": "SG-ORA-CONSCIENCE-STEP-5",
+        "expected_revision": 4,
+        "kind": "step",
+        "node": "MIRROR",
+        "output": {
+          "comparisons": [
+            {
+              "answers": [
+                {
+                  "evidence_ids": [
+                    "ORA-DIRECTION",
+                    "LIBERTY-BASE"
+                  ]
+                }
+              ],
+              "explanation": "Voluntary religious support and accommodation are consistent with the stated remit; ordinary support and coercive implementation must be distinguished by actual access and outcomes.",
+              "queries": []
+            }
+          ],
+          "contrary_evidence": [
+            {
+              "claim": "The formal protections constrain what the memo authorizes, but are not empirical counterevidence to informal pressure or ineffective remedy.",
+              "evidence_ids": [
+                "ORA-FORMAL",
+                "LIBERTY-BASE"
+              ]
+            },
+            {
+              "claim": "Concentrated policy/resource/assessment responsibility gives a reason to test implementation; it does not itself document a violation.",
+              "evidence_ids": [
+                "ORA-DIRECTION"
+              ]
+            }
+          ],
+          "information_lineage": {
+            "api_record_refs": [],
+            "criteria_refs": [
+              "schemas/safeguard.schema.json"
+            ],
+            "parent_answer_visible": true,
+            "parent_output_refs": [
+              "operations/safeguards/journal.json"
+            ],
+            "source_refs": [
+              "S-LIBERTY",
+              "S-ORA"
+            ],
+            "test_origin": "inherited"
+          }
+        }
+      },
+      "decision": {
+        "next_node": "CROSS",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-10-14T08:56:19.122587+00:00"
+    },
+    {
+      "after": "8aa1b4cd80a69d56d21e46a6cc91d464c296843dd7b0fd3c4f6f46caa7ae6f52",
+      "before": "e7b196c29e3fa82893f132033cb70383580cd37024597880362533fb642a9f80",
+      "command": {
+        "actor": {
+          "model": "none invoked",
+          "name": "Work Aiden",
+          "runtime": "deterministic supplied safeguard projection"
+        },
+        "branch_id": "B0",
+        "event_id": "SG-ORA-CONSCIENCE-STEP-6",
+        "expected_revision": 5,
+        "kind": "step",
+        "node": "CROSS",
+        "output": {
+          "bridge": [
+            {
+              "question": "Does one public, anonymized ORA-linked conscience/accommodation disposition show usable refusal or an effective remedy without adverse consequences?",
+              "status": "proposed only"
+            }
+          ],
+          "independent": [],
+          "inherited": [
+            {
+              "ref": "S-LIBERTY",
+              "status": "shared archive; inherited, not independent corroboration"
+            },
+            {
+              "ref": "S-ORA",
+              "status": "shared archive; inherited, not independent corroboration"
+            }
+          ]
+        }
+      },
+      "decision": {
+        "next_node": "RESID",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-10-14T08:56:19.122587+00:00"
+    },
+    {
+      "after": "dd4b4d491dbe6fdf5df25065d6f51bb7571af88e75bd63ebb801ee1dee16bb55",
+      "before": "8aa1b4cd80a69d56d21e46a6cc91d464c296843dd7b0fd3c4f6f46caa7ae6f52",
+      "command": {
+        "actor": {
+          "model": "none invoked",
+          "name": "Work Aiden",
+          "runtime": "deterministic supplied safeguard projection"
+        },
+        "branch_id": "B0",
+        "event_id": "SG-ORA-CONSCIENCE-STEP-7",
+        "expected_revision": 6,
+        "kind": "step",
+        "node": "RESID",
+        "output": {
+          "next_test": {
+            "max_records": 1,
+            "question": "Does one public, anonymized ORA-linked conscience/accommodation disposition show usable refusal or an effective remedy without adverse consequences?",
+            "required_record": "One dated official oversight or appeal disposition tracing the request, handling, decision and observed result.",
+            "status": "proposed_only",
+            "stop_condition": "Stop after one qualifying public record or an explicit unavailable/access-limited outcome; do not infer either side from silence.",
+            "supports_if": "It documents practical access and a completed protective outcome within that case.",
+            "weakens_if": "It substantiates coercion, retaliation, blocked appeal, unequal alternatives or an ordered remedy that was not carried out."
+          },
+          "predicates": {
+            "consequential": true,
+            "distinct_functions": false,
+            "language_exception": null
+          },
+          "summary": "Neither a public protection nor the absence of public complaints establishes practical freedom to refuse. Actual opt-outs, equivalent alternatives, incentives, personnel consequences and effective appeal remain unverified. A narrow positive case would not establish prevalence or system-wide protection."
+        }
+      },
+      "decision": {
+        "next_node": "MEAN",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-10-14T08:56:19.122587+00:00"
+    },
+    {
+      "after": "a20d17c90d2e23b40692d6cec8dc876a79a734a1d485dd9863f392de6f25ae4d",
+      "before": "dd4b4d491dbe6fdf5df25065d6f51bb7571af88e75bd63ebb801ee1dee16bb55",
+      "command": {
+        "actor": {
+          "model": "none invoked",
+          "name": "Work Aiden",
+          "runtime": "deterministic supplied safeguard projection"
+        },
+        "branch_id": "B0",
+        "event_id": "SG-ORA-CONSCIENCE-STEP-8",
+        "expected_revision": 7,
+        "kind": "step",
+        "node": "MEAN",
+        "output": {
+          "dimensions": {
+            "effectiveness": "unknown",
+            "failure": "unknown",
+            "formal": "documented",
+            "operational": {
+              "authority": "unknown",
+              "people": "unknown",
+              "procedures": "unknown"
+            }
+          },
+          "summary": "No dated ORA-linked case demonstrates prevention, cessation or remedy of coercion, retaliation or unequal access."
+        }
+      },
+      "decision": {
+        "next_node": "EXIT",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-10-14T08:56:19.122587+00:00"
+    },
+    {
+      "after": "5a490aa23e6db2965857c94302b956e88f4cb775aae4fff6114dcce397868dee",
+      "before": "a20d17c90d2e23b40692d6cec8dc876a79a734a1d485dd9863f392de6f25ae4d",
+      "command": {
+        "actor": {
+          "model": "none invoked",
+          "name": "Work Aiden",
+          "runtime": "deterministic supplied safeguard projection"
+        },
+        "branch_id": "B0",
+        "event_id": "SG-ORA-CONSCIENCE-STEP-9",
+        "expected_revision": 8,
+        "kind": "step",
+        "node": "EXIT",
+        "output": {
+          "kind": "question",
+          "summary": "Does one public, anonymized ORA-linked conscience/accommodation disposition show usable refusal or an effective remedy without adverse consequences?"
+        }
+      },
+      "decision": {
+        "next_node": "RETURN",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-10-14T08:56:19.122587+00:00"
+    },
+    {
+      "after": "eae22065a5f1e1f69ee7e27e32b6933803d8a4027310ff01e7049f38a8261bde",
+      "before": "5a490aa23e6db2965857c94302b956e88f4cb775aae4fff6114dcce397868dee",
+      "command": {
+        "actor": {
+          "model": "none invoked",
+          "name": "Work Aiden",
+          "runtime": "deterministic supplied safeguard projection"
+        },
+        "branch_id": "B0",
+        "event_id": "SG-ORA-CONSCIENCE-STEP-10",
+        "expected_revision": 9,
+        "kind": "step",
+        "node": "RETURN",
+        "output": {
+          "new_arrival": null,
+          "reason": "Rest pending the one proposed disposition or a material source correction; no collection or worker activation."
+        }
+      },
+      "decision": {
+        "reason": "No new arrival supplied",
+        "status": "rest"
+      },
+      "recorded_at": "2026-10-14T08:56:19.122587+00:00"
+    }
+  ],
+  "initial": {
+    "config": {
+      "authority": "Reviewed configuration determines eligible routes. Supplied content cannot edit this graph or activate morphology.",
+      "grammar": {
+        "crosscheck": {
+          "basic": "Collector capability",
+          "consequential_residual": "May request or propose teleport to a bounded Pygent Collector/specialist",
+          "permanent_crosscheck_bee": "Unresolved pending repeated cases showing the value of persistent specialist memory"
+        },
+        "entry": "INIT:ROOT-0001",
+        "external_execution": false,
+        "governor_input_refs": [
+          "daily_scroll",
+          "reflection_mailbox",
+          "meaning_tower",
+          "chair_imagination",
+          "meaning_boss_result"
+        ],
+        "routes": [
+          {
+            "automatic_execution": false,
+            "from": "INIT:RESID-0007",
+            "status": "available_not_running",
+            "to": "INIT:RETURN-0010",
+            "via": "PYGENT:PARALLAX-0001"
+          }
+        ],
+        "schema_version": "garden-config-0.1",
+        "status": "on_demand_grammar_prototype",
+        "trees": {
+          "INIT": {
+            "name": "Initiating Garden",
+            "nodes": [
+              {
+                "id": "ROOT-0001",
+                "purpose": "Pass name and identity"
+              },
+              {
+                "id": "ARRIVAL-0002",
+                "purpose": "What arrived, from where, sent to where"
+              },
+              {
+                "id": "EPIST-0003",
+                "purpose": "Prompt/question and starting epistemic state"
+              },
+              {
+                "id": "FUNC-0004",
+                "purpose": "Task and function being investigated"
+              },
+              {
+                "id": "MIRROR-0005",
+                "purpose": "Competing explanations, queries and recorded answers"
+              },
+              {
+                "id": "CROSS-0006",
+                "purpose": "Inherited, independently derived and deliberate bridge attachments"
+              },
+              {
+                "id": "RESID-0007",
+                "purpose": "Surviving residual and bounded specialist proposal"
+              },
+              {
+                "id": "MEAN-0008",
+                "purpose": "Changed meaning and non-evidence culture flower"
+              },
+              {
+                "id": "EXIT-0009",
+                "purpose": "Bounded answer, question, teleport, silence or error"
+              },
+              {
+                "id": "RETURN-0010",
+                "purpose": "New linked arrival or rest"
+              }
+            ]
+          },
+          "PYGENT": {
+            "name": "Bounded specialist destinations",
+            "nodes": [
+              {
+                "id": "PARALLAX-0001",
+                "purpose": "One bounded matched official-language Boss Packet",
+                "role": "parallax_collector_bee",
+                "status": "available_not_running"
+              }
+            ]
+          }
+        }
+      },
+      "independence": "A different branch, tree, context or model is not independent empirical evidence.",
+      "limits": {
+        "max_branches": 8,
+        "max_events": 128,
+        "max_fanout": 3,
+        "max_steps": 80,
+        "model_calls": 0
+      },
+      "model_execution": false,
+      "node_contracts": {
+        "ARRIVAL": {
+          "objects": [
+            "arrival",
+            "language_glance"
+          ]
+        },
+        "CROSS": {
+          "lists": [
+            "inherited",
+            "independent",
+            "bridge"
+          ]
+        },
+        "EPIST": {
+          "strings": [
+            "prompt",
+            "starting_state"
+          ]
+        },
+        "EXIT": {
+          "strings": [
+            "kind",
+            "summary"
+          ]
+        },
+        "FUNC": {
+          "strings": [
+            "task",
+            "function"
+          ]
+        },
+        "MEAN": {
+          "strings": [
+            "summary"
+          ]
+        },
+        "MIRROR": {
+          "lists": [
+            "comparisons"
+          ],
+          "objects": [
+            "information_lineage"
+          ]
+        },
+        "RESID": {
+          "objects": [
+            "predicates"
+          ],
+          "strings": [
+            "summary"
+          ]
+        },
+        "RETURN": {
+          "strings": [
+            "reason"
+          ]
+        },
+        "ROOT": {
+          "strings": [
+            "name"
+          ]
+        }
+      },
+      "rules": [
+        {
+          "actions": [
+            "MOVE",
+            "CLONE"
+          ],
+          "at": [
+            "RESID",
+            "MEAN",
+            "EXIT",
+            "RETURN"
+          ],
+          "condition": {
+            "members": [
+              "consequential",
+              "language_exception"
+            ],
+            "op": "AND"
+          },
+          "from": [
+            "INIT",
+            "ECONOMICS",
+            "PRODUCTION",
+            "DIPLOMACY",
+            "LANGUAGE",
+            "CUSTOMS",
+            "HOMELESSNESS"
+          ],
+          "id": "LANGUAGE-EXCEPTION",
+          "review_required": false,
+          "to": [
+            "LANGUAGE"
+          ]
+        },
+        {
+          "actions": [
+            "MOVE",
+            "CLONE",
+            "FANOUT"
+          ],
+          "at": [
+            "RESID",
+            "MEAN",
+            "EXIT",
+            "RETURN"
+          ],
+          "condition": {
+            "members": [
+              "consequential",
+              "distinct_functions"
+            ],
+            "op": "AND"
+          },
+          "from": [
+            "INIT",
+            "ECONOMICS",
+            "PRODUCTION",
+            "DIPLOMACY",
+            "LANGUAGE",
+            "CUSTOMS",
+            "HOMELESSNESS"
+          ],
+          "id": "DOMAIN-BRANCH",
+          "review_required": true,
+          "to": [
+            "INIT",
+            "ECONOMICS",
+            "PRODUCTION",
+            "DIPLOMACY",
+            "LANGUAGE",
+            "CUSTOMS",
+            "HOMELESSNESS"
+          ]
+        }
+      ],
+      "schema_version": "garden-traversal-config-1",
+      "status": "supplied_content_runtime",
+      "trees": {
+        "CUSTOMS": {
+          "name": "Customs Authority",
+          "node_template": "INIT",
+          "status": "traversable_with_supplied_content"
+        },
+        "DIPLOMACY": {
+          "name": "Diplomacy",
+          "node_template": "INIT",
+          "status": "traversable_with_supplied_content"
+        },
+        "ECONOMICS": {
+          "name": "Economics",
+          "node_template": "INIT",
+          "status": "traversable_with_supplied_content"
+        },
+        "HOMELESSNESS": {
+          "name": "Homelessness Governance and Integrity",
+          "node_template": "INIT",
+          "status": "traversable_with_supplied_content"
+        },
+        "INIT": {
+          "name": "Initiating Garden",
+          "node_template": "INIT",
+          "status": "traversable_with_supplied_content"
+        },
+        "LANGUAGE": {
+          "name": "Language Exception",
+          "node_template": "INIT",
+          "status": "traversable_with_supplied_content"
+        },
+        "PRODUCTION": {
+          "name": "Production",
+          "node_template": "INIT",
+          "status": "traversable_with_supplied_content"
+        }
+      }
+    },
+    "packet": {
+      "actor": {
+        "model": "none invoked",
+        "name": "Work Aiden",
+        "runtime": "deterministic supplied safeguard projection"
+      },
+      "arrival": {
+        "from": "operations/safeguards/journal.json",
+        "id": "SG-ORA-CONSCIENCE-ARRIVAL",
+        "payload": {
+          "safeguard_id": "SG-ORA-CONSCIENCE",
+          "safeguard_sha256": "9511a27b8c0fd03e41d7c2ed10bba0e69ec730de463622eeeecb269a5ebb3249"
+        },
+        "to": "INIT:ROOT-0001"
+      },
+      "budget": {
+        "max_branches": 1,
+        "max_events": 10,
+        "max_fanout": 0,
+        "max_steps": 10,
+        "model_calls": 0
+      },
+      "epoch": 1,
+      "focus": "Whether the September 30, 2026 ORA conscience/noncompulsion provisions protect practical refusal, equal access and remedies; assessed only against the retained RC-005 record.",
+      "question_id": "Q-SG-ORA-CONSCIENCE",
+      "run_id": "SG-ORA-CONSCIENCE-GARDEN",
+      "sources": [
+        {
+          "access_limit": "No later amendment established in this bounded pass; protections do not prove enforcement.",
+          "binding": {
+            "collection": "sources",
+            "id_field": "source_id",
+            "kind": "source",
+            "path": "reports/military-conscience-and-institutional-safeguards/baseline_sources.json",
+            "record_id": "B02",
+            "sha256": "17b1ae781e5a4f9eff1c7cbf7437d7b9a47ca1197d059aacdefab78423e06a48"
+          },
+          "kind": "public_source",
+          "lineage_id": "DoD religious-liberty instruction",
+          "ref": "S-LIBERTY"
+        },
+        {
+          "access_limit": "Facsimile agrees with separately hosted transcription and indexed primary reference; original government PDF bytes could not be compared. Implementation not established.",
+          "binding": {
+            "collection": "sources",
+            "id_field": "source_id",
+            "kind": "source",
+            "path": "reports/military-conscience-and-institutional-safeguards/ora_sources.json",
+            "record_id": "O01",
+            "sha256": "c7372867891ccdb0f4b77242327258a1357ba5d47ead015761b4be32e2c1a954"
+          },
+          "kind": "public_source",
+          "lineage_id": "September30 ORA memorandum",
+          "ref": "S-ORA"
+        }
+      ],
+      "status": "case-local supplied review; no shared Question registration",
+      "tree": "INIT"
+    },
+    "registry": {
+      "questions": {
+        "Q-SG-ORA-CONSCIENCE": {
+          "epoch": 1
+        }
+      }
+    }
+  },
+  "schema_version": "garden-traversal-1",
+  "state": {
+    "branches": {
+      "B0": {
+        "epoch": 1,
+        "focus": "Whether the September 30, 2026 ORA conscience/noncompulsion provisions protect practical refusal, equal access and remedies; assessed only against the retained RC-005 record.",
+        "id": "B0",
+        "lineage": {
+          "independent_evidence": false,
+          "source_refs": [
+            "S-LIBERTY",
+            "S-ORA"
+          ]
+        },
+        "parent_branch": null,
+        "question_id": "Q-SG-ORA-CONSCIENCE",
+        "rest": {
+          "kind": "return",
+          "reason": "No new arrival supplied"
+        },
+        "root_branch": "B0",
+        "seen_arrival_ids": [
+          "SG-ORA-CONSCIENCE-ARRIVAL"
+        ],
+        "status": "resting",
+        "visited": [
+          {
+            "payload_hash": "f5ee5624968204619a08100037a391c572225466f7d40564a554e267f3b78f02",
+            "tree": "INIT"
+          }
+        ],
+        "visits": [
+          {
+            "arrival": {
+              "from": "operations/safeguards/journal.json",
+              "id": "SG-ORA-CONSCIENCE-ARRIVAL",
+              "payload": {
+                "safeguard_id": "SG-ORA-CONSCIENCE",
+                "safeguard_sha256": "9511a27b8c0fd03e41d7c2ed10bba0e69ec730de463622eeeecb269a5ebb3249"
+              },
+              "to": "INIT:ROOT-0001"
+            },
+            "status": "completed",
+            "steps": [
+              {
+                "actor": {
+                  "model": "none invoked",
+                  "name": "Work Aiden",
+                  "runtime": "deterministic supplied safeguard projection"
+                },
+                "event_id": "SG-ORA-CONSCIENCE-STEP-1",
+                "node": "ROOT",
+                "output": {
+                  "name": "ORA conscience protections"
+                }
+              },
+              {
+                "actor": {
+                  "model": "none invoked",
+                  "name": "Work Aiden",
+                  "runtime": "deterministic supplied safeguard projection"
+                },
+                "event_id": "SG-ORA-CONSCIENCE-STEP-2",
+                "node": "ARRIVAL",
+                "output": {
+                  "arrival": {
+                    "from": "operations/safeguards/journal.json",
+                    "id": "SG-ORA-CONSCIENCE-ARRIVAL",
+                    "payload": {
+                      "safeguard_id": "SG-ORA-CONSCIENCE",
+                      "safeguard_sha256": "9511a27b8c0fd03e41d7c2ed10bba0e69ec730de463622eeeecb269a5ebb3249"
+                    },
+                    "to": "INIT:ROOT-0001"
+                  },
+                  "language_glance": {
+                    "basis": "unknown",
+                    "issuing_office": "See shared source records",
+                    "languages": [],
+                    "note": "Supplied metadata; no fresh source-language observation.",
+                    "source_refs": [
+                      "S-LIBERTY",
+                      "S-ORA"
+                    ],
+                    "surface_kind": "summary"
+                  }
+                }
+              },
+              {
+                "actor": {
+                  "model": "none invoked",
+                  "name": "Work Aiden",
+                  "runtime": "deterministic supplied safeguard projection"
+                },
+                "event_id": "SG-ORA-CONSCIENCE-STEP-3",
+                "node": "EPIST",
+                "output": {
+                  "cutoff": "2026-10-08",
+                  "dimensions": {
+                    "effectiveness": "unknown",
+                    "failure": "unknown",
+                    "formal": "documented",
+                    "operational": {
+                      "authority": "unknown",
+                      "people": "unknown",
+                      "procedures": "unknown"
+                    }
+                  },
+                  "prompt": "Which safeguard claims are supported?",
+                  "rule": "Formal existence never promotes operation or effectiveness.",
+                  "starting_state": "Separate formal, operational, effectiveness and failure claims; see dimensions."
+                }
+              },
+              {
+                "actor": {
+                  "model": "none invoked",
+                  "name": "Work Aiden",
+                  "runtime": "deterministic supplied safeguard projection"
+                },
+                "event_id": "SG-ORA-CONSCIENCE-STEP-4",
+                "node": "FUNC",
+                "output": {
+                  "effectiveness": {
+                    "claim": "No dated ORA-linked case demonstrates prevention, cessation or remedy of coercion, retaliation or unequal access.",
+                    "evidence_ids": [
+                      "ORA-FORMAL",
+                      "LIBERTY-BASE"
+                    ],
+                    "status": "unknown"
+                  },
+                  "evidence": [
+                    {
+                      "citations": [
+                        {
+                          "locator": "p. 1 conscience/free-exercise/noncompulsion clauses",
+                          "source_ref": "S-ORA"
+                        }
+                      ],
+                      "claim": "The ORA memo expressly protects conscience and any-faith/no-faith participation, and forbids compelled religious participation.",
+                      "effect": null,
+                      "event_refs": [
+                        "E-ORA"
+                      ],
+                      "evidence_id": "ORA-FORMAL",
+                      "kind": "formal_text",
+                      "limits": "Public-mirror facsimile inspected; original government PDF bytes not compared. Text is not proof of enforcement.",
+                      "period": {
+                        "end": "2026-09-30",
+                        "note": "Dates describe the retained record, not a new observation.",
+                        "start": "2026-09-30"
+                      }
+                    },
+                    {
+                      "citations": [
+                        {
+                          "locator": "sections 1.2(a)–(e), responsibilities and appeals",
+                          "source_ref": "S-LIBERTY"
+                        }
+                      ],
+                      "claim": "DoDI 1300.17 provides qualified observance/nonobservance and adverse-personnel-action protections, assigned responsibilities and accommodation appeals.",
+                      "effect": null,
+                      "event_refs": [
+                        "E-LIBERTY"
+                      ],
+                      "evidence_id": "LIBERTY-BASE",
+                      "kind": "formal_text",
+                      "limits": "Primary document read on mirror; later amendments and actual remedy access were not exhaustively audited.",
+                      "period": {
+                        "end": "2020-09-01",
+                        "note": "Dates describe the retained record, not a new observation.",
+                        "start": "2020-09-01"
+                      }
+                    },
+                    {
+                      "citations": [
+                        {
+                          "locator": "p. 1 remit; p. 2 Board and implementation deadlines",
+                          "source_ref": "S-ORA"
+                        }
+                      ],
+                      "claim": "ORA receives policy, resource and assessment-development duties and a directed reporting structure; charter, staffing and actual outcomes remain unresolved.",
+                      "effect": null,
+                      "event_refs": [
+                        "E-ORA"
+                      ],
+                      "evidence_id": "ORA-DIRECTION",
+                      "kind": "formal_text",
+                      "limits": "Creating an office or directing a charter is not a verified staffed, accessible enforcement route.",
+                      "period": {
+                        "end": "2026-09-30",
+                        "note": "Dates describe the retained record, not a new observation.",
+                        "start": "2026-09-30"
+                      }
+                    }
+                  ],
+                  "failure": {
+                    "claim": "The supplied records do not establish a specific violation of these protections. This is not a finding that no coercion or anticipatory compliance occurs.",
+                    "evidence_ids": [
+                      "ORA-DIRECTION"
+                    ],
+                    "status": "unknown"
+                  },
+                  "formal": {
+                    "claim": "Express conscience/noncompulsion text exists, alongside the qualified religious-liberty baseline.",
+                    "evidence_ids": [
+                      "ORA-FORMAL",
+                      "LIBERTY-BASE"
+                    ],
+                    "status": "documented"
+                  },
+                  "function": "Keep each safeguard claim within its cited evidence class and scope.",
+                  "operational": {
+                    "authority": {
+                      "claim": "The records allocate formal responsibilities, but do not show usable independent remedial authority in an ORA-linked case.",
+                      "evidence_ids": [
+                        "ORA-DIRECTION",
+                        "LIBERTY-BASE"
+                      ],
+                      "status": "unknown"
+                    },
+                    "people": {
+                      "claim": "No verified ORA conscience-case staffing or accessible reviewer is supplied. An office on paper does not establish staffed access.",
+                      "evidence_ids": [
+                        "ORA-DIRECTION"
+                      ],
+                      "status": "unknown"
+                    },
+                    "procedures": {
+                      "claim": "Accommodation and appeal rules are specified; practical refusal, equivalent alternatives, confidentiality and timely remedy are unmeasured.",
+                      "evidence_ids": [
+                        "LIBERTY-BASE"
+                      ],
+                      "status": "unknown"
+                    }
+                  },
+                  "task": "Whether the September 30, 2026 ORA conscience/noncompulsion provisions protect practical refusal, equal access and remedies; assessed only against the retained RC-005 record."
+                }
+              },
+              {
+                "actor": {
+                  "model": "none invoked",
+                  "name": "Work Aiden",
+                  "runtime": "deterministic supplied safeguard projection"
+                },
+                "event_id": "SG-ORA-CONSCIENCE-STEP-5",
+                "node": "MIRROR",
+                "output": {
+                  "comparisons": [
+                    {
+                      "answers": [
+                        {
+                          "evidence_ids": [
+                            "ORA-DIRECTION",
+                            "LIBERTY-BASE"
+                          ]
+                        }
+                      ],
+                      "explanation": "Voluntary religious support and accommodation are consistent with the stated remit; ordinary support and coercive implementation must be distinguished by actual access and outcomes.",
+                      "queries": []
+                    }
+                  ],
+                  "contrary_evidence": [
+                    {
+                      "claim": "The formal protections constrain what the memo authorizes, but are not empirical counterevidence to informal pressure or ineffective remedy.",
+                      "evidence_ids": [
+                        "ORA-FORMAL",
+                        "LIBERTY-BASE"
+                      ]
+                    },
+                    {
+                      "claim": "Concentrated policy/resource/assessment responsibility gives a reason to test implementation; it does not itself document a violation.",
+                      "evidence_ids": [
+                        "ORA-DIRECTION"
+                      ]
+                    }
+                  ],
+                  "information_lineage": {
+                    "api_record_refs": [],
+                    "criteria_refs": [
+                      "schemas/safeguard.schema.json"
+                    ],
+                    "parent_answer_visible": true,
+                    "parent_output_refs": [
+                      "operations/safeguards/journal.json"
+                    ],
+                    "source_refs": [
+                      "S-LIBERTY",
+                      "S-ORA"
+                    ],
+                    "test_origin": "inherited"
+                  }
+                }
+              },
+              {
+                "actor": {
+                  "model": "none invoked",
+                  "name": "Work Aiden",
+                  "runtime": "deterministic supplied safeguard projection"
+                },
+                "event_id": "SG-ORA-CONSCIENCE-STEP-6",
+                "node": "CROSS",
+                "output": {
+                  "bridge": [
+                    {
+                      "question": "Does one public, anonymized ORA-linked conscience/accommodation disposition show usable refusal or an effective remedy without adverse consequences?",
+                      "status": "proposed only"
+                    }
+                  ],
+                  "independent": [],
+                  "inherited": [
+                    {
+                      "ref": "S-LIBERTY",
+                      "status": "shared archive; inherited, not independent corroboration"
+                    },
+                    {
+                      "ref": "S-ORA",
+                      "status": "shared archive; inherited, not independent corroboration"
+                    }
+                  ]
+                }
+              },
+              {
+                "actor": {
+                  "model": "none invoked",
+                  "name": "Work Aiden",
+                  "runtime": "deterministic supplied safeguard projection"
+                },
+                "event_id": "SG-ORA-CONSCIENCE-STEP-7",
+                "node": "RESID",
+                "output": {
+                  "next_test": {
+                    "max_records": 1,
+                    "question": "Does one public, anonymized ORA-linked conscience/accommodation disposition show usable refusal or an effective remedy without adverse consequences?",
+                    "required_record": "One dated official oversight or appeal disposition tracing the request, handling, decision and observed result.",
+                    "status": "proposed_only",
+                    "stop_condition": "Stop after one qualifying public record or an explicit unavailable/access-limited outcome; do not infer either side from silence.",
+                    "supports_if": "It documents practical access and a completed protective outcome within that case.",
+                    "weakens_if": "It substantiates coercion, retaliation, blocked appeal, unequal alternatives or an ordered remedy that was not carried out."
+                  },
+                  "predicates": {
+                    "consequential": true,
+                    "distinct_functions": false,
+                    "language_exception": null
+                  },
+                  "summary": "Neither a public protection nor the absence of public complaints establishes practical freedom to refuse. Actual opt-outs, equivalent alternatives, incentives, personnel consequences and effective appeal remain unverified. A narrow positive case would not establish prevalence or system-wide protection."
+                }
+              },
+              {
+                "actor": {
+                  "model": "none invoked",
+                  "name": "Work Aiden",
+                  "runtime": "deterministic supplied safeguard projection"
+                },
+                "event_id": "SG-ORA-CONSCIENCE-STEP-8",
+                "node": "MEAN",
+                "output": {
+                  "dimensions": {
+                    "effectiveness": "unknown",
+                    "failure": "unknown",
+                    "formal": "documented",
+                    "operational": {
+                      "authority": "unknown",
+                      "people": "unknown",
+                      "procedures": "unknown"
+                    }
+                  },
+                  "summary": "No dated ORA-linked case demonstrates prevention, cessation or remedy of coercion, retaliation or unequal access."
+                }
+              },
+              {
+                "actor": {
+                  "model": "none invoked",
+                  "name": "Work Aiden",
+                  "runtime": "deterministic supplied safeguard projection"
+                },
+                "event_id": "SG-ORA-CONSCIENCE-STEP-9",
+                "node": "EXIT",
+                "output": {
+                  "kind": "question",
+                  "summary": "Does one public, anonymized ORA-linked conscience/accommodation disposition show usable refusal or an effective remedy without adverse consequences?"
+                }
+              },
+              {
+                "actor": {
+                  "model": "none invoked",
+                  "name": "Work Aiden",
+                  "runtime": "deterministic supplied safeguard projection"
+                },
+                "event_id": "SG-ORA-CONSCIENCE-STEP-10",
+                "node": "RETURN",
+                "output": {
+                  "new_arrival": null,
+                  "reason": "Rest pending the one proposed disposition or a material source correction; no collection or worker activation."
+                }
+              }
+            ],
+            "tree": "INIT"
+          }
+        ]
+      }
+    },
+    "epoch": 1,
+    "limits": {
+      "max_branches": 1,
+      "max_events": 10,
+      "max_fanout": 0,
+      "max_steps": 10,
+      "model_calls": 0
+    },
+    "question_id": "Q-SG-ORA-CONSCIENCE",
+    "revision": 10,
+    "route_decisions": [],
+    "route_signatures": [],
+    "run_id": "SG-ORA-CONSCIENCE-GARDEN",
+    "sources": {
+      "S-LIBERTY": {
+        "access_limit": "No later amendment established in this bounded pass; protections do not prove enforcement.",
+        "binding": {
+          "collection": "sources",
+          "id_field": "source_id",
+          "kind": "source",
+          "path": "reports/military-conscience-and-institutional-safeguards/baseline_sources.json",
+          "record_id": "B02",
+          "sha256": "17b1ae781e5a4f9eff1c7cbf7437d7b9a47ca1197d059aacdefab78423e06a48"
+        },
+        "kind": "public_source",
+        "lineage_id": "DoD religious-liberty instruction",
+        "ref": "S-LIBERTY"
+      },
+      "S-ORA": {
+        "access_limit": "Facsimile agrees with separately hosted transcription and indexed primary reference; original government PDF bytes could not be compared. Implementation not established.",
+        "binding": {
+          "collection": "sources",
+          "id_field": "source_id",
+          "kind": "source",
+          "path": "reports/military-conscience-and-institutional-safeguards/ora_sources.json",
+          "record_id": "O01",
+          "sha256": "c7372867891ccdb0f4b77242327258a1357ba5d47ead015761b4be32e2c1a954"
+        },
+        "kind": "public_source",
+        "lineage_id": "September30 ORA memorandum",
+        "ref": "S-ORA"
+      }
+    },
+    "used": {
+      "branches": 1,
+      "model_calls": 0,
+      "steps": 10
+    }
+  },
+  "state_sha256": "eae22065a5f1e1f69ee7e27e32b6933803d8a4027310ff01e7049f38a8261bde"
+}

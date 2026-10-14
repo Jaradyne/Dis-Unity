@@ -1,0 +1,1490 @@
+{
+  "config_sha256": "39152c8d17954a1d9097a0c55351ced98ad702f402cb9c12a27b116f4c0d1655",
+  "events": [
+    {
+      "after": "89a1fe67d66e4211cf1afbcff8844139ede56b208799eb7229e6b9d701441f96",
+      "before": "4996172e1d40b03f38099ce12f3e65ba6eb1b92808b923b3cb5f5c7207ae8b2d",
+      "command": {
+        "actor": {
+          "model": "none invoked",
+          "name": "Work Aiden",
+          "runtime": "deterministic supplied safeguard projection"
+        },
+        "branch_id": "B0",
+        "event_id": "SG-CEM-INSPECTIONS-STEP-1",
+        "expected_revision": 0,
+        "kind": "step",
+        "node": "ROOT",
+        "output": {
+          "name": "Camp East Montana inspection requirements"
+        }
+      },
+      "decision": {
+        "next_node": "ARRIVAL",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-10-14T08:56:19.123441+00:00"
+    },
+    {
+      "after": "77c4833086d998ef7e76f26f12231f3b6e3fa2adfbfc70840c1412d9b734b075",
+      "before": "89a1fe67d66e4211cf1afbcff8844139ede56b208799eb7229e6b9d701441f96",
+      "command": {
+        "actor": {
+          "model": "none invoked",
+          "name": "Work Aiden",
+          "runtime": "deterministic supplied safeguard projection"
+        },
+        "branch_id": "B0",
+        "event_id": "SG-CEM-INSPECTIONS-STEP-2",
+        "expected_revision": 1,
+        "kind": "step",
+        "node": "ARRIVAL",
+        "output": {
+          "arrival": {
+            "from": "operations/safeguards/journal.json",
+            "id": "SG-CEM-INSPECTIONS-ARRIVAL",
+            "payload": {
+              "safeguard_id": "SG-CEM-INSPECTIONS",
+              "safeguard_sha256": "44c3293ae3109f9576dd5d8edac226a5815bb25bd11ee8a762b166a9520966f7"
+            },
+            "to": "INIT:ROOT-0001"
+          },
+          "language_glance": {
+            "basis": "unknown",
+            "issuing_office": "See shared source records",
+            "languages": [],
+            "note": "Supplied metadata; no fresh source-language observation.",
+            "source_refs": [
+              "S-CEM-STATUS",
+              "S-GAO-CEM"
+            ],
+            "surface_kind": "summary"
+          }
+        }
+      },
+      "decision": {
+        "next_node": "EPIST",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-10-14T08:56:19.123441+00:00"
+    },
+    {
+      "after": "e427403cce03be05ff078f90d3452377697cd2b33e34992d8c81db9ee3fe2d39",
+      "before": "77c4833086d998ef7e76f26f12231f3b6e3fa2adfbfc70840c1412d9b734b075",
+      "command": {
+        "actor": {
+          "model": "none invoked",
+          "name": "Work Aiden",
+          "runtime": "deterministic supplied safeguard projection"
+        },
+        "branch_id": "B0",
+        "event_id": "SG-CEM-INSPECTIONS-STEP-3",
+        "expected_revision": 2,
+        "kind": "step",
+        "node": "EPIST",
+        "output": {
+          "cutoff": "2026-10-12",
+          "dimensions": {
+            "effectiveness": "unknown",
+            "failure": "documented",
+            "formal": "documented",
+            "operational": {
+              "authority": "partial",
+              "people": "partial",
+              "procedures": "partial"
+            }
+          },
+          "prompt": "Which safeguard claims are supported?",
+          "rule": "Formal existence never promotes operation or effectiveness.",
+          "starting_state": "Separate formal, operational, effectiveness and failure claims; see dimensions."
+        }
+      },
+      "decision": {
+        "next_node": "FUNC",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-10-14T08:56:19.123441+00:00"
+    },
+    {
+      "after": "8f220a3a4fe258606aa4e55301426c234968b8518e9af787c065d8a621a8ba26",
+      "before": "e427403cce03be05ff078f90d3452377697cd2b33e34992d8c81db9ee3fe2d39",
+      "command": {
+        "actor": {
+          "model": "none invoked",
+          "name": "Work Aiden",
+          "runtime": "deterministic supplied safeguard projection"
+        },
+        "branch_id": "B0",
+        "event_id": "SG-CEM-INSPECTIONS-STEP-4",
+        "expected_revision": 3,
+        "kind": "step",
+        "node": "FUNC",
+        "output": {
+          "effectiveness": {
+            "claim": "The record does not verify prevention or effective correction of the named inspection/safety failures. Detection and vendor change are not a completed remedy.",
+            "evidence_ids": [
+              "CEM-INSPECTION",
+              "CEM-ACTIONS"
+            ],
+            "status": "unknown"
+          },
+          "evidence": [
+            {
+              "citations": [
+                {
+                  "locator": "pp. 14–16; February 8, 2022 inspection-policy reference",
+                  "source_ref": "S-GAO-CEM"
+                }
+              ],
+              "claim": "ICE policy required a Custody Management Division pre-occupancy inspection; the contract incorporated detention standards.",
+              "effect": null,
+              "event_refs": [],
+              "evidence_id": "CEM-POLICY",
+              "kind": "formal_text",
+              "limits": "Underlying policy/contract not independently reread here; this is the retained GAO audit account.",
+              "period": {
+                "end": null,
+                "note": "Policy date reported by GAO; the obligation applied to the 2025 opening.",
+                "start": "2022-02-08"
+              }
+            },
+            {
+              "citations": [
+                {
+                  "locator": "pp. 15–16; p. 8 figure 2",
+                  "source_ref": "S-GAO-CEM"
+                }
+              ],
+              "claim": "Occupancy began August 16 without the required pre-occupancy inspection. GAO found no effective control preventing occupancy before inspection and standards compliance.",
+              "effect": null,
+              "event_refs": [
+                "E-CEM06"
+              ],
+              "evidence_id": "CEM-OPENING",
+              "kind": "noncompliance_observation",
+              "limits": "Specific opening-gate failure; not proof that every inspection or later safeguard failed.",
+              "period": {
+                "end": "2025-08-16",
+                "note": "Dates describe the retained record, not a new observation.",
+                "start": "2025-08-16"
+              }
+            },
+            {
+              "citations": [
+                {
+                  "locator": "p. 16 n. 37",
+                  "source_ref": "S-GAO-CEM"
+                }
+              ],
+              "claim": "ICE oversight operated after occupancy: the February 2026 ODO inspection rated the facility acceptable while identifying 49 deficiencies, including three priority issues.",
+              "effect": null,
+              "event_refs": [
+                "E-CEM13"
+              ],
+              "evidence_id": "CEM-INSPECTION",
+              "kind": "implementation_observation",
+              "limits": "Inspection/detection is observed operation. A rating does not show that any named deficiency was corrected.",
+              "period": {
+                "end": "2026-02",
+                "note": "Dates describe the retained record, not a new observation.",
+                "start": "2026-02"
+              }
+            },
+            {
+              "citations": [
+                {
+                  "locator": "p. 15 table 1; p. 17 table 2",
+                  "source_ref": "S-GAO-CEM"
+                }
+              ],
+              "claim": "September GAO observations included inadequate recreation, missing accessible showers and understaffed camera monitoring; the December discrepancy report documented substituted TB questionnaires and a November TB case in general population.",
+              "effect": null,
+              "event_refs": [
+                "E-CEM07",
+                "E-CEM10"
+              ],
+              "evidence_id": "CEM-DEFICIENCIES",
+              "kind": "noncompliance_observation",
+              "limits": "Table 1 does not evaluate post-September fixes; report dates are not automatically dates of every underlying event.",
+              "period": {
+                "end": "2025-12-03",
+                "note": "Dates describe the retained record, not a new observation.",
+                "start": "2025-09-16"
+              }
+            },
+            {
+              "citations": [
+                {
+                  "locator": "p. 15 table 1; pp. 14, 19",
+                  "source_ref": "S-GAO-CEM"
+                }
+              ],
+              "claim": "A recreation yard opened but remained inadequate on September 16; a replacement contract was awarded March 12 and the first contract terminated in April.",
+              "effect": null,
+              "event_refs": [
+                "E-CEM07",
+                "E-CEM17",
+                "E-CEM18"
+              ],
+              "evidence_id": "CEM-ACTIONS",
+              "kind": "implementation_observation",
+              "limits": "Concrete activity/partial improvement, not demonstrated correction of the inspection gate or medical/safety failures. GAO could not yet assess replacement effectiveness.",
+              "period": {
+                "end": "2026-04",
+                "note": "Dates describe the retained record, not a new observation.",
+                "start": "2025-09-16"
+              }
+            },
+            {
+              "citations": [
+                {
+                  "locator": "pp. 21–22; pp. 25–28 agency letter",
+                  "source_ref": "S-GAO-CEM"
+                }
+              ],
+              "claim": "DHS asserted existing inspection policy was adequate and requested closure; GAO rejected that sufficiency because policy had not prevented uninspected occupancy.",
+              "effect": null,
+              "event_refs": [
+                "E-CEM20"
+              ],
+              "evidence_id": "CEM-DHS",
+              "kind": "agency_response",
+              "limits": "Preserves agency position and GAO disagreement; the response is not an implementation or outcome record.",
+              "period": {
+                "end": "2026-05-29",
+                "note": "Dates describe the retained record, not a new observation.",
+                "start": "2026-05-29"
+              }
+            },
+            {
+              "citations": [
+                {
+                  "locator": "p. 22; pp. 29–30 scanned response",
+                  "source_ref": "S-GAO-CEM"
+                }
+              ],
+              "claim": "Defense agreed to a lessons assessment while disputing GAO conclusions and balance; GAO maintained that both agencies made consequential decisions.",
+              "effect": null,
+              "event_refs": [
+                "E-CEM19"
+              ],
+              "evidence_id": "CEM-DEFENSE",
+              "kind": "agency_response",
+              "limits": "Underlying rebuttal was not independently read; disagreement does not by itself resolve the factual inspection failure.",
+              "period": {
+                "end": "2026-05-22",
+                "note": "Dates describe the retained record, not a new observation.",
+                "start": "2026-05-22"
+              }
+            },
+            {
+              "citations": [
+                {
+                  "locator": "recommendation 2 and interpretation",
+                  "source_ref": "S-CEM-STATUS"
+                }
+              ],
+              "claim": "The October 12 retained GAO product-page recheck marks the inspection-control recommendation Open and preserves DHS’s reliance on existing policy and GAO’s disagreement.",
+              "effect": null,
+              "event_refs": [],
+              "evidence_id": "CEM-OPEN-STATUS",
+              "kind": "recommendation_status",
+              "limits": "Paraphrased page observation, not a new HTTP capture or independent source. Open is not proof that no corrective work occurred; closure would not be a full safety certification.",
+              "period": {
+                "end": "2026-10-12",
+                "note": "Dates describe the retained record, not a new observation.",
+                "start": "2026-10-12"
+              }
+            }
+          ],
+          "failure": {
+            "claim": "The inspection gate failed at the August 16, 2025 opening; additional dated noncompliance is documented. Later operation does not erase this historical finding.",
+            "evidence_ids": [
+              "CEM-OPENING",
+              "CEM-DEFICIENCIES"
+            ],
+            "status": "documented"
+          },
+          "formal": {
+            "claim": "Pre-occupancy inspection and detention-standard requirements existed.",
+            "evidence_ids": [
+              "CEM-POLICY"
+            ],
+            "status": "documented"
+          },
+          "function": "Keep each safeguard claim within its cited evidence class and scope.",
+          "operational": {
+            "authority": {
+              "claim": "ICE had oversight responsibilities and exercised inspection functions, but GAO found no effective occupancy-prevention control. Usable stop authority was not demonstrated at opening.",
+              "evidence_ids": [
+                "CEM-INSPECTION",
+                "CEM-OPENING"
+              ],
+              "status": "partial"
+            },
+            "people": {
+              "claim": "Inspectors and oversight personnel demonstrably acted after occupancy; pre-opening staffing/readiness was not established.",
+              "evidence_ids": [
+                "CEM-INSPECTION"
+              ],
+              "status": "partial"
+            },
+            "procedures": {
+              "claim": "Later inspections and discrepancy reporting operated, while the required opening procedure was skipped.",
+              "evidence_ids": [
+                "CEM-INSPECTION",
+                "CEM-OPENING"
+              ],
+              "status": "partial"
+            }
+          },
+          "task": "The pre-occupancy inspection gate at the August 2025 opening and later evidence of inspection activity and remedy at Camp East Montana; later activity cannot repair the historical fact of uninspected opening."
+        }
+      },
+      "decision": {
+        "next_node": "MIRROR",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-10-14T08:56:19.123441+00:00"
+    },
+    {
+      "after": "0fef84c35ea97f62d1eec813ca6a0ffb691c34897940dd7a5706fc7e6a6dda3f",
+      "before": "8f220a3a4fe258606aa4e55301426c234968b8518e9af787c065d8a621a8ba26",
+      "command": {
+        "actor": {
+          "model": "none invoked",
+          "name": "Work Aiden",
+          "runtime": "deterministic supplied safeguard projection"
+        },
+        "branch_id": "B0",
+        "event_id": "SG-CEM-INSPECTIONS-STEP-5",
+        "expected_revision": 4,
+        "kind": "step",
+        "node": "MIRROR",
+        "output": {
+          "comparisons": [
+            {
+              "answers": [
+                {
+                  "evidence_ids": [
+                    "CEM-OPENING"
+                  ]
+                }
+              ],
+              "explanation": "Officials cited an expedited opening timeline for the omission. That explains the reported administrative choice without satisfying the required inspection.",
+              "queries": []
+            }
+          ],
+          "contrary_evidence": [
+            {
+              "claim": "Real later inspections, discrepancy reports, a partial recreation improvement and a contractor change contradict a blanket assertion that nothing was done. They do not establish effective correction.",
+              "evidence_ids": [
+                "CEM-INSPECTION",
+                "CEM-ACTIONS"
+              ]
+            },
+            {
+              "claim": "DHS sought closure based on existing policy, and Defense disputed the audit framing; both responses are retained with GAO’s disagreement.",
+              "evidence_ids": [
+                "CEM-DHS",
+                "CEM-DEFENSE"
+              ]
+            },
+            {
+              "claim": "Open recommendation status tracks GAO follow-up, not the absence of all corrective activity. It neither erases observed steps nor verifies an effective occupancy gate.",
+              "evidence_ids": [
+                "CEM-OPEN-STATUS",
+                "CEM-ACTIONS"
+              ]
+            }
+          ],
+          "information_lineage": {
+            "api_record_refs": [],
+            "criteria_refs": [
+              "schemas/safeguard.schema.json"
+            ],
+            "parent_answer_visible": true,
+            "parent_output_refs": [
+              "operations/safeguards/journal.json"
+            ],
+            "source_refs": [
+              "S-CEM-STATUS",
+              "S-GAO-CEM"
+            ],
+            "test_origin": "inherited"
+          }
+        }
+      },
+      "decision": {
+        "next_node": "CROSS",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-10-14T08:56:19.123441+00:00"
+    },
+    {
+      "after": "aaa7667f7bb2ef87fe19aecdc5ac167f6bcd61ae97eb572588929c89f62b598d",
+      "before": "0fef84c35ea97f62d1eec813ca6a0ffb691c34897940dd7a5706fc7e6a6dda3f",
+      "command": {
+        "actor": {
+          "model": "none invoked",
+          "name": "Work Aiden",
+          "runtime": "deterministic supplied safeguard projection"
+        },
+        "branch_id": "B0",
+        "event_id": "SG-CEM-INSPECTIONS-STEP-6",
+        "expected_revision": 5,
+        "kind": "step",
+        "node": "CROSS",
+        "output": {
+          "bridge": [
+            {
+              "question": "Does one dated official post-April 18, 2026 medical reinspection/closure record verify the TB intake-testing and notification corrections?",
+              "status": "proposed only"
+            }
+          ],
+          "independent": [],
+          "inherited": [
+            {
+              "ref": "S-CEM-STATUS",
+              "status": "shared archive; inherited, not independent corroboration"
+            },
+            {
+              "ref": "S-GAO-CEM",
+              "status": "shared archive; inherited, not independent corroboration"
+            }
+          ]
+        }
+      },
+      "decision": {
+        "next_node": "RESID",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-10-14T08:56:19.123441+00:00"
+    },
+    {
+      "after": "131e366c5d54740d6690dd3731164e838e44d109af034554501341a4a745a3c2",
+      "before": "aaa7667f7bb2ef87fe19aecdc5ac167f6bcd61ae97eb572588929c89f62b598d",
+      "command": {
+        "actor": {
+          "model": "none invoked",
+          "name": "Work Aiden",
+          "runtime": "deterministic supplied safeguard projection"
+        },
+        "branch_id": "B0",
+        "event_id": "SG-CEM-INSPECTIONS-STEP-7",
+        "expected_revision": 6,
+        "kind": "step",
+        "node": "RESID",
+        "output": {
+          "next_test": {
+            "max_records": 1,
+            "question": "Does one dated official post-April 18, 2026 medical reinspection/closure record verify the TB intake-testing and notification corrections?",
+            "required_record": "The same one-record TB follow-up proposed in the preserved Camp case; public official findings tied to the named requirements.",
+            "status": "proposed_only",
+            "stop_condition": "Stop after one qualifying public record or an explicit unavailable/access-limited outcome; do not infer either side from silence.",
+            "supports_if": "It records completed testing/notification changes and verifies that they satisfied the requirements in the inspected scope.",
+            "weakens_if": "It records persistent deficiencies, incomplete fixes or only promises/overall ratings; absence of a record leaves correction unknown."
+          },
+          "predicates": {
+            "consequential": true,
+            "distinct_functions": false,
+            "language_exception": null
+          },
+          "summary": "A later inspection cannot retroactively satisfy a pre-occupancy gate. Effective medical/safety correction after transition remains unverified. Preserve the existing case’s one bounded TB follow-up rather than creating another collection queue. Pricing nonimplementation documented elsewhere as of August is a separate outcome, not proof of inspection or medical correction. The retained October 12 status observation adds no item-level medical or safety closure record; effectiveness remains unknown and the historical opening failure remains documented."
+        }
+      },
+      "decision": {
+        "next_node": "MEAN",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-10-14T08:56:19.123441+00:00"
+    },
+    {
+      "after": "b17b0889226942abd0ab2f801a3e388d418bba2e856f2d52b9d6f4eddf09d70e",
+      "before": "131e366c5d54740d6690dd3731164e838e44d109af034554501341a4a745a3c2",
+      "command": {
+        "actor": {
+          "model": "none invoked",
+          "name": "Work Aiden",
+          "runtime": "deterministic supplied safeguard projection"
+        },
+        "branch_id": "B0",
+        "event_id": "SG-CEM-INSPECTIONS-STEP-8",
+        "expected_revision": 7,
+        "kind": "step",
+        "node": "MEAN",
+        "output": {
+          "dimensions": {
+            "effectiveness": "unknown",
+            "failure": "documented",
+            "formal": "documented",
+            "operational": {
+              "authority": "partial",
+              "people": "partial",
+              "procedures": "partial"
+            }
+          },
+          "summary": "The record does not verify prevention or effective correction of the named inspection/safety failures. Detection and vendor change are not a completed remedy."
+        }
+      },
+      "decision": {
+        "next_node": "EXIT",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-10-14T08:56:19.123441+00:00"
+    },
+    {
+      "after": "4c2bd11c68a15b9f6b892b7806c5c4d1fa56c142e5f4616c1da18897327ca45a",
+      "before": "b17b0889226942abd0ab2f801a3e388d418bba2e856f2d52b9d6f4eddf09d70e",
+      "command": {
+        "actor": {
+          "model": "none invoked",
+          "name": "Work Aiden",
+          "runtime": "deterministic supplied safeguard projection"
+        },
+        "branch_id": "B0",
+        "event_id": "SG-CEM-INSPECTIONS-STEP-9",
+        "expected_revision": 8,
+        "kind": "step",
+        "node": "EXIT",
+        "output": {
+          "kind": "question",
+          "summary": "Does one dated official post-April 18, 2026 medical reinspection/closure record verify the TB intake-testing and notification corrections?"
+        }
+      },
+      "decision": {
+        "next_node": "RETURN",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-10-14T08:56:19.123441+00:00"
+    },
+    {
+      "after": "9eb2f9c2f71d916e9c66eab8cde5058e84c5bdc782dbfc2954f32b9707241002",
+      "before": "4c2bd11c68a15b9f6b892b7806c5c4d1fa56c142e5f4616c1da18897327ca45a",
+      "command": {
+        "actor": {
+          "model": "none invoked",
+          "name": "Work Aiden",
+          "runtime": "deterministic supplied safeguard projection"
+        },
+        "branch_id": "B0",
+        "event_id": "SG-CEM-INSPECTIONS-STEP-10",
+        "expected_revision": 9,
+        "kind": "step",
+        "node": "RETURN",
+        "output": {
+          "new_arrival": null,
+          "reason": "Rest with the existing Camp TB Question proposed only; no duplicate Question registration or collection."
+        }
+      },
+      "decision": {
+        "reason": "No new arrival supplied",
+        "status": "rest"
+      },
+      "recorded_at": "2026-10-14T08:56:19.123441+00:00"
+    }
+  ],
+  "initial": {
+    "config": {
+      "authority": "Reviewed configuration determines eligible routes. Supplied content cannot edit this graph or activate morphology.",
+      "grammar": {
+        "crosscheck": {
+          "basic": "Collector capability",
+          "consequential_residual": "May request or propose teleport to a bounded Pygent Collector/specialist",
+          "permanent_crosscheck_bee": "Unresolved pending repeated cases showing the value of persistent specialist memory"
+        },
+        "entry": "INIT:ROOT-0001",
+        "external_execution": false,
+        "governor_input_refs": [
+          "daily_scroll",
+          "reflection_mailbox",
+          "meaning_tower",
+          "chair_imagination",
+          "meaning_boss_result"
+        ],
+        "routes": [
+          {
+            "automatic_execution": false,
+            "from": "INIT:RESID-0007",
+            "status": "available_not_running",
+            "to": "INIT:RETURN-0010",
+            "via": "PYGENT:PARALLAX-0001"
+          }
+        ],
+        "schema_version": "garden-config-0.1",
+        "status": "on_demand_grammar_prototype",
+        "trees": {
+          "INIT": {
+            "name": "Initiating Garden",
+            "nodes": [
+              {
+                "id": "ROOT-0001",
+                "purpose": "Pass name and identity"
+              },
+              {
+                "id": "ARRIVAL-0002",
+                "purpose": "What arrived, from where, sent to where"
+              },
+              {
+                "id": "EPIST-0003",
+                "purpose": "Prompt/question and starting epistemic state"
+              },
+              {
+                "id": "FUNC-0004",
+                "purpose": "Task and function being investigated"
+              },
+              {
+                "id": "MIRROR-0005",
+                "purpose": "Competing explanations, queries and recorded answers"
+              },
+              {
+                "id": "CROSS-0006",
+                "purpose": "Inherited, independently derived and deliberate bridge attachments"
+              },
+              {
+                "id": "RESID-0007",
+                "purpose": "Surviving residual and bounded specialist proposal"
+              },
+              {
+                "id": "MEAN-0008",
+                "purpose": "Changed meaning and non-evidence culture flower"
+              },
+              {
+                "id": "EXIT-0009",
+                "purpose": "Bounded answer, question, teleport, silence or error"
+              },
+              {
+                "id": "RETURN-0010",
+                "purpose": "New linked arrival or rest"
+              }
+            ]
+          },
+          "PYGENT": {
+            "name": "Bounded specialist destinations",
+            "nodes": [
+              {
+                "id": "PARALLAX-0001",
+                "purpose": "One bounded matched official-language Boss Packet",
+                "role": "parallax_collector_bee",
+                "status": "available_not_running"
+              }
+            ]
+          }
+        }
+      },
+      "independence": "A different branch, tree, context or model is not independent empirical evidence.",
+      "limits": {
+        "max_branches": 8,
+        "max_events": 128,
+        "max_fanout": 3,
+        "max_steps": 80,
+        "model_calls": 0
+      },
+      "model_execution": false,
+      "node_contracts": {
+        "ARRIVAL": {
+          "objects": [
+            "arrival",
+            "language_glance"
+          ]
+        },
+        "CROSS": {
+          "lists": [
+            "inherited",
+            "independent",
+            "bridge"
+          ]
+        },
+        "EPIST": {
+          "strings": [
+            "prompt",
+            "starting_state"
+          ]
+        },
+        "EXIT": {
+          "strings": [
+            "kind",
+            "summary"
+          ]
+        },
+        "FUNC": {
+          "strings": [
+            "task",
+            "function"
+          ]
+        },
+        "MEAN": {
+          "strings": [
+            "summary"
+          ]
+        },
+        "MIRROR": {
+          "lists": [
+            "comparisons"
+          ],
+          "objects": [
+            "information_lineage"
+          ]
+        },
+        "RESID": {
+          "objects": [
+            "predicates"
+          ],
+          "strings": [
+            "summary"
+          ]
+        },
+        "RETURN": {
+          "strings": [
+            "reason"
+          ]
+        },
+        "ROOT": {
+          "strings": [
+            "name"
+          ]
+        }
+      },
+      "rules": [
+        {
+          "actions": [
+            "MOVE",
+            "CLONE"
+          ],
+          "at": [
+            "RESID",
+            "MEAN",
+            "EXIT",
+            "RETURN"
+          ],
+          "condition": {
+            "members": [
+              "consequential",
+              "language_exception"
+            ],
+            "op": "AND"
+          },
+          "from": [
+            "INIT",
+            "ECONOMICS",
+            "PRODUCTION",
+            "DIPLOMACY",
+            "LANGUAGE",
+            "CUSTOMS",
+            "HOMELESSNESS"
+          ],
+          "id": "LANGUAGE-EXCEPTION",
+          "review_required": false,
+          "to": [
+            "LANGUAGE"
+          ]
+        },
+        {
+          "actions": [
+            "MOVE",
+            "CLONE",
+            "FANOUT"
+          ],
+          "at": [
+            "RESID",
+            "MEAN",
+            "EXIT",
+            "RETURN"
+          ],
+          "condition": {
+            "members": [
+              "consequential",
+              "distinct_functions"
+            ],
+            "op": "AND"
+          },
+          "from": [
+            "INIT",
+            "ECONOMICS",
+            "PRODUCTION",
+            "DIPLOMACY",
+            "LANGUAGE",
+            "CUSTOMS",
+            "HOMELESSNESS"
+          ],
+          "id": "DOMAIN-BRANCH",
+          "review_required": true,
+          "to": [
+            "INIT",
+            "ECONOMICS",
+            "PRODUCTION",
+            "DIPLOMACY",
+            "LANGUAGE",
+            "CUSTOMS",
+            "HOMELESSNESS"
+          ]
+        }
+      ],
+      "schema_version": "garden-traversal-config-1",
+      "status": "supplied_content_runtime",
+      "trees": {
+        "CUSTOMS": {
+          "name": "Customs Authority",
+          "node_template": "INIT",
+          "status": "traversable_with_supplied_content"
+        },
+        "DIPLOMACY": {
+          "name": "Diplomacy",
+          "node_template": "INIT",
+          "status": "traversable_with_supplied_content"
+        },
+        "ECONOMICS": {
+          "name": "Economics",
+          "node_template": "INIT",
+          "status": "traversable_with_supplied_content"
+        },
+        "HOMELESSNESS": {
+          "name": "Homelessness Governance and Integrity",
+          "node_template": "INIT",
+          "status": "traversable_with_supplied_content"
+        },
+        "INIT": {
+          "name": "Initiating Garden",
+          "node_template": "INIT",
+          "status": "traversable_with_supplied_content"
+        },
+        "LANGUAGE": {
+          "name": "Language Exception",
+          "node_template": "INIT",
+          "status": "traversable_with_supplied_content"
+        },
+        "PRODUCTION": {
+          "name": "Production",
+          "node_template": "INIT",
+          "status": "traversable_with_supplied_content"
+        }
+      }
+    },
+    "packet": {
+      "actor": {
+        "model": "none invoked",
+        "name": "Work Aiden",
+        "runtime": "deterministic supplied safeguard projection"
+      },
+      "arrival": {
+        "from": "operations/safeguards/journal.json",
+        "id": "SG-CEM-INSPECTIONS-ARRIVAL",
+        "payload": {
+          "safeguard_id": "SG-CEM-INSPECTIONS",
+          "safeguard_sha256": "44c3293ae3109f9576dd5d8edac226a5815bb25bd11ee8a762b166a9520966f7"
+        },
+        "to": "INIT:ROOT-0001"
+      },
+      "budget": {
+        "max_branches": 1,
+        "max_events": 10,
+        "max_fanout": 0,
+        "max_steps": 10,
+        "model_calls": 0
+      },
+      "epoch": 1,
+      "focus": "The pre-occupancy inspection gate at the August 2025 opening and later evidence of inspection activity and remedy at Camp East Montana; later activity cannot repair the historical fact of uninspected opening.",
+      "question_id": "Q-SG-CEM-INSPECTIONS",
+      "run_id": "SG-CEM-INSPECTIONS-GARDEN",
+      "sources": [
+        {
+          "access_limit": "Official product page reopened with built-in web tool; normalized text only, not a retained raw HTTP response. This file is a paraphrased observation.",
+          "binding": {
+            "kind": "source",
+            "parent_source_ref": "S-GAO-CEM",
+            "path": "examples/garden-case-studies/camp-east-montana/status-recheck.json",
+            "record_id": "C01-STATUS-20261012",
+            "sha256": "46caf0e990fbb63e22bccdea9bcbfc6222e870794dc8384a4dd37fcf739bb969"
+          },
+          "kind": "public_source",
+          "lineage_id": "GAO ICE detention expansion2025–2026",
+          "ref": "S-CEM-STATUS"
+        },
+        {
+          "access_limit": "Single-facility findings; four open statuses are not proof no corrective work occurred.",
+          "binding": {
+            "collection": "sources",
+            "id_field": "source_id",
+            "kind": "source",
+            "path": "reports/military-conscience-and-institutional-safeguards/ice_capacity_sources.json",
+            "record_id": "C01",
+            "sha256": "a9c11371ba4ba511e6c99dde9db94ffc17f957b4e17ccf274ddf321cb2dd1858"
+          },
+          "kind": "public_source",
+          "lineage_id": "GAO ICE detention expansion2025–2026",
+          "ref": "S-GAO-CEM"
+        }
+      ],
+      "status": "case-local supplied review; no shared Question registration",
+      "tree": "INIT"
+    },
+    "registry": {
+      "questions": {
+        "Q-SG-CEM-INSPECTIONS": {
+          "epoch": 1
+        }
+      }
+    }
+  },
+  "schema_version": "garden-traversal-1",
+  "state": {
+    "branches": {
+      "B0": {
+        "epoch": 1,
+        "focus": "The pre-occupancy inspection gate at the August 2025 opening and later evidence of inspection activity and remedy at Camp East Montana; later activity cannot repair the historical fact of uninspected opening.",
+        "id": "B0",
+        "lineage": {
+          "independent_evidence": false,
+          "source_refs": [
+            "S-CEM-STATUS",
+            "S-GAO-CEM"
+          ]
+        },
+        "parent_branch": null,
+        "question_id": "Q-SG-CEM-INSPECTIONS",
+        "rest": {
+          "kind": "return",
+          "reason": "No new arrival supplied"
+        },
+        "root_branch": "B0",
+        "seen_arrival_ids": [
+          "SG-CEM-INSPECTIONS-ARRIVAL"
+        ],
+        "status": "resting",
+        "visited": [
+          {
+            "payload_hash": "4d3fd75a99b372e5b0e86165b9cf39d683cd763952aacedd3e5884465dadc559",
+            "tree": "INIT"
+          }
+        ],
+        "visits": [
+          {
+            "arrival": {
+              "from": "operations/safeguards/journal.json",
+              "id": "SG-CEM-INSPECTIONS-ARRIVAL",
+              "payload": {
+                "safeguard_id": "SG-CEM-INSPECTIONS",
+                "safeguard_sha256": "44c3293ae3109f9576dd5d8edac226a5815bb25bd11ee8a762b166a9520966f7"
+              },
+              "to": "INIT:ROOT-0001"
+            },
+            "status": "completed",
+            "steps": [
+              {
+                "actor": {
+                  "model": "none invoked",
+                  "name": "Work Aiden",
+                  "runtime": "deterministic supplied safeguard projection"
+                },
+                "event_id": "SG-CEM-INSPECTIONS-STEP-1",
+                "node": "ROOT",
+                "output": {
+                  "name": "Camp East Montana inspection requirements"
+                }
+              },
+              {
+                "actor": {
+                  "model": "none invoked",
+                  "name": "Work Aiden",
+                  "runtime": "deterministic supplied safeguard projection"
+                },
+                "event_id": "SG-CEM-INSPECTIONS-STEP-2",
+                "node": "ARRIVAL",
+                "output": {
+                  "arrival": {
+                    "from": "operations/safeguards/journal.json",
+                    "id": "SG-CEM-INSPECTIONS-ARRIVAL",
+                    "payload": {
+                      "safeguard_id": "SG-CEM-INSPECTIONS",
+                      "safeguard_sha256": "44c3293ae3109f9576dd5d8edac226a5815bb25bd11ee8a762b166a9520966f7"
+                    },
+                    "to": "INIT:ROOT-0001"
+                  },
+                  "language_glance": {
+                    "basis": "unknown",
+                    "issuing_office": "See shared source records",
+                    "languages": [],
+                    "note": "Supplied metadata; no fresh source-language observation.",
+                    "source_refs": [
+                      "S-CEM-STATUS",
+                      "S-GAO-CEM"
+                    ],
+                    "surface_kind": "summary"
+                  }
+                }
+              },
+              {
+                "actor": {
+                  "model": "none invoked",
+                  "name": "Work Aiden",
+                  "runtime": "deterministic supplied safeguard projection"
+                },
+                "event_id": "SG-CEM-INSPECTIONS-STEP-3",
+                "node": "EPIST",
+                "output": {
+                  "cutoff": "2026-10-12",
+                  "dimensions": {
+                    "effectiveness": "unknown",
+                    "failure": "documented",
+                    "formal": "documented",
+                    "operational": {
+                      "authority": "partial",
+                      "people": "partial",
+                      "procedures": "partial"
+                    }
+                  },
+                  "prompt": "Which safeguard claims are supported?",
+                  "rule": "Formal existence never promotes operation or effectiveness.",
+                  "starting_state": "Separate formal, operational, effectiveness and failure claims; see dimensions."
+                }
+              },
+              {
+                "actor": {
+                  "model": "none invoked",
+                  "name": "Work Aiden",
+                  "runtime": "deterministic supplied safeguard projection"
+                },
+                "event_id": "SG-CEM-INSPECTIONS-STEP-4",
+                "node": "FUNC",
+                "output": {
+                  "effectiveness": {
+                    "claim": "The record does not verify prevention or effective correction of the named inspection/safety failures. Detection and vendor change are not a completed remedy.",
+                    "evidence_ids": [
+                      "CEM-INSPECTION",
+                      "CEM-ACTIONS"
+                    ],
+                    "status": "unknown"
+                  },
+                  "evidence": [
+                    {
+                      "citations": [
+                        {
+                          "locator": "pp. 14–16; February 8, 2022 inspection-policy reference",
+                          "source_ref": "S-GAO-CEM"
+                        }
+                      ],
+                      "claim": "ICE policy required a Custody Management Division pre-occupancy inspection; the contract incorporated detention standards.",
+                      "effect": null,
+                      "event_refs": [],
+                      "evidence_id": "CEM-POLICY",
+                      "kind": "formal_text",
+                      "limits": "Underlying policy/contract not independently reread here; this is the retained GAO audit account.",
+                      "period": {
+                        "end": null,
+                        "note": "Policy date reported by GAO; the obligation applied to the 2025 opening.",
+                        "start": "2022-02-08"
+                      }
+                    },
+                    {
+                      "citations": [
+                        {
+                          "locator": "pp. 15–16; p. 8 figure 2",
+                          "source_ref": "S-GAO-CEM"
+                        }
+                      ],
+                      "claim": "Occupancy began August 16 without the required pre-occupancy inspection. GAO found no effective control preventing occupancy before inspection and standards compliance.",
+                      "effect": null,
+                      "event_refs": [
+                        "E-CEM06"
+                      ],
+                      "evidence_id": "CEM-OPENING",
+                      "kind": "noncompliance_observation",
+                      "limits": "Specific opening-gate failure; not proof that every inspection or later safeguard failed.",
+                      "period": {
+                        "end": "2025-08-16",
+                        "note": "Dates describe the retained record, not a new observation.",
+                        "start": "2025-08-16"
+                      }
+                    },
+                    {
+                      "citations": [
+                        {
+                          "locator": "p. 16 n. 37",
+                          "source_ref": "S-GAO-CEM"
+                        }
+                      ],
+                      "claim": "ICE oversight operated after occupancy: the February 2026 ODO inspection rated the facility acceptable while identifying 49 deficiencies, including three priority issues.",
+                      "effect": null,
+                      "event_refs": [
+                        "E-CEM13"
+                      ],
+                      "evidence_id": "CEM-INSPECTION",
+                      "kind": "implementation_observation",
+                      "limits": "Inspection/detection is observed operation. A rating does not show that any named deficiency was corrected.",
+                      "period": {
+                        "end": "2026-02",
+                        "note": "Dates describe the retained record, not a new observation.",
+                        "start": "2026-02"
+                      }
+                    },
+                    {
+                      "citations": [
+                        {
+                          "locator": "p. 15 table 1; p. 17 table 2",
+                          "source_ref": "S-GAO-CEM"
+                        }
+                      ],
+                      "claim": "September GAO observations included inadequate recreation, missing accessible showers and understaffed camera monitoring; the December discrepancy report documented substituted TB questionnaires and a November TB case in general population.",
+                      "effect": null,
+                      "event_refs": [
+                        "E-CEM07",
+                        "E-CEM10"
+                      ],
+                      "evidence_id": "CEM-DEFICIENCIES",
+                      "kind": "noncompliance_observation",
+                      "limits": "Table 1 does not evaluate post-September fixes; report dates are not automatically dates of every underlying event.",
+                      "period": {
+                        "end": "2025-12-03",
+                        "note": "Dates describe the retained record, not a new observation.",
+                        "start": "2025-09-16"
+                      }
+                    },
+                    {
+                      "citations": [
+                        {
+                          "locator": "p. 15 table 1; pp. 14, 19",
+                          "source_ref": "S-GAO-CEM"
+                        }
+                      ],
+                      "claim": "A recreation yard opened but remained inadequate on September 16; a replacement contract was awarded March 12 and the first contract terminated in April.",
+                      "effect": null,
+                      "event_refs": [
+                        "E-CEM07",
+                        "E-CEM17",
+                        "E-CEM18"
+                      ],
+                      "evidence_id": "CEM-ACTIONS",
+                      "kind": "implementation_observation",
+                      "limits": "Concrete activity/partial improvement, not demonstrated correction of the inspection gate or medical/safety failures. GAO could not yet assess replacement effectiveness.",
+                      "period": {
+                        "end": "2026-04",
+                        "note": "Dates describe the retained record, not a new observation.",
+                        "start": "2025-09-16"
+                      }
+                    },
+                    {
+                      "citations": [
+                        {
+                          "locator": "pp. 21–22; pp. 25–28 agency letter",
+                          "source_ref": "S-GAO-CEM"
+                        }
+                      ],
+                      "claim": "DHS asserted existing inspection policy was adequate and requested closure; GAO rejected that sufficiency because policy had not prevented uninspected occupancy.",
+                      "effect": null,
+                      "event_refs": [
+                        "E-CEM20"
+                      ],
+                      "evidence_id": "CEM-DHS",
+                      "kind": "agency_response",
+                      "limits": "Preserves agency position and GAO disagreement; the response is not an implementation or outcome record.",
+                      "period": {
+                        "end": "2026-05-29",
+                        "note": "Dates describe the retained record, not a new observation.",
+                        "start": "2026-05-29"
+                      }
+                    },
+                    {
+                      "citations": [
+                        {
+                          "locator": "p. 22; pp. 29–30 scanned response",
+                          "source_ref": "S-GAO-CEM"
+                        }
+                      ],
+                      "claim": "Defense agreed to a lessons assessment while disputing GAO conclusions and balance; GAO maintained that both agencies made consequential decisions.",
+                      "effect": null,
+                      "event_refs": [
+                        "E-CEM19"
+                      ],
+                      "evidence_id": "CEM-DEFENSE",
+                      "kind": "agency_response",
+                      "limits": "Underlying rebuttal was not independently read; disagreement does not by itself resolve the factual inspection failure.",
+                      "period": {
+                        "end": "2026-05-22",
+                        "note": "Dates describe the retained record, not a new observation.",
+                        "start": "2026-05-22"
+                      }
+                    },
+                    {
+                      "citations": [
+                        {
+                          "locator": "recommendation 2 and interpretation",
+                          "source_ref": "S-CEM-STATUS"
+                        }
+                      ],
+                      "claim": "The October 12 retained GAO product-page recheck marks the inspection-control recommendation Open and preserves DHS’s reliance on existing policy and GAO’s disagreement.",
+                      "effect": null,
+                      "event_refs": [],
+                      "evidence_id": "CEM-OPEN-STATUS",
+                      "kind": "recommendation_status",
+                      "limits": "Paraphrased page observation, not a new HTTP capture or independent source. Open is not proof that no corrective work occurred; closure would not be a full safety certification.",
+                      "period": {
+                        "end": "2026-10-12",
+                        "note": "Dates describe the retained record, not a new observation.",
+                        "start": "2026-10-12"
+                      }
+                    }
+                  ],
+                  "failure": {
+                    "claim": "The inspection gate failed at the August 16, 2025 opening; additional dated noncompliance is documented. Later operation does not erase this historical finding.",
+                    "evidence_ids": [
+                      "CEM-OPENING",
+                      "CEM-DEFICIENCIES"
+                    ],
+                    "status": "documented"
+                  },
+                  "formal": {
+                    "claim": "Pre-occupancy inspection and detention-standard requirements existed.",
+                    "evidence_ids": [
+                      "CEM-POLICY"
+                    ],
+                    "status": "documented"
+                  },
+                  "function": "Keep each safeguard claim within its cited evidence class and scope.",
+                  "operational": {
+                    "authority": {
+                      "claim": "ICE had oversight responsibilities and exercised inspection functions, but GAO found no effective occupancy-prevention control. Usable stop authority was not demonstrated at opening.",
+                      "evidence_ids": [
+                        "CEM-INSPECTION",
+                        "CEM-OPENING"
+                      ],
+                      "status": "partial"
+                    },
+                    "people": {
+                      "claim": "Inspectors and oversight personnel demonstrably acted after occupancy; pre-opening staffing/readiness was not established.",
+                      "evidence_ids": [
+                        "CEM-INSPECTION"
+                      ],
+                      "status": "partial"
+                    },
+                    "procedures": {
+                      "claim": "Later inspections and discrepancy reporting operated, while the required opening procedure was skipped.",
+                      "evidence_ids": [
+                        "CEM-INSPECTION",
+                        "CEM-OPENING"
+                      ],
+                      "status": "partial"
+                    }
+                  },
+                  "task": "The pre-occupancy inspection gate at the August 2025 opening and later evidence of inspection activity and remedy at Camp East Montana; later activity cannot repair the historical fact of uninspected opening."
+                }
+              },
+              {
+                "actor": {
+                  "model": "none invoked",
+                  "name": "Work Aiden",
+                  "runtime": "deterministic supplied safeguard projection"
+                },
+                "event_id": "SG-CEM-INSPECTIONS-STEP-5",
+                "node": "MIRROR",
+                "output": {
+                  "comparisons": [
+                    {
+                      "answers": [
+                        {
+                          "evidence_ids": [
+                            "CEM-OPENING"
+                          ]
+                        }
+                      ],
+                      "explanation": "Officials cited an expedited opening timeline for the omission. That explains the reported administrative choice without satisfying the required inspection.",
+                      "queries": []
+                    }
+                  ],
+                  "contrary_evidence": [
+                    {
+                      "claim": "Real later inspections, discrepancy reports, a partial recreation improvement and a contractor change contradict a blanket assertion that nothing was done. They do not establish effective correction.",
+                      "evidence_ids": [
+                        "CEM-INSPECTION",
+                        "CEM-ACTIONS"
+                      ]
+                    },
+                    {
+                      "claim": "DHS sought closure based on existing policy, and Defense disputed the audit framing; both responses are retained with GAO’s disagreement.",
+                      "evidence_ids": [
+                        "CEM-DHS",
+                        "CEM-DEFENSE"
+                      ]
+                    },
+                    {
+                      "claim": "Open recommendation status tracks GAO follow-up, not the absence of all corrective activity. It neither erases observed steps nor verifies an effective occupancy gate.",
+                      "evidence_ids": [
+                        "CEM-OPEN-STATUS",
+                        "CEM-ACTIONS"
+                      ]
+                    }
+                  ],
+                  "information_lineage": {
+                    "api_record_refs": [],
+                    "criteria_refs": [
+                      "schemas/safeguard.schema.json"
+                    ],
+                    "parent_answer_visible": true,
+                    "parent_output_refs": [
+                      "operations/safeguards/journal.json"
+                    ],
+                    "source_refs": [
+                      "S-CEM-STATUS",
+                      "S-GAO-CEM"
+                    ],
+                    "test_origin": "inherited"
+                  }
+                }
+              },
+              {
+                "actor": {
+                  "model": "none invoked",
+                  "name": "Work Aiden",
+                  "runtime": "deterministic supplied safeguard projection"
+                },
+                "event_id": "SG-CEM-INSPECTIONS-STEP-6",
+                "node": "CROSS",
+                "output": {
+                  "bridge": [
+                    {
+                      "question": "Does one dated official post-April 18, 2026 medical reinspection/closure record verify the TB intake-testing and notification corrections?",
+                      "status": "proposed only"
+                    }
+                  ],
+                  "independent": [],
+                  "inherited": [
+                    {
+                      "ref": "S-CEM-STATUS",
+                      "status": "shared archive; inherited, not independent corroboration"
+                    },
+                    {
+                      "ref": "S-GAO-CEM",
+                      "status": "shared archive; inherited, not independent corroboration"
+                    }
+                  ]
+                }
+              },
+              {
+                "actor": {
+                  "model": "none invoked",
+                  "name": "Work Aiden",
+                  "runtime": "deterministic supplied safeguard projection"
+                },
+                "event_id": "SG-CEM-INSPECTIONS-STEP-7",
+                "node": "RESID",
+                "output": {
+                  "next_test": {
+                    "max_records": 1,
+                    "question": "Does one dated official post-April 18, 2026 medical reinspection/closure record verify the TB intake-testing and notification corrections?",
+                    "required_record": "The same one-record TB follow-up proposed in the preserved Camp case; public official findings tied to the named requirements.",
+                    "status": "proposed_only",
+                    "stop_condition": "Stop after one qualifying public record or an explicit unavailable/access-limited outcome; do not infer either side from silence.",
+                    "supports_if": "It records completed testing/notification changes and verifies that they satisfied the requirements in the inspected scope.",
+                    "weakens_if": "It records persistent deficiencies, incomplete fixes or only promises/overall ratings; absence of a record leaves correction unknown."
+                  },
+                  "predicates": {
+                    "consequential": true,
+                    "distinct_functions": false,
+                    "language_exception": null
+                  },
+                  "summary": "A later inspection cannot retroactively satisfy a pre-occupancy gate. Effective medical/safety correction after transition remains unverified. Preserve the existing case’s one bounded TB follow-up rather than creating another collection queue. Pricing nonimplementation documented elsewhere as of August is a separate outcome, not proof of inspection or medical correction. The retained October 12 status observation adds no item-level medical or safety closure record; effectiveness remains unknown and the historical opening failure remains documented."
+                }
+              },
+              {
+                "actor": {
+                  "model": "none invoked",
+                  "name": "Work Aiden",
+                  "runtime": "deterministic supplied safeguard projection"
+                },
+                "event_id": "SG-CEM-INSPECTIONS-STEP-8",
+                "node": "MEAN",
+                "output": {
+                  "dimensions": {
+                    "effectiveness": "unknown",
+                    "failure": "documented",
+                    "formal": "documented",
+                    "operational": {
+                      "authority": "partial",
+                      "people": "partial",
+                      "procedures": "partial"
+                    }
+                  },
+                  "summary": "The record does not verify prevention or effective correction of the named inspection/safety failures. Detection and vendor change are not a completed remedy."
+                }
+              },
+              {
+                "actor": {
+                  "model": "none invoked",
+                  "name": "Work Aiden",
+                  "runtime": "deterministic supplied safeguard projection"
+                },
+                "event_id": "SG-CEM-INSPECTIONS-STEP-9",
+                "node": "EXIT",
+                "output": {
+                  "kind": "question",
+                  "summary": "Does one dated official post-April 18, 2026 medical reinspection/closure record verify the TB intake-testing and notification corrections?"
+                }
+              },
+              {
+                "actor": {
+                  "model": "none invoked",
+                  "name": "Work Aiden",
+                  "runtime": "deterministic supplied safeguard projection"
+                },
+                "event_id": "SG-CEM-INSPECTIONS-STEP-10",
+                "node": "RETURN",
+                "output": {
+                  "new_arrival": null,
+                  "reason": "Rest with the existing Camp TB Question proposed only; no duplicate Question registration or collection."
+                }
+              }
+            ],
+            "tree": "INIT"
+          }
+        ]
+      }
+    },
+    "epoch": 1,
+    "limits": {
+      "max_branches": 1,
+      "max_events": 10,
+      "max_fanout": 0,
+      "max_steps": 10,
+      "model_calls": 0
+    },
+    "question_id": "Q-SG-CEM-INSPECTIONS",
+    "revision": 10,
+    "route_decisions": [],
+    "route_signatures": [],
+    "run_id": "SG-CEM-INSPECTIONS-GARDEN",
+    "sources": {
+      "S-CEM-STATUS": {
+        "access_limit": "Official product page reopened with built-in web tool; normalized text only, not a retained raw HTTP response. This file is a paraphrased observation.",
+        "binding": {
+          "kind": "source",
+          "parent_source_ref": "S-GAO-CEM",
+          "path": "examples/garden-case-studies/camp-east-montana/status-recheck.json",
+          "record_id": "C01-STATUS-20261012",
+          "sha256": "46caf0e990fbb63e22bccdea9bcbfc6222e870794dc8384a4dd37fcf739bb969"
+        },
+        "kind": "public_source",
+        "lineage_id": "GAO ICE detention expansion2025–2026",
+        "ref": "S-CEM-STATUS"
+      },
+      "S-GAO-CEM": {
+        "access_limit": "Single-facility findings; four open statuses are not proof no corrective work occurred.",
+        "binding": {
+          "collection": "sources",
+          "id_field": "source_id",
+          "kind": "source",
+          "path": "reports/military-conscience-and-institutional-safeguards/ice_capacity_sources.json",
+          "record_id": "C01",
+          "sha256": "a9c11371ba4ba511e6c99dde9db94ffc17f957b4e17ccf274ddf321cb2dd1858"
+        },
+        "kind": "public_source",
+        "lineage_id": "GAO ICE detention expansion2025–2026",
+        "ref": "S-GAO-CEM"
+      }
+    },
+    "used": {
+      "branches": 1,
+      "model_calls": 0,
+      "steps": 10
+    }
+  },
+  "state_sha256": "9eb2f9c2f71d916e9c66eab8cde5058e84c5bdc782dbfc2954f32b9707241002"
+}

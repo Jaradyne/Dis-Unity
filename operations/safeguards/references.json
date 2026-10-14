@@ -1,0 +1,184 @@
+{
+  "base": {
+    "path": "operations/continuity/references.json",
+    "sha256": "90637325b6f8dac8aa0d79e187586898309a39daf8375cc4a1c1d9b451745948"
+  },
+  "references": {
+    "E-CEM06": {
+      "collection": "events",
+      "id_field": "event_id",
+      "kind": "event",
+      "path": "examples/garden-case-studies/camp-east-montana/evidence.json",
+      "record_id": "CEM06",
+      "sha256": "e5d6b732997d0ae68921c9c65a37b27df8e25d40f6dce498768ea19540089595"
+    },
+    "E-CEM07": {
+      "collection": "events",
+      "id_field": "event_id",
+      "kind": "event",
+      "path": "examples/garden-case-studies/camp-east-montana/evidence.json",
+      "record_id": "CEM07",
+      "sha256": "37cae935be08ede9c4eeb5f3707d66a049f38137b313b14ca8db57ab606cfc04"
+    },
+    "E-CEM10": {
+      "collection": "events",
+      "id_field": "event_id",
+      "kind": "event",
+      "path": "examples/garden-case-studies/camp-east-montana/evidence.json",
+      "record_id": "CEM10",
+      "sha256": "630e6c39816cc1899c7bea5c5716e1b3eeffda41af3239df50e0540159ec89c3"
+    },
+    "E-CEM13": {
+      "collection": "events",
+      "id_field": "event_id",
+      "kind": "event",
+      "path": "examples/garden-case-studies/camp-east-montana/evidence.json",
+      "record_id": "CEM13",
+      "sha256": "4e7267f8e1b0c583030fa8cd5b5b30a933499495813151b584eeb88f5cf75139"
+    },
+    "E-CEM17": {
+      "collection": "events",
+      "id_field": "event_id",
+      "kind": "event",
+      "path": "examples/garden-case-studies/camp-east-montana/evidence.json",
+      "record_id": "CEM17",
+      "sha256": "518ac99f62dc713cf76c14e7949500c3d9bdba03824614c9441c94ddbd17a499"
+    },
+    "E-CEM18": {
+      "collection": "events",
+      "id_field": "event_id",
+      "kind": "event",
+      "path": "examples/garden-case-studies/camp-east-montana/evidence.json",
+      "record_id": "CEM18",
+      "sha256": "b9143ac93c876a9bcf4dec9a5ff41c439bee8008e9d5807a28411f905a2d66b3"
+    },
+    "E-CEM19": {
+      "collection": "events",
+      "id_field": "event_id",
+      "kind": "event",
+      "path": "examples/garden-case-studies/camp-east-montana/evidence.json",
+      "record_id": "CEM19",
+      "sha256": "6e794c320d90043372d0c42445fe48f5d519b48ff7a8576cd7f8a83e95eec917"
+    },
+    "E-CEM20": {
+      "collection": "events",
+      "id_field": "event_id",
+      "kind": "event",
+      "path": "examples/garden-case-studies/camp-east-montana/evidence.json",
+      "record_id": "CEM20",
+      "sha256": "331c13cb0b7304bf5d521b6164c66747def6d37645c19600ed093929f14fb3d5"
+    },
+    "E-LIBERTY": {
+      "collection": "events",
+      "id_field": "event_id",
+      "kind": "event",
+      "path": "reports/military-conscience-and-institutional-safeguards/events.json",
+      "record_id": "MC03",
+      "sha256": "d417fdf808086ef5d33b36ce8d488e898ceb59e3c44f81a97377f512956dc790"
+    },
+    "E-MC06": {
+      "collection": "events",
+      "id_field": "event_id",
+      "kind": "event",
+      "path": "reports/military-conscience-and-institutional-safeguards/events.json",
+      "record_id": "MC06",
+      "sha256": "ad7c598deb9be25d77701fff06ae866e891b7c32ca5cfbe75ab35f9d9c00e7bf"
+    },
+    "E-MC07": {
+      "collection": "events",
+      "id_field": "event_id",
+      "kind": "event",
+      "path": "reports/military-conscience-and-institutional-safeguards/events.json",
+      "record_id": "MC07",
+      "sha256": "d1e7c7bbb00888ff87a2b48d094e2894251e3b622d94cd89888ea283babb745d"
+    },
+    "E-MC13": {
+      "collection": "events",
+      "id_field": "event_id",
+      "kind": "event",
+      "path": "reports/military-conscience-and-institutional-safeguards/events.json",
+      "record_id": "MC13",
+      "sha256": "5274e0ee4a4830f073bea3e5ee843ebb8f8ae9e7b9b8823c695b495b1815e65b"
+    },
+    "E-MC15": {
+      "collection": "events",
+      "id_field": "event_id",
+      "kind": "event",
+      "path": "reports/military-conscience-and-institutional-safeguards/events.json",
+      "record_id": "MC15",
+      "sha256": "03701908ab595565a0ef1b483245509e0e7b63d666095aa3fbc4ba3aad39a671"
+    },
+    "S-J01": {
+      "collection": "sources",
+      "id_field": "source_id",
+      "kind": "source",
+      "path": "reports/military-conscience-and-institutional-safeguards/legal_sources.json",
+      "record_id": "J01",
+      "sha256": "cc2971c2ca44f564a29008730193c517a1c5abc8178f46e65cfdb95e9651446a"
+    },
+    "S-J02": {
+      "collection": "sources",
+      "id_field": "source_id",
+      "kind": "source",
+      "path": "reports/military-conscience-and-institutional-safeguards/legal_sources.json",
+      "record_id": "J02",
+      "sha256": "5320331aaf1ef29cb93b8b5d4c4f96c0fbcc978b960dafc26a5010a07da75db9"
+    },
+    "S-J03": {
+      "collection": "sources",
+      "id_field": "source_id",
+      "kind": "source",
+      "path": "reports/military-conscience-and-institutional-safeguards/legal_sources.json",
+      "record_id": "J03",
+      "sha256": "f8999b7ead2c4383555fff4e656f77596dbbae175a81053d466fccc6b917d885"
+    },
+    "S-J04": {
+      "collection": "sources",
+      "id_field": "source_id",
+      "kind": "source",
+      "path": "reports/military-conscience-and-institutional-safeguards/legal_sources.json",
+      "record_id": "J04",
+      "sha256": "ad23010c36c68e683b1b934a84d7dc99689b843fc9065145d87463f551767366"
+    },
+    "S-J05": {
+      "collection": "sources",
+      "id_field": "source_id",
+      "kind": "source",
+      "path": "reports/military-conscience-and-institutional-safeguards/legal_sources.json",
+      "record_id": "J05",
+      "sha256": "354e530d32b95f98622836dd8de1c6c8f7349fc23363cff5471f8e0ca39c3fcc"
+    },
+    "S-J06": {
+      "collection": "sources",
+      "id_field": "source_id",
+      "kind": "source",
+      "path": "reports/military-conscience-and-institutional-safeguards/legal_sources.json",
+      "record_id": "J06",
+      "sha256": "c1b0ff8513452a8a6cf5474e0f65f3d7362766a1ba501627989433c109ba91f7"
+    },
+    "S-J15": {
+      "collection": "sources",
+      "id_field": "source_id",
+      "kind": "source",
+      "path": "reports/military-conscience-and-institutional-safeguards/legal_sources.json",
+      "record_id": "J15",
+      "sha256": "85e7709c0f5b1267c46d78beb9410f055269a61b5ab1e14183a636f86791f015"
+    },
+    "S-LIBERTY": {
+      "collection": "sources",
+      "id_field": "source_id",
+      "kind": "source",
+      "path": "reports/military-conscience-and-institutional-safeguards/baseline_sources.json",
+      "record_id": "B02",
+      "sha256": "17b1ae781e5a4f9eff1c7cbf7437d7b9a47ca1197d059aacdefab78423e06a48"
+    }
+  },
+  "snapshots": {
+    "S-CEM-STATUS": {
+      "parent_source_ref": "S-GAO-CEM",
+      "path": "examples/garden-case-studies/camp-east-montana/status-recheck.json",
+      "sha256": "46caf0e990fbb63e22bccdea9bcbfc6222e870794dc8384a4dd37fcf739bb969"
+    }
+  },
+  "version": "safeguard-references-1"
+}

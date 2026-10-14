@@ -1,0 +1,78 @@
+{
+  "reviewer": "camp_review",
+  "status": "accepted_with_limits",
+  "scope": "Bounded independent existing-evidence mapping and implementation review of three safeguard cases; no new research.",
+  "findings": [
+    {
+      "id": "SG-R1",
+      "severity": "medium",
+      "issue": "Snapshot parent alias is not checked against snapshot.parent_source_id. A Camp GAO status snapshot can be rebound to S-ORA and inherit ORA lineage while resolve succeeds.",
+      "status": "fixed_and_verified",
+      "suggested_fix": "Validate snapshot parent_source_id against resolved parent source_id; reject missing/mismatch and add negative regression test."
+    }
+  ],
+  "limitations": [
+    "Existing-catalog/source-mapping review only; no fresh source authentication or research.",
+    "Evidence-kind labels and narrative fit remain supplied judgments; schema gates cannot establish empirical truth.",
+    "Catalog pins/hash chains detect consistency errors, not wholesale malicious resealing or authenticity of external artifacts.",
+    "Reviewer ran 15 focused tests and exact safeguard replay; coordinator owns broader full-suite acceptance results."
+  ],
+  "evidence_mapping": {
+    "ora": {
+      "formal": [
+        "O01 / MC21: conscience/noncompulsion, 2026-09-30, mirror facsimile",
+        "B02 / MC03: qualified religious-liberty and appeal baseline, 2020-09-01, mirror"
+      ],
+      "limit": "Declared authority and policy do not establish staffed remedies, actual enforcement or measured outcomes."
+    },
+    "camp": {
+      "formal": [
+        "C01: required pre-occupancy inspection"
+      ],
+      "observations": [
+        "CEM06: occupancy without required inspection",
+        "CEM07: September observed deficiencies",
+        "CEM13: acceptable inspection rating with 49 deficiencies",
+        "CEM19/CEM20: agency responses and disagreement",
+        "CEM17/CEM18: vendor transition, not verified correction"
+      ],
+      "limit": "Historical gate failure cannot be cured retroactively by later inspections. Open recommendation is not proof of no work. Pricing reform is a separate outcome."
+    },
+    "jag": {
+      "formal": [
+        "J01: pre-Dec2025 Army appointment/noninterference baseline",
+        "J02: pre-Dec2025 Article6 communication baseline",
+        "J03 / MC13: Dec18 2025 amendments \u00a7\u00a7506/561/562",
+        "J15 / MC15: March11 2026 allocation-review memo retains independence"
+      ],
+      "operational_sample": [
+        "J06: Army incumbent assumed July1 2025, not effectiveness proof"
+      ],
+      "constraints": [
+        "J01/J02 returned old versions; preserve J03 amendments separately.",
+        "Notice/reasons is not congressional veto.",
+        "J04/MC07 reporting excerpt must be qualified by J05/MC06: Navy already vacant January1.",
+        "J16/J17/MC17 concern separate review panel; commentary reports historical interruption, current operations unverified."
+      ],
+      "limit": "No blanket finding that JAG independence either worked or disappeared follows from supplied records."
+    }
+  },
+  "design_pitfalls": [
+    "Keep formal requirement, operational mechanism, observed outcome and residual independently dated and sourced.",
+    "No policy-to-effectiveness upgrade, no aggregate safeguard score.",
+    "Historical failure status must not imply continuing failure.",
+    "Do not manufacture source independence from reused catalogs or derivative case records."
+  ],
+  "checks": [
+    "Existing five generated outputs replay identically into three resting Garden runs.",
+    "All three case narratives distinguish formal text, actual sampled activity, effectiveness and failure.",
+    "JAG case preserves old statutory versions, December amendment, staffing sample and unverified reorganization effect.",
+    "Camp retained Open-status follow-up does not upgrade or erase documented historical failure.",
+    "All 15 focused safeguard tests pass.",
+    "Wrong-parent GAO-to-ORA snapshot rebinding now rejected by parent source-ID validation.",
+    "Final five-output deterministic check passes; three complete resting Garden runs.",
+    "Contract and Chat/Digest handoffs accurately describe source-class gates, supplied judgment limitations, date/revision handling and no activation.",
+    "Earlier contrary assessments are retained on revision; original Continuity projections pass focused regression check."
+  ],
+  "conclusion": "Independent bounded review accepts implementation, three case mappings and Chat/Digest handoffs after snapshot lineage fix. No remaining material defects found in reviewed scope."
+}

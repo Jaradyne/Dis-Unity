@@ -37,6 +37,8 @@ jobs:
         run: |
           python scripts/continuity.py check
           python examples/garden-case-studies/camp-east-montana/replay.py --check
+      - name: Verify Safeguard Reality Check is reproducible
+        run: python scripts/safeguards.py check
       - name: Verify portable encounter is reproducible
         run: |
           python scripts/build_meaning_tower.py

@@ -1,0 +1,1677 @@
+{
+  "config_sha256": "39152c8d17954a1d9097a0c55351ced98ad702f402cb9c12a27b116f4c0d1655",
+  "events": [
+    {
+      "after": "d2bc4abdaf8e1d980a7e30fe35cb7678dee54626837b12f0a3dad7dd71409370",
+      "before": "a0e796debe15dc7474711cc817961d2280c4ea54ef0b49a50125180e3441856e",
+      "command": {
+        "actor": {
+          "model": "none invoked",
+          "name": "Work Aiden",
+          "runtime": "deterministic supplied safeguard projection"
+        },
+        "branch_id": "B0",
+        "event_id": "SG-JAG-INDEPENDENCE-STEP-1",
+        "expected_revision": 0,
+        "kind": "step",
+        "node": "ROOT",
+        "output": {
+          "name": "Military JAG independence"
+        }
+      },
+      "decision": {
+        "next_node": "ARRIVAL",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-10-14T08:56:19.123085+00:00"
+    },
+    {
+      "after": "8ec806b44986041a5ad183a1d615e379b46d47f6362742b40cb1bfada16f146f",
+      "before": "d2bc4abdaf8e1d980a7e30fe35cb7678dee54626837b12f0a3dad7dd71409370",
+      "command": {
+        "actor": {
+          "model": "none invoked",
+          "name": "Work Aiden",
+          "runtime": "deterministic supplied safeguard projection"
+        },
+        "branch_id": "B0",
+        "event_id": "SG-JAG-INDEPENDENCE-STEP-2",
+        "expected_revision": 1,
+        "kind": "step",
+        "node": "ARRIVAL",
+        "output": {
+          "arrival": {
+            "from": "operations/safeguards/journal.json",
+            "id": "SG-JAG-INDEPENDENCE-ARRIVAL",
+            "payload": {
+              "safeguard_id": "SG-JAG-INDEPENDENCE",
+              "safeguard_sha256": "5d43fbee30098449bf00c91bf8d04cf000834ead961e759cdb8da273c158de66"
+            },
+            "to": "INIT:ROOT-0001"
+          },
+          "language_glance": {
+            "basis": "unknown",
+            "issuing_office": "See shared source records",
+            "languages": [],
+            "note": "Supplied metadata; no fresh source-language observation.",
+            "source_refs": [
+              "S-J01",
+              "S-J02",
+              "S-J03",
+              "S-J04",
+              "S-J05",
+              "S-J06",
+              "S-J15"
+            ],
+            "surface_kind": "summary"
+          }
+        }
+      },
+      "decision": {
+        "next_node": "EPIST",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-10-14T08:56:19.123085+00:00"
+    },
+    {
+      "after": "5ca7833b2def6fa274f398d704b03ab804e3be1d29b5611dc43674a77fa3d535",
+      "before": "8ec806b44986041a5ad183a1d615e379b46d47f6362742b40cb1bfada16f146f",
+      "command": {
+        "actor": {
+          "model": "none invoked",
+          "name": "Work Aiden",
+          "runtime": "deterministic supplied safeguard projection"
+        },
+        "branch_id": "B0",
+        "event_id": "SG-JAG-INDEPENDENCE-STEP-3",
+        "expected_revision": 2,
+        "kind": "step",
+        "node": "EPIST",
+        "output": {
+          "cutoff": "2026-10-08",
+          "dimensions": {
+            "effectiveness": "unknown",
+            "failure": "unknown",
+            "formal": "documented",
+            "operational": {
+              "authority": "unknown",
+              "people": "partial",
+              "procedures": "unknown"
+            }
+          },
+          "prompt": "Which safeguard claims are supported?",
+          "rule": "Formal existence never promotes operation or effectiveness.",
+          "starting_state": "Separate formal, operational, effectiveness and failure claims; see dimensions."
+        }
+      },
+      "decision": {
+        "next_node": "FUNC",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-10-14T08:56:19.123085+00:00"
+    },
+    {
+      "after": "7422862c6f9e597d38cbbe8f390f74950bd39f5408ab7190dbd5e882a0e7ef52",
+      "before": "5ca7833b2def6fa274f398d704b03ab804e3be1d29b5611dc43674a77fa3d535",
+      "command": {
+        "actor": {
+          "model": "none invoked",
+          "name": "Work Aiden",
+          "runtime": "deterministic supplied safeguard projection"
+        },
+        "branch_id": "B0",
+        "event_id": "SG-JAG-INDEPENDENCE-STEP-4",
+        "expected_revision": 3,
+        "kind": "step",
+        "node": "FUNC",
+        "output": {
+          "effectiveness": {
+            "claim": "No traced legal-review outcome shows these protections preventing interference, stopping harm or producing a verified remedy within the tested restructuring scope.",
+            "evidence_ids": [
+              "JAG-AMENDMENTS",
+              "JAG-ALIGNMENT"
+            ],
+            "status": "unknown"
+          },
+          "evidence": [
+            {
+              "citations": [
+                {
+                  "locator": "10 USC 7037(a)–(e)",
+                  "source_ref": "S-J01"
+                }
+              ],
+              "claim": "The Army TJAG statute prohibits interference with independent legal advice and sets appointment qualifications.",
+              "effect": null,
+              "event_refs": [],
+              "evidence_id": "JAG-BASE",
+              "kind": "formal_text",
+              "limits": "Dynamic URL returned an older pre-December 2025 version. Do not mistake retrieval date for enactment or silently omit J03 amendments.",
+              "period": {
+                "end": null,
+                "note": "Dates describe the retained record, not a new observation.",
+                "start": null
+              }
+            },
+            {
+              "citations": [
+                {
+                  "locator": "10 USC 806(a)–(d)",
+                  "source_ref": "S-J02"
+                }
+              ],
+              "claim": "Article 6 preserves direct legal communication and permits qualifying civilian-office details.",
+              "effect": null,
+              "event_refs": [],
+              "evidence_id": "JAG-COMMUNICATION",
+              "kind": "formal_text",
+              "limits": "Retained numbering predates December 2025 amendments; formal communication rights do not demonstrate practical access.",
+              "period": {
+                "end": null,
+                "note": "Dates describe the retained record, not a new observation.",
+                "start": null
+              }
+            },
+            {
+              "citations": [
+                {
+                  "locator": "§506, 139 Stat. 858 / PDF p. 142; §§561–562, 139 Stat. 881–882 / PDF pp. 165–166",
+                  "source_ref": "S-J03"
+                }
+              ],
+              "claim": "The FY2026 NDAA adds five-day congressional notice/reasons for early TJAG removal, current legal-license requirements and sufficient qualified advice for commanders.",
+              "effect": null,
+              "event_refs": [
+                "E-MC13"
+              ],
+              "evidence_id": "JAG-AMENDMENTS",
+              "kind": "formal_text",
+              "limits": "Notice is not a congressional veto; staffing and enforcement are not measured by enacted requirements.",
+              "period": {
+                "end": "2025-12-18",
+                "note": "Dates describe the retained record, not a new observation.",
+                "start": "2025-12-18"
+              }
+            },
+            {
+              "citations": [
+                {
+                  "locator": "PDF pp. 1–3; attachment table 1, PDF p. 5",
+                  "source_ref": "S-J15"
+                }
+              ],
+              "claim": "The March 11 memo directs allocation review and an implementation plan while preserving statutory independence and specified military legal functions.",
+              "effect": null,
+              "event_refs": [
+                "E-MC15"
+              ],
+              "evidence_id": "JAG-ALIGNMENT",
+              "kind": "formal_text",
+              "limits": "Inspected NIMJ mirror; official-host link failed. Directed plans are not verified implementation or workload outcomes.",
+              "period": {
+                "end": "2026-03-11",
+                "note": "Dates describe the retained record, not a new observation.",
+                "start": "2026-03-11"
+              }
+            },
+            {
+              "citations": [
+                {
+                  "locator": "Corps leadership entry",
+                  "source_ref": "S-J06"
+                }
+              ],
+              "claim": "The retained official Army page records Bobby Christine assuming Army TJAG duties July 1, 2025.",
+              "effect": null,
+              "event_refs": [],
+              "evidence_id": "JAG-OFFICE",
+              "kind": "implementation_observation",
+              "limits": "One filled leadership role, not a full staff inventory, advice capacity measure, independence test or current recheck.",
+              "period": {
+                "end": "2025-07-01",
+                "note": "Dates describe the retained record, not a new observation.",
+                "start": "2025-07-01"
+              }
+            },
+            {
+              "citations": [
+                {
+                  "locator": "Retained search-result article excerpt",
+                  "source_ref": "S-J04"
+                }
+              ],
+              "claim": "Contemporary AP reporting describes the top-lawyer replacement/nomination shake-up and the stated suitability rationale.",
+              "effect": null,
+              "event_refs": [
+                "E-MC07"
+              ],
+              "evidence_id": "JAG-REPLACEMENTS",
+              "kind": "reported_concern",
+              "limits": "Full article and complete personnel orders not retrieved; replacement itself does not prove unlawful interference or disabled legal review.",
+              "period": {
+                "end": "2025-02",
+                "note": "Dates describe the retained record, not a new observation.",
+                "start": "2025-02"
+              }
+            },
+            {
+              "citations": [
+                {
+                  "locator": "Opening succession facts",
+                  "source_ref": "S-J05"
+                }
+              ],
+              "claim": "The Navy bulletin records French’s voluntary January 1 retirement and Reynolds acting before the February nomination requests.",
+              "effect": null,
+              "event_refs": [
+                "E-MC06"
+              ],
+              "evidence_id": "JAG-NAVY",
+              "kind": "implementation_observation",
+              "limits": "Corrects three-simultaneous-removals shorthand; does not establish that every later leadership action was benign or that remedies worked.",
+              "period": {
+                "end": "2025-01-01",
+                "note": "Dates describe the retained record, not a new observation.",
+                "start": "2025-01-01"
+              }
+            }
+          ],
+          "failure": {
+            "claim": "Personnel change and a directed reorganization do not themselves establish unlawful interference or wholesale failure of independent military advice.",
+            "evidence_ids": [
+              "JAG-REPLACEMENTS",
+              "JAG-NAVY"
+            ],
+            "status": "unknown"
+          },
+          "formal": {
+            "claim": "Independent advice and direct communication protections exist in the retained law; December 2025 added counterchecks and the March memo expressly preserves independence.",
+            "evidence_ids": [
+              "JAG-BASE",
+              "JAG-COMMUNICATION",
+              "JAG-AMENDMENTS",
+              "JAG-ALIGNMENT"
+            ],
+            "status": "documented"
+          },
+          "function": "Keep each safeguard claim within its cited evidence class and scope.",
+          "operational": {
+            "authority": {
+              "claim": "Formal noninterference and retained military legal responsibilities are clear; an exercised, usable independent remedy after restructuring is not supplied.",
+              "evidence_ids": [
+                "JAG-BASE",
+                "JAG-ALIGNMENT"
+              ],
+              "status": "unknown"
+            },
+            "people": {
+              "claim": "A staffed Army TJAG role and a Navy acting succession are documented; sufficient staffing, workload and independent access across services remain unverified.",
+              "evidence_ids": [
+                "JAG-OFFICE",
+                "JAG-NAVY"
+              ],
+              "status": "partial"
+            },
+            "procedures": {
+              "claim": "Direct communication, removal notice and alignment procedures are specified; compliant use, response times and implemented safeguards are not measured.",
+              "evidence_ids": [
+                "JAG-COMMUNICATION",
+                "JAG-AMENDMENTS",
+                "JAG-ALIGNMENT"
+              ],
+              "status": "unknown"
+            }
+          },
+          "task": "Independent military legal advice, direct legal communication and sufficient qualified counsel under the retained statutory and March 2026 reorganization records; no blanket finding about all services or every legal remedy."
+        }
+      },
+      "decision": {
+        "next_node": "MIRROR",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-10-14T08:56:19.123085+00:00"
+    },
+    {
+      "after": "7532a438d808bf56251369db1be2ab96b987ddba063a1ce5f0cd08c71805f2e9",
+      "before": "7422862c6f9e597d38cbbe8f390f74950bd39f5408ab7190dbd5e882a0e7ef52",
+      "command": {
+        "actor": {
+          "model": "none invoked",
+          "name": "Work Aiden",
+          "runtime": "deterministic supplied safeguard projection"
+        },
+        "branch_id": "B0",
+        "event_id": "SG-JAG-INDEPENDENCE-STEP-5",
+        "expected_revision": 4,
+        "kind": "step",
+        "node": "MIRROR",
+        "output": {
+          "comparisons": [
+            {
+              "answers": [
+                {
+                  "evidence_ids": [
+                    "JAG-ALIGNMENT"
+                  ]
+                }
+              ],
+              "explanation": "A division of civilian support work and military legal subjects can be administrative allocation; capacity and independence effects require implementation and outcome records.",
+              "queries": []
+            },
+            {
+              "answers": [
+                {
+                  "evidence_ids": [
+                    "JAG-COMMUNICATION"
+                  ]
+                }
+              ],
+              "explanation": "Civilian legal details have a preexisting statutory basis; authorization alone measures neither deployed headcount nor loss of home-unit legal capacity.",
+              "queries": []
+            }
+          ],
+          "contrary_evidence": [
+            {
+              "claim": "Enacted additional checks and preserved independence narrow the formal claim but cannot serve as empirical proof that independent advice remains effective.",
+              "evidence_ids": [
+                "JAG-AMENDMENTS",
+                "JAG-ALIGNMENT"
+              ]
+            },
+            {
+              "claim": "Actual leadership/acting service and the preexisting Navy vacancy contradict the shorthand of three simultaneous removals or complete disappearance of legal personnel.",
+              "evidence_ids": [
+                "JAG-OFFICE",
+                "JAG-NAVY"
+              ]
+            },
+            {
+              "claim": "Reported replacement and reallocation merit scrutiny; neither record establishes a blocked legal remedy.",
+              "evidence_ids": [
+                "JAG-REPLACEMENTS",
+                "JAG-ALIGNMENT"
+              ]
+            }
+          ],
+          "information_lineage": {
+            "api_record_refs": [],
+            "criteria_refs": [
+              "schemas/safeguard.schema.json"
+            ],
+            "parent_answer_visible": true,
+            "parent_output_refs": [
+              "operations/safeguards/journal.json"
+            ],
+            "source_refs": [
+              "S-J01",
+              "S-J02",
+              "S-J03",
+              "S-J04",
+              "S-J05",
+              "S-J06",
+              "S-J15"
+            ],
+            "test_origin": "inherited"
+          }
+        }
+      },
+      "decision": {
+        "next_node": "CROSS",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-10-14T08:56:19.123085+00:00"
+    },
+    {
+      "after": "9d7bbe676d75752830442e51fb1db6911632754b769d73bfb9da3239881fe29e",
+      "before": "7532a438d808bf56251369db1be2ab96b987ddba063a1ce5f0cd08c71805f2e9",
+      "command": {
+        "actor": {
+          "model": "none invoked",
+          "name": "Work Aiden",
+          "runtime": "deterministic supplied safeguard projection"
+        },
+        "branch_id": "B0",
+        "event_id": "SG-JAG-INDEPENDENCE-STEP-6",
+        "expected_revision": 5,
+        "kind": "step",
+        "node": "CROSS",
+        "output": {
+          "bridge": [
+            {
+              "question": "Does one public oversight disposition trace an independent JAG advice/interference dispute after the March 11, 2026 realignment direction through its actual outcome?",
+              "status": "proposed only"
+            }
+          ],
+          "independent": [],
+          "inherited": [
+            {
+              "ref": "S-J01",
+              "status": "shared archive; inherited, not independent corroboration"
+            },
+            {
+              "ref": "S-J02",
+              "status": "shared archive; inherited, not independent corroboration"
+            },
+            {
+              "ref": "S-J03",
+              "status": "shared archive; inherited, not independent corroboration"
+            },
+            {
+              "ref": "S-J04",
+              "status": "shared archive; inherited, not independent corroboration"
+            },
+            {
+              "ref": "S-J05",
+              "status": "shared archive; inherited, not independent corroboration"
+            },
+            {
+              "ref": "S-J06",
+              "status": "shared archive; inherited, not independent corroboration"
+            },
+            {
+              "ref": "S-J15",
+              "status": "shared archive; inherited, not independent corroboration"
+            }
+          ]
+        }
+      },
+      "decision": {
+        "next_node": "RESID",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-10-14T08:56:19.123085+00:00"
+    },
+    {
+      "after": "5825075b9de8441e735080693736a1ebd54f6a4414aef147659aec7a1b593012",
+      "before": "9d7bbe676d75752830442e51fb1db6911632754b769d73bfb9da3239881fe29e",
+      "command": {
+        "actor": {
+          "model": "none invoked",
+          "name": "Work Aiden",
+          "runtime": "deterministic supplied safeguard projection"
+        },
+        "branch_id": "B0",
+        "event_id": "SG-JAG-INDEPENDENCE-STEP-7",
+        "expected_revision": 6,
+        "kind": "step",
+        "node": "RESID",
+        "output": {
+          "next_test": {
+            "max_records": 1,
+            "question": "Does one public oversight disposition trace an independent JAG advice/interference dispute after the March 11, 2026 realignment direction through its actual outcome?",
+            "required_record": "One dated official, publicly releasable oversight or adjudication record documenting access, interference finding and any completed remedy.",
+            "status": "proposed_only",
+            "stop_condition": "Stop after one qualifying public record or an explicit unavailable/access-limited outcome; do not infer either side from silence.",
+            "supports_if": "It shows usable independent advice/review and an observed protective result within that case.",
+            "weakens_if": "It substantiates blocked independent advice, insufficient qualified access, retaliation or an unexecuted remedy; an order alone does not prove correction."
+          },
+          "predicates": {
+            "consequential": true,
+            "distinct_functions": false,
+            "language_exception": null
+          },
+          "summary": "Sufficient staffed access, actual freedom to give unwelcome advice, notice compliance and completed remedies are unverified. A separate Military Justice Review Panel interruption report is not imported as proof that JAG independence was abolished; that mechanism and its current status remain separate in the original archive. No ORA-to-JAG interference link, private belief, motive or career outcome is inferred."
+        }
+      },
+      "decision": {
+        "next_node": "MEAN",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-10-14T08:56:19.123085+00:00"
+    },
+    {
+      "after": "af08e17f8b80ce9a32d22bf53bad1dd177ce9f01275d9dd8dcb9c39556f3f0f9",
+      "before": "5825075b9de8441e735080693736a1ebd54f6a4414aef147659aec7a1b593012",
+      "command": {
+        "actor": {
+          "model": "none invoked",
+          "name": "Work Aiden",
+          "runtime": "deterministic supplied safeguard projection"
+        },
+        "branch_id": "B0",
+        "event_id": "SG-JAG-INDEPENDENCE-STEP-8",
+        "expected_revision": 7,
+        "kind": "step",
+        "node": "MEAN",
+        "output": {
+          "dimensions": {
+            "effectiveness": "unknown",
+            "failure": "unknown",
+            "formal": "documented",
+            "operational": {
+              "authority": "unknown",
+              "people": "partial",
+              "procedures": "unknown"
+            }
+          },
+          "summary": "No traced legal-review outcome shows these protections preventing interference, stopping harm or producing a verified remedy within the tested restructuring scope."
+        }
+      },
+      "decision": {
+        "next_node": "EXIT",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-10-14T08:56:19.123085+00:00"
+    },
+    {
+      "after": "25cce092323494d4a214caaffcb6d88f32ca12be4f9fb4d193e43e6e4378a061",
+      "before": "af08e17f8b80ce9a32d22bf53bad1dd177ce9f01275d9dd8dcb9c39556f3f0f9",
+      "command": {
+        "actor": {
+          "model": "none invoked",
+          "name": "Work Aiden",
+          "runtime": "deterministic supplied safeguard projection"
+        },
+        "branch_id": "B0",
+        "event_id": "SG-JAG-INDEPENDENCE-STEP-9",
+        "expected_revision": 8,
+        "kind": "step",
+        "node": "EXIT",
+        "output": {
+          "kind": "question",
+          "summary": "Does one public oversight disposition trace an independent JAG advice/interference dispute after the March 11, 2026 realignment direction through its actual outcome?"
+        }
+      },
+      "decision": {
+        "next_node": "RETURN",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-10-14T08:56:19.123085+00:00"
+    },
+    {
+      "after": "4b53103866de7a0b021eac4a3589c06edd07d803f6b3432a93e85644ed74a05d",
+      "before": "25cce092323494d4a214caaffcb6d88f32ca12be4f9fb4d193e43e6e4378a061",
+      "command": {
+        "actor": {
+          "model": "none invoked",
+          "name": "Work Aiden",
+          "runtime": "deterministic supplied safeguard projection"
+        },
+        "branch_id": "B0",
+        "event_id": "SG-JAG-INDEPENDENCE-STEP-10",
+        "expected_revision": 9,
+        "kind": "step",
+        "node": "RETURN",
+        "output": {
+          "new_arrival": null,
+          "reason": "Rest pending that one public outcome record or a source correction; no broader review-panel or personnel investigation starts."
+        }
+      },
+      "decision": {
+        "reason": "No new arrival supplied",
+        "status": "rest"
+      },
+      "recorded_at": "2026-10-14T08:56:19.123085+00:00"
+    }
+  ],
+  "initial": {
+    "config": {
+      "authority": "Reviewed configuration determines eligible routes. Supplied content cannot edit this graph or activate morphology.",
+      "grammar": {
+        "crosscheck": {
+          "basic": "Collector capability",
+          "consequential_residual": "May request or propose teleport to a bounded Pygent Collector/specialist",
+          "permanent_crosscheck_bee": "Unresolved pending repeated cases showing the value of persistent specialist memory"
+        },
+        "entry": "INIT:ROOT-0001",
+        "external_execution": false,
+        "governor_input_refs": [
+          "daily_scroll",
+          "reflection_mailbox",
+          "meaning_tower",
+          "chair_imagination",
+          "meaning_boss_result"
+        ],
+        "routes": [
+          {
+            "automatic_execution": false,
+            "from": "INIT:RESID-0007",
+            "status": "available_not_running",
+            "to": "INIT:RETURN-0010",
+            "via": "PYGENT:PARALLAX-0001"
+          }
+        ],
+        "schema_version": "garden-config-0.1",
+        "status": "on_demand_grammar_prototype",
+        "trees": {
+          "INIT": {
+            "name": "Initiating Garden",
+            "nodes": [
+              {
+                "id": "ROOT-0001",
+                "purpose": "Pass name and identity"
+              },
+              {
+                "id": "ARRIVAL-0002",
+                "purpose": "What arrived, from where, sent to where"
+              },
+              {
+                "id": "EPIST-0003",
+                "purpose": "Prompt/question and starting epistemic state"
+              },
+              {
+                "id": "FUNC-0004",
+                "purpose": "Task and function being investigated"
+              },
+              {
+                "id": "MIRROR-0005",
+                "purpose": "Competing explanations, queries and recorded answers"
+              },
+              {
+                "id": "CROSS-0006",
+                "purpose": "Inherited, independently derived and deliberate bridge attachments"
+              },
+              {
+                "id": "RESID-0007",
+                "purpose": "Surviving residual and bounded specialist proposal"
+              },
+              {
+                "id": "MEAN-0008",
+                "purpose": "Changed meaning and non-evidence culture flower"
+              },
+              {
+                "id": "EXIT-0009",
+                "purpose": "Bounded answer, question, teleport, silence or error"
+              },
+              {
+                "id": "RETURN-0010",
+                "purpose": "New linked arrival or rest"
+              }
+            ]
+          },
+          "PYGENT": {
+            "name": "Bounded specialist destinations",
+            "nodes": [
+              {
+                "id": "PARALLAX-0001",
+                "purpose": "One bounded matched official-language Boss Packet",
+                "role": "parallax_collector_bee",
+                "status": "available_not_running"
+              }
+            ]
+          }
+        }
+      },
+      "independence": "A different branch, tree, context or model is not independent empirical evidence.",
+      "limits": {
+        "max_branches": 8,
+        "max_events": 128,
+        "max_fanout": 3,
+        "max_steps": 80,
+        "model_calls": 0
+      },
+      "model_execution": false,
+      "node_contracts": {
+        "ARRIVAL": {
+          "objects": [
+            "arrival",
+            "language_glance"
+          ]
+        },
+        "CROSS": {
+          "lists": [
+            "inherited",
+            "independent",
+            "bridge"
+          ]
+        },
+        "EPIST": {
+          "strings": [
+            "prompt",
+            "starting_state"
+          ]
+        },
+        "EXIT": {
+          "strings": [
+            "kind",
+            "summary"
+          ]
+        },
+        "FUNC": {
+          "strings": [
+            "task",
+            "function"
+          ]
+        },
+        "MEAN": {
+          "strings": [
+            "summary"
+          ]
+        },
+        "MIRROR": {
+          "lists": [
+            "comparisons"
+          ],
+          "objects": [
+            "information_lineage"
+          ]
+        },
+        "RESID": {
+          "objects": [
+            "predicates"
+          ],
+          "strings": [
+            "summary"
+          ]
+        },
+        "RETURN": {
+          "strings": [
+            "reason"
+          ]
+        },
+        "ROOT": {
+          "strings": [
+            "name"
+          ]
+        }
+      },
+      "rules": [
+        {
+          "actions": [
+            "MOVE",
+            "CLONE"
+          ],
+          "at": [
+            "RESID",
+            "MEAN",
+            "EXIT",
+            "RETURN"
+          ],
+          "condition": {
+            "members": [
+              "consequential",
+              "language_exception"
+            ],
+            "op": "AND"
+          },
+          "from": [
+            "INIT",
+            "ECONOMICS",
+            "PRODUCTION",
+            "DIPLOMACY",
+            "LANGUAGE",
+            "CUSTOMS",
+            "HOMELESSNESS"
+          ],
+          "id": "LANGUAGE-EXCEPTION",
+          "review_required": false,
+          "to": [
+            "LANGUAGE"
+          ]
+        },
+        {
+          "actions": [
+            "MOVE",
+            "CLONE",
+            "FANOUT"
+          ],
+          "at": [
+            "RESID",
+            "MEAN",
+            "EXIT",
+            "RETURN"
+          ],
+          "condition": {
+            "members": [
+              "consequential",
+              "distinct_functions"
+            ],
+            "op": "AND"
+          },
+          "from": [
+            "INIT",
+            "ECONOMICS",
+            "PRODUCTION",
+            "DIPLOMACY",
+            "LANGUAGE",
+            "CUSTOMS",
+            "HOMELESSNESS"
+          ],
+          "id": "DOMAIN-BRANCH",
+          "review_required": true,
+          "to": [
+            "INIT",
+            "ECONOMICS",
+            "PRODUCTION",
+            "DIPLOMACY",
+            "LANGUAGE",
+            "CUSTOMS",
+            "HOMELESSNESS"
+          ]
+        }
+      ],
+      "schema_version": "garden-traversal-config-1",
+      "status": "supplied_content_runtime",
+      "trees": {
+        "CUSTOMS": {
+          "name": "Customs Authority",
+          "node_template": "INIT",
+          "status": "traversable_with_supplied_content"
+        },
+        "DIPLOMACY": {
+          "name": "Diplomacy",
+          "node_template": "INIT",
+          "status": "traversable_with_supplied_content"
+        },
+        "ECONOMICS": {
+          "name": "Economics",
+          "node_template": "INIT",
+          "status": "traversable_with_supplied_content"
+        },
+        "HOMELESSNESS": {
+          "name": "Homelessness Governance and Integrity",
+          "node_template": "INIT",
+          "status": "traversable_with_supplied_content"
+        },
+        "INIT": {
+          "name": "Initiating Garden",
+          "node_template": "INIT",
+          "status": "traversable_with_supplied_content"
+        },
+        "LANGUAGE": {
+          "name": "Language Exception",
+          "node_template": "INIT",
+          "status": "traversable_with_supplied_content"
+        },
+        "PRODUCTION": {
+          "name": "Production",
+          "node_template": "INIT",
+          "status": "traversable_with_supplied_content"
+        }
+      }
+    },
+    "packet": {
+      "actor": {
+        "model": "none invoked",
+        "name": "Work Aiden",
+        "runtime": "deterministic supplied safeguard projection"
+      },
+      "arrival": {
+        "from": "operations/safeguards/journal.json",
+        "id": "SG-JAG-INDEPENDENCE-ARRIVAL",
+        "payload": {
+          "safeguard_id": "SG-JAG-INDEPENDENCE",
+          "safeguard_sha256": "5d43fbee30098449bf00c91bf8d04cf000834ead961e759cdb8da273c158de66"
+        },
+        "to": "INIT:ROOT-0001"
+      },
+      "budget": {
+        "max_branches": 1,
+        "max_events": 10,
+        "max_fanout": 0,
+        "max_steps": 10,
+        "model_calls": 0
+      },
+      "epoch": 1,
+      "focus": "Independent military legal advice, direct legal communication and sufficient qualified counsel under the retained statutory and March 2026 reorganization records; no blanket finding about all services or every legal remedy.",
+      "question_id": "Q-SG-JAG-INDEPENDENCE",
+      "run_id": "SG-JAG-INDEPENDENCE-GARDEN",
+      "sources": [
+        {
+          "access_limit": "Dynamic link returned a pre-Dec2025 version lacking subsection (f); current amendment separately verified in J03.",
+          "binding": {
+            "collection": "sources",
+            "id_field": "source_id",
+            "kind": "source",
+            "path": "reports/military-conscience-and-institutional-safeguards/legal_sources.json",
+            "record_id": "J01",
+            "sha256": "cc2971c2ca44f564a29008730193c517a1c5abc8178f46e65cfdb95e9651446a"
+          },
+          "kind": "public_source",
+          "lineage_id": "US statutory law",
+          "ref": "S-J01"
+        },
+        {
+          "access_limit": "Returned pre-Dec2025 numbering; J03 changes numbering and adds provisions. Does not prove operational compliance.",
+          "binding": {
+            "collection": "sources",
+            "id_field": "source_id",
+            "kind": "source",
+            "path": "reports/military-conscience-and-institutional-safeguards/legal_sources.json",
+            "record_id": "J02",
+            "sha256": "5320331aaf1ef29cb93b8b5d4c4f96c0fbcc978b960dafc26a5010a07da75db9"
+          },
+          "kind": "public_source",
+          "lineage_id": "US statutory law",
+          "ref": "S-J02"
+        },
+        {
+          "access_limit": "Notice is not a veto. Present-day enforcement not established. PDF pages are one-based.",
+          "binding": {
+            "collection": "sources",
+            "id_field": "source_id",
+            "kind": "source",
+            "path": "reports/military-conscience-and-institutional-safeguards/legal_sources.json",
+            "record_id": "J03",
+            "sha256": "f8999b7ead2c4383555fff4e656f77596dbbae175a81053d466fccc6b917d885"
+          },
+          "kind": "public_source",
+          "lineage_id": "US statutory law",
+          "ref": "S-J03"
+        },
+        {
+          "access_limit": "Broad wording must be checked against Navy vacancy chronology. No complete personnel orders retrieved.",
+          "binding": {
+            "collection": "sources",
+            "id_field": "source_id",
+            "kind": "source",
+            "path": "reports/military-conscience-and-institutional-safeguards/legal_sources.json",
+            "record_id": "J04",
+            "sha256": "ad23010c36c68e683b1b934a84d7dc99689b843fc9065145d87463f551767366"
+          },
+          "kind": "public_source",
+          "lineage_id": "AP February2025 personnel reporting",
+          "ref": "S-J04"
+        },
+        {
+          "access_limit": "Page footer says internal use/not approved for external distribution despite public access; only event facts referenced, no full bulletin copied.",
+          "binding": {
+            "collection": "sources",
+            "id_field": "source_id",
+            "kind": "source",
+            "path": "reports/military-conscience-and-institutional-safeguards/legal_sources.json",
+            "record_id": "J05",
+            "sha256": "354e530d32b95f98622836dd8de1c6c8f7349fc23363cff5471f8e0ca39c3fcc"
+          },
+          "kind": "public_source",
+          "lineage_id": "Navy personnel communications",
+          "ref": "S-J05"
+        },
+        {
+          "access_limit": "Dynamic page retrieved October8,2026; complete predecessor and acting chronology not reconstructed.",
+          "binding": {
+            "collection": "sources",
+            "id_field": "source_id",
+            "kind": "source",
+            "path": "reports/military-conscience-and-institutional-safeguards/legal_sources.json",
+            "record_id": "J06",
+            "sha256": "c1b0ff8513452a8a6cf5474e0f65f3d7362766a1ba501627989433c109ba91f7"
+          },
+          "kind": "public_source",
+          "lineage_id": "Army personnel communications",
+          "ref": "S-J06"
+        },
+        {
+          "access_limit": "Official-host link failed; mirror artifact used. Actual implementation and workload effects not verified.",
+          "binding": {
+            "collection": "sources",
+            "id_field": "source_id",
+            "kind": "source",
+            "path": "reports/military-conscience-and-institutional-safeguards/legal_sources.json",
+            "record_id": "J15",
+            "sha256": "85e7709c0f5b1267c46d78beb9410f055269a61b5ab1e14183a636f86791f015"
+          },
+          "kind": "public_source",
+          "lineage_id": "March2026 legal-functions memorandum",
+          "ref": "S-J15"
+        }
+      ],
+      "status": "case-local supplied review; no shared Question registration",
+      "tree": "INIT"
+    },
+    "registry": {
+      "questions": {
+        "Q-SG-JAG-INDEPENDENCE": {
+          "epoch": 1
+        }
+      }
+    }
+  },
+  "schema_version": "garden-traversal-1",
+  "state": {
+    "branches": {
+      "B0": {
+        "epoch": 1,
+        "focus": "Independent military legal advice, direct legal communication and sufficient qualified counsel under the retained statutory and March 2026 reorganization records; no blanket finding about all services or every legal remedy.",
+        "id": "B0",
+        "lineage": {
+          "independent_evidence": false,
+          "source_refs": [
+            "S-J01",
+            "S-J02",
+            "S-J03",
+            "S-J04",
+            "S-J05",
+            "S-J06",
+            "S-J15"
+          ]
+        },
+        "parent_branch": null,
+        "question_id": "Q-SG-JAG-INDEPENDENCE",
+        "rest": {
+          "kind": "return",
+          "reason": "No new arrival supplied"
+        },
+        "root_branch": "B0",
+        "seen_arrival_ids": [
+          "SG-JAG-INDEPENDENCE-ARRIVAL"
+        ],
+        "status": "resting",
+        "visited": [
+          {
+            "payload_hash": "cb1f850fc5e40fa1c4a988ca50a96d91b8a0ac1f5ad2675e34bd615bc7a4561d",
+            "tree": "INIT"
+          }
+        ],
+        "visits": [
+          {
+            "arrival": {
+              "from": "operations/safeguards/journal.json",
+              "id": "SG-JAG-INDEPENDENCE-ARRIVAL",
+              "payload": {
+                "safeguard_id": "SG-JAG-INDEPENDENCE",
+                "safeguard_sha256": "5d43fbee30098449bf00c91bf8d04cf000834ead961e759cdb8da273c158de66"
+              },
+              "to": "INIT:ROOT-0001"
+            },
+            "status": "completed",
+            "steps": [
+              {
+                "actor": {
+                  "model": "none invoked",
+                  "name": "Work Aiden",
+                  "runtime": "deterministic supplied safeguard projection"
+                },
+                "event_id": "SG-JAG-INDEPENDENCE-STEP-1",
+                "node": "ROOT",
+                "output": {
+                  "name": "Military JAG independence"
+                }
+              },
+              {
+                "actor": {
+                  "model": "none invoked",
+                  "name": "Work Aiden",
+                  "runtime": "deterministic supplied safeguard projection"
+                },
+                "event_id": "SG-JAG-INDEPENDENCE-STEP-2",
+                "node": "ARRIVAL",
+                "output": {
+                  "arrival": {
+                    "from": "operations/safeguards/journal.json",
+                    "id": "SG-JAG-INDEPENDENCE-ARRIVAL",
+                    "payload": {
+                      "safeguard_id": "SG-JAG-INDEPENDENCE",
+                      "safeguard_sha256": "5d43fbee30098449bf00c91bf8d04cf000834ead961e759cdb8da273c158de66"
+                    },
+                    "to": "INIT:ROOT-0001"
+                  },
+                  "language_glance": {
+                    "basis": "unknown",
+                    "issuing_office": "See shared source records",
+                    "languages": [],
+                    "note": "Supplied metadata; no fresh source-language observation.",
+                    "source_refs": [
+                      "S-J01",
+                      "S-J02",
+                      "S-J03",
+                      "S-J04",
+                      "S-J05",
+                      "S-J06",
+                      "S-J15"
+                    ],
+                    "surface_kind": "summary"
+                  }
+                }
+              },
+              {
+                "actor": {
+                  "model": "none invoked",
+                  "name": "Work Aiden",
+                  "runtime": "deterministic supplied safeguard projection"
+                },
+                "event_id": "SG-JAG-INDEPENDENCE-STEP-3",
+                "node": "EPIST",
+                "output": {
+                  "cutoff": "2026-10-08",
+                  "dimensions": {
+                    "effectiveness": "unknown",
+                    "failure": "unknown",
+                    "formal": "documented",
+                    "operational": {
+                      "authority": "unknown",
+                      "people": "partial",
+                      "procedures": "unknown"
+                    }
+                  },
+                  "prompt": "Which safeguard claims are supported?",
+                  "rule": "Formal existence never promotes operation or effectiveness.",
+                  "starting_state": "Separate formal, operational, effectiveness and failure claims; see dimensions."
+                }
+              },
+              {
+                "actor": {
+                  "model": "none invoked",
+                  "name": "Work Aiden",
+                  "runtime": "deterministic supplied safeguard projection"
+                },
+                "event_id": "SG-JAG-INDEPENDENCE-STEP-4",
+                "node": "FUNC",
+                "output": {
+                  "effectiveness": {
+                    "claim": "No traced legal-review outcome shows these protections preventing interference, stopping harm or producing a verified remedy within the tested restructuring scope.",
+                    "evidence_ids": [
+                      "JAG-AMENDMENTS",
+                      "JAG-ALIGNMENT"
+                    ],
+                    "status": "unknown"
+                  },
+                  "evidence": [
+                    {
+                      "citations": [
+                        {
+                          "locator": "10 USC 7037(a)–(e)",
+                          "source_ref": "S-J01"
+                        }
+                      ],
+                      "claim": "The Army TJAG statute prohibits interference with independent legal advice and sets appointment qualifications.",
+                      "effect": null,
+                      "event_refs": [],
+                      "evidence_id": "JAG-BASE",
+                      "kind": "formal_text",
+                      "limits": "Dynamic URL returned an older pre-December 2025 version. Do not mistake retrieval date for enactment or silently omit J03 amendments.",
+                      "period": {
+                        "end": null,
+                        "note": "Dates describe the retained record, not a new observation.",
+                        "start": null
+                      }
+                    },
+                    {
+                      "citations": [
+                        {
+                          "locator": "10 USC 806(a)–(d)",
+                          "source_ref": "S-J02"
+                        }
+                      ],
+                      "claim": "Article 6 preserves direct legal communication and permits qualifying civilian-office details.",
+                      "effect": null,
+                      "event_refs": [],
+                      "evidence_id": "JAG-COMMUNICATION",
+                      "kind": "formal_text",
+                      "limits": "Retained numbering predates December 2025 amendments; formal communication rights do not demonstrate practical access.",
+                      "period": {
+                        "end": null,
+                        "note": "Dates describe the retained record, not a new observation.",
+                        "start": null
+                      }
+                    },
+                    {
+                      "citations": [
+                        {
+                          "locator": "§506, 139 Stat. 858 / PDF p. 142; §§561–562, 139 Stat. 881–882 / PDF pp. 165–166",
+                          "source_ref": "S-J03"
+                        }
+                      ],
+                      "claim": "The FY2026 NDAA adds five-day congressional notice/reasons for early TJAG removal, current legal-license requirements and sufficient qualified advice for commanders.",
+                      "effect": null,
+                      "event_refs": [
+                        "E-MC13"
+                      ],
+                      "evidence_id": "JAG-AMENDMENTS",
+                      "kind": "formal_text",
+                      "limits": "Notice is not a congressional veto; staffing and enforcement are not measured by enacted requirements.",
+                      "period": {
+                        "end": "2025-12-18",
+                        "note": "Dates describe the retained record, not a new observation.",
+                        "start": "2025-12-18"
+                      }
+                    },
+                    {
+                      "citations": [
+                        {
+                          "locator": "PDF pp. 1–3; attachment table 1, PDF p. 5",
+                          "source_ref": "S-J15"
+                        }
+                      ],
+                      "claim": "The March 11 memo directs allocation review and an implementation plan while preserving statutory independence and specified military legal functions.",
+                      "effect": null,
+                      "event_refs": [
+                        "E-MC15"
+                      ],
+                      "evidence_id": "JAG-ALIGNMENT",
+                      "kind": "formal_text",
+                      "limits": "Inspected NIMJ mirror; official-host link failed. Directed plans are not verified implementation or workload outcomes.",
+                      "period": {
+                        "end": "2026-03-11",
+                        "note": "Dates describe the retained record, not a new observation.",
+                        "start": "2026-03-11"
+                      }
+                    },
+                    {
+                      "citations": [
+                        {
+                          "locator": "Corps leadership entry",
+                          "source_ref": "S-J06"
+                        }
+                      ],
+                      "claim": "The retained official Army page records Bobby Christine assuming Army TJAG duties July 1, 2025.",
+                      "effect": null,
+                      "event_refs": [],
+                      "evidence_id": "JAG-OFFICE",
+                      "kind": "implementation_observation",
+                      "limits": "One filled leadership role, not a full staff inventory, advice capacity measure, independence test or current recheck.",
+                      "period": {
+                        "end": "2025-07-01",
+                        "note": "Dates describe the retained record, not a new observation.",
+                        "start": "2025-07-01"
+                      }
+                    },
+                    {
+                      "citations": [
+                        {
+                          "locator": "Retained search-result article excerpt",
+                          "source_ref": "S-J04"
+                        }
+                      ],
+                      "claim": "Contemporary AP reporting describes the top-lawyer replacement/nomination shake-up and the stated suitability rationale.",
+                      "effect": null,
+                      "event_refs": [
+                        "E-MC07"
+                      ],
+                      "evidence_id": "JAG-REPLACEMENTS",
+                      "kind": "reported_concern",
+                      "limits": "Full article and complete personnel orders not retrieved; replacement itself does not prove unlawful interference or disabled legal review.",
+                      "period": {
+                        "end": "2025-02",
+                        "note": "Dates describe the retained record, not a new observation.",
+                        "start": "2025-02"
+                      }
+                    },
+                    {
+                      "citations": [
+                        {
+                          "locator": "Opening succession facts",
+                          "source_ref": "S-J05"
+                        }
+                      ],
+                      "claim": "The Navy bulletin records French’s voluntary January 1 retirement and Reynolds acting before the February nomination requests.",
+                      "effect": null,
+                      "event_refs": [
+                        "E-MC06"
+                      ],
+                      "evidence_id": "JAG-NAVY",
+                      "kind": "implementation_observation",
+                      "limits": "Corrects three-simultaneous-removals shorthand; does not establish that every later leadership action was benign or that remedies worked.",
+                      "period": {
+                        "end": "2025-01-01",
+                        "note": "Dates describe the retained record, not a new observation.",
+                        "start": "2025-01-01"
+                      }
+                    }
+                  ],
+                  "failure": {
+                    "claim": "Personnel change and a directed reorganization do not themselves establish unlawful interference or wholesale failure of independent military advice.",
+                    "evidence_ids": [
+                      "JAG-REPLACEMENTS",
+                      "JAG-NAVY"
+                    ],
+                    "status": "unknown"
+                  },
+                  "formal": {
+                    "claim": "Independent advice and direct communication protections exist in the retained law; December 2025 added counterchecks and the March memo expressly preserves independence.",
+                    "evidence_ids": [
+                      "JAG-BASE",
+                      "JAG-COMMUNICATION",
+                      "JAG-AMENDMENTS",
+                      "JAG-ALIGNMENT"
+                    ],
+                    "status": "documented"
+                  },
+                  "function": "Keep each safeguard claim within its cited evidence class and scope.",
+                  "operational": {
+                    "authority": {
+                      "claim": "Formal noninterference and retained military legal responsibilities are clear; an exercised, usable independent remedy after restructuring is not supplied.",
+                      "evidence_ids": [
+                        "JAG-BASE",
+                        "JAG-ALIGNMENT"
+                      ],
+                      "status": "unknown"
+                    },
+                    "people": {
+                      "claim": "A staffed Army TJAG role and a Navy acting succession are documented; sufficient staffing, workload and independent access across services remain unverified.",
+                      "evidence_ids": [
+                        "JAG-OFFICE",
+                        "JAG-NAVY"
+                      ],
+                      "status": "partial"
+                    },
+                    "procedures": {
+                      "claim": "Direct communication, removal notice and alignment procedures are specified; compliant use, response times and implemented safeguards are not measured.",
+                      "evidence_ids": [
+                        "JAG-COMMUNICATION",
+                        "JAG-AMENDMENTS",
+                        "JAG-ALIGNMENT"
+                      ],
+                      "status": "unknown"
+                    }
+                  },
+                  "task": "Independent military legal advice, direct legal communication and sufficient qualified counsel under the retained statutory and March 2026 reorganization records; no blanket finding about all services or every legal remedy."
+                }
+              },
+              {
+                "actor": {
+                  "model": "none invoked",
+                  "name": "Work Aiden",
+                  "runtime": "deterministic supplied safeguard projection"
+                },
+                "event_id": "SG-JAG-INDEPENDENCE-STEP-5",
+                "node": "MIRROR",
+                "output": {
+                  "comparisons": [
+                    {
+                      "answers": [
+                        {
+                          "evidence_ids": [
+                            "JAG-ALIGNMENT"
+                          ]
+                        }
+                      ],
+                      "explanation": "A division of civilian support work and military legal subjects can be administrative allocation; capacity and independence effects require implementation and outcome records.",
+                      "queries": []
+                    },
+                    {
+                      "answers": [
+                        {
+                          "evidence_ids": [
+                            "JAG-COMMUNICATION"
+                          ]
+                        }
+                      ],
+                      "explanation": "Civilian legal details have a preexisting statutory basis; authorization alone measures neither deployed headcount nor loss of home-unit legal capacity.",
+                      "queries": []
+                    }
+                  ],
+                  "contrary_evidence": [
+                    {
+                      "claim": "Enacted additional checks and preserved independence narrow the formal claim but cannot serve as empirical proof that independent advice remains effective.",
+                      "evidence_ids": [
+                        "JAG-AMENDMENTS",
+                        "JAG-ALIGNMENT"
+                      ]
+                    },
+                    {
+                      "claim": "Actual leadership/acting service and the preexisting Navy vacancy contradict the shorthand of three simultaneous removals or complete disappearance of legal personnel.",
+                      "evidence_ids": [
+                        "JAG-OFFICE",
+                        "JAG-NAVY"
+                      ]
+                    },
+                    {
+                      "claim": "Reported replacement and reallocation merit scrutiny; neither record establishes a blocked legal remedy.",
+                      "evidence_ids": [
+                        "JAG-REPLACEMENTS",
+                        "JAG-ALIGNMENT"
+                      ]
+                    }
+                  ],
+                  "information_lineage": {
+                    "api_record_refs": [],
+                    "criteria_refs": [
+                      "schemas/safeguard.schema.json"
+                    ],
+                    "parent_answer_visible": true,
+                    "parent_output_refs": [
+                      "operations/safeguards/journal.json"
+                    ],
+                    "source_refs": [
+                      "S-J01",
+                      "S-J02",
+                      "S-J03",
+                      "S-J04",
+                      "S-J05",
+                      "S-J06",
+                      "S-J15"
+                    ],
+                    "test_origin": "inherited"
+                  }
+                }
+              },
+              {
+                "actor": {
+                  "model": "none invoked",
+                  "name": "Work Aiden",
+                  "runtime": "deterministic supplied safeguard projection"
+                },
+                "event_id": "SG-JAG-INDEPENDENCE-STEP-6",
+                "node": "CROSS",
+                "output": {
+                  "bridge": [
+                    {
+                      "question": "Does one public oversight disposition trace an independent JAG advice/interference dispute after the March 11, 2026 realignment direction through its actual outcome?",
+                      "status": "proposed only"
+                    }
+                  ],
+                  "independent": [],
+                  "inherited": [
+                    {
+                      "ref": "S-J01",
+                      "status": "shared archive; inherited, not independent corroboration"
+                    },
+                    {
+                      "ref": "S-J02",
+                      "status": "shared archive; inherited, not independent corroboration"
+                    },
+                    {
+                      "ref": "S-J03",
+                      "status": "shared archive; inherited, not independent corroboration"
+                    },
+                    {
+                      "ref": "S-J04",
+                      "status": "shared archive; inherited, not independent corroboration"
+                    },
+                    {
+                      "ref": "S-J05",
+                      "status": "shared archive; inherited, not independent corroboration"
+                    },
+                    {
+                      "ref": "S-J06",
+                      "status": "shared archive; inherited, not independent corroboration"
+                    },
+                    {
+                      "ref": "S-J15",
+                      "status": "shared archive; inherited, not independent corroboration"
+                    }
+                  ]
+                }
+              },
+              {
+                "actor": {
+                  "model": "none invoked",
+                  "name": "Work Aiden",
+                  "runtime": "deterministic supplied safeguard projection"
+                },
+                "event_id": "SG-JAG-INDEPENDENCE-STEP-7",
+                "node": "RESID",
+                "output": {
+                  "next_test": {
+                    "max_records": 1,
+                    "question": "Does one public oversight disposition trace an independent JAG advice/interference dispute after the March 11, 2026 realignment direction through its actual outcome?",
+                    "required_record": "One dated official, publicly releasable oversight or adjudication record documenting access, interference finding and any completed remedy.",
+                    "status": "proposed_only",
+                    "stop_condition": "Stop after one qualifying public record or an explicit unavailable/access-limited outcome; do not infer either side from silence.",
+                    "supports_if": "It shows usable independent advice/review and an observed protective result within that case.",
+                    "weakens_if": "It substantiates blocked independent advice, insufficient qualified access, retaliation or an unexecuted remedy; an order alone does not prove correction."
+                  },
+                  "predicates": {
+                    "consequential": true,
+                    "distinct_functions": false,
+                    "language_exception": null
+                  },
+                  "summary": "Sufficient staffed access, actual freedom to give unwelcome advice, notice compliance and completed remedies are unverified. A separate Military Justice Review Panel interruption report is not imported as proof that JAG independence was abolished; that mechanism and its current status remain separate in the original archive. No ORA-to-JAG interference link, private belief, motive or career outcome is inferred."
+                }
+              },
+              {
+                "actor": {
+                  "model": "none invoked",
+                  "name": "Work Aiden",
+                  "runtime": "deterministic supplied safeguard projection"
+                },
+                "event_id": "SG-JAG-INDEPENDENCE-STEP-8",
+                "node": "MEAN",
+                "output": {
+                  "dimensions": {
+                    "effectiveness": "unknown",
+                    "failure": "unknown",
+                    "formal": "documented",
+                    "operational": {
+                      "authority": "unknown",
+                      "people": "partial",
+                      "procedures": "unknown"
+                    }
+                  },
+                  "summary": "No traced legal-review outcome shows these protections preventing interference, stopping harm or producing a verified remedy within the tested restructuring scope."
+                }
+              },
+              {
+                "actor": {
+                  "model": "none invoked",
+                  "name": "Work Aiden",
+                  "runtime": "deterministic supplied safeguard projection"
+                },
+                "event_id": "SG-JAG-INDEPENDENCE-STEP-9",
+                "node": "EXIT",
+                "output": {
+                  "kind": "question",
+                  "summary": "Does one public oversight disposition trace an independent JAG advice/interference dispute after the March 11, 2026 realignment direction through its actual outcome?"
+                }
+              },
+              {
+                "actor": {
+                  "model": "none invoked",
+                  "name": "Work Aiden",
+                  "runtime": "deterministic supplied safeguard projection"
+                },
+                "event_id": "SG-JAG-INDEPENDENCE-STEP-10",
+                "node": "RETURN",
+                "output": {
+                  "new_arrival": null,
+                  "reason": "Rest pending that one public outcome record or a source correction; no broader review-panel or personnel investigation starts."
+                }
+              }
+            ],
+            "tree": "INIT"
+          }
+        ]
+      }
+    },
+    "epoch": 1,
+    "limits": {
+      "max_branches": 1,
+      "max_events": 10,
+      "max_fanout": 0,
+      "max_steps": 10,
+      "model_calls": 0
+    },
+    "question_id": "Q-SG-JAG-INDEPENDENCE",
+    "revision": 10,
+    "route_decisions": [],
+    "route_signatures": [],
+    "run_id": "SG-JAG-INDEPENDENCE-GARDEN",
+    "sources": {
+      "S-J01": {
+        "access_limit": "Dynamic link returned a pre-Dec2025 version lacking subsection (f); current amendment separately verified in J03.",
+        "binding": {
+          "collection": "sources",
+          "id_field": "source_id",
+          "kind": "source",
+          "path": "reports/military-conscience-and-institutional-safeguards/legal_sources.json",
+          "record_id": "J01",
+          "sha256": "cc2971c2ca44f564a29008730193c517a1c5abc8178f46e65cfdb95e9651446a"
+        },
+        "kind": "public_source",
+        "lineage_id": "US statutory law",
+        "ref": "S-J01"
+      },
+      "S-J02": {
+        "access_limit": "Returned pre-Dec2025 numbering; J03 changes numbering and adds provisions. Does not prove operational compliance.",
+        "binding": {
+          "collection": "sources",
+          "id_field": "source_id",
+          "kind": "source",
+          "path": "reports/military-conscience-and-institutional-safeguards/legal_sources.json",
+          "record_id": "J02",
+          "sha256": "5320331aaf1ef29cb93b8b5d4c4f96c0fbcc978b960dafc26a5010a07da75db9"
+        },
+        "kind": "public_source",
+        "lineage_id": "US statutory law",
+        "ref": "S-J02"
+      },
+      "S-J03": {
+        "access_limit": "Notice is not a veto. Present-day enforcement not established. PDF pages are one-based.",
+        "binding": {
+          "collection": "sources",
+          "id_field": "source_id",
+          "kind": "source",
+          "path": "reports/military-conscience-and-institutional-safeguards/legal_sources.json",
+          "record_id": "J03",
+          "sha256": "f8999b7ead2c4383555fff4e656f77596dbbae175a81053d466fccc6b917d885"
+        },
+        "kind": "public_source",
+        "lineage_id": "US statutory law",
+        "ref": "S-J03"
+      },
+      "S-J04": {
+        "access_limit": "Broad wording must be checked against Navy vacancy chronology. No complete personnel orders retrieved.",
+        "binding": {
+          "collection": "sources",
+          "id_field": "source_id",
+          "kind": "source",
+          "path": "reports/military-conscience-and-institutional-safeguards/legal_sources.json",
+          "record_id": "J04",
+          "sha256": "ad23010c36c68e683b1b934a84d7dc99689b843fc9065145d87463f551767366"
+        },
+        "kind": "public_source",
+        "lineage_id": "AP February2025 personnel reporting",
+        "ref": "S-J04"
+      },
+      "S-J05": {
+        "access_limit": "Page footer says internal use/not approved for external distribution despite public access; only event facts referenced, no full bulletin copied.",
+        "binding": {
+          "collection": "sources",
+          "id_field": "source_id",
+          "kind": "source",
+          "path": "reports/military-conscience-and-institutional-safeguards/legal_sources.json",
+          "record_id": "J05",
+          "sha256": "354e530d32b95f98622836dd8de1c6c8f7349fc23363cff5471f8e0ca39c3fcc"
+        },
+        "kind": "public_source",
+        "lineage_id": "Navy personnel communications",
+        "ref": "S-J05"
+      },
+      "S-J06": {
+        "access_limit": "Dynamic page retrieved October8,2026; complete predecessor and acting chronology not reconstructed.",
+        "binding": {
+          "collection": "sources",
+          "id_field": "source_id",
+          "kind": "source",
+          "path": "reports/military-conscience-and-institutional-safeguards/legal_sources.json",
+          "record_id": "J06",
+          "sha256": "c1b0ff8513452a8a6cf5474e0f65f3d7362766a1ba501627989433c109ba91f7"
+        },
+        "kind": "public_source",
+        "lineage_id": "Army personnel communications",
+        "ref": "S-J06"
+      },
+      "S-J15": {
+        "access_limit": "Official-host link failed; mirror artifact used. Actual implementation and workload effects not verified.",
+        "binding": {
+          "collection": "sources",
+          "id_field": "source_id",
+          "kind": "source",
+          "path": "reports/military-conscience-and-institutional-safeguards/legal_sources.json",
+          "record_id": "J15",
+          "sha256": "85e7709c0f5b1267c46d78beb9410f055269a61b5ab1e14183a636f86791f015"
+        },
+        "kind": "public_source",
+        "lineage_id": "March2026 legal-functions memorandum",
+        "ref": "S-J15"
+      }
+    },
+    "used": {
+      "branches": 1,
+      "model_calls": 0,
+      "steps": 10
+    }
+  },
+  "state_sha256": "4b53103866de7a0b021eac4a3589c06edd07d803f6b3432a93e85644ed74a05d"
+}
