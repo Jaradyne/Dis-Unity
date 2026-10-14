@@ -1,0 +1,7 @@
+{
+  "source_sha256": "b1565a693063fb58b953ce42e5c2e872760df90c4140289ca22fd7c782a37d99",
+  "started_at": "2026-10-14T17:45:11.164423+00:00",
+  "limit": 1,
+  "authorization": "Jared approved the combined one-case task and one live official-source retrieval on 2026-10-14; no retries or fallback.",
+  "meaning": "One attempt consumed; interruption does not permit retry."
+}

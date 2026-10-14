@@ -1,0 +1,30 @@
+{
+  "reviewer": "camp_review",
+  "reviewed_at": "2026-10-14T17:55:09.026131+00:00",
+  "status": "accepted_with_limits",
+  "findings": [
+    {
+      "id": "EA-R1",
+      "severity": "medium",
+      "issue": "Live lane is not bound to capture fixed receipt path, run/record identity or attempt time. Raw-form synthetic receipt outside capture path can bypass envelope-only simulation rejection.",
+      "status": "fixed_and_verified"
+    }
+  ],
+  "checks": [
+    "12 evidence-arrival tests pass.",
+    "15 safeguard tests pass.",
+    "14 focused evidence-arrival tests pass after live path/identity/time binding and offline staging fixes.",
+    "Exact generated evidence-arrival check passes.",
+    "Live source item_id and lineage_id equality enforced.",
+    "Contract and handoffs preserve manual one-shot authorization, unverified publisher automation terms, simulation distinction and UNKNOWN TB result.",
+    "FOIA draft remains unsent and narrow; no-records outcome explicitly distinguished from no corrective work."
+  ],
+  "limits": [
+    "Offline review only; no requests or capture performed.",
+    "Evidence review file remains unchanged.",
+    "Hashes and fixed capture provenance guard consistency, not malicious wholesale rewrite or external authenticity.",
+    "Reviewer did not independently run coordinator broader full-suite checks.",
+    "Evidence labels, interpretation and adequacy of protective results remain review judgments."
+  ],
+  "conclusion": "Bounded independent review accepts implementation and final contract/handoffs/unsent draft after EA-R1 fix."
+}

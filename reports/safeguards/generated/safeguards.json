@@ -75,11 +75,30 @@
       "revision": 2,
       "safeguard_id": "SG-CEM-INSPECTIONS",
       "sequence": 4
+    },
+    {
+      "actor": "Work Aiden",
+      "dimensions": {
+        "effectiveness": "unknown",
+        "failure": "documented",
+        "formal": "documented",
+        "operational": {
+          "authority": "partial",
+          "people": "partial",
+          "procedures": "partial"
+        }
+      },
+      "entry_sha256": "f1c62844fd2106a035eee24d338f4c8f33207626744f9b4719437be3052a39e9",
+      "reason": "Reviewed full new HTTP receipt with camp_review: append recommendation-status observation, preserve all prior evidence and contrary assessments, retain documented historical failure and UNKNOWN effectiveness. One official-page test cannot establish absence of records elsewhere.",
+      "recorded_at": "2026-10-14T17:49:43.759065+00:00",
+      "revision": 3,
+      "safeguard_id": "SG-CEM-INSPECTIONS",
+      "sequence": 5
     }
   ],
-  "journal_sha256": "e3bdaa884e927f3352c3a7fea47c507e53287c81907cb0427cda8399e18935ba",
+  "journal_sha256": "9bce8dcb7b2142669ee128f2e9ec80a79a9b4e5714e3f0552931857813b28c03",
   "revisions": {
-    "SG-CEM-INSPECTIONS": 2,
+    "SG-CEM-INSPECTIONS": 3,
     "SG-JAG-INDEPENDENCE": 1,
     "SG-ORA-CONSCIENCE": 1
   },
@@ -106,13 +125,21 @@
             "CEM-OPEN-STATUS",
             "CEM-ACTIONS"
           ]
+        },
+        {
+          "claim": "Agency responses and Army planning documentation contradict an inference of complete inactivity, but do not verify implementation or protective outcomes. Future end2026 milestones are not overdue at retrieval.",
+          "evidence_ids": [
+            "CEM-LIVE-STATUS-20261014",
+            "CEM-ACTIONS"
+          ]
         }
       ],
       "effectiveness": {
-        "claim": "The record does not verify prevention or effective correction of the named inspection/safety failures. Detection and vendor change are not a completed remedy.",
+        "claim": "Effectiveness remains unknown after the one-page October 14 TB recheck. The page documents recommendation status and planning, not sampled TB intake testing/notification compliance or a completed protective result.",
         "evidence_ids": [
           "CEM-INSPECTION",
-          "CEM-ACTIONS"
+          "CEM-ACTIONS",
+          "CEM-LIVE-STATUS-20261014"
         ],
         "status": "unknown"
       },
@@ -293,9 +320,28 @@
             "note": "Dates describe the retained record, not a new observation.",
             "start": "2026-10-12"
           }
+        },
+        {
+          "citations": [
+            {
+              "locator": "Recommendations for Executive Action, recommendations 1–4; full page reviewed for the saved TB Question.",
+              "source_ref": "S-CEM-ARRIVAL-20261014"
+            }
+          ],
+          "claim": "The October 14 full received GAO product page displays four Open recommendations. It retains May agency responses and August Army planned milestones. No requirement-specific post-April 18 TB medical reinspection or verified corrective result is supplied on this page.",
+          "effect": null,
+          "event_refs": [],
+          "evidence_id": "CEM-LIVE-STATUS-20261014",
+          "kind": "recommendation_status",
+          "limits": "One public page only; not a search of every public repository. No conclusion that correction did not occur. Same GAO lineage; older paraphrase cannot establish byte-level unchangedness. No protective result inferred from status, rating or contractor change.",
+          "period": {
+            "end": "2026-10-14",
+            "note": "Retrieval/status-observation date, not a new audit or the date of underlying agency actions.",
+            "start": "2026-10-14"
+          }
         }
       ],
-      "evidence_cutoff": "2026-10-12",
+      "evidence_cutoff": "2026-10-14",
       "failure": {
         "claim": "The inspection gate failed at the August 16, 2025 opening; additional dated noncompliance is documented. Later operation does not erase this historical finding.",
         "evidence_ids": [
@@ -314,7 +360,7 @@
       "next_test": {
         "max_records": 1,
         "question": "Does one dated official post-April 18, 2026 medical reinspection/closure record verify the TB intake-testing and notification corrections?",
-        "required_record": "The same one-record TB follow-up proposed in the preserved Camp case; public official findings tied to the named requirements.",
+        "required_record": "One final post-April 18 medical reinspection or TB deficiency verification record, proposed in the unsent FOIA draft for Jared review. Original historical Question stays unchanged; the one-page attempt was insufficient.",
         "status": "proposed_only",
         "stop_condition": "Stop after one qualifying public record or an explicit unavailable/access-limited outcome; do not infer either side from silence.",
         "supports_if": "It records completed testing/notification changes and verifies that they satisfied the requirements in the inspected scope.",
@@ -357,9 +403,10 @@
         "A later inspection cannot retroactively satisfy a pre-occupancy gate.",
         "Effective medical/safety correction after transition remains unverified. Preserve the existing case’s one bounded TB follow-up rather than creating another collection queue.",
         "Pricing nonimplementation documented elsewhere as of August is a separate outcome, not proof of inspection or medical correction.",
-        "The retained October 12 status observation adds no item-level medical or safety closure record; effectiveness remains unknown and the historical opening failure remains documented."
+        "The retained October 12 status observation adds no item-level medical or safety closure record; effectiveness remains unknown and the historical opening failure remains documented.",
+        "Q-CEM-TB-CORRECTION received one authorized official-page test on October 14: insufficient evidence on that surface. An unsent FOIA draft is prepared for Jared; no additional collection is authorized by this revision."
       ],
-      "rest_until": "Rest with the existing Camp TB Question proposed only; no duplicate Question registration or collection.",
+      "rest_until": "One-source test exhausted. Rest pending Jared review of the unsent narrow FOIA draft or separately supplied qualifying public record; no autonomous follow-up.",
       "safeguard_id": "SG-CEM-INSPECTIONS",
       "scope": "The pre-occupancy inspection gate at the August 2025 opening and later evidence of inspection activity and remedy at Camp East Montana; later activity cannot repair the historical fact of uninspected opening.",
       "title": "Camp East Montana inspection requirements"

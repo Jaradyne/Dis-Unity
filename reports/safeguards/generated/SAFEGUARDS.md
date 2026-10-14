@@ -12,13 +12,13 @@ Separate supplied claims, not a protection score. Formal text and agency promise
 
 The pre-occupancy inspection gate at the August 2025 opening and later evidence of inspection activity and remedy at Camp East Montana; later activity cannot repair the historical fact of uninspected opening.
 
-Evidence cutoff: 2026-10-12. Assessment revision: 2.
+Evidence cutoff: 2026-10-14. Assessment revision: 3.
 
 - **Formal — documented:** Pre-occupancy inspection and detention-standard requirements existed. [CEM-POLICY]
 - **Authority — partial:** ICE had oversight responsibilities and exercised inspection functions, but GAO found no effective occupancy-prevention control. Usable stop authority was not demonstrated at opening. [CEM-INSPECTION, CEM-OPENING]
 - **People — partial:** Inspectors and oversight personnel demonstrably acted after occupancy; pre-opening staffing/readiness was not established. [CEM-INSPECTION]
 - **Procedures — partial:** Later inspections and discrepancy reporting operated, while the required opening procedure was skipped. [CEM-INSPECTION, CEM-OPENING]
-- **Observed effectiveness — unknown:** The record does not verify prevention or effective correction of the named inspection/safety failures. Detection and vendor change are not a completed remedy. [CEM-INSPECTION, CEM-ACTIONS]
+- **Observed effectiveness — unknown:** Effectiveness remains unknown after the one-page October 14 TB recheck. The page documents recommendation status and planning, not sampled TB intake testing/notification compliance or a completed protective result. [CEM-INSPECTION, CEM-ACTIONS, CEM-LIVE-STATUS-20261014]
 - **Failure — documented:** The inspection gate failed at the August 16, 2025 opening; additional dated noncompliance is documented. Later operation does not erase this historical finding. [CEM-OPENING, CEM-DEFICIENCIES]
 
 **Contrary evidence and formal constraints:**
@@ -26,6 +26,7 @@ Evidence cutoff: 2026-10-12. Assessment revision: 2.
 - Real later inspections, discrepancy reports, a partial recreation improvement and a contractor change contradict a blanket assertion that nothing was done. They do not establish effective correction. [CEM-INSPECTION, CEM-ACTIONS; implementation_observation]
 - DHS sought closure based on existing policy, and Defense disputed the audit framing; both responses are retained with GAO’s disagreement. [CEM-DHS, CEM-DEFENSE; agency_response]
 - Open recommendation status tracks GAO follow-up, not the absence of all corrective activity. It neither erases observed steps nor verifies an effective occupancy gate. [CEM-OPEN-STATUS, CEM-ACTIONS; implementation_observation, recommendation_status]
+- Agency responses and Army planning documentation contradict an inference of complete inactivity, but do not verify implementation or protective outcomes. Future end2026 milestones are not overdue at retrieval. [CEM-LIVE-STATUS-20261014, CEM-ACTIONS; implementation_observation, recommendation_status]
 
 **Ordinary explanations:**
 
@@ -57,6 +58,9 @@ Evidence cutoff: 2026-10-12. Assessment revision: 2.
 - **CEM-OPEN-STATUS · recommendation_status** · 2026-10-12 → 2026-10-12: The October 12 retained GAO product-page recheck marks the inspection-control recommendation Open and preserves DHS’s reliance on existing policy and GAO’s disagreement.
   Dates describe the retained record, not a new observation. Paraphrased page observation, not a new HTTP capture or independent source. Open is not proof that no corrective work occurred; closure would not be a full safety certification.
   Sources: [C01-STATUS-20261012](../../../examples/garden-case-studies/camp-east-montana/status-recheck.json) · recommendation 2 and interpretation.
+- **CEM-LIVE-STATUS-20261014 · recommendation_status** · 2026-10-14 → 2026-10-14: The October 14 full received GAO product page displays four Open recommendations. It retains May agency responses and August Army planned milestones. No requirement-specific post-April 18 TB medical reinspection or verified corrective result is supplied on this page.
+  Retrieval/status-observation date, not a new audit or the date of underlying agency actions. One public page only; not a search of every public repository. No conclusion that correction did not occur. Same GAO lineage; older paraphrase cannot establish byte-level unchangedness. No protective result inferred from status, rating or contractor change.
+  Sources: [C01-STATUS-20261014](../../../examples/evidence-arrival/camp-east-montana/assessment-source.json) · Recommendations for Executive Action, recommendations 1–4; full page reviewed for the saved TB Question..
 
 **Unknowns and limits:**
 
@@ -64,15 +68,16 @@ Evidence cutoff: 2026-10-12. Assessment revision: 2.
 - Effective medical/safety correction after transition remains unverified. Preserve the existing case’s one bounded TB follow-up rather than creating another collection queue.
 - Pricing nonimplementation documented elsewhere as of August is a separate outcome, not proof of inspection or medical correction.
 - The retained October 12 status observation adds no item-level medical or safety closure record; effectiveness remains unknown and the historical opening failure remains documented.
+- Q-CEM-TB-CORRECTION received one authorized official-page test on October 14: insufficient evidence on that surface. An unsent FOIA draft is prepared for Jared; no additional collection is authorized by this revision.
 
 **One proposed next test:** Does one dated official post-April 18, 2026 medical reinspection/closure record verify the TB intake-testing and notification corrections?
 
-Required record: The same one-record TB follow-up proposed in the preserved Camp case; public official findings tied to the named requirements.
+Required record: One final post-April 18 medical reinspection or TB deficiency verification record, proposed in the unsent FOIA draft for Jared review. Original historical Question stays unchanged; the one-page attempt was insufficient.
 Supports: It records completed testing/notification changes and verifies that they satisfied the requirements in the inspected scope.
 Weakens: It records persistent deficiencies, incomplete fixes or only promises/overall ratings; absence of a record leaves correction unknown.
 Stop: Stop after one qualifying public record or an explicit unavailable/access-limited outcome; do not infer either side from silence.
 
-**Rest:** Rest with the existing Camp TB Question proposed only; no duplicate Question registration or collection.
+**Rest:** One-source test exhausted. Rest pending Jared review of the unsent narrow FOIA draft or separately supplied qualifying public record; no autonomous follow-up.
 
 **Shared event dates and qualifications:**
 
@@ -210,6 +215,8 @@ Stop: Stop after one qualifying public record or an explicit unavailable/access-
 
 ## Source lineage and access
 
+- [C01-STATUS-20261014](../../../examples/evidence-arrival/camp-east-montana/assessment-source.json) (S-CEM-ARRIVAL-20261014): GAO ICE detention expansion2025–2026. Publication 2026-06-09; catalog retrieval unknown; snapshot observation 2026-10-14.
+  Full HTTP 200 response saved before parsing, 95569 received bytes; one public page only.. One GAO page, same source family; no dated TB corrective verification found here, no conclusion about other public records or actual correction. HTTP Last-Modified is transport metadata, not the correction/event date. Open status is not no work.
 - [C01-STATUS-20261012](../../../examples/garden-case-studies/camp-east-montana/status-recheck.json) (S-CEM-STATUS): GAO ICE detention expansion2025–2026. Publication 2026-06-09; catalog retrieval unknown; snapshot observation 2026-10-12.
   Official product page reopened with built-in web tool; normalized text only, not a retained raw HTTP response. This file is a paraphrased observation.. Open is GAO recommendation status, not proof that no corrective work occurred; recommendation closure is also not a complete facility-safety certification.
 - [C01](../../../reports/military-conscience-and-institutional-safeguards/ice_capacity_sources.json) (S-GAO-CEM): GAO ICE detention expansion2025–2026. Publication 2026-06-09; catalog retrieval 2026-10-11; snapshot observation unknown.
@@ -239,3 +246,4 @@ Stop: Stop after one qualifying public record or an explicit unavailable/access-
 - 2026-10-14T08:56:19.122822+00:00 · Work Aiden · SG-CEM-INSPECTIONS revision 1: Reconstruct the June GAO inspection finding and agency responses from the preserved Camp case; not a June assessment timestamp.
 - 2026-10-14T08:56:19.123085+00:00 · Work Aiden · SG-JAG-INDEPENDENCE revision 1: Supplied assessment of statutory versions, staffing sample and reorganization limits; no canonical admission.
 - 2026-10-14T08:56:19.123441+00:00 · Work Aiden · SG-CEM-INSPECTIONS revision 2: Append the already-retained October 12 recommendation-status observation without promoting Open into no correction or changing the historical failure.
+- 2026-10-14T17:49:43.759065+00:00 · Work Aiden · SG-CEM-INSPECTIONS revision 3: Reviewed full new HTTP receipt with camp_review: append recommendation-status observation, preserve all prior evidence and contrary assessments, retain documented historical failure and UNKNOWN effectiveness. One official-page test cannot establish absence of records elsewhere.

@@ -1,0 +1,47 @@
+{
+  "version": "evidence-source-1",
+  "source_id": "GAO-CEM-STATUS",
+  "item_id": "GAO-26-108886",
+  "publisher": "U.S. Government Accountability Office",
+  "url": "https://www.gao.gov/products/gao-26-108886",
+  "allowed_hosts": [
+    "www.gao.gov"
+  ],
+  "source_family": "GAO ICE detention expansion2025–2026",
+  "lineage_id": "GAO-26-108886",
+  "parent_source_ref": "S-GAO-CEM",
+  "parent_source_id": "C01",
+  "adapter": "gao-product-main-text-1",
+  "required_text": [
+    "GAO-26-108886",
+    "Camp East Montana",
+    "Recommendations"
+  ],
+  "access": {
+    "mode": "one_shot_public_read",
+    "max_live_requests": 1,
+    "authorization": "Jared approved the combined one-case task and one live official-source retrieval on 2026-10-14; no retries or fallback.",
+    "recorded_at": "2026-10-14T17:45:11.078618+00:00",
+    "basis": "Previously inspected public official GAO product URL; anonymous one-shot GET requested by the user. No known login or bypass; redirects and refusals terminate the proof.",
+    "publisher_automation_terms": "UNKNOWN: not separately fetched within the one-request cap; no ongoing automated polling permission is asserted.",
+    "machine_interface": "Public HTML; no verified product-specific API/feed. One-shot adapter only."
+  },
+  "identity_strategy": "Stable GAO product number plus canonical URL, distinct from content hash.",
+  "change_strategy": "SHA-256 of whitespace-normalized visible main text; hashes raw received bytes separately. Text changes queue review, not a semantic conclusion.",
+  "temporal_validity": {
+    "event_at": null,
+    "published_at": "2026-06-09",
+    "publication_basis": "Retained C01 metadata; not a new observation date.",
+    "updated_at": null,
+    "expected_update_cadence": null,
+    "stale_after": null,
+    "observability": "partial; public product surface only",
+    "staleness_consequence": "Recommendation progress may change; this page cannot certify every facility safeguard."
+  },
+  "limitations": [
+    "Same GAO family as retained report and prior page observation; not independent corroboration.",
+    "No current automated-access terms or HTTP cache behavior inferred from old records.",
+    "HTML/interface changes may make the adapter unobservable; no fallback or silent parser change.",
+    "A recommendation status, rating or replacement contractor is not TB-specific correction or protective effectiveness."
+  ]
+}

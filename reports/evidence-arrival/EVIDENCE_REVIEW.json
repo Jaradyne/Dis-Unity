@@ -1,0 +1,62 @@
+{
+  "reviewer": "camp_review",
+  "reviewed_at": "2026-10-14T17:46:29.400332+00:00",
+  "disposition": "accepted_as_bounded_recommendation_status_arrival; TB correction remains UNKNOWN",
+  "receipt": {
+    "path": "examples/evidence-arrival/camp-east-montana/live/operations/week-one/runs/CEM-FIRST-ARRIVAL/api/0001.json",
+    "sha256": "833e55615f49292f3456cd16e1c131883fa5b6cb48c089321b0cce2b2982b1d7",
+    "body_sha256": "99309dd5d28cf2f12ae8a9c762ffaebdabef7f6c792bdc918330b67d2410d945",
+    "http_status": 200,
+    "body_complete": true,
+    "received_bytes": 95569,
+    "finished_at": "2026-10-14T17:45:15.166200+00:00",
+    "record_kind": "api-exchange-1; retained request/response headers and full received body, not merely a tool excerpt"
+  },
+  "source": {
+    "url": "https://www.gao.gov/products/gao-26-108886",
+    "parent_source_id": "C01",
+    "lineage_id": "GAO-26-108886",
+    "independence": "Same GAO product-page lineage as retained audit/status; no independent corroboration created."
+  },
+  "classification": "recommendation_status",
+  "recommendations": [
+    {
+      "number": 1,
+      "status": "Open",
+      "agency_position": "DHS May2026 stated tiered pricing shift planned by end2026."
+    },
+    {
+      "number": 2,
+      "status": "Open",
+      "agency_position": "DHS May2026 relied on existing pre-occupancy policy; GAO maintained additional controls needed because opening inspection was skipped."
+    },
+    {
+      "number": 3,
+      "status": "Open",
+      "agency_position": "Army supplied planned white-paper milestones August2026, estimated completion December30,2026."
+    },
+    {
+      "number": 4,
+      "status": "Open",
+      "agency_position": "DHS May2026 described planned joint acquisition lessons assessment."
+    }
+  ],
+  "contrary_evidence": "Agency responses and Army planning documentation contradict an inference of complete inactivity, but do not verify implementation or protective outcomes. Future end2026 milestones are not overdue at retrieval.",
+  "dimension_assessment": {
+    "formal": "Page references existing policy and recommended control changes; no new legal change demonstrated.",
+    "operational": "Planning/response activity described; no requirement-specific sampled TB compliance demonstrated.",
+    "effectiveness": "UNKNOWN: no TB intake-testing/notification corrective action, completion date, verification method and compliance result found in received page.",
+    "failure": "Retain historical opening-inspection failure; Open statuses do not prove continued failure or absence of corrective work."
+  },
+  "question": "Q-CEM-TB-CORRECTION",
+  "question_result": "Insufficient evidence from this one surface. No qualifying post-April18 medical reinspection or TB closure record supplied on the received page.",
+  "limits": [
+    "Absence of TB verification on this page does not establish absence of records elsewhere or absence of correction.",
+    "No linked report, other site, search, or additional public request was made by reviewer.",
+    "Full received HTTP body is preserved; this is not proof of freshness beyond observed response or publisher authenticity independent of transport.",
+    "Historical GAO findings repeated on page are not new independent observations."
+  ],
+  "continuity_disposition": "No change to Army contracting/administration relationship: page does not revise award or handoff mechanism/dates. Recommendation follow-up is a separate claim.",
+  "candidate_safeguard_revision": "May append dated recommendation_status evidence to a review candidate while retaining old evidence/counterassessments, historical failure and UNKNOWN effectiveness; no automatic canonical admission.",
+  "permission_assessment": "User-authorized manual one-shot retrieval only. Publisher automation terms were not checked; public reachability/HTTP200 does not establish permission for ongoing automated collection. No automation permission, recurring monitoring, retry, or follow-up retrieval should be claimed."
+}
