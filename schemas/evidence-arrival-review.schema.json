@@ -1,0 +1,132 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "base_entries_sha256": {
+      "pattern": "[a-f0-9]{64}",
+      "type": "string"
+    },
+    "base_entry_count": {
+      "pattern": "[1-9][0-9]*",
+      "type": "string"
+    },
+    "classification": {
+      "const": "recommendation_status"
+    },
+    "continuity": {
+      "additionalProperties": false,
+      "properties": {
+        "assessment_sha256": {
+          "pattern": "[a-f0-9]{64}",
+          "type": "string"
+        },
+        "disposition": {
+          "const": "unchanged"
+        },
+        "reason": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "relationship_id": {
+          "const": "REL-CEM-ARMY-ICE"
+        }
+      },
+      "required": [
+        "relationship_id",
+        "disposition",
+        "assessment_sha256",
+        "reason"
+      ],
+      "type": "object"
+    },
+    "contrary_evidence": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "disposition": {
+      "const": "accepted_with_limits"
+    },
+    "evidence_id": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "evidence_review": {
+      "additionalProperties": false,
+      "properties": {
+        "path": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "sha256": {
+          "pattern": "[a-f0-9]{64}",
+          "type": "string"
+        }
+      },
+      "required": [
+        "path",
+        "sha256"
+      ],
+      "type": "object"
+    },
+    "handoff_id": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "intake_sha256": {
+      "pattern": "[a-f0-9]{64}",
+      "type": "string"
+    },
+    "reason": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "residual": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "reviewed_at": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "reviewer": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "revision_entry_sha256": {
+      "pattern": "[a-f0-9]{64}",
+      "type": "string"
+    },
+    "safeguard_id": {
+      "const": "SG-CEM-INSPECTIONS"
+    },
+    "source_ref": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "version": {
+      "const": "arrival-review-1"
+    }
+  },
+  "required": [
+    "version",
+    "disposition",
+    "reviewer",
+    "reviewed_at",
+    "intake_sha256",
+    "handoff_id",
+    "evidence_review",
+    "classification",
+    "safeguard_id",
+    "source_ref",
+    "evidence_id",
+    "base_entry_count",
+    "base_entries_sha256",
+    "revision_entry_sha256",
+    "reason",
+    "contrary_evidence",
+    "residual",
+    "continuity"
+  ],
+  "title": "One separately reviewed evidence arrival, scoped to the Camp proof",
+  "type": "object"
+}

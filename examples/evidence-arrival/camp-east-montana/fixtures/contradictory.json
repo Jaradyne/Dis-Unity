@@ -1,0 +1,52 @@
+{
+  "body_from": null,
+  "exchange": {
+    "finished_at": "2026-10-14T21:00:01+00:00",
+    "record_id": "SIMULATED-contradictory",
+    "redaction": {
+      "policy": "Synthetic fixture, no real request.",
+      "replacement_count": 0
+    },
+    "request": {
+      "body": null,
+      "headers": [
+        [
+          "User-agent",
+          "Dis-Unity-Bounded-Public-Read/1.0"
+        ],
+        [
+          "Accept",
+          "text/html"
+        ]
+      ],
+      "method": "GET",
+      "url": "https://www.gao.gov/products/gao-26-108886"
+    },
+    "response": {
+      "body": {
+        "complete": true,
+        "content": "<html><main>GAO-26-108886 Camp East Montana Recommendations SYNTHETIC TEST ONLY. Recommendation 2: Open. A fictional later inspection reports missed TB intake tests; agency disputes the sampling. Both claims need review; no automatic finding.</main></html>",
+        "encoding": "utf-8",
+        "received_bytes": 256,
+        "saved_sha256": "a18310c42494a46193b1a0ad0712dee96723b22a44fe27b78e4289e31ab0f978"
+      },
+      "headers": [
+        [
+          "Content-Type",
+          "text/html; charset=utf-8"
+        ],
+        [
+          "ETag",
+          "\"fixture-contradictory\""
+        ]
+      ],
+      "http_status": 200
+    },
+    "run_id": "SIMULATED",
+    "schema_version": "api-exchange-1",
+    "started_at": "2026-10-14T21:00:00+00:00",
+    "state": "response_received"
+  },
+  "label": "SYNTHETIC TEST ONLY; never fetched and never empirical evidence.",
+  "schema_version": "arrival-fixture-receipt-1"
+}

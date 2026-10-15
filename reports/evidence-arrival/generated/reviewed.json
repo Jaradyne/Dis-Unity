@@ -1,0 +1,44 @@
+{
+  "not_established": "Absence of correction or absence of records elsewhere.",
+  "question_result": "UNKNOWN: no qualifying TB verification in the one received product page.",
+  "queue_disposition": "reviewed_with_limits; no further dispatch",
+  "review": {
+    "base_entries_sha256": "1923993bfaf5d128f08c7453b957718fd93442142b3be046c973ebf16ca9627b",
+    "base_entry_count": "4",
+    "classification": "recommendation_status",
+    "continuity": {
+      "assessment_sha256": "44e7bed61a4a3749d4f5a270168332e40dea33a4d6054f81b0b52e10fda8fb90",
+      "disposition": "unchanged",
+      "reason": "The new recommendation-status observation does not revise the Army contracting authority or October 2025 ICE administration handoff; no new causal connection is inferred.",
+      "relationship_id": "REL-CEM-ARMY-ICE"
+    },
+    "contrary_evidence": "Agency responses and Army planning documentation contradict an inference of complete inactivity, but do not verify implementation or protective outcomes. Future end2026 milestones are not overdue at retrieval.",
+    "disposition": "accepted_with_limits",
+    "evidence_id": "CEM-LIVE-STATUS-20261014",
+    "evidence_review": {
+      "path": "reports/evidence-arrival/EVIDENCE_REVIEW.json",
+      "sha256": "3abb508bf8613f741f4700f3f1fb692e880c6e637840aaaf316a6e522df4cdab"
+    },
+    "handoff_id": "ARR-b49956007a62ad5702ff39b3",
+    "intake_sha256": "294aba8e7d37521f8109203bc26e0455ad7100ddb3249c290a54a31c0b9eec6b",
+    "reason": "Reviewed full new HTTP receipt with camp_review: append recommendation-status observation, preserve all prior evidence and contrary assessments, retain documented historical failure and UNKNOWN effectiveness. One official-page test cannot establish absence of records elsewhere.",
+    "residual": "No dated requirement-specific verification of TB intake testing/notification or protective result in the one received page. No inference of absent records/correction elsewhere.",
+    "reviewed_at": "2026-10-14T17:49:43.759065+00:00",
+    "reviewer": "Work Aiden",
+    "revision_entry_sha256": "f1c62844fd2106a035eee24d338f4c8f33207626744f9b4719437be3052a39e9",
+    "safeguard_id": "SG-CEM-INSPECTIONS",
+    "source_ref": "S-CEM-ARRIVAL-20261014",
+    "version": "arrival-review-1"
+  },
+  "safeguard_dimensions": {
+    "effectiveness": "unknown",
+    "failure": "documented",
+    "formal": "documented",
+    "operational": {
+      "authority": "partial",
+      "people": "partial",
+      "procedures": "partial"
+    }
+  },
+  "version": "reviewed-evidence-arrival-1"
+}

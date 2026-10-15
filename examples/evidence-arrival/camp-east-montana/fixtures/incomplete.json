@@ -1,0 +1,52 @@
+{
+  "body_from": null,
+  "exchange": {
+    "finished_at": "2026-10-14T22:00:01+00:00",
+    "record_id": "SIMULATED-incomplete",
+    "redaction": {
+      "policy": "Synthetic fixture, no real request.",
+      "replacement_count": 0
+    },
+    "request": {
+      "body": null,
+      "headers": [
+        [
+          "User-agent",
+          "Dis-Unity-Bounded-Public-Read/1.0"
+        ],
+        [
+          "Accept",
+          "text/html"
+        ]
+      ],
+      "method": "GET",
+      "url": "https://www.gao.gov/products/gao-26-108886"
+    },
+    "response": {
+      "body": {
+        "complete": false,
+        "content": "<html><main>GAO-26-108886 Camp East Montana Recommendations Partial synthetic page</main></html>",
+        "encoding": "utf-8",
+        "received_bytes": 96,
+        "saved_sha256": "a7e7adda748ac1eb6510f723647403483ba26e9fc7b5d7b9796ce8833f065129"
+      },
+      "headers": [
+        [
+          "Content-Type",
+          "text/html; charset=utf-8"
+        ],
+        [
+          "ETag",
+          "\"fixture-incomplete\""
+        ]
+      ],
+      "http_status": 200
+    },
+    "run_id": "SIMULATED",
+    "schema_version": "api-exchange-1",
+    "started_at": "2026-10-14T22:00:00+00:00",
+    "state": "incomplete_response"
+  },
+  "label": "SYNTHETIC TEST ONLY; never fetched and never empirical evidence.",
+  "schema_version": "arrival-fixture-receipt-1"
+}

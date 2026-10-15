@@ -1,4 +1,5 @@
 import copy
+from datetime import date, timedelta
 from pathlib import Path
 import sys
 import tempfile
@@ -98,7 +99,7 @@ class SafeguardTests(unittest.TestCase):
         latest=state['safeguards'][case['safeguard_id']]
         self.assertEqual(latest['effectiveness']['status'],'observed')
         self.assertEqual(latest['failure']['status'],'documented')
-        self.assertEqual(state['history'][:4],self.state['history'])
+        self.assertEqual(state['history'][:-1],self.state['history'])
         for missing in ('harm','action','result','scope'):
             bad=copy.deepcopy(case)
             del bad['evidence'][-1]['effect'][missing]
@@ -126,7 +127,7 @@ class SafeguardTests(unittest.TestCase):
         self.assertEqual(after['evidence'][:-1],before['evidence'])
         self.assertTrue(self.journal['entries'][1]['recorded_at'].startswith('2026-10-14'))
         self.assertEqual(after['evidence'][-1]['period']['start'],'2026-10-12')
-        self.assertEqual(self.state['revisions']['SG-CEM-INSPECTIONS'],2)
+        self.assertEqual(self.state['history'][3]['revision'],2)
 
     def test_journal_mutation_stale_writer_and_reordering_fail(self):
         j=copy.deepcopy(self.journal)
@@ -158,7 +159,8 @@ class SafeguardTests(unittest.TestCase):
         case=self.case()
         case['evidence'][1]['period'].update(start='2025-08-16',end='2025-08')
         self.validate(case)
-        case['evidence'][1]['period'].update(start='2026-10-13',end='2026-10-13')
+        future=(date.fromisoformat(case['evidence_cutoff'])+timedelta(days=1)).isoformat()
+        case['evidence'][1]['period'].update(start=future,end=future)
         with self.assertRaisesRegex(sg.Error,'after evidence cutoff'):
             self.validate(case)
         case['evidence'][1]['period'].update(start='2025-09-01',end='2025-08')

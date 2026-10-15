@@ -1,0 +1,40 @@
+{
+  "access": "Full HTTP 200 response saved before parsing, 95569 received bytes; one public page only.",
+  "content_sha256": "fdfbbdbbcf2e6e29664346bdc4b54968213c5793c8f2c9ad619364605d9a6876",
+  "intake_sha256": "294aba8e7d37521f8109203bc26e0455ad7100ddb3249c290a54a31c0b9eec6b",
+  "limitations": "One GAO page, same source family; no dated TB corrective verification found here, no conclusion about other public records or actual correction. HTTP Last-Modified is transport metadata, not the correction/event date. Open status is not no work.",
+  "lineage_id": "GAO-26-108886",
+  "observed_date": "2026-10-14",
+  "parent_source_id": "C01",
+  "publication_date": "2026-06-09",
+  "receipt": {
+    "path": "examples/evidence-arrival/camp-east-montana/live/operations/week-one/runs/CEM-FIRST-ARRIVAL/api/0001.json",
+    "sha256": "833e55615f49292f3456cd16e1c131883fa5b6cb48c089321b0cce2b2982b1d7"
+  },
+  "recommendations": [
+    {
+      "agency_position": "DHS May2026 stated tiered pricing shift planned by end2026.",
+      "number": 1,
+      "status": "Open"
+    },
+    {
+      "agency_position": "DHS May2026 relied on existing pre-occupancy policy; GAO maintained additional controls needed because opening inspection was skipped.",
+      "number": 2,
+      "status": "Open"
+    },
+    {
+      "agency_position": "Army supplied planned white-paper milestones August2026, estimated completion December30,2026.",
+      "number": 3,
+      "status": "Open"
+    },
+    {
+      "agency_position": "DHS May2026 described planned joint acquisition lessons assessment.",
+      "number": 4,
+      "status": "Open"
+    }
+  ],
+  "retrieved_at": "2026-10-14T17:45:15.166200+00:00",
+  "review_ref": "reports/evidence-arrival/EVIDENCE_REVIEW.json",
+  "source_id": "C01-STATUS-20261014",
+  "url": "https://www.gao.gov/products/gao-26-108886"
+}

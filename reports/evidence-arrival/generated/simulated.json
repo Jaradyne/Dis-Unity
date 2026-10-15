@@ -1,0 +1,217 @@
+{
+  "dispatches": 0,
+  "handoffs": [
+    {
+      "authority": "Queue only; no model, Governor, canonical admission or assessment change.",
+      "content_sha256": "fdfbbdbbcf2e6e29664346bdc4b54968213c5793c8f2c9ad619364605d9a6876",
+      "handoff_id": "ARR-09370392d2eb242a239288ef",
+      "item_id": "GAO-26-108886",
+      "lane": "simulation",
+      "lineage_id": "GAO-26-108886",
+      "observation_id": "SIM-FIRST",
+      "question_id": "Q-CEM-TB-CORRECTION",
+      "reason": "new visible product-text version; meaning not assessed",
+      "receipt": {
+        "path": "examples/evidence-arrival/camp-east-montana/live/operations/week-one/runs/CEM-FIRST-ARRIVAL/api/0001.json",
+        "sha256": "833e55615f49292f3456cd16e1c131883fa5b6cb48c089321b0cce2b2982b1d7"
+      },
+      "source_family": "GAO ICE detention expansion2025–2026",
+      "source_id": "GAO-CEM-STATUS",
+      "status": "awaiting_review",
+      "temporal_validity": {
+        "event_at": null,
+        "expected_update_cadence": null,
+        "http_last_modified": "Wed, 14 Oct 2026 16:58:51 GMT",
+        "last_observed_version_at": "2026-10-14T17:45:15.166200+00:00",
+        "observability": "partial; public product surface only",
+        "publication_basis": "Retained C01 metadata; not a new observation date.",
+        "published_at": "2026-06-09",
+        "retrieved_at": "2026-10-14T17:45:15.166200+00:00",
+        "stale_after": null,
+        "staleness_consequence": "Recommendation progress may change; this page cannot certify every facility safeguard.",
+        "updated_at": null
+      },
+      "url": "https://www.gao.gov/products/gao-26-108886"
+    },
+    {
+      "authority": "Queue only; no model, Governor, canonical admission or assessment change.",
+      "content_sha256": "2ce54f72076e739ed1997957795acaa787ccdde015a8b679da4e33ddc5683263",
+      "handoff_id": "ARR-30e9e7c994d7c38f59eafb1f",
+      "item_id": "GAO-26-108886",
+      "lane": "simulation",
+      "lineage_id": "GAO-26-108886",
+      "observation_id": "SIM-CLOSURE-INCONCLUSIVE",
+      "question_id": "Q-CEM-TB-CORRECTION",
+      "reason": "changed visible product-text version; meaning not assessed",
+      "receipt": {
+        "path": "examples/evidence-arrival/camp-east-montana/fixtures/closure-inconclusive.json",
+        "sha256": "e2bf4416532601ca45ec067376455c087c51fd65e5da73dff105386615a66774"
+      },
+      "source_family": "GAO ICE detention expansion2025–2026",
+      "source_id": "GAO-CEM-STATUS",
+      "status": "awaiting_review",
+      "temporal_validity": {
+        "event_at": null,
+        "expected_update_cadence": null,
+        "http_last_modified": null,
+        "last_observed_version_at": "2026-10-14T20:00:01+00:00",
+        "observability": "partial; public product surface only",
+        "publication_basis": "Retained C01 metadata; not a new observation date.",
+        "published_at": "2026-06-09",
+        "retrieved_at": "2026-10-14T20:00:01+00:00",
+        "stale_after": null,
+        "staleness_consequence": "Recommendation progress may change; this page cannot certify every facility safeguard.",
+        "updated_at": null
+      },
+      "url": "https://www.gao.gov/products/gao-26-108886"
+    },
+    {
+      "authority": "Queue only; no model, Governor, canonical admission or assessment change.",
+      "content_sha256": "db5c1c53fe7e793a3f92da6bbc52fd97178e88d97fce29ec9104fb10228f96a7",
+      "handoff_id": "ARR-0d00ca6d3c2d1f36a18a9144",
+      "item_id": "GAO-26-108886",
+      "lane": "simulation",
+      "lineage_id": "GAO-26-108886",
+      "observation_id": "SIM-CONTRADICTORY",
+      "question_id": "Q-CEM-TB-CORRECTION",
+      "reason": "changed visible product-text version; meaning not assessed",
+      "receipt": {
+        "path": "examples/evidence-arrival/camp-east-montana/fixtures/contradictory.json",
+        "sha256": "74477fc5bb836ac94440d7dd70e30a7d4f3dbc3bf9c760232988e6c5469015e0"
+      },
+      "source_family": "GAO ICE detention expansion2025–2026",
+      "source_id": "GAO-CEM-STATUS",
+      "status": "awaiting_review",
+      "temporal_validity": {
+        "event_at": null,
+        "expected_update_cadence": null,
+        "http_last_modified": null,
+        "last_observed_version_at": "2026-10-14T21:00:01+00:00",
+        "observability": "partial; public product surface only",
+        "publication_basis": "Retained C01 metadata; not a new observation date.",
+        "published_at": "2026-06-09",
+        "retrieved_at": "2026-10-14T21:00:01+00:00",
+        "stale_after": null,
+        "staleness_consequence": "Recommendation progress may change; this page cannot certify every facility safeguard.",
+        "updated_at": null
+      },
+      "url": "https://www.gao.gov/products/gao-26-108886"
+    }
+  ],
+  "lane": "simulation",
+  "last_observed_content_sha256": "db5c1c53fe7e793a3f92da6bbc52fd97178e88d97fce29ec9104fb10228f96a7",
+  "ledger_sha256": "760aa3980caf61a2cb04df94077dcfa3474db8db36553a78f9aaade1f8abe2a0",
+  "model_calls": 0,
+  "observations": [
+    {
+      "classification": "new",
+      "content_sha256": "fdfbbdbbcf2e6e29664346bdc4b54968213c5793c8f2c9ad619364605d9a6876",
+      "etag": "\"1791997131-gzip\"",
+      "http_status": 200,
+      "lane": "simulation",
+      "last_modified": "Wed, 14 Oct 2026 16:58:51 GMT",
+      "observation_id": "SIM-FIRST",
+      "observed_at": "2026-10-14T17:45:15.166200+00:00",
+      "outcome": "observed",
+      "prior_content_sha256": null,
+      "raw_body_sha256": "99309dd5d28cf2f12ae8a9c762ffaebdabef7f6c792bdc918330b67d2410d945",
+      "receipt": {
+        "path": "examples/evidence-arrival/camp-east-montana/live/operations/week-one/runs/CEM-FIRST-ARRIVAL/api/0001.json",
+        "sha256": "833e55615f49292f3456cd16e1c131883fa5b6cb48c089321b0cce2b2982b1d7"
+      },
+      "text": "GAO-26-108886 Published: Jun 09, 2026. Publicly Released: Jun 09, 2026. Jump To: Jump To Elder Abuse Services for Older Adults State and Local-Level Drivers and Trends State and Local Fiscal Projections Federal Borrowing Managing the Debt Summary of Funding Provisions Summary of FYs 2022-2024 Funds Status of FYs 2022-2024 Funds Implementation of FYs 2022-2023 Projects Previous Tracking the Funds Reports Auditing the Government's Books Unpacking the Financial Report Highlights Recommendations Background About This Work About This Work Topics Trends About the Center Why It's High Risk What Remains To Be Done Key Reports Newest COVID-Related Reports AI at GAO Flood Insurance Past Pandemic-Related Reports CARES Act Oversight Reports All COVID-19 Reports Report Suspected Fraud Subjects How to Get Notified Past Reports Public Health Threats Explore the FY 2022 and 2023 Funds Status of FY22 Projects Lessons Learned Agency Reports Recent Reports Recommendations Supplemental Material Full Report Additional Data View Decision Downloads Previously Identified Actions Related Pages Associated Agencies Tough Choices and Opportunities Ahead Americas Fiscal Future Key Areas Retirement Security Key Areas Current List About The High Risk List Area Ratings Previous High Risk Products Search Federal Vacancies Past Federal Vacancies Violation Letters About the Yellow Book Related Resources Comment Letters Related Publications Contacts and Resources Types of Changes Listing of Key Changes Major Issues Facing the Nation Meeting Strategic Challenges Additional Resources About the Green Book Resources Advisory Council Mission Teams Operations and Staff Offices Organization Chart Why a Career at GAO? Am I Qualified? Company Culture Reasonable Accommodations Video Gallery Paid Internships Student Volunteers Professional Development Program Advancement Executive Candidate Program Summer Associates Externships Benefits Strategy Use Cases Contacts Priority Open Recommendation Letters Key Resources Major Issues Downloadable Resources How Could Federal Debt Affect You? GAO Contacts Drivers Yellow Book Technical Assistance Interest Sustainability What Needs to Be Done? Technology Assessments Science & Tech Spotlights Artificial Intelligence (AI)-Related Reports Performance Audits Blogs Multimedia Podcasts Videos Career Highlights Tribute Videos & Statements Testimonies Presentations Forums & Roundtables Fast Facts ICE has increased its enforcement efforts and expanded detention capacity since January 2025. The Army and ICE opened ICE's largest facility—Camp East Montana—quickly, which led to several issues. The contract requires ICE to pay the full cost of meals and operational services for 5,000 people, even when the facility's population is far lower. For example, the facility held about 1,600 detained non-citizens at the end of February 2026. This resulted in millions of dollars of waste. The facility also did not meet key detention standards, risking the safety and security of detained noncitizens and staff. Our recommendations address these issues. Aerial photo of Camp East Montana Aerial view of a cluster of long, rectangular buildings in a dry environment. Skip to Highlights Highlights What GAO Found In August 2025, U.S. Immigration and Customs Enforcement (ICE)’s largest immigration detention facility to date (known as Camp East Montana) opened on U.S. Army Fort Bliss in El Paso, Texas. GAO found that the Army—which awarded and administered the $1.3 billion facility contract—and ICE expedited the award and construction schedule for the facility. This negatively affected their planning and acquisition. Army and ICE officials indicated that the expedited time frames directed by senior leadership dictated several decisions related to their acquisition approach, such as using a contracting vehicle not previously used for detention services. They also selected a contractor that did not have prior experience providing detention services. The Army transferred contract administration responsibilities to ICE in October 2025. U.S. Immigration and Customs Enforcement’s Camp East Montana GAO found that the Army did not incorporate flexibilities in the contract to account for occupancy levels below the maximum, resulting in millions of dollars in waste. For example, the Army paid the full cost for meals and services from August 1 to August 15, 2025, when there were no detained noncitizens at the facility. GAO also found that ICE could save tens of millions of dollars through September 2026 by incorporating cost saving measures in the contract, such as tiered pricing for meals. In April 2026, ICE terminated the contract for convenience and chose a new contractor to operate the facility. However, ICE had not yet incorporated these cost saving measures into the new contract and continued to pay for meals that it did not need. GAO also identified serious performance and oversight challenges at Camp East Montana. The facility opened without meeting key detention standards. For example, the facility initially did not have perimeter security cameras, outdoor recreation space, or space for attorney and family visitation. ICE did not identify these issues because it did not inspect the facility prior to housing detained noncitizens there, as required by ICE policy. After the facility opened, ICE reported additional problems, including gaps in medical services, the loss of a loaded firearm, and unsanitary conditions, among other issues. These issues posed serious risks to the safety and security of both detained noncitizens and staff in the facility. Why GAO Did This Study ICE increased its enforcement efforts and expanded its detention capacity in response to a January 2025 Executive Order. ICE’s average daily population of detained noncitizens increased 71 percent from January 20, 2025 to April 1, 2026, according to ICE data. This report provides observations from our ongoing review of ICE’s expansion of immigration detention operations and focuses on (1) how the Army and ICE planned for and acquired Camp East Montana and (2) oversight of the facility. We are issuing this report given the need for ICE to take immediate corrective actions to save taxpayer dollars and improve detention operations. To conduct this audit, GAO visited Camp East Montana and observed facility operations in September 2025. GAO reviewed relevant statutes and regulations, agency policies, contract documentation, and Army and ICE reports on Camp East Montana operations. GAO also analyzed facility population data and invoices to calculate waste and potential cost savings. GAO interviewed Army and ICE officials and contractors to discuss operations and oversight. Recommendations GAO is making four recommendations, including that ICE incorporate cost saving measures in detention facility contracts, such as tiered pricing for food and other services to account for fluctuations in population; and that ICE develop controls to ensure that new facilities are inspected as required and meet applicable detention standards prior to housing detained noncitizens. DHS and DOD concurred with the recommendations. Recommendations for Executive Action Agency Affected Recommendation Status United States Immigration and Customs Enforcement The Director of ICE should take action to incorporate cost savings measures, such as tiered pricing for meals and other operations and services, into its detention facility contracts, including the contract for Camp East Montana, to account for fluctuations in population. (Recommendation 1) Open DHS agreed with this recommendation. In May 2026, DHS stated that it is shifting the Camp East Montana contract to a tiered pricing model and estimated it will do so by the end of 2026. We will continue to monitor ICE's efforts to address this recommendation. United States Immigration and Customs Enforcement The Director of ICE should develop controls to ensure that new facilities are inspected as required and meet applicable detention standards prior to housing detained noncitizens. (Recommendation 2) Open DHS agreed with this recommendation. In May 2026, DHS stated that ICE's existing policy on pre-occupancy inspections addresses this recommendation. However, we found that ICE did not adhere to this policy when it failed to conduct a pre-occupancy inspection prior to the opening of Camp East Montana. As a result, we continue to believe that ICE should develop controls to ensure that new facilities are inspected as required and meet applicable detention standards prior to housing detained noncitizens. We will continue to monitor ICE's efforts to address this recommendation. Department of the Army The Secretary of the Army should assess the acquisition of Camp East Montana and identify any lessons learned to inform future acquisitions in support of ICE's detention efforts. (Recommendation 3) Open DOD agreed to implement this recommendation. In August 2026, the Army provided documentation of its planned milestones for developing a lessons learned white paper on supporting ICE detention efforts. The Army estimates it will complete the white paper by December 30, 2026. We will continue to monitor the Army's efforts. Department of Homeland Security The Secretary of Homeland Security should assess the acquisition of Camp East Montana and identify any lessons learned to inform future acquisitions in support of ICE's detention efforts. (Recommendation 4) Open DHS agreed with this recommendation. In May 2026, DHS stated that ICE and DHS's Office of the Chief Readiness Support Officer will collaborate to assess the acquisition of Camp East Montana and capture lessons learned, successes and challenges, and ways to improve future actions. We will continue to monitor DHS's efforts to address this recommendation. Full Report View Full Report Online Highlights Page (1 page) Full Report (35 pages) Accessible PDF (38 pages) GAO Contacts Heather MacLeod Director Homeland Security and Justice macleodh@gao.gov Media Inquiries Sarah Kaczmarek Managing Director Office of Public Affairs media@gao.gov Public Inquiries Contact Us Topics Homeland Security Contractor performance Cost savings Customs enforcement Detention facilities Homeland security Immigration Lessons learned Immigrants Military forces Compliance oversight"
+    },
+    {
+      "classification": "unchanged",
+      "content_sha256": "fdfbbdbbcf2e6e29664346bdc4b54968213c5793c8f2c9ad619364605d9a6876",
+      "etag": "\"1791997131-gzip\"",
+      "http_status": 200,
+      "lane": "simulation",
+      "last_modified": "Wed, 14 Oct 2026 16:58:51 GMT",
+      "observation_id": "SIM-REPEAT",
+      "observed_at": "2026-10-14T18:00:01+00:00",
+      "outcome": "observed",
+      "prior_content_sha256": "fdfbbdbbcf2e6e29664346bdc4b54968213c5793c8f2c9ad619364605d9a6876",
+      "raw_body_sha256": "99309dd5d28cf2f12ae8a9c762ffaebdabef7f6c792bdc918330b67d2410d945",
+      "receipt": {
+        "path": "examples/evidence-arrival/camp-east-montana/fixtures/repeat.json",
+        "sha256": "6be67944641229fca5874627893c3005c42f64b5b47e91ad06baed873b4f05a7"
+      },
+      "text": "GAO-26-108886 Published: Jun 09, 2026. Publicly Released: Jun 09, 2026. Jump To: Jump To Elder Abuse Services for Older Adults State and Local-Level Drivers and Trends State and Local Fiscal Projections Federal Borrowing Managing the Debt Summary of Funding Provisions Summary of FYs 2022-2024 Funds Status of FYs 2022-2024 Funds Implementation of FYs 2022-2023 Projects Previous Tracking the Funds Reports Auditing the Government's Books Unpacking the Financial Report Highlights Recommendations Background About This Work About This Work Topics Trends About the Center Why It's High Risk What Remains To Be Done Key Reports Newest COVID-Related Reports AI at GAO Flood Insurance Past Pandemic-Related Reports CARES Act Oversight Reports All COVID-19 Reports Report Suspected Fraud Subjects How to Get Notified Past Reports Public Health Threats Explore the FY 2022 and 2023 Funds Status of FY22 Projects Lessons Learned Agency Reports Recent Reports Recommendations Supplemental Material Full Report Additional Data View Decision Downloads Previously Identified Actions Related Pages Associated Agencies Tough Choices and Opportunities Ahead Americas Fiscal Future Key Areas Retirement Security Key Areas Current List About The High Risk List Area Ratings Previous High Risk Products Search Federal Vacancies Past Federal Vacancies Violation Letters About the Yellow Book Related Resources Comment Letters Related Publications Contacts and Resources Types of Changes Listing of Key Changes Major Issues Facing the Nation Meeting Strategic Challenges Additional Resources About the Green Book Resources Advisory Council Mission Teams Operations and Staff Offices Organization Chart Why a Career at GAO? Am I Qualified? Company Culture Reasonable Accommodations Video Gallery Paid Internships Student Volunteers Professional Development Program Advancement Executive Candidate Program Summer Associates Externships Benefits Strategy Use Cases Contacts Priority Open Recommendation Letters Key Resources Major Issues Downloadable Resources How Could Federal Debt Affect You? GAO Contacts Drivers Yellow Book Technical Assistance Interest Sustainability What Needs to Be Done? Technology Assessments Science & Tech Spotlights Artificial Intelligence (AI)-Related Reports Performance Audits Blogs Multimedia Podcasts Videos Career Highlights Tribute Videos & Statements Testimonies Presentations Forums & Roundtables Fast Facts ICE has increased its enforcement efforts and expanded detention capacity since January 2025. The Army and ICE opened ICE's largest facility—Camp East Montana—quickly, which led to several issues. The contract requires ICE to pay the full cost of meals and operational services for 5,000 people, even when the facility's population is far lower. For example, the facility held about 1,600 detained non-citizens at the end of February 2026. This resulted in millions of dollars of waste. The facility also did not meet key detention standards, risking the safety and security of detained noncitizens and staff. Our recommendations address these issues. Aerial photo of Camp East Montana Aerial view of a cluster of long, rectangular buildings in a dry environment. Skip to Highlights Highlights What GAO Found In August 2025, U.S. Immigration and Customs Enforcement (ICE)’s largest immigration detention facility to date (known as Camp East Montana) opened on U.S. Army Fort Bliss in El Paso, Texas. GAO found that the Army—which awarded and administered the $1.3 billion facility contract—and ICE expedited the award and construction schedule for the facility. This negatively affected their planning and acquisition. Army and ICE officials indicated that the expedited time frames directed by senior leadership dictated several decisions related to their acquisition approach, such as using a contracting vehicle not previously used for detention services. They also selected a contractor that did not have prior experience providing detention services. The Army transferred contract administration responsibilities to ICE in October 2025. U.S. Immigration and Customs Enforcement’s Camp East Montana GAO found that the Army did not incorporate flexibilities in the contract to account for occupancy levels below the maximum, resulting in millions of dollars in waste. For example, the Army paid the full cost for meals and services from August 1 to August 15, 2025, when there were no detained noncitizens at the facility. GAO also found that ICE could save tens of millions of dollars through September 2026 by incorporating cost saving measures in the contract, such as tiered pricing for meals. In April 2026, ICE terminated the contract for convenience and chose a new contractor to operate the facility. However, ICE had not yet incorporated these cost saving measures into the new contract and continued to pay for meals that it did not need. GAO also identified serious performance and oversight challenges at Camp East Montana. The facility opened without meeting key detention standards. For example, the facility initially did not have perimeter security cameras, outdoor recreation space, or space for attorney and family visitation. ICE did not identify these issues because it did not inspect the facility prior to housing detained noncitizens there, as required by ICE policy. After the facility opened, ICE reported additional problems, including gaps in medical services, the loss of a loaded firearm, and unsanitary conditions, among other issues. These issues posed serious risks to the safety and security of both detained noncitizens and staff in the facility. Why GAO Did This Study ICE increased its enforcement efforts and expanded its detention capacity in response to a January 2025 Executive Order. ICE’s average daily population of detained noncitizens increased 71 percent from January 20, 2025 to April 1, 2026, according to ICE data. This report provides observations from our ongoing review of ICE’s expansion of immigration detention operations and focuses on (1) how the Army and ICE planned for and acquired Camp East Montana and (2) oversight of the facility. We are issuing this report given the need for ICE to take immediate corrective actions to save taxpayer dollars and improve detention operations. To conduct this audit, GAO visited Camp East Montana and observed facility operations in September 2025. GAO reviewed relevant statutes and regulations, agency policies, contract documentation, and Army and ICE reports on Camp East Montana operations. GAO also analyzed facility population data and invoices to calculate waste and potential cost savings. GAO interviewed Army and ICE officials and contractors to discuss operations and oversight. Recommendations GAO is making four recommendations, including that ICE incorporate cost saving measures in detention facility contracts, such as tiered pricing for food and other services to account for fluctuations in population; and that ICE develop controls to ensure that new facilities are inspected as required and meet applicable detention standards prior to housing detained noncitizens. DHS and DOD concurred with the recommendations. Recommendations for Executive Action Agency Affected Recommendation Status United States Immigration and Customs Enforcement The Director of ICE should take action to incorporate cost savings measures, such as tiered pricing for meals and other operations and services, into its detention facility contracts, including the contract for Camp East Montana, to account for fluctuations in population. (Recommendation 1) Open DHS agreed with this recommendation. In May 2026, DHS stated that it is shifting the Camp East Montana contract to a tiered pricing model and estimated it will do so by the end of 2026. We will continue to monitor ICE's efforts to address this recommendation. United States Immigration and Customs Enforcement The Director of ICE should develop controls to ensure that new facilities are inspected as required and meet applicable detention standards prior to housing detained noncitizens. (Recommendation 2) Open DHS agreed with this recommendation. In May 2026, DHS stated that ICE's existing policy on pre-occupancy inspections addresses this recommendation. However, we found that ICE did not adhere to this policy when it failed to conduct a pre-occupancy inspection prior to the opening of Camp East Montana. As a result, we continue to believe that ICE should develop controls to ensure that new facilities are inspected as required and meet applicable detention standards prior to housing detained noncitizens. We will continue to monitor ICE's efforts to address this recommendation. Department of the Army The Secretary of the Army should assess the acquisition of Camp East Montana and identify any lessons learned to inform future acquisitions in support of ICE's detention efforts. (Recommendation 3) Open DOD agreed to implement this recommendation. In August 2026, the Army provided documentation of its planned milestones for developing a lessons learned white paper on supporting ICE detention efforts. The Army estimates it will complete the white paper by December 30, 2026. We will continue to monitor the Army's efforts. Department of Homeland Security The Secretary of Homeland Security should assess the acquisition of Camp East Montana and identify any lessons learned to inform future acquisitions in support of ICE's detention efforts. (Recommendation 4) Open DHS agreed with this recommendation. In May 2026, DHS stated that ICE and DHS's Office of the Chief Readiness Support Officer will collaborate to assess the acquisition of Camp East Montana and capture lessons learned, successes and challenges, and ways to improve future actions. We will continue to monitor DHS's efforts to address this recommendation. Full Report View Full Report Online Highlights Page (1 page) Full Report (35 pages) Accessible PDF (38 pages) GAO Contacts Heather MacLeod Director Homeland Security and Justice macleodh@gao.gov Media Inquiries Sarah Kaczmarek Managing Director Office of Public Affairs media@gao.gov Public Inquiries Contact Us Topics Homeland Security Contractor performance Cost savings Customs enforcement Detention facilities Homeland security Immigration Lessons learned Immigrants Military forces Compliance oversight"
+    },
+    {
+      "classification": "unchanged",
+      "content_sha256": "fdfbbdbbcf2e6e29664346bdc4b54968213c5793c8f2c9ad619364605d9a6876",
+      "etag": null,
+      "http_status": 304,
+      "lane": "simulation",
+      "last_modified": null,
+      "observation_id": "SIM-CONDITIONAL",
+      "observed_at": "2026-10-14T19:00:01+00:00",
+      "outcome": "not_modified",
+      "prior_content_sha256": "fdfbbdbbcf2e6e29664346bdc4b54968213c5793c8f2c9ad619364605d9a6876",
+      "raw_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "receipt": {
+        "path": "examples/evidence-arrival/camp-east-montana/fixtures/conditional.json",
+        "sha256": "3db12ca11f662fa54237e86345eb9c928e33bb30717984746ea4acf0ed7a7f53"
+      },
+      "text": null
+    },
+    {
+      "classification": "changed",
+      "content_sha256": "2ce54f72076e739ed1997957795acaa787ccdde015a8b679da4e33ddc5683263",
+      "etag": "\"fixture-closure-inconclusive\"",
+      "http_status": 200,
+      "lane": "simulation",
+      "last_modified": null,
+      "observation_id": "SIM-CLOSURE-INCONCLUSIVE",
+      "observed_at": "2026-10-14T20:00:01+00:00",
+      "outcome": "observed",
+      "prior_content_sha256": "fdfbbdbbcf2e6e29664346bdc4b54968213c5793c8f2c9ad619364605d9a6876",
+      "raw_body_sha256": "5ddcdd5ab01b312ca8ff655c847406efacad43aaacc916878744fcad5c27864d",
+      "receipt": {
+        "path": "examples/evidence-arrival/camp-east-montana/fixtures/closure-inconclusive.json",
+        "sha256": "e2bf4416532601ca45ec067376455c087c51fd65e5da73dff105386615a66774"
+      },
+      "text": "GAO-26-108886 Camp East Montana Recommendations SYNTHETIC TEST ONLY. Recommendation 2: Closed - Implemented. Agency says new policy is complete. TB intake testing and notification results not supplied. Closure alone cannot establish effectiveness."
+    },
+    {
+      "classification": "changed",
+      "content_sha256": "db5c1c53fe7e793a3f92da6bbc52fd97178e88d97fce29ec9104fb10228f96a7",
+      "etag": "\"fixture-contradictory\"",
+      "http_status": 200,
+      "lane": "simulation",
+      "last_modified": null,
+      "observation_id": "SIM-CONTRADICTORY",
+      "observed_at": "2026-10-14T21:00:01+00:00",
+      "outcome": "observed",
+      "prior_content_sha256": "2ce54f72076e739ed1997957795acaa787ccdde015a8b679da4e33ddc5683263",
+      "raw_body_sha256": "a18310c42494a46193b1a0ad0712dee96723b22a44fe27b78e4289e31ab0f978",
+      "receipt": {
+        "path": "examples/evidence-arrival/camp-east-montana/fixtures/contradictory.json",
+        "sha256": "74477fc5bb836ac94440d7dd70e30a7d4f3dbc3bf9c760232988e6c5469015e0"
+      },
+      "text": "GAO-26-108886 Camp East Montana Recommendations SYNTHETIC TEST ONLY. Recommendation 2: Open. A fictional later inspection reports missed TB intake tests; agency disputes the sampling. Both claims need review; no automatic finding."
+    },
+    {
+      "classification": "unobservable",
+      "content_sha256": null,
+      "etag": "\"fixture-incomplete\"",
+      "http_status": 200,
+      "lane": "simulation",
+      "last_modified": null,
+      "observation_id": "SIM-INCOMPLETE",
+      "observed_at": "2026-10-14T22:00:01+00:00",
+      "outcome": "unobservable",
+      "prior_content_sha256": "db5c1c53fe7e793a3f92da6bbc52fd97178e88d97fce29ec9104fb10228f96a7",
+      "raw_body_sha256": "a7e7adda748ac1eb6510f723647403483ba26e9fc7b5d7b9796ce8833f065129",
+      "receipt": {
+        "path": "examples/evidence-arrival/camp-east-montana/fixtures/incomplete.json",
+        "sha256": "81f3e48805b7dc905828cc861960162675f839242f254e815560abe38c8df87c"
+      },
+      "text": null
+    }
+  ],
+  "source_sha256": "b1565a693063fb58b953ce42e5c2e872760df90c4140289ca22fd7c782a37d99",
+  "version": "evidence-arrival-state-1"
+}

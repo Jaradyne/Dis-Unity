@@ -1,0 +1,52 @@
+{
+  "body_from": null,
+  "exchange": {
+    "finished_at": "2026-10-14T20:00:01+00:00",
+    "record_id": "SIMULATED-closure-inconclusive",
+    "redaction": {
+      "policy": "Synthetic fixture, no real request.",
+      "replacement_count": 0
+    },
+    "request": {
+      "body": null,
+      "headers": [
+        [
+          "User-agent",
+          "Dis-Unity-Bounded-Public-Read/1.0"
+        ],
+        [
+          "Accept",
+          "text/html"
+        ]
+      ],
+      "method": "GET",
+      "url": "https://www.gao.gov/products/gao-26-108886"
+    },
+    "response": {
+      "body": {
+        "complete": true,
+        "content": "<html><main>GAO-26-108886 Camp East Montana Recommendations SYNTHETIC TEST ONLY. Recommendation 2: Closed - Implemented. Agency says new policy is complete. TB intake testing and notification results not supplied. Closure alone cannot establish effectiveness.</main></html>",
+        "encoding": "utf-8",
+        "received_bytes": 273,
+        "saved_sha256": "5ddcdd5ab01b312ca8ff655c847406efacad43aaacc916878744fcad5c27864d"
+      },
+      "headers": [
+        [
+          "Content-Type",
+          "text/html; charset=utf-8"
+        ],
+        [
+          "ETag",
+          "\"fixture-closure-inconclusive\""
+        ]
+      ],
+      "http_status": 200
+    },
+    "run_id": "SIMULATED",
+    "schema_version": "api-exchange-1",
+    "started_at": "2026-10-14T20:00:00+00:00",
+    "state": "response_received"
+  },
+  "label": "SYNTHETIC TEST ONLY; never fetched and never empirical evidence.",
+  "schema_version": "arrival-fixture-receipt-1"
+}

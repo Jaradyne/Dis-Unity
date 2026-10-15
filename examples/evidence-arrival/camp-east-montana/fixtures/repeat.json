@@ -1,0 +1,145 @@
+{
+  "body_from": {
+    "path": "examples/evidence-arrival/camp-east-montana/live/operations/week-one/runs/CEM-FIRST-ARRIVAL/api/0001.json",
+    "sha256": "833e55615f49292f3456cd16e1c131883fa5b6cb48c089321b0cce2b2982b1d7"
+  },
+  "exchange": {
+    "finished_at": "2026-10-14T18:00:01+00:00",
+    "record_id": "SIMULATED-repeat",
+    "redaction": {
+      "policy": "Synthetic fixture, no real request.",
+      "replacement_count": 0
+    },
+    "request": {
+      "body": null,
+      "headers": [
+        [
+          "User-agent",
+          "Dis-Unity-Bounded-Public-Read/1.0"
+        ],
+        [
+          "Accept",
+          "text/html"
+        ]
+      ],
+      "method": "GET",
+      "url": "https://www.gao.gov/products/gao-26-108886"
+    },
+    "response": {
+      "body": null,
+      "headers": [
+        [
+          "Content-Type",
+          "text/html; charset=UTF-8"
+        ],
+        [
+          "X-Drupal-Dynamic-Cache",
+          "MISS"
+        ],
+        [
+          "Content-Language",
+          "en"
+        ],
+        [
+          "X-Content-Type-Options",
+          "nosniff"
+        ],
+        [
+          "X-Frame-Options",
+          "SAMEORIGIN"
+        ],
+        [
+          "X-Generator",
+          "Drupal 11 (https://www.drupal.org)"
+        ],
+        [
+          "Content-Security-Policy",
+          "report-uri /report-csp-violation; upgrade-insecure-requests"
+        ],
+        [
+          "X-Content-Security-Policy",
+          "report-uri /report-csp-violation; upgrade-insecure-requests"
+        ],
+        [
+          "X-WebKit-CSP",
+          "report-uri /report-csp-violation; upgrade-insecure-requests"
+        ],
+        [
+          "X-XSS-Protection",
+          "1; mode=block"
+        ],
+        [
+          "Referrer-Policy",
+          "no-referrer"
+        ],
+        [
+          "X-Drupal-Cache",
+          "MISS"
+        ],
+        [
+          "Last-Modified",
+          "Wed, 14 Oct 2026 16:58:51 GMT"
+        ],
+        [
+          "ETag",
+          "\"1791997131-gzip\""
+        ],
+        [
+          "X-Request-ID",
+          "v-87f384fe-c7f0-11f1-8bde-935c8ef76adb"
+        ],
+        [
+          "X-AH-Environment",
+          "prod"
+        ],
+        [
+          "X-Cache-Hits",
+          "7"
+        ],
+        [
+          "X-Age",
+          "2783"
+        ],
+        [
+          "Vary",
+          "Accept-Encoding"
+        ],
+        [
+          "Cache-Control",
+          "public, max-age=300"
+        ],
+        [
+          "Expires",
+          "Wed, 14 Oct 2026 17:50:15 GMT"
+        ],
+        [
+          "Date",
+          "Wed, 14 Oct 2026 17:45:15 GMT"
+        ],
+        [
+          "Transfer-Encoding",
+          "chunked"
+        ],
+        [
+          "Connection",
+          "close"
+        ],
+        [
+          "Connection",
+          "Transfer-Encoding"
+        ],
+        [
+          "Strict-Transport-Security",
+          "max-age=15768000"
+        ]
+      ],
+      "http_status": 200
+    },
+    "run_id": "SIMULATED",
+    "schema_version": "api-exchange-1",
+    "started_at": "2026-10-14T18:00:00+00:00",
+    "state": "response_received"
+  },
+  "label": "SYNTHETIC TEST ONLY; never fetched and never empirical evidence.",
+  "schema_version": "arrival-fixture-receipt-1"
+}

@@ -1,0 +1,1073 @@
+{
+  "config_sha256": "39152c8d17954a1d9097a0c55351ced98ad702f402cb9c12a27b116f4c0d1655",
+  "events": [
+    {
+      "after": "4dfc8429b8c71dcf2e6437b0a94a5f5778112f1ebbf4486b337bf83f072db8bf",
+      "before": "bf24db49afa54b29331d8b2da35a214b00888ada3646cd8b91d62ae4bc63dd76",
+      "command": {
+        "actor": {
+          "model": "none invoked",
+          "name": "Work Aiden",
+          "runtime": "supplied evidence arrival review"
+        },
+        "branch_id": "B0",
+        "event_id": "CEM-FIRST-ARRIVAL-1",
+        "expected_revision": 0,
+        "kind": "step",
+        "node": "ROOT",
+        "output": {
+          "name": "First Camp TB evidence arrival"
+        }
+      },
+      "decision": {
+        "next_node": "ARRIVAL",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-10-14T17:49:43.759065+00:00"
+    },
+    {
+      "after": "7d3494ed7d982d20e590490adda5138284c2867ba5e18bf776bdc4e5acae8631",
+      "before": "4dfc8429b8c71dcf2e6437b0a94a5f5778112f1ebbf4486b337bf83f072db8bf",
+      "command": {
+        "actor": {
+          "model": "none invoked",
+          "name": "Work Aiden",
+          "runtime": "supplied evidence arrival review"
+        },
+        "branch_id": "B0",
+        "event_id": "CEM-FIRST-ARRIVAL-2",
+        "expected_revision": 1,
+        "kind": "step",
+        "node": "ARRIVAL",
+        "output": {
+          "arrival": {
+            "from": "examples/evidence-arrival/camp-east-montana/observations.json",
+            "id": "ARR-b49956007a62ad5702ff39b3",
+            "payload": {
+              "authority": "Queue only; no model, Governor, canonical admission or assessment change.",
+              "content_sha256": "fdfbbdbbcf2e6e29664346bdc4b54968213c5793c8f2c9ad619364605d9a6876",
+              "handoff_id": "ARR-b49956007a62ad5702ff39b3",
+              "item_id": "GAO-26-108886",
+              "lane": "live",
+              "lineage_id": "GAO-26-108886",
+              "observation_id": "CEM-LIVE-001",
+              "question_id": "Q-CEM-TB-CORRECTION",
+              "reason": "new visible product-text version; meaning not assessed",
+              "receipt": {
+                "path": "examples/evidence-arrival/camp-east-montana/live/operations/week-one/runs/CEM-FIRST-ARRIVAL/api/0001.json",
+                "sha256": "833e55615f49292f3456cd16e1c131883fa5b6cb48c089321b0cce2b2982b1d7"
+              },
+              "source_family": "GAO ICE detention expansion2025–2026",
+              "source_id": "GAO-CEM-STATUS",
+              "status": "awaiting_review",
+              "temporal_validity": {
+                "event_at": null,
+                "expected_update_cadence": null,
+                "http_last_modified": "Wed, 14 Oct 2026 16:58:51 GMT",
+                "last_observed_version_at": "2026-10-14T17:45:15.166200+00:00",
+                "observability": "partial; public product surface only",
+                "publication_basis": "Retained C01 metadata; not a new observation date.",
+                "published_at": "2026-06-09",
+                "retrieved_at": "2026-10-14T17:45:15.166200+00:00",
+                "stale_after": null,
+                "staleness_consequence": "Recommendation progress may change; this page cannot certify every facility safeguard.",
+                "updated_at": null
+              },
+              "url": "https://www.gao.gov/products/gao-26-108886"
+            },
+            "to": "INIT:ROOT-0001"
+          },
+          "language_glance": {
+            "basis": "participant_supplied",
+            "issuing_office": "GAO",
+            "languages": [
+              "en"
+            ],
+            "note": "Full received public HTML; one GAO family.",
+            "source_refs": [
+              "S-CEM-ARRIVAL-20261014"
+            ],
+            "surface_kind": "summary"
+          }
+        }
+      },
+      "decision": {
+        "next_node": "EPIST",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-10-14T17:49:43.759065+00:00"
+    },
+    {
+      "after": "dc636261fbf5c945752e91ad393223faadc30ddea3f006c849600b7dcfdb1c67",
+      "before": "7d3494ed7d982d20e590490adda5138284c2867ba5e18bf776bdc4e5acae8631",
+      "command": {
+        "actor": {
+          "model": "none invoked",
+          "name": "Work Aiden",
+          "runtime": "supplied evidence arrival review"
+        },
+        "branch_id": "B0",
+        "event_id": "CEM-FIRST-ARRIVAL-3",
+        "expected_revision": 2,
+        "kind": "step",
+        "node": "EPIST",
+        "output": {
+          "prompt": "Does this page verify TB correction?",
+          "starting_state": "Awaiting separate review; content change is not a finding."
+        }
+      },
+      "decision": {
+        "next_node": "FUNC",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-10-14T17:49:43.759065+00:00"
+    },
+    {
+      "after": "798ac9ca1c996d0557067ab6024aef10685e95cdb7d1772a165aa6a1063a0b29",
+      "before": "dc636261fbf5c945752e91ad393223faadc30ddea3f006c849600b7dcfdb1c67",
+      "command": {
+        "actor": {
+          "model": "none invoked",
+          "name": "Work Aiden",
+          "runtime": "supplied evidence arrival review"
+        },
+        "branch_id": "B0",
+        "event_id": "CEM-FIRST-ARRIVAL-4",
+        "expected_revision": 3,
+        "kind": "step",
+        "node": "FUNC",
+        "output": {
+          "function": "Review a bounded recommendation-status arrival",
+          "review": {
+            "base_entries_sha256": "1923993bfaf5d128f08c7453b957718fd93442142b3be046c973ebf16ca9627b",
+            "base_entry_count": "4",
+            "classification": "recommendation_status",
+            "continuity": {
+              "assessment_sha256": "44e7bed61a4a3749d4f5a270168332e40dea33a4d6054f81b0b52e10fda8fb90",
+              "disposition": "unchanged",
+              "reason": "The new recommendation-status observation does not revise the Army contracting authority or October 2025 ICE administration handoff; no new causal connection is inferred.",
+              "relationship_id": "REL-CEM-ARMY-ICE"
+            },
+            "contrary_evidence": "Agency responses and Army planning documentation contradict an inference of complete inactivity, but do not verify implementation or protective outcomes. Future end2026 milestones are not overdue at retrieval.",
+            "disposition": "accepted_with_limits",
+            "evidence_id": "CEM-LIVE-STATUS-20261014",
+            "evidence_review": {
+              "path": "reports/evidence-arrival/EVIDENCE_REVIEW.json",
+              "sha256": "3abb508bf8613f741f4700f3f1fb692e880c6e637840aaaf316a6e522df4cdab"
+            },
+            "handoff_id": "ARR-b49956007a62ad5702ff39b3",
+            "intake_sha256": "294aba8e7d37521f8109203bc26e0455ad7100ddb3249c290a54a31c0b9eec6b",
+            "reason": "Reviewed full new HTTP receipt with camp_review: append recommendation-status observation, preserve all prior evidence and contrary assessments, retain documented historical failure and UNKNOWN effectiveness. One official-page test cannot establish absence of records elsewhere.",
+            "residual": "No dated requirement-specific verification of TB intake testing/notification or protective result in the one received page. No inference of absent records/correction elsewhere.",
+            "reviewed_at": "2026-10-14T17:49:43.759065+00:00",
+            "reviewer": "Work Aiden",
+            "revision_entry_sha256": "f1c62844fd2106a035eee24d338f4c8f33207626744f9b4719437be3052a39e9",
+            "safeguard_id": "SG-CEM-INSPECTIONS",
+            "source_ref": "S-CEM-ARRIVAL-20261014",
+            "version": "arrival-review-1"
+          },
+          "task": "Q-CEM-TB-CORRECTION"
+        }
+      },
+      "decision": {
+        "next_node": "MIRROR",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-10-14T17:49:43.759065+00:00"
+    },
+    {
+      "after": "70afa02756f8a2ca555a246186b036fea1e2d29eab2d0d8cb90bc199e17ccc34",
+      "before": "798ac9ca1c996d0557067ab6024aef10685e95cdb7d1772a165aa6a1063a0b29",
+      "command": {
+        "actor": {
+          "model": "none invoked",
+          "name": "Work Aiden",
+          "runtime": "supplied evidence arrival review"
+        },
+        "branch_id": "B0",
+        "event_id": "CEM-FIRST-ARRIVAL-5",
+        "expected_revision": 4,
+        "kind": "step",
+        "node": "MIRROR",
+        "output": {
+          "comparisons": [
+            {
+              "answers": [],
+              "explanation": "Agency responses and Army planning documentation contradict an inference of complete inactivity, but do not verify implementation or protective outcomes. Future end2026 milestones are not overdue at retrieval.",
+              "queries": []
+            }
+          ],
+          "information_lineage": {
+            "api_record_refs": [
+              "examples/evidence-arrival/camp-east-montana/live/operations/week-one/runs/CEM-FIRST-ARRIVAL/api/0001.json"
+            ],
+            "criteria_refs": [
+              "examples/evidence-arrival/camp-east-montana/reviewed-revision.json"
+            ],
+            "parent_answer_visible": true,
+            "parent_output_refs": [
+              "examples/evidence-arrival/camp-east-montana/live/operations/week-one/runs/CEM-FIRST-ARRIVAL/api/0001.json"
+            ],
+            "source_refs": [
+              "S-CEM-ARRIVAL-20261014"
+            ],
+            "test_origin": "inherited"
+          }
+        }
+      },
+      "decision": {
+        "next_node": "CROSS",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-10-14T17:49:43.759065+00:00"
+    },
+    {
+      "after": "98b4b83341fc1f10eb5a457d3d0603783ceb922a6b2bbc4b168002f345b3f7eb",
+      "before": "70afa02756f8a2ca555a246186b036fea1e2d29eab2d0d8cb90bc199e17ccc34",
+      "command": {
+        "actor": {
+          "model": "none invoked",
+          "name": "Work Aiden",
+          "runtime": "supplied evidence arrival review"
+        },
+        "branch_id": "B0",
+        "event_id": "CEM-FIRST-ARRIVAL-6",
+        "expected_revision": 5,
+        "kind": "step",
+        "node": "CROSS",
+        "output": {
+          "bridge": [],
+          "independent": [],
+          "inherited": [
+            {
+              "ref": "S-CEM-ARRIVAL-20261014",
+              "status": "same GAO lineage"
+            }
+          ]
+        }
+      },
+      "decision": {
+        "next_node": "RESID",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-10-14T17:49:43.759065+00:00"
+    },
+    {
+      "after": "74441a2d3469ca2ae80c4e220c23add02c3277d867dff0b2b3022c23731a7fd4",
+      "before": "98b4b83341fc1f10eb5a457d3d0603783ceb922a6b2bbc4b168002f345b3f7eb",
+      "command": {
+        "actor": {
+          "model": "none invoked",
+          "name": "Work Aiden",
+          "runtime": "supplied evidence arrival review"
+        },
+        "branch_id": "B0",
+        "event_id": "CEM-FIRST-ARRIVAL-7",
+        "expected_revision": 6,
+        "kind": "step",
+        "node": "RESID",
+        "output": {
+          "predicates": {
+            "consequential": true,
+            "distinct_functions": false,
+            "language_exception": null
+          },
+          "summary": "UNKNOWN: no qualifying TB verification in the one received product page."
+        }
+      },
+      "decision": {
+        "next_node": "MEAN",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-10-14T17:49:43.759065+00:00"
+    },
+    {
+      "after": "ab2121b7c602bca27c69e09f0bb283f08761253cd922c493df6df5f2735b8434",
+      "before": "74441a2d3469ca2ae80c4e220c23add02c3277d867dff0b2b3022c23731a7fd4",
+      "command": {
+        "actor": {
+          "model": "none invoked",
+          "name": "Work Aiden",
+          "runtime": "supplied evidence arrival review"
+        },
+        "branch_id": "B0",
+        "event_id": "CEM-FIRST-ARRIVAL-8",
+        "expected_revision": 7,
+        "kind": "step",
+        "node": "MEAN",
+        "output": {
+          "dimensions": {
+            "effectiveness": "unknown",
+            "failure": "documented",
+            "formal": "documented",
+            "operational": {
+              "authority": "partial",
+              "people": "partial",
+              "procedures": "partial"
+            }
+          },
+          "summary": "Reviewed full new HTTP receipt with camp_review: append recommendation-status observation, preserve all prior evidence and contrary assessments, retain documented historical failure and UNKNOWN effectiveness. One official-page test cannot establish absence of records elsewhere."
+        }
+      },
+      "decision": {
+        "next_node": "EXIT",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-10-14T17:49:43.759065+00:00"
+    },
+    {
+      "after": "b6cf87c5056cff93aced366bdf16fdd0b3a8e7b5472f85fdaf682a8734e00a2f",
+      "before": "ab2121b7c602bca27c69e09f0bb283f08761253cd922c493df6df5f2735b8434",
+      "command": {
+        "actor": {
+          "model": "none invoked",
+          "name": "Work Aiden",
+          "runtime": "supplied evidence arrival review"
+        },
+        "branch_id": "B0",
+        "event_id": "CEM-FIRST-ARRIVAL-9",
+        "expected_revision": 8,
+        "kind": "step",
+        "node": "EXIT",
+        "output": {
+          "kind": "question",
+          "summary": "Jared may review the narrow unsent FOIA draft; no request is sent."
+        }
+      },
+      "decision": {
+        "next_node": "RETURN",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-10-14T17:49:43.759065+00:00"
+    },
+    {
+      "after": "d2f9dcf4e15a0d1f62d6ec35673e21904c5a3bb0e8b9ebc1244190bb306cf9e4",
+      "before": "b6cf87c5056cff93aced366bdf16fdd0b3a8e7b5472f85fdaf682a8734e00a2f",
+      "command": {
+        "actor": {
+          "model": "none invoked",
+          "name": "Work Aiden",
+          "runtime": "supplied evidence arrival review"
+        },
+        "branch_id": "B0",
+        "event_id": "CEM-FIRST-ARRIVAL-10",
+        "expected_revision": 9,
+        "kind": "step",
+        "node": "RETURN",
+        "output": {
+          "new_arrival": null,
+          "reason": "One-source budget reached; rest pending a separately approved record."
+        }
+      },
+      "decision": {
+        "reason": "No new arrival supplied",
+        "status": "rest"
+      },
+      "recorded_at": "2026-10-14T17:49:43.759065+00:00"
+    }
+  ],
+  "initial": {
+    "config": {
+      "authority": "Reviewed configuration determines eligible routes. Supplied content cannot edit this graph or activate morphology.",
+      "grammar": {
+        "crosscheck": {
+          "basic": "Collector capability",
+          "consequential_residual": "May request or propose teleport to a bounded Pygent Collector/specialist",
+          "permanent_crosscheck_bee": "Unresolved pending repeated cases showing the value of persistent specialist memory"
+        },
+        "entry": "INIT:ROOT-0001",
+        "external_execution": false,
+        "governor_input_refs": [
+          "daily_scroll",
+          "reflection_mailbox",
+          "meaning_tower",
+          "chair_imagination",
+          "meaning_boss_result"
+        ],
+        "routes": [
+          {
+            "automatic_execution": false,
+            "from": "INIT:RESID-0007",
+            "status": "available_not_running",
+            "to": "INIT:RETURN-0010",
+            "via": "PYGENT:PARALLAX-0001"
+          }
+        ],
+        "schema_version": "garden-config-0.1",
+        "status": "on_demand_grammar_prototype",
+        "trees": {
+          "INIT": {
+            "name": "Initiating Garden",
+            "nodes": [
+              {
+                "id": "ROOT-0001",
+                "purpose": "Pass name and identity"
+              },
+              {
+                "id": "ARRIVAL-0002",
+                "purpose": "What arrived, from where, sent to where"
+              },
+              {
+                "id": "EPIST-0003",
+                "purpose": "Prompt/question and starting epistemic state"
+              },
+              {
+                "id": "FUNC-0004",
+                "purpose": "Task and function being investigated"
+              },
+              {
+                "id": "MIRROR-0005",
+                "purpose": "Competing explanations, queries and recorded answers"
+              },
+              {
+                "id": "CROSS-0006",
+                "purpose": "Inherited, independently derived and deliberate bridge attachments"
+              },
+              {
+                "id": "RESID-0007",
+                "purpose": "Surviving residual and bounded specialist proposal"
+              },
+              {
+                "id": "MEAN-0008",
+                "purpose": "Changed meaning and non-evidence culture flower"
+              },
+              {
+                "id": "EXIT-0009",
+                "purpose": "Bounded answer, question, teleport, silence or error"
+              },
+              {
+                "id": "RETURN-0010",
+                "purpose": "New linked arrival or rest"
+              }
+            ]
+          },
+          "PYGENT": {
+            "name": "Bounded specialist destinations",
+            "nodes": [
+              {
+                "id": "PARALLAX-0001",
+                "purpose": "One bounded matched official-language Boss Packet",
+                "role": "parallax_collector_bee",
+                "status": "available_not_running"
+              }
+            ]
+          }
+        }
+      },
+      "independence": "A different branch, tree, context or model is not independent empirical evidence.",
+      "limits": {
+        "max_branches": 8,
+        "max_events": 128,
+        "max_fanout": 3,
+        "max_steps": 80,
+        "model_calls": 0
+      },
+      "model_execution": false,
+      "node_contracts": {
+        "ARRIVAL": {
+          "objects": [
+            "arrival",
+            "language_glance"
+          ]
+        },
+        "CROSS": {
+          "lists": [
+            "inherited",
+            "independent",
+            "bridge"
+          ]
+        },
+        "EPIST": {
+          "strings": [
+            "prompt",
+            "starting_state"
+          ]
+        },
+        "EXIT": {
+          "strings": [
+            "kind",
+            "summary"
+          ]
+        },
+        "FUNC": {
+          "strings": [
+            "task",
+            "function"
+          ]
+        },
+        "MEAN": {
+          "strings": [
+            "summary"
+          ]
+        },
+        "MIRROR": {
+          "lists": [
+            "comparisons"
+          ],
+          "objects": [
+            "information_lineage"
+          ]
+        },
+        "RESID": {
+          "objects": [
+            "predicates"
+          ],
+          "strings": [
+            "summary"
+          ]
+        },
+        "RETURN": {
+          "strings": [
+            "reason"
+          ]
+        },
+        "ROOT": {
+          "strings": [
+            "name"
+          ]
+        }
+      },
+      "rules": [
+        {
+          "actions": [
+            "MOVE",
+            "CLONE"
+          ],
+          "at": [
+            "RESID",
+            "MEAN",
+            "EXIT",
+            "RETURN"
+          ],
+          "condition": {
+            "members": [
+              "consequential",
+              "language_exception"
+            ],
+            "op": "AND"
+          },
+          "from": [
+            "INIT",
+            "ECONOMICS",
+            "PRODUCTION",
+            "DIPLOMACY",
+            "LANGUAGE",
+            "CUSTOMS",
+            "HOMELESSNESS"
+          ],
+          "id": "LANGUAGE-EXCEPTION",
+          "review_required": false,
+          "to": [
+            "LANGUAGE"
+          ]
+        },
+        {
+          "actions": [
+            "MOVE",
+            "CLONE",
+            "FANOUT"
+          ],
+          "at": [
+            "RESID",
+            "MEAN",
+            "EXIT",
+            "RETURN"
+          ],
+          "condition": {
+            "members": [
+              "consequential",
+              "distinct_functions"
+            ],
+            "op": "AND"
+          },
+          "from": [
+            "INIT",
+            "ECONOMICS",
+            "PRODUCTION",
+            "DIPLOMACY",
+            "LANGUAGE",
+            "CUSTOMS",
+            "HOMELESSNESS"
+          ],
+          "id": "DOMAIN-BRANCH",
+          "review_required": true,
+          "to": [
+            "INIT",
+            "ECONOMICS",
+            "PRODUCTION",
+            "DIPLOMACY",
+            "LANGUAGE",
+            "CUSTOMS",
+            "HOMELESSNESS"
+          ]
+        }
+      ],
+      "schema_version": "garden-traversal-config-1",
+      "status": "supplied_content_runtime",
+      "trees": {
+        "CUSTOMS": {
+          "name": "Customs Authority",
+          "node_template": "INIT",
+          "status": "traversable_with_supplied_content"
+        },
+        "DIPLOMACY": {
+          "name": "Diplomacy",
+          "node_template": "INIT",
+          "status": "traversable_with_supplied_content"
+        },
+        "ECONOMICS": {
+          "name": "Economics",
+          "node_template": "INIT",
+          "status": "traversable_with_supplied_content"
+        },
+        "HOMELESSNESS": {
+          "name": "Homelessness Governance and Integrity",
+          "node_template": "INIT",
+          "status": "traversable_with_supplied_content"
+        },
+        "INIT": {
+          "name": "Initiating Garden",
+          "node_template": "INIT",
+          "status": "traversable_with_supplied_content"
+        },
+        "LANGUAGE": {
+          "name": "Language Exception",
+          "node_template": "INIT",
+          "status": "traversable_with_supplied_content"
+        },
+        "PRODUCTION": {
+          "name": "Production",
+          "node_template": "INIT",
+          "status": "traversable_with_supplied_content"
+        }
+      }
+    },
+    "packet": {
+      "actor": {
+        "model": "none invoked",
+        "name": "Work Aiden",
+        "runtime": "supplied evidence arrival review"
+      },
+      "arrival": {
+        "from": "examples/evidence-arrival/camp-east-montana/observations.json",
+        "id": "ARR-b49956007a62ad5702ff39b3",
+        "payload": {
+          "authority": "Queue only; no model, Governor, canonical admission or assessment change.",
+          "content_sha256": "fdfbbdbbcf2e6e29664346bdc4b54968213c5793c8f2c9ad619364605d9a6876",
+          "handoff_id": "ARR-b49956007a62ad5702ff39b3",
+          "item_id": "GAO-26-108886",
+          "lane": "live",
+          "lineage_id": "GAO-26-108886",
+          "observation_id": "CEM-LIVE-001",
+          "question_id": "Q-CEM-TB-CORRECTION",
+          "reason": "new visible product-text version; meaning not assessed",
+          "receipt": {
+            "path": "examples/evidence-arrival/camp-east-montana/live/operations/week-one/runs/CEM-FIRST-ARRIVAL/api/0001.json",
+            "sha256": "833e55615f49292f3456cd16e1c131883fa5b6cb48c089321b0cce2b2982b1d7"
+          },
+          "source_family": "GAO ICE detention expansion2025–2026",
+          "source_id": "GAO-CEM-STATUS",
+          "status": "awaiting_review",
+          "temporal_validity": {
+            "event_at": null,
+            "expected_update_cadence": null,
+            "http_last_modified": "Wed, 14 Oct 2026 16:58:51 GMT",
+            "last_observed_version_at": "2026-10-14T17:45:15.166200+00:00",
+            "observability": "partial; public product surface only",
+            "publication_basis": "Retained C01 metadata; not a new observation date.",
+            "published_at": "2026-06-09",
+            "retrieved_at": "2026-10-14T17:45:15.166200+00:00",
+            "stale_after": null,
+            "staleness_consequence": "Recommendation progress may change; this page cannot certify every facility safeguard.",
+            "updated_at": null
+          },
+          "url": "https://www.gao.gov/products/gao-26-108886"
+        },
+        "to": "INIT:ROOT-0001"
+      },
+      "budget": {
+        "max_branches": 1,
+        "max_events": 10,
+        "max_fanout": 0,
+        "max_steps": 10,
+        "model_calls": 0
+      },
+      "epoch": 1,
+      "focus": "One post-transition TB correction test",
+      "question_id": "Q-CEM-TB-CORRECTION",
+      "run_id": "CEM-FIRST-ARRIVAL",
+      "sources": [
+        {
+          "kind": "public_source",
+          "lineage_id": "GAO ICE detention expansion2025–2026",
+          "receipt": {
+            "path": "examples/evidence-arrival/camp-east-montana/live/operations/week-one/runs/CEM-FIRST-ARRIVAL/api/0001.json",
+            "sha256": "833e55615f49292f3456cd16e1c131883fa5b6cb48c089321b0cce2b2982b1d7"
+          },
+          "ref": "S-CEM-ARRIVAL-20261014"
+        }
+      ],
+      "status": "case-local reviewed observation; shared Question and old Camp pass unchanged",
+      "tree": "INIT"
+    },
+    "registry": {
+      "questions": {
+        "Q-CEM-TB-CORRECTION": {
+          "epoch": 1
+        }
+      }
+    }
+  },
+  "schema_version": "garden-traversal-1",
+  "state": {
+    "branches": {
+      "B0": {
+        "epoch": 1,
+        "focus": "One post-transition TB correction test",
+        "id": "B0",
+        "lineage": {
+          "independent_evidence": false,
+          "source_refs": [
+            "S-CEM-ARRIVAL-20261014"
+          ]
+        },
+        "parent_branch": null,
+        "question_id": "Q-CEM-TB-CORRECTION",
+        "rest": {
+          "kind": "return",
+          "reason": "No new arrival supplied"
+        },
+        "root_branch": "B0",
+        "seen_arrival_ids": [
+          "ARR-b49956007a62ad5702ff39b3"
+        ],
+        "status": "resting",
+        "visited": [
+          {
+            "payload_hash": "26454abd618e97dba8109d12ee442cffc331c60224f709fff5695fa5030d43e1",
+            "tree": "INIT"
+          }
+        ],
+        "visits": [
+          {
+            "arrival": {
+              "from": "examples/evidence-arrival/camp-east-montana/observations.json",
+              "id": "ARR-b49956007a62ad5702ff39b3",
+              "payload": {
+                "authority": "Queue only; no model, Governor, canonical admission or assessment change.",
+                "content_sha256": "fdfbbdbbcf2e6e29664346bdc4b54968213c5793c8f2c9ad619364605d9a6876",
+                "handoff_id": "ARR-b49956007a62ad5702ff39b3",
+                "item_id": "GAO-26-108886",
+                "lane": "live",
+                "lineage_id": "GAO-26-108886",
+                "observation_id": "CEM-LIVE-001",
+                "question_id": "Q-CEM-TB-CORRECTION",
+                "reason": "new visible product-text version; meaning not assessed",
+                "receipt": {
+                  "path": "examples/evidence-arrival/camp-east-montana/live/operations/week-one/runs/CEM-FIRST-ARRIVAL/api/0001.json",
+                  "sha256": "833e55615f49292f3456cd16e1c131883fa5b6cb48c089321b0cce2b2982b1d7"
+                },
+                "source_family": "GAO ICE detention expansion2025–2026",
+                "source_id": "GAO-CEM-STATUS",
+                "status": "awaiting_review",
+                "temporal_validity": {
+                  "event_at": null,
+                  "expected_update_cadence": null,
+                  "http_last_modified": "Wed, 14 Oct 2026 16:58:51 GMT",
+                  "last_observed_version_at": "2026-10-14T17:45:15.166200+00:00",
+                  "observability": "partial; public product surface only",
+                  "publication_basis": "Retained C01 metadata; not a new observation date.",
+                  "published_at": "2026-06-09",
+                  "retrieved_at": "2026-10-14T17:45:15.166200+00:00",
+                  "stale_after": null,
+                  "staleness_consequence": "Recommendation progress may change; this page cannot certify every facility safeguard.",
+                  "updated_at": null
+                },
+                "url": "https://www.gao.gov/products/gao-26-108886"
+              },
+              "to": "INIT:ROOT-0001"
+            },
+            "status": "completed",
+            "steps": [
+              {
+                "actor": {
+                  "model": "none invoked",
+                  "name": "Work Aiden",
+                  "runtime": "supplied evidence arrival review"
+                },
+                "event_id": "CEM-FIRST-ARRIVAL-1",
+                "node": "ROOT",
+                "output": {
+                  "name": "First Camp TB evidence arrival"
+                }
+              },
+              {
+                "actor": {
+                  "model": "none invoked",
+                  "name": "Work Aiden",
+                  "runtime": "supplied evidence arrival review"
+                },
+                "event_id": "CEM-FIRST-ARRIVAL-2",
+                "node": "ARRIVAL",
+                "output": {
+                  "arrival": {
+                    "from": "examples/evidence-arrival/camp-east-montana/observations.json",
+                    "id": "ARR-b49956007a62ad5702ff39b3",
+                    "payload": {
+                      "authority": "Queue only; no model, Governor, canonical admission or assessment change.",
+                      "content_sha256": "fdfbbdbbcf2e6e29664346bdc4b54968213c5793c8f2c9ad619364605d9a6876",
+                      "handoff_id": "ARR-b49956007a62ad5702ff39b3",
+                      "item_id": "GAO-26-108886",
+                      "lane": "live",
+                      "lineage_id": "GAO-26-108886",
+                      "observation_id": "CEM-LIVE-001",
+                      "question_id": "Q-CEM-TB-CORRECTION",
+                      "reason": "new visible product-text version; meaning not assessed",
+                      "receipt": {
+                        "path": "examples/evidence-arrival/camp-east-montana/live/operations/week-one/runs/CEM-FIRST-ARRIVAL/api/0001.json",
+                        "sha256": "833e55615f49292f3456cd16e1c131883fa5b6cb48c089321b0cce2b2982b1d7"
+                      },
+                      "source_family": "GAO ICE detention expansion2025–2026",
+                      "source_id": "GAO-CEM-STATUS",
+                      "status": "awaiting_review",
+                      "temporal_validity": {
+                        "event_at": null,
+                        "expected_update_cadence": null,
+                        "http_last_modified": "Wed, 14 Oct 2026 16:58:51 GMT",
+                        "last_observed_version_at": "2026-10-14T17:45:15.166200+00:00",
+                        "observability": "partial; public product surface only",
+                        "publication_basis": "Retained C01 metadata; not a new observation date.",
+                        "published_at": "2026-06-09",
+                        "retrieved_at": "2026-10-14T17:45:15.166200+00:00",
+                        "stale_after": null,
+                        "staleness_consequence": "Recommendation progress may change; this page cannot certify every facility safeguard.",
+                        "updated_at": null
+                      },
+                      "url": "https://www.gao.gov/products/gao-26-108886"
+                    },
+                    "to": "INIT:ROOT-0001"
+                  },
+                  "language_glance": {
+                    "basis": "participant_supplied",
+                    "issuing_office": "GAO",
+                    "languages": [
+                      "en"
+                    ],
+                    "note": "Full received public HTML; one GAO family.",
+                    "source_refs": [
+                      "S-CEM-ARRIVAL-20261014"
+                    ],
+                    "surface_kind": "summary"
+                  }
+                }
+              },
+              {
+                "actor": {
+                  "model": "none invoked",
+                  "name": "Work Aiden",
+                  "runtime": "supplied evidence arrival review"
+                },
+                "event_id": "CEM-FIRST-ARRIVAL-3",
+                "node": "EPIST",
+                "output": {
+                  "prompt": "Does this page verify TB correction?",
+                  "starting_state": "Awaiting separate review; content change is not a finding."
+                }
+              },
+              {
+                "actor": {
+                  "model": "none invoked",
+                  "name": "Work Aiden",
+                  "runtime": "supplied evidence arrival review"
+                },
+                "event_id": "CEM-FIRST-ARRIVAL-4",
+                "node": "FUNC",
+                "output": {
+                  "function": "Review a bounded recommendation-status arrival",
+                  "review": {
+                    "base_entries_sha256": "1923993bfaf5d128f08c7453b957718fd93442142b3be046c973ebf16ca9627b",
+                    "base_entry_count": "4",
+                    "classification": "recommendation_status",
+                    "continuity": {
+                      "assessment_sha256": "44e7bed61a4a3749d4f5a270168332e40dea33a4d6054f81b0b52e10fda8fb90",
+                      "disposition": "unchanged",
+                      "reason": "The new recommendation-status observation does not revise the Army contracting authority or October 2025 ICE administration handoff; no new causal connection is inferred.",
+                      "relationship_id": "REL-CEM-ARMY-ICE"
+                    },
+                    "contrary_evidence": "Agency responses and Army planning documentation contradict an inference of complete inactivity, but do not verify implementation or protective outcomes. Future end2026 milestones are not overdue at retrieval.",
+                    "disposition": "accepted_with_limits",
+                    "evidence_id": "CEM-LIVE-STATUS-20261014",
+                    "evidence_review": {
+                      "path": "reports/evidence-arrival/EVIDENCE_REVIEW.json",
+                      "sha256": "3abb508bf8613f741f4700f3f1fb692e880c6e637840aaaf316a6e522df4cdab"
+                    },
+                    "handoff_id": "ARR-b49956007a62ad5702ff39b3",
+                    "intake_sha256": "294aba8e7d37521f8109203bc26e0455ad7100ddb3249c290a54a31c0b9eec6b",
+                    "reason": "Reviewed full new HTTP receipt with camp_review: append recommendation-status observation, preserve all prior evidence and contrary assessments, retain documented historical failure and UNKNOWN effectiveness. One official-page test cannot establish absence of records elsewhere.",
+                    "residual": "No dated requirement-specific verification of TB intake testing/notification or protective result in the one received page. No inference of absent records/correction elsewhere.",
+                    "reviewed_at": "2026-10-14T17:49:43.759065+00:00",
+                    "reviewer": "Work Aiden",
+                    "revision_entry_sha256": "f1c62844fd2106a035eee24d338f4c8f33207626744f9b4719437be3052a39e9",
+                    "safeguard_id": "SG-CEM-INSPECTIONS",
+                    "source_ref": "S-CEM-ARRIVAL-20261014",
+                    "version": "arrival-review-1"
+                  },
+                  "task": "Q-CEM-TB-CORRECTION"
+                }
+              },
+              {
+                "actor": {
+                  "model": "none invoked",
+                  "name": "Work Aiden",
+                  "runtime": "supplied evidence arrival review"
+                },
+                "event_id": "CEM-FIRST-ARRIVAL-5",
+                "node": "MIRROR",
+                "output": {
+                  "comparisons": [
+                    {
+                      "answers": [],
+                      "explanation": "Agency responses and Army planning documentation contradict an inference of complete inactivity, but do not verify implementation or protective outcomes. Future end2026 milestones are not overdue at retrieval.",
+                      "queries": []
+                    }
+                  ],
+                  "information_lineage": {
+                    "api_record_refs": [
+                      "examples/evidence-arrival/camp-east-montana/live/operations/week-one/runs/CEM-FIRST-ARRIVAL/api/0001.json"
+                    ],
+                    "criteria_refs": [
+                      "examples/evidence-arrival/camp-east-montana/reviewed-revision.json"
+                    ],
+                    "parent_answer_visible": true,
+                    "parent_output_refs": [
+                      "examples/evidence-arrival/camp-east-montana/live/operations/week-one/runs/CEM-FIRST-ARRIVAL/api/0001.json"
+                    ],
+                    "source_refs": [
+                      "S-CEM-ARRIVAL-20261014"
+                    ],
+                    "test_origin": "inherited"
+                  }
+                }
+              },
+              {
+                "actor": {
+                  "model": "none invoked",
+                  "name": "Work Aiden",
+                  "runtime": "supplied evidence arrival review"
+                },
+                "event_id": "CEM-FIRST-ARRIVAL-6",
+                "node": "CROSS",
+                "output": {
+                  "bridge": [],
+                  "independent": [],
+                  "inherited": [
+                    {
+                      "ref": "S-CEM-ARRIVAL-20261014",
+                      "status": "same GAO lineage"
+                    }
+                  ]
+                }
+              },
+              {
+                "actor": {
+                  "model": "none invoked",
+                  "name": "Work Aiden",
+                  "runtime": "supplied evidence arrival review"
+                },
+                "event_id": "CEM-FIRST-ARRIVAL-7",
+                "node": "RESID",
+                "output": {
+                  "predicates": {
+                    "consequential": true,
+                    "distinct_functions": false,
+                    "language_exception": null
+                  },
+                  "summary": "UNKNOWN: no qualifying TB verification in the one received product page."
+                }
+              },
+              {
+                "actor": {
+                  "model": "none invoked",
+                  "name": "Work Aiden",
+                  "runtime": "supplied evidence arrival review"
+                },
+                "event_id": "CEM-FIRST-ARRIVAL-8",
+                "node": "MEAN",
+                "output": {
+                  "dimensions": {
+                    "effectiveness": "unknown",
+                    "failure": "documented",
+                    "formal": "documented",
+                    "operational": {
+                      "authority": "partial",
+                      "people": "partial",
+                      "procedures": "partial"
+                    }
+                  },
+                  "summary": "Reviewed full new HTTP receipt with camp_review: append recommendation-status observation, preserve all prior evidence and contrary assessments, retain documented historical failure and UNKNOWN effectiveness. One official-page test cannot establish absence of records elsewhere."
+                }
+              },
+              {
+                "actor": {
+                  "model": "none invoked",
+                  "name": "Work Aiden",
+                  "runtime": "supplied evidence arrival review"
+                },
+                "event_id": "CEM-FIRST-ARRIVAL-9",
+                "node": "EXIT",
+                "output": {
+                  "kind": "question",
+                  "summary": "Jared may review the narrow unsent FOIA draft; no request is sent."
+                }
+              },
+              {
+                "actor": {
+                  "model": "none invoked",
+                  "name": "Work Aiden",
+                  "runtime": "supplied evidence arrival review"
+                },
+                "event_id": "CEM-FIRST-ARRIVAL-10",
+                "node": "RETURN",
+                "output": {
+                  "new_arrival": null,
+                  "reason": "One-source budget reached; rest pending a separately approved record."
+                }
+              }
+            ],
+            "tree": "INIT"
+          }
+        ]
+      }
+    },
+    "epoch": 1,
+    "limits": {
+      "max_branches": 1,
+      "max_events": 10,
+      "max_fanout": 0,
+      "max_steps": 10,
+      "model_calls": 0
+    },
+    "question_id": "Q-CEM-TB-CORRECTION",
+    "revision": 10,
+    "route_decisions": [],
+    "route_signatures": [],
+    "run_id": "CEM-FIRST-ARRIVAL",
+    "sources": {
+      "S-CEM-ARRIVAL-20261014": {
+        "kind": "public_source",
+        "lineage_id": "GAO ICE detention expansion2025–2026",
+        "receipt": {
+          "path": "examples/evidence-arrival/camp-east-montana/live/operations/week-one/runs/CEM-FIRST-ARRIVAL/api/0001.json",
+          "sha256": "833e55615f49292f3456cd16e1c131883fa5b6cb48c089321b0cce2b2982b1d7"
+        },
+        "ref": "S-CEM-ARRIVAL-20261014"
+      }
+    },
+    "used": {
+      "branches": 1,
+      "model_calls": 0,
+      "steps": 10
+    }
+  },
+  "state_sha256": "d2f9dcf4e15a0d1f62d6ec35673e21904c5a3bb0e8b9ebc1244190bb306cf9e4"
+}

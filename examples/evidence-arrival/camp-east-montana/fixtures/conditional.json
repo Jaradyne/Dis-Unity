@@ -1,0 +1,52 @@
+{
+  "body_from": null,
+  "exchange": {
+    "finished_at": "2026-10-14T19:00:01+00:00",
+    "record_id": "SIMULATED-conditional",
+    "redaction": {
+      "policy": "Synthetic fixture, no real request.",
+      "replacement_count": 0
+    },
+    "request": {
+      "body": null,
+      "headers": [
+        [
+          "User-agent",
+          "Dis-Unity-Bounded-Public-Read/1.0"
+        ],
+        [
+          "Accept",
+          "text/html"
+        ],
+        [
+          "If-none-match",
+          "\"1791997131-gzip\""
+        ]
+      ],
+      "method": "GET",
+      "url": "https://www.gao.gov/products/gao-26-108886"
+    },
+    "response": {
+      "body": {
+        "complete": true,
+        "content": "",
+        "encoding": "utf-8",
+        "received_bytes": 0,
+        "saved_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "headers": [
+        [
+          "Content-Type",
+          "text/html; charset=utf-8"
+        ]
+      ],
+      "http_status": 304
+    },
+    "run_id": "SIMULATED",
+    "schema_version": "api-exchange-1",
+    "started_at": "2026-10-14T19:00:00+00:00",
+    "state": "http_error"
+  },
+  "label": "SYNTHETIC TEST ONLY; never fetched and never empirical evidence.",
+  "schema_version": "arrival-fixture-receipt-1"
+}

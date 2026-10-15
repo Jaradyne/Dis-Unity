@@ -39,6 +39,8 @@ jobs:
           python examples/garden-case-studies/camp-east-montana/replay.py --check
       - name: Verify Safeguard Reality Check is reproducible
         run: python scripts/safeguards.py check
+      - name: Verify one-source evidence arrival without network
+        run: python scripts/evidence_arrival.py check
       - name: Verify portable encounter is reproducible
         run: |
           python scripts/build_meaning_tower.py
