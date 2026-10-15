@@ -46,6 +46,7 @@ def document():
         'reviewer': decision['review']['reviewer'],
         'evidenceReviewer': review['reviewer'],
         'dimensions': decision['safeguard_dimensions'],
+        'questionResult': decision['question_result'],
         'continuity': decision['review']['continuity']['disposition'],
         'counterevidence': decision['review']['contrary_evidence'],
         'residual': decision['review']['residual'],
@@ -55,6 +56,7 @@ def document():
             'review':decision['review']['evidence_review']['path'],
             'foia':'reports/evidence-arrival/FOIA_DRAFT.md',
             'handoff':'reports/evidence-arrival/DIGEST_HANDOFF.md',
+            'historicalCase':'examples/garden-case-studies/camp-east-montana/README.md',
         }.items()},
         'simulations': [{
             'id':item['observation_id'], 'classification':item['classification'],

@@ -1,0 +1,61 @@
+{
+  "audit_id": "CEM-REPORTING-20261015",
+  "base_commit": "cd8adf78a5386ac291558b6e547dcb1e737a3cf6",
+  "audit_date": "2026-10-15",
+  "latest_empirical_observation": "2026-10-14T17:45:15.166200+00:00",
+  "scope": "Retained input identity only; hashes do not validate empirical truth. No new source retrieval.",
+  "files": [
+    {
+      "path": "digestion/threshold/research/2026-10-10-postwar-ice/retrievals/gao-public-documents/api/0001.pdf",
+      "sha256": "7d5316dff4f3abd0c385a22d7a7a300ae40ceec358c16ca3ee39def202f17e85"
+    },
+    {
+      "path": "digestion/threshold/research/2026-10-10-postwar-ice/retrievals/gao-public-documents/api/0002.pdf",
+      "sha256": "07c4b2eeb319c8f565921f80ec038ef4f1865a541a0cfaf0dab4e225ccd68923"
+    },
+    {
+      "path": "reports/military-conscience-and-institutional-safeguards/ice_capacity_sources.json",
+      "sha256": "e8d68c7b9f0c0616c635a2e2c600cb58d645936237f62ffec4bb8e4c3eec7c21"
+    },
+    {
+      "path": "examples/garden-case-studies/camp-east-montana/evidence.json",
+      "sha256": "07c7a672c5304862667c734e3aa027ba877eb4a69294b45d69d81273830fb6fc"
+    },
+    {
+      "path": "examples/garden-case-studies/camp-east-montana/status-recheck.json",
+      "sha256": "6f3d07935df3f2834df04edb183d9f528726db571314b9504e8a02b30f0f712f"
+    },
+    {
+      "path": "examples/garden-case-studies/camp-east-montana/DIGEST_HANDOFF.md",
+      "sha256": "198fe9e41e45661e90b68943d24756b5afe39122cddcd22137f0f1563cb5857c"
+    },
+    {
+      "path": "examples/evidence-arrival/camp-east-montana/live/operations/week-one/runs/CEM-FIRST-ARRIVAL/api/0001.json",
+      "sha256": "833e55615f49292f3456cd16e1c131883fa5b6cb48c089321b0cce2b2982b1d7"
+    },
+    {
+      "path": "examples/evidence-arrival/camp-east-montana/observations.json",
+      "sha256": "2e922cac2cc45df4f1e14fad28e6989e503045cf3ab12a9a4bf0b21b45eeca10"
+    },
+    {
+      "path": "examples/evidence-arrival/camp-east-montana/fixtures/observations.json",
+      "sha256": "760aa3980caf61a2cb04df94077dcfa3474db8db36553a78f9aaade1f8abe2a0"
+    },
+    {
+      "path": "examples/evidence-arrival/camp-east-montana/reviewed-revision.json",
+      "sha256": "a6238ed5fee7c43de99a7648752a9cb7c9ed1167c8bc51a3126ebd83b938bbf6"
+    },
+    {
+      "path": "reports/evidence-arrival/EVIDENCE_REVIEW.json",
+      "sha256": "3abb508bf8613f741f4700f3f1fb692e880c6e637840aaaf316a6e522df4cdab"
+    },
+    {
+      "path": "operations/safeguards/journal.json",
+      "sha256": "9bce8dcb7b2142669ee128f2e9ec80a79a9b4e5714e3f0552931857813b28c03"
+    },
+    {
+      "path": "reports/evidence-arrival/FOIA_DRAFT.md",
+      "sha256": "41570c8ad582d4aadbb2768f82e7c6ded2637699b769b151f5596eeb8bf19900"
+    }
+  ]
+}
