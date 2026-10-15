@@ -6,6 +6,8 @@ Four stages explain the actual October 14 Camp East Montana receipt: receipt, de
 
 The assessment remains UNKNOWN for TB correction. This is a dated saved case, not a current facility-status display. Source, evidence-review, assessment-history and unsent FOIA links point to the exact PR #40 evidence commit, `cb4ac6a79075f92fcdef9492428d9d307661b6f2`. Links open only when selected; loading or operating the viewer makes no source requests. The original evidence and generated Garden records are not modified.
 
+The [October 15 reporting cross-check](../../reports/reporting-audit/camp-east-montana/AUDIT.md) makes the broad inspection assessment distinct from the TB-specific result. Assessment now labels its historical scope and explains that `partial` inspection capacity does not establish sampled TB compliance. Review includes dated, GAO-attributed TB findings and the contractor-response limitations, with a pinned historical-case link. The viewer's Digest link still opens the preserved October 14 version; the audit and current handoff carry the dated clarification.
+
 Build/check from the repository root:
 
 ```bash
