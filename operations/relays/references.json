@@ -1,0 +1,45 @@
+{
+  "base": {
+    "path": "operations/safeguards/references.json",
+    "sha256": "59b3e9b44a2fa136a1f6db254632303f0f7d9ee2b8cf2d6971f1c4df5609d6de"
+  },
+  "documents": {
+    "D-CARRIER-LIFELINE": {
+      "kind": "design",
+      "parent_source_ref": null,
+      "path": "handoffs/chat_aiden/2026-09-23_week-one-meaning-web-launch_7d/CARRIER_LIFELINE_BEE.md",
+      "sha256": "f3b1719c1b151abfd9c8e4e8151192e0c5583d48da94c09c256cc69adddb747f"
+    },
+    "D-DIESEL-WEB": {
+      "kind": "design",
+      "parent_source_ref": null,
+      "path": "handoffs/chat_aiden/2026-09-23_week-one-meaning-web-launch_7d/DIESEL_PRESSURE_WEB_DEMO.md",
+      "sha256": "c70758bcf8d0971e0994eb3ec5699a3d32e593611087f5d8cd2f06443f931dec"
+    },
+    "D-GAO-CEM": {
+      "kind": "artifact",
+      "parent_source_ref": "S-GAO-CEM",
+      "path": "digestion/threshold/research/2026-10-10-postwar-ice/retrievals/gao-public-documents/api/0001.pdf",
+      "sha256": "7d5316dff4f3abd0c385a22d7a7a300ae40ceec358c16ca3ee39def202f17e85"
+    }
+  },
+  "references": {
+    "E-CEM16": {
+      "collection": "events",
+      "id_field": "event_id",
+      "kind": "event",
+      "path": "examples/garden-case-studies/camp-east-montana/evidence.json",
+      "record_id": "CEM16",
+      "sha256": "b812169c476810abd9025fb9384cfc339d1a10b4c50fefdb38716aa5fa7e6634"
+    },
+    "S-SIM-DIESEL": {
+      "collection": "sources",
+      "id_field": "source_id",
+      "kind": "source",
+      "path": "examples/relays/diesel/sources.json",
+      "record_id": "SIM-DIESEL",
+      "sha256": "e0c6b04523745436c8509243fab65d022ec526839b504a941360892df501a100"
+    }
+  },
+  "version": "relay-references-1"
+}

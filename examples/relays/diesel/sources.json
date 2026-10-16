@@ -1,0 +1,225 @@
+{
+  "sources": [
+    {
+      "author": "Work Aiden",
+      "authored_at": "2026-10-16T05:06:03+00:00",
+      "limitations": "Every actor, timestamp and measurement is invented for a deterministic software demonstration. No retrieval, real sensor or independent corroboration. The first cutoff is an as-of fixture projection, not a historical blind observation.",
+      "mode": "simulated",
+      "observations": {
+        "B-ARRIVAL": {
+          "assertion": "Critical-circuit meter records battery energy reaching the circuit from 09:00.",
+          "at": "2026-10-01T09:00:00Z",
+          "provenance": "Work-authored fictional input. No external receipt, sensor or independent witness.",
+          "readings": {},
+          "through": "2026-10-01T09:00:00Z"
+        },
+        "B-NEED": {
+          "assertion": "At 08:00 the facilities log identifies a possible generator fuel gap after 09:00 and requests the battery bridge. This is a projected need, not an observed outage.",
+          "at": "2026-10-01T08:00:00Z",
+          "provenance": "Work-authored fictional input. No external receipt, sensor or independent witness.",
+          "readings": {},
+          "through": "2026-10-01T08:00:00Z"
+        },
+        "B-PLAN": {
+          "assertion": "The invented exercise procedure requires the battery to supply the 10 kW critical circuit during a generator gap.",
+          "at": "2026-10-01T08:00:00Z",
+          "provenance": "Work-authored fictional input. No external receipt, sensor or independent witness.",
+          "readings": {
+            "critical_load_kW": "10"
+          },
+          "through": "2026-10-01T08:00:00Z"
+        },
+        "B-READY": {
+          "assertion": "Fictional acceptance readings show 12 kWh AC-usable stored energy and a 12 kW discharge limit at 08:00.",
+          "at": "2026-10-01T08:00:00Z",
+          "provenance": "Work-authored fictional input. No external receipt, sensor or independent witness.",
+          "readings": {
+            "AC_usable_energy_kWh": "12",
+            "power_limit_kW": "12"
+          },
+          "through": "2026-10-01T08:00:00Z"
+        },
+        "B-RUNTIME": {
+          "assertion": "Battery output log records 10 kW for 30 minutes, 09:00–09:30, using 5 kWh AC energy; transfer back to generator completes at 09:30.",
+          "at": "2026-10-01T09:00:00Z",
+          "provenance": "Work-authored fictional input. No external receipt, sensor or independent witness.",
+          "readings": {
+            "duration_hours": "0.5",
+            "load_kW": "10",
+            "remaining_energy_kWh": "7",
+            "used_energy_kWh": "5"
+          },
+          "through": "2026-10-01T09:30:00Z"
+        },
+        "B-SERVICE": {
+          "assertion": "During 09:00–09:30 the fictional critical-service log records uninterrupted supply on the defined circuit while the generator is stopped.",
+          "at": "2026-10-01T09:00:00Z",
+          "provenance": "Work-authored fictional input. No external receipt, sensor or independent witness.",
+          "readings": {
+            "critical_load_kW": "10",
+            "interruptions": "0"
+          },
+          "through": "2026-10-01T09:30:00Z"
+        },
+        "B-SWITCH": {
+          "assertion": "Automatic transfer log records battery output beginning at 09:00 when initial generator fuel is exhausted.",
+          "at": "2026-10-01T09:00:00Z",
+          "provenance": "Work-authored fictional input. No external receipt, sensor or independent witness.",
+          "readings": {},
+          "through": "2026-10-01T09:00:00Z"
+        },
+        "P-ACK": {
+          "assertion": "The dispatch desk acknowledges the order at 08:05; this is an order receipt, not physical fuel delivery.",
+          "at": "2026-10-01T08:05:00Z",
+          "provenance": "Work-authored fictional input. No external receipt, sensor or independent witness.",
+          "readings": {},
+          "through": "2026-10-01T08:05:00Z"
+        },
+        "P-CALL": {
+          "assertion": "The primary dispatch desk communicates the stock shortfall to the clinic at 08:16; the clinic records receiving that callback.",
+          "at": "2026-10-01T08:16:00Z",
+          "provenance": "Work-authored fictional input. No external receipt, sensor or independent witness.",
+          "readings": {},
+          "through": "2026-10-01T08:16:00Z"
+        },
+        "P-NEED": {
+          "assertion": "At 08:00 the clinic reports 10 L usable fuel and a 10 L/hour generator draw at a 10 kW critical load. Refill is needed.",
+          "at": "2026-10-01T08:00:00Z",
+          "provenance": "Work-authored fictional input. No external receipt, sensor or independent witness.",
+          "readings": {
+            "critical_load_kW": "10",
+            "fuel_rate_L_per_hour": "10",
+            "usable_fuel_L": "10"
+          },
+          "through": "2026-10-01T08:00:00Z"
+        },
+        "P-NODISPATCH": {
+          "assertion": "Primary dispatch log at 08:15 records no load or vehicle dispatched because usable stock is zero.",
+          "at": "2026-10-01T08:15:00Z",
+          "provenance": "Work-authored fictional input. No external receipt, sensor or independent witness.",
+          "readings": {},
+          "through": "2026-10-01T08:15:00Z"
+        },
+        "P-ORDER": {
+          "assertion": "Primary supplier accepts the 80 L order at 08:05 and commits to delivery by 08:50. A promise does not establish available inventory.",
+          "at": "2026-10-01T08:05:00Z",
+          "provenance": "Work-authored fictional input. No external receipt, sensor or independent witness.",
+          "readings": {
+            "due_at": "2026-10-01T08:50:00Z",
+            "volume_L": "80"
+          },
+          "through": "2026-10-01T08:05:00Z"
+        },
+        "P-STOCK": {
+          "assertion": "At 08:15 the primary supplier inventory check shows zero usable diesel for this order.",
+          "at": "2026-10-01T08:15:00Z",
+          "provenance": "Work-authored fictional input. No external receipt, sensor or independent witness.",
+          "readings": {
+            "usable_stock_L": "0"
+          },
+          "through": "2026-10-01T08:15:00Z"
+        },
+        "R-ALLOCATION": {
+          "assertion": "A fictional coordination desk announces a nominal 100 L allocation at 07:50. This is not dispatch, available stock or delivery.",
+          "at": "2026-10-01T07:50:00Z",
+          "provenance": "Work-authored fictional input. No external receipt, sensor or independent witness.",
+          "readings": {
+            "announced_L": "100"
+          },
+          "through": "2026-10-01T07:50:00Z"
+        },
+        "R-COMMIT": {
+          "assertion": "Alternate supplier commits at 08:20 to deliver 80 L by 08:50.",
+          "at": "2026-10-01T08:20:00Z",
+          "provenance": "Work-authored fictional input. No external receipt, sensor or independent witness.",
+          "readings": {
+            "committed_L": "80",
+            "due_at": "2026-10-01T08:50:00Z"
+          },
+          "through": "2026-10-01T08:20:00Z"
+        },
+        "R-DISPATCH": {
+          "assertion": "Carrier load/dispatch log records 80 L dispatched at 08:25.",
+          "at": "2026-10-01T08:25:00Z",
+          "provenance": "Work-authored fictional input. No external receipt, sensor or independent witness.",
+          "readings": {
+            "loaded_L": "80"
+          },
+          "through": "2026-10-01T08:25:00Z"
+        },
+        "R-LATE": {
+          "assertion": "Receipt time 09:20 is 30 minutes after the explicit 08:50 delivery commitment.",
+          "at": "2026-10-01T09:20:00Z",
+          "provenance": "Work-authored fictional input. No external receipt, sensor or independent witness.",
+          "readings": {
+            "due_at": "2026-10-01T08:50:00Z",
+            "lag_seconds": 1800,
+            "received_at": "2026-10-01T09:20:00Z"
+          },
+          "through": "2026-10-01T09:20:00Z"
+        },
+        "R-MOVEMENT": {
+          "assertion": "Carrier movement log records the loaded vehicle en route at 08:40. Movement does not establish delivery.",
+          "at": "2026-10-01T08:40:00Z",
+          "provenance": "Work-authored fictional input. No external receipt, sensor or independent witness.",
+          "readings": {},
+          "through": "2026-10-01T08:40:00Z"
+        },
+        "R-NEED": {
+          "assertion": "The clinic requests an alternative after the primary supplier reports its stock shortage.",
+          "at": "2026-10-01T08:16:00Z",
+          "provenance": "Work-authored fictional input. No external receipt, sensor or independent witness.",
+          "readings": {},
+          "through": "2026-10-01T08:16:00Z"
+        },
+        "R-QUANTITY": {
+          "assertion": "The fictional calibrated delivery meter records 80 L actually delivered at 09:20.",
+          "at": "2026-10-01T09:20:00Z",
+          "provenance": "Work-authored fictional input. No external receipt, sensor or independent witness.",
+          "readings": {
+            "delivered_L": "80"
+          },
+          "through": "2026-10-01T09:20:00Z"
+        },
+        "R-RECEIPT": {
+          "assertion": "At 09:20 the receiving role signs an 80 L metered delivery receipt and records fuel accepted into the generator tank.",
+          "at": "2026-10-01T09:20:00Z",
+          "provenance": "Work-authored fictional input. No external receipt, sensor or independent witness.",
+          "readings": {
+            "delivered_L": "80"
+          },
+          "through": "2026-10-01T09:20:00Z"
+        },
+        "R-RUNTIME": {
+          "assertion": "Generator log records restart at 09:30 and two hours of verified operation through 11:30 at 10 kW; meter records 20 L consumed and 60 L remaining.",
+          "at": "2026-10-01T09:30:00Z",
+          "provenance": "Work-authored fictional input. No external receipt, sensor or independent witness.",
+          "readings": {
+            "consumed_L": "20",
+            "load_kW": "10",
+            "remaining_L": "60",
+            "runtime_hours": "2"
+          },
+          "through": "2026-10-01T11:30:00Z"
+        },
+        "R-SERVICE": {
+          "assertion": "Fictional service-monitoring log records continuous supply to the defined critical circuit from 08:00 through 11:30, including battery supply during 09:00–09:30 and generator operation thereafter.",
+          "at": "2026-10-01T08:00:00Z",
+          "provenance": "Work-authored fictional input. No external receipt, sensor or independent witness.",
+          "readings": {
+            "critical_load_kW": "10",
+            "interruptions": "0",
+            "monitored_through": "2026-10-01T11:30:00Z"
+          },
+          "through": "2026-10-01T11:30:00Z"
+        }
+      },
+      "publication_date": null,
+      "retrieved_date_utc": null,
+      "source_family": "SIM-DIESEL-EXERCISE-ONE-AUTHORED-LINEAGE",
+      "source_id": "SIM-DIESEL",
+      "title": "Fictional critical-service resupply receipts and meter logs"
+    }
+  ],
+  "version": "relay-fictional-source-1"
+}
