@@ -1,5 +1,7 @@
 **Explore the saved evidence:** [The Garden evidence viewer](web/evidence-arrival/README.md) walks through the real receipt, detection, review and assessment, with a separate simulation lab. Download/open its single HTML file to explore offline.
 
+**October 16 — Relay Continuity:** [Readable cases](reports/relays/generated/RELAYS.md) · [Chat handoff](reports/relays/CHAT_HANDOFF.md) · [Digest handoff](reports/relays/DIGEST_HANDOFF.md) · [contract](docs/RELAY_CONTINUITY.md). One shared mechanism traces dispatch, arrival, action and verified outcome in two retained Camp relays and an explicitly fictional fuel-resupply exercise. Missing evidence stays UNKNOWN; a working battery bridge is preserved alongside failed and late transfers.
+
 **October 15 — reporting cross-check:** [Claim audit and Chat/Digest handoff](reports/reporting-audit/camp-east-montana/AUDIT.md). The Camp viewer now distinguishes broad inspection activity from unverified TB compliance and preserves the dates and attribution of the historical findings. This is a review of retained material; no new facility observation or FOIA submission.
 
 **October 14 — First Evidence Arrival:** [Chat handoff](reports/evidence-arrival/CHAT_HANDOFF.md) · [Digest handoff](reports/evidence-arrival/DIGEST_HANDOFF.md) · [arrival and review](reports/evidence-arrival/generated/ARRIVAL.md) · [contract](docs/FIRST_EVIDENCE_ARRIVAL.md). One recorded GAO page reaches a reviewed Camp safeguard revision. TB correction remains UNKNOWN; the narrow FOIA draft is unsent.

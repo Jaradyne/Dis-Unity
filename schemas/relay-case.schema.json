@@ -1,0 +1,692 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:dis-unity:relay-case:1",
+  "title": "Domain-independent supplied relay assessment",
+  "$defs": {
+    "period": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "start": {
+          "anyOf": [
+            {
+              "type": "string",
+              "minLength": 1
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "end": {
+          "anyOf": [
+            {
+              "type": "string",
+              "minLength": 1
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "note": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "start",
+        "end",
+        "note"
+      ]
+    },
+    "assessment": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "claim": {
+          "type": "string",
+          "minLength": 1
+        },
+        "time": {
+          "$ref": "#/$defs/period"
+        },
+        "evidence_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[A-Z][A-Z0-9-]*$"
+          },
+          "minItems": 0
+        }
+      },
+      "required": [
+        "status",
+        "claim",
+        "time",
+        "evidence_ids"
+      ]
+    },
+    "verification": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "claim": {
+          "type": "string",
+          "minLength": 1
+        },
+        "time": {
+          "$ref": "#/$defs/period"
+        },
+        "evidence_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[A-Z][A-Z0-9-]*$"
+          },
+          "minItems": 0
+        },
+        "method": {
+          "anyOf": [
+            {
+              "type": "string",
+              "minLength": 1
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "status",
+        "claim",
+        "time",
+        "evidence_ids",
+        "method"
+      ]
+    },
+    "evidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "evidence_id": {
+          "type": "string",
+          "pattern": "^[A-Z][A-Z0-9-]*$"
+        },
+        "kind": {
+          "type": "string",
+          "enum": [
+            "trigger_observation",
+            "requirement",
+            "announcement",
+            "commitment",
+            "dispatch_observation",
+            "arrival_observation",
+            "acknowledgment",
+            "action_observation",
+            "outcome_observation",
+            "omission_observation",
+            "capacity_observation",
+            "timing_observation",
+            "response",
+            "context",
+            "causal_analysis"
+          ]
+        },
+        "result": {
+          "type": "string",
+          "enum": [
+            "positive",
+            "negative",
+            "context"
+          ]
+        },
+        "stages": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "origin",
+              "expected_transfer",
+              "dispatch",
+              "arrival",
+              "action",
+              "outcome",
+              "verification"
+            ]
+          },
+          "minItems": 1
+        },
+        "claim": {
+          "type": "string",
+          "minLength": 1
+        },
+        "observed": {
+          "$ref": "#/$defs/period"
+        },
+        "citations": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "source_ref": {
+                "type": "string",
+                "pattern": "^[A-Z][A-Z0-9-]*$"
+              },
+              "locator": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "required": [
+              "source_ref",
+              "locator"
+            ]
+          },
+          "minItems": 1
+        },
+        "event_refs": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[A-Z][A-Z0-9-]*$"
+          },
+          "minItems": 0
+        },
+        "limits": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "evidence_id",
+        "kind",
+        "result",
+        "stages",
+        "claim",
+        "observed",
+        "citations",
+        "event_refs",
+        "limits"
+      ]
+    },
+    "claim": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "claim": {
+          "type": "string",
+          "minLength": 1
+        },
+        "evidence_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[A-Z][A-Z0-9-]*$"
+          },
+          "minItems": 0
+        }
+      },
+      "required": [
+        "claim",
+        "evidence_ids"
+      ]
+    },
+    "deadline": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "at": {
+          "type": "string",
+          "minLength": 1
+        },
+        "stage": {
+          "type": "string",
+          "enum": [
+            "arrival",
+            "action"
+          ]
+        },
+        "claim": {
+          "type": "string",
+          "minLength": 1
+        },
+        "evidence_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[A-Z][A-Z0-9-]*$"
+          },
+          "minItems": 1
+        }
+      },
+      "required": [
+        "at",
+        "stage",
+        "claim",
+        "evidence_ids"
+      ]
+    },
+    "capacity": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "resource": {
+          "type": "string",
+          "minLength": 1
+        },
+        "basis": {
+          "type": "string",
+          "enum": [
+            "observed",
+            "announced",
+            "committed",
+            "required"
+          ]
+        },
+        "value": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "^(0|[1-9][0-9]*)(\\.[0-9]+)?$"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "unit": {
+          "type": "string",
+          "minLength": 1
+        },
+        "time": {
+          "$ref": "#/$defs/period"
+        },
+        "evidence_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[A-Z][A-Z0-9-]*$"
+          },
+          "minItems": 0
+        },
+        "limits": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "resource",
+        "basis",
+        "value",
+        "unit",
+        "time",
+        "evidence_ids",
+        "limits"
+      ]
+    },
+    "issue": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "kind": {
+          "type": "string",
+          "enum": [
+            "omission",
+            "non_transmission",
+            "misdirection",
+            "delay",
+            "degradation",
+            "capacity_shortfall",
+            "non_response",
+            "outcome_failure"
+          ]
+        },
+        "stage": {
+          "type": "string",
+          "enum": [
+            "origin",
+            "expected_transfer",
+            "dispatch",
+            "arrival",
+            "action",
+            "outcome",
+            "verification"
+          ]
+        },
+        "mechanism": {
+          "type": "string",
+          "enum": [
+            "unknown",
+            "communication",
+            "physical_resource",
+            "financial",
+            "authority",
+            "service"
+          ]
+        },
+        "claim": {
+          "type": "string",
+          "minLength": 1
+        },
+        "evidence_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[A-Z][A-Z0-9-]*$"
+          },
+          "minItems": 1
+        }
+      },
+      "required": [
+        "kind",
+        "stage",
+        "mechanism",
+        "claim",
+        "evidence_ids"
+      ]
+    },
+    "relay": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "relay_id": {
+          "type": "string",
+          "pattern": "^[A-Z][A-Z0-9-]*$"
+        },
+        "kind": {
+          "type": "string",
+          "enum": [
+            "physical",
+            "informational",
+            "financial",
+            "authority",
+            "service"
+          ]
+        },
+        "from_actor": {
+          "type": "string",
+          "minLength": 1
+        },
+        "to_actor": {
+          "type": "string",
+          "minLength": 1
+        },
+        "payload": {
+          "type": "string",
+          "minLength": 1
+        },
+        "essential_function": {
+          "type": "string",
+          "minLength": 1
+        },
+        "scope": {
+          "type": "string",
+          "minLength": 1
+        },
+        "stages": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "origin": {
+              "$ref": "#/$defs/assessment"
+            },
+            "expected_transfer": {
+              "$ref": "#/$defs/assessment"
+            },
+            "dispatch": {
+              "$ref": "#/$defs/assessment"
+            },
+            "arrival": {
+              "$ref": "#/$defs/assessment"
+            },
+            "action": {
+              "$ref": "#/$defs/assessment"
+            },
+            "outcome": {
+              "$ref": "#/$defs/assessment"
+            },
+            "verification": {
+              "$ref": "#/$defs/verification"
+            }
+          },
+          "required": [
+            "origin",
+            "expected_transfer",
+            "dispatch",
+            "arrival",
+            "action",
+            "outcome",
+            "verification"
+          ]
+        },
+        "deadline": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/deadline"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "capacities": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/capacity"
+          },
+          "minItems": 0
+        },
+        "issues": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/issue"
+          },
+          "minItems": 0
+        },
+        "evidence": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/evidence"
+          },
+          "minItems": 1
+        },
+        "contrary_evidence": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/claim"
+          },
+          "minItems": 0
+        },
+        "ordinary_explanations": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/claim"
+          },
+          "minItems": 0
+        },
+        "causal_assessment": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "status": {
+              "type": "string",
+              "enum": [
+                "not_established",
+                "supported"
+              ]
+            },
+            "claim": {
+              "type": "string",
+              "minLength": 1
+            },
+            "evidence_ids": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "pattern": "^[A-Z][A-Z0-9-]*$"
+              },
+              "minItems": 0
+            }
+          },
+          "required": [
+            "status",
+            "claim",
+            "evidence_ids"
+          ]
+        }
+      },
+      "required": [
+        "relay_id",
+        "kind",
+        "from_actor",
+        "to_actor",
+        "payload",
+        "essential_function",
+        "scope",
+        "stages",
+        "deadline",
+        "capacities",
+        "issues",
+        "evidence",
+        "contrary_evidence",
+        "ordinary_explanations",
+        "causal_assessment"
+      ]
+    }
+  },
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "case_id": {
+      "type": "string",
+      "pattern": "^[A-Z][A-Z0-9-]*$"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "mode": {
+      "type": "string",
+      "enum": [
+        "empirical",
+        "simulated"
+      ]
+    },
+    "scope": {
+      "type": "string",
+      "minLength": 1
+    },
+    "evidence_cutoff": {
+      "type": "string",
+      "minLength": 1
+    },
+    "event_refs": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[A-Z][A-Z0-9-]*$"
+      },
+      "minItems": 0
+    },
+    "design_refs": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[A-Z][A-Z0-9-]*$"
+      },
+      "minItems": 0
+    },
+    "relays": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/relay"
+      },
+      "minItems": 1
+    },
+    "supports": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "kind": {
+            "type": "string",
+            "enum": [
+              "buffer",
+              "alternative"
+            ]
+          },
+          "relay_id": {
+            "type": "string",
+            "pattern": "^[A-Z][A-Z0-9-]*$"
+          },
+          "supports_relay": {
+            "type": "string",
+            "pattern": "^[A-Z][A-Z0-9-]*$"
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "proposed",
+              "used",
+              "verified",
+              "unknown"
+            ]
+          },
+          "claim": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "required": [
+          "kind",
+          "relay_id",
+          "supports_relay",
+          "status",
+          "claim"
+        ]
+      },
+      "minItems": 0
+    },
+    "unknowns": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1
+    },
+    "next_test": {
+      "type": "string",
+      "minLength": 1
+    },
+    "generalization": {
+      "const": "not_assessed"
+    }
+  },
+  "required": [
+    "case_id",
+    "title",
+    "mode",
+    "scope",
+    "evidence_cutoff",
+    "event_refs",
+    "design_refs",
+    "relays",
+    "supports",
+    "unknowns",
+    "next_test",
+    "generalization"
+  ]
+}

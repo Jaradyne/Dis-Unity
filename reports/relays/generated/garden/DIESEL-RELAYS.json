@@ -1,0 +1,3257 @@
+{
+  "config_sha256": "39152c8d17954a1d9097a0c55351ced98ad702f402cb9c12a27b116f4c0d1655",
+  "events": [
+    {
+      "after": "c53050d2b8f7e69dcd69307f57f2e0d4d1b8a9d3a0ce02647fdda77ec2b4bca1",
+      "before": "e67f64d447bcf089b3625d7a91ae6ffa5957af2036227dbd27c6e4be75234bb9",
+      "command": {
+        "actor": {
+          "model": "none invoked",
+          "name": "Work Aiden",
+          "runtime": "deterministic supplied relay projection"
+        },
+        "branch_id": "B0",
+        "event_id": "DIESEL-RELAYS-STEP-1",
+        "expected_revision": 0,
+        "kind": "step",
+        "node": "ROOT",
+        "output": {
+          "name": "SIMULATED: Fictional critical-service fuel resupply and battery bridge"
+        }
+      },
+      "decision": {
+        "next_node": "ARRIVAL",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-10-16T05:06:03+00:00"
+    },
+    {
+      "after": "b28e71807c081c786b26f8e62a0a9c2fcda699a730d2e886322b03068b5b2a81",
+      "before": "c53050d2b8f7e69dcd69307f57f2e0d4d1b8a9d3a0ce02647fdda77ec2b4bca1",
+      "command": {
+        "actor": {
+          "model": "none invoked",
+          "name": "Work Aiden",
+          "runtime": "deterministic supplied relay projection"
+        },
+        "branch_id": "B0",
+        "event_id": "DIESEL-RELAYS-STEP-2",
+        "expected_revision": 1,
+        "kind": "step",
+        "node": "ARRIVAL",
+        "output": {
+          "arrival": {
+            "from": "operations/relays/journal.json",
+            "id": "DIESEL-RELAYS-ARRIVAL",
+            "payload": {
+              "case_id": "DIESEL-RELAYS",
+              "case_sha256": "71ad4088d9c9d0c85d83c2dbe82d8d907d4b0b3c7fb392b898fc2a0c421cd475",
+              "mode": "simulated"
+            },
+            "to": "INIT:ROOT-0001"
+          },
+          "language_glance": {
+            "basis": "unknown",
+            "issuing_office": "See inherited source records",
+            "languages": [],
+            "note": "Supplied review or fictional fixture; no new source/language observation.",
+            "source_refs": [
+              "S-SIM-DIESEL"
+            ],
+            "surface_kind": "summary"
+          }
+        }
+      },
+      "decision": {
+        "next_node": "EPIST",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-10-16T05:06:03+00:00"
+    },
+    {
+      "after": "f19ec76dc56f644744aaa8460cc06a287e986e61946e71bfdd14a35ba558a6c0",
+      "before": "b28e71807c081c786b26f8e62a0a9c2fcda699a730d2e886322b03068b5b2a81",
+      "command": {
+        "actor": {
+          "model": "none invoked",
+          "name": "Work Aiden",
+          "runtime": "deterministic supplied relay projection"
+        },
+        "branch_id": "B0",
+        "event_id": "DIESEL-RELAYS-STEP-3",
+        "expected_revision": 2,
+        "kind": "step",
+        "node": "EPIST",
+        "output": {
+          "evidence_cutoff": "2026-10-01T11:30:00Z",
+          "mode": "simulated",
+          "prompt": "Transparent fictional emergency-power exercise from the Diesel Pressure Web and Carrier Lifeline; no historical incident, real supplier or actual clinic is asserted.",
+          "starting_state": "Separate origin, obligation, dispatch, receipt, action, outcome and verification."
+        }
+      },
+      "decision": {
+        "next_node": "FUNC",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-10-16T05:06:03+00:00"
+    },
+    {
+      "after": "b40018e1f10bbd8e4b80b52a4c93f0fb8c28e156ddf939b553161138c50f6a58",
+      "before": "f19ec76dc56f644744aaa8460cc06a287e986e61946e71bfdd14a35ba558a6c0",
+      "command": {
+        "actor": {
+          "model": "none invoked",
+          "name": "Work Aiden",
+          "runtime": "deterministic supplied relay projection"
+        },
+        "branch_id": "B0",
+        "event_id": "DIESEL-RELAYS-STEP-4",
+        "expected_revision": 3,
+        "kind": "step",
+        "node": "FUNC",
+        "output": {
+          "function": "Transparent fictional emergency-power exercise from the Diesel Pressure Web and Carrier Lifeline; no historical incident, real supplier or actual clinic is asserted.",
+          "relays": [
+            {
+              "capacities": [
+                {
+                  "basis": "committed",
+                  "evidence_ids": [
+                    "P-ORDER"
+                  ],
+                  "limits": "Promised quantity is not observed stock.",
+                  "resource": "Primary order",
+                  "time": {
+                    "end": "2026-10-01T08:05:00Z",
+                    "note": "Fictional exercise timestamp.",
+                    "start": "2026-10-01T08:05:00Z"
+                  },
+                  "unit": "L",
+                  "value": "80"
+                },
+                {
+                  "basis": "observed",
+                  "evidence_ids": [
+                    "P-STOCK"
+                  ],
+                  "limits": "Only this supplier/order at this timestamp.",
+                  "resource": "Primary usable diesel stock",
+                  "time": {
+                    "end": "2026-10-01T08:15:00Z",
+                    "note": "Fictional exercise timestamp.",
+                    "start": "2026-10-01T08:15:00Z"
+                  },
+                  "unit": "L",
+                  "value": "0"
+                }
+              ],
+              "causal_assessment": {
+                "claim": "No causal inference follows automatically from this chronology.",
+                "evidence_ids": [],
+                "status": "not_established"
+              },
+              "contrary_evidence": [
+                {
+                  "claim": "The callback successfully communicated the shortage; the failed physical supply must not become a communication-failure claim.",
+                  "evidence_ids": [
+                    "P-CALL"
+                  ]
+                }
+              ],
+              "deadline": {
+                "at": "2026-10-01T08:50:00Z",
+                "claim": "Fictional primary delivery commitment, not a statutory deadline.",
+                "evidence_ids": [
+                  "P-ORDER"
+                ],
+                "stage": "arrival"
+              },
+              "essential_function": "Resupply the critical generator; essential-service continuity is assessed separately.",
+              "evidence": [
+                {
+                  "citations": [
+                    {
+                      "locator": "observations/P-NEED",
+                      "source_ref": "S-SIM-DIESEL"
+                    }
+                  ],
+                  "claim": "At 08:00 the clinic reports 10 L usable fuel and a 10 L/hour generator draw at a 10 kW critical load. Refill is needed.",
+                  "event_refs": [],
+                  "evidence_id": "P-NEED",
+                  "kind": "trigger_observation",
+                  "limits": "Explicitly fictional input; validates software behavior only. All exercise records share one authored lineage.",
+                  "observed": {
+                    "end": "2026-10-01T08:00:00Z",
+                    "note": "Invented exercise time; not an observed historical incident.",
+                    "start": "2026-10-01T08:00:00Z"
+                  },
+                  "result": "positive",
+                  "stages": [
+                    "origin"
+                  ]
+                },
+                {
+                  "citations": [
+                    {
+                      "locator": "observations/P-ORDER",
+                      "source_ref": "S-SIM-DIESEL"
+                    }
+                  ],
+                  "claim": "Primary supplier accepts the 80 L order at 08:05 and commits to delivery by 08:50. A promise does not establish available inventory.",
+                  "event_refs": [],
+                  "evidence_id": "P-ORDER",
+                  "kind": "commitment",
+                  "limits": "Explicitly fictional input; validates software behavior only. All exercise records share one authored lineage.",
+                  "observed": {
+                    "end": "2026-10-01T08:05:00Z",
+                    "note": "Invented exercise time; not an observed historical incident.",
+                    "start": "2026-10-01T08:05:00Z"
+                  },
+                  "result": "positive",
+                  "stages": [
+                    "expected_transfer",
+                    "dispatch",
+                    "arrival"
+                  ]
+                },
+                {
+                  "citations": [
+                    {
+                      "locator": "observations/P-ACK",
+                      "source_ref": "S-SIM-DIESEL"
+                    }
+                  ],
+                  "claim": "The dispatch desk acknowledges the order at 08:05; this is an order receipt, not physical fuel delivery.",
+                  "event_refs": [],
+                  "evidence_id": "P-ACK",
+                  "kind": "acknowledgment",
+                  "limits": "Explicitly fictional input; validates software behavior only. All exercise records share one authored lineage.",
+                  "observed": {
+                    "end": "2026-10-01T08:05:00Z",
+                    "note": "Invented exercise time; not an observed historical incident.",
+                    "start": "2026-10-01T08:05:00Z"
+                  },
+                  "result": "positive",
+                  "stages": [
+                    "dispatch"
+                  ]
+                },
+                {
+                  "citations": [
+                    {
+                      "locator": "observations/P-STOCK",
+                      "source_ref": "S-SIM-DIESEL"
+                    }
+                  ],
+                  "claim": "At 08:15 the primary supplier inventory check shows zero usable diesel for this order.",
+                  "event_refs": [],
+                  "evidence_id": "P-STOCK",
+                  "kind": "capacity_observation",
+                  "limits": "Explicitly fictional input; validates software behavior only. All exercise records share one authored lineage.",
+                  "observed": {
+                    "end": "2026-10-01T08:15:00Z",
+                    "note": "Invented exercise time; not an observed historical incident.",
+                    "start": "2026-10-01T08:15:00Z"
+                  },
+                  "result": "negative",
+                  "stages": [
+                    "dispatch"
+                  ]
+                },
+                {
+                  "citations": [
+                    {
+                      "locator": "observations/P-NODISPATCH",
+                      "source_ref": "S-SIM-DIESEL"
+                    }
+                  ],
+                  "claim": "Primary dispatch log at 08:15 records no load or vehicle dispatched because usable stock is zero.",
+                  "event_refs": [],
+                  "evidence_id": "P-NODISPATCH",
+                  "kind": "omission_observation",
+                  "limits": "Explicitly fictional input; validates software behavior only. All exercise records share one authored lineage.",
+                  "observed": {
+                    "end": "2026-10-01T08:15:00Z",
+                    "note": "Invented exercise time; not an observed historical incident.",
+                    "start": "2026-10-01T08:15:00Z"
+                  },
+                  "result": "negative",
+                  "stages": [
+                    "dispatch"
+                  ]
+                },
+                {
+                  "citations": [
+                    {
+                      "locator": "observations/P-CALL",
+                      "source_ref": "S-SIM-DIESEL"
+                    }
+                  ],
+                  "claim": "The primary dispatch desk communicates the stock shortfall to the clinic at 08:16; the clinic records receiving that callback.",
+                  "event_refs": [],
+                  "evidence_id": "P-CALL",
+                  "kind": "response",
+                  "limits": "Explicitly fictional input; validates software behavior only. All exercise records share one authored lineage.",
+                  "observed": {
+                    "end": "2026-10-01T08:16:00Z",
+                    "note": "Invented exercise time; not an observed historical incident.",
+                    "start": "2026-10-01T08:16:00Z"
+                  },
+                  "result": "positive",
+                  "stages": [
+                    "dispatch"
+                  ]
+                }
+              ],
+              "from_actor": "Fictional primary fuel supplier and dispatch desk",
+              "issues": [
+                {
+                  "claim": "No usable fuel was physically available for dispatch.",
+                  "evidence_ids": [
+                    "P-STOCK"
+                  ],
+                  "kind": "capacity_shortfall",
+                  "mechanism": "physical_resource",
+                  "stage": "dispatch"
+                }
+              ],
+              "kind": "physical",
+              "ordinary_explanations": [
+                {
+                  "claim": "This fixture explicitly supplies physical unavailability; no assumption about motive, market-wide scarcity or other suppliers follows.",
+                  "evidence_ids": [
+                    "P-STOCK",
+                    "P-NODISPATCH"
+                  ]
+                }
+              ],
+              "payload": "80 L of usable diesel requested for the critical generator",
+              "relay_id": "DIESEL-PRIMARY",
+              "scope": "Fictional primary order; distinguish a physical stock shortfall from working communication.",
+              "stages": {
+                "action": {
+                  "claim": "No primary-fuel generator action is documented.",
+                  "evidence_ids": [],
+                  "status": "unknown",
+                  "time": {
+                    "end": null,
+                    "note": "Exact occurrence time is not established.",
+                    "start": null
+                  }
+                },
+                "arrival": {
+                  "claim": "No primary delivery receipt is supplied; do not infer a receipt from the acknowledgment.",
+                  "evidence_ids": [
+                    "P-ACK"
+                  ],
+                  "status": "unknown",
+                  "time": {
+                    "end": null,
+                    "note": "Exact occurrence time is not established.",
+                    "start": null
+                  }
+                },
+                "dispatch": {
+                  "claim": "No load or vehicle dispatched at 08:15 because stock was physically unavailable.",
+                  "evidence_ids": [
+                    "P-NODISPATCH"
+                  ],
+                  "status": "not_performed",
+                  "time": {
+                    "end": "2026-10-01T08:15:00Z",
+                    "note": "Fictional dispatch log.",
+                    "start": "2026-10-01T08:15:00Z"
+                  }
+                },
+                "expected_transfer": {
+                  "claim": "80 L delivery promised by 08:50.",
+                  "evidence_ids": [
+                    "P-ORDER"
+                  ],
+                  "status": "committed",
+                  "time": {
+                    "end": "2026-10-01T08:05:00Z",
+                    "note": "Fictional commitment; not inventory.",
+                    "start": "2026-10-01T08:05:00Z"
+                  }
+                },
+                "origin": {
+                  "claim": "Low usable reserve triggered the refill request.",
+                  "evidence_ids": [
+                    "P-NEED"
+                  ],
+                  "status": "observed",
+                  "time": {
+                    "end": "2026-10-01T08:00:00Z",
+                    "note": "Fictional load/stock reading.",
+                    "start": "2026-10-01T08:00:00Z"
+                  }
+                },
+                "outcome": {
+                  "claim": "The primary order’s eventual result is not supplied; other relays assess the substitute and service continuity.",
+                  "evidence_ids": [],
+                  "status": "unknown",
+                  "time": {
+                    "end": null,
+                    "note": "Exact occurrence time is not established.",
+                    "start": null
+                  }
+                },
+                "verification": {
+                  "claim": "No primary-order outcome verification is supplied.",
+                  "evidence_ids": [],
+                  "method": null,
+                  "status": "unknown",
+                  "time": {
+                    "end": null,
+                    "note": "Exact occurrence time is not established.",
+                    "start": null
+                  }
+                }
+              },
+              "to_actor": "Fictional clinic receiving/facilities role"
+            },
+            {
+              "capacities": [
+                {
+                  "basis": "announced",
+                  "evidence_ids": [
+                    "R-ALLOCATION"
+                  ],
+                  "limits": "Allocation is not dispatch or actual stock.",
+                  "resource": "Desk allocation",
+                  "time": {
+                    "end": "2026-10-01T07:50:00Z",
+                    "note": "Fictional exercise timestamp.",
+                    "start": "2026-10-01T07:50:00Z"
+                  },
+                  "unit": "L",
+                  "value": "100"
+                },
+                {
+                  "basis": "committed",
+                  "evidence_ids": [
+                    "R-COMMIT"
+                  ],
+                  "limits": "Promise does not prove arrival.",
+                  "resource": "Alternate order",
+                  "time": {
+                    "end": "2026-10-01T08:20:00Z",
+                    "note": "Fictional exercise timestamp.",
+                    "start": "2026-10-01T08:20:00Z"
+                  },
+                  "unit": "L",
+                  "value": "80"
+                },
+                {
+                  "basis": "observed",
+                  "evidence_ids": [
+                    "R-QUANTITY"
+                  ],
+                  "limits": "Received fuel does not alone establish runtime or service.",
+                  "resource": "Metered diesel delivery",
+                  "time": {
+                    "end": "2026-10-01T09:20:00Z",
+                    "note": "Fictional exercise timestamp.",
+                    "start": "2026-10-01T09:20:00Z"
+                  },
+                  "unit": "L",
+                  "value": "80"
+                }
+              ],
+              "causal_assessment": {
+                "claim": "No causal inference follows automatically from this chronology.",
+                "evidence_ids": [],
+                "status": "not_established"
+              },
+              "contrary_evidence": [
+                {
+                  "claim": "The nominal allocation of 100 L differs from the actual 80 L order; neither is a delivery measurement.",
+                  "evidence_ids": [
+                    "R-ALLOCATION",
+                    "R-COMMIT"
+                  ]
+                },
+                {
+                  "claim": "Late fuel arrival did not interrupt the defined critical service because the recorded battery bridge and subsequent generator operation maintained it. This is a fixture result, not inferred protection from delivery.",
+                  "evidence_ids": [
+                    "R-LATE",
+                    "R-RUNTIME",
+                    "R-SERVICE"
+                  ]
+                }
+              ],
+              "deadline": {
+                "at": "2026-10-01T08:50:00Z",
+                "claim": "Fictional alternate supplier’s explicit delivery commitment.",
+                "evidence_ids": [
+                  "R-COMMIT"
+                ],
+                "stage": "arrival"
+              },
+              "essential_function": "Restore generator operation while critical service continues through a separate buffer.",
+              "evidence": [
+                {
+                  "citations": [
+                    {
+                      "locator": "observations/R-NEED",
+                      "source_ref": "S-SIM-DIESEL"
+                    }
+                  ],
+                  "claim": "The clinic requests an alternative after the primary supplier reports its stock shortage.",
+                  "event_refs": [],
+                  "evidence_id": "R-NEED",
+                  "kind": "trigger_observation",
+                  "limits": "Explicitly fictional input; validates software behavior only. All exercise records share one authored lineage.",
+                  "observed": {
+                    "end": "2026-10-01T08:16:00Z",
+                    "note": "Invented exercise time; not an observed historical incident.",
+                    "start": "2026-10-01T08:16:00Z"
+                  },
+                  "result": "positive",
+                  "stages": [
+                    "origin"
+                  ]
+                },
+                {
+                  "citations": [
+                    {
+                      "locator": "observations/R-ALLOCATION",
+                      "source_ref": "S-SIM-DIESEL"
+                    }
+                  ],
+                  "claim": "A fictional coordination desk announces a nominal 100 L allocation at 07:50. This is not dispatch, available stock or delivery.",
+                  "event_refs": [],
+                  "evidence_id": "R-ALLOCATION",
+                  "kind": "announcement",
+                  "limits": "Explicitly fictional input; validates software behavior only. All exercise records share one authored lineage.",
+                  "observed": {
+                    "end": "2026-10-01T07:50:00Z",
+                    "note": "Invented exercise time; not an observed historical incident.",
+                    "start": "2026-10-01T07:50:00Z"
+                  },
+                  "result": "positive",
+                  "stages": [
+                    "expected_transfer",
+                    "dispatch"
+                  ]
+                },
+                {
+                  "citations": [
+                    {
+                      "locator": "observations/R-COMMIT",
+                      "source_ref": "S-SIM-DIESEL"
+                    }
+                  ],
+                  "claim": "Alternate supplier commits at 08:20 to deliver 80 L by 08:50.",
+                  "event_refs": [],
+                  "evidence_id": "R-COMMIT",
+                  "kind": "commitment",
+                  "limits": "Explicitly fictional input; validates software behavior only. All exercise records share one authored lineage.",
+                  "observed": {
+                    "end": "2026-10-01T08:20:00Z",
+                    "note": "Invented exercise time; not an observed historical incident.",
+                    "start": "2026-10-01T08:20:00Z"
+                  },
+                  "result": "positive",
+                  "stages": [
+                    "expected_transfer",
+                    "dispatch",
+                    "arrival"
+                  ]
+                },
+                {
+                  "citations": [
+                    {
+                      "locator": "observations/R-DISPATCH",
+                      "source_ref": "S-SIM-DIESEL"
+                    }
+                  ],
+                  "claim": "Carrier load/dispatch log records 80 L dispatched at 08:25.",
+                  "event_refs": [],
+                  "evidence_id": "R-DISPATCH",
+                  "kind": "dispatch_observation",
+                  "limits": "Explicitly fictional input; validates software behavior only. All exercise records share one authored lineage.",
+                  "observed": {
+                    "end": "2026-10-01T08:25:00Z",
+                    "note": "Invented exercise time; not an observed historical incident.",
+                    "start": "2026-10-01T08:25:00Z"
+                  },
+                  "result": "positive",
+                  "stages": [
+                    "dispatch"
+                  ]
+                },
+                {
+                  "citations": [
+                    {
+                      "locator": "observations/R-MOVEMENT",
+                      "source_ref": "S-SIM-DIESEL"
+                    }
+                  ],
+                  "claim": "Carrier movement log records the loaded vehicle en route at 08:40. Movement does not establish delivery.",
+                  "event_refs": [],
+                  "evidence_id": "R-MOVEMENT",
+                  "kind": "dispatch_observation",
+                  "limits": "Explicitly fictional input; validates software behavior only. All exercise records share one authored lineage.",
+                  "observed": {
+                    "end": "2026-10-01T08:40:00Z",
+                    "note": "Invented exercise time; not an observed historical incident.",
+                    "start": "2026-10-01T08:40:00Z"
+                  },
+                  "result": "positive",
+                  "stages": [
+                    "dispatch"
+                  ]
+                },
+                {
+                  "citations": [
+                    {
+                      "locator": "observations/R-RECEIPT",
+                      "source_ref": "S-SIM-DIESEL"
+                    }
+                  ],
+                  "claim": "At 09:20 the receiving role signs an 80 L metered delivery receipt and records fuel accepted into the generator tank.",
+                  "event_refs": [],
+                  "evidence_id": "R-RECEIPT",
+                  "kind": "arrival_observation",
+                  "limits": "Explicitly fictional input; validates software behavior only. All exercise records share one authored lineage.",
+                  "observed": {
+                    "end": "2026-10-01T09:20:00Z",
+                    "note": "Invented exercise time; not an observed historical incident.",
+                    "start": "2026-10-01T09:20:00Z"
+                  },
+                  "result": "positive",
+                  "stages": [
+                    "arrival"
+                  ]
+                },
+                {
+                  "citations": [
+                    {
+                      "locator": "observations/R-QUANTITY",
+                      "source_ref": "S-SIM-DIESEL"
+                    }
+                  ],
+                  "claim": "The fictional calibrated delivery meter records 80 L actually delivered at 09:20.",
+                  "event_refs": [],
+                  "evidence_id": "R-QUANTITY",
+                  "kind": "capacity_observation",
+                  "limits": "Explicitly fictional input; validates software behavior only. All exercise records share one authored lineage.",
+                  "observed": {
+                    "end": "2026-10-01T09:20:00Z",
+                    "note": "Invented exercise time; not an observed historical incident.",
+                    "start": "2026-10-01T09:20:00Z"
+                  },
+                  "result": "positive",
+                  "stages": [
+                    "arrival"
+                  ]
+                },
+                {
+                  "citations": [
+                    {
+                      "locator": "observations/R-LATE",
+                      "source_ref": "S-SIM-DIESEL"
+                    }
+                  ],
+                  "claim": "Receipt time 09:20 is 30 minutes after the explicit 08:50 delivery commitment.",
+                  "event_refs": [],
+                  "evidence_id": "R-LATE",
+                  "kind": "timing_observation",
+                  "limits": "Explicitly fictional input; validates software behavior only. All exercise records share one authored lineage.",
+                  "observed": {
+                    "end": "2026-10-01T09:20:00Z",
+                    "note": "Invented exercise time; not an observed historical incident.",
+                    "start": "2026-10-01T09:20:00Z"
+                  },
+                  "result": "negative",
+                  "stages": [
+                    "arrival"
+                  ]
+                },
+                {
+                  "citations": [
+                    {
+                      "locator": "observations/R-RUNTIME",
+                      "source_ref": "S-SIM-DIESEL"
+                    }
+                  ],
+                  "claim": "Generator log records restart at 09:30 and two hours of verified operation through 11:30 at 10 kW; meter records 20 L consumed and 60 L remaining.",
+                  "event_refs": [],
+                  "evidence_id": "R-RUNTIME",
+                  "kind": "action_observation",
+                  "limits": "Explicitly fictional input; validates software behavior only. All exercise records share one authored lineage.",
+                  "observed": {
+                    "end": "2026-10-01T11:30:00Z",
+                    "note": "Invented exercise time; not an observed historical incident.",
+                    "start": "2026-10-01T09:30:00Z"
+                  },
+                  "result": "positive",
+                  "stages": [
+                    "action"
+                  ]
+                },
+                {
+                  "citations": [
+                    {
+                      "locator": "observations/R-SERVICE",
+                      "source_ref": "S-SIM-DIESEL"
+                    }
+                  ],
+                  "claim": "Fictional service-monitoring log records continuous supply to the defined critical circuit from 08:00 through 11:30, including battery supply during 09:00–09:30 and generator operation thereafter.",
+                  "event_refs": [],
+                  "evidence_id": "R-SERVICE",
+                  "kind": "outcome_observation",
+                  "limits": "Explicitly fictional input; validates software behavior only. All exercise records share one authored lineage.",
+                  "observed": {
+                    "end": "2026-10-01T11:30:00Z",
+                    "note": "Invented exercise time; not an observed historical incident.",
+                    "start": "2026-10-01T08:00:00Z"
+                  },
+                  "result": "positive",
+                  "stages": [
+                    "outcome",
+                    "verification"
+                  ]
+                }
+              ],
+              "from_actor": "Fictional alternate supplier and carrier",
+              "issues": [
+                {
+                  "claim": "Delivery was 30 minutes late relative to the explicit fictional commitment; the reason for delay is unspecified.",
+                  "evidence_ids": [
+                    "R-LATE"
+                  ],
+                  "kind": "delay",
+                  "mechanism": "unknown",
+                  "stage": "arrival"
+                }
+              ],
+              "kind": "physical",
+              "ordinary_explanations": [
+                {
+                  "claim": "Delivery, fuel usability, switching and generator operation could each limit continuity; this first snapshot leaves them unverified.",
+                  "evidence_ids": [
+                    "R-COMMIT"
+                  ]
+                }
+              ],
+              "payload": "80 L of usable diesel via alternate carrier",
+              "relay_id": "DIESEL-RESUPPLY",
+              "scope": "Fictional emergency-power resupply; each stage has its own supplied observation.",
+              "stages": {
+                "action": {
+                  "claim": "Generator restarted at 09:30 and logged two hours at 10 kW.",
+                  "evidence_ids": [
+                    "R-RUNTIME"
+                  ],
+                  "status": "performed",
+                  "time": {
+                    "end": "2026-10-01T11:30:00Z",
+                    "note": "Fictional runtime record; not inferred solely from delivered volume.",
+                    "start": "2026-10-01T09:30:00Z"
+                  }
+                },
+                "arrival": {
+                  "claim": "80 L physically received at 09:20, 30 minutes after the explicit commitment.",
+                  "evidence_ids": [
+                    "R-RECEIPT"
+                  ],
+                  "status": "received",
+                  "time": {
+                    "end": "2026-10-01T09:20:00Z",
+                    "note": "Exact fictional delivery receipt.",
+                    "start": "2026-10-01T09:20:00Z"
+                  }
+                },
+                "dispatch": {
+                  "claim": "80 L dispatched and carrier movement recorded.",
+                  "evidence_ids": [
+                    "R-DISPATCH",
+                    "R-MOVEMENT"
+                  ],
+                  "status": "performed",
+                  "time": {
+                    "end": "2026-10-01T08:40:00Z",
+                    "note": "Fictional dispatch/movement records; not receipt.",
+                    "start": "2026-10-01T08:25:00Z"
+                  }
+                },
+                "expected_transfer": {
+                  "claim": "Alternate supplier promises 80 L by 08:50; the earlier 100 L allocation is a different observation.",
+                  "evidence_ids": [
+                    "R-COMMIT",
+                    "R-ALLOCATION"
+                  ],
+                  "status": "committed",
+                  "time": {
+                    "end": "2026-10-01T08:20:00Z",
+                    "note": "Fictional supplier commitment.",
+                    "start": "2026-10-01T08:20:00Z"
+                  }
+                },
+                "origin": {
+                  "claim": "Primary shortage prompted the alternate request.",
+                  "evidence_ids": [
+                    "R-NEED"
+                  ],
+                  "status": "observed",
+                  "time": {
+                    "end": "2026-10-01T08:16:00Z",
+                    "note": "Fictional request record.",
+                    "start": "2026-10-01T08:16:00Z"
+                  }
+                },
+                "outcome": {
+                  "claim": "Defined critical electrical service continued through 11:30, including the separately verified battery bridge.",
+                  "evidence_ids": [
+                    "R-SERVICE"
+                  ],
+                  "status": "continued",
+                  "time": {
+                    "end": "2026-10-01T11:30:00Z",
+                    "note": "Fictional monitored service interval; no claim beyond it.",
+                    "start": "2026-10-01T08:00:00Z"
+                  }
+                },
+                "verification": {
+                  "claim": "Explicit fictional service log, considered alongside receipt and generator log, supports the bounded outcome.",
+                  "evidence_ids": [
+                    "R-SERVICE",
+                    "R-RECEIPT",
+                    "R-RUNTIME"
+                  ],
+                  "method": "Supplied fictional service-monitoring record plus separate delivery/runtime records; one authored fixture lineage, not independent empirical corroboration.",
+                  "status": "source_supported",
+                  "time": {
+                    "end": "2026-10-01T11:30:00Z",
+                    "note": "Fictional completed log interval.",
+                    "start": "2026-10-01T11:30:00Z"
+                  }
+                }
+              },
+              "to_actor": "Fictional clinic receiving and generator-operations roles"
+            },
+            {
+              "capacities": [
+                {
+                  "basis": "observed",
+                  "evidence_ids": [
+                    "B-READY"
+                  ],
+                  "limits": "Usable AC energy in fictional test; not a generic nameplate rating.",
+                  "resource": "AC-usable battery energy",
+                  "time": {
+                    "end": "2026-10-01T08:00:00Z",
+                    "note": "Fictional exercise timestamp.",
+                    "start": "2026-10-01T08:00:00Z"
+                  },
+                  "unit": "kWh",
+                  "value": "12"
+                },
+                {
+                  "basis": "observed",
+                  "evidence_ids": [
+                    "B-READY"
+                  ],
+                  "limits": "Power and energy are distinct capacities.",
+                  "resource": "Battery discharge power limit",
+                  "time": {
+                    "end": "2026-10-01T08:00:00Z",
+                    "note": "Fictional exercise timestamp.",
+                    "start": "2026-10-01T08:00:00Z"
+                  },
+                  "unit": "kW",
+                  "value": "12"
+                },
+                {
+                  "basis": "required",
+                  "evidence_ids": [
+                    "B-PLAN"
+                  ],
+                  "limits": "Defined fictional critical circuit, not the entire clinic.",
+                  "resource": "Required critical load",
+                  "time": {
+                    "end": "2026-10-01T08:00:00Z",
+                    "note": "Fictional exercise timestamp.",
+                    "start": "2026-10-01T08:00:00Z"
+                  },
+                  "unit": "kW",
+                  "value": "10"
+                }
+              ],
+              "causal_assessment": {
+                "claim": "No causal inference follows automatically from this chronology.",
+                "evidence_ids": [],
+                "status": "not_established"
+              },
+              "contrary_evidence": [
+                {
+                  "claim": "Readiness provides evidence of capacity, not evidence of actual switching or uninterrupted service.",
+                  "evidence_ids": [
+                    "B-READY"
+                  ]
+                },
+                {
+                  "claim": "The later output and service logs now establish successful use; earlier capacity alone did not.",
+                  "evidence_ids": [
+                    "B-RUNTIME",
+                    "B-SERVICE"
+                  ]
+                }
+              ],
+              "deadline": null,
+              "essential_function": "Maintain the defined 10 kW critical service during the generator interruption.",
+              "evidence": [
+                {
+                  "citations": [
+                    {
+                      "locator": "observations/B-NEED",
+                      "source_ref": "S-SIM-DIESEL"
+                    }
+                  ],
+                  "claim": "At 08:00 the facilities log identifies a possible generator fuel gap after 09:00 and requests the battery bridge. This is a projected need, not an observed outage.",
+                  "event_refs": [],
+                  "evidence_id": "B-NEED",
+                  "kind": "trigger_observation",
+                  "limits": "Explicitly fictional input; validates software behavior only. All exercise records share one authored lineage.",
+                  "observed": {
+                    "end": "2026-10-01T08:00:00Z",
+                    "note": "Invented exercise time; not an observed historical incident.",
+                    "start": "2026-10-01T08:00:00Z"
+                  },
+                  "result": "positive",
+                  "stages": [
+                    "origin"
+                  ]
+                },
+                {
+                  "citations": [
+                    {
+                      "locator": "observations/B-PLAN",
+                      "source_ref": "S-SIM-DIESEL"
+                    }
+                  ],
+                  "claim": "The invented exercise procedure requires the battery to supply the 10 kW critical circuit during a generator gap.",
+                  "event_refs": [],
+                  "evidence_id": "B-PLAN",
+                  "kind": "requirement",
+                  "limits": "Explicitly fictional input; validates software behavior only. All exercise records share one authored lineage.",
+                  "observed": {
+                    "end": "2026-10-01T08:00:00Z",
+                    "note": "Invented exercise time; not an observed historical incident.",
+                    "start": "2026-10-01T08:00:00Z"
+                  },
+                  "result": "positive",
+                  "stages": [
+                    "expected_transfer",
+                    "dispatch",
+                    "arrival",
+                    "action"
+                  ]
+                },
+                {
+                  "citations": [
+                    {
+                      "locator": "observations/B-READY",
+                      "source_ref": "S-SIM-DIESEL"
+                    }
+                  ],
+                  "claim": "Fictional acceptance readings show 12 kWh AC-usable stored energy and a 12 kW discharge limit at 08:00.",
+                  "event_refs": [],
+                  "evidence_id": "B-READY",
+                  "kind": "capacity_observation",
+                  "limits": "Explicitly fictional input; validates software behavior only. All exercise records share one authored lineage.",
+                  "observed": {
+                    "end": "2026-10-01T08:00:00Z",
+                    "note": "Invented exercise time; not an observed historical incident.",
+                    "start": "2026-10-01T08:00:00Z"
+                  },
+                  "result": "positive",
+                  "stages": [
+                    "dispatch",
+                    "action"
+                  ]
+                },
+                {
+                  "citations": [
+                    {
+                      "locator": "observations/B-SWITCH",
+                      "source_ref": "S-SIM-DIESEL"
+                    }
+                  ],
+                  "claim": "Automatic transfer log records battery output beginning at 09:00 when initial generator fuel is exhausted.",
+                  "event_refs": [],
+                  "evidence_id": "B-SWITCH",
+                  "kind": "dispatch_observation",
+                  "limits": "Explicitly fictional input; validates software behavior only. All exercise records share one authored lineage.",
+                  "observed": {
+                    "end": "2026-10-01T09:00:00Z",
+                    "note": "Invented exercise time; not an observed historical incident.",
+                    "start": "2026-10-01T09:00:00Z"
+                  },
+                  "result": "positive",
+                  "stages": [
+                    "dispatch"
+                  ]
+                },
+                {
+                  "citations": [
+                    {
+                      "locator": "observations/B-ARRIVAL",
+                      "source_ref": "S-SIM-DIESEL"
+                    }
+                  ],
+                  "claim": "Critical-circuit meter records battery energy reaching the circuit from 09:00.",
+                  "event_refs": [],
+                  "evidence_id": "B-ARRIVAL",
+                  "kind": "arrival_observation",
+                  "limits": "Explicitly fictional input; validates software behavior only. All exercise records share one authored lineage.",
+                  "observed": {
+                    "end": "2026-10-01T09:00:00Z",
+                    "note": "Invented exercise time; not an observed historical incident.",
+                    "start": "2026-10-01T09:00:00Z"
+                  },
+                  "result": "positive",
+                  "stages": [
+                    "arrival"
+                  ]
+                },
+                {
+                  "citations": [
+                    {
+                      "locator": "observations/B-RUNTIME",
+                      "source_ref": "S-SIM-DIESEL"
+                    }
+                  ],
+                  "claim": "Battery output log records 10 kW for 30 minutes, 09:00–09:30, using 5 kWh AC energy; transfer back to generator completes at 09:30.",
+                  "event_refs": [],
+                  "evidence_id": "B-RUNTIME",
+                  "kind": "action_observation",
+                  "limits": "Explicitly fictional input; validates software behavior only. All exercise records share one authored lineage.",
+                  "observed": {
+                    "end": "2026-10-01T09:30:00Z",
+                    "note": "Invented exercise time; not an observed historical incident.",
+                    "start": "2026-10-01T09:00:00Z"
+                  },
+                  "result": "positive",
+                  "stages": [
+                    "action"
+                  ]
+                },
+                {
+                  "citations": [
+                    {
+                      "locator": "observations/B-SERVICE",
+                      "source_ref": "S-SIM-DIESEL"
+                    }
+                  ],
+                  "claim": "During 09:00–09:30 the fictional critical-service log records uninterrupted supply on the defined circuit while the generator is stopped.",
+                  "event_refs": [],
+                  "evidence_id": "B-SERVICE",
+                  "kind": "outcome_observation",
+                  "limits": "Explicitly fictional input; validates software behavior only. All exercise records share one authored lineage.",
+                  "observed": {
+                    "end": "2026-10-01T09:30:00Z",
+                    "note": "Invented exercise time; not an observed historical incident.",
+                    "start": "2026-10-01T09:00:00Z"
+                  },
+                  "result": "positive",
+                  "stages": [
+                    "outcome",
+                    "verification"
+                  ]
+                }
+              ],
+              "from_actor": "Fictional onsite battery and automatic transfer system operated by the facilities role",
+              "issues": [],
+              "kind": "service",
+              "ordinary_explanations": [
+                {
+                  "claim": "A switching failure or load above usable limits could defeat a nominally adequate reserve; these remain untested at the first cutoff.",
+                  "evidence_ids": [
+                    "B-READY"
+                  ]
+                }
+              ],
+              "payload": "AC electrical energy during the fuel gap",
+              "relay_id": "DIESEL-BATTERY",
+              "scope": "Fictional working buffer; rated energy alone cannot verify actual service.",
+              "stages": {
+                "action": {
+                  "claim": "Battery supplied 10 kW for 30 minutes and used 5 kWh of its 12 kWh usable energy.",
+                  "evidence_ids": [
+                    "B-RUNTIME"
+                  ],
+                  "status": "performed",
+                  "time": {
+                    "end": "2026-10-01T09:30:00Z",
+                    "note": "Fictional measured output interval.",
+                    "start": "2026-10-01T09:00:00Z"
+                  }
+                },
+                "arrival": {
+                  "claim": "Energy reached the critical circuit.",
+                  "evidence_ids": [
+                    "B-ARRIVAL"
+                  ],
+                  "status": "received",
+                  "time": {
+                    "end": "2026-10-01T09:00:00Z",
+                    "note": "Fictional circuit meter.",
+                    "start": "2026-10-01T09:00:00Z"
+                  }
+                },
+                "dispatch": {
+                  "claim": "Battery output began automatically at 09:00.",
+                  "evidence_ids": [
+                    "B-SWITCH"
+                  ],
+                  "status": "performed",
+                  "time": {
+                    "end": "2026-10-01T09:00:00Z",
+                    "note": "Fictional switch log.",
+                    "start": "2026-10-01T09:00:00Z"
+                  }
+                },
+                "expected_transfer": {
+                  "claim": "Exercise procedure requires supply to the 10 kW critical circuit during a gap.",
+                  "evidence_ids": [
+                    "B-PLAN"
+                  ],
+                  "status": "documented",
+                  "time": {
+                    "end": "2026-10-01T08:00:00Z",
+                    "note": "Fictional operating procedure.",
+                    "start": "2026-10-01T08:00:00Z"
+                  }
+                },
+                "origin": {
+                  "claim": "Projected need for a buffer is identified.",
+                  "evidence_ids": [
+                    "B-NEED"
+                  ],
+                  "status": "observed",
+                  "time": {
+                    "end": "2026-10-01T08:00:00Z",
+                    "note": "Fictional forecast/need record, not an outage observation.",
+                    "start": "2026-10-01T08:00:00Z"
+                  }
+                },
+                "outcome": {
+                  "claim": "Critical service continued during the generator gap.",
+                  "evidence_ids": [
+                    "B-SERVICE"
+                  ],
+                  "status": "continued",
+                  "time": {
+                    "end": "2026-10-01T09:30:00Z",
+                    "note": "Fictional measured service interval.",
+                    "start": "2026-10-01T09:00:00Z"
+                  }
+                },
+                "verification": {
+                  "claim": "Explicit fictional service and battery logs establish this bounded working buffer.",
+                  "evidence_ids": [
+                    "B-SERVICE",
+                    "B-RUNTIME"
+                  ],
+                  "method": "Supplied fictional service-monitoring and battery output records; one authored lineage.",
+                  "status": "source_supported",
+                  "time": {
+                    "end": "2026-10-01T09:30:00Z",
+                    "note": "End of fictional bridge interval.",
+                    "start": "2026-10-01T09:30:00Z"
+                  }
+                }
+              },
+              "to_actor": "Fictional clinic critical electrical circuit and service monitoring role"
+            }
+          ],
+          "supports": [
+            {
+              "claim": "Alternate carrier delivered 80 L; runtime and service logs verify successful substitution through 11:30, despite late arrival.",
+              "kind": "alternative",
+              "relay_id": "DIESEL-RESUPPLY",
+              "status": "verified",
+              "supports_relay": "DIESEL-PRIMARY"
+            },
+            {
+              "claim": "Battery maintained the defined critical service during the 09:00–09:30 generator gap; 5 kWh used within 12 kWh usable reserve and 10 kW within 12 kW power limit.",
+              "kind": "buffer",
+              "relay_id": "DIESEL-BATTERY",
+              "status": "verified",
+              "supports_relay": "DIESEL-RESUPPLY"
+            }
+          ],
+          "task": "Trace each relay without promoting one stage into the next."
+        }
+      },
+      "decision": {
+        "next_node": "MIRROR",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-10-16T05:06:03+00:00"
+    },
+    {
+      "after": "c9bc4bc34942f3b3062505a2d23298859f7c8d5054efdbf521368f150a430123",
+      "before": "b40018e1f10bbd8e4b80b52a4c93f0fb8c28e156ddf939b553161138c50f6a58",
+      "command": {
+        "actor": {
+          "model": "none invoked",
+          "name": "Work Aiden",
+          "runtime": "deterministic supplied relay projection"
+        },
+        "branch_id": "B0",
+        "event_id": "DIESEL-RELAYS-STEP-5",
+        "expected_revision": 4,
+        "kind": "step",
+        "node": "MIRROR",
+        "output": {
+          "comparisons": [
+            {
+              "answers": [
+                {
+                  "evidence_ids": [
+                    "P-STOCK",
+                    "P-NODISPATCH"
+                  ]
+                }
+              ],
+              "explanation": "This fixture explicitly supplies physical unavailability; no assumption about motive, market-wide scarcity or other suppliers follows.",
+              "queries": []
+            },
+            {
+              "answers": [
+                {
+                  "evidence_ids": [
+                    "R-COMMIT"
+                  ]
+                }
+              ],
+              "explanation": "Delivery, fuel usability, switching and generator operation could each limit continuity; this first snapshot leaves them unverified.",
+              "queries": []
+            },
+            {
+              "answers": [
+                {
+                  "evidence_ids": [
+                    "B-READY"
+                  ]
+                }
+              ],
+              "explanation": "A switching failure or load above usable limits could defeat a nominally adequate reserve; these remain untested at the first cutoff.",
+              "queries": []
+            }
+          ],
+          "contrary_evidence": {
+            "DIESEL-BATTERY": [
+              {
+                "claim": "Readiness provides evidence of capacity, not evidence of actual switching or uninterrupted service.",
+                "evidence_ids": [
+                  "B-READY"
+                ]
+              },
+              {
+                "claim": "The later output and service logs now establish successful use; earlier capacity alone did not.",
+                "evidence_ids": [
+                  "B-RUNTIME",
+                  "B-SERVICE"
+                ]
+              }
+            ],
+            "DIESEL-PRIMARY": [
+              {
+                "claim": "The callback successfully communicated the shortage; the failed physical supply must not become a communication-failure claim.",
+                "evidence_ids": [
+                  "P-CALL"
+                ]
+              }
+            ],
+            "DIESEL-RESUPPLY": [
+              {
+                "claim": "The nominal allocation of 100 L differs from the actual 80 L order; neither is a delivery measurement.",
+                "evidence_ids": [
+                  "R-ALLOCATION",
+                  "R-COMMIT"
+                ]
+              },
+              {
+                "claim": "Late fuel arrival did not interrupt the defined critical service because the recorded battery bridge and subsequent generator operation maintained it. This is a fixture result, not inferred protection from delivery.",
+                "evidence_ids": [
+                  "R-LATE",
+                  "R-RUNTIME",
+                  "R-SERVICE"
+                ]
+              }
+            ]
+          },
+          "information_lineage": {
+            "api_record_refs": [],
+            "criteria_refs": [
+              "schemas/relay-case.schema.json"
+            ],
+            "parent_answer_visible": true,
+            "parent_output_refs": [
+              "operations/relays/journal.json"
+            ],
+            "source_refs": [
+              "S-SIM-DIESEL"
+            ],
+            "test_origin": "inherited"
+          }
+        }
+      },
+      "decision": {
+        "next_node": "CROSS",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-10-16T05:06:03+00:00"
+    },
+    {
+      "after": "accc45328d2d52707cb6d7871cdd626403cd441730a5b18a713e6310d72f52ee",
+      "before": "c9bc4bc34942f3b3062505a2d23298859f7c8d5054efdbf521368f150a430123",
+      "command": {
+        "actor": {
+          "model": "none invoked",
+          "name": "Work Aiden",
+          "runtime": "deterministic supplied relay projection"
+        },
+        "branch_id": "B0",
+        "event_id": "DIESEL-RELAYS-STEP-6",
+        "expected_revision": 5,
+        "kind": "step",
+        "node": "CROSS",
+        "output": {
+          "bridge": [
+            {
+              "question": "No collection is scheduled. If separately requested, add one reviewed fictional counterexample where delivered fuel fails to produce generator runtime, keeping delivery verified and downstream service UNKNOWN or failed only with its own evidence.",
+              "status": "proposed only"
+            }
+          ],
+          "independent": [],
+          "inherited": [
+            {
+              "ref": "S-SIM-DIESEL",
+              "status": "simulated inherited material; no independent corroboration"
+            }
+          ]
+        }
+      },
+      "decision": {
+        "next_node": "RESID",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-10-16T05:06:03+00:00"
+    },
+    {
+      "after": "8ec9483f4ae119121ea4edf39a910513f28c0f344f611f8fe5c144dd800a4d19",
+      "before": "accc45328d2d52707cb6d7871cdd626403cd441730a5b18a713e6310d72f52ee",
+      "command": {
+        "actor": {
+          "model": "none invoked",
+          "name": "Work Aiden",
+          "runtime": "deterministic supplied relay projection"
+        },
+        "branch_id": "B0",
+        "event_id": "DIESEL-RELAYS-STEP-7",
+        "expected_revision": 6,
+        "kind": "step",
+        "node": "RESID",
+        "output": {
+          "predicates": {
+            "consequential": true,
+            "distinct_functions": false,
+            "language_exception": null
+          },
+          "summary": "Service after 11:30, later refills and eventual primary-order disposition are outside this fictional record.; Cause of the alternate delivery delay is not supplied; do not invent a route, traffic or communications cause.; Electrical continuity is verified only inside the fictional exercise; no real patient outcome, market pattern or historical incident follows."
+        }
+      },
+      "decision": {
+        "next_node": "MEAN",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-10-16T05:06:03+00:00"
+    },
+    {
+      "after": "8657f6f6f89c445ecb03548dec0ebd6f305f5c0f2c9f532addff16d633902564",
+      "before": "8ec9483f4ae119121ea4edf39a910513f28c0f344f611f8fe5c144dd800a4d19",
+      "command": {
+        "actor": {
+          "model": "none invoked",
+          "name": "Work Aiden",
+          "runtime": "deterministic supplied relay projection"
+        },
+        "branch_id": "B0",
+        "event_id": "DIESEL-RELAYS-STEP-8",
+        "expected_revision": 7,
+        "kind": "step",
+        "node": "MEAN",
+        "output": {
+          "mode": "simulated",
+          "stages": {
+            "DIESEL-BATTERY": {
+              "action": "performed",
+              "arrival": "received",
+              "dispatch": "performed",
+              "expected_transfer": "documented",
+              "origin": "observed",
+              "outcome": "continued",
+              "verification": "source_supported"
+            },
+            "DIESEL-PRIMARY": {
+              "action": "unknown",
+              "arrival": "unknown",
+              "dispatch": "not_performed",
+              "expected_transfer": "committed",
+              "origin": "observed",
+              "outcome": "unknown",
+              "verification": "unknown"
+            },
+            "DIESEL-RESUPPLY": {
+              "action": "performed",
+              "arrival": "received",
+              "dispatch": "performed",
+              "expected_transfer": "committed",
+              "origin": "observed",
+              "outcome": "continued",
+              "verification": "source_supported"
+            }
+          },
+          "summary": "Fictional critical-service fuel resupply and battery bridge"
+        }
+      },
+      "decision": {
+        "next_node": "EXIT",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-10-16T05:06:03+00:00"
+    },
+    {
+      "after": "77e809541b6ad1a46e8aeb6e21adfe10caa85567916dd8dd604703c3405ac94a",
+      "before": "8657f6f6f89c445ecb03548dec0ebd6f305f5c0f2c9f532addff16d633902564",
+      "command": {
+        "actor": {
+          "model": "none invoked",
+          "name": "Work Aiden",
+          "runtime": "deterministic supplied relay projection"
+        },
+        "branch_id": "B0",
+        "event_id": "DIESEL-RELAYS-STEP-9",
+        "expected_revision": 8,
+        "kind": "step",
+        "node": "EXIT",
+        "output": {
+          "kind": "question",
+          "summary": "No collection is scheduled. If separately requested, add one reviewed fictional counterexample where delivered fuel fails to produce generator runtime, keeping delivery verified and downstream service UNKNOWN or failed only with its own evidence."
+        }
+      },
+      "decision": {
+        "next_node": "RETURN",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-10-16T05:06:03+00:00"
+    },
+    {
+      "after": "1aeabf94be1cce1e73a03217d056f917e5b161e0602f0a2b50e32d191e67b6df",
+      "before": "77e809541b6ad1a46e8aeb6e21adfe10caa85567916dd8dd604703c3405ac94a",
+      "command": {
+        "actor": {
+          "model": "none invoked",
+          "name": "Work Aiden",
+          "runtime": "deterministic supplied relay projection"
+        },
+        "branch_id": "B0",
+        "event_id": "DIESEL-RELAYS-STEP-10",
+        "expected_revision": 9,
+        "kind": "step",
+        "node": "RETURN",
+        "output": {
+          "new_arrival": null,
+          "reason": "Bounded demonstration complete; rest until separately reviewed evidence."
+        }
+      },
+      "decision": {
+        "reason": "No new arrival supplied",
+        "status": "rest"
+      },
+      "recorded_at": "2026-10-16T05:06:03+00:00"
+    }
+  ],
+  "initial": {
+    "config": {
+      "authority": "Reviewed configuration determines eligible routes. Supplied content cannot edit this graph or activate morphology.",
+      "grammar": {
+        "crosscheck": {
+          "basic": "Collector capability",
+          "consequential_residual": "May request or propose teleport to a bounded Pygent Collector/specialist",
+          "permanent_crosscheck_bee": "Unresolved pending repeated cases showing the value of persistent specialist memory"
+        },
+        "entry": "INIT:ROOT-0001",
+        "external_execution": false,
+        "governor_input_refs": [
+          "daily_scroll",
+          "reflection_mailbox",
+          "meaning_tower",
+          "chair_imagination",
+          "meaning_boss_result"
+        ],
+        "routes": [
+          {
+            "automatic_execution": false,
+            "from": "INIT:RESID-0007",
+            "status": "available_not_running",
+            "to": "INIT:RETURN-0010",
+            "via": "PYGENT:PARALLAX-0001"
+          }
+        ],
+        "schema_version": "garden-config-0.1",
+        "status": "on_demand_grammar_prototype",
+        "trees": {
+          "INIT": {
+            "name": "Initiating Garden",
+            "nodes": [
+              {
+                "id": "ROOT-0001",
+                "purpose": "Pass name and identity"
+              },
+              {
+                "id": "ARRIVAL-0002",
+                "purpose": "What arrived, from where, sent to where"
+              },
+              {
+                "id": "EPIST-0003",
+                "purpose": "Prompt/question and starting epistemic state"
+              },
+              {
+                "id": "FUNC-0004",
+                "purpose": "Task and function being investigated"
+              },
+              {
+                "id": "MIRROR-0005",
+                "purpose": "Competing explanations, queries and recorded answers"
+              },
+              {
+                "id": "CROSS-0006",
+                "purpose": "Inherited, independently derived and deliberate bridge attachments"
+              },
+              {
+                "id": "RESID-0007",
+                "purpose": "Surviving residual and bounded specialist proposal"
+              },
+              {
+                "id": "MEAN-0008",
+                "purpose": "Changed meaning and non-evidence culture flower"
+              },
+              {
+                "id": "EXIT-0009",
+                "purpose": "Bounded answer, question, teleport, silence or error"
+              },
+              {
+                "id": "RETURN-0010",
+                "purpose": "New linked arrival or rest"
+              }
+            ]
+          },
+          "PYGENT": {
+            "name": "Bounded specialist destinations",
+            "nodes": [
+              {
+                "id": "PARALLAX-0001",
+                "purpose": "One bounded matched official-language Boss Packet",
+                "role": "parallax_collector_bee",
+                "status": "available_not_running"
+              }
+            ]
+          }
+        }
+      },
+      "independence": "A different branch, tree, context or model is not independent empirical evidence.",
+      "limits": {
+        "max_branches": 8,
+        "max_events": 128,
+        "max_fanout": 3,
+        "max_steps": 80,
+        "model_calls": 0
+      },
+      "model_execution": false,
+      "node_contracts": {
+        "ARRIVAL": {
+          "objects": [
+            "arrival",
+            "language_glance"
+          ]
+        },
+        "CROSS": {
+          "lists": [
+            "inherited",
+            "independent",
+            "bridge"
+          ]
+        },
+        "EPIST": {
+          "strings": [
+            "prompt",
+            "starting_state"
+          ]
+        },
+        "EXIT": {
+          "strings": [
+            "kind",
+            "summary"
+          ]
+        },
+        "FUNC": {
+          "strings": [
+            "task",
+            "function"
+          ]
+        },
+        "MEAN": {
+          "strings": [
+            "summary"
+          ]
+        },
+        "MIRROR": {
+          "lists": [
+            "comparisons"
+          ],
+          "objects": [
+            "information_lineage"
+          ]
+        },
+        "RESID": {
+          "objects": [
+            "predicates"
+          ],
+          "strings": [
+            "summary"
+          ]
+        },
+        "RETURN": {
+          "strings": [
+            "reason"
+          ]
+        },
+        "ROOT": {
+          "strings": [
+            "name"
+          ]
+        }
+      },
+      "rules": [
+        {
+          "actions": [
+            "MOVE",
+            "CLONE"
+          ],
+          "at": [
+            "RESID",
+            "MEAN",
+            "EXIT",
+            "RETURN"
+          ],
+          "condition": {
+            "members": [
+              "consequential",
+              "language_exception"
+            ],
+            "op": "AND"
+          },
+          "from": [
+            "INIT",
+            "ECONOMICS",
+            "PRODUCTION",
+            "DIPLOMACY",
+            "LANGUAGE",
+            "CUSTOMS",
+            "HOMELESSNESS"
+          ],
+          "id": "LANGUAGE-EXCEPTION",
+          "review_required": false,
+          "to": [
+            "LANGUAGE"
+          ]
+        },
+        {
+          "actions": [
+            "MOVE",
+            "CLONE",
+            "FANOUT"
+          ],
+          "at": [
+            "RESID",
+            "MEAN",
+            "EXIT",
+            "RETURN"
+          ],
+          "condition": {
+            "members": [
+              "consequential",
+              "distinct_functions"
+            ],
+            "op": "AND"
+          },
+          "from": [
+            "INIT",
+            "ECONOMICS",
+            "PRODUCTION",
+            "DIPLOMACY",
+            "LANGUAGE",
+            "CUSTOMS",
+            "HOMELESSNESS"
+          ],
+          "id": "DOMAIN-BRANCH",
+          "review_required": true,
+          "to": [
+            "INIT",
+            "ECONOMICS",
+            "PRODUCTION",
+            "DIPLOMACY",
+            "LANGUAGE",
+            "CUSTOMS",
+            "HOMELESSNESS"
+          ]
+        }
+      ],
+      "schema_version": "garden-traversal-config-1",
+      "status": "supplied_content_runtime",
+      "trees": {
+        "CUSTOMS": {
+          "name": "Customs Authority",
+          "node_template": "INIT",
+          "status": "traversable_with_supplied_content"
+        },
+        "DIPLOMACY": {
+          "name": "Diplomacy",
+          "node_template": "INIT",
+          "status": "traversable_with_supplied_content"
+        },
+        "ECONOMICS": {
+          "name": "Economics",
+          "node_template": "INIT",
+          "status": "traversable_with_supplied_content"
+        },
+        "HOMELESSNESS": {
+          "name": "Homelessness Governance and Integrity",
+          "node_template": "INIT",
+          "status": "traversable_with_supplied_content"
+        },
+        "INIT": {
+          "name": "Initiating Garden",
+          "node_template": "INIT",
+          "status": "traversable_with_supplied_content"
+        },
+        "LANGUAGE": {
+          "name": "Language Exception",
+          "node_template": "INIT",
+          "status": "traversable_with_supplied_content"
+        },
+        "PRODUCTION": {
+          "name": "Production",
+          "node_template": "INIT",
+          "status": "traversable_with_supplied_content"
+        }
+      }
+    },
+    "packet": {
+      "actor": {
+        "model": "none invoked",
+        "name": "Work Aiden",
+        "runtime": "deterministic supplied relay projection"
+      },
+      "arrival": {
+        "from": "operations/relays/journal.json",
+        "id": "DIESEL-RELAYS-ARRIVAL",
+        "payload": {
+          "case_id": "DIESEL-RELAYS",
+          "case_sha256": "71ad4088d9c9d0c85d83c2dbe82d8d907d4b0b3c7fb392b898fc2a0c421cd475",
+          "mode": "simulated"
+        },
+        "to": "INIT:ROOT-0001"
+      },
+      "budget": {
+        "max_branches": 1,
+        "max_events": 10,
+        "max_fanout": 0,
+        "max_steps": 10,
+        "model_calls": 0
+      },
+      "epoch": 1,
+      "focus": "Transparent fictional emergency-power exercise from the Diesel Pressure Web and Carrier Lifeline; no historical incident, real supplier or actual clinic is asserted.",
+      "question_id": "Q-DIESEL-RELAYS",
+      "run_id": "DIESEL-RELAYS-GARDEN",
+      "sources": [
+        {
+          "access_limit": "Every actor, timestamp and measurement is invented for a deterministic software demonstration. No retrieval, real sensor or independent corroboration. The first cutoff is an as-of fixture projection, not a historical blind observation.",
+          "binding": {
+            "collection": "sources",
+            "id_field": "source_id",
+            "kind": "source",
+            "path": "examples/relays/diesel/sources.json",
+            "record_id": "SIM-DIESEL",
+            "sha256": "e0c6b04523745436c8509243fab65d022ec526839b504a941360892df501a100"
+          },
+          "kind": "design_input",
+          "lineage_id": "SIM-DIESEL-EXERCISE-ONE-AUTHORED-LINEAGE",
+          "mode": "simulated",
+          "ref": "S-SIM-DIESEL"
+        }
+      ],
+      "status": "simulated case-local supplied relay review; no shared registration",
+      "tree": "INIT"
+    },
+    "registry": {
+      "questions": {
+        "Q-DIESEL-RELAYS": {
+          "epoch": 1
+        }
+      }
+    }
+  },
+  "schema_version": "garden-traversal-1",
+  "state": {
+    "branches": {
+      "B0": {
+        "epoch": 1,
+        "focus": "Transparent fictional emergency-power exercise from the Diesel Pressure Web and Carrier Lifeline; no historical incident, real supplier or actual clinic is asserted.",
+        "id": "B0",
+        "lineage": {
+          "independent_evidence": false,
+          "source_refs": [
+            "S-SIM-DIESEL"
+          ]
+        },
+        "parent_branch": null,
+        "question_id": "Q-DIESEL-RELAYS",
+        "rest": {
+          "kind": "return",
+          "reason": "No new arrival supplied"
+        },
+        "root_branch": "B0",
+        "seen_arrival_ids": [
+          "DIESEL-RELAYS-ARRIVAL"
+        ],
+        "status": "resting",
+        "visited": [
+          {
+            "payload_hash": "9afb2aac61826db77d638404b664bd12b23c74fe3a2b9729f8e528ecba07dc54",
+            "tree": "INIT"
+          }
+        ],
+        "visits": [
+          {
+            "arrival": {
+              "from": "operations/relays/journal.json",
+              "id": "DIESEL-RELAYS-ARRIVAL",
+              "payload": {
+                "case_id": "DIESEL-RELAYS",
+                "case_sha256": "71ad4088d9c9d0c85d83c2dbe82d8d907d4b0b3c7fb392b898fc2a0c421cd475",
+                "mode": "simulated"
+              },
+              "to": "INIT:ROOT-0001"
+            },
+            "status": "completed",
+            "steps": [
+              {
+                "actor": {
+                  "model": "none invoked",
+                  "name": "Work Aiden",
+                  "runtime": "deterministic supplied relay projection"
+                },
+                "event_id": "DIESEL-RELAYS-STEP-1",
+                "node": "ROOT",
+                "output": {
+                  "name": "SIMULATED: Fictional critical-service fuel resupply and battery bridge"
+                }
+              },
+              {
+                "actor": {
+                  "model": "none invoked",
+                  "name": "Work Aiden",
+                  "runtime": "deterministic supplied relay projection"
+                },
+                "event_id": "DIESEL-RELAYS-STEP-2",
+                "node": "ARRIVAL",
+                "output": {
+                  "arrival": {
+                    "from": "operations/relays/journal.json",
+                    "id": "DIESEL-RELAYS-ARRIVAL",
+                    "payload": {
+                      "case_id": "DIESEL-RELAYS",
+                      "case_sha256": "71ad4088d9c9d0c85d83c2dbe82d8d907d4b0b3c7fb392b898fc2a0c421cd475",
+                      "mode": "simulated"
+                    },
+                    "to": "INIT:ROOT-0001"
+                  },
+                  "language_glance": {
+                    "basis": "unknown",
+                    "issuing_office": "See inherited source records",
+                    "languages": [],
+                    "note": "Supplied review or fictional fixture; no new source/language observation.",
+                    "source_refs": [
+                      "S-SIM-DIESEL"
+                    ],
+                    "surface_kind": "summary"
+                  }
+                }
+              },
+              {
+                "actor": {
+                  "model": "none invoked",
+                  "name": "Work Aiden",
+                  "runtime": "deterministic supplied relay projection"
+                },
+                "event_id": "DIESEL-RELAYS-STEP-3",
+                "node": "EPIST",
+                "output": {
+                  "evidence_cutoff": "2026-10-01T11:30:00Z",
+                  "mode": "simulated",
+                  "prompt": "Transparent fictional emergency-power exercise from the Diesel Pressure Web and Carrier Lifeline; no historical incident, real supplier or actual clinic is asserted.",
+                  "starting_state": "Separate origin, obligation, dispatch, receipt, action, outcome and verification."
+                }
+              },
+              {
+                "actor": {
+                  "model": "none invoked",
+                  "name": "Work Aiden",
+                  "runtime": "deterministic supplied relay projection"
+                },
+                "event_id": "DIESEL-RELAYS-STEP-4",
+                "node": "FUNC",
+                "output": {
+                  "function": "Transparent fictional emergency-power exercise from the Diesel Pressure Web and Carrier Lifeline; no historical incident, real supplier or actual clinic is asserted.",
+                  "relays": [
+                    {
+                      "capacities": [
+                        {
+                          "basis": "committed",
+                          "evidence_ids": [
+                            "P-ORDER"
+                          ],
+                          "limits": "Promised quantity is not observed stock.",
+                          "resource": "Primary order",
+                          "time": {
+                            "end": "2026-10-01T08:05:00Z",
+                            "note": "Fictional exercise timestamp.",
+                            "start": "2026-10-01T08:05:00Z"
+                          },
+                          "unit": "L",
+                          "value": "80"
+                        },
+                        {
+                          "basis": "observed",
+                          "evidence_ids": [
+                            "P-STOCK"
+                          ],
+                          "limits": "Only this supplier/order at this timestamp.",
+                          "resource": "Primary usable diesel stock",
+                          "time": {
+                            "end": "2026-10-01T08:15:00Z",
+                            "note": "Fictional exercise timestamp.",
+                            "start": "2026-10-01T08:15:00Z"
+                          },
+                          "unit": "L",
+                          "value": "0"
+                        }
+                      ],
+                      "causal_assessment": {
+                        "claim": "No causal inference follows automatically from this chronology.",
+                        "evidence_ids": [],
+                        "status": "not_established"
+                      },
+                      "contrary_evidence": [
+                        {
+                          "claim": "The callback successfully communicated the shortage; the failed physical supply must not become a communication-failure claim.",
+                          "evidence_ids": [
+                            "P-CALL"
+                          ]
+                        }
+                      ],
+                      "deadline": {
+                        "at": "2026-10-01T08:50:00Z",
+                        "claim": "Fictional primary delivery commitment, not a statutory deadline.",
+                        "evidence_ids": [
+                          "P-ORDER"
+                        ],
+                        "stage": "arrival"
+                      },
+                      "essential_function": "Resupply the critical generator; essential-service continuity is assessed separately.",
+                      "evidence": [
+                        {
+                          "citations": [
+                            {
+                              "locator": "observations/P-NEED",
+                              "source_ref": "S-SIM-DIESEL"
+                            }
+                          ],
+                          "claim": "At 08:00 the clinic reports 10 L usable fuel and a 10 L/hour generator draw at a 10 kW critical load. Refill is needed.",
+                          "event_refs": [],
+                          "evidence_id": "P-NEED",
+                          "kind": "trigger_observation",
+                          "limits": "Explicitly fictional input; validates software behavior only. All exercise records share one authored lineage.",
+                          "observed": {
+                            "end": "2026-10-01T08:00:00Z",
+                            "note": "Invented exercise time; not an observed historical incident.",
+                            "start": "2026-10-01T08:00:00Z"
+                          },
+                          "result": "positive",
+                          "stages": [
+                            "origin"
+                          ]
+                        },
+                        {
+                          "citations": [
+                            {
+                              "locator": "observations/P-ORDER",
+                              "source_ref": "S-SIM-DIESEL"
+                            }
+                          ],
+                          "claim": "Primary supplier accepts the 80 L order at 08:05 and commits to delivery by 08:50. A promise does not establish available inventory.",
+                          "event_refs": [],
+                          "evidence_id": "P-ORDER",
+                          "kind": "commitment",
+                          "limits": "Explicitly fictional input; validates software behavior only. All exercise records share one authored lineage.",
+                          "observed": {
+                            "end": "2026-10-01T08:05:00Z",
+                            "note": "Invented exercise time; not an observed historical incident.",
+                            "start": "2026-10-01T08:05:00Z"
+                          },
+                          "result": "positive",
+                          "stages": [
+                            "expected_transfer",
+                            "dispatch",
+                            "arrival"
+                          ]
+                        },
+                        {
+                          "citations": [
+                            {
+                              "locator": "observations/P-ACK",
+                              "source_ref": "S-SIM-DIESEL"
+                            }
+                          ],
+                          "claim": "The dispatch desk acknowledges the order at 08:05; this is an order receipt, not physical fuel delivery.",
+                          "event_refs": [],
+                          "evidence_id": "P-ACK",
+                          "kind": "acknowledgment",
+                          "limits": "Explicitly fictional input; validates software behavior only. All exercise records share one authored lineage.",
+                          "observed": {
+                            "end": "2026-10-01T08:05:00Z",
+                            "note": "Invented exercise time; not an observed historical incident.",
+                            "start": "2026-10-01T08:05:00Z"
+                          },
+                          "result": "positive",
+                          "stages": [
+                            "dispatch"
+                          ]
+                        },
+                        {
+                          "citations": [
+                            {
+                              "locator": "observations/P-STOCK",
+                              "source_ref": "S-SIM-DIESEL"
+                            }
+                          ],
+                          "claim": "At 08:15 the primary supplier inventory check shows zero usable diesel for this order.",
+                          "event_refs": [],
+                          "evidence_id": "P-STOCK",
+                          "kind": "capacity_observation",
+                          "limits": "Explicitly fictional input; validates software behavior only. All exercise records share one authored lineage.",
+                          "observed": {
+                            "end": "2026-10-01T08:15:00Z",
+                            "note": "Invented exercise time; not an observed historical incident.",
+                            "start": "2026-10-01T08:15:00Z"
+                          },
+                          "result": "negative",
+                          "stages": [
+                            "dispatch"
+                          ]
+                        },
+                        {
+                          "citations": [
+                            {
+                              "locator": "observations/P-NODISPATCH",
+                              "source_ref": "S-SIM-DIESEL"
+                            }
+                          ],
+                          "claim": "Primary dispatch log at 08:15 records no load or vehicle dispatched because usable stock is zero.",
+                          "event_refs": [],
+                          "evidence_id": "P-NODISPATCH",
+                          "kind": "omission_observation",
+                          "limits": "Explicitly fictional input; validates software behavior only. All exercise records share one authored lineage.",
+                          "observed": {
+                            "end": "2026-10-01T08:15:00Z",
+                            "note": "Invented exercise time; not an observed historical incident.",
+                            "start": "2026-10-01T08:15:00Z"
+                          },
+                          "result": "negative",
+                          "stages": [
+                            "dispatch"
+                          ]
+                        },
+                        {
+                          "citations": [
+                            {
+                              "locator": "observations/P-CALL",
+                              "source_ref": "S-SIM-DIESEL"
+                            }
+                          ],
+                          "claim": "The primary dispatch desk communicates the stock shortfall to the clinic at 08:16; the clinic records receiving that callback.",
+                          "event_refs": [],
+                          "evidence_id": "P-CALL",
+                          "kind": "response",
+                          "limits": "Explicitly fictional input; validates software behavior only. All exercise records share one authored lineage.",
+                          "observed": {
+                            "end": "2026-10-01T08:16:00Z",
+                            "note": "Invented exercise time; not an observed historical incident.",
+                            "start": "2026-10-01T08:16:00Z"
+                          },
+                          "result": "positive",
+                          "stages": [
+                            "dispatch"
+                          ]
+                        }
+                      ],
+                      "from_actor": "Fictional primary fuel supplier and dispatch desk",
+                      "issues": [
+                        {
+                          "claim": "No usable fuel was physically available for dispatch.",
+                          "evidence_ids": [
+                            "P-STOCK"
+                          ],
+                          "kind": "capacity_shortfall",
+                          "mechanism": "physical_resource",
+                          "stage": "dispatch"
+                        }
+                      ],
+                      "kind": "physical",
+                      "ordinary_explanations": [
+                        {
+                          "claim": "This fixture explicitly supplies physical unavailability; no assumption about motive, market-wide scarcity or other suppliers follows.",
+                          "evidence_ids": [
+                            "P-STOCK",
+                            "P-NODISPATCH"
+                          ]
+                        }
+                      ],
+                      "payload": "80 L of usable diesel requested for the critical generator",
+                      "relay_id": "DIESEL-PRIMARY",
+                      "scope": "Fictional primary order; distinguish a physical stock shortfall from working communication.",
+                      "stages": {
+                        "action": {
+                          "claim": "No primary-fuel generator action is documented.",
+                          "evidence_ids": [],
+                          "status": "unknown",
+                          "time": {
+                            "end": null,
+                            "note": "Exact occurrence time is not established.",
+                            "start": null
+                          }
+                        },
+                        "arrival": {
+                          "claim": "No primary delivery receipt is supplied; do not infer a receipt from the acknowledgment.",
+                          "evidence_ids": [
+                            "P-ACK"
+                          ],
+                          "status": "unknown",
+                          "time": {
+                            "end": null,
+                            "note": "Exact occurrence time is not established.",
+                            "start": null
+                          }
+                        },
+                        "dispatch": {
+                          "claim": "No load or vehicle dispatched at 08:15 because stock was physically unavailable.",
+                          "evidence_ids": [
+                            "P-NODISPATCH"
+                          ],
+                          "status": "not_performed",
+                          "time": {
+                            "end": "2026-10-01T08:15:00Z",
+                            "note": "Fictional dispatch log.",
+                            "start": "2026-10-01T08:15:00Z"
+                          }
+                        },
+                        "expected_transfer": {
+                          "claim": "80 L delivery promised by 08:50.",
+                          "evidence_ids": [
+                            "P-ORDER"
+                          ],
+                          "status": "committed",
+                          "time": {
+                            "end": "2026-10-01T08:05:00Z",
+                            "note": "Fictional commitment; not inventory.",
+                            "start": "2026-10-01T08:05:00Z"
+                          }
+                        },
+                        "origin": {
+                          "claim": "Low usable reserve triggered the refill request.",
+                          "evidence_ids": [
+                            "P-NEED"
+                          ],
+                          "status": "observed",
+                          "time": {
+                            "end": "2026-10-01T08:00:00Z",
+                            "note": "Fictional load/stock reading.",
+                            "start": "2026-10-01T08:00:00Z"
+                          }
+                        },
+                        "outcome": {
+                          "claim": "The primary order’s eventual result is not supplied; other relays assess the substitute and service continuity.",
+                          "evidence_ids": [],
+                          "status": "unknown",
+                          "time": {
+                            "end": null,
+                            "note": "Exact occurrence time is not established.",
+                            "start": null
+                          }
+                        },
+                        "verification": {
+                          "claim": "No primary-order outcome verification is supplied.",
+                          "evidence_ids": [],
+                          "method": null,
+                          "status": "unknown",
+                          "time": {
+                            "end": null,
+                            "note": "Exact occurrence time is not established.",
+                            "start": null
+                          }
+                        }
+                      },
+                      "to_actor": "Fictional clinic receiving/facilities role"
+                    },
+                    {
+                      "capacities": [
+                        {
+                          "basis": "announced",
+                          "evidence_ids": [
+                            "R-ALLOCATION"
+                          ],
+                          "limits": "Allocation is not dispatch or actual stock.",
+                          "resource": "Desk allocation",
+                          "time": {
+                            "end": "2026-10-01T07:50:00Z",
+                            "note": "Fictional exercise timestamp.",
+                            "start": "2026-10-01T07:50:00Z"
+                          },
+                          "unit": "L",
+                          "value": "100"
+                        },
+                        {
+                          "basis": "committed",
+                          "evidence_ids": [
+                            "R-COMMIT"
+                          ],
+                          "limits": "Promise does not prove arrival.",
+                          "resource": "Alternate order",
+                          "time": {
+                            "end": "2026-10-01T08:20:00Z",
+                            "note": "Fictional exercise timestamp.",
+                            "start": "2026-10-01T08:20:00Z"
+                          },
+                          "unit": "L",
+                          "value": "80"
+                        },
+                        {
+                          "basis": "observed",
+                          "evidence_ids": [
+                            "R-QUANTITY"
+                          ],
+                          "limits": "Received fuel does not alone establish runtime or service.",
+                          "resource": "Metered diesel delivery",
+                          "time": {
+                            "end": "2026-10-01T09:20:00Z",
+                            "note": "Fictional exercise timestamp.",
+                            "start": "2026-10-01T09:20:00Z"
+                          },
+                          "unit": "L",
+                          "value": "80"
+                        }
+                      ],
+                      "causal_assessment": {
+                        "claim": "No causal inference follows automatically from this chronology.",
+                        "evidence_ids": [],
+                        "status": "not_established"
+                      },
+                      "contrary_evidence": [
+                        {
+                          "claim": "The nominal allocation of 100 L differs from the actual 80 L order; neither is a delivery measurement.",
+                          "evidence_ids": [
+                            "R-ALLOCATION",
+                            "R-COMMIT"
+                          ]
+                        },
+                        {
+                          "claim": "Late fuel arrival did not interrupt the defined critical service because the recorded battery bridge and subsequent generator operation maintained it. This is a fixture result, not inferred protection from delivery.",
+                          "evidence_ids": [
+                            "R-LATE",
+                            "R-RUNTIME",
+                            "R-SERVICE"
+                          ]
+                        }
+                      ],
+                      "deadline": {
+                        "at": "2026-10-01T08:50:00Z",
+                        "claim": "Fictional alternate supplier’s explicit delivery commitment.",
+                        "evidence_ids": [
+                          "R-COMMIT"
+                        ],
+                        "stage": "arrival"
+                      },
+                      "essential_function": "Restore generator operation while critical service continues through a separate buffer.",
+                      "evidence": [
+                        {
+                          "citations": [
+                            {
+                              "locator": "observations/R-NEED",
+                              "source_ref": "S-SIM-DIESEL"
+                            }
+                          ],
+                          "claim": "The clinic requests an alternative after the primary supplier reports its stock shortage.",
+                          "event_refs": [],
+                          "evidence_id": "R-NEED",
+                          "kind": "trigger_observation",
+                          "limits": "Explicitly fictional input; validates software behavior only. All exercise records share one authored lineage.",
+                          "observed": {
+                            "end": "2026-10-01T08:16:00Z",
+                            "note": "Invented exercise time; not an observed historical incident.",
+                            "start": "2026-10-01T08:16:00Z"
+                          },
+                          "result": "positive",
+                          "stages": [
+                            "origin"
+                          ]
+                        },
+                        {
+                          "citations": [
+                            {
+                              "locator": "observations/R-ALLOCATION",
+                              "source_ref": "S-SIM-DIESEL"
+                            }
+                          ],
+                          "claim": "A fictional coordination desk announces a nominal 100 L allocation at 07:50. This is not dispatch, available stock or delivery.",
+                          "event_refs": [],
+                          "evidence_id": "R-ALLOCATION",
+                          "kind": "announcement",
+                          "limits": "Explicitly fictional input; validates software behavior only. All exercise records share one authored lineage.",
+                          "observed": {
+                            "end": "2026-10-01T07:50:00Z",
+                            "note": "Invented exercise time; not an observed historical incident.",
+                            "start": "2026-10-01T07:50:00Z"
+                          },
+                          "result": "positive",
+                          "stages": [
+                            "expected_transfer",
+                            "dispatch"
+                          ]
+                        },
+                        {
+                          "citations": [
+                            {
+                              "locator": "observations/R-COMMIT",
+                              "source_ref": "S-SIM-DIESEL"
+                            }
+                          ],
+                          "claim": "Alternate supplier commits at 08:20 to deliver 80 L by 08:50.",
+                          "event_refs": [],
+                          "evidence_id": "R-COMMIT",
+                          "kind": "commitment",
+                          "limits": "Explicitly fictional input; validates software behavior only. All exercise records share one authored lineage.",
+                          "observed": {
+                            "end": "2026-10-01T08:20:00Z",
+                            "note": "Invented exercise time; not an observed historical incident.",
+                            "start": "2026-10-01T08:20:00Z"
+                          },
+                          "result": "positive",
+                          "stages": [
+                            "expected_transfer",
+                            "dispatch",
+                            "arrival"
+                          ]
+                        },
+                        {
+                          "citations": [
+                            {
+                              "locator": "observations/R-DISPATCH",
+                              "source_ref": "S-SIM-DIESEL"
+                            }
+                          ],
+                          "claim": "Carrier load/dispatch log records 80 L dispatched at 08:25.",
+                          "event_refs": [],
+                          "evidence_id": "R-DISPATCH",
+                          "kind": "dispatch_observation",
+                          "limits": "Explicitly fictional input; validates software behavior only. All exercise records share one authored lineage.",
+                          "observed": {
+                            "end": "2026-10-01T08:25:00Z",
+                            "note": "Invented exercise time; not an observed historical incident.",
+                            "start": "2026-10-01T08:25:00Z"
+                          },
+                          "result": "positive",
+                          "stages": [
+                            "dispatch"
+                          ]
+                        },
+                        {
+                          "citations": [
+                            {
+                              "locator": "observations/R-MOVEMENT",
+                              "source_ref": "S-SIM-DIESEL"
+                            }
+                          ],
+                          "claim": "Carrier movement log records the loaded vehicle en route at 08:40. Movement does not establish delivery.",
+                          "event_refs": [],
+                          "evidence_id": "R-MOVEMENT",
+                          "kind": "dispatch_observation",
+                          "limits": "Explicitly fictional input; validates software behavior only. All exercise records share one authored lineage.",
+                          "observed": {
+                            "end": "2026-10-01T08:40:00Z",
+                            "note": "Invented exercise time; not an observed historical incident.",
+                            "start": "2026-10-01T08:40:00Z"
+                          },
+                          "result": "positive",
+                          "stages": [
+                            "dispatch"
+                          ]
+                        },
+                        {
+                          "citations": [
+                            {
+                              "locator": "observations/R-RECEIPT",
+                              "source_ref": "S-SIM-DIESEL"
+                            }
+                          ],
+                          "claim": "At 09:20 the receiving role signs an 80 L metered delivery receipt and records fuel accepted into the generator tank.",
+                          "event_refs": [],
+                          "evidence_id": "R-RECEIPT",
+                          "kind": "arrival_observation",
+                          "limits": "Explicitly fictional input; validates software behavior only. All exercise records share one authored lineage.",
+                          "observed": {
+                            "end": "2026-10-01T09:20:00Z",
+                            "note": "Invented exercise time; not an observed historical incident.",
+                            "start": "2026-10-01T09:20:00Z"
+                          },
+                          "result": "positive",
+                          "stages": [
+                            "arrival"
+                          ]
+                        },
+                        {
+                          "citations": [
+                            {
+                              "locator": "observations/R-QUANTITY",
+                              "source_ref": "S-SIM-DIESEL"
+                            }
+                          ],
+                          "claim": "The fictional calibrated delivery meter records 80 L actually delivered at 09:20.",
+                          "event_refs": [],
+                          "evidence_id": "R-QUANTITY",
+                          "kind": "capacity_observation",
+                          "limits": "Explicitly fictional input; validates software behavior only. All exercise records share one authored lineage.",
+                          "observed": {
+                            "end": "2026-10-01T09:20:00Z",
+                            "note": "Invented exercise time; not an observed historical incident.",
+                            "start": "2026-10-01T09:20:00Z"
+                          },
+                          "result": "positive",
+                          "stages": [
+                            "arrival"
+                          ]
+                        },
+                        {
+                          "citations": [
+                            {
+                              "locator": "observations/R-LATE",
+                              "source_ref": "S-SIM-DIESEL"
+                            }
+                          ],
+                          "claim": "Receipt time 09:20 is 30 minutes after the explicit 08:50 delivery commitment.",
+                          "event_refs": [],
+                          "evidence_id": "R-LATE",
+                          "kind": "timing_observation",
+                          "limits": "Explicitly fictional input; validates software behavior only. All exercise records share one authored lineage.",
+                          "observed": {
+                            "end": "2026-10-01T09:20:00Z",
+                            "note": "Invented exercise time; not an observed historical incident.",
+                            "start": "2026-10-01T09:20:00Z"
+                          },
+                          "result": "negative",
+                          "stages": [
+                            "arrival"
+                          ]
+                        },
+                        {
+                          "citations": [
+                            {
+                              "locator": "observations/R-RUNTIME",
+                              "source_ref": "S-SIM-DIESEL"
+                            }
+                          ],
+                          "claim": "Generator log records restart at 09:30 and two hours of verified operation through 11:30 at 10 kW; meter records 20 L consumed and 60 L remaining.",
+                          "event_refs": [],
+                          "evidence_id": "R-RUNTIME",
+                          "kind": "action_observation",
+                          "limits": "Explicitly fictional input; validates software behavior only. All exercise records share one authored lineage.",
+                          "observed": {
+                            "end": "2026-10-01T11:30:00Z",
+                            "note": "Invented exercise time; not an observed historical incident.",
+                            "start": "2026-10-01T09:30:00Z"
+                          },
+                          "result": "positive",
+                          "stages": [
+                            "action"
+                          ]
+                        },
+                        {
+                          "citations": [
+                            {
+                              "locator": "observations/R-SERVICE",
+                              "source_ref": "S-SIM-DIESEL"
+                            }
+                          ],
+                          "claim": "Fictional service-monitoring log records continuous supply to the defined critical circuit from 08:00 through 11:30, including battery supply during 09:00–09:30 and generator operation thereafter.",
+                          "event_refs": [],
+                          "evidence_id": "R-SERVICE",
+                          "kind": "outcome_observation",
+                          "limits": "Explicitly fictional input; validates software behavior only. All exercise records share one authored lineage.",
+                          "observed": {
+                            "end": "2026-10-01T11:30:00Z",
+                            "note": "Invented exercise time; not an observed historical incident.",
+                            "start": "2026-10-01T08:00:00Z"
+                          },
+                          "result": "positive",
+                          "stages": [
+                            "outcome",
+                            "verification"
+                          ]
+                        }
+                      ],
+                      "from_actor": "Fictional alternate supplier and carrier",
+                      "issues": [
+                        {
+                          "claim": "Delivery was 30 minutes late relative to the explicit fictional commitment; the reason for delay is unspecified.",
+                          "evidence_ids": [
+                            "R-LATE"
+                          ],
+                          "kind": "delay",
+                          "mechanism": "unknown",
+                          "stage": "arrival"
+                        }
+                      ],
+                      "kind": "physical",
+                      "ordinary_explanations": [
+                        {
+                          "claim": "Delivery, fuel usability, switching and generator operation could each limit continuity; this first snapshot leaves them unverified.",
+                          "evidence_ids": [
+                            "R-COMMIT"
+                          ]
+                        }
+                      ],
+                      "payload": "80 L of usable diesel via alternate carrier",
+                      "relay_id": "DIESEL-RESUPPLY",
+                      "scope": "Fictional emergency-power resupply; each stage has its own supplied observation.",
+                      "stages": {
+                        "action": {
+                          "claim": "Generator restarted at 09:30 and logged two hours at 10 kW.",
+                          "evidence_ids": [
+                            "R-RUNTIME"
+                          ],
+                          "status": "performed",
+                          "time": {
+                            "end": "2026-10-01T11:30:00Z",
+                            "note": "Fictional runtime record; not inferred solely from delivered volume.",
+                            "start": "2026-10-01T09:30:00Z"
+                          }
+                        },
+                        "arrival": {
+                          "claim": "80 L physically received at 09:20, 30 minutes after the explicit commitment.",
+                          "evidence_ids": [
+                            "R-RECEIPT"
+                          ],
+                          "status": "received",
+                          "time": {
+                            "end": "2026-10-01T09:20:00Z",
+                            "note": "Exact fictional delivery receipt.",
+                            "start": "2026-10-01T09:20:00Z"
+                          }
+                        },
+                        "dispatch": {
+                          "claim": "80 L dispatched and carrier movement recorded.",
+                          "evidence_ids": [
+                            "R-DISPATCH",
+                            "R-MOVEMENT"
+                          ],
+                          "status": "performed",
+                          "time": {
+                            "end": "2026-10-01T08:40:00Z",
+                            "note": "Fictional dispatch/movement records; not receipt.",
+                            "start": "2026-10-01T08:25:00Z"
+                          }
+                        },
+                        "expected_transfer": {
+                          "claim": "Alternate supplier promises 80 L by 08:50; the earlier 100 L allocation is a different observation.",
+                          "evidence_ids": [
+                            "R-COMMIT",
+                            "R-ALLOCATION"
+                          ],
+                          "status": "committed",
+                          "time": {
+                            "end": "2026-10-01T08:20:00Z",
+                            "note": "Fictional supplier commitment.",
+                            "start": "2026-10-01T08:20:00Z"
+                          }
+                        },
+                        "origin": {
+                          "claim": "Primary shortage prompted the alternate request.",
+                          "evidence_ids": [
+                            "R-NEED"
+                          ],
+                          "status": "observed",
+                          "time": {
+                            "end": "2026-10-01T08:16:00Z",
+                            "note": "Fictional request record.",
+                            "start": "2026-10-01T08:16:00Z"
+                          }
+                        },
+                        "outcome": {
+                          "claim": "Defined critical electrical service continued through 11:30, including the separately verified battery bridge.",
+                          "evidence_ids": [
+                            "R-SERVICE"
+                          ],
+                          "status": "continued",
+                          "time": {
+                            "end": "2026-10-01T11:30:00Z",
+                            "note": "Fictional monitored service interval; no claim beyond it.",
+                            "start": "2026-10-01T08:00:00Z"
+                          }
+                        },
+                        "verification": {
+                          "claim": "Explicit fictional service log, considered alongside receipt and generator log, supports the bounded outcome.",
+                          "evidence_ids": [
+                            "R-SERVICE",
+                            "R-RECEIPT",
+                            "R-RUNTIME"
+                          ],
+                          "method": "Supplied fictional service-monitoring record plus separate delivery/runtime records; one authored fixture lineage, not independent empirical corroboration.",
+                          "status": "source_supported",
+                          "time": {
+                            "end": "2026-10-01T11:30:00Z",
+                            "note": "Fictional completed log interval.",
+                            "start": "2026-10-01T11:30:00Z"
+                          }
+                        }
+                      },
+                      "to_actor": "Fictional clinic receiving and generator-operations roles"
+                    },
+                    {
+                      "capacities": [
+                        {
+                          "basis": "observed",
+                          "evidence_ids": [
+                            "B-READY"
+                          ],
+                          "limits": "Usable AC energy in fictional test; not a generic nameplate rating.",
+                          "resource": "AC-usable battery energy",
+                          "time": {
+                            "end": "2026-10-01T08:00:00Z",
+                            "note": "Fictional exercise timestamp.",
+                            "start": "2026-10-01T08:00:00Z"
+                          },
+                          "unit": "kWh",
+                          "value": "12"
+                        },
+                        {
+                          "basis": "observed",
+                          "evidence_ids": [
+                            "B-READY"
+                          ],
+                          "limits": "Power and energy are distinct capacities.",
+                          "resource": "Battery discharge power limit",
+                          "time": {
+                            "end": "2026-10-01T08:00:00Z",
+                            "note": "Fictional exercise timestamp.",
+                            "start": "2026-10-01T08:00:00Z"
+                          },
+                          "unit": "kW",
+                          "value": "12"
+                        },
+                        {
+                          "basis": "required",
+                          "evidence_ids": [
+                            "B-PLAN"
+                          ],
+                          "limits": "Defined fictional critical circuit, not the entire clinic.",
+                          "resource": "Required critical load",
+                          "time": {
+                            "end": "2026-10-01T08:00:00Z",
+                            "note": "Fictional exercise timestamp.",
+                            "start": "2026-10-01T08:00:00Z"
+                          },
+                          "unit": "kW",
+                          "value": "10"
+                        }
+                      ],
+                      "causal_assessment": {
+                        "claim": "No causal inference follows automatically from this chronology.",
+                        "evidence_ids": [],
+                        "status": "not_established"
+                      },
+                      "contrary_evidence": [
+                        {
+                          "claim": "Readiness provides evidence of capacity, not evidence of actual switching or uninterrupted service.",
+                          "evidence_ids": [
+                            "B-READY"
+                          ]
+                        },
+                        {
+                          "claim": "The later output and service logs now establish successful use; earlier capacity alone did not.",
+                          "evidence_ids": [
+                            "B-RUNTIME",
+                            "B-SERVICE"
+                          ]
+                        }
+                      ],
+                      "deadline": null,
+                      "essential_function": "Maintain the defined 10 kW critical service during the generator interruption.",
+                      "evidence": [
+                        {
+                          "citations": [
+                            {
+                              "locator": "observations/B-NEED",
+                              "source_ref": "S-SIM-DIESEL"
+                            }
+                          ],
+                          "claim": "At 08:00 the facilities log identifies a possible generator fuel gap after 09:00 and requests the battery bridge. This is a projected need, not an observed outage.",
+                          "event_refs": [],
+                          "evidence_id": "B-NEED",
+                          "kind": "trigger_observation",
+                          "limits": "Explicitly fictional input; validates software behavior only. All exercise records share one authored lineage.",
+                          "observed": {
+                            "end": "2026-10-01T08:00:00Z",
+                            "note": "Invented exercise time; not an observed historical incident.",
+                            "start": "2026-10-01T08:00:00Z"
+                          },
+                          "result": "positive",
+                          "stages": [
+                            "origin"
+                          ]
+                        },
+                        {
+                          "citations": [
+                            {
+                              "locator": "observations/B-PLAN",
+                              "source_ref": "S-SIM-DIESEL"
+                            }
+                          ],
+                          "claim": "The invented exercise procedure requires the battery to supply the 10 kW critical circuit during a generator gap.",
+                          "event_refs": [],
+                          "evidence_id": "B-PLAN",
+                          "kind": "requirement",
+                          "limits": "Explicitly fictional input; validates software behavior only. All exercise records share one authored lineage.",
+                          "observed": {
+                            "end": "2026-10-01T08:00:00Z",
+                            "note": "Invented exercise time; not an observed historical incident.",
+                            "start": "2026-10-01T08:00:00Z"
+                          },
+                          "result": "positive",
+                          "stages": [
+                            "expected_transfer",
+                            "dispatch",
+                            "arrival",
+                            "action"
+                          ]
+                        },
+                        {
+                          "citations": [
+                            {
+                              "locator": "observations/B-READY",
+                              "source_ref": "S-SIM-DIESEL"
+                            }
+                          ],
+                          "claim": "Fictional acceptance readings show 12 kWh AC-usable stored energy and a 12 kW discharge limit at 08:00.",
+                          "event_refs": [],
+                          "evidence_id": "B-READY",
+                          "kind": "capacity_observation",
+                          "limits": "Explicitly fictional input; validates software behavior only. All exercise records share one authored lineage.",
+                          "observed": {
+                            "end": "2026-10-01T08:00:00Z",
+                            "note": "Invented exercise time; not an observed historical incident.",
+                            "start": "2026-10-01T08:00:00Z"
+                          },
+                          "result": "positive",
+                          "stages": [
+                            "dispatch",
+                            "action"
+                          ]
+                        },
+                        {
+                          "citations": [
+                            {
+                              "locator": "observations/B-SWITCH",
+                              "source_ref": "S-SIM-DIESEL"
+                            }
+                          ],
+                          "claim": "Automatic transfer log records battery output beginning at 09:00 when initial generator fuel is exhausted.",
+                          "event_refs": [],
+                          "evidence_id": "B-SWITCH",
+                          "kind": "dispatch_observation",
+                          "limits": "Explicitly fictional input; validates software behavior only. All exercise records share one authored lineage.",
+                          "observed": {
+                            "end": "2026-10-01T09:00:00Z",
+                            "note": "Invented exercise time; not an observed historical incident.",
+                            "start": "2026-10-01T09:00:00Z"
+                          },
+                          "result": "positive",
+                          "stages": [
+                            "dispatch"
+                          ]
+                        },
+                        {
+                          "citations": [
+                            {
+                              "locator": "observations/B-ARRIVAL",
+                              "source_ref": "S-SIM-DIESEL"
+                            }
+                          ],
+                          "claim": "Critical-circuit meter records battery energy reaching the circuit from 09:00.",
+                          "event_refs": [],
+                          "evidence_id": "B-ARRIVAL",
+                          "kind": "arrival_observation",
+                          "limits": "Explicitly fictional input; validates software behavior only. All exercise records share one authored lineage.",
+                          "observed": {
+                            "end": "2026-10-01T09:00:00Z",
+                            "note": "Invented exercise time; not an observed historical incident.",
+                            "start": "2026-10-01T09:00:00Z"
+                          },
+                          "result": "positive",
+                          "stages": [
+                            "arrival"
+                          ]
+                        },
+                        {
+                          "citations": [
+                            {
+                              "locator": "observations/B-RUNTIME",
+                              "source_ref": "S-SIM-DIESEL"
+                            }
+                          ],
+                          "claim": "Battery output log records 10 kW for 30 minutes, 09:00–09:30, using 5 kWh AC energy; transfer back to generator completes at 09:30.",
+                          "event_refs": [],
+                          "evidence_id": "B-RUNTIME",
+                          "kind": "action_observation",
+                          "limits": "Explicitly fictional input; validates software behavior only. All exercise records share one authored lineage.",
+                          "observed": {
+                            "end": "2026-10-01T09:30:00Z",
+                            "note": "Invented exercise time; not an observed historical incident.",
+                            "start": "2026-10-01T09:00:00Z"
+                          },
+                          "result": "positive",
+                          "stages": [
+                            "action"
+                          ]
+                        },
+                        {
+                          "citations": [
+                            {
+                              "locator": "observations/B-SERVICE",
+                              "source_ref": "S-SIM-DIESEL"
+                            }
+                          ],
+                          "claim": "During 09:00–09:30 the fictional critical-service log records uninterrupted supply on the defined circuit while the generator is stopped.",
+                          "event_refs": [],
+                          "evidence_id": "B-SERVICE",
+                          "kind": "outcome_observation",
+                          "limits": "Explicitly fictional input; validates software behavior only. All exercise records share one authored lineage.",
+                          "observed": {
+                            "end": "2026-10-01T09:30:00Z",
+                            "note": "Invented exercise time; not an observed historical incident.",
+                            "start": "2026-10-01T09:00:00Z"
+                          },
+                          "result": "positive",
+                          "stages": [
+                            "outcome",
+                            "verification"
+                          ]
+                        }
+                      ],
+                      "from_actor": "Fictional onsite battery and automatic transfer system operated by the facilities role",
+                      "issues": [],
+                      "kind": "service",
+                      "ordinary_explanations": [
+                        {
+                          "claim": "A switching failure or load above usable limits could defeat a nominally adequate reserve; these remain untested at the first cutoff.",
+                          "evidence_ids": [
+                            "B-READY"
+                          ]
+                        }
+                      ],
+                      "payload": "AC electrical energy during the fuel gap",
+                      "relay_id": "DIESEL-BATTERY",
+                      "scope": "Fictional working buffer; rated energy alone cannot verify actual service.",
+                      "stages": {
+                        "action": {
+                          "claim": "Battery supplied 10 kW for 30 minutes and used 5 kWh of its 12 kWh usable energy.",
+                          "evidence_ids": [
+                            "B-RUNTIME"
+                          ],
+                          "status": "performed",
+                          "time": {
+                            "end": "2026-10-01T09:30:00Z",
+                            "note": "Fictional measured output interval.",
+                            "start": "2026-10-01T09:00:00Z"
+                          }
+                        },
+                        "arrival": {
+                          "claim": "Energy reached the critical circuit.",
+                          "evidence_ids": [
+                            "B-ARRIVAL"
+                          ],
+                          "status": "received",
+                          "time": {
+                            "end": "2026-10-01T09:00:00Z",
+                            "note": "Fictional circuit meter.",
+                            "start": "2026-10-01T09:00:00Z"
+                          }
+                        },
+                        "dispatch": {
+                          "claim": "Battery output began automatically at 09:00.",
+                          "evidence_ids": [
+                            "B-SWITCH"
+                          ],
+                          "status": "performed",
+                          "time": {
+                            "end": "2026-10-01T09:00:00Z",
+                            "note": "Fictional switch log.",
+                            "start": "2026-10-01T09:00:00Z"
+                          }
+                        },
+                        "expected_transfer": {
+                          "claim": "Exercise procedure requires supply to the 10 kW critical circuit during a gap.",
+                          "evidence_ids": [
+                            "B-PLAN"
+                          ],
+                          "status": "documented",
+                          "time": {
+                            "end": "2026-10-01T08:00:00Z",
+                            "note": "Fictional operating procedure.",
+                            "start": "2026-10-01T08:00:00Z"
+                          }
+                        },
+                        "origin": {
+                          "claim": "Projected need for a buffer is identified.",
+                          "evidence_ids": [
+                            "B-NEED"
+                          ],
+                          "status": "observed",
+                          "time": {
+                            "end": "2026-10-01T08:00:00Z",
+                            "note": "Fictional forecast/need record, not an outage observation.",
+                            "start": "2026-10-01T08:00:00Z"
+                          }
+                        },
+                        "outcome": {
+                          "claim": "Critical service continued during the generator gap.",
+                          "evidence_ids": [
+                            "B-SERVICE"
+                          ],
+                          "status": "continued",
+                          "time": {
+                            "end": "2026-10-01T09:30:00Z",
+                            "note": "Fictional measured service interval.",
+                            "start": "2026-10-01T09:00:00Z"
+                          }
+                        },
+                        "verification": {
+                          "claim": "Explicit fictional service and battery logs establish this bounded working buffer.",
+                          "evidence_ids": [
+                            "B-SERVICE",
+                            "B-RUNTIME"
+                          ],
+                          "method": "Supplied fictional service-monitoring and battery output records; one authored lineage.",
+                          "status": "source_supported",
+                          "time": {
+                            "end": "2026-10-01T09:30:00Z",
+                            "note": "End of fictional bridge interval.",
+                            "start": "2026-10-01T09:30:00Z"
+                          }
+                        }
+                      },
+                      "to_actor": "Fictional clinic critical electrical circuit and service monitoring role"
+                    }
+                  ],
+                  "supports": [
+                    {
+                      "claim": "Alternate carrier delivered 80 L; runtime and service logs verify successful substitution through 11:30, despite late arrival.",
+                      "kind": "alternative",
+                      "relay_id": "DIESEL-RESUPPLY",
+                      "status": "verified",
+                      "supports_relay": "DIESEL-PRIMARY"
+                    },
+                    {
+                      "claim": "Battery maintained the defined critical service during the 09:00–09:30 generator gap; 5 kWh used within 12 kWh usable reserve and 10 kW within 12 kW power limit.",
+                      "kind": "buffer",
+                      "relay_id": "DIESEL-BATTERY",
+                      "status": "verified",
+                      "supports_relay": "DIESEL-RESUPPLY"
+                    }
+                  ],
+                  "task": "Trace each relay without promoting one stage into the next."
+                }
+              },
+              {
+                "actor": {
+                  "model": "none invoked",
+                  "name": "Work Aiden",
+                  "runtime": "deterministic supplied relay projection"
+                },
+                "event_id": "DIESEL-RELAYS-STEP-5",
+                "node": "MIRROR",
+                "output": {
+                  "comparisons": [
+                    {
+                      "answers": [
+                        {
+                          "evidence_ids": [
+                            "P-STOCK",
+                            "P-NODISPATCH"
+                          ]
+                        }
+                      ],
+                      "explanation": "This fixture explicitly supplies physical unavailability; no assumption about motive, market-wide scarcity or other suppliers follows.",
+                      "queries": []
+                    },
+                    {
+                      "answers": [
+                        {
+                          "evidence_ids": [
+                            "R-COMMIT"
+                          ]
+                        }
+                      ],
+                      "explanation": "Delivery, fuel usability, switching and generator operation could each limit continuity; this first snapshot leaves them unverified.",
+                      "queries": []
+                    },
+                    {
+                      "answers": [
+                        {
+                          "evidence_ids": [
+                            "B-READY"
+                          ]
+                        }
+                      ],
+                      "explanation": "A switching failure or load above usable limits could defeat a nominally adequate reserve; these remain untested at the first cutoff.",
+                      "queries": []
+                    }
+                  ],
+                  "contrary_evidence": {
+                    "DIESEL-BATTERY": [
+                      {
+                        "claim": "Readiness provides evidence of capacity, not evidence of actual switching or uninterrupted service.",
+                        "evidence_ids": [
+                          "B-READY"
+                        ]
+                      },
+                      {
+                        "claim": "The later output and service logs now establish successful use; earlier capacity alone did not.",
+                        "evidence_ids": [
+                          "B-RUNTIME",
+                          "B-SERVICE"
+                        ]
+                      }
+                    ],
+                    "DIESEL-PRIMARY": [
+                      {
+                        "claim": "The callback successfully communicated the shortage; the failed physical supply must not become a communication-failure claim.",
+                        "evidence_ids": [
+                          "P-CALL"
+                        ]
+                      }
+                    ],
+                    "DIESEL-RESUPPLY": [
+                      {
+                        "claim": "The nominal allocation of 100 L differs from the actual 80 L order; neither is a delivery measurement.",
+                        "evidence_ids": [
+                          "R-ALLOCATION",
+                          "R-COMMIT"
+                        ]
+                      },
+                      {
+                        "claim": "Late fuel arrival did not interrupt the defined critical service because the recorded battery bridge and subsequent generator operation maintained it. This is a fixture result, not inferred protection from delivery.",
+                        "evidence_ids": [
+                          "R-LATE",
+                          "R-RUNTIME",
+                          "R-SERVICE"
+                        ]
+                      }
+                    ]
+                  },
+                  "information_lineage": {
+                    "api_record_refs": [],
+                    "criteria_refs": [
+                      "schemas/relay-case.schema.json"
+                    ],
+                    "parent_answer_visible": true,
+                    "parent_output_refs": [
+                      "operations/relays/journal.json"
+                    ],
+                    "source_refs": [
+                      "S-SIM-DIESEL"
+                    ],
+                    "test_origin": "inherited"
+                  }
+                }
+              },
+              {
+                "actor": {
+                  "model": "none invoked",
+                  "name": "Work Aiden",
+                  "runtime": "deterministic supplied relay projection"
+                },
+                "event_id": "DIESEL-RELAYS-STEP-6",
+                "node": "CROSS",
+                "output": {
+                  "bridge": [
+                    {
+                      "question": "No collection is scheduled. If separately requested, add one reviewed fictional counterexample where delivered fuel fails to produce generator runtime, keeping delivery verified and downstream service UNKNOWN or failed only with its own evidence.",
+                      "status": "proposed only"
+                    }
+                  ],
+                  "independent": [],
+                  "inherited": [
+                    {
+                      "ref": "S-SIM-DIESEL",
+                      "status": "simulated inherited material; no independent corroboration"
+                    }
+                  ]
+                }
+              },
+              {
+                "actor": {
+                  "model": "none invoked",
+                  "name": "Work Aiden",
+                  "runtime": "deterministic supplied relay projection"
+                },
+                "event_id": "DIESEL-RELAYS-STEP-7",
+                "node": "RESID",
+                "output": {
+                  "predicates": {
+                    "consequential": true,
+                    "distinct_functions": false,
+                    "language_exception": null
+                  },
+                  "summary": "Service after 11:30, later refills and eventual primary-order disposition are outside this fictional record.; Cause of the alternate delivery delay is not supplied; do not invent a route, traffic or communications cause.; Electrical continuity is verified only inside the fictional exercise; no real patient outcome, market pattern or historical incident follows."
+                }
+              },
+              {
+                "actor": {
+                  "model": "none invoked",
+                  "name": "Work Aiden",
+                  "runtime": "deterministic supplied relay projection"
+                },
+                "event_id": "DIESEL-RELAYS-STEP-8",
+                "node": "MEAN",
+                "output": {
+                  "mode": "simulated",
+                  "stages": {
+                    "DIESEL-BATTERY": {
+                      "action": "performed",
+                      "arrival": "received",
+                      "dispatch": "performed",
+                      "expected_transfer": "documented",
+                      "origin": "observed",
+                      "outcome": "continued",
+                      "verification": "source_supported"
+                    },
+                    "DIESEL-PRIMARY": {
+                      "action": "unknown",
+                      "arrival": "unknown",
+                      "dispatch": "not_performed",
+                      "expected_transfer": "committed",
+                      "origin": "observed",
+                      "outcome": "unknown",
+                      "verification": "unknown"
+                    },
+                    "DIESEL-RESUPPLY": {
+                      "action": "performed",
+                      "arrival": "received",
+                      "dispatch": "performed",
+                      "expected_transfer": "committed",
+                      "origin": "observed",
+                      "outcome": "continued",
+                      "verification": "source_supported"
+                    }
+                  },
+                  "summary": "Fictional critical-service fuel resupply and battery bridge"
+                }
+              },
+              {
+                "actor": {
+                  "model": "none invoked",
+                  "name": "Work Aiden",
+                  "runtime": "deterministic supplied relay projection"
+                },
+                "event_id": "DIESEL-RELAYS-STEP-9",
+                "node": "EXIT",
+                "output": {
+                  "kind": "question",
+                  "summary": "No collection is scheduled. If separately requested, add one reviewed fictional counterexample where delivered fuel fails to produce generator runtime, keeping delivery verified and downstream service UNKNOWN or failed only with its own evidence."
+                }
+              },
+              {
+                "actor": {
+                  "model": "none invoked",
+                  "name": "Work Aiden",
+                  "runtime": "deterministic supplied relay projection"
+                },
+                "event_id": "DIESEL-RELAYS-STEP-10",
+                "node": "RETURN",
+                "output": {
+                  "new_arrival": null,
+                  "reason": "Bounded demonstration complete; rest until separately reviewed evidence."
+                }
+              }
+            ],
+            "tree": "INIT"
+          }
+        ]
+      }
+    },
+    "epoch": 1,
+    "limits": {
+      "max_branches": 1,
+      "max_events": 10,
+      "max_fanout": 0,
+      "max_steps": 10,
+      "model_calls": 0
+    },
+    "question_id": "Q-DIESEL-RELAYS",
+    "revision": 10,
+    "route_decisions": [],
+    "route_signatures": [],
+    "run_id": "DIESEL-RELAYS-GARDEN",
+    "sources": {
+      "S-SIM-DIESEL": {
+        "access_limit": "Every actor, timestamp and measurement is invented for a deterministic software demonstration. No retrieval, real sensor or independent corroboration. The first cutoff is an as-of fixture projection, not a historical blind observation.",
+        "binding": {
+          "collection": "sources",
+          "id_field": "source_id",
+          "kind": "source",
+          "path": "examples/relays/diesel/sources.json",
+          "record_id": "SIM-DIESEL",
+          "sha256": "e0c6b04523745436c8509243fab65d022ec526839b504a941360892df501a100"
+        },
+        "kind": "design_input",
+        "lineage_id": "SIM-DIESEL-EXERCISE-ONE-AUTHORED-LINEAGE",
+        "mode": "simulated",
+        "ref": "S-SIM-DIESEL"
+      }
+    },
+    "used": {
+      "branches": 1,
+      "model_calls": 0,
+      "steps": 10
+    }
+  },
+  "state_sha256": "1aeabf94be1cce1e73a03217d056f917e5b161e0602f0a2b50e32d191e67b6df"
+}

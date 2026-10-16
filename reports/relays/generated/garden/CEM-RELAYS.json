@@ -1,0 +1,2195 @@
+{
+  "config_sha256": "39152c8d17954a1d9097a0c55351ced98ad702f402cb9c12a27b116f4c0d1655",
+  "events": [
+    {
+      "after": "7993c62c3c862ad302f8ae11987033d57bc6ded9944fe2ea3ef01989500199c8",
+      "before": "cc5f2900c2d1704b2bc88ae53cd7ee51ec7be3553b6d5bb57a55e6e740a73119",
+      "command": {
+        "actor": {
+          "model": "none invoked",
+          "name": "Work Aiden",
+          "runtime": "deterministic supplied relay projection"
+        },
+        "branch_id": "B0",
+        "event_id": "CEM-RELAYS-STEP-1",
+        "expected_revision": 0,
+        "kind": "step",
+        "node": "ROOT",
+        "output": {
+          "name": "EMPIRICAL: Camp East Montana: notification and unresolved warning"
+        }
+      },
+      "decision": {
+        "next_node": "ARRIVAL",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-10-16T05:06:03+00:00"
+    },
+    {
+      "after": "334610bd763c187168ab0213c5953bd5e8b54e117f7983a6c0d1c477afe43542",
+      "before": "7993c62c3c862ad302f8ae11987033d57bc6ded9944fe2ea3ef01989500199c8",
+      "command": {
+        "actor": {
+          "model": "none invoked",
+          "name": "Work Aiden",
+          "runtime": "deterministic supplied relay projection"
+        },
+        "branch_id": "B0",
+        "event_id": "CEM-RELAYS-STEP-2",
+        "expected_revision": 1,
+        "kind": "step",
+        "node": "ARRIVAL",
+        "output": {
+          "arrival": {
+            "from": "operations/relays/journal.json",
+            "id": "CEM-RELAYS-ARRIVAL",
+            "payload": {
+              "case_id": "CEM-RELAYS",
+              "case_sha256": "ee28defa5946defb78aa373032bada5a3658f3eb4b483a6a942b9c6fc2d011f6",
+              "mode": "empirical"
+            },
+            "to": "INIT:ROOT-0001"
+          },
+          "language_glance": {
+            "basis": "unknown",
+            "issuing_office": "See inherited source records",
+            "languages": [],
+            "note": "Supplied review or fictional fixture; no new source/language observation.",
+            "source_refs": [
+              "S-GAO-CEM"
+            ],
+            "surface_kind": "summary"
+          }
+        }
+      },
+      "decision": {
+        "next_node": "EPIST",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-10-16T05:06:03+00:00"
+    },
+    {
+      "after": "5ea237e4961ac1a1eb2ca9bed1f5a70674ce5ba483859b29553c73a19058c712",
+      "before": "334610bd763c187168ab0213c5953bd5e8b54e117f7983a6c0d1c477afe43542",
+      "command": {
+        "actor": {
+          "model": "none invoked",
+          "name": "Work Aiden",
+          "runtime": "deterministic supplied relay projection"
+        },
+        "branch_id": "B0",
+        "event_id": "CEM-RELAYS-STEP-3",
+        "expected_revision": 2,
+        "kind": "step",
+        "node": "EPIST",
+        "output": {
+          "evidence_cutoff": "2026-10-16",
+          "mode": "empirical",
+          "prompt": "Two bounded relays reconstructed only from retained GAO evidence: TB-symptom notification and an earlier vision-panel warning. No new public-source investigation.",
+          "starting_state": "Separate origin, obligation, dispatch, receipt, action, outcome and verification."
+        }
+      },
+      "decision": {
+        "next_node": "FUNC",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-10-16T05:06:03+00:00"
+    },
+    {
+      "after": "5f5a69821cbbddfb443658658e9dab3dc50cb7a3e6e32d8ab77364295e1328a5",
+      "before": "5ea237e4961ac1a1eb2ca9bed1f5a70674ce5ba483859b29553c73a19058c712",
+      "command": {
+        "actor": {
+          "model": "none invoked",
+          "name": "Work Aiden",
+          "runtime": "deterministic supplied relay projection"
+        },
+        "branch_id": "B0",
+        "event_id": "CEM-RELAYS-STEP-4",
+        "expected_revision": 3,
+        "kind": "step",
+        "node": "FUNC",
+        "output": {
+          "function": "Two bounded relays reconstructed only from retained GAO evidence: TB-symptom notification and an earlier vision-panel warning. No new public-source investigation.",
+          "relays": [
+            {
+              "capacities": [],
+              "causal_assessment": {
+                "claim": "Neither causation of disease transmission nor systemic prevalence is established by this single notification finding.",
+                "evidence_ids": [
+                  "TB-OMISSION"
+                ],
+                "status": "not_established"
+              },
+              "contrary_evidence": [
+                {
+                  "claim": "Oversight identified the problem and the overall rating was acceptable; these do not close the item.",
+                  "evidence_ids": [
+                    "TB-RATING"
+                  ]
+                },
+                {
+                  "claim": "General contractor corrective work and agency responses are preserved; item-specific completion is not demonstrated.",
+                  "evidence_ids": [
+                    "TB-RESPONSE",
+                    "TB-AGENCY"
+                  ]
+                }
+              ],
+              "deadline": null,
+              "essential_function": "Enable the required downstream clinical and oversight response; its actual result is unknown.",
+              "evidence": [
+                {
+                  "citations": [
+                    {
+                      "locator": "printed p.16 n.37",
+                      "source_ref": "S-GAO-CEM"
+                    }
+                  ],
+                  "claim": "ODO finding describes a detained person with TB symptoms; symptom onset is not dated.",
+                  "event_refs": [
+                    "E-CEM13"
+                  ],
+                  "evidence_id": "TB-TRIGGER",
+                  "kind": "trigger_observation",
+                  "limits": "GAO reports ICE findings; no underlying message, medical record or item-level closure independently obtained.",
+                  "observed": {
+                    "end": "2026-02",
+                    "note": "Date of reported observation/finding; publication June 9, 2026 is separate.",
+                    "start": "2026-02"
+                  },
+                  "result": "positive",
+                  "stages": [
+                    "origin"
+                  ]
+                },
+                {
+                  "citations": [
+                    {
+                      "locator": "printed p.16 n.37",
+                      "source_ref": "S-GAO-CEM"
+                    }
+                  ],
+                  "claim": "The February ODO inspection identified lack of notification to ICE about a person with TB symptoms as a priority deficiency.",
+                  "event_refs": [
+                    "E-CEM13"
+                  ],
+                  "evidence_id": "TB-OMISSION",
+                  "kind": "omission_observation",
+                  "limits": "GAO reports ICE findings; no underlying message, medical record or item-level closure independently obtained.",
+                  "observed": {
+                    "end": "2026-02",
+                    "note": "Date of reported observation/finding; publication June 9, 2026 is separate.",
+                    "start": "2026-02"
+                  },
+                  "result": "negative",
+                  "stages": [
+                    "expected_transfer",
+                    "dispatch",
+                    "arrival"
+                  ]
+                },
+                {
+                  "citations": [
+                    {
+                      "locator": "printed p.16 n.37",
+                      "source_ref": "S-GAO-CEM"
+                    }
+                  ],
+                  "claim": "The same inspection identified 49 deficiencies, including three priority issues, and assigned an acceptable overall rating.",
+                  "event_refs": [
+                    "E-CEM13"
+                  ],
+                  "evidence_id": "TB-RATING",
+                  "kind": "context",
+                  "limits": "Detection and the overall rating are real observations; neither establishes medical correction or a protective result for this episode.",
+                  "observed": {
+                    "end": "2026-02",
+                    "note": "Date of reported observation/finding; publication June 9, 2026 is separate.",
+                    "start": "2026-02"
+                  },
+                  "result": "context",
+                  "stages": [
+                    "action",
+                    "outcome"
+                  ]
+                },
+                {
+                  "citations": [
+                    {
+                      "locator": "printed p.18 table 2 note b",
+                      "source_ref": "S-GAO-CEM"
+                    }
+                  ],
+                  "claim": "Contractors reported ongoing/planned corrections to contract deficiencies; some discrepancy reports were pending/draft in March. This passage does not tie those responses to this ODO item.",
+                  "event_refs": [
+                    "E-CEM16"
+                  ],
+                  "evidence_id": "TB-RESPONSE",
+                  "kind": "response",
+                  "limits": "General contractor response, not a TB-specific completed corrective action.",
+                  "observed": {
+                    "end": "2026-03",
+                    "note": "Date of reported observation/finding; publication June 9, 2026 is separate.",
+                    "start": "2026-03"
+                  },
+                  "result": "context",
+                  "stages": [
+                    "action",
+                    "outcome"
+                  ]
+                },
+                {
+                  "citations": [
+                    {
+                      "locator": "printed pp.21–22; appendices I–II, pp.25–30",
+                      "source_ref": "S-GAO-CEM"
+                    }
+                  ],
+                  "claim": "DHS relied on existing inspection controls and requested closure; Defense disputed aspects of the audit while agreeing to a lessons assessment.",
+                  "event_refs": [
+                    "E-CEM19",
+                    "E-CEM20"
+                  ],
+                  "evidence_id": "TB-AGENCY",
+                  "kind": "response",
+                  "limits": "Agency positions do not establish correction of this individual omission. Open recommendation status is likewise not proof that no work occurred.",
+                  "observed": {
+                    "end": "2026-05",
+                    "note": "Date of reported observation/finding; publication June 9, 2026 is separate.",
+                    "start": "2026-05"
+                  },
+                  "result": "context",
+                  "stages": [
+                    "action",
+                    "outcome"
+                  ]
+                }
+              ],
+              "from_actor": "Responsible facility notifying role; individual/office not identified in retained passage",
+              "issues": [
+                {
+                  "claim": "Expected notification was omitted in the reported inspection finding; no specific failure route is selected.",
+                  "evidence_ids": [
+                    "TB-OMISSION"
+                  ],
+                  "kind": "omission",
+                  "mechanism": "unknown",
+                  "stage": "expected_transfer"
+                }
+              ],
+              "kind": "informational",
+              "ordinary_explanations": [
+                {
+                  "claim": "Non-send, routing, receipt or documentation problems remain untested alternatives; the finding does not choose among them.",
+                  "evidence_ids": [
+                    "TB-OMISSION"
+                  ]
+                }
+              ],
+              "payload": "Notice of a detained person with TB symptoms",
+              "relay_id": "CEM-TB-NOTICE",
+              "scope": "February 2026 ODO finding about notification; not the separate November/December intake-testing episode.",
+              "stages": {
+                "action": {
+                  "claim": "Inspection detected the omission; subsequent clinical, isolation or corrective action for this episode is unknown.",
+                  "evidence_ids": [
+                    "TB-RATING"
+                  ],
+                  "status": "unknown",
+                  "time": {
+                    "end": null,
+                    "note": "Exact occurrence time is not established.",
+                    "start": null
+                  }
+                },
+                "arrival": {
+                  "claim": "No receipt/acknowledgment record establishes the path. Do not infer that ICE had no knowledge by any other route.",
+                  "evidence_ids": [
+                    "TB-OMISSION"
+                  ],
+                  "status": "unknown",
+                  "time": {
+                    "end": null,
+                    "note": "Exact occurrence time is not established.",
+                    "start": null
+                  }
+                },
+                "dispatch": {
+                  "claim": "Omission is documented, but no message trace distinguishes non-send, misrouting or another mechanism.",
+                  "evidence_ids": [
+                    "TB-OMISSION"
+                  ],
+                  "status": "unknown",
+                  "time": {
+                    "end": null,
+                    "note": "Exact occurrence time is not established.",
+                    "start": null
+                  }
+                },
+                "expected_transfer": {
+                  "claim": "Notification was expected, inferred from the expressly recorded deficiency; clause, channel, responsible notifier and deadline are not supplied.",
+                  "evidence_ids": [
+                    "TB-OMISSION"
+                  ],
+                  "status": "inferred_expectation",
+                  "time": {
+                    "end": null,
+                    "note": "Exact occurrence time is not established.",
+                    "start": null
+                  }
+                },
+                "origin": {
+                  "claim": "Symptoms are described in the finding; actual symptom/incident time is unknown.",
+                  "evidence_ids": [
+                    "TB-TRIGGER"
+                  ],
+                  "status": "observed",
+                  "time": {
+                    "end": null,
+                    "note": "Exact occurrence time is not established.",
+                    "start": null
+                  }
+                },
+                "outcome": {
+                  "claim": "Medical outcome, transmission outcome and successful correction for this episode are not established.",
+                  "evidence_ids": [
+                    "TB-RATING",
+                    "TB-RESPONSE"
+                  ],
+                  "status": "unknown",
+                  "time": {
+                    "end": null,
+                    "note": "Exact occurrence time is not established.",
+                    "start": null
+                  }
+                },
+                "verification": {
+                  "claim": "GAO supports the omission finding, not a verified protective outcome.",
+                  "evidence_ids": [
+                    "TB-OMISSION"
+                  ],
+                  "method": null,
+                  "status": "unknown",
+                  "time": {
+                    "end": null,
+                    "note": "Exact occurrence time is not established.",
+                    "start": null
+                  }
+                }
+              },
+              "to_actor": "ICE; receiving office unspecified"
+            },
+            {
+              "capacities": [],
+              "causal_assessment": {
+                "claim": "The warning preceded a later suicide, but the source does not isolate panel absence as its cause or establish preventability. A single episode does not establish a systemic pattern.",
+                "evidence_ids": [
+                  "VP-WARNING",
+                  "VP-NOINSTALL",
+                  "VP-OBSERVATION"
+                ],
+                "status": "not_established"
+              },
+              "contrary_evidence": [
+                {
+                  "claim": "The warning and later discrepancy process show actual detection and communication; action/completion cannot be inferred.",
+                  "evidence_ids": [
+                    "VP-WARNING"
+                  ]
+                },
+                {
+                  "claim": "Ongoing/planned corrective work and agency responses remain in the record; no completed panel correction is established.",
+                  "evidence_ids": [
+                    "VP-RESPONSE",
+                    "VP-AGENCY"
+                  ]
+                }
+              ],
+              "deadline": null,
+              "essential_function": "Prompt remedy and safe observation of people at risk; panel-specific causal effectiveness is not established.",
+              "evidence": [
+                {
+                  "citations": [
+                    {
+                      "locator": "printed p.18 table 2 suicide-prevention row and note b",
+                      "source_ref": "S-GAO-CEM"
+                    }
+                  ],
+                  "claim": "ICE officials identified concerns about absent vision panels and lack of line of sight by October 2025.",
+                  "event_refs": [
+                    "E-CEM16"
+                  ],
+                  "evidence_id": "VP-TRIGGER",
+                  "kind": "trigger_observation",
+                  "limits": "GAO reports ICE findings; no underlying message, medical record or item-level closure independently obtained.",
+                  "observed": {
+                    "end": "2025-10",
+                    "note": "Date of reported observation/finding; publication June 9, 2026 is separate.",
+                    "start": "2025-10"
+                  },
+                  "result": "positive",
+                  "stages": [
+                    "origin"
+                  ]
+                },
+                {
+                  "citations": [
+                    {
+                      "locator": "printed p.18 table 2 suicide-prevention row",
+                      "source_ref": "S-GAO-CEM"
+                    }
+                  ],
+                  "claim": "ICE officials raised the vision-panel concerns to contractors in October 2025.",
+                  "event_refs": [
+                    "E-CEM16"
+                  ],
+                  "evidence_id": "VP-WARNING",
+                  "kind": "dispatch_observation",
+                  "limits": "Reported communication is documented; exact sender, channel, message and independent acknowledgment are absent.",
+                  "observed": {
+                    "end": "2025-10",
+                    "note": "Date of reported observation/finding; publication June 9, 2026 is separate.",
+                    "start": "2025-10"
+                  },
+                  "result": "positive",
+                  "stages": [
+                    "dispatch"
+                  ]
+                },
+                {
+                  "citations": [
+                    {
+                      "locator": "printed p.18 table 2 suicide-prevention row",
+                      "source_ref": "S-GAO-CEM"
+                    }
+                  ],
+                  "claim": "Vision panels had not been installed when a detained person died by suicide in January 2026.",
+                  "event_refs": [
+                    "E-CEM16"
+                  ],
+                  "evidence_id": "VP-NOINSTALL",
+                  "kind": "omission_observation",
+                  "limits": "March 3 is the discrepancy-report date, not the death date. Noninstallation does not prove that no planning/procurement work occurred.",
+                  "observed": {
+                    "end": "2026-01",
+                    "note": "Date of reported observation/finding; publication June 9, 2026 is separate.",
+                    "start": "2026-01"
+                  },
+                  "result": "negative",
+                  "stages": [
+                    "expected_transfer",
+                    "action"
+                  ]
+                },
+                {
+                  "citations": [
+                    {
+                      "locator": "printed p.18 table 2 suicide-prevention row",
+                      "source_ref": "S-GAO-CEM"
+                    }
+                  ],
+                  "claim": "The reported suicide episode involved placement in a room not designed as suicide-resistant and unattended intervals exceeding the stated 15-minute observation requirement. Required safe observation was not maintained.",
+                  "event_refs": [
+                    "E-CEM16"
+                  ],
+                  "evidence_id": "VP-OBSERVATION",
+                  "kind": "outcome_observation",
+                  "limits": "This verifies a bounded observation failure through GAO’s account of ICE findings; it does not isolate panel absence as the cause of the death or quantify preventability.",
+                  "observed": {
+                    "end": "2026-01",
+                    "note": "Date of reported observation/finding; publication June 9, 2026 is separate.",
+                    "start": "2026-01"
+                  },
+                  "result": "negative",
+                  "stages": [
+                    "outcome",
+                    "verification"
+                  ]
+                },
+                {
+                  "citations": [
+                    {
+                      "locator": "printed p.18 table 2 note b",
+                      "source_ref": "S-GAO-CEM"
+                    }
+                  ],
+                  "claim": "The original prime contractor reported ongoing/planned corrections; some discrepancy reports were pending/draft in March while ICE awaited responses.",
+                  "event_refs": [
+                    "E-CEM16"
+                  ],
+                  "evidence_id": "VP-RESPONSE",
+                  "kind": "response",
+                  "limits": "The passage does not identify which reports were pending and does not verify panel installation or effectiveness.",
+                  "observed": {
+                    "end": "2026-03",
+                    "note": "Date of reported observation/finding; publication June 9, 2026 is separate.",
+                    "start": "2026-03"
+                  },
+                  "result": "context",
+                  "stages": [
+                    "action",
+                    "outcome"
+                  ]
+                },
+                {
+                  "citations": [
+                    {
+                      "locator": "printed pp.21–22; appendices I–II, pp.25–30",
+                      "source_ref": "S-GAO-CEM"
+                    }
+                  ],
+                  "claim": "DHS emphasized existing inspection policy; Defense disputed parts of the audit and agreed to assess lessons.",
+                  "event_refs": [
+                    "E-CEM19",
+                    "E-CEM20"
+                  ],
+                  "evidence_id": "VP-AGENCY",
+                  "kind": "response",
+                  "limits": "Neither response is item-level verification of panel installation, safe monitoring or a protective result.",
+                  "observed": {
+                    "end": "2026-05",
+                    "note": "Date of reported observation/finding; publication June 9, 2026 is separate.",
+                    "start": "2026-05"
+                  },
+                  "result": "context",
+                  "stages": [
+                    "action",
+                    "outcome"
+                  ]
+                }
+              ],
+              "from_actor": "ICE officials",
+              "issues": [
+                {
+                  "claim": "Warned-about panels were not installed by the January death; no exact installation deadline is established.",
+                  "evidence_ids": [
+                    "VP-NOINSTALL"
+                  ],
+                  "kind": "omission",
+                  "mechanism": "unknown",
+                  "stage": "action"
+                },
+                {
+                  "claim": "Required safe observation was not maintained during the documented episode.",
+                  "evidence_ids": [
+                    "VP-OBSERVATION"
+                  ],
+                  "kind": "outcome_failure",
+                  "mechanism": "service",
+                  "stage": "outcome"
+                }
+              ],
+              "kind": "informational",
+              "ordinary_explanations": [
+                {
+                  "claim": "Physical work, procurement, routing and other implementation constraints are possible but unverified explanations for the noninstallation.",
+                  "evidence_ids": [
+                    "VP-NOINSTALL",
+                    "VP-RESPONSE"
+                  ]
+                }
+              ],
+              "payload": "Warning about absent medical-room vision panels and lack of line of sight",
+              "relay_id": "CEM-VISION-WARNING",
+              "scope": "October 2025 communicated concern, panels still absent at January 2026 suicide; March 3 discrepancy report. Separate from the homicide episode.",
+              "stages": {
+                "action": {
+                  "claim": "Panels remained uninstalled at the January death. This is not proof of no preparatory work.",
+                  "evidence_ids": [
+                    "VP-NOINSTALL"
+                  ],
+                  "status": "not_performed",
+                  "time": {
+                    "end": "2026-01",
+                    "note": "State at the January event; exact date not supplied.",
+                    "start": "2026-01"
+                  }
+                },
+                "arrival": {
+                  "claim": "Contractor-directed communication is reported; separate receipt, acknowledgment and internal routing are unknown.",
+                  "evidence_ids": [
+                    "VP-WARNING"
+                  ],
+                  "status": "unknown",
+                  "time": {
+                    "end": null,
+                    "note": "Exact occurrence time is not established.",
+                    "start": null
+                  }
+                },
+                "dispatch": {
+                  "claim": "ICE officials raised the concern to contractors.",
+                  "evidence_ids": [
+                    "VP-WARNING"
+                  ],
+                  "status": "performed",
+                  "time": {
+                    "end": "2025-10",
+                    "note": "Reported communication month; no exact send time.",
+                    "start": "2025-10"
+                  }
+                },
+                "expected_transfer": {
+                  "claim": "Warning was intended to prompt a remedy; exact work-order obligation and installation deadline are not retained.",
+                  "evidence_ids": [
+                    "VP-NOINSTALL"
+                  ],
+                  "status": "inferred_expectation",
+                  "time": {
+                    "end": null,
+                    "note": "Exact occurrence time is not established.",
+                    "start": null
+                  }
+                },
+                "origin": {
+                  "claim": "Missing panels and sightline concern identified by October.",
+                  "evidence_ids": [
+                    "VP-TRIGGER"
+                  ],
+                  "status": "observed",
+                  "time": {
+                    "end": "2025-10",
+                    "note": "Month precision; exact discovery day unknown.",
+                    "start": "2025-10"
+                  }
+                },
+                "outcome": {
+                  "claim": "Required safe observation was not maintained in the described episode; the death is documented without attributing it to the panel omission.",
+                  "evidence_ids": [
+                    "VP-OBSERVATION"
+                  ],
+                  "status": "failed",
+                  "time": {
+                    "end": "2026-01",
+                    "note": "Bounded observation failure at the reported episode, not an outcome trend.",
+                    "start": "2026-01"
+                  }
+                },
+                "verification": {
+                  "claim": "GAO reports the March 3 discrepancy account of the January episode; underlying ICE record not independently obtained.",
+                  "evidence_ids": [
+                    "VP-OBSERVATION"
+                  ],
+                  "method": "Retained GAO report, printed p.18 table 2; one inherited source family.",
+                  "status": "source_supported",
+                  "time": {
+                    "end": "2026-03-03",
+                    "note": "Retrospective report date, published by GAO June 9.",
+                    "start": "2026-03-03"
+                  }
+                }
+              },
+              "to_actor": "Facility contractors; individual recipient and internal work owner unspecified"
+            }
+          ],
+          "supports": [],
+          "task": "Trace each relay without promoting one stage into the next."
+        }
+      },
+      "decision": {
+        "next_node": "MIRROR",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-10-16T05:06:03+00:00"
+    },
+    {
+      "after": "7d4ca812e4f23bd8bfc7ee42c03358d5212df8d40fd740503a6e9d8a85e7b3b6",
+      "before": "5f5a69821cbbddfb443658658e9dab3dc50cb7a3e6e32d8ab77364295e1328a5",
+      "command": {
+        "actor": {
+          "model": "none invoked",
+          "name": "Work Aiden",
+          "runtime": "deterministic supplied relay projection"
+        },
+        "branch_id": "B0",
+        "event_id": "CEM-RELAYS-STEP-5",
+        "expected_revision": 4,
+        "kind": "step",
+        "node": "MIRROR",
+        "output": {
+          "comparisons": [
+            {
+              "answers": [
+                {
+                  "evidence_ids": [
+                    "TB-OMISSION"
+                  ]
+                }
+              ],
+              "explanation": "Non-send, routing, receipt or documentation problems remain untested alternatives; the finding does not choose among them.",
+              "queries": []
+            },
+            {
+              "answers": [
+                {
+                  "evidence_ids": [
+                    "VP-NOINSTALL",
+                    "VP-RESPONSE"
+                  ]
+                }
+              ],
+              "explanation": "Physical work, procurement, routing and other implementation constraints are possible but unverified explanations for the noninstallation.",
+              "queries": []
+            }
+          ],
+          "contrary_evidence": {
+            "CEM-TB-NOTICE": [
+              {
+                "claim": "Oversight identified the problem and the overall rating was acceptable; these do not close the item.",
+                "evidence_ids": [
+                  "TB-RATING"
+                ]
+              },
+              {
+                "claim": "General contractor corrective work and agency responses are preserved; item-specific completion is not demonstrated.",
+                "evidence_ids": [
+                  "TB-RESPONSE",
+                  "TB-AGENCY"
+                ]
+              }
+            ],
+            "CEM-VISION-WARNING": [
+              {
+                "claim": "The warning and later discrepancy process show actual detection and communication; action/completion cannot be inferred.",
+                "evidence_ids": [
+                  "VP-WARNING"
+                ]
+              },
+              {
+                "claim": "Ongoing/planned corrective work and agency responses remain in the record; no completed panel correction is established.",
+                "evidence_ids": [
+                  "VP-RESPONSE",
+                  "VP-AGENCY"
+                ]
+              }
+            ]
+          },
+          "information_lineage": {
+            "api_record_refs": [],
+            "criteria_refs": [
+              "schemas/relay-case.schema.json"
+            ],
+            "parent_answer_visible": true,
+            "parent_output_refs": [
+              "operations/relays/journal.json"
+            ],
+            "source_refs": [
+              "S-GAO-CEM"
+            ],
+            "test_origin": "inherited"
+          }
+        }
+      },
+      "decision": {
+        "next_node": "CROSS",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-10-16T05:06:03+00:00"
+    },
+    {
+      "after": "d0339afc2d27b78cbcab8e0a28186d86c0c5a45226f56849842bf8f56c684194",
+      "before": "7d4ca812e4f23bd8bfc7ee42c03358d5212df8d40fd740503a6e9d8a85e7b3b6",
+      "command": {
+        "actor": {
+          "model": "none invoked",
+          "name": "Work Aiden",
+          "runtime": "deterministic supplied relay projection"
+        },
+        "branch_id": "B0",
+        "event_id": "CEM-RELAYS-STEP-6",
+        "expected_revision": 5,
+        "kind": "step",
+        "node": "CROSS",
+        "output": {
+          "bridge": [
+            {
+              "question": "If a dated item-level corrective/reinspection record becomes available for the existing Q-CEM-TB-CORRECTION, test whether it identifies the notification obligation, actual notification/receipt and independently checked result for that item; otherwise retain UNKNOWN. No request is submitted.",
+              "status": "proposed only"
+            }
+          ],
+          "independent": [],
+          "inherited": [
+            {
+              "ref": "S-GAO-CEM",
+              "status": "empirical inherited material; no independent corroboration"
+            }
+          ]
+        }
+      },
+      "decision": {
+        "next_node": "RESID",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-10-16T05:06:03+00:00"
+    },
+    {
+      "after": "147d2781cd1f68aa70cc52b94a490386d44f22c1d377678a3986a2f08a474744",
+      "before": "d0339afc2d27b78cbcab8e0a28186d86c0c5a45226f56849842bf8f56c684194",
+      "command": {
+        "actor": {
+          "model": "none invoked",
+          "name": "Work Aiden",
+          "runtime": "deterministic supplied relay projection"
+        },
+        "branch_id": "B0",
+        "event_id": "CEM-RELAYS-STEP-7",
+        "expected_revision": 6,
+        "kind": "step",
+        "node": "RESID",
+        "output": {
+          "predicates": {
+            "consequential": true,
+            "distinct_functions": false,
+            "language_exception": null
+          },
+          "summary": "TB symptom/incident date, notifier, message path, receipt, exact obligation/deadline, clinical outcome and item-specific correction are unknown.; The February notification finding is not identified as the November TB case or December 3 intake-testing discrepancy; their deadlines cannot be interchanged.; Vision-warning receipt, internal routing, installation deadline and later verified correction are unknown; month-only dates do not support an exact elapsed-time calculation.; The retained GAO account is one lineage. Underlying ICE records and panel-specific causal effectiveness have not been independently verified."
+        }
+      },
+      "decision": {
+        "next_node": "MEAN",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-10-16T05:06:03+00:00"
+    },
+    {
+      "after": "640849bde8355719bad45d3bf5fef1c8afd45d9ce30e39d3c5cea913abb64659",
+      "before": "147d2781cd1f68aa70cc52b94a490386d44f22c1d377678a3986a2f08a474744",
+      "command": {
+        "actor": {
+          "model": "none invoked",
+          "name": "Work Aiden",
+          "runtime": "deterministic supplied relay projection"
+        },
+        "branch_id": "B0",
+        "event_id": "CEM-RELAYS-STEP-8",
+        "expected_revision": 7,
+        "kind": "step",
+        "node": "MEAN",
+        "output": {
+          "mode": "empirical",
+          "stages": {
+            "CEM-TB-NOTICE": {
+              "action": "unknown",
+              "arrival": "unknown",
+              "dispatch": "unknown",
+              "expected_transfer": "inferred_expectation",
+              "origin": "observed",
+              "outcome": "unknown",
+              "verification": "unknown"
+            },
+            "CEM-VISION-WARNING": {
+              "action": "not_performed",
+              "arrival": "unknown",
+              "dispatch": "performed",
+              "expected_transfer": "inferred_expectation",
+              "origin": "observed",
+              "outcome": "failed",
+              "verification": "source_supported"
+            }
+          },
+          "summary": "Camp East Montana: notification and unresolved warning"
+        }
+      },
+      "decision": {
+        "next_node": "EXIT",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-10-16T05:06:03+00:00"
+    },
+    {
+      "after": "9fdf754b54664b30742cb6238a44a0e6029019a440ad0c6219b43f045896e8b2",
+      "before": "640849bde8355719bad45d3bf5fef1c8afd45d9ce30e39d3c5cea913abb64659",
+      "command": {
+        "actor": {
+          "model": "none invoked",
+          "name": "Work Aiden",
+          "runtime": "deterministic supplied relay projection"
+        },
+        "branch_id": "B0",
+        "event_id": "CEM-RELAYS-STEP-9",
+        "expected_revision": 8,
+        "kind": "step",
+        "node": "EXIT",
+        "output": {
+          "kind": "question",
+          "summary": "If a dated item-level corrective/reinspection record becomes available for the existing Q-CEM-TB-CORRECTION, test whether it identifies the notification obligation, actual notification/receipt and independently checked result for that item; otherwise retain UNKNOWN. No request is submitted."
+        }
+      },
+      "decision": {
+        "next_node": "RETURN",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-10-16T05:06:03+00:00"
+    },
+    {
+      "after": "1bd037a9cc2acb90707b6bc1eb23f7fb7e7b91291b894de2fdc173ba27265710",
+      "before": "9fdf754b54664b30742cb6238a44a0e6029019a440ad0c6219b43f045896e8b2",
+      "command": {
+        "actor": {
+          "model": "none invoked",
+          "name": "Work Aiden",
+          "runtime": "deterministic supplied relay projection"
+        },
+        "branch_id": "B0",
+        "event_id": "CEM-RELAYS-STEP-10",
+        "expected_revision": 9,
+        "kind": "step",
+        "node": "RETURN",
+        "output": {
+          "new_arrival": null,
+          "reason": "Bounded demonstration complete; rest until separately reviewed evidence."
+        }
+      },
+      "decision": {
+        "reason": "No new arrival supplied",
+        "status": "rest"
+      },
+      "recorded_at": "2026-10-16T05:06:03+00:00"
+    }
+  ],
+  "initial": {
+    "config": {
+      "authority": "Reviewed configuration determines eligible routes. Supplied content cannot edit this graph or activate morphology.",
+      "grammar": {
+        "crosscheck": {
+          "basic": "Collector capability",
+          "consequential_residual": "May request or propose teleport to a bounded Pygent Collector/specialist",
+          "permanent_crosscheck_bee": "Unresolved pending repeated cases showing the value of persistent specialist memory"
+        },
+        "entry": "INIT:ROOT-0001",
+        "external_execution": false,
+        "governor_input_refs": [
+          "daily_scroll",
+          "reflection_mailbox",
+          "meaning_tower",
+          "chair_imagination",
+          "meaning_boss_result"
+        ],
+        "routes": [
+          {
+            "automatic_execution": false,
+            "from": "INIT:RESID-0007",
+            "status": "available_not_running",
+            "to": "INIT:RETURN-0010",
+            "via": "PYGENT:PARALLAX-0001"
+          }
+        ],
+        "schema_version": "garden-config-0.1",
+        "status": "on_demand_grammar_prototype",
+        "trees": {
+          "INIT": {
+            "name": "Initiating Garden",
+            "nodes": [
+              {
+                "id": "ROOT-0001",
+                "purpose": "Pass name and identity"
+              },
+              {
+                "id": "ARRIVAL-0002",
+                "purpose": "What arrived, from where, sent to where"
+              },
+              {
+                "id": "EPIST-0003",
+                "purpose": "Prompt/question and starting epistemic state"
+              },
+              {
+                "id": "FUNC-0004",
+                "purpose": "Task and function being investigated"
+              },
+              {
+                "id": "MIRROR-0005",
+                "purpose": "Competing explanations, queries and recorded answers"
+              },
+              {
+                "id": "CROSS-0006",
+                "purpose": "Inherited, independently derived and deliberate bridge attachments"
+              },
+              {
+                "id": "RESID-0007",
+                "purpose": "Surviving residual and bounded specialist proposal"
+              },
+              {
+                "id": "MEAN-0008",
+                "purpose": "Changed meaning and non-evidence culture flower"
+              },
+              {
+                "id": "EXIT-0009",
+                "purpose": "Bounded answer, question, teleport, silence or error"
+              },
+              {
+                "id": "RETURN-0010",
+                "purpose": "New linked arrival or rest"
+              }
+            ]
+          },
+          "PYGENT": {
+            "name": "Bounded specialist destinations",
+            "nodes": [
+              {
+                "id": "PARALLAX-0001",
+                "purpose": "One bounded matched official-language Boss Packet",
+                "role": "parallax_collector_bee",
+                "status": "available_not_running"
+              }
+            ]
+          }
+        }
+      },
+      "independence": "A different branch, tree, context or model is not independent empirical evidence.",
+      "limits": {
+        "max_branches": 8,
+        "max_events": 128,
+        "max_fanout": 3,
+        "max_steps": 80,
+        "model_calls": 0
+      },
+      "model_execution": false,
+      "node_contracts": {
+        "ARRIVAL": {
+          "objects": [
+            "arrival",
+            "language_glance"
+          ]
+        },
+        "CROSS": {
+          "lists": [
+            "inherited",
+            "independent",
+            "bridge"
+          ]
+        },
+        "EPIST": {
+          "strings": [
+            "prompt",
+            "starting_state"
+          ]
+        },
+        "EXIT": {
+          "strings": [
+            "kind",
+            "summary"
+          ]
+        },
+        "FUNC": {
+          "strings": [
+            "task",
+            "function"
+          ]
+        },
+        "MEAN": {
+          "strings": [
+            "summary"
+          ]
+        },
+        "MIRROR": {
+          "lists": [
+            "comparisons"
+          ],
+          "objects": [
+            "information_lineage"
+          ]
+        },
+        "RESID": {
+          "objects": [
+            "predicates"
+          ],
+          "strings": [
+            "summary"
+          ]
+        },
+        "RETURN": {
+          "strings": [
+            "reason"
+          ]
+        },
+        "ROOT": {
+          "strings": [
+            "name"
+          ]
+        }
+      },
+      "rules": [
+        {
+          "actions": [
+            "MOVE",
+            "CLONE"
+          ],
+          "at": [
+            "RESID",
+            "MEAN",
+            "EXIT",
+            "RETURN"
+          ],
+          "condition": {
+            "members": [
+              "consequential",
+              "language_exception"
+            ],
+            "op": "AND"
+          },
+          "from": [
+            "INIT",
+            "ECONOMICS",
+            "PRODUCTION",
+            "DIPLOMACY",
+            "LANGUAGE",
+            "CUSTOMS",
+            "HOMELESSNESS"
+          ],
+          "id": "LANGUAGE-EXCEPTION",
+          "review_required": false,
+          "to": [
+            "LANGUAGE"
+          ]
+        },
+        {
+          "actions": [
+            "MOVE",
+            "CLONE",
+            "FANOUT"
+          ],
+          "at": [
+            "RESID",
+            "MEAN",
+            "EXIT",
+            "RETURN"
+          ],
+          "condition": {
+            "members": [
+              "consequential",
+              "distinct_functions"
+            ],
+            "op": "AND"
+          },
+          "from": [
+            "INIT",
+            "ECONOMICS",
+            "PRODUCTION",
+            "DIPLOMACY",
+            "LANGUAGE",
+            "CUSTOMS",
+            "HOMELESSNESS"
+          ],
+          "id": "DOMAIN-BRANCH",
+          "review_required": true,
+          "to": [
+            "INIT",
+            "ECONOMICS",
+            "PRODUCTION",
+            "DIPLOMACY",
+            "LANGUAGE",
+            "CUSTOMS",
+            "HOMELESSNESS"
+          ]
+        }
+      ],
+      "schema_version": "garden-traversal-config-1",
+      "status": "supplied_content_runtime",
+      "trees": {
+        "CUSTOMS": {
+          "name": "Customs Authority",
+          "node_template": "INIT",
+          "status": "traversable_with_supplied_content"
+        },
+        "DIPLOMACY": {
+          "name": "Diplomacy",
+          "node_template": "INIT",
+          "status": "traversable_with_supplied_content"
+        },
+        "ECONOMICS": {
+          "name": "Economics",
+          "node_template": "INIT",
+          "status": "traversable_with_supplied_content"
+        },
+        "HOMELESSNESS": {
+          "name": "Homelessness Governance and Integrity",
+          "node_template": "INIT",
+          "status": "traversable_with_supplied_content"
+        },
+        "INIT": {
+          "name": "Initiating Garden",
+          "node_template": "INIT",
+          "status": "traversable_with_supplied_content"
+        },
+        "LANGUAGE": {
+          "name": "Language Exception",
+          "node_template": "INIT",
+          "status": "traversable_with_supplied_content"
+        },
+        "PRODUCTION": {
+          "name": "Production",
+          "node_template": "INIT",
+          "status": "traversable_with_supplied_content"
+        }
+      }
+    },
+    "packet": {
+      "actor": {
+        "model": "none invoked",
+        "name": "Work Aiden",
+        "runtime": "deterministic supplied relay projection"
+      },
+      "arrival": {
+        "from": "operations/relays/journal.json",
+        "id": "CEM-RELAYS-ARRIVAL",
+        "payload": {
+          "case_id": "CEM-RELAYS",
+          "case_sha256": "ee28defa5946defb78aa373032bada5a3658f3eb4b483a6a942b9c6fc2d011f6",
+          "mode": "empirical"
+        },
+        "to": "INIT:ROOT-0001"
+      },
+      "budget": {
+        "max_branches": 1,
+        "max_events": 10,
+        "max_fanout": 0,
+        "max_steps": 10,
+        "model_calls": 0
+      },
+      "epoch": 1,
+      "focus": "Two bounded relays reconstructed only from retained GAO evidence: TB-symptom notification and an earlier vision-panel warning. No new public-source investigation.",
+      "question_id": "Q-CEM-RELAYS",
+      "run_id": "CEM-RELAYS-GARDEN",
+      "sources": [
+        {
+          "access_limit": "Single-facility findings; four open statuses are not proof no corrective work occurred.",
+          "binding": {
+            "collection": "sources",
+            "id_field": "source_id",
+            "kind": "source",
+            "path": "reports/military-conscience-and-institutional-safeguards/ice_capacity_sources.json",
+            "record_id": "C01",
+            "sha256": "a9c11371ba4ba511e6c99dde9db94ffc17f957b4e17ccf274ddf321cb2dd1858"
+          },
+          "kind": "public_source",
+          "lineage_id": "GAO ICE detention expansion2025–2026",
+          "mode": "empirical",
+          "ref": "S-GAO-CEM"
+        }
+      ],
+      "status": "empirical case-local supplied relay review; no shared registration",
+      "tree": "INIT"
+    },
+    "registry": {
+      "questions": {
+        "Q-CEM-RELAYS": {
+          "epoch": 1
+        }
+      }
+    }
+  },
+  "schema_version": "garden-traversal-1",
+  "state": {
+    "branches": {
+      "B0": {
+        "epoch": 1,
+        "focus": "Two bounded relays reconstructed only from retained GAO evidence: TB-symptom notification and an earlier vision-panel warning. No new public-source investigation.",
+        "id": "B0",
+        "lineage": {
+          "independent_evidence": false,
+          "source_refs": [
+            "S-GAO-CEM"
+          ]
+        },
+        "parent_branch": null,
+        "question_id": "Q-CEM-RELAYS",
+        "rest": {
+          "kind": "return",
+          "reason": "No new arrival supplied"
+        },
+        "root_branch": "B0",
+        "seen_arrival_ids": [
+          "CEM-RELAYS-ARRIVAL"
+        ],
+        "status": "resting",
+        "visited": [
+          {
+            "payload_hash": "49fa5fafe8fd88f2b5e42a92f18777568f443e48b6f995c0ba4be5a49a5fa797",
+            "tree": "INIT"
+          }
+        ],
+        "visits": [
+          {
+            "arrival": {
+              "from": "operations/relays/journal.json",
+              "id": "CEM-RELAYS-ARRIVAL",
+              "payload": {
+                "case_id": "CEM-RELAYS",
+                "case_sha256": "ee28defa5946defb78aa373032bada5a3658f3eb4b483a6a942b9c6fc2d011f6",
+                "mode": "empirical"
+              },
+              "to": "INIT:ROOT-0001"
+            },
+            "status": "completed",
+            "steps": [
+              {
+                "actor": {
+                  "model": "none invoked",
+                  "name": "Work Aiden",
+                  "runtime": "deterministic supplied relay projection"
+                },
+                "event_id": "CEM-RELAYS-STEP-1",
+                "node": "ROOT",
+                "output": {
+                  "name": "EMPIRICAL: Camp East Montana: notification and unresolved warning"
+                }
+              },
+              {
+                "actor": {
+                  "model": "none invoked",
+                  "name": "Work Aiden",
+                  "runtime": "deterministic supplied relay projection"
+                },
+                "event_id": "CEM-RELAYS-STEP-2",
+                "node": "ARRIVAL",
+                "output": {
+                  "arrival": {
+                    "from": "operations/relays/journal.json",
+                    "id": "CEM-RELAYS-ARRIVAL",
+                    "payload": {
+                      "case_id": "CEM-RELAYS",
+                      "case_sha256": "ee28defa5946defb78aa373032bada5a3658f3eb4b483a6a942b9c6fc2d011f6",
+                      "mode": "empirical"
+                    },
+                    "to": "INIT:ROOT-0001"
+                  },
+                  "language_glance": {
+                    "basis": "unknown",
+                    "issuing_office": "See inherited source records",
+                    "languages": [],
+                    "note": "Supplied review or fictional fixture; no new source/language observation.",
+                    "source_refs": [
+                      "S-GAO-CEM"
+                    ],
+                    "surface_kind": "summary"
+                  }
+                }
+              },
+              {
+                "actor": {
+                  "model": "none invoked",
+                  "name": "Work Aiden",
+                  "runtime": "deterministic supplied relay projection"
+                },
+                "event_id": "CEM-RELAYS-STEP-3",
+                "node": "EPIST",
+                "output": {
+                  "evidence_cutoff": "2026-10-16",
+                  "mode": "empirical",
+                  "prompt": "Two bounded relays reconstructed only from retained GAO evidence: TB-symptom notification and an earlier vision-panel warning. No new public-source investigation.",
+                  "starting_state": "Separate origin, obligation, dispatch, receipt, action, outcome and verification."
+                }
+              },
+              {
+                "actor": {
+                  "model": "none invoked",
+                  "name": "Work Aiden",
+                  "runtime": "deterministic supplied relay projection"
+                },
+                "event_id": "CEM-RELAYS-STEP-4",
+                "node": "FUNC",
+                "output": {
+                  "function": "Two bounded relays reconstructed only from retained GAO evidence: TB-symptom notification and an earlier vision-panel warning. No new public-source investigation.",
+                  "relays": [
+                    {
+                      "capacities": [],
+                      "causal_assessment": {
+                        "claim": "Neither causation of disease transmission nor systemic prevalence is established by this single notification finding.",
+                        "evidence_ids": [
+                          "TB-OMISSION"
+                        ],
+                        "status": "not_established"
+                      },
+                      "contrary_evidence": [
+                        {
+                          "claim": "Oversight identified the problem and the overall rating was acceptable; these do not close the item.",
+                          "evidence_ids": [
+                            "TB-RATING"
+                          ]
+                        },
+                        {
+                          "claim": "General contractor corrective work and agency responses are preserved; item-specific completion is not demonstrated.",
+                          "evidence_ids": [
+                            "TB-RESPONSE",
+                            "TB-AGENCY"
+                          ]
+                        }
+                      ],
+                      "deadline": null,
+                      "essential_function": "Enable the required downstream clinical and oversight response; its actual result is unknown.",
+                      "evidence": [
+                        {
+                          "citations": [
+                            {
+                              "locator": "printed p.16 n.37",
+                              "source_ref": "S-GAO-CEM"
+                            }
+                          ],
+                          "claim": "ODO finding describes a detained person with TB symptoms; symptom onset is not dated.",
+                          "event_refs": [
+                            "E-CEM13"
+                          ],
+                          "evidence_id": "TB-TRIGGER",
+                          "kind": "trigger_observation",
+                          "limits": "GAO reports ICE findings; no underlying message, medical record or item-level closure independently obtained.",
+                          "observed": {
+                            "end": "2026-02",
+                            "note": "Date of reported observation/finding; publication June 9, 2026 is separate.",
+                            "start": "2026-02"
+                          },
+                          "result": "positive",
+                          "stages": [
+                            "origin"
+                          ]
+                        },
+                        {
+                          "citations": [
+                            {
+                              "locator": "printed p.16 n.37",
+                              "source_ref": "S-GAO-CEM"
+                            }
+                          ],
+                          "claim": "The February ODO inspection identified lack of notification to ICE about a person with TB symptoms as a priority deficiency.",
+                          "event_refs": [
+                            "E-CEM13"
+                          ],
+                          "evidence_id": "TB-OMISSION",
+                          "kind": "omission_observation",
+                          "limits": "GAO reports ICE findings; no underlying message, medical record or item-level closure independently obtained.",
+                          "observed": {
+                            "end": "2026-02",
+                            "note": "Date of reported observation/finding; publication June 9, 2026 is separate.",
+                            "start": "2026-02"
+                          },
+                          "result": "negative",
+                          "stages": [
+                            "expected_transfer",
+                            "dispatch",
+                            "arrival"
+                          ]
+                        },
+                        {
+                          "citations": [
+                            {
+                              "locator": "printed p.16 n.37",
+                              "source_ref": "S-GAO-CEM"
+                            }
+                          ],
+                          "claim": "The same inspection identified 49 deficiencies, including three priority issues, and assigned an acceptable overall rating.",
+                          "event_refs": [
+                            "E-CEM13"
+                          ],
+                          "evidence_id": "TB-RATING",
+                          "kind": "context",
+                          "limits": "Detection and the overall rating are real observations; neither establishes medical correction or a protective result for this episode.",
+                          "observed": {
+                            "end": "2026-02",
+                            "note": "Date of reported observation/finding; publication June 9, 2026 is separate.",
+                            "start": "2026-02"
+                          },
+                          "result": "context",
+                          "stages": [
+                            "action",
+                            "outcome"
+                          ]
+                        },
+                        {
+                          "citations": [
+                            {
+                              "locator": "printed p.18 table 2 note b",
+                              "source_ref": "S-GAO-CEM"
+                            }
+                          ],
+                          "claim": "Contractors reported ongoing/planned corrections to contract deficiencies; some discrepancy reports were pending/draft in March. This passage does not tie those responses to this ODO item.",
+                          "event_refs": [
+                            "E-CEM16"
+                          ],
+                          "evidence_id": "TB-RESPONSE",
+                          "kind": "response",
+                          "limits": "General contractor response, not a TB-specific completed corrective action.",
+                          "observed": {
+                            "end": "2026-03",
+                            "note": "Date of reported observation/finding; publication June 9, 2026 is separate.",
+                            "start": "2026-03"
+                          },
+                          "result": "context",
+                          "stages": [
+                            "action",
+                            "outcome"
+                          ]
+                        },
+                        {
+                          "citations": [
+                            {
+                              "locator": "printed pp.21–22; appendices I–II, pp.25–30",
+                              "source_ref": "S-GAO-CEM"
+                            }
+                          ],
+                          "claim": "DHS relied on existing inspection controls and requested closure; Defense disputed aspects of the audit while agreeing to a lessons assessment.",
+                          "event_refs": [
+                            "E-CEM19",
+                            "E-CEM20"
+                          ],
+                          "evidence_id": "TB-AGENCY",
+                          "kind": "response",
+                          "limits": "Agency positions do not establish correction of this individual omission. Open recommendation status is likewise not proof that no work occurred.",
+                          "observed": {
+                            "end": "2026-05",
+                            "note": "Date of reported observation/finding; publication June 9, 2026 is separate.",
+                            "start": "2026-05"
+                          },
+                          "result": "context",
+                          "stages": [
+                            "action",
+                            "outcome"
+                          ]
+                        }
+                      ],
+                      "from_actor": "Responsible facility notifying role; individual/office not identified in retained passage",
+                      "issues": [
+                        {
+                          "claim": "Expected notification was omitted in the reported inspection finding; no specific failure route is selected.",
+                          "evidence_ids": [
+                            "TB-OMISSION"
+                          ],
+                          "kind": "omission",
+                          "mechanism": "unknown",
+                          "stage": "expected_transfer"
+                        }
+                      ],
+                      "kind": "informational",
+                      "ordinary_explanations": [
+                        {
+                          "claim": "Non-send, routing, receipt or documentation problems remain untested alternatives; the finding does not choose among them.",
+                          "evidence_ids": [
+                            "TB-OMISSION"
+                          ]
+                        }
+                      ],
+                      "payload": "Notice of a detained person with TB symptoms",
+                      "relay_id": "CEM-TB-NOTICE",
+                      "scope": "February 2026 ODO finding about notification; not the separate November/December intake-testing episode.",
+                      "stages": {
+                        "action": {
+                          "claim": "Inspection detected the omission; subsequent clinical, isolation or corrective action for this episode is unknown.",
+                          "evidence_ids": [
+                            "TB-RATING"
+                          ],
+                          "status": "unknown",
+                          "time": {
+                            "end": null,
+                            "note": "Exact occurrence time is not established.",
+                            "start": null
+                          }
+                        },
+                        "arrival": {
+                          "claim": "No receipt/acknowledgment record establishes the path. Do not infer that ICE had no knowledge by any other route.",
+                          "evidence_ids": [
+                            "TB-OMISSION"
+                          ],
+                          "status": "unknown",
+                          "time": {
+                            "end": null,
+                            "note": "Exact occurrence time is not established.",
+                            "start": null
+                          }
+                        },
+                        "dispatch": {
+                          "claim": "Omission is documented, but no message trace distinguishes non-send, misrouting or another mechanism.",
+                          "evidence_ids": [
+                            "TB-OMISSION"
+                          ],
+                          "status": "unknown",
+                          "time": {
+                            "end": null,
+                            "note": "Exact occurrence time is not established.",
+                            "start": null
+                          }
+                        },
+                        "expected_transfer": {
+                          "claim": "Notification was expected, inferred from the expressly recorded deficiency; clause, channel, responsible notifier and deadline are not supplied.",
+                          "evidence_ids": [
+                            "TB-OMISSION"
+                          ],
+                          "status": "inferred_expectation",
+                          "time": {
+                            "end": null,
+                            "note": "Exact occurrence time is not established.",
+                            "start": null
+                          }
+                        },
+                        "origin": {
+                          "claim": "Symptoms are described in the finding; actual symptom/incident time is unknown.",
+                          "evidence_ids": [
+                            "TB-TRIGGER"
+                          ],
+                          "status": "observed",
+                          "time": {
+                            "end": null,
+                            "note": "Exact occurrence time is not established.",
+                            "start": null
+                          }
+                        },
+                        "outcome": {
+                          "claim": "Medical outcome, transmission outcome and successful correction for this episode are not established.",
+                          "evidence_ids": [
+                            "TB-RATING",
+                            "TB-RESPONSE"
+                          ],
+                          "status": "unknown",
+                          "time": {
+                            "end": null,
+                            "note": "Exact occurrence time is not established.",
+                            "start": null
+                          }
+                        },
+                        "verification": {
+                          "claim": "GAO supports the omission finding, not a verified protective outcome.",
+                          "evidence_ids": [
+                            "TB-OMISSION"
+                          ],
+                          "method": null,
+                          "status": "unknown",
+                          "time": {
+                            "end": null,
+                            "note": "Exact occurrence time is not established.",
+                            "start": null
+                          }
+                        }
+                      },
+                      "to_actor": "ICE; receiving office unspecified"
+                    },
+                    {
+                      "capacities": [],
+                      "causal_assessment": {
+                        "claim": "The warning preceded a later suicide, but the source does not isolate panel absence as its cause or establish preventability. A single episode does not establish a systemic pattern.",
+                        "evidence_ids": [
+                          "VP-WARNING",
+                          "VP-NOINSTALL",
+                          "VP-OBSERVATION"
+                        ],
+                        "status": "not_established"
+                      },
+                      "contrary_evidence": [
+                        {
+                          "claim": "The warning and later discrepancy process show actual detection and communication; action/completion cannot be inferred.",
+                          "evidence_ids": [
+                            "VP-WARNING"
+                          ]
+                        },
+                        {
+                          "claim": "Ongoing/planned corrective work and agency responses remain in the record; no completed panel correction is established.",
+                          "evidence_ids": [
+                            "VP-RESPONSE",
+                            "VP-AGENCY"
+                          ]
+                        }
+                      ],
+                      "deadline": null,
+                      "essential_function": "Prompt remedy and safe observation of people at risk; panel-specific causal effectiveness is not established.",
+                      "evidence": [
+                        {
+                          "citations": [
+                            {
+                              "locator": "printed p.18 table 2 suicide-prevention row and note b",
+                              "source_ref": "S-GAO-CEM"
+                            }
+                          ],
+                          "claim": "ICE officials identified concerns about absent vision panels and lack of line of sight by October 2025.",
+                          "event_refs": [
+                            "E-CEM16"
+                          ],
+                          "evidence_id": "VP-TRIGGER",
+                          "kind": "trigger_observation",
+                          "limits": "GAO reports ICE findings; no underlying message, medical record or item-level closure independently obtained.",
+                          "observed": {
+                            "end": "2025-10",
+                            "note": "Date of reported observation/finding; publication June 9, 2026 is separate.",
+                            "start": "2025-10"
+                          },
+                          "result": "positive",
+                          "stages": [
+                            "origin"
+                          ]
+                        },
+                        {
+                          "citations": [
+                            {
+                              "locator": "printed p.18 table 2 suicide-prevention row",
+                              "source_ref": "S-GAO-CEM"
+                            }
+                          ],
+                          "claim": "ICE officials raised the vision-panel concerns to contractors in October 2025.",
+                          "event_refs": [
+                            "E-CEM16"
+                          ],
+                          "evidence_id": "VP-WARNING",
+                          "kind": "dispatch_observation",
+                          "limits": "Reported communication is documented; exact sender, channel, message and independent acknowledgment are absent.",
+                          "observed": {
+                            "end": "2025-10",
+                            "note": "Date of reported observation/finding; publication June 9, 2026 is separate.",
+                            "start": "2025-10"
+                          },
+                          "result": "positive",
+                          "stages": [
+                            "dispatch"
+                          ]
+                        },
+                        {
+                          "citations": [
+                            {
+                              "locator": "printed p.18 table 2 suicide-prevention row",
+                              "source_ref": "S-GAO-CEM"
+                            }
+                          ],
+                          "claim": "Vision panels had not been installed when a detained person died by suicide in January 2026.",
+                          "event_refs": [
+                            "E-CEM16"
+                          ],
+                          "evidence_id": "VP-NOINSTALL",
+                          "kind": "omission_observation",
+                          "limits": "March 3 is the discrepancy-report date, not the death date. Noninstallation does not prove that no planning/procurement work occurred.",
+                          "observed": {
+                            "end": "2026-01",
+                            "note": "Date of reported observation/finding; publication June 9, 2026 is separate.",
+                            "start": "2026-01"
+                          },
+                          "result": "negative",
+                          "stages": [
+                            "expected_transfer",
+                            "action"
+                          ]
+                        },
+                        {
+                          "citations": [
+                            {
+                              "locator": "printed p.18 table 2 suicide-prevention row",
+                              "source_ref": "S-GAO-CEM"
+                            }
+                          ],
+                          "claim": "The reported suicide episode involved placement in a room not designed as suicide-resistant and unattended intervals exceeding the stated 15-minute observation requirement. Required safe observation was not maintained.",
+                          "event_refs": [
+                            "E-CEM16"
+                          ],
+                          "evidence_id": "VP-OBSERVATION",
+                          "kind": "outcome_observation",
+                          "limits": "This verifies a bounded observation failure through GAO’s account of ICE findings; it does not isolate panel absence as the cause of the death or quantify preventability.",
+                          "observed": {
+                            "end": "2026-01",
+                            "note": "Date of reported observation/finding; publication June 9, 2026 is separate.",
+                            "start": "2026-01"
+                          },
+                          "result": "negative",
+                          "stages": [
+                            "outcome",
+                            "verification"
+                          ]
+                        },
+                        {
+                          "citations": [
+                            {
+                              "locator": "printed p.18 table 2 note b",
+                              "source_ref": "S-GAO-CEM"
+                            }
+                          ],
+                          "claim": "The original prime contractor reported ongoing/planned corrections; some discrepancy reports were pending/draft in March while ICE awaited responses.",
+                          "event_refs": [
+                            "E-CEM16"
+                          ],
+                          "evidence_id": "VP-RESPONSE",
+                          "kind": "response",
+                          "limits": "The passage does not identify which reports were pending and does not verify panel installation or effectiveness.",
+                          "observed": {
+                            "end": "2026-03",
+                            "note": "Date of reported observation/finding; publication June 9, 2026 is separate.",
+                            "start": "2026-03"
+                          },
+                          "result": "context",
+                          "stages": [
+                            "action",
+                            "outcome"
+                          ]
+                        },
+                        {
+                          "citations": [
+                            {
+                              "locator": "printed pp.21–22; appendices I–II, pp.25–30",
+                              "source_ref": "S-GAO-CEM"
+                            }
+                          ],
+                          "claim": "DHS emphasized existing inspection policy; Defense disputed parts of the audit and agreed to assess lessons.",
+                          "event_refs": [
+                            "E-CEM19",
+                            "E-CEM20"
+                          ],
+                          "evidence_id": "VP-AGENCY",
+                          "kind": "response",
+                          "limits": "Neither response is item-level verification of panel installation, safe monitoring or a protective result.",
+                          "observed": {
+                            "end": "2026-05",
+                            "note": "Date of reported observation/finding; publication June 9, 2026 is separate.",
+                            "start": "2026-05"
+                          },
+                          "result": "context",
+                          "stages": [
+                            "action",
+                            "outcome"
+                          ]
+                        }
+                      ],
+                      "from_actor": "ICE officials",
+                      "issues": [
+                        {
+                          "claim": "Warned-about panels were not installed by the January death; no exact installation deadline is established.",
+                          "evidence_ids": [
+                            "VP-NOINSTALL"
+                          ],
+                          "kind": "omission",
+                          "mechanism": "unknown",
+                          "stage": "action"
+                        },
+                        {
+                          "claim": "Required safe observation was not maintained during the documented episode.",
+                          "evidence_ids": [
+                            "VP-OBSERVATION"
+                          ],
+                          "kind": "outcome_failure",
+                          "mechanism": "service",
+                          "stage": "outcome"
+                        }
+                      ],
+                      "kind": "informational",
+                      "ordinary_explanations": [
+                        {
+                          "claim": "Physical work, procurement, routing and other implementation constraints are possible but unverified explanations for the noninstallation.",
+                          "evidence_ids": [
+                            "VP-NOINSTALL",
+                            "VP-RESPONSE"
+                          ]
+                        }
+                      ],
+                      "payload": "Warning about absent medical-room vision panels and lack of line of sight",
+                      "relay_id": "CEM-VISION-WARNING",
+                      "scope": "October 2025 communicated concern, panels still absent at January 2026 suicide; March 3 discrepancy report. Separate from the homicide episode.",
+                      "stages": {
+                        "action": {
+                          "claim": "Panels remained uninstalled at the January death. This is not proof of no preparatory work.",
+                          "evidence_ids": [
+                            "VP-NOINSTALL"
+                          ],
+                          "status": "not_performed",
+                          "time": {
+                            "end": "2026-01",
+                            "note": "State at the January event; exact date not supplied.",
+                            "start": "2026-01"
+                          }
+                        },
+                        "arrival": {
+                          "claim": "Contractor-directed communication is reported; separate receipt, acknowledgment and internal routing are unknown.",
+                          "evidence_ids": [
+                            "VP-WARNING"
+                          ],
+                          "status": "unknown",
+                          "time": {
+                            "end": null,
+                            "note": "Exact occurrence time is not established.",
+                            "start": null
+                          }
+                        },
+                        "dispatch": {
+                          "claim": "ICE officials raised the concern to contractors.",
+                          "evidence_ids": [
+                            "VP-WARNING"
+                          ],
+                          "status": "performed",
+                          "time": {
+                            "end": "2025-10",
+                            "note": "Reported communication month; no exact send time.",
+                            "start": "2025-10"
+                          }
+                        },
+                        "expected_transfer": {
+                          "claim": "Warning was intended to prompt a remedy; exact work-order obligation and installation deadline are not retained.",
+                          "evidence_ids": [
+                            "VP-NOINSTALL"
+                          ],
+                          "status": "inferred_expectation",
+                          "time": {
+                            "end": null,
+                            "note": "Exact occurrence time is not established.",
+                            "start": null
+                          }
+                        },
+                        "origin": {
+                          "claim": "Missing panels and sightline concern identified by October.",
+                          "evidence_ids": [
+                            "VP-TRIGGER"
+                          ],
+                          "status": "observed",
+                          "time": {
+                            "end": "2025-10",
+                            "note": "Month precision; exact discovery day unknown.",
+                            "start": "2025-10"
+                          }
+                        },
+                        "outcome": {
+                          "claim": "Required safe observation was not maintained in the described episode; the death is documented without attributing it to the panel omission.",
+                          "evidence_ids": [
+                            "VP-OBSERVATION"
+                          ],
+                          "status": "failed",
+                          "time": {
+                            "end": "2026-01",
+                            "note": "Bounded observation failure at the reported episode, not an outcome trend.",
+                            "start": "2026-01"
+                          }
+                        },
+                        "verification": {
+                          "claim": "GAO reports the March 3 discrepancy account of the January episode; underlying ICE record not independently obtained.",
+                          "evidence_ids": [
+                            "VP-OBSERVATION"
+                          ],
+                          "method": "Retained GAO report, printed p.18 table 2; one inherited source family.",
+                          "status": "source_supported",
+                          "time": {
+                            "end": "2026-03-03",
+                            "note": "Retrospective report date, published by GAO June 9.",
+                            "start": "2026-03-03"
+                          }
+                        }
+                      },
+                      "to_actor": "Facility contractors; individual recipient and internal work owner unspecified"
+                    }
+                  ],
+                  "supports": [],
+                  "task": "Trace each relay without promoting one stage into the next."
+                }
+              },
+              {
+                "actor": {
+                  "model": "none invoked",
+                  "name": "Work Aiden",
+                  "runtime": "deterministic supplied relay projection"
+                },
+                "event_id": "CEM-RELAYS-STEP-5",
+                "node": "MIRROR",
+                "output": {
+                  "comparisons": [
+                    {
+                      "answers": [
+                        {
+                          "evidence_ids": [
+                            "TB-OMISSION"
+                          ]
+                        }
+                      ],
+                      "explanation": "Non-send, routing, receipt or documentation problems remain untested alternatives; the finding does not choose among them.",
+                      "queries": []
+                    },
+                    {
+                      "answers": [
+                        {
+                          "evidence_ids": [
+                            "VP-NOINSTALL",
+                            "VP-RESPONSE"
+                          ]
+                        }
+                      ],
+                      "explanation": "Physical work, procurement, routing and other implementation constraints are possible but unverified explanations for the noninstallation.",
+                      "queries": []
+                    }
+                  ],
+                  "contrary_evidence": {
+                    "CEM-TB-NOTICE": [
+                      {
+                        "claim": "Oversight identified the problem and the overall rating was acceptable; these do not close the item.",
+                        "evidence_ids": [
+                          "TB-RATING"
+                        ]
+                      },
+                      {
+                        "claim": "General contractor corrective work and agency responses are preserved; item-specific completion is not demonstrated.",
+                        "evidence_ids": [
+                          "TB-RESPONSE",
+                          "TB-AGENCY"
+                        ]
+                      }
+                    ],
+                    "CEM-VISION-WARNING": [
+                      {
+                        "claim": "The warning and later discrepancy process show actual detection and communication; action/completion cannot be inferred.",
+                        "evidence_ids": [
+                          "VP-WARNING"
+                        ]
+                      },
+                      {
+                        "claim": "Ongoing/planned corrective work and agency responses remain in the record; no completed panel correction is established.",
+                        "evidence_ids": [
+                          "VP-RESPONSE",
+                          "VP-AGENCY"
+                        ]
+                      }
+                    ]
+                  },
+                  "information_lineage": {
+                    "api_record_refs": [],
+                    "criteria_refs": [
+                      "schemas/relay-case.schema.json"
+                    ],
+                    "parent_answer_visible": true,
+                    "parent_output_refs": [
+                      "operations/relays/journal.json"
+                    ],
+                    "source_refs": [
+                      "S-GAO-CEM"
+                    ],
+                    "test_origin": "inherited"
+                  }
+                }
+              },
+              {
+                "actor": {
+                  "model": "none invoked",
+                  "name": "Work Aiden",
+                  "runtime": "deterministic supplied relay projection"
+                },
+                "event_id": "CEM-RELAYS-STEP-6",
+                "node": "CROSS",
+                "output": {
+                  "bridge": [
+                    {
+                      "question": "If a dated item-level corrective/reinspection record becomes available for the existing Q-CEM-TB-CORRECTION, test whether it identifies the notification obligation, actual notification/receipt and independently checked result for that item; otherwise retain UNKNOWN. No request is submitted.",
+                      "status": "proposed only"
+                    }
+                  ],
+                  "independent": [],
+                  "inherited": [
+                    {
+                      "ref": "S-GAO-CEM",
+                      "status": "empirical inherited material; no independent corroboration"
+                    }
+                  ]
+                }
+              },
+              {
+                "actor": {
+                  "model": "none invoked",
+                  "name": "Work Aiden",
+                  "runtime": "deterministic supplied relay projection"
+                },
+                "event_id": "CEM-RELAYS-STEP-7",
+                "node": "RESID",
+                "output": {
+                  "predicates": {
+                    "consequential": true,
+                    "distinct_functions": false,
+                    "language_exception": null
+                  },
+                  "summary": "TB symptom/incident date, notifier, message path, receipt, exact obligation/deadline, clinical outcome and item-specific correction are unknown.; The February notification finding is not identified as the November TB case or December 3 intake-testing discrepancy; their deadlines cannot be interchanged.; Vision-warning receipt, internal routing, installation deadline and later verified correction are unknown; month-only dates do not support an exact elapsed-time calculation.; The retained GAO account is one lineage. Underlying ICE records and panel-specific causal effectiveness have not been independently verified."
+                }
+              },
+              {
+                "actor": {
+                  "model": "none invoked",
+                  "name": "Work Aiden",
+                  "runtime": "deterministic supplied relay projection"
+                },
+                "event_id": "CEM-RELAYS-STEP-8",
+                "node": "MEAN",
+                "output": {
+                  "mode": "empirical",
+                  "stages": {
+                    "CEM-TB-NOTICE": {
+                      "action": "unknown",
+                      "arrival": "unknown",
+                      "dispatch": "unknown",
+                      "expected_transfer": "inferred_expectation",
+                      "origin": "observed",
+                      "outcome": "unknown",
+                      "verification": "unknown"
+                    },
+                    "CEM-VISION-WARNING": {
+                      "action": "not_performed",
+                      "arrival": "unknown",
+                      "dispatch": "performed",
+                      "expected_transfer": "inferred_expectation",
+                      "origin": "observed",
+                      "outcome": "failed",
+                      "verification": "source_supported"
+                    }
+                  },
+                  "summary": "Camp East Montana: notification and unresolved warning"
+                }
+              },
+              {
+                "actor": {
+                  "model": "none invoked",
+                  "name": "Work Aiden",
+                  "runtime": "deterministic supplied relay projection"
+                },
+                "event_id": "CEM-RELAYS-STEP-9",
+                "node": "EXIT",
+                "output": {
+                  "kind": "question",
+                  "summary": "If a dated item-level corrective/reinspection record becomes available for the existing Q-CEM-TB-CORRECTION, test whether it identifies the notification obligation, actual notification/receipt and independently checked result for that item; otherwise retain UNKNOWN. No request is submitted."
+                }
+              },
+              {
+                "actor": {
+                  "model": "none invoked",
+                  "name": "Work Aiden",
+                  "runtime": "deterministic supplied relay projection"
+                },
+                "event_id": "CEM-RELAYS-STEP-10",
+                "node": "RETURN",
+                "output": {
+                  "new_arrival": null,
+                  "reason": "Bounded demonstration complete; rest until separately reviewed evidence."
+                }
+              }
+            ],
+            "tree": "INIT"
+          }
+        ]
+      }
+    },
+    "epoch": 1,
+    "limits": {
+      "max_branches": 1,
+      "max_events": 10,
+      "max_fanout": 0,
+      "max_steps": 10,
+      "model_calls": 0
+    },
+    "question_id": "Q-CEM-RELAYS",
+    "revision": 10,
+    "route_decisions": [],
+    "route_signatures": [],
+    "run_id": "CEM-RELAYS-GARDEN",
+    "sources": {
+      "S-GAO-CEM": {
+        "access_limit": "Single-facility findings; four open statuses are not proof no corrective work occurred.",
+        "binding": {
+          "collection": "sources",
+          "id_field": "source_id",
+          "kind": "source",
+          "path": "reports/military-conscience-and-institutional-safeguards/ice_capacity_sources.json",
+          "record_id": "C01",
+          "sha256": "a9c11371ba4ba511e6c99dde9db94ffc17f957b4e17ccf274ddf321cb2dd1858"
+        },
+        "kind": "public_source",
+        "lineage_id": "GAO ICE detention expansion2025–2026",
+        "mode": "empirical",
+        "ref": "S-GAO-CEM"
+      }
+    },
+    "used": {
+      "branches": 1,
+      "model_calls": 0,
+      "steps": 10
+    }
+  },
+  "state_sha256": "1bd037a9cc2acb90707b6bc1eb23f7fb7e7b91291b894de2fdc173ba27265710"
+}
