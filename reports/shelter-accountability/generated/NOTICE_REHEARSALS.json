@@ -1,0 +1,222 @@
+{
+  "mode": "simulated",
+  "results": [
+    {
+      "calendar_interval_days": 7,
+      "case_id": "SIM-SEVEN-DAY",
+      "content_gaps": [],
+      "content_unknowns": [],
+      "fraud_finding": "not_assessed",
+      "legal_finding": "not_determined",
+      "limits": "Fictional triage only. Calendar subtraction is not a legal service/counting decision. Scope fields do not establish all non-tenancy conditions, including Housing First. No interval flag does not mean compliance, a valid exception, non-tenancy or protection. Other rights and the applicable legal version require separate review.",
+      "mode": "simulated",
+      "protective_outcome": "unknown",
+      "record_refs": [
+        "FICT-NOTICE-001",
+        "FICT-PROGRAM-001"
+      ],
+      "review_flags": [
+        "calendar_interval_under_30_days"
+      ],
+      "status": "short_interval_review_required"
+    },
+    {
+      "calendar_interval_days": 7,
+      "case_id": "SIM-UNKNOWN-SCOPE",
+      "content_gaps": [],
+      "content_unknowns": [],
+      "fraud_finding": "not_assessed",
+      "legal_finding": "not_determined",
+      "limits": "Fictional triage only. Calendar subtraction is not a legal service/counting decision. Scope fields do not establish all non-tenancy conditions, including Housing First. No interval flag does not mean compliance, a valid exception, non-tenancy or protection. Other rights and the applicable legal version require separate review.",
+      "mode": "simulated",
+      "protective_outcome": "unknown",
+      "record_refs": [
+        "FICT-NOTICE-001",
+        "FICT-PROGRAM-001"
+      ],
+      "review_flags": [
+        "coverage_unknown",
+        "calendar_interval_under_30_days"
+      ],
+      "status": "coverage_unknown"
+    },
+    {
+      "calendar_interval_days": 7,
+      "case_id": "SIM-EXCLUDED-SCOPE",
+      "content_gaps": [],
+      "content_unknowns": [],
+      "fraud_finding": "not_assessed",
+      "legal_finding": "not_determined",
+      "limits": "Fictional triage only. Calendar subtraction is not a legal service/counting decision. Scope fields do not establish all non-tenancy conditions, including Housing First. No interval flag does not mean compliance, a valid exception, non-tenancy or protection. Other rights and the applicable legal version require separate review.",
+      "mode": "simulated",
+      "protective_outcome": "unknown",
+      "record_refs": [
+        "FICT-NOTICE-001",
+        "FICT-PROGRAM-001"
+      ],
+      "review_flags": [
+        "other_framework_review_required",
+        "calendar_interval_under_30_days"
+      ],
+      "status": "other_framework_review_required"
+    },
+    {
+      "calendar_interval_days": 30,
+      "case_id": "SIM-THIRTY-DAY",
+      "content_gaps": [],
+      "content_unknowns": [],
+      "fraud_finding": "not_assessed",
+      "legal_finding": "not_determined",
+      "limits": "Fictional triage only. Calendar subtraction is not a legal service/counting decision. Scope fields do not establish all non-tenancy conditions, including Housing First. No interval flag does not mean compliance, a valid exception, non-tenancy or protection. Other rights and the applicable legal version require separate review.",
+      "mode": "simulated",
+      "protective_outcome": "unknown",
+      "record_refs": [
+        "FICT-NOTICE-001",
+        "FICT-PROGRAM-001"
+      ],
+      "review_flags": [],
+      "status": "no_interval_flag"
+    },
+    {
+      "calendar_interval_days": 7,
+      "case_id": "SIM-CLAIMED-THREAT",
+      "content_gaps": [],
+      "content_unknowns": [],
+      "fraud_finding": "not_assessed",
+      "legal_finding": "not_determined",
+      "limits": "Fictional triage only. Calendar subtraction is not a legal service/counting decision. Scope fields do not establish all non-tenancy conditions, including Housing First. No interval flag does not mean compliance, a valid exception, non-tenancy or protection. Other rights and the applicable legal version require separate review.",
+      "mode": "simulated",
+      "protective_outcome": "unknown",
+      "record_refs": [
+        "FICT-NOTICE-001",
+        "FICT-PROGRAM-001"
+      ],
+      "review_flags": [
+        "exception_evidence_review_required",
+        "calendar_interval_under_30_days"
+      ],
+      "status": "exception_evidence_review_required"
+    },
+    {
+      "calendar_interval_days": 7,
+      "case_id": "SIM-UNKNOWN-EXCEPTION",
+      "content_gaps": [],
+      "content_unknowns": [],
+      "fraud_finding": "not_assessed",
+      "legal_finding": "not_determined",
+      "limits": "Fictional triage only. Calendar subtraction is not a legal service/counting decision. Scope fields do not establish all non-tenancy conditions, including Housing First. No interval flag does not mean compliance, a valid exception, non-tenancy or protection. Other rights and the applicable legal version require separate review.",
+      "mode": "simulated",
+      "protective_outcome": "unknown",
+      "record_refs": [
+        "FICT-NOTICE-001",
+        "FICT-PROGRAM-001"
+      ],
+      "review_flags": [
+        "exception_unknown",
+        "calendar_interval_under_30_days"
+      ],
+      "status": "exception_unknown"
+    },
+    {
+      "calendar_interval_days": 7,
+      "case_id": "SIM-SHORT-EXTENSION",
+      "content_gaps": [],
+      "content_unknowns": [],
+      "fraud_finding": "not_assessed",
+      "legal_finding": "not_determined",
+      "limits": "Fictional triage only. Calendar subtraction is not a legal service/counting decision. Scope fields do not establish all non-tenancy conditions, including Housing First. No interval flag does not mean compliance, a valid exception, non-tenancy or protection. Other rights and the applicable legal version require separate review.",
+      "mode": "simulated",
+      "protective_outcome": "unknown",
+      "record_refs": [
+        "FICT-NOTICE-001",
+        "FICT-PROGRAM-001"
+      ],
+      "review_flags": [
+        "exception_evidence_review_required",
+        "calendar_interval_under_30_days"
+      ],
+      "status": "exception_evidence_review_required"
+    },
+    {
+      "calendar_interval_days": null,
+      "case_id": "SIM-MISSING-DATE",
+      "content_gaps": [],
+      "content_unknowns": [],
+      "fraud_finding": "not_assessed",
+      "legal_finding": "not_determined",
+      "limits": "Fictional triage only. Calendar subtraction is not a legal service/counting decision. Scope fields do not establish all non-tenancy conditions, including Housing First. No interval flag does not mean compliance, a valid exception, non-tenancy or protection. Other rights and the applicable legal version require separate review.",
+      "mode": "simulated",
+      "protective_outcome": "unknown",
+      "record_refs": [
+        "FICT-NOTICE-001",
+        "FICT-PROGRAM-001"
+      ],
+      "review_flags": [
+        "date_unknown"
+      ],
+      "status": "date_unknown"
+    },
+    {
+      "calendar_interval_days": 7,
+      "case_id": "SIM-CONVERSION",
+      "content_gaps": [],
+      "content_unknowns": [],
+      "fraud_finding": "not_assessed",
+      "legal_finding": "not_determined",
+      "limits": "Fictional triage only. Calendar subtraction is not a legal service/counting decision. Scope fields do not establish all non-tenancy conditions, including Housing First. No interval flag does not mean compliance, a valid exception, non-tenancy or protection. Other rights and the applicable legal version require separate review.",
+      "mode": "simulated",
+      "protective_outcome": "unknown",
+      "record_refs": [
+        "FICT-NOTICE-001",
+        "FICT-PROGRAM-001"
+      ],
+      "review_flags": [
+        "conversion_review_required",
+        "calendar_interval_under_30_days"
+      ],
+      "status": "conversion_review_required"
+    },
+    {
+      "calendar_interval_days": 7,
+      "case_id": "SIM-MISSING-CONTENT",
+      "content_gaps": [
+        "grievance_information"
+      ],
+      "content_unknowns": [],
+      "fraud_finding": "not_assessed",
+      "legal_finding": "not_determined",
+      "limits": "Fictional triage only. Calendar subtraction is not a legal service/counting decision. Scope fields do not establish all non-tenancy conditions, including Housing First. No interval flag does not mean compliance, a valid exception, non-tenancy or protection. Other rights and the applicable legal version require separate review.",
+      "mode": "simulated",
+      "protective_outcome": "unknown",
+      "record_refs": [
+        "FICT-NOTICE-001",
+        "FICT-PROGRAM-001"
+      ],
+      "review_flags": [
+        "calendar_interval_under_30_days",
+        "notice_content_review_required"
+      ],
+      "status": "short_interval_review_required"
+    },
+    {
+      "calendar_interval_days": 7,
+      "case_id": "SIM-UNKNOWN-VERSION",
+      "content_gaps": [],
+      "content_unknowns": [],
+      "fraud_finding": "not_assessed",
+      "legal_finding": "not_determined",
+      "limits": "Fictional triage only. Calendar subtraction is not a legal service/counting decision. Scope fields do not establish all non-tenancy conditions, including Housing First. No interval flag does not mean compliance, a valid exception, non-tenancy or protection. Other rights and the applicable legal version require separate review.",
+      "mode": "simulated",
+      "protective_outcome": "unknown",
+      "record_refs": [
+        "FICT-NOTICE-001",
+        "FICT-PROGRAM-001"
+      ],
+      "review_flags": [
+        "legal_version_review_required",
+        "calendar_interval_under_30_days"
+      ],
+      "status": "legal_version_review_required"
+    }
+  ]
+}

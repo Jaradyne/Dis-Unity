@@ -1,0 +1,209 @@
+{
+  "$id": "urn:dis-unity:shelter-notice-rehearsal:1",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "case_id": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "content": {
+      "additionalProperties": false,
+      "properties": {
+        "accommodation_information": {
+          "enum": [
+            "present",
+            "absent",
+            "unknown"
+          ],
+          "type": "string"
+        },
+        "grievance_information": {
+          "enum": [
+            "present",
+            "absent",
+            "unknown"
+          ],
+          "type": "string"
+        },
+        "plain_language_reasons": {
+          "enum": [
+            "present",
+            "absent",
+            "unknown"
+          ],
+          "type": "string"
+        }
+      },
+      "required": [
+        "plain_language_reasons",
+        "accommodation_information",
+        "grievance_information"
+      ],
+      "type": "object"
+    },
+    "exceptions": {
+      "additionalProperties": false,
+      "properties": {
+        "direct_threat": {
+          "enum": [
+            "asserted",
+            "not_asserted",
+            "unknown"
+          ],
+          "type": "string"
+        },
+        "exigent_paperwork": {
+          "enum": [
+            "asserted",
+            "not_asserted",
+            "unknown"
+          ],
+          "type": "string"
+        },
+        "self_exit": {
+          "enum": [
+            "asserted",
+            "not_asserted",
+            "unknown"
+          ],
+          "type": "string"
+        },
+        "short_extension": {
+          "enum": [
+            "asserted",
+            "not_asserted",
+            "unknown"
+          ],
+          "type": "string"
+        }
+      },
+      "required": [
+        "direct_threat",
+        "self_exit",
+        "short_extension",
+        "exigent_paperwork"
+      ],
+      "type": "object"
+    },
+    "fixture_note": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "legal_version": {
+      "enum": [
+        "2026-01-01",
+        "unknown"
+      ],
+      "type": "string"
+    },
+    "mode": {
+      "const": "simulated"
+    },
+    "notice": {
+      "additionalProperties": false,
+      "properties": {
+        "delivered_on": {
+          "anyOf": [
+            {
+              "minLength": 1,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "proposed_exit_on": {
+          "anyOf": [
+            {
+              "minLength": 1,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "service_basis": {
+          "enum": [
+            "assumed_for_fixture",
+            "unknown"
+          ],
+          "type": "string"
+        }
+      },
+      "required": [
+        "delivered_on",
+        "proposed_exit_on",
+        "service_basis"
+      ],
+      "type": "object"
+    },
+    "permanent_conversion": {
+      "enum": [
+        "yes",
+        "no",
+        "unknown"
+      ],
+      "type": "string"
+    },
+    "record_refs": {
+      "items": {
+        "minLength": 1,
+        "type": "string"
+      },
+      "minItems": 1,
+      "type": "array"
+    },
+    "scope": {
+      "additionalProperties": false,
+      "properties": {
+        "program_only_occupancy": {
+          "enum": [
+            "supported",
+            "excluded",
+            "unknown"
+          ],
+          "type": "string"
+        },
+        "public_funding": {
+          "enum": [
+            "supported",
+            "excluded",
+            "unknown"
+          ],
+          "type": "string"
+        },
+        "public_oversight": {
+          "enum": [
+            "supported",
+            "excluded",
+            "unknown"
+          ],
+          "type": "string"
+        }
+      },
+      "required": [
+        "public_funding",
+        "public_oversight",
+        "program_only_occupancy"
+      ],
+      "type": "object"
+    }
+  },
+  "required": [
+    "case_id",
+    "mode",
+    "legal_version",
+    "scope",
+    "permanent_conversion",
+    "notice",
+    "exceptions",
+    "content",
+    "record_refs",
+    "fixture_note"
+  ],
+  "title": "Fictional notice review triage; never a legal finding",
+  "type": "object"
+}

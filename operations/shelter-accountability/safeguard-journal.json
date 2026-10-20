@@ -1,0 +1,248 @@
+{
+  "entries": [
+    {
+      "actor": "Work Aiden; source-linked baseline, no legal adjudication",
+      "entry_sha256": "eeedde446f662a35a48086bafeb1dc63de80a9c2ff43d2d723135354b5c1ebb2",
+      "expected_revision": 0,
+      "previous_entry_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "reason": "Open a bounded shelter wing with formal protections separated from unobserved practice and outcomes.",
+      "recorded_at": "2026-10-20T06:37:30+00:00",
+      "safeguard": {
+        "contrary_evidence": [
+          {
+            "claim": "Exceptions and other preserved rights qualify the rule; administrators may also carry out genuine remedies. No contrary practice record has been collected.",
+            "evidence_ids": [
+              "CA-EXCEPTIONS",
+              "CA-RIGHTS",
+              "CA-REMEDY"
+            ]
+          }
+        ],
+        "effectiveness": {
+          "claim": "No retained resident-specific outcome verifies prevention, reversal of removal or restored service.",
+          "evidence_ids": [],
+          "status": "unknown"
+        },
+        "event_refs": [
+          "E-CA-SHELTER-VERSION-2026",
+          "E-CA-SHELTER-HISTORY-2024"
+        ],
+        "evidence": [
+          {
+            "citations": [
+              {
+                "locator": "1954.08(d)–(g)",
+                "source_ref": "S-SC01"
+              }
+            ],
+            "claim": "Defined publicly funded/overseen programs, contracted operator and program-only occupancy must be established; not universal every shelter or motel-only.",
+            "effect": null,
+            "event_refs": [
+              "E-CA-SHELTER-VERSION-2026"
+            ],
+            "evidence_id": "CA-SCOPE",
+            "kind": "formal_text",
+            "limits": "Formal legal baseline with mirror/official historical access limits. No program implementation or protected outcome follows.",
+            "period": {
+              "end": null,
+              "note": "Formal-text version or reported historical observation; not shelter practice.",
+              "start": null
+            }
+          },
+          {
+            "citations": [
+              {
+                "locator": "1954.09(a)(2)–(3)",
+                "source_ref": "S-SC02"
+              }
+            ],
+            "claim": "Within the conditional framework, ordinary written termination notice is at least 30 days, with reasons, reasonable-accommodation and grievance information; documented warnings/problem solving are also required for guideline violations.",
+            "effect": null,
+            "event_refs": [
+              "E-CA-SHELTER-VERSION-2026"
+            ],
+            "evidence_id": "CA-NOTICE",
+            "kind": "formal_text",
+            "limits": "Formal legal baseline with mirror/official historical access limits. No program implementation or protected outcome follows.",
+            "period": {
+              "end": "2026-01-01",
+              "note": "Formal-text version or reported historical observation; not shelter practice.",
+              "start": "2026-01-01"
+            }
+          },
+          {
+            "citations": [
+              {
+                "locator": "1954.09(a)(2)(D)–(E), (a)(3)(A)",
+                "source_ref": "S-SC02"
+              }
+            ],
+            "claim": "Direct threat, statutory self-exit and short extension of an existing time-limit termination are narrow qualifications. A claim does not establish the exception.",
+            "effect": null,
+            "event_refs": [
+              "E-CA-SHELTER-VERSION-2026"
+            ],
+            "evidence_id": "CA-EXCEPTIONS",
+            "kind": "formal_text",
+            "limits": "Formal legal baseline with mirror/official historical access limits. No program implementation or protected outcome follows.",
+            "period": {
+              "end": "2026-01-01",
+              "note": "Formal-text version or reported historical observation; not shelter practice.",
+              "start": "2026-01-01"
+            }
+          },
+          {
+            "citations": [
+              {
+                "locator": "2 CCR 12179(b)(3)",
+                "source_ref": "S-SC04"
+              }
+            ],
+            "claim": "Referenced direct-threat test requires individualized sufficiently recent objective evidence and consideration of mitigation through reasonable accommodation.",
+            "effect": null,
+            "event_refs": [
+              "E-CA-SHELTER-VERSION-2026"
+            ],
+            "evidence_id": "CA-THREAT",
+            "kind": "formal_text",
+            "limits": "Formal legal baseline with mirror/official historical access limits. No program implementation or protected outcome follows.",
+            "period": {
+              "end": null,
+              "note": "Formal-text version or reported historical observation; not shelter practice.",
+              "start": null
+            }
+          },
+          {
+            "citations": [
+              {
+                "locator": "1954.09(a)(4)–(5)",
+                "source_ref": "S-SC02"
+              }
+            ],
+            "claim": "Administrator establishes due-process grievance; operator discloses it. Reversal can require resumed participation or facilitated alternative available placement. Exit efforts are documented; a bed is not guaranteed.",
+            "effect": null,
+            "event_refs": [
+              "E-CA-SHELTER-VERSION-2026"
+            ],
+            "evidence_id": "CA-REMEDY",
+            "kind": "formal_text",
+            "limits": "Formal legal baseline with mirror/official historical access limits. No program implementation or protected outcome follows.",
+            "period": {
+              "end": "2026-01-01",
+              "note": "Formal-text version or reported historical observation; not shelter practice.",
+              "start": "2026-01-01"
+            }
+          },
+          {
+            "citations": [
+              {
+                "locator": "1954.091(b)(1)–(2)",
+                "source_ref": "S-SC03"
+              }
+            ],
+            "claim": "Non-tenancy treatment is conditional; existing rights are preserved. Neither automatic tenancy nor absence of all tenant rights follows from this baseline.",
+            "effect": null,
+            "event_refs": [
+              "E-CA-SHELTER-VERSION-2026"
+            ],
+            "evidence_id": "CA-RIGHTS",
+            "kind": "formal_text",
+            "limits": "Formal legal baseline with mirror/official historical access limits. No program implementation or protected outcome follows.",
+            "period": {
+              "end": null,
+              "note": "Formal-text version or reported historical observation; not shelter practice.",
+              "start": null
+            }
+          },
+          {
+            "citations": [
+              {
+                "locator": "pp. 2–4, existing law and proposed amendments",
+                "source_ref": "S-SC06"
+              }
+            ],
+            "claim": "Official 2024 analysis already describes the 30-day rule and other-shelter-site scope; the 2026 amendment date is not the start of the protection.",
+            "effect": null,
+            "event_refs": [
+              "E-CA-SHELTER-HISTORY-2024"
+            ],
+            "evidence_id": "CA-HISTORY",
+            "kind": "context",
+            "limits": "Formal legal baseline with mirror/official historical access limits. No program implementation or protected outcome follows.",
+            "period": {
+              "end": "2024-06-11",
+              "note": "Formal-text version or reported historical observation; not shelter practice.",
+              "start": "2024-06-11"
+            }
+          }
+        ],
+        "evidence_cutoff": "2026-10-20",
+        "failure": {
+          "claim": "No dated notice/program packet is admitted. Short-notice concerns do not establish individual illegality, a statewide rate or financial misconduct.",
+          "evidence_ids": [],
+          "status": "unknown"
+        },
+        "formal": {
+          "claim": "Specified notice and process requirements appear in the retained statutory text, subject to coverage, version and narrow exceptions.",
+          "evidence_ids": [
+            "CA-SCOPE",
+            "CA-NOTICE",
+            "CA-EXCEPTIONS",
+            "CA-RIGHTS"
+          ],
+          "status": "documented"
+        },
+        "next_test": {
+          "max_records": 1,
+          "question": "Which public agreement establishes the responsible administrator, operator, funding and notice/corrective duties for one selected program?",
+          "required_record": "One current public operating agreement or incorporated policy packet for the selected California shelter.",
+          "status": "proposed_only",
+          "stop_condition": "Stop after classifying that one record; no resident notice, financial accusation or wider survey is inferred.",
+          "supports_if": "It establishes applicable program scope and specific notice, grievance and corrective authority for subsequent practice review.",
+          "weakens_if": "It excludes this framework, is outdated, lacks the required terms or leaves actual authority unclear; preserve those gaps rather than declaring compliance."
+        },
+        "operational": {
+          "authority": {
+            "claim": "Statutory administrator duties are formal; actual exercise of enforcement/corrective authority is unobserved.",
+            "evidence_ids": [
+              "CA-REMEDY"
+            ],
+            "status": "unknown"
+          },
+          "people": {
+            "claim": "No particular program’s actual responsible staff or accessible review capacity has been established.",
+            "evidence_ids": [],
+            "status": "unknown"
+          },
+          "procedures": {
+            "claim": "Written law does not establish actual notice, warning, accommodation or grievance practice.",
+            "evidence_ids": [],
+            "status": "unknown"
+          }
+        },
+        "ordinary_explanations": [
+          {
+            "claim": "A short document could concern a different legal framework, a statutory exception or an amended already-noticed extension; an administrative error or unlawful practice are also untested possibilities.",
+            "evidence_ids": [
+              "CA-SCOPE",
+              "CA-EXCEPTIONS"
+            ]
+          }
+        ],
+        "residuals": [
+          "Current official-text access remains incomplete; mirrors and official historical analysis do not prove absence of later amendments.",
+          "Program-level coverage, dates, actual notice content, claimed exceptions, corrective authority and protective outcomes are unknown.",
+          "No independent cases/denominator or financial records support a statewide prevalence, intent or fraud finding."
+        ],
+        "rest_until": "A separately reviewed public program record arrives; no collector or complaint is initiated.",
+        "safeguard_id": "SG-CA-SHELTER-NOTICE",
+        "scope": "Formal legal baseline for the defined publicly funded/overseen shelter framework; no particular program or resident-specific termination is adjudicated.",
+        "title": "California shelter notice, appeal and remedy: applicability first"
+      },
+      "sequence": 1
+    }
+  ],
+  "references_sha256": "43f66d1c90d9080924c07de86fc17e3183969cf81917bd129bdfc8bd57dda78d",
+  "schema_sha256": "0b1847ead2aad9510195705dae9b0a8dd1c31baf7edf9c77d957f7e65fb40b04",
+  "version": "safeguard-journal-1"
+}

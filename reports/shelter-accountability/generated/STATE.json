@@ -1,0 +1,1012 @@
+{
+  "input_pins": {
+    "sha256": {
+      "config/garden-traversal.json": "cabe4d51ecca052abfcb386dc1e3f8b97cc440a23d6a15bf955b40b8719f8e18",
+      "examples/shelter-accountability/notice-rehearsals.json": "2d080f5f4d6fb697d878c4e8590ee11ea170e81b4c3d6bc0f102823c0752bce4",
+      "operations/shelter-accountability/relay-journal.json": "44ae4c626ed6dc816786e720002937d1f4479f69b64995093f32dc497a997058",
+      "operations/shelter-accountability/relay-references.json": "7d00a817aeba86199ca04f635d71ae045c69e946e8d733b71508ca05928e6e85",
+      "operations/shelter-accountability/safeguard-journal.json": "df3f1de6dbb19092c37cf3333afa4d745f3c410ad8e4688e105bb638d3b5c8ae",
+      "operations/shelter-accountability/safeguard-references.json": "43f66d1c90d9080924c07de86fc17e3183969cf81917bd129bdfc8bd57dda78d",
+      "operations/shelter-accountability/wing.json": "0b8b4c56092e969995292dcb9b310ffd876f9ae5efc37111e67d81afbbb92771",
+      "reports/shelter-accountability/events.json": "a4b899ae6860ee4b6efda75c236509aefdaf34690530780f0d513e1cda27b886",
+      "reports/shelter-accountability/sources.json": "e8f0b253e28e6b2c58fd7efb785b994c72c4f5f640d35dd6be0894e9725ff3f2",
+      "schemas/shelter-notice-rehearsal.schema.json": "d80d52eaa9857b815672c260f07268249951e1f17df3a74d2d513d551db49f81"
+    },
+    "version": "shelter-inputs-1"
+  },
+  "rehearsals": [
+    {
+      "calendar_interval_days": 7,
+      "case_id": "SIM-SEVEN-DAY",
+      "content_gaps": [],
+      "content_unknowns": [],
+      "fraud_finding": "not_assessed",
+      "legal_finding": "not_determined",
+      "limits": "Fictional triage only. Calendar subtraction is not a legal service/counting decision. Scope fields do not establish all non-tenancy conditions, including Housing First. No interval flag does not mean compliance, a valid exception, non-tenancy or protection. Other rights and the applicable legal version require separate review.",
+      "mode": "simulated",
+      "protective_outcome": "unknown",
+      "record_refs": [
+        "FICT-NOTICE-001",
+        "FICT-PROGRAM-001"
+      ],
+      "review_flags": [
+        "calendar_interval_under_30_days"
+      ],
+      "status": "short_interval_review_required"
+    },
+    {
+      "calendar_interval_days": 7,
+      "case_id": "SIM-UNKNOWN-SCOPE",
+      "content_gaps": [],
+      "content_unknowns": [],
+      "fraud_finding": "not_assessed",
+      "legal_finding": "not_determined",
+      "limits": "Fictional triage only. Calendar subtraction is not a legal service/counting decision. Scope fields do not establish all non-tenancy conditions, including Housing First. No interval flag does not mean compliance, a valid exception, non-tenancy or protection. Other rights and the applicable legal version require separate review.",
+      "mode": "simulated",
+      "protective_outcome": "unknown",
+      "record_refs": [
+        "FICT-NOTICE-001",
+        "FICT-PROGRAM-001"
+      ],
+      "review_flags": [
+        "coverage_unknown",
+        "calendar_interval_under_30_days"
+      ],
+      "status": "coverage_unknown"
+    },
+    {
+      "calendar_interval_days": 7,
+      "case_id": "SIM-EXCLUDED-SCOPE",
+      "content_gaps": [],
+      "content_unknowns": [],
+      "fraud_finding": "not_assessed",
+      "legal_finding": "not_determined",
+      "limits": "Fictional triage only. Calendar subtraction is not a legal service/counting decision. Scope fields do not establish all non-tenancy conditions, including Housing First. No interval flag does not mean compliance, a valid exception, non-tenancy or protection. Other rights and the applicable legal version require separate review.",
+      "mode": "simulated",
+      "protective_outcome": "unknown",
+      "record_refs": [
+        "FICT-NOTICE-001",
+        "FICT-PROGRAM-001"
+      ],
+      "review_flags": [
+        "other_framework_review_required",
+        "calendar_interval_under_30_days"
+      ],
+      "status": "other_framework_review_required"
+    },
+    {
+      "calendar_interval_days": 30,
+      "case_id": "SIM-THIRTY-DAY",
+      "content_gaps": [],
+      "content_unknowns": [],
+      "fraud_finding": "not_assessed",
+      "legal_finding": "not_determined",
+      "limits": "Fictional triage only. Calendar subtraction is not a legal service/counting decision. Scope fields do not establish all non-tenancy conditions, including Housing First. No interval flag does not mean compliance, a valid exception, non-tenancy or protection. Other rights and the applicable legal version require separate review.",
+      "mode": "simulated",
+      "protective_outcome": "unknown",
+      "record_refs": [
+        "FICT-NOTICE-001",
+        "FICT-PROGRAM-001"
+      ],
+      "review_flags": [],
+      "status": "no_interval_flag"
+    },
+    {
+      "calendar_interval_days": 7,
+      "case_id": "SIM-CLAIMED-THREAT",
+      "content_gaps": [],
+      "content_unknowns": [],
+      "fraud_finding": "not_assessed",
+      "legal_finding": "not_determined",
+      "limits": "Fictional triage only. Calendar subtraction is not a legal service/counting decision. Scope fields do not establish all non-tenancy conditions, including Housing First. No interval flag does not mean compliance, a valid exception, non-tenancy or protection. Other rights and the applicable legal version require separate review.",
+      "mode": "simulated",
+      "protective_outcome": "unknown",
+      "record_refs": [
+        "FICT-NOTICE-001",
+        "FICT-PROGRAM-001"
+      ],
+      "review_flags": [
+        "exception_evidence_review_required",
+        "calendar_interval_under_30_days"
+      ],
+      "status": "exception_evidence_review_required"
+    },
+    {
+      "calendar_interval_days": 7,
+      "case_id": "SIM-UNKNOWN-EXCEPTION",
+      "content_gaps": [],
+      "content_unknowns": [],
+      "fraud_finding": "not_assessed",
+      "legal_finding": "not_determined",
+      "limits": "Fictional triage only. Calendar subtraction is not a legal service/counting decision. Scope fields do not establish all non-tenancy conditions, including Housing First. No interval flag does not mean compliance, a valid exception, non-tenancy or protection. Other rights and the applicable legal version require separate review.",
+      "mode": "simulated",
+      "protective_outcome": "unknown",
+      "record_refs": [
+        "FICT-NOTICE-001",
+        "FICT-PROGRAM-001"
+      ],
+      "review_flags": [
+        "exception_unknown",
+        "calendar_interval_under_30_days"
+      ],
+      "status": "exception_unknown"
+    },
+    {
+      "calendar_interval_days": 7,
+      "case_id": "SIM-SHORT-EXTENSION",
+      "content_gaps": [],
+      "content_unknowns": [],
+      "fraud_finding": "not_assessed",
+      "legal_finding": "not_determined",
+      "limits": "Fictional triage only. Calendar subtraction is not a legal service/counting decision. Scope fields do not establish all non-tenancy conditions, including Housing First. No interval flag does not mean compliance, a valid exception, non-tenancy or protection. Other rights and the applicable legal version require separate review.",
+      "mode": "simulated",
+      "protective_outcome": "unknown",
+      "record_refs": [
+        "FICT-NOTICE-001",
+        "FICT-PROGRAM-001"
+      ],
+      "review_flags": [
+        "exception_evidence_review_required",
+        "calendar_interval_under_30_days"
+      ],
+      "status": "exception_evidence_review_required"
+    },
+    {
+      "calendar_interval_days": null,
+      "case_id": "SIM-MISSING-DATE",
+      "content_gaps": [],
+      "content_unknowns": [],
+      "fraud_finding": "not_assessed",
+      "legal_finding": "not_determined",
+      "limits": "Fictional triage only. Calendar subtraction is not a legal service/counting decision. Scope fields do not establish all non-tenancy conditions, including Housing First. No interval flag does not mean compliance, a valid exception, non-tenancy or protection. Other rights and the applicable legal version require separate review.",
+      "mode": "simulated",
+      "protective_outcome": "unknown",
+      "record_refs": [
+        "FICT-NOTICE-001",
+        "FICT-PROGRAM-001"
+      ],
+      "review_flags": [
+        "date_unknown"
+      ],
+      "status": "date_unknown"
+    },
+    {
+      "calendar_interval_days": 7,
+      "case_id": "SIM-CONVERSION",
+      "content_gaps": [],
+      "content_unknowns": [],
+      "fraud_finding": "not_assessed",
+      "legal_finding": "not_determined",
+      "limits": "Fictional triage only. Calendar subtraction is not a legal service/counting decision. Scope fields do not establish all non-tenancy conditions, including Housing First. No interval flag does not mean compliance, a valid exception, non-tenancy or protection. Other rights and the applicable legal version require separate review.",
+      "mode": "simulated",
+      "protective_outcome": "unknown",
+      "record_refs": [
+        "FICT-NOTICE-001",
+        "FICT-PROGRAM-001"
+      ],
+      "review_flags": [
+        "conversion_review_required",
+        "calendar_interval_under_30_days"
+      ],
+      "status": "conversion_review_required"
+    },
+    {
+      "calendar_interval_days": 7,
+      "case_id": "SIM-MISSING-CONTENT",
+      "content_gaps": [
+        "grievance_information"
+      ],
+      "content_unknowns": [],
+      "fraud_finding": "not_assessed",
+      "legal_finding": "not_determined",
+      "limits": "Fictional triage only. Calendar subtraction is not a legal service/counting decision. Scope fields do not establish all non-tenancy conditions, including Housing First. No interval flag does not mean compliance, a valid exception, non-tenancy or protection. Other rights and the applicable legal version require separate review.",
+      "mode": "simulated",
+      "protective_outcome": "unknown",
+      "record_refs": [
+        "FICT-NOTICE-001",
+        "FICT-PROGRAM-001"
+      ],
+      "review_flags": [
+        "calendar_interval_under_30_days",
+        "notice_content_review_required"
+      ],
+      "status": "short_interval_review_required"
+    },
+    {
+      "calendar_interval_days": 7,
+      "case_id": "SIM-UNKNOWN-VERSION",
+      "content_gaps": [],
+      "content_unknowns": [],
+      "fraud_finding": "not_assessed",
+      "legal_finding": "not_determined",
+      "limits": "Fictional triage only. Calendar subtraction is not a legal service/counting decision. Scope fields do not establish all non-tenancy conditions, including Housing First. No interval flag does not mean compliance, a valid exception, non-tenancy or protection. Other rights and the applicable legal version require separate review.",
+      "mode": "simulated",
+      "protective_outcome": "unknown",
+      "record_refs": [
+        "FICT-NOTICE-001",
+        "FICT-PROGRAM-001"
+      ],
+      "review_flags": [
+        "legal_version_review_required",
+        "calendar_interval_under_30_days"
+      ],
+      "status": "legal_version_review_required"
+    }
+  ],
+  "relays": {
+    "cases": {
+      "CA-SHELTER-BASELINE": {
+        "case_id": "CA-SHELTER-BASELINE",
+        "design_refs": [],
+        "event_refs": [
+          "E-CA-SHELTER-VERSION-2026",
+          "E-CA-SHELTER-HISTORY-2024"
+        ],
+        "evidence_cutoff": "2026-10-20",
+        "generalization": "not_assessed",
+        "mode": "empirical",
+        "next_test": "Review one public current operating agreement or its incorporated policy packet for one selected California shelter, identifying funding, operator, administrator, notice process and corrective authority before admitting a specific notice comparison.",
+        "relays": [
+          {
+            "capacities": [],
+            "causal_assessment": {
+              "claim": "No practice event or outcome establishes a causal link or institutional pattern.",
+              "evidence_ids": [],
+              "status": "not_established"
+            },
+            "contrary_evidence": [
+              {
+                "claim": "Formal requirements and qualifications are retained; they do not prove delivery, a successful appeal or protection.",
+                "evidence_ids": [
+                  "CA-SCOPE",
+                  "CA-NOTICE",
+                  "CA-EXCEPTIONS"
+                ]
+              }
+            ],
+            "deadline": null,
+            "essential_function": "Meaningful advance opportunity to understand and contest a proposed termination.",
+            "evidence": [
+              {
+                "citations": [
+                  {
+                    "locator": "1954.08(d)–(g)",
+                    "source_ref": "S-SC01"
+                  }
+                ],
+                "claim": "Defined publicly funded/overseen programs, contracted operator and program-only occupancy must be established; not universal every shelter or motel-only.",
+                "event_refs": [
+                  "E-CA-SHELTER-VERSION-2026"
+                ],
+                "evidence_id": "CA-SCOPE",
+                "kind": "requirement",
+                "limits": "Formal legal baseline with mirror/official historical access limits. No program implementation or protected outcome follows.",
+                "observed": {
+                  "end": "2026-10-20",
+                  "note": "Date this formal text was inspected; not an occurrence/implementation date.",
+                  "start": "2026-10-20"
+                },
+                "result": "positive",
+                "stages": [
+                  "expected_transfer"
+                ]
+              },
+              {
+                "citations": [
+                  {
+                    "locator": "1954.09(a)(2)–(3)",
+                    "source_ref": "S-SC02"
+                  }
+                ],
+                "claim": "Within the conditional framework, ordinary written termination notice is at least 30 days, with reasons, reasonable-accommodation and grievance information; documented warnings/problem solving are also required for guideline violations.",
+                "event_refs": [
+                  "E-CA-SHELTER-VERSION-2026"
+                ],
+                "evidence_id": "CA-NOTICE",
+                "kind": "requirement",
+                "limits": "Formal legal baseline with mirror/official historical access limits. No program implementation or protected outcome follows.",
+                "observed": {
+                  "end": "2026-10-20",
+                  "note": "Date this formal text was inspected; not an occurrence/implementation date.",
+                  "start": "2026-10-20"
+                },
+                "result": "positive",
+                "stages": [
+                  "expected_transfer"
+                ]
+              },
+              {
+                "citations": [
+                  {
+                    "locator": "1954.09(a)(2)(D)–(E), (a)(3)(A)",
+                    "source_ref": "S-SC02"
+                  }
+                ],
+                "claim": "Direct threat, statutory self-exit and short extension of an existing time-limit termination are narrow qualifications. A claim does not establish the exception.",
+                "event_refs": [
+                  "E-CA-SHELTER-VERSION-2026"
+                ],
+                "evidence_id": "CA-EXCEPTIONS",
+                "kind": "requirement",
+                "limits": "Formal legal baseline with mirror/official historical access limits. No program implementation or protected outcome follows.",
+                "observed": {
+                  "end": "2026-10-20",
+                  "note": "Date this formal text was inspected; not an occurrence/implementation date.",
+                  "start": "2026-10-20"
+                },
+                "result": "positive",
+                "stages": [
+                  "expected_transfer"
+                ]
+              }
+            ],
+            "from_actor": "Shelter program operator identified by the applicable agreement",
+            "issues": [],
+            "kind": "informational",
+            "ordinary_explanations": [
+              {
+                "claim": "The absence of a program record here reflects a bounded baseline, not evidence that operators or administrators did nothing.",
+                "evidence_ids": [
+                  "CA-SCOPE",
+                  "CA-NOTICE",
+                  "CA-EXCEPTIONS"
+                ]
+              }
+            ],
+            "payload": "Accessible written notice, reasons and accommodation/appeal information",
+            "relay_id": "CA-NOTICE-RELAY",
+            "scope": "Expected legal process only; no actual dispatch, receipt, decision, performance or protective result supplied.",
+            "stages": {
+              "action": {
+                "claim": "No actual program event supplied.",
+                "evidence_ids": [],
+                "status": "unknown",
+                "time": {
+                  "end": null,
+                  "note": "No actual notice, appeal or remedy event is dated.",
+                  "start": null
+                }
+              },
+              "arrival": {
+                "claim": "No actual program event supplied.",
+                "evidence_ids": [],
+                "status": "unknown",
+                "time": {
+                  "end": null,
+                  "note": "No actual notice, appeal or remedy event is dated.",
+                  "start": null
+                }
+              },
+              "dispatch": {
+                "claim": "No actual program event supplied.",
+                "evidence_ids": [],
+                "status": "unknown",
+                "time": {
+                  "end": null,
+                  "note": "No actual notice, appeal or remedy event is dated.",
+                  "start": null
+                }
+              },
+              "expected_transfer": {
+                "claim": "Expected transfer described by the scoped statutory framework; applicability and actual performance still need evidence.",
+                "evidence_ids": [
+                  "CA-SCOPE",
+                  "CA-NOTICE",
+                  "CA-EXCEPTIONS"
+                ],
+                "status": "documented",
+                "time": {
+                  "end": null,
+                  "note": "No actual notice, appeal or remedy event is dated.",
+                  "start": null
+                }
+              },
+              "origin": {
+                "claim": "No actual program event supplied.",
+                "evidence_ids": [],
+                "status": "unknown",
+                "time": {
+                  "end": null,
+                  "note": "No actual notice, appeal or remedy event is dated.",
+                  "start": null
+                }
+              },
+              "outcome": {
+                "claim": "No actual program event supplied.",
+                "evidence_ids": [],
+                "status": "unknown",
+                "time": {
+                  "end": null,
+                  "note": "No actual notice, appeal or remedy event is dated.",
+                  "start": null
+                }
+              },
+              "verification": {
+                "claim": "No actual program event supplied.",
+                "evidence_ids": [],
+                "method": null,
+                "status": "unknown",
+                "time": {
+                  "end": null,
+                  "note": "No actual notice, appeal or remedy event is dated.",
+                  "start": null
+                }
+              }
+            },
+            "to_actor": "Program participant"
+          },
+          {
+            "capacities": [],
+            "causal_assessment": {
+              "claim": "No practice event or outcome establishes a causal link or institutional pattern.",
+              "evidence_ids": [],
+              "status": "not_established"
+            },
+            "contrary_evidence": [
+              {
+                "claim": "Formal requirements and qualifications are retained; they do not prove delivery, a successful appeal or protection.",
+                "evidence_ids": [
+                  "CA-REMEDY",
+                  "CA-RIGHTS"
+                ]
+              }
+            ],
+            "deadline": null,
+            "essential_function": "A justified correction becomes actual resumed shelter participation or available alternative service.",
+            "evidence": [
+              {
+                "citations": [
+                  {
+                    "locator": "1954.09(a)(4)–(5)",
+                    "source_ref": "S-SC02"
+                  }
+                ],
+                "claim": "Administrator establishes due-process grievance; operator discloses it. Reversal can require resumed participation or facilitated alternative available placement. Exit efforts are documented; a bed is not guaranteed.",
+                "event_refs": [
+                  "E-CA-SHELTER-VERSION-2026"
+                ],
+                "evidence_id": "CA-REMEDY",
+                "kind": "requirement",
+                "limits": "Formal legal baseline with mirror/official historical access limits. No program implementation or protected outcome follows.",
+                "observed": {
+                  "end": "2026-10-20",
+                  "note": "Date this formal text was inspected; not an occurrence/implementation date.",
+                  "start": "2026-10-20"
+                },
+                "result": "positive",
+                "stages": [
+                  "expected_transfer"
+                ]
+              },
+              {
+                "citations": [
+                  {
+                    "locator": "1954.091(b)(1)–(2)",
+                    "source_ref": "S-SC03"
+                  }
+                ],
+                "claim": "Non-tenancy treatment is conditional; existing rights are preserved. Neither automatic tenancy nor absence of all tenant rights follows from this baseline.",
+                "event_refs": [
+                  "E-CA-SHELTER-VERSION-2026"
+                ],
+                "evidence_id": "CA-RIGHTS",
+                "kind": "requirement",
+                "limits": "Formal legal baseline with mirror/official historical access limits. No program implementation or protected outcome follows.",
+                "observed": {
+                  "end": "2026-10-20",
+                  "note": "Date this formal text was inspected; not an occurrence/implementation date.",
+                  "start": "2026-10-20"
+                },
+                "result": "positive",
+                "stages": [
+                  "expected_transfer"
+                ]
+              }
+            ],
+            "from_actor": "Program administrator responsible for grievance and oversight",
+            "issues": [],
+            "kind": "authority",
+            "ordinary_explanations": [
+              {
+                "claim": "The absence of a program record here reflects a bounded baseline, not evidence that operators or administrators did nothing.",
+                "evidence_ids": [
+                  "CA-REMEDY",
+                  "CA-RIGHTS"
+                ]
+              }
+            ],
+            "payload": "Reviewed decision and any required remedy communicated for implementation",
+            "relay_id": "CA-REMEDY-RELAY",
+            "scope": "Expected legal process only; no actual dispatch, receipt, decision, performance or protective result supplied.",
+            "stages": {
+              "action": {
+                "claim": "No actual program event supplied.",
+                "evidence_ids": [],
+                "status": "unknown",
+                "time": {
+                  "end": null,
+                  "note": "No actual notice, appeal or remedy event is dated.",
+                  "start": null
+                }
+              },
+              "arrival": {
+                "claim": "No actual program event supplied.",
+                "evidence_ids": [],
+                "status": "unknown",
+                "time": {
+                  "end": null,
+                  "note": "No actual notice, appeal or remedy event is dated.",
+                  "start": null
+                }
+              },
+              "dispatch": {
+                "claim": "No actual program event supplied.",
+                "evidence_ids": [],
+                "status": "unknown",
+                "time": {
+                  "end": null,
+                  "note": "No actual notice, appeal or remedy event is dated.",
+                  "start": null
+                }
+              },
+              "expected_transfer": {
+                "claim": "Expected transfer described by the scoped statutory framework; applicability and actual performance still need evidence.",
+                "evidence_ids": [
+                  "CA-REMEDY",
+                  "CA-RIGHTS"
+                ],
+                "status": "documented",
+                "time": {
+                  "end": null,
+                  "note": "No actual notice, appeal or remedy event is dated.",
+                  "start": null
+                }
+              },
+              "origin": {
+                "claim": "No actual program event supplied.",
+                "evidence_ids": [],
+                "status": "unknown",
+                "time": {
+                  "end": null,
+                  "note": "No actual notice, appeal or remedy event is dated.",
+                  "start": null
+                }
+              },
+              "outcome": {
+                "claim": "No actual program event supplied.",
+                "evidence_ids": [],
+                "status": "unknown",
+                "time": {
+                  "end": null,
+                  "note": "No actual notice, appeal or remedy event is dated.",
+                  "start": null
+                }
+              },
+              "verification": {
+                "claim": "No actual program event supplied.",
+                "evidence_ids": [],
+                "method": null,
+                "status": "unknown",
+                "time": {
+                  "end": null,
+                  "note": "No actual notice, appeal or remedy event is dated.",
+                  "start": null
+                }
+              }
+            },
+            "to_actor": "Operator and affected participant"
+          }
+        ],
+        "scope": "Expected notice and remedy transfers under the retained California shelter framework; no resident-specific event supplied.",
+        "supports": [],
+        "title": "Notice and corrective-authority relays: formal expectations, practice unknown",
+        "unknowns": [
+          "Current official-text access remains incomplete; mirrors and official historical analysis do not prove absence of later amendments.",
+          "Program-level coverage, dates, actual notice content, claimed exceptions, corrective authority and protective outcomes are unknown.",
+          "No independent cases/denominator or financial records support a statewide prevalence, intent or fraud finding.",
+          "No proposed-termination date is supplied, so no absolute30-day deadline or violation can be computed."
+        ]
+      }
+    },
+    "history": [
+      {
+        "actor": "Work Aiden; supplied formal process map",
+        "case_id": "CA-SHELTER-BASELINE",
+        "entry_sha256": "ecddcd7874eb8b02ea444be52dc6cf554254ea006f3c56d21cd9015e9abf00d2",
+        "reason": "Trace legally expected notice and remedy separately from unknown execution; no failure inferred from missing case evidence.",
+        "recorded_at": "2026-10-20T06:37:30+00:00",
+        "revision": 1,
+        "sequence": 1,
+        "stages": {
+          "CA-NOTICE-RELAY": {
+            "action": "unknown",
+            "arrival": "unknown",
+            "dispatch": "unknown",
+            "expected_transfer": "documented",
+            "origin": "unknown",
+            "outcome": "unknown",
+            "verification": "unknown"
+          },
+          "CA-REMEDY-RELAY": {
+            "action": "unknown",
+            "arrival": "unknown",
+            "dispatch": "unknown",
+            "expected_transfer": "documented",
+            "origin": "unknown",
+            "outcome": "unknown",
+            "verification": "unknown"
+          }
+        },
+        "supports": [],
+        "unknowns": [
+          "Current official-text access remains incomplete; mirrors and official historical analysis do not prove absence of later amendments.",
+          "Program-level coverage, dates, actual notice content, claimed exceptions, corrective authority and protective outcomes are unknown.",
+          "No independent cases/denominator or financial records support a statewide prevalence, intent or fraud finding.",
+          "No proposed-termination date is supplied, so no absolute30-day deadline or violation can be computed."
+        ]
+      }
+    ],
+    "journal_sha256": "44ae4c626ed6dc816786e720002937d1f4479f69b64995093f32dc497a997058",
+    "revisions": {
+      "CA-SHELTER-BASELINE": 1
+    },
+    "status": "supplied assessments; no canonical admission or automatic causation/pattern finding",
+    "timing": {
+      "CA-SHELTER-BASELINE": {
+        "CA-NOTICE-RELAY": {
+          "lag_seconds": null,
+          "status": "no_documented_deadline"
+        },
+        "CA-REMEDY-RELAY": {
+          "lag_seconds": null,
+          "status": "no_documented_deadline"
+        }
+      }
+    },
+    "version": "relay-state-1"
+  },
+  "safeguards": {
+    "history": [
+      {
+        "actor": "Work Aiden; source-linked baseline, no legal adjudication",
+        "dimensions": {
+          "effectiveness": "unknown",
+          "failure": "unknown",
+          "formal": "documented",
+          "operational": {
+            "authority": "unknown",
+            "people": "unknown",
+            "procedures": "unknown"
+          }
+        },
+        "entry_sha256": "eeedde446f662a35a48086bafeb1dc63de80a9c2ff43d2d723135354b5c1ebb2",
+        "reason": "Open a bounded shelter wing with formal protections separated from unobserved practice and outcomes.",
+        "recorded_at": "2026-10-20T06:37:30+00:00",
+        "revision": 1,
+        "safeguard_id": "SG-CA-SHELTER-NOTICE",
+        "sequence": 1
+      }
+    ],
+    "journal_sha256": "df3f1de6dbb19092c37cf3333afa4d745f3c410ad8e4688e105bb638d3b5c8ae",
+    "revisions": {
+      "SG-CA-SHELTER-NOTICE": 1
+    },
+    "safeguards": {
+      "SG-CA-SHELTER-NOTICE": {
+        "contrary_evidence": [
+          {
+            "claim": "Exceptions and other preserved rights qualify the rule; administrators may also carry out genuine remedies. No contrary practice record has been collected.",
+            "evidence_ids": [
+              "CA-EXCEPTIONS",
+              "CA-RIGHTS",
+              "CA-REMEDY"
+            ]
+          }
+        ],
+        "effectiveness": {
+          "claim": "No retained resident-specific outcome verifies prevention, reversal of removal or restored service.",
+          "evidence_ids": [],
+          "status": "unknown"
+        },
+        "event_refs": [
+          "E-CA-SHELTER-VERSION-2026",
+          "E-CA-SHELTER-HISTORY-2024"
+        ],
+        "evidence": [
+          {
+            "citations": [
+              {
+                "locator": "1954.08(d)–(g)",
+                "source_ref": "S-SC01"
+              }
+            ],
+            "claim": "Defined publicly funded/overseen programs, contracted operator and program-only occupancy must be established; not universal every shelter or motel-only.",
+            "effect": null,
+            "event_refs": [
+              "E-CA-SHELTER-VERSION-2026"
+            ],
+            "evidence_id": "CA-SCOPE",
+            "kind": "formal_text",
+            "limits": "Formal legal baseline with mirror/official historical access limits. No program implementation or protected outcome follows.",
+            "period": {
+              "end": null,
+              "note": "Formal-text version or reported historical observation; not shelter practice.",
+              "start": null
+            }
+          },
+          {
+            "citations": [
+              {
+                "locator": "1954.09(a)(2)–(3)",
+                "source_ref": "S-SC02"
+              }
+            ],
+            "claim": "Within the conditional framework, ordinary written termination notice is at least 30 days, with reasons, reasonable-accommodation and grievance information; documented warnings/problem solving are also required for guideline violations.",
+            "effect": null,
+            "event_refs": [
+              "E-CA-SHELTER-VERSION-2026"
+            ],
+            "evidence_id": "CA-NOTICE",
+            "kind": "formal_text",
+            "limits": "Formal legal baseline with mirror/official historical access limits. No program implementation or protected outcome follows.",
+            "period": {
+              "end": "2026-01-01",
+              "note": "Formal-text version or reported historical observation; not shelter practice.",
+              "start": "2026-01-01"
+            }
+          },
+          {
+            "citations": [
+              {
+                "locator": "1954.09(a)(2)(D)–(E), (a)(3)(A)",
+                "source_ref": "S-SC02"
+              }
+            ],
+            "claim": "Direct threat, statutory self-exit and short extension of an existing time-limit termination are narrow qualifications. A claim does not establish the exception.",
+            "effect": null,
+            "event_refs": [
+              "E-CA-SHELTER-VERSION-2026"
+            ],
+            "evidence_id": "CA-EXCEPTIONS",
+            "kind": "formal_text",
+            "limits": "Formal legal baseline with mirror/official historical access limits. No program implementation or protected outcome follows.",
+            "period": {
+              "end": "2026-01-01",
+              "note": "Formal-text version or reported historical observation; not shelter practice.",
+              "start": "2026-01-01"
+            }
+          },
+          {
+            "citations": [
+              {
+                "locator": "2 CCR 12179(b)(3)",
+                "source_ref": "S-SC04"
+              }
+            ],
+            "claim": "Referenced direct-threat test requires individualized sufficiently recent objective evidence and consideration of mitigation through reasonable accommodation.",
+            "effect": null,
+            "event_refs": [
+              "E-CA-SHELTER-VERSION-2026"
+            ],
+            "evidence_id": "CA-THREAT",
+            "kind": "formal_text",
+            "limits": "Formal legal baseline with mirror/official historical access limits. No program implementation or protected outcome follows.",
+            "period": {
+              "end": null,
+              "note": "Formal-text version or reported historical observation; not shelter practice.",
+              "start": null
+            }
+          },
+          {
+            "citations": [
+              {
+                "locator": "1954.09(a)(4)–(5)",
+                "source_ref": "S-SC02"
+              }
+            ],
+            "claim": "Administrator establishes due-process grievance; operator discloses it. Reversal can require resumed participation or facilitated alternative available placement. Exit efforts are documented; a bed is not guaranteed.",
+            "effect": null,
+            "event_refs": [
+              "E-CA-SHELTER-VERSION-2026"
+            ],
+            "evidence_id": "CA-REMEDY",
+            "kind": "formal_text",
+            "limits": "Formal legal baseline with mirror/official historical access limits. No program implementation or protected outcome follows.",
+            "period": {
+              "end": "2026-01-01",
+              "note": "Formal-text version or reported historical observation; not shelter practice.",
+              "start": "2026-01-01"
+            }
+          },
+          {
+            "citations": [
+              {
+                "locator": "1954.091(b)(1)–(2)",
+                "source_ref": "S-SC03"
+              }
+            ],
+            "claim": "Non-tenancy treatment is conditional; existing rights are preserved. Neither automatic tenancy nor absence of all tenant rights follows from this baseline.",
+            "effect": null,
+            "event_refs": [
+              "E-CA-SHELTER-VERSION-2026"
+            ],
+            "evidence_id": "CA-RIGHTS",
+            "kind": "formal_text",
+            "limits": "Formal legal baseline with mirror/official historical access limits. No program implementation or protected outcome follows.",
+            "period": {
+              "end": null,
+              "note": "Formal-text version or reported historical observation; not shelter practice.",
+              "start": null
+            }
+          },
+          {
+            "citations": [
+              {
+                "locator": "pp. 2–4, existing law and proposed amendments",
+                "source_ref": "S-SC06"
+              }
+            ],
+            "claim": "Official 2024 analysis already describes the 30-day rule and other-shelter-site scope; the 2026 amendment date is not the start of the protection.",
+            "effect": null,
+            "event_refs": [
+              "E-CA-SHELTER-HISTORY-2024"
+            ],
+            "evidence_id": "CA-HISTORY",
+            "kind": "context",
+            "limits": "Formal legal baseline with mirror/official historical access limits. No program implementation or protected outcome follows.",
+            "period": {
+              "end": "2024-06-11",
+              "note": "Formal-text version or reported historical observation; not shelter practice.",
+              "start": "2024-06-11"
+            }
+          }
+        ],
+        "evidence_cutoff": "2026-10-20",
+        "failure": {
+          "claim": "No dated notice/program packet is admitted. Short-notice concerns do not establish individual illegality, a statewide rate or financial misconduct.",
+          "evidence_ids": [],
+          "status": "unknown"
+        },
+        "formal": {
+          "claim": "Specified notice and process requirements appear in the retained statutory text, subject to coverage, version and narrow exceptions.",
+          "evidence_ids": [
+            "CA-SCOPE",
+            "CA-NOTICE",
+            "CA-EXCEPTIONS",
+            "CA-RIGHTS"
+          ],
+          "status": "documented"
+        },
+        "next_test": {
+          "max_records": 1,
+          "question": "Which public agreement establishes the responsible administrator, operator, funding and notice/corrective duties for one selected program?",
+          "required_record": "One current public operating agreement or incorporated policy packet for the selected California shelter.",
+          "status": "proposed_only",
+          "stop_condition": "Stop after classifying that one record; no resident notice, financial accusation or wider survey is inferred.",
+          "supports_if": "It establishes applicable program scope and specific notice, grievance and corrective authority for subsequent practice review.",
+          "weakens_if": "It excludes this framework, is outdated, lacks the required terms or leaves actual authority unclear; preserve those gaps rather than declaring compliance."
+        },
+        "operational": {
+          "authority": {
+            "claim": "Statutory administrator duties are formal; actual exercise of enforcement/corrective authority is unobserved.",
+            "evidence_ids": [
+              "CA-REMEDY"
+            ],
+            "status": "unknown"
+          },
+          "people": {
+            "claim": "No particular program’s actual responsible staff or accessible review capacity has been established.",
+            "evidence_ids": [],
+            "status": "unknown"
+          },
+          "procedures": {
+            "claim": "Written law does not establish actual notice, warning, accommodation or grievance practice.",
+            "evidence_ids": [],
+            "status": "unknown"
+          }
+        },
+        "ordinary_explanations": [
+          {
+            "claim": "A short document could concern a different legal framework, a statutory exception or an amended already-noticed extension; an administrative error or unlawful practice are also untested possibilities.",
+            "evidence_ids": [
+              "CA-SCOPE",
+              "CA-EXCEPTIONS"
+            ]
+          }
+        ],
+        "residuals": [
+          "Current official-text access remains incomplete; mirrors and official historical analysis do not prove absence of later amendments.",
+          "Program-level coverage, dates, actual notice content, claimed exceptions, corrective authority and protective outcomes are unknown.",
+          "No independent cases/denominator or financial records support a statewide prevalence, intent or fraud finding."
+        ],
+        "rest_until": "A separately reviewed public program record arrives; no collector or complaint is initiated.",
+        "safeguard_id": "SG-CA-SHELTER-NOTICE",
+        "scope": "Formal legal baseline for the defined publicly funded/overseen shelter framework; no particular program or resident-specific termination is adjudicated.",
+        "title": "California shelter notice, appeal and remedy: applicability first"
+      }
+    },
+    "status": "supplied review; no canonical admission",
+    "version": "safeguard-state-1"
+  },
+  "version": "shelter-state-1",
+  "wing": {
+    "evidence_cutoff": "2026-10-20",
+    "first_question_id": "Q-CA-SHELTER-NOTICE",
+    "functions": [
+      {
+        "evidence_needed": [
+          "operative law/version",
+          "funding and operating agreement",
+          "policy packet and notice/service records"
+        ],
+        "id": "NOTICE-AND-ACCESS",
+        "outcome_threshold": "Timely accessible notice and meaningful opportunity to challenge, established by separate practice/outcome records.",
+        "question": "Which notice, reasons, accommodation and appeal protections govern this program and event?"
+      },
+      {
+        "evidence_needed": [
+          "administrator/operator identity and delegated authority",
+          "complaint receipt and decision",
+          "corrective direction and follow-up"
+        ],
+        "id": "PUBLIC-OVERSIGHT",
+        "outcome_threshold": "A dated response is followed through implementation and verified result; acknowledgment alone is insufficient.",
+        "question": "Who holds operator, administrator, funder and enforcement responsibility, and what did each do after a documented problem?"
+      },
+      {
+        "evidence_needed": [
+          "hold/readmission instruction",
+          "actual acceptance/arrival",
+          "service continuity and later verification"
+        ],
+        "id": "SERVICE-CONTINUITY",
+        "outcome_threshold": "A real place/service is verified; referrals, offered capacity and promises remain distinct.",
+        "question": "Did a hold, accommodation, readmission or transfer actually preserve access to shelter and essential services?"
+      },
+      {
+        "evidence_needed": [
+          "contract scope and funding restrictions",
+          "invoices and documented deliverables",
+          "audit findings and agency/operator response"
+        ],
+        "id": "FUNDING-INTEGRITY",
+        "outcome_threshold": "Misconduct requires specific evidence and appropriate review; cost, dissatisfaction or process failure alone do not prove fraud.",
+        "question": "Do contracts, payments, deliverables and audits support the services reported, and what do identified discrepancies mean?"
+      },
+      {
+        "evidence_needed": [
+          "deduplicated dated event records",
+          "coverage and denominator",
+          "contrary examples and post-correction checks"
+        ],
+        "id": "PATTERN-AND-REMEDY",
+        "outcome_threshold": "Individual harm, pattern, cause and remedy are separate claims; source reuse and repeated advocacy are not independent case counts.",
+        "question": "Is a repeated practice supported across distinct events and an interpretable denominator, and did a correction persist?"
+      }
+    ],
+    "legal_version": {
+      "current_official_text_verified": false,
+      "limits": "Official current code retrieval blocked; no claim that every 2026 amendment was excluded. Case-specific operative version requires review.",
+      "status": "mirror_text_with_official_historical_corroboration",
+      "version_date": "2026-01-01"
+    },
+    "name": "Shelter Safety and Accountability",
+    "next_test": "Review one public current operating agreement or its incorporated policy packet for one selected California shelter, identifying funding, operator, administrator, notice process and corrective authority before admitting a specific notice comparison.",
+    "origin": "User-requested investigation of abbreviated shelter notices and reliance on ad hoc advocacy. No named, dated notice or resident record has been admitted; no statewide prevalence or financial-misconduct finding.",
+    "principles": [
+      "Formal protection is not empirical effectiveness.",
+      "Unknown coverage or exceptions do not become a legal violation.",
+      "Program funding, oversight, operator and resident experience remain distinct sources.",
+      "One operator, event or source does not establish statewide practice or motive.",
+      "Successful protections and working alternatives deserve the same source rigor as failures.",
+      "No personal resident details, allegation dossiers or medical records are published by this baseline."
+    ],
+    "recorded_at": "2026-10-20T06:37:30+00:00",
+    "root_question": "When a shelter protection is promised, what proves it applies, operates and produces a remedy without repeated emergency advocacy?",
+    "status": "supplied_baseline_no_collectors",
+    "stop_condition": "One replayable baseline and fictional boundary rehearsals complete; future empirical admission needs a bounded reviewed record. No scheduled collection.",
+    "tree": "HOMELESSNESS",
+    "version": "shelter-wing-1",
+    "wing_id": "CA-SHELTER-ACCOUNTABILITY"
+  }
+}

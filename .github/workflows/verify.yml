@@ -45,6 +45,8 @@ jobs:
         run: python scripts/build_evidence_viewer.py --check
       - name: Verify both Relay Continuity demonstrations without network
         run: python scripts/relays.py check
+      - name: Verify the shelter baseline and fictional notice checks without network
+        run: python scripts/shelter_accountability.py check
       - name: Verify portable encounter is reproducible
         run: |
           python scripts/build_meaning_tower.py
