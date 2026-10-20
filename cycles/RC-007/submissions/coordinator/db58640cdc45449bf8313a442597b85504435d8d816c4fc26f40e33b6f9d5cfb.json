@@ -1,0 +1,28 @@
+{
+  "agent": "coordinator",
+  "at": "2026-10-20T01:07:31.018941+00:00",
+  "base_hash": "16d04f8bb35a588caca60517f90a11944cfbafac7951402d059a6d6131de97b7",
+  "cycle_id": "RC-007",
+  "payload": {
+    "agent": "coordinator",
+    "base_commit": "7ad53e2a3d757e35b18a93a84d9d7dcbeac9bdc6",
+    "constraints": [
+      "Reuse HOMELESSNESS tree and current Safeguard/Relay validators.",
+      "No canonical admission or prior evidence rewrite.",
+      "No new Bees, providers, schedules, complaints, email or FOIA."
+    ],
+    "cycle_id": "RC-007",
+    "evidence_cutoff": "2026-10-20",
+    "findings": [
+      "Defined publicly funded/overseen shelter programs have a30-day rule with exceptions in the conditional non-tenancy framework.",
+      "No resident-specific notice or program contract has been admitted. Short-notice reports are a question, not a verified statewide rate or fraud finding."
+    ],
+    "next": "Pin public legal sources with access limits; implement one baseline and fictional notice-screen boundary cases.",
+    "question_id": "Q-CA-SHELTER-NOTICE",
+    "scope": "California shelter notice, administrative oversight and verified remedy; first bounded Garden wing baseline.",
+    "status": "checkpoint"
+  },
+  "payload_hash": "7b5ae7db9740cf3a2ec0e0bc9b87974b18eaee0df895de6959bef6dd0a6503da",
+  "phase": "checkpoint",
+  "submission_id": "db58640cdc45449bf8313a442597b85504435d8d816c4fc26f40e33b6f9d5cfb"
+}

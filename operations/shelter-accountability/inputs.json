@@ -1,0 +1,15 @@
+{
+  "sha256": {
+    "config/garden-traversal.json": "cabe4d51ecca052abfcb386dc1e3f8b97cc440a23d6a15bf955b40b8719f8e18",
+    "examples/shelter-accountability/notice-rehearsals.json": "2d080f5f4d6fb697d878c4e8590ee11ea170e81b4c3d6bc0f102823c0752bce4",
+    "operations/shelter-accountability/relay-journal.json": "44ae4c626ed6dc816786e720002937d1f4479f69b64995093f32dc497a997058",
+    "operations/shelter-accountability/relay-references.json": "7d00a817aeba86199ca04f635d71ae045c69e946e8d733b71508ca05928e6e85",
+    "operations/shelter-accountability/safeguard-journal.json": "df3f1de6dbb19092c37cf3333afa4d745f3c410ad8e4688e105bb638d3b5c8ae",
+    "operations/shelter-accountability/safeguard-references.json": "43f66d1c90d9080924c07de86fc17e3183969cf81917bd129bdfc8bd57dda78d",
+    "operations/shelter-accountability/wing.json": "0b8b4c56092e969995292dcb9b310ffd876f9ae5efc37111e67d81afbbb92771",
+    "reports/shelter-accountability/events.json": "a4b899ae6860ee4b6efda75c236509aefdaf34690530780f0d513e1cda27b886",
+    "reports/shelter-accountability/sources.json": "e8f0b253e28e6b2c58fd7efb785b994c72c4f5f640d35dd6be0894e9725ff3f2",
+    "schemas/shelter-notice-rehearsal.schema.json": "d80d52eaa9857b815672c260f07268249951e1f17df3a74d2d513d551db49f81"
+  },
+  "version": "shelter-inputs-1"
+}

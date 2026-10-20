@@ -1,0 +1,74 @@
+{
+  "base": {
+    "path": "operations/continuity/references.json",
+    "sha256": "90637325b6f8dac8aa0d79e187586898309a39daf8375cc4a1c1d9b451745948"
+  },
+  "references": {
+    "E-CA-SHELTER-HISTORY-2024": {
+      "collection": "events",
+      "id_field": "event_id",
+      "kind": "event",
+      "path": "reports/shelter-accountability/events.json",
+      "record_id": "CA-SHELTER-HISTORY-2024",
+      "sha256": "440871e6b668367ef7d78185320f7ec9bb7854a89914ffe224110dd738624907"
+    },
+    "E-CA-SHELTER-VERSION-2026": {
+      "collection": "events",
+      "id_field": "event_id",
+      "kind": "event",
+      "path": "reports/shelter-accountability/events.json",
+      "record_id": "CA-SHELTER-VERSION-2026",
+      "sha256": "00dc2ac59a78b107edeaab4ad2453c894593f113f097b7512903b071000c6799"
+    },
+    "S-SC01": {
+      "collection": "sources",
+      "id_field": "source_id",
+      "kind": "source",
+      "path": "reports/shelter-accountability/sources.json",
+      "record_id": "SC01",
+      "sha256": "1c5de8ccc78aece1b5fb19e7bd24c1af15caea1a04dbe5727a286c4d96ddb26c"
+    },
+    "S-SC02": {
+      "collection": "sources",
+      "id_field": "source_id",
+      "kind": "source",
+      "path": "reports/shelter-accountability/sources.json",
+      "record_id": "SC02",
+      "sha256": "7895c75134f723237e307099de8f003a139be9006f172f49ab1fdb539b4ed546"
+    },
+    "S-SC03": {
+      "collection": "sources",
+      "id_field": "source_id",
+      "kind": "source",
+      "path": "reports/shelter-accountability/sources.json",
+      "record_id": "SC03",
+      "sha256": "4c16f43cff294e287f43c082635cb0c7bba51c283c7d0b27bec345e250f591f0"
+    },
+    "S-SC04": {
+      "collection": "sources",
+      "id_field": "source_id",
+      "kind": "source",
+      "path": "reports/shelter-accountability/sources.json",
+      "record_id": "SC04",
+      "sha256": "2216737971e9037caa7623fd0782f508a507170c012eafc607365c078c4471b1"
+    },
+    "S-SC05": {
+      "collection": "sources",
+      "id_field": "source_id",
+      "kind": "source",
+      "path": "reports/shelter-accountability/sources.json",
+      "record_id": "SC05",
+      "sha256": "f19d60d1058c84b632902a3b2385852fb954a0f3a400fe41aa122d29749b5c7e"
+    },
+    "S-SC06": {
+      "collection": "sources",
+      "id_field": "source_id",
+      "kind": "source",
+      "path": "reports/shelter-accountability/sources.json",
+      "record_id": "SC06",
+      "sha256": "12b3d2c4cb43921876474ce984b39531cc2ce105f371ae0becc87971e18341ac"
+    }
+  },
+  "snapshots": {},
+  "version": "safeguard-references-1"
+}

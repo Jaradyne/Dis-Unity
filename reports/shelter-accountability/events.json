@@ -1,0 +1,29 @@
+{
+  "events": [
+    {
+      "claim": "1954.09 mirror amendment note identifies AB 1170 Stats. 2025, ch. 67, sec. 30 as effective this date;30-day protections predate this version.",
+      "discovery": "Late discovery of existing legal framework, not new enactment or observed shelter practice",
+      "event_date": "2026-01-01",
+      "event_id": "CA-SHELTER-VERSION-2026",
+      "limits": "Not a program-specific coverage, compliance, tenancy or fraud determination.",
+      "publication_date": null,
+      "retrieved_date_utc": "2026-10-20",
+      "source_id": "SC05",
+      "source_lineage": "CA-CIV-CH24",
+      "status": "formal legal version; mirror with official-text access limits"
+    },
+    {
+      "claim": "Official Senate Judiciary analysis describes existing30-day notice, public program/other shelter site definitions and administrator oversight before the latest code amendment.",
+      "discovery": "Late discovery; not new2026 event",
+      "event_date": "2024-06-11",
+      "event_id": "CA-SHELTER-HISTORY-2024",
+      "limits": "Analysis is not final enacted wording or actual implementation evidence.",
+      "publication_date": "2024-06-11",
+      "retrieved_date_utc": "2026-10-20",
+      "source_id": "SC06",
+      "source_lineage": "CA-CIV-CH24",
+      "status": "official historical legislative analysis"
+    }
+  ],
+  "version": "shelter-event-catalog-1"
+}

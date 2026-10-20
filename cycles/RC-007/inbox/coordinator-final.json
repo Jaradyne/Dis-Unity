@@ -1,0 +1,56 @@
+{
+  "agent": "coordinator",
+  "base_commit": "7ad53e2a3d757e35b18a93a84d9d7dcbeac9bdc6",
+  "boundaries": [
+    "No canonical admission or earlier evidence rewrite.",
+    "No new Bees, providers, models, schedules or Governor powers.",
+    "No resident identifiers, complaints, outgoing messages or FOIA submission."
+  ],
+  "contributions": [
+    {
+      "actor": "Work Aiden",
+      "role": "coordinator, intake and implementation"
+    },
+    {
+      "actor": "camp_review",
+      "record": "reports/shelter-accountability/LEGAL_REVIEW.md",
+      "role": "bounded independent legal/data review"
+    },
+    {
+      "actor": "reporting_review",
+      "record": "reports/shelter-accountability/IMPLEMENTATION_REVIEW.md",
+      "role": "bounded independent implementation review and tests"
+    }
+  ],
+  "coverage_record": "cycles/RC-007/ROLE_COVERAGE.md",
+  "cycle_id": "RC-007",
+  "evidence_cutoff": "2026-10-20",
+  "findings": [
+    "Formal scoped notice/grievance/remedy protections documented with primary-current-text access limits.",
+    "Actual program operation, resident outcomes, particular failures, prevalence and financial misconduct remain unknown or unassessed.",
+    "Eleven fictional inputs are software rehearsals; zero resident cases admitted."
+  ],
+  "handoffs": [
+    "reports/shelter-accountability/CHAT_HANDOFF.md",
+    "reports/shelter-accountability/DIGEST_HANDOFF.md"
+  ],
+  "next_test": "Review one current public operating agreement or incorporated policy packet for one selected program, identifying funding, operator, administrator, notice and corrective authority. Stop after classification.",
+  "question_id": "Q-CA-SHELTER-NOTICE",
+  "question_registration": "case-local only",
+  "recorded_at": "2026-10-20T06:42:15.613671+00:00",
+  "residuals": [
+    "Current official code retrieval blocked; no exhaustive exclusion of all later amendments.",
+    "No program agreement, dated notice, protective outcome, financial audit or statewide denominator admitted."
+  ],
+  "scope": "One California shelter legal baseline, fictional notice triage and replayable Garden wing.",
+  "status": "submitted_for_review_no_canonical_admission",
+  "validation": {
+    "canonical_changed": false,
+    "garden_passes": 1,
+    "garden_steps": 10,
+    "model_calls": 0,
+    "new_collectors": 0,
+    "python_tests_passed": 240,
+    "shelter_tests_passed": 19
+  }
+}

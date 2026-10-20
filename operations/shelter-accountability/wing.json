@@ -1,0 +1,80 @@
+{
+  "evidence_cutoff": "2026-10-20",
+  "first_question_id": "Q-CA-SHELTER-NOTICE",
+  "functions": [
+    {
+      "evidence_needed": [
+        "operative law/version",
+        "funding and operating agreement",
+        "policy packet and notice/service records"
+      ],
+      "id": "NOTICE-AND-ACCESS",
+      "outcome_threshold": "Timely accessible notice and meaningful opportunity to challenge, established by separate practice/outcome records.",
+      "question": "Which notice, reasons, accommodation and appeal protections govern this program and event?"
+    },
+    {
+      "evidence_needed": [
+        "administrator/operator identity and delegated authority",
+        "complaint receipt and decision",
+        "corrective direction and follow-up"
+      ],
+      "id": "PUBLIC-OVERSIGHT",
+      "outcome_threshold": "A dated response is followed through implementation and verified result; acknowledgment alone is insufficient.",
+      "question": "Who holds operator, administrator, funder and enforcement responsibility, and what did each do after a documented problem?"
+    },
+    {
+      "evidence_needed": [
+        "hold/readmission instruction",
+        "actual acceptance/arrival",
+        "service continuity and later verification"
+      ],
+      "id": "SERVICE-CONTINUITY",
+      "outcome_threshold": "A real place/service is verified; referrals, offered capacity and promises remain distinct.",
+      "question": "Did a hold, accommodation, readmission or transfer actually preserve access to shelter and essential services?"
+    },
+    {
+      "evidence_needed": [
+        "contract scope and funding restrictions",
+        "invoices and documented deliverables",
+        "audit findings and agency/operator response"
+      ],
+      "id": "FUNDING-INTEGRITY",
+      "outcome_threshold": "Misconduct requires specific evidence and appropriate review; cost, dissatisfaction or process failure alone do not prove fraud.",
+      "question": "Do contracts, payments, deliverables and audits support the services reported, and what do identified discrepancies mean?"
+    },
+    {
+      "evidence_needed": [
+        "deduplicated dated event records",
+        "coverage and denominator",
+        "contrary examples and post-correction checks"
+      ],
+      "id": "PATTERN-AND-REMEDY",
+      "outcome_threshold": "Individual harm, pattern, cause and remedy are separate claims; source reuse and repeated advocacy are not independent case counts.",
+      "question": "Is a repeated practice supported across distinct events and an interpretable denominator, and did a correction persist?"
+    }
+  ],
+  "legal_version": {
+    "current_official_text_verified": false,
+    "limits": "Official current code retrieval blocked; no claim that every 2026 amendment was excluded. Case-specific operative version requires review.",
+    "status": "mirror_text_with_official_historical_corroboration",
+    "version_date": "2026-01-01"
+  },
+  "name": "Shelter Safety and Accountability",
+  "next_test": "Review one public current operating agreement or its incorporated policy packet for one selected California shelter, identifying funding, operator, administrator, notice process and corrective authority before admitting a specific notice comparison.",
+  "origin": "User-requested investigation of abbreviated shelter notices and reliance on ad hoc advocacy. No named, dated notice or resident record has been admitted; no statewide prevalence or financial-misconduct finding.",
+  "principles": [
+    "Formal protection is not empirical effectiveness.",
+    "Unknown coverage or exceptions do not become a legal violation.",
+    "Program funding, oversight, operator and resident experience remain distinct sources.",
+    "One operator, event or source does not establish statewide practice or motive.",
+    "Successful protections and working alternatives deserve the same source rigor as failures.",
+    "No personal resident details, allegation dossiers or medical records are published by this baseline."
+  ],
+  "recorded_at": "2026-10-20T06:37:30+00:00",
+  "root_question": "When a shelter protection is promised, what proves it applies, operates and produces a remedy without repeated emergency advocacy?",
+  "status": "supplied_baseline_no_collectors",
+  "stop_condition": "One replayable baseline and fictional boundary rehearsals complete; future empirical admission needs a bounded reviewed record. No scheduled collection.",
+  "tree": "HOMELESSNESS",
+  "version": "shelter-wing-1",
+  "wing_id": "CA-SHELTER-ACCOUNTABILITY"
+}

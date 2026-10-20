@@ -1,0 +1,358 @@
+{
+  "cases": [
+    {
+      "case_id": "SIM-SEVEN-DAY",
+      "content": {
+        "accommodation_information": "present",
+        "grievance_information": "present",
+        "plain_language_reasons": "present"
+      },
+      "exceptions": {
+        "direct_threat": "not_asserted",
+        "exigent_paperwork": "not_asserted",
+        "self_exit": "not_asserted",
+        "short_extension": "not_asserted"
+      },
+      "fixture_note": "All facts and record IDs are invented for review-triage tests; no real program or notice.",
+      "legal_version": "2026-01-01",
+      "mode": "simulated",
+      "notice": {
+        "delivered_on": "2026-10-01",
+        "proposed_exit_on": "2026-10-08",
+        "service_basis": "assumed_for_fixture"
+      },
+      "permanent_conversion": "no",
+      "record_refs": [
+        "FICT-NOTICE-001",
+        "FICT-PROGRAM-001"
+      ],
+      "scope": {
+        "program_only_occupancy": "supported",
+        "public_funding": "supported",
+        "public_oversight": "supported"
+      }
+    },
+    {
+      "case_id": "SIM-UNKNOWN-SCOPE",
+      "content": {
+        "accommodation_information": "present",
+        "grievance_information": "present",
+        "plain_language_reasons": "present"
+      },
+      "exceptions": {
+        "direct_threat": "not_asserted",
+        "exigent_paperwork": "not_asserted",
+        "self_exit": "not_asserted",
+        "short_extension": "not_asserted"
+      },
+      "fixture_note": "All facts and record IDs are invented for review-triage tests; no real program or notice.",
+      "legal_version": "2026-01-01",
+      "mode": "simulated",
+      "notice": {
+        "delivered_on": "2026-10-01",
+        "proposed_exit_on": "2026-10-08",
+        "service_basis": "assumed_for_fixture"
+      },
+      "permanent_conversion": "no",
+      "record_refs": [
+        "FICT-NOTICE-001",
+        "FICT-PROGRAM-001"
+      ],
+      "scope": {
+        "program_only_occupancy": "supported",
+        "public_funding": "unknown",
+        "public_oversight": "supported"
+      }
+    },
+    {
+      "case_id": "SIM-EXCLUDED-SCOPE",
+      "content": {
+        "accommodation_information": "present",
+        "grievance_information": "present",
+        "plain_language_reasons": "present"
+      },
+      "exceptions": {
+        "direct_threat": "not_asserted",
+        "exigent_paperwork": "not_asserted",
+        "self_exit": "not_asserted",
+        "short_extension": "not_asserted"
+      },
+      "fixture_note": "All facts and record IDs are invented for review-triage tests; no real program or notice.",
+      "legal_version": "2026-01-01",
+      "mode": "simulated",
+      "notice": {
+        "delivered_on": "2026-10-01",
+        "proposed_exit_on": "2026-10-08",
+        "service_basis": "assumed_for_fixture"
+      },
+      "permanent_conversion": "no",
+      "record_refs": [
+        "FICT-NOTICE-001",
+        "FICT-PROGRAM-001"
+      ],
+      "scope": {
+        "program_only_occupancy": "supported",
+        "public_funding": "supported",
+        "public_oversight": "excluded"
+      }
+    },
+    {
+      "case_id": "SIM-THIRTY-DAY",
+      "content": {
+        "accommodation_information": "present",
+        "grievance_information": "present",
+        "plain_language_reasons": "present"
+      },
+      "exceptions": {
+        "direct_threat": "not_asserted",
+        "exigent_paperwork": "not_asserted",
+        "self_exit": "not_asserted",
+        "short_extension": "not_asserted"
+      },
+      "fixture_note": "All facts and record IDs are invented for review-triage tests; no real program or notice.",
+      "legal_version": "2026-01-01",
+      "mode": "simulated",
+      "notice": {
+        "delivered_on": "2026-10-01",
+        "proposed_exit_on": "2026-10-31",
+        "service_basis": "assumed_for_fixture"
+      },
+      "permanent_conversion": "no",
+      "record_refs": [
+        "FICT-NOTICE-001",
+        "FICT-PROGRAM-001"
+      ],
+      "scope": {
+        "program_only_occupancy": "supported",
+        "public_funding": "supported",
+        "public_oversight": "supported"
+      }
+    },
+    {
+      "case_id": "SIM-CLAIMED-THREAT",
+      "content": {
+        "accommodation_information": "present",
+        "grievance_information": "present",
+        "plain_language_reasons": "present"
+      },
+      "exceptions": {
+        "direct_threat": "asserted",
+        "exigent_paperwork": "not_asserted",
+        "self_exit": "not_asserted",
+        "short_extension": "not_asserted"
+      },
+      "fixture_note": "All facts and record IDs are invented for review-triage tests; no real program or notice.",
+      "legal_version": "2026-01-01",
+      "mode": "simulated",
+      "notice": {
+        "delivered_on": "2026-10-01",
+        "proposed_exit_on": "2026-10-08",
+        "service_basis": "assumed_for_fixture"
+      },
+      "permanent_conversion": "no",
+      "record_refs": [
+        "FICT-NOTICE-001",
+        "FICT-PROGRAM-001"
+      ],
+      "scope": {
+        "program_only_occupancy": "supported",
+        "public_funding": "supported",
+        "public_oversight": "supported"
+      }
+    },
+    {
+      "case_id": "SIM-UNKNOWN-EXCEPTION",
+      "content": {
+        "accommodation_information": "present",
+        "grievance_information": "present",
+        "plain_language_reasons": "present"
+      },
+      "exceptions": {
+        "direct_threat": "not_asserted",
+        "exigent_paperwork": "not_asserted",
+        "self_exit": "unknown",
+        "short_extension": "not_asserted"
+      },
+      "fixture_note": "All facts and record IDs are invented for review-triage tests; no real program or notice.",
+      "legal_version": "2026-01-01",
+      "mode": "simulated",
+      "notice": {
+        "delivered_on": "2026-10-01",
+        "proposed_exit_on": "2026-10-08",
+        "service_basis": "assumed_for_fixture"
+      },
+      "permanent_conversion": "no",
+      "record_refs": [
+        "FICT-NOTICE-001",
+        "FICT-PROGRAM-001"
+      ],
+      "scope": {
+        "program_only_occupancy": "supported",
+        "public_funding": "supported",
+        "public_oversight": "supported"
+      }
+    },
+    {
+      "case_id": "SIM-SHORT-EXTENSION",
+      "content": {
+        "accommodation_information": "present",
+        "grievance_information": "present",
+        "plain_language_reasons": "present"
+      },
+      "exceptions": {
+        "direct_threat": "not_asserted",
+        "exigent_paperwork": "not_asserted",
+        "self_exit": "not_asserted",
+        "short_extension": "asserted"
+      },
+      "fixture_note": "All facts and record IDs are invented for review-triage tests; no real program or notice.",
+      "legal_version": "2026-01-01",
+      "mode": "simulated",
+      "notice": {
+        "delivered_on": "2026-10-01",
+        "proposed_exit_on": "2026-10-08",
+        "service_basis": "assumed_for_fixture"
+      },
+      "permanent_conversion": "no",
+      "record_refs": [
+        "FICT-NOTICE-001",
+        "FICT-PROGRAM-001"
+      ],
+      "scope": {
+        "program_only_occupancy": "supported",
+        "public_funding": "supported",
+        "public_oversight": "supported"
+      }
+    },
+    {
+      "case_id": "SIM-MISSING-DATE",
+      "content": {
+        "accommodation_information": "present",
+        "grievance_information": "present",
+        "plain_language_reasons": "present"
+      },
+      "exceptions": {
+        "direct_threat": "not_asserted",
+        "exigent_paperwork": "not_asserted",
+        "self_exit": "not_asserted",
+        "short_extension": "not_asserted"
+      },
+      "fixture_note": "All facts and record IDs are invented for review-triage tests; no real program or notice.",
+      "legal_version": "2026-01-01",
+      "mode": "simulated",
+      "notice": {
+        "delivered_on": null,
+        "proposed_exit_on": "2026-10-08",
+        "service_basis": "assumed_for_fixture"
+      },
+      "permanent_conversion": "no",
+      "record_refs": [
+        "FICT-NOTICE-001",
+        "FICT-PROGRAM-001"
+      ],
+      "scope": {
+        "program_only_occupancy": "supported",
+        "public_funding": "supported",
+        "public_oversight": "supported"
+      }
+    },
+    {
+      "case_id": "SIM-CONVERSION",
+      "content": {
+        "accommodation_information": "present",
+        "grievance_information": "present",
+        "plain_language_reasons": "present"
+      },
+      "exceptions": {
+        "direct_threat": "not_asserted",
+        "exigent_paperwork": "not_asserted",
+        "self_exit": "not_asserted",
+        "short_extension": "not_asserted"
+      },
+      "fixture_note": "All facts and record IDs are invented for review-triage tests; no real program or notice.",
+      "legal_version": "2026-01-01",
+      "mode": "simulated",
+      "notice": {
+        "delivered_on": "2026-10-01",
+        "proposed_exit_on": "2026-10-08",
+        "service_basis": "assumed_for_fixture"
+      },
+      "permanent_conversion": "yes",
+      "record_refs": [
+        "FICT-NOTICE-001",
+        "FICT-PROGRAM-001"
+      ],
+      "scope": {
+        "program_only_occupancy": "supported",
+        "public_funding": "supported",
+        "public_oversight": "supported"
+      }
+    },
+    {
+      "case_id": "SIM-MISSING-CONTENT",
+      "content": {
+        "accommodation_information": "present",
+        "grievance_information": "absent",
+        "plain_language_reasons": "present"
+      },
+      "exceptions": {
+        "direct_threat": "not_asserted",
+        "exigent_paperwork": "not_asserted",
+        "self_exit": "not_asserted",
+        "short_extension": "not_asserted"
+      },
+      "fixture_note": "All facts and record IDs are invented for review-triage tests; no real program or notice.",
+      "legal_version": "2026-01-01",
+      "mode": "simulated",
+      "notice": {
+        "delivered_on": "2026-10-01",
+        "proposed_exit_on": "2026-10-08",
+        "service_basis": "assumed_for_fixture"
+      },
+      "permanent_conversion": "no",
+      "record_refs": [
+        "FICT-NOTICE-001",
+        "FICT-PROGRAM-001"
+      ],
+      "scope": {
+        "program_only_occupancy": "supported",
+        "public_funding": "supported",
+        "public_oversight": "supported"
+      }
+    },
+    {
+      "case_id": "SIM-UNKNOWN-VERSION",
+      "content": {
+        "accommodation_information": "present",
+        "grievance_information": "present",
+        "plain_language_reasons": "present"
+      },
+      "exceptions": {
+        "direct_threat": "not_asserted",
+        "exigent_paperwork": "not_asserted",
+        "self_exit": "not_asserted",
+        "short_extension": "not_asserted"
+      },
+      "fixture_note": "All facts and record IDs are invented for review-triage tests; no real program or notice.",
+      "legal_version": "unknown",
+      "mode": "simulated",
+      "notice": {
+        "delivered_on": "2026-10-01",
+        "proposed_exit_on": "2026-10-08",
+        "service_basis": "assumed_for_fixture"
+      },
+      "permanent_conversion": "no",
+      "record_refs": [
+        "FICT-NOTICE-001",
+        "FICT-PROGRAM-001"
+      ],
+      "scope": {
+        "program_only_occupancy": "supported",
+        "public_funding": "supported",
+        "public_oversight": "supported"
+      }
+    }
+  ],
+  "mode": "simulated",
+  "version": "shelter-rehearsals-1"
+}

@@ -1,0 +1,131 @@
+{
+  "sources": [
+    {
+      "access_level": "Search-tool extracted text; complete returned tool response retained, not raw HTTP/PDF bytes.",
+      "effective_date_as_reported": "2025-01-01",
+      "limitations": "Statutory mirror; last original-source access shown May 12, 2025. Current official section open was blocked. Defines public funding, oversight, operator, administrator and program-only occupancy. No exhaustive verification of every 2026 amendment.",
+      "locator": "1954.08(c)–(g)",
+      "materials": [
+        {
+          "body": "../../digestion/threshold/research/2026-10-20-ca-shelters/tool-captures/law-search-and-mirrors.json",
+          "kind": "public_search_tool_response",
+          "sha256": "f1fde61f74e54dcdcb7665dddf92c9534f73858dec93b6948d9e3b004b20b16a"
+        }
+      ],
+      "original_source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1954.08.",
+      "publication_date": null,
+      "publisher": "Legal text reproduced by the named mirror",
+      "retrieved_date_utc": "2026-10-20",
+      "source_family": "CA-CIV-CH24",
+      "source_id": "SC01",
+      "title": "California Civil Code 1954.08 definitions",
+      "url": "https://california.public.law/codes/civil_code_section_1954.08"
+    },
+    {
+      "access_level": "Search-tool extracted text; complete returned tool response retained, not raw HTTP/PDF bytes.",
+      "effective_date_as_reported": "2026-01-01",
+      "limitations": "Statutory mirror; last original-source access shown December 1, 2025. Conditional non-tenancy framework; source is not proof any operator complied or violated. No exhaustive verification of every 2026 amendment.",
+      "locator": "1954.09(a)–(c)",
+      "materials": [
+        {
+          "body": "../../digestion/threshold/research/2026-10-20-ca-shelters/tool-captures/law-search-and-mirrors.json",
+          "kind": "public_search_tool_response",
+          "sha256": "f1fde61f74e54dcdcb7665dddf92c9534f73858dec93b6948d9e3b004b20b16a"
+        }
+      ],
+      "original_source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1954.09.",
+      "publication_date": null,
+      "publisher": "Legal text reproduced by the named mirror",
+      "retrieved_date_utc": "2026-10-20",
+      "source_family": "CA-CIV-CH24",
+      "source_id": "SC02",
+      "title": "California Civil Code 1954.09 notice and process",
+      "url": "https://california.public.law/codes/civil_code_section_1954.09"
+    },
+    {
+      "access_level": "Search-tool extracted text; complete returned tool response retained, not raw HTTP/PDF bytes.",
+      "effective_date_as_reported": null,
+      "limitations": "Mirror of statutory rights-preservation and complying-program protections. Does not independently determine tenancy or automatic consequences of noncompliance. No exhaustive verification of every 2026 amendment.",
+      "locator": "1954.091(b)(1)–(2)",
+      "materials": [
+        {
+          "body": "../../digestion/threshold/research/2026-10-20-ca-shelters/tool-captures/statute-regulation-and-guidance.json",
+          "kind": "public_search_tool_response",
+          "sha256": "1d293928689707644c38212dc8398fae462a5fbcc654d4e36015bf32514165dd"
+        }
+      ],
+      "original_source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1954.091",
+      "publication_date": null,
+      "publisher": "Legal text reproduced by the named mirror",
+      "retrieved_date_utc": "2026-10-20",
+      "source_family": "CA-CIV-CH24",
+      "source_id": "SC03",
+      "title": "California Civil Code 1954.091 preserved rights",
+      "url": "https://california.public.law/codes/civil_code_section_1954.091"
+    },
+    {
+      "access_level": "Search-tool extracted text; complete returned tool response retained, not raw HTTP/PDF bytes.",
+      "effective_date_as_reported": null,
+      "limitations": "Regulation mirror; official indexed regulation full open was blocked in independent review. Individualized recent objective evidence and possible reasonable accommodation matter. Not an incident-specific determination. No exhaustive verification of every 2026 amendment.",
+      "locator": "12179(b)(3)(A)–(B)",
+      "materials": [
+        {
+          "body": "../../digestion/threshold/research/2026-10-20-ca-shelters/tool-captures/statute-regulation-and-guidance.json",
+          "kind": "public_search_tool_response",
+          "sha256": "1d293928689707644c38212dc8398fae462a5fbcc654d4e36015bf32514165dd"
+        }
+      ],
+      "original_source_url": "https://govt.westlaw.com/calregs/Document/I021D30308DAD11EEADDFB7B9BCA4F421?contextData=%28sc.Default%29",
+      "publication_date": null,
+      "publisher": "Legal text reproduced by the named mirror",
+      "retrieved_date_utc": "2026-10-20",
+      "source_family": "CA-CCR-12179",
+      "source_id": "SC04",
+      "title": "2 CCR 12179 direct-threat definition",
+      "url": "https://www.law.cornell.edu/regulations/california/2-CCR-12179"
+    },
+    {
+      "access_level": "Search-tool extracted text; complete returned tool response retained, not raw HTTP/PDF bytes.",
+      "effective_date_as_reported": "2026-01-01",
+      "limitations": "Second mirror of the same law, not independent empirical corroboration. Amendment note identifies Stats. 2025, ch. 67, sec. 30 (AB 1170), effective January 1, 2026; not the origin of 30-day protections. No exhaustive verification of every 2026 amendment.",
+      "locator": "1954.09; amendment note",
+      "materials": [
+        {
+          "body": "../../digestion/threshold/research/2026-10-20-ca-shelters/tool-captures/statute-regulation-and-guidance.json",
+          "kind": "public_search_tool_response",
+          "sha256": "1d293928689707644c38212dc8398fae462a5fbcc654d4e36015bf32514165dd"
+        }
+      ],
+      "original_source_url": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB 1170",
+      "publication_date": null,
+      "publisher": "Legal text reproduced by the named mirror",
+      "retrieved_date_utc": "2026-10-20",
+      "source_family": "CA-CIV-CH24",
+      "source_id": "SC05",
+      "title": "1954.09 amendment note and second rendition",
+      "url": "https://law.justia.com/codes/california/code-civ/division-3/part-4/title-5/chapter-2-4/section-1954-09/"
+    },
+    {
+      "access_level": "Search-tool extracted text; complete returned tool response retained, not raw HTTP/PDF bytes.",
+      "effective_date_as_reported": null,
+      "limitations": "Official legislative analysis of the June 3 version, not final enacted text. Corroborates preexisting 30-day protection and broad program definitions; proposed exceptions must be checked against enacted text. No exhaustive verification of every 2026 amendment.",
+      "locator": "June11,2024 hearing analysis, pp. 2–4",
+      "materials": [
+        {
+          "body": "../../digestion/threshold/research/2026-10-20-ca-shelters/tool-captures/official-history.json",
+          "kind": "public_search_tool_response",
+          "sha256": "6c10b53cf51fac6bb69b53c9359db693ad8d936bf17737dae3e7facb1c746e85"
+        }
+      ],
+      "original_source_url": null,
+      "publication_date": "2024-06-11",
+      "publisher": "California Legislature (official analysis)",
+      "retrieved_date_utc": "2026-10-20",
+      "source_family": "CA-CIV-CH24",
+      "source_id": "SC06",
+      "title": "Senate Judiciary AB 2835 analysis",
+      "url": "https://sjud.senate.ca.gov/system/files/2024-06/ab-2835-gabriel-sjud-analysis.pdf"
+    }
+  ],
+  "version": "shelter-source-catalog-1"
+}

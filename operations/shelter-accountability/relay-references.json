@@ -1,0 +1,46 @@
+{
+  "base": {
+    "path": "operations/shelter-accountability/safeguard-references.json",
+    "sha256": "43f66d1c90d9080924c07de86fc17e3183969cf81917bd129bdfc8bd57dda78d"
+  },
+  "documents": {
+    "D-SC01": {
+      "kind": "artifact",
+      "parent_source_ref": "S-SC01",
+      "path": "reports/shelter-accountability/../../digestion/threshold/research/2026-10-20-ca-shelters/tool-captures/law-search-and-mirrors.json",
+      "sha256": "f1fde61f74e54dcdcb7665dddf92c9534f73858dec93b6948d9e3b004b20b16a"
+    },
+    "D-SC02": {
+      "kind": "artifact",
+      "parent_source_ref": "S-SC02",
+      "path": "reports/shelter-accountability/../../digestion/threshold/research/2026-10-20-ca-shelters/tool-captures/law-search-and-mirrors.json",
+      "sha256": "f1fde61f74e54dcdcb7665dddf92c9534f73858dec93b6948d9e3b004b20b16a"
+    },
+    "D-SC03": {
+      "kind": "artifact",
+      "parent_source_ref": "S-SC03",
+      "path": "reports/shelter-accountability/../../digestion/threshold/research/2026-10-20-ca-shelters/tool-captures/statute-regulation-and-guidance.json",
+      "sha256": "1d293928689707644c38212dc8398fae462a5fbcc654d4e36015bf32514165dd"
+    },
+    "D-SC04": {
+      "kind": "artifact",
+      "parent_source_ref": "S-SC04",
+      "path": "reports/shelter-accountability/../../digestion/threshold/research/2026-10-20-ca-shelters/tool-captures/statute-regulation-and-guidance.json",
+      "sha256": "1d293928689707644c38212dc8398fae462a5fbcc654d4e36015bf32514165dd"
+    },
+    "D-SC05": {
+      "kind": "artifact",
+      "parent_source_ref": "S-SC05",
+      "path": "reports/shelter-accountability/../../digestion/threshold/research/2026-10-20-ca-shelters/tool-captures/statute-regulation-and-guidance.json",
+      "sha256": "1d293928689707644c38212dc8398fae462a5fbcc654d4e36015bf32514165dd"
+    },
+    "D-SC06": {
+      "kind": "artifact",
+      "parent_source_ref": "S-SC06",
+      "path": "reports/shelter-accountability/../../digestion/threshold/research/2026-10-20-ca-shelters/tool-captures/official-history.json",
+      "sha256": "6c10b53cf51fac6bb69b53c9359db693ad8d936bf17737dae3e7facb1c746e85"
+    }
+  },
+  "references": {},
+  "version": "relay-references-1"
+}
