@@ -1,0 +1,37 @@
+{
+  "cycle_id": "RC-008",
+  "agent": "campus_source_review",
+  "status": "changes_requested",
+  "review_date_utc": "2026-10-22",
+  "evidence_cutoff": "2026-10-21",
+  "scope": "Final assembled claim/lineage review, independent from assembly; no new research or legal adjudication.",
+  "findings": [
+    {
+      "id": "CM-REVIEW-1",
+      "severity": "correction_required",
+      "claim": "Item07 p.5 promises signed copies will be on file; it does not establish their actual custody/current availability. Correct generated/report/catalog/handoff/next-test wording."
+    },
+    {
+      "id": "CM-REVIEW-2",
+      "severity": "correction_required",
+      "claim": "CM-FUNDING's rounded agenda ceiling needs the S-CM03 PDF p.4 item7 citation, not only S-CM01, in both journals."
+    }
+  ],
+  "confirmed": [
+    "Current executed agreement unverified; no current seven-day rule, individual unlawfulness, fraud, closure or remedy finding.",
+    "Both relays retain unknown resident origin/dispatch/receipt/action/outcome/verification and no deadline computation.",
+    "Inherited statutory baseline/version/access limits remain separate; CM01-03 share transaction lineage; CM04 retains underlying March28 date; CM05 stays index-only.",
+    "No private resident facts found in reviewed authored files."
+  ],
+  "reviewed_sha256": {
+    "reports/shelter-accountability/campus-motel/generated/CAMPUS.md": "85f5d4f1d651ae1f820cdaaf5a7b713583dfde216866c5c9281ff151704d7bcd",
+    "reports/shelter-accountability/campus-motel/sources.json": "610f3baf5f29ba3f8bff5ef92d35d5bb47b33b2f220621cbf08d27587c1c8bb0",
+    "reports/shelter-accountability/campus-motel/events.json": "9332258841bace4a5a451ad1b474ac76cf720e6f7b52613907d332000d01a687",
+    "reports/shelter-accountability/campus-motel/CHAT_HANDOFF.md": "25ba513b29b6c0420e2f8c024f8526adcd6b7e844acd7301caf0868aabebf14e",
+    "reports/shelter-accountability/campus-motel/DIGEST_HANDOFF.md": "f6b3de02667fb2a1786923a9ea882c6e7c76f3a1e42164c71ebcfb512294b275",
+    "operations/shelter-accountability/campus-motel/safeguard-journal.json": "b145cd518bcfbb5aab61fed50e54d2f857c7f3feab704a9949471a7e5f3de479",
+    "operations/shelter-accountability/campus-motel/relay-journal.json": "448980ab09f8edd1fb27dbe5c1b6f44c6b9eb1910468f649ccc71b6fde07e878",
+    "operations/shelter-accountability/campus-motel/case.json": "37914cc7e1f341c52e2a380187abbfd118284c16fff09f3b272fbb0d27cee0a2"
+  },
+  "next": "Coordinator corrections followed by targeted recheck; no case inputs or captures altered by reviewer."
+}

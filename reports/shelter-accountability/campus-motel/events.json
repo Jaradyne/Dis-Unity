@@ -1,0 +1,53 @@
+{
+  "events": [
+    {
+      "claim": "Council adopted Resolution 70,940, Ordinance 7,881 and Resolution 70,941 for the grant, property lease and operator-contract authority.",
+      "discovery": "Late discovery of older material, not a new shelter incident.",
+      "event_date": "2023-07-11",
+      "event_id": "CAMPUS-AUTHORIZATION-2023",
+      "limits": "Records adoption of grant, lease and operator-contract authority, not execution, payment, service delivery or legal compliance.",
+      "publication_date": "2023-07-11",
+      "retrieved_date_utc": "2026-10-21",
+      "source_id": "CM03",
+      "source_lineage": "BERKELEY-CAMPUS-20230711",
+      "status": "documented_authorization"
+    },
+    {
+      "claim": "Posted proposed occupancy terms allocate control and risk; signatures and dates blank.",
+      "discovery": "Late discovery of older material, not a new shelter incident.",
+      "event_date": "2023-07-11",
+      "event_id": "CAMPUS-PROPOSED-LEASE-2023",
+      "limits": "Historical public packet, discovered in this pass; not verified as the executed or currently operative agreement. No resident practice or outcome follows. Blank signatures/dates visually checked from original PDF. Section 1 says Berkeley Inn despite the Campus/Super 8 address/owner: unresolved document anomaly, not silently corrected.",
+      "publication_date": "2023-07-11",
+      "retrieved_date_utc": "2026-10-21",
+      "source_id": "CM02",
+      "source_lineage": "BERKELEY-CAMPUS-20230711",
+      "status": "historical_proposed_text"
+    },
+    {
+      "claim": "City report identifies Insight Housing, 23 rooms and ERF2/Measure P funding path.",
+      "discovery": "Late discovery of older material, not a new shelter incident.",
+      "event_date": "2025-03-28",
+      "event_id": "CAMPUS-PROGRAM-REPORT-2025",
+      "limits": "Wrapper is dated December 2, 2025; underlying observation is March 28, 2025. City-reported program identity/capacity/funding, not independent inspection or current occupied/available beds.",
+      "publication_date": "2025-03-28",
+      "retrieved_date_utc": "2026-10-21",
+      "source_id": "CM04",
+      "source_lineage": "BERKELEY-MEASURE-P-20250328",
+      "status": "agency_report"
+    },
+    {
+      "claim": "Index raises a currentness question; underlying budget and actual closure not verified.",
+      "discovery": "Late discovery of older material, not a new shelter incident.",
+      "event_date": "2026-06-23",
+      "event_id": "CAMPUS-BUDGET-LEAD-2026",
+      "limits": "Index mentions discontinuing Campus in FY2027. Full open failed because 15,948,849-byte file exceeds search-tool limit. No adopted final decision, actual closure, participant notice or replacement outcome verified.",
+      "publication_date": "2026-06-23",
+      "retrieved_date_utc": "2026-10-21",
+      "source_id": "CM05",
+      "source_lineage": "BERKELEY-BUDGET-20260623",
+      "status": "unverified_discovery_lead"
+    }
+  ],
+  "version": "campus-event-catalog-1"
+}

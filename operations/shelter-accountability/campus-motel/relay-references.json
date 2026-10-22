@@ -1,0 +1,9 @@
+{
+  "base": {
+    "path": "operations/shelter-accountability/campus-motel/safeguard-references.json",
+    "sha256": "08fcf251a1e771d96e96262c0004571cd83fbc090ee00d54b37d4753dfd1ab57"
+  },
+  "documents": {},
+  "references": {},
+  "version": "relay-references-1"
+}

@@ -1,0 +1,69 @@
+{
+  "agent": "campus_replay_review",
+  "at": "2026-10-22T09:20:53.143881+00:00",
+  "base_hash": "16d04f8bb35a588caca60517f90a11944cfbafac7951402d059a6d6131de97b7",
+  "cycle_id": "RC-008",
+  "payload": {
+    "agent": "campus_replay_review",
+    "base_commit": "43825f0e99e35bd59e10aa33208fef18e7d4706b",
+    "blocking_findings": [],
+    "changed_reviewed_files": [
+      "scripts/campus_motel.py",
+      "operations/shelter-accountability/campus-motel/inputs.json",
+      "operations/shelter-accountability/campus-motel/relay-journal.json",
+      "operations/shelter-accountability/campus-motel/relay-references.json",
+      "operations/shelter-accountability/campus-motel/safeguard-journal.json",
+      "operations/shelter-accountability/campus-motel/safeguard-references.json",
+      "reports/shelter-accountability/campus-motel/sources.json",
+      "reports/shelter-accountability/campus-motel/generated/CAMPUS.md",
+      "reports/shelter-accountability/campus-motel/generated/GARDEN.json",
+      "reports/shelter-accountability/campus-motel/generated/STATE.json"
+    ],
+    "checks": [
+      "python scripts/campus_motel.py check passed: three exact outputs",
+      "README explicitly requires reviewed projection update when conclusions change",
+      "Clerk filing expectation no longer asserts verified custody or current availability",
+      "CM-FUNDING cites S-CM01 and S-CM03 in safeguard and both relay records",
+      "Original receipt, case metadata, historical events and targeted test file unchanged from initial review"
+    ],
+    "cycle_id": "RC-008",
+    "limitations": [
+      "Hashes and types do not authenticate source truth or legal applicability.",
+      "Full coordinator suite was not rerun by this reviewer.",
+      "Post-correction targeted tests are coordinator-reported, not rerun by this reviewer."
+    ],
+    "prior_checkpoint": "cycles/RC-008/inbox/campus_replay_review-final.json",
+    "prior_checkpoint_sha256": "ffee8720f9eb5d32c5e88f6bb44db478a694032da97fcdc9b040085a541064ea",
+    "recorded_at": "2026-10-22T09:19:55.917715+00:00",
+    "report": "reports/shelter-accountability/campus-motel/IMPLEMENTATION_REVIEW.md",
+    "report_sha256": "e3330560a3c993b435f39e08009a6e9a9d22165ae0ce0effbff377599556f51a",
+    "reviewed_sha256": {
+      "digestion/threshold/research/2026-10-21-campus-motel/http/lease-response.json": "fd269bb32dc394c170472815c3ce0d0afa2cacee8a57a1a1ce1e2ddb4cf1dfb8",
+      "operations/shelter-accountability/campus-motel/case.json": "37914cc7e1f341c52e2a380187abbfd118284c16fff09f3b272fbb0d27cee0a2",
+      "operations/shelter-accountability/campus-motel/inputs.json": "66881c6589d898d3ce8107ecd8a239a72fb488d488e6f791730b20f2b606abc2",
+      "operations/shelter-accountability/campus-motel/relay-journal.json": "a302c98858a30090aa033e265c08b64cee9b20d8ed053b51e12cd6e3edefecc6",
+      "operations/shelter-accountability/campus-motel/relay-references.json": "308c6bf5ef7107c192f2a1ecb25b660f199432a742cfba4327ea91b4c0cab1e1",
+      "operations/shelter-accountability/campus-motel/safeguard-journal.json": "d9241aa83c0afd12bee05c69b32002e160ef3698364954a3c02e9ca75953bb66",
+      "operations/shelter-accountability/campus-motel/safeguard-references.json": "08fcf251a1e771d96e96262c0004571cd83fbc090ee00d54b37d4753dfd1ab57",
+      "reports/shelter-accountability/campus-motel/README.md": "d9db76947c37ec8c821d1a365f60937cfcbb7dda0aa9a9407ac77c6419ae7452",
+      "reports/shelter-accountability/campus-motel/events.json": "9332258841bace4a5a451ad1b474ac76cf720e6f7b52613907d332000d01a687",
+      "reports/shelter-accountability/campus-motel/generated/CAMPUS.md": "be11cf54573f253b9b7ae2f2ca111fe63ef03f462b6f375420daf3f0a9472ac3",
+      "reports/shelter-accountability/campus-motel/generated/GARDEN.json": "906cf03492d81567b11bc635daf7d01393c5aec0eb411658b4b151e7dcbdc82a",
+      "reports/shelter-accountability/campus-motel/generated/STATE.json": "10f31f027c2dfd38b7985bb855de34c03bca80b4078e2f99e490bd5166773805",
+      "reports/shelter-accountability/campus-motel/sources.json": "ff684455d7158a63aef3265dd19ad2db98c6b754665a6508e9b4a78cbd699eeb",
+      "scripts/campus_motel.py": "7d0d2dbfbcfa6eb270303a7cb492f7c5c164effc2d09ed15e98b9f1fc7051ac2",
+      "tests/test_campus_motel.py": "08db29fcaaef496c6d7055353a9187d82b6432d7029969620e0df79fd6fd0596"
+    },
+    "scope": "Narrow post-correction exact replay, README/renderer wording, CM-FUNDING citation mapping and reviewed-file hash comparison; no new research or test-suite rerun.",
+    "status": "completed_scoped_pass_post_correction",
+    "unchanged_reviewed_files": [
+      "tests/test_campus_motel.py",
+      "operations/shelter-accountability/campus-motel/case.json",
+      "reports/shelter-accountability/campus-motel/events.json",
+      "digestion/threshold/research/2026-10-21-campus-motel/http/lease-response.json"
+    ]
+  },
+  "payload_hash": "4a44ee99393ef1b7d17a91e5098bcf22f2a4b19093b294ca92c96bf3f3d214f3",
+  "phase": "submitted",
+  "submission_id": "622c242c76592ee7e773fcfdd1ea90b73128f3d63722981b3c5f2ed1bdc17e50"
+}

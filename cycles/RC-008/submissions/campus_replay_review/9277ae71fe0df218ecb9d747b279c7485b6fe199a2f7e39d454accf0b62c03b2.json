@@ -1,0 +1,19 @@
+{
+  "agent": "campus_replay_review",
+  "at": "2026-10-22T09:19:38.821524+00:00",
+  "base_hash": "16d04f8bb35a588caca60517f90a11944cfbafac7951402d059a6d6131de97b7",
+  "cycle_id": "RC-008",
+  "payload": {
+    "agent": "campus_replay_review",
+    "base_commit": "43825f0e99e35bd59e10aa33208fef18e7d4706b",
+    "cycle_id": "RC-008",
+    "findings": [],
+    "next": "Inspect replay joins, pins, shared evidence validation and saved outputs; run targeted checks.",
+    "recorded_at": "2026-10-22T03:00:45.834280+00:00",
+    "scope": "Independent implementation review of one Campus Motel public packet; no source research or canonical edits.",
+    "status": "checkpoint"
+  },
+  "payload_hash": "33cf62b07d70d6747eddfa7fcb1ce9bebb72026811f539462f6ac2425aa9d73e",
+  "phase": "checkpoint",
+  "submission_id": "9277ae71fe0df218ecb9d747b279c7485b6fe199a2f7e39d454accf0b62c03b2"
+}

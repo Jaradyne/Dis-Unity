@@ -1,0 +1,15 @@
+{
+  "at": "2026-10-22T09:19:38.567350+00:00",
+  "cycle_id": "RC-008",
+  "event_id": "c94a11f21e8d2ad0f3498308",
+  "event_type": "agent_submission",
+  "hash": "b64acf8b037c0ae3dbaf62b35f3661441d26c54ded85b26b7bdaa8858b0aaeac",
+  "payload": {
+    "agent": "campus_source_review",
+    "payload_hash": "a8456533b23177a58da23f37c71904a93eac1276eed243191134b0e7b6e9c0c6",
+    "phase": "checkpoint",
+    "submission_id": "4c1c7c6bfd07b39013f9bac32b9292d14f7e843b1a48a235b171206415fe14ab"
+  },
+  "previous_hash": "ac3defb28b83cd0f9ab50c274c0414bfaae1647a360ef0ac4bc5a094a0bbe25c",
+  "sequence": 3
+}

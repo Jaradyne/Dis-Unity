@@ -1,0 +1,19 @@
+{
+  "at": "2026-10-21T08:53:15.963479+00:00",
+  "cycle_id": "RC-008",
+  "event_id": "a1553a04491674b8998fe862",
+  "event_type": "cycle_begun",
+  "hash": "8ad19368897c47fbca9adaf798299de55f4023248119c6f6ce2577677a805a58",
+  "payload": {
+    "base_hash": "16d04f8bb35a588caca60517f90a11944cfbafac7951402d059a6d6131de97b7",
+    "baseline_bytes_sha256": "16d04f8bb35a588caca60517f90a11944cfbafac7951402d059a6d6131de97b7",
+    "canonical_filename": "Resilience_Cascade_STATE.json",
+    "created_at": "2026-10-21T08:53:15.956478+00:00",
+    "cycle_id": "RC-008",
+    "format_version": 1,
+    "mode": "Local active-session records; no agents, network or schedule launched",
+    "research_cutoff": "2026-10-21"
+  },
+  "previous_hash": null,
+  "sequence": 1
+}

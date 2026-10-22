@@ -1,0 +1,27 @@
+{
+  "agent": "coordinator",
+  "at": "2026-10-21T08:53:36.738678+00:00",
+  "base_hash": "16d04f8bb35a588caca60517f90a11944cfbafac7951402d059a6d6131de97b7",
+  "cycle_id": "RC-008",
+  "payload": {
+    "agent": "coordinator",
+    "base_commit": "43825f0e99e35bd59e10aa33208fef18e7d4706b",
+    "constraints": [
+      "Public program records only; no private resident facts.",
+      "One bounded packet; no canonical admission, new Bees, provider calls, schedules, Governor changes or outbound contact."
+    ],
+    "cycle_id": "RC-008",
+    "evidence_cutoff": "2026-10-21",
+    "findings": [
+      "Task selected; no operative agreement or practice outcome yet verified."
+    ],
+    "next": "Locate executed agreement and amendments; distinguish authorized expenditure, executed duty and observed protection.",
+    "parent_question": "Q-CA-SHELTER-NOTICE",
+    "question_id": "Q-CAMPUS-AGREEMENT",
+    "scope": "One public Campus Motel Berkeley operating agreement or incorporated policy packet; classify responsibility, funding, notice/grievance and corrective authority.",
+    "status": "checkpoint"
+  },
+  "payload_hash": "7e00dde5f196cf70c7200105842b779cab925eba18f655b0090c872091086592",
+  "phase": "checkpoint",
+  "submission_id": "42e6c35932a2cf2dac435f177355ddecf7e4ab4e6c0ae13f8589c8cee84a5de2"
+}

@@ -1,0 +1,11 @@
+{
+  "cycle_id": "RC-008",
+  "agent": "campus_source_review",
+  "status": "checkpoint",
+  "scope": "Independent bounded source and inference challenge of the Campus Motel July 2023 authorization and occupancy packet, with current executed-contract and policy limits explicit.",
+  "evidence_cutoff": "2026-10-21",
+  "base_commit": "43825f0e99e35bd59e10aa33208fef18e7d4706b",
+  "findings": [],
+  "constraints": ["Public records only; no resident case lookup.", "No canonical admission, outbound contact, new Bee, provider, schedule or Governor change.", "Coordinator alone edits main case and shared cycle journal."],
+  "next": "Reopen the three supplied City primary records, distinguish proposal/adoption/execution/currentness and contract layers, and report any unsupported inference."
+}

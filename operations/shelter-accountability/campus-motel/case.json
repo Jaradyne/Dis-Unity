@@ -1,0 +1,15 @@
+{
+  "case_id": "CAMPUS-MOTEL-PACKET",
+  "current_executed_agreement": "not_verified",
+  "evidence_cutoff": "2026-10-21",
+  "parent_question_id": "Q-CA-SHELTER-NOTICE",
+  "question_epoch": 1,
+  "question_id": "Q-CAMPUS-AGREEMENT",
+  "record_class": "historical_public_packet_incomplete",
+  "recorded_at": "2026-10-21T09:04:02.612865+00:00",
+  "safeguard_id": "SG-CAMPUS-NOTICE",
+  "scope": "Campus Motel at 1619 University Avenue, Berkeley: classify one historical public contract/lease packet and retained legal baseline; no resident incident or current legal adjudication.",
+  "stop_condition": "One packet classified; rest. No canonical admission, resident evidence, provider calls, Bee activation, schedule, Governor change or outbound contact.",
+  "tree": "HOMELESSNESS",
+  "version": "campus-case-1"
+}
