@@ -1,0 +1,1256 @@
+{
+  "input_pins": {
+    "sha256": {
+      "config/garden-traversal.json": "cabe4d51ecca052abfcb386dc1e3f8b97cc440a23d6a15bf955b40b8719f8e18",
+      "digestion/threshold/research/2026-10-21-campus-motel/http/lease-response.json": "fd269bb32dc394c170472815c3ce0d0afa2cacee8a57a1a1ce1e2ddb4cf1dfb8",
+      "digestion/threshold/research/2026-10-21-campus-motel/tool-captures/budget-access.json": "baf031e2e9bd007bd3153ddd1b598beedabcf1b9242b46236ef690346ec47b0e",
+      "digestion/threshold/research/2026-10-21-campus-motel/tool-captures/campus-close-search.json": "70359b490155bb5f6f7f293811a58468488030b8dea0e853df0e1fd67d0d5f38",
+      "digestion/threshold/research/2026-10-21-campus-motel/tool-captures/campus-open1.json": "40db2b52d4dc6206856a33211f6f0390b99a14b7691477923a1f82a433f66ca5",
+      "digestion/threshold/research/2026-10-21-campus-motel/tool-captures/campus-operating-terms.json": "8aaa4f56810c24aecb590b4a595cbce0f0c7e0acf3ffe75c0ee9d91d39714964",
+      "digestion/threshold/research/2026-10-21-campus-motel/tool-captures/campus-packet-detail.json": "d45d1507a01c7a59cc61257e4c546d649bf9acab03aadb6bd82def075778d876",
+      "digestion/threshold/research/2026-10-21-campus-motel/tool-captures/campus-packet.json": "dbbd63811ada3eb69b57327a9e6a99f315ab5f974a6c877700e7f49cc7aeb28c",
+      "digestion/threshold/research/2026-10-21-campus-motel/tool-captures/campus-source-review.json": "f36f1973a75ddad2799e3d5556ec3c390369fed5a2fd1111e95a03e01ec1230c",
+      "operations/shelter-accountability/campus-motel/case.json": "37914cc7e1f341c52e2a380187abbfd118284c16fff09f3b272fbb0d27cee0a2",
+      "operations/shelter-accountability/campus-motel/relay-journal.json": "a302c98858a30090aa033e265c08b64cee9b20d8ed053b51e12cd6e3edefecc6",
+      "operations/shelter-accountability/campus-motel/relay-references.json": "308c6bf5ef7107c192f2a1ecb25b660f199432a742cfba4327ea91b4c0cab1e1",
+      "operations/shelter-accountability/campus-motel/safeguard-journal.json": "d9241aa83c0afd12bee05c69b32002e160ef3698364954a3c02e9ca75953bb66",
+      "operations/shelter-accountability/campus-motel/safeguard-references.json": "08fcf251a1e771d96e96262c0004571cd83fbc090ee00d54b37d4753dfd1ab57",
+      "reports/shelter-accountability/campus-motel/events.json": "9332258841bace4a5a451ad1b474ac76cf720e6f7b52613907d332000d01a687",
+      "reports/shelter-accountability/campus-motel/sources.json": "ff684455d7158a63aef3265dd19ad2db98c6b754665a6508e9b4a78cbd699eeb"
+    },
+    "version": "campus-inputs-1"
+  },
+  "meta": {
+    "case_id": "CAMPUS-MOTEL-PACKET",
+    "current_executed_agreement": "not_verified",
+    "evidence_cutoff": "2026-10-21",
+    "parent_question_id": "Q-CA-SHELTER-NOTICE",
+    "question_epoch": 1,
+    "question_id": "Q-CAMPUS-AGREEMENT",
+    "record_class": "historical_public_packet_incomplete",
+    "recorded_at": "2026-10-21T09:04:02.612865+00:00",
+    "safeguard_id": "SG-CAMPUS-NOTICE",
+    "scope": "Campus Motel at 1619 University Avenue, Berkeley: classify one historical public contract/lease packet and retained legal baseline; no resident incident or current legal adjudication.",
+    "stop_condition": "One packet classified; rest. No canonical admission, resident evidence, provider calls, Bee activation, schedule, Governor change or outbound contact.",
+    "tree": "HOMELESSNESS",
+    "version": "campus-case-1"
+  },
+  "relays": {
+    "cases": {
+      "CAMPUS-MOTEL-PACKET": {
+        "case_id": "CAMPUS-MOTEL-PACKET",
+        "design_refs": [],
+        "event_refs": [
+          "E-CA-SHELTER-VERSION-2026",
+          "E-CA-SHELTER-HISTORY-2024",
+          "E-CAMPUS-AUTHORIZATION-2023",
+          "E-CAMPUS-PROPOSED-LEASE-2023",
+          "E-CAMPUS-PROGRAM-REPORT-2025",
+          "E-CAMPUS-BUDGET-LEAD-2026"
+        ],
+        "evidence_cutoff": "2026-10-21",
+        "generalization": "not_assessed",
+        "mode": "empirical",
+        "next_test": "Which executed Insight Housing operating agreement and incorporated resident notice/grievance policy, including amendments effective October 21, 2026, govern Campus Motel and identify who can order correction or readmission?",
+        "relays": [
+          {
+            "capacities": [],
+            "causal_assessment": {
+              "claim": "No practice event or outcome establishes a causal link or institutional pattern.",
+              "evidence_ids": [],
+              "status": "not_established"
+            },
+            "contrary_evidence": [
+              {
+                "claim": "Formal requirements and qualifications are retained; they do not prove delivery, a successful appeal or protection.",
+                "evidence_ids": [
+                  "CA-SCOPE",
+                  "CA-NOTICE",
+                  "CA-EXCEPTIONS"
+                ]
+              },
+              {
+                "claim": "Lawful-measures qualifier, unsigned status and missing current policies limit inference; no seven-day rule or actual removal is established.",
+                "evidence_ids": [
+                  "CM-REMOVAL-TEXT",
+                  "CM-CONTROL"
+                ]
+              }
+            ],
+            "deadline": null,
+            "essential_function": "Meaningful advance opportunity to understand and contest a proposed termination.",
+            "evidence": [
+              {
+                "citations": [
+                  {
+                    "locator": "1954.08(d)–(g)",
+                    "source_ref": "S-SC01"
+                  }
+                ],
+                "claim": "Defined publicly funded/overseen programs, contracted operator and program-only occupancy must be established; not universal every shelter or motel-only.",
+                "event_refs": [
+                  "E-CA-SHELTER-VERSION-2026"
+                ],
+                "evidence_id": "CA-SCOPE",
+                "kind": "requirement",
+                "limits": "Formal legal baseline with mirror/official historical access limits. No program implementation or protected outcome follows.",
+                "observed": {
+                  "end": "2026-10-20",
+                  "note": "Date this formal text was inspected; not an occurrence/implementation date.",
+                  "start": "2026-10-20"
+                },
+                "result": "positive",
+                "stages": [
+                  "expected_transfer"
+                ]
+              },
+              {
+                "citations": [
+                  {
+                    "locator": "1954.09(a)(2)–(3)",
+                    "source_ref": "S-SC02"
+                  }
+                ],
+                "claim": "Within the conditional framework, ordinary written termination notice is at least 30 days, with reasons, reasonable-accommodation and grievance information; documented warnings/problem solving are also required for guideline violations.",
+                "event_refs": [
+                  "E-CA-SHELTER-VERSION-2026"
+                ],
+                "evidence_id": "CA-NOTICE",
+                "kind": "requirement",
+                "limits": "Formal legal baseline with mirror/official historical access limits. No program implementation or protected outcome follows.",
+                "observed": {
+                  "end": "2026-10-20",
+                  "note": "Date this formal text was inspected; not an occurrence/implementation date.",
+                  "start": "2026-10-20"
+                },
+                "result": "positive",
+                "stages": [
+                  "expected_transfer"
+                ]
+              },
+              {
+                "citations": [
+                  {
+                    "locator": "1954.09(a)(2)(D)–(E), (a)(3)(A)",
+                    "source_ref": "S-SC02"
+                  }
+                ],
+                "claim": "Direct threat, statutory self-exit and short extension of an existing time-limit termination are narrow qualifications. A claim does not establish the exception.",
+                "event_refs": [
+                  "E-CA-SHELTER-VERSION-2026"
+                ],
+                "evidence_id": "CA-EXCEPTIONS",
+                "kind": "requirement",
+                "limits": "Formal legal baseline with mirror/official historical access limits. No program implementation or protected outcome follows.",
+                "observed": {
+                  "end": "2026-10-20",
+                  "note": "Date this formal text was inspected; not an occurrence/implementation date.",
+                  "start": "2026-10-20"
+                },
+                "result": "positive",
+                "stages": [
+                  "expected_transfer"
+                ]
+              },
+              {
+                "citations": [
+                  {
+                    "locator": "PDF p.4 item7",
+                    "source_ref": "S-CM03"
+                  }
+                ],
+                "claim": "Council authorized the City Manager to contract with Insight Housing for August 1, 2023-July 31, 2028. This establishes authorization, not execution.",
+                "event_refs": [],
+                "evidence_id": "CM-AUTHORITY",
+                "kind": "context",
+                "limits": "Historical public packet, discovered in this pass; not verified as the executed or currently operative agreement. No resident practice or outcome follows.",
+                "observed": {
+                  "end": "2023-07-11",
+                  "note": "Source date; not a resident notice, program closure or remedy event.",
+                  "start": "2023-07-11"
+                },
+                "result": "context",
+                "stages": [
+                  "expected_transfer"
+                ]
+              },
+              {
+                "citations": [
+                  {
+                    "locator": "PDF pp.1,2,5",
+                    "source_ref": "S-CM01"
+                  },
+                  {
+                    "locator": "PDF p.4, item7",
+                    "source_ref": "S-CM03"
+                  }
+                ],
+                "claim": "Item07 proposes a $7,295,634.55 operating ceiling; agenda rounds to $7,295,635. ERF2 supports the first two years; continuation requires additional funding including Measure P. These are neither payments nor assured funding through 2028.",
+                "event_refs": [],
+                "evidence_id": "CM-FUNDING",
+                "kind": "context",
+                "limits": "Historical public packet, discovered in this pass; not verified as the executed or currently operative agreement. No resident practice or outcome follows.",
+                "observed": {
+                  "end": "2023-07-11",
+                  "note": "Source date; not a resident notice, program closure or remedy event.",
+                  "start": "2023-07-11"
+                },
+                "result": "context",
+                "stages": [
+                  "expected_transfer"
+                ]
+              },
+              {
+                "citations": [
+                  {
+                    "locator": "PDF p.2",
+                    "source_ref": "S-CM01"
+                  }
+                ],
+                "claim": "Proposed services include housing navigation, move-in support, meals, transportation and clinical case management; outreach partners and County resources are proposed supports. Actual staffing, accessible capacity and delivery unverified.",
+                "event_refs": [],
+                "evidence_id": "CM-SERVICES",
+                "kind": "context",
+                "limits": "Historical public packet, discovered in this pass; not verified as the executed or currently operative agreement. No resident practice or outcome follows.",
+                "observed": {
+                  "end": "2023-07-11",
+                  "note": "Source date; not a resident notice, program closure or remedy event.",
+                  "start": "2023-07-11"
+                },
+                "result": "context",
+                "stages": [
+                  "expected_transfer"
+                ]
+              },
+              {
+                "citations": [
+                  {
+                    "locator": "PDF pp.6-7, section1; pp.19-20 signatures",
+                    "source_ref": "S-CM02"
+                  }
+                ],
+                "claim": "Unsigned property agreement names Campus Motel LLC as owner and City as program administrator, directly or through an operator under City control. This does not identify the current grievance adjudicator.",
+                "event_refs": [],
+                "evidence_id": "CM-CONTROL",
+                "kind": "context",
+                "limits": "Historical public packet, discovered in this pass; not verified as the executed or currently operative agreement. No resident practice or outcome follows.",
+                "observed": {
+                  "end": "2023-07-11",
+                  "note": "Source date; not a resident notice, program closure or remedy event.",
+                  "start": "2023-07-11"
+                },
+                "result": "context",
+                "stages": [
+                  "expected_transfer"
+                ]
+              },
+              {
+                "citations": [
+                  {
+                    "locator": "PDF pp.22-23, Schedule7 D",
+                    "source_ref": "S-CM02"
+                  }
+                ],
+                "claim": "Schedule7 D calls for immediate termination for specified conduct and reasonable, lawful eviction measures within ten days. The potential tension with scoped notice protections requires the executed terms, applicable law/version and event facts.",
+                "event_refs": [],
+                "evidence_id": "CM-REMOVAL-TEXT",
+                "kind": "context",
+                "limits": "Historical public packet, discovered in this pass; not verified as the executed or currently operative agreement. No resident practice or outcome follows. This is not a seven-day rule, actual removal, or legal finding.",
+                "observed": {
+                  "end": "2023-07-11",
+                  "note": "Source date; not a resident notice, program closure or remedy event.",
+                  "start": "2023-07-11"
+                },
+                "result": "context",
+                "stages": [
+                  "expected_transfer"
+                ]
+              },
+              {
+                "citations": [
+                  {
+                    "locator": "PDF p.23 (attached March28 report p.4)",
+                    "source_ref": "S-CM04"
+                  }
+                ],
+                "claim": "City report describes Insight Housing operating 23 non-congregate motel rooms, ERF2 support and planned Measure P leverage beginning FY26.",
+                "event_refs": [],
+                "evidence_id": "CM-IDENTITY",
+                "kind": "context",
+                "limits": "Agency-reported program identity, not observed enforcement, room availability or current operations.",
+                "observed": {
+                  "end": "2025-03-28",
+                  "note": "Source date; not a resident notice, program closure or remedy event.",
+                  "start": "2025-03-28"
+                },
+                "result": "context",
+                "stages": [
+                  "expected_transfer"
+                ]
+              },
+              {
+                "citations": [
+                  {
+                    "locator": "Search result, full PDF access-size error",
+                    "source_ref": "S-CM05"
+                  }
+                ],
+                "claim": "A June2026 search-index budget lead questions continuation into FY2027; full source access failed. Do not treat the 2023 end date as a current funding guarantee or the index as actual closure.",
+                "event_refs": [],
+                "evidence_id": "CM-CURRENTNESS",
+                "kind": "context",
+                "limits": "Unverified lead only; no budget-adoption or closure finding.",
+                "observed": {
+                  "end": "2026-06-23",
+                  "note": "Source date; not a resident notice, program closure or remedy event.",
+                  "start": "2026-06-23"
+                },
+                "result": "context",
+                "stages": [
+                  "expected_transfer"
+                ]
+              }
+            ],
+            "from_actor": "Insight Housing, identified in historical City records; current duties unverified",
+            "issues": [],
+            "kind": "informational",
+            "ordinary_explanations": [
+              {
+                "claim": "The absence of a program record here reflects a bounded baseline, not evidence that operators or administrators did nothing.",
+                "evidence_ids": [
+                  "CA-SCOPE",
+                  "CA-NOTICE",
+                  "CA-EXCEPTIONS"
+                ]
+              },
+              {
+                "claim": "City-reported program and partner supports may operate, but their usable capacity and remedy performance were not observed in this packet.",
+                "evidence_ids": [
+                  "CM-SERVICES",
+                  "CM-IDENTITY"
+                ]
+              }
+            ],
+            "payload": "Accessible written notice, reasons and accommodation/appeal information",
+            "relay_id": "CAMPUS-NOTICE",
+            "scope": "Conditional notice/remedy expectation applied as a review question to this program; no actual resident transfer observed.",
+            "stages": {
+              "action": {
+                "claim": "No actual program event supplied.",
+                "evidence_ids": [],
+                "status": "unknown",
+                "time": {
+                  "end": null,
+                  "note": "No actual notice, appeal or remedy event is dated.",
+                  "start": null
+                }
+              },
+              "arrival": {
+                "claim": "No actual program event supplied.",
+                "evidence_ids": [],
+                "status": "unknown",
+                "time": {
+                  "end": null,
+                  "note": "No actual notice, appeal or remedy event is dated.",
+                  "start": null
+                }
+              },
+              "dispatch": {
+                "claim": "No actual program event supplied.",
+                "evidence_ids": [],
+                "status": "unknown",
+                "time": {
+                  "end": null,
+                  "note": "No actual notice, appeal or remedy event is dated.",
+                  "start": null
+                }
+              },
+              "expected_transfer": {
+                "claim": "Retained statutory expectation, conditional on applicable scope/version; current program incorporation and delivery unknown.",
+                "evidence_ids": [
+                  "CA-SCOPE",
+                  "CA-NOTICE",
+                  "CA-EXCEPTIONS"
+                ],
+                "status": "documented",
+                "time": {
+                  "end": null,
+                  "note": "No actual notice, appeal or remedy event is dated.",
+                  "start": null
+                }
+              },
+              "origin": {
+                "claim": "No actual program event supplied.",
+                "evidence_ids": [],
+                "status": "unknown",
+                "time": {
+                  "end": null,
+                  "note": "No actual notice, appeal or remedy event is dated.",
+                  "start": null
+                }
+              },
+              "outcome": {
+                "claim": "No actual program event supplied.",
+                "evidence_ids": [],
+                "status": "unknown",
+                "time": {
+                  "end": null,
+                  "note": "No actual notice, appeal or remedy event is dated.",
+                  "start": null
+                }
+              },
+              "verification": {
+                "claim": "No actual program event supplied.",
+                "evidence_ids": [],
+                "method": null,
+                "status": "unknown",
+                "time": {
+                  "end": null,
+                  "note": "No actual notice, appeal or remedy event is dated.",
+                  "start": null
+                }
+              }
+            },
+            "to_actor": "Program participant"
+          },
+          {
+            "capacities": [],
+            "causal_assessment": {
+              "claim": "No practice event or outcome establishes a causal link or institutional pattern.",
+              "evidence_ids": [],
+              "status": "not_established"
+            },
+            "contrary_evidence": [
+              {
+                "claim": "Formal requirements and qualifications are retained; they do not prove delivery, a successful appeal or protection.",
+                "evidence_ids": [
+                  "CA-REMEDY",
+                  "CA-RIGHTS"
+                ]
+              },
+              {
+                "claim": "Lawful-measures qualifier, unsigned status and missing current policies limit inference; no seven-day rule or actual removal is established.",
+                "evidence_ids": [
+                  "CM-REMOVAL-TEXT",
+                  "CM-CONTROL"
+                ]
+              }
+            ],
+            "deadline": null,
+            "essential_function": "A justified correction becomes actual resumed shelter participation or available alternative service.",
+            "evidence": [
+              {
+                "citations": [
+                  {
+                    "locator": "1954.09(a)(4)–(5)",
+                    "source_ref": "S-SC02"
+                  }
+                ],
+                "claim": "Administrator establishes due-process grievance; operator discloses it. Reversal can require resumed participation or facilitated alternative available placement. Exit efforts are documented; a bed is not guaranteed.",
+                "event_refs": [
+                  "E-CA-SHELTER-VERSION-2026"
+                ],
+                "evidence_id": "CA-REMEDY",
+                "kind": "requirement",
+                "limits": "Formal legal baseline with mirror/official historical access limits. No program implementation or protected outcome follows.",
+                "observed": {
+                  "end": "2026-10-20",
+                  "note": "Date this formal text was inspected; not an occurrence/implementation date.",
+                  "start": "2026-10-20"
+                },
+                "result": "positive",
+                "stages": [
+                  "expected_transfer"
+                ]
+              },
+              {
+                "citations": [
+                  {
+                    "locator": "1954.091(b)(1)–(2)",
+                    "source_ref": "S-SC03"
+                  }
+                ],
+                "claim": "Non-tenancy treatment is conditional; existing rights are preserved. Neither automatic tenancy nor absence of all tenant rights follows from this baseline.",
+                "event_refs": [
+                  "E-CA-SHELTER-VERSION-2026"
+                ],
+                "evidence_id": "CA-RIGHTS",
+                "kind": "requirement",
+                "limits": "Formal legal baseline with mirror/official historical access limits. No program implementation or protected outcome follows.",
+                "observed": {
+                  "end": "2026-10-20",
+                  "note": "Date this formal text was inspected; not an occurrence/implementation date.",
+                  "start": "2026-10-20"
+                },
+                "result": "positive",
+                "stages": [
+                  "expected_transfer"
+                ]
+              },
+              {
+                "citations": [
+                  {
+                    "locator": "PDF p.4 item7",
+                    "source_ref": "S-CM03"
+                  }
+                ],
+                "claim": "Council authorized the City Manager to contract with Insight Housing for August 1, 2023-July 31, 2028. This establishes authorization, not execution.",
+                "event_refs": [],
+                "evidence_id": "CM-AUTHORITY",
+                "kind": "context",
+                "limits": "Historical public packet, discovered in this pass; not verified as the executed or currently operative agreement. No resident practice or outcome follows.",
+                "observed": {
+                  "end": "2023-07-11",
+                  "note": "Source date; not a resident notice, program closure or remedy event.",
+                  "start": "2023-07-11"
+                },
+                "result": "context",
+                "stages": [
+                  "expected_transfer"
+                ]
+              },
+              {
+                "citations": [
+                  {
+                    "locator": "PDF pp.1,2,5",
+                    "source_ref": "S-CM01"
+                  },
+                  {
+                    "locator": "PDF p.4, item7",
+                    "source_ref": "S-CM03"
+                  }
+                ],
+                "claim": "Item07 proposes a $7,295,634.55 operating ceiling; agenda rounds to $7,295,635. ERF2 supports the first two years; continuation requires additional funding including Measure P. These are neither payments nor assured funding through 2028.",
+                "event_refs": [],
+                "evidence_id": "CM-FUNDING",
+                "kind": "context",
+                "limits": "Historical public packet, discovered in this pass; not verified as the executed or currently operative agreement. No resident practice or outcome follows.",
+                "observed": {
+                  "end": "2023-07-11",
+                  "note": "Source date; not a resident notice, program closure or remedy event.",
+                  "start": "2023-07-11"
+                },
+                "result": "context",
+                "stages": [
+                  "expected_transfer"
+                ]
+              },
+              {
+                "citations": [
+                  {
+                    "locator": "PDF p.2",
+                    "source_ref": "S-CM01"
+                  }
+                ],
+                "claim": "Proposed services include housing navigation, move-in support, meals, transportation and clinical case management; outreach partners and County resources are proposed supports. Actual staffing, accessible capacity and delivery unverified.",
+                "event_refs": [],
+                "evidence_id": "CM-SERVICES",
+                "kind": "context",
+                "limits": "Historical public packet, discovered in this pass; not verified as the executed or currently operative agreement. No resident practice or outcome follows.",
+                "observed": {
+                  "end": "2023-07-11",
+                  "note": "Source date; not a resident notice, program closure or remedy event.",
+                  "start": "2023-07-11"
+                },
+                "result": "context",
+                "stages": [
+                  "expected_transfer"
+                ]
+              },
+              {
+                "citations": [
+                  {
+                    "locator": "PDF pp.6-7, section1; pp.19-20 signatures",
+                    "source_ref": "S-CM02"
+                  }
+                ],
+                "claim": "Unsigned property agreement names Campus Motel LLC as owner and City as program administrator, directly or through an operator under City control. This does not identify the current grievance adjudicator.",
+                "event_refs": [],
+                "evidence_id": "CM-CONTROL",
+                "kind": "context",
+                "limits": "Historical public packet, discovered in this pass; not verified as the executed or currently operative agreement. No resident practice or outcome follows.",
+                "observed": {
+                  "end": "2023-07-11",
+                  "note": "Source date; not a resident notice, program closure or remedy event.",
+                  "start": "2023-07-11"
+                },
+                "result": "context",
+                "stages": [
+                  "expected_transfer"
+                ]
+              },
+              {
+                "citations": [
+                  {
+                    "locator": "PDF pp.22-23, Schedule7 D",
+                    "source_ref": "S-CM02"
+                  }
+                ],
+                "claim": "Schedule7 D calls for immediate termination for specified conduct and reasonable, lawful eviction measures within ten days. The potential tension with scoped notice protections requires the executed terms, applicable law/version and event facts.",
+                "event_refs": [],
+                "evidence_id": "CM-REMOVAL-TEXT",
+                "kind": "context",
+                "limits": "Historical public packet, discovered in this pass; not verified as the executed or currently operative agreement. No resident practice or outcome follows. This is not a seven-day rule, actual removal, or legal finding.",
+                "observed": {
+                  "end": "2023-07-11",
+                  "note": "Source date; not a resident notice, program closure or remedy event.",
+                  "start": "2023-07-11"
+                },
+                "result": "context",
+                "stages": [
+                  "expected_transfer"
+                ]
+              },
+              {
+                "citations": [
+                  {
+                    "locator": "PDF p.23 (attached March28 report p.4)",
+                    "source_ref": "S-CM04"
+                  }
+                ],
+                "claim": "City report describes Insight Housing operating 23 non-congregate motel rooms, ERF2 support and planned Measure P leverage beginning FY26.",
+                "event_refs": [],
+                "evidence_id": "CM-IDENTITY",
+                "kind": "context",
+                "limits": "Agency-reported program identity, not observed enforcement, room availability or current operations.",
+                "observed": {
+                  "end": "2025-03-28",
+                  "note": "Source date; not a resident notice, program closure or remedy event.",
+                  "start": "2025-03-28"
+                },
+                "result": "context",
+                "stages": [
+                  "expected_transfer"
+                ]
+              },
+              {
+                "citations": [
+                  {
+                    "locator": "Search result, full PDF access-size error",
+                    "source_ref": "S-CM05"
+                  }
+                ],
+                "claim": "A June2026 search-index budget lead questions continuation into FY2027; full source access failed. Do not treat the 2023 end date as a current funding guarantee or the index as actual closure.",
+                "event_refs": [],
+                "evidence_id": "CM-CURRENTNESS",
+                "kind": "context",
+                "limits": "Unverified lead only; no budget-adoption or closure finding.",
+                "observed": {
+                  "end": "2026-06-23",
+                  "note": "Source date; not a resident notice, program closure or remedy event.",
+                  "start": "2026-06-23"
+                },
+                "result": "context",
+                "stages": [
+                  "expected_transfer"
+                ]
+              }
+            ],
+            "from_actor": "City of Berkeley program administration; current grievance decisionmaker unverified",
+            "issues": [],
+            "kind": "authority",
+            "ordinary_explanations": [
+              {
+                "claim": "The absence of a program record here reflects a bounded baseline, not evidence that operators or administrators did nothing.",
+                "evidence_ids": [
+                  "CA-REMEDY",
+                  "CA-RIGHTS"
+                ]
+              },
+              {
+                "claim": "City-reported program and partner supports may operate, but their usable capacity and remedy performance were not observed in this packet.",
+                "evidence_ids": [
+                  "CM-SERVICES",
+                  "CM-IDENTITY"
+                ]
+              }
+            ],
+            "payload": "Reviewed decision and any required remedy communicated for implementation",
+            "relay_id": "CAMPUS-REMEDY",
+            "scope": "Conditional notice/remedy expectation applied as a review question to this program; no actual resident transfer observed.",
+            "stages": {
+              "action": {
+                "claim": "No actual program event supplied.",
+                "evidence_ids": [],
+                "status": "unknown",
+                "time": {
+                  "end": null,
+                  "note": "No actual notice, appeal or remedy event is dated.",
+                  "start": null
+                }
+              },
+              "arrival": {
+                "claim": "No actual program event supplied.",
+                "evidence_ids": [],
+                "status": "unknown",
+                "time": {
+                  "end": null,
+                  "note": "No actual notice, appeal or remedy event is dated.",
+                  "start": null
+                }
+              },
+              "dispatch": {
+                "claim": "No actual program event supplied.",
+                "evidence_ids": [],
+                "status": "unknown",
+                "time": {
+                  "end": null,
+                  "note": "No actual notice, appeal or remedy event is dated.",
+                  "start": null
+                }
+              },
+              "expected_transfer": {
+                "claim": "Retained statutory expectation, conditional on applicable scope/version; current program incorporation and delivery unknown.",
+                "evidence_ids": [
+                  "CA-REMEDY",
+                  "CA-RIGHTS"
+                ],
+                "status": "documented",
+                "time": {
+                  "end": null,
+                  "note": "No actual notice, appeal or remedy event is dated.",
+                  "start": null
+                }
+              },
+              "origin": {
+                "claim": "No actual program event supplied.",
+                "evidence_ids": [],
+                "status": "unknown",
+                "time": {
+                  "end": null,
+                  "note": "No actual notice, appeal or remedy event is dated.",
+                  "start": null
+                }
+              },
+              "outcome": {
+                "claim": "No actual program event supplied.",
+                "evidence_ids": [],
+                "status": "unknown",
+                "time": {
+                  "end": null,
+                  "note": "No actual notice, appeal or remedy event is dated.",
+                  "start": null
+                }
+              },
+              "verification": {
+                "claim": "No actual program event supplied.",
+                "evidence_ids": [],
+                "method": null,
+                "status": "unknown",
+                "time": {
+                  "end": null,
+                  "note": "No actual notice, appeal or remedy event is dated.",
+                  "start": null
+                }
+              }
+            },
+            "to_actor": "Operator and affected participant"
+          }
+        ],
+        "scope": "Campus Motel at 1619 University Avenue, Berkeley: classify one historical public contract/lease packet and retained legal baseline; no resident incident or current legal adjudication.",
+        "supports": [],
+        "title": "Campus Motel notice and remedy: public roles, unobserved execution",
+        "unknowns": [
+          "Current signed operating agreement, incorporated resident rules and amendments not verified; City records portal displayed instructions without searchable results in the text tool.",
+          "Named operator, funder and proposed City control do not by themselves establish all statutory coverage conditions or an accessible grievance decisionmaker.",
+          "Original legal baseline/version and official-text access limits remain; no retrospective application of a 2026 version to a 2023 incident.",
+          "Notice delivery, exceptions, review decisions, compliance, actual correction, occupied/available rooms and protective outcomes remain UNKNOWN.",
+          "No resident facts, statewide denominator, financial-misconduct evidence or actual closure record collected.",
+          "Posted lease has a Berkeley Inn naming anomaly and blank signatures; full source dates and contrary qualifiers are preserved."
+        ]
+      }
+    },
+    "history": [
+      {
+        "actor": "Work Aiden; bounded public packet review",
+        "case_id": "CAMPUS-MOTEL-PACKET",
+        "entry_sha256": "4e68920ed81ab72fe21f8b7a325ffa3d7cb5e6f5909050baac5efc972739098c",
+        "reason": "Keep conditional notice/remedy duties separate from unknown transmission, action and outcomes.",
+        "recorded_at": "2026-10-21T09:04:02.612865+00:00",
+        "revision": 1,
+        "sequence": 1,
+        "stages": {
+          "CAMPUS-NOTICE": {
+            "action": "unknown",
+            "arrival": "unknown",
+            "dispatch": "unknown",
+            "expected_transfer": "documented",
+            "origin": "unknown",
+            "outcome": "unknown",
+            "verification": "unknown"
+          },
+          "CAMPUS-REMEDY": {
+            "action": "unknown",
+            "arrival": "unknown",
+            "dispatch": "unknown",
+            "expected_transfer": "documented",
+            "origin": "unknown",
+            "outcome": "unknown",
+            "verification": "unknown"
+          }
+        },
+        "supports": [],
+        "unknowns": [
+          "Current signed operating agreement, incorporated resident rules and amendments not verified; City records portal displayed instructions without searchable results in the text tool.",
+          "Named operator, funder and proposed City control do not by themselves establish all statutory coverage conditions or an accessible grievance decisionmaker.",
+          "Original legal baseline/version and official-text access limits remain; no retrospective application of a 2026 version to a 2023 incident.",
+          "Notice delivery, exceptions, review decisions, compliance, actual correction, occupied/available rooms and protective outcomes remain UNKNOWN.",
+          "No resident facts, statewide denominator, financial-misconduct evidence or actual closure record collected.",
+          "Posted lease has a Berkeley Inn naming anomaly and blank signatures; full source dates and contrary qualifiers are preserved."
+        ]
+      }
+    ],
+    "journal_sha256": "a302c98858a30090aa033e265c08b64cee9b20d8ed053b51e12cd6e3edefecc6",
+    "revisions": {
+      "CAMPUS-MOTEL-PACKET": 1
+    },
+    "status": "supplied assessments; no canonical admission or automatic causation/pattern finding",
+    "timing": {
+      "CAMPUS-MOTEL-PACKET": {
+        "CAMPUS-NOTICE": {
+          "lag_seconds": null,
+          "status": "no_documented_deadline"
+        },
+        "CAMPUS-REMEDY": {
+          "lag_seconds": null,
+          "status": "no_documented_deadline"
+        }
+      }
+    },
+    "version": "relay-state-1"
+  },
+  "safeguards": {
+    "history": [
+      {
+        "actor": "Work Aiden; source review by campus_source_review; not a legal adjudication",
+        "dimensions": {
+          "effectiveness": "unknown",
+          "failure": "unknown",
+          "formal": "documented",
+          "operational": {
+            "authority": "unknown",
+            "people": "unknown",
+            "procedures": "unknown"
+          }
+        },
+        "entry_sha256": "9ec23847c9a24dbe6dec21cec4d9553ccdde222adb9569d3b5e2584b36ff0440",
+        "reason": "Classify historical public contract/lease packet while leaving current execution and empirical protection unknown.",
+        "recorded_at": "2026-10-21T09:04:02.612865+00:00",
+        "revision": 1,
+        "safeguard_id": "SG-CAMPUS-NOTICE",
+        "sequence": 1
+      }
+    ],
+    "journal_sha256": "d9241aa83c0afd12bee05c69b32002e160ef3698364954a3c02e9ca75953bb66",
+    "revisions": {
+      "SG-CAMPUS-NOTICE": 1
+    },
+    "safeguards": {
+      "SG-CAMPUS-NOTICE": {
+        "contrary_evidence": [
+          {
+            "claim": "Exceptions and other preserved rights qualify the rule; administrators may also carry out genuine remedies. No contrary practice record has been collected.",
+            "evidence_ids": [
+              "CA-EXCEPTIONS",
+              "CA-RIGHTS",
+              "CA-REMEDY"
+            ]
+          },
+          {
+            "claim": "Removal wording expressly requires lawful measures; execution, amendments and resident policy could qualify its operation.",
+            "evidence_ids": [
+              "CM-REMOVAL-TEXT",
+              "CM-CONTROL"
+            ]
+          },
+          {
+            "claim": "2023 authorization extends to 2028 but funding was conditional; later budget lead counsels against a current continuity claim.",
+            "evidence_ids": [
+              "CM-FUNDING",
+              "CM-CURRENTNESS"
+            ]
+          }
+        ],
+        "effectiveness": {
+          "claim": "No observed prevention, reversal, readmission or sustained protective result is established by this packet.",
+          "evidence_ids": [],
+          "status": "unknown"
+        },
+        "event_refs": [
+          "E-CA-SHELTER-VERSION-2026",
+          "E-CA-SHELTER-HISTORY-2024",
+          "E-CAMPUS-AUTHORIZATION-2023",
+          "E-CAMPUS-PROPOSED-LEASE-2023",
+          "E-CAMPUS-PROGRAM-REPORT-2025",
+          "E-CAMPUS-BUDGET-LEAD-2026"
+        ],
+        "evidence": [
+          {
+            "citations": [
+              {
+                "locator": "1954.08(d)–(g)",
+                "source_ref": "S-SC01"
+              }
+            ],
+            "claim": "Defined publicly funded/overseen programs, contracted operator and program-only occupancy must be established; not universal every shelter or motel-only.",
+            "effect": null,
+            "event_refs": [
+              "E-CA-SHELTER-VERSION-2026"
+            ],
+            "evidence_id": "CA-SCOPE",
+            "kind": "formal_text",
+            "limits": "Formal legal baseline with mirror/official historical access limits. No program implementation or protected outcome follows.",
+            "period": {
+              "end": null,
+              "note": "Formal-text version or reported historical observation; not shelter practice.",
+              "start": null
+            }
+          },
+          {
+            "citations": [
+              {
+                "locator": "1954.09(a)(2)–(3)",
+                "source_ref": "S-SC02"
+              }
+            ],
+            "claim": "Within the conditional framework, ordinary written termination notice is at least 30 days, with reasons, reasonable-accommodation and grievance information; documented warnings/problem solving are also required for guideline violations.",
+            "effect": null,
+            "event_refs": [
+              "E-CA-SHELTER-VERSION-2026"
+            ],
+            "evidence_id": "CA-NOTICE",
+            "kind": "formal_text",
+            "limits": "Formal legal baseline with mirror/official historical access limits. No program implementation or protected outcome follows.",
+            "period": {
+              "end": "2026-01-01",
+              "note": "Formal-text version or reported historical observation; not shelter practice.",
+              "start": "2026-01-01"
+            }
+          },
+          {
+            "citations": [
+              {
+                "locator": "1954.09(a)(2)(D)–(E), (a)(3)(A)",
+                "source_ref": "S-SC02"
+              }
+            ],
+            "claim": "Direct threat, statutory self-exit and short extension of an existing time-limit termination are narrow qualifications. A claim does not establish the exception.",
+            "effect": null,
+            "event_refs": [
+              "E-CA-SHELTER-VERSION-2026"
+            ],
+            "evidence_id": "CA-EXCEPTIONS",
+            "kind": "formal_text",
+            "limits": "Formal legal baseline with mirror/official historical access limits. No program implementation or protected outcome follows.",
+            "period": {
+              "end": "2026-01-01",
+              "note": "Formal-text version or reported historical observation; not shelter practice.",
+              "start": "2026-01-01"
+            }
+          },
+          {
+            "citations": [
+              {
+                "locator": "2 CCR 12179(b)(3)",
+                "source_ref": "S-SC04"
+              }
+            ],
+            "claim": "Referenced direct-threat test requires individualized sufficiently recent objective evidence and consideration of mitigation through reasonable accommodation.",
+            "effect": null,
+            "event_refs": [
+              "E-CA-SHELTER-VERSION-2026"
+            ],
+            "evidence_id": "CA-THREAT",
+            "kind": "formal_text",
+            "limits": "Formal legal baseline with mirror/official historical access limits. No program implementation or protected outcome follows.",
+            "period": {
+              "end": null,
+              "note": "Formal-text version or reported historical observation; not shelter practice.",
+              "start": null
+            }
+          },
+          {
+            "citations": [
+              {
+                "locator": "1954.09(a)(4)–(5)",
+                "source_ref": "S-SC02"
+              }
+            ],
+            "claim": "Administrator establishes due-process grievance; operator discloses it. Reversal can require resumed participation or facilitated alternative available placement. Exit efforts are documented; a bed is not guaranteed.",
+            "effect": null,
+            "event_refs": [
+              "E-CA-SHELTER-VERSION-2026"
+            ],
+            "evidence_id": "CA-REMEDY",
+            "kind": "formal_text",
+            "limits": "Formal legal baseline with mirror/official historical access limits. No program implementation or protected outcome follows.",
+            "period": {
+              "end": "2026-01-01",
+              "note": "Formal-text version or reported historical observation; not shelter practice.",
+              "start": "2026-01-01"
+            }
+          },
+          {
+            "citations": [
+              {
+                "locator": "1954.091(b)(1)–(2)",
+                "source_ref": "S-SC03"
+              }
+            ],
+            "claim": "Non-tenancy treatment is conditional; existing rights are preserved. Neither automatic tenancy nor absence of all tenant rights follows from this baseline.",
+            "effect": null,
+            "event_refs": [
+              "E-CA-SHELTER-VERSION-2026"
+            ],
+            "evidence_id": "CA-RIGHTS",
+            "kind": "formal_text",
+            "limits": "Formal legal baseline with mirror/official historical access limits. No program implementation or protected outcome follows.",
+            "period": {
+              "end": null,
+              "note": "Formal-text version or reported historical observation; not shelter practice.",
+              "start": null
+            }
+          },
+          {
+            "citations": [
+              {
+                "locator": "pp. 2–4, existing law and proposed amendments",
+                "source_ref": "S-SC06"
+              }
+            ],
+            "claim": "Official 2024 analysis already describes the 30-day rule and other-shelter-site scope; the 2026 amendment date is not the start of the protection.",
+            "effect": null,
+            "event_refs": [
+              "E-CA-SHELTER-HISTORY-2024"
+            ],
+            "evidence_id": "CA-HISTORY",
+            "kind": "context",
+            "limits": "Formal legal baseline with mirror/official historical access limits. No program implementation or protected outcome follows.",
+            "period": {
+              "end": "2024-06-11",
+              "note": "Formal-text version or reported historical observation; not shelter practice.",
+              "start": "2024-06-11"
+            }
+          },
+          {
+            "citations": [
+              {
+                "locator": "PDF p.4 item7",
+                "source_ref": "S-CM03"
+              }
+            ],
+            "claim": "Council authorized the City Manager to contract with Insight Housing for August 1, 2023-July 31, 2028. This establishes authorization, not execution.",
+            "effect": null,
+            "event_refs": [],
+            "evidence_id": "CM-AUTHORITY",
+            "kind": "formal_text",
+            "limits": "Historical public packet, discovered in this pass; not verified as the executed or currently operative agreement. No resident practice or outcome follows.",
+            "period": {
+              "end": "2023-07-11",
+              "note": "Source date; not a resident notice, program closure or remedy event.",
+              "start": "2023-07-11"
+            }
+          },
+          {
+            "citations": [
+              {
+                "locator": "PDF pp.1,2,5",
+                "source_ref": "S-CM01"
+              },
+              {
+                "locator": "PDF p.4, item7",
+                "source_ref": "S-CM03"
+              }
+            ],
+            "claim": "Item07 proposes a $7,295,634.55 operating ceiling; agenda rounds to $7,295,635. ERF2 supports the first two years; continuation requires additional funding including Measure P. These are neither payments nor assured funding through 2028.",
+            "effect": null,
+            "event_refs": [],
+            "evidence_id": "CM-FUNDING",
+            "kind": "context",
+            "limits": "Historical public packet, discovered in this pass; not verified as the executed or currently operative agreement. No resident practice or outcome follows.",
+            "period": {
+              "end": "2023-07-11",
+              "note": "Source date; not a resident notice, program closure or remedy event.",
+              "start": "2023-07-11"
+            }
+          },
+          {
+            "citations": [
+              {
+                "locator": "PDF p.2",
+                "source_ref": "S-CM01"
+              }
+            ],
+            "claim": "Proposed services include housing navigation, move-in support, meals, transportation and clinical case management; outreach partners and County resources are proposed supports. Actual staffing, accessible capacity and delivery unverified.",
+            "effect": null,
+            "event_refs": [],
+            "evidence_id": "CM-SERVICES",
+            "kind": "context",
+            "limits": "Historical public packet, discovered in this pass; not verified as the executed or currently operative agreement. No resident practice or outcome follows.",
+            "period": {
+              "end": "2023-07-11",
+              "note": "Source date; not a resident notice, program closure or remedy event.",
+              "start": "2023-07-11"
+            }
+          },
+          {
+            "citations": [
+              {
+                "locator": "PDF pp.6-7, section1; pp.19-20 signatures",
+                "source_ref": "S-CM02"
+              }
+            ],
+            "claim": "Unsigned property agreement names Campus Motel LLC as owner and City as program administrator, directly or through an operator under City control. This does not identify the current grievance adjudicator.",
+            "effect": null,
+            "event_refs": [],
+            "evidence_id": "CM-CONTROL",
+            "kind": "formal_text",
+            "limits": "Historical public packet, discovered in this pass; not verified as the executed or currently operative agreement. No resident practice or outcome follows.",
+            "period": {
+              "end": "2023-07-11",
+              "note": "Source date; not a resident notice, program closure or remedy event.",
+              "start": "2023-07-11"
+            }
+          },
+          {
+            "citations": [
+              {
+                "locator": "PDF pp.22-23, Schedule7 D",
+                "source_ref": "S-CM02"
+              }
+            ],
+            "claim": "Schedule7 D calls for immediate termination for specified conduct and reasonable, lawful eviction measures within ten days. The potential tension with scoped notice protections requires the executed terms, applicable law/version and event facts.",
+            "effect": null,
+            "event_refs": [],
+            "evidence_id": "CM-REMOVAL-TEXT",
+            "kind": "formal_text",
+            "limits": "Historical public packet, discovered in this pass; not verified as the executed or currently operative agreement. No resident practice or outcome follows. This is not a seven-day rule, actual removal, or legal finding.",
+            "period": {
+              "end": "2023-07-11",
+              "note": "Source date; not a resident notice, program closure or remedy event.",
+              "start": "2023-07-11"
+            }
+          },
+          {
+            "citations": [
+              {
+                "locator": "PDF p.23 (attached March28 report p.4)",
+                "source_ref": "S-CM04"
+              }
+            ],
+            "claim": "City report describes Insight Housing operating 23 non-congregate motel rooms, ERF2 support and planned Measure P leverage beginning FY26.",
+            "effect": null,
+            "event_refs": [],
+            "evidence_id": "CM-IDENTITY",
+            "kind": "context",
+            "limits": "Agency-reported program identity, not observed enforcement, room availability or current operations.",
+            "period": {
+              "end": "2025-03-28",
+              "note": "Source date; not a resident notice, program closure or remedy event.",
+              "start": "2025-03-28"
+            }
+          },
+          {
+            "citations": [
+              {
+                "locator": "Search result, full PDF access-size error",
+                "source_ref": "S-CM05"
+              }
+            ],
+            "claim": "A June2026 search-index budget lead questions continuation into FY2027; full source access failed. Do not treat the 2023 end date as a current funding guarantee or the index as actual closure.",
+            "effect": null,
+            "event_refs": [],
+            "evidence_id": "CM-CURRENTNESS",
+            "kind": "context",
+            "limits": "Unverified lead only; no budget-adoption or closure finding.",
+            "period": {
+              "end": "2026-06-23",
+              "note": "Source date; not a resident notice, program closure or remedy event.",
+              "start": "2026-06-23"
+            }
+          }
+        ],
+        "evidence_cutoff": "2026-10-21",
+        "failure": {
+          "claim": "Documented text tension is not a documented unlawful notice or failed remedy; no resident event is assessed.",
+          "evidence_ids": [],
+          "status": "unknown"
+        },
+        "formal": {
+          "claim": "Scoped statutory notice/grievance protections remain documented in the inherited baseline. Public program facts support further applicability review; all statutory conditions and current executed policies are not established.",
+          "evidence_ids": [
+            "CA-SCOPE",
+            "CA-NOTICE",
+            "CA-EXCEPTIONS",
+            "CA-RIGHTS"
+          ],
+          "status": "documented"
+        },
+        "next_test": {
+          "max_records": 1,
+          "question": "Which executed Insight Housing operating agreement and incorporated resident notice/grievance policy, including amendments effective October 21, 2026, govern Campus Motel and identify who can order correction or readmission?",
+          "required_record": "One executed operating agreement packet with incorporated policies and relevant amendments. Item07 p.5 proposes filing signed copies with City Clerk; existence and current availability were not verified.",
+          "status": "proposed_only",
+          "stop_condition": "Classify one packet; no resident dossier, broad search, complaint or records request sent.",
+          "supports_if": "Authenticated current terms establish notice, grievance and correction duties; separate practice records would still be needed for effectiveness.",
+          "weakens_if": "Terms differ, exclude this framework, are superseded or remain unavailable; preserve that result without inferring noncompliance."
+        },
+        "operational": {
+          "authority": {
+            "claim": "Council and proposed City control are documented; the current grievance decisionmaker and exercised corrective powers are unverified.",
+            "evidence_ids": [
+              "CM-AUTHORITY",
+              "CM-CONTROL"
+            ],
+            "status": "unknown"
+          },
+          "people": {
+            "claim": "Operator identity is reported, but actual accessible notice/review staff and capacity are unverified.",
+            "evidence_ids": [
+              "CM-IDENTITY",
+              "CM-SERVICES"
+            ],
+            "status": "unknown"
+          },
+          "procedures": {
+            "claim": "No current executed resident notice, accommodation or grievance policy is verified. Posted removal text is a review issue, not observed practice.",
+            "evidence_ids": [
+              "CM-REMOVAL-TEXT"
+            ],
+            "status": "unknown"
+          }
+        },
+        "ordinary_explanations": [
+          {
+            "claim": "A short document could concern a different legal framework, a statutory exception or an amended already-noticed extension; an administrative error or unlawful practice are also untested possibilities.",
+            "evidence_ids": [
+              "CA-SCOPE",
+              "CA-EXCEPTIONS"
+            ]
+          },
+          {
+            "claim": "A public agenda attachment can precede the signed contract and omit incorporated policies. Absence in this bounded packet is not proof that no policy, review or correction exists.",
+            "evidence_ids": [
+              "CM-AUTHORITY",
+              "CM-CONTROL"
+            ]
+          }
+        ],
+        "residuals": [
+          "Current signed operating agreement, incorporated resident rules and amendments not verified; City records portal displayed instructions without searchable results in the text tool.",
+          "Named operator, funder and proposed City control do not by themselves establish all statutory coverage conditions or an accessible grievance decisionmaker.",
+          "Original legal baseline/version and official-text access limits remain; no retrospective application of a 2026 version to a 2023 incident.",
+          "Notice delivery, exceptions, review decisions, compliance, actual correction, occupied/available rooms and protective outcomes remain UNKNOWN.",
+          "No resident facts, statewide denominator, financial-misconduct evidence or actual closure record collected.",
+          "Posted lease has a Berkeley Inn naming anomaly and blank signatures; full source dates and contrary qualifiers are preserved."
+        ],
+        "rest_until": "Separately reviewed executed agreement/policy packet arrives; no collector or outbound request is activated.",
+        "safeguard_id": "SG-CAMPUS-NOTICE",
+        "scope": "Campus Motel at 1619 University Avenue, Berkeley: classify one historical public contract/lease packet and retained legal baseline; no resident incident or current legal adjudication.",
+        "title": "Campus Motel: public packet incomplete; notice and remedy practice unknown"
+      }
+    },
+    "status": "supplied review; no canonical admission",
+    "version": "safeguard-state-1"
+  }
+}

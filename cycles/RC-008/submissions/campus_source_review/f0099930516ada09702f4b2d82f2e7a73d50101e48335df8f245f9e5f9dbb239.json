@@ -1,0 +1,58 @@
+{
+  "agent": "campus_source_review",
+  "at": "2026-10-22T09:19:38.756349+00:00",
+  "base_hash": "16d04f8bb35a588caca60517f90a11944cfbafac7951402d059a6d6131de97b7",
+  "cycle_id": "RC-008",
+  "payload": {
+    "agent": "campus_source_review",
+    "base_commit": "43825f0e99e35bd59e10aa33208fef18e7d4706b",
+    "blocking_findings": [],
+    "confirmed": [
+      "No current executed contract, universal seven-day rule, unlawful resident removal, observed failure, fraud, actual closure or verified correction is asserted.",
+      "Inherited scoped statutory baseline, event/publication/retrieval dates and legal-version access limits remain separate from program applicability and practice.",
+      "City transaction records share lineage, wrapper republication retains March 28, 2025 provenance, and June 2026 budget remains index-only.",
+      "Both relays preserve conditional expectations and UNKNOWN resident origin, dispatch, receipt, action, outcome and verification; no deadline or systemic pattern is inferred.",
+      "Blank signatures, property-name anomaly, lawful-measures qualifier, possible ordinary explanations and unverified support capacities remain visible.",
+      "No private resident facts identified in the authored files reviewed."
+    ],
+    "corrections_verified": [
+      {
+        "detail": "Proposed City Clerk filing expectation is explicitly distinguished from unknown existence/current availability in source CM01, generated view, next-test required_record and both handoffs.",
+        "id": "CM-REVIEW-1",
+        "result": "corrected"
+      },
+      {
+        "detail": "CM-FUNDING cites S-CM03 PDF p.4 item7 for the rounded agenda ceiling in safeguard and both relay evidence lists; generated view carries both citations.",
+        "id": "CM-REVIEW-2",
+        "result": "corrected"
+      }
+    ],
+    "cycle_id": "RC-008",
+    "disposition": "pass_with_explicit_limits",
+    "evidence_cutoff": "2026-10-21",
+    "limits": [
+      "No fresh statutory or program research in final recheck.",
+      "No final implementation/code audit or test-suite execution by this reviewer.",
+      "Review does not establish actual legal duties, staff availability, resident outcomes or public completeness of records."
+    ],
+    "preceding_checkpoint": "cycles/RC-008/inbox/campus_source_review-packet-checkpoint.json",
+    "reviewed_at_utc": "2026-10-22T09:18:34.250887+00:00",
+    "reviewed_sha256": {
+      "operations/shelter-accountability/campus-motel/case.json": "37914cc7e1f341c52e2a380187abbfd118284c16fff09f3b272fbb0d27cee0a2",
+      "operations/shelter-accountability/campus-motel/relay-journal.json": "a302c98858a30090aa033e265c08b64cee9b20d8ed053b51e12cd6e3edefecc6",
+      "operations/shelter-accountability/campus-motel/relay-references.json": "308c6bf5ef7107c192f2a1ecb25b660f199432a742cfba4327ea91b4c0cab1e1",
+      "operations/shelter-accountability/campus-motel/safeguard-journal.json": "d9241aa83c0afd12bee05c69b32002e160ef3698364954a3c02e9ca75953bb66",
+      "operations/shelter-accountability/campus-motel/safeguard-references.json": "08fcf251a1e771d96e96262c0004571cd83fbc090ee00d54b37d4753dfd1ab57",
+      "reports/shelter-accountability/campus-motel/CHAT_HANDOFF.md": "da32d0849ba7c7f93d85eaafa762b713b32234f21fc6778fdaab8ef91c2a47bc",
+      "reports/shelter-accountability/campus-motel/DIGEST_HANDOFF.md": "9e1166ca4f8beebf7556545c4491ff4bcecf28e039359993dbaf5e03e072847d",
+      "reports/shelter-accountability/campus-motel/events.json": "9332258841bace4a5a451ad1b474ac76cf720e6f7b52613907d332000d01a687",
+      "reports/shelter-accountability/campus-motel/generated/CAMPUS.md": "be11cf54573f253b9b7ae2f2ca111fe63ef03f462b6f375420daf3f0a9472ac3",
+      "reports/shelter-accountability/campus-motel/sources.json": "ff684455d7158a63aef3265dd19ad2db98c6b754665a6508e9b4a78cbd699eeb"
+    },
+    "scope": "Final assembled claim, date, classification and shared-reference review; independent of assembly, not independent empirical replication, implementation review or legal adjudication.",
+    "status": "submitted"
+  },
+  "payload_hash": "ec4e62f7affde0b1d5b4da841c2d0b3b3f2ddea7d230f8afee62f42b5d8bb954",
+  "phase": "submitted",
+  "submission_id": "f0099930516ada09702f4b2d82f2e7a73d50101e48335df8f245f9e5f9dbb239"
+}

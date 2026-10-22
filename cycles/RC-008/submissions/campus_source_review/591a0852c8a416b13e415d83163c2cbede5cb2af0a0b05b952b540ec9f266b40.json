@@ -1,0 +1,33 @@
+{
+  "agent": "campus_source_review",
+  "at": "2026-10-22T09:19:38.627805+00:00",
+  "base_hash": "16d04f8bb35a588caca60517f90a11944cfbafac7951402d059a6d6131de97b7",
+  "cycle_id": "RC-008",
+  "payload": {
+    "agent": "campus_source_review",
+    "base_commit": "43825f0e99e35bd59e10aa33208fef18e7d4706b",
+    "capture": "digestion/threshold/research/2026-10-21-campus-motel/tool-captures/campus-source-review.json",
+    "cycle_id": "RC-008",
+    "evidence_cutoff": "2026-10-21",
+    "findings": [
+      "Council adoption establishes authorization, not the current executed contract or paid/delivered services.",
+      "The City–owner occupancy agreement is distinct from the Insight service contract and participant residency policy; the posted occupancy signature/date fields are blank in text extraction.",
+      "Schedule 7 D's immediate-removal and ten-day language is qualified by lawful measures, warrants legal/policy review, and is not a documented seven-day resident notice or violation.",
+      "Program control is a responsibility lead; current grievance decisionmaker and corrective authority in the executed policy remain unverified.",
+      "Section 1's Berkeley Inn name conflicts with the otherwise Campus/Super8 address/owner and is preserved as a drafting anomaly."
+    ],
+    "limitations": [
+      "No review of final assembled code/data.",
+      "No independent empirical observation; multiple City records share institutional lineage.",
+      "No refreshed statutory law or individual legal opinion.",
+      "Search screenshot placeholders were supplemented by visual inspection of coordinator-rendered Item 06 pages 19, 20 and 23; source-byte retrieval was shared, not independent."
+    ],
+    "next_test": "One executed current operating agreement/amendments/incorporated resident termination/grievance packet, with dates and responsible decisionmaker.",
+    "report": "reports/shelter-accountability/campus-motel/SOURCE_REVIEW.md",
+    "scope": "Three supplied City primary records and inherited statutory-baseline limitations; no resident-case investigation or current contract search.",
+    "status": "submitted"
+  },
+  "payload_hash": "958c70ae897f54cd887cffc96e5cfc0c6309ea3110a9252bcccc52cccfd97fec",
+  "phase": "submitted",
+  "submission_id": "591a0852c8a416b13e415d83163c2cbede5cb2af0a0b05b952b540ec9f266b40"
+}

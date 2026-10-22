@@ -1,0 +1,51 @@
+{
+  "agent": "coordinator",
+  "base_commit": "43825f0e99e35bd59e10aa33208fef18e7d4706b",
+  "corrections": [
+    "Before first publication, qualified proposed City Clerk filing as unverified custody/availability and added CM03 for the rounded agenda amount. Reviewer checkpoints retain prior draft hashes.",
+    "Documented fixed case framing: a future changed conclusion requires a reviewed projection update alongside an append-only journal entry."
+  ],
+  "cycle_id": "RC-008",
+  "evidence_cutoff": "2026-10-21",
+  "findings": [
+    "Council authorization and historical proposed property/operator arrangements are documented. Execution, current duties and accessible grievance authority remain unverified.",
+    "Proposed removal wording is retained with its lawful-measures qualification, blank signature fields and property-name anomaly; no actual resident violation inferred.",
+    "One resting HOMELESSNESS Garden pass reuses shared safeguards, relays and source lineage; actual notice delivery, correction and protective outcomes remain UNKNOWN."
+  ],
+  "next_test": {
+    "max_records": 1,
+    "question": "Which executed Insight Housing operating agreement and incorporated resident notice/grievance policy, including amendments effective October 21, 2026, govern Campus Motel and identify who can order correction or readmission?",
+    "required_record": "One executed operating agreement packet with incorporated policies and relevant amendments. Item07 p.5 proposes filing signed copies with City Clerk; existence and current availability were not verified.",
+    "status": "proposed_only",
+    "stop_condition": "Classify one packet; no resident dossier, broad search, complaint or records request sent.",
+    "supports_if": "Authenticated current terms establish notice, grievance and correction duties; separate practice records would still be needed for effectiveness.",
+    "weakens_if": "Terms differ, exclude this framework, are superseded or remain unavailable; preserve that result without inferring noncompliance."
+  },
+  "outputs": [
+    "reports/shelter-accountability/campus-motel/generated/CAMPUS.md",
+    "reports/shelter-accountability/campus-motel/generated/GARDEN.json",
+    "reports/shelter-accountability/campus-motel/CHAT_HANDOFF.md",
+    "reports/shelter-accountability/campus-motel/DIGEST_HANDOFF.md",
+    "reports/shelter-accountability/campus-motel/VALIDATION.md"
+  ],
+  "parent_question_id": "Q-CA-SHELTER-NOTICE",
+  "question_id": "Q-CAMPUS-AGREEMENT",
+  "recorded_at": "2026-10-22T09:20:53.154884+00:00",
+  "result": "historical_public_packet_incomplete",
+  "review_limits": "Independent challenge of shared source material and implementation; not independent empirical observation, source authentication or legal adjudication.",
+  "reviews": [
+    "cycles/RC-008/inbox/campus_source_review-final-packet.json",
+    "cycles/RC-008/inbox/campus_replay_review-post-correction.json"
+  ],
+  "scope": "One bounded public Campus Motel program packet; current executed operator agreement and incorporated notice/grievance policy not verified.",
+  "status": "submitted",
+  "stop": "Bounded case complete; RC-008 remains review intake, no canonical admission. No resident dossier, new Bee, provider call, schedule, Governor change or outbound records request. ORA remains separate.",
+  "validation": {
+    "canonical_sha256": "16d04f8bb35a588caca60517f90a11944cfbafac7951402d059a6d6131de97b7",
+    "canonical_validation": "52 signals, 26 links, 109 sources; all ten sections passed",
+    "existing_replays": "Continuity, retained Camp, safeguards, relays and shelter all passed",
+    "full_local_suite_before_editorial_correction": "247 passed",
+    "post_correction_replay": "3 exact outputs; 10 steps; 1 resting branch; 0 model calls",
+    "post_correction_targeted_tests": "7 passed"
+  }
+}

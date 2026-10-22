@@ -1,0 +1,24 @@
+{
+  "cycle_id": "RC-008",
+  "agent": "campus_source_review",
+  "status": "submitted",
+  "scope": "Three supplied City primary records and inherited statutory-baseline limitations; no resident-case investigation or current contract search.",
+  "evidence_cutoff": "2026-10-21",
+  "base_commit": "43825f0e99e35bd59e10aa33208fef18e7d4706b",
+  "findings": [
+    "Council adoption establishes authorization, not the current executed contract or paid/delivered services.",
+    "The City–owner occupancy agreement is distinct from the Insight service contract and participant residency policy; the posted occupancy signature/date fields are blank in text extraction.",
+    "Schedule 7 D's immediate-removal and ten-day language is qualified by lawful measures, warrants legal/policy review, and is not a documented seven-day resident notice or violation.",
+    "Program control is a responsibility lead; current grievance decisionmaker and corrective authority in the executed policy remain unverified.",
+    "Section 1's Berkeley Inn name conflicts with the otherwise Campus/Super8 address/owner and is preserved as a drafting anomaly."
+  ],
+  "report": "reports/shelter-accountability/campus-motel/SOURCE_REVIEW.md",
+  "capture": "digestion/threshold/research/2026-10-21-campus-motel/tool-captures/campus-source-review.json",
+  "limitations": [
+    "No review of final assembled code/data.",
+    "No independent empirical observation; multiple City records share institutional lineage.",
+    "No refreshed statutory law or individual legal opinion.",
+    "Search screenshot placeholders were supplemented by visual inspection of coordinator-rendered Item 06 pages 19, 20 and 23; source-byte retrieval was shared, not independent."
+  ],
+  "next_test": "One executed current operating agreement/amendments/incorporated resident termination/grievance packet, with dates and responsible decisionmaker."
+}

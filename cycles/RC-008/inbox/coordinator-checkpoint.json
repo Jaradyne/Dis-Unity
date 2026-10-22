@@ -1,0 +1,18 @@
+{
+  "cycle_id": "RC-008",
+  "agent": "coordinator",
+  "status": "checkpoint",
+  "scope": "One public Campus Motel Berkeley operating agreement or incorporated policy packet; classify responsibility, funding, notice/grievance and corrective authority.",
+  "question_id": "Q-CAMPUS-AGREEMENT",
+  "parent_question": "Q-CA-SHELTER-NOTICE",
+  "evidence_cutoff": "2026-10-21",
+  "base_commit": "43825f0e99e35bd59e10aa33208fef18e7d4706b",
+  "findings": [
+    "Task selected; no operative agreement or practice outcome yet verified."
+  ],
+  "constraints": [
+    "Public program records only; no private resident facts.",
+    "One bounded packet; no canonical admission, new Bees, provider calls, schedules, Governor changes or outbound contact."
+  ],
+  "next": "Locate executed agreement and amendments; distinguish authorized expenditure, executed duty and observed protection."
+}

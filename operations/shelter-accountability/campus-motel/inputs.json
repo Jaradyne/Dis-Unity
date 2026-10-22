@@ -1,0 +1,21 @@
+{
+  "sha256": {
+    "config/garden-traversal.json": "cabe4d51ecca052abfcb386dc1e3f8b97cc440a23d6a15bf955b40b8719f8e18",
+    "digestion/threshold/research/2026-10-21-campus-motel/http/lease-response.json": "fd269bb32dc394c170472815c3ce0d0afa2cacee8a57a1a1ce1e2ddb4cf1dfb8",
+    "digestion/threshold/research/2026-10-21-campus-motel/tool-captures/budget-access.json": "baf031e2e9bd007bd3153ddd1b598beedabcf1b9242b46236ef690346ec47b0e",
+    "digestion/threshold/research/2026-10-21-campus-motel/tool-captures/campus-close-search.json": "70359b490155bb5f6f7f293811a58468488030b8dea0e853df0e1fd67d0d5f38",
+    "digestion/threshold/research/2026-10-21-campus-motel/tool-captures/campus-open1.json": "40db2b52d4dc6206856a33211f6f0390b99a14b7691477923a1f82a433f66ca5",
+    "digestion/threshold/research/2026-10-21-campus-motel/tool-captures/campus-operating-terms.json": "8aaa4f56810c24aecb590b4a595cbce0f0c7e0acf3ffe75c0ee9d91d39714964",
+    "digestion/threshold/research/2026-10-21-campus-motel/tool-captures/campus-packet-detail.json": "d45d1507a01c7a59cc61257e4c546d649bf9acab03aadb6bd82def075778d876",
+    "digestion/threshold/research/2026-10-21-campus-motel/tool-captures/campus-packet.json": "dbbd63811ada3eb69b57327a9e6a99f315ab5f974a6c877700e7f49cc7aeb28c",
+    "digestion/threshold/research/2026-10-21-campus-motel/tool-captures/campus-source-review.json": "f36f1973a75ddad2799e3d5556ec3c390369fed5a2fd1111e95a03e01ec1230c",
+    "operations/shelter-accountability/campus-motel/case.json": "37914cc7e1f341c52e2a380187abbfd118284c16fff09f3b272fbb0d27cee0a2",
+    "operations/shelter-accountability/campus-motel/relay-journal.json": "a302c98858a30090aa033e265c08b64cee9b20d8ed053b51e12cd6e3edefecc6",
+    "operations/shelter-accountability/campus-motel/relay-references.json": "308c6bf5ef7107c192f2a1ecb25b660f199432a742cfba4327ea91b4c0cab1e1",
+    "operations/shelter-accountability/campus-motel/safeguard-journal.json": "d9241aa83c0afd12bee05c69b32002e160ef3698364954a3c02e9ca75953bb66",
+    "operations/shelter-accountability/campus-motel/safeguard-references.json": "08fcf251a1e771d96e96262c0004571cd83fbc090ee00d54b37d4753dfd1ab57",
+    "reports/shelter-accountability/campus-motel/events.json": "9332258841bace4a5a451ad1b474ac76cf720e6f7b52613907d332000d01a687",
+    "reports/shelter-accountability/campus-motel/sources.json": "ff684455d7158a63aef3265dd19ad2db98c6b754665a6508e9b4a78cbd699eeb"
+  },
+  "version": "campus-inputs-1"
+}
