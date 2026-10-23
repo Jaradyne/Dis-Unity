@@ -1,0 +1,32 @@
+{
+  "task_name": "campus_agreement_bee",
+  "canonical_task_name": "/root/campus_agreement_bee",
+  "role": "Worker Bee",
+  "role_definition": "agents/worker_bee.json",
+  "runtime": "Work-session collaboration agent",
+  "provider": "unknown",
+  "served_model_id": "unknown",
+  "provider_cost": "unknown",
+  "api_receipt": "not applicable; no external model API use",
+  "question_id": "Q-CAMPUS-AGREEMENT",
+  "question_epoch": 1,
+  "parent_question_id": "Q-CA-SHELTER-NOTICE",
+  "question_registration": "case-local anchor; no shared live registration claimed",
+  "start_date_utc": "2026-10-22",
+  "started_at_utc": "2026-10-22T17:12:09.493931+00:00",
+  "source_cutoff": "2026-10-22",
+  "base_commit": "9555a73a9dae97033cb8c85580ffb33691e5285f",
+  "cycle": "RC-009",
+  "status": "started",
+  "scope": "One bounded public research pass to locate the executed/current Insight Housing operating agreement for Campus Motel/Super 8 at 1619 University Avenue, incorporated resident termination/grievance/accommodation policies, amendments and named corrective authority; distinct lawful public records path; no contacts, private cases, external model calls, spending, recursive agents, canonical state or existing case edits.",
+  "limits": {
+    "search_queries": 8,
+    "source_page_opens": 12
+  },
+  "completed": {
+    "search_queries": 0,
+    "source_page_opens": 0
+  },
+  "evidence_status": "review intake only; no canonical admission",
+  "initial_context": "Prior generated Campus report read as inherited context, not fresh evidence."
+}

@@ -1,0 +1,27 @@
+{
+  "attempt_id": null,
+  "coverage": "recorded_exchanges",
+  "materials": [
+    {
+      "path": "operations/week-one/runs/campus_agreement_bee/api/0001.json",
+      "sha256": "c97d1188d3121bda2d1ce8477d9cae4e682ff068f02884cd8157f79aed5ee5ae",
+      "url": "https://github.com/Jaradyne/Dis-Unity/blob/week-one-state/operations/week-one/runs/campus_agreement_bee/api/0001.json"
+    },
+    {
+      "path": "operations/week-one/runs/campus_agreement_bee/api/0002.json",
+      "sha256": "6b089dbf9a4f4e79786d6fce40ac52866beb6f759486bd248cfed3cdb2a0fbb6",
+      "url": "https://github.com/Jaradyne/Dis-Unity/blob/week-one-state/operations/week-one/runs/campus_agreement_bee/api/0002.json"
+    }
+  ],
+  "meaning": "Capture and delivery only; not a Governor review, digestion result or canonical admission.",
+  "operator_disposition": null,
+  "question_id": null,
+  "record_ids": [
+    "API-campus_agreement_bee-0001",
+    "API-campus_agreement_bee-0002"
+  ],
+  "run_id": "campus_agreement_bee",
+  "run_status": null,
+  "schema_version": "digestion-api-materials-1",
+  "status": "available_for_digestion"
+}

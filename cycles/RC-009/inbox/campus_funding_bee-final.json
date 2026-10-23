@@ -1,0 +1,419 @@
+{
+  "schema_version": "campus-live-bee-return-1",
+  "task_name": "campus_funding_bee",
+  "canonical_task_name": "/root/campus_funding_bee",
+  "role": "worker_bee",
+  "runtime": "Work-session collaboration agent",
+  "model_identity": "unknown",
+  "provider_identity": "unknown",
+  "provider_cost": "unknown",
+  "api_receipt": "No model API receipt; public HTTP exchange is separately recorded.",
+  "started_at_utc": "2026-10-22T17:12:05.187421+00:00",
+  "completed_at_utc": "2026-10-22T17:18:33.769757+00:00",
+  "base_commit": "9555a73a9dae97033cb8c85580ffb33691e5285f",
+  "source_cutoff": "2026-10-22",
+  "question": {
+    "id": "Q-CAMPUS-AGREEMENT",
+    "epoch": 1,
+    "parent": "Q-CA-SHELTER-NOTICE",
+    "registration": "Case-local research anchor; no shared live registration claimed"
+  },
+  "cycle": "RC-009",
+  "admission_status": "Review intake only; no canonical admission",
+  "status": "bounded_research_complete_ready_for_peer_challenge",
+  "summary": "The prior June 2026 index lead is now verified in the full City proposal packet. A Council action record confirms budget adoption with revisions; the reviewed amendments do not explicitly restore Campus. A final Campus-specific funding line and actual closure or relocation remain unverified. An undated contrary profile repeats 23 rooms and funding through June 30, 2027, without establishing current capacity.",
+  "claims": [
+    {
+      "id": "CF-PROPOSAL",
+      "claim": "The June 23 staff budget packet expressly anticipates discontinuing the Campus Motel shelter program in FY2027 because continuing funding has not been identified and existing funding is scheduled to end.",
+      "epistemic_status": "verified_primary_proposal_text",
+      "source_ids": [
+        "S-CF01"
+      ],
+      "locator": "PDF p.33, internal p.25",
+      "inference": false,
+      "limits": "This is forward-looking budget narrative, not an observed termination, notice, closure date or outcome."
+    },
+    {
+      "id": "CF-ADOPTION",
+      "claim": "The June 23 annotated agenda records unanimous adoption of Resolution 72,340-N.S., adopting the FY2027/FY2028 budget with specified revised materials and Council changes. It separately records only first reading of the FY2027 appropriations ordinance at that meeting.",
+      "epistemic_status": "verified_official_action_record",
+      "source_ids": [
+        "S-CF02"
+      ],
+      "locator": "PDF pp.3-5",
+      "inference": false,
+      "limits": "A consolidated final Campus-specific line, second-reading ordinance, later amendments and payments were not verified."
+    },
+    {
+      "id": "CF-REVISION",
+      "claim": "No explicit Campus continuation or restoration was found in the two reviewed City Manager supplements or the annotated agenda's listed Council changes. This makes the original funding-discontinuation warning materially stronger than the inherited snippet, while the final Campus-specific appropriation remains unverified.",
+      "epistemic_status": "bounded_document_comparison_and_inference",
+      "source_ids": [
+        "S-CF01",
+        "S-CF02",
+        "S-CF03",
+        "S-CF04"
+      ],
+      "inference": true,
+      "limits": "Not an exhaustive search of every later budget action, contract amendment, accounting system or unextracted content. Do not relabel the original proposal PDF as the final consolidated budget."
+    },
+    {
+      "id": "CF-AGENCY-ALLOCATION",
+      "claim": "The revised FY2027 Community Agency List includes a $1,468,050 Measure P allocation to Insight Housing, along with other agency allocations. It does not name the program served by that amount.",
+      "epistemic_status": "verified_primary_allocation_table",
+      "source_ids": [
+        "S-CF04"
+      ],
+      "locator": "PDF p.3, web lines 93-99",
+      "inference": false,
+      "limits": "Cannot assign the amount to Campus, treat it as a Campus continuation appropriation, infer spending or calculate cost per person."
+    },
+    {
+      "id": "CF-CONTRARY-PROFILE",
+      "claim": "An undated All Home Campus profile describes 23 private rooms and Measure P supplementation through June 30, 2027.",
+      "epistemic_status": "attributed_undated_program_description",
+      "source_ids": [
+        "S-CF05"
+      ],
+      "locator": "Web lines 18-22",
+      "inference": false,
+      "limits": "Unknown publication/update/observation date and underlying source. It does not establish an active funded service as of October 22, 2026 or corroborate current capacity independently."
+    },
+    {
+      "id": "CF-CURRENT-CAPACITY",
+      "claim": "The 23-room figure remains a historical or repeatedly published nominal description; current occupied, available, accessible and staffed capacity has not been verified.",
+      "epistemic_status": "unknown_current_capacity",
+      "source_ids": [
+        "S-CF05",
+        "INHERITED-S-CM04"
+      ],
+      "inference": true,
+      "limits": "No inspection, occupancy report or dated operating census was reviewed."
+    },
+    {
+      "id": "CF-OUTCOME",
+      "claim": "Actual Campus closure, service-through date, participant notice, relocation, replacement acceptance and sustained protective outcome remain unverified in this bounded pass.",
+      "epistemic_status": "unknown_not_absence_claim",
+      "source_ids": [
+        "S-CF01",
+        "S-CF02",
+        "S-CF03",
+        "S-CF04",
+        "S-CF05",
+        "S-CF06"
+      ],
+      "inference": false,
+      "limits": "No resident investigation or contact was performed; search misses and extraction limits do not prove absence."
+    }
+  ],
+  "sources": [
+    {
+      "id": "S-CF01",
+      "title": "June 23, 2026 Special Item 01 budget adoption staff packet",
+      "url": "https://berkeleyca.gov/sites/default/files/2026-06/2026-06-23%20Special%20Item%2001%20Adoption%20of%20Fiscal%20Years%202027%20and%202028.pdf",
+      "publisher": "City of Berkeley",
+      "lineage_family": "City FY2027-FY2028 budget transaction",
+      "document_date": "2026-06-23",
+      "publication_date": null,
+      "publication_note": "Exact publication date unknown; origin HTTP Last-Modified is 2026-06-18T22:13:47Z, not proof of publication or content adoption.",
+      "observation_or_event_date": "Proposal for FY2027/FY2028; no observed closure date",
+      "retrieval_utc": "2026-10-22T17:13:23.817144+00:00",
+      "access_level": "Full origin PDF via recorded public GET; relevant page extracted and visually checked",
+      "locator": "PDF p.33 of 260, internal City Manager narrative p.25, Homeless Response Team paragraph; pp.1 and 6-8 define proposal and draft resolution; p.259 lists agency allocations",
+      "tool_source_refs": [
+        "turn33search0",
+        "turn42search0",
+        "turn46search0",
+        "turn36view0"
+      ],
+      "tool_ref_limit": "Search refs establish discovery; turn36view0 is size-limit failure. Full source evidence is saved origin HTTP receipt, not a successful web-reader open.",
+      "receipt_path": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_funding_bee-http/operations/week-one/runs/campus_funding_bee-budget/api/0001.json",
+      "response_bytes": 15948849,
+      "body_sha256": "1556cdd4f90d36be5e568674a1cbed9b9da6bae1f2e79d143a7502532124ddf6",
+      "source_pdf_local": "/workspace/scratch/63e791c4bf6d/campus_funding_bee-budget.pdf",
+      "visual_review_local": "/workspace/scratch/63e791c4bf6d/campus_funding_bee-budget-p33.png"
+    },
+    {
+      "id": "S-CF02",
+      "title": "June 23, 2026 annotated Special Council agenda",
+      "url": "https://berkeleyca.gov/sites/default/files/city-council-meetings/2026-06-23%20Annotated%20Agenda%20-%20Council.pdf",
+      "publisher": "City of Berkeley",
+      "lineage_family": "City FY2027-FY2028 budget transaction",
+      "document_date": "2026-06-23",
+      "publication_date": null,
+      "observation_or_event_date": "2026-06-23 Council action",
+      "retrieval_utc": "2026-10-22T17:13:49.864Z",
+      "access_level": "Opened public PDF, full relevant action text available",
+      "locator": "PDF pp.3-4, Item 1 action; web lines 97-185. Page 5, Item 2 first-reading appropriations action, lines 188-200.",
+      "tool_source_refs": [
+        "turn42search6",
+        "turn44view0"
+      ],
+      "capture_path": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_funding_bee-04.json"
+    },
+    {
+      "id": "S-CF03",
+      "title": "City Manager revised budget material, Supplemental Packet 2",
+      "url": "https://berkeleyca.gov/sites/default/files/2026-06/Supp%202%20Packet%20-%206.23.26%20%231%20Adoption%20of%20FY%2027-FY28%20&%20FY27-FY31%20CIP-Rev%20Agenda%20Material%20Cover.pdf",
+      "publisher": "City of Berkeley",
+      "lineage_family": "City FY2027-FY2028 budget transaction",
+      "document_date": "2026-06-23",
+      "publication_date": null,
+      "observation_or_event_date": "2026-06-23 proposed revisions",
+      "retrieval_utc": "2026-10-22T17:14:47.208Z",
+      "access_level": "Opened public 17-page PDF; text checked; exact Campus and Measure P finds returned no matches",
+      "locator": "PDF pp.1-2 purpose; pp.5-17 revised revenues/expenditures; web lines 14-19 and 178-417",
+      "tool_source_refs": [
+        "turn51view0",
+        "turn53view1",
+        "turn53view3"
+      ],
+      "capture_paths": [
+        "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_funding_bee-07.json",
+        "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_funding_bee-08.json"
+      ],
+      "limits": "Negative text find is bounded to extractable text; not evidence that no amendment exists elsewhere."
+    },
+    {
+      "id": "S-CF04",
+      "title": "City Manager revised Community Agency List, Supplemental Packet 3",
+      "url": "https://berkeleyca.gov/sites/default/files/2026-06/Supp%203%20Packet%20-%206.23.26%20%231%20Adoption%20of%20FY%2027-FY28%20&%20FY27-FY31%20CIP-Rev%20Agenda%20Material%20Cover.pdf",
+      "publisher": "City of Berkeley",
+      "lineage_family": "City FY2027-FY2028 budget transaction",
+      "document_date": "2026-06-23",
+      "publication_date": null,
+      "observation_or_event_date": "FY2027 allocation table at June 23 adoption",
+      "retrieval_utc": "2026-10-22T17:15:08.594Z",
+      "access_level": "Opened public 3-page PDF; full returned text available",
+      "locator": "PDF p.1 revision purpose; PDF p.3 Insight Housing entries; web lines 93-99",
+      "tool_source_refs": [
+        "turn51view1",
+        "turn53view0",
+        "turn53view2",
+        "turn53view4"
+      ],
+      "capture_paths": [
+        "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_funding_bee-07.json",
+        "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_funding_bee-08.json"
+      ],
+      "limits": "Agency and funding-source amounts lack Campus-specific program labels; allocation is not expenditure/payment."
+    },
+    {
+      "id": "S-CF05",
+      "title": "The Campus program profile",
+      "url": "https://www.allhomeca.org/solutions/the-campus/",
+      "publisher": "All Home",
+      "lineage_family": "All Home descriptive partner profile; underlying data provenance unstated",
+      "document_date": null,
+      "publication_date": null,
+      "observation_or_event_date": null,
+      "retrieval_utc": "2026-10-22T17:13:27.534Z",
+      "access_level": "Opened public HTML; publication/update date not displayed",
+      "locator": "Web lines 18-22, especially rooms and funding-duration description",
+      "tool_source_refs": [
+        "turn33search5",
+        "turn42view0"
+      ],
+      "capture_path": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_funding_bee-03.json",
+      "limits": "Descriptive partner profile, not a City appropriations or payment record; photos credited to Insight Housing. No independent inspection or data-refresh date established."
+    },
+    {
+      "id": "S-CF06",
+      "title": "Insight Housing emergency housing page and June 2026 newsletter landing page",
+      "urls": [
+        "https://insighthousing.org/what-we-do/emergency-shelter/",
+        "https://insighthousing.org/june-2026-newsletter/"
+      ],
+      "publisher": "Insight Housing",
+      "lineage_family": "Operator self-publication",
+      "document_date": null,
+      "publication_date": null,
+      "observation_or_event_date": "June 2026 is newsletter title, not verified publication or operating-status date",
+      "retrieval_utc": "2026-10-22T17:13:49.864Z",
+      "access_level": "Public HTML opened; emergency page returns general shelter descriptions; newsletter extraction returns heading only",
+      "locator": "Emergency page lines 24-35; newsletter heading lines 25-27",
+      "tool_source_refs": [
+        "turn44view1",
+        "turn44view2"
+      ],
+      "capture_path": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_funding_bee-04.json",
+      "limits": "No Campus-specific current status was established by the returned text. Operator self-report; absence in extraction does not prove no update exists."
+    },
+    {
+      "id": "S-CF07",
+      "title": "June 23 Special Meeting eAgenda, document link index",
+      "url": "https://berkeleyca.gov/city-council-special-meeting-eagenda-june-23-2026",
+      "publisher": "City of Berkeley",
+      "lineage_family": "City FY2027-FY2028 budget transaction",
+      "document_date": "2026-06-23",
+      "publication_date": null,
+      "retrieval_utc": "2026-10-22T17:14:36.531Z",
+      "access_level": "Opened public HTML",
+      "locator": "Web lines 61-68 link Item 1 and City Manager Supplements 2 and 3",
+      "tool_source_refs": [
+        "turn50view0"
+      ],
+      "capture_path": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_funding_bee-06.json",
+      "limits": "Agenda recommendations and document links are not adoption evidence; S-CF02 records action."
+    }
+  ],
+  "funding_and_continuity_stages": {
+    "announcement_or_proposal": "Verified: discontinuation anticipated in FY2027 proposal narrative.",
+    "budget_adoption": "Verified: Resolution 72,340-N.S. adopted June 23 with revisions. Campus-specific consolidated final line not verified.",
+    "appropriation": "June 23 first reading verified; final ordinance/second reading and Campus-specific appropriated amount not examined.",
+    "execution": "Current executed Campus operating/funding amendment not verified by this worker.",
+    "payment": "No Campus-specific expenditure/payment record verified.",
+    "service_delivery": "No dated present program operation or cessation record verified.",
+    "protective_outcome": "No relocation, acceptance or sustained shelter/housing outcome verified."
+  },
+  "counterevidence_and_ordinary_explanations": [
+    {
+      "text": "All Home describes Measure P support through June 30, 2027 and 23 rooms. It may describe earlier plans or an interim service period within FY2027; its freshness is unknown. It cannot be resolved into a precise contradiction or present continuity guarantee without a dated funding record.",
+      "source_ids": [
+        "S-CF05"
+      ]
+    },
+    {
+      "text": "The City adopted a revised budget rather than the original proposal verbatim. The reviewed revisions do not explicitly restore Campus, but later or differently labeled funding remains possible.",
+      "source_ids": [
+        "S-CF02",
+        "S-CF03",
+        "S-CF04"
+      ]
+    },
+    {
+      "text": "Insight Housing receives a Measure P agency allocation in the revised list. Campus cannot be inferred as the beneficiary because the program label is absent.",
+      "source_ids": [
+        "S-CF04"
+      ]
+    },
+    {
+      "text": "The 2023 authorization through 2028 in inherited S-CM03 remains authorization, not guaranteed ongoing funding or proof of current operation.",
+      "source_ids": [
+        "INHERITED-S-CM03"
+      ]
+    }
+  ],
+  "changed_from_inherited_case": [
+    "The unreadable June23 budget lead is now a full HTTP-retrieved and visually checked primary proposal passage with exact page locator and hash.",
+    "Council budget adoption, resolution number and relevant City Manager revisions are newly verified.",
+    "A differently dated/undated funding-duration description and unresolved agency-level Measure P allocation are preserved as contrary context."
+  ],
+  "not_changed": [
+    "Current executed operating/resident policy remains outside this worker's verified evidence.",
+    "No actual closure, resident notice, relocation, payment or protective outcome established.",
+    "The 23-room figure is not a verified current available/occupied capacity.",
+    "Original case, peer files, code, configuration and canonical evidence unchanged."
+  ],
+  "one_narrow_next_test": "Inspect the first Campus-specific operating or funding amendment after June 23, 2026, if publicly available, for its funded-through date and explicit continuation or termination instruction.",
+  "stop_reason": "One relevant budget proposal -> Council adoption -> revised allocation chain completed; all 8 search queries and 12 source access operations used. No broad follow-on search authorized or performed.",
+  "bounds": {
+    "search_queries_used": 8,
+    "search_query_limit": 8,
+    "web_source_opens_and_clicks_used": 11,
+    "direct_public_GETs_used": 1,
+    "source_access_total": 12,
+    "source_access_limit": 12,
+    "find_requests_within_opened_sources": 4,
+    "external_model_API_calls": 0,
+    "recursive_agents": 0,
+    "outbound_contact": 0,
+    "private_account_or_resident_research": false
+  },
+  "access_limits": [
+    "Web reader rejected the 15,948,849-byte PDF; recorded origin GET succeeded. These are different access mechanisms, not independent sources.",
+    "Search engine 2 returned irrelevant results for two exact-domain queries; no absence inference drawn.",
+    "Initial guessed operator emergency-housing URL failed; observed homepage link led to accessible emergency-shelter page.",
+    "Newsletter landing-page extraction returned only the heading; no claim about the unreturned newsletter content.",
+    "No exhaustive post-June23 municipal archive or accounting search; no final consolidated adopted budget booklet inspected."
+  ],
+  "lineage_note": "S-CF01 through S-CF04 and S-CF07 are one City budget transaction family; search engines, republication and alternate access paths add no independent corroboration. All Home's underlying information provenance is not established. Insight pages are operator self-report.",
+  "tool_capture_inventory": [
+    {
+      "path": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_funding_bee-01.json",
+      "kind": "full returned web-tool response; not origin HTTP",
+      "retrieved_at_utc": "2026-10-22T17:12:39.576Z",
+      "bytes": 31652,
+      "sha256": "4da8f5ee93e4b2dea2b93dbdea31f4615753c975e894dbf00c984cf9a6318ea2",
+      "public_git_review": "Contains incidental operator testimonial reference and public social-search snippets; exclude raw capture from public Git pending coordinator review."
+    },
+    {
+      "path": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_funding_bee-02.json",
+      "kind": "full returned web-tool response; not origin HTTP",
+      "retrieved_at_utc": "2026-10-22T17:12:49.216Z",
+      "bytes": 32253,
+      "sha256": "42b5e7806b7cc45f21878c0c03ce63973a7775f5909af5e80c9d17052216bacb",
+      "public_git_review": "Unrelated search results include personal social-profile text and contact details; exclude raw capture from public Git pending coordinator review."
+    },
+    {
+      "path": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_funding_bee-03.json",
+      "kind": "full returned web-tool response; not origin HTTP",
+      "retrieved_at_utc": "2026-10-22T17:13:27.534Z",
+      "bytes": 32319,
+      "sha256": "518c53c180b1def994adddf2279add787b78fd0351a1221c3bf7615f16230f75",
+      "public_git_review": "No incidental personal narrative flagged by this worker; coordinator review still applies."
+    },
+    {
+      "path": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_funding_bee-04.json",
+      "kind": "full returned web-tool response; not origin HTTP",
+      "retrieved_at_utc": "2026-10-22T17:13:49.864Z",
+      "bytes": 24839,
+      "sha256": "eb9b7df7d3a5f6dfd95f37fa265fc73c34d69dffbb4ea8a9028725871844fce4",
+      "public_git_review": "Contains an incidental anonymous resident testimonial in operator page and public meeting participant names; exclude raw capture from public Git pending coordinator review."
+    },
+    {
+      "path": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_funding_bee-05.json",
+      "kind": "full returned web-tool response; not origin HTTP",
+      "retrieved_at_utc": "2026-10-22T17:14:10.902Z",
+      "bytes": 31470,
+      "sha256": "10dca1db32767d18a564f1c73234d3f2c467742651f4a93821f9e28dbe822ae0",
+      "public_git_review": "Contains incidental personal housing-search snippets and unrelated links; exclude raw capture from public Git pending coordinator review."
+    },
+    {
+      "path": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_funding_bee-06.json",
+      "kind": "full returned web-tool response; not origin HTTP",
+      "retrieved_at_utc": "2026-10-22T17:14:36.531Z",
+      "bytes": 13776,
+      "sha256": "1586e83586de6df7f99eca78dadd8432b9fb1be59543c4c80c29db07118d7210",
+      "public_git_review": "No incidental personal narrative flagged by this worker; coordinator review still applies."
+    },
+    {
+      "path": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_funding_bee-07.json",
+      "kind": "full returned web-tool response; not origin HTTP",
+      "retrieved_at_utc": "2026-10-22T17:14:47.208Z",
+      "bytes": 23479,
+      "sha256": "61d73d5e50953300c97fd06181c70885a98f9cdddc1c5461d674f7946082c3d9",
+      "public_git_review": "No incidental personal narrative flagged by this worker; coordinator review still applies."
+    },
+    {
+      "path": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_funding_bee-08.json",
+      "kind": "full returned web-tool response; not origin HTTP",
+      "retrieved_at_utc": "2026-10-22T17:15:08.594Z",
+      "bytes": 23722,
+      "sha256": "3a96cb4d87c092a460b2c1c2f9f96dfa4f562d57339468903a63f55a58d9b0f5",
+      "public_git_review": "No incidental personal narrative flagged by this worker; coordinator review still applies."
+    },
+    {
+      "path": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_funding_bee-http/operations/week-one/runs/campus_funding_bee-budget/api/0001.json",
+      "kind": "full origin HTTP exchange with credential/cookie redaction by repository recorder",
+      "started_at_utc": "2026-10-22T17:13:18.244137+00:00",
+      "retrieved_at_utc": "2026-10-22T17:13:23.817144+00:00",
+      "bytes": 21267429,
+      "sha256": "8f04c2cdeadf47d4af2158fbbce092a2da1b99eb80de67f858389380385c8550",
+      "origin_body_bytes": 15948849,
+      "origin_body_complete": true,
+      "origin_body_sha256": "1556cdd4f90d36be5e568674a1cbed9b9da6bae1f2e79d143a7502532124ddf6",
+      "public_git_review": "Official municipal budget PDF; large full-body record. Preserve original bytes; packaging is coordinator decision."
+    }
+  ],
+  "derived_local_materials": {
+    "budget_text": "/workspace/scratch/63e791c4bf6d/campus_funding_bee-budget.txt",
+    "budget_pdf": "/workspace/scratch/63e791c4bf6d/campus_funding_bee-budget.pdf",
+    "visual_page33": "/workspace/scratch/63e791c4bf6d/campus_funding_bee-budget-p33.png",
+    "durable_original_body": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_funding_bee-http/operations/week-one/runs/campus_funding_bee-budget/api/0001.json"
+  },
+  "publication_review_note": "Keep full originals. Raw captures 01, 02, 04 and 05 contain incidental personal/social/testimonial material and are flagged for exclusion from public Git; none was used as evidence. The raw origin PDF receipt is 21,267,429 bytes due to base64 encoding; do not silently truncate or replace it.",
+  "reflection": "The size-limit failure was a tool extraction limit, not missing evidence. Reading the proposal, adoption action and revisions separately prevented converting a projected funding end into an observed closure.",
+  "peer_challenge_status": "Awaiting one small peer challenge; no further broad search."
+}

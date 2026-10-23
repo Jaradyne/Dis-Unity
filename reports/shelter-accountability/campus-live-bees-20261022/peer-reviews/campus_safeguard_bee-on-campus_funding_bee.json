@@ -1,0 +1,156 @@
+{
+  "schema_version": "campus-live-bee-peer-review-1",
+  "reviewer": "campus_safeguard_bee",
+  "reviewed_worker": "campus_funding_bee",
+  "reviewed_at_utc": "2026-10-23T23:35:33.292527+00:00",
+  "runtime": "Work-session collaboration agent",
+  "served_model_id": "unknown",
+  "provider": "unknown",
+  "source_cutoff": "2026-10-22",
+  "execution_note": "Resumed October 23 after usage-limit interruption. Saved-material review only; no new network request. Not an uninterrupted execution.",
+  "question_id": "Q-CAMPUS-AGREEMENT",
+  "epoch": 1,
+  "review_scope": "Proposal/adoption/appropriation/execution/service/outcome distinctions; contrary All Home profile and unnamed Insight allocation.",
+  "reviewed_original": "reports/shelter-accountability/campus-live-bees-20261022/returns/campus_funding_bee.json",
+  "reviewed_original_sha256": "7c7a51d50ca423c9ebb8f045c03bc025980917bc370de7ce6630fd7b43cb57ee",
+  "disposition": "no_blocking_finding_with_synthesis_limits",
+  "summary": "The funding return preserves proposal, revised budget adoption and unverified actual closure/service outcomes. Its qualified inference is supported by the saved material examined. Keep all qualifications when synthesizing.",
+  "checks": [
+    {
+      "claim_ids": [
+        "CF-PROPOSAL"
+      ],
+      "result": "supported_with_original_limit",
+      "evidence": "Saved full-PDF text lines 1586\u20131594, corresponding to PDF p.33/internal p.25, expressly links the proposed FY2027 discontinuation to lack of identified continuing funding.",
+      "source_ids": [
+        "S-CF01"
+      ],
+      "tool_refs": [
+        "turn36view0"
+      ],
+      "tool_ref_limit": "The web reference is the reader size-limit failure; substantive text was checked in the worker saved PDF-derived text, not a successful tool open.",
+      "limit": "Staff budget narrative is not an observed closure, service-through date or notice event."
+    },
+    {
+      "claim_ids": [
+        "CF-ADOPTION"
+      ],
+      "result": "supported",
+      "evidence": "Saved turn44view0 lines 97\u2013107 and 185 record the carried Resolution 72,340-N.S. and All Ayes. Lines 195\u2013200 record first reading of Ordinance 8,029-N.S. with second reading scheduled.",
+      "source_ids": [
+        "S-CF02"
+      ],
+      "tool_refs": [
+        "turn44view0"
+      ],
+      "limit": "Use the carried motion, not the earlier failed motion. A scheduled second reading is not proof it occurred. Revised adoption does not itself establish Campus execution or participant outcomes."
+    },
+    {
+      "claim_ids": [
+        "CF-REVISION"
+      ],
+      "result": "supported_as_bounded_comparison_only",
+      "evidence": "Saved action record lists incorporated revised materials and Council changes; Supplemental 2 identifies revised fiscal impact/Exhibit C. No explicit Campus restoration was identified in the examined text.",
+      "source_ids": [
+        "S-CF02",
+        "S-CF03",
+        "S-CF04"
+      ],
+      "tool_refs": [
+        "turn44view0",
+        "turn51view0",
+        "turn53view0"
+      ],
+      "limit": "Absence of an explicit Campus label does not rule out differently labeled funds, unexamined final language or later amendments. Stronger than an index snippet means better verified proposal text; do not compress this into Council ordered closure."
+    },
+    {
+      "claim_ids": [
+        "CF-AGENCY-ALLOCATION"
+      ],
+      "result": "supported_with_program_attribution_limit",
+      "evidence": "Saved turn53view0/turn53view4 lines 86\u201399 show agency/funding-source columns and Insight Housing GF Measure P $1,468,050, without a Campus program column.",
+      "source_ids": [
+        "S-CF04"
+      ],
+      "tool_refs": [
+        "turn53view0",
+        "turn53view4"
+      ],
+      "limit": "An agency allocation cannot be assigned to Campus or treated as a payment, available bed or successful transition."
+    },
+    {
+      "claim_ids": [
+        "CF-CONTRARY-PROFILE",
+        "CF-CURRENT-CAPACITY"
+      ],
+      "result": "supported_as_undated_description",
+      "evidence": "Saved turn42view0 lines 18\u201322 describe 23 rooms, an interim program and Measure P supplementation through June 30, 2027; no observation/update date is displayed in the retained passage.",
+      "source_ids": [
+        "S-CF05"
+      ],
+      "tool_refs": [
+        "turn42view0"
+      ],
+      "limit": "This may describe earlier plans or support during part/all of FY2027. It does not contradict a dated closure event because none is established, and it cannot prove current staffing, occupancy, usable capacity or continuing funds."
+    },
+    {
+      "claim_ids": [
+        "CF-OUTCOME"
+      ],
+      "result": "correctly_left_unknown",
+      "evidence": "The saved record chain examined contains proposal/action/allocation/profile evidence, not verified Campus notice, closure, relocation acceptance or retained placement.",
+      "source_ids": [
+        "S-CF01",
+        "S-CF02",
+        "S-CF03",
+        "S-CF04",
+        "S-CF05"
+      ],
+      "tool_refs": [
+        "turn44view0",
+        "turn53view0",
+        "turn42view0"
+      ],
+      "limit": "Review did not prove absence of outcomes; no new search or resident investigation."
+    }
+  ],
+  "ordinary_explanations": [
+    "FY2027 language does not supply a precise operating end date; temporary support within that fiscal year can coexist with a projected later funding end.",
+    "Revisions can be recorded at agency or fund level without a program name; the examined material does not resolve attribution."
+  ],
+  "review_limits": [
+    "Saved-material logical/source spot-check only; not independent retrieval of origin bytes, complete budget reconciliation, final appropriation verification or outcome audit.",
+    "The original PDF was previously visually reviewed by funding Bee; this reviewer inspected its saved text passage, not a new full visual inspection.",
+    "Same City budget transaction remains one source family; reviewer independence is analytical, not new empirical corroboration."
+  ],
+  "new_network_requests": 0,
+  "peer_files_edited": false,
+  "canonical_evidence_edited": false,
+  "reviewed_inputs": [
+    {
+      "path": "reports/shelter-accountability/campus-live-bees-20261022/returns/campus_funding_bee.json",
+      "sha256": "7c7a51d50ca423c9ebb8f045c03bc025980917bc370de7ce6630fd7b43cb57ee"
+    },
+    {
+      "path": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_funding_bee-03.json",
+      "sha256": "518c53c180b1def994adddf2279add787b78fd0351a1221c3bf7615f16230f75"
+    },
+    {
+      "path": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_funding_bee-04.json",
+      "sha256": "eb9b7df7d3a5f6dfd95f37fa265fc73c34d69dffbb4ea8a9028725871844fce4"
+    },
+    {
+      "path": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_funding_bee-07.json",
+      "sha256": "61d73d5e50953300c97fd06181c70885a98f9cdddc1c5461d674f7946082c3d9"
+    },
+    {
+      "path": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_funding_bee-08.json",
+      "sha256": "3a96cb4d87c092a460b2c1c2f9f96dfa4f562d57339468903a63f55a58d9b0f5"
+    },
+    {
+      "path": "/workspace/scratch/63e791c4bf6d/campus_funding_bee-budget.txt",
+      "sha256": "97b47ff7d805f46183455bd42437db0d3b901e5a509f34cb2c11a19b8510aaf9"
+    }
+  ],
+  "stop_reason": "Bounded saved-material peer challenge complete; no additional research."
+}

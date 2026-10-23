@@ -1,0 +1,52 @@
+{
+  "schema_version": "publication-copy-manifest-1",
+  "task_name": "campus_funding_bee",
+  "created_at_utc": "2026-10-23T09:43:21.318182+00:00",
+  "runtime": "Work-session collaboration agent",
+  "execution_phase": "Resumed follow-up; original October22 research unchanged",
+  "copies": [
+    {
+      "publication_path": "reports/shelter-accountability/campus-live-bees-20261022/publication-copies/campus_funding_bee/campus_funding_bee-01-publication.json",
+      "publication_sha256": "cdd08d78c0b3686efbbeb22695b256fa9aba3292c7eb844124d2f81dfb1c11a8",
+      "publication_bytes": 34142,
+      "original_path": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_funding_bee-01.json",
+      "original_sha256": "4da8f5ee93e4b2dea2b93dbdea31f4615753c975e894dbf00c984cf9a6318ea2",
+      "original_bytes": 31652,
+      "omission_count": 7
+    },
+    {
+      "publication_path": "reports/shelter-accountability/campus-live-bees-20261022/publication-copies/campus_funding_bee/campus_funding_bee-02-publication.json",
+      "publication_sha256": "8f2f77a60248c43d2cbe6515c05742efb04aa1930855c663f31644acb95d4c2b",
+      "publication_bytes": 20210,
+      "original_path": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_funding_bee-02.json",
+      "original_sha256": "42b5e7806b7cc45f21878c0c03ce63973a7775f5909af5e80c9d17052216bacb",
+      "original_bytes": 32253,
+      "omission_count": 27
+    },
+    {
+      "publication_path": "reports/shelter-accountability/campus-live-bees-20261022/publication-copies/campus_funding_bee/campus_funding_bee-04-publication.json",
+      "publication_sha256": "b7f85975e3a80cdda6329e159cdc7caff1765ffaece59979e2d760fc860e1b3a",
+      "publication_bytes": 24038,
+      "original_path": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_funding_bee-04.json",
+      "original_sha256": "eb9b7df7d3a5f6dfd95f37fa265fc73c34d69dffbb4ea8a9028725871844fce4",
+      "original_bytes": 24839,
+      "omission_count": 5
+    },
+    {
+      "publication_path": "reports/shelter-accountability/campus-live-bees-20261022/publication-copies/campus_funding_bee/campus_funding_bee-05-publication.json",
+      "publication_sha256": "5763e9a40872c2c00bcfe65207ec29c0f456d6edc2869c39a13f5b3b05643419",
+      "publication_bytes": 31938,
+      "original_path": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_funding_bee-05.json",
+      "original_sha256": "10dca1db32767d18a564f1c73234d3f2c467742651f4a93821f9e28dbe822ae0",
+      "original_bytes": 31470,
+      "omission_count": 9
+    }
+  ],
+  "verification": {
+    "originals_unchanged": true,
+    "requests_and_retrieval_timestamps_retained": true,
+    "new_searches": 0,
+    "new_source_opens": 0
+  },
+  "note": "Each publication copy is explicitly incomplete and links the full preserved original by exact path and SHA-256. Relevant official budget/action sections retained; source omissions individually logged."
+}

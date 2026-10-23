@@ -1,0 +1,38 @@
+{
+  "task_name": "campus_safeguard_bee",
+  "record_type": "publication filtering manifest; originals unchanged",
+  "files": [
+    {
+      "original": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_safeguard_bee-01.json",
+      "original_sha256": "a258c33acd86997c733ab3e824b4c41336ce911e506578a8894504c7b61c3d6b",
+      "publication_copy": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/publication/campus_safeguard_bee-01.json",
+      "publication_copy_sha256": "48bd592f819316641967b592cfe469ae703db501cec280df11a2fbf084cfc715",
+      "omission_count": 2,
+      "exclude_original_from_public_repo": true
+    },
+    {
+      "original": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_safeguard_bee-02.json",
+      "original_sha256": "8947de343ff5e0dfef99892a1273dc7553863e1ea4f8ba673c69211fa156512f",
+      "publication_copy": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/publication/campus_safeguard_bee-02.json",
+      "publication_copy_sha256": "90630b46fbeab990d147f9607837cdf343b51a1eab80b0cd647f42c78e1b144c",
+      "omission_count": 3,
+      "exclude_original_from_public_repo": true
+    },
+    {
+      "original": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_safeguard_bee-03.json",
+      "original_sha256": "a0ac032194b7ae0e9e76c0b4f6ec1d16b235acf86d0e6e64ac1f1644c3a2240a",
+      "publication_copy": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/publication/campus_safeguard_bee-03.json",
+      "publication_copy_sha256": "6f9a9de8d419e33ebb84819d89bf86d2c0050b935fced61e2ce7a6b443f4f0ef",
+      "omission_count": 6,
+      "exclude_original_from_public_repo": true
+    },
+    {
+      "original": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_safeguard_bee-05.json",
+      "original_sha256": "0653d731ae5ca7da999035f4c6d9edee2164672f8bd03928608719638389123b",
+      "publication_copy": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/publication/campus_safeguard_bee-05.json",
+      "publication_copy_sha256": "dca633a452073ab2b0bfc978e83a15b1eff2a9dfc6f30b226ac8e9f0879bc892",
+      "omission_count": 1,
+      "exclude_original_from_public_repo": true
+    }
+  ]
+}

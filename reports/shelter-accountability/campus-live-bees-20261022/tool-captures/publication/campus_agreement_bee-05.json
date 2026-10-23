@@ -1,0 +1,87 @@
+{
+  "schema_version": "filtered-web-tool-response-1",
+  "capture_kind": "filtered publication copy; incomplete returned web-tool response; not origin HTTP",
+  "task_name": "campus_agreement_bee",
+  "sequence": 5,
+  "retrieved_at_utc": "2026-10-22T17:15:01.492Z",
+  "filtered_at_utc": "2026-10-23T09:42:57.284221+00:00",
+  "original_capture": {
+    "path": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_agreement_bee-05.json",
+    "sha256": "85a3b69100c7fd3dc896ceb3559d065479b9a9604d21c6468958b80e1ab7620e",
+    "bytes": 35838,
+    "kept_unchanged_locally": true,
+    "public_git_status": "exclude original from public Git; use explicitly filtered derivative"
+  },
+  "request": {
+    "system1_search_query": [
+      {
+        "q": "\"Campus Motel\" (\"amendment\" OR \"signed\" OR \"contract number\")",
+        "domains": [
+          "berkeleyca.gov",
+          "records.cityofberkeley.info"
+        ]
+      },
+      {
+        "q": "site:insighthousing.org \"Campus\""
+      }
+    ],
+    "response_length": "long"
+  },
+  "retained_source_refs": [
+    "turn52search0",
+    "turn52search1",
+    "turn52search2",
+    "turn52search5"
+  ],
+  "omissions": [
+    {
+      "source_ref": "turn52search3",
+      "content_block_index": 0,
+      "original_character_start": 2889,
+      "original_character_end": 5857,
+      "original_section_sha256_utf8": "6305770073cf9363595d751226e9a0953627bf543b7debe629c0e7662ec8a31f",
+      "omitted_extent": "entire source-result section including its title, URL and text",
+      "reason": "Unused operator homepage result contains incidental participant attribution."
+    },
+    {
+      "source_ref": "turn52search4",
+      "content_block_index": 0,
+      "original_character_start": 5939,
+      "original_character_end": 13331,
+      "original_section_sha256_utf8": "bfb54ad2a5d82754abcf8d0dbe201750480903d250718d8f40ddc76a9ca1512f",
+      "omitted_extent": "entire source-result section including its title, URL and text",
+      "reason": "Unused operator archive result contains personal/volunteer narrative."
+    },
+    {
+      "source_ref": "turn52search6",
+      "content_block_index": 0,
+      "original_character_start": 13830,
+      "original_character_end": 32843,
+      "original_section_sha256_utf8": "12a8eb1e6f47d21f463e1162d1e35dcda89afe096854e9e9585b757732c1ab60",
+      "omitted_extent": "entire source-result section including its title, URL and text",
+      "reason": "Unused operator annual-report result contains participant/medical narratives and an individual donor list."
+    },
+    {
+      "source_ref": "turn52search7",
+      "content_block_index": 0,
+      "original_character_start": 32925,
+      "original_character_end": 33245,
+      "original_section_sha256_utf8": "ff318f811c161634f451d30227ce8901ea6014bfa944272e37480095062a7952",
+      "omitted_extent": "entire source-result section including its title, URL and text",
+      "reason": "Unused operator annual-report result; removed as an entire unexamined program-profile source rather than selectively republishing possible personal narrative."
+    }
+  ],
+  "filtered_response": {
+    "content": [
+      {
+        "type": "text",
+        "text": "AGENDA BERKELEY CITY COUNCIL MEETING Tuesday, ... (https://berkeleyca.gov/sites/default/files/city-council-meetings/2023-12-12%20Agenda%20Packet%20-%20Council.pdf)\n【turn52search0】 [wordlim: 200] Dec 12, 2023 — ... amendment to qualification threshold for committees ; and (2) add ... signed writing or otherwise to be bound by confidentiality. Read more 636 pages\n--------------------------------------------------------------------------------\nAugust 2025 Newsletter (https://insighthousing.org/august-2025-newsletter/)\n【turn52search1】 [wordlim: 200] Published: 1.1 years ago; Crawled: 2 months ago; Content type: text/html; Learn about al our summer happenings in our August 2025 Newsletter. – we tagged along during a VA Surge event to help house Veterans, visited The Campus ... Read more\n  * Donate\n\n  * What we do\n    * Veteran services\n    * Outreach\n    * Emergency housing\n    * Transitional housing\n    * Rapid re-housing\n    * Permanent supportive housing\n    * Food\n    * Vocational\n    * Real estate development\n  * Careers\n  * Who we are\n    * Leadership team\n    * Our new name!\n  * Get involved\n    * Donate\n    * Volunteer\n    * Events\n  * News & Resources\n    * Resources\n    * Strategic Plan\n  * Contact\n\nFormerly Berkeley Food & Housing Project\n\n« Back to news & resources\n\n## August 2025 Newsletter\n\nLearn about al our summer happenings in our August 2025 Newsletter. – we tagged along during a VA Surge event to help house Veterans, visited The Campus emergency shelter program in Berkeley, and caught up with some volunteers at the Hope Center. Click to read more!\n\n#### STAY IN TOUCH\n\n© 2026 Insight Housing\n\n  * What we do\n  * Who we are\n  * Get involved\n  * Careers\n  * Donate\n\n  * Finances\n  * Terms of Use\n  * Privacy Policy\n  * Transparency in Coverage\n  * Board Member Login\n\n### CONTACT US\n\n2855 Telegraph Ave, Suite 601\nBerkeley, CA 94705\n\n(510) 649-4965 info@InsightHousing.org\n\n#### STAY IN TOUCH\n\n  * What We Do\n  * Who We Are\n  * Get Involved\n  * Donate\n  * News & Resources\n  * Careers\n\nImage: candld Image: carf\n\n  * Finances\n  * Terms of Use\n  * Privacy Policy\n  * Transparency in Coverage\n\n### CONTACT US\n\n2855 Telegraph Ave, Suite 601\nBerkeley, CA 94705 (510) 649-4965 info@InsightHousing.org\n\n© 2026 Insight Housing\n\nPlease ensure Javascript is enabled for purposes of website accessibility\n--------------------------------------------------------------------------------\nAgenda Berkeley City Council Meeting Tuesday, April 11, ... (https://berkeleyca.gov/sites/default/files/city-council-meetings/2023-04-11%20Agenda%20Packet%20-%20Council%20-%20WEB.pdf)\n【turn52search2】 [wordlim: 200] Apr 11, 2023 — ... amendment will increase the NTE amount from $11,410,274 to ... Contract Number . 23F-4001 in the amount of $293,705 to provide services ... Read more 506 pages\n--------------------------------------------------------------------------------\n[OMITTED FOR PUBLICATION: turn52search3. Entire result section removed; see omissions metadata. This copy is incomplete.]\n--------------------------------------------------------------------------------\n[OMITTED FOR PUBLICATION: turn52search4. Entire result section removed; see omissions metadata. This copy is incomplete.]\n--------------------------------------------------------------------------------\nInsight Housing Careers (https://insighthousing.org/careers/)\n【turn52search5】 [wordlim: 200] Published: 3.5 years ago; Crawled: yesterday; Content type: text/html; Please select at least one job category. Job Locations*. Alameda SSVF, Albany Project HOPE, Berkeley Administrative Office, Berkeley Respite, Campus Interim ... Read more\n\n--------------------------------------------------------------------------------\n[OMITTED FOR PUBLICATION: turn52search6. Entire result section removed; see omissions metadata. This copy is incomplete.]\n--------------------------------------------------------------------------------\n[OMITTED FOR PUBLICATION: turn52search7. Entire result section removed; see omissions metadata. This copy is incomplete.]"
+      }
+    ],
+    "isError": false
+  },
+  "not_a_complete_capture": true,
+  "original_response_metadata": {
+    "isError": false
+  }
+}

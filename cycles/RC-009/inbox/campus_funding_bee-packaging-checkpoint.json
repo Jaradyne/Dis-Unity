@@ -1,0 +1,14 @@
+{
+  "task_name": "campus_funding_bee",
+  "canonical_task_name": "/root/campus_funding_bee",
+  "role": "worker_bee",
+  "runtime": "Work-session collaboration agent",
+  "execution_phase": "Resumed follow-up execution on 2026-10-23; original research and source cutoff remain 2026-10-22. No continuous background activity claimed.",
+  "resumed_at_utc": "2026-10-23T09:41:08.750906+00:00",
+  "base_commit": "9555a73a9dae97033cb8c85580ffb33691e5285f",
+  "model_identity": "unknown",
+  "provider_identity": "unknown",
+  "question": "Q-CAMPUS-AGREEMENT",
+  "epoch": 1,
+  "scope": "Publication copies of own captures 01, 02, 04 and 05; narrow peer review of City-wide/HRT-to-Campus inference; no new searches or source opens; originals unchanged."
+}

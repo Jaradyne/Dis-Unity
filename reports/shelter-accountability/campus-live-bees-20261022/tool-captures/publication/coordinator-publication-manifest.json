@@ -1,0 +1,13 @@
+{
+  "files": [
+    {
+      "original_bytes": 31637,
+      "original_path": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/coordinator-02.json",
+      "original_sha256": "a328c34e5d70bc070a43321ee76f8bb451cbcbfdb085061862df4ac178112515",
+      "publication_bytes": 31750,
+      "publication_path": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/publication/coordinator-02.json",
+      "publication_sha256": "d152b36598b18178b69cd471ad16f236e31c5f9d87abde2d974f39ee1cd3c8b8"
+    }
+  ],
+  "meaning": "Explicitly incomplete publication derivative. No relevant finding text omitted."
+}

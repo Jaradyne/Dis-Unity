@@ -1,0 +1,303 @@
+{
+  "schema_version": "derived-publication-tool-capture-1",
+  "record_kind": "DERIVED PUBLICATION COPY WITH OMISSIONS; NOT A FULL RAW TOOL RESPONSE OR ORIGIN HTTP RECORD",
+  "task_name": "campus_funding_bee",
+  "runtime": "Work-session collaboration agent",
+  "execution_phase": "Resumed publication/review step on 2026-10-23; not a new research pass",
+  "created_at_utc": "2026-10-23T09:43:21.318182+00:00",
+  "original_capture": {
+    "path": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_funding_bee-02.json",
+    "sha256": "42b5e7806b7cc45f21878c0c03ce63973a7775f5909af5e80c9d17052216bacb",
+    "bytes": 32253,
+    "retrieved_at_utc": "2026-10-22T17:12:49.216Z",
+    "record_kind": "full returned web-tool response, not raw origin HTTP",
+    "preserved_unchanged": true
+  },
+  "tool": "mcp__codex_apps__search_service_web_run",
+  "request": {
+    "system2_search_query": [
+      {
+        "q": "site.berkeleyca.gov \"Campus\" \"discontinu\" \"2027\""
+      },
+      {
+        "q": "site.berkeleyca.gov \"2026-06-23\" \"Annotated\" \"Budget\""
+      }
+    ],
+    "open": [
+      {
+        "ref_id": "turn33search0"
+      },
+      {
+        "ref_id": "https://insighthousing.org/what-we-do/emergency-housing/"
+      }
+    ],
+    "response_length": "long"
+  },
+  "publication_response": {
+    "isError": false,
+    "content": [
+      {
+        "type": "text",
+        "text": "\n[PUBLICATION COPY OMISSION: source result turn36search0 omitted. See omission manifest; original capture preserved.]\n--------------------------------------------------------------------------------\n[PUBLICATION COPY OMISSION: source result turn36search1 omitted. See omission manifest; original capture preserved.]\n--------------------------------------------------------------------------------\n[PUBLICATION COPY OMISSION: source result turn36search2 omitted. See omission manifest; original capture preserved.]\n--------------------------------------------------------------------------------\n[PUBLICATION COPY OMISSION: source result turn36search3 omitted. See omission manifest; original capture preserved.]\n--------------------------------------------------------------------------------\n[PUBLICATION COPY OMISSION: source result turn36search4 omitted. See omission manifest; original capture preserved.]\n--------------------------------------------------------------------------------\n[PUBLICATION COPY OMISSION: source result turn36search24 omitted. See omission manifest; original capture preserved.]\n--------------------------------------------------------------------------------\n[PUBLICATION COPY OMISSION: source result turn36search5 omitted. See omission manifest; original capture preserved.]\n--------------------------------------------------------------------------------\n[PUBLICATION COPY OMISSION: source result turn36search6 omitted. See omission manifest; original capture preserved.]\n--------------------------------------------------------------------------------\n[PUBLICATION COPY OMISSION: source result turn36search7 omitted. See omission manifest; original capture preserved.]\n--------------------------------------------------------------------------------\n[PUBLICATION COPY OMISSION: source result turn36search8 omitted. See omission manifest; original capture preserved.]\n--------------------------------------------------------------------------------\n[PUBLICATION COPY OMISSION: source result turn36search9 omitted. See omission manifest; original capture preserved.]\n--------------------------------------------------------------------------------\n[PUBLICATION COPY OMISSION: source result turn36search10 omitted. See omission manifest; original capture preserved.]\n--------------------------------------------------------------------------------\n[PUBLICATION COPY OMISSION: source result turn36search11 omitted. See omission manifest; original capture preserved.]\n--------------------------------------------------------------------------------\n[PUBLICATION COPY OMISSION: source result turn36search12 omitted. See omission manifest; original capture preserved.]\n--------------------------------------------------------------------------------\n[PUBLICATION COPY OMISSION: source result turn36search13 omitted. See omission manifest; original capture preserved.]\n--------------------------------------------------------------------------------\n[PUBLICATION COPY OMISSION: source result turn36search14 omitted. See omission manifest; original capture preserved.]\n--------------------------------------------------------------------------------\n[PUBLICATION COPY OMISSION: source result turn36search15 omitted. See omission manifest; original capture preserved.]\n--------------------------------------------------------------------------------\n[PUBLICATION COPY OMISSION: source result turn36search16 omitted. See omission manifest; original capture preserved.]\n--------------------------------------------------------------------------------\n[PUBLICATION COPY OMISSION: source result turn36search17 omitted. See omission manifest; original capture preserved.]\n--------------------------------------------------------------------------------\n[PUBLICATION COPY OMISSION: source result turn36search18 omitted. See omission manifest; original capture preserved.]\n--------------------------------------------------------------------------------\n[PUBLICATION COPY OMISSION: source result turn36search19 omitted. See omission manifest; original capture preserved.]\n--------------------------------------------------------------------------------\n[PUBLICATION COPY OMISSION: source result turn36search25 omitted. See omission manifest; original capture preserved.]\n--------------------------------------------------------------------------------\n[PUBLICATION COPY OMISSION: source result turn36search20 omitted. See omission manifest; original capture preserved.]\n--------------------------------------------------------------------------------\n[PUBLICATION COPY OMISSION: source result turn36search21 omitted. See omission manifest; original capture preserved.]\n--------------------------------------------------------------------------------\n[PUBLICATION COPY OMISSION: source result turn36search22 omitted. See omission manifest; original capture preserved.]\n--------------------------------------------------------------------------------\n[PUBLICATION COPY OMISSION: source result turn36search23 omitted. See omission manifest; original capture preserved.]\n--------------------------------------------------------------------------------\n[PUBLICATION COPY OMISSION: source result turn36search26 omitted. See omission manifest; original capture preserved.]\n--------------------------------------------------------------------------------\nInternal Error ()\n【turn36view0】 [wordlim: 200] Source: open({\"ref_id\":\"turn33search0\",\"lineno\":null}); Total lines: 1\nL0: Failed to fetch https://berkeleyca.gov/sites/default/files/2026-06/2026-06-23%20Special%20Item%2001%20Adoption%20of%20Fiscal%20Years%202027%20and%202028.pdf: (400) Content length is too large: 15948849\n\n--------------------------------------------------------------------------------\nInternal Error ()\n【turn36view1】 [wordlim: 200] Source: open({\"ref_id\":\"https://insighthousing.org/what-we-do/emergency-housing/\",\"lineno\":null}); Total lines: 1\nL0: URL https://insighthousing.org/what-we-do/emergency-housing/ is not accessible via this tool.\n"
+      }
+    ]
+  },
+  "omissions": [
+    {
+      "source_ref": "turn36search0",
+      "content_block_index": 0,
+      "section_index": 0,
+      "kind": "entire_source_result",
+      "reason": "Out-of-scope search result omitted; this selection also removes incidental personal, social-profile, housing-request or testimonial material.",
+      "omitted_utf8_bytes": 1899,
+      "omitted_content_sha256": "eba833bce884046962d200d66c8053e03dbf6d2c41c2b1ad62df45b655a0183a"
+    },
+    {
+      "source_ref": "turn36search1",
+      "content_block_index": 0,
+      "section_index": 1,
+      "kind": "entire_source_result",
+      "reason": "Out-of-scope search result omitted; this selection also removes incidental personal, social-profile, housing-request or testimonial material.",
+      "omitted_utf8_bytes": 1692,
+      "omitted_content_sha256": "3d639218211bdaf642e5dc69a3542499bf9bd2de03982eaa15b2efc1267a7d3f"
+    },
+    {
+      "source_ref": "turn36search2",
+      "content_block_index": 0,
+      "section_index": 2,
+      "kind": "entire_source_result",
+      "reason": "Out-of-scope search result omitted; this selection also removes incidental personal, social-profile, housing-request or testimonial material.",
+      "omitted_utf8_bytes": 2413,
+      "omitted_content_sha256": "179064a0c9cc18498024344722d544113ac32c3cd2af6856d41704e8b5c6e610"
+    },
+    {
+      "source_ref": "turn36search3",
+      "content_block_index": 0,
+      "section_index": 3,
+      "kind": "entire_source_result",
+      "reason": "Out-of-scope search result omitted; this selection also removes incidental personal, social-profile, housing-request or testimonial material.",
+      "omitted_utf8_bytes": 1230,
+      "omitted_content_sha256": "4c3fe768dc0b0308a35d9e89f4a7fab48aa7371cd6098161c0fb05eea8b83551"
+    },
+    {
+      "source_ref": "turn36search4",
+      "content_block_index": 0,
+      "section_index": 4,
+      "kind": "entire_source_result",
+      "reason": "Out-of-scope search result omitted; this selection also removes incidental personal, social-profile, housing-request or testimonial material.",
+      "omitted_utf8_bytes": 1902,
+      "omitted_content_sha256": "baa88a3b17652ed8fb805e55f627694137c2dbe7381c7378e1d5d12d574a0f7f"
+    },
+    {
+      "source_ref": "turn36search24",
+      "content_block_index": 0,
+      "section_index": 5,
+      "kind": "entire_source_result",
+      "reason": "Out-of-scope search result omitted; this selection also removes incidental personal, social-profile, housing-request or testimonial material.",
+      "omitted_utf8_bytes": 1663,
+      "omitted_content_sha256": "f41ad321ee583ac893a66c61742d4f4e7f827e6f3367d2e41f1e0a9f26c31bd6"
+    },
+    {
+      "source_ref": "turn36search5",
+      "content_block_index": 0,
+      "section_index": 6,
+      "kind": "entire_source_result",
+      "reason": "Out-of-scope search result omitted; this selection also removes incidental personal, social-profile, housing-request or testimonial material.",
+      "omitted_utf8_bytes": 1687,
+      "omitted_content_sha256": "445ca64e3347eeedf0e0b71926a4d76792a2c77150537a0414bfa6b1d269466a"
+    },
+    {
+      "source_ref": "turn36search6",
+      "content_block_index": 0,
+      "section_index": 7,
+      "kind": "entire_source_result",
+      "reason": "Out-of-scope search result omitted; this selection also removes incidental personal, social-profile, housing-request or testimonial material.",
+      "omitted_utf8_bytes": 1793,
+      "omitted_content_sha256": "c24ffe3639de6f8a766564bfba6732ecf35632241e6e3b0871343940ae981b5d"
+    },
+    {
+      "source_ref": "turn36search7",
+      "content_block_index": 0,
+      "section_index": 8,
+      "kind": "entire_source_result",
+      "reason": "Out-of-scope search result omitted; this selection also removes incidental personal, social-profile, housing-request or testimonial material.",
+      "omitted_utf8_bytes": 1352,
+      "omitted_content_sha256": "27dadd108163fde05da449cf48621beb7d730c74eb9618b43571341853ed4837"
+    },
+    {
+      "source_ref": "turn36search8",
+      "content_block_index": 0,
+      "section_index": 9,
+      "kind": "entire_source_result",
+      "reason": "Out-of-scope search result omitted; this selection also removes incidental personal, social-profile, housing-request or testimonial material.",
+      "omitted_utf8_bytes": 1352,
+      "omitted_content_sha256": "03254e601236d80220aa762168fc813e66bd0774fe328a27d49d4c3f1ab1ad5a"
+    },
+    {
+      "source_ref": "turn36search9",
+      "content_block_index": 0,
+      "section_index": 10,
+      "kind": "entire_source_result",
+      "reason": "Out-of-scope search result omitted; this selection also removes incidental personal, social-profile, housing-request or testimonial material.",
+      "omitted_utf8_bytes": 2283,
+      "omitted_content_sha256": "4fb482f176439b4727f03ab2d88440ea24a42ce7b71a6d6c40908ec6c5b481eb"
+    },
+    {
+      "source_ref": "turn36search10",
+      "content_block_index": 0,
+      "section_index": 11,
+      "kind": "entire_source_result",
+      "reason": "Out-of-scope search result omitted; this selection also removes incidental personal, social-profile, housing-request or testimonial material.",
+      "omitted_utf8_bytes": 1608,
+      "omitted_content_sha256": "26b1c00672d0e9fad52ae1dfba14ee14abb27159c2961d64b6c179f64414bf3f"
+    },
+    {
+      "source_ref": "turn36search11",
+      "content_block_index": 0,
+      "section_index": 12,
+      "kind": "entire_source_result",
+      "reason": "Out-of-scope search result omitted; this selection also removes incidental personal, social-profile, housing-request or testimonial material.",
+      "omitted_utf8_bytes": 342,
+      "omitted_content_sha256": "15b960fe38747ab4de2d4994c3c3dd2eaee0681da832902c68042251560309af"
+    },
+    {
+      "source_ref": "turn36search12",
+      "content_block_index": 0,
+      "section_index": 13,
+      "kind": "entire_source_result",
+      "reason": "Out-of-scope search result omitted; this selection also removes incidental personal, social-profile, housing-request or testimonial material.",
+      "omitted_utf8_bytes": 600,
+      "omitted_content_sha256": "5f8ce77b2bec6cffb6d4a69b2708e2c6456e1a83bc4652c4c46c4edf6994c1e9"
+    },
+    {
+      "source_ref": "turn36search13",
+      "content_block_index": 0,
+      "section_index": 14,
+      "kind": "entire_source_result",
+      "reason": "Out-of-scope search result omitted; this selection also removes incidental personal, social-profile, housing-request or testimonial material.",
+      "omitted_utf8_bytes": 524,
+      "omitted_content_sha256": "68cb8555a70c64a9d793fa2ec9ae12a164ff066a60ab7f01e006bb4a33e498c5"
+    },
+    {
+      "source_ref": "turn36search14",
+      "content_block_index": 0,
+      "section_index": 15,
+      "kind": "entire_source_result",
+      "reason": "Out-of-scope search result omitted; this selection also removes incidental personal, social-profile, housing-request or testimonial material.",
+      "omitted_utf8_bytes": 679,
+      "omitted_content_sha256": "40230615e477ada5145016ef1149ef6d1f1d358540571d8d4b48c61fe17ccc16"
+    },
+    {
+      "source_ref": "turn36search15",
+      "content_block_index": 0,
+      "section_index": 16,
+      "kind": "entire_source_result",
+      "reason": "Out-of-scope search result omitted; this selection also removes incidental personal, social-profile, housing-request or testimonial material.",
+      "omitted_utf8_bytes": 672,
+      "omitted_content_sha256": "c31a9d45ee4e41195cea1193c907169cedcf3b88adde139ded3eb7a29426b5b7"
+    },
+    {
+      "source_ref": "turn36search16",
+      "content_block_index": 0,
+      "section_index": 17,
+      "kind": "entire_source_result",
+      "reason": "Out-of-scope search result omitted; this selection also removes incidental personal, social-profile, housing-request or testimonial material.",
+      "omitted_utf8_bytes": 485,
+      "omitted_content_sha256": "d9ee9a16342e5f2ba7e950b2d5812fd6030d3dcdb5043248dbd573db97b5433f"
+    },
+    {
+      "source_ref": "turn36search17",
+      "content_block_index": 0,
+      "section_index": 18,
+      "kind": "entire_source_result",
+      "reason": "Out-of-scope search result omitted; this selection also removes incidental personal, social-profile, housing-request or testimonial material.",
+      "omitted_utf8_bytes": 268,
+      "omitted_content_sha256": "84224a7a4352122fedf4b8ea03f0a0a92ffb84b528a31c08cd7ec5d2b61b9d6c"
+    },
+    {
+      "source_ref": "turn36search18",
+      "content_block_index": 0,
+      "section_index": 19,
+      "kind": "entire_source_result",
+      "reason": "Out-of-scope search result omitted; this selection also removes incidental personal, social-profile, housing-request or testimonial material.",
+      "omitted_utf8_bytes": 445,
+      "omitted_content_sha256": "b3b48485e4cc773d66cb73d7b509c0ce197b3de4c67dfaa24096eb3375384eba"
+    },
+    {
+      "source_ref": "turn36search19",
+      "content_block_index": 0,
+      "section_index": 20,
+      "kind": "entire_source_result",
+      "reason": "Out-of-scope search result omitted; this selection also removes incidental personal, social-profile, housing-request or testimonial material.",
+      "omitted_utf8_bytes": 253,
+      "omitted_content_sha256": "e60c1187b75d3e08c214a5b5978a5ac5fbca3f60c231f05d07b13dde1b6215eb"
+    },
+    {
+      "source_ref": "turn36search25",
+      "content_block_index": 0,
+      "section_index": 21,
+      "kind": "entire_source_result",
+      "reason": "Out-of-scope search result omitted; this selection also removes incidental personal, social-profile, housing-request or testimonial material.",
+      "omitted_utf8_bytes": 385,
+      "omitted_content_sha256": "08cfcbbb0e71764260de763626887d168e1b2e1433b32826be173ee9d0297265"
+    },
+    {
+      "source_ref": "turn36search20",
+      "content_block_index": 0,
+      "section_index": 22,
+      "kind": "entire_source_result",
+      "reason": "Out-of-scope search result omitted; this selection also removes incidental personal, social-profile, housing-request or testimonial material.",
+      "omitted_utf8_bytes": 172,
+      "omitted_content_sha256": "30183f94ac2a3d3378b4bea2482dc1102e8eaa295e685942c0f1d1a663cad570"
+    },
+    {
+      "source_ref": "turn36search21",
+      "content_block_index": 0,
+      "section_index": 23,
+      "kind": "entire_source_result",
+      "reason": "Out-of-scope search result omitted; this selection also removes incidental personal, social-profile, housing-request or testimonial material.",
+      "omitted_utf8_bytes": 343,
+      "omitted_content_sha256": "2d44cf1f9357a5d65b1e213d631ba254eb726b6c5965f10946e9889269cd1d93"
+    },
+    {
+      "source_ref": "turn36search22",
+      "content_block_index": 0,
+      "section_index": 24,
+      "kind": "entire_source_result",
+      "reason": "Out-of-scope search result omitted; this selection also removes incidental personal, social-profile, housing-request or testimonial material.",
+      "omitted_utf8_bytes": 894,
+      "omitted_content_sha256": "49967591134195eec9c1427ac93215b04b9d4a8012b612b065e97f750fcf7215"
+    },
+    {
+      "source_ref": "turn36search23",
+      "content_block_index": 0,
+      "section_index": 25,
+      "kind": "entire_source_result",
+      "reason": "Out-of-scope search result omitted; this selection also removes incidental personal, social-profile, housing-request or testimonial material.",
+      "omitted_utf8_bytes": 734,
+      "omitted_content_sha256": "44bcc516641d0ab5458779ebd232768297c3b331ac0b2144b878f8a94096dbd4"
+    },
+    {
+      "source_ref": "turn36search26",
+      "content_block_index": 0,
+      "section_index": 26,
+      "kind": "entire_source_result",
+      "reason": "Out-of-scope search result omitted; this selection also removes incidental personal, social-profile, housing-request or testimonial material.",
+      "omitted_utf8_bytes": 364,
+      "omitted_content_sha256": "37cda1de66126f52b65defd306a7ebb650c9e07b8b031620aba83b513b00bc2c"
+    }
+  ],
+  "retained_source_sections": [
+    {
+      "source_ref": "turn36view0",
+      "retention": "Complete source section byte-for-byte retained",
+      "section_sha256": "5ae10c6f5708dc14435fc0c3f66db27e55a7a70505188faf45ea67131ab87a05"
+    },
+    {
+      "source_ref": "turn36view1",
+      "retention": "Complete source section byte-for-byte retained",
+      "section_sha256": "34530c82fbdf3692b720c0693b0e0cd9240607679aa577a3d115ac3329027972"
+    }
+  ],
+  "scope_note": "Omissions remove irrelevant source results and incidental personal/testimonial details. No additional source claim, search, source access or canonical admission. The originals remain intact. Omitted result identifiers do not imply source contents were false or unavailable."
+}

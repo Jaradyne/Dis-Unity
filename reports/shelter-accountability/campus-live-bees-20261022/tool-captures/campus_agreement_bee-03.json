@@ -1,0 +1,36 @@
+{
+  "capture_kind": "web_tool_response_not_raw_origin_http",
+  "task_name": "campus_agreement_bee",
+  "sequence": 3,
+  "retrieved_at_utc": "2026-10-22T17:13:00.600Z",
+  "request": {
+    "click": [
+      {
+        "ref_id": "turn37view0",
+        "id": 5
+      },
+      {
+        "ref_id": "turn37view0",
+        "id": 6
+      }
+    ],
+    "system2_search_query": [
+      {
+        "q": "site:records.cityofberkeley.info \"Insight\""
+      },
+      {
+        "q": "site:cityofberkeleyca.nextrequest.com \"Campus\""
+      }
+    ],
+    "response_length": "long"
+  },
+  "response": {
+    "content": [
+      {
+        "type": "text",
+        "text": "City Council Report ##-##-#### (https://records.cityofberkeley.info/PublicAccess/api/Document/AT0EZE0Tx1j9WQ8zOyVwkWn4uPrG%C3%81HYTU39hc%C3%89%C3%81Pn423EiWs9%C3%89S8VZERn6%C3%81Q6kwSqmGnABUJE4srHl9LlL5x%C3%81ks%3D/)\n【turn39search0】 [wordlim: 200] Published: 3.3 years ago; (EBALDC) and Insight Housing (formerly Berkeley Food and Housing Project), and\nPage 9 of 14\n  \nAshby BART Transit-Oriented Development\nWORKSESSION\nJuly 18, 2023\n\nCity and BART Memorandum of Agreement (“MOA”). The June 2022 MOA \nclarifies the processes that BART and/or the City will pursue to develop BART-\nowned property at North Berkeley BART Station and includes a timeline for \npending actions related to the Ashby BART site. \nCompletion of these milestones enabled BART to issue a Request for Qualifications for \ndeveloper teams and the City to issue a Notice of Funding Availability for the North \nBerkeley BART Station Area in July 2022. On December 1, 2022, the BART Board of \nDirectors approved the selection of a development team to build housing at the North \nBerkeley BART station site. The team comprises lead nonprofit developer BRIDGE, \nnonprofit development partners East Bay Asian Local Development Corporation \n(EBALDC) and Insight Housing (formerly Berkeley Food and Housing Project), and \nmarket-rate developer Avalon Bay Communities. As outlined in the June 2022 MOA, the \nCity initiated a process to develop Objective Design Standards (ODS) for the North \nBerkeley BART site in November 2022. Staff is anticipating bringing draft ODS to the \nCouncil in November/December 2023. \nIn addition, in November 2022, the City Council completed a milestone in the June 2022 \nMOA related to the Ashby BART station area.8 On November 29, 2022, the City Council \nselected a preferred concept to redesign the Adeline Street right-of-way at Ashby BART \n(between Ashby Avenue and Martin Luther King Jr. Way) in order to improve safety and \naccess, and to create a new public plaza that would serve as the new permanent home \nfor the Berkeley Flea Market.9 The Council adopted a resolution to authorize the City \nManager to direct staff to proceed with the preliminary engineering and detailed \nengineering design based on the recommended conceptual design with Two-Lane \nAdeline option as the conceptual, pending identification of funding. Redesigning Adeline \nStreet at Ashby BART supports future housing development plans for the Ashby BART \nstation by designing future plaza space that could accommodate the needs of the \nBerkeley Flea Market that currently utilizes the parking lot (west of Adeline Street).\nENVIRONMENTAL SUSTAINABILITY AND CLIMATE IMPACTS\nCreating equitable, transit-oriented mixed-use development that includes affordable \nhousing and housing support services for Berkeley’s most vulnerable community \nmembers is a City Strategic Plan goal, which also helps advance the environmental \ngoals of being a global leader in addressing climate change, advancing environmental \njustice, and protecting the environment.\n8 In addition to the June 2022 MOA, a Council Budget Referral (Feb. 2020) and a recommendation from \nthe Adeline Corridor Specific Plan (Dec. 2020) also identified studying potential reconfigurations of \nAdeline Street to increase safety and opportunities for public space as a priority.\n9 11/29/22 City Council Meeting, Item 15: Adeline Street at Ashby BART Conceptual Design: \nhttps://berkeleyca.gov/sites/default/files/documents/2022-11-\n29%20Item%2015%20Adeline%20Street%20at%20Ashby%20BART.pdf\nPage 9\n--------------------------------------------------------------------------------\nOnBase Public Access Viewer (https://records.cityofberkeley.info/)\n【turn39view0】 [wordlim: 200] Crawled: today; Content type: text/html; Source: click({\"ref_id\":\"turn37view0\",\"id\":5}); Redirected to URL: https://records.cityofberkeley.info/PublicAccess/paFiles/cqFiles/index.html; Total lines: 29\nL0: ### Welcome to the City of Berkeley's Records Online\nL1: \nL2: Records Online contains the following documents:\nL3: \nL4:   * Ordinances\nL5:   * Resolutions\nL6:   * Meeting Minutes\nL7:   * Communications to the City Council\nL8:   * Berkeley Election Results and Voter Guides\nL9:   * Contracts\nL10: \nL11: Review the 【0†date ranges†berkeleyca.gov】 of specific document types found in Records Online.\nL12: \nL13: Please review the 【1†detailed instructions†berkeleyca.gov】 to facilitate searching in the Records Online database.\nL14: \nL15: Quick Tips for Searching:\nL16:   1. Narrow your search as much as possible by choosing the desired document type (ordinance, contracts, etc.), or search across all document types with the All Records Query.\nL17:   2. A \"full text\" query locates a specified search term in the record. The search term can be combined with other data fields associated with the document type.\nL18:   3. A \"keywords\" query searches in the specified data fields associated with the document type. The results in a keywords query are sortable.\nL19:   4. For all date fields, the proper search format is mm/dd/yyyy.\nL20:   5. To open a document in a new window, click the 【2†Image: Open in New Window Icon】 icon.\nL21: For assistance in using Records Online, contact the 【3†City Clerk Department.†berkeleyca.gov】\nL22: #### Search\nL23: \nL24: * * *\nL25: \nL26: #### Results\nL27: \nL28: * * *\n\n--------------------------------------------------------------------------------\nOpen Public RecordsNextRequest - Modern FOIA & Public Records Request Software (https://cityofberkeleyca.nextrequest.com/)\n【turn39view1】 [wordlim: 200] Crawled: today; Content type: text/html; Source: click({\"ref_id\":\"turn37view0\",\"id\":6}); Total lines: 11\nL0: 【0†Image: logo or seal for City of Berkeley†nextrequestdev.s3.amazonaws.com】\nL1: # Open Public Records\nL2: \nL3: This web portal will help you request records you need from the City of Berkeley. This is part of City of Berkeley's ongoing effort to make government more transparent and easy for you to request the records you are seeking. Use of the NextRequest platform is intended to facilitate public records under the California Public Records Act (CPRA).  Official records are held by City departments and the Clerk pursuant to governing document retention schedules.\nL4: \nL5: 【1†Search】\nL6: Search 6053 requests and counting.\nL7: \nL8: 【2†Make Request】\nL9: \nL10: Make a new public records request.\n"
+      }
+    ],
+    "isError": false
+  }
+}

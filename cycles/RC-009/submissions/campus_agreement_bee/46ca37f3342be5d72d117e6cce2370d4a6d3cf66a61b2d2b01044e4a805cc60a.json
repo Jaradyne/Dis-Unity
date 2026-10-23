@@ -1,0 +1,98 @@
+{
+  "agent": "campus_agreement_bee",
+  "at": "2026-10-23T23:40:30.340493+00:00",
+  "base_hash": "16d04f8bb35a588caca60517f90a11944cfbafac7951402d059a6d6131de97b7",
+  "cycle_id": "RC-009",
+  "payload": {
+    "canonical_task_name": "/root/campus_agreement_bee",
+    "changes_made_to_peer_files": false,
+    "checks": [
+      {
+        "claim_reviewed": "CF-PROPOSAL and CF-OUTCOME",
+        "evidence_refs": [
+          "S-CF01",
+          "/workspace/scratch/63e791c4bf6d/campus_funding_bee-budget.txt, form-feed page33"
+        ],
+        "finding": "Saved budget text p.33 expressly describes discontinuation in FY2027 in a proposed budget. The return correctly keeps actual closure, notices and relocation outcomes unverified. The proposal alone is not an observed service cessation or operating-contract instruction.",
+        "id": "CA-PEER-1",
+        "result": "pass"
+      },
+      {
+        "claim_reviewed": "CF-ADOPTION",
+        "evidence_refs": [
+          "S-CF02",
+          "turn44view0, PDF pp.3–5",
+          "campus_funding_bee-04.json"
+        ],
+        "finding": "Saved annotated agenda lines97–107 and185 record budget adoption with revisions and All Ayes. Lines188–200 separately record first reading of the appropriations ordinance. The return does not turn first reading into verified final appropriations or execution.",
+        "id": "CA-PEER-2",
+        "result": "pass"
+      },
+      {
+        "claim_reviewed": "CF-AGENCY-ALLOCATION",
+        "evidence_refs": [
+          "S-CF04",
+          "turn53view0, PDF p.3 lines93–99",
+          "campus_funding_bee-08.json"
+        ],
+        "finding": "The revised table labels Insight Housing and a Measure P allocation but supplies no Campus program label. The return correctly refuses to assign this amount to Campus, spending or per-person cost.",
+        "id": "CA-PEER-3",
+        "result": "pass"
+      },
+      {
+        "claim_reviewed": "CF-REVISION",
+        "evidence_refs": [
+          "S-CF02",
+          "turn44view0 lines102–107"
+        ],
+        "finding": "The adopted action refers to City Manager Supplemental2, material supplied at the meeting, and Mayor supplemental recommendations. The return limits its negative finding to two reviewed Manager supplements and changes listed in the agenda, which is appropriate. It should preserve the additional possibility that incorporated same-day documents were not separately inspected, not only later amendments.",
+        "id": "CA-PEER-4",
+        "result": "nonblocking_precision_note",
+        "severity": "nonblocking; existing final-appropriation and closure cautions already prevent the larger overclaim",
+        "suggested_wording": "Among the two retrieved City Manager supplements and amendments reproduced in the annotated agenda, no explicit Campus restoration was found. This does not verify every incorporated same-day document or any later amendment."
+      }
+    ],
+    "created_at_utc": "2026-10-23T23:36:47.302825+00:00",
+    "cross_lane_conclusion": "The funding return strengthens a documented proposal/currentness concern. It does not supply the executed operator agreement missing from the agreement Bee pass, nor establish a funded-through date, actual closure, readmission or sustained protective outcome. All City budget records remain one transaction family.",
+    "decision": "scoped_pass_with_one_nonblocking_precision_note",
+    "independence_limit": "Reviewer did not author funding inputs, but this review reuses the same saved source family. It is not new empirical corroboration, an exhaustive budget audit, a fresh origin/PDF revalidation or a whole-report independent replication.",
+    "model_identity": "unknown",
+    "new_research_performed": false,
+    "next_test": "A current Campus-specific signed operating/funding amendment could clarify both operative duties and its funded-through date; this review does not authorize another search.",
+    "provider_identity": "unknown",
+    "resumption_note": "October23 resumed packaging/review after usage-limit interruption. This is not uninterrupted October22 execution. No new search, source retrieval or contact.",
+    "review_id": "campus_agreement_bee-review-of-funding-20261023",
+    "reviewed_materials": [
+      {
+        "path": "reports/shelter-accountability/campus-live-bees-20261022/returns/campus_funding_bee.json",
+        "sha256": "7c7a51d50ca423c9ebb8f045c03bc025980917bc370de7ce6630fd7b43cb57ee"
+      },
+      {
+        "path": "reports/shelter-accountability/campus-live-bees-20261022/returns/campus_funding_bee.md",
+        "sha256": "bd5564720c61936b224fbd5c4acdc37f2856de4a5559ab6269172f3f5204a1e5"
+      },
+      {
+        "path": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_funding_bee-04.json",
+        "sha256": "eb9b7df7d3a5f6dfd95f37fa265fc73c34d69dffbb4ea8a9028725871844fce4"
+      },
+      {
+        "path": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_funding_bee-08.json",
+        "sha256": "3a96cb4d87c092a460b2c1c2f9f96dfa4f562d57339468903a63f55a58d9b0f5"
+      },
+      {
+        "path": "/workspace/scratch/63e791c4bf6d/campus_funding_bee-budget.txt",
+        "sha256": "97b47ff7d805f46183455bd42437db0d3b901e5a509f34cb2c11a19b8510aaf9"
+      }
+    ],
+    "reviewed_task": "campus_funding_bee",
+    "reviewer": "campus_agreement_bee",
+    "runtime": "Work-session collaboration agent",
+    "schema_version": "campus-peer-review-1",
+    "scope": "Small source-scope challenge of proposal/adoption/appropriation/operation distinctions, using saved return, annotated action and revised allocation text plus the saved budget text page33.",
+    "source_cutoff": "2026-10-22",
+    "stop_reason": "Bounded saved-source scope challenge complete; no broader follow-on work."
+  },
+  "payload_hash": "4a1a638465f9838eac44a84fb9ed6349daf33b8c455672de18e54f6b3df1be6c",
+  "phase": "submitted",
+  "submission_id": "46ca37f3342be5d72d117e6cce2370d4a6d3cf66a61b2d2b01044e4a805cc60a"
+}

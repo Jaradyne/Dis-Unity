@@ -1,0 +1,41 @@
+{
+  "agent": "campus_agreement_bee",
+  "at": "2026-10-23T23:40:30.033108+00:00",
+  "base_hash": "16d04f8bb35a588caca60517f90a11944cfbafac7951402d059a6d6131de97b7",
+  "cycle_id": "RC-009",
+  "payload": {
+    "api_receipt": "not applicable; no external model API use",
+    "base_commit": "9555a73a9dae97033cb8c85580ffb33691e5285f",
+    "canonical_task_name": "/root/campus_agreement_bee",
+    "completed": {
+      "search_queries": 0,
+      "source_page_opens": 0
+    },
+    "cycle": "RC-009",
+    "evidence_status": "review intake only; no canonical admission",
+    "initial_context": "Prior generated Campus report read as inherited context, not fresh evidence.",
+    "limits": {
+      "search_queries": 8,
+      "source_page_opens": 12
+    },
+    "parent_question_id": "Q-CA-SHELTER-NOTICE",
+    "provider": "unknown",
+    "provider_cost": "unknown",
+    "question_epoch": 1,
+    "question_id": "Q-CAMPUS-AGREEMENT",
+    "question_registration": "case-local anchor; no shared live registration claimed",
+    "role": "Worker Bee",
+    "role_definition": "agents/worker_bee.json",
+    "runtime": "Work-session collaboration agent",
+    "scope": "One bounded public research pass to locate the executed/current Insight Housing operating agreement for Campus Motel/Super 8 at 1619 University Avenue, incorporated resident termination/grievance/accommodation policies, amendments and named corrective authority; distinct lawful public records path; no contacts, private cases, external model calls, spending, recursive agents, canonical state or existing case edits.",
+    "served_model_id": "unknown",
+    "source_cutoff": "2026-10-22",
+    "start_date_utc": "2026-10-22",
+    "started_at_utc": "2026-10-22T17:12:09.493931+00:00",
+    "status": "started",
+    "task_name": "campus_agreement_bee"
+  },
+  "payload_hash": "4a217e1e38e08f4b87321f1b639b231362a282ab03429fbcf5bffc9141dd6406",
+  "phase": "checkpoint",
+  "submission_id": "1bb8775cc5929f932e8c2f5342b76a7acf928e1052cd4887d92eb9aed7b7687a"
+}

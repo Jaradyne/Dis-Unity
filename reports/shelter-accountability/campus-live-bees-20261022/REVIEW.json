@@ -1,0 +1,63 @@
+{
+  "actual_completed_work_session_agents": 3,
+  "canonical_admission": false,
+  "coordinator_checks": [
+    "Read complete funding and agreement returns and safeguard return/addendum; reviewed all three peer review summaries.",
+    "Reopened primary ADA procedure, HRT audit, June2026 HRT report and budget adoption agenda; reopened contrary undated All Home profile. Coordinator tool returns separately dated.",
+    "Read budget PDF page33 via pdftotext and visually inspected same page from preserved full origin receipt. Web-reader failure is not cited as full PDF evidence.",
+    "Kept original proposal, revised adoption, allocation, payment, actual closure and sustained service distinct.",
+    "Accepted peer precision note: not every incorporated same-day budget document was inspected; no exhaustive restoration exclusion is claimed.",
+    "Historical Not Started is not present inactivity; later reporting activity preserved without claiming Campus effectiveness.",
+    "General City role designation is not observed Campus access/remedy. Original case and canonical input hashes must match before publication."
+  ],
+  "cycle": "RC-009",
+  "disposition": "accepted_for_bounded_public_research_report_with_residuals",
+  "execution_continuity": "Research Oct22; saved checkpoints and returns survived interruptions. Packaging and reviews resumed Oct23, including after usage-limit interruption. No uninterrupted execution claim.",
+  "external_provider_inference_calls": 0,
+  "governor_changes": false,
+  "input_returns": [
+    {
+      "path": "reports/shelter-accountability/campus-live-bees-20261022/returns/campus_agreement_bee.json",
+      "sha256": "a33fae54fa5ba65f2543e458cc43b3580621231bcdd8856d9cbb97fc0f75c709"
+    },
+    {
+      "path": "reports/shelter-accountability/campus-live-bees-20261022/returns/campus_funding_bee.json",
+      "sha256": "7c7a51d50ca423c9ebb8f045c03bc025980917bc370de7ce6630fd7b43cb57ee"
+    },
+    {
+      "path": "reports/shelter-accountability/campus-live-bees-20261022/returns/campus_safeguard_bee.json",
+      "sha256": "89f5193c4ca041b5e9153ab14e35514c303093530d699c055573d2984ac9f127"
+    }
+  ],
+  "manifest_mode_clarification": "cycle manifest mode describes cycle.py itself, which launches no agents/network/schedule. DISPATCH.json separately records the three actual Work-session collaboration tasks.",
+  "one_priority_next_test": "One current executed City\u2013Insight Campus operating-agreement packet, effective amendments and incorporated resident policies; no outgoing request or collector activated.",
+  "peer_disposition": "Separate-authorship source/scope reviews completed; no blocking finding. Shared sources are not fresh empirical corroboration.",
+  "peer_reviews": [
+    {
+      "path": "reports/shelter-accountability/campus-live-bees-20261022/returns/campus_agreement_bee-peer-review-of-campus_funding_bee.json",
+      "sha256": "2cd24bd30dd290af40742b6e2798da2cd4a946a205b1eb01c69127e53d489d3b"
+    },
+    {
+      "path": "reports/shelter-accountability/campus-live-bees-20261022/peer-reviews/campus_safeguard_bee-on-campus_funding_bee.json",
+      "sha256": "6bd58c1487c429a3de7b3d3e636cadce8890b222e0d05efe2f5727a961d002bd"
+    },
+    {
+      "path": "reports/shelter-accountability/campus-live-bees-20261022/peer-reviews/campus_funding_bee-on-agreement-and-safeguard.json",
+      "sha256": "8eb6e7bf19f4aebc378823f9aa80a8be3dae4a32cf5eb96fbf41dd7838615e70"
+    }
+  ],
+  "private_resident_case_included": false,
+  "publication_handling": "Original Bee returns unchanged; incidental personal narratives/social snippets omitted only in labeled public derivatives. Complete official budget HTTP receipt losslessly packaged. PUBLICATION.json maps exclusions and hashes.",
+  "recorded_at_utc": "2026-10-23T23:40:13.515818+00:00",
+  "residuals": [
+    "Current executed Campus operating bundle and incorporated resident policies unverified.",
+    "Final Campus-specific funding reconciliation, payments, actual closure and service-through date unverified.",
+    "Campus notice/review/accommodation implementation, remedies and sustained outcomes unverified."
+  ],
+  "review_date": "2026-10-23",
+  "reviewer": "Work Aiden /root",
+  "runtime_changes": false,
+  "schema_version": "campus-coordinator-review-1",
+  "source_cutoff": "2026-10-22",
+  "source_lineage": "City budget items share one transaction lineage; HRT audit and followup share an oversight lineage; later HRT management reporting is distinct but not an independent Campus outcome inspection."
+}

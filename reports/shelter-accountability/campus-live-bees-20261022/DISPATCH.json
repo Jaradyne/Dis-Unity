@@ -1,0 +1,76 @@
+{
+  "authorization": "Jared: Dispatch live bees. I want to know what they learn.",
+  "base_commit": "9555a73a9dae97033cb8c85580ffb33691e5285f",
+  "cycle_id": "RC-009",
+  "epistemic_boundary": "Agent output is an attributed lead/interpretation until source review. Task completion is not empirical corroboration or canonical admission.",
+  "external_api_runner": "Not dispatched. Observed historical window expired and live manifest closed; no brake cleared or schedule renewed.",
+  "external_provider_cost": "not applicable; no external provider request made",
+  "external_provider_inference_calls": 0,
+  "host_usage_receipt": "not exposed; no zero-cost receipt claimed",
+  "new_standing_bee_roles": 0,
+  "question_epoch": 1,
+  "question_id": "Q-CAMPUS-AGREEMENT",
+  "recorded_at_utc": "2026-10-22T17:12:51.551523+00:00",
+  "runtime": "OpenAI Work-session collaboration agents, using the project Worker Bee definition",
+  "served_model": "not exposed by collaboration tool metadata; no override requested",
+  "tasks": [
+    {
+      "dispatch_tool": "collaboration.spawn_agent",
+      "exact_dispatch_message": "Execute the exact saved task prompt at /workspace/scratch/63e791c4bf6d/campus-live-bees/reports/shelter-accountability/campus-live-bees-20261022/prompts/campus_agreement_bee.txt. Your workdir is /workspace/scratch/63e791c4bf6d/campus-live-bees. This is a user-authorized live Work-session Worker Bee, using the existing provider-neutral role; no external API runner, paid service, contact, private resident research or recursive spawning. Save initial checkpoint immediately and your own raw tool captures/final return as specified. Report actual findings with source refs to coordinator. Do not edit peer files, code, original case or canonical evidence.",
+      "fork_turns": "none",
+      "inherited_case_sha256": {
+        "reports/shelter-accountability/campus-motel/events.json": "9332258841bace4a5a451ad1b474ac76cf720e6f7b52613907d332000d01a687",
+        "reports/shelter-accountability/campus-motel/generated/CAMPUS.md": "be11cf54573f253b9b7ae2f2ca111fe63ef03f462b6f375420daf3f0a9472ac3",
+        "reports/shelter-accountability/campus-motel/sources.json": "ff684455d7158a63aef3265dd19ad2db98c6b754665a6508e9b4a78cbd699eeb"
+      },
+      "model_override": null,
+      "prompt_path": "reports/shelter-accountability/campus-live-bees-20261022/prompts/campus_agreement_bee.txt",
+      "prompt_sha256": "9b47874f3575d3e29a7ec234703ea533dddb86957333e05f07a0713892d9c0c5",
+      "role_sha256": {
+        "agents/AGENT_TEMPLATE.yaml": "dcfe9026f2ae97cfdc5a43d336e6ab8a795a6b0ba565543d5ef8a88cdfd5f491",
+        "agents/worker_bee.json": "a097e4f1167288c86f9d6ccf89e926d0b4ca03b5e26cd204dcf233c8e6fb8b48"
+      },
+      "status_at_dispatch_record": "spawn accepted; completion not yet claimed",
+      "task_name": "/root/campus_agreement_bee"
+    },
+    {
+      "dispatch_tool": "collaboration.spawn_agent",
+      "exact_dispatch_message": "Execute the exact saved task prompt at /workspace/scratch/63e791c4bf6d/campus-live-bees/reports/shelter-accountability/campus-live-bees-20261022/prompts/campus_funding_bee.txt. Your workdir is /workspace/scratch/63e791c4bf6d/campus-live-bees. This is a user-authorized live Work-session Worker Bee, using the existing provider-neutral role; no external API runner, paid service, contact, private resident research or recursive spawning. Save initial checkpoint immediately and your own raw tool captures/final return as specified. Report actual findings with source refs to coordinator. Do not edit peer files, code, original case or canonical evidence.",
+      "fork_turns": "none",
+      "inherited_case_sha256": {
+        "reports/shelter-accountability/campus-motel/events.json": "9332258841bace4a5a451ad1b474ac76cf720e6f7b52613907d332000d01a687",
+        "reports/shelter-accountability/campus-motel/generated/CAMPUS.md": "be11cf54573f253b9b7ae2f2ca111fe63ef03f462b6f375420daf3f0a9472ac3",
+        "reports/shelter-accountability/campus-motel/sources.json": "ff684455d7158a63aef3265dd19ad2db98c6b754665a6508e9b4a78cbd699eeb"
+      },
+      "model_override": null,
+      "prompt_path": "reports/shelter-accountability/campus-live-bees-20261022/prompts/campus_funding_bee.txt",
+      "prompt_sha256": "3a5528b83c9068c884e6be919582b4aba0bbf921259e38b7eaa92f7e2129334a",
+      "role_sha256": {
+        "agents/AGENT_TEMPLATE.yaml": "dcfe9026f2ae97cfdc5a43d336e6ab8a795a6b0ba565543d5ef8a88cdfd5f491",
+        "agents/worker_bee.json": "a097e4f1167288c86f9d6ccf89e926d0b4ca03b5e26cd204dcf233c8e6fb8b48"
+      },
+      "status_at_dispatch_record": "spawn accepted; completion not yet claimed",
+      "task_name": "/root/campus_funding_bee"
+    },
+    {
+      "dispatch_tool": "collaboration.spawn_agent",
+      "exact_dispatch_message": "Execute the exact saved task prompt at /workspace/scratch/63e791c4bf6d/campus-live-bees/reports/shelter-accountability/campus-live-bees-20261022/prompts/campus_safeguard_bee.txt. Your workdir is /workspace/scratch/63e791c4bf6d/campus-live-bees. This is a user-authorized live Work-session Worker Bee, using the existing provider-neutral role; no external API runner, paid service, contact, private resident research or recursive spawning. Save initial checkpoint immediately and your own raw tool captures/final return as specified. Report actual findings with source refs to coordinator. Do not edit peer files, code, original case or canonical evidence.",
+      "fork_turns": "none",
+      "inherited_case_sha256": {
+        "reports/shelter-accountability/campus-motel/events.json": "9332258841bace4a5a451ad1b474ac76cf720e6f7b52613907d332000d01a687",
+        "reports/shelter-accountability/campus-motel/generated/CAMPUS.md": "be11cf54573f253b9b7ae2f2ca111fe63ef03f462b6f375420daf3f0a9472ac3",
+        "reports/shelter-accountability/campus-motel/sources.json": "ff684455d7158a63aef3265dd19ad2db98c6b754665a6508e9b4a78cbd699eeb"
+      },
+      "model_override": null,
+      "prompt_path": "reports/shelter-accountability/campus-live-bees-20261022/prompts/campus_safeguard_bee.txt",
+      "prompt_sha256": "dda96f46e5735ce69045dc7b19e10221d5e4d7540f10d85a7b3d10ae663bb3c4",
+      "role_sha256": {
+        "agents/AGENT_TEMPLATE.yaml": "dcfe9026f2ae97cfdc5a43d336e6ab8a795a6b0ba565543d5ef8a88cdfd5f491",
+        "agents/worker_bee.json": "a097e4f1167288c86f9d6ccf89e926d0b4ca03b5e26cd204dcf233c8e6fb8b48"
+      },
+      "status_at_dispatch_record": "spawn accepted; completion not yet claimed",
+      "task_name": "/root/campus_safeguard_bee"
+    }
+  ],
+  "version": "work-session-bee-dispatch-1"
+}
