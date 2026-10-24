@@ -1,0 +1,49 @@
+{
+  "schema_version": "campus-live-bee-addendum-1",
+  "task_name": "campus_safeguard_bee",
+  "created_at_utc": "2026-10-23T23:35:33.292527+00:00",
+  "type": "append_only_denominator_and_peer_review_status_note",
+  "original_return": "reports/shelter-accountability/campus-live-bees-20261022/returns/campus_safeguard_bee.json",
+  "original_return_sha256": "89f5193c4ca041b5e9153ab14e35514c303093530d699c055573d2984ac9f127",
+  "original_unchanged": true,
+  "source_cutoff": "2026-10-22",
+  "execution_note": "Saved-material check on resumed October 23 execution; no new research.",
+  "checks": [
+    {
+      "claim_id": "CSG-POSITIVE-AGGREGATE",
+      "status": "no_correction_needed",
+      "denominator": "City-reported people in noncongregate versus congregate shelters since 2022; not all Campus residents and not the separate 301-person HRT enrollment analysis.",
+      "saved_evidence": "campus_safeguard_bee-08.json, turn49view1, PDF p.4 / lines 118\u2013134"
+    },
+    {
+      "claim_id": "CSG-LATER-AGGREGATE",
+      "status": "no_correction_needed",
+      "denominator": "55% is the report\u2019s HRT participant share ever enrolled during engagement; 58% is its sheltered/housed classification; 95% is only the sheltered share within that latter group. No conversion to permanent-housing or retention success is made.",
+      "saved_evidence": "campus_safeguard_bee-08.json, turn49view0, PDF pp.3,9,12 / lines 75\u2013101,228\u2013293"
+    },
+    {
+      "claim_id": "CSG-GRIEVANCE-COUNT",
+      "status": "no_correction_needed",
+      "denominator": "Two HRT client-grievance service entries in Jan\u2013Mar2024, not two Campus grievances or necessarily unique complainants.",
+      "saved_evidence": "campus_safeguard_bee-03.json, turn40view3, PDF p.12 / lines 257\u2013276"
+    },
+    {
+      "claim_id": "CSG-HISTORICAL-STATUS",
+      "status": "no_correction_needed",
+      "denominator": "Six HRT audit recommendations in the historical follow-up table; period ended September 24, 2025. Not current inactivity or six Campus safeguard failures.",
+      "saved_evidence": "campus_safeguard_bee-07.json, turn48view1, PDF pp.2\u20133"
+    }
+  ],
+  "corrections_required": [],
+  "peer_message_received": {
+    "from": "campus_funding_bee",
+    "status": "Peer reports no blocking upgrade to Campus-specific protection; separate formal review pending at time of this note.",
+    "cautions": [
+      "Do not allocate two grievance-service entries to Campus.",
+      "Do not interpret the 95% shelter subgroup as permanent or sustained housing.",
+      "Do not carry historical Not Started labels into current inactivity."
+    ]
+  },
+  "network_requests": 0,
+  "stop_reason": "Denominators and historical-status scope checked; final original unchanged."
+}

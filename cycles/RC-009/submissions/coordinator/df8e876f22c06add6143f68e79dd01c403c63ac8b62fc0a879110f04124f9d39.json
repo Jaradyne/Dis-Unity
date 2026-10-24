@@ -1,0 +1,23 @@
+{
+  "agent": "coordinator",
+  "at": "2026-10-23T23:40:30.643187+00:00",
+  "base_hash": "16d04f8bb35a588caca60517f90a11944cfbafac7951402d059a6d6131de97b7",
+  "cycle_id": "RC-009",
+  "payload": {
+    "agent": "coordinator",
+    "canonical_admission": false,
+    "cycle_id": "RC-009",
+    "epoch": 1,
+    "question_id": "Q-CAMPUS-AGREEMENT",
+    "recorded_at_utc": "2026-10-23T23:40:13.515818+00:00",
+    "report_path": "reports/shelter-accountability/campus-live-bees-20261022/FINDINGS.md",
+    "review_path": "reports/shelter-accountability/campus-live-bees-20261022/REVIEW.json",
+    "review_sha256": "6f02d676b0ad75a2f4f958022b6a5006a80dbffa86a3ea07ebfe69c9d241f812",
+    "source_cutoff": "2026-10-22",
+    "status": "submitted",
+    "summary": "Three live Work-session Bee returns and separate peer checks complete; report accepted with explicit Campus-specific residuals; intake remains open."
+  },
+  "payload_hash": "1c0d607f7ff3ae9798f661632650956b8106b3cbf56fdb5b992744526f486178",
+  "phase": "submitted",
+  "submission_id": "df8e876f22c06add6143f68e79dd01c403c63ac8b62fc0a879110f04124f9d39"
+}

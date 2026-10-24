@@ -1,0 +1,634 @@
+{
+  "canonical_admission": false,
+  "created_at_utc": "2026-10-23T23:41:51.491907+00:00",
+  "excluded_originals": [
+    {
+      "original_path": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_agreement_bee-01.json",
+      "original_sha256": "dc0ec705b754ea5ce7bd99c4b09fb0c185f0112acae75ed87a0b7188e664e5d4",
+      "publication_path": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/publication/campus_agreement_bee-01.json",
+      "publication_sha256": "cc2811069939d8f53adfe222f6c80ac8862a694e83dadd79ef0d0291b5f789ba"
+    },
+    {
+      "original_path": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_agreement_bee-05.json",
+      "original_sha256": "85a3b69100c7fd3dc896ceb3559d065479b9a9604d21c6468958b80e1ab7620e",
+      "publication_path": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/publication/campus_agreement_bee-05.json",
+      "publication_sha256": "25798bf754b38520ded3106eda6702c026d07d32aec00142bb56329ae69b8183"
+    },
+    {
+      "original_path": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_safeguard_bee-01.json",
+      "original_sha256": "a258c33acd86997c733ab3e824b4c41336ce911e506578a8894504c7b61c3d6b",
+      "publication_path": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/publication/campus_safeguard_bee-01.json",
+      "publication_sha256": "48bd592f819316641967b592cfe469ae703db501cec280df11a2fbf084cfc715"
+    },
+    {
+      "original_path": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_safeguard_bee-02.json",
+      "original_sha256": "8947de343ff5e0dfef99892a1273dc7553863e1ea4f8ba673c69211fa156512f",
+      "publication_path": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/publication/campus_safeguard_bee-02.json",
+      "publication_sha256": "90630b46fbeab990d147f9607837cdf343b51a1eab80b0cd647f42c78e1b144c"
+    },
+    {
+      "original_path": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_safeguard_bee-03.json",
+      "original_sha256": "a0ac032194b7ae0e9e76c0b4f6ec1d16b235acf86d0e6e64ac1f1644c3a2240a",
+      "publication_path": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/publication/campus_safeguard_bee-03.json",
+      "publication_sha256": "6f9a9de8d419e33ebb84819d89bf86d2c0050b935fced61e2ce7a6b443f4f0ef"
+    },
+    {
+      "original_path": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_safeguard_bee-05.json",
+      "original_sha256": "0653d731ae5ca7da999035f4c6d9edee2164672f8bd03928608719638389123b",
+      "publication_path": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/publication/campus_safeguard_bee-05.json",
+      "publication_sha256": "dca633a452073ab2b0bfc978e83a15b1eff2a9dfc6f30b226ac8e9f0879bc892"
+    },
+    {
+      "original_path": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_funding_bee-01.json",
+      "original_sha256": "4da8f5ee93e4b2dea2b93dbdea31f4615753c975e894dbf00c984cf9a6318ea2",
+      "publication_path": "reports/shelter-accountability/campus-live-bees-20261022/publication-copies/campus_funding_bee/campus_funding_bee-01-publication.json",
+      "publication_sha256": "cdd08d78c0b3686efbbeb22695b256fa9aba3292c7eb844124d2f81dfb1c11a8"
+    },
+    {
+      "original_path": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_funding_bee-02.json",
+      "original_sha256": "42b5e7806b7cc45f21878c0c03ce63973a7775f5909af5e80c9d17052216bacb",
+      "publication_path": "reports/shelter-accountability/campus-live-bees-20261022/publication-copies/campus_funding_bee/campus_funding_bee-02-publication.json",
+      "publication_sha256": "8f2f77a60248c43d2cbe6515c05742efb04aa1930855c663f31644acb95d4c2b"
+    },
+    {
+      "original_path": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_funding_bee-04.json",
+      "original_sha256": "eb9b7df7d3a5f6dfd95f37fa265fc73c34d69dffbb4ea8a9028725871844fce4",
+      "publication_path": "reports/shelter-accountability/campus-live-bees-20261022/publication-copies/campus_funding_bee/campus_funding_bee-04-publication.json",
+      "publication_sha256": "b7f85975e3a80cdda6329e159cdc7caff1765ffaece59979e2d760fc860e1b3a"
+    },
+    {
+      "original_path": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_funding_bee-05.json",
+      "original_sha256": "10dca1db32767d18a564f1c73234d3f2c467742651f4a93821f9e28dbe822ae0",
+      "publication_path": "reports/shelter-accountability/campus-live-bees-20261022/publication-copies/campus_funding_bee/campus_funding_bee-05-publication.json",
+      "publication_sha256": "5763e9a40872c2c00bcfe65207ec29c0f456d6edc2869c39a13f5b3b05643419"
+    },
+    {
+      "original_path": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/coordinator-02.json",
+      "original_sha256": "a328c34e5d70bc070a43321ee76f8bb451cbcbfdb085061862df4ac178112515",
+      "publication_path": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/publication/coordinator-02.json",
+      "publication_sha256": "d152b36598b18178b69cd471ad16f236e31c5f9d87abde2d974f39ee1cd3c8b8"
+    },
+    {
+      "handling": "Lossless gzip packaging, not filtered",
+      "original_path": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_funding_bee-http/operations/week-one/runs/campus_funding_bee-budget/api/0001.json",
+      "original_sha256": "8f04c2cdeadf47d4af2158fbbce092a2da1b99eb80de67f858389380385c8550",
+      "publication_path": "reports/shelter-accountability/campus-live-bees-20261022/receipts/budget-http-receipt.json.gz",
+      "publication_sha256": "12c1a35b274f6184afebdbf03d88c11c5965d2f840d95d90ad1a249bf021c9f2"
+    }
+  ],
+  "exclusion_meaning": "Incidental personal/social material stays out of public Git; originals remain unchanged locally but omitted bytes are not recoverable from filtered copies. Complete budget receipt is separately losslessly packaged.",
+  "preserved_inputs": {
+    "Resilience_Cascade_STATE.json": "16d04f8bb35a588caca60517f90a11944cfbafac7951402d059a6d6131de97b7",
+    "reports/shelter-accountability/campus-motel/events.json": "9332258841bace4a5a451ad1b474ac76cf720e6f7b52613907d332000d01a687",
+    "reports/shelter-accountability/campus-motel/generated/CAMPUS.md": "be11cf54573f253b9b7ae2f2ca111fe63ef03f462b6f375420daf3f0a9472ac3",
+    "reports/shelter-accountability/campus-motel/sources.json": "ff684455d7158a63aef3265dd19ad2db98c6b754665a6508e9b4a78cbd699eeb"
+  },
+  "published_files": [
+    {
+      "bytes": 2061,
+      "path": "cycles/RC-009/ROLE_COVERAGE.md",
+      "sha256": "13f2fb61ad2bfd6649096077b373e90e008eebabce910f1f93f03ff198e8558b"
+    },
+    {
+      "bytes": 352811,
+      "path": "cycles/RC-009/baseline.json",
+      "sha256": "16d04f8bb35a588caca60517f90a11944cfbafac7951402d059a6d6131de97b7"
+    },
+    {
+      "bytes": 751,
+      "path": "cycles/RC-009/events/000001-a1553a04491674b8998fe862.json",
+      "sha256": "844d35b49bfbec7b26b7269a2a82cb9ff71a6b89a96afe481ffd1174dfa0c7dd"
+    },
+    {
+      "bytes": 582,
+      "path": "cycles/RC-009/events/000002-282da6c827fb8cff8ad35bba.json",
+      "sha256": "06ba3e4f019acd1ad641f8400bff10a0377d2322e595242dc4eef01c61fe7b22"
+    },
+    {
+      "bytes": 591,
+      "path": "cycles/RC-009/events/000003-4e92dc5d4884a980e43d3292.json",
+      "sha256": "a20043f7712195fab9a75108a855aaffcc27c811a9df6ff4abcb4ae6df2a53d0"
+    },
+    {
+      "bytes": 589,
+      "path": "cycles/RC-009/events/000004-872d5cab3dcf47b160d621a3.json",
+      "sha256": "b1231e125497431b0ecc212d0ec669314dae4717343cfa4a491e137885a6898f"
+    },
+    {
+      "bytes": 589,
+      "path": "cycles/RC-009/events/000005-7292d56a927ec079e97438a7.json",
+      "sha256": "62a4bf7b78f6375f995011d4fc3c87a67fa93f83176bcac8ed020e21414d8e5e"
+    },
+    {
+      "bytes": 589,
+      "path": "cycles/RC-009/events/000006-0c45d29cf2b18ee219cc9352.json",
+      "sha256": "899686fa2119844459f182946133771d3d5ecb473cf48cbea8949f6e5086fe2d"
+    },
+    {
+      "bytes": 591,
+      "path": "cycles/RC-009/events/000007-7bb9ffbb1c7435be80775948.json",
+      "sha256": "111ebfa3a298350f3894b591b82d73188e1f19723ac1e0bc7db4537f247b6fa0"
+    },
+    {
+      "bytes": 591,
+      "path": "cycles/RC-009/events/000008-c5ba5526abfb90b3c64b3ac3.json",
+      "sha256": "3fef8da09bc4b98fa7229a0945a70760d45461acbb80f161c570c65b58363a7c"
+    },
+    {
+      "bytes": 590,
+      "path": "cycles/RC-009/events/000009-612912ca72a1bffeb43c45e5.json",
+      "sha256": "63da41ffcf165198588e886f1f8b4d72cec9f2c87b5a4fb7fbdb7c2db43bc9a3"
+    },
+    {
+      "bytes": 591,
+      "path": "cycles/RC-009/events/000010-f36c943dd3059391217b7668.json",
+      "sha256": "746c4fa211f9a7b277c7f9fa06acd00a1bec4b210ff863819c3b6aeabb096918"
+    },
+    {
+      "bytes": 589,
+      "path": "cycles/RC-009/events/000011-f0435eab6dbf7170ae3bfb8a.json",
+      "sha256": "c03b92a89bd7cc6f125903ebbb86a8270778602c1eeb6021f62fbf6bb01704a6"
+    },
+    {
+      "bytes": 591,
+      "path": "cycles/RC-009/events/000012-1f6abbf51f35ff72030879c5.json",
+      "sha256": "320708b5a567ee60a7da6844a9e8147bb19e8b0c0aef4d3448315ef3a1b1b5b9"
+    },
+    {
+      "bytes": 589,
+      "path": "cycles/RC-009/events/000013-10e566746a62470c3722b5ab.json",
+      "sha256": "ddeb0dfd7a8b2eabba5a896c71788f06723ea858a8472cbb4d5eafd9154937a4"
+    },
+    {
+      "bytes": 591,
+      "path": "cycles/RC-009/events/000014-4f46816692cd3dfe56b9adf7.json",
+      "sha256": "da7c4b6b4bde8d6abcb4b151eff80f1156ba9a80521ebe16ae9886bf609093a6"
+    },
+    {
+      "bytes": 582,
+      "path": "cycles/RC-009/events/000015-f1dcdee8d0dfbcc60739cc9e.json",
+      "sha256": "0760cd4840016ccf4b4b1d8583c7ce522a36f0eaa2a1247d7da4639f3b7c4e25"
+    },
+    {
+      "bytes": 1534,
+      "path": "cycles/RC-009/inbox/campus_agreement_bee-checkpoint.json",
+      "sha256": "a038326f3fa8d3ca211e7b74c1593af1ec75cc317b85ce262306d09568935342"
+    },
+    {
+      "bytes": 24076,
+      "path": "cycles/RC-009/inbox/campus_agreement_bee-final.json",
+      "sha256": "a33fae54fa5ba65f2543e458cc43b3580621231bcdd8856d9cbb97fc0f75c709"
+    },
+    {
+      "bytes": 2387,
+      "path": "cycles/RC-009/inbox/campus_funding_bee-checkpoint.json",
+      "sha256": "f47937cdc70fdc41d7695c4c29d5070c70333c50f2db9729df04b4c4bd974e79"
+    },
+    {
+      "bytes": 24668,
+      "path": "cycles/RC-009/inbox/campus_funding_bee-final.json",
+      "sha256": "7c7a51d50ca423c9ebb8f045c03bc025980917bc370de7ce6630fd7b43cb57ee"
+    },
+    {
+      "bytes": 742,
+      "path": "cycles/RC-009/inbox/campus_funding_bee-packaging-checkpoint.json",
+      "sha256": "41c0d6822db7e617907160efc5792098c0a6e44ea0c5c3ae0bcdc18a15f5e982"
+    },
+    {
+      "bytes": 12108,
+      "path": "cycles/RC-009/inbox/campus_funding_bee-peer-review.json",
+      "sha256": "8eb6e7bf19f4aebc378823f9aa80a8be3dae4a32cf5eb96fbf41dd7838615e70"
+    },
+    {
+      "bytes": 653,
+      "path": "cycles/RC-009/inbox/campus_funding_bee-review-checkpoint.json",
+      "sha256": "8a4bbb1c0b05c5f093489ffc9ebae249ae4873460470f2033df2d66e50264f51"
+    },
+    {
+      "bytes": 1712,
+      "path": "cycles/RC-009/inbox/campus_safeguard_bee-checkpoint.json",
+      "sha256": "b1c5322c948032dcd896751b1bc8e0f6f637a8bc4e6abeb505da4b830f8ceb79"
+    },
+    {
+      "bytes": 31836,
+      "path": "cycles/RC-009/inbox/campus_safeguard_bee-final.json",
+      "sha256": "89f5193c4ca041b5e9153ab14e35514c303093530d699c055573d2984ac9f127"
+    },
+    {
+      "bytes": 823,
+      "path": "cycles/RC-009/inbox/campus_safeguard_bee-resumption.json",
+      "sha256": "a3da79477774a62b124de8a34360dc74517e643e4782ccafd7918a14337ad6a1"
+    },
+    {
+      "bytes": 1601,
+      "path": "cycles/RC-009/inbox/coordinator-checkpoint.json",
+      "sha256": "4f0f09e3023f20f3388887de573dcafd6843ead97a04f04f44bfc69d8feb2c1c"
+    },
+    {
+      "bytes": 683,
+      "path": "cycles/RC-009/inbox/coordinator-final.json",
+      "sha256": "1c0d607f7ff3ae9798f661632650956b8106b3cbf56fdb5b992744526f486178"
+    },
+    {
+      "bytes": 455,
+      "path": "cycles/RC-009/manifest.json",
+      "sha256": "bef868f7a10425b0d99e43b35b7fac6bb6bb2e50fbc8d1ed41844298600b9826"
+    },
+    {
+      "bytes": 1997,
+      "path": "cycles/RC-009/submissions/campus_agreement_bee/1bb8775cc5929f932e8c2f5342b76a7acf928e1052cd4887d92eb9aed7b7687a.json",
+      "sha256": "b1fec23edf380bf46e86662fc3157c24c36cc74fbe66a9845fc726d302d8dffb"
+    },
+    {
+      "bytes": 6013,
+      "path": "cycles/RC-009/submissions/campus_agreement_bee/46ca37f3342be5d72d117e6cce2370d4a6d3cf66a61b2d2b01044e4a805cc60a.json",
+      "sha256": "5a398f2558db60a707f3523c073dd0046aee25591b1021fa5ac881bf6dec6d47"
+    },
+    {
+      "bytes": 25296,
+      "path": "cycles/RC-009/submissions/campus_agreement_bee/b0b976de0e7f419ed51521dde24e56c45bff11c6c2d72606bb3d7ba69dbc09d9.json",
+      "sha256": "b2da360483c172f7d6e31f8ca7ba8d9974702a079e50ee07b9f5212a20dea2bb"
+    },
+    {
+      "bytes": 1167,
+      "path": "cycles/RC-009/submissions/campus_funding_bee/24476eae63ab3c15f45114b6fb0f314eef903526d9bfa22c3a95cecc5e0f075e.json",
+      "sha256": "2bb418997c84c55953166765c559532203940bbc1b7e710d3f920a68077aeed3"
+    },
+    {
+      "bytes": 12878,
+      "path": "cycles/RC-009/submissions/campus_funding_bee/46eeb55a1508cbce2d4a1b33506218a7ccce11bcb8aa9e91a524915815298ff8.json",
+      "sha256": "793388d5bd1a9c8bf103f781f6c6a7c6cb01fa6b904275ddbaa3edfdeda05f62"
+    },
+    {
+      "bytes": 25902,
+      "path": "cycles/RC-009/submissions/campus_funding_bee/66aa4aab357ad8bb2db6b6d1ed8da76bb6ce113d27298a2b1a73b1640efc0ff2.json",
+      "sha256": "a62e1293209201028a74803cb91597cf0d84c53322383c58a076c44062ee4b93"
+    },
+    {
+      "bytes": 2924,
+      "path": "cycles/RC-009/submissions/campus_funding_bee/6b824f08fca58a9c6fdffefacde58a82ef26ab71a2594cfbfd025daaf3963f74.json",
+      "sha256": "8f9b36c3fdf83f8beb2b8a941ddb2607ee04abc3c4baeeed65da0034990c3aa5"
+    },
+    {
+      "bytes": 1074,
+      "path": "cycles/RC-009/submissions/campus_funding_bee/8675eb6d26c91eeb60f4dad42c1a6ab6239b0f590a851397f3577a5ecc874c10.json",
+      "sha256": "09d56a6c8dfbb4a28b8af3da282072711de86df16cacb575b973dfdf18886c3d"
+    },
+    {
+      "bytes": 33247,
+      "path": "cycles/RC-009/submissions/campus_safeguard_bee/3dc11bbb710d68832de4a6749ed8f27883a810c2e3b0dc97a683b5ec90907f10.json",
+      "sha256": "b54d01d30e37fd88c878fda86392c15526c1e5f02a31f36c03c6dc44bf5731d3"
+    },
+    {
+      "bytes": 2185,
+      "path": "cycles/RC-009/submissions/campus_safeguard_bee/92f442a341bb5fee5b1ba93df3ee25a54249f090dfeb546f7f373f90ca97f2f2.json",
+      "sha256": "20b13ab217aee738b0896c8b15308c34bba54512e7bd4ff0d5767ce26bcae1d9"
+    },
+    {
+      "bytes": 1252,
+      "path": "cycles/RC-009/submissions/campus_safeguard_bee/978bc6a7d7610a23fe2b2a974201054196f5191ff4f4e7c0cfb0c3a403fcc87a.json",
+      "sha256": "2f0d4bcb2ff15ec820c7eff6b94a0d494c81ebaaadbc32143030d8e4570f90c0"
+    },
+    {
+      "bytes": 8180,
+      "path": "cycles/RC-009/submissions/campus_safeguard_bee/d13662b3d7fea736fc97476b604f70e08a9ea04e78204021bff36e41ab1ff54b.json",
+      "sha256": "e0b30815e31fffc630a4915d5b6b10789b2b11cfe2588a42e96aff4ad3623099"
+    },
+    {
+      "bytes": 2053,
+      "path": "cycles/RC-009/submissions/coordinator/df676f8bb80119ba13d40f54d56a5dd2fe9e9a82637b6747ab71621d1149c993.json",
+      "sha256": "53f06e23bf5534a022bf4c7793dea6ac784f2939b839ed4d7a4a8c418865e207"
+    },
+    {
+      "bytes": 1100,
+      "path": "cycles/RC-009/submissions/coordinator/df8e876f22c06add6143f68e79dd01c403c63ac8b62fc0a879110f04124f9d39.json",
+      "sha256": "78863c9601445369d927a4593c315529dafa33cfac2dcef3656aaeb87ef7bfdf"
+    },
+    {
+      "bytes": 6589,
+      "path": "reports/shelter-accountability/campus-live-bees-20261022/DISPATCH.json",
+      "sha256": "05ef96df7bfeafb852bf1411287897cfd26b955ad012afde2c27667c9ccf0eab"
+    },
+    {
+      "bytes": 5631,
+      "path": "reports/shelter-accountability/campus-live-bees-20261022/FINDINGS.md",
+      "sha256": "8189ac673f49f6edbe77fe44dc39beb1ec5864eda88ea9c521e9f8fe1c7dd031"
+    },
+    {
+      "bytes": 1464,
+      "path": "reports/shelter-accountability/campus-live-bees-20261022/HANDOFF_CHAT.md",
+      "sha256": "9810d7ce7de743d9194f04d28b5843cfebf1d3332c23de868d314e77f0d8cb58"
+    },
+    {
+      "bytes": 1765,
+      "path": "reports/shelter-accountability/campus-live-bees-20261022/HANDOFF_DIGEST.md",
+      "sha256": "0ddf675fb354517daa9330a86b7e5ac996de43567a01f6957a057cab2b06dda3"
+    },
+    {
+      "bytes": 3861,
+      "path": "reports/shelter-accountability/campus-live-bees-20261022/README.md",
+      "sha256": "5c9463dc619cc489398f7b365ae30bb29fd2c4d522812c8ff3dc75ef3153a125"
+    },
+    {
+      "bytes": 4524,
+      "path": "reports/shelter-accountability/campus-live-bees-20261022/REVIEW.json",
+      "sha256": "6f02d676b0ad75a2f4f958022b6a5006a80dbffa86a3ea07ebfe69c9d241f812"
+    },
+    {
+      "bytes": 12108,
+      "path": "reports/shelter-accountability/campus-live-bees-20261022/peer-reviews/campus_funding_bee-on-agreement-and-safeguard.json",
+      "sha256": "8eb6e7bf19f4aebc378823f9aa80a8be3dae4a32cf5eb96fbf41dd7838615e70"
+    },
+    {
+      "bytes": 2551,
+      "path": "reports/shelter-accountability/campus-live-bees-20261022/peer-reviews/campus_funding_bee-on-agreement-and-safeguard.md",
+      "sha256": "4935211f3aff53d0baa7e161c772a7f7c9954b028b1d067b61d09ea0a5163d1d"
+    },
+    {
+      "bytes": 7485,
+      "path": "reports/shelter-accountability/campus-live-bees-20261022/peer-reviews/campus_safeguard_bee-on-campus_funding_bee.json",
+      "sha256": "6bd58c1487c429a3de7b3d3e636cadce8890b222e0d05efe2f5727a961d002bd"
+    },
+    {
+      "bytes": 1449,
+      "path": "reports/shelter-accountability/campus-live-bees-20261022/peer-reviews/campus_safeguard_bee-on-campus_funding_bee.md",
+      "sha256": "3ce801e8d489309edd49f87e9827f956f8c6544964ca51c13cc77a7fa52acff1"
+    },
+    {
+      "bytes": 4112,
+      "path": "reports/shelter-accountability/campus-live-bees-20261022/prompts/campus_agreement_bee.txt",
+      "sha256": "9b47874f3575d3e29a7ec234703ea533dddb86957333e05f07a0713892d9c0c5"
+    },
+    {
+      "bytes": 3985,
+      "path": "reports/shelter-accountability/campus-live-bees-20261022/prompts/campus_funding_bee.txt",
+      "sha256": "3a5528b83c9068c884e6be919582b4aba0bbf921259e38b7eaa92f7e2129334a"
+    },
+    {
+      "bytes": 4177,
+      "path": "reports/shelter-accountability/campus-live-bees-20261022/prompts/campus_safeguard_bee.txt",
+      "sha256": "dda96f46e5735ce69045dc7b19e10221d5e4d7540f10d85a7b3d10ae663bb3c4"
+    },
+    {
+      "bytes": 690,
+      "path": "reports/shelter-accountability/campus-live-bees-20261022/publication-copies/campus_funding_bee/README.md",
+      "sha256": "f8de84715ca9799a00a029ce1d86303161914b2ed0824ca58df81eedcf5e3b3f"
+    },
+    {
+      "bytes": 34142,
+      "path": "reports/shelter-accountability/campus-live-bees-20261022/publication-copies/campus_funding_bee/campus_funding_bee-01-publication.json",
+      "sha256": "cdd08d78c0b3686efbbeb22695b256fa9aba3292c7eb844124d2f81dfb1c11a8"
+    },
+    {
+      "bytes": 20210,
+      "path": "reports/shelter-accountability/campus-live-bees-20261022/publication-copies/campus_funding_bee/campus_funding_bee-02-publication.json",
+      "sha256": "8f2f77a60248c43d2cbe6515c05742efb04aa1930855c663f31644acb95d4c2b"
+    },
+    {
+      "bytes": 24038,
+      "path": "reports/shelter-accountability/campus-live-bees-20261022/publication-copies/campus_funding_bee/campus_funding_bee-04-publication.json",
+      "sha256": "b7f85975e3a80cdda6329e159cdc7caff1765ffaece59979e2d760fc860e1b3a"
+    },
+    {
+      "bytes": 31938,
+      "path": "reports/shelter-accountability/campus-live-bees-20261022/publication-copies/campus_funding_bee/campus_funding_bee-05-publication.json",
+      "sha256": "5763e9a40872c2c00bcfe65207ec29c0f456d6edc2869c39a13f5b3b05643419"
+    },
+    {
+      "bytes": 2993,
+      "path": "reports/shelter-accountability/campus-live-bees-20261022/publication-copies/campus_funding_bee/manifest.json",
+      "sha256": "62f9db4ae336788e61379cbb634be897679b0dbfbd796796a7316767d93ad8fe"
+    },
+    {
+      "bytes": 9257753,
+      "path": "reports/shelter-accountability/campus-live-bees-20261022/receipts/budget-http-receipt.json.gz",
+      "sha256": "12c1a35b274f6184afebdbf03d88c11c5965d2f840d95d90ad1a249bf021c9f2"
+    },
+    {
+      "bytes": 969,
+      "path": "reports/shelter-accountability/campus-live-bees-20261022/receipts/manifest.json",
+      "sha256": "25d7e8ba1501c93cecc5ee5c9c2258f0cf5e27538968e09dccd439121b5ae959"
+    },
+    {
+      "bytes": 5437,
+      "path": "reports/shelter-accountability/campus-live-bees-20261022/returns/campus_agreement_bee-peer-review-of-campus_funding_bee.json",
+      "sha256": "2cd24bd30dd290af40742b6e2798da2cd4a946a205b1eb01c69127e53d489d3b"
+    },
+    {
+      "bytes": 2075,
+      "path": "reports/shelter-accountability/campus-live-bees-20261022/returns/campus_agreement_bee-peer-review-of-campus_funding_bee.md",
+      "sha256": "728db94d0348f5e2a11ad5fde1fb01ac84271ab0a8c5587da4832a5c23389962"
+    },
+    {
+      "bytes": 24076,
+      "path": "reports/shelter-accountability/campus-live-bees-20261022/returns/campus_agreement_bee.json",
+      "sha256": "a33fae54fa5ba65f2543e458cc43b3580621231bcdd8856d9cbb97fc0f75c709"
+    },
+    {
+      "bytes": 4384,
+      "path": "reports/shelter-accountability/campus-live-bees-20261022/returns/campus_agreement_bee.md",
+      "sha256": "14c76407cf8bd88193718eb7f035b568befe108692904f5c2a727ce6e0e5b866"
+    },
+    {
+      "bytes": 24668,
+      "path": "reports/shelter-accountability/campus-live-bees-20261022/returns/campus_funding_bee.json",
+      "sha256": "7c7a51d50ca423c9ebb8f045c03bc025980917bc370de7ce6630fd7b43cb57ee"
+    },
+    {
+      "bytes": 5203,
+      "path": "reports/shelter-accountability/campus-live-bees-20261022/returns/campus_funding_bee.md",
+      "sha256": "bd5564720c61936b224fbd5c4acdc37f2856de4a5559ab6269172f3f5204a1e5"
+    },
+    {
+      "bytes": 2764,
+      "path": "reports/shelter-accountability/campus-live-bees-20261022/returns/campus_safeguard_bee-addendum-20261023.json",
+      "sha256": "b219ca5585c84d77741eb0f26e29cd48dca13adacfd9d44ef887e3223397ff22"
+    },
+    {
+      "bytes": 31836,
+      "path": "reports/shelter-accountability/campus-live-bees-20261022/returns/campus_safeguard_bee.json",
+      "sha256": "89f5193c4ca041b5e9153ab14e35514c303093530d699c055573d2984ac9f127"
+    },
+    {
+      "bytes": 3161,
+      "path": "reports/shelter-accountability/campus-live-bees-20261022/returns/campus_safeguard_bee.md",
+      "sha256": "bc4e3c2d0efb9eb680fd0804c8c4a745ac0c3232618a275e74f59c5007f0a858"
+    },
+    {
+      "bytes": 10135,
+      "path": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_agreement_bee-02.json",
+      "sha256": "16a9c1b4d16c32a85de61b9cdb24cfbd29d73f90fe5d579fe1b9d844e306eb8a"
+    },
+    {
+      "bytes": 7219,
+      "path": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_agreement_bee-03.json",
+      "sha256": "ef0d309a5e23b30b2258d7ee7afdd50f67dc31682f1b78d95fb16c159b87cc06"
+    },
+    {
+      "bytes": 31407,
+      "path": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_agreement_bee-04.json",
+      "sha256": "6dd1b789755089161774943030619868ff51a2ba4721cf829c4d47ab40b6688e"
+    },
+    {
+      "bytes": 6496,
+      "path": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_agreement_bee-06.json",
+      "sha256": "cec5d0740fc4e1733d1a2d52ac934c5f90b6500bfbb01450891925f17edc04f8"
+    },
+    {
+      "bytes": 17150,
+      "path": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_agreement_bee-07.json",
+      "sha256": "00bb4c35b18742114d3210c61955ed172ac7380bcb7cb0b40ed50de7e264c2f0"
+    },
+    {
+      "bytes": 965,
+      "path": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_agreement_bee-http/digestion/threshold/api/README.md",
+      "sha256": "79570ccefd40e1f60dd47a2e6037bf92f1f00957fb19c6c3e2c35af35affcbfc"
+    },
+    {
+      "bytes": 1059,
+      "path": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_agreement_bee-http/digestion/threshold/api/interactions.csv",
+      "sha256": "c157209d81178e24e8f926f33e2650e8a74d18c7a5c1174d1ffe5e120ae8d17b"
+    },
+    {
+      "bytes": 1100,
+      "path": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_agreement_bee-http/digestion/threshold/api/runs/campus_agreement_bee.json",
+      "sha256": "2367126109ad3a9ae79f22c66dd9e1d17e8610909dd66aa7e0991d1b8ab86877"
+    },
+    {
+      "bytes": 10019,
+      "path": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_agreement_bee-http/operations/week-one/runs/campus_agreement_bee/api/0001.json",
+      "sha256": "c97d1188d3121bda2d1ce8477d9cae4e682ff068f02884cd8157f79aed5ee5ae"
+    },
+    {
+      "bytes": 2974,
+      "path": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_agreement_bee-http/operations/week-one/runs/campus_agreement_bee/api/0002.json",
+      "sha256": "6b089dbf9a4f4e79786d6fce40ac52866beb6f759486bd248cfed3cdb2a0fbb6"
+    },
+    {
+      "bytes": 32319,
+      "path": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_funding_bee-03.json",
+      "sha256": "518c53c180b1def994adddf2279add787b78fd0351a1221c3bf7615f16230f75"
+    },
+    {
+      "bytes": 13776,
+      "path": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_funding_bee-06.json",
+      "sha256": "1586e83586de6df7f99eca78dadd8432b9fb1be59543c4c80c29db07118d7210"
+    },
+    {
+      "bytes": 23479,
+      "path": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_funding_bee-07.json",
+      "sha256": "61d73d5e50953300c97fd06181c70885a98f9cdddc1c5461d674f7946082c3d9"
+    },
+    {
+      "bytes": 23722,
+      "path": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_funding_bee-08.json",
+      "sha256": "3a96cb4d87c092a460b2c1c2f9f96dfa4f562d57339468903a63f55a58d9b0f5"
+    },
+    {
+      "bytes": 965,
+      "path": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_funding_bee-http/digestion/threshold/api/README.md",
+      "sha256": "dd8cbf8d07ef7cf548e3cd1628ade497106a2173f8f5b2b534dc9194f4a38a2c"
+    },
+    {
+      "bytes": 713,
+      "path": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_funding_bee-http/digestion/threshold/api/interactions.csv",
+      "sha256": "2def75d2f864fb45b62c8a50259d01113804a0dc1acbbc81d9aea96f8e00aaee"
+    },
+    {
+      "bytes": 776,
+      "path": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_funding_bee-http/digestion/threshold/api/runs/campus_funding_bee-budget.json",
+      "sha256": "f43c29aea6f16b4266d5d7481086c119ef500e4c9153da1d0b5565aebb74d356"
+    },
+    {
+      "bytes": 34757,
+      "path": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_safeguard_bee-04.json",
+      "sha256": "8e32bc0817924fd46131117c3c30383d0a82651330d0a45488f21f74c9e15547"
+    },
+    {
+      "bytes": 33635,
+      "path": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_safeguard_bee-06.json",
+      "sha256": "0895f5cd0530ce88014a9ffe543d2938e133f8c0d509473646bea423a3c5c778"
+    },
+    {
+      "bytes": 21107,
+      "path": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_safeguard_bee-07.json",
+      "sha256": "ae22e4ad1e88751d5847853e3ffff7b15edda4299a9a68fb479bb26ea3431ad3"
+    },
+    {
+      "bytes": 27227,
+      "path": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_safeguard_bee-08.json",
+      "sha256": "84254dde9057f7257067ed0c74855b1366a3d2ca37adc27a57de35ca282b4284"
+    },
+    {
+      "bytes": 35023,
+      "path": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_safeguard_bee-09.json",
+      "sha256": "7f82d10ab2b4a30a427f4b9feee44aaff05cfb21554a3cb5ad7d6a109cbc701c"
+    },
+    {
+      "bytes": 29199,
+      "path": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/coordinator-01.json",
+      "sha256": "8570830838799d8e83816f31ae0868e77318a09637a09eddce38c1cb2a78f4a7"
+    },
+    {
+      "bytes": 34780,
+      "path": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/publication/campus_agreement_bee-01.json",
+      "sha256": "cc2811069939d8f53adfe222f6c80ac8862a694e83dadd79ef0d0291b5f789ba"
+    },
+    {
+      "bytes": 7497,
+      "path": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/publication/campus_agreement_bee-05.json",
+      "sha256": "25798bf754b38520ded3106eda6702c026d07d32aec00142bb56329ae69b8183"
+    },
+    {
+      "bytes": 2289,
+      "path": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/publication/campus_agreement_bee-publication-manifest.json",
+      "sha256": "7a05bba9ad498b0d3429c3c02c86ea829e1bf70f8db82238fc3d9a0be1cab755"
+    },
+    {
+      "bytes": 36118,
+      "path": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/publication/campus_safeguard_bee-01.json",
+      "sha256": "48bd592f819316641967b592cfe469ae703db501cec280df11a2fbf084cfc715"
+    },
+    {
+      "bytes": 30586,
+      "path": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/publication/campus_safeguard_bee-02.json",
+      "sha256": "90630b46fbeab990d147f9607837cdf343b51a1eab80b0cd647f42c78e1b144c"
+    },
+    {
+      "bytes": 23235,
+      "path": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/publication/campus_safeguard_bee-03.json",
+      "sha256": "6f9a9de8d419e33ebb84819d89bf86d2c0050b935fced61e2ce7a6b443f4f0ef"
+    },
+    {
+      "bytes": 33075,
+      "path": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/publication/campus_safeguard_bee-05.json",
+      "sha256": "dca633a452073ab2b0bfc978e83a15b1eff2a9dfc6f30b226ac8e9f0879bc892"
+    },
+    {
+      "bytes": 2307,
+      "path": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/publication/campus_safeguard_bee-publication-manifest.json",
+      "sha256": "21d8b17f46238b0b9ee9faae2f9ca1844a6421b34d93e3545bfccc79c97d4dcc"
+    },
+    {
+      "bytes": 31750,
+      "path": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/publication/coordinator-02.json",
+      "sha256": "d152b36598b18178b69cd471ad16f236e31c5f9d87abde2d974f39ee1cd3c8b8"
+    },
+    {
+      "bytes": 631,
+      "path": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/publication/coordinator-publication-manifest.json",
+      "sha256": "0ed8f1d4c2607b941f31d95756b35c2bea001c7d4ff983101314d86b8561d275"
+    },
+    {
+      "bytes": 3336,
+      "path": "reports/shelter-accountability/campus-live-bees-20261022/verify_packet.py",
+      "sha256": "a14b0443ac2c57b292f7ee73f7a053e2e14aab11008e905e4f1c78ba6f541701"
+    }
+  ],
+  "schema_version": "campus-publication-packet-1",
+  "self_hash_exclusions": [
+    "PUBLICATION.json",
+    "VERIFICATION.json"
+  ],
+  "source_cutoff": "2026-10-22"
+}

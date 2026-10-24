@@ -1,0 +1,60 @@
+{
+  "schema_version": "campus-filtered-publication-manifest-1",
+  "task_name": "campus_agreement_bee",
+  "created_at_utc": "2026-10-23T09:42:57.284221+00:00",
+  "meaning": "Explicitly filtered publication copies only. These are incomplete derivatives, not full tool captures or raw origin HTTP. Originals remain unchanged locally.",
+  "originals_unchanged": true,
+  "files": [
+    {
+      "original_path": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_agreement_bee-01.json",
+      "original_sha256": "dc0ec705b754ea5ce7bd99c4b09fb0c185f0112acae75ed87a0b7188e664e5d4",
+      "original_bytes": 39505,
+      "publication_path": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/publication/campus_agreement_bee-01.json",
+      "publication_sha256": "cc2811069939d8f53adfe222f6c80ac8862a694e83dadd79ef0d0291b5f789ba",
+      "publication_bytes": 34780,
+      "omitted_source_refs": [
+        "turn34search1",
+        "turn34search11",
+        "turn34search15",
+        "turn34search17",
+        "turn34search5",
+        "turn34search7",
+        "turn34search9"
+      ],
+      "retained_source_refs": [
+        "turn34search0",
+        "turn34search2",
+        "turn34search3",
+        "turn34search4",
+        "turn34search6",
+        "turn34search8",
+        "turn34search10",
+        "turn34search12",
+        "turn34search13",
+        "turn34search14",
+        "turn34search16",
+        "turn34search18"
+      ]
+    },
+    {
+      "original_path": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_agreement_bee-05.json",
+      "original_sha256": "85a3b69100c7fd3dc896ceb3559d065479b9a9604d21c6468958b80e1ab7620e",
+      "original_bytes": 35838,
+      "publication_path": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/publication/campus_agreement_bee-05.json",
+      "publication_sha256": "25798bf754b38520ded3106eda6702c026d07d32aec00142bb56329ae69b8183",
+      "publication_bytes": 7497,
+      "omitted_source_refs": [
+        "turn52search3",
+        "turn52search4",
+        "turn52search6",
+        "turn52search7"
+      ],
+      "retained_source_refs": [
+        "turn52search0",
+        "turn52search1",
+        "turn52search2",
+        "turn52search5"
+      ]
+    }
+  ]
+}

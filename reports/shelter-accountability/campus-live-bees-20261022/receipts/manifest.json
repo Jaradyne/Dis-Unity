@@ -1,0 +1,15 @@
+{
+  "archive_bytes": 9257753,
+  "archive_path": "reports/shelter-accountability/campus-live-bees-20261022/receipts/budget-http-receipt.json.gz",
+  "archive_sha256": "12c1a35b274f6184afebdbf03d88c11c5965d2f840d95d90ad1a249bf021c9f2",
+  "content_filtering": false,
+  "encoding": "gzip (mtime=0), decompress to original recorder JSON; response.body.content is base64 PDF",
+  "original_bytes": 21267429,
+  "original_path": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_funding_bee-http/operations/week-one/runs/campus_funding_bee-budget/api/0001.json",
+  "original_sha256": "8f04c2cdeadf47d4af2158fbbce092a2da1b99eb80de67f858389380385c8550",
+  "packaged_at_utc": "2026-10-23T23:40:13.515818+00:00",
+  "schema_version": "lossless-receipt-archive-1",
+  "source_body_bytes": 15948849,
+  "source_body_sha256": "1556cdd4f90d36be5e568674a1cbed9b9da6bae1f2e79d143a7502532124ddf6",
+  "source_retrieved_at_utc": "2026-10-22T17:13:23.817144+00:00"
+}

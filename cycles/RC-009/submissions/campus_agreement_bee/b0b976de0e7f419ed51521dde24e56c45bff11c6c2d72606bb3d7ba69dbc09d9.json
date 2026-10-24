@@ -1,0 +1,420 @@
+{
+  "agent": "campus_agreement_bee",
+  "at": "2026-10-23T23:40:30.490332+00:00",
+  "base_hash": "16d04f8bb35a588caca60517f90a11944cfbafac7951402d059a6d6131de97b7",
+  "cycle_id": "RC-009",
+  "payload": {
+    "access_limits": [
+      "Records Online returned guidance and empty Search/Results sections, not native contract hits. The recorded HTML has client-rendered search elements.",
+      "Linked public application script returned 406; not retried or bypassed. No downloaded source code executed.",
+      "NextRequest list returned no extractable text; no login, request or contact.",
+      "Audit PDF open returned 502; its index was not used for a substantive finding.",
+      "Unsolicited personal narratives in search responses were not followed or used; originals are retained locally and explicit publication copies omit result sections."
+    ],
+    "admission_status": "Review intake only; no canonical admission",
+    "api_receipt": "No external model API receipt; public HTTP separately recorded.",
+    "base_commit": "9555a73a9dae97033cb8c85580ffb33691e5285f",
+    "bounds": {
+      "direct_public_GETs_used": 2,
+      "external_model_API_calls": 0,
+      "find_requests": 0,
+      "native_records_portal_queries_successfully_submitted": 0,
+      "outbound_contact": 0,
+      "private_account_or_resident_research": false,
+      "recursive_agents": 0,
+      "search_queries_used": 8,
+      "search_query_limit": 8,
+      "source_access_limit": 12,
+      "source_access_total": 11,
+      "web_source_opens_and_clicks_used": 9
+    },
+    "canonical_task_name": "/root/campus_agreement_bee",
+    "capture_inventory": [
+      {
+        "bytes": 39505,
+        "kind": "full returned web-tool response, not origin HTTP",
+        "path": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_agreement_bee-01.json",
+        "public_git_status": "Exclude original: incidental personal narratives. Explicit incomplete derivative available.",
+        "publication_copy": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/publication/campus_agreement_bee-01.json",
+        "publication_copy_sha256": "cc2811069939d8f53adfe222f6c80ac8862a694e83dadd79ef0d0291b5f789ba",
+        "retrieved_at_utc": "2026-10-22T17:12:41.338Z",
+        "sha256": "dc0ec705b754ea5ce7bd99c4b09fb0c185f0112acae75ed87a0b7188e664e5d4"
+      },
+      {
+        "bytes": 10135,
+        "kind": "full returned web-tool response, not origin HTTP",
+        "path": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_agreement_bee-02.json",
+        "public_git_note": "No incidental resident narrative flagged by this worker; coordinator review applies.",
+        "retrieved_at_utc": "2026-10-22T17:12:50.688Z",
+        "sha256": "16a9c1b4d16c32a85de61b9cdb24cfbd29d73f90fe5d579fe1b9d844e306eb8a"
+      },
+      {
+        "bytes": 7219,
+        "kind": "full returned web-tool response, not origin HTTP",
+        "path": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_agreement_bee-03.json",
+        "public_git_note": "No incidental resident narrative flagged by this worker; coordinator review applies.",
+        "retrieved_at_utc": "2026-10-22T17:13:00.600Z",
+        "sha256": "ef0d309a5e23b30b2258d7ee7afdd50f67dc31682f1b78d95fb16c159b87cc06"
+      },
+      {
+        "bytes": 31407,
+        "kind": "full returned web-tool response, not origin HTTP",
+        "path": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_agreement_bee-04.json",
+        "public_git_note": "Incidental public Council-communication authors in search results; no resident-case finding. Coordinator review applies.",
+        "retrieved_at_utc": "2026-10-22T17:13:17.399Z",
+        "sha256": "6dd1b789755089161774943030619868ff51a2ba4721cf829c4d47ab40b6688e"
+      },
+      {
+        "bytes": 35838,
+        "kind": "full returned web-tool response, not origin HTTP",
+        "path": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_agreement_bee-05.json",
+        "public_git_status": "Exclude original: incidental personal narratives. Explicit incomplete derivative available.",
+        "publication_copy": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/publication/campus_agreement_bee-05.json",
+        "publication_copy_sha256": "25798bf754b38520ded3106eda6702c026d07d32aec00142bb56329ae69b8183",
+        "retrieved_at_utc": "2026-10-22T17:15:01.492Z",
+        "sha256": "85a3b69100c7fd3dc896ceb3559d065479b9a9604d21c6468958b80e1ab7620e"
+      },
+      {
+        "bytes": 6496,
+        "kind": "full returned web-tool response, not origin HTTP",
+        "path": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_agreement_bee-06.json",
+        "public_git_note": "No incidental resident narrative flagged by this worker; coordinator review applies.",
+        "retrieved_at_utc": "2026-10-22T17:15:32.164Z",
+        "sha256": "cec5d0740fc4e1733d1a2d52ac934c5f90b6500bfbb01450891925f17edc04f8"
+      },
+      {
+        "bytes": 17150,
+        "kind": "full returned web-tool response, not origin HTTP",
+        "path": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_agreement_bee-07.json",
+        "public_git_note": "No incidental resident narrative flagged by this worker; coordinator review applies.",
+        "retrieved_at_utc": "2026-10-22T17:15:42.332Z",
+        "sha256": "00bb4c35b18742114d3210c61955ed172ac7380bcb7cb0b40ed50de7e264c2f0"
+      },
+      {
+        "bytes": 10019,
+        "http_status": 200,
+        "kind": "Origin HTTP exchange via scripts/api_records.py; credential/cookie redaction",
+        "origin_body_complete": true,
+        "origin_body_sha256": "6ff6c667446d611a7a82a89f1cfd92dc2384eee4aac767aa814a4013891d3d2d",
+        "path": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_agreement_bee-http/operations/week-one/runs/campus_agreement_bee/api/0001.json",
+        "retrieval_utc": "2026-10-22T17:14:12.438232+00:00",
+        "sha256": "c97d1188d3121bda2d1ce8477d9cae4e682ff068f02884cd8157f79aed5ee5ae",
+        "started_at_utc": "2026-10-22T17:14:05.003410+00:00",
+        "state": "response_received"
+      },
+      {
+        "bytes": 2974,
+        "http_status": 406,
+        "kind": "Origin HTTP exchange via scripts/api_records.py; credential/cookie redaction",
+        "origin_body_complete": true,
+        "origin_body_sha256": "2416fed1f11e00beab950c013307f6d6ab2ece9a6845c8423f3da35464f02096",
+        "path": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_agreement_bee-http/operations/week-one/runs/campus_agreement_bee/api/0002.json",
+        "retrieval_utc": "2026-10-22T17:14:33.253585+00:00",
+        "sha256": "6b089dbf9a4f4e79786d6fce40ac52866beb6f759486bd248cfed3cdb2a0fbb6",
+        "started_at_utc": "2026-10-22T17:14:29.772814+00:00",
+        "state": "http_error"
+      }
+    ],
+    "changed_from_inherited_case": [
+      "Fresh public-records route inspection documents specific extraction limits and separates native portal access from external search results.",
+      "The linked general City ADA policy supplies formal investigation and appeal offices with precise locators.",
+      "Guide and policy dates remain separate from October22 retrieval; attachment-date caution is explicit."
+    ],
+    "claims": [
+      {
+        "claim": "No executed/current City–Insight Campus operating agreement, contract ID, effective amendment, or incorporated resident termination/grievance/accommodation packet was located or authenticated in this pass.",
+        "epistemic_status": "unknown_after_bounded_search_not_absence_claim",
+        "id": "CA-EXECUTED-PACKET",
+        "limits": "External search queries and unavailable native portal results do not exhaust the archive.",
+        "source_ids": [
+          "S-CA01",
+          "S-CA02",
+          "S-CA03",
+          "S-CA04"
+        ],
+        "what_would_change_it": "A signed Campus-specific operating bundle and effective amendments with incorporated policy attachments."
+      },
+      {
+        "claim": "The City directs contract lookups to Records Online and permits viewing prior released requests through NextRequest. The August 2022 guide distinguishes full-text searches from metadata queries.",
+        "epistemic_status": "verified_published_guidance_with_dated_coverage_limit",
+        "id": "CA-RECORDS-PATH",
+        "limits": "Published lookup paths do not prove current indexing completeness or the presence or absence of a contract.",
+        "source_ids": [
+          "S-CA01",
+          "S-CA02",
+          "S-CA03",
+          "S-CA04"
+        ]
+      },
+      {
+        "claim": "The community-agency page links the City ADA route. A.R. 1.13 assigns investigation and written determination to the ADA Coordinator/designee. The report describes an appropriate City remedy; appeal goes to the Assistant City Manager, with a response approved by the City Manager.",
+        "epistemic_status": "verified_general_city_formal_procedure",
+        "id": "CA-GENERAL-ADA-PATH",
+        "limits": "No Campus incorporation, termination-review jurisdiction, authority to order readmission, actual accessible staffing or delivered remedy follows.",
+        "locator": "S-CA07 PDF pp.3,5–6",
+        "source_ids": [
+          "S-CA05",
+          "S-CA06",
+          "S-CA07"
+        ],
+        "what_would_change_it": "Current Campus delegation/policy plus dated evidence of exercise and outcome."
+      },
+      {
+        "claim": "The ADA procedure applies to City government property, programs and services. February 2024 headers and the older department-list footer require care about current personnel.",
+        "epistemic_status": "verified_text_scope_and_internal_date_caution",
+        "id": "CA-SCOPE-AND-DATES",
+        "limits": "The PDF names Thomas Gregory as Coordinator; current incumbency is unverified. No particular Campus event or legal applicability was assessed.",
+        "locator": "PDF pp.2,7",
+        "source_ids": [
+          "S-CA06",
+          "S-CA07"
+        ]
+      }
+    ],
+    "completed_at_utc": "2026-10-23T23:35:43.640668+00:00",
+    "continuation": {
+      "basis": "Packaging from the saved Oct22 checkpoint and captures after usage-limit interruption. Same canonical task name; no claim of uninterrupted execution or independently verified served-model continuity.",
+      "new_search_queries": 0,
+      "new_source_opens": 0,
+      "resumed_date_utc": "2026-10-23"
+    },
+    "counterevidence_and_ordinary_explanations": [
+      "City guidance says contracts are publicly searchable. A signed bundle may exist under another record name, in native results unavailable to text extraction, or with separate attachments.",
+      "The dated 2022 guide does not establish current indexing completeness. Limited external indexing and empty extraction are ordinary possible explanations for a search miss.",
+      "A general City review/remedy process exists on paper. This constrains any claim that no route exists, while implementation and Campus-specific jurisdiction remain unverified.",
+      "Amendments or separate participant policies could qualify the inherited removal wording; this pass does not resolve that issue.",
+      "Mixed document dates warrant current-office verification, not an inference of ineffectiveness or that every named official is stale."
+    ],
+    "cycle": "RC-009",
+    "instrument_distinctions": [
+      {
+        "inherited_source_id": "S-CM02",
+        "instrument": "City–owner property/occupancy agreement",
+        "status": "Inherited unsigned historical lease context only; not newly reverified."
+      },
+      {
+        "instrument": "City–Insight operating services agreement",
+        "status": "Executed/current packet, contract number and amendments unlocated."
+      },
+      {
+        "instrument": "Resident/participant agreement and program policies",
+        "status": "Current operative text and policy versions unlocated."
+      },
+      {
+        "instrument": "General City ADA A.R. 1.13",
+        "status": "Published general procedure verified; Campus incorporation not established."
+      }
+    ],
+    "last_source_retrieval_at_utc": "2026-10-22T17:15:42.332Z",
+    "lineage_note": "Forms page, ADA page and policy are one City procedural lineage. Records instructions and alternate access paths are not independent evidence of contract presence/absence. Operator publicity and other search results remained discovery leads, not independent observations.",
+    "model_identity": "unknown",
+    "not_changed": [
+      "No signed/current Campus operating agreement, contract ID, effective amendment or incorporated resident-policy packet verified.",
+      "No Campus-specific corrective official, termination-review power or authority to order readmission established.",
+      "No seven-day rule, resident event, unlawful removal, actual review decision or sustained protective outcome established.",
+      "Historical lease, operator authorization and resident agreement remain distinct; inherited paperwork is not a new discovery.",
+      "Original case, canonical evidence, registry, code, configuration and peer originals remain unchanged."
+    ],
+    "one_narrow_next_test": "Retrieve one signed Campus-specific City–Insight bundle using the public Records Online Contracts query and operator/Campus or 1619 University identifier, if available; inspect effective amendments and incorporated policy schedule for express correction authority. No request or contact is executed or authorized by this return.",
+    "peer_challenge_status": "Awaiting narrow peer challenge; a separately attributed review of the funding return is saved beside this report.",
+    "provider_cost": "unknown",
+    "provider_identity": "unknown",
+    "publication_review": {
+      "derivatives_explicitly_filtered_and_incomplete": true,
+      "manifest": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/publication/campus_agreement_bee-publication-manifest.json",
+      "note": "Each derivative retains original file/section hashes, omitted character ranges and reasons. The manifest also identifies unused secondary results removed from capture01. Hashes establish byte continuity, not truth.",
+      "originals_to_exclude_from_public_git": [
+        "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_agreement_bee-01.json",
+        "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_agreement_bee-05.json"
+      ],
+      "originals_unchanged": true
+    },
+    "question": {
+      "epoch": 1,
+      "id": "Q-CAMPUS-AGREEMENT",
+      "parent": "Q-CA-SHELTER-NOTICE",
+      "registration": "Case-local anchor; no shared live registration claimed"
+    },
+    "reflection": "Formal procedure is a narrower gain than contract discovery. Separating native-portal extraction limits from external search misses prevents treating access limits as absence.",
+    "role": "worker_bee",
+    "runtime": "Work-session collaboration agent",
+    "schema_version": "campus-live-bee-return-1",
+    "source_cutoff": "2026-10-22",
+    "sources": [
+      {
+        "access_level": "Public HTML opened; returned text",
+        "capture_path": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_agreement_bee-02.json",
+        "document_date": null,
+        "id": "S-CA01",
+        "limits": "Undated guidance identifies lookup routes, not completeness or a particular contract.",
+        "lineage_family": "City public-records guidance",
+        "locator": "Web lines 11–19",
+        "observation_or_event_date": null,
+        "publication_date": null,
+        "publisher": "City of Berkeley",
+        "retrieval_utc": "2026-10-22T17:12:50.688Z",
+        "title": "Requesting Public Information",
+        "tool_source_refs": [
+          "turn34search0",
+          "turn37view0"
+        ],
+        "url": "https://berkeleyca.gov/your-government/public-records/requesting-public-information"
+      },
+      {
+        "access_level": "Public HTML returned by web tool and separately recorded origin GET",
+        "capture_path": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_agreement_bee-03.json",
+        "document_date": null,
+        "id": "S-CA02",
+        "limits": "No native contract query was successfully submitted. Empty text-view Search/Results areas are not an empty archive. Commented HTML maintenance notices are not current notices.",
+        "lineage_family": "City public-records guidance",
+        "locator": "Web lines 9–19; origin HTML search-panel elements",
+        "observation_or_event_date": null,
+        "origin_http_receipt_path": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_agreement_bee-http/operations/week-one/runs/campus_agreement_bee/api/0001.json",
+        "origin_http_retrieval_utc": "2026-10-22T17:14:12.438232+00:00",
+        "publication_date": null,
+        "publisher": "City of Berkeley",
+        "retrieval_utc": "2026-10-22T17:13:00.600Z",
+        "title": "Records Online public access viewer",
+        "tool_source_refs": [
+          "turn39view0"
+        ],
+        "url": "https://records.cityofberkeley.info/PublicAccess/paFiles/cqFiles/index.html"
+      },
+      {
+        "access_level": "Public five-page PDF opened; returned text",
+        "capture_path": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_agreement_bee-04.json",
+        "document_date": "2022-08",
+        "id": "S-CA03",
+        "limits": "Month date comes from filename. Its 2005-to-present contract coverage description does not verify current indexing or Campus availability. October 22 retrieval is separate from the 2022 guide date.",
+        "lineage_family": "City public-records guidance",
+        "locator": "PDF p.1 coverage; pp.2–3 query types; p.5 Doc Name wildcards",
+        "observation_or_event_date": null,
+        "publication_date": null,
+        "publisher": "City of Berkeley",
+        "retrieval_utc": "2026-10-22T17:13:17.399Z",
+        "title": "Records Online instructions, August 2022",
+        "tool_source_refs": [
+          "turn41view0"
+        ],
+        "url": "https://berkeleyca.gov/sites/default/files/documents/New%20Records%20Online%20Instructions%20Aug%202022.pdf"
+      },
+      {
+        "access_level": "Public landing page and linked list opened",
+        "capture_path": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_agreement_bee-04.json",
+        "document_date": null,
+        "id": "S-CA04",
+        "landing_retrieval_utc": "2026-10-22T17:13:00.600Z",
+        "landing_url": "https://cityofberkeleyca.nextrequest.com/",
+        "limits": "No released contract bundle was obtained. No login, request or contact. Empty extraction is not evidence of no records.",
+        "lineage_family": "City public-records discovery",
+        "locator": "Landing page lines 1–10; list has zero returned text lines",
+        "observation_or_event_date": null,
+        "publication_date": null,
+        "publisher": "City of Berkeley",
+        "retrieval_utc": "2026-10-22T17:13:17.399Z",
+        "title": "NextRequest public records landing and request list",
+        "tool_source_refs": [
+          "turn39view1",
+          "turn41view1"
+        ],
+        "url": "https://cityofberkeleyca.nextrequest.com/requests"
+      },
+      {
+        "access_level": "Public HTML opened; returned text",
+        "capture_path": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_agreement_bee-02.json",
+        "document_date": null,
+        "id": "S-CA05",
+        "limits": "General agency guidance links disability compliance; not proof of incorporation into a specific executed Campus agreement.",
+        "lineage_family": "City general contracting and ADA guidance",
+        "locator": "Web lines 10–12 and 68–70",
+        "observation_or_event_date": null,
+        "publication_date": null,
+        "publisher": "City of Berkeley",
+        "retrieval_utc": "2026-10-22T17:12:50.688Z",
+        "title": "Community Agency Contract Forms",
+        "tool_source_refs": [
+          "turn34search10",
+          "turn37view1"
+        ],
+        "url": "https://berkeleyca.gov/community-recreation/community-services/community-agency-contract-forms"
+      },
+      {
+        "access_level": "Public HTML opened; returned text",
+        "capture_path": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_agreement_bee-06.json",
+        "document_date": null,
+        "id": "S-CA06",
+        "limits": "City-program route is distinguished from private businesses/landlords. Campus-specific classification, authority and actual remedy are not decided by this page.",
+        "lineage_family": "City general contracting and ADA guidance",
+        "locator": "Web lines 11–29 and 61–65",
+        "observation_or_event_date": null,
+        "publication_date": null,
+        "publisher": "City of Berkeley",
+        "retrieval_utc": "2026-10-22T17:15:32.164Z",
+        "title": "Disability Compliance Program",
+        "tool_source_refs": [
+          "turn54view0"
+        ],
+        "url": "https://berkeleyca.gov/your-government/our-work/disability-compliance-program"
+      },
+      {
+        "access_level": "Public nine-page PDF opened; full returned text",
+        "capture_path": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_agreement_bee-07.json",
+        "document_date": "2024-02",
+        "id": "S-CA07",
+        "limits": "Headers state Adopted: Feb 2024; attachment footer states Updated 1/20/2016. Current named officeholders are unverified. General City procedure is not an executed Campus contract or proven incorporated resident policy.",
+        "lineage_family": "City general contracting and ADA guidance",
+        "locator": "PDF p.2 scope; p.3 investigation; p.5 report/remedy; p.6 appeal; p.7 department list",
+        "observation_or_event_date": null,
+        "publication_date": null,
+        "publisher": "City of Berkeley",
+        "retrieval_utc": "2026-10-22T17:15:42.332Z",
+        "title": "A.R. 1.13: ADA Grievance Procedure and Form",
+        "tool_source_refs": [
+          "turn56view0"
+        ],
+        "url": "https://berkeleyca.gov/sites/default/files/documents/ADA%20Grievance%20Procedure%20and%20Form%20-%20updated%20Feb2024%20-%20WCAG-compliant.pdf"
+      },
+      {
+        "access_level": "Search snippet; PDF open returned 502 Bad Gateway",
+        "capture_path": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_agreement_bee-02.json",
+        "document_date": null,
+        "id": "S-CA09",
+        "limits": "No substantive audit or Campus finding adopted from the index.",
+        "lineage_family": "City audit discovery lead, unexamined",
+        "locator": "Failed open",
+        "observation_or_event_date": null,
+        "publication_date": null,
+        "publisher": "City of Berkeley",
+        "retrieval_utc": "2026-10-22T17:12:50.688Z",
+        "title": "Attempted City Contracts audit PDF open",
+        "tool_source_refs": [
+          "turn34search2",
+          "turn37view2"
+        ],
+        "url": "https://berkeleyca.gov/sites/default/files/2026-02/City_Contracts_-_Outdated_Process_Led_to_Non-Competitive_Contracts.pdf"
+      },
+      {
+        "access_level": "Recorded public GET returned HTTP 406",
+        "document_date": null,
+        "id": "S-CA08",
+        "limits": "No retry or bypass; no downloaded source code executed. Does not prove general portal outage.",
+        "lineage_family": "City public-records access attempt",
+        "publication_date": null,
+        "publisher": "City of Berkeley",
+        "receipt_path": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_agreement_bee-http/operations/week-one/runs/campus_agreement_bee/api/0002.json",
+        "retrieval_utc": "2026-10-22T17:14:33.253585+00:00",
+        "title": "Linked public Records Online application script attempt",
+        "tool_source_refs": [],
+        "url": "https://records.cityofberkeley.info/PublicAccess/!obpa/obpa_app.js"
+      }
+    ],
+    "started_at_utc": "2026-10-22T17:12:09.493931+00:00",
+    "status": "bounded_research_complete_packaged_after_pause",
+    "stop_reason": "All eight search queries used; stopped at eleven conservative source accesses after the general City procedure. The executed packet was not yielded. Oct23 packaging and the separate peer challenge use saved material only.",
+    "summary": "The executed/current Campus operating packet remains unlocated. Freshly inspected public guidance and a general City ADA procedure identify lookup and review routes; they do not establish Campus-specific incorporation, readmission authority, actual correction or protective outcome.",
+    "task_name": "campus_agreement_bee"
+  },
+  "payload_hash": "eeb3ead032c3b033cdb3b70bcedb662ef449652d8e313fdd3e57a26d82b50825",
+  "phase": "submitted",
+  "submission_id": "b0b976de0e7f419ed51521dde24e56c45bff11c6c2d72606bb3d7ba69dbc09d9"
+}

@@ -1,0 +1,87 @@
+{
+  "finished_at": "2026-10-22T17:14:12.438232+00:00",
+  "record_id": "API-campus_agreement_bee-0001",
+  "redaction": {
+    "policy": "Credentials and authentication cookies only; no content-field allowlist.",
+    "replacement_count": 1
+  },
+  "request": {
+    "body": null,
+    "headers": [
+      [
+        "User-agent",
+        "Mozilla/5.0"
+      ],
+      [
+        "Accept",
+        "text/html"
+      ]
+    ],
+    "method": "GET",
+    "url": "https://records.cityofberkeley.info/PublicAccess/paFiles/cqFiles/index.html"
+  },
+  "response": {
+    "body": {
+      "complete": true,
+      "content": "<!DOCTYPE html>\r\n<html>\r\n    <head>\r\n        <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\r\n        <meta charset=\"UTF-8\">\r\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\r\n        <title>OnBase Public Access Viewer</title>\r\n\r\n        <!-- OBPA dependencies -->\r\n        <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css\">\r\n        <script src=\"https://code.jquery.com/jquery-3.1.1.min.js\"></script>\r\n        <script src=\"https://code.jquery.com/ui/1.11.4/jquery-ui.min.js\"></script>\r\n\r\n        <!-- OBPA files -->\r\n        <script src=\"../../!obpa/obpa_dependencies.js\"></script>\r\n        <script src=\"../../!obpa/obpa_app.js\"></script>\r\n\r\n        <link rel=\"stylesheet\" href=\"../styles.css\">\r\n        <style>\r\n            .header-logo {\r\n                background-image: url(\"../assets/city_logo.png\");\r\n\t\t\t\tfloat: left;\r\n            }\r\n        </style>\r\n    </head>\r\n    <body>\r\n\t\r\n        <div class=\"container-fluid\" style=\"margin:10px;\">\r\n\t\t\t<div class=\"row\">\r\n\t\t\t\t<div class=\"header-logo\"></div>\r\n\t\t\t\t<h3><span style='font-family:\"Verdana\",\"sans-serif\";color:black'>Welcome to the City of Berkeley's Records Online</span></h3>  \r\n\t\t\t</div>\t\r\n\t<!-- Banner message/announcement\r\n\t\t\t<div class=\"row\">\r\n\t\t\t        <div class=\"col-md-12\">\r\n\t\t\t\t\t<div>  \r\n\t\t\t\t\t<p></p>\r\n\t\t\t\t\t\t<p><span style='background-color: #ADD8E6;font-weight:bold;font-size:14.0pt;font-family:\"Arial\",\"sans-serif\";'>Notice: Full Text searches are currently unavailable.  Keyword searches may be used while we work to restore Full Text searches.  </span></p>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t\t</div>\r\n\t\t\t</div>\r\n\t\t\t\r\n\t-->\t\t\r\n            <div class=\"row\">\r\n                <div class=\"col-md-12\">\r\n\t\t\t\t\t<div>  \r\n\t\t\t\t\t\t<p></p>\r\n\t\t\t\t\t\t<p><span style='font-size:10.0pt;font-family:\"Arial\",\"sans-serif\";'>Records Online contains the following documents:</span></p>\r\n                        \r\n                        <ul>\r\n                            <li><span style='font-size:10.0pt;font-family:\"Arial\",\"sans-serif\";mso-fareast-font-family:\"Times New Roman\"'>Ordinances</li>\r\n                            <li><span style='font-size:10.0pt;font-family:\"Arial\",\"sans-serif\";mso-fareast-font-family:\"Times New Roman\"'>Resolutions</li>\r\n                            <li><span style='font-size:10.0pt;font-family:\"Arial\",\"sans-serif\";mso-fareast-font-family:\"Times New Roman\"'>Meeting Minutes</li>\r\n                            <li><span style='font-size:10.0pt;font-family:\"Arial\",\"sans-serif\";mso-fareast-font-family:\"Times New Roman\"'>Communications to the City Council</li>\r\n                            <li><span style='font-size:10.0pt;font-family:\"Arial\",\"sans-serif\";mso-fareast-font-family:\"Times New Roman\"'>Berkeley Election Results and Voter Guides</li>\r\n                            <li><span style='font-size:10.0pt;font-family:\"Arial\",\"sans-serif\";mso-fareast-font-family:\"Times New Roman\"'>Contracts</li>\r\n                        </ul>\r\n                        \r\n                        <p><span style='font-size:10.0pt;font-family:\"Arial\",\"sans-serif\";'>Review the <a href=\"https://berkeleyca.gov/sites/default/files/documents/What%20is%20in%20Records%20Online%20%28Web%20Document%29_0.pdf\"><u>date ranges</u></a> of specific document types found in Records Online.</span></p>\r\n\r\n\t\t\t\t\t\t<p><strong><span style='font-size:10.0pt;font-family:\"Arial\",\"sans-serif\";'>Please review the <a href=\"https://berkeleyca.gov/sites/default/files/documents/New%20Records%20Online%20Instructions%20Aug%202022.pdf\"><u>detailed instructions</u></a> to facilitate searching in the Records Online database.</span></strong></p>\r\n\r\n\t\t\t\t\t\t<p><span style='font-size:10.0pt;font-family:\"Arial\",\"sans-serif\";'>Quick Tips for Searching:</span></p>\r\n\t\t\t\t\t\t<ol>\r\n\t\t\t\t\t\t\t<li><span style='font-size:10.0pt;font-family:\"Arial\",\"sans-serif\";mso-fareast-font-family:\"Times New Roman\"'>\r\n                            Narrow your search as much as possible by choosing the desired document type (ordinance, contracts, etc.), or search across all document types with the All Records Query.</span></li>\r\n\t\t\t\t\t\t\t<li><span style='font-size:10.0pt;font-family:\"Arial\",\"sans-serif\";mso-fareast-font-family:\"Times New Roman\"'>\r\n\t\t\t\t\t\t\tA <b>\"full text\"</b> query locates a specified search term in the record. The search term can be combined with other data fields associated with the document type.</span></li>\r\n\t\t\t\t\t\t\t<li><span style='font-size:10.0pt;font-family:\"Arial\",\"sans-serif\";mso-fareast-font-family:\"Times New Roman\"'>\r\n\t\t\t\t\t\t\tA <b>\"keywords\"</b> query searches in the specified data fields associated with the document type. The results in a keywords query are sortable.</span></li>\r\n                            <li><span style='font-size:10.0pt;font-family:\"Arial\",\"sans-serif\";mso-fareast-font-family:\"Times New Roman\"'>\r\n\t\t\t\t\t\t\tFor all date fields, the proper search format is <b>mm/dd/yyyy</b>. </span></li>\r\n\t\t\t\t\t\t\t<li><span style='font-size:10.0pt;font-family:\"Arial\",\"sans-serif\";mso-fareast-font-family:\"Times New Roman\"'>\r\n\t\t\t\t\t\t\tTo open a document in a new window, click the <img alt=\"Open in New Window Icon\" src=\"../assets/Icon_OpenNewWindow.jpg\" width=\"22\" height=\"21\"/> icon. </span></li>\r\n\t\t\t\t\t\t</ol>\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t<p><span style='font-size:10.0pt;line-height:107%;font-family:\"Arial\",\"sans-serif\";'>For assistance in using Records Online, \r\n\t\t\t\t\t\tcontact the </span><a href=\"https://berkeleyca.gov/your-government/about-us/departments/city-clerk-department\">\r\n\t\t\t\t\t\t<span style='font-size:10.0pt;font-family:\"Arial\",\"sans-serif\";mso-fareast-font-family:\"Times New Roman\";color:blue'><u>City Clerk Department</u>.</span></a></p>\t\t\t\t\t\r\n\t\t\t\t\t</div>    \t\t\t\r\n                </div>\r\n            </div>\r\n\t\t\t\r\n            <!--<div class=\"row\">\r\n                <div class=\"col-md-12\">\r\n\t\t\t\t\t<div>  \r\n\t\t\t\t\t\t<p></p>\r\n\t\t\t\t\t\t<p><span style='font-size:12.0pt;font-family:\"Arial\",\"sans-serif\"; color:#FFFFFF; background-color: #3A3C8E;'>Due to ongoing maintenance, full-text searches in Records Online may provide incomplete results. Keyword searches are fully functional. Please contact the <a href=\"https://berkeleyca.gov/your-government/about-us/departments/city-clerk-department\" style=\"color:#F0F0F0\" >City Clerk Department</a> if you need help finding records. <br></span></p>\r\n\t\t\t\t\t\t<p><span style='font-size:12.0pt;font-family:\"Arial\",\"sans-serif\"; color:#FFFFFF; background-color: #3A3C8E;'>Records Online will be down for maintenance on Friday, November 25 and Saturday, November 26.<br></span></p>\r\n\t\t\t\t\t\t\r\n                    </div>\r\n                </div>\r\n            </div>\r\n\t\t\t-->\r\n            <div class=\"row\">\r\n                <div class=\"col-md-4\">\r\n                    <h4>Search</h4>\r\n                    <hr class=\"content-separator\" />\r\n                    <div class=\"content-body content-body-search\">\r\n                        <obpa-search-panel></obpa-search-panel>\r\n                    </div>\r\n\t\t\t\t\t<!--\r\n\t\t\t\t\t<div class=\"content-body content-body-search\">\r\n\t\t\t\t\t\t<obpa-fulltext-search-panel></obpa-fulltext-search-panel>\r\n                    </div>\r\n\t\t\t\t\t-->\r\n                </div>\r\n                <div class=\"content-gap visible-xs-block visible-sm-block\"></div>\r\n                <div class=\"col-md-8\">\r\n                    <h4>Results</h4>\r\n                    <hr class=\"content-separator\" />\r\n                    <div class=\"content-body content-body-results\">\r\n                        <obpa-document-hitlist></obpa-document-hitlist>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </body>\r\n</html>\r\n",
+      "encoding": "utf-8",
+      "received_bytes": 7601,
+      "saved_sha256": "6ff6c667446d611a7a82a89f1cfd92dc2384eee4aac767aa814a4013891d3d2d"
+    },
+    "headers": [
+      [
+        "content-type",
+        "text/html"
+      ],
+      [
+        "last-modified",
+        "Wed, 18 Oct 2023 21:21:06 GMT"
+      ],
+      [
+        "accept-ranges",
+        "bytes"
+      ],
+      [
+        "etag",
+        "\"85eb44192da1:0\""
+      ],
+      [
+        "server",
+        "envoy"
+      ],
+      [
+        "x-powered-by",
+        "ASP.NET"
+      ],
+      [
+        "date",
+        "Thu, 22 Oct 2026 17:14:12 GMT"
+      ],
+      [
+        "content-length",
+        "7601"
+      ],
+      [
+        "set-cookie",
+        "[REDACTED]"
+      ],
+      [
+        "x-xss-protection",
+        "1; mode=block"
+      ],
+      [
+        "x-envoy-upstream-service-time",
+        "710"
+      ],
+      [
+        "connection",
+        "close"
+      ]
+    ],
+    "http_status": 200
+  },
+  "run_id": "campus_agreement_bee",
+  "schema_version": "api-exchange-1",
+  "started_at": "2026-10-22T17:14:05.003410+00:00",
+  "state": "response_received"
+}

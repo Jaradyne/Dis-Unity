@@ -1,0 +1,70 @@
+{
+  "task_name": "campus_funding_bee",
+  "canonical_task_name": "/root/campus_funding_bee",
+  "role": "worker_bee",
+  "runtime": "Work-session collaboration agent",
+  "question": "Q-CAMPUS-AGREEMENT",
+  "epoch": 1,
+  "parent_question": "Q-CA-SHELTER-NOTICE",
+  "start_date": "2026-10-22",
+  "checkpoint_utc": "2026-10-22T17:12:05.187421+00:00",
+  "base_commit": "9555a73a9dae97033cb8c85580ffb33691e5285f",
+  "scope": "Bounded live public research on current program funding and continuity, the June 23 2026 budget lead, and whether 23 rooms remains historical nominal capacity. RC-009 review intake only; no canonical admission.",
+  "model_identity": "unknown",
+  "provider_identity": "unknown",
+  "provider_cost": "unknown",
+  "api_receipt": "unavailable",
+  "constraints": {
+    "search_query_limit": 8,
+    "source_open_limit": 12,
+    "external_provider_inference": false,
+    "credential_access": false,
+    "recursive_agents": false
+  },
+  "latest_update_utc": "2026-10-22T17:18:33.769757+00:00",
+  "status": "bounded_research_complete_ready_for_peer_challenge",
+  "material_findings": [
+    {
+      "claim_id": "CF-PROPOSAL",
+      "epistemic_status": "verified_primary_proposal_text"
+    },
+    {
+      "claim_id": "CF-ADOPTION",
+      "epistemic_status": "verified_official_action_record"
+    },
+    {
+      "claim_id": "CF-REVISION",
+      "epistemic_status": "bounded_document_comparison_and_inference"
+    },
+    {
+      "claim_id": "CF-AGENCY-ALLOCATION",
+      "epistemic_status": "verified_primary_allocation_table"
+    },
+    {
+      "claim_id": "CF-CONTRARY-PROFILE",
+      "epistemic_status": "attributed_undated_program_description"
+    },
+    {
+      "claim_id": "CF-CURRENT-CAPACITY",
+      "epistemic_status": "unknown_current_capacity"
+    },
+    {
+      "claim_id": "CF-OUTCOME",
+      "epistemic_status": "unknown_not_absence_claim"
+    }
+  ],
+  "return_path": "reports/shelter-accountability/campus-live-bees-20261022/returns/campus_funding_bee.json",
+  "bounds_used": {
+    "search_queries_used": 8,
+    "search_query_limit": 8,
+    "web_source_opens_and_clicks_used": 11,
+    "direct_public_GETs_used": 1,
+    "source_access_total": 12,
+    "source_access_limit": 12,
+    "find_requests_within_opened_sources": 4,
+    "external_model_API_calls": 0,
+    "recursive_agents": 0,
+    "outbound_contact": 0,
+    "private_account_or_resident_research": false
+  }
+}

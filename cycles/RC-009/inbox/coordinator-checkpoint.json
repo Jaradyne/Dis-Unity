@@ -1,0 +1,31 @@
+{
+  "agent": "coordinator",
+  "authorization": "Jared: Dispatch live bees. I want to know what they learn.",
+  "base_commit": "9555a73a9dae97033cb8c85580ffb33691e5285f",
+  "constraints": [
+    "No external-provider inference, first-use route, spending, schedules, Governor changes or canonical admission.",
+    "No private resident facts or outbound contact.",
+    "Actual delegated tasks and returned material retained separately from coordinator synthesis."
+  ],
+  "cycle_id": "RC-009",
+  "epoch": 1,
+  "evidence_cutoff": "2026-10-22",
+  "external_window_ends_at": "2026-10-04T07:45:13+00:00",
+  "live_branch_commit": "273eb72705017ede0177e473adab7ee80d6bb65f",
+  "live_manifest_observation": {
+    "brake": null,
+    "closed": true,
+    "closure_reason": null
+  },
+  "prompt_sha256": {
+    "campus_agreement_bee": "9b47874f3575d3e29a7ec234703ea533dddb86957333e05f07a0713892d9c0c5",
+    "campus_funding_bee": "3a5528b83c9068c884e6be919582b4aba0bbf921259e38b7eaa92f7e2129334a",
+    "campus_safeguard_bee": "dda96f46e5735ce69045dc7b19e10221d5e4d7540f10d85a7b3d10ae663bb3c4"
+  },
+  "question_id": "Q-CAMPUS-AGREEMENT",
+  "question_registration": "case-local inherited from merged PR45; not asserted registered in live operation registry",
+  "recorded_at": "2026-10-22T17:11:27.794963+00:00",
+  "runtime": "Work-session collaboration agents supported by agents/AGENT_TEMPLATE.yaml; external API runner not dispatched",
+  "scope": "Three bounded Work-session Worker Bees on Campus Motel agreement, funding/continuity, and observed safeguards; no external API runner renewal.",
+  "status": "checkpoint"
+}

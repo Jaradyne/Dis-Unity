@@ -1,0 +1,196 @@
+{
+  "agent": "campus_funding_bee",
+  "at": "2026-10-23T23:40:30.434421+00:00",
+  "base_hash": "16d04f8bb35a588caca60517f90a11944cfbafac7951402d059a6d6131de97b7",
+  "cycle_id": "RC-009",
+  "payload": {
+    "actions": {
+      "canonical_edits": 0,
+      "model_API_calls": 0,
+      "new_search_queries": 0,
+      "new_source_opens": 0,
+      "outbound_contact": 0,
+      "peer_original_edits": 0,
+      "recursive_agents": 0
+    },
+    "admission_status": "Review intake only; no canonical admission",
+    "base_commit": "9555a73a9dae97033cb8c85580ffb33691e5285f",
+    "blocking_findings": 0,
+    "checks": [
+      {
+        "challenge_test": "Does the general City ADA route become a Campus termination appeal, readmission power or observed remedy?",
+        "claim_ids": [
+          "CA-GENERAL-ADA-PATH",
+          "CA-SCOPE-AND-DATES"
+        ],
+        "correction_required": false,
+        "id": "CF-PR01",
+        "result": "No unsupported upgrade found. The return labels A.R.1.13 a general formal procedure and leaves Campus-specific jurisdiction, accessible operation and correction unknown.",
+        "saved_evidence": "Agreement capture 07, turn56view0, PDF p.2/web lines38-41 (City program scope); pp.3,5-6/lines66-71,122-142,156-171 (investigation, remedy description and appeal).",
+        "status": "supported_with_explicit_scope_limit",
+        "synthesis_boundary": "Describe a published City administrative route. Do not claim a Campus grievance was accepted, investigated, remedied or implemented, or that a named office can order Campus readmission. Lack of a located incorporated Campus packet also does not prove the general route unavailable; particular applicability remains unresolved.",
+        "target": "campus_agreement_bee"
+      },
+      {
+        "challenge_test": "Do mixed policy dates prove current personnel or ineffective procedures?",
+        "claim_ids": [
+          "CA-SCOPE-AND-DATES"
+        ],
+        "correction_required": false,
+        "id": "CF-PR02",
+        "result": "No. The return preserves February2024 policy headers and the older attachment footer without claiming that all names are stale or that the process failed.",
+        "saved_evidence": "Agreement capture07, turn56view0, lines14,45,86,120,146 (February2024) and201 (attachment footer).",
+        "status": "supported_date_caution",
+        "synthesis_boundary": "Keep office roles distinct from verified current incumbents; the document-date anomaly alone establishes neither ineffectiveness nor lack of a legal route.",
+        "target": "campus_agreement_bee"
+      },
+      {
+        "challenge_test": "Does independent HRT oversight become independent Campus outcome validation?",
+        "claim_ids": [
+          "CSG-OVERSIGHT",
+          "CSG-CORRECTIVE-PLAN"
+        ],
+        "correction_required": false,
+        "id": "CF-PR03",
+        "result": "No. The final return identifies the City Auditor as independent of HRT management within the same municipal institution and preserves the audit period and data-verification limits.",
+        "saved_evidence": "Safeguard capture06, turn47view2, audit printed pp.26-27/lines689-710 and32/lines797-802; capture09, turn55view1, printed pp.36-37/lines928-944,969-977.",
+        "status": "supported_with_independence_limit",
+        "synthesis_boundary": "Do not characterize the HRT audit as a Campus operator compliance audit. Management acceptance, corrective schedules and aggregate reporting are not observed Campus protection.",
+        "target": "campus_safeguard_bee"
+      },
+      {
+        "challenge_test": "Are the six Not Started statuses projected into October2026, or are later publications treated as audit closure?",
+        "claim_ids": [
+          "CSG-HISTORICAL-STATUS",
+          "CSG-REPORTING-ACTIVITY"
+        ],
+        "correction_required": false,
+        "id": "CF-PR04",
+        "result": "Neither upgrade occurs in the final return. The table reports a period ending September24,2025. Later public reporting is observable but does not independently establish completed corrective action.",
+        "saved_evidence": "Safeguard capture07, turn48view1, PDF p.2/line26 reporting period and p.3/lines40-62 status definitions/table; capture08, turn49view0, June18,2026 report lines6-15 and75-101.",
+        "status": "supported_historical_and_currentness_distinction",
+        "synthesis_boundary": "Retain both historical status and subsequent activity. Do not imply continuing inactivity from the historical table or full remediation from publication alone.",
+        "target": "campus_safeguard_bee"
+      },
+      {
+        "challenge_test": "Are the 34%/22% permanent-housing comparison and 301-person enrollment analysis given the same denominator or assigned to Campus?",
+        "claim_ids": [
+          "CSG-POSITIVE-AGGREGATE"
+        ],
+        "correction_required": false,
+        "id": "CF-PR05",
+        "result": "The final return keeps the comparison pooled and City-attributed. Saved text separately describes301 participants enrolled in both HRT and shelter since HRT inception, then a shelter-to-permanent-housing comparison since2022; it does not supply exact numerators/denominators for34%/22% in that passage.",
+        "saved_evidence": "Safeguard capture08, turn49view1, PDF p.4/web lines118-134.",
+        "status": "supported_with_denominator_caution",
+        "synthesis_boundary": "Do not attach301 as the denominator of the34%/22% housing comparison, calculate Campus transition counts, infer a causal shelter-type effect, or claim sustained tenancy. This is an added precision guardrail, not a discovered error in the peer return.",
+        "target": "campus_safeguard_bee"
+      },
+      {
+        "challenge_test": "Do55% enrollment,58% sheltered/housed and95% sheltered become the same denominator, permanent housing, current retention or Campus success?",
+        "claim_ids": [
+          "CSG-LATER-AGGREGATE"
+        ],
+        "correction_required": false,
+        "id": "CF-PR06",
+        "result": "The final return distinguishes these measures. In saved source text,55% is HRT participants enrolled in shelter at some point;58% is the reporting-period sheltered/housed category;95% is the sheltered subgroup within that category. The attachment labels the recent period December2025-May2026 and separately charts shelter stays/enrollments.",
+        "saved_evidence": "Safeguard capture08, turn49view0, PDF p.3/lines75-101; p.6/lines162-164; pp.9-12/lines228-293.",
+        "status": "supported_with_cohort_and_subgroup_caution",
+        "synthesis_boundary": "Preserve the reporting period and subgroup denominator. Do not turn enrollment episodes into unique people, force every chart to share an identical denominator, treat55% as retained shelter access, or call58% permanently housed. No Campus allocation or grievance-effectiveness inference.",
+        "target": "campus_safeguard_bee"
+      },
+      {
+        "challenge_test": "Do two City-reported grievance-service entries become two Campus complaints or successful remedies?",
+        "claim_ids": [
+          "CSG-GRIEVANCE-COUNT",
+          "CSG-CAMPUS-UNKNOWN"
+        ],
+        "correction_required": false,
+        "id": "CF-PR07",
+        "result": "No. The peer return explicitly limits this to a January-March2024 aggregate service count without Campus identity, complaint disposition or implemented outcome. This review checked the final claim and its limit; it did not independently re-extract the chart.",
+        "saved_evidence": "Safeguard final JSON claims CSG-GRIEVANCE-COUNT and CSG-CAMPUS-UNKNOWN; source S-CSG01 locator PDF p.12/web lines257-276.",
+        "status": "claim_scope_supported_not_freshly_replicated",
+        "synthesis_boundary": "Do not infer unique complainants, Campus origin, decisions, readmission or successful protection from the count.",
+        "target": "campus_safeguard_bee"
+      }
+    ],
+    "cycle": "RC-009",
+    "decision": "scoped_pass_with_explicit_limits",
+    "execution_note": "Separate October23 saved-material review following usage-limit interruption. Earlier October23 publication copies remain separate; no uninterrupted execution or independent served-model continuity claimed. Original empirical retrievals/cutoff remain October22.",
+    "independence_and_limitations": [
+      "Reviewer did not author the agreement or safeguard returns but authored the separate funding return.",
+      "This is a saved-material attribution/scope review, not a fresh origin retrieval, independent replication of every source, full legal-applicability assessment or whole-case audit.",
+      "Specific underlying passages were read for City ADA, HRT audit limits, historical status and aggregate outcome denominators. The grievance-service chart and all other source facts were not freshly replicated.",
+      "Unlocated policies/outcomes remain unknown; no failed remedy or absent protection inferred."
+    ],
+    "model_identity": "unknown",
+    "provider_identity": "unknown",
+    "publication_copy_manifest": "reports/shelter-accountability/campus-live-bees-20261022/publication-copies/campus_funding_bee/manifest.json",
+    "question": {
+      "epoch": 1,
+      "id": "Q-CAMPUS-AGREEMENT",
+      "parent": "Q-CA-SHELTER-NOTICE",
+      "registration": "Case-local anchor only"
+    },
+    "review_completed_at_utc": "2026-10-23T23:37:46.332759+00:00",
+    "review_started_at_utc": "2026-10-23T23:34:36.968206+00:00",
+    "reviewed_artifacts": [
+      {
+        "bytes": 24076,
+        "path": "reports/shelter-accountability/campus-live-bees-20261022/returns/campus_agreement_bee.json",
+        "sha256": "a33fae54fa5ba65f2543e458cc43b3580621231bcdd8856d9cbb97fc0f75c709"
+      },
+      {
+        "bytes": 4384,
+        "path": "reports/shelter-accountability/campus-live-bees-20261022/returns/campus_agreement_bee.md",
+        "sha256": "14c76407cf8bd88193718eb7f035b568befe108692904f5c2a727ce6e0e5b866"
+      },
+      {
+        "bytes": 31836,
+        "path": "reports/shelter-accountability/campus-live-bees-20261022/returns/campus_safeguard_bee.json",
+        "sha256": "89f5193c4ca041b5e9153ab14e35514c303093530d699c055573d2984ac9f127"
+      },
+      {
+        "bytes": 3161,
+        "path": "reports/shelter-accountability/campus-live-bees-20261022/returns/campus_safeguard_bee.md",
+        "sha256": "bc4e3c2d0efb9eb680fd0804c8c4a745ac0c3232618a275e74f59c5007f0a858"
+      },
+      {
+        "bytes": 17150,
+        "path": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_agreement_bee-07.json",
+        "sha256": "00bb4c35b18742114d3210c61955ed172ac7380bcb7cb0b40ed50de7e264c2f0"
+      },
+      {
+        "bytes": 33635,
+        "path": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_safeguard_bee-06.json",
+        "sha256": "0895f5cd0530ce88014a9ffe543d2938e133f8c0d509473646bea423a3c5c778"
+      },
+      {
+        "bytes": 21107,
+        "path": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_safeguard_bee-07.json",
+        "sha256": "ae22e4ad1e88751d5847853e3ffff7b15edda4299a9a68fb479bb26ea3431ad3"
+      },
+      {
+        "bytes": 27227,
+        "path": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_safeguard_bee-08.json",
+        "sha256": "84254dde9057f7257067ed0c74855b1366a3d2ca37adc27a57de35ca282b4284"
+      },
+      {
+        "bytes": 35023,
+        "path": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_safeguard_bee-09.json",
+        "sha256": "7f82d10ab2b4a30a427f4b9feee44aaff05cfb21554a3cb5ad7d6a109cbc701c"
+      }
+    ],
+    "reviewer_canonical_task_name": "/root/campus_funding_bee",
+    "reviewer_task_name": "campus_funding_bee",
+    "role": "worker_bee",
+    "runtime": "Work-session collaboration agent",
+    "schema_version": "campus-live-bee-peer-review-1",
+    "scope": "Narrow challenge of general City procedure/HRT evidence being upgraded to Campus remedy, actual effectiveness, current inactivity or mismatched outcome denominators.",
+    "source_cutoff": "2026-10-22",
+    "stop_reason": "Assigned narrow review completed against saved final returns and selected captures. Stop after saving separate review files; no follow-on research requested.",
+    "summary": "Both peer returns preserve the requested boundaries. General ADA procedure remains formal and City-wide; HRT oversight and aggregate outcomes remain distinct from Campus protections. The historical Not Started status is not treated as current inactivity. Added synthesis guardrails preserve cohort/denominator differences; no peer correction required."
+  },
+  "payload_hash": "7d9e8e6860ba7c8ce8445e3bdfc82c9e0f0ff58ab27c870ba49b532747d4bddd",
+  "phase": "submitted",
+  "submission_id": "46eeb55a1508cbce2d4a1b33506218a7ccce11bcb8aa9e91a524915815298ff8"
+}

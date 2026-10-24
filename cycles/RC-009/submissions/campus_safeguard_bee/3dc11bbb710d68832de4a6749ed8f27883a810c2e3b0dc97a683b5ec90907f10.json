@@ -1,0 +1,568 @@
+{
+  "agent": "campus_safeguard_bee",
+  "at": "2026-10-23T23:40:30.586726+00:00",
+  "base_hash": "16d04f8bb35a588caca60517f90a11944cfbafac7951402d059a6d6131de97b7",
+  "cycle_id": "RC-009",
+  "payload": {
+    "access_limits": [
+      "Source pages were read through web-tool extraction; no origin HTTP capture was made.",
+      "The FY2023–24 Insight PDF failed twice; the final reader error was a 20,606,678-byte size limit.",
+      "No exhaustive County/State/City archive search, inspection or deidentified administrative case-file review.",
+      "Individual narratives surfaced incidentally in general program results/reports; none was investigated or used. Original captures with such content are excluded from public publication."
+    ],
+    "admission_status": "Review intake only; no canonical admission",
+    "api_receipt": "Unavailable; no external model API call requested. Web-tool captures are not raw origin HTTP.",
+    "base_commit": "9555a73a9dae97033cb8c85580ffb33691e5285f",
+    "bounds": {
+      "direct_HTTP_requests": 0,
+      "external_model_API_calls": 0,
+      "find_requests_within_opened_sources": 23,
+      "outbound_contact": 0,
+      "private_account_or_resident_research": false,
+      "recursive_agents": 0,
+      "search_queries_used": 8,
+      "search_query_limit": 8,
+      "source_access_limit": 12,
+      "source_opens_and_clicks_used": 11,
+      "web_tool_calls": 9
+    },
+    "canonical_task_name": "/root/campus_safeguard_bee",
+    "changed_from_inherited_case": [
+      "Located independent HRT oversight, its historical reporting weaknesses and formal corrective recommendations.",
+      "Observed later public reporting activity and preserved City-reported pooled shelter/housing outcomes.",
+      "Located an aggregate HRT grievance-service count, with no Campus attribution or disposition."
+    ],
+    "claims": [
+      {
+        "claim": "The City Auditor independently examined HRT operations for FY2022–2024. It identified missing enrollment reporting and coordination/data weaknesses; some HRT data fields could not be independently verified.",
+        "epistemic_status": "attributed_independent_audit_findings",
+        "id": "CSG-OVERSIGHT",
+        "limits": "HRT scope; does not establish Campus notice, grievance or accommodation compliance.",
+        "locator": "Printed pp.4,26–27,36–37",
+        "source_ids": [
+          "S-CSG02"
+        ]
+      },
+      {
+        "claim": "Management accepted the audit recommendations and described corrective work. The Auditor had not confirmed implementation at issuance; its Council wrapper sought reporting in Fall 2026.",
+        "epistemic_status": "formal_recommendation_and_management_self_report",
+        "id": "CSG-CORRECTIVE-PLAN",
+        "limits": "A plan, claimed completion or requested report is not a verified Campus remedy.",
+        "locator": "Printed pp.32–35; wrapper PDF p.39",
+        "source_ids": [
+          "S-CSG02"
+        ]
+      },
+      {
+        "claim": "The October 28, 2025 follow-up table labels all six HRT recommendations Not Started for the reporting period ending September 24, 2025.",
+        "epistemic_status": "verified_historical_auditor_status",
+        "id": "CSG-HISTORICAL-STATUS",
+        "limits": "Not current status. The table and contemporaneous management descriptions do not fully reconcile; later published reports show some reporting activity occurred.",
+        "locator": "PDF pp.2–3",
+        "source_ids": [
+          "S-CSG03"
+        ]
+      },
+      {
+        "claim": "The live City page linked May 2025, November 2025 and June 2026 HRT performance reports. Opened May 2025 and June 2026 reports include enrollment measures.",
+        "epistemic_status": "observed_public_reporting_activity",
+        "id": "CSG-REPORTING-ACTIVITY",
+        "limits": "Supports a reporting improvement, not an independently verified finding that all audit recommendations or Campus safeguards were remedied.",
+        "locator": "Landing page lines 41–47; May report p.4; June report pp.3,9",
+        "source_ids": [
+          "S-CSG04",
+          "S-CSG05",
+          "S-CSG06"
+        ]
+      },
+      {
+        "claim": "The May 2025 City report says 34% of people in noncongregate shelters moved directly to permanent housing since 2022, versus 22% in congregate shelters.",
+        "epistemic_status": "attributed_city_aggregate_outcome",
+        "id": "CSG-POSITIVE-AGGREGATE",
+        "limits": "No Campus breakdown, adjusted causal comparison or sustained-tenancy follow-up established.",
+        "locator": "PDF p.4, web lines 118–134",
+        "source_ids": [
+          "S-CSG05"
+        ]
+      },
+      {
+        "claim": "The June 2026 City report says 55% of HRT participants enrolled in shelter at some point and classifies 58% as sheltered/housed; 95% of that latter group was sheltered.",
+        "epistemic_status": "attributed_city_aggregate_outcome",
+        "id": "CSG-LATER-AGGREGATE",
+        "limits": "Not Campus-specific. Enrollment at some point and a mixed shelter/housing classification do not establish retention, permanent housing or an effective grievance/accommodation remedy.",
+        "locator": "PDF p.3 and attachment pp.9,12",
+        "source_ids": [
+          "S-CSG06"
+        ]
+      },
+      {
+        "claim": "The June 2024 City report charts two client-grievance service entries for January–March 2024.",
+        "epistemic_status": "attributed_city_aggregate_service_count",
+        "id": "CSG-GRIEVANCE-COUNT",
+        "limits": "No Campus identification, complaint subject, decision, implementation or follow-up outcome is supplied by the chart; entries need not equal unique complainants.",
+        "locator": "PDF p.12, web lines 257–276",
+        "source_ids": [
+          "S-CSG01"
+        ]
+      },
+      {
+        "claim": "The operator annual report supplies organization-wide impact reporting, but the reviewed returned material does not establish Campus-specific corrective or protective outcomes.",
+        "epistemic_status": "bounded_operator_publication_review",
+        "id": "CSG-OPERATOR",
+        "limits": "Operator self-report kept separate from independent observation. Failure to locate information is not proof of absent practice.",
+        "locator": "FY2024–25 PDF p.6; FY2023–24 access failure",
+        "source_ids": [
+          "S-CSG07",
+          "S-CSG08"
+        ]
+      },
+      {
+        "claim": "Actual Campus notice delivery, accessible grievance/accommodation operation, corrective directives, implemented readmission, sustained retention and successful transitions remain unverified in this pass.",
+        "epistemic_status": "unknown_not_absence_claim",
+        "id": "CSG-CAMPUS-UNKNOWN",
+        "limits": "No named-resident investigation, private record, legal event analysis or Campus-specific performance audit was undertaken.",
+        "source_ids": [
+          "S-CSG01",
+          "S-CSG02",
+          "S-CSG03",
+          "S-CSG04",
+          "S-CSG05",
+          "S-CSG06",
+          "S-CSG07"
+        ]
+      }
+    ],
+    "completed_at_utc": "2026-10-23T09:45:14.924223+00:00",
+    "counterevidence_and_ordinary_explanations": [
+      {
+        "source_ids": [
+          "S-CSG02",
+          "S-CSG03",
+          "S-CSG04",
+          "S-CSG05",
+          "S-CSG06"
+        ],
+        "text": "Later City reports and the accessible report index demonstrate reporting activity after the audit. This constrains any claim that the historical Not Started labels prove continuing inactivity. Audit closure/verification and management publication can occur on different schedules."
+      },
+      {
+        "source_ids": [
+          "S-CSG05"
+        ],
+        "text": "City-reported noncongregate transitions are positive evidence at a pooled-program level. They cannot be reassigned to Campus, and differing participants, program designs or observation periods could affect comparisons."
+      },
+      {
+        "source_ids": [
+          "S-CSG06"
+        ],
+        "text": "Shelter enrollment may be useful progress even when permanent housing is unavailable. A short or repeated stay does not by itself show failed protection; retained access and later destination were not measured here."
+      },
+      {
+        "source_ids": [
+          "S-CSG07",
+          "S-CSG08",
+          "S-CSG09"
+        ],
+        "text": "Public records may omit operational documents, deidentified results or privately handled remedies. Search/extraction misses and the operator PDF size failure do not establish absence of compliant practice."
+      }
+    ],
+    "cycle": "RC-009",
+    "execution_continuity": "Interrupted after saved research/checkpoint on October 22; resumed October 23 for packaging and saved-material peer review only. No uninterrupted execution claimed.",
+    "lineage_note": "HRT reports and landing page are management/publication sources from one municipal reporting family; repeated figures, linked reports and search paths are not independent corroboration. The City Auditor supplies independent oversight of HRT management, with its stated scope/data limits, but is not independent Campus outcome verification. Insight annual reports are operator self-report.",
+    "not_changed": [
+      "No Campus-specific safeguard-effectiveness or failure finding established.",
+      "Current executed Campus operating/resident policy and legal applicability remain unverified by this worker.",
+      "No current grievance decisionmaker, implemented readmission, sustained retention or Campus transition outcome established.",
+      "The proposed 2023 lease was not used as observed removal practice. Original case, code, configuration and canonical state were not edited."
+    ],
+    "one_narrow_next_test": "Inspect one dated, publicly available, deidentified Campus-specific contract-monitoring review that pairs notice/grievance/accommodation decisions with implemented remedies and retention or housing follow-up; otherwise leave effectiveness unknown. No contact or records request is authorized by this proposed test.",
+    "peer_challenge_status": "Awaiting narrow peer challenge of Campus-specific inference; separate funding review will be saved under own reviewer filename.",
+    "provider_cost": "unknown",
+    "provider_identity": "unknown",
+    "publication_filter_manifest": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/publication/campus_safeguard_bee-publication-manifest.json",
+    "publication_review_note": "Do not commit original captures 01,02,03,05 to the public repository. Explicitly filtered copies retain relevant official program content and identify omissions plus original hashes. Originals remain unchanged locally; filtered copies are incomplete by design.",
+    "question": {
+      "epoch": 1,
+      "id": "Q-CAMPUS-AGREEMENT",
+      "parent": "Q-CA-SHELTER-NOTICE",
+      "registration": "Case-local research anchor; no shared live registration claimed"
+    },
+    "reflection": "Following the auditor into later management reports changed an apparent static gap into a narrower finding: reporting work is observable, while Campus protection outcomes remain unverified.",
+    "research_last_retrieval_at_utc": "2026-10-22T17:15:42.084Z",
+    "resumed_for_packaging_at_utc": "2026-10-23T09:41:20.142505+00:00",
+    "role": "worker_bee",
+    "runtime": "Work-session collaboration agent",
+    "schema_version": "campus-live-bee-return-1",
+    "served_model_id": "unknown",
+    "source_cutoff": "2026-10-22",
+    "sources": [
+      {
+        "access_level": "Public source read through web tool; returned text retained",
+        "capture_paths": [
+          "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_safeguard_bee-01.json",
+          "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_safeguard_bee-02.json",
+          "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_safeguard_bee-03.json"
+        ],
+        "document_date": "2024-06-04",
+        "id": "S-CSG01",
+        "limits": "Two client-grievance service entries, without Campus identification, disposition or remedial follow-up. Incidental individual story excluded from use and publication copy.",
+        "lineage_family": "City HRT management reporting",
+        "locator": "PDF p.12, chart HRT Services Rendered, Jan–Mar 2024; web lines 257–276",
+        "observation_or_event_period": "Grievance service chart: January–March 2024; other report measures have different/cumulative periods.",
+        "publication_date": null,
+        "publication_date_note": "Exact first publication timestamp not independently established; document date retained separately.",
+        "publisher": "City of Berkeley City Manager",
+        "retrieved_at_utc": [
+          "2026-10-22T17:12:46.266Z",
+          "2026-10-22T17:13:00.392Z",
+          "2026-10-22T17:13:19.958Z"
+        ],
+        "title": "HRT Quarterly Data and Progress Report",
+        "tool_source_refs": [
+          "turn35search0",
+          "turn38view0",
+          "turn40view3"
+        ],
+        "url": "https://berkeleyca.gov/sites/default/files/documents/2024-06-04%20Homeless%20Response%20Team%20Quarterly%20Data%20and%20Progress%20Report.pdf"
+      },
+      {
+        "access_level": "Public source read through web tool; returned text retained",
+        "capture_paths": [
+          "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_safeguard_bee-05.json",
+          "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_safeguard_bee-06.json",
+          "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_safeguard_bee-09.json"
+        ],
+        "document_date": "2025-07-16",
+        "id": "S-CSG02",
+        "limits": "Independent performance audit of HRT, not Campus operator compliance; some underlying HRT fields were not independently verifiable. Auditor had not confirmed implementation at issuance. Stray May 27, 2021 cover text is not used as report date; July 16, 2025 title and official index agree.",
+        "lineage_family": "City Auditor HRT audit; independent of HRT management, same municipal institution",
+        "locator": "Printed pp.4, 26–27, 32–37; wrapper PDF p.39",
+        "observation_or_event_period": "Audit scope July 1, 2021–June 30, 2024; separately notes May 2025 reporting. Council wrapper July 29, 2025.",
+        "publication_date": null,
+        "publication_date_note": "Exact first publication timestamp not independently established; document date retained separately.",
+        "publisher": "City of Berkeley City Auditor",
+        "retrieved_at_utc": [
+          "2026-10-22T17:13:50.225Z",
+          "2026-10-22T17:14:08.643Z",
+          "2026-10-22T17:15:42.084Z"
+        ],
+        "title": "Homeless Response Team: Opportunities Exist to Strengthen Procedures and Better Track Outcomes",
+        "tool_source_refs": [
+          "turn45view0",
+          "turn47view2",
+          "turn47view3",
+          "turn55view1"
+        ],
+        "url": "https://berkeleyca.gov/sites/default/files/documents/Homeless_Response_Team_-_Opportunities_Exist_to_Strengthen_Procedures_and_Better_Track_Outcomes.pdf"
+      },
+      {
+        "access_level": "Public source read through web tool; returned text retained",
+        "capture_paths": [
+          "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_safeguard_bee-05.json",
+          "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_safeguard_bee-06.json",
+          "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_safeguard_bee-07.json"
+        ],
+        "document_date": "2025-10-28",
+        "id": "S-CSG03",
+        "limits": "Historical status table; not a current October 2026 implementation finding. Public reporting changes observed in later documents prevent treating this as proof of continuing inactivity.",
+        "lineage_family": "City Auditor HRT audit follow-up; same audit lineage",
+        "locator": "PDF p.2 reporting window; p.3 Table 1 and status definitions; pp.5–7 wrapper",
+        "observation_or_event_period": "Reporting period November 7, 2024–September 24, 2025; Council wrapper November 18, 2025.",
+        "publication_date": null,
+        "publication_date_note": "Exact first publication timestamp not independently established; document date retained separately.",
+        "publisher": "City of Berkeley City Auditor",
+        "retrieved_at_utc": [
+          "2026-10-22T17:13:50.225Z",
+          "2026-10-22T17:14:08.643Z",
+          "2026-10-22T17:14:20.477Z"
+        ],
+        "title": "2025 Annual Audit Recommendation Follow-Up Report",
+        "tool_source_refs": [
+          "turn45view1",
+          "turn47view4",
+          "turn48view1"
+        ],
+        "url": "https://berkeleyca.gov/sites/default/files/documents/2025_Annual_Audit_Recommendation_Follow-up_Report.pdf"
+      },
+      {
+        "access_level": "Public source read through web tool; returned text retained",
+        "capture_paths": [
+          "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_safeguard_bee-07.json"
+        ],
+        "document_date": null,
+        "id": "S-CSG04",
+        "limits": "Observed publication/accessibility activity only. Not an independent confirmation of report metrics or Campus protective outcomes.",
+        "lineage_family": "City HRT management reporting",
+        "locator": "Web lines 41–47",
+        "observation_or_event_period": "Undated live page retrieved October 22, 2026.",
+        "publication_date": null,
+        "publication_date_note": "Exact first publication timestamp not independently established; document date retained separately.",
+        "publisher": "City of Berkeley",
+        "retrieved_at_utc": [
+          "2026-10-22T17:14:20.477Z"
+        ],
+        "title": "Reporting Safety Concerns at an Encampment — performance report links",
+        "tool_source_refs": [
+          "turn48view0"
+        ],
+        "url": "https://berkeleyca.gov/safety-health/homeless-services/reporting-safety-concerns-encampment"
+      },
+      {
+        "access_level": "Public source read through web tool; returned text retained",
+        "capture_paths": [
+          "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_safeguard_bee-08.json",
+          "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_safeguard_bee-09.json"
+        ],
+        "document_date": "2025-05-12",
+        "id": "S-CSG05",
+        "limits": "City-reported pooled shelter outcomes; no Campus-specific denominator, comparative adjustment, duration of tenancy or independent outcome verification. Intake completion is distinct from offer acceptance.",
+        "lineage_family": "City HRT management reporting",
+        "locator": "PDF p.4, web lines 118–134",
+        "observation_or_event_period": "Enrollment analysis since HRT inception September 2021; reported shelter-to-housing comparison since 2022.",
+        "publication_date": null,
+        "publication_date_note": "Exact first publication timestamp not independently established; document date retained separately.",
+        "publisher": "City of Berkeley City Manager",
+        "retrieved_at_utc": [
+          "2026-10-22T17:14:34.966Z",
+          "2026-10-22T17:15:42.084Z"
+        ],
+        "title": "New HRT Mission and Performance Data Report",
+        "tool_source_refs": [
+          "turn49view1",
+          "turn55view4",
+          "turn55view5"
+        ],
+        "url": "https://berkeleyca.gov/sites/default/files/documents/2025-05-12%20%20New%20Homeless%20Response%20Team%20Mission%20and%20Performance%20Data%20Report.pdf"
+      },
+      {
+        "access_level": "Public source read through web tool; returned text retained",
+        "capture_paths": [
+          "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_safeguard_bee-08.json",
+          "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_safeguard_bee-09.json"
+        ],
+        "document_date": "2026-06-18",
+        "id": "S-CSG06",
+        "limits": "HRT aggregates, not Campus outcomes. Enrollment at some point is not retained shelter access. Mixed shelter/housing measure is not a permanent-housing count. Repeated shelter stays and participant counts must not be conflated.",
+        "lineage_family": "City HRT management reporting",
+        "locator": "PDF pp.1,3,6,9,12; web lines 75–101,162–164,228–293",
+        "observation_or_event_period": "Current six-month cohort identified as December 2025–May 2026 in attachment p.6; report also compares prior periods.",
+        "publication_date": null,
+        "publication_date_note": "Exact first publication timestamp not independently established; document date retained separately.",
+        "publisher": "City of Berkeley City Manager",
+        "retrieved_at_utc": [
+          "2026-10-22T17:14:34.966Z",
+          "2026-10-22T17:15:42.084Z"
+        ],
+        "title": "HRT Performance Data Report",
+        "tool_source_refs": [
+          "turn49view0",
+          "turn55view2",
+          "turn55view3"
+        ],
+        "url": "https://berkeleyca.gov/sites/default/files/2026-06/2026-06-18%20Homeless%20Response%20Team%20Performance%20Data%20Report.pdf"
+      },
+      {
+        "access_level": "Public source read through web tool; returned text retained",
+        "capture_paths": [
+          "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_safeguard_bee-02.json",
+          "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_safeguard_bee-03.json",
+          "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_safeguard_bee-04.json",
+          "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_safeguard_bee-09.json"
+        ],
+        "document_date": null,
+        "id": "S-CSG07",
+        "limits": "Operator self-publication. Organization-wide totals and a Campus caption do not identify Campus grievance/accommodation outcomes. Individual spotlights excluded. Text searches for grievance/accommodation are not proof such practices do not exist.",
+        "lineage_family": "Operator self-report",
+        "locator": "PDF p.6 / printed pp.10–11 organization-wide impact; PDF p.7 strategy",
+        "observation_or_event_period": "Report label FY2024–2025; exact publication/update date unknown.",
+        "publication_date": null,
+        "publication_date_note": "Exact first publication timestamp not independently established; document date retained separately.",
+        "publisher": "Insight Housing",
+        "retrieved_at_utc": [
+          "2026-10-22T17:13:00.392Z",
+          "2026-10-22T17:13:19.958Z",
+          "2026-10-22T17:13:43.111Z",
+          "2026-10-22T17:15:42.084Z"
+        ],
+        "title": "Insight Housing Annual Report 2024–2025",
+        "tool_source_refs": [
+          "turn38search1",
+          "turn40view1",
+          "turn43view4",
+          "turn55view6"
+        ],
+        "url": "https://insighthousing.org/wp-content/uploads/IH_Annual_Report_2024-25_v6.pdf"
+      },
+      {
+        "access_level": "Search snippet only; full reader open failed twice",
+        "capture_paths": [
+          "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_safeguard_bee-02.json",
+          "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_safeguard_bee-03.json",
+          "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_safeguard_bee-04.json"
+        ],
+        "document_date": null,
+        "id": "S-CSG08",
+        "limits": "Reader failed; final error states 20,606,678-byte content exceeds limit. Not used to establish services or outcomes. No direct HTTP retry.",
+        "lineage_family": "Operator self-report",
+        "locator": "Search result and two failed opens",
+        "observation_or_event_period": "Report label FY2023–2024; actual publication/update date unknown.",
+        "publication_date": null,
+        "publication_date_note": "Exact first publication timestamp not independently established; document date retained separately.",
+        "publisher": "Insight Housing",
+        "retrieved_at_utc": [
+          "2026-10-22T17:13:00.392Z",
+          "2026-10-22T17:13:19.958Z",
+          "2026-10-22T17:13:43.111Z"
+        ],
+        "title": "Insight Housing Annual Report 2023–2024 — inaccessible full PDF",
+        "tool_source_refs": [
+          "turn38search3",
+          "turn40view0",
+          "turn43view1"
+        ],
+        "url": "https://insighthousing.org/wp-content/uploads/IH_Annual_Report_2023-24_DIGITAL.pdf"
+      },
+      {
+        "access_level": "Public source read through web tool; returned text retained",
+        "capture_paths": [
+          "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_safeguard_bee-03.json",
+          "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_safeguard_bee-04.json"
+        ],
+        "document_date": "2026-04-28",
+        "id": "S-CSG09",
+        "limits": "General monitoring-administration description; no Campus-specific monitoring result identified. Not used as evidence of actual compliance or noncompliance.",
+        "lineage_family": "City housing/community-services planning",
+        "locator": "PDF p.19 / internal plan p.7, web lines 620–638",
+        "observation_or_event_period": "PY2026 prospective program plan.",
+        "publication_date": null,
+        "publication_date_note": "Exact first publication timestamp not independently established; document date retained separately.",
+        "publisher": "City of Berkeley City Manager",
+        "retrieved_at_utc": [
+          "2026-10-22T17:13:19.958Z",
+          "2026-10-22T17:13:43.111Z"
+        ],
+        "title": "Submission of Program Year 2026 Annual Action Plan",
+        "tool_source_refs": [
+          "turn40view2",
+          "turn43view2",
+          "turn43view3",
+          "turn43view5"
+        ],
+        "url": "https://berkeleyca.gov/sites/default/files/2026-04/2026-04-28%20Item%2012%20Submission%20of%20the%20Program%20Year%202026.pdf"
+      },
+      {
+        "access_level": "Public source read through web tool; returned text retained",
+        "capture_paths": [
+          "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_safeguard_bee-04.json"
+        ],
+        "document_date": null,
+        "id": "S-CSG10",
+        "limits": "Discovery/date cross-check only. A listing is not a new audit or independent corroboration.",
+        "lineage_family": "City Auditor publication index",
+        "locator": "Web lines 11–30; audit and follow-up links 17 and 15",
+        "observation_or_event_period": "Live index retrieved October 22, 2026.",
+        "publication_date": null,
+        "publication_date_note": "Exact first publication timestamp not independently established; document date retained separately.",
+        "publisher": "City of Berkeley City Auditor",
+        "retrieved_at_utc": [
+          "2026-10-22T17:13:43.111Z"
+        ],
+        "title": "City Auditor Reports index",
+        "tool_source_refs": [
+          "turn43view0"
+        ],
+        "url": "https://berkeleyca.gov/your-government/city-audits/city-auditor-reports"
+      }
+    ],
+    "started_at_utc": "2026-10-22T17:12:17.398042+00:00",
+    "status": "bounded_research_complete_ready_for_peer_challenge",
+    "stop_reason": "One bounded pass completed with 8 search queries and 11 source opens/clicks, within limits. Campus-specific operational evidence was not established. No new searches after resumption; stop for peer challenge.",
+    "summary": "Independent oversight and later public reporting activity are documented for the City HRT. Positive City-reported aggregate housing/enrollment outcomes are preserved, but they do not establish Campus-specific notice, grievance, accommodation or sustained protective results. The inherited Campus safeguard-effectiveness gap remains unknown, not a finding of failure.",
+    "task_name": "campus_safeguard_bee",
+    "tool_capture_inventory": [
+      {
+        "bytes": 35149,
+        "exclude_original_from_public_repo": true,
+        "path": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_safeguard_bee-01.json",
+        "publication_copy": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/publication/campus_safeguard_bee-01.json",
+        "record_type": "full returned web-tool response; not raw origin HTTP",
+        "retrieved_at_utc": "2026-10-22T17:12:46.266Z",
+        "sha256": "a258c33acd86997c733ab3e824b4c41336ce911e506578a8894504c7b61c3d6b"
+      },
+      {
+        "bytes": 29438,
+        "exclude_original_from_public_repo": true,
+        "path": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_safeguard_bee-02.json",
+        "publication_copy": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/publication/campus_safeguard_bee-02.json",
+        "record_type": "full returned web-tool response; not raw origin HTTP",
+        "retrieved_at_utc": "2026-10-22T17:13:00.392Z",
+        "sha256": "8947de343ff5e0dfef99892a1273dc7553863e1ea4f8ba673c69211fa156512f"
+      },
+      {
+        "bytes": 31893,
+        "exclude_original_from_public_repo": true,
+        "path": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_safeguard_bee-03.json",
+        "publication_copy": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/publication/campus_safeguard_bee-03.json",
+        "record_type": "full returned web-tool response; not raw origin HTTP",
+        "retrieved_at_utc": "2026-10-22T17:13:19.958Z",
+        "sha256": "a0ac032194b7ae0e9e76c0b4f6ec1d16b235acf86d0e6e64ac1f1644c3a2240a"
+      },
+      {
+        "bytes": 34757,
+        "exclude_original_from_public_repo": false,
+        "path": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_safeguard_bee-04.json",
+        "publication_copy": null,
+        "record_type": "full returned web-tool response; not raw origin HTTP",
+        "retrieved_at_utc": "2026-10-22T17:13:43.111Z",
+        "sha256": "8e32bc0817924fd46131117c3c30383d0a82651330d0a45488f21f74c9e15547"
+      },
+      {
+        "bytes": 32151,
+        "exclude_original_from_public_repo": true,
+        "path": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_safeguard_bee-05.json",
+        "publication_copy": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/publication/campus_safeguard_bee-05.json",
+        "record_type": "full returned web-tool response; not raw origin HTTP",
+        "retrieved_at_utc": "2026-10-22T17:13:50.225Z",
+        "sha256": "0653d731ae5ca7da999035f4c6d9edee2164672f8bd03928608719638389123b"
+      },
+      {
+        "bytes": 33635,
+        "exclude_original_from_public_repo": false,
+        "path": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_safeguard_bee-06.json",
+        "publication_copy": null,
+        "record_type": "full returned web-tool response; not raw origin HTTP",
+        "retrieved_at_utc": "2026-10-22T17:14:08.643Z",
+        "sha256": "0895f5cd0530ce88014a9ffe543d2938e133f8c0d509473646bea423a3c5c778"
+      },
+      {
+        "bytes": 21107,
+        "exclude_original_from_public_repo": false,
+        "path": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_safeguard_bee-07.json",
+        "publication_copy": null,
+        "record_type": "full returned web-tool response; not raw origin HTTP",
+        "retrieved_at_utc": "2026-10-22T17:14:20.477Z",
+        "sha256": "ae22e4ad1e88751d5847853e3ffff7b15edda4299a9a68fb479bb26ea3431ad3"
+      },
+      {
+        "bytes": 27227,
+        "exclude_original_from_public_repo": false,
+        "path": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_safeguard_bee-08.json",
+        "publication_copy": null,
+        "record_type": "full returned web-tool response; not raw origin HTTP",
+        "retrieved_at_utc": "2026-10-22T17:14:34.966Z",
+        "sha256": "84254dde9057f7257067ed0c74855b1366a3d2ca37adc27a57de35ca282b4284"
+      },
+      {
+        "bytes": 35023,
+        "exclude_original_from_public_repo": false,
+        "path": "reports/shelter-accountability/campus-live-bees-20261022/tool-captures/campus_safeguard_bee-09.json",
+        "publication_copy": null,
+        "record_type": "full returned web-tool response; not raw origin HTTP",
+        "retrieved_at_utc": "2026-10-22T17:15:42.084Z",
+        "sha256": "7f82d10ab2b4a30a427f4b9feee44aaff05cfb21554a3cb5ad7d6a109cbc701c"
+      }
+    ]
+  },
+  "payload_hash": "cd1b02e73e7be6dd65c9644a04c08495af5d0b0560572333c5dd90fa0a11ba7f",
+  "phase": "submitted",
+  "submission_id": "3dc11bbb710d68832de4a6749ed8f27883a810c2e3b0dc97a683b5ec90907f10"
+}

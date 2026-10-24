@@ -1,0 +1,15 @@
+{
+  "at": "2026-10-23T23:40:30.492936+00:00",
+  "cycle_id": "RC-009",
+  "event_id": "1f6abbf51f35ff72030879c5",
+  "event_type": "agent_submission",
+  "hash": "82b8f201fbcf8f5e019016ab6bae487a7d6fd31cfe8431990c7d3824b11fe032",
+  "payload": {
+    "agent": "campus_agreement_bee",
+    "payload_hash": "eeb3ead032c3b033cdb3b70bcedb662ef449652d8e313fdd3e57a26d82b50825",
+    "phase": "submitted",
+    "submission_id": "b0b976de0e7f419ed51521dde24e56c45bff11c6c2d72606bb3d7ba69dbc09d9"
+  },
+  "previous_hash": "fe6f165aab3e1861ad0f5dc636937fb325f8d9b459fc508d07645dc2c1d2769e",
+  "sequence": 12
+}

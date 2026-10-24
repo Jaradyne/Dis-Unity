@@ -1,0 +1,79 @@
+{
+  "agent": "campus_funding_bee",
+  "at": "2026-10-23T23:40:30.087667+00:00",
+  "base_hash": "16d04f8bb35a588caca60517f90a11944cfbafac7951402d059a6d6131de97b7",
+  "cycle_id": "RC-009",
+  "payload": {
+    "api_receipt": "unavailable",
+    "base_commit": "9555a73a9dae97033cb8c85580ffb33691e5285f",
+    "bounds_used": {
+      "direct_public_GETs_used": 1,
+      "external_model_API_calls": 0,
+      "find_requests_within_opened_sources": 4,
+      "outbound_contact": 0,
+      "private_account_or_resident_research": false,
+      "recursive_agents": 0,
+      "search_queries_used": 8,
+      "search_query_limit": 8,
+      "source_access_limit": 12,
+      "source_access_total": 12,
+      "web_source_opens_and_clicks_used": 11
+    },
+    "canonical_task_name": "/root/campus_funding_bee",
+    "checkpoint_utc": "2026-10-22T17:12:05.187421+00:00",
+    "constraints": {
+      "credential_access": false,
+      "external_provider_inference": false,
+      "recursive_agents": false,
+      "search_query_limit": 8,
+      "source_open_limit": 12
+    },
+    "epoch": 1,
+    "latest_update_utc": "2026-10-22T17:18:33.769757+00:00",
+    "material_findings": [
+      {
+        "claim_id": "CF-PROPOSAL",
+        "epistemic_status": "verified_primary_proposal_text"
+      },
+      {
+        "claim_id": "CF-ADOPTION",
+        "epistemic_status": "verified_official_action_record"
+      },
+      {
+        "claim_id": "CF-REVISION",
+        "epistemic_status": "bounded_document_comparison_and_inference"
+      },
+      {
+        "claim_id": "CF-AGENCY-ALLOCATION",
+        "epistemic_status": "verified_primary_allocation_table"
+      },
+      {
+        "claim_id": "CF-CONTRARY-PROFILE",
+        "epistemic_status": "attributed_undated_program_description"
+      },
+      {
+        "claim_id": "CF-CURRENT-CAPACITY",
+        "epistemic_status": "unknown_current_capacity"
+      },
+      {
+        "claim_id": "CF-OUTCOME",
+        "epistemic_status": "unknown_not_absence_claim"
+      }
+    ],
+    "model_identity": "unknown",
+    "parent_question": "Q-CA-SHELTER-NOTICE",
+    "provider_cost": "unknown",
+    "provider_identity": "unknown",
+    "question": "Q-CAMPUS-AGREEMENT",
+    "return_path": "reports/shelter-accountability/campus-live-bees-20261022/returns/campus_funding_bee.json",
+    "role": "worker_bee",
+    "runtime": "Work-session collaboration agent",
+    "scope": "Bounded live public research on current program funding and continuity, the June 23 2026 budget lead, and whether 23 rooms remains historical nominal capacity. RC-009 review intake only; no canonical admission.",
+    "start_date": "2026-10-22",
+    "status": "bounded_research_complete_ready_for_peer_challenge",
+    "task_name": "campus_funding_bee"
+  },
+  "payload_hash": "a77a154843e9c5ba14773cd89c116d64a6519ae265a3f5f7157c6f4f1e15fbb7",
+  "phase": "checkpoint",
+  "submission_id": "6b824f08fca58a9c6fdffefacde58a82ef26ab71a2594cfbfd025daaf3963f74"
+}

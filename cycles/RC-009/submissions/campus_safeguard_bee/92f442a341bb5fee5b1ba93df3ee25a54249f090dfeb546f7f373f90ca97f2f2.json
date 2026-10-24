@@ -1,0 +1,46 @@
+{
+  "agent": "campus_safeguard_bee",
+  "at": "2026-10-23T23:40:30.242428+00:00",
+  "base_hash": "16d04f8bb35a588caca60517f90a11944cfbafac7951402d059a6d6131de97b7",
+  "cycle_id": "RC-009",
+  "payload": {
+    "api_receipt": "unavailable; no external provider API requested",
+    "base_commit": "9555a73a9dae97033cb8c85580ffb33691e5285f",
+    "bounds": {
+      "contact": false,
+      "max_search_queries": 8,
+      "max_source_opens": 12,
+      "private_resident_research": false,
+      "provider_api": false,
+      "recursive_agents": false
+    },
+    "canonical_admission": false,
+    "canonical_task_name": "/root/campus_safeguard_bee",
+    "epoch": 1,
+    "material_findings": [
+      "Independent HRT audit and later public enrollment reporting located; no Campus-specific safeguard-effectiveness evidence verified.",
+      "Historical audit follow-up status cannot be projected past later public reporting changes.",
+      "Incidental individual narratives excluded from findings and flagged for original-capture publication exclusion."
+    ],
+    "parent_question_id": "Q-CA-SHELTER-NOTICE",
+    "provider": "unknown",
+    "provider_cost": "unknown",
+    "question_id": "Q-CAMPUS-AGREEMENT",
+    "role": "worker_bee",
+    "runtime": "Work-session collaboration agent",
+    "schema_version": "0.1",
+    "scope": "Bounded public dated evidence of Campus Motel notice, grievance and accommodation protections in operation; independent oversight, aggregate complaints, corrective directives, readmission/retention and successful transitions. Formal policy alone does not establish effectiveness.",
+    "search_queries_used": 8,
+    "served_model_id": "unknown",
+    "source_cutoff": "2026-10-22",
+    "source_page_opens_used": 11,
+    "started_at_utc": "2026-10-22T17:12:17.398042+00:00",
+    "status": "bounded research complete; writing final return",
+    "task_name": "campus_safeguard_bee",
+    "updated_at_utc": "2026-10-22T17:17:19.314436+00:00",
+    "web_tool_captures": 9
+  },
+  "payload_hash": "e9fdd7b209eb9edfabdf617b7633872e7208ebda601ec5e45d1b4f7b55e93073",
+  "phase": "checkpoint",
+  "submission_id": "92f442a341bb5fee5b1ba93df3ee25a54249f090dfeb546f7f373f90ca97f2f2"
+}

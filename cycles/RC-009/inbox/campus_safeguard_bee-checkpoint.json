@@ -1,0 +1,37 @@
+{
+  "schema_version": "0.1",
+  "task_name": "campus_safeguard_bee",
+  "canonical_task_name": "/root/campus_safeguard_bee",
+  "role": "worker_bee",
+  "runtime": "Work-session collaboration agent",
+  "provider": "unknown",
+  "served_model_id": "unknown",
+  "provider_cost": "unknown",
+  "api_receipt": "unavailable; no external provider API requested",
+  "question_id": "Q-CAMPUS-AGREEMENT",
+  "epoch": 1,
+  "parent_question_id": "Q-CA-SHELTER-NOTICE",
+  "started_at_utc": "2026-10-22T17:12:17.398042+00:00",
+  "source_cutoff": "2026-10-22",
+  "base_commit": "9555a73a9dae97033cb8c85580ffb33691e5285f",
+  "scope": "Bounded public dated evidence of Campus Motel notice, grievance and accommodation protections in operation; independent oversight, aggregate complaints, corrective directives, readmission/retention and successful transitions. Formal policy alone does not establish effectiveness.",
+  "bounds": {
+    "max_search_queries": 8,
+    "max_source_opens": 12,
+    "private_resident_research": false,
+    "contact": false,
+    "provider_api": false,
+    "recursive_agents": false
+  },
+  "status": "bounded research complete; writing final return",
+  "canonical_admission": false,
+  "updated_at_utc": "2026-10-22T17:17:19.314436+00:00",
+  "search_queries_used": 8,
+  "source_page_opens_used": 11,
+  "web_tool_captures": 9,
+  "material_findings": [
+    "Independent HRT audit and later public enrollment reporting located; no Campus-specific safeguard-effectiveness evidence verified.",
+    "Historical audit follow-up status cannot be projected past later public reporting changes.",
+    "Incidental individual narratives excluded from findings and flagged for original-capture publication exclusion."
+  ]
+}
