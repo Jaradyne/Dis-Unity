@@ -1,0 +1,16 @@
+{
+  "task_name": "/root/richmond_operations_bee",
+  "accepted_at": "2026-10-24T11:55:32.391643+00:00",
+  "runtime": "Work-session collaboration agent",
+  "role_ref": "agents/shelter_operations_bee.json",
+  "task_ref": "reports/shelter-accountability/richmond-operations-20261024/prompts/richmond_operations_bee.txt",
+  "dispatch_message_ref": "reports/shelter-accountability/richmond-operations-20261024/prompts/dispatch-message.txt",
+  "actual_served_model": "not exposed by host",
+  "host_cost_receipt": "not exposed",
+  "external_api_runner_dispatched": false,
+  "files_sha256": {
+    "agents/shelter_operations_bee.json": "2ed9b00b74fb9227f2c9516c96dd0273984bcce03ff6e7f9fbea6b334f60616f",
+    "reports/shelter-accountability/richmond-operations-20261024/prompts/richmond_operations_bee.txt": "6345bb45c59d494d7036c442f88bba545a87ca5ed9df96d235627902dad4758f",
+    "reports/shelter-accountability/richmond-operations-20261024/prompts/dispatch-message.txt": "729ff49145ceac0ba0bc10ed4310edd0b2ed9726959d6807cad7ee5ee2cb6d92"
+  }
+}

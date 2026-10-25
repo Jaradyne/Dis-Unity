@@ -1,0 +1,26 @@
+{
+  "agent": "richmond_structure_review",
+  "at": "2026-10-24T11:56:35.673251+00:00",
+  "base_hash": "16d04f8bb35a588caca60517f90a11944cfbafac7951402d059a6d6131de97b7",
+  "cycle_id": "RC-010",
+  "payload": {
+    "agent": "richmond_structure_review",
+    "base_commit": "f243e11686de5597610a22ee86eef1674bf8da9b",
+    "boundaries": [
+      "No new research initially",
+      "No providers, schedules, Governor powers or canonical writes",
+      "No simulated human play or fabricated review",
+      "No publication"
+    ],
+    "cycle_id": "RC-010",
+    "recorded_at": "2026-10-24T11:56:35.502848+00:00",
+    "runtime": "Work-session collaboration agent",
+    "scope": "Read-only architecture inspection; own checkpoint/review files only",
+    "served_model": "not exposed",
+    "status": "checkpoint",
+    "task": "Independent bounded review of Garden extension, Meaning Tower and Governor inbox integration; later finished-packet review"
+  },
+  "payload_hash": "fa12cbfdef0f5a75e02154437f1c46149fa4976876767e7ea4c7b2aad54a5479",
+  "phase": "checkpoint",
+  "submission_id": "3b51fef0cca878ed3a0f25db8007d7161d32b59c42ca9020933e2317751a3f84"
+}

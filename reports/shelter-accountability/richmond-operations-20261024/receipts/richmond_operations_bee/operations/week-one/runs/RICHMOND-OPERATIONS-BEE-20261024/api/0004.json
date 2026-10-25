@@ -1,0 +1,111 @@
+{
+  "exception": {
+    "message": "HTTP Error 302: Found",
+    "type": "HTTPError"
+  },
+  "finished_at": "2026-10-24T11:57:43.684773+00:00",
+  "record_id": "API-RICHMOND-OPERATIONS-BEE-20261024-0004",
+  "redaction": {
+    "policy": "Credentials and authentication cookies only; no content-field allowlist.",
+    "replacement_count": 3
+  },
+  "request": {
+    "body": null,
+    "headers": [
+      [
+        "User-agent",
+        "Dis-Unity-public-research/1.0"
+      ],
+      [
+        "Accept",
+        "application/pdf"
+      ]
+    ],
+    "method": "GET",
+    "url": "https://www.ci.richmond.ca.us/Archive.aspx?ADID=14256"
+  },
+  "response": {
+    "body": {
+      "complete": true,
+      "content": "",
+      "encoding": "utf-8",
+      "received_bytes": 0,
+      "saved_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "headers": [
+      [
+        "cache-control",
+        "private, s-maxage=600,no-transform"
+      ],
+      [
+        "content-type",
+        "text/html"
+      ],
+      [
+        "location",
+        "/ArchiveCenter/ViewFile/Item/14256"
+      ],
+      [
+        "p3p",
+        "CP=\"IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT\""
+      ],
+      [
+        "set-cookie",
+        "[REDACTED]"
+      ],
+      [
+        "set-cookie",
+        "[REDACTED]"
+      ],
+      [
+        "set-cookie",
+        "[REDACTED]"
+      ],
+      [
+        "x-content-type-options",
+        "nosniff"
+      ],
+      [
+        "x-frame-options",
+        "SAMEORIGIN"
+      ],
+      [
+        "referrer-policy",
+        "strict-origin-when-cross-origin"
+      ],
+      [
+        "permissions-policy",
+        "camera=(), microphone=()"
+      ],
+      [
+        "content-security-policy",
+        "frame-ancestors 'self' https://*.granicus.com https://*.civicplus.com; img-src * data: blob:; worker-src * data: blob: 'unsafe-eval' 'unsafe-inline'; script-src * about: 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline'; media-src * blob:; font-src * data:; default-src *"
+      ],
+      [
+        "date",
+        "Sat, 24 Oct 2026 11:57:42 GMT"
+      ],
+      [
+        "content-length",
+        "0"
+      ],
+      [
+        "x-envoy-upstream-service-time",
+        "873"
+      ],
+      [
+        "server",
+        "envoy"
+      ],
+      [
+        "connection",
+        "close"
+      ]
+    ],
+    "http_status": 302
+  },
+  "run_id": "RICHMOND-OPERATIONS-BEE-20261024",
+  "schema_version": "api-exchange-1",
+  "started_at": "2026-10-24T11:57:37.611013+00:00",
+  "state": "http_error"
+}

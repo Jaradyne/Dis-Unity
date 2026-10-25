@@ -1,0 +1,16 @@
+{
+  "agent": "richmond_structure_review",
+  "cycle_id": "RC-010",
+  "recorded_at": "2026-10-24T11:58:38.874150+00:00",
+  "status": "structure_review_completed_finished_packet_pending",
+  "base_commit": "f243e11686de5597610a22ee86eef1674bf8da9b",
+  "report_ref": "reports/shelter-accountability/richmond-operations-20261024/reviews/structure-review.md",
+  "report_sha256": "bbc67c87a12dda2566d535d941f7dad10f6eda38a22ab8de32d17e6c6c81a9c9",
+  "review_scope": "Repository contracts inspected; no Richmond source verification or finished-packet tests yet",
+  "key_findings": [
+    "Separate tree extension avoids changing shared config or immutable prior pins",
+    "Existing player requires Translation Boss Question and official-notice-and-summary evidence genre",
+    "Advisory Governor input works without manufacturing a user play; live-state import only establishes pending status",
+    "Community capacity, gates, controller authority and usable service must remain distinct"
+  ]
+}

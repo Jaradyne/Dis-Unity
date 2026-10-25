@@ -1,0 +1,30 @@
+{
+  "actor": {
+    "authority": "advisory_noncanonical",
+    "name": "Work Aiden",
+    "role": "implementation and bounded research coordinator"
+  },
+  "boundaries": {
+    "canonical_state_changed": false,
+    "evidence_status_changed": false,
+    "implementation_authorized": false,
+    "power_awarded": false
+  },
+  "context_refs": [
+    "handoffs/work_aiden/2026-10-24_richmond-community-capacity/GOVERNOR_CONTEXT.md"
+  ],
+  "created_at": "2026-10-24T12:13:14.198066+00:00",
+  "digest_id": "WORK-RICHMOND-CAPACITY-20261024",
+  "digestion": {
+    "core_shape": "A community can build physical capacity while permission, working cash and control of grant funds remain elsewhere. Trace each gate and its controller, purpose, actual protection and practical alternatives. Historical grant/appointment records do not settle current operator prices or money available to builders.",
+    "evidence_status": "Reviewed supplied historical packet; current replacement price, operator and payment disposition unknown; no canonical admission.",
+    "human_play": "not_observed",
+    "meaning_packet": "examples/meaning-tower/richmond-community-capacity-20261024.json",
+    "next_test": "Which current replacement-operator decision packet identifies the itemized asking price, the legal basis and decisionmaker for required services, and the City-approved disposition of unspent grant funds or builder reimbursements if the operator changes?",
+    "question_id": "Q-RICHMOND-OPERATIONS",
+    "review_status": "pending actual Governor response"
+  },
+  "intended_reviewer": "repo Governor",
+  "kind": "governor_digest_feed",
+  "schema_version": "governor-digestion-feed-0.1"
+}

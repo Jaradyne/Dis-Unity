@@ -1,0 +1,25 @@
+{
+  "sha256": {
+    "config/community-capacity-tree.json": "b1c923c5b1f768a10bb4a10e4d3d8fe0e4e26e1d8dd81904e8df815f70cc7454",
+    "config/garden-traversal.json": "cabe4d51ecca052abfcb386dc1e3f8b97cc440a23d6a15bf955b40b8719f8e18",
+    "examples/meaning-tower/richmond-community-capacity-20261024.json": "4579bfd9654c0adeb425a4f0b4bd4728891695feb9ce98b706a711b9ec8eba68",
+    "handoffs/work_aiden/2026-10-24_richmond-community-capacity/GOVERNOR_CONTEXT.md": "a60df652a37a34c57c5248a644ca8c06f1c737d8e039b6266d34a56f81ed1f4e",
+    "operations/community-capacity/richmond/case.json": "0a62eba193fb13d3ca473810728e6ad560d80ff27ee5120762f47f92d752f36e",
+    "operations/community-capacity/richmond/meaning-question-snapshot.json": "49c494d05bee335c5770a47b7760009272091db9489db03f3b381413dcba5222",
+    "operations/community-capacity/richmond/references.json": "3b4f351027b13e82af7badb727d192dac58c6efd55b9c001c9cf05408d19628c",
+    "operations/community-capacity/richmond/relay-journal.json": "563b7979386b4f56ec6546646f28390a441d8351de10801be721c647e6debd27",
+    "operations/community-capacity/richmond/relay-references.json": "46d399f205cd6a637030f1b4a06f8b620e3128457994e2e7dbc704b51ec9ffdb",
+    "operations/community-capacity/richmond/safeguard-journal.json": "501e0bdfd19776f6e061ef6fd58be519a83642088b7d4768ae30729f8622441f",
+    "operations/community-capacity/richmond/safeguard-references.json": "dca607a99845c392372aa95a54437bafe59ac880f2679b2f179819ef43e012c6",
+    "operations/governor/inbox/WORK-RICHMOND-CAPACITY-20261024.json": "a36f090071d625e419e3d907982049b7503398a583c04717a213c7f5bba6b9f7",
+    "reports/shelter-accountability/richmond-operations-20261024/events.json": "27d48c768357ff69e0aea95d6621c6b0cf0fbcdeb97ac6a4bc8cb9c57ca1dac5",
+    "reports/shelter-accountability/richmond-operations-20261024/receipts/richmond_operations_bee/operations/week-one/runs/RICHMOND-OPERATIONS-BEE-20261024/api/0001.json": "ca57a61957f55bb31097dac66773b154c6ea815b30061c5ab12b50ae759b735c",
+    "reports/shelter-accountability/richmond-operations-20261024/receipts/richmond_operations_bee/operations/week-one/runs/RICHMOND-OPERATIONS-BEE-20261024/api/0002.json": "983e9b03f1568076972d42fe7e232c43949a034276e3a45d28944154a90713e0",
+    "reports/shelter-accountability/richmond-operations-20261024/receipts/richmond_operations_bee/operations/week-one/runs/RICHMOND-OPERATIONS-BEE-20261024/api/0003.json": "5ce10ed805be2510f33390cddf0a411fa15c4ea0f19fae10df6709e37b79bb8e",
+    "reports/shelter-accountability/richmond-operations-20261024/receipts/richmond_operations_bee/operations/week-one/runs/RICHMOND-OPERATIONS-BEE-20261024/api/0005.json": "344e548b2eb6c0553c3af4095cc02897a9324cb017c6f6773c7641ab494f3d01",
+    "reports/shelter-accountability/richmond-operations-20261024/receipts/richmond_operations_bee/operations/week-one/runs/RICHMOND-OPERATIONS-BEE-20261024/api/0006.json": "54b18e121f8a1b7c2cf678ec4eb00b72f8f91cc8c624ec356fb7b3675e41b09b",
+    "reports/shelter-accountability/richmond-operations-20261024/returns/richmond_operations_bee.json": "8ea3ba83eefa727c7b10168002d3de105535264f197dbc88479a5b350400331c",
+    "reports/shelter-accountability/richmond-operations-20261024/sources.json": "ce1234bbeed84c04dc72c2e3238d7836eeaed8124bd9da65ba28b39d0cb0997c"
+  },
+  "version": "community-capacity-inputs-1"
+}

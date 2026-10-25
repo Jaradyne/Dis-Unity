@@ -23,8 +23,13 @@ class GovernorInboxTests(unittest.TestCase):
         tmp = tempfile.TemporaryDirectory()
         self.addCleanup(tmp.cleanup)
         self.root = Path(tmp.name)
-        for name in ['operations/governor', 'config', 'agents', 'handoffs/chat_aiden/2026-09-27_digest-threshold']:
+        for name in ['operations/governor/bundles', 'config', 'agents', 'handoffs/chat_aiden/2026-09-27_digest-threshold']:
             shutil.copytree(ROOT / name, self.root / name)
+        # These tests deliberately exercise the original two-input fixture.
+        # New production inputs have their own context and must not change its counts.
+        (self.root / inbox.INBOX).mkdir(parents=True, exist_ok=True)
+        for name in [PLAY, 'DIGEST-AIDEN-20260927.json']:
+            shutil.copy2(ROOT / inbox.INBOX / name, self.root / inbox.INBOX / name)
         # Synthetic histories have no production generation to retire.
         cycle.write_json(self.root / 'config/provider-dispositions.json', {'decisions': []}, replace=True)
         for name in [cycle.CANONICAL, 'CULTURE.md', 'operations/questions.json']:

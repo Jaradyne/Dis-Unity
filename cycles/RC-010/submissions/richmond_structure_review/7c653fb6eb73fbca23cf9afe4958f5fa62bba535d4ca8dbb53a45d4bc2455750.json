@@ -1,0 +1,32 @@
+{
+  "agent": "richmond_structure_review",
+  "at": "2026-10-24T18:30:25.864875+00:00",
+  "base_hash": "16d04f8bb35a588caca60517f90a11944cfbafac7951402d059a6d6131de97b7",
+  "cycle_id": "RC-010",
+  "payload": {
+    "agent": "richmond_structure_review",
+    "base_commit": "f243e11686de5597610a22ee86eef1674bf8da9b",
+    "blockers": [],
+    "cycle_id": "RC-010",
+    "limits": [
+      "No new public-source retrieval or full audit",
+      "Live operational registration/import/publication outside reviewer actions",
+      "No Governor response, user play or canonical admission claimed"
+    ],
+    "recorded_at": "2026-10-24T18:30:25.822807+00:00",
+    "reports": {
+      "reports/shelter-accountability/richmond-operations-20261024/reviews/final-review.json": "db2b20deed1b550387101ca07e05e41629d897cc98b005ca0a7f8eaa813fa4a4",
+      "reports/shelter-accountability/richmond-operations-20261024/reviews/final-review.md": "b98688812e27d1e06219dfd4841c67cdbfb386bb81158ea2e2ee4281e6368e7f",
+      "reports/shelter-accountability/richmond-operations-20261024/reviews/independent-checks.json": "fa3cd823431819fe09b2273bc3a1ad287e5eb49d5c37d94f639202f1039c5339"
+    },
+    "resolved_findings": [
+      "incorrect grant term locator",
+      "oversized FUNC evidence projection",
+      "mutable live Meaning epoch broke historical replay"
+    ],
+    "status": "independent_finished_packet_review_passed_with_limits"
+  },
+  "payload_hash": "ac5fef1cfd601137b7567df4e82e69095ff2a292fc46cb3465592697c4d936fd",
+  "phase": "submitted",
+  "submission_id": "7c653fb6eb73fbca23cf9afe4958f5fa62bba535d4ca8dbb53a45d4bc2455750"
+}

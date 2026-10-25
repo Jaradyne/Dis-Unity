@@ -1,0 +1,20 @@
+{
+  "agent": "coordinator",
+  "cycle_id": "RC-010",
+  "recorded_at": "2026-10-24T11:55:04.592857+00:00",
+  "status": "checkpoint",
+  "scope": "Richmond operator cost and access; one Work-session Bee, shared Garden tree, Meaning Tower packet and pending Governor input",
+  "base_commit": "f243e11686de5597610a22ee86eef1674bf8da9b",
+  "canonical_sha256": "16d04f8bb35a588caca60517f90a11944cfbafac7951402d059a6d6131de97b7",
+  "prompt_sha256": "6345bb45c59d494d7036c442f88bba545a87ca5ed9df96d235627902dad4758f",
+  "role_sha256": "2ed9b00b74fb9227f2c9516c96dd0273984bcce03ff6e7f9fbea6b334f60616f",
+  "question_id": "Q-RICHMOND-OPERATIONS",
+  "epoch": 1,
+  "authorization": "User requested a Bee, tree, Meaning Tower and Governor place; currentness warning preserved.",
+  "constraints": [
+    "No paid/external API execution or schedule renewal",
+    "No private resident facts or outreach",
+    "No canonical evidence admission",
+    "No Governor activation or invented review"
+  ]
+}

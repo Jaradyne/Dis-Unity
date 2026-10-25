@@ -1,0 +1,2208 @@
+{
+  "config_sha256": "035503474f49a3880d076e8e2ac8607de3dae8373f4f03588ab0f14ceac8c7c6",
+  "events": [
+    {
+      "after": "3181d481ce7eef616f60c1759348b5470df84a1c02cbf351b46cd6938995c1f1",
+      "before": "1a960486c28c26df2491bf74d7f97bffc791c9347c344c1c663d873b3f689c5f",
+      "command": {
+        "actor": {
+          "model": "none invoked",
+          "name": "Work Aiden",
+          "runtime": "deterministic projection of reviewed supplied material"
+        },
+        "branch_id": "B0",
+        "event_id": "RICHMOND-COMMUNITY-CAPACITY-STEP-1",
+        "expected_revision": 0,
+        "kind": "step",
+        "node": "ROOT",
+        "output": {
+          "name": "Why can’t communities put their own capacity to use? Richmond’s operating gates"
+        }
+      },
+      "decision": {
+        "next_node": "ARRIVAL",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-10-24T18:24:20.014432+00:00"
+    },
+    {
+      "after": "7a57935b9a2cb54f8d5f234d877b2e17ddc0aeefea07dc3c4607b22e161b6b35",
+      "before": "3181d481ce7eef616f60c1759348b5470df84a1c02cbf351b46cd6938995c1f1",
+      "command": {
+        "actor": {
+          "model": "none invoked",
+          "name": "Work Aiden",
+          "runtime": "deterministic projection of reviewed supplied material"
+        },
+        "branch_id": "B0",
+        "event_id": "RICHMOND-COMMUNITY-CAPACITY-STEP-2",
+        "expected_revision": 1,
+        "kind": "step",
+        "node": "ARRIVAL",
+        "output": {
+          "arrival": {
+            "from": "operations/community-capacity/richmond",
+            "id": "RICHMOND-COMMUNITY-CAPACITY-ARRIVAL",
+            "payload": {
+              "case_id": "RICHMOND-COMMUNITY-CAPACITY",
+              "inputs_sha256": "f2858e64c71a32f98c5c13951317a872b7eb44f37c9998a9c6d7fb7e49a6c894"
+            },
+            "to": "COMMUNITY-CAPACITY:ROOT-0001"
+          },
+          "language_glance": {
+            "basis": "participant_supplied",
+            "issuing_office": "Richmond public records and separately attributed public summaries",
+            "languages": [
+              "English"
+            ],
+            "note": "No resident communication or current operator delivery observed.",
+            "source_refs": [
+              "S-RICHMOND-APR-2026",
+              "S-RICHMOND-DEVELOPER-STATUS",
+              "S-RICHMOND-GRANT-2026",
+              "S-RICHMOND-JAN-2025",
+              "S-RICHMOND-NOV-2024",
+              "S-RICHMOND-OPENING-REPORT",
+              "S-RICHMOND-SERVICES-2024"
+            ],
+            "surface_kind": "mixed"
+          }
+        }
+      },
+      "decision": {
+        "next_node": "EPIST",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-10-24T18:24:20.014432+00:00"
+    },
+    {
+      "after": "19a90fdf188c96a9c768f0774a9eb7e35fce3a599ee5ca2db8307fbf9b288ed6",
+      "before": "7a57935b9a2cb54f8d5f234d877b2e17ddc0aeefea07dc3c4607b22e161b6b35",
+      "command": {
+        "actor": {
+          "model": "none invoked",
+          "name": "Work Aiden",
+          "runtime": "deterministic projection of reviewed supplied material"
+        },
+        "branch_id": "B0",
+        "event_id": "RICHMOND-COMMUNITY-CAPACITY-STEP-3",
+        "expected_revision": 2,
+        "kind": "step",
+        "node": "EPIST",
+        "output": {
+          "dimensions": {
+            "effectiveness": "unknown",
+            "failure": "unknown",
+            "formal": "documented",
+            "operational": {
+              "authority": "unknown",
+              "people": "unknown",
+              "procedures": "unknown"
+            }
+          },
+          "prompt": "When a community has built homes and people are willing to help, what still prevents usable shelter, who controls those requirements and funds, and can community stewardship meet them?",
+          "starting_state": "Historical documents plus an unverified current cost-barrier lead."
+        }
+      },
+      "decision": {
+        "next_node": "FUNC",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-10-24T18:24:20.014432+00:00"
+    },
+    {
+      "after": "b6e8cc6009d2bcb6b1ecbc3b4f4b48f5277397b948babfba998e4ac29660f8a1",
+      "before": "19a90fdf188c96a9c768f0774a9eb7e35fce3a599ee5ca2db8307fbf9b288ed6",
+      "command": {
+        "actor": {
+          "model": "none invoked",
+          "name": "Work Aiden",
+          "runtime": "deterministic projection of reviewed supplied material"
+        },
+        "branch_id": "B0",
+        "event_id": "RICHMOND-COMMUNITY-CAPACITY-STEP-4",
+        "expected_revision": 3,
+        "kind": "step",
+        "node": "FUNC",
+        "output": {
+          "cost_observations": [
+            {
+              "amount_usd": "1000000",
+              "as_of": null,
+              "id": "CURRENT-LEAD",
+              "limits": "Approximate user-reported figure; no named priced proposal obtained, no profit/salary/payment inference.",
+              "locator": "Commissioned research lead",
+              "period": "Reported annual asking price; exact proposal date unknown",
+              "scope": "Replacement operator demand; inclusions unknown",
+              "source_refs": [],
+              "status": "reported_unverified"
+            },
+            {
+              "amount_usd": "300000",
+              "as_of": "2026-04-28",
+              "id": "GRANT-TOTAL",
+              "limits": "Not an annual budget or verified disbursement.",
+              "locator": "PDF pp.2–3",
+              "period": "2026 staff report/attachment terms conflict",
+              "scope": "Capital plus operating grant",
+              "source_refs": [
+                "S-RICHMOND-APR-2026"
+              ],
+              "status": "proposed_grant"
+            },
+            {
+              "amount_usd": "103000",
+              "as_of": "2026-04-28",
+              "id": "GRANT-CAPITAL",
+              "limits": "Actual payment to Hope or pass-through to TVS unknown.",
+              "locator": "PDF pp.2–3",
+              "period": "Eligible capital reimbursements under proposed grant",
+              "scope": "Restroom trailer, deck and yurt",
+              "source_refs": [
+                "S-RICHMOND-APR-2026"
+              ],
+              "status": "proposed_grant"
+            },
+            {
+              "amount_usd": "197000",
+              "as_of": "2026-04-28",
+              "id": "GRANT-OPERATIONS",
+              "limits": "Not the full operating budget or assured replacement financing.",
+              "locator": "PDF p.3",
+              "period": "Proposed grant term; historical startup exhibit retained",
+              "scope": "Operating reimbursement contribution",
+              "source_refs": [
+                "S-RICHMOND-APR-2026"
+              ],
+              "status": "proposed_grant"
+            },
+            {
+              "amount_usd": "275132",
+              "as_of": "2026-04-28",
+              "id": "STARTUP-TOTAL",
+              "limits": "Historical mixed periods; printed arithmetic/annotation ambiguities retained. No annualization.",
+              "locator": "Exhibit B, PDF p.21",
+              "period": "Calendar 2025 startup: 6 months operating expenses + 9 months salaries",
+              "scope": "Total startup operating budget",
+              "source_refs": [
+                "S-RICHMOND-GRANT-2026"
+              ],
+              "status": "historical_budget"
+            },
+            {
+              "amount_usd": "25012",
+              "as_of": "2026-04-28",
+              "id": "STARTUP-OVERHEAD",
+              "limits": "Component of $275132, not an additional amount or verified profit.",
+              "locator": "Exhibit B, PDF p.21",
+              "period": "Same calendar-2025 mixed startup period",
+              "scope": "Administrative overhead, printed as 10%",
+              "source_refs": [
+                "S-RICHMOND-GRANT-2026"
+              ],
+              "status": "historical_budget"
+            }
+          ],
+          "function": "Trace community-created capacity through controlled gates to usable shelter.",
+          "gates": [
+            {
+              "alternative": "Test whether TVS/community stewardship can qualify, and which objective services must be purchased.",
+              "controller": "City staff (imposing individual and legal basis not identified)",
+              "current_status": "documented_historical_requirement",
+              "evidence_ids": [
+                "RT-PROVIDER-GATE"
+              ],
+              "gate": "Permission to operate",
+              "requirement": "2024 report says an operational service-provider agreement was needed to obtain the permit."
+            },
+            {
+              "alternative": "Negotiate community management with separately contracted specialist functions; consent and capacity unknown.",
+              "controller": "TVS and contracted service provider; City acceptance separately relevant",
+              "current_status": "documented_historical_requirement",
+              "evidence_ids": [
+                "RT-SERVICES"
+              ],
+              "gate": "Operator agreement",
+              "requirement": "Historical exclusive appointment; consent/amendment terms do not establish a present replacement."
+            },
+            {
+              "alternative": "Ask whether City can re-award/reassign or directly fund eligible builder/operating costs under reviewed terms.",
+              "controller": "City as funder; Hope named grantee; TVS identified as subcontractor",
+              "current_status": "documented_historical_requirement",
+              "evidence_ids": [
+                "RT-GRANT-CUSTODY",
+                "RT-GRANT-AMOUNTS"
+              ],
+              "gate": "Grant custody and working cash",
+              "requirement": "Reimbursement runs through grantee. Award, cash receipt, builder repayment and portable operating funds are distinct."
+            },
+            {
+              "alternative": "Verify current policy/lease conditions and permitted shared coverage; no assumed existing coverage or exclusion.",
+              "controller": "City contracting/land-use functions and project parties",
+              "current_status": "documented_historical_requirement",
+              "evidence_ids": [
+                "RT-INSURANCE"
+              ],
+              "gate": "Insurance and lease conditions",
+              "requirement": "Staff reported insurance delayed prior execution; said covered in Apr2026, with separate leases anticipated."
+            },
+            {
+              "alternative": "Price required functions separately, including shared administration and resident/community roles with verified protections.",
+              "controller": "Operator proposes resources; City approves grant scope/budget; TVS has contract role",
+              "current_status": "documented_historical_requirement",
+              "evidence_ids": [
+                "RT-STARTUP-BUDGET",
+                "RT-CITY-CONTROL"
+              ],
+              "gate": "Service scope and cost",
+              "requirement": "Public historical staffing/security/support plan is separate from the unknown current itemized quote."
+            }
+          ],
+          "relay_journal_ref": "operations/community-capacity/richmond/relay-journal.json",
+          "relays": [
+            {
+              "evidence_ids": [
+                "RT-PROVIDER-GATE",
+                "RT-TVS-PROPOSAL",
+                "RT-HOPE-PROPOSAL",
+                "RT-SERVICES",
+                "RT-INSURANCE",
+                "RT-GRANT-CUSTODY",
+                "RT-CITY-CONTROL",
+                "RT-GRANT-AMOUNTS",
+                "RT-STARTUP-BUDGET",
+                "RT-TERM-CONFLICT",
+                "RT-DEVELOPER-PAGE",
+                "RT-OPENING-REPORT",
+                "RT-TERM-LOCATOR-CORRECTION"
+              ],
+              "from_actor": "City of Richmond",
+              "kind": "financial",
+              "payload": "Reimbursement for eligible construction and operating costs",
+              "relay_id": "RICHMOND-FUNDS",
+              "stages": {
+                "action": {
+                  "claim": "No dated current transfer or service observation establishes this stage.",
+                  "evidence_ids": [],
+                  "status": "unknown",
+                  "time": {
+                    "end": null,
+                    "note": "Current delivery not observed.",
+                    "start": null
+                  }
+                },
+                "arrival": {
+                  "claim": "No dated current transfer or service observation establishes this stage.",
+                  "evidence_ids": [],
+                  "status": "unknown",
+                  "time": {
+                    "end": null,
+                    "note": "Current delivery not observed.",
+                    "start": null
+                  }
+                },
+                "dispatch": {
+                  "claim": "No dated current transfer or service observation establishes this stage.",
+                  "evidence_ids": [],
+                  "status": "unknown",
+                  "time": {
+                    "end": null,
+                    "note": "Current delivery not observed.",
+                    "start": null
+                  }
+                },
+                "expected_transfer": {
+                  "claim": "Historical documented obligations; current applicability and execution remain unverified.",
+                  "evidence_ids": [
+                    "RT-GRANT-CUSTODY",
+                    "RT-CITY-CONTROL"
+                  ],
+                  "status": "documented",
+                  "time": {
+                    "end": null,
+                    "note": "Current delivery not observed.",
+                    "start": null
+                  }
+                },
+                "origin": {
+                  "claim": "No dated current transfer or service observation establishes this stage.",
+                  "evidence_ids": [],
+                  "status": "unknown",
+                  "time": {
+                    "end": null,
+                    "note": "Current delivery not observed.",
+                    "start": null
+                  }
+                },
+                "outcome": {
+                  "claim": "No dated current transfer or service observation establishes this stage.",
+                  "evidence_ids": [],
+                  "status": "unknown",
+                  "time": {
+                    "end": null,
+                    "note": "Current delivery not observed.",
+                    "start": null
+                  }
+                },
+                "verification": {
+                  "claim": "No dated current transfer or service observation establishes this stage.",
+                  "evidence_ids": [],
+                  "method": null,
+                  "status": "unknown",
+                  "time": {
+                    "end": null,
+                    "note": "Current delivery not observed.",
+                    "start": null
+                  }
+                }
+              },
+              "to_actor": "Named grantee and eligible project payees"
+            },
+            {
+              "evidence_ids": [
+                "RT-PROVIDER-GATE",
+                "RT-TVS-PROPOSAL",
+                "RT-HOPE-PROPOSAL",
+                "RT-SERVICES",
+                "RT-INSURANCE",
+                "RT-GRANT-CUSTODY",
+                "RT-CITY-CONTROL",
+                "RT-GRANT-AMOUNTS",
+                "RT-STARTUP-BUDGET",
+                "RT-TERM-CONFLICT",
+                "RT-DEVELOPER-PAGE",
+                "RT-OPENING-REPORT",
+                "RT-TERM-LOCATOR-CORRECTION"
+              ],
+              "from_actor": "TVS and City approval processes",
+              "kind": "authority",
+              "payload": "Approval and agreement for operating responsibility",
+              "relay_id": "RICHMOND-OPERATOR",
+              "stages": {
+                "action": {
+                  "claim": "No dated current transfer or service observation establishes this stage.",
+                  "evidence_ids": [],
+                  "status": "unknown",
+                  "time": {
+                    "end": null,
+                    "note": "Current delivery not observed.",
+                    "start": null
+                  }
+                },
+                "arrival": {
+                  "claim": "No dated current transfer or service observation establishes this stage.",
+                  "evidence_ids": [],
+                  "status": "unknown",
+                  "time": {
+                    "end": null,
+                    "note": "Current delivery not observed.",
+                    "start": null
+                  }
+                },
+                "dispatch": {
+                  "claim": "No dated current transfer or service observation establishes this stage.",
+                  "evidence_ids": [],
+                  "status": "unknown",
+                  "time": {
+                    "end": null,
+                    "note": "Current delivery not observed.",
+                    "start": null
+                  }
+                },
+                "expected_transfer": {
+                  "claim": "Historical documented obligations; current applicability and execution remain unverified.",
+                  "evidence_ids": [
+                    "RT-PROVIDER-GATE",
+                    "RT-SERVICES"
+                  ],
+                  "status": "documented",
+                  "time": {
+                    "end": null,
+                    "note": "Current delivery not observed.",
+                    "start": null
+                  }
+                },
+                "origin": {
+                  "claim": "No dated current transfer or service observation establishes this stage.",
+                  "evidence_ids": [],
+                  "status": "unknown",
+                  "time": {
+                    "end": null,
+                    "note": "Current delivery not observed.",
+                    "start": null
+                  }
+                },
+                "outcome": {
+                  "claim": "No dated current transfer or service observation establishes this stage.",
+                  "evidence_ids": [],
+                  "status": "unknown",
+                  "time": {
+                    "end": null,
+                    "note": "Current delivery not observed.",
+                    "start": null
+                  }
+                },
+                "verification": {
+                  "claim": "No dated current transfer or service observation establishes this stage.",
+                  "evidence_ids": [],
+                  "method": null,
+                  "status": "unknown",
+                  "time": {
+                    "end": null,
+                    "note": "Current delivery not observed.",
+                    "start": null
+                  }
+                }
+              },
+              "to_actor": "An eligible operating organization"
+            },
+            {
+              "evidence_ids": [
+                "RT-PROVIDER-GATE",
+                "RT-TVS-PROPOSAL",
+                "RT-HOPE-PROPOSAL",
+                "RT-SERVICES",
+                "RT-INSURANCE",
+                "RT-GRANT-CUSTODY",
+                "RT-CITY-CONTROL",
+                "RT-GRANT-AMOUNTS",
+                "RT-STARTUP-BUDGET",
+                "RT-TERM-CONFLICT",
+                "RT-DEVELOPER-PAGE",
+                "RT-OPENING-REPORT",
+                "RT-TERM-LOCATOR-CORRECTION"
+              ],
+              "from_actor": "An appointed operator and project partners",
+              "kind": "service",
+              "payload": "Staffed access and supportive services",
+              "relay_id": "RICHMOND-SHELTER",
+              "stages": {
+                "action": {
+                  "claim": "No dated current transfer or service observation establishes this stage.",
+                  "evidence_ids": [],
+                  "status": "unknown",
+                  "time": {
+                    "end": null,
+                    "note": "Current delivery not observed.",
+                    "start": null
+                  }
+                },
+                "arrival": {
+                  "claim": "No dated current transfer or service observation establishes this stage.",
+                  "evidence_ids": [],
+                  "status": "unknown",
+                  "time": {
+                    "end": null,
+                    "note": "Current delivery not observed.",
+                    "start": null
+                  }
+                },
+                "dispatch": {
+                  "claim": "No dated current transfer or service observation establishes this stage.",
+                  "evidence_ids": [],
+                  "status": "unknown",
+                  "time": {
+                    "end": null,
+                    "note": "Current delivery not observed.",
+                    "start": null
+                  }
+                },
+                "expected_transfer": {
+                  "claim": "Historical documented obligations; current applicability and execution remain unverified.",
+                  "evidence_ids": [
+                    "RT-SERVICES"
+                  ],
+                  "status": "documented",
+                  "time": {
+                    "end": null,
+                    "note": "Current delivery not observed.",
+                    "start": null
+                  }
+                },
+                "origin": {
+                  "claim": "No dated current transfer or service observation establishes this stage.",
+                  "evidence_ids": [],
+                  "status": "unknown",
+                  "time": {
+                    "end": null,
+                    "note": "Current delivery not observed.",
+                    "start": null
+                  }
+                },
+                "outcome": {
+                  "claim": "No dated current transfer or service observation establishes this stage.",
+                  "evidence_ids": [],
+                  "status": "unknown",
+                  "time": {
+                    "end": null,
+                    "note": "Current delivery not observed.",
+                    "start": null
+                  }
+                },
+                "verification": {
+                  "claim": "No dated current transfer or service observation establishes this stage.",
+                  "evidence_ids": [],
+                  "method": null,
+                  "status": "unknown",
+                  "time": {
+                    "end": null,
+                    "note": "Current delivery not observed.",
+                    "start": null
+                  }
+                }
+              },
+              "to_actor": "Eligible young adults"
+            }
+          ],
+          "task": "Richmond Tiny House Village, 175 23rd Street / 2200 Bissell Avenue: community-created capacity, provider requirements and funding custody; no resident dossier or current legal adjudication."
+        }
+      },
+      "decision": {
+        "next_node": "MIRROR",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-10-24T18:24:20.014432+00:00"
+    },
+    {
+      "after": "c574bab0b66765e98198c500f6c4d6e9c5a23b5fadcf783fdd1c42f3790046e4",
+      "before": "b6e8cc6009d2bcb6b1ecbc3b4f4b48f5277397b948babfba998e4ac29660f8a1",
+      "command": {
+        "actor": {
+          "model": "none invoked",
+          "name": "Work Aiden",
+          "runtime": "deterministic projection of reviewed supplied material"
+        },
+        "branch_id": "B0",
+        "event_id": "RICHMOND-COMMUNITY-CAPACITY-STEP-5",
+        "expected_revision": 4,
+        "kind": "step",
+        "node": "MIRROR",
+        "output": {
+          "comparisons": [
+            {
+              "answers": [
+                {
+                  "evidence_ids": [
+                    "RT-SERVICES",
+                    "RT-STARTUP-BUDGET"
+                  ]
+                }
+              ],
+              "explanation": "Specialist services, supervision, insurance and fixed staffing costs may matter even at small sites. Whether each current requirement is necessary or proportionate needs its actual written basis and priced scope.",
+              "queries": []
+            },
+            {
+              "answers": [
+                {
+                  "evidence_ids": [
+                    "RT-TVS-PROPOSAL",
+                    "RT-HOPE-PROPOSAL",
+                    "RT-GRANT-CUSTODY"
+                  ]
+                }
+              ],
+              "explanation": "The operator may have been used as the accountable grantee for reporting and reimbursement. This is a possible explanation; the record does not establish why the recipient changed or whether TVS could meet the conditions.",
+              "queries": []
+            },
+            {
+              "answers": [
+                {
+                  "evidence_ids": [
+                    "RT-CITY-CONTROL",
+                    "RT-SERVICES"
+                  ]
+                }
+              ],
+              "explanation": "Community management with separately purchased specialist support, a shared administrator, or an amended grantee arrangement are alternatives to test, not authorized or funded replacements.",
+              "queries": []
+            }
+          ],
+          "contrary_evidence": [
+            {
+              "claim": "The City proposal included capital reimbursement and accepted in-kind matching support; routing through an operator does not by itself establish that builders were denied all funding or that money was retained improperly.",
+              "evidence_ids": [
+                "RT-GRANT-CUSTODY",
+                "RT-GRANT-AMOUNTS"
+              ]
+            },
+            {
+              "claim": "Hope was historically appointed, and opening publicity may repeat that identity. Such statements cannot settle the user-reported later operator change or current cost barrier.",
+              "evidence_ids": [
+                "RT-SERVICES"
+              ]
+            },
+            {
+              "claim": "A smaller mixed-period historical budget neither disproves a higher current proposal nor verifies it. Terms and scope must match before comparing.",
+              "evidence_ids": [
+                "RT-STARTUP-BUDGET",
+                "RT-TERM-CONFLICT"
+              ]
+            },
+            {
+              "claim": "Developer/press opening statements are retained as contrary context; variable or stale page wording and repeated Hope identification do not authenticate a current operator or occupancy.",
+              "evidence_ids": [
+                "RT-DEVELOPER-PAGE",
+                "RT-OPENING-REPORT"
+              ]
+            },
+            {
+              "claim": "RT-TERM-CONFLICT’s earlier Section 1.4 locator is superseded by Section 1.2, PDF p.3. The retained report/attachment term discrepancy remains unresolved.",
+              "evidence_ids": [
+                "RT-TERM-LOCATOR-CORRECTION"
+              ]
+            }
+          ],
+          "information_lineage": {
+            "api_record_refs": [
+              "RICHMOND-OPERATIONS-BEE-20261024"
+            ],
+            "criteria_refs": [
+              "schemas/safeguard.schema.json",
+              "schemas/relay-case.schema.json"
+            ],
+            "parent_answer_visible": true,
+            "parent_output_refs": [
+              "operations/community-capacity/richmond/safeguard-journal.json",
+              "operations/community-capacity/richmond/relay-journal.json"
+            ],
+            "source_refs": [
+              "S-RICHMOND-APR-2026",
+              "S-RICHMOND-DEVELOPER-STATUS",
+              "S-RICHMOND-GRANT-2026",
+              "S-RICHMOND-JAN-2025",
+              "S-RICHMOND-NOV-2024",
+              "S-RICHMOND-OPENING-REPORT",
+              "S-RICHMOND-SERVICES-2024"
+            ],
+            "test_origin": "inherited"
+          }
+        }
+      },
+      "decision": {
+        "next_node": "CROSS",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-10-24T18:24:20.014432+00:00"
+    },
+    {
+      "after": "f61c3ac11f433512f826c8770b5c8a61c0985b1d069a9ce8032d61533da0b9cf",
+      "before": "c574bab0b66765e98198c500f6c4d6e9c5a23b5fadcf783fdd1c42f3790046e4",
+      "command": {
+        "actor": {
+          "model": "none invoked",
+          "name": "Work Aiden",
+          "runtime": "deterministic projection of reviewed supplied material"
+        },
+        "branch_id": "B0",
+        "event_id": "RICHMOND-COMMUNITY-CAPACITY-STEP-6",
+        "expected_revision": 5,
+        "kind": "step",
+        "node": "CROSS",
+        "output": {
+          "bridge": [
+            {
+              "question": "Which current replacement-operator decision packet identifies the itemized asking price, the legal basis and decisionmaker for required services, and the City-approved disposition of unspent grant funds or builder reimbursements if the operator changes?",
+              "status": "proposed; no request sent"
+            }
+          ],
+          "independent": [],
+          "inherited": [
+            {
+              "ref": "S-RICHMOND-APR-2026",
+              "status": "Retained source; reuse is not independent corroboration."
+            },
+            {
+              "ref": "S-RICHMOND-DEVELOPER-STATUS",
+              "status": "Retained source; reuse is not independent corroboration."
+            },
+            {
+              "ref": "S-RICHMOND-GRANT-2026",
+              "status": "Retained source; reuse is not independent corroboration."
+            },
+            {
+              "ref": "S-RICHMOND-JAN-2025",
+              "status": "Retained source; reuse is not independent corroboration."
+            },
+            {
+              "ref": "S-RICHMOND-NOV-2024",
+              "status": "Retained source; reuse is not independent corroboration."
+            },
+            {
+              "ref": "S-RICHMOND-OPENING-REPORT",
+              "status": "Retained source; reuse is not independent corroboration."
+            },
+            {
+              "ref": "S-RICHMOND-SERVICES-2024",
+              "status": "Retained source; reuse is not independent corroboration."
+            }
+          ]
+        }
+      },
+      "decision": {
+        "next_node": "RESID",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-10-24T18:24:20.014432+00:00"
+    },
+    {
+      "after": "e0c1a77c8770d98d868daa996320db595ff9861382ed0e3a04f744bdd2bb3241",
+      "before": "f61c3ac11f433512f826c8770b5c8a61c0985b1d069a9ce8032d61533da0b9cf",
+      "command": {
+        "actor": {
+          "model": "none invoked",
+          "name": "Work Aiden",
+          "runtime": "deterministic projection of reviewed supplied material"
+        },
+        "branch_id": "B0",
+        "event_id": "RICHMOND-COMMUNITY-CAPACITY-STEP-7",
+        "expected_revision": 6,
+        "kind": "step",
+        "node": "RESID",
+        "output": {
+          "next_test": {
+            "max_records": 1,
+            "question": "Which current replacement-operator decision packet identifies the itemized asking price, the legal basis and decisionmaker for required services, and the City-approved disposition of unspent grant funds or builder reimbursements if the operator changes?",
+            "required_record": "One current replacement-operator and grant-transition decision packet with priced scope, approvals and payment/balance disposition.",
+            "status": "proposed_only",
+            "stop_condition": "Classify that one packet; no private resident files, expanded campaign or records request sent.",
+            "supports_if": "The packet ties a priced requirement and fund-control decision to the inability to appoint a replacement or fund community operation.",
+            "weakens_if": "The terms permit funded community operation, a different verified obstacle controls opening, or the quote cannot be authenticated; preserve contrary findings."
+          },
+          "predicates": {
+            "consequential": true,
+            "distinct_functions": false,
+            "language_exception": null
+          },
+          "summary": "No current replacement-operator priced proposal, signed replacement agreement, actual staff roster or dated occupancy record was obtained. The roughly $1 million annual demand and resulting blockage remain a user-reported lead; neither verified nor disproved by the older budget. The precise City staff decision and legal basis requiring an operational service provider are not identified in the inspected report; community stewardship eligibility was not resolved. Actual City disbursements to Hope, pass-through to TVS, unpaid builder costs, unspent balances and a transfer/re-award decision remain unverified. Older operator appointments and opening announcements do not establish the current operator or usable capacity. Missing replacement records do not establish absence. Formal safeguards, proposed service staffing and an insurance statement do not establish actual resident protection or successful admission. The 2026 staff report and attachment disagree on grant term. The attachment retains a mixed-period 2025 startup budget; no annualization or current per-bed rate is derived."
+        }
+      },
+      "decision": {
+        "next_node": "MEAN",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-10-24T18:24:20.014432+00:00"
+    },
+    {
+      "after": "5799d0c90ace88ed931d0b4884b79abd0cb188a41b19b5a21ce5267350ef91b5",
+      "before": "e0c1a77c8770d98d868daa996320db595ff9861382ed0e3a04f744bdd2bb3241",
+      "command": {
+        "actor": {
+          "model": "none invoked",
+          "name": "Work Aiden",
+          "runtime": "deterministic projection of reviewed supplied material"
+        },
+        "branch_id": "B0",
+        "event_id": "RICHMOND-COMMUNITY-CAPACITY-STEP-8",
+        "expected_revision": 7,
+        "kind": "step",
+        "node": "MEAN",
+        "output": {
+          "dimensions": {
+            "effectiveness": "unknown",
+            "failure": "unknown",
+            "formal": "documented",
+            "operational": {
+              "authority": "unknown",
+              "people": "unknown",
+              "procedures": "unknown"
+            }
+          },
+          "summary": "Physical capacity, permission, working money and delivered care must be traced separately. Residents need real protection; community initiative also needs a practical route to operate, with each restriction justified and open to review."
+        }
+      },
+      "decision": {
+        "next_node": "EXIT",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-10-24T18:24:20.014432+00:00"
+    },
+    {
+      "after": "19a7fdfbfd40cc3011f51c421f2654799eafab8722cd64a70e7e816630df0cd2",
+      "before": "5799d0c90ace88ed931d0b4884b79abd0cb188a41b19b5a21ce5267350ef91b5",
+      "command": {
+        "actor": {
+          "model": "none invoked",
+          "name": "Work Aiden",
+          "runtime": "deterministic projection of reviewed supplied material"
+        },
+        "branch_id": "B0",
+        "event_id": "RICHMOND-COMMUNITY-CAPACITY-STEP-9",
+        "expected_revision": 8,
+        "kind": "step",
+        "node": "EXIT",
+        "output": {
+          "kind": "question",
+          "summary": "Which current replacement-operator decision packet identifies the itemized asking price, the legal basis and decisionmaker for required services, and the City-approved disposition of unspent grant funds or builder reimbursements if the operator changes?"
+        }
+      },
+      "decision": {
+        "next_node": "RETURN",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-10-24T18:24:20.014432+00:00"
+    },
+    {
+      "after": "a01e0a8173c724bce5cd37041185669879d82da209d89fbc04a39570a37bd672",
+      "before": "19a7fdfbfd40cc3011f51c421f2654799eafab8722cd64a70e7e816630df0cd2",
+      "command": {
+        "actor": {
+          "model": "none invoked",
+          "name": "Work Aiden",
+          "runtime": "deterministic projection of reviewed supplied material"
+        },
+        "branch_id": "B0",
+        "event_id": "RICHMOND-COMMUNITY-CAPACITY-STEP-10",
+        "expected_revision": 9,
+        "kind": "step",
+        "node": "RETURN",
+        "output": {
+          "new_arrival": null,
+          "reason": "One bounded Richmond pass complete; rest with current quote, payment and operator status unresolved until separately reviewed evidence arrives."
+        }
+      },
+      "decision": {
+        "reason": "No new arrival supplied",
+        "status": "rest"
+      },
+      "recorded_at": "2026-10-24T18:24:20.014432+00:00"
+    }
+  ],
+  "initial": {
+    "config": {
+      "authority": "Reviewed configuration determines eligible routes. Supplied content cannot edit this graph or activate morphology.",
+      "grammar": {
+        "crosscheck": {
+          "basic": "Collector capability",
+          "consequential_residual": "May request or propose teleport to a bounded Pygent Collector/specialist",
+          "permanent_crosscheck_bee": "Unresolved pending repeated cases showing the value of persistent specialist memory"
+        },
+        "entry": "INIT:ROOT-0001",
+        "external_execution": false,
+        "governor_input_refs": [
+          "daily_scroll",
+          "reflection_mailbox",
+          "meaning_tower",
+          "chair_imagination",
+          "meaning_boss_result"
+        ],
+        "routes": [
+          {
+            "automatic_execution": false,
+            "from": "INIT:RESID-0007",
+            "status": "available_not_running",
+            "to": "INIT:RETURN-0010",
+            "via": "PYGENT:PARALLAX-0001"
+          }
+        ],
+        "schema_version": "garden-config-0.1",
+        "status": "on_demand_grammar_prototype",
+        "trees": {
+          "INIT": {
+            "name": "Initiating Garden",
+            "nodes": [
+              {
+                "id": "ROOT-0001",
+                "purpose": "Pass name and identity"
+              },
+              {
+                "id": "ARRIVAL-0002",
+                "purpose": "What arrived, from where, sent to where"
+              },
+              {
+                "id": "EPIST-0003",
+                "purpose": "Prompt/question and starting epistemic state"
+              },
+              {
+                "id": "FUNC-0004",
+                "purpose": "Task and function being investigated"
+              },
+              {
+                "id": "MIRROR-0005",
+                "purpose": "Competing explanations, queries and recorded answers"
+              },
+              {
+                "id": "CROSS-0006",
+                "purpose": "Inherited, independently derived and deliberate bridge attachments"
+              },
+              {
+                "id": "RESID-0007",
+                "purpose": "Surviving residual and bounded specialist proposal"
+              },
+              {
+                "id": "MEAN-0008",
+                "purpose": "Changed meaning and non-evidence culture flower"
+              },
+              {
+                "id": "EXIT-0009",
+                "purpose": "Bounded answer, question, teleport, silence or error"
+              },
+              {
+                "id": "RETURN-0010",
+                "purpose": "New linked arrival or rest"
+              }
+            ]
+          },
+          "PYGENT": {
+            "name": "Bounded specialist destinations",
+            "nodes": [
+              {
+                "id": "PARALLAX-0001",
+                "purpose": "One bounded matched official-language Boss Packet",
+                "role": "parallax_collector_bee",
+                "status": "available_not_running"
+              }
+            ]
+          }
+        }
+      },
+      "independence": "A different branch, tree, context or model is not independent empirical evidence.",
+      "limits": {
+        "max_branches": 8,
+        "max_events": 128,
+        "max_fanout": 3,
+        "max_steps": 80,
+        "model_calls": 0
+      },
+      "model_execution": false,
+      "node_contracts": {
+        "ARRIVAL": {
+          "objects": [
+            "arrival",
+            "language_glance"
+          ]
+        },
+        "CROSS": {
+          "lists": [
+            "inherited",
+            "independent",
+            "bridge"
+          ]
+        },
+        "EPIST": {
+          "strings": [
+            "prompt",
+            "starting_state"
+          ]
+        },
+        "EXIT": {
+          "strings": [
+            "kind",
+            "summary"
+          ]
+        },
+        "FUNC": {
+          "strings": [
+            "task",
+            "function"
+          ]
+        },
+        "MEAN": {
+          "strings": [
+            "summary"
+          ]
+        },
+        "MIRROR": {
+          "lists": [
+            "comparisons"
+          ],
+          "objects": [
+            "information_lineage"
+          ]
+        },
+        "RESID": {
+          "objects": [
+            "predicates"
+          ],
+          "strings": [
+            "summary"
+          ]
+        },
+        "RETURN": {
+          "strings": [
+            "reason"
+          ]
+        },
+        "ROOT": {
+          "strings": [
+            "name"
+          ]
+        }
+      },
+      "rules": [
+        {
+          "actions": [
+            "MOVE",
+            "CLONE"
+          ],
+          "at": [
+            "RESID",
+            "MEAN",
+            "EXIT",
+            "RETURN"
+          ],
+          "condition": {
+            "members": [
+              "consequential",
+              "language_exception"
+            ],
+            "op": "AND"
+          },
+          "from": [
+            "INIT",
+            "ECONOMICS",
+            "PRODUCTION",
+            "DIPLOMACY",
+            "LANGUAGE",
+            "CUSTOMS",
+            "HOMELESSNESS"
+          ],
+          "id": "LANGUAGE-EXCEPTION",
+          "review_required": false,
+          "to": [
+            "LANGUAGE"
+          ]
+        },
+        {
+          "actions": [
+            "MOVE",
+            "CLONE",
+            "FANOUT"
+          ],
+          "at": [
+            "RESID",
+            "MEAN",
+            "EXIT",
+            "RETURN"
+          ],
+          "condition": {
+            "members": [
+              "consequential",
+              "distinct_functions"
+            ],
+            "op": "AND"
+          },
+          "from": [
+            "INIT",
+            "ECONOMICS",
+            "PRODUCTION",
+            "DIPLOMACY",
+            "LANGUAGE",
+            "CUSTOMS",
+            "HOMELESSNESS"
+          ],
+          "id": "DOMAIN-BRANCH",
+          "review_required": true,
+          "to": [
+            "INIT",
+            "ECONOMICS",
+            "PRODUCTION",
+            "DIPLOMACY",
+            "LANGUAGE",
+            "CUSTOMS",
+            "HOMELESSNESS"
+          ]
+        }
+      ],
+      "schema_version": "garden-traversal-config-1",
+      "status": "supplied_content_runtime",
+      "trees": {
+        "COMMUNITY-CAPACITY": {
+          "name": "Community Capacity and Operating Gates",
+          "node_template": "INIT",
+          "status": "traversable_with_supplied_content"
+        },
+        "CUSTOMS": {
+          "name": "Customs Authority",
+          "node_template": "INIT",
+          "status": "traversable_with_supplied_content"
+        },
+        "DIPLOMACY": {
+          "name": "Diplomacy",
+          "node_template": "INIT",
+          "status": "traversable_with_supplied_content"
+        },
+        "ECONOMICS": {
+          "name": "Economics",
+          "node_template": "INIT",
+          "status": "traversable_with_supplied_content"
+        },
+        "HOMELESSNESS": {
+          "name": "Homelessness Governance and Integrity",
+          "node_template": "INIT",
+          "status": "traversable_with_supplied_content"
+        },
+        "INIT": {
+          "name": "Initiating Garden",
+          "node_template": "INIT",
+          "status": "traversable_with_supplied_content"
+        },
+        "LANGUAGE": {
+          "name": "Language Exception",
+          "node_template": "INIT",
+          "status": "traversable_with_supplied_content"
+        },
+        "PRODUCTION": {
+          "name": "Production",
+          "node_template": "INIT",
+          "status": "traversable_with_supplied_content"
+        }
+      }
+    },
+    "packet": {
+      "actor": {
+        "model": "none invoked",
+        "name": "Work Aiden",
+        "runtime": "deterministic projection of reviewed supplied material"
+      },
+      "arrival": {
+        "from": "operations/community-capacity/richmond",
+        "id": "RICHMOND-COMMUNITY-CAPACITY-ARRIVAL",
+        "payload": {
+          "case_id": "RICHMOND-COMMUNITY-CAPACITY",
+          "inputs_sha256": "f2858e64c71a32f98c5c13951317a872b7eb44f37c9998a9c6d7fb7e49a6c894"
+        },
+        "to": "COMMUNITY-CAPACITY:ROOT-0001"
+      },
+      "budget": {
+        "max_branches": 1,
+        "max_events": 10,
+        "max_fanout": 0,
+        "max_steps": 10,
+        "model_calls": 0
+      },
+      "epoch": 1,
+      "focus": "Richmond Tiny House Village, 175 23rd Street / 2200 Bissell Avenue: community-created capacity, provider requirements and funding custody; no resident dossier or current legal adjudication.",
+      "question_id": "Q-RICHMOND-OPERATIONS",
+      "run_id": "RICHMOND-COMMUNITY-CAPACITY-GARDEN",
+      "sources": [
+        {
+          "access_limit": "Historical staff account: insurance delayed execution and was then reportedly in place. Proposed Apr 2026–Dec 2027 term differs from the attached draft. Promised reimbursement is not a payment receipt.",
+          "binding": {
+            "collection": "sources",
+            "id_field": "source_id",
+            "kind": "source",
+            "path": "reports/shelter-accountability/richmond-operations-20261024/sources.json",
+            "record_id": "RICHMOND-APR-2026",
+            "sha256": "b1b5e48a9cad7fdedd3cff560417d7b6eced45b40f9badcdc2f21347857cbabc"
+          },
+          "kind": "public_source",
+          "lineage_id": "RICHMOND-TVS-HOPE-TRANSACTION",
+          "ref": "S-RICHMOND-APR-2026"
+        },
+        {
+          "access_limit": "Search-service mediated retrieval; no complete origin HTTP receipt. Retrieved page still labels July2026 target move-in, also displays grand-opening modal. Neither proves current occupancy. Other search snapshots may show a different version; no origin version chronology established. Exact search-tool retrieval timestamp was not retained; report creation time is not substituted.",
+          "binding": {
+            "collection": "sources",
+            "id_field": "source_id",
+            "kind": "source",
+            "path": "reports/shelter-accountability/richmond-operations-20261024/sources.json",
+            "record_id": "RICHMOND-DEVELOPER-STATUS",
+            "sha256": "819dcab89ec5ea554374c1bbd9b5f58f65ae848e0775af0e7e794b11cc652b96"
+          },
+          "kind": "public_source",
+          "lineage_id": "tvs-project-announcement",
+          "ref": "S-RICHMOND-DEVELOPER-STATUS"
+        },
+        {
+          "access_limit": "Blank execution date/signatures; attachment says Mar 2026–Feb 2027, unlike staff report. Exhibit B retains a 2025 startup budget with mixed periods and arithmetic/annotation ambiguities. Not a current quote, executed award or payment record.",
+          "binding": {
+            "collection": "sources",
+            "id_field": "source_id",
+            "kind": "source",
+            "path": "reports/shelter-accountability/richmond-operations-20261024/sources.json",
+            "record_id": "RICHMOND-GRANT-2026",
+            "sha256": "8e65794086d89b6b8efd6ae7db42fa8183bc6dfecd4683bc1954ad8694772d1b"
+          },
+          "kind": "public_source",
+          "lineage_id": "RICHMOND-TVS-HOPE-TRANSACTION",
+          "ref": "S-RICHMOND-GRANT-2026"
+        },
+        {
+          "access_limit": "Recommendation naming Hope Solutions; changed from the November TVS proposal. Recommendation alone is not execution, payment or proof of why the recipient changed.",
+          "binding": {
+            "collection": "sources",
+            "id_field": "source_id",
+            "kind": "source",
+            "path": "reports/shelter-accountability/richmond-operations-20261024/sources.json",
+            "record_id": "RICHMOND-JAN-2025",
+            "sha256": "22309082c6c45652317b75b20a35f38463aa0596402decbaead2b11ace04a46b"
+          },
+          "kind": "public_source",
+          "lineage_id": "RICHMOND-TVS-HOPE-TRANSACTION",
+          "ref": "S-RICHMOND-JAN-2025"
+        },
+        {
+          "access_limit": "Proposed action and description of staff requirements, not proof of adoption, legal necessity or current operations. The report does not name the staffer imposing the provider requirement.",
+          "binding": {
+            "collection": "sources",
+            "id_field": "source_id",
+            "kind": "source",
+            "path": "reports/shelter-accountability/richmond-operations-20261024/sources.json",
+            "record_id": "RICHMOND-NOV-2024",
+            "sha256": "6c5c0088a3de0a24e014c4b6783b25468fef63358fa2a18682f12458a05156bc"
+          },
+          "kind": "public_source",
+          "lineage_id": "RICHMOND-TVS-HOPE-TRANSACTION",
+          "ref": "S-RICHMOND-NOV-2024"
+        },
+        {
+          "access_limit": "Search-service text only. Announced operating roles; no new documentary verification of current operator. PostNewsGroup Sep14 and SFist Sep30 repeat related material, not independent confirmation. Full copyrighted article not published. Exact search-tool retrieval timestamp was not retained; report creation time is not substituted.",
+          "binding": {
+            "collection": "sources",
+            "id_field": "source_id",
+            "kind": "source",
+            "path": "reports/shelter-accountability/richmond-operations-20261024/sources.json",
+            "record_id": "RICHMOND-OPENING-REPORT",
+            "sha256": "658041d091a8b271df85365404b0d7ae6f5e981b71127597fdc47a801e05cc3b"
+          },
+          "kind": "public_source",
+          "lineage_id": "richmond-standard-opening-report",
+          "ref": "S-RICHMOND-OPENING-REPORT"
+        },
+        {
+          "access_limit": "Nominal Jan–Dec 2025 term. Signatures establish the historical agreement only. Termination clause says thirty (60) days; current renewal, termination and replacement unverified.",
+          "binding": {
+            "collection": "sources",
+            "id_field": "source_id",
+            "kind": "source",
+            "path": "reports/shelter-accountability/richmond-operations-20261024/sources.json",
+            "record_id": "RICHMOND-SERVICES-2024",
+            "sha256": "a18059de58cdea99d1cb03dd6e8d4ba05c9ab5bdd69fd444f7d6dae40ee65e50"
+          },
+          "kind": "public_source",
+          "lineage_id": "RICHMOND-TVS-HOPE-TRANSACTION",
+          "ref": "S-RICHMOND-SERVICES-2024"
+        }
+      ],
+      "status": "supplied case review; shared registration is separately recorded on week-one-state",
+      "tree": "COMMUNITY-CAPACITY"
+    },
+    "registry": {
+      "questions": {
+        "Q-RICHMOND-OPERATIONS": {
+          "epoch": 1
+        }
+      }
+    }
+  },
+  "schema_version": "garden-traversal-1",
+  "state": {
+    "branches": {
+      "B0": {
+        "epoch": 1,
+        "focus": "Richmond Tiny House Village, 175 23rd Street / 2200 Bissell Avenue: community-created capacity, provider requirements and funding custody; no resident dossier or current legal adjudication.",
+        "id": "B0",
+        "lineage": {
+          "independent_evidence": false,
+          "source_refs": [
+            "S-RICHMOND-APR-2026",
+            "S-RICHMOND-DEVELOPER-STATUS",
+            "S-RICHMOND-GRANT-2026",
+            "S-RICHMOND-JAN-2025",
+            "S-RICHMOND-NOV-2024",
+            "S-RICHMOND-OPENING-REPORT",
+            "S-RICHMOND-SERVICES-2024"
+          ]
+        },
+        "parent_branch": null,
+        "question_id": "Q-RICHMOND-OPERATIONS",
+        "rest": {
+          "kind": "return",
+          "reason": "No new arrival supplied"
+        },
+        "root_branch": "B0",
+        "seen_arrival_ids": [
+          "RICHMOND-COMMUNITY-CAPACITY-ARRIVAL"
+        ],
+        "status": "resting",
+        "visited": [
+          {
+            "payload_hash": "2bd48f2c56b3d927c8f29ed5297aa2a50fdb06fbcb99993b40b1c8a756be08ec",
+            "tree": "COMMUNITY-CAPACITY"
+          }
+        ],
+        "visits": [
+          {
+            "arrival": {
+              "from": "operations/community-capacity/richmond",
+              "id": "RICHMOND-COMMUNITY-CAPACITY-ARRIVAL",
+              "payload": {
+                "case_id": "RICHMOND-COMMUNITY-CAPACITY",
+                "inputs_sha256": "f2858e64c71a32f98c5c13951317a872b7eb44f37c9998a9c6d7fb7e49a6c894"
+              },
+              "to": "COMMUNITY-CAPACITY:ROOT-0001"
+            },
+            "status": "completed",
+            "steps": [
+              {
+                "actor": {
+                  "model": "none invoked",
+                  "name": "Work Aiden",
+                  "runtime": "deterministic projection of reviewed supplied material"
+                },
+                "event_id": "RICHMOND-COMMUNITY-CAPACITY-STEP-1",
+                "node": "ROOT",
+                "output": {
+                  "name": "Why can’t communities put their own capacity to use? Richmond’s operating gates"
+                }
+              },
+              {
+                "actor": {
+                  "model": "none invoked",
+                  "name": "Work Aiden",
+                  "runtime": "deterministic projection of reviewed supplied material"
+                },
+                "event_id": "RICHMOND-COMMUNITY-CAPACITY-STEP-2",
+                "node": "ARRIVAL",
+                "output": {
+                  "arrival": {
+                    "from": "operations/community-capacity/richmond",
+                    "id": "RICHMOND-COMMUNITY-CAPACITY-ARRIVAL",
+                    "payload": {
+                      "case_id": "RICHMOND-COMMUNITY-CAPACITY",
+                      "inputs_sha256": "f2858e64c71a32f98c5c13951317a872b7eb44f37c9998a9c6d7fb7e49a6c894"
+                    },
+                    "to": "COMMUNITY-CAPACITY:ROOT-0001"
+                  },
+                  "language_glance": {
+                    "basis": "participant_supplied",
+                    "issuing_office": "Richmond public records and separately attributed public summaries",
+                    "languages": [
+                      "English"
+                    ],
+                    "note": "No resident communication or current operator delivery observed.",
+                    "source_refs": [
+                      "S-RICHMOND-APR-2026",
+                      "S-RICHMOND-DEVELOPER-STATUS",
+                      "S-RICHMOND-GRANT-2026",
+                      "S-RICHMOND-JAN-2025",
+                      "S-RICHMOND-NOV-2024",
+                      "S-RICHMOND-OPENING-REPORT",
+                      "S-RICHMOND-SERVICES-2024"
+                    ],
+                    "surface_kind": "mixed"
+                  }
+                }
+              },
+              {
+                "actor": {
+                  "model": "none invoked",
+                  "name": "Work Aiden",
+                  "runtime": "deterministic projection of reviewed supplied material"
+                },
+                "event_id": "RICHMOND-COMMUNITY-CAPACITY-STEP-3",
+                "node": "EPIST",
+                "output": {
+                  "dimensions": {
+                    "effectiveness": "unknown",
+                    "failure": "unknown",
+                    "formal": "documented",
+                    "operational": {
+                      "authority": "unknown",
+                      "people": "unknown",
+                      "procedures": "unknown"
+                    }
+                  },
+                  "prompt": "When a community has built homes and people are willing to help, what still prevents usable shelter, who controls those requirements and funds, and can community stewardship meet them?",
+                  "starting_state": "Historical documents plus an unverified current cost-barrier lead."
+                }
+              },
+              {
+                "actor": {
+                  "model": "none invoked",
+                  "name": "Work Aiden",
+                  "runtime": "deterministic projection of reviewed supplied material"
+                },
+                "event_id": "RICHMOND-COMMUNITY-CAPACITY-STEP-4",
+                "node": "FUNC",
+                "output": {
+                  "cost_observations": [
+                    {
+                      "amount_usd": "1000000",
+                      "as_of": null,
+                      "id": "CURRENT-LEAD",
+                      "limits": "Approximate user-reported figure; no named priced proposal obtained, no profit/salary/payment inference.",
+                      "locator": "Commissioned research lead",
+                      "period": "Reported annual asking price; exact proposal date unknown",
+                      "scope": "Replacement operator demand; inclusions unknown",
+                      "source_refs": [],
+                      "status": "reported_unverified"
+                    },
+                    {
+                      "amount_usd": "300000",
+                      "as_of": "2026-04-28",
+                      "id": "GRANT-TOTAL",
+                      "limits": "Not an annual budget or verified disbursement.",
+                      "locator": "PDF pp.2–3",
+                      "period": "2026 staff report/attachment terms conflict",
+                      "scope": "Capital plus operating grant",
+                      "source_refs": [
+                        "S-RICHMOND-APR-2026"
+                      ],
+                      "status": "proposed_grant"
+                    },
+                    {
+                      "amount_usd": "103000",
+                      "as_of": "2026-04-28",
+                      "id": "GRANT-CAPITAL",
+                      "limits": "Actual payment to Hope or pass-through to TVS unknown.",
+                      "locator": "PDF pp.2–3",
+                      "period": "Eligible capital reimbursements under proposed grant",
+                      "scope": "Restroom trailer, deck and yurt",
+                      "source_refs": [
+                        "S-RICHMOND-APR-2026"
+                      ],
+                      "status": "proposed_grant"
+                    },
+                    {
+                      "amount_usd": "197000",
+                      "as_of": "2026-04-28",
+                      "id": "GRANT-OPERATIONS",
+                      "limits": "Not the full operating budget or assured replacement financing.",
+                      "locator": "PDF p.3",
+                      "period": "Proposed grant term; historical startup exhibit retained",
+                      "scope": "Operating reimbursement contribution",
+                      "source_refs": [
+                        "S-RICHMOND-APR-2026"
+                      ],
+                      "status": "proposed_grant"
+                    },
+                    {
+                      "amount_usd": "275132",
+                      "as_of": "2026-04-28",
+                      "id": "STARTUP-TOTAL",
+                      "limits": "Historical mixed periods; printed arithmetic/annotation ambiguities retained. No annualization.",
+                      "locator": "Exhibit B, PDF p.21",
+                      "period": "Calendar 2025 startup: 6 months operating expenses + 9 months salaries",
+                      "scope": "Total startup operating budget",
+                      "source_refs": [
+                        "S-RICHMOND-GRANT-2026"
+                      ],
+                      "status": "historical_budget"
+                    },
+                    {
+                      "amount_usd": "25012",
+                      "as_of": "2026-04-28",
+                      "id": "STARTUP-OVERHEAD",
+                      "limits": "Component of $275132, not an additional amount or verified profit.",
+                      "locator": "Exhibit B, PDF p.21",
+                      "period": "Same calendar-2025 mixed startup period",
+                      "scope": "Administrative overhead, printed as 10%",
+                      "source_refs": [
+                        "S-RICHMOND-GRANT-2026"
+                      ],
+                      "status": "historical_budget"
+                    }
+                  ],
+                  "function": "Trace community-created capacity through controlled gates to usable shelter.",
+                  "gates": [
+                    {
+                      "alternative": "Test whether TVS/community stewardship can qualify, and which objective services must be purchased.",
+                      "controller": "City staff (imposing individual and legal basis not identified)",
+                      "current_status": "documented_historical_requirement",
+                      "evidence_ids": [
+                        "RT-PROVIDER-GATE"
+                      ],
+                      "gate": "Permission to operate",
+                      "requirement": "2024 report says an operational service-provider agreement was needed to obtain the permit."
+                    },
+                    {
+                      "alternative": "Negotiate community management with separately contracted specialist functions; consent and capacity unknown.",
+                      "controller": "TVS and contracted service provider; City acceptance separately relevant",
+                      "current_status": "documented_historical_requirement",
+                      "evidence_ids": [
+                        "RT-SERVICES"
+                      ],
+                      "gate": "Operator agreement",
+                      "requirement": "Historical exclusive appointment; consent/amendment terms do not establish a present replacement."
+                    },
+                    {
+                      "alternative": "Ask whether City can re-award/reassign or directly fund eligible builder/operating costs under reviewed terms.",
+                      "controller": "City as funder; Hope named grantee; TVS identified as subcontractor",
+                      "current_status": "documented_historical_requirement",
+                      "evidence_ids": [
+                        "RT-GRANT-CUSTODY",
+                        "RT-GRANT-AMOUNTS"
+                      ],
+                      "gate": "Grant custody and working cash",
+                      "requirement": "Reimbursement runs through grantee. Award, cash receipt, builder repayment and portable operating funds are distinct."
+                    },
+                    {
+                      "alternative": "Verify current policy/lease conditions and permitted shared coverage; no assumed existing coverage or exclusion.",
+                      "controller": "City contracting/land-use functions and project parties",
+                      "current_status": "documented_historical_requirement",
+                      "evidence_ids": [
+                        "RT-INSURANCE"
+                      ],
+                      "gate": "Insurance and lease conditions",
+                      "requirement": "Staff reported insurance delayed prior execution; said covered in Apr2026, with separate leases anticipated."
+                    },
+                    {
+                      "alternative": "Price required functions separately, including shared administration and resident/community roles with verified protections.",
+                      "controller": "Operator proposes resources; City approves grant scope/budget; TVS has contract role",
+                      "current_status": "documented_historical_requirement",
+                      "evidence_ids": [
+                        "RT-STARTUP-BUDGET",
+                        "RT-CITY-CONTROL"
+                      ],
+                      "gate": "Service scope and cost",
+                      "requirement": "Public historical staffing/security/support plan is separate from the unknown current itemized quote."
+                    }
+                  ],
+                  "relay_journal_ref": "operations/community-capacity/richmond/relay-journal.json",
+                  "relays": [
+                    {
+                      "evidence_ids": [
+                        "RT-PROVIDER-GATE",
+                        "RT-TVS-PROPOSAL",
+                        "RT-HOPE-PROPOSAL",
+                        "RT-SERVICES",
+                        "RT-INSURANCE",
+                        "RT-GRANT-CUSTODY",
+                        "RT-CITY-CONTROL",
+                        "RT-GRANT-AMOUNTS",
+                        "RT-STARTUP-BUDGET",
+                        "RT-TERM-CONFLICT",
+                        "RT-DEVELOPER-PAGE",
+                        "RT-OPENING-REPORT",
+                        "RT-TERM-LOCATOR-CORRECTION"
+                      ],
+                      "from_actor": "City of Richmond",
+                      "kind": "financial",
+                      "payload": "Reimbursement for eligible construction and operating costs",
+                      "relay_id": "RICHMOND-FUNDS",
+                      "stages": {
+                        "action": {
+                          "claim": "No dated current transfer or service observation establishes this stage.",
+                          "evidence_ids": [],
+                          "status": "unknown",
+                          "time": {
+                            "end": null,
+                            "note": "Current delivery not observed.",
+                            "start": null
+                          }
+                        },
+                        "arrival": {
+                          "claim": "No dated current transfer or service observation establishes this stage.",
+                          "evidence_ids": [],
+                          "status": "unknown",
+                          "time": {
+                            "end": null,
+                            "note": "Current delivery not observed.",
+                            "start": null
+                          }
+                        },
+                        "dispatch": {
+                          "claim": "No dated current transfer or service observation establishes this stage.",
+                          "evidence_ids": [],
+                          "status": "unknown",
+                          "time": {
+                            "end": null,
+                            "note": "Current delivery not observed.",
+                            "start": null
+                          }
+                        },
+                        "expected_transfer": {
+                          "claim": "Historical documented obligations; current applicability and execution remain unverified.",
+                          "evidence_ids": [
+                            "RT-GRANT-CUSTODY",
+                            "RT-CITY-CONTROL"
+                          ],
+                          "status": "documented",
+                          "time": {
+                            "end": null,
+                            "note": "Current delivery not observed.",
+                            "start": null
+                          }
+                        },
+                        "origin": {
+                          "claim": "No dated current transfer or service observation establishes this stage.",
+                          "evidence_ids": [],
+                          "status": "unknown",
+                          "time": {
+                            "end": null,
+                            "note": "Current delivery not observed.",
+                            "start": null
+                          }
+                        },
+                        "outcome": {
+                          "claim": "No dated current transfer or service observation establishes this stage.",
+                          "evidence_ids": [],
+                          "status": "unknown",
+                          "time": {
+                            "end": null,
+                            "note": "Current delivery not observed.",
+                            "start": null
+                          }
+                        },
+                        "verification": {
+                          "claim": "No dated current transfer or service observation establishes this stage.",
+                          "evidence_ids": [],
+                          "method": null,
+                          "status": "unknown",
+                          "time": {
+                            "end": null,
+                            "note": "Current delivery not observed.",
+                            "start": null
+                          }
+                        }
+                      },
+                      "to_actor": "Named grantee and eligible project payees"
+                    },
+                    {
+                      "evidence_ids": [
+                        "RT-PROVIDER-GATE",
+                        "RT-TVS-PROPOSAL",
+                        "RT-HOPE-PROPOSAL",
+                        "RT-SERVICES",
+                        "RT-INSURANCE",
+                        "RT-GRANT-CUSTODY",
+                        "RT-CITY-CONTROL",
+                        "RT-GRANT-AMOUNTS",
+                        "RT-STARTUP-BUDGET",
+                        "RT-TERM-CONFLICT",
+                        "RT-DEVELOPER-PAGE",
+                        "RT-OPENING-REPORT",
+                        "RT-TERM-LOCATOR-CORRECTION"
+                      ],
+                      "from_actor": "TVS and City approval processes",
+                      "kind": "authority",
+                      "payload": "Approval and agreement for operating responsibility",
+                      "relay_id": "RICHMOND-OPERATOR",
+                      "stages": {
+                        "action": {
+                          "claim": "No dated current transfer or service observation establishes this stage.",
+                          "evidence_ids": [],
+                          "status": "unknown",
+                          "time": {
+                            "end": null,
+                            "note": "Current delivery not observed.",
+                            "start": null
+                          }
+                        },
+                        "arrival": {
+                          "claim": "No dated current transfer or service observation establishes this stage.",
+                          "evidence_ids": [],
+                          "status": "unknown",
+                          "time": {
+                            "end": null,
+                            "note": "Current delivery not observed.",
+                            "start": null
+                          }
+                        },
+                        "dispatch": {
+                          "claim": "No dated current transfer or service observation establishes this stage.",
+                          "evidence_ids": [],
+                          "status": "unknown",
+                          "time": {
+                            "end": null,
+                            "note": "Current delivery not observed.",
+                            "start": null
+                          }
+                        },
+                        "expected_transfer": {
+                          "claim": "Historical documented obligations; current applicability and execution remain unverified.",
+                          "evidence_ids": [
+                            "RT-PROVIDER-GATE",
+                            "RT-SERVICES"
+                          ],
+                          "status": "documented",
+                          "time": {
+                            "end": null,
+                            "note": "Current delivery not observed.",
+                            "start": null
+                          }
+                        },
+                        "origin": {
+                          "claim": "No dated current transfer or service observation establishes this stage.",
+                          "evidence_ids": [],
+                          "status": "unknown",
+                          "time": {
+                            "end": null,
+                            "note": "Current delivery not observed.",
+                            "start": null
+                          }
+                        },
+                        "outcome": {
+                          "claim": "No dated current transfer or service observation establishes this stage.",
+                          "evidence_ids": [],
+                          "status": "unknown",
+                          "time": {
+                            "end": null,
+                            "note": "Current delivery not observed.",
+                            "start": null
+                          }
+                        },
+                        "verification": {
+                          "claim": "No dated current transfer or service observation establishes this stage.",
+                          "evidence_ids": [],
+                          "method": null,
+                          "status": "unknown",
+                          "time": {
+                            "end": null,
+                            "note": "Current delivery not observed.",
+                            "start": null
+                          }
+                        }
+                      },
+                      "to_actor": "An eligible operating organization"
+                    },
+                    {
+                      "evidence_ids": [
+                        "RT-PROVIDER-GATE",
+                        "RT-TVS-PROPOSAL",
+                        "RT-HOPE-PROPOSAL",
+                        "RT-SERVICES",
+                        "RT-INSURANCE",
+                        "RT-GRANT-CUSTODY",
+                        "RT-CITY-CONTROL",
+                        "RT-GRANT-AMOUNTS",
+                        "RT-STARTUP-BUDGET",
+                        "RT-TERM-CONFLICT",
+                        "RT-DEVELOPER-PAGE",
+                        "RT-OPENING-REPORT",
+                        "RT-TERM-LOCATOR-CORRECTION"
+                      ],
+                      "from_actor": "An appointed operator and project partners",
+                      "kind": "service",
+                      "payload": "Staffed access and supportive services",
+                      "relay_id": "RICHMOND-SHELTER",
+                      "stages": {
+                        "action": {
+                          "claim": "No dated current transfer or service observation establishes this stage.",
+                          "evidence_ids": [],
+                          "status": "unknown",
+                          "time": {
+                            "end": null,
+                            "note": "Current delivery not observed.",
+                            "start": null
+                          }
+                        },
+                        "arrival": {
+                          "claim": "No dated current transfer or service observation establishes this stage.",
+                          "evidence_ids": [],
+                          "status": "unknown",
+                          "time": {
+                            "end": null,
+                            "note": "Current delivery not observed.",
+                            "start": null
+                          }
+                        },
+                        "dispatch": {
+                          "claim": "No dated current transfer or service observation establishes this stage.",
+                          "evidence_ids": [],
+                          "status": "unknown",
+                          "time": {
+                            "end": null,
+                            "note": "Current delivery not observed.",
+                            "start": null
+                          }
+                        },
+                        "expected_transfer": {
+                          "claim": "Historical documented obligations; current applicability and execution remain unverified.",
+                          "evidence_ids": [
+                            "RT-SERVICES"
+                          ],
+                          "status": "documented",
+                          "time": {
+                            "end": null,
+                            "note": "Current delivery not observed.",
+                            "start": null
+                          }
+                        },
+                        "origin": {
+                          "claim": "No dated current transfer or service observation establishes this stage.",
+                          "evidence_ids": [],
+                          "status": "unknown",
+                          "time": {
+                            "end": null,
+                            "note": "Current delivery not observed.",
+                            "start": null
+                          }
+                        },
+                        "outcome": {
+                          "claim": "No dated current transfer or service observation establishes this stage.",
+                          "evidence_ids": [],
+                          "status": "unknown",
+                          "time": {
+                            "end": null,
+                            "note": "Current delivery not observed.",
+                            "start": null
+                          }
+                        },
+                        "verification": {
+                          "claim": "No dated current transfer or service observation establishes this stage.",
+                          "evidence_ids": [],
+                          "method": null,
+                          "status": "unknown",
+                          "time": {
+                            "end": null,
+                            "note": "Current delivery not observed.",
+                            "start": null
+                          }
+                        }
+                      },
+                      "to_actor": "Eligible young adults"
+                    }
+                  ],
+                  "task": "Richmond Tiny House Village, 175 23rd Street / 2200 Bissell Avenue: community-created capacity, provider requirements and funding custody; no resident dossier or current legal adjudication."
+                }
+              },
+              {
+                "actor": {
+                  "model": "none invoked",
+                  "name": "Work Aiden",
+                  "runtime": "deterministic projection of reviewed supplied material"
+                },
+                "event_id": "RICHMOND-COMMUNITY-CAPACITY-STEP-5",
+                "node": "MIRROR",
+                "output": {
+                  "comparisons": [
+                    {
+                      "answers": [
+                        {
+                          "evidence_ids": [
+                            "RT-SERVICES",
+                            "RT-STARTUP-BUDGET"
+                          ]
+                        }
+                      ],
+                      "explanation": "Specialist services, supervision, insurance and fixed staffing costs may matter even at small sites. Whether each current requirement is necessary or proportionate needs its actual written basis and priced scope.",
+                      "queries": []
+                    },
+                    {
+                      "answers": [
+                        {
+                          "evidence_ids": [
+                            "RT-TVS-PROPOSAL",
+                            "RT-HOPE-PROPOSAL",
+                            "RT-GRANT-CUSTODY"
+                          ]
+                        }
+                      ],
+                      "explanation": "The operator may have been used as the accountable grantee for reporting and reimbursement. This is a possible explanation; the record does not establish why the recipient changed or whether TVS could meet the conditions.",
+                      "queries": []
+                    },
+                    {
+                      "answers": [
+                        {
+                          "evidence_ids": [
+                            "RT-CITY-CONTROL",
+                            "RT-SERVICES"
+                          ]
+                        }
+                      ],
+                      "explanation": "Community management with separately purchased specialist support, a shared administrator, or an amended grantee arrangement are alternatives to test, not authorized or funded replacements.",
+                      "queries": []
+                    }
+                  ],
+                  "contrary_evidence": [
+                    {
+                      "claim": "The City proposal included capital reimbursement and accepted in-kind matching support; routing through an operator does not by itself establish that builders were denied all funding or that money was retained improperly.",
+                      "evidence_ids": [
+                        "RT-GRANT-CUSTODY",
+                        "RT-GRANT-AMOUNTS"
+                      ]
+                    },
+                    {
+                      "claim": "Hope was historically appointed, and opening publicity may repeat that identity. Such statements cannot settle the user-reported later operator change or current cost barrier.",
+                      "evidence_ids": [
+                        "RT-SERVICES"
+                      ]
+                    },
+                    {
+                      "claim": "A smaller mixed-period historical budget neither disproves a higher current proposal nor verifies it. Terms and scope must match before comparing.",
+                      "evidence_ids": [
+                        "RT-STARTUP-BUDGET",
+                        "RT-TERM-CONFLICT"
+                      ]
+                    },
+                    {
+                      "claim": "Developer/press opening statements are retained as contrary context; variable or stale page wording and repeated Hope identification do not authenticate a current operator or occupancy.",
+                      "evidence_ids": [
+                        "RT-DEVELOPER-PAGE",
+                        "RT-OPENING-REPORT"
+                      ]
+                    },
+                    {
+                      "claim": "RT-TERM-CONFLICT’s earlier Section 1.4 locator is superseded by Section 1.2, PDF p.3. The retained report/attachment term discrepancy remains unresolved.",
+                      "evidence_ids": [
+                        "RT-TERM-LOCATOR-CORRECTION"
+                      ]
+                    }
+                  ],
+                  "information_lineage": {
+                    "api_record_refs": [
+                      "RICHMOND-OPERATIONS-BEE-20261024"
+                    ],
+                    "criteria_refs": [
+                      "schemas/safeguard.schema.json",
+                      "schemas/relay-case.schema.json"
+                    ],
+                    "parent_answer_visible": true,
+                    "parent_output_refs": [
+                      "operations/community-capacity/richmond/safeguard-journal.json",
+                      "operations/community-capacity/richmond/relay-journal.json"
+                    ],
+                    "source_refs": [
+                      "S-RICHMOND-APR-2026",
+                      "S-RICHMOND-DEVELOPER-STATUS",
+                      "S-RICHMOND-GRANT-2026",
+                      "S-RICHMOND-JAN-2025",
+                      "S-RICHMOND-NOV-2024",
+                      "S-RICHMOND-OPENING-REPORT",
+                      "S-RICHMOND-SERVICES-2024"
+                    ],
+                    "test_origin": "inherited"
+                  }
+                }
+              },
+              {
+                "actor": {
+                  "model": "none invoked",
+                  "name": "Work Aiden",
+                  "runtime": "deterministic projection of reviewed supplied material"
+                },
+                "event_id": "RICHMOND-COMMUNITY-CAPACITY-STEP-6",
+                "node": "CROSS",
+                "output": {
+                  "bridge": [
+                    {
+                      "question": "Which current replacement-operator decision packet identifies the itemized asking price, the legal basis and decisionmaker for required services, and the City-approved disposition of unspent grant funds or builder reimbursements if the operator changes?",
+                      "status": "proposed; no request sent"
+                    }
+                  ],
+                  "independent": [],
+                  "inherited": [
+                    {
+                      "ref": "S-RICHMOND-APR-2026",
+                      "status": "Retained source; reuse is not independent corroboration."
+                    },
+                    {
+                      "ref": "S-RICHMOND-DEVELOPER-STATUS",
+                      "status": "Retained source; reuse is not independent corroboration."
+                    },
+                    {
+                      "ref": "S-RICHMOND-GRANT-2026",
+                      "status": "Retained source; reuse is not independent corroboration."
+                    },
+                    {
+                      "ref": "S-RICHMOND-JAN-2025",
+                      "status": "Retained source; reuse is not independent corroboration."
+                    },
+                    {
+                      "ref": "S-RICHMOND-NOV-2024",
+                      "status": "Retained source; reuse is not independent corroboration."
+                    },
+                    {
+                      "ref": "S-RICHMOND-OPENING-REPORT",
+                      "status": "Retained source; reuse is not independent corroboration."
+                    },
+                    {
+                      "ref": "S-RICHMOND-SERVICES-2024",
+                      "status": "Retained source; reuse is not independent corroboration."
+                    }
+                  ]
+                }
+              },
+              {
+                "actor": {
+                  "model": "none invoked",
+                  "name": "Work Aiden",
+                  "runtime": "deterministic projection of reviewed supplied material"
+                },
+                "event_id": "RICHMOND-COMMUNITY-CAPACITY-STEP-7",
+                "node": "RESID",
+                "output": {
+                  "next_test": {
+                    "max_records": 1,
+                    "question": "Which current replacement-operator decision packet identifies the itemized asking price, the legal basis and decisionmaker for required services, and the City-approved disposition of unspent grant funds or builder reimbursements if the operator changes?",
+                    "required_record": "One current replacement-operator and grant-transition decision packet with priced scope, approvals and payment/balance disposition.",
+                    "status": "proposed_only",
+                    "stop_condition": "Classify that one packet; no private resident files, expanded campaign or records request sent.",
+                    "supports_if": "The packet ties a priced requirement and fund-control decision to the inability to appoint a replacement or fund community operation.",
+                    "weakens_if": "The terms permit funded community operation, a different verified obstacle controls opening, or the quote cannot be authenticated; preserve contrary findings."
+                  },
+                  "predicates": {
+                    "consequential": true,
+                    "distinct_functions": false,
+                    "language_exception": null
+                  },
+                  "summary": "No current replacement-operator priced proposal, signed replacement agreement, actual staff roster or dated occupancy record was obtained. The roughly $1 million annual demand and resulting blockage remain a user-reported lead; neither verified nor disproved by the older budget. The precise City staff decision and legal basis requiring an operational service provider are not identified in the inspected report; community stewardship eligibility was not resolved. Actual City disbursements to Hope, pass-through to TVS, unpaid builder costs, unspent balances and a transfer/re-award decision remain unverified. Older operator appointments and opening announcements do not establish the current operator or usable capacity. Missing replacement records do not establish absence. Formal safeguards, proposed service staffing and an insurance statement do not establish actual resident protection or successful admission. The 2026 staff report and attachment disagree on grant term. The attachment retains a mixed-period 2025 startup budget; no annualization or current per-bed rate is derived."
+                }
+              },
+              {
+                "actor": {
+                  "model": "none invoked",
+                  "name": "Work Aiden",
+                  "runtime": "deterministic projection of reviewed supplied material"
+                },
+                "event_id": "RICHMOND-COMMUNITY-CAPACITY-STEP-8",
+                "node": "MEAN",
+                "output": {
+                  "dimensions": {
+                    "effectiveness": "unknown",
+                    "failure": "unknown",
+                    "formal": "documented",
+                    "operational": {
+                      "authority": "unknown",
+                      "people": "unknown",
+                      "procedures": "unknown"
+                    }
+                  },
+                  "summary": "Physical capacity, permission, working money and delivered care must be traced separately. Residents need real protection; community initiative also needs a practical route to operate, with each restriction justified and open to review."
+                }
+              },
+              {
+                "actor": {
+                  "model": "none invoked",
+                  "name": "Work Aiden",
+                  "runtime": "deterministic projection of reviewed supplied material"
+                },
+                "event_id": "RICHMOND-COMMUNITY-CAPACITY-STEP-9",
+                "node": "EXIT",
+                "output": {
+                  "kind": "question",
+                  "summary": "Which current replacement-operator decision packet identifies the itemized asking price, the legal basis and decisionmaker for required services, and the City-approved disposition of unspent grant funds or builder reimbursements if the operator changes?"
+                }
+              },
+              {
+                "actor": {
+                  "model": "none invoked",
+                  "name": "Work Aiden",
+                  "runtime": "deterministic projection of reviewed supplied material"
+                },
+                "event_id": "RICHMOND-COMMUNITY-CAPACITY-STEP-10",
+                "node": "RETURN",
+                "output": {
+                  "new_arrival": null,
+                  "reason": "One bounded Richmond pass complete; rest with current quote, payment and operator status unresolved until separately reviewed evidence arrives."
+                }
+              }
+            ],
+            "tree": "COMMUNITY-CAPACITY"
+          }
+        ]
+      }
+    },
+    "epoch": 1,
+    "limits": {
+      "max_branches": 1,
+      "max_events": 10,
+      "max_fanout": 0,
+      "max_steps": 10,
+      "model_calls": 0
+    },
+    "question_id": "Q-RICHMOND-OPERATIONS",
+    "revision": 10,
+    "route_decisions": [],
+    "route_signatures": [],
+    "run_id": "RICHMOND-COMMUNITY-CAPACITY-GARDEN",
+    "sources": {
+      "S-RICHMOND-APR-2026": {
+        "access_limit": "Historical staff account: insurance delayed execution and was then reportedly in place. Proposed Apr 2026–Dec 2027 term differs from the attached draft. Promised reimbursement is not a payment receipt.",
+        "binding": {
+          "collection": "sources",
+          "id_field": "source_id",
+          "kind": "source",
+          "path": "reports/shelter-accountability/richmond-operations-20261024/sources.json",
+          "record_id": "RICHMOND-APR-2026",
+          "sha256": "b1b5e48a9cad7fdedd3cff560417d7b6eced45b40f9badcdc2f21347857cbabc"
+        },
+        "kind": "public_source",
+        "lineage_id": "RICHMOND-TVS-HOPE-TRANSACTION",
+        "ref": "S-RICHMOND-APR-2026"
+      },
+      "S-RICHMOND-DEVELOPER-STATUS": {
+        "access_limit": "Search-service mediated retrieval; no complete origin HTTP receipt. Retrieved page still labels July2026 target move-in, also displays grand-opening modal. Neither proves current occupancy. Other search snapshots may show a different version; no origin version chronology established. Exact search-tool retrieval timestamp was not retained; report creation time is not substituted.",
+        "binding": {
+          "collection": "sources",
+          "id_field": "source_id",
+          "kind": "source",
+          "path": "reports/shelter-accountability/richmond-operations-20261024/sources.json",
+          "record_id": "RICHMOND-DEVELOPER-STATUS",
+          "sha256": "819dcab89ec5ea554374c1bbd9b5f58f65ae848e0775af0e7e794b11cc652b96"
+        },
+        "kind": "public_source",
+        "lineage_id": "tvs-project-announcement",
+        "ref": "S-RICHMOND-DEVELOPER-STATUS"
+      },
+      "S-RICHMOND-GRANT-2026": {
+        "access_limit": "Blank execution date/signatures; attachment says Mar 2026–Feb 2027, unlike staff report. Exhibit B retains a 2025 startup budget with mixed periods and arithmetic/annotation ambiguities. Not a current quote, executed award or payment record.",
+        "binding": {
+          "collection": "sources",
+          "id_field": "source_id",
+          "kind": "source",
+          "path": "reports/shelter-accountability/richmond-operations-20261024/sources.json",
+          "record_id": "RICHMOND-GRANT-2026",
+          "sha256": "8e65794086d89b6b8efd6ae7db42fa8183bc6dfecd4683bc1954ad8694772d1b"
+        },
+        "kind": "public_source",
+        "lineage_id": "RICHMOND-TVS-HOPE-TRANSACTION",
+        "ref": "S-RICHMOND-GRANT-2026"
+      },
+      "S-RICHMOND-JAN-2025": {
+        "access_limit": "Recommendation naming Hope Solutions; changed from the November TVS proposal. Recommendation alone is not execution, payment or proof of why the recipient changed.",
+        "binding": {
+          "collection": "sources",
+          "id_field": "source_id",
+          "kind": "source",
+          "path": "reports/shelter-accountability/richmond-operations-20261024/sources.json",
+          "record_id": "RICHMOND-JAN-2025",
+          "sha256": "22309082c6c45652317b75b20a35f38463aa0596402decbaead2b11ace04a46b"
+        },
+        "kind": "public_source",
+        "lineage_id": "RICHMOND-TVS-HOPE-TRANSACTION",
+        "ref": "S-RICHMOND-JAN-2025"
+      },
+      "S-RICHMOND-NOV-2024": {
+        "access_limit": "Proposed action and description of staff requirements, not proof of adoption, legal necessity or current operations. The report does not name the staffer imposing the provider requirement.",
+        "binding": {
+          "collection": "sources",
+          "id_field": "source_id",
+          "kind": "source",
+          "path": "reports/shelter-accountability/richmond-operations-20261024/sources.json",
+          "record_id": "RICHMOND-NOV-2024",
+          "sha256": "6c5c0088a3de0a24e014c4b6783b25468fef63358fa2a18682f12458a05156bc"
+        },
+        "kind": "public_source",
+        "lineage_id": "RICHMOND-TVS-HOPE-TRANSACTION",
+        "ref": "S-RICHMOND-NOV-2024"
+      },
+      "S-RICHMOND-OPENING-REPORT": {
+        "access_limit": "Search-service text only. Announced operating roles; no new documentary verification of current operator. PostNewsGroup Sep14 and SFist Sep30 repeat related material, not independent confirmation. Full copyrighted article not published. Exact search-tool retrieval timestamp was not retained; report creation time is not substituted.",
+        "binding": {
+          "collection": "sources",
+          "id_field": "source_id",
+          "kind": "source",
+          "path": "reports/shelter-accountability/richmond-operations-20261024/sources.json",
+          "record_id": "RICHMOND-OPENING-REPORT",
+          "sha256": "658041d091a8b271df85365404b0d7ae6f5e981b71127597fdc47a801e05cc3b"
+        },
+        "kind": "public_source",
+        "lineage_id": "richmond-standard-opening-report",
+        "ref": "S-RICHMOND-OPENING-REPORT"
+      },
+      "S-RICHMOND-SERVICES-2024": {
+        "access_limit": "Nominal Jan–Dec 2025 term. Signatures establish the historical agreement only. Termination clause says thirty (60) days; current renewal, termination and replacement unverified.",
+        "binding": {
+          "collection": "sources",
+          "id_field": "source_id",
+          "kind": "source",
+          "path": "reports/shelter-accountability/richmond-operations-20261024/sources.json",
+          "record_id": "RICHMOND-SERVICES-2024",
+          "sha256": "a18059de58cdea99d1cb03dd6e8d4ba05c9ab5bdd69fd444f7d6dae40ee65e50"
+        },
+        "kind": "public_source",
+        "lineage_id": "RICHMOND-TVS-HOPE-TRANSACTION",
+        "ref": "S-RICHMOND-SERVICES-2024"
+      }
+    },
+    "used": {
+      "branches": 1,
+      "model_calls": 0,
+      "steps": 10
+    }
+  },
+  "state_sha256": "a01e0a8173c724bce5cd37041185669879d82da209d89fbc04a39570a37bd672"
+}

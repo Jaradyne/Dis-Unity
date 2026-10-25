@@ -1,0 +1,40 @@
+{
+  "agent": "coordinator",
+  "at": "2026-10-24T23:26:29.067895+00:00",
+  "base_hash": "16d04f8bb35a588caca60517f90a11944cfbafac7951402d059a6d6131de97b7",
+  "cycle_id": "RC-010",
+  "payload": {
+    "agent": "coordinator",
+    "base_commit": "f243e11686de5597610a22ee86eef1674bf8da9b",
+    "canonical_admission": false,
+    "cycle_id": "RC-010",
+    "independent_review": "passed with explicit scope limits",
+    "next_question": "Which current replacement-operator decision packet identifies the itemized asking price, the legal basis and decisionmaker for required services, and the City-approved disposition of unspent grant funds or builder reimbursements if the operator changes?",
+    "operational_result": {
+      "answer": "provisional",
+      "governor": "pending, no response",
+      "preserved_decisions": 5,
+      "preserved_prior_inputs": 2,
+      "preserved_reflections": 78,
+      "question": "Q-RICHMOND-OPERATIONS",
+      "status": "open"
+    },
+    "publication": "Pending exact reviewed tree upload and CI; state projection will be published separately",
+    "recorded_at": "2026-10-24T23:26:29.023100+00:00",
+    "research_result": "Historical operator requirement and proposed grant custody identified; current price, payments and operation unknown.",
+    "review_ref": "reports/shelter-accountability/richmond-operations-20261024/reviews/final-review.json",
+    "status": "submitted",
+    "validation": {
+      "assessment_revisions": 3,
+      "existing_canonical_unchanged": true,
+      "garden": "10 nodes, 1 resting branch, 0 calls",
+      "meaning_ui": "passed simulated fixture, no human play",
+      "python_result": "passed",
+      "python_tests": 256,
+      "targeted_boundary_tests": 9
+    }
+  },
+  "payload_hash": "99b0eff2846f1ae9a576437fd04f0a323816481a7e5688326fe6ac108ed66d0b",
+  "phase": "submitted",
+  "submission_id": "6391923af5bf8109f729c5c592ac2e012e61ff1eee76462ca9d431111e00a84f"
+}

@@ -1,0 +1,36 @@
+{
+  "version": "bee-publication-exclusions-1",
+  "exclusions": [
+    {
+      "excluded_repository_path": "reports/shelter-accountability/richmond-operations-20261024/receipts/richmond_operations_bee/budget-submission-2024.pdf",
+      "sha256": "2fe8febd3fe30a21f7f0f01017adb92711c6dfd9340b82144c249ece1257c62d",
+      "bytes": 5585122,
+      "retained_scratch_path": "/workspace/scratch/63e791c4bf6d/richmond-research-raw/richmond_operations_bee/budget-submission-2024.pdf",
+      "reason": "Complete City archive includes unrelated public comments and visually obscured text; do not publish or use concealed cells.",
+      "public_derivative": [
+        "visible-excerpts/budget-2024-25.png",
+        "visible-excerpts/budget-2024-26.png"
+      ]
+    },
+    {
+      "excluded_repository_path": "reports/shelter-accountability/richmond-operations-20261024/receipts/richmond_operations_bee/operations/week-one/runs/RICHMOND-OPERATIONS-BEE-20261024/api/0007.json",
+      "sha256": "d2193340011627059aeec675137b0df20868fedc2f851673d2b16b5f538e9a81",
+      "bytes": 7449374,
+      "retained_scratch_path": "/workspace/scratch/63e791c4bf6d/richmond-research-raw/richmond_operations_bee/0007.json",
+      "reason": "Complete City archive includes unrelated public comments and visually obscured text; do not publish or use concealed cells.",
+      "public_derivative": [
+        "visible-excerpts/budget-2024-25.png",
+        "visible-excerpts/budget-2024-26.png"
+      ]
+    },
+    {
+      "excluded_repository_path": "reports/shelter-accountability/richmond-operations-20261024/receipts/richmond_operations_bee/operations/week-one/runs/RICHMOND-OPERATIONS-BEE-20261024/api/.0007.json.hHMxz7",
+      "sha256": "e61c8956ae62a2a40c7c03b644e4a48d725a20d8bb62f432d87c110626117837",
+      "bytes": 3670016,
+      "retained_scratch_path": "/workspace/scratch/63e791c4bf6d/richmond-research-raw/richmond_operations_bee/incomplete-0007-receipt.json",
+      "reason": "Incomplete temporary prefix of the excluded archive HTTP receipt; publication preflight removed it before creating the branch. No content interpreted.",
+      "public_derivative": []
+    }
+  ],
+  "derivative_limitation": "PNG renders preserve visible selected pages only; they do not reconstruct the complete original PDF or HTTP receipt. No concealed salary values used."
+}

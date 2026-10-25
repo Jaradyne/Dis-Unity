@@ -1,0 +1,47 @@
+{
+  "captured_at": "2026-10-24T18:28:40.788621+00:00",
+  "limits": "Historical preparation snapshot; not a live registration or authority to close a newer epoch.",
+  "registry": {
+    "questions": {
+      "Q-MEANING-TRANSLATION-BOSS": {
+        "answers": {},
+        "attempts": {},
+        "claim": null,
+        "context_refs": [
+          "operations/week-one/meaning-tower-attention.json"
+        ],
+        "created_at": "2026-09-24T07:38:23.037074+00:00",
+        "created_by": "Work Aiden",
+        "epoch": 1,
+        "geography": "Matched official multilingual surfaces; begin with one reviewed document pair",
+        "history": [],
+        "identity_key": "bdbe0ac43622b9d9419bd295aae8e7a64626976a5f9af0a9f023b75d5f86e73b",
+        "question": "Do the meaning differences Jared selected (stability, concern, responsibility and cooperation) survive matched official-document comparison, ordinary translation explanations and a control sample?",
+        "question_id": "Q-MEANING-TRANSLATION-BOSS",
+        "relations": [
+          {
+            "actor": "Work Aiden",
+            "kind": "related",
+            "question_id": "Q-RESEARCH-Q01"
+          },
+          {
+            "actor": "Work Aiden",
+            "kind": "related",
+            "question_id": "Q-RESEARCH-Q09"
+          },
+          {
+            "actor": "Work Aiden",
+            "kind": "related",
+            "question_id": "Q-RESEARCH-Q17"
+          }
+        ],
+        "status": "open",
+        "tickets": {}
+      }
+    }
+  },
+  "source_commit": "f243e11686de5597610a22ee86eef1674bf8da9b",
+  "source_file_sha256": "ec46fdb47470a9f37724254986a63b44b26c5e416327885f080d43352cfbc56e",
+  "source_path": "operations/questions.json",
+  "version": "meaning-question-snapshot-1"
+}

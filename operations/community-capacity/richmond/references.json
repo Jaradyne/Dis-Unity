@@ -1,0 +1,101 @@
+{
+  "references": {
+    "E-RICHMOND-APR-2026": {
+      "collection": "events",
+      "id_field": "event_id",
+      "kind": "event",
+      "path": "reports/shelter-accountability/richmond-operations-20261024/events.json",
+      "record_id": "RICHMOND-APR-2026",
+      "sha256": "5fdc044b69cabe1a400810e84bf5cefad867d91e50fd61d73e3d34002a53b40e"
+    },
+    "E-RICHMOND-GRANT-2026": {
+      "collection": "events",
+      "id_field": "event_id",
+      "kind": "event",
+      "path": "reports/shelter-accountability/richmond-operations-20261024/events.json",
+      "record_id": "RICHMOND-GRANT-2026",
+      "sha256": "f24969510e4121e2ed3520b196bb363ed31d4cdf2167cfcd5234a54c4cbc5b22"
+    },
+    "E-RICHMOND-JAN-2025": {
+      "collection": "events",
+      "id_field": "event_id",
+      "kind": "event",
+      "path": "reports/shelter-accountability/richmond-operations-20261024/events.json",
+      "record_id": "RICHMOND-JAN-2025",
+      "sha256": "b3ee072014c5267a4398f84a5e5157511ea8a07ca41926d9f9a671b0d124afdc"
+    },
+    "E-RICHMOND-NOV-2024": {
+      "collection": "events",
+      "id_field": "event_id",
+      "kind": "event",
+      "path": "reports/shelter-accountability/richmond-operations-20261024/events.json",
+      "record_id": "RICHMOND-NOV-2024",
+      "sha256": "280c431341f68988c69657b3413119fa83442224e84361ed25ff6fef5f1b2555"
+    },
+    "E-RICHMOND-SERVICES-2024": {
+      "collection": "events",
+      "id_field": "event_id",
+      "kind": "event",
+      "path": "reports/shelter-accountability/richmond-operations-20261024/events.json",
+      "record_id": "RICHMOND-SERVICES-2024",
+      "sha256": "485c73cd02ced68acdb42e200b25f23368c8f71e0f9a5f34af994193e3c0780a"
+    },
+    "S-RICHMOND-APR-2026": {
+      "collection": "sources",
+      "id_field": "source_id",
+      "kind": "source",
+      "path": "reports/shelter-accountability/richmond-operations-20261024/sources.json",
+      "record_id": "RICHMOND-APR-2026",
+      "sha256": "b1b5e48a9cad7fdedd3cff560417d7b6eced45b40f9badcdc2f21347857cbabc"
+    },
+    "S-RICHMOND-DEVELOPER-STATUS": {
+      "collection": "sources",
+      "id_field": "source_id",
+      "kind": "source",
+      "path": "reports/shelter-accountability/richmond-operations-20261024/sources.json",
+      "record_id": "RICHMOND-DEVELOPER-STATUS",
+      "sha256": "819dcab89ec5ea554374c1bbd9b5f58f65ae848e0775af0e7e794b11cc652b96"
+    },
+    "S-RICHMOND-GRANT-2026": {
+      "collection": "sources",
+      "id_field": "source_id",
+      "kind": "source",
+      "path": "reports/shelter-accountability/richmond-operations-20261024/sources.json",
+      "record_id": "RICHMOND-GRANT-2026",
+      "sha256": "8e65794086d89b6b8efd6ae7db42fa8183bc6dfecd4683bc1954ad8694772d1b"
+    },
+    "S-RICHMOND-JAN-2025": {
+      "collection": "sources",
+      "id_field": "source_id",
+      "kind": "source",
+      "path": "reports/shelter-accountability/richmond-operations-20261024/sources.json",
+      "record_id": "RICHMOND-JAN-2025",
+      "sha256": "22309082c6c45652317b75b20a35f38463aa0596402decbaead2b11ace04a46b"
+    },
+    "S-RICHMOND-NOV-2024": {
+      "collection": "sources",
+      "id_field": "source_id",
+      "kind": "source",
+      "path": "reports/shelter-accountability/richmond-operations-20261024/sources.json",
+      "record_id": "RICHMOND-NOV-2024",
+      "sha256": "6c5c0088a3de0a24e014c4b6783b25468fef63358fa2a18682f12458a05156bc"
+    },
+    "S-RICHMOND-OPENING-REPORT": {
+      "collection": "sources",
+      "id_field": "source_id",
+      "kind": "source",
+      "path": "reports/shelter-accountability/richmond-operations-20261024/sources.json",
+      "record_id": "RICHMOND-OPENING-REPORT",
+      "sha256": "658041d091a8b271df85365404b0d7ae6f5e981b71127597fdc47a801e05cc3b"
+    },
+    "S-RICHMOND-SERVICES-2024": {
+      "collection": "sources",
+      "id_field": "source_id",
+      "kind": "source",
+      "path": "reports/shelter-accountability/richmond-operations-20261024/sources.json",
+      "record_id": "RICHMOND-SERVICES-2024",
+      "sha256": "a18059de58cdea99d1cb03dd6e8d4ba05c9ab5bdd69fd444f7d6dae40ee65e50"
+    }
+  },
+  "version": "continuity-references-1"
+}

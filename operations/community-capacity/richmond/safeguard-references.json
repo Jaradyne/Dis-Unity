@@ -1,0 +1,9 @@
+{
+  "base": {
+    "path": "operations/community-capacity/richmond/references.json",
+    "sha256": "3b4f351027b13e82af7badb727d192dac58c6efd55b9c001c9cf05408d19628c"
+  },
+  "references": {},
+  "snapshots": {},
+  "version": "safeguard-references-1"
+}

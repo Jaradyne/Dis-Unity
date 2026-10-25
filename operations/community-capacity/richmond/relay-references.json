@@ -1,0 +1,9 @@
+{
+  "base": {
+    "path": "operations/community-capacity/richmond/safeguard-references.json",
+    "sha256": "dca607a99845c392372aa95a54437bafe59ac880f2679b2f179819ef43e012c6"
+  },
+  "documents": {},
+  "references": {},
+  "version": "relay-references-1"
+}

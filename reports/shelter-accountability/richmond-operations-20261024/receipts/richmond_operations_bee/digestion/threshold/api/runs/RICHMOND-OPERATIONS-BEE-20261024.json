@@ -1,0 +1,63 @@
+{
+  "attempt_id": null,
+  "coverage": "recorded_exchanges",
+  "materials": [
+    {
+      "path": "operations/week-one/runs/RICHMOND-OPERATIONS-BEE-20261024/api/0001.json",
+      "sha256": "ca57a61957f55bb31097dac66773b154c6ea815b30061c5ab12b50ae759b735c",
+      "url": "https://github.com/Jaradyne/Dis-Unity/blob/week-one-state/operations/week-one/runs/RICHMOND-OPERATIONS-BEE-20261024/api/0001.json"
+    },
+    {
+      "path": "operations/week-one/runs/RICHMOND-OPERATIONS-BEE-20261024/api/0002.json",
+      "sha256": "983e9b03f1568076972d42fe7e232c43949a034276e3a45d28944154a90713e0",
+      "url": "https://github.com/Jaradyne/Dis-Unity/blob/week-one-state/operations/week-one/runs/RICHMOND-OPERATIONS-BEE-20261024/api/0002.json"
+    },
+    {
+      "path": "operations/week-one/runs/RICHMOND-OPERATIONS-BEE-20261024/api/0003.json",
+      "sha256": "5ce10ed805be2510f33390cddf0a411fa15c4ea0f19fae10df6709e37b79bb8e",
+      "url": "https://github.com/Jaradyne/Dis-Unity/blob/week-one-state/operations/week-one/runs/RICHMOND-OPERATIONS-BEE-20261024/api/0003.json"
+    },
+    {
+      "path": "operations/week-one/runs/RICHMOND-OPERATIONS-BEE-20261024/api/0004.json",
+      "sha256": "30c760e7f7c53ae6137cb719d3fef7aadf4c5bc905ec4ff16d59f8ec5ac95f79",
+      "url": "https://github.com/Jaradyne/Dis-Unity/blob/week-one-state/operations/week-one/runs/RICHMOND-OPERATIONS-BEE-20261024/api/0004.json"
+    },
+    {
+      "path": "operations/week-one/runs/RICHMOND-OPERATIONS-BEE-20261024/api/0005.json",
+      "sha256": "344e548b2eb6c0553c3af4095cc02897a9324cb017c6f6773c7641ab494f3d01",
+      "url": "https://github.com/Jaradyne/Dis-Unity/blob/week-one-state/operations/week-one/runs/RICHMOND-OPERATIONS-BEE-20261024/api/0005.json"
+    },
+    {
+      "path": "operations/week-one/runs/RICHMOND-OPERATIONS-BEE-20261024/api/0006.json",
+      "sha256": "54b18e121f8a1b7c2cf678ec4eb00b72f8f91cc8c624ec356fb7b3675e41b09b",
+      "url": "https://github.com/Jaradyne/Dis-Unity/blob/week-one-state/operations/week-one/runs/RICHMOND-OPERATIONS-BEE-20261024/api/0006.json"
+    },
+    {
+      "path": "operations/week-one/runs/RICHMOND-OPERATIONS-BEE-20261024/api/0007.json",
+      "sha256": "d2193340011627059aeec675137b0df20868fedc2f851673d2b16b5f538e9a81",
+      "url": "https://github.com/Jaradyne/Dis-Unity/blob/week-one-state/operations/week-one/runs/RICHMOND-OPERATIONS-BEE-20261024/api/0007.json"
+    },
+    {
+      "path": "operations/week-one/runs/RICHMOND-OPERATIONS-BEE-20261024/api/0008.json",
+      "sha256": "f1fd2da836b3851aa2086e2cc6a7cb11d3e1b6b0ae3a0eec4776f30e3e59a51e",
+      "url": "https://github.com/Jaradyne/Dis-Unity/blob/week-one-state/operations/week-one/runs/RICHMOND-OPERATIONS-BEE-20261024/api/0008.json"
+    }
+  ],
+  "meaning": "Capture and delivery only; not a Governor review, digestion result or canonical admission.",
+  "operator_disposition": null,
+  "question_id": null,
+  "record_ids": [
+    "API-RICHMOND-OPERATIONS-BEE-20261024-0001",
+    "API-RICHMOND-OPERATIONS-BEE-20261024-0002",
+    "API-RICHMOND-OPERATIONS-BEE-20261024-0003",
+    "API-RICHMOND-OPERATIONS-BEE-20261024-0004",
+    "API-RICHMOND-OPERATIONS-BEE-20261024-0005",
+    "API-RICHMOND-OPERATIONS-BEE-20261024-0006",
+    "API-RICHMOND-OPERATIONS-BEE-20261024-0007",
+    "API-RICHMOND-OPERATIONS-BEE-20261024-0008"
+  ],
+  "run_id": "RICHMOND-OPERATIONS-BEE-20261024",
+  "run_status": null,
+  "schema_version": "digestion-api-materials-1",
+  "status": "available_for_digestion"
+}

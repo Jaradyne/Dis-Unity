@@ -1,0 +1,153 @@
+{
+  "api_record_refs": [
+    "RICHMOND-OPERATIONS-BEE-20261024"
+  ],
+  "case_id": "RICHMOND-COMMUNITY-CAPACITY",
+  "costs": [
+    {
+      "amount_usd": "1000000",
+      "as_of": null,
+      "id": "CURRENT-LEAD",
+      "limits": "Approximate user-reported figure; no named priced proposal obtained, no profit/salary/payment inference.",
+      "locator": "Commissioned research lead",
+      "period": "Reported annual asking price; exact proposal date unknown",
+      "scope": "Replacement operator demand; inclusions unknown",
+      "source_refs": [],
+      "status": "reported_unverified"
+    },
+    {
+      "amount_usd": "300000",
+      "as_of": "2026-04-28",
+      "id": "GRANT-TOTAL",
+      "limits": "Not an annual budget or verified disbursement.",
+      "locator": "PDF pp.2–3",
+      "period": "2026 staff report/attachment terms conflict",
+      "scope": "Capital plus operating grant",
+      "source_refs": [
+        "S-RICHMOND-APR-2026"
+      ],
+      "status": "proposed_grant"
+    },
+    {
+      "amount_usd": "103000",
+      "as_of": "2026-04-28",
+      "id": "GRANT-CAPITAL",
+      "limits": "Actual payment to Hope or pass-through to TVS unknown.",
+      "locator": "PDF pp.2–3",
+      "period": "Eligible capital reimbursements under proposed grant",
+      "scope": "Restroom trailer, deck and yurt",
+      "source_refs": [
+        "S-RICHMOND-APR-2026"
+      ],
+      "status": "proposed_grant"
+    },
+    {
+      "amount_usd": "197000",
+      "as_of": "2026-04-28",
+      "id": "GRANT-OPERATIONS",
+      "limits": "Not the full operating budget or assured replacement financing.",
+      "locator": "PDF p.3",
+      "period": "Proposed grant term; historical startup exhibit retained",
+      "scope": "Operating reimbursement contribution",
+      "source_refs": [
+        "S-RICHMOND-APR-2026"
+      ],
+      "status": "proposed_grant"
+    },
+    {
+      "amount_usd": "275132",
+      "as_of": "2026-04-28",
+      "id": "STARTUP-TOTAL",
+      "limits": "Historical mixed periods; printed arithmetic/annotation ambiguities retained. No annualization.",
+      "locator": "Exhibit B, PDF p.21",
+      "period": "Calendar 2025 startup: 6 months operating expenses + 9 months salaries",
+      "scope": "Total startup operating budget",
+      "source_refs": [
+        "S-RICHMOND-GRANT-2026"
+      ],
+      "status": "historical_budget"
+    },
+    {
+      "amount_usd": "25012",
+      "as_of": "2026-04-28",
+      "id": "STARTUP-OVERHEAD",
+      "limits": "Component of $275132, not an additional amount or verified profit.",
+      "locator": "Exhibit B, PDF p.21",
+      "period": "Same calendar-2025 mixed startup period",
+      "scope": "Administrative overhead, printed as 10%",
+      "source_refs": [
+        "S-RICHMOND-GRANT-2026"
+      ],
+      "status": "historical_budget"
+    }
+  ],
+  "evidence_cutoff": "2026-10-24",
+  "gates": [
+    {
+      "alternative": "Test whether TVS/community stewardship can qualify, and which objective services must be purchased.",
+      "controller": "City staff (imposing individual and legal basis not identified)",
+      "current_status": "documented_historical_requirement",
+      "evidence_ids": [
+        "RT-PROVIDER-GATE"
+      ],
+      "gate": "Permission to operate",
+      "requirement": "2024 report says an operational service-provider agreement was needed to obtain the permit."
+    },
+    {
+      "alternative": "Negotiate community management with separately contracted specialist functions; consent and capacity unknown.",
+      "controller": "TVS and contracted service provider; City acceptance separately relevant",
+      "current_status": "documented_historical_requirement",
+      "evidence_ids": [
+        "RT-SERVICES"
+      ],
+      "gate": "Operator agreement",
+      "requirement": "Historical exclusive appointment; consent/amendment terms do not establish a present replacement."
+    },
+    {
+      "alternative": "Ask whether City can re-award/reassign or directly fund eligible builder/operating costs under reviewed terms.",
+      "controller": "City as funder; Hope named grantee; TVS identified as subcontractor",
+      "current_status": "documented_historical_requirement",
+      "evidence_ids": [
+        "RT-GRANT-CUSTODY",
+        "RT-GRANT-AMOUNTS"
+      ],
+      "gate": "Grant custody and working cash",
+      "requirement": "Reimbursement runs through grantee. Award, cash receipt, builder repayment and portable operating funds are distinct."
+    },
+    {
+      "alternative": "Verify current policy/lease conditions and permitted shared coverage; no assumed existing coverage or exclusion.",
+      "controller": "City contracting/land-use functions and project parties",
+      "current_status": "documented_historical_requirement",
+      "evidence_ids": [
+        "RT-INSURANCE"
+      ],
+      "gate": "Insurance and lease conditions",
+      "requirement": "Staff reported insurance delayed prior execution; said covered in Apr2026, with separate leases anticipated."
+    },
+    {
+      "alternative": "Price required functions separately, including shared administration and resident/community roles with verified protections.",
+      "controller": "Operator proposes resources; City approves grant scope/budget; TVS has contract role",
+      "current_status": "documented_historical_requirement",
+      "evidence_ids": [
+        "RT-STARTUP-BUDGET",
+        "RT-CITY-CONTROL"
+      ],
+      "gate": "Service scope and cost",
+      "requirement": "Public historical staffing/security/support plan is separate from the unknown current itemized quote."
+    }
+  ],
+  "governor_input": "operations/governor/inbox/WORK-RICHMOND-CAPACITY-20261024.json",
+  "meaning": "Physical capacity, permission, working money and delivered care must be traced separately. Residents need real protection; community initiative also needs a practical route to operate, with each restriction justified and open to review.",
+  "meaning_packet": "examples/meaning-tower/richmond-community-capacity-20261024.json",
+  "next_test": "Which current replacement-operator decision packet identifies the itemized asking price, the legal basis and decisionmaker for required services, and the City-approved disposition of unspent grant funds or builder reimbursements if the operator changes?",
+  "question": "When a community has built homes and people are willing to help, what still prevents usable shelter, who controls those requirements and funds, and can community stewardship meet them?",
+  "question_epoch": 1,
+  "question_id": "Q-RICHMOND-OPERATIONS",
+  "recorded_at": "2026-10-24T18:24:20.014432+00:00",
+  "safeguard_id": "SG-RICHMOND-OPERATING-GATES",
+  "scope": "Richmond Tiny House Village, 175 23rd Street / 2200 Bissell Avenue: community-created capacity, provider requirements and funding custody; no resident dossier or current legal adjudication.",
+  "stop_condition": "One bounded Richmond pass complete; rest with current quote, payment and operator status unresolved until separately reviewed evidence arrives.",
+  "title": "Why can’t communities put their own capacity to use? Richmond’s operating gates",
+  "tree": "COMMUNITY-CAPACITY",
+  "version": "community-capacity-case-1"
+}

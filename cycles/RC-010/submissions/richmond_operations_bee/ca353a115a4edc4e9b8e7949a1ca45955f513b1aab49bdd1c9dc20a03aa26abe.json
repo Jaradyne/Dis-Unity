@@ -1,0 +1,36 @@
+{
+  "agent": "richmond_operations_bee",
+  "at": "2026-10-24T12:15:35.233690+00:00",
+  "base_hash": "16d04f8bb35a588caca60517f90a11944cfbafac7951402d059a6d6131de97b7",
+  "cycle_id": "RC-010",
+  "payload": {
+    "agent": "richmond_operations_bee",
+    "arithmetic_check": {
+      "difference_from_printed_three_year_total": 25012,
+      "sum_of_displayed_period_totals": 1188215
+    },
+    "cycle_id": "RC-010",
+    "finding": "The printed historical three-year total is internally inconsistent with the displayed period totals. Preserve as a printed source value, not an audited or recalculated total.",
+    "limits": [
+      "No concealed salary cells were used for this calculation.",
+      "Do not infer fraud, actual overspending or the current replacement quote from a historical table inconsistency.",
+      "The openly printed2026attachment startup budget remains separate evidence."
+    ],
+    "locator": "Visible PDF pages25–26",
+    "prior_return": "richmond_operations_bee.json",
+    "publication": "append-only clarification to completed return",
+    "recorded_at": "2026-10-24T12:15:35.049662+00:00",
+    "schema_version": "bee-addendum-1",
+    "source_id": "S-RT07",
+    "visible_printed_values": {
+      "cy2026": 449421,
+      "cy2027": 463662,
+      "printed_three_year_total": 1163203,
+      "separate_printed_three_year_overhead": 116320,
+      "startup_2025": 275132
+    }
+  },
+  "payload_hash": "fa6bccc67619639d9da6853fc46e3032cf6f3dbb508838dbf1ba4e77c2d11522",
+  "phase": "submitted",
+  "submission_id": "ca353a115a4edc4e9b8e7949a1ca45955f513b1aab49bdd1c9dc20a03aa26abe"
+}
