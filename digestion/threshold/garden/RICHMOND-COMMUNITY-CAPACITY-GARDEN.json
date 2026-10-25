@@ -1,0 +1,12 @@
+{
+  "branches": [
+    "B0"
+  ],
+  "meaning": "Supplied traversal and routing; no new evidence, model dispatch or Governor review.",
+  "record_ref": "operations/garden/runs/RICHMOND-COMMUNITY-CAPACITY-GARDEN.json",
+  "record_sha256": "8a022f8fcf56aa162119b8cfcf27270944d401c2b3282d328b51a1a876f16c5a",
+  "run_id": "RICHMOND-COMMUNITY-CAPACITY-GARDEN",
+  "schema_version": "digestion-garden-materials-1",
+  "state_sha256": "a01e0a8173c724bce5cd37041185669879d82da209d89fbc04a39570a37bd672",
+  "status": "available_for_digestion"
+}

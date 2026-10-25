@@ -3628,6 +3628,51 @@
       "relations": [],
       "status": "open",
       "tickets": {}
+    },
+    "Q-RICHMOND-OPERATIONS": {
+      "answers": {
+        "ANS-C68377F0A7479288B80628B4": {
+          "actor": "Work Aiden",
+          "answer_id": "ANS-C68377F0A7479288B80628B4",
+          "attempt_id": null,
+          "created_at": "2026-10-24T18:29:13.102866+00:00",
+          "epoch": 1,
+          "payload": {
+            "counterevidence": [
+              "Historical operator appointments and opening publicity preserved without promoting them to current operation.",
+              "The grant includes capital reimbursement and in-kind matching; no actual withholding or misappropriation established."
+            ],
+            "evidence_refs": [
+              "reports/shelter-accountability/richmond-operations-20261024/generated/COMMUNITY_CAPACITY.md",
+              "reports/shelter-accountability/richmond-operations-20261024/sources.json"
+            ],
+            "limitations": [
+              "One bounded site. No current executed replacement, priced proposal or payment ledger obtained.",
+              "No canonical admission or automatic finding from formal safeguards."
+            ],
+            "status": "provisional",
+            "summary": "Historical provider and reimbursement gates are documented; the current replacement quote, actual payments, builders’ available funds and transferability remain unresolved. See saved reviewed pass."
+          },
+          "question_id": "Q-RICHMOND-OPERATIONS"
+        }
+      },
+      "attempts": {},
+      "claim": null,
+      "context_refs": [
+        "reports/shelter-accountability/richmond-operations-20261024/README.md",
+        "operations/community-capacity/richmond/case.json"
+      ],
+      "created_at": "2026-10-24T18:29:13.070707+00:00",
+      "created_by": "Work Aiden",
+      "epoch": 1,
+      "geography": "Richmond, California; 175 23rd Street / 2200 Bissell Avenue",
+      "history": [],
+      "identity_key": "c0b616e16500b7fa5cb417421fc639249ed2cd18a31db8ff3edf9d5e7b68b9fb",
+      "question": "When a community has built homes and people are willing to help, what still prevents usable shelter, who controls those requirements and funds, and can community stewardship meet them?",
+      "question_id": "Q-RICHMOND-OPERATIONS",
+      "relations": [],
+      "status": "open",
+      "tickets": {}
     }
   },
   "schema_version": "0.1"
