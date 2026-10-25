@@ -1,0 +1,15 @@
+{
+  "at": "2026-10-24T11:58:39.179348+00:00",
+  "cycle_id": "RC-010",
+  "event_id": "604ccef4dd60eb1e11cec974",
+  "event_type": "agent_submission",
+  "hash": "56b3c796ff86ba6d71c7550720b5c7c2a883675300180156ed97bf3f2d8769e5",
+  "payload": {
+    "agent": "richmond_structure_review",
+    "payload_hash": "daa9f30cc536788eb424e9246842e155d3d63132090d8ea7b3ef23f955035f9c",
+    "phase": "submitted",
+    "submission_id": "796b23b3aa0e0346ded04ef20bac8af1bd4c2d3d245a006089c063727ac6c65f"
+  },
+  "previous_hash": "96e51280a4ad5a3793c48ff8e44b87577ad2d882ca2dd8eb13b9159698ab97ee",
+  "sequence": 5
+}

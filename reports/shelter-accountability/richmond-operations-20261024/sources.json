@@ -1,0 +1,145 @@
+{
+  "sources": [
+    {
+      "date_basis": "Document date or agenda attachment context; not an operation date.",
+      "limitations": "Nominal Jan–Dec 2025 term. Signatures establish the historical agreement only. Termination clause says thirty (60) days; current renewal, termination and replacement unverified.",
+      "materials": [
+        {
+          "body_sha256": "3b392104d028eaba3fc81ee9cd4b55cd2e1c059b05bfe37d5b010e619342590b",
+          "kind": "complete_origin_http_record",
+          "path": "reports/shelter-accountability/richmond-operations-20261024/receipts/richmond_operations_bee/operations/week-one/runs/RICHMOND-OPERATIONS-BEE-20261024/api/0001.json",
+          "sha256": "ca57a61957f55bb31097dac66773b154c6ea815b30061c5ab12b50ae759b735c"
+        }
+      ],
+      "observation_date": null,
+      "publication_date": "2024-10-03",
+      "record_class": "posted_signed_services_agreement",
+      "retrieved_at": "2026-10-24T11:56:19.996251+00:00",
+      "source_id": "RICHMOND-SERVICES-2024",
+      "source_lineage": "RICHMOND-TVS-HOPE-TRANSACTION",
+      "title": "Richmond Tiny House Village supportive services agreement",
+      "url": "https://www.richmondca.gov/DocumentCenter/View/76683/Richmond-Tiny-House-Village-Supportive-Services-Agreement-"
+    },
+    {
+      "date_basis": "Document date or agenda attachment context; not an operation date.",
+      "limitations": "Proposed action and description of staff requirements, not proof of adoption, legal necessity or current operations. The report does not name the staffer imposing the provider requirement.",
+      "materials": [
+        {
+          "body_sha256": "bdc10cfb2d8e6b9eb79951038a79a090bf353711acd95eff17b9ba7515f9c874",
+          "kind": "complete_origin_http_record",
+          "path": "reports/shelter-accountability/richmond-operations-20261024/receipts/richmond_operations_bee/operations/week-one/runs/RICHMOND-OPERATIONS-BEE-20261024/api/0006.json",
+          "sha256": "54b18e121f8a1b7c2cf678ec4eb00b72f8f91cc8c624ec356fb7b3675e41b09b"
+        }
+      ],
+      "observation_date": null,
+      "publication_date": "2024-11-26",
+      "record_class": "official_staff_report",
+      "retrieved_at": "2026-10-24T12:07:48.977954+00:00",
+      "source_id": "RICHMOND-NOV-2024",
+      "source_lineage": "RICHMOND-TVS-HOPE-TRANSACTION",
+      "title": "Councilmember report: agreement with Tiny Village Spirit",
+      "url": "https://pub-richmond.escribemeetings.com/filestream.ashx?DocumentId=55672"
+    },
+    {
+      "date_basis": "Document date or agenda attachment context; not an operation date.",
+      "limitations": "Recommendation naming Hope Solutions; changed from the November TVS proposal. Recommendation alone is not execution, payment or proof of why the recipient changed.",
+      "materials": [
+        {
+          "body_sha256": "906eae589027863888c481baef0d542d5763526616a82112fb70d37af8d61859",
+          "kind": "complete_origin_http_record",
+          "path": "reports/shelter-accountability/richmond-operations-20261024/receipts/richmond_operations_bee/operations/week-one/runs/RICHMOND-OPERATIONS-BEE-20261024/api/0005.json",
+          "sha256": "344e548b2eb6c0553c3af4095cc02897a9324cb017c6f6773c7641ab494f3d01"
+        }
+      ],
+      "observation_date": null,
+      "publication_date": "2025-01-07",
+      "record_class": "official_staff_report",
+      "retrieved_at": "2026-10-24T11:57:46.648850+00:00",
+      "source_id": "RICHMOND-JAN-2025",
+      "source_lineage": "RICHMOND-TVS-HOPE-TRANSACTION",
+      "title": "Councilmember report: contribution through Hope Solutions",
+      "url": "https://pub-richmond.escribemeetings.com/filestream.ashx?DocumentId=56152"
+    },
+    {
+      "date_basis": "Document date or agenda attachment context; not an operation date.",
+      "limitations": "Historical staff account: insurance delayed execution and was then reportedly in place. Proposed Apr 2026–Dec 2027 term differs from the attached draft. Promised reimbursement is not a payment receipt.",
+      "materials": [
+        {
+          "body_sha256": "fb8c4c5d4b1b4ffd97cb3bbe37d58c36fe450f9145c151b622d5c41ac32326c7",
+          "kind": "complete_origin_http_record",
+          "path": "reports/shelter-accountability/richmond-operations-20261024/receipts/richmond_operations_bee/operations/week-one/runs/RICHMOND-OPERATIONS-BEE-20261024/api/0002.json",
+          "sha256": "983e9b03f1568076972d42fe7e232c43949a034276e3a45d28944154a90713e0"
+        }
+      ],
+      "observation_date": null,
+      "publication_date": "2026-04-28",
+      "record_class": "official_staff_report",
+      "retrieved_at": "2026-10-24T11:56:22.940860+00:00",
+      "source_id": "RICHMOND-APR-2026",
+      "source_lineage": "RICHMOND-TVS-HOPE-TRANSACTION",
+      "title": "Staff report: renewed grant agreement for Tiny House Village",
+      "url": "https://pub-richmond.escribemeetings.com/filestream.ashx?DocumentId=61104"
+    },
+    {
+      "date_basis": "Document date or agenda attachment context; not an operation date.",
+      "limitations": "Blank execution date/signatures; attachment says Mar 2026–Feb 2027, unlike staff report. Exhibit B retains a 2025 startup budget with mixed periods and arithmetic/annotation ambiguities. Not a current quote, executed award or payment record.",
+      "materials": [
+        {
+          "body_sha256": "9cedbb3f84fb9af73f9c7372de13da6aa11131b5b2d50f1cb17fd774c6f56f05",
+          "kind": "complete_origin_http_record",
+          "path": "reports/shelter-accountability/richmond-operations-20261024/receipts/richmond_operations_bee/operations/week-one/runs/RICHMOND-OPERATIONS-BEE-20261024/api/0003.json",
+          "sha256": "5ce10ed805be2510f33390cddf0a411fa15c4ea0f19fae10df6709e37b79bb8e"
+        }
+      ],
+      "observation_date": null,
+      "publication_date": "2026-04-28",
+      "record_class": "draft_agreement",
+      "retrieved_at": "2026-10-24T11:57:37.405926+00:00",
+      "source_id": "RICHMOND-GRANT-2026",
+      "source_lineage": "RICHMOND-TVS-HOPE-TRANSACTION",
+      "title": "Posted grant attachment and startup budget",
+      "url": "https://pub-richmond.escribemeetings.com/filestream.ashx?DocumentId=61105"
+    },
+    {
+      "date_basis": "Exact mediated retrieval time not retained; source date and retrieval day kept separately.",
+      "limitations": "Search-service mediated retrieval; no complete origin HTTP receipt. Retrieved page still labels July2026 target move-in, also displays grand-opening modal. Neither proves current occupancy. Other search snapshots may show a different version; no origin version chronology established. Exact search-tool retrieval timestamp was not retained; report creation time is not substituted.",
+      "materials": [
+        {
+          "kind": "attributed_bee_summary_not_origin_receipt",
+          "path": "reports/shelter-accountability/richmond-operations-20261024/returns/richmond_operations_bee.json",
+          "sha256": "8ea3ba83eefa727c7b10168002d3de105535264f197dbc88479a5b350400331c"
+        }
+      ],
+      "observation_date": null,
+      "publication_date": null,
+      "record_class": "public_announcement",
+      "retrieved_at": null,
+      "retrieved_on": "2026-10-24",
+      "source_id": "RICHMOND-DEVELOPER-STATUS",
+      "source_lineage": "tvs-project-announcement",
+      "title": "Tiny Village Spirit Richmond project page",
+      "url": "https://www.tinyvillagespirit.org/projects/richmond/"
+    },
+    {
+      "date_basis": "Exact mediated retrieval time not retained; source date and retrieval day kept separately.",
+      "limitations": "Search-service text only. Announced operating roles; no new documentary verification of current operator. PostNewsGroup Sep14 and SFist Sep30 repeat related material, not independent confirmation. Full copyrighted article not published. Exact search-tool retrieval timestamp was not retained; report creation time is not substituted.",
+      "materials": [
+        {
+          "kind": "attributed_bee_summary_not_origin_receipt",
+          "path": "reports/shelter-accountability/richmond-operations-20261024/returns/richmond_operations_bee.json",
+          "sha256": "8ea3ba83eefa727c7b10168002d3de105535264f197dbc88479a5b350400331c"
+        }
+      ],
+      "observation_date": null,
+      "publication_date": "2026-08-19",
+      "record_class": "public_announcement",
+      "retrieved_at": null,
+      "retrieved_on": "2026-10-24",
+      "source_id": "RICHMOND-OPENING-REPORT",
+      "source_lineage": "richmond-standard-opening-report",
+      "title": "Richmond Tiny House Village Farm & Garden set to open its gates",
+      "url": "https://richmondstandard.com/community/2026/08/19/richmond-tiny-house-village-farm-garden-set-to-open-its-gates/"
+    }
+  ],
+  "version": "community-capacity-sources-1"
+}

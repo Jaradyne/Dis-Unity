@@ -1,0 +1,39 @@
+# Richmond: the gap between built homes and usable shelter
+
+Bounded Work-session Bee return, 24 October 2026. RC-010, Q-RICHMOND-OPERATIONS, epoch 1. This is research intake, not canonical admission. The accompanying JSON preserves source IDs, dates, receipt paths and amounts.
+
+The documents support a concrete dependency: City staff required an operating-provider agreement for the permit, and the later proposed City grant names Hope Solutions as grantee, with Tiny Village Spirit (TVS) as a subcontractor. That structure can separate the community's buildings from control of the reimbursement claim. **The present replacement operator's asking price, the money actually paid, TVS's cash position and the ability to transfer remaining funds remain unverified.** Old Hope announcements do not answer those questions.
+
+| Question | What the retained record establishes | What it does not establish |
+| --- | --- | --- |
+| Who required an operator? | The November 26, 2024 councilmember report says City staff required an operational service-provider agreement to obtain the permit. [S-RT01, p. 2] | The imposing official, the precise permit condition or legal basis, and whether a qualified community operator could satisfy it. |
+| Who selected Hope? | The January 7, 2025 report says TVS identified Hope; the October 3, 2024 agreement appoints it as TVS's exclusive operations agent. [S-RT02, p. 2; S-RT03, §1] | A current appointment, a competitive selection process, the replacement decision or the present quote. |
+| Who promoted the City funding? | The November 2024 and January 2025 reports were sponsored by Gayle McLaughlin, Claudia Jimenez and Doria Robinson in their then-current council roles. The April 2026 grant recommendation names Community Development Director Lina Velasco and Housing Manager Jesus M. Morales. [S-RT01/02/04] | That those people imposed the provider requirement, set the replacement price, benefited financially or committed misconduct. |
+| Who is the proposed grant recipient? | November 2024 proposed an agreement with TVS; January 2025 requested a contract with Hope. The April 2026 attachment names Hope as grantee and TVS as subcontractor. [S-RT01/02/05] | Actual payment to Hope, the amount passed to TVS, a complete current subcontract or an irrevocable restriction on changing recipient. |
+| What delayed the earlier grant? | April 2026 staff said time spent obtaining required insurance allowed the previous grant term to expire before execution; staff said insurance was then in place. [S-RT04, pp. 1–3] | That insurance is the current barrier, or that replacement prices are justified by it. |
+| Can money or terms change? | The posted grant permits within-cap budget changes on written grantee request and City Project Manager approval; other amendments/waivers require authorized written signatures. Unspent advances and remaining funds return to City. [S-RT05, §4.1, §5.18/20, Exhibit B] | Automatic portability to a successor or TVS, actual available balances, or approval of a different structure. |
+
+The **$300,000** proposed grant is **$103,000 for capital items plus $197,000 for operations**, paid through reimbursement. It is neither the total project budget nor an annual management fee. Eligible incurred costs require invoices; the draft also calls for staff hours, rates and supporting receipts. Matching funds may include cash or in-kind contributions, including volunteer services. This creates a plausible cash-flow dependency, but a reimbursement clause does not prove that TVS has no cash. [S-RT04, p. 3; S-RT05, §§2.1–2.3, 4.1]
+
+| Amount | Date and scope | Classification |
+| --- | --- | --- |
+| $275,132 | Posted startup budget, six months of operating expenses and nine months of salaries; labeled calendar 2025, while Exhibit A calls it calendar 2026 | Historical/draft plan; no annualization or current quote inferred |
+| $119,233 | Personnel subtotal in that startup budget | Includes salaries and benefits; not profit |
+| $6,300 | Program-expense subtotal | Planned youth incentives and case expenses |
+| $124,587 | Operating-expense subtotal | Includes security stipends, supervision, maintenance, cleaning, repairs, youth work and insurance |
+| $25,012 | Administrative/overhead line | Separate from personnel and other operating expenses; no observed profit established |
+| $978,912 | Capital estimate, updated November 1, 2024; includes materials for 13 houses and shared infrastructure | Development cost; excludes donated volunteer labor |
+| $1,163,203 | Visible October 2024 three-year operating total; annual/startup columns $275,132, $449,421 and $463,662 | Three years, not a $1 million annual replacement quote |
+| Roughly $1 million per year | Current replacement-price concern in the task | User-reported lead; dated itemized quote not located |
+
+The complete openly printed startup rows and funding rows are transcribed in the JSON from S-RT05, PDF page 21. The table has a $1 printed subtotal discrepancy and formula/period ambiguities; these remain visible rather than being silently corrected. No hidden values from the separately redacted 2024 table were used.
+
+There are also **conflicting versions**. The April staff report seeks April 1, 2026–December 31, 2027, but its unsigned attachment says March 1, 2026–February 28, 2027, with a different April–March reporting period. The earlier signed service agreement's nominal term ends December 2025. Its convenience-termination clause literally says “thirty (60) days”; neither number should be silently selected. Current executed amendments, termination records and the controlling grant version were not located. [S-RT03, §25(c); S-RT04; S-RT05]
+
+For community self-help, the remaining gates are land/occupancy permission, operator eligibility, insurance, staffed service obligations and funding custody. The documents contemplate community construction and in-kind contributions, so they do not show a blanket prohibition on helping. They also impose more than building maintenance: resident selection, emergency response, casework, benefits/referral coordination, habitability work and reporting. These formal obligations do not by themselves prove effective care, proportional cost or that every function needs the same contractor. A community organization taking qualifying functions, with separately contracted specialist services, is an alternative to price and evaluate; it is not an already approved or staffed solution.
+
+The developer page retrieved in this pass still gives a July 2026 target and shows a grand-opening prompt. Other opening coverage names Hope. These are dated statements, not an occupancy count or a current staffing record; reposts do not create independent corroboration. [S-RT08/09/10]
+
+One bounded next Question: **For this site, what written City determination establishes whether the unspent $300,000 grant can be paid or reassigned to TVS or a replacement operator, and which currently priced service and permit conditions that successor must satisfy?** The operative grant/amendment, disbursement/remaining-balance record and referenced itemized successor proposal would test the funding-control explanation. Nothing was sent.
+
+Seven search calls and thirteen primary-document opens/retrievals were used, within limits of ten and fourteen. Complete official HTTP exchanges include the redirect/error and successful receipts. Search results are mediated tool captures, not origin receipts. The full archive 14256 and its HTTP receipt contain unrelated public comments and visually obscured cells and are explicitly excluded from public Git; selected visible page renders retain only what could be seen. The exact exclusions are in `receipts/richmond_operations_bee/PUBLICATION_EXCLUSIONS.json`. No external model API, outreach, recurring monitoring, Governor activation or canonical change occurred.

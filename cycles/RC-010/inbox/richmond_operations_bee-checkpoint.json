@@ -1,0 +1,21 @@
+{
+  "agent": "richmond_operations_bee",
+  "role": "shelter_operations_bee",
+  "cycle_id": "RC-010",
+  "status": "checkpoint",
+  "recorded_at": "2026-10-24T11:55:37.032214+00:00",
+  "base_commit": "f243e11686de5597610a22ee86eef1674bf8da9b",
+  "question_id": "Q-RICHMOND-OPERATIONS",
+  "epoch": 1,
+  "scope": "Current replacement-operator price barrier, priced obligations, approval/negotiation authority and alternatives at Richmond Tiny House Village",
+  "currentness_rule": "Historical Hope Solutions appointment and opening coverage do not establish current operator, staffing or occupancy.",
+  "bounds": {
+    "search_calls": 10,
+    "primary_document_opens_or_retrievals": 14,
+    "children": 0
+  },
+  "runtime": "Work-session collaboration agent",
+  "served_model": "not exposed by host",
+  "provider_cost_receipt": "not exposed by host",
+  "canonical_admission": false
+}

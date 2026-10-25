@@ -1,0 +1,15 @@
+{
+  "at": "2026-10-24T12:15:35.243917+00:00",
+  "cycle_id": "RC-010",
+  "event_id": "c9fc223c3030f3259a0cb7eb",
+  "event_type": "agent_submission",
+  "hash": "d1799b9cb990f2962c4975fc13b10aaf7b190981bac652421d9f706fd5abc896",
+  "payload": {
+    "agent": "richmond_operations_bee",
+    "payload_hash": "fa6bccc67619639d9da6853fc46e3032cf6f3dbb508838dbf1ba4e77c2d11522",
+    "phase": "submitted",
+    "submission_id": "ca353a115a4edc4e9b8e7949a1ca45955f513b1aab49bdd1c9dc20a03aa26abe"
+  },
+  "previous_hash": "165d7628b1a72f2f91d83322d44979d9ee920217e9c7f87d478eb46cc834eb93",
+  "sequence": 9
+}

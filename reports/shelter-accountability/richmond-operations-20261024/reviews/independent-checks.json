@@ -1,0 +1,126 @@
+{
+  "reviewer": "richmond_structure_review",
+  "recorded_at": "2026-10-24T18:26:16.136663+00:00",
+  "scope": "Independent negative checks; temporary copies only, no live registration/import/publication",
+  "live_mailbox_base": "273eb72705017ede0177e473adab7ee80d6bb65f",
+  "checks": [
+    {
+      "name": "deterministic_outputs",
+      "status": "pass",
+      "detail": "Two independently reconstructed output maps are byte-identical"
+    },
+    {
+      "name": "resting_zero_dispatch",
+      "status": "pass",
+      "detail": "Ten steps, one resting branch, zero model calls"
+    },
+    {
+      "name": "node_size_after_repair",
+      "status": "pass",
+      "detail": "Every node fits unchanged 64KiB cap"
+    },
+    {
+      "name": "extension_preserves_base",
+      "status": "pass",
+      "detail": "Only the supplemental tree differs"
+    },
+    {
+      "name": "duplicate_tree",
+      "status": "pass",
+      "detail": "Tree extension cannot replace a tree"
+    },
+    {
+      "name": "unsupported_template",
+      "status": "pass",
+      "detail": "Invalid tree definition"
+    },
+    {
+      "name": "unknown_field",
+      "status": "pass",
+      "detail": "Invalid tree extension"
+    },
+    {
+      "name": "stale_base",
+      "status": "pass",
+      "detail": "Tree base pin changed"
+    },
+    {
+      "name": "old_appointment_is_not_current_staffing",
+      "status": "pass",
+      "detail": "Operational people needs observed implementation/noncompliance; policy alone is insufficient"
+    },
+    {
+      "name": "formal_is_not_effectiveness",
+      "status": "pass",
+      "detail": "Observed effectiveness needs a dated harm/action/result record; existence, activity, responses and ratings do not suffice"
+    },
+    {
+      "name": "grant_terms_are_not_received_money",
+      "status": "pass",
+      "detail": "arrival needs stage-specific evidence; no automatic promotion"
+    },
+    {
+      "name": "staff_report_not_documented_quote",
+      "status": "pass",
+      "detail": "Cost status needs the matching instrument class"
+    },
+    {
+      "name": "staff_report_not_executed_award",
+      "status": "pass",
+      "detail": "Cost status needs the matching instrument class"
+    },
+    {
+      "name": "staff_report_not_observed_payment",
+      "status": "pass",
+      "detail": "Cost status needs the matching instrument class"
+    },
+    {
+      "name": "unverified_lead_requires_source_to_be_documented",
+      "status": "pass",
+      "detail": "Documented cost needs a source"
+    },
+    {
+      "name": "inherited_source_not_independent",
+      "status": "pass",
+      "detail": "Independent attachment needs a public source and stated basis"
+    },
+    {
+      "name": "meaning_existing_contract",
+      "status": "pass",
+      "detail": "No result or human choices created"
+    },
+    {
+      "name": "receipt_integrity",
+      "status": "pass",
+      "detail": "5 complete origin receipt/body pairs match; 2 labelled Bee-summary materials separately hash-match"
+    },
+    {
+      "name": "stale_input_pin",
+      "status": "pass",
+      "detail": "Pinned input changed: operations/community-capacity/richmond/case.json"
+    },
+    {
+      "name": "governor_pending_idempotent",
+      "status": "pass",
+      "detail": "Temporary copy of retained live mailbox: awaiting_projection to pending, stable reflection ID, no responses or new decisions"
+    },
+    {
+      "name": "governor_cannot_award_power",
+      "status": "pass",
+      "detail": "Digestion must remain advisory and noncanonical"
+    },
+    {
+      "name": "cloned_source_with_independence_basis_rejected",
+      "status": "pass",
+      "detail": "Inherited or cloned material is not independent evidence"
+    }
+  ],
+  "output_sha256": {
+    "STATE.json": "33c017f0aa6058a10f0ef8ff6314a3bae487a7b29d2b7198e2efad9c11a16857",
+    "GARDEN.json": "eac8b8b137c0468f2213c35f48fdcd6e37ef51c3c0b704255c6c7efc165fb2a3",
+    "COMMUNITY_CAPACITY.md": "c93a307a7aea4f2d01dfe3ddc43770bd0242b811e6f84a12123f2ce55118df93"
+  },
+  "script_sha256": "09b8a71be0710a8ed993defb837fe7d65616883e0deabe0848b463f7d39df27e",
+  "input_pins_sha256": "cc7091b6486087ea98a7fb9a45e83651c5d16389e4d5e45265978db7dad0bab3",
+  "supplemented_at": "2026-10-24T18:27:08.467234+00:00"
+}

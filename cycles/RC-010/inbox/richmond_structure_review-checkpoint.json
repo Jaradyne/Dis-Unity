@@ -1,0 +1,17 @@
+{
+  "agent": "richmond_structure_review",
+  "cycle_id": "RC-010",
+  "recorded_at": "2026-10-24T11:56:35.502848+00:00",
+  "status": "checkpoint",
+  "base_commit": "f243e11686de5597610a22ee86eef1674bf8da9b",
+  "task": "Independent bounded review of Garden extension, Meaning Tower and Governor inbox integration; later finished-packet review",
+  "runtime": "Work-session collaboration agent",
+  "served_model": "not exposed",
+  "scope": "Read-only architecture inspection; own checkpoint/review files only",
+  "boundaries": [
+    "No new research initially",
+    "No providers, schedules, Governor powers or canonical writes",
+    "No simulated human play or fabricated review",
+    "No publication"
+  ]
+}

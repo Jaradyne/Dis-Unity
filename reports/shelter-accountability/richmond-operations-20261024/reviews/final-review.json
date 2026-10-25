@@ -1,0 +1,139 @@
+{
+  "schema_version": "bounded-independent-review-1",
+  "reviewer": "richmond_structure_review",
+  "runtime": "Work-session collaboration agent",
+  "served_model": "not exposed by host",
+  "recorded_at": "2026-10-24T18:30:24.974436+00:00",
+  "base_commit": "f243e11686de5597610a22ee86eef1674bf8da9b",
+  "decision": "pass_with_explicit_scope_limits",
+  "scope": "Independent repository-contract, retained-source and negative-test review; no new web research, authority or canonical admission",
+  "blockers": [],
+  "resolved_findings": [
+    {
+      "id": "RR-01",
+      "finding": "Term conflict cited nonexistent grant Section 1.4",
+      "resolution": "Revision 3 preserves earlier evidence and appends Section 1.2 / PDF p.3 correction; human projection identifies superseded locator"
+    },
+    {
+      "id": "RR-02",
+      "finding": "Repeated full relay evidence overflowed 64KiB FUNC output limit",
+      "resolution": "Compact stage/evidence-reference projection; full journals and STATE retained; shared node cap unchanged"
+    },
+    {
+      "id": "RR-03",
+      "finding": "Historical Meaning replay depended on mutable live Question epoch",
+      "resolution": "Pinned full historical Question record, source commit and source registry hash; later live epoch leaves all outputs byte-identical"
+    }
+  ],
+  "checks": [
+    {
+      "name": "independent_negative_checks",
+      "result": "22 passed before final historical-epoch repair",
+      "record_ref": "reports/shelter-accountability/richmond-operations-20261024/reviews/independent-checks.json",
+      "limits": "Record preserves the exact earlier script/input/output hashes; final targeted tests and supplemental replay rechecked the final repair"
+    },
+    {
+      "name": "final_targeted_python_tests",
+      "command": "python -m unittest discover -s tests -p 'test_community_capacity.py' -v",
+      "result": "9 passed"
+    },
+    {
+      "name": "meaning_loader_and_simulated_choices",
+      "command": "node tests/test_community_capacity_ui.js",
+      "result": "pass; fixture choices only, no human play"
+    },
+    {
+      "name": "saved_output_check",
+      "command": "python scripts/community_capacity.py check",
+      "result": "pass"
+    },
+    {
+      "name": "final_duplicate_output_construction",
+      "result": "all three output byte strings identical on repeat"
+    },
+    {
+      "name": "historical_epoch_regression_independent",
+      "result": "temporary copy live Meaning epoch 2 still produces identical outputs"
+    },
+    {
+      "name": "historical_snapshot_provenance",
+      "result": "full Question record and registry SHA match stated base Git commit"
+    },
+    {
+      "name": "prior_case_replays",
+      "commands": [
+        "python scripts/campus_motel.py check",
+        "python scripts/shelter_accountability.py check"
+      ],
+      "result": "both pass"
+    },
+    {
+      "name": "preserved_history_and_authority",
+      "result": "protected files/paths unchanged from base; RC004 canonical SHA unchanged",
+      "protected_paths": [
+        "config/garden-traversal.json",
+        "config/garden.json",
+        "config/governor-samskara-morphology.json",
+        "config/week-one.json",
+        "Resilience_Cascade_STATE.json",
+        "cycles/RC-005",
+        "cycles/RC-006",
+        "reports/shelter-accountability/campus-motel",
+        "operations/shelter-accountability/campus-motel",
+        "reports/continuity",
+        "reports/safeguards",
+        "reports/relays"
+      ]
+    }
+  ],
+  "source_review": {
+    "method": "Inspected retained official PDFs with text extraction; selected scanned services-agreement pages OCRed and Hope signature page visually inspected; checked five retained origin body/file hash pairs. No authenticity claim beyond the posted materials.",
+    "inspected": [
+      "November 2024 council report pp.1\u20134: staff-imposed provider agreement, proposed TVS contribution, named sponsors",
+      "January 2025 council report: recommendation changes named recipient to Hope Solutions",
+      "April 2026 staff report pp.1\u20133: prior approval account, insurance explanation, request for renewed term, reimbursement amounts",
+      "Posted grant pp.1\u20137,13,15,20\u201321: blank date, term, reimbursement/accounting, modification roles, TVS subcontractor status, mixed-period budget",
+      "2024 supportive services agreement pp.1,5,7\u20138,10: nominal term, compensation, termination ambiguity, assignment/amendment consent and visible Hope signature"
+    ],
+    "findings": "Selected claims and amounts are supported within their stated historical/draft limits. The $1 million annual current demand remains reported_unverified. No received payment, current replacement operator or effective protection is established.",
+    "publicity_limit": "Developer/opening claims preserved from the attributed Bee summary with unknown exact retrieval timestamps, not misrepresented as retained origin receipts or current occupancy proof."
+  },
+  "limits": [
+    "Hashes and validation do not establish source truth, current legal applicability, corruption, necessity/proportionality of a requirement, or authenticity of signatures.",
+    "This is a bounded supplied case; no broad audit or private resident investigation.",
+    "Tree is available through the bounded case runner; global dispatcher remains unchanged.",
+    "Governor idempotence/pending check used a temporary copy of retained week-one-state mailbox at 273eb72705017ede0177e473adab7ee80d6bb65f. Actual Question registration, queue import and publication are coordinator actions outside this review.",
+    "Meaning packet is ready to play; no user play or Governor response exists in this reviewed packet.",
+    "No new provider execution, schedule, powers or canonical evidence admission was performed by reviewer."
+  ],
+  "files_sha256": {
+    "config/community-capacity-tree.json": "b1c923c5b1f768a10bb4a10e4d3d8fe0e4e26e1d8dd81904e8df815f70cc7454",
+    "config/garden-traversal.json": "cabe4d51ecca052abfcb386dc1e3f8b97cc440a23d6a15bf955b40b8719f8e18",
+    "examples/meaning-tower/richmond-community-capacity-20261024.json": "4579bfd9654c0adeb425a4f0b4bd4728891695feb9ce98b706a711b9ec8eba68",
+    "handoffs/work_aiden/2026-10-24_richmond-community-capacity/GOVERNOR_CONTEXT.md": "a60df652a37a34c57c5248a644ca8c06f1c737d8e039b6266d34a56f81ed1f4e",
+    "operations/community-capacity/richmond/case.json": "0a62eba193fb13d3ca473810728e6ad560d80ff27ee5120762f47f92d752f36e",
+    "operations/community-capacity/richmond/inputs.json": "f2858e64c71a32f98c5c13951317a872b7eb44f37c9998a9c6d7fb7e49a6c894",
+    "operations/community-capacity/richmond/meaning-question-snapshot.json": "49c494d05bee335c5770a47b7760009272091db9489db03f3b381413dcba5222",
+    "operations/community-capacity/richmond/references.json": "3b4f351027b13e82af7badb727d192dac58c6efd55b9c001c9cf05408d19628c",
+    "operations/community-capacity/richmond/relay-journal.json": "563b7979386b4f56ec6546646f28390a441d8351de10801be721c647e6debd27",
+    "operations/community-capacity/richmond/relay-references.json": "46d399f205cd6a637030f1b4a06f8b620e3128457994e2e7dbc704b51ec9ffdb",
+    "operations/community-capacity/richmond/safeguard-journal.json": "501e0bdfd19776f6e061ef6fd58be519a83642088b7d4768ae30729f8622441f",
+    "operations/community-capacity/richmond/safeguard-references.json": "dca607a99845c392372aa95a54437bafe59ac880f2679b2f179819ef43e012c6",
+    "operations/governor/inbox/WORK-RICHMOND-CAPACITY-20261024.json": "a36f090071d625e419e3d907982049b7503398a583c04717a213c7f5bba6b9f7",
+    "reports/shelter-accountability/richmond-operations-20261024/events.json": "27d48c768357ff69e0aea95d6621c6b0cf0fbcdeb97ac6a4bc8cb9c57ca1dac5",
+    "reports/shelter-accountability/richmond-operations-20261024/generated/COMMUNITY_CAPACITY.md": "c93a307a7aea4f2d01dfe3ddc43770bd0242b811e6f84a12123f2ce55118df93",
+    "reports/shelter-accountability/richmond-operations-20261024/generated/GARDEN.json": "8a022f8fcf56aa162119b8cfcf27270944d401c2b3282d328b51a1a876f16c5a",
+    "reports/shelter-accountability/richmond-operations-20261024/generated/STATE.json": "fc0cd6602809133cc1a876eadc1d420d45cf7587b69826b9f5c65ff72311babe",
+    "reports/shelter-accountability/richmond-operations-20261024/receipts/richmond_operations_bee/operations/week-one/runs/RICHMOND-OPERATIONS-BEE-20261024/api/0001.json": "ca57a61957f55bb31097dac66773b154c6ea815b30061c5ab12b50ae759b735c",
+    "reports/shelter-accountability/richmond-operations-20261024/receipts/richmond_operations_bee/operations/week-one/runs/RICHMOND-OPERATIONS-BEE-20261024/api/0002.json": "983e9b03f1568076972d42fe7e232c43949a034276e3a45d28944154a90713e0",
+    "reports/shelter-accountability/richmond-operations-20261024/receipts/richmond_operations_bee/operations/week-one/runs/RICHMOND-OPERATIONS-BEE-20261024/api/0003.json": "5ce10ed805be2510f33390cddf0a411fa15c4ea0f19fae10df6709e37b79bb8e",
+    "reports/shelter-accountability/richmond-operations-20261024/receipts/richmond_operations_bee/operations/week-one/runs/RICHMOND-OPERATIONS-BEE-20261024/api/0005.json": "344e548b2eb6c0553c3af4095cc02897a9324cb017c6f6773c7641ab494f3d01",
+    "reports/shelter-accountability/richmond-operations-20261024/receipts/richmond_operations_bee/operations/week-one/runs/RICHMOND-OPERATIONS-BEE-20261024/api/0006.json": "54b18e121f8a1b7c2cf678ec4eb00b72f8f91cc8c624ec356fb7b3675e41b09b",
+    "reports/shelter-accountability/richmond-operations-20261024/returns/richmond_operations_bee.json": "8ea3ba83eefa727c7b10168002d3de105535264f197dbc88479a5b350400331c",
+    "reports/shelter-accountability/richmond-operations-20261024/sources.json": "ce1234bbeed84c04dc72c2e3238d7836eeaed8124bd9da65ba28b39d0cb0997c",
+    "scripts/community_capacity.py": "69ab94bb54e4f39f69e1a1a81d5ebd54d0988b4ef6a83d576213cf70c23413bc",
+    "tests/test_community_capacity.py": "a4cd68c9f9b057ac812903b343f295c764e6310cd478d3a9857d53d46f29e973",
+    "tests/test_community_capacity_ui.js": "d69e082b4cb12d636fa74cc952d32119e33c661911dddac2a1661e7737f468e2"
+  },
+  "canonical_sha256": "16d04f8bb35a588caca60517f90a11944cfbafac7951402d059a6d6131de97b7"
+}

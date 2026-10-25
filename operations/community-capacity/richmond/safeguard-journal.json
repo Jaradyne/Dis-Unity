@@ -1,0 +1,1157 @@
+{
+  "entries": [
+    {
+      "actor": "Work Aiden; coordinator source review",
+      "entry_sha256": "d0cdc8a681f9d47b15b0863dd13611b281dbce1b919c2883b922b64c6458190d",
+      "expected_revision": 0,
+      "previous_entry_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "reason": "Initial bounded historical assessment preserving current price/fund-custody unknowns",
+      "recorded_at": "2026-10-24T12:13:14.198066+00:00",
+      "safeguard": {
+        "contrary_evidence": [
+          {
+            "claim": "The City proposal included capital reimbursement and accepted in-kind matching support; routing through an operator does not by itself establish that builders were denied all funding or that money was retained improperly.",
+            "evidence_ids": [
+              "RT-GRANT-CUSTODY",
+              "RT-GRANT-AMOUNTS"
+            ]
+          },
+          {
+            "claim": "Hope was historically appointed, and opening publicity may repeat that identity. Such statements cannot settle the user-reported later operator change or current cost barrier.",
+            "evidence_ids": [
+              "RT-SERVICES"
+            ]
+          },
+          {
+            "claim": "A smaller mixed-period historical budget neither disproves a higher current proposal nor verifies it. Terms and scope must match before comparing.",
+            "evidence_ids": [
+              "RT-STARTUP-BUDGET",
+              "RT-TERM-CONFLICT"
+            ]
+          }
+        ],
+        "effectiveness": {
+          "claim": "No dated evidence here establishes that these requirements prevented harm or enabled sustained access.",
+          "evidence_ids": [],
+          "status": "unknown"
+        },
+        "event_refs": [
+          "E-RICHMOND-SERVICES-2024",
+          "E-RICHMOND-NOV-2024",
+          "E-RICHMOND-JAN-2025",
+          "E-RICHMOND-APR-2026",
+          "E-RICHMOND-GRANT-2026"
+        ],
+        "evidence": [
+          {
+            "citations": [
+              {
+                "locator": "PDF p.2",
+                "source_ref": "S-RICHMOND-NOV-2024"
+              }
+            ],
+            "claim": "The November council report says City staff required TVS to obtain an operational service-provider agreement to get the permit. It does not identify the imposing staffer or legal basis.",
+            "effect": null,
+            "event_refs": [
+              "E-RICHMOND-NOV-2024"
+            ],
+            "evidence_id": "RT-PROVIDER-GATE",
+            "kind": "formal_text",
+            "limits": "Historical public instrument or reported account; see source access and execution limitations. No current service, payment, motive or protective result follows.",
+            "period": {
+              "end": "2024-11-26",
+              "note": "Dated source statement/requirement, not a current operating observation.",
+              "start": "2024-11-26"
+            }
+          },
+          {
+            "citations": [
+              {
+                "locator": "PDF pp.1,3–4",
+                "source_ref": "S-RICHMOND-NOV-2024"
+              }
+            ],
+            "claim": "The November recommendation sought a $300,000 agreement with TVS: $166,332 operating startup and $133,668 construction. Sponsors were Gayle McLaughlin, Claudia Jimenez and Doria Robinson.",
+            "effect": null,
+            "event_refs": [
+              "E-RICHMOND-NOV-2024"
+            ],
+            "evidence_id": "RT-TVS-PROPOSAL",
+            "kind": "context",
+            "limits": "Historical public instrument or reported account; see source access and execution limitations. No current service, payment, motive or protective result follows.",
+            "period": {
+              "end": "2024-11-26",
+              "note": "Dated source statement/requirement, not a current operating observation.",
+              "start": "2024-11-26"
+            }
+          },
+          {
+            "citations": [
+              {
+                "locator": "PDF pp.1–2",
+                "source_ref": "S-RICHMOND-JAN-2025"
+              }
+            ],
+            "claim": "The January recommendation directed staff toward agreements with Hope Solutions. The named council sponsors remain distinct from staff who imposed permitting requirements; this is not motive evidence.",
+            "effect": null,
+            "event_refs": [
+              "E-RICHMOND-JAN-2025"
+            ],
+            "evidence_id": "RT-HOPE-PROPOSAL",
+            "kind": "context",
+            "limits": "Historical public instrument or reported account; see source access and execution limitations. No current service, payment, motive or protective result follows.",
+            "period": {
+              "end": "2025-01-07",
+              "note": "Dated source statement/requirement, not a current operating observation.",
+              "start": "2025-01-07"
+            }
+          },
+          {
+            "citations": [
+              {
+                "locator": "Sections 1–2,20,25(c),28–29; PDF pp.1,5,7–8",
+                "source_ref": "S-RICHMOND-SERVICES-2024"
+              }
+            ],
+            "claim": "TVS appointed Hope for property management/supportive services for nominal calendar 2025. TVS consent is required for assignment/subcontracting; amendments need both parties. The termination clause contains thirty (60) days.",
+            "effect": null,
+            "event_refs": [
+              "E-RICHMOND-SERVICES-2024"
+            ],
+            "evidence_id": "RT-SERVICES",
+            "kind": "formal_text",
+            "limits": "Historical public instrument or reported account; see source access and execution limitations. No current service, payment, motive or protective result follows.",
+            "period": {
+              "end": "2024-10-03",
+              "note": "Dated source statement/requirement, not a current operating observation.",
+              "start": "2024-10-03"
+            }
+          },
+          {
+            "citations": [
+              {
+                "locator": "PDF pp.1–3",
+                "source_ref": "S-RICHMOND-APR-2026"
+              }
+            ],
+            "claim": "April staff report attributes the expired prior grant term to time obtaining required insurance and says insurance is now in place. Separate leases were anticipated before occupancy.",
+            "effect": null,
+            "event_refs": [
+              "E-RICHMOND-APR-2026"
+            ],
+            "evidence_id": "RT-INSURANCE",
+            "kind": "agency_response",
+            "limits": "Historical public instrument or reported account; see source access and execution limitations. No current service, payment, motive or protective result follows.",
+            "period": {
+              "end": "2026-04-28",
+              "note": "Dated source statement/requirement, not a current operating observation.",
+              "start": "2026-04-28"
+            }
+          },
+          {
+            "citations": [
+              {
+                "locator": "Sections 1.1,2.1–2.3,4.1; Exhibit A",
+                "source_ref": "S-RICHMOND-GRANT-2026"
+              }
+            ],
+            "claim": "The posted City grant names Hope as grantee and TVS as subcontractor. Grantee submits invoices for eligible capital and operating costs; payments are reimbursements. Unused funds revert to City; no automatic portability to a replacement is established.",
+            "effect": null,
+            "event_refs": [
+              "E-RICHMOND-GRANT-2026"
+            ],
+            "evidence_id": "RT-GRANT-CUSTODY",
+            "kind": "formal_text",
+            "limits": "Historical public instrument or reported account; see source access and execution limitations. No current service, payment, motive or protective result follows.",
+            "period": {
+              "end": "2026-04-28",
+              "note": "Dated source statement/requirement, not a current operating observation.",
+              "start": "2026-04-28"
+            }
+          },
+          {
+            "citations": [
+              {
+                "locator": "Sections 3.2,4.1,5.20; Exhibit B",
+                "source_ref": "S-RICHMOND-GRANT-2026"
+              }
+            ],
+            "claim": "The posted grant permits City termination, requires cost documentation, lets the City Project Manager approve requested budget modifications up to the ceiling, and requires written signed amendments. These are proposed controls, not observed enforcement.",
+            "effect": null,
+            "event_refs": [
+              "E-RICHMOND-GRANT-2026"
+            ],
+            "evidence_id": "RT-CITY-CONTROL",
+            "kind": "formal_text",
+            "limits": "Historical public instrument or reported account; see source access and execution limitations. No current service, payment, motive or protective result follows.",
+            "period": {
+              "end": "2026-04-28",
+              "note": "Dated source statement/requirement, not a current operating observation.",
+              "start": "2026-04-28"
+            }
+          },
+          {
+            "citations": [
+              {
+                "locator": "PDF pp.2–3",
+                "source_ref": "S-RICHMOND-APR-2026"
+              }
+            ],
+            "claim": "April staff propose $300,000: $103,000 capital and $197,000 operations, paid on reimbursement. The City contribution is not the full operating budget and is not verified as disbursed.",
+            "effect": null,
+            "event_refs": [
+              "E-RICHMOND-APR-2026"
+            ],
+            "evidence_id": "RT-GRANT-AMOUNTS",
+            "kind": "context",
+            "limits": "Historical public instrument or reported account; see source access and execution limitations. No current service, payment, motive or protective result follows.",
+            "period": {
+              "end": "2026-04-28",
+              "note": "Dated source statement/requirement, not a current operating observation.",
+              "start": "2026-04-28"
+            }
+          },
+          {
+            "citations": [
+              {
+                "locator": "Exhibit B, PDF p.21",
+                "source_ref": "S-RICHMOND-GRANT-2026"
+              }
+            ],
+            "claim": "Exhibit B prints $275,132 for calendar-2025 startup, labelled six months operating expenses and nine months salaries: $119,233 personnel, $6,300 program, $124,587 operating and $25,012 overhead. The table is historical, internally imperfect and not a current annual demand.",
+            "effect": null,
+            "event_refs": [
+              "E-RICHMOND-GRANT-2026"
+            ],
+            "evidence_id": "RT-STARTUP-BUDGET",
+            "kind": "context",
+            "limits": "Historical public instrument or reported account; see source access and execution limitations. No current service, payment, motive or protective result follows.",
+            "period": {
+              "end": "2026-04-28",
+              "note": "Dated source statement/requirement, not a current operating observation.",
+              "start": "2026-04-28"
+            }
+          },
+          {
+            "citations": [
+              {
+                "locator": "Section 1.4; compare S-RICHMOND-APR-2026 PDF pp.2–3",
+                "source_ref": "S-RICHMOND-GRANT-2026"
+              }
+            ],
+            "claim": "The April report requests Apr 1 2026–Dec 31 2027, while the posted unsigned grant gives Mar 1 2026–Feb 28 2027. No executed correction was obtained.",
+            "effect": null,
+            "event_refs": [
+              "E-RICHMOND-GRANT-2026"
+            ],
+            "evidence_id": "RT-TERM-CONFLICT",
+            "kind": "context",
+            "limits": "Historical public instrument or reported account; see source access and execution limitations. No current service, payment, motive or protective result follows.",
+            "period": {
+              "end": "2026-04-28",
+              "note": "Dated source statement/requirement, not a current operating observation.",
+              "start": "2026-04-28"
+            }
+          }
+        ],
+        "evidence_cutoff": "2026-10-24",
+        "failure": {
+          "claim": "Reported financial blockage and a historical staff-described delay do not establish unlawful exclusion, misappropriation or a failed protective intervention.",
+          "evidence_ids": [],
+          "status": "unknown"
+        },
+        "formal": {
+          "claim": "Historical provider, insurance, service and invoice controls are documented; current legal necessity and operative terms require separate verification.",
+          "evidence_ids": [
+            "RT-PROVIDER-GATE",
+            "RT-SERVICES",
+            "RT-GRANT-CUSTODY",
+            "RT-CITY-CONTROL"
+          ],
+          "status": "documented"
+        },
+        "next_test": {
+          "max_records": 1,
+          "question": "Which current replacement-operator decision packet identifies the itemized asking price, the legal basis and decisionmaker for required services, and the City-approved disposition of unspent grant funds or builder reimbursements if the operator changes?",
+          "required_record": "One current replacement-operator and grant-transition decision packet with priced scope, approvals and payment/balance disposition.",
+          "status": "proposed_only",
+          "stop_condition": "Classify that one packet; no private resident files, expanded campaign or records request sent.",
+          "supports_if": "The packet ties a priced requirement and fund-control decision to the inability to appoint a replacement or fund community operation.",
+          "weakens_if": "The terms permit funded community operation, a different verified obstacle controls opening, or the quote cannot be authenticated; preserve contrary findings."
+        },
+        "operational": {
+          "authority": {
+            "claim": "Historical contracting and modification roles are identified; current exercised approval and funding-transfer authority remain unverified.",
+            "evidence_ids": [
+              "RT-HOPE-PROPOSAL",
+              "RT-CITY-CONTROL"
+            ],
+            "status": "unknown"
+          },
+          "people": {
+            "claim": "Current operator, available staff and community management eligibility are unverified.",
+            "evidence_ids": [
+              "RT-SERVICES",
+              "RT-STARTUP-BUDGET"
+            ],
+            "status": "unknown"
+          },
+          "procedures": {
+            "claim": "Invoice and service processes are specified; actual use and accessible resident protections are not established.",
+            "evidence_ids": [
+              "RT-GRANT-CUSTODY",
+              "RT-CITY-CONTROL"
+            ],
+            "status": "unknown"
+          }
+        },
+        "ordinary_explanations": [
+          {
+            "claim": "Specialist services, supervision, insurance and fixed staffing costs may matter even at small sites. Whether each current requirement is necessary or proportionate needs its actual written basis and priced scope.",
+            "evidence_ids": [
+              "RT-SERVICES",
+              "RT-STARTUP-BUDGET"
+            ]
+          },
+          {
+            "claim": "The operator may have been used as the accountable grantee for reporting and reimbursement. This is a possible explanation; the record does not establish why the recipient changed or whether TVS could meet the conditions.",
+            "evidence_ids": [
+              "RT-TVS-PROPOSAL",
+              "RT-HOPE-PROPOSAL",
+              "RT-GRANT-CUSTODY"
+            ]
+          },
+          {
+            "claim": "Community management with separately purchased specialist support, a shared administrator, or an amended grantee arrangement are alternatives to test, not authorized or funded replacements.",
+            "evidence_ids": [
+              "RT-CITY-CONTROL",
+              "RT-SERVICES"
+            ]
+          }
+        ],
+        "residuals": [
+          "No current replacement-operator priced proposal, signed replacement agreement, actual staff roster or dated occupancy record was obtained.",
+          "The roughly $1 million annual demand and resulting blockage remain a user-reported lead; neither verified nor disproved by the older budget.",
+          "The precise City staff decision and legal basis requiring an operational service provider are not identified in the inspected report; community stewardship eligibility was not resolved.",
+          "Actual City disbursements to Hope, pass-through to TVS, unpaid builder costs, unspent balances and a transfer/re-award decision remain unverified.",
+          "Older operator appointments and opening announcements do not establish the current operator or usable capacity. Missing replacement records do not establish absence.",
+          "Formal safeguards, proposed service staffing and an insurance statement do not establish actual resident protection or successful admission.",
+          "The 2026 staff report and attachment disagree on grant term. The attachment retains a mixed-period 2025 startup budget; no annualization or current per-bed rate is derived."
+        ],
+        "rest_until": "Separately reviewed current quote and funding-transition material arrives.",
+        "safeguard_id": "SG-RICHMOND-OPERATING-GATES",
+        "scope": "Richmond Tiny House Village, 175 23rd Street / 2200 Bissell Avenue: community-created capacity, provider requirements and funding custody; no resident dossier or current legal adjudication.",
+        "title": "Operating requirements and funding control: protection in practice unknown"
+      },
+      "sequence": 1
+    },
+    {
+      "actor": "Work Aiden; coordinator reviewing completed Bee return",
+      "entry_sha256": "1af3ffae033e826068ae9ab00ef0b40d46bb722823e42db232b96d0f21a64b77",
+      "expected_revision": 1,
+      "previous_entry_sha256": "d0cdc8a681f9d47b15b0863dd13611b281dbce1b919c2883b922b64c6458190d",
+      "reason": "Preserve separately attributed opening/publicity counterevidence and its currentness limits; no status promotion",
+      "recorded_at": "2026-10-24T18:23:14.365244+00:00",
+      "safeguard": {
+        "contrary_evidence": [
+          {
+            "claim": "The City proposal included capital reimbursement and accepted in-kind matching support; routing through an operator does not by itself establish that builders were denied all funding or that money was retained improperly.",
+            "evidence_ids": [
+              "RT-GRANT-CUSTODY",
+              "RT-GRANT-AMOUNTS"
+            ]
+          },
+          {
+            "claim": "Hope was historically appointed, and opening publicity may repeat that identity. Such statements cannot settle the user-reported later operator change or current cost barrier.",
+            "evidence_ids": [
+              "RT-SERVICES"
+            ]
+          },
+          {
+            "claim": "A smaller mixed-period historical budget neither disproves a higher current proposal nor verifies it. Terms and scope must match before comparing.",
+            "evidence_ids": [
+              "RT-STARTUP-BUDGET",
+              "RT-TERM-CONFLICT"
+            ]
+          },
+          {
+            "claim": "Developer/press opening statements are retained as contrary context; variable or stale page wording and repeated Hope identification do not authenticate a current operator or occupancy.",
+            "evidence_ids": [
+              "RT-DEVELOPER-PAGE",
+              "RT-OPENING-REPORT"
+            ]
+          }
+        ],
+        "effectiveness": {
+          "claim": "No dated evidence here establishes that these requirements prevented harm or enabled sustained access.",
+          "evidence_ids": [],
+          "status": "unknown"
+        },
+        "event_refs": [
+          "E-RICHMOND-SERVICES-2024",
+          "E-RICHMOND-NOV-2024",
+          "E-RICHMOND-JAN-2025",
+          "E-RICHMOND-APR-2026",
+          "E-RICHMOND-GRANT-2026"
+        ],
+        "evidence": [
+          {
+            "citations": [
+              {
+                "locator": "PDF p.2",
+                "source_ref": "S-RICHMOND-NOV-2024"
+              }
+            ],
+            "claim": "The November council report says City staff required TVS to obtain an operational service-provider agreement to get the permit. It does not identify the imposing staffer or legal basis.",
+            "effect": null,
+            "event_refs": [
+              "E-RICHMOND-NOV-2024"
+            ],
+            "evidence_id": "RT-PROVIDER-GATE",
+            "kind": "formal_text",
+            "limits": "Historical public instrument or reported account; see source access and execution limitations. No current service, payment, motive or protective result follows.",
+            "period": {
+              "end": "2024-11-26",
+              "note": "Dated source statement/requirement, not a current operating observation.",
+              "start": "2024-11-26"
+            }
+          },
+          {
+            "citations": [
+              {
+                "locator": "PDF pp.1,3–4",
+                "source_ref": "S-RICHMOND-NOV-2024"
+              }
+            ],
+            "claim": "The November recommendation sought a $300,000 agreement with TVS: $166,332 operating startup and $133,668 construction. Sponsors were Gayle McLaughlin, Claudia Jimenez and Doria Robinson.",
+            "effect": null,
+            "event_refs": [
+              "E-RICHMOND-NOV-2024"
+            ],
+            "evidence_id": "RT-TVS-PROPOSAL",
+            "kind": "context",
+            "limits": "Historical public instrument or reported account; see source access and execution limitations. No current service, payment, motive or protective result follows.",
+            "period": {
+              "end": "2024-11-26",
+              "note": "Dated source statement/requirement, not a current operating observation.",
+              "start": "2024-11-26"
+            }
+          },
+          {
+            "citations": [
+              {
+                "locator": "PDF pp.1–2",
+                "source_ref": "S-RICHMOND-JAN-2025"
+              }
+            ],
+            "claim": "The January recommendation directed staff toward agreements with Hope Solutions. The named council sponsors remain distinct from staff who imposed permitting requirements; this is not motive evidence.",
+            "effect": null,
+            "event_refs": [
+              "E-RICHMOND-JAN-2025"
+            ],
+            "evidence_id": "RT-HOPE-PROPOSAL",
+            "kind": "context",
+            "limits": "Historical public instrument or reported account; see source access and execution limitations. No current service, payment, motive or protective result follows.",
+            "period": {
+              "end": "2025-01-07",
+              "note": "Dated source statement/requirement, not a current operating observation.",
+              "start": "2025-01-07"
+            }
+          },
+          {
+            "citations": [
+              {
+                "locator": "Sections 1–2,20,25(c),28–29; PDF pp.1,5,7–8",
+                "source_ref": "S-RICHMOND-SERVICES-2024"
+              }
+            ],
+            "claim": "TVS appointed Hope for property management/supportive services for nominal calendar 2025. TVS consent is required for assignment/subcontracting; amendments need both parties. The termination clause contains thirty (60) days.",
+            "effect": null,
+            "event_refs": [
+              "E-RICHMOND-SERVICES-2024"
+            ],
+            "evidence_id": "RT-SERVICES",
+            "kind": "formal_text",
+            "limits": "Historical public instrument or reported account; see source access and execution limitations. No current service, payment, motive or protective result follows.",
+            "period": {
+              "end": "2024-10-03",
+              "note": "Dated source statement/requirement, not a current operating observation.",
+              "start": "2024-10-03"
+            }
+          },
+          {
+            "citations": [
+              {
+                "locator": "PDF pp.1–3",
+                "source_ref": "S-RICHMOND-APR-2026"
+              }
+            ],
+            "claim": "April staff report attributes the expired prior grant term to time obtaining required insurance and says insurance is now in place. Separate leases were anticipated before occupancy.",
+            "effect": null,
+            "event_refs": [
+              "E-RICHMOND-APR-2026"
+            ],
+            "evidence_id": "RT-INSURANCE",
+            "kind": "agency_response",
+            "limits": "Historical public instrument or reported account; see source access and execution limitations. No current service, payment, motive or protective result follows.",
+            "period": {
+              "end": "2026-04-28",
+              "note": "Dated source statement/requirement, not a current operating observation.",
+              "start": "2026-04-28"
+            }
+          },
+          {
+            "citations": [
+              {
+                "locator": "Sections 1.1,2.1–2.3,4.1; Exhibit A",
+                "source_ref": "S-RICHMOND-GRANT-2026"
+              }
+            ],
+            "claim": "The posted City grant names Hope as grantee and TVS as subcontractor. Grantee submits invoices for eligible capital and operating costs; payments are reimbursements. Unused funds revert to City; no automatic portability to a replacement is established.",
+            "effect": null,
+            "event_refs": [
+              "E-RICHMOND-GRANT-2026"
+            ],
+            "evidence_id": "RT-GRANT-CUSTODY",
+            "kind": "formal_text",
+            "limits": "Historical public instrument or reported account; see source access and execution limitations. No current service, payment, motive or protective result follows.",
+            "period": {
+              "end": "2026-04-28",
+              "note": "Dated source statement/requirement, not a current operating observation.",
+              "start": "2026-04-28"
+            }
+          },
+          {
+            "citations": [
+              {
+                "locator": "Sections 3.2,4.1,5.20; Exhibit B",
+                "source_ref": "S-RICHMOND-GRANT-2026"
+              }
+            ],
+            "claim": "The posted grant permits City termination, requires cost documentation, lets the City Project Manager approve requested budget modifications up to the ceiling, and requires written signed amendments. These are proposed controls, not observed enforcement.",
+            "effect": null,
+            "event_refs": [
+              "E-RICHMOND-GRANT-2026"
+            ],
+            "evidence_id": "RT-CITY-CONTROL",
+            "kind": "formal_text",
+            "limits": "Historical public instrument or reported account; see source access and execution limitations. No current service, payment, motive or protective result follows.",
+            "period": {
+              "end": "2026-04-28",
+              "note": "Dated source statement/requirement, not a current operating observation.",
+              "start": "2026-04-28"
+            }
+          },
+          {
+            "citations": [
+              {
+                "locator": "PDF pp.2–3",
+                "source_ref": "S-RICHMOND-APR-2026"
+              }
+            ],
+            "claim": "April staff propose $300,000: $103,000 capital and $197,000 operations, paid on reimbursement. The City contribution is not the full operating budget and is not verified as disbursed.",
+            "effect": null,
+            "event_refs": [
+              "E-RICHMOND-APR-2026"
+            ],
+            "evidence_id": "RT-GRANT-AMOUNTS",
+            "kind": "context",
+            "limits": "Historical public instrument or reported account; see source access and execution limitations. No current service, payment, motive or protective result follows.",
+            "period": {
+              "end": "2026-04-28",
+              "note": "Dated source statement/requirement, not a current operating observation.",
+              "start": "2026-04-28"
+            }
+          },
+          {
+            "citations": [
+              {
+                "locator": "Exhibit B, PDF p.21",
+                "source_ref": "S-RICHMOND-GRANT-2026"
+              }
+            ],
+            "claim": "Exhibit B prints $275,132 for calendar-2025 startup, labelled six months operating expenses and nine months salaries: $119,233 personnel, $6,300 program, $124,587 operating and $25,012 overhead. The table is historical, internally imperfect and not a current annual demand.",
+            "effect": null,
+            "event_refs": [
+              "E-RICHMOND-GRANT-2026"
+            ],
+            "evidence_id": "RT-STARTUP-BUDGET",
+            "kind": "context",
+            "limits": "Historical public instrument or reported account; see source access and execution limitations. No current service, payment, motive or protective result follows.",
+            "period": {
+              "end": "2026-04-28",
+              "note": "Dated source statement/requirement, not a current operating observation.",
+              "start": "2026-04-28"
+            }
+          },
+          {
+            "citations": [
+              {
+                "locator": "Section 1.4; compare S-RICHMOND-APR-2026 PDF pp.2–3",
+                "source_ref": "S-RICHMOND-GRANT-2026"
+              }
+            ],
+            "claim": "The April report requests Apr 1 2026–Dec 31 2027, while the posted unsigned grant gives Mar 1 2026–Feb 28 2027. No executed correction was obtained.",
+            "effect": null,
+            "event_refs": [
+              "E-RICHMOND-GRANT-2026"
+            ],
+            "evidence_id": "RT-TERM-CONFLICT",
+            "kind": "context",
+            "limits": "Historical public instrument or reported account; see source access and execution limitations. No current service, payment, motive or protective result follows.",
+            "period": {
+              "end": "2026-04-28",
+              "note": "Dated source statement/requirement, not a current operating observation.",
+              "start": "2026-04-28"
+            }
+          },
+          {
+            "citations": [
+              {
+                "locator": "lines26–49 target,55–58 creation,80–88 timeline,132–134 modal",
+                "source_ref": "S-RICHMOND-DEVELOPER-STATUS"
+              }
+            ],
+            "claim": "The project page retrieved by the Bee still showed a July 2026 move-in target and a grand-opening prompt; another search snapshot showed September opened wording. No source-version chronology or occupancy record is established.",
+            "effect": null,
+            "event_refs": [],
+            "evidence_id": "RT-DEVELOPER-PAGE",
+            "kind": "context",
+            "limits": "Search-service mediated retrieval; no complete origin HTTP receipt. Retrieved page still labels July2026 target move-in, also displays grand-opening modal. Neither proves current occupancy. Other search snapshots may show a different version; no origin version chronology established. Exact search-tool retrieval timestamp was not retained; report creation time is not substituted.",
+            "period": {
+              "end": "2026-10-24",
+              "note": "Publication date, or retrieval day where page date is unknown; not an operating observation.",
+              "start": "2026-10-24"
+            }
+          },
+          {
+            "citations": [
+              {
+                "locator": "Opening coverage; attributed Bee summary S-RT09",
+                "source_ref": "S-RICHMOND-OPENING-REPORT"
+              }
+            ],
+            "claim": "August 19 opening coverage identified Hope as planned operator; subsequent republication does not independently verify present staffing or an unchanged arrangement.",
+            "effect": null,
+            "event_refs": [],
+            "evidence_id": "RT-OPENING-REPORT",
+            "kind": "context",
+            "limits": "Search-service text only. Announced operating roles; no new documentary verification of current operator. PostNewsGroup Sep14 and SFist Sep30 repeat related material, not independent confirmation. Full copyrighted article not published. Exact search-tool retrieval timestamp was not retained; report creation time is not substituted.",
+            "period": {
+              "end": "2026-08-19",
+              "note": "Publication date, or retrieval day where page date is unknown; not an operating observation.",
+              "start": "2026-08-19"
+            }
+          }
+        ],
+        "evidence_cutoff": "2026-10-24",
+        "failure": {
+          "claim": "Reported financial blockage and a historical staff-described delay do not establish unlawful exclusion, misappropriation or a failed protective intervention.",
+          "evidence_ids": [],
+          "status": "unknown"
+        },
+        "formal": {
+          "claim": "Historical provider, insurance, service and invoice controls are documented; current legal necessity and operative terms require separate verification.",
+          "evidence_ids": [
+            "RT-PROVIDER-GATE",
+            "RT-SERVICES",
+            "RT-GRANT-CUSTODY",
+            "RT-CITY-CONTROL"
+          ],
+          "status": "documented"
+        },
+        "next_test": {
+          "max_records": 1,
+          "question": "Which current replacement-operator decision packet identifies the itemized asking price, the legal basis and decisionmaker for required services, and the City-approved disposition of unspent grant funds or builder reimbursements if the operator changes?",
+          "required_record": "One current replacement-operator and grant-transition decision packet with priced scope, approvals and payment/balance disposition.",
+          "status": "proposed_only",
+          "stop_condition": "Classify that one packet; no private resident files, expanded campaign or records request sent.",
+          "supports_if": "The packet ties a priced requirement and fund-control decision to the inability to appoint a replacement or fund community operation.",
+          "weakens_if": "The terms permit funded community operation, a different verified obstacle controls opening, or the quote cannot be authenticated; preserve contrary findings."
+        },
+        "operational": {
+          "authority": {
+            "claim": "Historical contracting and modification roles are identified; current exercised approval and funding-transfer authority remain unverified.",
+            "evidence_ids": [
+              "RT-HOPE-PROPOSAL",
+              "RT-CITY-CONTROL"
+            ],
+            "status": "unknown"
+          },
+          "people": {
+            "claim": "Current operator, available staff and community management eligibility are unverified.",
+            "evidence_ids": [
+              "RT-SERVICES",
+              "RT-STARTUP-BUDGET"
+            ],
+            "status": "unknown"
+          },
+          "procedures": {
+            "claim": "Invoice and service processes are specified; actual use and accessible resident protections are not established.",
+            "evidence_ids": [
+              "RT-GRANT-CUSTODY",
+              "RT-CITY-CONTROL"
+            ],
+            "status": "unknown"
+          }
+        },
+        "ordinary_explanations": [
+          {
+            "claim": "Specialist services, supervision, insurance and fixed staffing costs may matter even at small sites. Whether each current requirement is necessary or proportionate needs its actual written basis and priced scope.",
+            "evidence_ids": [
+              "RT-SERVICES",
+              "RT-STARTUP-BUDGET"
+            ]
+          },
+          {
+            "claim": "The operator may have been used as the accountable grantee for reporting and reimbursement. This is a possible explanation; the record does not establish why the recipient changed or whether TVS could meet the conditions.",
+            "evidence_ids": [
+              "RT-TVS-PROPOSAL",
+              "RT-HOPE-PROPOSAL",
+              "RT-GRANT-CUSTODY"
+            ]
+          },
+          {
+            "claim": "Community management with separately purchased specialist support, a shared administrator, or an amended grantee arrangement are alternatives to test, not authorized or funded replacements.",
+            "evidence_ids": [
+              "RT-CITY-CONTROL",
+              "RT-SERVICES"
+            ]
+          }
+        ],
+        "residuals": [
+          "No current replacement-operator priced proposal, signed replacement agreement, actual staff roster or dated occupancy record was obtained.",
+          "The roughly $1 million annual demand and resulting blockage remain a user-reported lead; neither verified nor disproved by the older budget.",
+          "The precise City staff decision and legal basis requiring an operational service provider are not identified in the inspected report; community stewardship eligibility was not resolved.",
+          "Actual City disbursements to Hope, pass-through to TVS, unpaid builder costs, unspent balances and a transfer/re-award decision remain unverified.",
+          "Older operator appointments and opening announcements do not establish the current operator or usable capacity. Missing replacement records do not establish absence.",
+          "Formal safeguards, proposed service staffing and an insurance statement do not establish actual resident protection or successful admission.",
+          "The 2026 staff report and attachment disagree on grant term. The attachment retains a mixed-period 2025 startup budget; no annualization or current per-bed rate is derived."
+        ],
+        "rest_until": "Separately reviewed current quote and funding-transition material arrives.",
+        "safeguard_id": "SG-RICHMOND-OPERATING-GATES",
+        "scope": "Richmond Tiny House Village, 175 23rd Street / 2200 Bissell Avenue: community-created capacity, provider requirements and funding custody; no resident dossier or current legal adjudication.",
+        "title": "Operating requirements and funding control: protection in practice unknown"
+      },
+      "sequence": 2
+    },
+    {
+      "actor": "Work Aiden; correction after richmond_structure_review",
+      "entry_sha256": "c1f292c06281aa7a485d9d713ba7bbcf4f6a17b745165b1182f8890925c2f512",
+      "expected_revision": 2,
+      "previous_entry_sha256": "1af3ffae033e826068ae9ab00ef0b40d46bb722823e42db232b96d0f21a64b77",
+      "reason": "Append source-locator correction without rewriting earlier evidence or review history",
+      "recorded_at": "2026-10-24T18:24:20.014432+00:00",
+      "safeguard": {
+        "contrary_evidence": [
+          {
+            "claim": "The City proposal included capital reimbursement and accepted in-kind matching support; routing through an operator does not by itself establish that builders were denied all funding or that money was retained improperly.",
+            "evidence_ids": [
+              "RT-GRANT-CUSTODY",
+              "RT-GRANT-AMOUNTS"
+            ]
+          },
+          {
+            "claim": "Hope was historically appointed, and opening publicity may repeat that identity. Such statements cannot settle the user-reported later operator change or current cost barrier.",
+            "evidence_ids": [
+              "RT-SERVICES"
+            ]
+          },
+          {
+            "claim": "A smaller mixed-period historical budget neither disproves a higher current proposal nor verifies it. Terms and scope must match before comparing.",
+            "evidence_ids": [
+              "RT-STARTUP-BUDGET",
+              "RT-TERM-CONFLICT"
+            ]
+          },
+          {
+            "claim": "Developer/press opening statements are retained as contrary context; variable or stale page wording and repeated Hope identification do not authenticate a current operator or occupancy.",
+            "evidence_ids": [
+              "RT-DEVELOPER-PAGE",
+              "RT-OPENING-REPORT"
+            ]
+          },
+          {
+            "claim": "RT-TERM-CONFLICT’s earlier Section 1.4 locator is superseded by Section 1.2, PDF p.3. The retained report/attachment term discrepancy remains unresolved.",
+            "evidence_ids": [
+              "RT-TERM-LOCATOR-CORRECTION"
+            ]
+          }
+        ],
+        "effectiveness": {
+          "claim": "No dated evidence here establishes that these requirements prevented harm or enabled sustained access.",
+          "evidence_ids": [],
+          "status": "unknown"
+        },
+        "event_refs": [
+          "E-RICHMOND-SERVICES-2024",
+          "E-RICHMOND-NOV-2024",
+          "E-RICHMOND-JAN-2025",
+          "E-RICHMOND-APR-2026",
+          "E-RICHMOND-GRANT-2026"
+        ],
+        "evidence": [
+          {
+            "citations": [
+              {
+                "locator": "PDF p.2",
+                "source_ref": "S-RICHMOND-NOV-2024"
+              }
+            ],
+            "claim": "The November council report says City staff required TVS to obtain an operational service-provider agreement to get the permit. It does not identify the imposing staffer or legal basis.",
+            "effect": null,
+            "event_refs": [
+              "E-RICHMOND-NOV-2024"
+            ],
+            "evidence_id": "RT-PROVIDER-GATE",
+            "kind": "formal_text",
+            "limits": "Historical public instrument or reported account; see source access and execution limitations. No current service, payment, motive or protective result follows.",
+            "period": {
+              "end": "2024-11-26",
+              "note": "Dated source statement/requirement, not a current operating observation.",
+              "start": "2024-11-26"
+            }
+          },
+          {
+            "citations": [
+              {
+                "locator": "PDF pp.1,3–4",
+                "source_ref": "S-RICHMOND-NOV-2024"
+              }
+            ],
+            "claim": "The November recommendation sought a $300,000 agreement with TVS: $166,332 operating startup and $133,668 construction. Sponsors were Gayle McLaughlin, Claudia Jimenez and Doria Robinson.",
+            "effect": null,
+            "event_refs": [
+              "E-RICHMOND-NOV-2024"
+            ],
+            "evidence_id": "RT-TVS-PROPOSAL",
+            "kind": "context",
+            "limits": "Historical public instrument or reported account; see source access and execution limitations. No current service, payment, motive or protective result follows.",
+            "period": {
+              "end": "2024-11-26",
+              "note": "Dated source statement/requirement, not a current operating observation.",
+              "start": "2024-11-26"
+            }
+          },
+          {
+            "citations": [
+              {
+                "locator": "PDF pp.1–2",
+                "source_ref": "S-RICHMOND-JAN-2025"
+              }
+            ],
+            "claim": "The January recommendation directed staff toward agreements with Hope Solutions. The named council sponsors remain distinct from staff who imposed permitting requirements; this is not motive evidence.",
+            "effect": null,
+            "event_refs": [
+              "E-RICHMOND-JAN-2025"
+            ],
+            "evidence_id": "RT-HOPE-PROPOSAL",
+            "kind": "context",
+            "limits": "Historical public instrument or reported account; see source access and execution limitations. No current service, payment, motive or protective result follows.",
+            "period": {
+              "end": "2025-01-07",
+              "note": "Dated source statement/requirement, not a current operating observation.",
+              "start": "2025-01-07"
+            }
+          },
+          {
+            "citations": [
+              {
+                "locator": "Sections 1–2,20,25(c),28–29; PDF pp.1,5,7–8",
+                "source_ref": "S-RICHMOND-SERVICES-2024"
+              }
+            ],
+            "claim": "TVS appointed Hope for property management/supportive services for nominal calendar 2025. TVS consent is required for assignment/subcontracting; amendments need both parties. The termination clause contains thirty (60) days.",
+            "effect": null,
+            "event_refs": [
+              "E-RICHMOND-SERVICES-2024"
+            ],
+            "evidence_id": "RT-SERVICES",
+            "kind": "formal_text",
+            "limits": "Historical public instrument or reported account; see source access and execution limitations. No current service, payment, motive or protective result follows.",
+            "period": {
+              "end": "2024-10-03",
+              "note": "Dated source statement/requirement, not a current operating observation.",
+              "start": "2024-10-03"
+            }
+          },
+          {
+            "citations": [
+              {
+                "locator": "PDF pp.1–3",
+                "source_ref": "S-RICHMOND-APR-2026"
+              }
+            ],
+            "claim": "April staff report attributes the expired prior grant term to time obtaining required insurance and says insurance is now in place. Separate leases were anticipated before occupancy.",
+            "effect": null,
+            "event_refs": [
+              "E-RICHMOND-APR-2026"
+            ],
+            "evidence_id": "RT-INSURANCE",
+            "kind": "agency_response",
+            "limits": "Historical public instrument or reported account; see source access and execution limitations. No current service, payment, motive or protective result follows.",
+            "period": {
+              "end": "2026-04-28",
+              "note": "Dated source statement/requirement, not a current operating observation.",
+              "start": "2026-04-28"
+            }
+          },
+          {
+            "citations": [
+              {
+                "locator": "Sections 1.1,2.1–2.3,4.1; Exhibit A",
+                "source_ref": "S-RICHMOND-GRANT-2026"
+              }
+            ],
+            "claim": "The posted City grant names Hope as grantee and TVS as subcontractor. Grantee submits invoices for eligible capital and operating costs; payments are reimbursements. Unused funds revert to City; no automatic portability to a replacement is established.",
+            "effect": null,
+            "event_refs": [
+              "E-RICHMOND-GRANT-2026"
+            ],
+            "evidence_id": "RT-GRANT-CUSTODY",
+            "kind": "formal_text",
+            "limits": "Historical public instrument or reported account; see source access and execution limitations. No current service, payment, motive or protective result follows.",
+            "period": {
+              "end": "2026-04-28",
+              "note": "Dated source statement/requirement, not a current operating observation.",
+              "start": "2026-04-28"
+            }
+          },
+          {
+            "citations": [
+              {
+                "locator": "Sections 3.2,4.1,5.20; Exhibit B",
+                "source_ref": "S-RICHMOND-GRANT-2026"
+              }
+            ],
+            "claim": "The posted grant permits City termination, requires cost documentation, lets the City Project Manager approve requested budget modifications up to the ceiling, and requires written signed amendments. These are proposed controls, not observed enforcement.",
+            "effect": null,
+            "event_refs": [
+              "E-RICHMOND-GRANT-2026"
+            ],
+            "evidence_id": "RT-CITY-CONTROL",
+            "kind": "formal_text",
+            "limits": "Historical public instrument or reported account; see source access and execution limitations. No current service, payment, motive or protective result follows.",
+            "period": {
+              "end": "2026-04-28",
+              "note": "Dated source statement/requirement, not a current operating observation.",
+              "start": "2026-04-28"
+            }
+          },
+          {
+            "citations": [
+              {
+                "locator": "PDF pp.2–3",
+                "source_ref": "S-RICHMOND-APR-2026"
+              }
+            ],
+            "claim": "April staff propose $300,000: $103,000 capital and $197,000 operations, paid on reimbursement. The City contribution is not the full operating budget and is not verified as disbursed.",
+            "effect": null,
+            "event_refs": [
+              "E-RICHMOND-APR-2026"
+            ],
+            "evidence_id": "RT-GRANT-AMOUNTS",
+            "kind": "context",
+            "limits": "Historical public instrument or reported account; see source access and execution limitations. No current service, payment, motive or protective result follows.",
+            "period": {
+              "end": "2026-04-28",
+              "note": "Dated source statement/requirement, not a current operating observation.",
+              "start": "2026-04-28"
+            }
+          },
+          {
+            "citations": [
+              {
+                "locator": "Exhibit B, PDF p.21",
+                "source_ref": "S-RICHMOND-GRANT-2026"
+              }
+            ],
+            "claim": "Exhibit B prints $275,132 for calendar-2025 startup, labelled six months operating expenses and nine months salaries: $119,233 personnel, $6,300 program, $124,587 operating and $25,012 overhead. The table is historical, internally imperfect and not a current annual demand.",
+            "effect": null,
+            "event_refs": [
+              "E-RICHMOND-GRANT-2026"
+            ],
+            "evidence_id": "RT-STARTUP-BUDGET",
+            "kind": "context",
+            "limits": "Historical public instrument or reported account; see source access and execution limitations. No current service, payment, motive or protective result follows.",
+            "period": {
+              "end": "2026-04-28",
+              "note": "Dated source statement/requirement, not a current operating observation.",
+              "start": "2026-04-28"
+            }
+          },
+          {
+            "citations": [
+              {
+                "locator": "Section 1.4; compare S-RICHMOND-APR-2026 PDF pp.2–3",
+                "source_ref": "S-RICHMOND-GRANT-2026"
+              }
+            ],
+            "claim": "The April report requests Apr 1 2026–Dec 31 2027, while the posted unsigned grant gives Mar 1 2026–Feb 28 2027. No executed correction was obtained.",
+            "effect": null,
+            "event_refs": [
+              "E-RICHMOND-GRANT-2026"
+            ],
+            "evidence_id": "RT-TERM-CONFLICT",
+            "kind": "context",
+            "limits": "Historical public instrument or reported account; see source access and execution limitations. No current service, payment, motive or protective result follows.",
+            "period": {
+              "end": "2026-04-28",
+              "note": "Dated source statement/requirement, not a current operating observation.",
+              "start": "2026-04-28"
+            }
+          },
+          {
+            "citations": [
+              {
+                "locator": "lines26–49 target,55–58 creation,80–88 timeline,132–134 modal",
+                "source_ref": "S-RICHMOND-DEVELOPER-STATUS"
+              }
+            ],
+            "claim": "The project page retrieved by the Bee still showed a July 2026 move-in target and a grand-opening prompt; another search snapshot showed September opened wording. No source-version chronology or occupancy record is established.",
+            "effect": null,
+            "event_refs": [],
+            "evidence_id": "RT-DEVELOPER-PAGE",
+            "kind": "context",
+            "limits": "Search-service mediated retrieval; no complete origin HTTP receipt. Retrieved page still labels July2026 target move-in, also displays grand-opening modal. Neither proves current occupancy. Other search snapshots may show a different version; no origin version chronology established. Exact search-tool retrieval timestamp was not retained; report creation time is not substituted.",
+            "period": {
+              "end": "2026-10-24",
+              "note": "Publication date, or retrieval day where page date is unknown; not an operating observation.",
+              "start": "2026-10-24"
+            }
+          },
+          {
+            "citations": [
+              {
+                "locator": "Opening coverage; attributed Bee summary S-RT09",
+                "source_ref": "S-RICHMOND-OPENING-REPORT"
+              }
+            ],
+            "claim": "August 19 opening coverage identified Hope as planned operator; subsequent republication does not independently verify present staffing or an unchanged arrangement.",
+            "effect": null,
+            "event_refs": [],
+            "evidence_id": "RT-OPENING-REPORT",
+            "kind": "context",
+            "limits": "Search-service text only. Announced operating roles; no new documentary verification of current operator. PostNewsGroup Sep14 and SFist Sep30 repeat related material, not independent confirmation. Full copyrighted article not published. Exact search-tool retrieval timestamp was not retained; report creation time is not substituted.",
+            "period": {
+              "end": "2026-08-19",
+              "note": "Publication date, or retrieval day where page date is unknown; not an operating observation.",
+              "start": "2026-08-19"
+            }
+          },
+          {
+            "citations": [
+              {
+                "locator": "Section 1.2, PDF p.3",
+                "source_ref": "S-RICHMOND-GRANT-2026"
+              }
+            ],
+            "claim": "Locator correction to RT-TERM-CONFLICT: the posted grant term is in Section 1.2, PDF p.3, not Section 1.4. The substantive date mismatch remains; earlier evidence and review entries are retained.",
+            "effect": null,
+            "event_refs": [],
+            "evidence_id": "RT-TERM-LOCATOR-CORRECTION",
+            "kind": "context",
+            "limits": "Corrects the locator only. Does not authenticate execution, resolve the term conflict or establish current operation.",
+            "period": {
+              "end": "2026-10-24",
+              "note": "Coordinator review correction date, not a new contract or operating event.",
+              "start": "2026-10-24"
+            }
+          }
+        ],
+        "evidence_cutoff": "2026-10-24",
+        "failure": {
+          "claim": "Reported financial blockage and a historical staff-described delay do not establish unlawful exclusion, misappropriation or a failed protective intervention.",
+          "evidence_ids": [],
+          "status": "unknown"
+        },
+        "formal": {
+          "claim": "Historical provider, insurance, service and invoice controls are documented; current legal necessity and operative terms require separate verification.",
+          "evidence_ids": [
+            "RT-PROVIDER-GATE",
+            "RT-SERVICES",
+            "RT-GRANT-CUSTODY",
+            "RT-CITY-CONTROL"
+          ],
+          "status": "documented"
+        },
+        "next_test": {
+          "max_records": 1,
+          "question": "Which current replacement-operator decision packet identifies the itemized asking price, the legal basis and decisionmaker for required services, and the City-approved disposition of unspent grant funds or builder reimbursements if the operator changes?",
+          "required_record": "One current replacement-operator and grant-transition decision packet with priced scope, approvals and payment/balance disposition.",
+          "status": "proposed_only",
+          "stop_condition": "Classify that one packet; no private resident files, expanded campaign or records request sent.",
+          "supports_if": "The packet ties a priced requirement and fund-control decision to the inability to appoint a replacement or fund community operation.",
+          "weakens_if": "The terms permit funded community operation, a different verified obstacle controls opening, or the quote cannot be authenticated; preserve contrary findings."
+        },
+        "operational": {
+          "authority": {
+            "claim": "Historical contracting and modification roles are identified; current exercised approval and funding-transfer authority remain unverified.",
+            "evidence_ids": [
+              "RT-HOPE-PROPOSAL",
+              "RT-CITY-CONTROL"
+            ],
+            "status": "unknown"
+          },
+          "people": {
+            "claim": "Current operator, available staff and community management eligibility are unverified.",
+            "evidence_ids": [
+              "RT-SERVICES",
+              "RT-STARTUP-BUDGET"
+            ],
+            "status": "unknown"
+          },
+          "procedures": {
+            "claim": "Invoice and service processes are specified; actual use and accessible resident protections are not established.",
+            "evidence_ids": [
+              "RT-GRANT-CUSTODY",
+              "RT-CITY-CONTROL"
+            ],
+            "status": "unknown"
+          }
+        },
+        "ordinary_explanations": [
+          {
+            "claim": "Specialist services, supervision, insurance and fixed staffing costs may matter even at small sites. Whether each current requirement is necessary or proportionate needs its actual written basis and priced scope.",
+            "evidence_ids": [
+              "RT-SERVICES",
+              "RT-STARTUP-BUDGET"
+            ]
+          },
+          {
+            "claim": "The operator may have been used as the accountable grantee for reporting and reimbursement. This is a possible explanation; the record does not establish why the recipient changed or whether TVS could meet the conditions.",
+            "evidence_ids": [
+              "RT-TVS-PROPOSAL",
+              "RT-HOPE-PROPOSAL",
+              "RT-GRANT-CUSTODY"
+            ]
+          },
+          {
+            "claim": "Community management with separately purchased specialist support, a shared administrator, or an amended grantee arrangement are alternatives to test, not authorized or funded replacements.",
+            "evidence_ids": [
+              "RT-CITY-CONTROL",
+              "RT-SERVICES"
+            ]
+          }
+        ],
+        "residuals": [
+          "No current replacement-operator priced proposal, signed replacement agreement, actual staff roster or dated occupancy record was obtained.",
+          "The roughly $1 million annual demand and resulting blockage remain a user-reported lead; neither verified nor disproved by the older budget.",
+          "The precise City staff decision and legal basis requiring an operational service provider are not identified in the inspected report; community stewardship eligibility was not resolved.",
+          "Actual City disbursements to Hope, pass-through to TVS, unpaid builder costs, unspent balances and a transfer/re-award decision remain unverified.",
+          "Older operator appointments and opening announcements do not establish the current operator or usable capacity. Missing replacement records do not establish absence.",
+          "Formal safeguards, proposed service staffing and an insurance statement do not establish actual resident protection or successful admission.",
+          "The 2026 staff report and attachment disagree on grant term. The attachment retains a mixed-period 2025 startup budget; no annualization or current per-bed rate is derived."
+        ],
+        "rest_until": "Separately reviewed current quote and funding-transition material arrives.",
+        "safeguard_id": "SG-RICHMOND-OPERATING-GATES",
+        "scope": "Richmond Tiny House Village, 175 23rd Street / 2200 Bissell Avenue: community-created capacity, provider requirements and funding custody; no resident dossier or current legal adjudication.",
+        "title": "Operating requirements and funding control: protection in practice unknown"
+      },
+      "sequence": 3
+    }
+  ],
+  "references_sha256": "dca607a99845c392372aa95a54437bafe59ac880f2679b2f179819ef43e012c6",
+  "schema_sha256": "0b1847ead2aad9510195705dae9b0a8dd1c31baf7edf9c77d957f7e65fb40b04",
+  "version": "safeguard-journal-1"
+}

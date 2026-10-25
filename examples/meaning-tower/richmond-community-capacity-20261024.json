@@ -1,0 +1,204 @@
+{
+  "actor": {
+    "model": "unknown",
+    "name": "Work Aiden",
+    "runtime": "Supplied public-record comparison after bounded Work-session Bee research"
+  },
+  "boss_id": "THE-UNRESOLVED",
+  "comparison": {
+    "kind": "official_notice_and_summary",
+    "limitations": [
+      "This is one grant-transaction family, not independent corroboration.",
+      "The roughly $1 million annual replacement demand remains a user-reported lead.",
+      "Q-RICHMOND-OPERATIONS holds the underlying community-capacity inquiry; this packet uses the existing Translation Boss contract."
+    ],
+    "ordinary_explanations": [
+      "A draft attachment may retain older dates or budget exhibits; the executed instrument is needed to resolve this.",
+      "Reimbursement controls may support accountability while requiring someone to carry costs before payment; whether this is the current barrier is unverified."
+    ],
+    "summary": "The April 2026 City grant attachment and its staff summary both name Hope Solutions and describe a $300,000 reimbursement grant. The summary requests a later end date than the unsigned attachment. Neither establishes current replacement pricing, money received by the builders or occupied homes."
+  },
+  "created_at": "2026-10-24T12:13:14.198066+00:00",
+  "cross": {
+    "bridge": [
+      "Obtain the current priced replacement proposal and City grant-transition decision, then distinguish available money from authorization and actual payment. No request has been sent."
+    ],
+    "independent": [],
+    "inherited": [
+      "RICHMOND-APR-2026",
+      "RICHMOND-GRANT-2026"
+    ]
+  },
+  "epoch": 1,
+  "packet_id": "RICHMOND-CAPACITY-20261024-1",
+  "packet_status": "evidence_backed",
+  "power_candidate": null,
+  "question_id": "Q-MEANING-TRANSLATION-BOSS",
+  "rounds": [
+    {
+      "context": "The staff summary and grant attachment agree on reimbursement. That does not show money reached the builders or is portable to another operator.",
+      "id": "RT-GRANT-CONTROL",
+      "kind": "control",
+      "originals": [
+        {
+          "english_pivot": "Original English excerpt; read with the retained instrument and its limits.",
+          "source_id": "RICHMOND-APR-2026",
+          "text": "These funds will be paid on a reimbursement basis."
+        },
+        {
+          "english_pivot": "Original English excerpt; read with the retained instrument and its limits.",
+          "source_id": "RICHMOND-GRANT-2026",
+          "text": "Grant funds will be disbursed on a reimbursement basis."
+        }
+      ],
+      "pieces": [
+        {
+          "evidence_status": "source_statement",
+          "id": "RT-AWARD",
+          "note": "The historical packet describes $300,000 split between capital and operating costs. It is not a verified payment.",
+          "source_refs": [
+            "RICHMOND-APR-2026",
+            "RICHMOND-GRANT-2026"
+          ],
+          "text": "A proposed grant"
+        },
+        {
+          "evidence_status": "question",
+          "id": "RT-CASH",
+          "note": "Which dated transaction shows receipt, builder repayment and a balance available for a replacement?",
+          "source_refs": [
+            "RICHMOND-APR-2026",
+            "RICHMOND-GRANT-2026"
+          ],
+          "text": "Who can use the money?"
+        },
+        {
+          "evidence_status": "inference",
+          "id": "RT-WORKING-CASH",
+          "note": "A reimbursement structure can require working cash. The present cash position is not established.",
+          "source_refs": [
+            "RICHMOND-APR-2026",
+            "RICHMOND-GRANT-2026"
+          ],
+          "text": "Who carries costs first?"
+        }
+      ],
+      "prompt": "What must stay visible when someone says the village received funding?",
+      "title": "An award and money in hand"
+    },
+    {
+      "context": "The posted grant gives its Project Manager a budget-approval role, within the disbursement limit. That is not proof of an approved grantee change or money available to community management.",
+      "id": "RT-FUND-CONTROL",
+      "kind": "residual",
+      "originals": [
+        {
+          "english_pivot": "Original English excerpt; read with the retained instrument and its limits.",
+          "source_id": "RICHMOND-GRANT-2026",
+          "text": "The Program Budget can be modified"
+        }
+      ],
+      "pieces": [
+        {
+          "evidence_status": "source_statement",
+          "id": "RT-APPROVAL",
+          "note": "Exhibit B requires the grantee’s written request and City Project Manager approval for budget modification. Other amendments require written agreement.",
+          "source_refs": [
+            "RICHMOND-GRANT-2026"
+          ],
+          "text": "A named approval route"
+        },
+        {
+          "evidence_status": "question",
+          "id": "RT-STEWARDSHIP",
+          "note": "What objective service, coverage and reporting requirements could a community-led operator satisfy?",
+          "source_refs": [
+            "RICHMOND-GRANT-2026"
+          ],
+          "text": "Can the community qualify?"
+        },
+        {
+          "evidence_status": "unknown",
+          "id": "RT-PORTABILITY",
+          "note": "Whether funds can be reassigned, re-awarded or paid to builders under current terms remains unresolved.",
+          "source_refs": [
+            "RICHMOND-APR-2026",
+            "RICHMOND-GRANT-2026"
+          ],
+          "text": "Funds after withdrawal"
+        }
+      ],
+      "prompt": "What should be tested before accepting an operating gate as unavoidable?",
+      "title": "Who can change the arrangement?"
+    },
+    {
+      "context": "An April staff statement that insurance was in place describes a historical condition. Current operator, replacement price and usable capacity need current records. Physical readiness and delivered care remain separate.",
+      "id": "RT-OPEN-DOORS",
+      "kind": "question",
+      "originals": [
+        {
+          "english_pivot": "Original English excerpt; read with the retained instrument and its limits.",
+          "source_id": "RICHMOND-APR-2026",
+          "text": "All required insurance is now in place"
+        }
+      ],
+      "pieces": [
+        {
+          "evidence_status": "question",
+          "id": "RT-PRICE",
+          "note": "Obtain the current quote: period, staffing, services, overhead, required versus optional costs and who approved them.",
+          "source_refs": [],
+          "text": "The itemized demand"
+        },
+        {
+          "evidence_status": "question",
+          "id": "RT-GATE-REASON",
+          "note": "Identify who imposed each requirement, its legal basis, the harm it addresses and less costly ways to satisfy it.",
+          "source_refs": [],
+          "text": "The reason for the gate"
+        },
+        {
+          "evidence_status": "unknown",
+          "id": "RT-REAL-ACCESS",
+          "note": "A dated staffing and occupancy record is needed to establish usable shelter; announcements do not suffice.",
+          "source_refs": [
+            "RICHMOND-APR-2026",
+            "RICHMOND-GRANT-2026"
+          ],
+          "text": "People actually housed"
+        }
+      ],
+      "prompt": "Which missing connection would most help the community act?",
+      "title": "From completed work to usable shelter"
+    }
+  ],
+  "schema_version": "meaning-tower-boss-packet-1",
+  "source_ledger": [
+    {
+      "access_limitations": [
+        "Historical staff account: insurance delayed execution and was then reportedly in place. Proposed Apr 2026–Dec 2027 term differs from the attached draft. Promised reimbursement is not a payment receipt.",
+        "No current operating observation date; these are historical public documents."
+      ],
+      "language": "en",
+      "observation_date": null,
+      "publication_date": "2026-04-28",
+      "retrieved_at": "2026-10-24T11:56:22.940860+00:00",
+      "source_id": "RICHMOND-APR-2026",
+      "title": "Staff report: renewed grant agreement for Tiny House Village",
+      "url": "https://pub-richmond.escribemeetings.com/filestream.ashx?DocumentId=61104"
+    },
+    {
+      "access_limitations": [
+        "Blank execution date/signatures; attachment says Mar 2026–Feb 2027, unlike staff report. Exhibit B retains a 2025 startup budget with mixed periods and arithmetic/annotation ambiguities. Not a current quote, executed award or payment record.",
+        "No current operating observation date; these are historical public documents."
+      ],
+      "language": "en",
+      "observation_date": null,
+      "publication_date": "2026-04-28",
+      "retrieved_at": "2026-10-24T11:57:37.405926+00:00",
+      "source_id": "RICHMOND-GRANT-2026",
+      "title": "Posted grant attachment and startup budget",
+      "url": "https://pub-richmond.escribemeetings.com/filestream.ashx?DocumentId=61105"
+    }
+  ],
+  "title": "Built by the community: who can open the doors?"
+}

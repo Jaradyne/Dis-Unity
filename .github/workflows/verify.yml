@@ -49,6 +49,10 @@ jobs:
         run: python scripts/shelter_accountability.py check
       - name: Verify the bounded Campus Motel packet without network
         run: python scripts/campus_motel.py check
+      - name: Verify community-capacity replay and Meaning packet without network
+        run: |
+          python scripts/community_capacity.py check
+          node tests/test_community_capacity_ui.js
       - name: Verify portable encounter is reproducible
         run: |
           python scripts/build_meaning_tower.py

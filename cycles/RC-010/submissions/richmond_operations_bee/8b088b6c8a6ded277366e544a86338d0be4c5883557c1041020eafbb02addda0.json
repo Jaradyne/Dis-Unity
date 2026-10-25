@@ -1,0 +1,619 @@
+{
+  "agent": "richmond_operations_bee",
+  "at": "2026-10-24T12:15:03.446775+00:00",
+  "base_hash": "16d04f8bb35a588caca60517f90a11944cfbafac7951402d059a6d6131de97b7",
+  "cycle_id": "RC-010",
+  "payload": {
+    "agent": "richmond_operations_bee",
+    "base_commit": "f243e11686de5597610a22ee86eef1674bf8da9b",
+    "counterevidence_and_alternatives": [
+      "Historical budgets are below $1 million per year but cannot refute a later replacement quote with different scope.",
+      "City provided land and proposed capital/operations funding; documents recognize volunteer labor and in-kind matching contributions. This constrains a blanket claim that community self-help is prohibited.",
+      "Grantee/subcontractor arrangements are contemplated. Split community maintenance and specialist case/crisis services could be tested with comparable priced proposals; eligibility, approval, savings and staffing capacity remain unverified.",
+      "Some formal requirements address habitability, emergency response and accountability; their existence does not establish necessity, proportionality or observed effectiveness.",
+      "The opening-announcement stream and developer page do not verify current staffing, occupancy or executed agreements."
+    ],
+    "created_at": "2026-10-24T12:13:23.488522+00:00",
+    "cycle_id": "RC-010",
+    "epoch": 1,
+    "evidence_cutoff": "2026-10-24",
+    "findings": [
+      {
+        "claim": "November2024 report says City staff required an operational service-provider agreement for the permit. It does not identify the imposing staff member, precise legal/permit basis, or whether an eligible community operator could qualify.",
+        "id": "RT-F01",
+        "locator": "p2",
+        "source_refs": [
+          "S-RT01"
+        ],
+        "status": "documented_source_statement"
+      },
+      {
+        "claim": "TVS selected/appointed Hope as exclusive operations agent. The supportive-services contract assigns management plus case coordination,24hour emergency response and three days per week on-site casework; it does not state a$1million annual fee.",
+        "id": "RT-F02",
+        "locator": "Jan2025p2; services agreement§§1,3–17,20",
+        "source_refs": [
+          "S-RT02",
+          "S-RT03"
+        ],
+        "status": "documented_historical_arrangement"
+      },
+      {
+        "claim": "Nov2024 report requested an agreement with TVS; Jan2025 report requested the funding contract with Hope. April2026 grant materials name Hope as City grantee and TVS as subcontractor. This verifies proposed funding custody, not cash transferred or a current irrevocable lock.",
+        "id": "RT-F03",
+        "locator": "Novp1;Janp1;Aprreportpp1–3;attachmentcover,ExhibitA",
+        "source_refs": [
+          "S-RT01",
+          "S-RT02",
+          "S-RT04",
+          "S-RT05"
+        ],
+        "status": "documented_proposal_change"
+      },
+      {
+        "claim": "April2026 staff attributed the previous grant agreement expiring before execution to obtaining required insurance, and stated all required insurance was then in place. This is dated staff attribution, not proof of the present replacement-price cause.",
+        "id": "RT-F04",
+        "locator": "pp1–3",
+        "source_refs": [
+          "S-RT04"
+        ],
+        "status": "documented_staff_explanation"
+      },
+      {
+        "claim": "The$300000City contribution is split into$103000capital and$197000operating reimbursement. Invoices must substantiate eligible costs, hours and rates. Remaining funds and unspent advances return to City; the attachment does not establish actual payments, TVS cash balance or an automatically portable award.",
+        "id": "RT-F05",
+        "locator": "reportp3;attachment§§2.1–2.3,4.1.B.4,4.1.C.2,4.1.C.8–10",
+        "source_refs": [
+          "S-RT04",
+          "S-RT05"
+        ],
+        "status": "documented_draft_terms"
+      },
+      {
+        "claim": "April report seeks Apr1 2026–Dec31 2027; attachmentcover/§1.2 say Mar1 2026–Feb28 2027; reporting/close-out period is Apr1 2026–Mar31 2027. ExhibitA describes calendar2026startup but ExhibitB labels calendar2025. Executed controlling version remains unknown.",
+        "id": "RT-F06",
+        "locator": "reportpp2–3;attachmentpp1,3,6,15,21",
+        "source_refs": [
+          "S-RT04",
+          "S-RT05"
+        ],
+        "status": "unresolved_document_conflict"
+      },
+      {
+        "claim": "No qualifying dated replacement-operator quote, termination notice, current signed operating agreement, current paid invoice or verified occupancy count was located within this bounded pass. Absence from this search does not show absence of these records. The roughly$1million annual replacement-price barrier remains the user-reported lead.",
+        "id": "RT-F07",
+        "locator": "search scope/log and user task clarification",
+        "source_refs": [],
+        "status": "unknown_current_record"
+      },
+      {
+        "claim": "Historical services contract needs TVS consent for assignment/subcontracting and both parties signatures for amendment. Convenience termination clause literally says thirty(60)days, an unresolved wording mismatch. Proposed City budget changes need grantee written request and City Project Manager approval within the cap; other grant amendments/waivers need written authorized signatures.",
+        "id": "RT-F08",
+        "locator": "services§§25(c),28–29;grantExhibitB,§§5.18,5.20",
+        "source_refs": [
+          "S-RT03",
+          "S-RT05"
+        ],
+        "status": "documented_change_controls_with_ambiguity"
+      },
+      {
+        "claim": "Routing reimbursement through an operator can make community-built facilities depend on that operator or an approved funding change, even when the physical homes exist. Current cash availability, grant transferability and whether this is the operative bottleneck need records; neither theft nor justified pricing follows from the structure.",
+        "id": "RT-F09",
+        "locator": "derived from named grantee, reimbursement and matching-fund terms",
+        "source_refs": [
+          "S-RT04",
+          "S-RT05"
+        ],
+        "status": "inference_to_test"
+      }
+    ],
+    "gates": [
+      {
+        "current_status": "unknown controlling executed package and occupancy authorization",
+        "formal": "City-owned land, RPAL/TVS lease chain, permits; April report anticipates separateleases before occupancy",
+        "gate": "Land-use/occupancy authority",
+        "source_refs": [
+          "S-RT01",
+          "S-RT02",
+          "S-RT04",
+          "S-RT06"
+        ]
+      },
+      {
+        "current_status": "unknown replacement/community eligibility and exact authority for condition",
+        "formal": "City staff required service-provider agreement; TVS appointedHope",
+        "gate": "Operator eligibility",
+        "source_refs": [
+          "S-RT01",
+          "S-RT03"
+        ]
+      },
+      {
+        "current_status": "April staff says insurance obtained then; currentreplacement premiums/coverage unknown",
+        "formal": "services contract general/professional/auto/workers requirements; Citygrant insuranceexhibit",
+        "gate": "Insurance and liability",
+        "source_refs": [
+          "S-RT03",
+          "S-RT04",
+          "S-RT05"
+        ]
+      },
+      {
+        "current_status": "formal services exist in instruments; staffedshifts/deliveredservices/outcomes not established",
+        "formal": "on-site residentmanager,casework3days/week,24hour emergencyresponse,maintenance,HMIS,referrals",
+        "gate": "Staffing and actual delivery",
+        "source_refs": [
+          "S-RT03",
+          "S-RT05"
+        ]
+      },
+      {
+        "current_status": "currentprice/paymentbalance/builderscash/portablefunds unknown",
+        "formal": "Hope Citygrantee; TVS subcontractor; reimbursement andmatchdocumentation; Cityapproval forchanges",
+        "gate": "Money and funding custody",
+        "source_refs": [
+          "S-RT04",
+          "S-RT05"
+        ]
+      }
+    ],
+    "next_question": "For the existing17523rdStreet project, what written City determination states whether the unspent$300000grant can be paid/reassigned to TVS or a replacement operator, and which currently priced service/permit conditions must that successor satisfy? Obtain the operative grant/amendment, remaining-balance/disbursement record and referenced itemized successor proposal supporting that determination.",
+    "other_amounts": [
+      {
+        "not": "annualoperatorfee,actualpaymentorprofit",
+        "period": "proposedgrantApr2026–Dec2027;termconflict",
+        "scope": "103000capital+197000operating",
+        "source_id": "S-RT04",
+        "status": "Citygrantlimit/request;staffreportspriorapproval",
+        "usd": 300000
+      },
+      {
+        "not": "annualoperations",
+        "period": "capitalbudgetupdatedNov1 2024",
+        "scope": "13tinyhousematerialsplusinfrastructure,commonfacilities,management,contingency/admin;excludesin-kindvolunteerlabor",
+        "source_id": "S-RT05",
+        "status": "estimateddevelopmentbudget",
+        "usd": 978912
+      },
+      {
+        "not": "one-yearreplacementquote",
+        "period": "CY2025startup+CY2026+CY2027",
+        "scope": "visiblethree-yearoperatingtotals275132/449421/463662",
+        "source_id": "S-RT07",
+        "status": "2024historicalbudget;visiblepagesonly",
+        "usd": 1163203
+      },
+      {
+        "not": "fullprojectexpenseorcurrentamendedleasecost",
+        "period": "annualhistoricalbaseleaserent",
+        "scope": "CitytoRPALland",
+        "source_id": "S-RT06",
+        "status": "contractualbaserent",
+        "usd": 1
+      },
+      {
+        "not": "documentedfee,payment,salaryorprofit",
+        "period": "reportedlyannual",
+        "scope": "replacementoperatordemand",
+        "source_id": null,
+        "status": "user-reportedlead,unverified",
+        "usd": 1000000
+      }
+    ],
+    "publication_boundary": "Review intake only. No canonical admission or current misconduct finding. Search captures/raw archive exclusions explicit.",
+    "publication_exclusions_ref": "reports/shelter-accountability/richmond-operations-20261024/receipts/richmond_operations_bee/PUBLICATION_EXCLUSIONS.json",
+    "question_id": "Q-RICHMOND-OPERATIONS",
+    "reflection": "The useful boundary is between community capacity already created, formal permission, funding custody and delivered care. Preserve each gate and its actual controller without treating bureaucracy or a quote as proof of corruption.",
+    "research_bounds": {
+      "configured_limits": {
+        "primary_document_opens_or_retrievals": 14,
+        "search_calls": 10
+      },
+      "primary_document_opens_or_retrievals": 13,
+      "search_calls": 7,
+      "stop": "Dated primary material maps permit/provider and funding-custody dependencies. Current price and controlling executed documents remain unresolved; repeated announcements would not resolve them."
+    },
+    "residuals": [
+      "Current itemized replacement-operator quotes and scope; who priced and negotiated them",
+      "Executed current grant, operations and lease package and amendments",
+      "Actual City disbursements, TVS pass-through and unspent balances, and ability to reassign funding",
+      "Specific City official and written source of the provider permit condition; community operator qualification and change authority",
+      "Current staffed capacity, occupancy and delivered service",
+      "Whether a lower-cost or community-led proposal was received, evaluated or refused, and why"
+    ],
+    "responsibility_roles": [
+      {
+        "actor": "Tiny Village Spirit",
+        "basis": "identified Hope and appointed exclusive management agent",
+        "role": "Original provider selection",
+        "scope": "historical, not proof of present operator",
+        "source_refs": [
+          "S-RT02",
+          "S-RT03"
+        ]
+      },
+      {
+        "actor": "City staff (specific imposing official unidentified)",
+        "basis": "councilmember reportp2",
+        "role": "Provider agreement permit gate",
+        "scope": "documented attribution; legal justification and waiver authority not retrieved",
+        "source_refs": [
+          "S-RT01"
+        ]
+      },
+      {
+        "actor": "Councilmember Gayle McLaughlin, Vice Mayor Claudia Jimenez, Councilmember Doria Robinson, in their2024/2025roles",
+        "basis": "Nov2024/Jan2025reportauthors",
+        "role": "Political sponsors of funding request",
+        "scope": "sponsorship not proof they authored permit gate, set current price or received money",
+        "source_refs": [
+          "S-RT01",
+          "S-RT02"
+        ]
+      },
+      {
+        "actor": "Lina Velasco, Community Development Director; Jesus M.Morales, Housing Manager/project manager as named Apr2026",
+        "basis": "Aprreport and grantcover",
+        "role": "Grant recommendation and administration",
+        "scope": "named staff responsibility; no motive or misconduct inference",
+        "source_refs": [
+          "S-RT04",
+          "S-RT05"
+        ]
+      },
+      {
+        "actor": "Richmond City Council",
+        "basis": "April staff recounts Jan7/March25 2025approvals and seeks new approval",
+        "role": "Grant approval",
+        "scope": "actual Apr28vote/minutes not independently retrieved",
+        "source_refs": [
+          "S-RT04"
+        ]
+      },
+      {
+        "actor": "City authorized representatives and Hope; City Project Manager for within-cap budget changes",
+        "basis": "draftsignatureblock andExhibitB/§5.20",
+        "role": "Grant execution/control",
+        "scope": "unsigned attachment; signatureblocknames are not signatures",
+        "source_refs": [
+          "S-RT05"
+        ]
+      },
+      {
+        "actor": "City owner/landlord; RPAL tenant; TVS subtenant per laterreports",
+        "basis": "baselease andAprilreport",
+        "role": "Land",
+        "scope": "current complete amended lease chain not retrieved",
+        "source_refs": [
+          "S-RT03",
+          "S-RT04",
+          "S-RT06"
+        ]
+      }
+    ],
+    "role": "shelter_operations_bee",
+    "runtime": {
+      "children": 0,
+      "execution": "actual Work-session collaboration task",
+      "external_api_model_calls": 0,
+      "outreach": 0,
+      "provider_cost_receipt": "not exposed",
+      "served_model": "not exposed by host"
+    },
+    "schema_version": "richmond-operations-bee-return-1",
+    "search_capture_manifest": [
+      {
+        "path": "/workspace/scratch/63e791c4bf6d/richmond-research-raw/richmond_operations_bee/richmond_bee_developer.json",
+        "publication": "excluded raw search-service capture; may contain unrelated results or full copyrighted text",
+        "sha256": "f8e7a467336059dc70daedbc68bc48a1645866dad3f738abc00a3a068c434e4b"
+      },
+      {
+        "path": "/workspace/scratch/63e791c4bf6d/richmond-research-raw/richmond_operations_bee/richmond_bee_open_rpal.json",
+        "publication": "excluded raw search-service capture; may contain unrelated results or full copyrighted text",
+        "sha256": "c83e8be8931a1a84469ae8a3e0733a3fda50b7ecae24671abe2264236ec1ea4b"
+      },
+      {
+        "path": "/workspace/scratch/63e791c4bf6d/richmond-research-raw/richmond_operations_bee/richmond_bee_search_06.json",
+        "publication": "excluded raw search-service capture; may contain unrelated results or full copyrighted text",
+        "sha256": "a0fcbaaa154d48aadc078d2c79f3f0ab86d699ff0f30c35837f30b25eea1b525"
+      },
+      {
+        "path": "/workspace/scratch/63e791c4bf6d/richmond-research-raw/richmond_operations_bee/richmond_bee_search_07.json",
+        "publication": "excluded raw search-service capture; may contain unrelated results or full copyrighted text",
+        "sha256": "73c5e0b1dbeb6bddb8e531a032af77bc6465e6e46d878345e7c6e80f68f9c348"
+      }
+    ],
+    "sources": [
+      {
+        "access_limitations": "Dated agenda report, not minutes or proof of action. Footer retains template date placeholder.",
+        "date_basis": "Document date; exact public posting time unknown.",
+        "http_status": 200,
+        "lineage_family": "richmond-city-proposal",
+        "material_path": "reports/shelter-accountability/richmond-operations-20261024/receipts/richmond_operations_bee/council-report-2024.pdf",
+        "material_sha256": "bdc10cfb2d8e6b9eb79951038a79a090bf353711acd95eff17b9ba7515f9c874",
+        "observation_date": "2024-11-26",
+        "publication_date": "2024-11-26",
+        "receipt_complete": true,
+        "receipt_path": "reports/shelter-accountability/richmond-operations-20261024/receipts/richmond_operations_bee/operations/week-one/runs/RICHMOND-OPERATIONS-BEE-20261024/api/0006.json",
+        "receipt_sha256": "54b18e121f8a1b7c2cf678ec4eb00b72f8f91cc8c624ec356fb7b3675e41b09b",
+        "retrieved_at": "2026-10-24T12:07:43.903023+00:00",
+        "source_id": "S-RT01",
+        "title": "November 26 2024 Councilmember report: Agreement with Tiny Village Spirit",
+        "url": "https://pub-richmond.escribemeetings.com/filestream.ashx?DocumentId=55672"
+      },
+      {
+        "access_limitations": "Recommendation and description of prior steps, not independently retrieved minutes or payment record.",
+        "date_basis": "Document date; exact public posting time unknown.",
+        "http_status": 200,
+        "lineage_family": "richmond-city-proposal",
+        "material_path": "reports/shelter-accountability/richmond-operations-20261024/receipts/richmond_operations_bee/council-report-2025.pdf",
+        "material_sha256": "906eae589027863888c481baef0d542d5763526616a82112fb70d37af8d61859",
+        "observation_date": "2025-01-07",
+        "publication_date": "2025-01-07",
+        "receipt_complete": true,
+        "receipt_path": "reports/shelter-accountability/richmond-operations-20261024/receipts/richmond_operations_bee/operations/week-one/runs/RICHMOND-OPERATIONS-BEE-20261024/api/0005.json",
+        "receipt_sha256": "344e548b2eb6c0553c3af4095cc02897a9324cb017c6f6773c7641ab494f3d01",
+        "retrieved_at": "2026-10-24T11:57:43.709667+00:00",
+        "source_id": "S-RT02",
+        "title": "January 7 2025 Councilmember report: City contribution to Hope Solutions",
+        "url": "https://pub-richmond.escribemeetings.com/filestream.ashx?DocumentId=56152"
+      },
+      {
+        "access_limitations": "Scanned signed copy inspected by OCR; section25(c) visually checked. Nominal term ends2025; amendments/current execution not retrieved. References an ExhibitA not included in this10page copy.",
+        "date_basis": "Document date; exact public posting time unknown.",
+        "http_status": 200,
+        "lineage_family": "tvs-hope-services-agreement",
+        "material_path": "reports/shelter-accountability/richmond-operations-20261024/receipts/richmond_operations_bee/agreement-2024.pdf",
+        "material_sha256": "3b392104d028eaba3fc81ee9cd4b55cd2e1c059b05bfe37d5b010e619342590b",
+        "observation_date": "2024-10-03",
+        "publication_date": "2024-10-03",
+        "receipt_complete": true,
+        "receipt_path": "reports/shelter-accountability/richmond-operations-20261024/receipts/richmond_operations_bee/operations/week-one/runs/RICHMOND-OPERATIONS-BEE-20261024/api/0001.json",
+        "receipt_sha256": "ca57a61957f55bb31097dac66773b154c6ea815b30061c5ab12b50ae759b735c",
+        "retrieved_at": "2026-10-24T11:56:15.980800+00:00",
+        "source_id": "S-RT03",
+        "title": "Richmond Tiny House Village Supportive Services Agreement",
+        "url": "https://www.richmondca.gov/DocumentCenter/View/76683/Richmond-Tiny-House-Village-Supportive-Services-Agreement-"
+      },
+      {
+        "access_limitations": "Web open returned403; direct recorded HTTP succeeded. Staff report of prior approvals and insurance; no executed grant or disbursement record.",
+        "date_basis": "Document date; exact public posting time unknown.",
+        "http_status": 200,
+        "lineage_family": "richmond-city-grant-2026",
+        "material_path": "reports/shelter-accountability/richmond-operations-20261024/receipts/richmond_operations_bee/grant-report-2026.pdf",
+        "material_sha256": "fb8c4c5d4b1b4ffd97cb3bbe37d58c36fe450f9145c151b622d5c41ac32326c7",
+        "observation_date": "2026-04-28",
+        "publication_date": "2026-04-28",
+        "receipt_complete": true,
+        "receipt_path": "reports/shelter-accountability/richmond-operations-20261024/receipts/richmond_operations_bee/operations/week-one/runs/RICHMOND-OPERATIONS-BEE-20261024/api/0002.json",
+        "receipt_sha256": "983e9b03f1568076972d42fe7e232c43949a034276e3a45d28944154a90713e0",
+        "retrieved_at": "2026-10-24T11:56:20.030359+00:00",
+        "source_id": "S-RT04",
+        "title": "April 28 2026 Community Development staff report: Hope Solutions grant",
+        "url": "https://pub-richmond.escribemeetings.com/filestream.ashx?DocumentId=61104"
+      },
+      {
+        "access_limitations": "Unsigned agenda attachment with blank effective date/signatures, inconsistent term/report periods and old budget label. PDF creation metadata Apr23 2026 is not execution or publication date. ExhibitsF/G referenced as incorporated; complete underlying agreements not present.",
+        "date_basis": "Document date; exact public posting time unknown.",
+        "document_context_date": "2026-04-28",
+        "http_status": 200,
+        "lineage_family": "richmond-city-grant-2026",
+        "material_path": "reports/shelter-accountability/richmond-operations-20261024/receipts/richmond_operations_bee/grant-agreement-2026.pdf",
+        "material_sha256": "9cedbb3f84fb9af73f9c7372de13da6aa11131b5b2d50f1cb17fd774c6f56f05",
+        "observation_date": "2026-04-28",
+        "publication_date": null,
+        "receipt_complete": true,
+        "receipt_path": "reports/shelter-accountability/richmond-operations-20261024/receipts/richmond_operations_bee/operations/week-one/runs/RICHMOND-OPERATIONS-BEE-20261024/api/0003.json",
+        "receipt_sha256": "5ce10ed805be2510f33390cddf0a411fa15c4ea0f19fae10df6709e37b79bb8e",
+        "retrieved_at": "2026-10-24T11:57:28.505570+00:00",
+        "source_id": "S-RT05",
+        "title": "April28 2026 posted grant attachment: Grant Agreement3.12.2026.docx",
+        "url": "https://pub-richmond.escribemeetings.com/filestream.ashx?DocumentId=61105"
+      },
+      {
+        "access_limitations": "Historical base lease;2023amendment and subsequently proposed separate leases not retrieved. Text term/end arithmetic should not be silently repaired.",
+        "date_basis": "Document date; exact public posting time unknown.",
+        "http_status": 200,
+        "lineage_family": "richmond-rpal-lease",
+        "material_path": "reports/shelter-accountability/richmond-operations-20261024/receipts/richmond_operations_bee/rpal-lease-2022.pdf",
+        "material_sha256": "c6f761322e0f954cbb1a41e8d99eb0324a4953a4121089476c2949aba2a457f0",
+        "observation_date": "2022-03-08",
+        "publication_date": "2022-03-08",
+        "receipt_complete": true,
+        "receipt_path": "reports/shelter-accountability/richmond-operations-20261024/receipts/richmond_operations_bee/operations/week-one/runs/RICHMOND-OPERATIONS-BEE-20261024/api/0008.json",
+        "receipt_sha256": "f1fd2da836b3851aa2086e2cc6a7cb11d3e1b6b0ae3a0eec4776f30e3e59a51e",
+        "retrieved_at": "2026-10-24T12:07:54.183898+00:00",
+        "source_id": "S-RT06",
+        "title": "City of Richmond–RPAL Agreement to Lease",
+        "url": "https://www.richmondca.gov/DocumentCenter/View/63520/Richmond-PAL-Lease-Agreement-02162022-Exp-02162031"
+      },
+      {
+        "access_limitations": "Full archive/receipt excluded from public Git; only visible raster excerpts of PDFpp25–26 supplied. Obscured salary cells not used. Budgets are plans, not cash balances or current quotes.",
+        "date_basis": "Document date; exact public posting time unknown.",
+        "http_status": 200,
+        "lineage_family": "tvs-budget-2024",
+        "material_path": "reports/shelter-accountability/richmond-operations-20261024/receipts/richmond_operations_bee/budget-submission-2024.pdf",
+        "material_sha256": "2fe8febd3fe30a21f7f0f01017adb92711c6dfd9340b82144c249ece1257c62d",
+        "observation_date": "2024-10-01",
+        "original_omitted_from_public_packet": true,
+        "public_material_paths": [
+          "reports/shelter-accountability/richmond-operations-20261024/receipts/richmond_operations_bee/visible-excerpts/budget-2024-25.png",
+          "reports/shelter-accountability/richmond-operations-20261024/receipts/richmond_operations_bee/visible-excerpts/budget-2024-26.png"
+        ],
+        "publication_date": "2024-10-01",
+        "receipt_complete": true,
+        "receipt_path": "reports/shelter-accountability/richmond-operations-20261024/receipts/richmond_operations_bee/operations/week-one/runs/RICHMOND-OPERATIONS-BEE-20261024/api/0007.json",
+        "receipt_sha256": "d2193340011627059aeec675137b0df20868fedc2f851673d2b16b5f538e9a81",
+        "retrieved_at": "2026-10-24T12:07:49.013869+00:00",
+        "source_id": "S-RT07",
+        "title": "City archive14256: October1 2024 Tiny Village Spirit budget submission",
+        "url": "https://www.ci.richmond.ca.us/ArchiveCenter/ViewFile/Item/14256"
+      },
+      {
+        "access_limitations": "Search-service mediated retrieval; no complete origin HTTP receipt. Retrieved page still labels July2026 target move-in, also displays grand-opening modal. Neither proves current occupancy. Other search snapshots may show a different version; no origin version chronology established. Exact search-tool retrieval timestamp was not retained; report creation time is not substituted.",
+        "lineage_family": "tvs-project-announcement",
+        "observation_date": null,
+        "publication_date": null,
+        "retrieved_at": null,
+        "retrieved_on": "2026-10-24",
+        "reviewed_portions": "lines26–49 target,55–58 creation,80–88 timeline,132–134 modal",
+        "source_id": "S-RT08",
+        "title": "Tiny Village Spirit Richmond project page",
+        "tool_reference": "turn80view0",
+        "url": "https://www.tinyvillagespirit.org/projects/richmond/"
+      },
+      {
+        "access_limitations": "Search-service text only. Announced operating roles; no new documentary verification of current operator. PostNewsGroup Sep14 and SFist Sep30 repeat related material, not independent confirmation. Full copyrighted article not published. Exact search-tool retrieval timestamp was not retained; report creation time is not substituted.",
+        "lineage_family": "richmond-standard-opening-report",
+        "observation_date": null,
+        "publication_date": "2026-08-19",
+        "retrieved_at": null,
+        "retrieved_on": "2026-10-24",
+        "source_id": "S-RT09",
+        "title": "Richmond Tiny House Village Farm & Garden set to open its gates",
+        "tool_reference": "turn77search1",
+        "url": "https://richmondstandard.com/community/2026/08/19/richmond-tiny-house-village-farm-garden-set-to-open-its-gates/"
+      },
+      {
+        "access_limitations": "Search-service retrieval; directory still lists2025end for supportive-services agreement. Directory absence/update lag does not establish termination or no replacement. Exact search-tool retrieval timestamp was not retained; report creation time is not substituted.",
+        "lineage_family": "richmond-city-document-index",
+        "observation_date": null,
+        "publication_date": null,
+        "retrieved_at": null,
+        "retrieved_on": "2026-10-24",
+        "source_id": "S-RT10",
+        "title": "City Leases directory",
+        "tool_reference": "turn77view0",
+        "url": "https://www.richmondca.gov/4377/City-Leases"
+      }
+    ],
+    "startup_budget": {
+      "arithmetic_limits": [
+        "Preserved printed values: personnel subtotal differs by $1 from the sum of printed salary and benefit subtotals.",
+        "Security and youth-stipend labels include annual-looking formulas while the column mixes six and nine months; supervision formula does not reproduce the printed $7,625. No corrective interpretation or annualization imposed."
+      ],
+      "contrary_label": "Exhibit A calls the same $275,132 calendar 2026 startup (6–9 months).",
+      "currency": "USD",
+      "funding_rows": [
+        {
+          "label": "City of Richmond",
+          "usd": 197000
+        },
+        {
+          "label": "Rental subsidies at$800perunit fromERF",
+          "usd": 9600
+        },
+        {
+          "label": "To be raised",
+          "usd": 68532
+        },
+        {
+          "label": "Prospective funding",
+          "usd": 40000
+        },
+        {
+          "label": "Remaining unidentified funding",
+          "usd": 28532
+        }
+      ],
+      "locator": "PDFp21,ExhibitB",
+      "period_label": "Calendar Year 2025: six months operating expenses plus nine months salaries",
+      "resident_capacity_context": "Initial six youth plus one resident manager in Exhibit A; the 13-house capital plan is a different denominator.",
+      "rows": [
+        {
+          "label": ".05 Program Director",
+          "usd": 4688
+        },
+        {
+          "label": ".125 Program Manager",
+          "usd": 7500
+        },
+        {
+          "label": ".5 FTE Village Manager",
+          "usd": 25500
+        },
+        {
+          "label": ".5 FTE Case Manager",
+          "usd": 25500
+        },
+        {
+          "label": "1 FTE Resident Ass't",
+          "usd": 33750
+        },
+        {
+          "label": "subtotal salaries",
+          "usd": 96938
+        },
+        {
+          "label": "taxes/benefits (23%)",
+          "usd": 22296
+        },
+        {
+          "label": "subtotal personnel",
+          "usd": 119233
+        },
+        {
+          "label": "youth program incentives",
+          "usd": 1800
+        },
+        {
+          "label": "case management expenses",
+          "usd": 4500
+        },
+        {
+          "label": "subtotal program",
+          "usd": 6300
+        },
+        {
+          "label": "Site security trainees stipends",
+          "usd": 78840
+        },
+        {
+          "label": "Site security supervision contract",
+          "usd": 7625
+        },
+        {
+          "label": "Cleaning and sanitizing",
+          "usd": 4420
+        },
+        {
+          "label": "Site maintenance and stability",
+          "usd": 12500
+        },
+        {
+          "label": "security deposit",
+          "usd": 3000
+        },
+        {
+          "label": "maintenance/repairs",
+          "usd": 6000
+        },
+        {
+          "label": "Youth work stipends",
+          "usd": 7452
+        },
+        {
+          "label": "Insurance",
+          "usd": 4750
+        },
+        {
+          "label": "subtotal operating",
+          "usd": 124587
+        },
+        {
+          "label": "Administrative/Overhead (10%)",
+          "usd": 25012
+        },
+        {
+          "label": "Total Budget",
+          "usd": 275132
+        }
+      ],
+      "source_id": "S-RT05",
+      "status": "posted draft budget, not quote/payment/profit"
+    },
+    "status": "completed_bounded_research_with_residuals"
+  },
+  "payload_hash": "684c4e835f5fa19b9dbf977d1388d42e25f190ea43dcbc42c4c46bc74e75e266",
+  "phase": "submitted",
+  "submission_id": "8b088b6c8a6ded277366e544a86338d0be4c5883557c1041020eafbb02addda0"
+}

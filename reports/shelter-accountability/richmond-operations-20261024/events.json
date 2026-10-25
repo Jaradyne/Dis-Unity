@@ -1,0 +1,50 @@
+{
+  "events": [
+    {
+      "claim": "Richmond Tiny House Village supportive services agreement",
+      "classification": "historical_document_not_current_operation",
+      "event_date": "2024-10-03",
+      "event_id": "RICHMOND-SERVICES-2024",
+      "source_refs": [
+        "S-RICHMOND-SERVICES-2024"
+      ]
+    },
+    {
+      "claim": "Councilmember report: agreement with Tiny Village Spirit",
+      "classification": "historical_document_not_current_operation",
+      "event_date": "2024-11-26",
+      "event_id": "RICHMOND-NOV-2024",
+      "source_refs": [
+        "S-RICHMOND-NOV-2024"
+      ]
+    },
+    {
+      "claim": "Councilmember report: contribution through Hope Solutions",
+      "classification": "historical_document_not_current_operation",
+      "event_date": "2025-01-07",
+      "event_id": "RICHMOND-JAN-2025",
+      "source_refs": [
+        "S-RICHMOND-JAN-2025"
+      ]
+    },
+    {
+      "claim": "Staff report: renewed grant agreement for Tiny House Village",
+      "classification": "historical_document_not_current_operation",
+      "event_date": "2026-04-28",
+      "event_id": "RICHMOND-APR-2026",
+      "source_refs": [
+        "S-RICHMOND-APR-2026"
+      ]
+    },
+    {
+      "claim": "Posted grant attachment and startup budget",
+      "classification": "historical_document_not_current_operation",
+      "event_date": "2026-04-28",
+      "event_id": "RICHMOND-GRANT-2026",
+      "source_refs": [
+        "S-RICHMOND-GRANT-2026"
+      ]
+    }
+  ],
+  "version": "community-capacity-events-1"
+}

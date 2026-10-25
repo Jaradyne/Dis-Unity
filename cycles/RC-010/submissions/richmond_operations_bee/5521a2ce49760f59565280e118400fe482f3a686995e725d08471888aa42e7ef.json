@@ -1,0 +1,30 @@
+{
+  "agent": "richmond_operations_bee",
+  "at": "2026-10-24T12:06:58.702865+00:00",
+  "base_hash": "16d04f8bb35a588caca60517f90a11944cfbafac7951402d059a6d6131de97b7",
+  "cycle_id": "RC-010",
+  "payload": {
+    "agent": "richmond_operations_bee",
+    "cycle_id": "RC-010",
+    "findings": [
+      "Complete April28 2026 staff report attributes prior grant execution delay to obtaining required insurance; says all required insurance now in place.",
+      "Staff report proposes Apr1 2026-Dec31 2027; posted unsigned grant attachment says Mar1 2026-Feb28 2027 with another Apr1-Mar31 report period.",
+      "Posted startup budget is $275132 for six months operating expenses and nine months salaries; not an annual replacement quote.",
+      "2024 signed operator agreement names TVS selection and consent role, no fixed $1M annual fee; termination wording thirty (60) days visually verified.",
+      "Current replacement quote and termination remain unverified in bounded search."
+    ],
+    "primary_document_requests": 9,
+    "recorded_at": "2026-10-24T12:06:58.445634+00:00",
+    "search_calls": 6,
+    "source_files": [
+      "receipts/richmond_operations_bee/agreement-2024.pdf",
+      "receipts/richmond_operations_bee/grant-report-2026.pdf",
+      "receipts/richmond_operations_bee/grant-agreement-2026.pdf",
+      "receipts/richmond_operations_bee/council-report-2025.pdf"
+    ],
+    "status": "material_findings"
+  },
+  "payload_hash": "e5160a42a14eea00bfcac5e0dfcf68eebdd0937a54b8a6f41e55b9e8b2ea71f2",
+  "phase": "checkpoint",
+  "submission_id": "5521a2ce49760f59565280e118400fe482f3a686995e725d08471888aa42e7ef"
+}

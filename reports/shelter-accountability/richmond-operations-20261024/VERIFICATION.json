@@ -1,0 +1,9 @@
+{
+  "status": "pass",
+  "published_files": 95,
+  "complete_primary_bodies_verified": 5,
+  "canonical_unchanged": true,
+  "garden": "ten nodes, one resting branch, no model calls",
+  "scope": "Offline byte/history replay, not current empirical verification or Governor review",
+  "excluded_originals_reconstructable": false
+}
