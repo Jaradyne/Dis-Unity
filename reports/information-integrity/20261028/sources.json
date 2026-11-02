@@ -1,0 +1,124 @@
+{
+  "version": "information-integrity-sources-1",
+  "cutoff": "2026-10-28",
+  "date_timezone": "America/Los_Angeles",
+  "receipt_limit": "These are attributed source notes and access records, not original network receipts. SHA-256 pins cover curated files, not the original websites. Re-reading or reusing a source does not add independent corroboration.",
+  "sources": [
+    {
+      "id": "II-TWITCH-2016",
+      "lineage_id": "TWITCH-20160617-BOT-STATEMENT",
+      "kind": "public_source",
+      "title": "On Artificial Viewers, Followers, and Chat Activity",
+      "publisher": "Twitch",
+      "url": "https://blog.twitch.tv/en/2016/06/17/on-artificial-viewers-followers-and-chat-activity-317906f1c7ea/",
+      "published_on": "2016-06-17",
+      "updated_on": null,
+      "observed_on": null,
+      "retrieved_on": "2026-10-28",
+      "date_timezone": "America/Los_Angeles",
+      "access": "Search-service text extraction of official page; no original HTTP headers/body retained.",
+      "locator": "Main article, paragraphs on fake chat, harassment and responses.",
+      "scopes": [
+        "II-BACKGROUND-TWITCH-2016"
+      ],
+      "supports": [
+        "messages",
+        "automation"
+      ],
+      "summary": "Twitch acknowledged artificial chat activity and bot-enabled harassment, alongside commercial engagement manipulation. It described technical detection, staff investigations and legal action.",
+      "limitations": [
+        "Historical platform statement, not another incident measurement.",
+        "No attribution to Russia; described safeguards do not establish their effectiveness in a particular stream."
+      ]
+    },
+    {
+      "id": "II-CSIS-2018",
+      "lineage_id": "CSIS-20181009-LIVECHAT-REPORT",
+      "kind": "public_source",
+      "title": "Kremlin Playbook Spotlight: A Washington Think-Tank Event and a Russian Troll",
+      "publisher": "CSIS; Heather A. Conley and Holly Geffs",
+      "url": "https://www.csis.org/blogs/kremlin-playbook-spotlight/kremlin-playbook-spotlight-washington-think-tank-event-and-russian",
+      "published_on": "2018-10-09",
+      "updated_on": null,
+      "observed_on": null,
+      "observation_date_as_reported": "2018-06-25; stated in source excerpt, not independently checked against event archive",
+      "retrieved_on": "2026-10-28",
+      "date_timezone": "America/Los_Angeles",
+      "access": "Substantial indexed text returned by targeted search. Direct page open returned HTTP 403; no VOD/chat archive inspected.",
+      "locator": "Opening incident description and attribution discussion.",
+      "scopes": [
+        "II-CSIS-LIVECHAT-2018"
+      ],
+      "supports": [
+        "messages",
+        "source_attribution"
+      ],
+      "summary": "CSIS described disruptive messages during its own YouTube event and assessed the account as likely a Russian troll. The article acknowledged difficulty establishing the origin of such accounts.",
+      "limitations": [
+        "Source-assessed attribution, not proof of automation, state sponsorship or a coordinated network.",
+        "Historical event date is source-reported; no independent event-date validation.",
+        "This retains the publisher's attribution assessment; no independent factual replication was performed."
+      ]
+    },
+    {
+      "id": "II-DOJ-2024",
+      "lineage_id": "DOJ-24-850-BOT-FARM",
+      "kind": "public_source",
+      "title": "Justice Department Leads Efforts Among Federal, International, and Private Sector Partners to Disrupt Covert Russian Government-Operated Social Media Bot Farm",
+      "publisher": "U.S. Department of Justice",
+      "url": "https://www.justice.gov/archives/opa/pr/justice-department-leads-efforts-among-federal-international-and-private-sector-partners",
+      "published_on": "2024-07-09",
+      "updated_on": "2025-02-06",
+      "observed_on": null,
+      "observation_period_as_reported": "Posts from October-November 2023; disruption announced July 9, 2024",
+      "retrieved_on": "2026-10-28",
+      "date_timezone": "America/Los_Angeles",
+      "access": "Search-service text extraction of official release; underlying affidavits not independently reviewed in this pass.",
+      "locator": "Opening, Overview, and closing platform-response paragraphs.",
+      "scopes": [
+        "II-BACKGROUND-DOJ-2024"
+      ],
+      "supports": [
+        "automation",
+        "coordination",
+        "operator_or_sponsor"
+      ],
+      "summary": "DOJ attributed an AI-enabled X bot farm to RT/FSB-linked operators, citing warrant affidavits, and reported two domain seizures, searches involving 968 accounts and account suspensions by X.",
+      "limitations": [
+        "Government investigative attribution; no adjudication claimed here.",
+        "X account activity, not evidence about Twitch or YouTube live chats.",
+        "Suspension is a reported intervention; prevention of harm and durable recovery are unmeasured here."
+      ]
+    },
+    {
+      "id": "II-ISD-2025",
+      "lineage_id": "ISD-20250717-OVERLOAD-Q2-SAMPLE",
+      "kind": "public_source",
+      "title": "Operation Overload's underwhelming influence and evolving tactics",
+      "publisher": "Institute for Strategic Dialogue",
+      "url": "https://www.isdglobal.org/digital-dispatch/operation-overloads-underwhelming-influence-and-evolving-tactics/",
+      "published_on": "2025-07-17",
+      "updated_on": null,
+      "observed_on": null,
+      "observation_period_as_reported": "Second quarter of 2025",
+      "retrieved_on": "2026-10-28",
+      "date_timezone": "America/Los_Angeles",
+      "access": "Search-service text extraction of original research report; underlying sample not independently replicated.",
+      "locator": "Key findings, Methodology, and Minor modifications, insignificant impact.",
+      "scopes": [
+        "II-BACKGROUND-ISD-2025"
+      ],
+      "supports": [
+        "coordination",
+        "audience_exposure",
+        "protective_result"
+      ],
+      "summary": "ISD reported removal of 73% of sampled X posts and over 90% on TikTok and Bluesky. Analysts found little organic engagement in remaining material and reported no detected bot activity on Bluesky.",
+      "limitations": [
+        "Attributed research findings for a bounded sample; removal is not proof that all exposure or harm was prevented.",
+        "No causal estimate of persuasion and no complete census.",
+        "Separate campaign/sample; not confirmation of the CSIS incident."
+      ]
+    }
+  ]
+}

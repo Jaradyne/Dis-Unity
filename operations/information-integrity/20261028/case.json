@@ -1,0 +1,101 @@
+{
+  "version": "information-integrity-case-1",
+  "case_id": "II-CSIS-LIVECHAT-2018",
+  "question_id": "Q-INFORMATION-INTEGRITY-CSIS-2018",
+  "question_epoch": 1,
+  "revision": 1,
+  "supersedes": null,
+  "status": "historical_public_source_review_intake",
+  "tree": "INFORMATION-INTEGRITY",
+  "recorded_on": "2026-10-28",
+  "date_timezone": "America/Los_Angeles",
+  "event_date": null,
+  "event_date_as_reported": "CSIS states June 25, 2018; event archive not independently checked.",
+  "evidence_cutoff": "2026-10-28",
+  "title": "CSIS's 2018 report of livestream-chat interference",
+  "question": "What does CSIS's public 2018 account establish about disruptive live-chat messages, automation, attribution and the response?",
+  "scope": "One published historical livestream incident as described by its host, with three separately scoped context records. No assertion about any other livestream.",
+  "observations": {
+    "messages": {
+      "status": "source_reported",
+      "source_refs": [
+        "II-CSIS-2018"
+      ],
+      "note": "CSIS described disruptive messages in the chat accompanying its Juncker event; raw chat was not inspected here."
+    },
+    "automation": {
+      "status": "unknown",
+      "source_refs": [],
+      "note": "The account was described as a troll; automated posting was not established."
+    },
+    "coordination": {
+      "status": "unknown",
+      "source_refs": [],
+      "note": "Cross-platform activity described by a source does not establish a coordinated network for this event."
+    },
+    "source_attribution": {
+      "status": "source_assessed",
+      "source_refs": [
+        "II-CSIS-2018"
+      ],
+      "note": "CSIS assessed likely Russian-troll activity, while noting difficulty proving origins. This preserves the author's judgment."
+    },
+    "operator_or_sponsor": {
+      "status": "unknown",
+      "source_refs": [],
+      "note": "The controlling person, organization and state sponsorship were not established in the inspected material."
+    },
+    "audience_exposure": {
+      "status": "unknown",
+      "source_refs": [],
+      "note": "No independently inspected chat interval or real-viewer exposure count."
+    },
+    "protective_result": {
+      "status": "unknown",
+      "source_refs": [],
+      "note": "No verified moderation intervention, restoration of conversation or prevention of harm."
+    }
+  },
+  "background_refs": [
+    "II-TWITCH-2016",
+    "II-DOJ-2024",
+    "II-ISD-2025"
+  ],
+  "ordinary_explanations": [
+    "A human account can post provocative political messages without automation.",
+    "Repeated political talking points can reflect sincere opinion, opportunistic harassment or coordination; the content alone does not decide which.",
+    "Sparse profile information and activity patterns can inform an attribution assessment without proving nationality or sponsorship."
+  ],
+  "contrary_evidence": [
+    "The source uses a likelihood assessment and acknowledges attribution difficulty.",
+    "Automation and coordinated state direction are separate unestablished propositions.",
+    "The separately scoped ISD sample shows substantial removals and limited observed organic engagement; volume need not equal persuasion."
+  ],
+  "safeguards": {
+    "formal": "Applicable event-time moderation policy not established from the inspected article.",
+    "operational": "Moderator staffing, reporting channels and response authority are unknown.",
+    "observed_effectiveness": "Unknown for this incident; removals in a different study cannot substitute.",
+    "failure": "Disruptive messages are source-reported; a specific safeguard breach or protective failure is not independently established."
+  },
+  "relay": {
+    "kind": "informational",
+    "origin": "A public CSIS host-authored incident account",
+    "dispatch": "Messages described in the article; raw posting records not independently inspected",
+    "arrival": "Their appearance in live chat is source-reported; reader exposure is unmeasured",
+    "action": "Moderation action unknown",
+    "outcome": "Conversation continuity and changes in audience beliefs unknown",
+    "verification": "A bounded public archive check is proposed, not performed."
+  },
+  "next_test": "Can an archived public CSIS Juncker-event recording and its preserved chat establish the event date, the quoted messages and any visible moderation response?",
+  "review": {
+    "actor": "Work Aiden",
+    "status": "coordinator_review_with_limits",
+    "independent_source_replication": false,
+    "limits": [
+      "CSIS direct page retrieval returned 403; substantial indexed text was available.",
+      "No original chat, account telemetry or source investigation was independently replicated.",
+      "Replay establishes record consistency, not the truth of an attribution."
+    ]
+  },
+  "stop_condition": "Rest after the single historical supplied pass. No recurring collector, specialist activation or expansion to other streams."
+}

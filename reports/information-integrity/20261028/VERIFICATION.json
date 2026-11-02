@@ -1,0 +1,35 @@
+{
+  "status": "passed_with_source_limits",
+  "review_date": "2026-10-28",
+  "date_timezone": "America/Los_Angeles",
+  "python_suite": {
+    "tests": 262,
+    "result": "passed"
+  },
+  "garden": {
+    "state_sha256": "94b681cf8ca4df676f387af637c57215a83898c98f3b161ffc7c7f0960c8c4eb",
+    "steps": 10,
+    "branches": 1,
+    "provider_calls": 0,
+    "status": "resting",
+    "reconstruction": "byte_identical"
+  },
+  "canonical_sha256": "16d04f8bb35a588caca60517f90a11944cfbafac7951402d059a6d6131de97b7",
+  "canonical_changed": false,
+  "base_dispatch_changed": false,
+  "richmond_outputs_changed": false,
+  "public_sources": 4,
+  "source_replication": "not_performed",
+  "review": "REVIEW.md",
+  "live_question_registration": false,
+  "publication_followup": {
+    "review_date": "2026-11-02",
+    "issue": "Historical Camp replay pins scripts/garden_example.py",
+    "resolution": "Original helper restored; supplemental build/CLI moved to scripts/garden_tree.py",
+    "historical_pins_changed": false,
+    "saved_outputs_changed": false,
+    "python_tests": 262,
+    "standalone_replay_checks": "passed",
+    "source_cutoff": "2026-10-28"
+  }
+}

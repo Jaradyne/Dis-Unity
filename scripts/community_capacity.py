@@ -15,6 +15,7 @@ import sys
 import continuity as shared
 import cycle
 import garden_runtime as garden
+import garden_tree
 import governor_inbox
 import meaning_boss
 import relays
@@ -29,20 +30,8 @@ require = shared.require
 
 
 def tree_config(root=ROOT, extension=None):
-    config = garden.load_config(root)
     ext = shared.strict_json(Path(root)/TREE) if extension is None else extension
-    require(set(ext) == {'version','base_sha256','tree_id','definition','context_trees'}, 'Invalid tree extension')
-    require(ext['version'] == 'garden-tree-extension-1', 'Unknown extension version')
-    require(hashlib.sha256((Path(root)/'config/garden-traversal.json').read_bytes()).hexdigest()
-            == ext['base_sha256'], 'Tree base pin changed')
-    require(ext['tree_id'] not in config['trees'], 'Tree extension cannot replace a tree')
-    require(re.fullmatch(r'[A-Z][A-Z0-9-]*',ext['tree_id']) is not None, 'Invalid tree ID')
-    d = ext['definition']
-    require(set(d) == {'name','node_template','status'} and d['node_template'] == 'INIT'
-            and d['status'] == 'traversable_with_supplied_content' and d['name'], 'Invalid tree definition')
-    require(set(ext['context_trees']) <= set(config['trees']), 'Unknown context tree')
-    config['trees'][ext['tree_id']] = deepcopy(d)
-    return config
+    return garden_tree.load(root, ext)
 
 
 def validate_costs(costs, resolved):

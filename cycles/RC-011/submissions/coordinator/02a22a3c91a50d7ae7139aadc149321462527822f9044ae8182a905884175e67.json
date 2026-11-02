@@ -1,0 +1,53 @@
+{
+  "agent": "coordinator",
+  "at": "2026-10-29T05:35:47.536737+00:00",
+  "base_hash": "16d04f8bb35a588caca60517f90a11944cfbafac7951402d059a6d6131de97b7",
+  "cycle_id": "RC-011",
+  "payload": {
+    "agent": "coordinator",
+    "bees_activated": false,
+    "canonical_admission": false,
+    "cutoff": "2026-10-28",
+    "cycle_id": "RC-011",
+    "files": [
+      "reports/information-integrity/20261028/README.md",
+      "reports/information-integrity/20261028/sources.json",
+      "reports/information-integrity/20261028/REVIEW.md",
+      "reports/information-integrity/20261028/VERIFICATION.json"
+    ],
+    "governor_changes": false,
+    "monitoring": false,
+    "next_test": "One archived public CSIS Juncker-event recording and preserved chat, if available, for date/messages/moderation.",
+    "result": "A supplemental Information Integrity tree and ten-node supplied pass are saved. Attribution remains the source's likelihood judgment; automation and protective result are unknown.",
+    "scope": "One public historical CSIS live-chat case, with three separately scoped context records.",
+    "status": "submitted_review_intake",
+    "validation": {
+      "base_dispatch_changed": false,
+      "canonical_changed": false,
+      "canonical_sha256": "16d04f8bb35a588caca60517f90a11944cfbafac7951402d059a6d6131de97b7",
+      "date_timezone": "America/Los_Angeles",
+      "garden": {
+        "branches": 1,
+        "provider_calls": 0,
+        "reconstruction": "byte_identical",
+        "state_sha256": "94b681cf8ca4df676f387af637c57215a83898c98f3b161ffc7c7f0960c8c4eb",
+        "status": "resting",
+        "steps": 10
+      },
+      "live_question_registration": false,
+      "public_sources": 4,
+      "python_suite": {
+        "result": "passed",
+        "tests": 262
+      },
+      "review": "REVIEW.md",
+      "review_date": "2026-10-28",
+      "richmond_outputs_changed": false,
+      "source_replication": "not_performed",
+      "status": "passed_with_source_limits"
+    }
+  },
+  "payload_hash": "5b7549867c1df3940a4c63b052210241dce0028c97e09da0f40dadf573f6cd62",
+  "phase": "submitted",
+  "submission_id": "02a22a3c91a50d7ae7139aadc149321462527822f9044ae8182a905884175e67"
+}

@@ -1,0 +1,12 @@
+{
+  "branches": [
+    "B0"
+  ],
+  "meaning": "Supplied traversal and routing; no new evidence, model dispatch or Governor review.",
+  "record_ref": "operations/garden/runs/INFORMATION-INTEGRITY-CSIS-2018-20261028.json",
+  "record_sha256": "b6a1575868e672ecb7499b4af3c0ac85166c2bb5eb1ef461f3451317bb16f547",
+  "run_id": "INFORMATION-INTEGRITY-CSIS-2018-20261028",
+  "schema_version": "digestion-garden-materials-1",
+  "state_sha256": "94b681cf8ca4df676f387af637c57215a83898c98f3b161ffc7c7f0960c8c4eb",
+  "status": "available_for_digestion"
+}

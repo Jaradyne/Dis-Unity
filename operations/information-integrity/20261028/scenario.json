@@ -1,0 +1,409 @@
+{
+  "schema_version": "garden-scenario-1",
+  "status": "Supplied historical public-source review; no live Question registration, collector, Bee or Governor action.",
+  "recorded_at": "2026-10-28",
+  "recorded_at_meaning": "Fixed review date, America/Los_Angeles; time of day unspecified, not a live execution timestamp.",
+  "record_base_url": "https://github.com/Jaradyne/Dis-Unity/blob/main/reports/information-integrity/20261028/worked/",
+  "question_snapshot": {
+    "questions": {
+      "Q-INFORMATION-INTEGRITY-CSIS-2018": {
+        "epoch": 1,
+        "status": "staged_question_not_live_registration"
+      }
+    }
+  },
+  "start": {
+    "run_id": "INFORMATION-INTEGRITY-CSIS-2018-20261028",
+    "question_id": "Q-INFORMATION-INTEGRITY-CSIS-2018",
+    "epoch": 1,
+    "actor": {
+      "name": "Work Aiden",
+      "runtime": "Supplied Work-session review; replay invokes no provider",
+      "model": "Work-session model identifier not recorded"
+    },
+    "tree": "INFORMATION-INTEGRITY",
+    "focus": "One published historical livestream incident as described by its host, with three separately scoped context records. No assertion about any other livestream.",
+    "status": "Supplied review only",
+    "arrival": {
+      "id": "II-CSIS-INTAKE-20261028",
+      "from": "operations/information-integrity/20261028/case.json",
+      "to": "INFORMATION-INTEGRITY:ROOT-0001",
+      "payload": {
+        "kind": "historical_public_source_review",
+        "case_id": "II-CSIS-LIVECHAT-2018",
+        "input_sha256": {
+          "config/information-integrity-tree.json": "35389afd5aec19b04a37bc71e295f7ba63e2a91ffb8f6783b5a8e8d1707bd2d6",
+          "config/garden-traversal.json": "cabe4d51ecca052abfcb386dc1e3f8b97cc440a23d6a15bf955b40b8719f8e18",
+          "reports/information-integrity/20261028/sources.json": "f35e33d9a2d1e8fedfee75d834d210ab1c7d72247da790af16f4ab4bfc24552d",
+          "operations/information-integrity/20261028/case.json": "e9c227cc01086c104b22298bc1c3d3d3285a39afa27559dc858e97a3da6696d3"
+        }
+      }
+    },
+    "sources": [
+      {
+        "ref": "II-TWITCH-2016",
+        "lineage_id": "TWITCH-20160617-BOT-STATEMENT",
+        "kind": "public_source",
+        "binding": {
+          "path": "reports/information-integrity/20261028/sources.json",
+          "id": "II-TWITCH-2016"
+        },
+        "scope": [
+          "II-BACKGROUND-TWITCH-2016"
+        ]
+      },
+      {
+        "ref": "II-CSIS-2018",
+        "lineage_id": "CSIS-20181009-LIVECHAT-REPORT",
+        "kind": "public_source",
+        "binding": {
+          "path": "reports/information-integrity/20261028/sources.json",
+          "id": "II-CSIS-2018"
+        },
+        "scope": [
+          "II-CSIS-LIVECHAT-2018"
+        ]
+      },
+      {
+        "ref": "II-DOJ-2024",
+        "lineage_id": "DOJ-24-850-BOT-FARM",
+        "kind": "public_source",
+        "binding": {
+          "path": "reports/information-integrity/20261028/sources.json",
+          "id": "II-DOJ-2024"
+        },
+        "scope": [
+          "II-BACKGROUND-DOJ-2024"
+        ]
+      },
+      {
+        "ref": "II-ISD-2025",
+        "lineage_id": "ISD-20250717-OVERLOAD-Q2-SAMPLE",
+        "kind": "public_source",
+        "binding": {
+          "path": "reports/information-integrity/20261028/sources.json",
+          "id": "II-ISD-2025"
+        },
+        "scope": [
+          "II-BACKGROUND-ISD-2025"
+        ]
+      }
+    ],
+    "budget": {
+      "max_steps": 10,
+      "max_branches": 1,
+      "max_events": 10,
+      "max_fanout": 0,
+      "model_calls": 0
+    }
+  },
+  "commands": [
+    {
+      "event_id": "II-CSIS-STEP-1",
+      "expected_revision": 0,
+      "actor": {
+        "name": "Work Aiden",
+        "runtime": "Supplied Work-session review; replay invokes no provider",
+        "model": "Work-session model identifier not recorded"
+      },
+      "branch_id": "B0",
+      "kind": "step",
+      "node": "ROOT",
+      "output": {
+        "name": "Information Integrity: CSIS's historical live-chat account"
+      }
+    },
+    {
+      "event_id": "II-CSIS-STEP-2",
+      "expected_revision": 1,
+      "actor": {
+        "name": "Work Aiden",
+        "runtime": "Supplied Work-session review; replay invokes no provider",
+        "model": "Work-session model identifier not recorded"
+      },
+      "branch_id": "B0",
+      "kind": "step",
+      "node": "ARRIVAL",
+      "output": {
+        "arrival": {
+          "id": "II-CSIS-INTAKE-20261028",
+          "from": "operations/information-integrity/20261028/case.json",
+          "to": "INFORMATION-INTEGRITY:ROOT-0001",
+          "payload": {
+            "kind": "historical_public_source_review",
+            "case_id": "II-CSIS-LIVECHAT-2018",
+            "input_sha256": {
+              "config/information-integrity-tree.json": "35389afd5aec19b04a37bc71e295f7ba63e2a91ffb8f6783b5a8e8d1707bd2d6",
+              "config/garden-traversal.json": "cabe4d51ecca052abfcb386dc1e3f8b97cc440a23d6a15bf955b40b8719f8e18",
+              "reports/information-integrity/20261028/sources.json": "f35e33d9a2d1e8fedfee75d834d210ab1c7d72247da790af16f4ab4bfc24552d",
+              "operations/information-integrity/20261028/case.json": "e9c227cc01086c104b22298bc1c3d3d3285a39afa27559dc858e97a3da6696d3"
+            }
+          }
+        },
+        "language_glance": {
+          "languages": [
+            "English"
+          ],
+          "basis": "participant_supplied",
+          "issuing_office": "CSIS, with separately scoped Twitch, DOJ and ISD context",
+          "surface_kind": "mixed",
+          "source_refs": [
+            "II-TWITCH-2016",
+            "II-CSIS-2018",
+            "II-DOJ-2024",
+            "II-ISD-2025"
+          ],
+          "note": "English published text inspected through search extracts. Original chat/VOD not inspected; CSIS direct page open returned 403."
+        }
+      }
+    },
+    {
+      "event_id": "II-CSIS-STEP-3",
+      "expected_revision": 2,
+      "actor": {
+        "name": "Work Aiden",
+        "runtime": "Supplied Work-session review; replay invokes no provider",
+        "model": "Work-session model identifier not recorded"
+      },
+      "branch_id": "B0",
+      "kind": "step",
+      "node": "EPIST",
+      "output": {
+        "prompt": "What does CSIS's public 2018 account establish about disruptive live-chat messages, automation, attribution and the response?",
+        "starting_state": "Host-reported historical messages and a source's likelihood attribution. Automation, operator identity, coordination and effect are not established."
+      }
+    },
+    {
+      "event_id": "II-CSIS-STEP-4",
+      "expected_revision": 3,
+      "actor": {
+        "name": "Work Aiden",
+        "runtime": "Supplied Work-session review; replay invokes no provider",
+        "model": "Work-session model identifier not recorded"
+      },
+      "branch_id": "B0",
+      "kind": "step",
+      "node": "FUNC",
+      "output": {
+        "task": "One published historical livestream incident as described by its host, with three separately scoped context records. No assertion about any other livestream.",
+        "function": "Separate content occurrence, automation, attribution, exposure and protective results.",
+        "observations": {
+          "messages": {
+            "status": "source_reported",
+            "source_refs": [
+              "II-CSIS-2018"
+            ],
+            "note": "CSIS described disruptive messages in the chat accompanying its Juncker event; raw chat was not inspected here."
+          },
+          "automation": {
+            "status": "unknown",
+            "source_refs": [],
+            "note": "The account was described as a troll; automated posting was not established."
+          },
+          "coordination": {
+            "status": "unknown",
+            "source_refs": [],
+            "note": "Cross-platform activity described by a source does not establish a coordinated network for this event."
+          },
+          "source_attribution": {
+            "status": "source_assessed",
+            "source_refs": [
+              "II-CSIS-2018"
+            ],
+            "note": "CSIS assessed likely Russian-troll activity, while noting difficulty proving origins. This preserves the author's judgment."
+          },
+          "operator_or_sponsor": {
+            "status": "unknown",
+            "source_refs": [],
+            "note": "The controlling person, organization and state sponsorship were not established in the inspected material."
+          },
+          "audience_exposure": {
+            "status": "unknown",
+            "source_refs": [],
+            "note": "No independently inspected chat interval or real-viewer exposure count."
+          },
+          "protective_result": {
+            "status": "unknown",
+            "source_refs": [],
+            "note": "No verified moderation intervention, restoration of conversation or prevention of harm."
+          }
+        },
+        "safeguards": {
+          "formal": "Applicable event-time moderation policy not established from the inspected article.",
+          "operational": "Moderator staffing, reporting channels and response authority are unknown.",
+          "observed_effectiveness": "Unknown for this incident; removals in a different study cannot substitute.",
+          "failure": "Disruptive messages are source-reported; a specific safeguard breach or protective failure is not independently established."
+        },
+        "relay": {
+          "kind": "informational",
+          "origin": "A public CSIS host-authored incident account",
+          "dispatch": "Messages described in the article; raw posting records not independently inspected",
+          "arrival": "Their appearance in live chat is source-reported; reader exposure is unmeasured",
+          "action": "Moderation action unknown",
+          "outcome": "Conversation continuity and changes in audience beliefs unknown",
+          "verification": "A bounded public archive check is proposed, not performed."
+        }
+      }
+    },
+    {
+      "event_id": "II-CSIS-STEP-5",
+      "expected_revision": 4,
+      "actor": {
+        "name": "Work Aiden",
+        "runtime": "Supplied Work-session review; replay invokes no provider",
+        "model": "Work-session model identifier not recorded"
+      },
+      "branch_id": "B0",
+      "kind": "step",
+      "node": "MIRROR",
+      "output": {
+        "comparisons": [
+          {
+            "explanation": "A human account can post provocative political messages without automation.",
+            "queries": [],
+            "answers": []
+          },
+          {
+            "explanation": "Repeated political talking points can reflect sincere opinion, opportunistic harassment or coordination; the content alone does not decide which.",
+            "queries": [],
+            "answers": []
+          },
+          {
+            "explanation": "Sparse profile information and activity patterns can inform an attribution assessment without proving nationality or sponsorship.",
+            "queries": [],
+            "answers": []
+          }
+        ],
+        "contrary_evidence": [
+          "The source uses a likelihood assessment and acknowledges attribution difficulty.",
+          "Automation and coordinated state direction are separate unestablished propositions.",
+          "The separately scoped ISD sample shows substantial removals and limited observed organic engagement; volume need not equal persuasion."
+        ],
+        "information_lineage": {
+          "parent_answer_visible": true,
+          "source_refs": [
+            "II-TWITCH-2016",
+            "II-CSIS-2018",
+            "II-DOJ-2024",
+            "II-ISD-2025"
+          ],
+          "parent_output_refs": [
+            "operations/information-integrity/20261028/case.json"
+          ],
+          "criteria_refs": [
+            "reports/information-integrity/20261028/README.md"
+          ],
+          "api_record_refs": [],
+          "test_origin": "separately_specified"
+        }
+      }
+    },
+    {
+      "event_id": "II-CSIS-STEP-6",
+      "expected_revision": 5,
+      "actor": {
+        "name": "Work Aiden",
+        "runtime": "Supplied Work-session review; replay invokes no provider",
+        "model": "Work-session model identifier not recorded"
+      },
+      "branch_id": "B0",
+      "kind": "step",
+      "node": "CROSS",
+      "output": {
+        "inherited": [
+          {
+            "ref": "II-TWITCH-2016",
+            "status": "Historical context for a different subject; not corroboration of the CSIS incident."
+          },
+          {
+            "ref": "II-CSIS-2018",
+            "status": "Host's published historical account and attribution assessment."
+          },
+          {
+            "ref": "II-DOJ-2024",
+            "status": "Historical context for a different subject; not corroboration of the CSIS incident."
+          },
+          {
+            "ref": "II-ISD-2025",
+            "status": "Historical context for a different subject; not corroboration of the CSIS incident."
+          }
+        ],
+        "independent": [],
+        "bridge": [
+          {
+            "question": "Can an archived public CSIS Juncker-event recording and its preserved chat establish the event date, the quoted messages and any visible moderation response?",
+            "status": "proposed; archive check not performed"
+          }
+        ]
+      }
+    },
+    {
+      "event_id": "II-CSIS-STEP-7",
+      "expected_revision": 6,
+      "actor": {
+        "name": "Work Aiden",
+        "runtime": "Supplied Work-session review; replay invokes no provider",
+        "model": "Work-session model identifier not recorded"
+      },
+      "branch_id": "B0",
+      "kind": "step",
+      "node": "RESID",
+      "output": {
+        "summary": "Automation, controlling actor, coordination and protective result remain unknown; source-reported event date awaits archive confirmation.",
+        "predicates": {
+          "consequential": true,
+          "distinct_functions": false,
+          "language_exception": null
+        },
+        "next_test": "Can an archived public CSIS Juncker-event recording and its preserved chat establish the event date, the quoted messages and any visible moderation response?"
+      }
+    },
+    {
+      "event_id": "II-CSIS-STEP-8",
+      "expected_revision": 7,
+      "actor": {
+        "name": "Work Aiden",
+        "runtime": "Supplied Work-session review; replay invokes no provider",
+        "model": "Work-session model identifier not recorded"
+      },
+      "branch_id": "B0",
+      "kind": "step",
+      "node": "MEAN",
+      "output": {
+        "summary": "Protect usable public conversation while keeping message content, behavioral evidence, attribution and demonstrated remedies separate."
+      }
+    },
+    {
+      "event_id": "II-CSIS-STEP-9",
+      "expected_revision": 8,
+      "actor": {
+        "name": "Work Aiden",
+        "runtime": "Supplied Work-session review; replay invokes no provider",
+        "model": "Work-session model identifier not recorded"
+      },
+      "branch_id": "B0",
+      "kind": "step",
+      "node": "EXIT",
+      "output": {
+        "kind": "question",
+        "summary": "Can an archived public CSIS Juncker-event recording and its preserved chat establish the event date, the quoted messages and any visible moderation response?"
+      }
+    },
+    {
+      "event_id": "II-CSIS-STEP-10",
+      "expected_revision": 9,
+      "actor": {
+        "name": "Work Aiden",
+        "runtime": "Supplied Work-session review; replay invokes no provider",
+        "model": "Work-session model identifier not recorded"
+      },
+      "branch_id": "B0",
+      "kind": "step",
+      "node": "RETURN",
+      "output": {
+        "new_arrival": null,
+        "reason": "Rest after the single historical supplied pass. No recurring collector, specialist activation or expansion to other streams."
+      }
+    }
+  ]
+}
