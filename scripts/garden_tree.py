@@ -1,10 +1,12 @@
 """A pinned supplemental Garden tree without changing dispatch or authority."""
+import argparse
 from copy import deepcopy
 import hashlib
 from pathlib import Path
 import re
 
 import continuity as shared
+import cycle
 import garden_runtime as garden
 
 
@@ -31,3 +33,28 @@ def load(root, extension):
             set(ext['context_trees']) <= set(config['trees']), 'Unknown context tree')
     config['trees'][ext['tree_id']] = deepcopy(d)
     return config
+
+
+def build(root, scenario, output, *, tree_extension):
+    """Use the existing reducer without changing historically pinned entry points."""
+    document = garden.new_document(load(root, tree_extension), scenario['start'],
+                                   scenario['question_snapshot'])
+    for command in scenario['commands']:
+        document = garden.apply_event(document, command, scenario['recorded_at'])
+    garden.replay(document)
+    cycle.write_json(garden.path_for(output, document['state']['run_id']), document, replace=True)
+    garden.project(output, record_base_url=scenario['record_base_url'])
+    return document
+
+
+if __name__ == '__main__':
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--scenario', type=Path, required=True)
+    parser.add_argument('--tree-extension', type=Path, required=True)
+    parser.add_argument('--output', type=Path, required=True)
+    args = parser.parse_args()
+    root = Path(__file__).resolve().parents[1]
+    result = build(root, shared.strict_json(args.scenario), args.output,
+                   tree_extension=shared.strict_json(args.tree_extension))
+    print(f"Supplied pass: {result['state']['used']['steps']} steps, "
+          f"{result['state']['used']['branches']} branches, zero provider calls")

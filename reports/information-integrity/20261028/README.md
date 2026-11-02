@@ -49,7 +49,7 @@ The pinned tree extension does not change global routing, limits or authority. R
 
 ```bash
 python3 reports/information-integrity/20261028/verify_packet.py
-python3 scripts/garden_example.py --scenario operations/information-integrity/20261028/scenario.json --tree-extension config/information-integrity-tree.json --output /tmp/information-integrity-replay
+python3 scripts/garden_tree.py --scenario operations/information-integrity/20261028/scenario.json --tree-extension config/information-integrity-tree.json --output /tmp/information-integrity-replay
 python3 -m unittest discover -s tests -p 'test_information_integrity.py'
 ```
 

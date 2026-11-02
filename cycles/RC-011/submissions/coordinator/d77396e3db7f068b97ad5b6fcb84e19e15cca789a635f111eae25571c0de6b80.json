@@ -1,0 +1,29 @@
+{
+  "agent": "coordinator",
+  "at": "2026-11-02T15:03:21.465743+00:00",
+  "base_hash": "16d04f8bb35a588caca60517f90a11944cfbafac7951402d059a6d6131de97b7",
+  "cycle_id": "RC-011",
+  "payload": {
+    "agent": "coordinator",
+    "canonical_admission": false,
+    "cycle_id": "RC-011",
+    "evidence_cutoff": "2026-10-28",
+    "new_source_retrieval": false,
+    "recorded_on": "2026-11-02",
+    "result": {
+      "historical_pins_changed": false,
+      "issue": "Historical Camp replay pins scripts/garden_example.py",
+      "python_tests": 262,
+      "resolution": "Original helper restored; supplemental build/CLI moved to scripts/garden_tree.py",
+      "review_date": "2026-11-02",
+      "saved_outputs_changed": false,
+      "source_cutoff": "2026-10-28",
+      "standalone_replay_checks": "passed"
+    },
+    "review_ref": "reports/information-integrity/20261028/REVIEW.md",
+    "status": "publication_validation_addendum"
+  },
+  "payload_hash": "33d4472c587c2591c1f60e8b9fb9a0d20191406de17a9dd1d747b60c1cf29eaa",
+  "phase": "submitted",
+  "submission_id": "d77396e3db7f068b97ad5b6fcb84e19e15cca789a635f111eae25571c0de6b80"
+}

@@ -1,0 +1,20 @@
+{
+  "cycle_id": "RC-011",
+  "agent": "coordinator",
+  "status": "publication_validation_addendum",
+  "recorded_on": "2026-11-02",
+  "evidence_cutoff": "2026-10-28",
+  "result": {
+    "review_date": "2026-11-02",
+    "issue": "Historical Camp replay pins scripts/garden_example.py",
+    "resolution": "Original helper restored; supplemental build/CLI moved to scripts/garden_tree.py",
+    "historical_pins_changed": false,
+    "saved_outputs_changed": false,
+    "python_tests": 262,
+    "standalone_replay_checks": "passed",
+    "source_cutoff": "2026-10-28"
+  },
+  "review_ref": "reports/information-integrity/20261028/REVIEW.md",
+  "canonical_admission": false,
+  "new_source_retrieval": false
+}

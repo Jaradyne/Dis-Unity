@@ -9,7 +9,7 @@ ROOT = Path(__file__).resolve().parents[3]
 sys.path.insert(0, str(ROOT / 'scripts'))
 import continuity as shared
 import cycle
-import garden_example
+import garden_tree
 import garden_runtime as garden
 
 PACKET = Path('reports/information-integrity/20261028')
@@ -76,8 +76,8 @@ def verify(root=ROOT):
     saved_paths = {p.relative_to(saved) for p in saved.rglob('*') if p.is_file()}
     with tempfile.TemporaryDirectory() as temporary:
         temp = Path(temporary)
-        first = garden_example.build(root, scenario, temp / 'one', tree_extension=read(TREE))
-        second = garden_example.build(root, scenario, temp / 'two', tree_extension=read(TREE))
+        first = garden_tree.build(root, scenario, temp / 'one', tree_extension=read(TREE))
+        second = garden_tree.build(root, scenario, temp / 'two', tree_extension=read(TREE))
         require(first == second == garden.replay(copy.deepcopy(first)), 'Replay differs')
         one_paths = {p.relative_to(temp / 'one') for p in (temp / 'one').rglob('*') if p.is_file()}
         two_paths = {p.relative_to(temp / 'two') for p in (temp / 'two').rglob('*') if p.is_file()}
