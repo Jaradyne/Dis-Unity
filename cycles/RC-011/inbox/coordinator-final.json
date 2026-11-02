@@ -1,0 +1,44 @@
+{
+  "cycle_id": "RC-011",
+  "agent": "coordinator",
+  "status": "submitted_review_intake",
+  "scope": "One public historical CSIS live-chat case, with three separately scoped context records.",
+  "cutoff": "2026-10-28",
+  "result": "A supplemental Information Integrity tree and ten-node supplied pass are saved. Attribution remains the source's likelihood judgment; automation and protective result are unknown.",
+  "files": [
+    "reports/information-integrity/20261028/README.md",
+    "reports/information-integrity/20261028/sources.json",
+    "reports/information-integrity/20261028/REVIEW.md",
+    "reports/information-integrity/20261028/VERIFICATION.json"
+  ],
+  "validation": {
+    "status": "passed_with_source_limits",
+    "review_date": "2026-10-28",
+    "date_timezone": "America/Los_Angeles",
+    "python_suite": {
+      "tests": 262,
+      "result": "passed"
+    },
+    "garden": {
+      "state_sha256": "94b681cf8ca4df676f387af637c57215a83898c98f3b161ffc7c7f0960c8c4eb",
+      "steps": 10,
+      "branches": 1,
+      "provider_calls": 0,
+      "status": "resting",
+      "reconstruction": "byte_identical"
+    },
+    "canonical_sha256": "16d04f8bb35a588caca60517f90a11944cfbafac7951402d059a6d6131de97b7",
+    "canonical_changed": false,
+    "base_dispatch_changed": false,
+    "richmond_outputs_changed": false,
+    "public_sources": 4,
+    "source_replication": "not_performed",
+    "review": "REVIEW.md",
+    "live_question_registration": false
+  },
+  "next_test": "One archived public CSIS Juncker-event recording and preserved chat, if available, for date/messages/moderation.",
+  "canonical_admission": false,
+  "monitoring": false,
+  "bees_activated": false,
+  "governor_changes": false
+}

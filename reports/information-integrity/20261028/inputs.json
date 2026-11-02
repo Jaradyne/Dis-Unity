@@ -1,0 +1,10 @@
+{
+  "version": "information-integrity-inputs-1",
+  "sha256": {
+    "config/information-integrity-tree.json": "35389afd5aec19b04a37bc71e295f7ba63e2a91ffb8f6783b5a8e8d1707bd2d6",
+    "config/garden-traversal.json": "cabe4d51ecca052abfcb386dc1e3f8b97cc440a23d6a15bf955b40b8719f8e18",
+    "reports/information-integrity/20261028/sources.json": "f35e33d9a2d1e8fedfee75d834d210ab1c7d72247da790af16f4ab4bfc24552d",
+    "operations/information-integrity/20261028/case.json": "e9c227cc01086c104b22298bc1c3d3d3285a39afa27559dc858e97a3da6696d3",
+    "operations/information-integrity/20261028/scenario.json": "69201e9eb4787021be397d6b6dd8aea8325b5cfeefe7d2940d38c51218f8fc36"
+  }
+}

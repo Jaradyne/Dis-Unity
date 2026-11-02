@@ -1,0 +1,24 @@
+{
+  "agent": "coordinator",
+  "at": "2026-10-29T05:33:23.495578+00:00",
+  "base_hash": "16d04f8bb35a588caca60517f90a11944cfbafac7951402d059a6d6131de97b7",
+  "cycle_id": "RC-011",
+  "payload": {
+    "agent": "coordinator",
+    "authority": {
+      "bees_activated": false,
+      "canonical_admission": false,
+      "governor_changed": false,
+      "monitoring": false,
+      "provider_calls": 0
+    },
+    "cutoff": "2026-10-28",
+    "cycle_id": "RC-011",
+    "next": "Save and replay the supplied case; preserve source-attributed likelihood and unknown automation, sponsor and protective result.",
+    "scope": "One public historical CSIS livestream-chat case; three separately scoped public context sources.",
+    "status": "checkpoint"
+  },
+  "payload_hash": "2ef5889bc40e8c1c412dba4991c5d38f276ef19b63ba09908a253dbd43530fe8",
+  "phase": "checkpoint",
+  "submission_id": "a28d067dcecb74357832d9eebcbff6a06d739a759d8ec304baa7655e586ff5d6"
+}

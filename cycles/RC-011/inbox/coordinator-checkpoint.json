@@ -1,0 +1,15 @@
+{
+  "cycle_id": "RC-011",
+  "agent": "coordinator",
+  "status": "checkpoint",
+  "scope": "One public historical CSIS livestream-chat case; three separately scoped public context sources.",
+  "cutoff": "2026-10-28",
+  "next": "Save and replay the supplied case; preserve source-attributed likelihood and unknown automation, sponsor and protective result.",
+  "authority": {
+    "canonical_admission": false,
+    "bees_activated": false,
+    "provider_calls": 0,
+    "governor_changed": false,
+    "monitoring": false
+  }
+}
