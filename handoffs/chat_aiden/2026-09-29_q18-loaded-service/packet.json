@@ -1,0 +1,23 @@
+{
+  "packet_version": "chat-handoff-1",
+  "packet_id": "CHAT-20260929-Q18-LOADED-SERVICE",
+  "base_commit": "6e07fa4dbb23b17d4dfe9e3642accd02ba015163",
+  "base_cycle": "RC-004",
+  "actor": {
+    "runtime": "Chat",
+    "provider": "OpenAI",
+    "model": "GPT-5.6 Sol"
+  },
+  "status": "ready_for_review",
+  "task": "Advance Q18 from delivered electric hardware toward demonstrated freight operation using later public records.",
+  "summary": "Later operating records show repeated Diankun commercial-route use, an explicitly fully loaded Dianpeng voyage, and reported first-month fuel displacement. Dependable long-run service remains unmeasured.",
+  "source_ids": [
+    "CHAT-Q18-01",
+    "CHAT-Q18-02",
+    "CHAT-Q18-03",
+    "CHAT-Q18-04",
+    "CHAT-Q18-05"
+  ],
+  "next_action": "Use as a changed arrival into a new linked Q18 Garden continuation; seek a planned-versus-completed voyage series and charging/downtime denominator.",
+  "stop_reason": "Operating evidence found; reliability denominator still unavailable in bounded pass."
+}
