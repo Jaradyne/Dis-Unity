@@ -1,0 +1,28 @@
+{
+  "agent": "work-diesel",
+  "at": "2026-11-03T08:02:43.060275+00:00",
+  "base_hash": "16d04f8bb35a588caca60517f90a11944cfbafac7951402d059a6d6131de97b7",
+  "cycle_id": "RC-012",
+  "payload": {
+    "agent": "work-diesel",
+    "completed": [
+      "Read main and live state",
+      "Recorded two fresh EIA GETs with full receipts",
+      "Identified closed Week One window and stale capacity projection"
+    ],
+    "created_at": "2026-11-03T08:02:43.044585+00:00",
+    "cycle_id": "RC-012",
+    "remaining": [
+      "Extract and verify diesel table",
+      "Run and replay ten Garden nodes",
+      "Independent bounded review",
+      "Publish reports and operational records"
+    ],
+    "scope": "No new provider call, schedule, Governor authority, private incident publication or canonical admission.",
+    "status": "checkpoint",
+    "task": "One supervised diesel pass, numeric EIA observations and preserved service-outcome unknowns; deployment inventory and approved PSA publication."
+  },
+  "payload_hash": "62442db71ad9e34799962d472bc1a93bfc37a29c66b7aa50b880e38c07c56970",
+  "phase": "checkpoint",
+  "submission_id": "ec15aa81bf7d1542f4d30a37477f3a5d0ca8c951c7c32c7cef29b5cc013426a3"
+}

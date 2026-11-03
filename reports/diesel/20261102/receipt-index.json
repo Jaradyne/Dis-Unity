@@ -1,0 +1,30 @@
+{
+  "observation_cutoff": "2026-11-02",
+  "operational_base": "2e73033b125d4831e845272a187c8d4d37249a3a",
+  "read_scope": "Two public EIA GETs, no redirects; no operator delivery record was fetched. Source displayed observations through October 26.",
+  "request_date_pacific": "2026-11-02",
+  "runtime_base": "21719095afc6b48b03e86c2bc2dafb3778db7386",
+  "schema_version": "diesel-receipts-1",
+  "sources": [
+    {
+      "id": "EIA-DIESEL-FEED",
+      "lineage_id": "EIA-GAS-DIESEL-WEEKLY",
+      "observation": "2026-10-26",
+      "original_operational_path": "operations/week-one/runs/scout-eia-diesel-dff377a9f97e/api/0001.json",
+      "publication": "2026-10-27",
+      "receipt": "feed.json",
+      "receipt_sha256": "7dea5606d3886d1d62f7ffd8011bbbef1715c27b48b6f69d74106934e089aca0",
+      "retrieved_at": "2026-11-03T07:58:47.211948+00:00"
+    },
+    {
+      "id": "EIA-DIESEL-PRICES",
+      "lineage_id": "EIA-GAS-DIESEL-WEEKLY",
+      "observation": "2026-10-26",
+      "original_operational_path": "operations/week-one/runs/diesel-price-table-20261102/api/0001.json",
+      "publication": "2026-10-27",
+      "receipt": "price-table.json",
+      "receipt_sha256": "fcba0814dd5c240809b56f0777a42488cc1cf5756e3935772c88359f7b0e1cfe",
+      "retrieved_at": "2026-11-03T08:00:00.420488+00:00"
+    }
+  ]
+}

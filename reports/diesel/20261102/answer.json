@@ -1,0 +1,28 @@
+{
+  "actor": "Work Aiden / supervised diesel recheck",
+  "answer_id": "ANS-041BBC1F7B380A2D1801AF97",
+  "attempt_id": null,
+  "created_at": "2026-11-03T14:39:20.131636+00:00",
+  "epoch": 2,
+  "payload": {
+    "counterevidence": [
+      "California and West Coast weekly prices fell while the U.S. average rose.",
+      "No actual missed delivery or service failure is observed by this packet."
+    ],
+    "evidence_refs": [
+      "https://github.com/Jaradyne/Dis-Unity/blob/main/reports/diesel/20261102/receipt-index.json",
+      "https://github.com/Jaradyne/Dis-Unity/blob/main/reports/diesel/20261102/prices.json",
+      "https://github.com/Jaradyne/Dis-Unity/blob/week-one-state/operations/garden/runs/DIESEL-RECHECK-20261102.json"
+    ],
+    "limitations": [
+      "Release October 27, observations October 26; retrieval spans November 2–3 Pacific.",
+      "Feed and price table belong to one EIA publication lineage; not independent corroboration.",
+      "Source retrieval and node analysis were supervised by Work; no provider inference or autonomous interpretation.",
+      "No essential-delivery operator record, resource commitment, corrective action or protective outcome."
+    ],
+    "next_test": "For one willing essential-delivery operator serving the East Bay, inspect one dated weekly dispatch-and-cost packet: scheduled versus completed deliveries, recorded reasons for misses, fuel expense, and any buffer or substitution that preserved service.",
+    "status": "provisional",
+    "summary": "EIA numeric price observations are now retained: October 26 on-highway diesel averaged USD 6.352/gal nationally (+0.076 weekly), 8.155 in California (-0.087), and 7.329 on the West Coast (-0.065), including taxes. Whether fuel costs caused missed essential deliveries remains UNKNOWN: no operator dispatch/completion, fuel expense or local stock record was inspected."
+  },
+  "question_id": "Q-RESEARCH-Q01"
+}

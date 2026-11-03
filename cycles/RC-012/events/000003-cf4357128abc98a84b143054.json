@@ -1,0 +1,15 @@
+{
+  "at": "2026-11-03T14:41:32.569825+00:00",
+  "cycle_id": "RC-012",
+  "event_id": "cf4357128abc98a84b143054",
+  "event_type": "agent_submission",
+  "hash": "cced3523807785deceee4c4f40e8b55bd5bb8d4a8511324867374a205b8dfd76",
+  "payload": {
+    "agent": "work-diesel",
+    "payload_hash": "911e6a5eb482878a24d4883b013241ad7c435148150985c2b034ba65faf291c5",
+    "phase": "submitted",
+    "submission_id": "eb33b6a63eafa2f1e0e90eaeea0635de7dd8b89cc3e9609da235386efa6c4ad0"
+  },
+  "previous_hash": "4deb5a8b03d3697effe7a9a9ee1d0a292deda87b69d603f9fa84a17d44786c11",
+  "sequence": 3
+}

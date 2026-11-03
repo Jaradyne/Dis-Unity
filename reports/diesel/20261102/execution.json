@@ -1,0 +1,28 @@
+{
+  "automated_work": [
+    "HTTP recording",
+    "feed parsing and deduplication",
+    "offline table extraction and arithmetic validation",
+    "Garden event validation, persistence and projection",
+    "deterministic replay"
+  ],
+  "boundaries": "Existing fictional diesel relay remains separate and unchanged. No physical resource is committed.",
+  "canonical_admission": false,
+  "completed_at": "2026-11-03T08:05:35.556684+00:00",
+  "epoch": 2,
+  "governor_action": false,
+  "next_test": "For one willing essential-delivery operator serving the East Bay, inspect one dated weekly dispatch-and-cost packet: scheduled versus completed deliveries, recorded reasons for misses, fuel expense, and any buffer or substitution that preserved service.",
+  "node_interpretations": "supplied by Work Aiden",
+  "operational_base_commit": "2e73033b125d4831e845272a187c8d4d37249a3a",
+  "provider_gate_observed": "window_complete",
+  "provider_inference_posts": 0,
+  "public_gets": 2,
+  "question_id": "Q-RESEARCH-Q01",
+  "recurring_manifest_closed": true,
+  "requested_on_pacific": "2026-11-02",
+  "run_id": "DIESEL-RECHECK-20261102",
+  "runtime_base_commit": "21719095afc6b48b03e86c2bc2dafb3778db7386",
+  "schema_version": "supervised-diesel-execution-1",
+  "simulation_used_as_evidence": false,
+  "supervised_by": "Work Aiden"
+}
