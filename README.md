@@ -1,3 +1,5 @@
+**November 3 — Garden PSAs:** [Public guidance](psa/README.md) · [Compassion can be exploited. Look at the whole pattern.](psa/compassion-and-exploitation.md). The first approved PSA names repeated deception, coercion and blame reversal while preserving care and fair consideration. This is public guidance, not a finding about an individual or a monitoring program.
+
 **October 28 — Information Integrity:** [Readable wing](reports/information-integrity/20261028/README.md) · [Chat/Digest handoff](reports/information-integrity/20261028/HANDOFF_CHAT_DIGEST.md). One historical public-source case distinguishes reported live-chat interference, attribution judgments, automation and protective results. The supplied pass rests without monitoring, Bee activation or canonical admission.
 
 **Explore the saved evidence:** [The Garden evidence viewer](web/evidence-arrival/README.md) walks through the real receipt, detection, review and assessment, with a separate simulation lab. Download/open its single HTML file to explore offline.
