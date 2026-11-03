@@ -1,0 +1,99 @@
+{
+  "finished_at": "2026-11-03T07:58:47.211948+00:00",
+  "record_id": "API-scout-eia-diesel-dff377a9f97e-0001",
+  "redaction": {
+    "policy": "Credentials and authentication cookies only; no content-field allowlist.",
+    "replacement_count": 0
+  },
+  "request": {
+    "body": null,
+    "headers": [
+      [
+        "User-agent",
+        "Dis-Unity-Public-Scout/0.1"
+      ],
+      [
+        "Accept",
+        "application/rss+xml, application/atom+xml, application/xml, text/xml"
+      ]
+    ],
+    "method": "GET",
+    "url": "https://www.eia.gov/petroleum/gasdiesel/includes/gas_diesel_rss.xml"
+  },
+  "response": {
+    "body": {
+      "complete": true,
+      "content": "<?xml version=\"1.0\" encoding=\"ISO-8859-1\" ?>\r\n<?xml-stylesheet href=\"/rss/rss.xsl\" type=\"text/xsl\" media=\"screen\"?>\r\n<rss version=\"2.0\">\r\n   <channel>\r\n      <title>EIA: Gasoline and Diesel Fuel Update</title>\r\n      <link>http://www.eia.gov/petroleum/gasdiesel/</link>\r\n      <description>U.S. Gasoline and Diesel Fuel Retail Prices Nationally and by Region.</description>\r\n      <language>en-us</language>\r\n      <image>\r\n         <title>EIA logo</title>\r\n         <url>http://www.eia.gov/global/images/logos/eia_logo_250.png</url>\r\n         <link>http://www.eia.gov/</link>\r\n         <description>US Energy Information Administration</description>\r\n      </image>\r\n      <item>\r\n         <title>Data For 10/26/26</title>\r\n         <link>http://www.eia.gov/petroleum/gasdiesel/</link>\r\n         <pubDate>Tue, 27 Oct 2026 08:44:30 EST</pubDate>\r\n         <description><![CDATA[<br/>\t\t\r\n\t\tSummary Excerpt:\t\t\t \t<br/>\r\n\t\t \t \t\t\t\t\t\t\t<br/>\r\n\t\tRegular Gasoline Retail Price\t<br/>\r\n\t\t(Dollars per Gallon)\t \t\t\t<br/>\r\n\t\t4.269  .. U.S.  \t\t\t\t<br/>\r\n\t\t4.022  ... East Coast  \t\t<br/>\r\n\t\t4.199  .... New England  \t<br/>\r\n\t\t4.251  .... Central Atlantic\t<br/>\r\n\t\t3.832  .... Lower Atlantic\t<br/>\r\n\t\t4.269 ... Midwest\t\t\t<br/>\r\n\t\t3.702 ... Gulf Coast\t\t<br/>\r\n\t\t4.458 ... Rocky Mountain\t<br/>\r\n\t\t5.417 ... West Coast\t\t<br/>\r\n\t\t4.868 ... West Coast less California<br/>\r\n\t\t <br/>\r\n\r\n\t\tStates<br/>\r\n\t\t5.888 .... California\t\t<br/>\r\n\t\t4.458 .... Colorado\t\t<br/>\r\n\t\t4.017 .... Florida\t\t<br/>\r\n\t\t4.145 .... Massachusetts<br/>\r\n\t\t4.146 .... Minnesota<br/>\r\n\t\t4.249 .... New York<br/>\r\n\t\t4.380 .... Ohio<br/>\r\n\t\t3.632 .... Texas<br/>\r\n\t\t5.203 .... Washington<br/>\r\n\t\t <br/>\r\n    \r\n\t\tCities<br/>\r\n\t\t4.176 .... Boston<br/>\r\n\t\t4.897 .... Chicago<br/>\r\n\t\t4.316 .... Cleveland<br/>\r\n\t\t4.407 .... Denver<br/>\r\n\t\t3.681 .... Houston<br/>\r\n\t\t5.883 .... Los Angeles<br/>\r\n\t\t4.077 .... Miami<br/>\r\n\t\t4.178 .... New York City<br/>\r\n\t\t5.856 .... San Francisco<br/>\t\r\n\t\t5.424 .... Seattle<br/>\t\r\n\t\t\r\n\t\t <br/>\r\n\t\t <br/>\r\n\t\tOn-Highway Diesel Fuel Retail Price  <br/>\r\n\t\t (Dollars  per Gallon) \t\t\t<br/>\r\n\t\t6.352  .. U.S.  \t\t\t\t<br/>\r\n\t\t6.079  ... East Coast  \t\t<br/>\r\n\t\t6.421  ....  New England  \t<br/>\r\n\t\t6.496  ....  Central Atlantic\t<br/>\r\n\t\t5.890 ....  Lower Atlantic\t<br/>\r\n\t\t6.480 ... Midwest\t\t\t<br/>\r\n\t\t5.951 ... Gulf Coast\t\t<br/>\r\n\t\t6.521 ... Rocky Mountain\t<br/>\r\n\t\t7.329 ... West Coast\t\t<br/>\r\n\t\t6.614 ... West Coast less California<br/>\r\n\t\t8.155 .... California\t\t]]></description>\r\n      </item>\r\n   </channel>\r\n</rss>\r\n",
+      "encoding": "utf-8",
+      "received_bytes": 2486,
+      "saved_sha256": "1e31ab771462fe2ba4c9bf0e8b95ef1b0fd4ddf345bfd4f61d8f84d26162252b"
+    },
+    "headers": [
+      [
+        "content-type",
+        "text/xml"
+      ],
+      [
+        "last-modified",
+        "Tue, 27 Oct 2026 12:45:02 GMT"
+      ],
+      [
+        "accept-ranges",
+        "bytes"
+      ],
+      [
+        "etag",
+        "\"09bbdfb1066dd1:0\""
+      ],
+      [
+        "server",
+        "envoy"
+      ],
+      [
+        "x-powered-by",
+        "ASP.NET"
+      ],
+      [
+        "strict-transport-security",
+        "max-age=31536000"
+      ],
+      [
+        "content-length",
+        "2486"
+      ],
+      [
+        "expires",
+        "Tue, 03 Nov 2026 07:58:47 GMT"
+      ],
+      [
+        "cache-control",
+        "max-age=0, no-cache, no-store"
+      ],
+      [
+        "pragma",
+        "no-cache"
+      ],
+      [
+        "date",
+        "Tue, 03 Nov 2026 07:58:47 GMT"
+      ],
+      [
+        "alt-svc",
+        "h3=\":443\"; ma=93600"
+      ],
+      [
+        "x-envoy-upstream-service-time",
+        "192"
+      ],
+      [
+        "connection",
+        "close"
+      ]
+    ],
+    "http_status": 200
+  },
+  "run_id": "scout-eia-diesel-dff377a9f97e",
+  "schema_version": "api-exchange-1",
+  "started_at": "2026-11-03T07:58:40.128080+00:00",
+  "state": "response_received"
+}

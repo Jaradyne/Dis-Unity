@@ -1,0 +1,142 @@
+{
+  "lineage_id": "EIA-GAS-DIESEL-WEEKLY",
+  "next_release_date_displayed": "2026-11-03",
+  "not_measured": [
+    "local usable fuel stocks",
+    "operator-specific purchase costs",
+    "missed essential deliveries",
+    "cause of a missed delivery",
+    "verified service protection"
+  ],
+  "observation_dates": [
+    "2026-10-12",
+    "2026-10-19",
+    "2026-10-26"
+  ],
+  "publication_date": "2026-10-27",
+  "rows": [
+    {
+      "change_from_two_years": "2.779",
+      "change_from_week": "0.076",
+      "change_from_year": "2.634",
+      "geography": "U.S.",
+      "prices": {
+        "2026-10-12": "6.179",
+        "2026-10-19": "6.276",
+        "2026-10-26": "6.352"
+      }
+    },
+    {
+      "change_from_two_years": "2.474",
+      "change_from_week": "0.095",
+      "change_from_year": "2.356",
+      "geography": "East Coast (PADD1)",
+      "prices": {
+        "2026-10-12": "5.908",
+        "2026-10-19": "5.984",
+        "2026-10-26": "6.079"
+      }
+    },
+    {
+      "change_from_two_years": "2.668",
+      "change_from_week": "-0.049",
+      "change_from_year": "2.488",
+      "geography": "New England (PADD1A)",
+      "prices": {
+        "2026-10-12": "6.441",
+        "2026-10-19": "6.470",
+        "2026-10-26": "6.421"
+      }
+    },
+    {
+      "change_from_two_years": "2.692",
+      "change_from_week": "-0.012",
+      "change_from_year": "2.615",
+      "geography": "Central Atlantic (PADD1B)",
+      "prices": {
+        "2026-10-12": "6.471",
+        "2026-10-19": "6.508",
+        "2026-10-26": "6.496"
+      }
+    },
+    {
+      "change_from_two_years": "2.374",
+      "change_from_week": "0.150",
+      "change_from_year": "2.248",
+      "geography": "Lower Atlantic (PADD1C)",
+      "prices": {
+        "2026-10-12": "5.645",
+        "2026-10-19": "5.740",
+        "2026-10-26": "5.890"
+      }
+    },
+    {
+      "change_from_two_years": "2.911",
+      "change_from_week": "0.128",
+      "change_from_year": "2.765",
+      "geography": "Midwest (PADD2)",
+      "prices": {
+        "2026-10-12": "6.259",
+        "2026-10-19": "6.352",
+        "2026-10-26": "6.480"
+      }
+    },
+    {
+      "change_from_two_years": "2.721",
+      "change_from_week": "0.048",
+      "change_from_year": "2.601",
+      "geography": "Gulf Coast (PADD3)",
+      "prices": {
+        "2026-10-12": "5.809",
+        "2026-10-19": "5.903",
+        "2026-10-26": "5.951"
+      }
+    },
+    {
+      "change_from_two_years": "2.866",
+      "change_from_week": "0.099",
+      "change_from_year": "2.835",
+      "geography": "Rocky Mountain (PADD4)",
+      "prices": {
+        "2026-10-12": "6.302",
+        "2026-10-19": "6.422",
+        "2026-10-26": "6.521"
+      }
+    },
+    {
+      "change_from_two_years": "3.123",
+      "change_from_week": "-0.065",
+      "change_from_year": "2.844",
+      "geography": "West Coast (PADD5)",
+      "prices": {
+        "2026-10-12": "7.240",
+        "2026-10-19": "7.394",
+        "2026-10-26": "7.329"
+      }
+    },
+    {
+      "change_from_two_years": "2.823",
+      "change_from_week": "-0.045",
+      "change_from_year": "2.519",
+      "geography": "West Coast less California",
+      "prices": {
+        "2026-10-12": "6.503",
+        "2026-10-19": "6.659",
+        "2026-10-26": "6.614"
+      }
+    },
+    {
+      "change_from_two_years": "3.473",
+      "change_from_week": "-0.087",
+      "change_from_year": "3.221",
+      "geography": "California",
+      "prices": {
+        "2026-10-12": "8.091",
+        "2026-10-19": "8.242",
+        "2026-10-26": "8.155"
+      }
+    }
+  ],
+  "source_id": "EIA-DIESEL-PRICES",
+  "units": "USD per U.S. gallon, retail on-highway diesel, all taxes included"
+}
