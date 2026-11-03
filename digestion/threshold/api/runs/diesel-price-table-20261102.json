@@ -1,0 +1,26 @@
+{
+  "attempt_id": null,
+  "coverage": "recorded_exchanges",
+  "materials": [
+    {
+      "path": "operations/week-one/runs/diesel-price-table-20261102/request.json",
+      "sha256": "d3a1b551610533ee71b1a818991951ebda36bd83c632922356e2feea9d202786",
+      "url": "https://github.com/Jaradyne/Dis-Unity/blob/week-one-state/operations/week-one/runs/diesel-price-table-20261102/request.json"
+    },
+    {
+      "path": "operations/week-one/runs/diesel-price-table-20261102/api/0001.json",
+      "sha256": "fcba0814dd5c240809b56f0777a42488cc1cf5756e3935772c88359f7b0e1cfe",
+      "url": "https://github.com/Jaradyne/Dis-Unity/blob/week-one-state/operations/week-one/runs/diesel-price-table-20261102/api/0001.json"
+    }
+  ],
+  "meaning": "Capture and delivery only; not a Governor review, digestion result or canonical admission.",
+  "operator_disposition": null,
+  "question_id": null,
+  "record_ids": [
+    "API-diesel-price-table-20261102-0001"
+  ],
+  "run_id": "diesel-price-table-20261102",
+  "run_status": null,
+  "schema_version": "digestion-api-materials-1",
+  "status": "available_for_digestion"
+}

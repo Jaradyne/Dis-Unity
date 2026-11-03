@@ -1,0 +1,21 @@
+{
+  "attempt_id": null,
+  "coverage": "recorded_exchanges",
+  "materials": [
+    {
+      "path": "operations/week-one/runs/scout-eia-diesel-dff377a9f97e/api/0001.json",
+      "sha256": "7dea5606d3886d1d62f7ffd8011bbbef1715c27b48b6f69d74106934e089aca0",
+      "url": "https://github.com/Jaradyne/Dis-Unity/blob/week-one-state/operations/week-one/runs/scout-eia-diesel-dff377a9f97e/api/0001.json"
+    }
+  ],
+  "meaning": "Capture and delivery only; not a Governor review, digestion result or canonical admission.",
+  "operator_disposition": null,
+  "question_id": null,
+  "record_ids": [
+    "API-scout-eia-diesel-dff377a9f97e-0001"
+  ],
+  "run_id": "scout-eia-diesel-dff377a9f97e",
+  "run_status": null,
+  "schema_version": "digestion-api-materials-1",
+  "status": "available_for_digestion"
+}

@@ -1,0 +1,10 @@
+{
+  "authorized_by": "Jared: try one full diesel action now, 2026-11-02 Pacific",
+  "kind": "bounded_diesel_price_inspection",
+  "max_bytes": 2000000,
+  "max_gets": 1,
+  "no_redirects": true,
+  "question_id": "Q-RESEARCH-Q01",
+  "reason": "Inspect numeric price observations behind the EIA feed lead; do not infer local fuel cover or delivery outcomes.",
+  "source": "https://www.eia.gov/petroleum/gasdiesel/"
+}
