@@ -1,0 +1,32 @@
+{
+  "agent": "work-autonomy",
+  "at": "2026-11-04T13:16:23.009015+00:00",
+  "base_hash": "16d04f8bb35a588caca60517f90a11944cfbafac7951402d059a6d6131de97b7",
+  "cycle_id": "RC-014",
+  "payload": {
+    "agent": "work-autonomy",
+    "at": "2026-11-04T13:16:22.959614+00:00",
+    "cycle_id": "RC-014",
+    "deliverables": [
+      "Shared source/event references",
+      "Formal versus operational safeguard assessments",
+      "One deterministic supplied Garden pass",
+      "Human-readable view and Chat/Digest handoff"
+    ],
+    "evidence_cutoff": "2026-11-04",
+    "limits": [
+      "No private health or resident records",
+      "No diagnosis from housing refusal",
+      "No automatic causal or eligibility findings",
+      "No new Bee/model/recurring schedule",
+      "No Governor authority change",
+      "No canonical evidence admission",
+      "No outreach"
+    ],
+    "scope": "One new Care, Consent and State Power Garden wing; bounded California homelessness and CARE baseline prompted by governor-elect campaign statements. Verify the statement, distinguish current law and routes, preserve refusal context and outcome gaps; one supplied replay and review.",
+    "status": "initial_checkpoint"
+  },
+  "payload_hash": "a05dda05c93eec68d01b282534bdbd216e351a792a7fd8b5b08f700a3f14d59d",
+  "phase": "checkpoint",
+  "submission_id": "b20f2fd5dafbc8bed5df0ec398821449fc6112f6c8370f694cfe715549475395"
+}

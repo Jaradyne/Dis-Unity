@@ -1,0 +1,15 @@
+{
+  "version": "garden-tree-extension-1",
+  "base_sha256": "cabe4d51ecca052abfcb386dc1e3f8b97cc440a23d6a15bf955b40b8719f8e18",
+  "tree_id": "CARE-AUTONOMY",
+  "definition": {
+    "name": "Care, Consent and State Power",
+    "node_template": "INIT",
+    "status": "traversable_with_supplied_content"
+  },
+  "context_trees": [
+    "HOMELESSNESS",
+    "LANGUAGE",
+    "CUSTOMS"
+  ]
+}

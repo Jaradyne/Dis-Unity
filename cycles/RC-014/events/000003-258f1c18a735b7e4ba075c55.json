@@ -1,0 +1,15 @@
+{
+  "at": "2026-11-04T13:18:04.121922+00:00",
+  "cycle_id": "RC-014",
+  "event_id": "258f1c18a735b7e4ba075c55",
+  "event_type": "agent_submission",
+  "hash": "53109d178ff1f2359158652dba2d0aa06f45e89e4b363ff3791c9771f20b4dac",
+  "payload": {
+    "agent": "autonomy-runtime",
+    "payload_hash": "ac38b1af22091dc0823d844b8cc739e46ad94210420848532ebbad7f6ceab61b",
+    "phase": "checkpoint",
+    "submission_id": "a8e271d32a22e909d08c9a83cd14dd087947841ccb9d785a115ebacdcdaa8140"
+  },
+  "previous_hash": "127f92df45183758b676161be65878c42ef2ea8060d9a9c29396714a103174de",
+  "sequence": 3
+}

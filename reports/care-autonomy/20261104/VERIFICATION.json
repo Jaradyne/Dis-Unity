@@ -1,0 +1,44 @@
+{
+  "verified_at": "2026-11-04T14:54:59.649677+00:00",
+  "actor": "Work Aiden",
+  "full_local_suite": {
+    "passed": 279,
+    "command": "python -m unittest discover -s tests -v"
+  },
+  "targeted_suite": {
+    "passed": 9,
+    "command": "python -m unittest discover -s tests -p test_care_autonomy.py -v"
+  },
+  "saved_replay": {
+    "run_id": "CARE-AUTONOMY-BASELINE-20261104",
+    "state_sha256": "f90517ad055b274d96406b9bce2d4355eba6eb4e2f8bde69773b58495497ecc4",
+    "steps": 10,
+    "branches": 1,
+    "provider_calls": 0,
+    "meaning": "Supplied assessments; not autonomous research or source-truth verification"
+  },
+  "flyer": {
+    "pages": 1,
+    "size": "US Letter",
+    "text": "Exact user wording verified by PDF text extraction",
+    "visual_review": "Rendered PNG inspected; no clipping, overlap or missing text",
+    "format": "Embedded fonts and selectable PDF text"
+  },
+  "canonical_sha256": "16d04f8bb35a588caca60517f90a11944cfbafac7951402d059a6d6131de97b7",
+  "file_sha256": {
+    "config/care-autonomy-tree.json": "e46215a80db3745dc92794e4fe79fe1f3809ada79a9997442c613b2648931c90",
+    "operations/care-autonomy/20261104/case.json": "2596eaa787d7decc46d49caf8b53ef0b45898c383b0dbe016adaefc9ae73ec49",
+    "operations/care-autonomy/20261104/safeguard-references.json": "4a1af1879dea768141f5f66673a62383e98019cf21dc61199437e5aba9373f02",
+    "operations/care-autonomy/20261104/safeguard-journal.json": "5e5bd377c4de86c7a2d4d98258a96933aeb0456c9047d9d93aa780ea3168840f",
+    "reports/care-autonomy/20261104/sources.json": "e80ae9dd94fea5a79cec6343025f74c578e7357850bdf7ecbcd8210c4bf8ccaf",
+    "reports/care-autonomy/20261104/events.json": "d0f8ef84ebf2bca5e0991a6d490192c2833174338fcefa167d9b893f062be4e3",
+    "reports/care-autonomy/20261104/verify_packet.py": "6610806843c1f60b7201364a7353f67d9b0161cc6701b9e5d6bd595445e733f5",
+    "tests/test_care_autonomy.py": "d4b450fc1802050f93f3adf32c9b25ae29ab2514ca15edb87eff1ca29baeebd6",
+    "psa/homelessness-is-not-a-diagnosis.md": "a09bced652cab070a8e712b0ab2f5e4d218acd2d5a4591a2272af3fcbebdad08",
+    "psa/flyers/build_diagnosis_flyer.py": "0f8f637e7e95e62801170457cc18aa3fceff0909f482ed49c10657915bd27077",
+    "psa/flyers/homelessness-is-not-a-diagnosis.pdf": "4f88f6421e7108960ff3d7ec99adacc8c0b2f584fa92f765cff5c8b857abeca7",
+    "psa/flyers/homelessness-is-not-a-diagnosis.png": "387a566f9da8597a5e76015bb2b551747cf062cd226d7c114d0481b0e16e2d8b"
+  },
+  "independent_empirical_replication": false,
+  "review_status": "Separate review requested; see review record for actual result."
+}

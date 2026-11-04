@@ -1,0 +1,61 @@
+{
+  "case_id": "CA-CARE-REFUSAL-BASELINE-20261104",
+  "contrary_evidence": [
+    "Formal CARE limits and procedural rights exist in the inspected guidance.",
+    "Candidate statements also reject punishment alone and emphasize supportive care; preserve that context.",
+    "Reported CARE agreement activity may reflect useful support, but neither free consent nor benefit is verified by the process count."
+  ],
+  "eligibility_decision": "not_performed",
+  "evidence_cutoff": "2026-11-04",
+  "meaning": "Help should be evaluated by actual safety, autonomy and sustained usable support; agreement, removal from view and a diagnosis label are not outcome substitutes.",
+  "next_test": {
+    "max_records": 1,
+    "question": "Does one current public Alameda County CARE referral protocol or form preserve independent eligibility evidence, the actual offer and reasons for refusal?",
+    "required_record": "One dated public Alameda County CARE referral protocol or form; no private case or medical records.",
+    "status": "proposed_only",
+    "stop_condition": "Classify that one record, retain missing fields and version limits, then stop; no broader survey or contact.",
+    "supports_if": "It explicitly separates eligibility evidence from refusal and preserves meaningful offer suitability and reasons, providing a concrete procedure for subsequent practice review.",
+    "weakens_if": "It treats refusal alone as an eligibility shortcut, omits these distinctions, or leaves them unclear. Omission in this single document is not proof of local practice."
+  },
+  "offer_review_fields": [
+    "What was actually offered: location, availability, duration, conditions and realistic route onward?",
+    "Could the person use it safely, with disability access, language access, privacy and continuity of medical care?",
+    "What would accepting it require losing: RV or possessions, partner or pets, work, transportation or trusted support?",
+    "What reasons did the person give, how were those reasons retained, and what voluntary alternative was considered?",
+    "What independent clinical and functional evidence supports the specific legal route, beyond homelessness or refusal?",
+    "Who explained the choice and consequences, provided counsel or advocacy, and could correct a mistaken referral?",
+    "What actually arrived and continued: housing, treatment, restored choice or a documented remedy?"
+  ],
+  "ordinary_explanations": [
+    "Refusal can reflect an unsafe or unusable offer, feared property loss, access barriers or a reasoned preference; these are review hypotheses, not findings about a particular person.",
+    "Severe illness and urgent clinical needs can also exist; they require their own evidence and applicable safeguards.",
+    "A published plan can be well intended while implementation or capacity is insufficient; intentions do not settle outcomes."
+  ],
+  "origin": "public_campaign_statements_and_current_legal_baseline",
+  "question": "When help becomes a state-directed intervention, what establishes lawful authority, meaningful choice, usable alternatives and an actual protective result?",
+  "question_epoch": 1,
+  "question_id": "Q-CA-CARE-AUTONOMY",
+  "recorded_at": "2026-11-04T14:49:32.487503+00:00",
+  "relay_questions": [
+    "Was an accurate offer and its conditions communicated and understood?",
+    "Were the response and reasons preserved when information moved to an outreach worker, clinician or court?",
+    "Was an eligible, safe and usable service actually provided?",
+    "Did an independent review or remedy produce a verified protective result?"
+  ],
+  "residuals": [
+    "No individual case, notice, evaluation, actual offer or downstream outcome has been admitted.",
+    "Direct current statutory retrieval failed; no claim that every 2026 amendment has been excluded.",
+    "Actual capacity, genuine freedom to decline, alternatives and provider accountability require separate practice records."
+  ],
+  "safeguard_ids": [
+    "SG-CARE-ELIGIBILITY",
+    "SG-CARE-PROCEDURE",
+    "SG-CARE-USABLE-SERVICES"
+  ],
+  "scope": "One California public baseline distinguishing campaign positions, published CARE/LPS frameworks, actual implementation and individual outcomes; not a diagnosis or statewide misconduct finding.",
+  "starting_state": "Campaign statements and published formal safeguards are documented with access limits. Individual enforcement, consent and protection remain unknown.",
+  "status": "supplied_public_baseline_not_individual_adjudication",
+  "stop_condition": "Rest after one supplied baseline and deterministic replay. The proposed single public-record test is not launched.",
+  "title": "Care, Consent and State Power",
+  "version": "care-autonomy-case-1"
+}

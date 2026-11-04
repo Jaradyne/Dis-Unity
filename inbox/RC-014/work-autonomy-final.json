@@ -1,0 +1,53 @@
+{
+  "agent": "work-autonomy",
+  "cycle_id": "RC-014",
+  "completed_at": "2026-11-04T14:59:00.881839+00:00",
+  "status": "bounded_wing_and_flyer_complete_review_intake_only",
+  "question_id": "Q-CA-CARE-AUTONOMY",
+  "question_epoch": 1,
+  "live_question_registered": false,
+  "source_count": 12,
+  "event_count": 8,
+  "safeguard_count": 3,
+  "saved_pass": {
+    "run_id": "CARE-AUTONOMY-BASELINE-20261104",
+    "steps": 10,
+    "branches": 1,
+    "provider_calls": 0,
+    "state_sha256": "f90517ad055b274d96406b9bce2d4355eba6eb4e2f8bde69773b58495497ecc4"
+  },
+  "review": {
+    "actor": "autonomy_review",
+    "decision": "accepted_for_bounded_publication",
+    "path": "reports/care-autonomy/20261104/INDEPENDENT_REVIEW.md",
+    "sha256": "6f55e9b60bd9e077bb3859f866ece89f6e18052a74777c5d0be7c7aaab9d24ed",
+    "independent_legal_adjudication": false,
+    "independent_empirical_replication": false
+  },
+  "validation": {
+    "full_local_tests_passed": 279,
+    "targeted_tests_passed": 9,
+    "deterministic_replay": "passed",
+    "flyer_exact_copy_and_visual_review": "passed"
+  },
+  "role_coverage": {
+    "Signal Intake": "Work inspected published statements, guidance and access limits.",
+    "Energy/Diesel": "Not investigated; earlier pass unchanged.",
+    "Food/Fertilizer": "Not investigated.",
+    "Infrastructure": "Usable placements and access are review questions; no capacity measurement.",
+    "Economic/Industrial": "No budget or causal funding finding.",
+    "Social Temperature": "Public political positions retained; no population or motive inference.",
+    "Geographic Context": "California baseline; one Alameda County public-record follow-up proposed.",
+    "Cascade Modeler": "Refusal, clinical judgment, legal authority and outcomes kept separate.",
+    "Skeptic": "Separate bounded source/code review by autonomy_review.",
+    "Resilience/Overflow": "Voluntary alternatives, counsel, correction and support retained; availability unknown.",
+    "Islands of Stability": "Successful care and remedies remain possible; no result fabricated.",
+    "Commons": "User-authored autonomy flyer; practical choice and trusted connections preserved."
+  },
+  "authorship": "autonomy-runtime saved scaffold then stopped; Work completed records/integration; independent reviewer checked the final packet. See recovery checkpoint.",
+  "canonical_admission": false,
+  "governor_activation": false,
+  "recurring_program_activation": false,
+  "outreach": false,
+  "stop_reason": "One baseline, exact-wording flyer, independent scoped review and replay complete. The single public-record follow-up remains proposed only."
+}

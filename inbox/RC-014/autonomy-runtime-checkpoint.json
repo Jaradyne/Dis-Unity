@@ -1,0 +1,14 @@
+{
+  "agent": "autonomy-runtime",
+  "cycle_id": "RC-014",
+  "at": "2026-11-04T13:18:04.024267+00:00",
+  "status": "initial_checkpoint",
+  "scope": "Bounded supplied CARE-AUTONOMY tree using existing Garden and Safeguard runtimes; source intake owned by Work coordinator.",
+  "limits": [
+    "No browsing",
+    "No source inventions",
+    "No shared runtime edits",
+    "No canonical or live operational state edits",
+    "No provider calls, schedule, outreach or Governor changes"
+  ]
+}
