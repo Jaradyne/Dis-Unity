@@ -1,0 +1,19 @@
+{
+  "agent": "work-operator-followup",
+  "cycle_id": "RC-013",
+  "started_at": "2026-11-04T08:32:35.651466+00:00",
+  "status": "initial_checkpoint",
+  "question_id": "Q-RESEARCH-Q01",
+  "epoch": 2,
+  "scope": "One bounded inspection of Alameda County Community Food Bank public pages for a dated weekly dispatch-and-cost record. Carry forward prior source-discovery leads, recheck relevant pages, retain limits. Stop after this operator.",
+  "prior_discovery": "Before RC-013 began, Work search results and two opened ACCFB pages suggested a pickup threshold and a historical fuel-budget increase. Those leads are not a completed empirical test.",
+  "limits": [
+    "No outreach",
+    "No provider inference",
+    "No new schedule",
+    "No Governor action",
+    "No canonical admission",
+    "No private records"
+  ],
+  "expected_output": "Small source-discovery report and Chat/Digest handoff, including UNKNOWN if no matched dispatch-and-cost packet is found."
+}

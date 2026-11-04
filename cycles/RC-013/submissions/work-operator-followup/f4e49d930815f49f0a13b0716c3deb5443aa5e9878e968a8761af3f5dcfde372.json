@@ -1,0 +1,62 @@
+{
+  "agent": "work-operator-followup",
+  "at": "2026-11-04T08:37:48.298195+00:00",
+  "base_hash": "16d04f8bb35a588caca60517f90a11944cfbafac7951402d059a6d6131de97b7",
+  "cycle_id": "RC-013",
+  "payload": {
+    "agent": "work-operator-followup",
+    "canonical_admission": false,
+    "completed_at": "2026-11-04T08:37:48.205083+00:00",
+    "cycle_id": "RC-013",
+    "epoch": 2,
+    "failed_accesses": 3,
+    "governor_action": false,
+    "inspected_pages": 4,
+    "new_garden_pass": false,
+    "operational_registry_changed": false,
+    "outreach": false,
+    "provider_inference_posts": 0,
+    "question_id": "Q-RESEARCH-Q01",
+    "recurring_program_activated": false,
+    "reports": [
+      "reports/diesel/20261104-operator-followup/README.md",
+      "reports/diesel/20261104-operator-followup/sources.json",
+      "reports/diesel/20261104-operator-followup/REVIEW.md"
+    ],
+    "review": {
+      "actor": "psa_operator_review",
+      "decision": "accepted_with_scope_limits",
+      "independent_empirical_replication": false,
+      "path": "reports/diesel/20261104-operator-followup/REVIEW.md",
+      "sha256": "af3052f0ce28f2748ee5f169648f6707c5ae42f32f7469b7cd20fa6478ccf9dc"
+    },
+    "role_coverage": {
+      "Cascade Modeler": "Price-to-missed-delivery mechanism remains unverified.",
+      "Commons": "Donor drop-off is listed; willingness and usable donor transport capacity remain unknown.",
+      "Economic/Industrial": "Budget versus actual expense distinction; capital and cash reserves unknown.",
+      "Energy/Diesel": "Work distinguished historical fuel budget from current diesel expense.",
+      "Food/Fertilizer": "Food distribution procedure only; fertilizer not investigated.",
+      "Geographic Context": "One Alameda County operator; no regional generalization.",
+      "Infrastructure": "Published transport constraint only; fleet capacity not measured.",
+      "Islands of Stability": "No verified service continuity or failure claim.",
+      "Resilience/Overflow": "Published alternatives are possible adaptations, with effectiveness unknown.",
+      "Signal Intake": "Work inspected four official pages via web retrieval and retained three access failures; no raw HTTP receipts available.",
+      "Skeptic": "Separate reviewer checked retained source mapping, timing and inferential limits.",
+      "Social Temperature": "Not investigated; no public attitude or hostile-intent claim."
+    },
+    "source_lineages": 1,
+    "status": "bounded_inspection_complete_review_intake_only",
+    "stop_reason": "Single-operator public inspection finished. The next test requires a qualifying dated dispatch-and-cost record; no broader campaign begun.",
+    "summary": "Four official ACCFB pages provide operator statements and published options; no matched weekly dispatch-and-cost packet was found within this inspected material. Actual missed deliveries, fuel-cost causation and buffer effectiveness remain UNKNOWN.",
+    "verification": [
+      "Source inventory and local report links checked",
+      "Four reviewed file hashes match review record",
+      "Canonical SHA256 unchanged",
+      "Existing diesel offline replay passed",
+      "Cycle journal and JSON validity checked"
+    ]
+  },
+  "payload_hash": "7b943172e810130edce2ae8d1ee70546c8b8ddfc9af4a81a0d092c1797c6e6c8",
+  "phase": "submitted",
+  "submission_id": "f4e49d930815f49f0a13b0716c3deb5443aa5e9878e968a8761af3f5dcfde372"
+}
