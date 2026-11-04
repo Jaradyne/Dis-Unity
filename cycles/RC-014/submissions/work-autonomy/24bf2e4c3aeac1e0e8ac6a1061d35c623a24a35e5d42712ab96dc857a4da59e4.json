@@ -1,0 +1,62 @@
+{
+  "agent": "work-autonomy",
+  "at": "2026-11-04T14:59:00.926311+00:00",
+  "base_hash": "16d04f8bb35a588caca60517f90a11944cfbafac7951402d059a6d6131de97b7",
+  "cycle_id": "RC-014",
+  "payload": {
+    "agent": "work-autonomy",
+    "authorship": "autonomy-runtime saved scaffold then stopped; Work completed records/integration; independent reviewer checked the final packet. See recovery checkpoint.",
+    "canonical_admission": false,
+    "completed_at": "2026-11-04T14:59:00.881839+00:00",
+    "cycle_id": "RC-014",
+    "event_count": 8,
+    "governor_activation": false,
+    "live_question_registered": false,
+    "outreach": false,
+    "question_epoch": 1,
+    "question_id": "Q-CA-CARE-AUTONOMY",
+    "recurring_program_activation": false,
+    "review": {
+      "actor": "autonomy_review",
+      "decision": "accepted_for_bounded_publication",
+      "independent_empirical_replication": false,
+      "independent_legal_adjudication": false,
+      "path": "reports/care-autonomy/20261104/INDEPENDENT_REVIEW.md",
+      "sha256": "6f55e9b60bd9e077bb3859f866ece89f6e18052a74777c5d0be7c7aaab9d24ed"
+    },
+    "role_coverage": {
+      "Cascade Modeler": "Refusal, clinical judgment, legal authority and outcomes kept separate.",
+      "Commons": "User-authored autonomy flyer; practical choice and trusted connections preserved.",
+      "Economic/Industrial": "No budget or causal funding finding.",
+      "Energy/Diesel": "Not investigated; earlier pass unchanged.",
+      "Food/Fertilizer": "Not investigated.",
+      "Geographic Context": "California baseline; one Alameda County public-record follow-up proposed.",
+      "Infrastructure": "Usable placements and access are review questions; no capacity measurement.",
+      "Islands of Stability": "Successful care and remedies remain possible; no result fabricated.",
+      "Resilience/Overflow": "Voluntary alternatives, counsel, correction and support retained; availability unknown.",
+      "Signal Intake": "Work inspected published statements, guidance and access limits.",
+      "Skeptic": "Separate bounded source/code review by autonomy_review.",
+      "Social Temperature": "Public political positions retained; no population or motive inference."
+    },
+    "safeguard_count": 3,
+    "saved_pass": {
+      "branches": 1,
+      "provider_calls": 0,
+      "run_id": "CARE-AUTONOMY-BASELINE-20261104",
+      "state_sha256": "f90517ad055b274d96406b9bce2d4355eba6eb4e2f8bde69773b58495497ecc4",
+      "steps": 10
+    },
+    "source_count": 12,
+    "status": "bounded_wing_and_flyer_complete_review_intake_only",
+    "stop_reason": "One baseline, exact-wording flyer, independent scoped review and replay complete. The single public-record follow-up remains proposed only.",
+    "validation": {
+      "deterministic_replay": "passed",
+      "flyer_exact_copy_and_visual_review": "passed",
+      "full_local_tests_passed": 279,
+      "targeted_tests_passed": 9
+    }
+  },
+  "payload_hash": "c6fd46a0d807a8cd2f0eb8d11628545b68e96dcd29aeaf1fe9551846292f8bea",
+  "phase": "submitted",
+  "submission_id": "24bf2e4c3aeac1e0e8ac6a1061d35c623a24a35e5d42712ab96dc857a4da59e4"
+}

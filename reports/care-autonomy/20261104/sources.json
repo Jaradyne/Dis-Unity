@@ -1,0 +1,291 @@
+{
+  "access_failures": [
+    {
+      "result": "403 via web tool",
+      "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=WIC&sectionNum=5972."
+    },
+    {
+      "result": "403 via web tool",
+      "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=WIC&sectionNum=5976."
+    },
+    {
+      "result": "403 via web tool",
+      "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=WIC&sectionNum=5979"
+    },
+    {
+      "result": "403 via web tool; indexed form excerpt available but not used as an independent additional source",
+      "url": "https://courts.ca.gov/system/files?file=2025-07%2Fcare060info.pdf"
+    },
+    {
+      "result": "Candidate URL unavailable; no contents inferred",
+      "url": "https://courts.ca.gov/system/files?file=2024-11%2Fcare060.pdf"
+    }
+  ],
+  "evidence_cutoff": "2026-11-04",
+  "retention": "Attributable extracted-text summaries and access notes, not raw HTTP receipts. No repository adapter or full-article republishing.",
+  "sources": [
+    {
+      "access": "Search result inspected; no certified canvass reviewed.",
+      "inspection_date": "2026-11-04",
+      "inspection_timezone": "America/Los_Angeles",
+      "observation_date": null,
+      "permitted_evidence_kinds": [
+        "context"
+      ],
+      "publication_date": null,
+      "reported_event_date": "2026-11-03",
+      "reported_publication_date": "2026-11-03",
+      "source_family": "AP-ELECTION-20261103",
+      "source_id": "CA-ELECTION-2026",
+      "source_kind": "election_reporting",
+      "summary": "AP reports Becerra won the November 3 election. This identifies the governor-elect, not a new administration action.",
+      "title": "California governor election result",
+      "tool_reference": "turn107news33",
+      "url": "https://apnews.com/article/aae9829ede7e3f0c5e4512d5732d4df3"
+    },
+    {
+      "access": "Indexed candidate answer inspected. Direct page identifies the questionnaire and unedited answers but does not expose the dynamic answer text; do not claim full direct-page verification.",
+      "event_period": "2026 primary campaign; exact response date unknown",
+      "inspection_date": "2026-11-04",
+      "inspection_timezone": "America/Los_Angeles",
+      "limitations": [
+        "Candidate assertion, not enacted authority, clinical finding or implementation evidence."
+      ],
+      "observation_date": null,
+      "permitted_evidence_kinds": [
+        "context",
+        "reported_concern"
+      ],
+      "publication_date": null,
+      "source_family": "BECERRA-CAMPAIGN-2026",
+      "source_id": "CA-BECERRA-CHRONICLE",
+      "source_kind": "campaign_statement",
+      "summary": "Becerra endorses mandated mental-health intervention after repeated shelter refusals, while emphasizing treatment capacity and rejecting punishment alone.",
+      "title": "Governor candidate questionnaire",
+      "tool_reference": "turn108search0",
+      "url": "https://www.sfchronicle.com/projects/2026/california-primary-sf-bay-area-voter-guide/governor/"
+    },
+    {
+      "access": "Direct extracted transcript inspected, Homelessness section, lines 205-212. Video not independently checked.",
+      "event_period": "June 2, 2026 primary candidate material; interview date unspecified",
+      "inspection_date": "2026-11-04",
+      "inspection_timezone": "America/Los_Angeles",
+      "limitations": [
+        "One speaker across two outlets does not establish independent clinical or operational corroboration."
+      ],
+      "observation_date": null,
+      "permitted_evidence_kinds": [
+        "context",
+        "reported_concern"
+      ],
+      "publication_date": null,
+      "source_family": "BECERRA-CAMPAIGN-2026",
+      "source_id": "CA-BECERRA-CALMATTERS",
+      "source_kind": "campaign_statement",
+      "summary": "Becerra opposes treating sleeping outside as criminal, but says refusing offered help should not leave the final decision to remain outside with the individual.",
+      "title": "Governor Q&A transcript, Homelessness / Xavier Becerra",
+      "tool_reference": "turn110view3",
+      "url": "https://calmatters.org/california-voter-guide-2026/governor/videos/transcripts/"
+    },
+    {
+      "access": "Official indexed text inspected; direct page open returned 403.",
+      "additional_scope_note": "The same official About page describes CARE agreements and court-ordered plans, and states that a CARE plan cannot force stabilization medication. This does not decide other legal authorities.",
+      "inspection_date": "2026-11-04",
+      "inspection_timezone": "America/Los_Angeles",
+      "limitations": [
+        "Guidance includes bipolar I disorder with psychotic features. It is not a clinical assessment of any person. Direct consolidated statutory text was inaccessible."
+      ],
+      "observation_date": null,
+      "permitted_evidence_kinds": [
+        "formal_text",
+        "context"
+      ],
+      "publication_date": null,
+      "source_family": "CA-JUDICIAL-CARE",
+      "source_id": "CA-CARE-ELIGIBILITY",
+      "source_kind": "official_guidance",
+      "summary": "CARE requires all eligibility conditions, including a qualifying severe disorder, lack of clinical stabilization in voluntary treatment, specified deterioration/risk, likely benefit and the least restrictive necessary alternative. Homelessness and diagnosis alone are insufficient.",
+      "title": "About the CARE Act",
+      "tool_reference": "turn111search3",
+      "url": "https://selfhelp.courts.ca.gov/care-act/about"
+    },
+    {
+      "access": "Official indexed text inspected; direct open returned 403.",
+      "inspection_date": "2026-11-04",
+      "inspection_timezone": "America/Los_Angeles",
+      "limitations": [
+        "The existence of rights does not verify their delivery in any proceeding."
+      ],
+      "observation_date": null,
+      "permitted_evidence_kinds": [
+        "formal_text",
+        "context"
+      ],
+      "publication_date": null,
+      "source_family": "CA-JUDICIAL-CARE",
+      "source_id": "CA-CARE-RIGHTS",
+      "source_kind": "official_guidance",
+      "summary": "Lists notice, counsel regardless of ability to pay, participation, access to reports, supporter, evidence and witness rights, appeal and confidentiality.",
+      "title": "CARE Act respondent rights",
+      "tool_reference": "turn108search5",
+      "url": "https://selfhelp.courts.ca.gov/care-act/respondent-rights"
+    },
+    {
+      "access": "Official indexed rule text inspected. Subdivisions identify a July 1, 2026 amendment.",
+      "effective_version_date": "2026-07-01",
+      "inspection_date": "2026-11-04",
+      "inspection_timezone": "America/Los_Angeles",
+      "limitations": [
+        "No notice/service record for an actual respondent inspected."
+      ],
+      "observation_date": null,
+      "permitted_evidence_kinds": [
+        "formal_text",
+        "context"
+      ],
+      "publication_date": null,
+      "source_family": "CA-JUDICIAL-CARE",
+      "source_id": "CA-CARE-NOTICE-RULE",
+      "source_kind": "legal_authority",
+      "summary": "The rule specifies hearing notices, documents and methods intended to provide actual notice to respondents, including service explanations when personal service is impracticable.",
+      "title": "California Rule of Court 7.2235",
+      "tool_reference": "turn114search4",
+      "url": "https://courts.ca.gov/cms/rules/index/seven/rule7_2235"
+    },
+    {
+      "access": "Direct extracted FAQ inspected. DHCS links this technical-assistance resource. Exact section update dates unspecified.",
+      "inspection_date": "2026-11-04",
+      "inspection_timezone": "America/Los_Angeles",
+      "limitations": [
+        "Current consolidated section 5979 was inaccessible. Older mirrored text conditions the presumption on timely services; do not use this short FAQ as a complete statement of current statutory conditions.",
+        "Do not treat a published service pathway as delivered services."
+      ],
+      "observation_date": null,
+      "permitted_evidence_kinds": [
+        "formal_text",
+        "context"
+      ],
+      "publication_date": null,
+      "source_family": "CA-CARE-PROGRAM",
+      "source_id": "CA-CARE-FAQ",
+      "source_kind": "official_guidance",
+      "summary": "Describes services, voluntary agreements, court-ordered plans and possible interaction with separate LPS proceedings. Its nonparticipation explanation includes a later-intervention presumption; neither automatic detention nor absence of pressure follows.",
+      "title": "CARE Act Resource Center FAQ",
+      "tool_reference": "turn112view0",
+      "url": "https://care-act.org/library/faqs/"
+    },
+    {
+      "access": "Direct PDF text inspected, pages 1-3.",
+      "document_date": "2024-04-12",
+      "inspection_date": "2026-11-04",
+      "inspection_timezone": "America/Los_Angeles",
+      "limitations": [
+        "No fine, corrected violation or individual remedy verified here. URL upload date is not the notice date."
+      ],
+      "observation_date": null,
+      "permitted_evidence_kinds": [
+        "formal_text",
+        "context"
+      ],
+      "publication_date": null,
+      "source_family": "CA-DHCS-CARE",
+      "source_id": "CA-CARE-ACCOUNTABILITY",
+      "source_kind": "official_guidance",
+      "summary": "Describes fines for substantiated local-government noncompliance with CARE duties/orders and the handling of those funds.",
+      "title": "Behavioral Health Information Notice 24-014",
+      "tool_reference": "turn113view0",
+      "url": "https://www.dhcs.ca.gov/wp-content/uploads/2025/10/BHIN-24-014-CARE-Act-Fines-and-Repayment-Guidance.pdf"
+    },
+    {
+      "access": "Direct PDF text inspected, especially questions 1 and 8.",
+      "inspection_date": "2026-11-04",
+      "inspection_timezone": "America/Los_Angeles",
+      "limitations": [
+        "FAQ publication/revision date not established. No individual eligibility, local implementation or involuntary-medication authority evaluated."
+      ],
+      "observation_date": null,
+      "permitted_evidence_kinds": [
+        "formal_text",
+        "context"
+      ],
+      "publication_date": null,
+      "related_bhin_date": "2024-03-25",
+      "reported_bill_signed_date": "2023-10-10",
+      "reported_effective_date": "2024-01-01",
+      "reported_latest_county_deferral_date": "2026-01-01",
+      "source_family": "CA-DHCS-LPS",
+      "source_id": "CA-LPS-SB43",
+      "source_kind": "official_guidance",
+      "summary": "Explains expanded grave-disability criteria tied to specified disorders and inability to meet basic needs, plus distinct evaluation, intensive-treatment and conservatorship routes.",
+      "title": "SB 43 frequently asked questions",
+      "tool_reference": "turn112view1",
+      "url": "https://www.dhcs.ca.gov/provgovpart/Documents/SB-43-FAQs.pdf"
+    },
+    {
+      "access": "Official indexed overview inspected; direct open returned 403. Underlying dashboard data not independently extracted.",
+      "inspection_date": "2026-11-04",
+      "inspection_timezone": "America/Los_Angeles",
+      "limitations": [
+        "Aggregate process reporting; not evidence of free consent, adequate service, an individual outcome or program-wide effectiveness. No numeric denominator extracted."
+      ],
+      "observation_date": null,
+      "permitted_evidence_kinds": [
+        "context",
+        "implementation_observation"
+      ],
+      "publication_date": null,
+      "reported_data_through": "2026-06",
+      "source_family": "CA-JUDICIAL-CARE",
+      "source_id": "CA-CARE-COURT-DATA",
+      "source_kind": "implementation_report",
+      "summary": "Court overview reports that most cases reaching an approved service arrangement use CARE agreements.",
+      "title": "CARE Act implementation in California courts",
+      "tool_reference": "turn108search6",
+      "url": "https://courts.ca.gov/news-reference/research-data/care-act-implementation-california-courts"
+    },
+    {
+      "access": "Official indexed newsroom text inspected.",
+      "inspection_date": "2026-11-04",
+      "inspection_timezone": "America/Los_Angeles",
+      "limitations": [
+        "Eligibility expansion is not a rule that homelessness or disobedience establishes a disorder."
+      ],
+      "observation_date": null,
+      "permitted_evidence_kinds": [
+        "formal_text",
+        "context"
+      ],
+      "publication_date": null,
+      "reported_change_effective_date": "2026-01-01",
+      "source_family": "CA-JUDICIAL-CARE",
+      "source_id": "CA-CARE-EXPANSION",
+      "source_kind": "official_guidance",
+      "summary": "Judicial Council describes statewide rollout by December 2024 and diagnostic expansion under SB 27 effective January 1, 2026.",
+      "title": "The CARE Act: implementation and SB 27 update",
+      "tool_reference": "turn108search7",
+      "url": "https://newsroom.courts.ca.gov/care-act"
+    },
+    {
+      "access": "Indexed status table inspected. AI-generated bill summary not relied upon; official bill status was not verified.",
+      "inspection_date": "2026-11-04",
+      "inspection_timezone": "America/Los_Angeles",
+      "limitations": [
+        "Secondary status report; amended bill text cannot replace enacted text. Current-code uncertainty remains explicit."
+      ],
+      "observation_date": null,
+      "permitted_evidence_kinds": [
+        "context"
+      ],
+      "publication_date": null,
+      "reported_status_date": "2026-08-13",
+      "source_family": "CA-LEGISLATIVE-STATUS-SECONDARY",
+      "source_id": "CA-SB28-PROPOSAL-STATUS",
+      "source_kind": "implementation_report",
+      "summary": "Status history reports the bill held in Assembly Appropriations on August 13, 2026; it is not admitted here as operative law.",
+      "title": "SB 28 status history",
+      "tool_reference": "turn115search1",
+      "url": "https://calmatters.digitaldemocracy.org/bills/ca_202520260sb28"
+    }
+  ],
+  "version": "care-autonomy-source-intake-1"
+}

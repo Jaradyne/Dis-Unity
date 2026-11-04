@@ -1,0 +1,170 @@
+{
+  "base": {
+    "path": "operations/continuity/references.json",
+    "sha256": "90637325b6f8dac8aa0d79e187586898309a39daf8375cc4a1c1d9b451745948"
+  },
+  "references": {
+    "E-CA-CAMPAIGN-2026": {
+      "collection": "events",
+      "id_field": "event_id",
+      "kind": "event",
+      "path": "reports/care-autonomy/20261104/events.json",
+      "record_id": "CA-CAMPAIGN-2026",
+      "sha256": "e24a9cc6d4aa3f35d476a2f43892c22eb41d608ce6e24778a8b6b15577c333e3"
+    },
+    "E-CA-CARE-ACCOUNTABILITY-20240412": {
+      "collection": "events",
+      "id_field": "event_id",
+      "kind": "event",
+      "path": "reports/care-autonomy/20261104/events.json",
+      "record_id": "CA-CARE-ACCOUNTABILITY-20240412",
+      "sha256": "20f79a760f13f553a851edc353bb0d5b604869982b43d923bb676e2de379aec8"
+    },
+    "E-CA-CARE-ACTIVITY-202606": {
+      "collection": "events",
+      "id_field": "event_id",
+      "kind": "event",
+      "path": "reports/care-autonomy/20261104/events.json",
+      "record_id": "CA-CARE-ACTIVITY-202606",
+      "sha256": "4794c1cf587e4bc265c555f9f4e4d811b45057c364f12cec4ad497a6cf1f6f36"
+    },
+    "E-CA-CARE-BASELINE-20261104": {
+      "collection": "events",
+      "id_field": "event_id",
+      "kind": "event",
+      "path": "reports/care-autonomy/20261104/events.json",
+      "record_id": "CA-CARE-BASELINE-20261104",
+      "sha256": "25405a069a5be3f0e39a82fa69116f24e7e8bbf8957e25486eb411fffcb94272"
+    },
+    "E-CA-CARE-EXPANSION-20260101": {
+      "collection": "events",
+      "id_field": "event_id",
+      "kind": "event",
+      "path": "reports/care-autonomy/20261104/events.json",
+      "record_id": "CA-CARE-EXPANSION-20260101",
+      "sha256": "82cf0afe1ea8839ab364a7b1fb622e642741332fb196e3964a5fe66b10e1251c"
+    },
+    "E-CA-ELECTION-20261103": {
+      "collection": "events",
+      "id_field": "event_id",
+      "kind": "event",
+      "path": "reports/care-autonomy/20261104/events.json",
+      "record_id": "CA-ELECTION-20261103",
+      "sha256": "a34041e40f4eae9add895ec72f20f2cb4ca211f6c6c378681d37e8f3f4cdff5f"
+    },
+    "E-CA-LPS-SB43-20231010": {
+      "collection": "events",
+      "id_field": "event_id",
+      "kind": "event",
+      "path": "reports/care-autonomy/20261104/events.json",
+      "record_id": "CA-LPS-SB43-20231010",
+      "sha256": "6e91b8066115beee2279728a443d52e280e517f938e205fcbbb0757c72c02693"
+    },
+    "E-CA-SB28-STATUS-20260813": {
+      "collection": "events",
+      "id_field": "event_id",
+      "kind": "event",
+      "path": "reports/care-autonomy/20261104/events.json",
+      "record_id": "CA-SB28-STATUS-20260813",
+      "sha256": "b28acb426fbcf5692f6e372e16b50253b4c6083902776c160dcd7c6b0a80c847"
+    },
+    "S-CA-BECERRA-CALMATTERS": {
+      "collection": "sources",
+      "id_field": "source_id",
+      "kind": "source",
+      "path": "reports/care-autonomy/20261104/sources.json",
+      "record_id": "CA-BECERRA-CALMATTERS",
+      "sha256": "6360a2379d7248c6e9ffa3e021182b7a8db5be4507454e31a437827357f16053"
+    },
+    "S-CA-BECERRA-CHRONICLE": {
+      "collection": "sources",
+      "id_field": "source_id",
+      "kind": "source",
+      "path": "reports/care-autonomy/20261104/sources.json",
+      "record_id": "CA-BECERRA-CHRONICLE",
+      "sha256": "d1d774294600cc0b9008c3f73059dd214feed7500df7191c20dc411a439ad4ac"
+    },
+    "S-CA-CARE-ACCOUNTABILITY": {
+      "collection": "sources",
+      "id_field": "source_id",
+      "kind": "source",
+      "path": "reports/care-autonomy/20261104/sources.json",
+      "record_id": "CA-CARE-ACCOUNTABILITY",
+      "sha256": "bfb969488d3a5389190ba89bfacf08e58371a9845fb98c01a1d241343324274b"
+    },
+    "S-CA-CARE-COURT-DATA": {
+      "collection": "sources",
+      "id_field": "source_id",
+      "kind": "source",
+      "path": "reports/care-autonomy/20261104/sources.json",
+      "record_id": "CA-CARE-COURT-DATA",
+      "sha256": "69a9a1edfa27aaee2850b454df6f4d3ac40a804c652d6ece35b85aa2714c960f"
+    },
+    "S-CA-CARE-ELIGIBILITY": {
+      "collection": "sources",
+      "id_field": "source_id",
+      "kind": "source",
+      "path": "reports/care-autonomy/20261104/sources.json",
+      "record_id": "CA-CARE-ELIGIBILITY",
+      "sha256": "6471ac282863e030022951727d89e8b8a096745fa9ad6e4c8d4b4f043b341c18"
+    },
+    "S-CA-CARE-EXPANSION": {
+      "collection": "sources",
+      "id_field": "source_id",
+      "kind": "source",
+      "path": "reports/care-autonomy/20261104/sources.json",
+      "record_id": "CA-CARE-EXPANSION",
+      "sha256": "a57d56ffeffb4b20ef471edafe35d0f10a8502456f3c4f57c1918eec267dfb57"
+    },
+    "S-CA-CARE-FAQ": {
+      "collection": "sources",
+      "id_field": "source_id",
+      "kind": "source",
+      "path": "reports/care-autonomy/20261104/sources.json",
+      "record_id": "CA-CARE-FAQ",
+      "sha256": "4ecfd74b0a760651b5eda062e928876e6804b6a9b398e1d64634cf872fb6f90b"
+    },
+    "S-CA-CARE-NOTICE-RULE": {
+      "collection": "sources",
+      "id_field": "source_id",
+      "kind": "source",
+      "path": "reports/care-autonomy/20261104/sources.json",
+      "record_id": "CA-CARE-NOTICE-RULE",
+      "sha256": "8e4c5c4054b37f53ca378397b27bd87d949bfacae55ed63517b4aaf0eea16283"
+    },
+    "S-CA-CARE-RIGHTS": {
+      "collection": "sources",
+      "id_field": "source_id",
+      "kind": "source",
+      "path": "reports/care-autonomy/20261104/sources.json",
+      "record_id": "CA-CARE-RIGHTS",
+      "sha256": "106afa08f132dc5d9910d079deaa7d24bdda0dd904db715778b43ff5329dc456"
+    },
+    "S-CA-ELECTION-2026": {
+      "collection": "sources",
+      "id_field": "source_id",
+      "kind": "source",
+      "path": "reports/care-autonomy/20261104/sources.json",
+      "record_id": "CA-ELECTION-2026",
+      "sha256": "5ae18a477632b3cbefffd6c08b14dcbfe83ab42b7e12f541c12f7bc5553d1e81"
+    },
+    "S-CA-LPS-SB43": {
+      "collection": "sources",
+      "id_field": "source_id",
+      "kind": "source",
+      "path": "reports/care-autonomy/20261104/sources.json",
+      "record_id": "CA-LPS-SB43",
+      "sha256": "901e93cb206b148b927eb1bb8acba073661ecf3cef234f79e85bb0f7ab3a486b"
+    },
+    "S-CA-SB28-PROPOSAL-STATUS": {
+      "collection": "sources",
+      "id_field": "source_id",
+      "kind": "source",
+      "path": "reports/care-autonomy/20261104/sources.json",
+      "record_id": "CA-SB28-PROPOSAL-STATUS",
+      "sha256": "e67c4aaa3af6ea5ead66b17494358e8e29292efbbb1bbd85dfbc0678323307b6"
+    }
+  },
+  "snapshots": {},
+  "version": "safeguard-references-1"
+}

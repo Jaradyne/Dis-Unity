@@ -1,0 +1,85 @@
+{
+  "version": "care-autonomy-events-1",
+  "evidence_cutoff": "2026-11-04",
+  "events": [
+    {
+      "event_id": "CA-CAMPAIGN-2026",
+      "event_kind": "campaign_position",
+      "event_date": null,
+      "event_period": "2026 primary campaign; exact dates unknown",
+      "source_ids": [
+        "CA-BECERRA-CHRONICLE",
+        "CA-BECERRA-CALMATTERS"
+      ],
+      "summary": "Published candidate statements on refusal, intervention and supportive care. No enacted policy or individual practice established."
+    },
+    {
+      "event_id": "CA-ELECTION-20261103",
+      "event_kind": "reported_election_result",
+      "event_date": "2026-11-03",
+      "source_ids": [
+        "CA-ELECTION-2026"
+      ],
+      "summary": "Reported election identifies governor-elect; no completed transition or policy implementation inferred."
+    },
+    {
+      "event_id": "CA-CARE-BASELINE-20261104",
+      "event_kind": "dated_guidance_inspection",
+      "event_date": null,
+      "inspection_date": "2026-11-04",
+      "source_ids": [
+        "CA-CARE-ELIGIBILITY",
+        "CA-CARE-RIGHTS",
+        "CA-CARE-NOTICE-RULE",
+        "CA-CARE-FAQ"
+      ],
+      "summary": "Observed published requirements and process explanations; individual application and effect remain unverified."
+    },
+    {
+      "event_id": "CA-CARE-EXPANSION-20260101",
+      "event_kind": "source_reported_legal_change",
+      "event_date": "2026-01-01",
+      "source_ids": [
+        "CA-CARE-EXPANSION"
+      ],
+      "summary": "Reported effective date of SB27 diagnostic expansion; no person-specific finding."
+    },
+    {
+      "event_id": "CA-LPS-SB43-20231010",
+      "event_kind": "source_reported_legal_change",
+      "event_date": "2023-10-10",
+      "source_ids": [
+        "CA-LPS-SB43"
+      ],
+      "summary": "Historical enactment context with later effective/deferral dates retained in source; separate LPS framework."
+    },
+    {
+      "event_id": "CA-CARE-ACCOUNTABILITY-20240412",
+      "event_kind": "official_guidance_issued",
+      "event_date": "2024-04-12",
+      "source_ids": [
+        "CA-CARE-ACCOUNTABILITY"
+      ],
+      "summary": "County-accountability process described; no enforcement result established."
+    },
+    {
+      "event_id": "CA-CARE-ACTIVITY-202606",
+      "event_kind": "aggregate_process_report",
+      "event_date": null,
+      "reporting_period_end_precision": "2026-06",
+      "source_ids": [
+        "CA-CARE-COURT-DATA"
+      ],
+      "summary": "Aggregate agreement/plan process context; not independent proof of consent or protection."
+    },
+    {
+      "event_id": "CA-SB28-STATUS-20260813",
+      "event_kind": "secondary_reported_bill_status",
+      "event_date": "2026-08-13",
+      "source_ids": [
+        "CA-SB28-PROPOSAL-STATUS"
+      ],
+      "summary": "Reported committee hold; draft amendment not substituted for law."
+    }
+  ]
+}

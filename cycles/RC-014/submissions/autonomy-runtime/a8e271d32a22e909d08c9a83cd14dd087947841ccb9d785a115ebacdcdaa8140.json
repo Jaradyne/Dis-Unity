@@ -1,0 +1,23 @@
+{
+  "agent": "autonomy-runtime",
+  "at": "2026-11-04T13:18:04.119096+00:00",
+  "base_hash": "16d04f8bb35a588caca60517f90a11944cfbafac7951402d059a6d6131de97b7",
+  "cycle_id": "RC-014",
+  "payload": {
+    "agent": "autonomy-runtime",
+    "at": "2026-11-04T13:18:04.024267+00:00",
+    "cycle_id": "RC-014",
+    "limits": [
+      "No browsing",
+      "No source inventions",
+      "No shared runtime edits",
+      "No canonical or live operational state edits",
+      "No provider calls, schedule, outreach or Governor changes"
+    ],
+    "scope": "Bounded supplied CARE-AUTONOMY tree using existing Garden and Safeguard runtimes; source intake owned by Work coordinator.",
+    "status": "initial_checkpoint"
+  },
+  "payload_hash": "ac38b1af22091dc0823d844b8cc739e46ad94210420848532ebbad7f6ceab61b",
+  "phase": "checkpoint",
+  "submission_id": "a8e271d32a22e909d08c9a83cd14dd087947841ccb9d785a115ebacdcdaa8140"
+}

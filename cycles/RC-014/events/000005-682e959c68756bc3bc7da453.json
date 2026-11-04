@@ -1,0 +1,15 @@
+{
+  "at": "2026-11-04T14:59:00.928821+00:00",
+  "cycle_id": "RC-014",
+  "event_id": "682e959c68756bc3bc7da453",
+  "event_type": "agent_submission",
+  "hash": "e8821d702b675e89c9a6499a1d85750df3f78fa870a230239a09d6438bafd23c",
+  "payload": {
+    "agent": "work-autonomy",
+    "payload_hash": "c6fd46a0d807a8cd2f0eb8d11628545b68e96dcd29aeaf1fe9551846292f8bea",
+    "phase": "submitted",
+    "submission_id": "24bf2e4c3aeac1e0e8ac6a1061d35c623a24a35e5d42712ab96dc857a4da59e4"
+  },
+  "previous_hash": "98aff46bff3b14e8218851b85670bc9734301a1b084d4b85bf92b8a067d634a4",
+  "sequence": 5
+}

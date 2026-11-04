@@ -1,0 +1,15 @@
+{
+  "scenario_sha256": "e40ec02a435dd6a7290ec613c182b9c559ca4daf1bd2590549aa0c02e3e0f03a",
+  "sha256": {
+    "config/care-autonomy-tree.json": "e46215a80db3745dc92794e4fe79fe1f3809ada79a9997442c613b2648931c90",
+    "config/garden-traversal.json": "cabe4d51ecca052abfcb386dc1e3f8b97cc440a23d6a15bf955b40b8719f8e18",
+    "operations/care-autonomy/20261104/case.json": "2596eaa787d7decc46d49caf8b53ef0b45898c383b0dbe016adaefc9ae73ec49",
+    "operations/care-autonomy/20261104/safeguard-journal.json": "5e5bd377c4de86c7a2d4d98258a96933aeb0456c9047d9d93aa780ea3168840f",
+    "operations/care-autonomy/20261104/safeguard-references.json": "4a1af1879dea768141f5f66673a62383e98019cf21dc61199437e5aba9373f02",
+    "operations/continuity/references.json": "90637325b6f8dac8aa0d79e187586898309a39daf8375cc4a1c1d9b451745948",
+    "reports/care-autonomy/20261104/events.json": "d0f8ef84ebf2bca5e0991a6d490192c2833174338fcefa167d9b893f062be4e3",
+    "reports/care-autonomy/20261104/sources.json": "e80ae9dd94fea5a79cec6343025f74c578e7357850bdf7ecbcd8210c4bf8ccaf",
+    "schemas/safeguard.schema.json": "f0ed243296448c54df1b2b1bd42b38ab807653651930845bfdaf8852398ae0c0"
+  },
+  "version": "care-autonomy-inputs-1"
+}

@@ -1,0 +1,1156 @@
+{
+  "commands": [
+    {
+      "actor": {
+        "model": "Work-session model identifier not recorded",
+        "name": "Work Aiden",
+        "runtime": "Supplied active-session review; offline replay"
+      },
+      "branch_id": "B0",
+      "event_id": "CARE-AUTONOMY-STEP-1",
+      "expected_revision": 0,
+      "kind": "step",
+      "node": "ROOT",
+      "output": {
+        "name": "Care, Consent and State Power"
+      }
+    },
+    {
+      "actor": {
+        "model": "Work-session model identifier not recorded",
+        "name": "Work Aiden",
+        "runtime": "Supplied active-session review; offline replay"
+      },
+      "branch_id": "B0",
+      "event_id": "CARE-AUTONOMY-STEP-2",
+      "expected_revision": 1,
+      "kind": "step",
+      "node": "ARRIVAL",
+      "output": {
+        "arrival": {
+          "from": "operations/care-autonomy/20261104/safeguard-journal.json",
+          "id": "CARE-AUTONOMY-INTAKE-20261104",
+          "payload": {
+            "case_id": "CA-CARE-REFUSAL-BASELINE-20261104",
+            "input_sha256": {
+              "config/care-autonomy-tree.json": "e46215a80db3745dc92794e4fe79fe1f3809ada79a9997442c613b2648931c90",
+              "config/garden-traversal.json": "cabe4d51ecca052abfcb386dc1e3f8b97cc440a23d6a15bf955b40b8719f8e18",
+              "operations/care-autonomy/20261104/case.json": "2596eaa787d7decc46d49caf8b53ef0b45898c383b0dbe016adaefc9ae73ec49",
+              "operations/care-autonomy/20261104/safeguard-journal.json": "5e5bd377c4de86c7a2d4d98258a96933aeb0456c9047d9d93aa780ea3168840f",
+              "operations/care-autonomy/20261104/safeguard-references.json": "4a1af1879dea768141f5f66673a62383e98019cf21dc61199437e5aba9373f02",
+              "operations/continuity/references.json": "90637325b6f8dac8aa0d79e187586898309a39daf8375cc4a1c1d9b451745948",
+              "reports/care-autonomy/20261104/events.json": "d0f8ef84ebf2bca5e0991a6d490192c2833174338fcefa167d9b893f062be4e3",
+              "reports/care-autonomy/20261104/sources.json": "e80ae9dd94fea5a79cec6343025f74c578e7357850bdf7ecbcd8210c4bf8ccaf",
+              "schemas/safeguard.schema.json": "f0ed243296448c54df1b2b1bd42b38ab807653651930845bfdaf8852398ae0c0"
+            },
+            "kind": "reviewed_public_baseline"
+          },
+          "to": "CARE-AUTONOMY:ROOT-0001"
+        },
+        "language_glance": {
+          "basis": "participant_supplied",
+          "issuing_office": "See retained public sources",
+          "languages": [
+            "English"
+          ],
+          "note": "Inspected text and access limits are source metadata, not raw HTTP receipts.",
+          "source_refs": [
+            "S-CA-BECERRA-CALMATTERS",
+            "S-CA-BECERRA-CHRONICLE",
+            "S-CA-CARE-ACCOUNTABILITY",
+            "S-CA-CARE-COURT-DATA",
+            "S-CA-CARE-ELIGIBILITY",
+            "S-CA-CARE-EXPANSION",
+            "S-CA-CARE-FAQ",
+            "S-CA-CARE-NOTICE-RULE",
+            "S-CA-CARE-RIGHTS",
+            "S-CA-ELECTION-2026",
+            "S-CA-LPS-SB43",
+            "S-CA-SB28-PROPOSAL-STATUS"
+          ],
+          "surface_kind": "mixed"
+        }
+      }
+    },
+    {
+      "actor": {
+        "model": "Work-session model identifier not recorded",
+        "name": "Work Aiden",
+        "runtime": "Supplied active-session review; offline replay"
+      },
+      "branch_id": "B0",
+      "event_id": "CARE-AUTONOMY-STEP-3",
+      "expected_revision": 2,
+      "kind": "step",
+      "node": "EPIST",
+      "output": {
+        "eligibility_decision": "not_performed",
+        "evidence_cutoff": "2026-11-04",
+        "prompt": "When help becomes a state-directed intervention, what establishes lawful authority, meaningful choice, usable alternatives and an actual protective result?",
+        "starting_state": "Campaign statements and published formal safeguards are documented with access limits. Individual enforcement, consent and protection remain unknown."
+      }
+    },
+    {
+      "actor": {
+        "model": "Work-session model identifier not recorded",
+        "name": "Work Aiden",
+        "runtime": "Supplied active-session review; offline replay"
+      },
+      "branch_id": "B0",
+      "event_id": "CARE-AUTONOMY-STEP-4",
+      "expected_revision": 3,
+      "kind": "step",
+      "node": "FUNC",
+      "output": {
+        "assessment_history": [
+          {
+            "actor": "Work Aiden; coordinator supplied public-baseline assessment",
+            "dimensions": {
+              "effectiveness": "unknown",
+              "failure": "unknown",
+              "formal": "documented",
+              "operational": {
+                "authority": "unknown",
+                "people": "unknown",
+                "procedures": "unknown"
+              }
+            },
+            "entry_sha256": "089f0b6529b2575ca294cc5d4ac3a1f702c82f8d5d410001a469d254b22f276a",
+            "reason": "Separate formal protections from unobserved individual implementation and outcomes.",
+            "recorded_at": "2026-11-04T14:49:32.487503+00:00",
+            "revision": 1,
+            "safeguard_id": "SG-CARE-ELIGIBILITY",
+            "sequence": 1
+          },
+          {
+            "actor": "Work Aiden; coordinator supplied public-baseline assessment",
+            "dimensions": {
+              "effectiveness": "unknown",
+              "failure": "unknown",
+              "formal": "documented",
+              "operational": {
+                "authority": "unknown",
+                "people": "unknown",
+                "procedures": "unknown"
+              }
+            },
+            "entry_sha256": "d766853def8f82a349d11fc532cc3a68c850d803def282042998179c314ead49",
+            "reason": "Separate formal protections from unobserved individual implementation and outcomes.",
+            "recorded_at": "2026-11-04T14:49:32.487503+00:00",
+            "revision": 1,
+            "safeguard_id": "SG-CARE-PROCEDURE",
+            "sequence": 2
+          },
+          {
+            "actor": "Work Aiden; coordinator supplied public-baseline assessment",
+            "dimensions": {
+              "effectiveness": "unknown",
+              "failure": "unknown",
+              "formal": "documented",
+              "operational": {
+                "authority": "unknown",
+                "people": "unknown",
+                "procedures": "unknown"
+              }
+            },
+            "entry_sha256": "fdc18714ebf2e77b098ac777588ec3535480b2d5c462356942a57d9934ae9699",
+            "reason": "Separate formal protections from unobserved individual implementation and outcomes.",
+            "recorded_at": "2026-11-04T14:49:32.487503+00:00",
+            "revision": 1,
+            "safeguard_id": "SG-CARE-USABLE-SERVICES",
+            "sequence": 3
+          }
+        ],
+        "function": "Separate proposals, authority, implementation and protective outcomes.",
+        "offer_review_fields": [
+          "What was actually offered: location, availability, duration, conditions and realistic route onward?",
+          "Could the person use it safely, with disability access, language access, privacy and continuity of medical care?",
+          "What would accepting it require losing: RV or possessions, partner or pets, work, transportation or trusted support?",
+          "What reasons did the person give, how were those reasons retained, and what voluntary alternative was considered?",
+          "What independent clinical and functional evidence supports the specific legal route, beyond homelessness or refusal?",
+          "Who explained the choice and consequences, provided counsel or advocacy, and could correct a mistaken referral?",
+          "What actually arrived and continued: housing, treatment, restored choice or a documented remedy?"
+        ],
+        "relay_questions": [
+          "Was an accurate offer and its conditions communicated and understood?",
+          "Were the response and reasons preserved when information moved to an outreach worker, clinician or court?",
+          "Was an eligible, safe and usable service actually provided?",
+          "Did an independent review or remedy produce a verified protective result?"
+        ],
+        "safeguards": {
+          "SG-CARE-ELIGIBILITY": {
+            "contrary_evidence": [
+              {
+                "claim": "The documented criteria are narrower than a refusal-only shortcut, and genuine severe clinical needs can exist.",
+                "evidence_ids": [
+                  "CARE-ELIGIBILITY-TEXT",
+                  "CARE-LPS-DISTINCTION"
+                ]
+              }
+            ],
+            "effectiveness": {
+              "claim": "No scoped outcome record verifies prevention, cessation or remedy of harm.",
+              "evidence_ids": [],
+              "status": "unknown"
+            },
+            "event_refs": [
+              "E-CA-CAMPAIGN-2026",
+              "E-CA-CARE-BASELINE-20261104",
+              "E-CA-CARE-EXPANSION-20260101",
+              "E-CA-ELECTION-20261103",
+              "E-CA-LPS-SB43-20231010",
+              "E-CA-SB28-STATUS-20260813"
+            ],
+            "evidence": [
+              {
+                "citations": [
+                  {
+                    "locator": "What is required to be a respondent?",
+                    "source_ref": "S-CA-CARE-ELIGIBILITY"
+                  }
+                ],
+                "claim": "Official guidance requires the full set of CARE criteria, including a qualifying disorder, relevant severity/risk, likely benefit and the least restrictive necessary alternative.",
+                "effect": null,
+                "event_refs": [
+                  "E-CA-CARE-BASELINE-20261104"
+                ],
+                "evidence_id": "CARE-ELIGIBILITY-TEXT",
+                "kind": "formal_text",
+                "limits": "Public baseline only; no individual implementation or protective outcome established.",
+                "period": {
+                  "end": null,
+                  "note": "Source/version date when established; null means unspecified, not a new event on retrieval.",
+                  "start": null
+                }
+              },
+              {
+                "citations": [
+                  {
+                    "locator": "Candidate response on refusal; CalMatters Homelessness / Xavier Becerra",
+                    "source_ref": "S-CA-BECERRA-CHRONICLE"
+                  },
+                  {
+                    "locator": "Candidate response on refusal; CalMatters Homelessness / Xavier Becerra",
+                    "source_ref": "S-CA-BECERRA-CALMATTERS"
+                  }
+                ],
+                "claim": "The campaign position raises a question about how refusal would be interpreted; it does not create legal authority.",
+                "effect": null,
+                "event_refs": [
+                  "E-CA-CAMPAIGN-2026"
+                ],
+                "evidence_id": "CARE-CAMPAIGN-CONTEXT",
+                "kind": "context",
+                "limits": "Chronicle answer inspected in indexed text; direct page omitted dynamic answer. Transcript inspected separately. One speaker, not two independent clinical sources.",
+                "period": {
+                  "end": null,
+                  "note": "Source/version date when established; null means unspecified, not a new event on retrieval.",
+                  "start": null
+                }
+              },
+              {
+                "citations": [
+                  {
+                    "locator": "SB 27 update",
+                    "source_ref": "S-CA-CARE-EXPANSION"
+                  }
+                ],
+                "claim": "Judicial Council describes diagnostic eligibility expansion effective January 2026.",
+                "effect": null,
+                "event_refs": [
+                  "E-CA-CARE-EXPANSION-20260101"
+                ],
+                "evidence_id": "CARE-EXPANDED-ELIGIBILITY",
+                "kind": "formal_text",
+                "limits": "Public baseline only; no individual implementation or protective outcome established.",
+                "period": {
+                  "end": "2026-01-01",
+                  "note": "Source/version date when established; null means unspecified, not a new event on retrieval.",
+                  "start": "2026-01-01"
+                }
+              },
+              {
+                "citations": [
+                  {
+                    "locator": "SB 43 FAQ questions 1 and 8",
+                    "source_ref": "S-CA-LPS-SB43"
+                  }
+                ],
+                "claim": "The separate LPS grave-disability framework combines specified conditions with inability to meet basic needs.",
+                "effect": null,
+                "event_refs": [
+                  "E-CA-LPS-SB43-20231010"
+                ],
+                "evidence_id": "CARE-LPS-DISTINCTION",
+                "kind": "formal_text",
+                "limits": "Historical guidance and deferral dates; this is not a full current LPS or medication-authority analysis.",
+                "period": {
+                  "end": null,
+                  "note": "Source/version date when established; null means unspecified, not a new event on retrieval.",
+                  "start": null
+                }
+              },
+              {
+                "citations": [
+                  {
+                    "locator": "Election result report",
+                    "source_ref": "S-CA-ELECTION-2026"
+                  }
+                ],
+                "claim": "Election reporting identifies a governor-elect; no new administration action is evidenced by this record.",
+                "effect": null,
+                "event_refs": [
+                  "E-CA-ELECTION-20261103"
+                ],
+                "evidence_id": "CARE-ELECTION-CONTEXT",
+                "kind": "context",
+                "limits": "Public baseline only; no individual implementation or protective outcome established.",
+                "period": {
+                  "end": "2026-11-03",
+                  "note": "Source/version date when established; null means unspecified, not a new event on retrieval.",
+                  "start": "2026-11-03"
+                }
+              },
+              {
+                "citations": [
+                  {
+                    "locator": "Status table",
+                    "source_ref": "S-CA-SB28-PROPOSAL-STATUS"
+                  }
+                ],
+                "claim": "A surfaced draft amendment is kept separate from operative law; its reported status is not primary-code verification.",
+                "effect": null,
+                "event_refs": [
+                  "E-CA-SB28-STATUS-20260813"
+                ],
+                "evidence_id": "CARE-DRAFT-NOT-LAW",
+                "kind": "context",
+                "limits": "Public baseline only; no individual implementation or protective outcome established.",
+                "period": {
+                  "end": "2026-08-13",
+                  "note": "Source/version date when established; null means unspecified, not a new event on retrieval.",
+                  "start": "2026-08-13"
+                }
+              }
+            ],
+            "evidence_cutoff": "2026-11-04",
+            "failure": {
+              "claim": "No individual noncompliance record or rate is established; unknown effectiveness is not documented failure.",
+              "evidence_ids": [],
+              "status": "unknown"
+            },
+            "formal": {
+              "claim": "Official guidance documents eligibility limits; no individual eligibility decision is made.",
+              "evidence_ids": [
+                "CARE-ELIGIBILITY-TEXT",
+                "CARE-EXPANDED-ELIGIBILITY"
+              ],
+              "status": "documented"
+            },
+            "next_test": {
+              "max_records": 1,
+              "question": "Does one current public Alameda County CARE referral protocol or form preserve independent eligibility evidence, the actual offer and reasons for refusal?",
+              "required_record": "One dated public Alameda County CARE referral protocol or form; no private case or medical records.",
+              "status": "proposed_only",
+              "stop_condition": "Classify that one record, retain missing fields and version limits, then stop; no broader survey or contact.",
+              "supports_if": "It explicitly separates eligibility evidence from refusal and preserves meaningful offer suitability and reasons, providing a concrete procedure for subsequent practice review.",
+              "weakens_if": "It treats refusal alone as an eligibility shortcut, omits these distinctions, or leaves them unclear. Omission in this single document is not proof of local practice."
+            },
+            "operational": {
+              "authority": {
+                "claim": "Formal powers and limits are described; their exercise in an individual proceeding is unobserved.",
+                "evidence_ids": [],
+                "status": "unknown"
+              },
+              "people": {
+                "claim": "Actual accessible staff, counsel and provider capacity in an individual proceeding are not established.",
+                "evidence_ids": [],
+                "status": "unknown"
+              },
+              "procedures": {
+                "claim": "Published procedures do not establish how an actual referral, hearing or offer was handled.",
+                "evidence_ids": [],
+                "status": "unknown"
+              }
+            },
+            "ordinary_explanations": [
+              {
+                "claim": "Published political language may express intent to provide care without establishing how clinical and legal limits will be applied.",
+                "evidence_ids": [
+                  "CARE-CAMPAIGN-CONTEXT",
+                  "CARE-ELIGIBILITY-TEXT"
+                ]
+              }
+            ],
+            "residuals": [
+              "Current consolidated statutory text was inaccessible; guidance and rule access limits are retained.",
+              "Actual offer suitability, clinical evidence, exercise of rights, service completion and outcomes remain unverified."
+            ],
+            "rest_until": "One separately reviewed public protocol/form arrives; no automatic collector or individual profiling.",
+            "safeguard_id": "SG-CARE-ELIGIBILITY",
+            "scope": "California public CARE/refusal baseline as of November 4, 2026; no identified person or individual proceeding is adjudicated.",
+            "title": "Eligibility and least restrictive alternative"
+          },
+          "SG-CARE-PROCEDURE": {
+            "contrary_evidence": [
+              {
+                "claim": "CARE medication limits coexist with separate legal pathways; neither unrestricted coercion nor immunity from every intervention follows.",
+                "evidence_ids": [
+                  "CARE-MEDICATION-BOUNDARY",
+                  "CARE-ESCALATION-CONTEXT"
+                ]
+              }
+            ],
+            "effectiveness": {
+              "claim": "No scoped outcome record verifies prevention, cessation or remedy of harm.",
+              "evidence_ids": [],
+              "status": "unknown"
+            },
+            "event_refs": [
+              "E-CA-CARE-BASELINE-20261104"
+            ],
+            "evidence": [
+              {
+                "citations": [
+                  {
+                    "locator": "Respondent rights",
+                    "source_ref": "S-CA-CARE-RIGHTS"
+                  }
+                ],
+                "claim": "Published respondent rights include counsel, notice, participation, evidence, challenge, appeal and confidentiality.",
+                "effect": null,
+                "event_refs": [
+                  "E-CA-CARE-BASELINE-20261104"
+                ],
+                "evidence_id": "CARE-RIGHTS-TEXT",
+                "kind": "formal_text",
+                "limits": "Public baseline only; no individual implementation or protective outcome established.",
+                "period": {
+                  "end": null,
+                  "note": "Source/version date when established; null means unspecified, not a new event on retrieval.",
+                  "start": null
+                }
+              },
+              {
+                "citations": [
+                  {
+                    "locator": "Rule 7.2235",
+                    "source_ref": "S-CA-CARE-NOTICE-RULE"
+                  }
+                ],
+                "claim": "The formal notice rule specifies documents and service intended to produce actual notice.",
+                "effect": null,
+                "event_refs": [
+                  "E-CA-CARE-BASELINE-20261104"
+                ],
+                "evidence_id": "CARE-NOTICE-RULE",
+                "kind": "formal_text",
+                "limits": "Public baseline only; no individual implementation or protective outcome established.",
+                "period": {
+                  "end": "2026-07-01",
+                  "note": "Source/version date when established; null means unspecified, not a new event on retrieval.",
+                  "start": "2026-07-01"
+                }
+              },
+              {
+                "citations": [
+                  {
+                    "locator": "What are CARE agreements and CARE plans?",
+                    "source_ref": "S-CA-CARE-ELIGIBILITY"
+                  }
+                ],
+                "claim": "Official guidance says a CARE plan cannot force stabilization medication.",
+                "effect": null,
+                "event_refs": [
+                  "E-CA-CARE-BASELINE-20261104"
+                ],
+                "evidence_id": "CARE-MEDICATION-BOUNDARY",
+                "kind": "formal_text",
+                "limits": "CARE-plan limitation only; not a general immunity from other involuntary-treatment authorities.",
+                "period": {
+                  "end": null,
+                  "note": "Source/version date when established; null means unspecified, not a new event on retrieval.",
+                  "start": null
+                }
+              },
+              {
+                "citations": [
+                  {
+                    "locator": "Nonparticipation; CARE/LPS interaction",
+                    "source_ref": "S-CA-CARE-FAQ"
+                  }
+                ],
+                "claim": "Program guidance describes interaction with a separate LPS proceeding; the full statutory conditions must be checked before applying them.",
+                "effect": null,
+                "event_refs": [
+                  "E-CA-CARE-BASELINE-20261104"
+                ],
+                "evidence_id": "CARE-ESCALATION-CONTEXT",
+                "kind": "context",
+                "limits": "Consolidated section 5979 access failed. Do not infer either automatic detention or that nonparticipation can have no downstream consequences.",
+                "period": {
+                  "end": null,
+                  "note": "Source/version date when established; null means unspecified, not a new event on retrieval.",
+                  "start": null
+                }
+              }
+            ],
+            "evidence_cutoff": "2026-11-04",
+            "failure": {
+              "claim": "No individual noncompliance record or rate is established; unknown effectiveness is not documented failure.",
+              "evidence_ids": [],
+              "status": "unknown"
+            },
+            "formal": {
+              "claim": "Official guidance and the notice rule document procedural protections, with source/version limits retained.",
+              "evidence_ids": [
+                "CARE-RIGHTS-TEXT",
+                "CARE-NOTICE-RULE",
+                "CARE-MEDICATION-BOUNDARY"
+              ],
+              "status": "documented"
+            },
+            "next_test": {
+              "max_records": 1,
+              "question": "Does one current public Alameda County CARE referral protocol or form preserve independent eligibility evidence, the actual offer and reasons for refusal?",
+              "required_record": "One dated public Alameda County CARE referral protocol or form; no private case or medical records.",
+              "status": "proposed_only",
+              "stop_condition": "Classify that one record, retain missing fields and version limits, then stop; no broader survey or contact.",
+              "supports_if": "It explicitly separates eligibility evidence from refusal and preserves meaningful offer suitability and reasons, providing a concrete procedure for subsequent practice review.",
+              "weakens_if": "It treats refusal alone as an eligibility shortcut, omits these distinctions, or leaves them unclear. Omission in this single document is not proof of local practice."
+            },
+            "operational": {
+              "authority": {
+                "claim": "Formal powers and limits are described; their exercise in an individual proceeding is unobserved.",
+                "evidence_ids": [],
+                "status": "unknown"
+              },
+              "people": {
+                "claim": "Actual accessible staff, counsel and provider capacity in an individual proceeding are not established.",
+                "evidence_ids": [],
+                "status": "unknown"
+              },
+              "procedures": {
+                "claim": "Published procedures do not establish how an actual referral, hearing or offer was handled.",
+                "evidence_ids": [],
+                "status": "unknown"
+              }
+            },
+            "ordinary_explanations": [
+              {
+                "claim": "A proceeding may legitimately assess the required criteria and provide representation, but formal design alone cannot verify that it happened.",
+                "evidence_ids": [
+                  "CARE-RIGHTS-TEXT",
+                  "CARE-NOTICE-RULE"
+                ]
+              }
+            ],
+            "residuals": [
+              "Current consolidated statutory text was inaccessible; guidance and rule access limits are retained.",
+              "Actual offer suitability, clinical evidence, exercise of rights, service completion and outcomes remain unverified."
+            ],
+            "rest_until": "One separately reviewed public protocol/form arrives; no automatic collector or individual profiling.",
+            "safeguard_id": "SG-CARE-PROCEDURE",
+            "scope": "California public CARE/refusal baseline as of November 4, 2026; no identified person or individual proceeding is adjudicated.",
+            "title": "Notice, counsel and meaningful challenge"
+          },
+          "SG-CARE-USABLE-SERVICES": {
+            "contrary_evidence": [
+              {
+                "claim": "Agreements and support pathways are part of the program; court activity alone does not establish either coercion or benefit.",
+                "evidence_ids": [
+                  "CARE-AGREEMENT-CONTEXT",
+                  "CARE-SERVICE-PLAN"
+                ]
+              }
+            ],
+            "effectiveness": {
+              "claim": "No scoped outcome record verifies prevention, cessation or remedy of harm.",
+              "evidence_ids": [],
+              "status": "unknown"
+            },
+            "event_refs": [
+              "E-CA-CARE-ACCOUNTABILITY-20240412",
+              "E-CA-CARE-ACTIVITY-202606",
+              "E-CA-CARE-BASELINE-20261104"
+            ],
+            "evidence": [
+              {
+                "citations": [
+                  {
+                    "locator": "What happens during the CARE process?",
+                    "source_ref": "S-CA-CARE-FAQ"
+                  }
+                ],
+                "claim": "The published process describes individualized service arrangements and entitlement to the services outlined in them.",
+                "effect": null,
+                "event_refs": [
+                  "E-CA-CARE-BASELINE-20261104"
+                ],
+                "evidence_id": "CARE-SERVICE-PLAN",
+                "kind": "formal_text",
+                "limits": "No verified bed, actual provider, arrival, service duration, safe alternative or result in an individual case.",
+                "period": {
+                  "end": null,
+                  "note": "Source/version date when established; null means unspecified, not a new event on retrieval.",
+                  "start": null
+                }
+              },
+              {
+                "citations": [
+                  {
+                    "locator": "BHIN 24-014, pages 1-3",
+                    "source_ref": "S-CA-CARE-ACCOUNTABILITY"
+                  }
+                ],
+                "claim": "Official guidance describes government-side enforcement for substantiated failure to comply with CARE duties/orders.",
+                "effect": null,
+                "event_refs": [
+                  "E-CA-CARE-ACCOUNTABILITY-20240412"
+                ],
+                "evidence_id": "CARE-COUNTY-ACCOUNTABILITY",
+                "kind": "formal_text",
+                "limits": "Public baseline only; no individual implementation or protective outcome established.",
+                "period": {
+                  "end": "2024-04-12",
+                  "note": "Source/version date when established; null means unspecified, not a new event on retrieval.",
+                  "start": "2024-04-12"
+                }
+              },
+              {
+                "citations": [
+                  {
+                    "locator": "CARE agreements and plans; data through June 2026",
+                    "source_ref": "S-CA-CARE-COURT-DATA"
+                  }
+                ],
+                "claim": "Published aggregate process reporting describes agreements as the predominant approved arrangement.",
+                "effect": null,
+                "event_refs": [
+                  "E-CA-CARE-ACTIVITY-202606"
+                ],
+                "evidence_id": "CARE-AGREEMENT-CONTEXT",
+                "kind": "context",
+                "limits": "Indexed overview only, no numeric denominator extracted. An agreement is not proof of unpressured consent, service delivery or clinical benefit.",
+                "period": {
+                  "end": null,
+                  "note": "Source/version date when established; null means unspecified, not a new event on retrieval.",
+                  "start": null
+                }
+              }
+            ],
+            "evidence_cutoff": "2026-11-04",
+            "failure": {
+              "claim": "No individual noncompliance record or rate is established; unknown effectiveness is not documented failure.",
+              "evidence_ids": [],
+              "status": "unknown"
+            },
+            "formal": {
+              "claim": "Published service obligations and government-side accountability are formal commitments, not verified delivery.",
+              "evidence_ids": [
+                "CARE-SERVICE-PLAN",
+                "CARE-COUNTY-ACCOUNTABILITY"
+              ],
+              "status": "documented"
+            },
+            "next_test": {
+              "max_records": 1,
+              "question": "Does one current public Alameda County CARE referral protocol or form preserve independent eligibility evidence, the actual offer and reasons for refusal?",
+              "required_record": "One dated public Alameda County CARE referral protocol or form; no private case or medical records.",
+              "status": "proposed_only",
+              "stop_condition": "Classify that one record, retain missing fields and version limits, then stop; no broader survey or contact.",
+              "supports_if": "It explicitly separates eligibility evidence from refusal and preserves meaningful offer suitability and reasons, providing a concrete procedure for subsequent practice review.",
+              "weakens_if": "It treats refusal alone as an eligibility shortcut, omits these distinctions, or leaves them unclear. Omission in this single document is not proof of local practice."
+            },
+            "operational": {
+              "authority": {
+                "claim": "Formal powers and limits are described; their exercise in an individual proceeding is unobserved.",
+                "evidence_ids": [],
+                "status": "unknown"
+              },
+              "people": {
+                "claim": "Actual accessible staff, counsel and provider capacity in an individual proceeding are not established.",
+                "evidence_ids": [],
+                "status": "unknown"
+              },
+              "procedures": {
+                "claim": "Published procedures do not establish how an actual referral, hearing or offer was handled.",
+                "evidence_ids": [],
+                "status": "unknown"
+              }
+            },
+            "ordinary_explanations": [
+              {
+                "claim": "Accessible voluntary treatment and housing may protect people; capacity gaps, unsuitable offers or implementation failures are also possible and unmeasured here.",
+                "evidence_ids": [
+                  "CARE-SERVICE-PLAN",
+                  "CARE-COUNTY-ACCOUNTABILITY"
+                ]
+              }
+            ],
+            "residuals": [
+              "Current consolidated statutory text was inaccessible; guidance and rule access limits are retained.",
+              "Actual offer suitability, clinical evidence, exercise of rights, service completion and outcomes remain unverified."
+            ],
+            "rest_until": "One separately reviewed public protocol/form arrives; no automatic collector or individual profiling.",
+            "safeguard_id": "SG-CARE-USABLE-SERVICES",
+            "scope": "California public CARE/refusal baseline as of November 4, 2026; no identified person or individual proceeding is adjudicated.",
+            "title": "Usable services and provider accountability"
+          }
+        },
+        "task": "One California public baseline distinguishing campaign positions, published CARE/LPS frameworks, actual implementation and individual outcomes; not a diagnosis or statewide misconduct finding."
+      }
+    },
+    {
+      "actor": {
+        "model": "Work-session model identifier not recorded",
+        "name": "Work Aiden",
+        "runtime": "Supplied active-session review; offline replay"
+      },
+      "branch_id": "B0",
+      "event_id": "CARE-AUTONOMY-STEP-5",
+      "expected_revision": 4,
+      "kind": "step",
+      "node": "MIRROR",
+      "output": {
+        "comparisons": [
+          {
+            "answers": [],
+            "explanation": "Refusal can reflect an unsafe or unusable offer, feared property loss, access barriers or a reasoned preference; these are review hypotheses, not findings about a particular person.",
+            "queries": []
+          },
+          {
+            "answers": [],
+            "explanation": "Severe illness and urgent clinical needs can also exist; they require their own evidence and applicable safeguards.",
+            "queries": []
+          },
+          {
+            "answers": [],
+            "explanation": "A published plan can be well intended while implementation or capacity is insufficient; intentions do not settle outcomes.",
+            "queries": []
+          }
+        ],
+        "contrary_evidence": [
+          "Formal CARE limits and procedural rights exist in the inspected guidance.",
+          "Candidate statements also reject punishment alone and emphasize supportive care; preserve that context.",
+          "Reported CARE agreement activity may reflect useful support, but neither free consent nor benefit is verified by the process count."
+        ],
+        "information_lineage": {
+          "api_record_refs": [],
+          "criteria_refs": [
+            "schemas/safeguard.schema.json"
+          ],
+          "parent_answer_visible": true,
+          "parent_output_refs": [
+            "operations/care-autonomy/20261104/case.json",
+            "operations/care-autonomy/20261104/safeguard-journal.json"
+          ],
+          "source_refs": [
+            "S-CA-BECERRA-CALMATTERS",
+            "S-CA-BECERRA-CHRONICLE",
+            "S-CA-CARE-ACCOUNTABILITY",
+            "S-CA-CARE-COURT-DATA",
+            "S-CA-CARE-ELIGIBILITY",
+            "S-CA-CARE-EXPANSION",
+            "S-CA-CARE-FAQ",
+            "S-CA-CARE-NOTICE-RULE",
+            "S-CA-CARE-RIGHTS",
+            "S-CA-ELECTION-2026",
+            "S-CA-LPS-SB43",
+            "S-CA-SB28-PROPOSAL-STATUS"
+          ],
+          "test_origin": "separately_specified"
+        }
+      }
+    },
+    {
+      "actor": {
+        "model": "Work-session model identifier not recorded",
+        "name": "Work Aiden",
+        "runtime": "Supplied active-session review; offline replay"
+      },
+      "branch_id": "B0",
+      "event_id": "CARE-AUTONOMY-STEP-6",
+      "expected_revision": 5,
+      "kind": "step",
+      "node": "CROSS",
+      "output": {
+        "bridge": [
+          {
+            "question": "Does one current public Alameda County CARE referral protocol or form preserve independent eligibility evidence, the actual offer and reasons for refusal?",
+            "status": "proposed_only"
+          }
+        ],
+        "independent": [],
+        "inherited": [
+          {
+            "ref": "S-CA-BECERRA-CALMATTERS",
+            "status": "Shared source; reuse is not independent corroboration"
+          },
+          {
+            "ref": "S-CA-BECERRA-CHRONICLE",
+            "status": "Shared source; reuse is not independent corroboration"
+          },
+          {
+            "ref": "S-CA-CARE-ACCOUNTABILITY",
+            "status": "Shared source; reuse is not independent corroboration"
+          },
+          {
+            "ref": "S-CA-CARE-COURT-DATA",
+            "status": "Shared source; reuse is not independent corroboration"
+          },
+          {
+            "ref": "S-CA-CARE-ELIGIBILITY",
+            "status": "Shared source; reuse is not independent corroboration"
+          },
+          {
+            "ref": "S-CA-CARE-EXPANSION",
+            "status": "Shared source; reuse is not independent corroboration"
+          },
+          {
+            "ref": "S-CA-CARE-FAQ",
+            "status": "Shared source; reuse is not independent corroboration"
+          },
+          {
+            "ref": "S-CA-CARE-NOTICE-RULE",
+            "status": "Shared source; reuse is not independent corroboration"
+          },
+          {
+            "ref": "S-CA-CARE-RIGHTS",
+            "status": "Shared source; reuse is not independent corroboration"
+          },
+          {
+            "ref": "S-CA-ELECTION-2026",
+            "status": "Shared source; reuse is not independent corroboration"
+          },
+          {
+            "ref": "S-CA-LPS-SB43",
+            "status": "Shared source; reuse is not independent corroboration"
+          },
+          {
+            "ref": "S-CA-SB28-PROPOSAL-STATUS",
+            "status": "Shared source; reuse is not independent corroboration"
+          }
+        ]
+      }
+    },
+    {
+      "actor": {
+        "model": "Work-session model identifier not recorded",
+        "name": "Work Aiden",
+        "runtime": "Supplied active-session review; offline replay"
+      },
+      "branch_id": "B0",
+      "event_id": "CARE-AUTONOMY-STEP-7",
+      "expected_revision": 6,
+      "kind": "step",
+      "node": "RESID",
+      "output": {
+        "next_test": {
+          "max_records": 1,
+          "question": "Does one current public Alameda County CARE referral protocol or form preserve independent eligibility evidence, the actual offer and reasons for refusal?",
+          "required_record": "One dated public Alameda County CARE referral protocol or form; no private case or medical records.",
+          "status": "proposed_only",
+          "stop_condition": "Classify that one record, retain missing fields and version limits, then stop; no broader survey or contact.",
+          "supports_if": "It explicitly separates eligibility evidence from refusal and preserves meaningful offer suitability and reasons, providing a concrete procedure for subsequent practice review.",
+          "weakens_if": "It treats refusal alone as an eligibility shortcut, omits these distinctions, or leaves them unclear. Omission in this single document is not proof of local practice."
+        },
+        "predicates": {
+          "consequential": true,
+          "distinct_functions": false,
+          "language_exception": null
+        },
+        "summary": "No individual case, notice, evaluation, actual offer or downstream outcome has been admitted. Direct current statutory retrieval failed; no claim that every 2026 amendment has been excluded. Actual capacity, genuine freedom to decline, alternatives and provider accountability require separate practice records."
+      }
+    },
+    {
+      "actor": {
+        "model": "Work-session model identifier not recorded",
+        "name": "Work Aiden",
+        "runtime": "Supplied active-session review; offline replay"
+      },
+      "branch_id": "B0",
+      "event_id": "CARE-AUTONOMY-STEP-8",
+      "expected_revision": 7,
+      "kind": "step",
+      "node": "MEAN",
+      "output": {
+        "dimensions": {
+          "SG-CARE-ELIGIBILITY": {
+            "effectiveness": "unknown",
+            "failure": "unknown",
+            "formal": "documented",
+            "operational": {
+              "authority": "unknown",
+              "people": "unknown",
+              "procedures": "unknown"
+            }
+          },
+          "SG-CARE-PROCEDURE": {
+            "effectiveness": "unknown",
+            "failure": "unknown",
+            "formal": "documented",
+            "operational": {
+              "authority": "unknown",
+              "people": "unknown",
+              "procedures": "unknown"
+            }
+          },
+          "SG-CARE-USABLE-SERVICES": {
+            "effectiveness": "unknown",
+            "failure": "unknown",
+            "formal": "documented",
+            "operational": {
+              "authority": "unknown",
+              "people": "unknown",
+              "procedures": "unknown"
+            }
+          }
+        },
+        "summary": "Help should be evaluated by actual safety, autonomy and sustained usable support; agreement, removal from view and a diagnosis label are not outcome substitutes."
+      }
+    },
+    {
+      "actor": {
+        "model": "Work-session model identifier not recorded",
+        "name": "Work Aiden",
+        "runtime": "Supplied active-session review; offline replay"
+      },
+      "branch_id": "B0",
+      "event_id": "CARE-AUTONOMY-STEP-9",
+      "expected_revision": 8,
+      "kind": "step",
+      "node": "EXIT",
+      "output": {
+        "kind": "question",
+        "summary": "Does one current public Alameda County CARE referral protocol or form preserve independent eligibility evidence, the actual offer and reasons for refusal?"
+      }
+    },
+    {
+      "actor": {
+        "model": "Work-session model identifier not recorded",
+        "name": "Work Aiden",
+        "runtime": "Supplied active-session review; offline replay"
+      },
+      "branch_id": "B0",
+      "event_id": "CARE-AUTONOMY-STEP-10",
+      "expected_revision": 9,
+      "kind": "step",
+      "node": "RETURN",
+      "output": {
+        "new_arrival": null,
+        "reason": "Rest after one supplied baseline and deterministic replay. The proposed single public-record test is not launched."
+      }
+    }
+  ],
+  "question_snapshot": {
+    "questions": {
+      "Q-CA-CARE-AUTONOMY": {
+        "epoch": 1,
+        "status": "staged_question_not_live_registration"
+      }
+    }
+  },
+  "record_base_url": "https://github.com/Jaradyne/Dis-Unity/blob/main/reports/care-autonomy/20261104/worked/",
+  "recorded_at": "2026-11-04T14:49:32.487503+00:00",
+  "recorded_at_meaning": "Supplied review timestamp; no independent observation or provider call",
+  "schema_version": "garden-scenario-1",
+  "start": {
+    "actor": {
+      "model": "Work-session model identifier not recorded",
+      "name": "Work Aiden",
+      "runtime": "Supplied active-session review; offline replay"
+    },
+    "arrival": {
+      "from": "operations/care-autonomy/20261104/safeguard-journal.json",
+      "id": "CARE-AUTONOMY-INTAKE-20261104",
+      "payload": {
+        "case_id": "CA-CARE-REFUSAL-BASELINE-20261104",
+        "input_sha256": {
+          "config/care-autonomy-tree.json": "e46215a80db3745dc92794e4fe79fe1f3809ada79a9997442c613b2648931c90",
+          "config/garden-traversal.json": "cabe4d51ecca052abfcb386dc1e3f8b97cc440a23d6a15bf955b40b8719f8e18",
+          "operations/care-autonomy/20261104/case.json": "2596eaa787d7decc46d49caf8b53ef0b45898c383b0dbe016adaefc9ae73ec49",
+          "operations/care-autonomy/20261104/safeguard-journal.json": "5e5bd377c4de86c7a2d4d98258a96933aeb0456c9047d9d93aa780ea3168840f",
+          "operations/care-autonomy/20261104/safeguard-references.json": "4a1af1879dea768141f5f66673a62383e98019cf21dc61199437e5aba9373f02",
+          "operations/continuity/references.json": "90637325b6f8dac8aa0d79e187586898309a39daf8375cc4a1c1d9b451745948",
+          "reports/care-autonomy/20261104/events.json": "d0f8ef84ebf2bca5e0991a6d490192c2833174338fcefa167d9b893f062be4e3",
+          "reports/care-autonomy/20261104/sources.json": "e80ae9dd94fea5a79cec6343025f74c578e7357850bdf7ecbcd8210c4bf8ccaf",
+          "schemas/safeguard.schema.json": "f0ed243296448c54df1b2b1bd42b38ab807653651930845bfdaf8852398ae0c0"
+        },
+        "kind": "reviewed_public_baseline"
+      },
+      "to": "CARE-AUTONOMY:ROOT-0001"
+    },
+    "budget": {
+      "max_branches": 1,
+      "max_events": 10,
+      "max_fanout": 0,
+      "max_steps": 10,
+      "model_calls": 0
+    },
+    "epoch": 1,
+    "focus": "One California public baseline distinguishing campaign positions, published CARE/LPS frameworks, actual implementation and individual outcomes; not a diagnosis or statewide misconduct finding.",
+    "question_id": "Q-CA-CARE-AUTONOMY",
+    "run_id": "CARE-AUTONOMY-BASELINE-20261104",
+    "sources": [
+      {
+        "binding": {
+          "collection": "sources",
+          "id_field": "source_id",
+          "kind": "source",
+          "path": "reports/care-autonomy/20261104/sources.json",
+          "record_id": "CA-BECERRA-CALMATTERS",
+          "sha256": "6360a2379d7248c6e9ffa3e021182b7a8db5be4507454e31a437827357f16053"
+        },
+        "kind": "public_source",
+        "lineage_id": "BECERRA-CAMPAIGN-2026",
+        "ref": "S-CA-BECERRA-CALMATTERS"
+      },
+      {
+        "binding": {
+          "collection": "sources",
+          "id_field": "source_id",
+          "kind": "source",
+          "path": "reports/care-autonomy/20261104/sources.json",
+          "record_id": "CA-BECERRA-CHRONICLE",
+          "sha256": "d1d774294600cc0b9008c3f73059dd214feed7500df7191c20dc411a439ad4ac"
+        },
+        "kind": "public_source",
+        "lineage_id": "BECERRA-CAMPAIGN-2026",
+        "ref": "S-CA-BECERRA-CHRONICLE"
+      },
+      {
+        "binding": {
+          "collection": "sources",
+          "id_field": "source_id",
+          "kind": "source",
+          "path": "reports/care-autonomy/20261104/sources.json",
+          "record_id": "CA-CARE-ACCOUNTABILITY",
+          "sha256": "bfb969488d3a5389190ba89bfacf08e58371a9845fb98c01a1d241343324274b"
+        },
+        "kind": "public_source",
+        "lineage_id": "CA-DHCS-CARE",
+        "ref": "S-CA-CARE-ACCOUNTABILITY"
+      },
+      {
+        "binding": {
+          "collection": "sources",
+          "id_field": "source_id",
+          "kind": "source",
+          "path": "reports/care-autonomy/20261104/sources.json",
+          "record_id": "CA-CARE-COURT-DATA",
+          "sha256": "69a9a1edfa27aaee2850b454df6f4d3ac40a804c652d6ece35b85aa2714c960f"
+        },
+        "kind": "public_source",
+        "lineage_id": "CA-JUDICIAL-CARE",
+        "ref": "S-CA-CARE-COURT-DATA"
+      },
+      {
+        "binding": {
+          "collection": "sources",
+          "id_field": "source_id",
+          "kind": "source",
+          "path": "reports/care-autonomy/20261104/sources.json",
+          "record_id": "CA-CARE-ELIGIBILITY",
+          "sha256": "6471ac282863e030022951727d89e8b8a096745fa9ad6e4c8d4b4f043b341c18"
+        },
+        "kind": "public_source",
+        "lineage_id": "CA-JUDICIAL-CARE",
+        "ref": "S-CA-CARE-ELIGIBILITY"
+      },
+      {
+        "binding": {
+          "collection": "sources",
+          "id_field": "source_id",
+          "kind": "source",
+          "path": "reports/care-autonomy/20261104/sources.json",
+          "record_id": "CA-CARE-EXPANSION",
+          "sha256": "a57d56ffeffb4b20ef471edafe35d0f10a8502456f3c4f57c1918eec267dfb57"
+        },
+        "kind": "public_source",
+        "lineage_id": "CA-JUDICIAL-CARE",
+        "ref": "S-CA-CARE-EXPANSION"
+      },
+      {
+        "binding": {
+          "collection": "sources",
+          "id_field": "source_id",
+          "kind": "source",
+          "path": "reports/care-autonomy/20261104/sources.json",
+          "record_id": "CA-CARE-FAQ",
+          "sha256": "4ecfd74b0a760651b5eda062e928876e6804b6a9b398e1d64634cf872fb6f90b"
+        },
+        "kind": "public_source",
+        "lineage_id": "CA-CARE-PROGRAM",
+        "ref": "S-CA-CARE-FAQ"
+      },
+      {
+        "binding": {
+          "collection": "sources",
+          "id_field": "source_id",
+          "kind": "source",
+          "path": "reports/care-autonomy/20261104/sources.json",
+          "record_id": "CA-CARE-NOTICE-RULE",
+          "sha256": "8e4c5c4054b37f53ca378397b27bd87d949bfacae55ed63517b4aaf0eea16283"
+        },
+        "kind": "public_source",
+        "lineage_id": "CA-JUDICIAL-CARE",
+        "ref": "S-CA-CARE-NOTICE-RULE"
+      },
+      {
+        "binding": {
+          "collection": "sources",
+          "id_field": "source_id",
+          "kind": "source",
+          "path": "reports/care-autonomy/20261104/sources.json",
+          "record_id": "CA-CARE-RIGHTS",
+          "sha256": "106afa08f132dc5d9910d079deaa7d24bdda0dd904db715778b43ff5329dc456"
+        },
+        "kind": "public_source",
+        "lineage_id": "CA-JUDICIAL-CARE",
+        "ref": "S-CA-CARE-RIGHTS"
+      },
+      {
+        "binding": {
+          "collection": "sources",
+          "id_field": "source_id",
+          "kind": "source",
+          "path": "reports/care-autonomy/20261104/sources.json",
+          "record_id": "CA-ELECTION-2026",
+          "sha256": "5ae18a477632b3cbefffd6c08b14dcbfe83ab42b7e12f541c12f7bc5553d1e81"
+        },
+        "kind": "public_source",
+        "lineage_id": "AP-ELECTION-20261103",
+        "ref": "S-CA-ELECTION-2026"
+      },
+      {
+        "binding": {
+          "collection": "sources",
+          "id_field": "source_id",
+          "kind": "source",
+          "path": "reports/care-autonomy/20261104/sources.json",
+          "record_id": "CA-LPS-SB43",
+          "sha256": "901e93cb206b148b927eb1bb8acba073661ecf3cef234f79e85bb0f7ab3a486b"
+        },
+        "kind": "public_source",
+        "lineage_id": "CA-DHCS-LPS",
+        "ref": "S-CA-LPS-SB43"
+      },
+      {
+        "binding": {
+          "collection": "sources",
+          "id_field": "source_id",
+          "kind": "source",
+          "path": "reports/care-autonomy/20261104/sources.json",
+          "record_id": "CA-SB28-PROPOSAL-STATUS",
+          "sha256": "e67c4aaa3af6ea5ead66b17494358e8e29292efbbb1bbd85dfbc0678323307b6"
+        },
+        "kind": "public_source",
+        "lineage_id": "CA-LEGISLATIVE-STATUS-SECONDARY",
+        "ref": "S-CA-SB28-PROPOSAL-STATUS"
+      }
+    ],
+    "status": "Supplied baseline; no live registry admission",
+    "tree": "CARE-AUTONOMY"
+  }
+}
