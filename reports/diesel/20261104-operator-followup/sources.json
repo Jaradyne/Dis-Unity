@@ -1,0 +1,96 @@
+{
+  "cycle_id": "RC-013",
+  "question_id": "Q-RESEARCH-Q01",
+  "epoch": 2,
+  "inspection_date": "2026-11-04",
+  "inspection_timezone": "America/Los_Angeles",
+  "method": "Work read extracted text returned by the web-retrieval tool. Raw HTTP bodies, headers and exact origin retrieval timestamps were not provided. These records summarize inspected pages; they are not raw HTTP receipts.",
+  "shared_lineage_id": "ACCFB",
+  "source_lineages": 1,
+  "sources": [
+    {
+      "id": "ACCFB-FAQ",
+      "url": "https://www.accfb.org/food-drive-faq/",
+      "title": "Food Drive FAQ",
+      "displayed_page_metadata_at": "2025-11-10T22:42:54+00:00",
+      "effective_date": null,
+      "tool_reported_crawl_age": "today",
+      "tool_reference": "turn103view0",
+      "locator": "How big are the barrels?; extracted line 67",
+      "classification": "operator_reported_constraint_and_procedure",
+      "paraphrase": "Partner distributions occupy transport capacity; barrel service requires a commitment of at least 300 pounds.",
+      "independent_verification": false
+    },
+    {
+      "id": "ACCFB-FUEL-BUDGET",
+      "url": "https://www.accfb.org/savor-the-season-sponsor-toolkit/",
+      "title": "Savor the Season Sponsor Toolkit",
+      "displayed_page_metadata_at": "2024-06-10T16:57:50+00:00",
+      "effective_date": null,
+      "tool_reported_crawl_age": "today",
+      "tool_reference": "turn103view1",
+      "locator": "Our Numbers; extracted line 80",
+      "classification": "historical_operator_budget_statement",
+      "paraphrase": "Reports a 66 percent annual fuel-budget increase and a meal-equivalent comparison of 100,000. Exact comparison period and fuel mix are unspecified.",
+      "independent_verification": false
+    },
+    {
+      "id": "ACCFB-DRIVE-OVERVIEW",
+      "url": "https://www.accfb.org/give/fundraise/",
+      "title": "Food & Fund Drives",
+      "displayed_page_metadata_at": "2026-10-06T20:12:46+00:00",
+      "effective_date": null,
+      "tool_reported_crawl_age": "2 weeks ago",
+      "tool_reference": "turn105view1",
+      "locator": "Host a Food Drive; extracted lines 67-79",
+      "classification": "published_program_options",
+      "paraphrase": "Offers physical food drives and virtual fundraising, with links to hosting options.",
+      "independent_verification": false
+    },
+    {
+      "id": "ACCFB-HOST-DRIVE",
+      "url": "https://www.accfb.org/give/fundraise/food-drive/",
+      "title": "Host a Food Drive",
+      "displayed_page_metadata_at": "2026-10-16T17:59:10+00:00",
+      "effective_date": null,
+      "tool_reported_crawl_age": "2 days ago",
+      "tool_reference": "turn106view0",
+      "locator": "Start a Food Drive and Less than 300 lbs. of food; extracted lines 58 and 66-68",
+      "classification": "published_transfer_expectation_and_alternative",
+      "paraphrase": "A 300-pound minimum commitment qualifies for scheduled barrel service; smaller collections can use donor drop-off.",
+      "independent_verification": false
+    }
+  ],
+  "failed_accesses": [
+    {
+      "url": "https://www.accfb.org/food-drives/",
+      "discovery_method": "Work attempted this candidate URL before following the observed navigation link.",
+      "tool_reference": "turn103view2",
+      "tool_reported_result": "Not accessible via this tool; no origin HTTP status provided.",
+      "content_evaluated": false
+    },
+    {
+      "url": "https://www.accfb.org/get-involved/fundraise/food-drive",
+      "discovery_method": "Food Drive FAQ link 27",
+      "tool_reference": "turn104view0",
+      "tool_reported_result": "404 Not Found",
+      "content_evaluated": false
+    },
+    {
+      "url": "https://www.accfb.org/annual-report-2025/",
+      "discovery_method": "Earlier official-domain search lead; attempted opening during this inspection.",
+      "tool_reference": "turn105view0",
+      "tool_reported_result": "403 Forbidden",
+      "content_evaluated": false
+    }
+  ],
+  "assessment": {
+    "missed_essential_deliveries": "UNKNOWN",
+    "fuel_cost_causation": "UNKNOWN",
+    "buffer_effectiveness": "UNKNOWN",
+    "qualifying_weekly_packet_found_in_inspected_material": false,
+    "public_record_exists_elsewhere": "UNKNOWN",
+    "canonical_admission": false,
+    "new_garden_pass": false
+  }
+}
