@@ -1,0 +1,1134 @@
+{
+  "config_sha256": "39152c8d17954a1d9097a0c55351ced98ad702f402cb9c12a27b116f4c0d1655",
+  "events": [
+    {
+      "after": "7b6221ead118431910e74a23fa6a216c1c0446c390760ff3d6cbcf80309b01c3",
+      "before": "e4ac109dcfd33348608a8cbba5a0082673b235aa23ff356245d2ff5c29d8fb81",
+      "command": {
+        "actor": {
+          "model": "Work-session model identifier not recorded",
+          "name": "Work Aiden",
+          "runtime": "Supervised RC-015 assembly and supplied interpretation"
+        },
+        "branch_id": "B0",
+        "event_id": "RC015-CUSTOMS-CONTEXT-STEP-1",
+        "expected_revision": 0,
+        "kind": "step",
+        "node": "ROOT",
+        "output": {
+          "name": "Evidence admission and lineage"
+        }
+      },
+      "decision": {
+        "next_node": "ARRIVAL",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-11-07T10:46:07.208340+00:00"
+    },
+    {
+      "after": "da9e621edad45608ab5f87d3bdef4a44b46236f2c0b02bcea6e1da480e449842",
+      "before": "7b6221ead118431910e74a23fa6a216c1c0446c390760ff3d6cbcf80309b01c3",
+      "command": {
+        "actor": {
+          "model": "Work-session model identifier not recorded",
+          "name": "Work Aiden",
+          "runtime": "Supervised RC-015 assembly and supplied interpretation"
+        },
+        "branch_id": "B0",
+        "event_id": "RC015-CUSTOMS-CONTEXT-STEP-2",
+        "expected_revision": 1,
+        "kind": "step",
+        "node": "ARRIVAL",
+        "output": {
+          "arrival": {
+            "from": "reports/all-garden/20261104/inputs/cross-lane.json",
+            "id": "RC015-CUSTOMS-CONTEXT-ARRIVAL",
+            "payload": {
+              "baseline_refs": [
+                "reports/all-garden/20261104/inputs/institutions.json",
+                "reports/all-garden/20261104/inputs/services.json",
+                "reports/all-garden/20261104/inputs/information.json",
+                "reports/all-garden/20261104/inputs/material.json",
+                "reports/all-garden/20261104/inputs/coordinator.json",
+                "docs/GARDEN_TRAVERSAL.md"
+              ],
+              "inspection_status": "retained_only",
+              "lane_id": "customs-context",
+              "return_actor": "Work Aiden",
+              "return_sha256": "de4f51aacce7bbf63c843569239a3ec8303e222b8788268f8ec94ed5dbf3ca3a"
+            },
+            "to": "CUSTOMS:ROOT-0001"
+          },
+          "language_glance": {
+            "basis": "unknown",
+            "issuing_office": "See each pinned source publisher",
+            "languages": [],
+            "note": "No matched original/translation inventory supplied by these returns.",
+            "source_refs": [
+              "CUSTOMS-CONTEXT-RETURN-1",
+              "CUSTOMS-CONTEXT-RETURN-2",
+              "CUSTOMS-CONTEXT-RETURN-3",
+              "CUSTOMS-CONTEXT-RETURN-4",
+              "CUSTOMS-CONTEXT-RETURN-5"
+            ],
+            "surface_kind": "mixed"
+          }
+        }
+      },
+      "decision": {
+        "next_node": "EPIST",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-11-07T10:46:07.208340+00:00"
+    },
+    {
+      "after": "c5feb016d3ba57e0ab6f72f6030e83d5cd522647a77e3e91b756836519e03a4b",
+      "before": "da9e621edad45608ab5f87d3bdef4a44b46236f2c0b02bcea6e1da480e449842",
+      "command": {
+        "actor": {
+          "model": "Work-session model identifier not recorded",
+          "name": "Work Aiden",
+          "runtime": "Supervised RC-015 assembly and supplied interpretation"
+        },
+        "branch_id": "B0",
+        "event_id": "RC015-CUSTOMS-CONTEXT-STEP-3",
+        "expected_revision": 2,
+        "kind": "step",
+        "node": "EPIST",
+        "output": {
+          "empirical_cutoff": "2026-11-04 America/Los_Angeles",
+          "inspection_time": "2026-11-07T10:46:07.208340+00:00",
+          "prompt": "Can all returns cross the evidence boundary without promoting UNKNOWNs, recycled sources or announcements?",
+          "starting_state": "Retain the dated baseline; inspect one bounded residual."
+        }
+      },
+      "decision": {
+        "next_node": "FUNC",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-11-07T10:46:07.208340+00:00"
+    },
+    {
+      "after": "f146861a871d13104028ec2b156d8279a9a2cfcc3b7189982a25bd1217cf3cec",
+      "before": "c5feb016d3ba57e0ab6f72f6030e83d5cd522647a77e3e91b756836519e03a4b",
+      "command": {
+        "actor": {
+          "model": "Work-session model identifier not recorded",
+          "name": "Work Aiden",
+          "runtime": "Supervised RC-015 assembly and supplied interpretation"
+        },
+        "branch_id": "B0",
+        "event_id": "RC015-CUSTOMS-CONTEXT-STEP-4",
+        "expected_revision": 3,
+        "kind": "step",
+        "node": "FUNC",
+        "output": {
+          "findings": [
+            {
+              "basis": "Review of retained return contents, not independent empirical validation.",
+              "claim": "All returns are review intake. Source families, uncertain outcomes, access failures and conflicting accounts remain visible; no canonical evidence admission occurs.",
+              "epistemic_status": "DOCUMENTED",
+              "evidence_refs": [
+                "CUSTOMS-CONTEXT-RETURN-1",
+                "CUSTOMS-CONTEXT-RETURN-2",
+                "CUSTOMS-CONTEXT-RETURN-3",
+                "CUSTOMS-CONTEXT-RETURN-4",
+                "CUSTOMS-CONTEXT-RETURN-5"
+              ],
+              "finding_id": "CUSTOMS-CONTEXT-01",
+              "is_new_event": false
+            }
+          ],
+          "function": "Inspect evidence, outcome and access separately.",
+          "inspection_status": "retained_only",
+          "research_actor": "Work Aiden",
+          "task": "Can all returns cross the evidence boundary without promoting UNKNOWNs, recycled sources or announcements?"
+        }
+      },
+      "decision": {
+        "next_node": "MIRROR",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-11-07T10:46:07.208340+00:00"
+    },
+    {
+      "after": "b5d09f65b8d80747e30536e7e9596397431fa1279eb1b61cff70226c0728f647",
+      "before": "f146861a871d13104028ec2b156d8279a9a2cfcc3b7189982a25bd1217cf3cec",
+      "command": {
+        "actor": {
+          "model": "Work-session model identifier not recorded",
+          "name": "Work Aiden",
+          "runtime": "Supervised RC-015 assembly and supplied interpretation"
+        },
+        "branch_id": "B0",
+        "event_id": "RC015-CUSTOMS-CONTEXT-STEP-5",
+        "expected_revision": 4,
+        "kind": "step",
+        "node": "MIRROR",
+        "output": {
+          "comparisons": [
+            {
+              "answers": [],
+              "explanation": "Different institutions may make consistent statements without independently verifying outcomes; inconsistent dates may reflect ordinary errors.",
+              "queries": []
+            }
+          ],
+          "information_lineage": {
+            "api_record_refs": [],
+            "criteria_refs": [
+              "reports/all-garden/20261104/RETURN_CONTRACT.json"
+            ],
+            "parent_answer_visible": true,
+            "parent_output_refs": [
+              "reports/all-garden/20261104/inputs/institutions.json",
+              "reports/all-garden/20261104/inputs/services.json",
+              "reports/all-garden/20261104/inputs/information.json",
+              "reports/all-garden/20261104/inputs/material.json",
+              "reports/all-garden/20261104/inputs/coordinator.json",
+              "docs/GARDEN_TRAVERSAL.md"
+            ],
+            "source_refs": [
+              "CUSTOMS-CONTEXT-RETURN-1",
+              "CUSTOMS-CONTEXT-RETURN-2",
+              "CUSTOMS-CONTEXT-RETURN-3",
+              "CUSTOMS-CONTEXT-RETURN-4",
+              "CUSTOMS-CONTEXT-RETURN-5"
+            ],
+            "test_origin": "inherited"
+          },
+          "working_buffers": [
+            "Explicit attribution, shared references, review and human correction preserve competing explanations."
+          ]
+        }
+      },
+      "decision": {
+        "next_node": "CROSS",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-11-07T10:46:07.208340+00:00"
+    },
+    {
+      "after": "50f1f9d4c7a8802eb0778569e156bd534d66dd0866fc8ea1717b744b641b5b71",
+      "before": "b5d09f65b8d80747e30536e7e9596397431fa1279eb1b61cff70226c0728f647",
+      "command": {
+        "actor": {
+          "model": "Work-session model identifier not recorded",
+          "name": "Work Aiden",
+          "runtime": "Supervised RC-015 assembly and supplied interpretation"
+        },
+        "branch_id": "B0",
+        "event_id": "RC015-CUSTOMS-CONTEXT-STEP-6",
+        "expected_revision": 5,
+        "kind": "step",
+        "node": "CROSS",
+        "output": {
+          "bridge": [
+            {
+              "question": "Review one future qualifying outcome against its original source and prior assessment before any proposed admission.",
+              "source_refs": [
+                "CUSTOMS-CONTEXT-RETURN-1",
+                "CUSTOMS-CONTEXT-RETURN-2",
+                "CUSTOMS-CONTEXT-RETURN-3",
+                "CUSTOMS-CONTEXT-RETURN-4",
+                "CUSTOMS-CONTEXT-RETURN-5"
+              ],
+              "status": "proposed_only"
+            }
+          ],
+          "independent": [],
+          "inherited": [
+            {
+              "ref": "CUSTOMS-CONTEXT-RETURN-1"
+            },
+            {
+              "ref": "CUSTOMS-CONTEXT-RETURN-2"
+            },
+            {
+              "ref": "CUSTOMS-CONTEXT-RETURN-3"
+            },
+            {
+              "ref": "CUSTOMS-CONTEXT-RETURN-4"
+            },
+            {
+              "ref": "CUSTOMS-CONTEXT-RETURN-5"
+            }
+          ]
+        }
+      },
+      "decision": {
+        "next_node": "RESID",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-11-07T10:46:07.208340+00:00"
+    },
+    {
+      "after": "cfe5f1ec87ec9ef0759daf011b8686ce0d7fcd6ba44c46af35738ba039b24420",
+      "before": "50f1f9d4c7a8802eb0778569e156bd534d66dd0866fc8ea1717b744b641b5b71",
+      "command": {
+        "actor": {
+          "model": "Work-session model identifier not recorded",
+          "name": "Work Aiden",
+          "runtime": "Supervised RC-015 assembly and supplied interpretation"
+        },
+        "branch_id": "B0",
+        "event_id": "RC015-CUSTOMS-CONTEXT-STEP-7",
+        "expected_revision": 6,
+        "kind": "step",
+        "node": "RESID",
+        "output": {
+          "next_test": "Review one future qualifying outcome against its original source and prior assessment before any proposed admission.",
+          "predicates": {
+            "consequential": true,
+            "distinct_functions": false,
+            "language_exception": null
+          },
+          "summary": "Empirical residuals remain with their originating lanes."
+        }
+      },
+      "decision": {
+        "next_node": "MEAN",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-11-07T10:46:07.208340+00:00"
+    },
+    {
+      "after": "5f933eb6aaa6e436797347a20bebf482c56cf7ca8a1a3a445b7c937e0b36471c",
+      "before": "cfe5f1ec87ec9ef0759daf011b8686ce0d7fcd6ba44c46af35738ba039b24420",
+      "command": {
+        "actor": {
+          "model": "Work-session model identifier not recorded",
+          "name": "Work Aiden",
+          "runtime": "Supervised RC-015 assembly and supplied interpretation"
+        },
+        "branch_id": "B0",
+        "event_id": "RC015-CUSTOMS-CONTEXT-STEP-8",
+        "expected_revision": 7,
+        "kind": "step",
+        "node": "MEAN",
+        "output": {
+          "authorship_limits": "Work-supplied cross-lane projection reuses specialist material and does not count as independent corroboration.",
+          "summary": "Read the attributed findings with their contrary evidence and residuals."
+        }
+      },
+      "decision": {
+        "next_node": "EXIT",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-11-07T10:46:07.208340+00:00"
+    },
+    {
+      "after": "0844a145c2df393d75c72ddcf65489b8e4a9638934defb0cb8640c776dfc2ff1",
+      "before": "5f933eb6aaa6e436797347a20bebf482c56cf7ca8a1a3a445b7c937e0b36471c",
+      "command": {
+        "actor": {
+          "model": "Work-session model identifier not recorded",
+          "name": "Work Aiden",
+          "runtime": "Supervised RC-015 assembly and supplied interpretation"
+        },
+        "branch_id": "B0",
+        "event_id": "RC015-CUSTOMS-CONTEXT-STEP-9",
+        "expected_revision": 8,
+        "kind": "step",
+        "node": "EXIT",
+        "output": {
+          "kind": "question",
+          "summary": "Review one future qualifying outcome against its original source and prior assessment before any proposed admission."
+        }
+      },
+      "decision": {
+        "next_node": "RETURN",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-11-07T10:46:07.208340+00:00"
+    },
+    {
+      "after": "05a31dc72e80226551aedf77d8e4c35df716c2438b7ae3c9d6ce58a7b082d0e8",
+      "before": "0844a145c2df393d75c72ddcf65489b8e4a9638934defb0cb8640c776dfc2ff1",
+      "command": {
+        "actor": {
+          "model": "Work-session model identifier not recorded",
+          "name": "Work Aiden",
+          "runtime": "Supervised RC-015 assembly and supplied interpretation"
+        },
+        "branch_id": "B0",
+        "event_id": "RC015-CUSTOMS-CONTEXT-STEP-10",
+        "expected_revision": 9,
+        "kind": "step",
+        "node": "RETURN",
+        "output": {
+          "new_arrival": null,
+          "reason": "One cross-lane inspection completed; no additional collection or authority activated."
+        }
+      },
+      "decision": {
+        "reason": "No new arrival supplied",
+        "status": "rest"
+      },
+      "recorded_at": "2026-11-07T10:46:07.208340+00:00"
+    }
+  ],
+  "initial": {
+    "config": {
+      "authority": "Reviewed configuration determines eligible routes. Supplied content cannot edit this graph or activate morphology.",
+      "grammar": {
+        "crosscheck": {
+          "basic": "Collector capability",
+          "consequential_residual": "May request or propose teleport to a bounded Pygent Collector/specialist",
+          "permanent_crosscheck_bee": "Unresolved pending repeated cases showing the value of persistent specialist memory"
+        },
+        "entry": "INIT:ROOT-0001",
+        "external_execution": false,
+        "governor_input_refs": [
+          "daily_scroll",
+          "reflection_mailbox",
+          "meaning_tower",
+          "chair_imagination",
+          "meaning_boss_result"
+        ],
+        "routes": [
+          {
+            "automatic_execution": false,
+            "from": "INIT:RESID-0007",
+            "status": "available_not_running",
+            "to": "INIT:RETURN-0010",
+            "via": "PYGENT:PARALLAX-0001"
+          }
+        ],
+        "schema_version": "garden-config-0.1",
+        "status": "on_demand_grammar_prototype",
+        "trees": {
+          "INIT": {
+            "name": "Initiating Garden",
+            "nodes": [
+              {
+                "id": "ROOT-0001",
+                "purpose": "Pass name and identity"
+              },
+              {
+                "id": "ARRIVAL-0002",
+                "purpose": "What arrived, from where, sent to where"
+              },
+              {
+                "id": "EPIST-0003",
+                "purpose": "Prompt/question and starting epistemic state"
+              },
+              {
+                "id": "FUNC-0004",
+                "purpose": "Task and function being investigated"
+              },
+              {
+                "id": "MIRROR-0005",
+                "purpose": "Competing explanations, queries and recorded answers"
+              },
+              {
+                "id": "CROSS-0006",
+                "purpose": "Inherited, independently derived and deliberate bridge attachments"
+              },
+              {
+                "id": "RESID-0007",
+                "purpose": "Surviving residual and bounded specialist proposal"
+              },
+              {
+                "id": "MEAN-0008",
+                "purpose": "Changed meaning and non-evidence culture flower"
+              },
+              {
+                "id": "EXIT-0009",
+                "purpose": "Bounded answer, question, teleport, silence or error"
+              },
+              {
+                "id": "RETURN-0010",
+                "purpose": "New linked arrival or rest"
+              }
+            ]
+          },
+          "PYGENT": {
+            "name": "Bounded specialist destinations",
+            "nodes": [
+              {
+                "id": "PARALLAX-0001",
+                "purpose": "One bounded matched official-language Boss Packet",
+                "role": "parallax_collector_bee",
+                "status": "available_not_running"
+              }
+            ]
+          }
+        }
+      },
+      "independence": "A different branch, tree, context or model is not independent empirical evidence.",
+      "limits": {
+        "max_branches": 8,
+        "max_events": 128,
+        "max_fanout": 3,
+        "max_steps": 80,
+        "model_calls": 0
+      },
+      "model_execution": false,
+      "node_contracts": {
+        "ARRIVAL": {
+          "objects": [
+            "arrival",
+            "language_glance"
+          ]
+        },
+        "CROSS": {
+          "lists": [
+            "inherited",
+            "independent",
+            "bridge"
+          ]
+        },
+        "EPIST": {
+          "strings": [
+            "prompt",
+            "starting_state"
+          ]
+        },
+        "EXIT": {
+          "strings": [
+            "kind",
+            "summary"
+          ]
+        },
+        "FUNC": {
+          "strings": [
+            "task",
+            "function"
+          ]
+        },
+        "MEAN": {
+          "strings": [
+            "summary"
+          ]
+        },
+        "MIRROR": {
+          "lists": [
+            "comparisons"
+          ],
+          "objects": [
+            "information_lineage"
+          ]
+        },
+        "RESID": {
+          "objects": [
+            "predicates"
+          ],
+          "strings": [
+            "summary"
+          ]
+        },
+        "RETURN": {
+          "strings": [
+            "reason"
+          ]
+        },
+        "ROOT": {
+          "strings": [
+            "name"
+          ]
+        }
+      },
+      "rules": [
+        {
+          "actions": [
+            "MOVE",
+            "CLONE"
+          ],
+          "at": [
+            "RESID",
+            "MEAN",
+            "EXIT",
+            "RETURN"
+          ],
+          "condition": {
+            "members": [
+              "consequential",
+              "language_exception"
+            ],
+            "op": "AND"
+          },
+          "from": [
+            "INIT",
+            "ECONOMICS",
+            "PRODUCTION",
+            "DIPLOMACY",
+            "LANGUAGE",
+            "CUSTOMS",
+            "HOMELESSNESS"
+          ],
+          "id": "LANGUAGE-EXCEPTION",
+          "review_required": false,
+          "to": [
+            "LANGUAGE"
+          ]
+        },
+        {
+          "actions": [
+            "MOVE",
+            "CLONE",
+            "FANOUT"
+          ],
+          "at": [
+            "RESID",
+            "MEAN",
+            "EXIT",
+            "RETURN"
+          ],
+          "condition": {
+            "members": [
+              "consequential",
+              "distinct_functions"
+            ],
+            "op": "AND"
+          },
+          "from": [
+            "INIT",
+            "ECONOMICS",
+            "PRODUCTION",
+            "DIPLOMACY",
+            "LANGUAGE",
+            "CUSTOMS",
+            "HOMELESSNESS"
+          ],
+          "id": "DOMAIN-BRANCH",
+          "review_required": true,
+          "to": [
+            "INIT",
+            "ECONOMICS",
+            "PRODUCTION",
+            "DIPLOMACY",
+            "LANGUAGE",
+            "CUSTOMS",
+            "HOMELESSNESS"
+          ]
+        }
+      ],
+      "schema_version": "garden-traversal-config-1",
+      "status": "supplied_content_runtime",
+      "trees": {
+        "CUSTOMS": {
+          "name": "Customs Authority",
+          "node_template": "INIT",
+          "status": "traversable_with_supplied_content"
+        },
+        "DIPLOMACY": {
+          "name": "Diplomacy",
+          "node_template": "INIT",
+          "status": "traversable_with_supplied_content"
+        },
+        "ECONOMICS": {
+          "name": "Economics",
+          "node_template": "INIT",
+          "status": "traversable_with_supplied_content"
+        },
+        "HOMELESSNESS": {
+          "name": "Homelessness Governance and Integrity",
+          "node_template": "INIT",
+          "status": "traversable_with_supplied_content"
+        },
+        "INIT": {
+          "name": "Initiating Garden",
+          "node_template": "INIT",
+          "status": "traversable_with_supplied_content"
+        },
+        "LANGUAGE": {
+          "name": "Language Exception",
+          "node_template": "INIT",
+          "status": "traversable_with_supplied_content"
+        },
+        "PRODUCTION": {
+          "name": "Production",
+          "node_template": "INIT",
+          "status": "traversable_with_supplied_content"
+        }
+      }
+    },
+    "packet": {
+      "actor": {
+        "model": "Work-session model identifier not recorded",
+        "name": "Work Aiden",
+        "runtime": "Supervised RC-015 assembly and supplied interpretation"
+      },
+      "arrival": {
+        "from": "reports/all-garden/20261104/inputs/cross-lane.json",
+        "id": "RC015-CUSTOMS-CONTEXT-ARRIVAL",
+        "payload": {
+          "baseline_refs": [
+            "reports/all-garden/20261104/inputs/institutions.json",
+            "reports/all-garden/20261104/inputs/services.json",
+            "reports/all-garden/20261104/inputs/information.json",
+            "reports/all-garden/20261104/inputs/material.json",
+            "reports/all-garden/20261104/inputs/coordinator.json",
+            "docs/GARDEN_TRAVERSAL.md"
+          ],
+          "inspection_status": "retained_only",
+          "lane_id": "customs-context",
+          "return_actor": "Work Aiden",
+          "return_sha256": "de4f51aacce7bbf63c843569239a3ec8303e222b8788268f8ec94ed5dbf3ca3a"
+        },
+        "to": "CUSTOMS:ROOT-0001"
+      },
+      "budget": {
+        "max_branches": 1,
+        "max_events": 10,
+        "max_fanout": 0,
+        "max_steps": 10,
+        "model_calls": 0
+      },
+      "epoch": 1,
+      "focus": "Can all returns cross the evidence boundary without promoting UNKNOWNs, recycled sources or announcements?",
+      "question_id": "Q-RC015-EVIDENCE-ADMISSION",
+      "run_id": "RC015-CUSTOMS-CONTEXT",
+      "sources": [
+        {
+          "binding": {
+            "lane_id": "customs-context",
+            "path": "reports/all-garden/20261104/inputs/cross-lane.json",
+            "sha256": "213e339eb9a8ac7dfff27721cd95571f5edfa611b6270f07879c6fadaa2bfa02",
+            "source_id": "CUSTOMS-CONTEXT-RETURN-1"
+          },
+          "kind": "context",
+          "lineage_id": "RC015-inputs/institutions.json",
+          "ref": "CUSTOMS-CONTEXT-RETURN-1"
+        },
+        {
+          "binding": {
+            "lane_id": "customs-context",
+            "path": "reports/all-garden/20261104/inputs/cross-lane.json",
+            "sha256": "34662b663f3028e4941590e80e7572f6709b3dc7cbe166c44e22b8bf60328675",
+            "source_id": "CUSTOMS-CONTEXT-RETURN-2"
+          },
+          "kind": "context",
+          "lineage_id": "RC015-inputs/services.json",
+          "ref": "CUSTOMS-CONTEXT-RETURN-2"
+        },
+        {
+          "binding": {
+            "lane_id": "customs-context",
+            "path": "reports/all-garden/20261104/inputs/cross-lane.json",
+            "sha256": "0303789a3b86fbbe46d29b941c78bc221128d403c287ef642e99bd5b05f2581f",
+            "source_id": "CUSTOMS-CONTEXT-RETURN-3"
+          },
+          "kind": "context",
+          "lineage_id": "RC015-inputs/information.json",
+          "ref": "CUSTOMS-CONTEXT-RETURN-3"
+        },
+        {
+          "binding": {
+            "lane_id": "customs-context",
+            "path": "reports/all-garden/20261104/inputs/cross-lane.json",
+            "sha256": "4f44bbea55778e201b14c660946d45955efc807aaa6910a264f90b58d4fb0231",
+            "source_id": "CUSTOMS-CONTEXT-RETURN-4"
+          },
+          "kind": "context",
+          "lineage_id": "RC015-inputs/material.json",
+          "ref": "CUSTOMS-CONTEXT-RETURN-4"
+        },
+        {
+          "binding": {
+            "lane_id": "customs-context",
+            "path": "reports/all-garden/20261104/inputs/cross-lane.json",
+            "sha256": "92a7ccab230cb5d2c3bca9b7b959a1af3df50b80356abd34aaa32538a1d36900",
+            "source_id": "CUSTOMS-CONTEXT-RETURN-5"
+          },
+          "kind": "context",
+          "lineage_id": "RC015-inputs/coordinator.json",
+          "ref": "CUSTOMS-CONTEXT-RETURN-5"
+        }
+      ],
+      "tree": "CUSTOMS"
+    },
+    "registry": {
+      "questions": {
+        "Q-RC015-EVIDENCE-ADMISSION": {
+          "epoch": 1
+        }
+      }
+    }
+  },
+  "schema_version": "garden-traversal-1",
+  "state": {
+    "branches": {
+      "B0": {
+        "epoch": 1,
+        "focus": "Can all returns cross the evidence boundary without promoting UNKNOWNs, recycled sources or announcements?",
+        "id": "B0",
+        "lineage": {
+          "independent_evidence": false,
+          "source_refs": [
+            "CUSTOMS-CONTEXT-RETURN-1",
+            "CUSTOMS-CONTEXT-RETURN-2",
+            "CUSTOMS-CONTEXT-RETURN-3",
+            "CUSTOMS-CONTEXT-RETURN-4",
+            "CUSTOMS-CONTEXT-RETURN-5"
+          ]
+        },
+        "parent_branch": null,
+        "question_id": "Q-RC015-EVIDENCE-ADMISSION",
+        "rest": {
+          "kind": "return",
+          "reason": "No new arrival supplied"
+        },
+        "root_branch": "B0",
+        "seen_arrival_ids": [
+          "RC015-CUSTOMS-CONTEXT-ARRIVAL"
+        ],
+        "status": "resting",
+        "visited": [
+          {
+            "payload_hash": "74165fa7fda073e521ab2c8dcbebdba0f76887374192a445e82e80ed8b1b2736",
+            "tree": "CUSTOMS"
+          }
+        ],
+        "visits": [
+          {
+            "arrival": {
+              "from": "reports/all-garden/20261104/inputs/cross-lane.json",
+              "id": "RC015-CUSTOMS-CONTEXT-ARRIVAL",
+              "payload": {
+                "baseline_refs": [
+                  "reports/all-garden/20261104/inputs/institutions.json",
+                  "reports/all-garden/20261104/inputs/services.json",
+                  "reports/all-garden/20261104/inputs/information.json",
+                  "reports/all-garden/20261104/inputs/material.json",
+                  "reports/all-garden/20261104/inputs/coordinator.json",
+                  "docs/GARDEN_TRAVERSAL.md"
+                ],
+                "inspection_status": "retained_only",
+                "lane_id": "customs-context",
+                "return_actor": "Work Aiden",
+                "return_sha256": "de4f51aacce7bbf63c843569239a3ec8303e222b8788268f8ec94ed5dbf3ca3a"
+              },
+              "to": "CUSTOMS:ROOT-0001"
+            },
+            "status": "completed",
+            "steps": [
+              {
+                "actor": {
+                  "model": "Work-session model identifier not recorded",
+                  "name": "Work Aiden",
+                  "runtime": "Supervised RC-015 assembly and supplied interpretation"
+                },
+                "event_id": "RC015-CUSTOMS-CONTEXT-STEP-1",
+                "node": "ROOT",
+                "output": {
+                  "name": "Evidence admission and lineage"
+                }
+              },
+              {
+                "actor": {
+                  "model": "Work-session model identifier not recorded",
+                  "name": "Work Aiden",
+                  "runtime": "Supervised RC-015 assembly and supplied interpretation"
+                },
+                "event_id": "RC015-CUSTOMS-CONTEXT-STEP-2",
+                "node": "ARRIVAL",
+                "output": {
+                  "arrival": {
+                    "from": "reports/all-garden/20261104/inputs/cross-lane.json",
+                    "id": "RC015-CUSTOMS-CONTEXT-ARRIVAL",
+                    "payload": {
+                      "baseline_refs": [
+                        "reports/all-garden/20261104/inputs/institutions.json",
+                        "reports/all-garden/20261104/inputs/services.json",
+                        "reports/all-garden/20261104/inputs/information.json",
+                        "reports/all-garden/20261104/inputs/material.json",
+                        "reports/all-garden/20261104/inputs/coordinator.json",
+                        "docs/GARDEN_TRAVERSAL.md"
+                      ],
+                      "inspection_status": "retained_only",
+                      "lane_id": "customs-context",
+                      "return_actor": "Work Aiden",
+                      "return_sha256": "de4f51aacce7bbf63c843569239a3ec8303e222b8788268f8ec94ed5dbf3ca3a"
+                    },
+                    "to": "CUSTOMS:ROOT-0001"
+                  },
+                  "language_glance": {
+                    "basis": "unknown",
+                    "issuing_office": "See each pinned source publisher",
+                    "languages": [],
+                    "note": "No matched original/translation inventory supplied by these returns.",
+                    "source_refs": [
+                      "CUSTOMS-CONTEXT-RETURN-1",
+                      "CUSTOMS-CONTEXT-RETURN-2",
+                      "CUSTOMS-CONTEXT-RETURN-3",
+                      "CUSTOMS-CONTEXT-RETURN-4",
+                      "CUSTOMS-CONTEXT-RETURN-5"
+                    ],
+                    "surface_kind": "mixed"
+                  }
+                }
+              },
+              {
+                "actor": {
+                  "model": "Work-session model identifier not recorded",
+                  "name": "Work Aiden",
+                  "runtime": "Supervised RC-015 assembly and supplied interpretation"
+                },
+                "event_id": "RC015-CUSTOMS-CONTEXT-STEP-3",
+                "node": "EPIST",
+                "output": {
+                  "empirical_cutoff": "2026-11-04 America/Los_Angeles",
+                  "inspection_time": "2026-11-07T10:46:07.208340+00:00",
+                  "prompt": "Can all returns cross the evidence boundary without promoting UNKNOWNs, recycled sources or announcements?",
+                  "starting_state": "Retain the dated baseline; inspect one bounded residual."
+                }
+              },
+              {
+                "actor": {
+                  "model": "Work-session model identifier not recorded",
+                  "name": "Work Aiden",
+                  "runtime": "Supervised RC-015 assembly and supplied interpretation"
+                },
+                "event_id": "RC015-CUSTOMS-CONTEXT-STEP-4",
+                "node": "FUNC",
+                "output": {
+                  "findings": [
+                    {
+                      "basis": "Review of retained return contents, not independent empirical validation.",
+                      "claim": "All returns are review intake. Source families, uncertain outcomes, access failures and conflicting accounts remain visible; no canonical evidence admission occurs.",
+                      "epistemic_status": "DOCUMENTED",
+                      "evidence_refs": [
+                        "CUSTOMS-CONTEXT-RETURN-1",
+                        "CUSTOMS-CONTEXT-RETURN-2",
+                        "CUSTOMS-CONTEXT-RETURN-3",
+                        "CUSTOMS-CONTEXT-RETURN-4",
+                        "CUSTOMS-CONTEXT-RETURN-5"
+                      ],
+                      "finding_id": "CUSTOMS-CONTEXT-01",
+                      "is_new_event": false
+                    }
+                  ],
+                  "function": "Inspect evidence, outcome and access separately.",
+                  "inspection_status": "retained_only",
+                  "research_actor": "Work Aiden",
+                  "task": "Can all returns cross the evidence boundary without promoting UNKNOWNs, recycled sources or announcements?"
+                }
+              },
+              {
+                "actor": {
+                  "model": "Work-session model identifier not recorded",
+                  "name": "Work Aiden",
+                  "runtime": "Supervised RC-015 assembly and supplied interpretation"
+                },
+                "event_id": "RC015-CUSTOMS-CONTEXT-STEP-5",
+                "node": "MIRROR",
+                "output": {
+                  "comparisons": [
+                    {
+                      "answers": [],
+                      "explanation": "Different institutions may make consistent statements without independently verifying outcomes; inconsistent dates may reflect ordinary errors.",
+                      "queries": []
+                    }
+                  ],
+                  "information_lineage": {
+                    "api_record_refs": [],
+                    "criteria_refs": [
+                      "reports/all-garden/20261104/RETURN_CONTRACT.json"
+                    ],
+                    "parent_answer_visible": true,
+                    "parent_output_refs": [
+                      "reports/all-garden/20261104/inputs/institutions.json",
+                      "reports/all-garden/20261104/inputs/services.json",
+                      "reports/all-garden/20261104/inputs/information.json",
+                      "reports/all-garden/20261104/inputs/material.json",
+                      "reports/all-garden/20261104/inputs/coordinator.json",
+                      "docs/GARDEN_TRAVERSAL.md"
+                    ],
+                    "source_refs": [
+                      "CUSTOMS-CONTEXT-RETURN-1",
+                      "CUSTOMS-CONTEXT-RETURN-2",
+                      "CUSTOMS-CONTEXT-RETURN-3",
+                      "CUSTOMS-CONTEXT-RETURN-4",
+                      "CUSTOMS-CONTEXT-RETURN-5"
+                    ],
+                    "test_origin": "inherited"
+                  },
+                  "working_buffers": [
+                    "Explicit attribution, shared references, review and human correction preserve competing explanations."
+                  ]
+                }
+              },
+              {
+                "actor": {
+                  "model": "Work-session model identifier not recorded",
+                  "name": "Work Aiden",
+                  "runtime": "Supervised RC-015 assembly and supplied interpretation"
+                },
+                "event_id": "RC015-CUSTOMS-CONTEXT-STEP-6",
+                "node": "CROSS",
+                "output": {
+                  "bridge": [
+                    {
+                      "question": "Review one future qualifying outcome against its original source and prior assessment before any proposed admission.",
+                      "source_refs": [
+                        "CUSTOMS-CONTEXT-RETURN-1",
+                        "CUSTOMS-CONTEXT-RETURN-2",
+                        "CUSTOMS-CONTEXT-RETURN-3",
+                        "CUSTOMS-CONTEXT-RETURN-4",
+                        "CUSTOMS-CONTEXT-RETURN-5"
+                      ],
+                      "status": "proposed_only"
+                    }
+                  ],
+                  "independent": [],
+                  "inherited": [
+                    {
+                      "ref": "CUSTOMS-CONTEXT-RETURN-1"
+                    },
+                    {
+                      "ref": "CUSTOMS-CONTEXT-RETURN-2"
+                    },
+                    {
+                      "ref": "CUSTOMS-CONTEXT-RETURN-3"
+                    },
+                    {
+                      "ref": "CUSTOMS-CONTEXT-RETURN-4"
+                    },
+                    {
+                      "ref": "CUSTOMS-CONTEXT-RETURN-5"
+                    }
+                  ]
+                }
+              },
+              {
+                "actor": {
+                  "model": "Work-session model identifier not recorded",
+                  "name": "Work Aiden",
+                  "runtime": "Supervised RC-015 assembly and supplied interpretation"
+                },
+                "event_id": "RC015-CUSTOMS-CONTEXT-STEP-7",
+                "node": "RESID",
+                "output": {
+                  "next_test": "Review one future qualifying outcome against its original source and prior assessment before any proposed admission.",
+                  "predicates": {
+                    "consequential": true,
+                    "distinct_functions": false,
+                    "language_exception": null
+                  },
+                  "summary": "Empirical residuals remain with their originating lanes."
+                }
+              },
+              {
+                "actor": {
+                  "model": "Work-session model identifier not recorded",
+                  "name": "Work Aiden",
+                  "runtime": "Supervised RC-015 assembly and supplied interpretation"
+                },
+                "event_id": "RC015-CUSTOMS-CONTEXT-STEP-8",
+                "node": "MEAN",
+                "output": {
+                  "authorship_limits": "Work-supplied cross-lane projection reuses specialist material and does not count as independent corroboration.",
+                  "summary": "Read the attributed findings with their contrary evidence and residuals."
+                }
+              },
+              {
+                "actor": {
+                  "model": "Work-session model identifier not recorded",
+                  "name": "Work Aiden",
+                  "runtime": "Supervised RC-015 assembly and supplied interpretation"
+                },
+                "event_id": "RC015-CUSTOMS-CONTEXT-STEP-9",
+                "node": "EXIT",
+                "output": {
+                  "kind": "question",
+                  "summary": "Review one future qualifying outcome against its original source and prior assessment before any proposed admission."
+                }
+              },
+              {
+                "actor": {
+                  "model": "Work-session model identifier not recorded",
+                  "name": "Work Aiden",
+                  "runtime": "Supervised RC-015 assembly and supplied interpretation"
+                },
+                "event_id": "RC015-CUSTOMS-CONTEXT-STEP-10",
+                "node": "RETURN",
+                "output": {
+                  "new_arrival": null,
+                  "reason": "One cross-lane inspection completed; no additional collection or authority activated."
+                }
+              }
+            ],
+            "tree": "CUSTOMS"
+          }
+        ]
+      }
+    },
+    "epoch": 1,
+    "limits": {
+      "max_branches": 1,
+      "max_events": 10,
+      "max_fanout": 0,
+      "max_steps": 10,
+      "model_calls": 0
+    },
+    "question_id": "Q-RC015-EVIDENCE-ADMISSION",
+    "revision": 10,
+    "route_decisions": [],
+    "route_signatures": [],
+    "run_id": "RC015-CUSTOMS-CONTEXT",
+    "sources": {
+      "CUSTOMS-CONTEXT-RETURN-1": {
+        "binding": {
+          "lane_id": "customs-context",
+          "path": "reports/all-garden/20261104/inputs/cross-lane.json",
+          "sha256": "213e339eb9a8ac7dfff27721cd95571f5edfa611b6270f07879c6fadaa2bfa02",
+          "source_id": "CUSTOMS-CONTEXT-RETURN-1"
+        },
+        "kind": "context",
+        "lineage_id": "RC015-inputs/institutions.json",
+        "ref": "CUSTOMS-CONTEXT-RETURN-1"
+      },
+      "CUSTOMS-CONTEXT-RETURN-2": {
+        "binding": {
+          "lane_id": "customs-context",
+          "path": "reports/all-garden/20261104/inputs/cross-lane.json",
+          "sha256": "34662b663f3028e4941590e80e7572f6709b3dc7cbe166c44e22b8bf60328675",
+          "source_id": "CUSTOMS-CONTEXT-RETURN-2"
+        },
+        "kind": "context",
+        "lineage_id": "RC015-inputs/services.json",
+        "ref": "CUSTOMS-CONTEXT-RETURN-2"
+      },
+      "CUSTOMS-CONTEXT-RETURN-3": {
+        "binding": {
+          "lane_id": "customs-context",
+          "path": "reports/all-garden/20261104/inputs/cross-lane.json",
+          "sha256": "0303789a3b86fbbe46d29b941c78bc221128d403c287ef642e99bd5b05f2581f",
+          "source_id": "CUSTOMS-CONTEXT-RETURN-3"
+        },
+        "kind": "context",
+        "lineage_id": "RC015-inputs/information.json",
+        "ref": "CUSTOMS-CONTEXT-RETURN-3"
+      },
+      "CUSTOMS-CONTEXT-RETURN-4": {
+        "binding": {
+          "lane_id": "customs-context",
+          "path": "reports/all-garden/20261104/inputs/cross-lane.json",
+          "sha256": "4f44bbea55778e201b14c660946d45955efc807aaa6910a264f90b58d4fb0231",
+          "source_id": "CUSTOMS-CONTEXT-RETURN-4"
+        },
+        "kind": "context",
+        "lineage_id": "RC015-inputs/material.json",
+        "ref": "CUSTOMS-CONTEXT-RETURN-4"
+      },
+      "CUSTOMS-CONTEXT-RETURN-5": {
+        "binding": {
+          "lane_id": "customs-context",
+          "path": "reports/all-garden/20261104/inputs/cross-lane.json",
+          "sha256": "92a7ccab230cb5d2c3bca9b7b959a1af3df50b80356abd34aaa32538a1d36900",
+          "source_id": "CUSTOMS-CONTEXT-RETURN-5"
+        },
+        "kind": "context",
+        "lineage_id": "RC015-inputs/coordinator.json",
+        "ref": "CUSTOMS-CONTEXT-RETURN-5"
+      }
+    },
+    "used": {
+      "branches": 1,
+      "model_calls": 0,
+      "steps": 10
+    }
+  },
+  "state_sha256": "05a31dc72e80226551aedf77d8e4c35df716c2438b7ae3c9d6ce58a7b082d0e8"
+}

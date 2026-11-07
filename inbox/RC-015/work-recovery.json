@@ -1,0 +1,16 @@
+{
+  "cycle_id": "RC-015",
+  "actor": "Work Aiden",
+  "status": "resumed",
+  "at": "2026-11-07T10:43:41.552774+00:00",
+  "original_empirical_cutoff": "2026-11-04",
+  "completion_and_technical_checks_on": "2026-11-07",
+  "original_completed_packets_preserved": [
+    "institutions.json",
+    "services.json",
+    "information.json"
+  ],
+  "interrupted_thread": "cycle15_material stopped at usage limit with initial checkpoint and no findings saved. Recovery is separately attributed.",
+  "timestamp_normalization": "For prior institutions/information packets, retrieved_at values are packet-final recording timestamps or upper bounds for the inspection window, not exact source fetch times. The web service supplied transformed/indexed text, not raw HTTP receipts.",
+  "bounds": "No recurring window reopened, repository model-provider dispatch, Governor activation, contact or canonical admission."
+}

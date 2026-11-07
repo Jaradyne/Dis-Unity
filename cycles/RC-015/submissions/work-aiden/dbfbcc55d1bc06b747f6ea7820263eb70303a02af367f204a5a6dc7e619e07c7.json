@@ -1,0 +1,43 @@
+{
+  "agent": "work-aiden",
+  "at": "2026-11-07T16:31:21.828147+00:00",
+  "base_hash": "16d04f8bb35a588caca60517f90a11944cfbafac7951402d059a6d6131de97b7",
+  "cycle_id": "RC-015",
+  "payload": {
+    "actor": "Work Aiden",
+    "canonical_admission": false,
+    "closing_review": {
+      "actor": "cycle15_closing_review",
+      "decision": "accepted_for_bounded_publication",
+      "independent_source_replication": false,
+      "path": "reports/all-garden/20261104/CLOSING_REVIEW.md",
+      "sha256": "f6e8994ebb0ba76edf9887b80914f5fc7049cd384395ded04fe0fb56d75e5f9f"
+    },
+    "completed_at": "2026-11-07T16:31:20.789347+00:00",
+    "completion_date_local": "2026-11-07",
+    "cycle_id": "RC-015",
+    "empirical_cutoff": "2026-11-04",
+    "governor_activation": false,
+    "handoff": "reports/all-garden/20261104/HANDOFF_CHAT_DIGEST.md",
+    "interruption_records": [
+      "inbox/RC-015/material-checkpoint.json",
+      "inbox/RC-015/material-recovery-final.json",
+      "inbox/RC-015/reviewer-interruption.json"
+    ],
+    "live_question_registration": false,
+    "local_tests_passed": 280,
+    "mechanism_checks_passed": 12,
+    "outreach": false,
+    "passes": 14,
+    "reconstructions": 2,
+    "recurring_monitoring": false,
+    "repository_model_calls": 0,
+    "status": "completed_supervised_cycle_review_intake",
+    "steps": 140,
+    "stop_reason": "All current trees covered, review completed, deterministic replay and regression tests pass. Next tests remain proposed.",
+    "trees": 10
+  },
+  "payload_hash": "4410683355e6e40416c3a7768454eb95b0f9e99ebfa6fe003de368ba60421884",
+  "phase": "submitted",
+  "submission_id": "dbfbcc55d1bc06b747f6ea7820263eb70303a02af367f204a5a6dc7e619e07c7"
+}

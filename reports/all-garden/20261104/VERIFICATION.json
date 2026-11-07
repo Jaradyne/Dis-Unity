@@ -1,0 +1,23 @@
+{
+  "version": "rc015-verification-1",
+  "recorded_at": "2026-11-07T16:28:58.148620+00:00",
+  "empirical_cutoff": "2026-11-04",
+  "completion_date_local": "2026-11-07",
+  "supervised_passes": 14,
+  "registered_trees_covered": 10,
+  "supplied_steps": 140,
+  "empirical_lanes_with_source_checks": 9,
+  "editorial_cross_lane_or_technical_lanes": 5,
+  "deterministic_reconstructions": 2,
+  "full_tests_passed": 280,
+  "prior_mechanism_checks_passed": 12,
+  "test_log": "reports/all-garden/20261104/validation/full-tests.txt",
+  "test_log_sha256": "1661239a826d372b15bf8430c60fe6b3cb3319cc1482624b125377eeb305d2e9",
+  "canonical_sha256": "16d04f8bb35a588caca60517f90a11944cfbafac7951402d059a6d6131de97b7",
+  "canonical_changed": false,
+  "repository_model_calls": 0,
+  "operational_base": "81a4c0b53d616cf1be4a069cc187358f9ed201d0",
+  "source_receipts": "Transformed/indexed web text and attributed summaries; no raw origin HTTP receipt claimed.",
+  "scope": "Supervised research and supplied traversal; no recurring collection, live Question registration, model-provider adapter run or Governor review.",
+  "review": "See REVIEW.md for coordinator acceptance, prior preliminary challenge and separately attributed closing review outcome."
+}

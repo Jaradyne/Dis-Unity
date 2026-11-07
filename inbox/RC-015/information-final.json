@@ -1,0 +1,14 @@
+{
+  "cycle_id": "RC-015",
+  "actor": "cycle15_information",
+  "status": "complete_bounded_return",
+  "checked_at": "2026-11-05T04:17:34.119482+00:00",
+  "packet_path": "reports/all-garden/20261104/inputs/information.json",
+  "packet_sha256": "2f77583558ad0a1d002f95d8227f09569806990abada70a2a256e82ca618fc64",
+  "lanes": [
+    "information-integrity",
+    "psa"
+  ],
+  "key_result": "Historical source-date conflict preserved; raw chat/automation/moderation remain UNKNOWN. PSA retained-text check completed without changes.",
+  "canonical_admission": false
+}

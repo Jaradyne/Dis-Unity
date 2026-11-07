@@ -1,0 +1,414 @@
+{
+  "version": "all-garden-return-1",
+  "actor": "cycle15_services",
+  "cycle_id": "RC-015",
+  "checked_at": "2026-11-05T04:18:09.354470+00:00",
+  "source_cutoff": "2026-11-04",
+  "user_timezone": "America/Los_Angeles",
+  "runtime": "Work-session collaboration agent; supplied research interpretation, not an external model-provider run",
+  "lanes": [
+    {
+      "lane_id": "shelter-accountability",
+      "title": "Shelter accountability: Campus agreement and usable remedy",
+      "question_id": "Q-CAMPUS-AGREEMENT",
+      "epoch": 1,
+      "tree_id": "HOMELESSNESS",
+      "question_registration": "Existing case-local anchor; not newly registered in live registry",
+      "related_question_ids": [
+        "Q-CA-SHELTER-NOTICE"
+      ],
+      "baseline_refs": [
+        "operations/shelter-accountability/campus-motel/case.json",
+        "reports/shelter-accountability/campus-live-bees-20261022/FINDINGS.md",
+        "reports/shelter-accountability/campus-live-bees-20261022/HANDOFF_DIGEST.md",
+        "reports/shelter-accountability/generated/SHELTER.md"
+      ],
+      "question": "Which current executed City–Insight Campus agreement and incorporated notice/grievance policies establish corrective authority, and what verifies their use?",
+      "inspection_status": "inconclusive",
+      "sources": [
+        {
+          "source_id": "S-RC015-CAMPUS-RECORDS",
+          "title": "Berkeley Records Online",
+          "url": "https://records.cityofberkeley.info/PublicAccess/paFiles/cqFiles/index.html",
+          "publisher": "City of Berkeley",
+          "source_family": "City public-records guidance",
+          "publication_date": null,
+          "observation_date": null,
+          "retrieved_at": null,
+          "retrieval_window_utc": {
+            "after": "2026-11-05T04:15:11.980067+00:00",
+            "before": "2026-11-05T04:18:09.354470+00:00"
+          },
+          "retrieval_date_local": "2026-11-04",
+          "retrieval_timezone": "America/Los_Angeles",
+          "retrieval_time_limit": "Exact per-call timestamp was not retained; this bounded session interval is not a claimed source publication or event date.",
+          "inspected_at": "2026-11-05T04:18:09.354470+00:00",
+          "access_mode": "web_tool_extraction",
+          "access_result": "The public text extraction lists contracts among available record types and provides search instructions; native Search and Results regions contain no extracted records.",
+          "raw_receipt_path": null,
+          "tool_refs": [
+            "turn122view0"
+          ],
+          "summary": "The public text extraction lists contracts among available record types and provides search instructions; native Search and Results regions contain no extracted records.",
+          "limitations": [
+            "No native contract query was successfully submitted. Empty extraction is not an empty archive.",
+            "No signed Campus agreement or resident-policy attachment was obtained."
+          ]
+        },
+        {
+          "source_id": "S-RC015-CAMPUS-NEXTREQUEST",
+          "title": "Berkeley public records request list",
+          "url": "https://cityofberkeleyca.nextrequest.com/requests",
+          "publisher": "City of Berkeley",
+          "source_family": "City public-records discovery",
+          "publication_date": null,
+          "observation_date": null,
+          "retrieved_at": null,
+          "retrieval_window_utc": {
+            "after": "2026-11-05T04:15:11.980067+00:00",
+            "before": "2026-11-05T04:18:09.354470+00:00"
+          },
+          "retrieval_date_local": "2026-11-04",
+          "retrieval_timezone": "America/Los_Angeles",
+          "retrieval_time_limit": "Exact per-call timestamp was not retained; this bounded session interval is not a claimed source publication or event date.",
+          "inspected_at": "2026-11-05T04:18:09.354470+00:00",
+          "access_mode": "web_tool_extraction",
+          "access_result": "The public request-list page returned zero readable lines.",
+          "raw_receipt_path": null,
+          "tool_refs": [
+            "turn122view1"
+          ],
+          "summary": "The public request-list page returned zero readable lines.",
+          "limitations": [
+            "No request was sent. No authenticated access or bypass was attempted.",
+            "Extraction failure does not establish absence of released records."
+          ]
+        },
+        {
+          "source_id": "S-RC015-CAMPUS-ALLHOME",
+          "title": "The Campus profile",
+          "url": "https://www.allhomeca.org/solutions/the-campus/",
+          "publisher": "All Home",
+          "source_family": "allhome-campus-profile",
+          "publication_date": null,
+          "observation_date": null,
+          "retrieved_at": null,
+          "retrieval_window_utc": {
+            "after": "2026-11-05T04:15:11.980067+00:00",
+            "before": "2026-11-05T04:18:09.354470+00:00"
+          },
+          "retrieval_date_local": "2026-11-04",
+          "retrieval_timezone": "America/Los_Angeles",
+          "retrieval_time_limit": "Exact per-call timestamp was not retained; this bounded session interval is not a claimed source publication or event date.",
+          "inspected_at": "2026-11-05T04:18:09.354470+00:00",
+          "access_mode": "web_tool_extraction",
+          "access_result": "The undated page still describes 23 private rooms, pets and no curfew, and reports Measure P support through June 30, 2027.",
+          "raw_receipt_path": null,
+          "tool_refs": [
+            "turn118search0",
+            "turn122view2"
+          ],
+          "summary": "The undated page still describes 23 private rooms, pets and no curfew, and reports Measure P support through June 30, 2027.",
+          "limitations": [
+            "Page publication/revision date unknown; current occupancy, actual resident experience, payments and closure status not independently verified.",
+            "Source is project publicity/context, not the executed City operating agreement.",
+            "Repeated retrieval of the same page is not independent corroboration."
+          ]
+        },
+        {
+          "source_id": "S-RC015-CAMPUS-BUDGET-INDEX",
+          "title": "June 23, 2026 Council agenda packet indexed passage",
+          "url": "https://berkeleyca.gov/sites/default/files/city-council-meetings/2026-06-23%20Agenda%20Packet%20-%20Council%20-%20WEB.pdf",
+          "publisher": "City of Berkeley",
+          "source_family": "City FY2027 budget proposal",
+          "publication_date": "2026-06-23",
+          "observation_date": null,
+          "retrieved_at": null,
+          "retrieval_window_utc": {
+            "after": "2026-11-05T04:15:11.980067+00:00",
+            "before": "2026-11-05T04:18:09.354470+00:00"
+          },
+          "retrieval_date_local": "2026-11-04",
+          "retrieval_timezone": "America/Los_Angeles",
+          "retrieval_time_limit": "Exact per-call timestamp was not retained; this bounded session interval is not a claimed source publication or event date.",
+          "inspected_at": "2026-11-05T04:18:09.354470+00:00",
+          "access_mode": "search_index",
+          "access_result": "Search indexing again surfaces the proposed-budget statement that lack of sustaining funding discontinues Campus in FY2027; this cycle did not reopen the full packet.",
+          "raw_receipt_path": null,
+          "tool_refs": [
+            "turn120search4"
+          ],
+          "summary": "Search indexing again surfaces the proposed-budget statement that lack of sustaining funding discontinues Campus in FY2027; this cycle did not reopen the full packet.",
+          "limitations": [
+            "Full dated public packet and adoption limitations are retained in the October22 funding review.",
+            "A proposed budget statement and revised-budget adoption do not establish actual site closure, executed contract term, payment or resident relocation."
+          ]
+        }
+      ],
+      "findings": [
+        {
+          "finding_id": "RC015-CAMPUS-PACKET-UNKNOWN",
+          "claim": "This bounded recheck did not obtain the current executed Campus operating agreement or incorporated resident-policy bundle. The contract terms and actual corrective authority remain unverified.",
+          "evidence_refs": [
+            "S-RC015-CAMPUS-RECORDS",
+            "S-RC015-CAMPUS-NEXTREQUEST"
+          ],
+          "epistemic_status": "UNKNOWN",
+          "is_new_event": false,
+          "basis": "Two live public access surfaces yielded guidance or no readable results, not a contract search result or a signed instrument."
+        },
+        {
+          "finding_id": "RC015-CAMPUS-PUBLIC-DESCRIPTIONS",
+          "claim": "The undated All Home page continues to describe June2027 support, while the City budget index surfaces the retained FY2027 discontinuation proposal. Neither resolves current operation or a resident outcome.",
+          "evidence_refs": [
+            "S-RC015-CAMPUS-ALLHOME",
+            "S-RC015-CAMPUS-BUDGET-INDEX",
+            "reports/shelter-accountability/campus-live-bees-20261022/FINDINGS.md"
+          ],
+          "epistemic_status": "DOCUMENTED",
+          "is_new_event": false,
+          "basis": "Documented descriptions and their dating limits are distinguished from verified execution."
+        },
+        {
+          "finding_id": "RC015-SHELTER-OUTCOME-UNKNOWN",
+          "claim": "No newly inspected record establishes Campus notice compliance, a delivered remedy, a particular unlawful removal, or a current Oakland sweep violation.",
+          "evidence_refs": [
+            "reports/shelter-accountability/campus-live-bees-20261022/FINDINGS.md",
+            "reports/shelter-accountability/generated/SHELTER.md"
+          ],
+          "epistemic_status": "UNKNOWN",
+          "is_new_event": false,
+          "basis": "Existing formal safeguards and unresolved leads are retained; this cycle did not inspect an individual record or an Oakland operation log."
+        }
+      ],
+      "subcoverage": {
+        "Campus agreement": "Fresh bounded lookup; access-limited and inconclusive.",
+        "General CA shelter law baseline": "Retained; no comprehensive current-law refresh in this lane.",
+        "Oakland sweep/fire-authority concerns": "Retained unresolved lead; no new primary operation record inspected.",
+        "Actual remedies": "Unknown; no new resident case research."
+      },
+      "counterevidence": [
+        "Public contract and records-release routes exist; the signed bundle may be indexed under another name or require the native query interface.",
+        "The retained City ADA procedure describes formal investigation and appeal; absence of a new observed remedy does not prove none occurred.",
+        "The All Home description preserves potentially useful accommodation features while its freshness and implementation remain unverified."
+      ],
+      "unknowns": [
+        "Current executed agreement, effective amendments and incorporated policies.",
+        "Actual notice, accommodation, appeal and readmission practice.",
+        "Current Campus funding, occupancy, closure or relocation outcome.",
+        "Whether any specific Oakland sweep violated its applicable rules."
+      ],
+      "working_buffers": [
+        "Documented general City ADA investigation/appeal route is a potential remedy; its practical availability and Campus authority are not established.",
+        "Published pets/no-curfew description identifies possible access-support features; actual availability not verified."
+      ],
+      "next_test": "Inspect one current signed City–Insight Campus operating bundle and incorporated policy schedule using a native public-records Contracts query, if accessible; then identify express review/readmission authority.",
+      "stop_reason": "Allocated four search queries and six total opens across both services lanes used; no successful native portal query or qualifying executed packet.",
+      "authorship_limits": "Separate active-session researcher; no independent resident interviews, site observation, legal adjudication or full archive search."
+    },
+    {
+      "lane_id": "community-capacity-commons",
+      "title": "Community capacity: Richmond operating and funding gates",
+      "question_id": "Q-RICHMOND-OPERATIONS",
+      "epoch": 1,
+      "tree_id": "COMMUNITY-CAPACITY",
+      "question_registration": "Existing case-local anchor; not newly registered in live registry",
+      "baseline_refs": [
+        "operations/community-capacity/richmond/case.json",
+        "reports/shelter-accountability/richmond-operations-20261024/returns/richmond_operations_bee.json",
+        "reports/shelter-accountability/richmond-operations-20261024/HANDOFF_DIGEST.md",
+        "ideas/COMMONS_GROWTH_PATH.md"
+      ],
+      "question": "Which current replacement-operator and grant-transition decision links an itemized service price to required functions and unspent funds or builder reimbursement?",
+      "inspection_status": "new_evidence",
+      "sources": [
+        {
+          "source_id": "S-RC015-RICHMOND-DIRECTORY",
+          "title": "Richmond City Leases directory",
+          "url": "https://www.ci.richmond.ca.us/4377/City-Leases",
+          "publisher": "City of Richmond",
+          "source_family": "richmond-city-document-index",
+          "publication_date": null,
+          "observation_date": null,
+          "retrieved_at": null,
+          "retrieval_window_utc": {
+            "after": "2026-11-05T04:15:11.980067+00:00",
+            "before": "2026-11-05T04:18:09.354470+00:00"
+          },
+          "retrieval_date_local": "2026-11-04",
+          "retrieval_timezone": "America/Los_Angeles",
+          "retrieval_time_limit": "Exact per-call timestamp was not retained; this bounded session interval is not a claimed source publication or event date.",
+          "inspected_at": "2026-11-05T04:18:09.354470+00:00",
+          "access_mode": "web_tool_extraction",
+          "access_result": "The directory still lists the Tiny Village supportive-services agreement with a December 31, 2025 expiration and RPAL lease with a February 16, 2031 expiration.",
+          "raw_receipt_path": null,
+          "tool_refs": [
+            "turn118search3",
+            "turn122view3"
+          ],
+          "summary": "The directory still lists the Tiny Village supportive-services agreement with a December 31, 2025 expiration and RPAL lease with a February 16, 2031 expiration.",
+          "limitations": [
+            "Undated live directory; listing is not authenticated current controlling contract status.",
+            "Historical end date does not establish termination, no extension, no replacement or no current service."
+          ]
+        },
+        {
+          "source_id": "S-RC015-RICHMOND-TVS",
+          "title": "Richmond Tiny Village, Farm & Garden project page",
+          "url": "https://www.tinyvillagespirit.org/projects/richmond/",
+          "publisher": "Tiny Village Spirit",
+          "source_family": "tvs-project-announcement",
+          "publication_date": null,
+          "observation_date": "2026-09",
+          "retrieved_at": null,
+          "retrieval_window_utc": {
+            "after": "2026-11-05T04:15:11.980067+00:00",
+            "before": "2026-11-05T04:18:09.354470+00:00"
+          },
+          "retrieval_date_local": "2026-11-04",
+          "retrieval_timezone": "America/Los_Angeles",
+          "retrieval_time_limit": "Exact per-call timestamp was not retained; this bounded session interval is not a claimed source publication or event date.",
+          "inspected_at": "2026-11-05T04:18:09.354470+00:00",
+          "access_mode": "web_tool_extraction",
+          "access_result": "The returned developer page labels the project opened in September 2026 and its timeline marks September move-in; it also continues to describe creation and weekly volunteer building.",
+          "raw_receipt_path": null,
+          "tool_refs": [
+            "turn127view0"
+          ],
+          "summary": "The returned developer page labels the project opened in September 2026 and its timeline marks September move-in; it also continues to describe creation and weekly volunteer building.",
+          "limitations": [
+            "The October24 retained source summary described a July2026 target plus grand-opening modal. The changed returned wording is not an authenticated origin version history; caches or mixed page sections remain possible.",
+            "No dated roster, current paid operator agreement, occupied-unit count, current replacement quote, invoice, grant transfer or continued housing result was inspected.",
+            "The twelve-to-twenty-four phrasing concerns the page's claimed increase in Richmond youth emergency units; it is not adopted as 24 occupied units at this site.",
+            "Developer publicity and opening reporting are not independent operational verification."
+          ]
+        },
+        {
+          "source_id": "S-RC015-RICHMOND-GRANT-REOPEN",
+          "title": "April 28, 2026 City staff grant report: attempted reopening",
+          "url": "https://pub-richmond.escribemeetings.com/filestream.ashx?DocumentId=61104",
+          "publisher": "City of Richmond",
+          "source_family": "richmond-city-proposal",
+          "publication_date": "2026-04-28",
+          "observation_date": null,
+          "retrieved_at": null,
+          "retrieval_window_utc": {
+            "after": "2026-11-05T04:15:11.980067+00:00",
+            "before": "2026-11-05T04:18:09.354470+00:00"
+          },
+          "retrieval_date_local": "2026-11-04",
+          "retrieval_timezone": "America/Los_Angeles",
+          "retrieval_time_limit": "Exact per-call timestamp was not retained; this bounded session interval is not a claimed source publication or event date.",
+          "inspected_at": "2026-11-05T04:18:09.354470+00:00",
+          "access_mode": "web_tool_extraction",
+          "access_result": "The fresh direct web-tool open returned HTTP 403; no current report text was obtained in this attempt.",
+          "raw_receipt_path": null,
+          "tool_refs": [
+            "turn127view1"
+          ],
+          "summary": "The fresh direct web-tool open returned HTTP 403; no current report text was obtained in this attempt.",
+          "limitations": [
+            "Earlier recorded report bytes are retained under the October24 case and are not replaced.",
+            "Access error supplies no new substantive evidence about execution, grant custody or cash transfers."
+          ]
+        }
+      ],
+      "findings": [
+        {
+          "finding_id": "RC015-RICHMOND-CLAIM-REVISION",
+          "claim": "The freshly returned developer page labels September2026 opening/move-in, differing from the July2026 target described in the retained October24 source summary. This is newly inspected wording, not a newly established opening event or present occupancy finding.",
+          "evidence_refs": [
+            "S-RC015-RICHMOND-TVS",
+            "reports/shelter-accountability/richmond-operations-20261024/returns/richmond_operations_bee.json#S-RT08"
+          ],
+          "epistemic_status": "DOCUMENTED",
+          "is_new_event": false,
+          "basis": "Comparison is between the current web-tool extraction and an attributed prior retained summary. The origin change date and complete version history are unknown."
+        },
+        {
+          "finding_id": "RC015-RICHMOND-DIRECTORY-LIMIT",
+          "claim": "The public directory continues to display the historical service-agreement end date; the fresh grant-report open was blocked. Neither determines current contractual or cash status.",
+          "evidence_refs": [
+            "S-RC015-RICHMOND-DIRECTORY",
+            "S-RC015-RICHMOND-GRANT-REOPEN"
+          ],
+          "epistemic_status": "DOCUMENTED",
+          "is_new_event": false,
+          "basis": "An undated index and access failure are not records of current execution or cessation."
+        },
+        {
+          "finding_id": "RC015-RICHMOND-PRICE-CASH-UNKNOWN",
+          "claim": "The current approximately $1million annual replacement-price lead, priced scope, grant portability, actual builder reimbursement and current operator/occupancy remain unverified in this bounded recheck.",
+          "evidence_refs": [
+            "operations/community-capacity/richmond/case.json",
+            "S-RC015-RICHMOND-TVS",
+            "S-RC015-RICHMOND-GRANT-REOPEN"
+          ],
+          "epistemic_status": "UNKNOWN",
+          "is_new_event": false,
+          "basis": "No qualifying itemized replacement proposal, executed transition decision, paid invoice or current occupancy record was obtained; the user-reported lead remains distinct from a finding."
+        }
+      ],
+      "subcoverage": {
+        "Richmond current operator/cash/price": "Fresh bounded search and project/index checks; material records still unknown.",
+        "Historical gate and grant lineage": "Retained without alteration.",
+        "Broader commons usable access": "Retained design/record context only; no survey of additional sites."
+      },
+      "counterevidence": [
+        "The developer explicitly publicizes opening and move-in; this weighs against presenting the site as simply never opened, while not answering the later replacement-operator question.",
+        "The current page also describes ongoing building, so a mixed construction/opening presentation cannot alone establish full operation.",
+        "Existing contract amendment/consent and City budget-change provisions provide possible transition paths, but availability and approved current use remain unknown."
+      ],
+      "unknowns": [
+        "Date/version provenance of changed developer-page wording.",
+        "Current paid operator, staffing, available beds and sustained housing outcomes.",
+        "Current itemized replacement quote and objective requirements driving each cost.",
+        "Actual cash transferred, unspent funds, reimbursement to builders, and approved funding-transfer options.",
+        "Named official and precise authority for the historical provider permit condition."
+      ],
+      "working_buffers": [
+        "Community-created physical assets and developer-reported volunteer participation are retained as capacity signals; usable operating capacity requires separate verification.",
+        "Historical written amendment/consent and grant budget-change routes may enable a replacement or community-led alternative; no approval or portable funds are assumed."
+      ],
+      "next_test": "Inspect one current replacement-operator/grant-transition decision packet showing the itemized priced functions, their legal or administrative basis, and the approved disposition of unspent funds or builder reimbursement.",
+      "stop_reason": "Single bounded refresh complete; no operator/price/grant transition packet obtained and no contact initiated.",
+      "authorship_limits": "Public-source reinspection only. Developer claims are not independent site observation, and a changed search-service surface is not an authenticated origin revision."
+    }
+  ],
+  "research_log": {
+    "search_queries_used": 4,
+    "search_query_limit": 4,
+    "document_opens_used": 6,
+    "document_open_limit": 6,
+    "queries": [
+      "site.berkeleyca.gov \"Campus\" \"Insight\" agreement 2026 [recency90]",
+      "site.ci.richmond.ca.us \"Tiny Village\" \"Hope Solutions\" 2026 [recency120]",
+      "site.berkeleyca.gov (\"Campus Motel\" OR \"The Campus\") (\"agreement\" OR \"contract\") \"2026\"",
+      "\"Tiny Village Spirit\" \"2026\" (\"operator\" OR \"million\" OR \"replacement\" OR \"Hope Solutions\")"
+    ],
+    "search_result_refs": [
+      "turn118search0",
+      "turn118search3",
+      "turn118search4",
+      "turn118search6",
+      "turn118search7",
+      "turn118search8",
+      "turn118search9",
+      "turn118search10",
+      "turn120search0",
+      "turn120search2",
+      "turn120search3",
+      "turn120search4",
+      "turn120search5"
+    ],
+    "excluded_results": "Unrelated contracts, job-board reposting, journalist aggregation with conflicting dates, and opening publicity were not promoted to current executed arrangements. No personal resident details used.",
+    "raw_http_receipts": 0,
+    "full_copyrighted_articles_saved": 0,
+    "new_model_provider_calls": 0,
+    "external_contacts": 0
+  },
+  "limitations": [
+    "All fresh access used search-service transformed output; no complete origin HTTP receipt or response hash is claimed.",
+    "This packet records source-inspection results and scoped judgments; it does not modify canonical evidence, prior assessments, runtime policy or monitoring."
+  ]
+}

@@ -1,0 +1,1049 @@
+{
+  "config_sha256": "39152c8d17954a1d9097a0c55351ced98ad702f402cb9c12a27b116f4c0d1655",
+  "events": [
+    {
+      "after": "9941d189df0983193fde30e84d41ad9c4e11575d22b82c13ece285641d321086",
+      "before": "536fff9f8674fa37d044222b0ec9d573ab8af5e5f3f85171b319099149bd5afb",
+      "command": {
+        "actor": {
+          "model": "Work-session model identifier not recorded",
+          "name": "Work Aiden",
+          "runtime": "Supervised RC-015 assembly and supplied interpretation"
+        },
+        "branch_id": "B0",
+        "event_id": "RC015-PSA-STEP-1",
+        "expected_revision": 0,
+        "kind": "step",
+        "node": "ROOT",
+        "output": {
+          "name": "Garden Public Service Announcements"
+        }
+      },
+      "decision": {
+        "next_node": "ARRIVAL",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-11-07T10:46:07.208340+00:00"
+    },
+    {
+      "after": "4846d20d80dcb13244ec21aed478b388a21c2d194d3781055b02bdd261a14068",
+      "before": "9941d189df0983193fde30e84d41ad9c4e11575d22b82c13ece285641d321086",
+      "command": {
+        "actor": {
+          "model": "Work-session model identifier not recorded",
+          "name": "Work Aiden",
+          "runtime": "Supervised RC-015 assembly and supplied interpretation"
+        },
+        "branch_id": "B0",
+        "event_id": "RC015-PSA-STEP-2",
+        "expected_revision": 1,
+        "kind": "step",
+        "node": "ARRIVAL",
+        "output": {
+          "arrival": {
+            "from": "reports/all-garden/20261104/inputs/information.json",
+            "id": "RC015-PSA-ARRIVAL",
+            "payload": {
+              "baseline_refs": [
+                "psa/compassion-and-exploitation.md",
+                "psa/README.md"
+              ],
+              "inspection_status": "retained_only",
+              "lane_id": "psa",
+              "return_actor": "cycle15_information",
+              "return_sha256": "2f77583558ad0a1d002f95d8227f09569806990abada70a2a256e82ca618fc64"
+            },
+            "to": "INIT:ROOT-0001"
+          },
+          "language_glance": {
+            "basis": "unknown",
+            "issuing_office": "See each pinned source publisher",
+            "languages": [],
+            "note": "No matched original/translation inventory supplied by these returns.",
+            "source_refs": [
+              "RC015-PSA-COMPASSION-REV2",
+              "RC015-PSA-INDEX"
+            ],
+            "surface_kind": "mixed"
+          }
+        }
+      },
+      "decision": {
+        "next_node": "EPIST",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-11-07T10:46:07.208340+00:00"
+    },
+    {
+      "after": "9813e87478776d5ea70622e49a9d3858213420c99cced082b8e1c282c0b31307",
+      "before": "4846d20d80dcb13244ec21aed478b388a21c2d194d3781055b02bdd261a14068",
+      "command": {
+        "actor": {
+          "model": "Work-session model identifier not recorded",
+          "name": "Work Aiden",
+          "runtime": "Supervised RC-015 assembly and supplied interpretation"
+        },
+        "branch_id": "B0",
+        "event_id": "RC015-PSA-STEP-3",
+        "expected_revision": 2,
+        "kind": "step",
+        "node": "EPIST",
+        "output": {
+          "empirical_cutoff": "2026-11-04 America/Los_Angeles",
+          "inspection_time": "2026-11-05T04:17:34.119482+00:00",
+          "prompt": "Does revision2 preserve sincerity and outside connections while avoiding unsupported accusations or screening people by distress?",
+          "starting_state": "Retain the dated baseline; inspect one bounded residual."
+        }
+      },
+      "decision": {
+        "next_node": "FUNC",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-11-07T10:46:07.208340+00:00"
+    },
+    {
+      "after": "f6e62e2e45a6a066942f6589132f96809bb0184349a52b184c89f07deaf231fa",
+      "before": "9813e87478776d5ea70622e49a9d3858213420c99cced082b8e1c282c0b31307",
+      "command": {
+        "actor": {
+          "model": "Work-session model identifier not recorded",
+          "name": "Work Aiden",
+          "runtime": "Supervised RC-015 assembly and supplied interpretation"
+        },
+        "branch_id": "B0",
+        "event_id": "RC015-PSA-STEP-4",
+        "expected_revision": 3,
+        "kind": "step",
+        "node": "FUNC",
+        "output": {
+          "findings": [
+            {
+              "basis": "Editorial inspection of the retained wording, not empirical validation of a person or tactic.",
+              "claim": "Revision2 includes sincerity, honest conduct, freedom, accountability and follow-through; it states that tears, hardship and substantial need alone are not evidence of exploitation.",
+              "epistemic_status": "DOCUMENTED",
+              "evidence_refs": [
+                "RC015-PSA-COMPASSION-REV2"
+              ],
+              "finding_id": "RC015-PSA-F1",
+              "is_new_event": false
+            },
+            {
+              "basis": "Both source passages are present in tracked Markdown.",
+              "claim": "The isolation paragraph preserves trusted outside relationships and another perspective. The index clarifies that closeness or a limited support network alone does not establish exploitation.",
+              "epistemic_status": "DOCUMENTED",
+              "evidence_refs": [
+                "RC015-PSA-COMPASSION-REV2",
+                "RC015-PSA-INDEX"
+              ],
+              "finding_id": "RC015-PSA-F2",
+              "is_new_event": false
+            },
+            {
+              "basis": "Publication and editorial safeguards are not evidence of protective effectiveness.",
+              "claim": "Whether the PSA helps readers obtain support or reduces harm remains UNKNOWN; no feedback study or individual outcome was examined.",
+              "epistemic_status": "UNKNOWN",
+              "evidence_refs": [
+                "RC015-PSA-INDEX"
+              ],
+              "finding_id": "RC015-PSA-F3",
+              "is_new_event": false
+            }
+          ],
+          "function": "Inspect evidence, outcome and access separately.",
+          "inspection_status": "retained_only",
+          "research_actor": "cycle15_information",
+          "task": "Does revision2 preserve sincerity and outside connections while avoiding unsupported accusations or screening people by distress?"
+        }
+      },
+      "decision": {
+        "next_node": "MIRROR",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-11-07T10:46:07.208340+00:00"
+    },
+    {
+      "after": "bcee2c701fbecae41b0e3fdfe4f5fd32ee33239e533e6bd7d8bfec269bbc4332",
+      "before": "f6e62e2e45a6a066942f6589132f96809bb0184349a52b184c89f07deaf231fa",
+      "command": {
+        "actor": {
+          "model": "Work-session model identifier not recorded",
+          "name": "Work Aiden",
+          "runtime": "Supervised RC-015 assembly and supplied interpretation"
+        },
+        "branch_id": "B0",
+        "event_id": "RC015-PSA-STEP-5",
+        "expected_revision": 4,
+        "kind": "step",
+        "node": "MIRROR",
+        "output": {
+          "comparisons": [
+            {
+              "answers": [],
+              "explanation": "The guidance explicitly invites another perspective and a full sequence before judgment, without an automatic verdict against either person.",
+              "queries": []
+            },
+            {
+              "answers": [],
+              "explanation": "Warmth, sincere affection or distress cannot themselves establish either safety or deliberate exploitation.",
+              "queries": []
+            }
+          ],
+          "information_lineage": {
+            "api_record_refs": [],
+            "criteria_refs": [
+              "reports/all-garden/20261104/RETURN_CONTRACT.json"
+            ],
+            "parent_answer_visible": true,
+            "parent_output_refs": [
+              "psa/compassion-and-exploitation.md",
+              "psa/README.md"
+            ],
+            "source_refs": [
+              "RC015-PSA-COMPASSION-REV2",
+              "RC015-PSA-INDEX"
+            ],
+            "test_origin": "inherited"
+          },
+          "working_buffers": [
+            "Guidance-level buffers retained: trusted outside relationships, relevant records, another perspective and fair hearing; their real-world effect is unmeasured."
+          ]
+        }
+      },
+      "decision": {
+        "next_node": "CROSS",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-11-07T10:46:07.208340+00:00"
+    },
+    {
+      "after": "8193a675bb53425f20acf7e2eb10ac322ed572790bae48cd60818eeab145eee8",
+      "before": "bcee2c701fbecae41b0e3fdfe4f5fd32ee33239e533e6bd7d8bfec269bbc4332",
+      "command": {
+        "actor": {
+          "model": "Work-session model identifier not recorded",
+          "name": "Work Aiden",
+          "runtime": "Supervised RC-015 assembly and supplied interpretation"
+        },
+        "branch_id": "B0",
+        "event_id": "RC015-PSA-STEP-6",
+        "expected_revision": 5,
+        "kind": "step",
+        "node": "CROSS",
+        "output": {
+          "bridge": [
+            {
+              "question": "If Jared requests an editorial revision, review one hypothetical reading for whether isolation is distinguished from pressure to isolate; no individual screening or automatic classification.",
+              "source_refs": [
+                "RC015-PSA-COMPASSION-REV2",
+                "RC015-PSA-INDEX"
+              ],
+              "status": "proposed_only"
+            }
+          ],
+          "independent": [],
+          "inherited": [
+            {
+              "ref": "RC015-PSA-COMPASSION-REV2"
+            },
+            {
+              "ref": "RC015-PSA-INDEX"
+            }
+          ]
+        }
+      },
+      "decision": {
+        "next_node": "RESID",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-11-07T10:46:07.208340+00:00"
+    },
+    {
+      "after": "3a901dd7941ebbe3ec8ce20f65fdde10e1933073462aa7468594edcc60635ea7",
+      "before": "8193a675bb53425f20acf7e2eb10ac322ed572790bae48cd60818eeab145eee8",
+      "command": {
+        "actor": {
+          "model": "Work-session model identifier not recorded",
+          "name": "Work Aiden",
+          "runtime": "Supervised RC-015 assembly and supplied interpretation"
+        },
+        "branch_id": "B0",
+        "event_id": "RC015-PSA-STEP-7",
+        "expected_revision": 6,
+        "kind": "step",
+        "node": "RESID",
+        "output": {
+          "next_test": "If Jared requests an editorial revision, review one hypothetical reading for whether isolation is distinguished from pressure to isolate; no individual screening or automatic classification.",
+          "predicates": {
+            "consequential": true,
+            "distinct_functions": false,
+            "language_exception": null
+          },
+          "summary": "Reader interpretation and accessibility in practice. Protective effectiveness, false-positive judgments and actual restoration of outside support."
+        }
+      },
+      "decision": {
+        "next_node": "MEAN",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-11-07T10:46:07.208340+00:00"
+    },
+    {
+      "after": "6bdc76e282e0039d3cb158ac2f999956fdf0e6a26b0d8df89caa71f407ac4260",
+      "before": "3a901dd7941ebbe3ec8ce20f65fdde10e1933073462aa7468594edcc60635ea7",
+      "command": {
+        "actor": {
+          "model": "Work-session model identifier not recorded",
+          "name": "Work Aiden",
+          "runtime": "Supervised RC-015 assembly and supplied interpretation"
+        },
+        "branch_id": "B0",
+        "event_id": "RC015-PSA-STEP-8",
+        "expected_revision": 7,
+        "kind": "step",
+        "node": "MEAN",
+        "output": {
+          "authorship_limits": "This is an internal editorial review only; it does not independently validate general prevalence or any alleged offender.",
+          "summary": "Read the attributed findings with their contrary evidence and residuals."
+        }
+      },
+      "decision": {
+        "next_node": "EXIT",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-11-07T10:46:07.208340+00:00"
+    },
+    {
+      "after": "f8ee0e1bcdcf7c0181359eb42148fad66f67c627e57c9504fdf90f10a5c7179a",
+      "before": "6bdc76e282e0039d3cb158ac2f999956fdf0e6a26b0d8df89caa71f407ac4260",
+      "command": {
+        "actor": {
+          "model": "Work-session model identifier not recorded",
+          "name": "Work Aiden",
+          "runtime": "Supervised RC-015 assembly and supplied interpretation"
+        },
+        "branch_id": "B0",
+        "event_id": "RC015-PSA-STEP-9",
+        "expected_revision": 8,
+        "kind": "step",
+        "node": "EXIT",
+        "output": {
+          "kind": "question",
+          "summary": "If Jared requests an editorial revision, review one hypothetical reading for whether isolation is distinguished from pressure to isolate; no individual screening or automatic classification."
+        }
+      },
+      "decision": {
+        "next_node": "RETURN",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-11-07T10:46:07.208340+00:00"
+    },
+    {
+      "after": "4c34d57ea9b12d3c67ba48f753899f777d1ea7fe517552bf23c294bea9a52633",
+      "before": "f8ee0e1bcdcf7c0181359eb42148fad66f67c627e57c9504fdf90f10a5c7179a",
+      "command": {
+        "actor": {
+          "model": "Work-session model identifier not recorded",
+          "name": "Work Aiden",
+          "runtime": "Supervised RC-015 assembly and supplied interpretation"
+        },
+        "branch_id": "B0",
+        "event_id": "RC015-PSA-STEP-10",
+        "expected_revision": 9,
+        "kind": "step",
+        "node": "RETURN",
+        "output": {
+          "new_arrival": null,
+          "reason": "Retained-text editorial check completed; wording was not changed and no new empirical evidence is claimed."
+        }
+      },
+      "decision": {
+        "reason": "No new arrival supplied",
+        "status": "rest"
+      },
+      "recorded_at": "2026-11-07T10:46:07.208340+00:00"
+    }
+  ],
+  "initial": {
+    "config": {
+      "authority": "Reviewed configuration determines eligible routes. Supplied content cannot edit this graph or activate morphology.",
+      "grammar": {
+        "crosscheck": {
+          "basic": "Collector capability",
+          "consequential_residual": "May request or propose teleport to a bounded Pygent Collector/specialist",
+          "permanent_crosscheck_bee": "Unresolved pending repeated cases showing the value of persistent specialist memory"
+        },
+        "entry": "INIT:ROOT-0001",
+        "external_execution": false,
+        "governor_input_refs": [
+          "daily_scroll",
+          "reflection_mailbox",
+          "meaning_tower",
+          "chair_imagination",
+          "meaning_boss_result"
+        ],
+        "routes": [
+          {
+            "automatic_execution": false,
+            "from": "INIT:RESID-0007",
+            "status": "available_not_running",
+            "to": "INIT:RETURN-0010",
+            "via": "PYGENT:PARALLAX-0001"
+          }
+        ],
+        "schema_version": "garden-config-0.1",
+        "status": "on_demand_grammar_prototype",
+        "trees": {
+          "INIT": {
+            "name": "Initiating Garden",
+            "nodes": [
+              {
+                "id": "ROOT-0001",
+                "purpose": "Pass name and identity"
+              },
+              {
+                "id": "ARRIVAL-0002",
+                "purpose": "What arrived, from where, sent to where"
+              },
+              {
+                "id": "EPIST-0003",
+                "purpose": "Prompt/question and starting epistemic state"
+              },
+              {
+                "id": "FUNC-0004",
+                "purpose": "Task and function being investigated"
+              },
+              {
+                "id": "MIRROR-0005",
+                "purpose": "Competing explanations, queries and recorded answers"
+              },
+              {
+                "id": "CROSS-0006",
+                "purpose": "Inherited, independently derived and deliberate bridge attachments"
+              },
+              {
+                "id": "RESID-0007",
+                "purpose": "Surviving residual and bounded specialist proposal"
+              },
+              {
+                "id": "MEAN-0008",
+                "purpose": "Changed meaning and non-evidence culture flower"
+              },
+              {
+                "id": "EXIT-0009",
+                "purpose": "Bounded answer, question, teleport, silence or error"
+              },
+              {
+                "id": "RETURN-0010",
+                "purpose": "New linked arrival or rest"
+              }
+            ]
+          },
+          "PYGENT": {
+            "name": "Bounded specialist destinations",
+            "nodes": [
+              {
+                "id": "PARALLAX-0001",
+                "purpose": "One bounded matched official-language Boss Packet",
+                "role": "parallax_collector_bee",
+                "status": "available_not_running"
+              }
+            ]
+          }
+        }
+      },
+      "independence": "A different branch, tree, context or model is not independent empirical evidence.",
+      "limits": {
+        "max_branches": 8,
+        "max_events": 128,
+        "max_fanout": 3,
+        "max_steps": 80,
+        "model_calls": 0
+      },
+      "model_execution": false,
+      "node_contracts": {
+        "ARRIVAL": {
+          "objects": [
+            "arrival",
+            "language_glance"
+          ]
+        },
+        "CROSS": {
+          "lists": [
+            "inherited",
+            "independent",
+            "bridge"
+          ]
+        },
+        "EPIST": {
+          "strings": [
+            "prompt",
+            "starting_state"
+          ]
+        },
+        "EXIT": {
+          "strings": [
+            "kind",
+            "summary"
+          ]
+        },
+        "FUNC": {
+          "strings": [
+            "task",
+            "function"
+          ]
+        },
+        "MEAN": {
+          "strings": [
+            "summary"
+          ]
+        },
+        "MIRROR": {
+          "lists": [
+            "comparisons"
+          ],
+          "objects": [
+            "information_lineage"
+          ]
+        },
+        "RESID": {
+          "objects": [
+            "predicates"
+          ],
+          "strings": [
+            "summary"
+          ]
+        },
+        "RETURN": {
+          "strings": [
+            "reason"
+          ]
+        },
+        "ROOT": {
+          "strings": [
+            "name"
+          ]
+        }
+      },
+      "rules": [
+        {
+          "actions": [
+            "MOVE",
+            "CLONE"
+          ],
+          "at": [
+            "RESID",
+            "MEAN",
+            "EXIT",
+            "RETURN"
+          ],
+          "condition": {
+            "members": [
+              "consequential",
+              "language_exception"
+            ],
+            "op": "AND"
+          },
+          "from": [
+            "INIT",
+            "ECONOMICS",
+            "PRODUCTION",
+            "DIPLOMACY",
+            "LANGUAGE",
+            "CUSTOMS",
+            "HOMELESSNESS"
+          ],
+          "id": "LANGUAGE-EXCEPTION",
+          "review_required": false,
+          "to": [
+            "LANGUAGE"
+          ]
+        },
+        {
+          "actions": [
+            "MOVE",
+            "CLONE",
+            "FANOUT"
+          ],
+          "at": [
+            "RESID",
+            "MEAN",
+            "EXIT",
+            "RETURN"
+          ],
+          "condition": {
+            "members": [
+              "consequential",
+              "distinct_functions"
+            ],
+            "op": "AND"
+          },
+          "from": [
+            "INIT",
+            "ECONOMICS",
+            "PRODUCTION",
+            "DIPLOMACY",
+            "LANGUAGE",
+            "CUSTOMS",
+            "HOMELESSNESS"
+          ],
+          "id": "DOMAIN-BRANCH",
+          "review_required": true,
+          "to": [
+            "INIT",
+            "ECONOMICS",
+            "PRODUCTION",
+            "DIPLOMACY",
+            "LANGUAGE",
+            "CUSTOMS",
+            "HOMELESSNESS"
+          ]
+        }
+      ],
+      "schema_version": "garden-traversal-config-1",
+      "status": "supplied_content_runtime",
+      "trees": {
+        "CUSTOMS": {
+          "name": "Customs Authority",
+          "node_template": "INIT",
+          "status": "traversable_with_supplied_content"
+        },
+        "DIPLOMACY": {
+          "name": "Diplomacy",
+          "node_template": "INIT",
+          "status": "traversable_with_supplied_content"
+        },
+        "ECONOMICS": {
+          "name": "Economics",
+          "node_template": "INIT",
+          "status": "traversable_with_supplied_content"
+        },
+        "HOMELESSNESS": {
+          "name": "Homelessness Governance and Integrity",
+          "node_template": "INIT",
+          "status": "traversable_with_supplied_content"
+        },
+        "INIT": {
+          "name": "Initiating Garden",
+          "node_template": "INIT",
+          "status": "traversable_with_supplied_content"
+        },
+        "LANGUAGE": {
+          "name": "Language Exception",
+          "node_template": "INIT",
+          "status": "traversable_with_supplied_content"
+        },
+        "PRODUCTION": {
+          "name": "Production",
+          "node_template": "INIT",
+          "status": "traversable_with_supplied_content"
+        }
+      }
+    },
+    "packet": {
+      "actor": {
+        "model": "Work-session model identifier not recorded",
+        "name": "Work Aiden",
+        "runtime": "Supervised RC-015 assembly and supplied interpretation"
+      },
+      "arrival": {
+        "from": "reports/all-garden/20261104/inputs/information.json",
+        "id": "RC015-PSA-ARRIVAL",
+        "payload": {
+          "baseline_refs": [
+            "psa/compassion-and-exploitation.md",
+            "psa/README.md"
+          ],
+          "inspection_status": "retained_only",
+          "lane_id": "psa",
+          "return_actor": "cycle15_information",
+          "return_sha256": "2f77583558ad0a1d002f95d8227f09569806990abada70a2a256e82ca618fc64"
+        },
+        "to": "INIT:ROOT-0001"
+      },
+      "budget": {
+        "max_branches": 1,
+        "max_events": 10,
+        "max_fanout": 0,
+        "max_steps": 10,
+        "model_calls": 0
+      },
+      "epoch": 1,
+      "focus": "Does revision2 preserve sincerity and outside connections while avoiding unsupported accusations or screening people by distress?",
+      "question_id": "Q-PSA-SINCERITY-ISOLATION-REVIEW",
+      "run_id": "RC015-PSA",
+      "sources": [
+        {
+          "binding": {
+            "lane_id": "psa",
+            "path": "reports/all-garden/20261104/inputs/information.json",
+            "sha256": "83cc680efd0273a739ab9da7de712efe7a32e7db82b482aa268d480402f0be71",
+            "source_id": "RC015-PSA-COMPASSION-REV2"
+          },
+          "kind": "context",
+          "lineage_id": "GARDEN-PSA-GUIDANCE",
+          "ref": "RC015-PSA-COMPASSION-REV2"
+        },
+        {
+          "binding": {
+            "lane_id": "psa",
+            "path": "reports/all-garden/20261104/inputs/information.json",
+            "sha256": "eae7a6228b3e22e8a69acdf274765dad69841ce6a75792a032a300a336bf4cf9",
+            "source_id": "RC015-PSA-INDEX"
+          },
+          "kind": "context",
+          "lineage_id": "GARDEN-PSA-GUIDANCE",
+          "ref": "RC015-PSA-INDEX"
+        }
+      ],
+      "tree": "INIT"
+    },
+    "registry": {
+      "questions": {
+        "Q-PSA-SINCERITY-ISOLATION-REVIEW": {
+          "epoch": 1
+        }
+      }
+    }
+  },
+  "schema_version": "garden-traversal-1",
+  "state": {
+    "branches": {
+      "B0": {
+        "epoch": 1,
+        "focus": "Does revision2 preserve sincerity and outside connections while avoiding unsupported accusations or screening people by distress?",
+        "id": "B0",
+        "lineage": {
+          "independent_evidence": false,
+          "source_refs": [
+            "RC015-PSA-COMPASSION-REV2",
+            "RC015-PSA-INDEX"
+          ]
+        },
+        "parent_branch": null,
+        "question_id": "Q-PSA-SINCERITY-ISOLATION-REVIEW",
+        "rest": {
+          "kind": "return",
+          "reason": "No new arrival supplied"
+        },
+        "root_branch": "B0",
+        "seen_arrival_ids": [
+          "RC015-PSA-ARRIVAL"
+        ],
+        "status": "resting",
+        "visited": [
+          {
+            "payload_hash": "697119b7a8fe21e994b9443038cb085ce871051399ed2fd7e2aa9ba8bc3e0c23",
+            "tree": "INIT"
+          }
+        ],
+        "visits": [
+          {
+            "arrival": {
+              "from": "reports/all-garden/20261104/inputs/information.json",
+              "id": "RC015-PSA-ARRIVAL",
+              "payload": {
+                "baseline_refs": [
+                  "psa/compassion-and-exploitation.md",
+                  "psa/README.md"
+                ],
+                "inspection_status": "retained_only",
+                "lane_id": "psa",
+                "return_actor": "cycle15_information",
+                "return_sha256": "2f77583558ad0a1d002f95d8227f09569806990abada70a2a256e82ca618fc64"
+              },
+              "to": "INIT:ROOT-0001"
+            },
+            "status": "completed",
+            "steps": [
+              {
+                "actor": {
+                  "model": "Work-session model identifier not recorded",
+                  "name": "Work Aiden",
+                  "runtime": "Supervised RC-015 assembly and supplied interpretation"
+                },
+                "event_id": "RC015-PSA-STEP-1",
+                "node": "ROOT",
+                "output": {
+                  "name": "Garden Public Service Announcements"
+                }
+              },
+              {
+                "actor": {
+                  "model": "Work-session model identifier not recorded",
+                  "name": "Work Aiden",
+                  "runtime": "Supervised RC-015 assembly and supplied interpretation"
+                },
+                "event_id": "RC015-PSA-STEP-2",
+                "node": "ARRIVAL",
+                "output": {
+                  "arrival": {
+                    "from": "reports/all-garden/20261104/inputs/information.json",
+                    "id": "RC015-PSA-ARRIVAL",
+                    "payload": {
+                      "baseline_refs": [
+                        "psa/compassion-and-exploitation.md",
+                        "psa/README.md"
+                      ],
+                      "inspection_status": "retained_only",
+                      "lane_id": "psa",
+                      "return_actor": "cycle15_information",
+                      "return_sha256": "2f77583558ad0a1d002f95d8227f09569806990abada70a2a256e82ca618fc64"
+                    },
+                    "to": "INIT:ROOT-0001"
+                  },
+                  "language_glance": {
+                    "basis": "unknown",
+                    "issuing_office": "See each pinned source publisher",
+                    "languages": [],
+                    "note": "No matched original/translation inventory supplied by these returns.",
+                    "source_refs": [
+                      "RC015-PSA-COMPASSION-REV2",
+                      "RC015-PSA-INDEX"
+                    ],
+                    "surface_kind": "mixed"
+                  }
+                }
+              },
+              {
+                "actor": {
+                  "model": "Work-session model identifier not recorded",
+                  "name": "Work Aiden",
+                  "runtime": "Supervised RC-015 assembly and supplied interpretation"
+                },
+                "event_id": "RC015-PSA-STEP-3",
+                "node": "EPIST",
+                "output": {
+                  "empirical_cutoff": "2026-11-04 America/Los_Angeles",
+                  "inspection_time": "2026-11-05T04:17:34.119482+00:00",
+                  "prompt": "Does revision2 preserve sincerity and outside connections while avoiding unsupported accusations or screening people by distress?",
+                  "starting_state": "Retain the dated baseline; inspect one bounded residual."
+                }
+              },
+              {
+                "actor": {
+                  "model": "Work-session model identifier not recorded",
+                  "name": "Work Aiden",
+                  "runtime": "Supervised RC-015 assembly and supplied interpretation"
+                },
+                "event_id": "RC015-PSA-STEP-4",
+                "node": "FUNC",
+                "output": {
+                  "findings": [
+                    {
+                      "basis": "Editorial inspection of the retained wording, not empirical validation of a person or tactic.",
+                      "claim": "Revision2 includes sincerity, honest conduct, freedom, accountability and follow-through; it states that tears, hardship and substantial need alone are not evidence of exploitation.",
+                      "epistemic_status": "DOCUMENTED",
+                      "evidence_refs": [
+                        "RC015-PSA-COMPASSION-REV2"
+                      ],
+                      "finding_id": "RC015-PSA-F1",
+                      "is_new_event": false
+                    },
+                    {
+                      "basis": "Both source passages are present in tracked Markdown.",
+                      "claim": "The isolation paragraph preserves trusted outside relationships and another perspective. The index clarifies that closeness or a limited support network alone does not establish exploitation.",
+                      "epistemic_status": "DOCUMENTED",
+                      "evidence_refs": [
+                        "RC015-PSA-COMPASSION-REV2",
+                        "RC015-PSA-INDEX"
+                      ],
+                      "finding_id": "RC015-PSA-F2",
+                      "is_new_event": false
+                    },
+                    {
+                      "basis": "Publication and editorial safeguards are not evidence of protective effectiveness.",
+                      "claim": "Whether the PSA helps readers obtain support or reduces harm remains UNKNOWN; no feedback study or individual outcome was examined.",
+                      "epistemic_status": "UNKNOWN",
+                      "evidence_refs": [
+                        "RC015-PSA-INDEX"
+                      ],
+                      "finding_id": "RC015-PSA-F3",
+                      "is_new_event": false
+                    }
+                  ],
+                  "function": "Inspect evidence, outcome and access separately.",
+                  "inspection_status": "retained_only",
+                  "research_actor": "cycle15_information",
+                  "task": "Does revision2 preserve sincerity and outside connections while avoiding unsupported accusations or screening people by distress?"
+                }
+              },
+              {
+                "actor": {
+                  "model": "Work-session model identifier not recorded",
+                  "name": "Work Aiden",
+                  "runtime": "Supervised RC-015 assembly and supplied interpretation"
+                },
+                "event_id": "RC015-PSA-STEP-5",
+                "node": "MIRROR",
+                "output": {
+                  "comparisons": [
+                    {
+                      "answers": [],
+                      "explanation": "The guidance explicitly invites another perspective and a full sequence before judgment, without an automatic verdict against either person.",
+                      "queries": []
+                    },
+                    {
+                      "answers": [],
+                      "explanation": "Warmth, sincere affection or distress cannot themselves establish either safety or deliberate exploitation.",
+                      "queries": []
+                    }
+                  ],
+                  "information_lineage": {
+                    "api_record_refs": [],
+                    "criteria_refs": [
+                      "reports/all-garden/20261104/RETURN_CONTRACT.json"
+                    ],
+                    "parent_answer_visible": true,
+                    "parent_output_refs": [
+                      "psa/compassion-and-exploitation.md",
+                      "psa/README.md"
+                    ],
+                    "source_refs": [
+                      "RC015-PSA-COMPASSION-REV2",
+                      "RC015-PSA-INDEX"
+                    ],
+                    "test_origin": "inherited"
+                  },
+                  "working_buffers": [
+                    "Guidance-level buffers retained: trusted outside relationships, relevant records, another perspective and fair hearing; their real-world effect is unmeasured."
+                  ]
+                }
+              },
+              {
+                "actor": {
+                  "model": "Work-session model identifier not recorded",
+                  "name": "Work Aiden",
+                  "runtime": "Supervised RC-015 assembly and supplied interpretation"
+                },
+                "event_id": "RC015-PSA-STEP-6",
+                "node": "CROSS",
+                "output": {
+                  "bridge": [
+                    {
+                      "question": "If Jared requests an editorial revision, review one hypothetical reading for whether isolation is distinguished from pressure to isolate; no individual screening or automatic classification.",
+                      "source_refs": [
+                        "RC015-PSA-COMPASSION-REV2",
+                        "RC015-PSA-INDEX"
+                      ],
+                      "status": "proposed_only"
+                    }
+                  ],
+                  "independent": [],
+                  "inherited": [
+                    {
+                      "ref": "RC015-PSA-COMPASSION-REV2"
+                    },
+                    {
+                      "ref": "RC015-PSA-INDEX"
+                    }
+                  ]
+                }
+              },
+              {
+                "actor": {
+                  "model": "Work-session model identifier not recorded",
+                  "name": "Work Aiden",
+                  "runtime": "Supervised RC-015 assembly and supplied interpretation"
+                },
+                "event_id": "RC015-PSA-STEP-7",
+                "node": "RESID",
+                "output": {
+                  "next_test": "If Jared requests an editorial revision, review one hypothetical reading for whether isolation is distinguished from pressure to isolate; no individual screening or automatic classification.",
+                  "predicates": {
+                    "consequential": true,
+                    "distinct_functions": false,
+                    "language_exception": null
+                  },
+                  "summary": "Reader interpretation and accessibility in practice. Protective effectiveness, false-positive judgments and actual restoration of outside support."
+                }
+              },
+              {
+                "actor": {
+                  "model": "Work-session model identifier not recorded",
+                  "name": "Work Aiden",
+                  "runtime": "Supervised RC-015 assembly and supplied interpretation"
+                },
+                "event_id": "RC015-PSA-STEP-8",
+                "node": "MEAN",
+                "output": {
+                  "authorship_limits": "This is an internal editorial review only; it does not independently validate general prevalence or any alleged offender.",
+                  "summary": "Read the attributed findings with their contrary evidence and residuals."
+                }
+              },
+              {
+                "actor": {
+                  "model": "Work-session model identifier not recorded",
+                  "name": "Work Aiden",
+                  "runtime": "Supervised RC-015 assembly and supplied interpretation"
+                },
+                "event_id": "RC015-PSA-STEP-9",
+                "node": "EXIT",
+                "output": {
+                  "kind": "question",
+                  "summary": "If Jared requests an editorial revision, review one hypothetical reading for whether isolation is distinguished from pressure to isolate; no individual screening or automatic classification."
+                }
+              },
+              {
+                "actor": {
+                  "model": "Work-session model identifier not recorded",
+                  "name": "Work Aiden",
+                  "runtime": "Supervised RC-015 assembly and supplied interpretation"
+                },
+                "event_id": "RC015-PSA-STEP-10",
+                "node": "RETURN",
+                "output": {
+                  "new_arrival": null,
+                  "reason": "Retained-text editorial check completed; wording was not changed and no new empirical evidence is claimed."
+                }
+              }
+            ],
+            "tree": "INIT"
+          }
+        ]
+      }
+    },
+    "epoch": 1,
+    "limits": {
+      "max_branches": 1,
+      "max_events": 10,
+      "max_fanout": 0,
+      "max_steps": 10,
+      "model_calls": 0
+    },
+    "question_id": "Q-PSA-SINCERITY-ISOLATION-REVIEW",
+    "revision": 10,
+    "route_decisions": [],
+    "route_signatures": [],
+    "run_id": "RC015-PSA",
+    "sources": {
+      "RC015-PSA-COMPASSION-REV2": {
+        "binding": {
+          "lane_id": "psa",
+          "path": "reports/all-garden/20261104/inputs/information.json",
+          "sha256": "83cc680efd0273a739ab9da7de712efe7a32e7db82b482aa268d480402f0be71",
+          "source_id": "RC015-PSA-COMPASSION-REV2"
+        },
+        "kind": "context",
+        "lineage_id": "GARDEN-PSA-GUIDANCE",
+        "ref": "RC015-PSA-COMPASSION-REV2"
+      },
+      "RC015-PSA-INDEX": {
+        "binding": {
+          "lane_id": "psa",
+          "path": "reports/all-garden/20261104/inputs/information.json",
+          "sha256": "eae7a6228b3e22e8a69acdf274765dad69841ce6a75792a032a300a336bf4cf9",
+          "source_id": "RC015-PSA-INDEX"
+        },
+        "kind": "context",
+        "lineage_id": "GARDEN-PSA-GUIDANCE",
+        "ref": "RC015-PSA-INDEX"
+      }
+    },
+    "used": {
+      "branches": 1,
+      "model_calls": 0,
+      "steps": 10
+    }
+  },
+  "state_sha256": "4c34d57ea9b12d3c67ba48f753899f777d1ea7fe517552bf23c294bea9a52633"
+}

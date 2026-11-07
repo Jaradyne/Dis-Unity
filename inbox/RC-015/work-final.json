@@ -1,0 +1,34 @@
+{
+  "cycle_id": "RC-015",
+  "actor": "Work Aiden",
+  "completed_at": "2026-11-07T16:31:20.789347+00:00",
+  "status": "completed_supervised_cycle_review_intake",
+  "empirical_cutoff": "2026-11-04",
+  "completion_date_local": "2026-11-07",
+  "passes": 14,
+  "trees": 10,
+  "steps": 140,
+  "reconstructions": 2,
+  "local_tests_passed": 280,
+  "mechanism_checks_passed": 12,
+  "closing_review": {
+    "actor": "cycle15_closing_review",
+    "decision": "accepted_for_bounded_publication",
+    "path": "reports/all-garden/20261104/CLOSING_REVIEW.md",
+    "sha256": "f6e8994ebb0ba76edf9887b80914f5fc7049cd384395ded04fe0fb56d75e5f9f",
+    "independent_source_replication": false
+  },
+  "interruption_records": [
+    "inbox/RC-015/material-checkpoint.json",
+    "inbox/RC-015/material-recovery-final.json",
+    "inbox/RC-015/reviewer-interruption.json"
+  ],
+  "canonical_admission": false,
+  "live_question_registration": false,
+  "repository_model_calls": 0,
+  "recurring_monitoring": false,
+  "governor_activation": false,
+  "outreach": false,
+  "handoff": "reports/all-garden/20261104/HANDOFF_CHAT_DIGEST.md",
+  "stop_reason": "All current trees covered, review completed, deterministic replay and regression tests pass. Next tests remain proposed."
+}

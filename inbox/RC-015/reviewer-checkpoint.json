@@ -1,0 +1,13 @@
+{
+  "cycle_id": "RC-015",
+  "actor": "cycle15_review",
+  "status": "initial_checkpoint",
+  "checked_at": "2026-11-07T10:40:51.004576+00:00",
+  "scope": "Separate evidence-boundary, lineage, source-date and final replay review. Awaiting final assembly ready signal.",
+  "limits": {
+    "source_opens_max": 3,
+    "canonical_edits": false,
+    "outreach": false,
+    "provider_dispatch": false
+  }
+}

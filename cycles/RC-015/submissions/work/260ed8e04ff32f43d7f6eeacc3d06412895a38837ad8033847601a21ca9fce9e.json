@@ -1,0 +1,25 @@
+{
+  "agent": "work",
+  "at": "2026-11-07T10:43:41.601711+00:00",
+  "base_hash": "16d04f8bb35a588caca60517f90a11944cfbafac7951402d059a6d6131de97b7",
+  "cycle_id": "RC-015",
+  "payload": {
+    "actor": "Work Aiden",
+    "at": "2026-11-07T10:43:41.552774+00:00",
+    "bounds": "No recurring window reopened, repository model-provider dispatch, Governor activation, contact or canonical admission.",
+    "completion_and_technical_checks_on": "2026-11-07",
+    "cycle_id": "RC-015",
+    "interrupted_thread": "cycle15_material stopped at usage limit with initial checkpoint and no findings saved. Recovery is separately attributed.",
+    "original_completed_packets_preserved": [
+      "institutions.json",
+      "services.json",
+      "information.json"
+    ],
+    "original_empirical_cutoff": "2026-11-04",
+    "status": "resumed",
+    "timestamp_normalization": "For prior institutions/information packets, retrieved_at values are packet-final recording timestamps or upper bounds for the inspection window, not exact source fetch times. The web service supplied transformed/indexed text, not raw HTTP receipts."
+  },
+  "payload_hash": "209363bbf483d1aedbb058899361ca30701e531a57c3b1eea78c6f7388b1d810",
+  "phase": "submitted",
+  "submission_id": "260ed8e04ff32f43d7f6eeacc3d06412895a38837ad8033847601a21ca9fce9e"
+}

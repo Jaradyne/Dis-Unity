@@ -1,0 +1,17 @@
+{
+  "cycle_id": "RC-015",
+  "actor": "cycle15_information",
+  "status": "checkpoint",
+  "checked_at": "2026-11-05T04:15:40.979382+00:00",
+  "scope": [
+    "information-integrity bounded public source recheck",
+    "psa retained-only editorial check"
+  ],
+  "limits": {
+    "search_queries": 2,
+    "opens": 3,
+    "monitoring": false,
+    "attribution": false,
+    "canonical_admission": false
+  }
+}

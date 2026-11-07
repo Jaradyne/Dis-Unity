@@ -1,0 +1,1005 @@
+{
+  "config_sha256": "39152c8d17954a1d9097a0c55351ced98ad702f402cb9c12a27b116f4c0d1655",
+  "events": [
+    {
+      "after": "2541d7b09a5b683bb7a1931eca62f0286aff2766cfe121f3464b8d83583d9353",
+      "before": "5636ae8eb395200ef106d263b0c0565aee92682fec4e1b5db972bfe14e0bf54e",
+      "command": {
+        "actor": {
+          "model": "Work-session model identifier not recorded",
+          "name": "Work Aiden",
+          "runtime": "Supervised RC-015 assembly and supplied interpretation"
+        },
+        "branch_id": "B0",
+        "event_id": "RC015-LANGUAGE-CONTEXT-STEP-1",
+        "expected_revision": 0,
+        "kind": "step",
+        "node": "ROOT",
+        "output": {
+          "name": "Language and record interpretation"
+        }
+      },
+      "decision": {
+        "next_node": "ARRIVAL",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-11-07T10:46:07.208340+00:00"
+    },
+    {
+      "after": "bf7cd22b82172d97c5c6fba12efda3d69affefbbf8eda6713ea8d27f5f2978e9",
+      "before": "2541d7b09a5b683bb7a1931eca62f0286aff2766cfe121f3464b8d83583d9353",
+      "command": {
+        "actor": {
+          "model": "Work-session model identifier not recorded",
+          "name": "Work Aiden",
+          "runtime": "Supervised RC-015 assembly and supplied interpretation"
+        },
+        "branch_id": "B0",
+        "event_id": "RC015-LANGUAGE-CONTEXT-STEP-2",
+        "expected_revision": 1,
+        "kind": "step",
+        "node": "ARRIVAL",
+        "output": {
+          "arrival": {
+            "from": "reports/all-garden/20261104/inputs/cross-lane.json",
+            "id": "RC015-LANGUAGE-CONTEXT-ARRIVAL",
+            "payload": {
+              "baseline_refs": [
+                "reports/all-garden/20261104/inputs/information.json",
+                "reports/all-garden/20261104/inputs/coordinator.json",
+                "docs/GARDEN_TRAVERSAL.md"
+              ],
+              "inspection_status": "retained_only",
+              "lane_id": "language-context",
+              "return_actor": "Work Aiden",
+              "return_sha256": "de4f51aacce7bbf63c843569239a3ec8303e222b8788268f8ec94ed5dbf3ca3a"
+            },
+            "to": "LANGUAGE:ROOT-0001"
+          },
+          "language_glance": {
+            "basis": "unknown",
+            "issuing_office": "See each pinned source publisher",
+            "languages": [],
+            "note": "No matched original/translation inventory supplied by these returns.",
+            "source_refs": [
+              "LANGUAGE-CONTEXT-RETURN-1",
+              "LANGUAGE-CONTEXT-RETURN-2"
+            ],
+            "surface_kind": "mixed"
+          }
+        }
+      },
+      "decision": {
+        "next_node": "EPIST",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-11-07T10:46:07.208340+00:00"
+    },
+    {
+      "after": "7c254f9a67cf682bd3fed3e321055765ef8eec8911c9645923a316e0c414aa46",
+      "before": "bf7cd22b82172d97c5c6fba12efda3d69affefbbf8eda6713ea8d27f5f2978e9",
+      "command": {
+        "actor": {
+          "model": "Work-session model identifier not recorded",
+          "name": "Work Aiden",
+          "runtime": "Supervised RC-015 assembly and supplied interpretation"
+        },
+        "branch_id": "B0",
+        "event_id": "RC015-LANGUAGE-CONTEXT-STEP-3",
+        "expected_revision": 2,
+        "kind": "step",
+        "node": "EPIST",
+        "output": {
+          "empirical_cutoff": "2026-11-04 America/Los_Angeles",
+          "inspection_time": "2026-11-07T10:46:07.208340+00:00",
+          "prompt": "Can date/version and source-language limits be carried without inventing a matched translation test?",
+          "starting_state": "Retain the dated baseline; inspect one bounded residual."
+        }
+      },
+      "decision": {
+        "next_node": "FUNC",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-11-07T10:46:07.208340+00:00"
+    },
+    {
+      "after": "98dfcda5f07df2c4fb15d0ee0358c845514d601314687f7faa2ce726ddddb694",
+      "before": "7c254f9a67cf682bd3fed3e321055765ef8eec8911c9645923a316e0c414aa46",
+      "command": {
+        "actor": {
+          "model": "Work-session model identifier not recorded",
+          "name": "Work Aiden",
+          "runtime": "Supervised RC-015 assembly and supplied interpretation"
+        },
+        "branch_id": "B0",
+        "event_id": "RC015-LANGUAGE-CONTEXT-STEP-4",
+        "expected_revision": 3,
+        "kind": "step",
+        "node": "FUNC",
+        "output": {
+          "findings": [
+            {
+              "basis": "Review of retained return contents, not independent empirical validation.",
+              "claim": "The CSIS date conflict and CARE form-version/access gap survive the handoff. No matched multilingual comparison or language-based operator attribution was performed.",
+              "epistemic_status": "DOCUMENTED",
+              "evidence_refs": [
+                "LANGUAGE-CONTEXT-RETURN-1",
+                "LANGUAGE-CONTEXT-RETURN-2"
+              ],
+              "finding_id": "LANGUAGE-CONTEXT-01",
+              "is_new_event": false
+            }
+          ],
+          "function": "Inspect evidence, outcome and access separately.",
+          "inspection_status": "retained_only",
+          "research_actor": "Work Aiden",
+          "task": "Can date/version and source-language limits be carried without inventing a matched translation test?"
+        }
+      },
+      "decision": {
+        "next_node": "MIRROR",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-11-07T10:46:07.208340+00:00"
+    },
+    {
+      "after": "1a51f55de453006d68193c905dca349ac206a39dad829b42e49b7d30f12d8759",
+      "before": "98dfcda5f07df2c4fb15d0ee0358c845514d601314687f7faa2ce726ddddb694",
+      "command": {
+        "actor": {
+          "model": "Work-session model identifier not recorded",
+          "name": "Work Aiden",
+          "runtime": "Supervised RC-015 assembly and supplied interpretation"
+        },
+        "branch_id": "B0",
+        "event_id": "RC015-LANGUAGE-CONTEXT-STEP-5",
+        "expected_revision": 4,
+        "kind": "step",
+        "node": "MIRROR",
+        "output": {
+          "comparisons": [
+            {
+              "answers": [],
+              "explanation": "Different institutions may make consistent statements without independently verifying outcomes; inconsistent dates may reflect ordinary errors.",
+              "queries": []
+            }
+          ],
+          "information_lineage": {
+            "api_record_refs": [],
+            "criteria_refs": [
+              "reports/all-garden/20261104/RETURN_CONTRACT.json"
+            ],
+            "parent_answer_visible": true,
+            "parent_output_refs": [
+              "reports/all-garden/20261104/inputs/information.json",
+              "reports/all-garden/20261104/inputs/coordinator.json",
+              "docs/GARDEN_TRAVERSAL.md"
+            ],
+            "source_refs": [
+              "LANGUAGE-CONTEXT-RETURN-1",
+              "LANGUAGE-CONTEXT-RETURN-2"
+            ],
+            "test_origin": "inherited"
+          },
+          "working_buffers": [
+            "Explicit attribution, shared references, review and human correction preserve competing explanations."
+          ]
+        }
+      },
+      "decision": {
+        "next_node": "CROSS",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-11-07T10:46:07.208340+00:00"
+    },
+    {
+      "after": "7eb020d8dfa27eed8bab114d75e56fac7ab2847724d9bb8f6b94e081cf038995",
+      "before": "1a51f55de453006d68193c905dca349ac206a39dad829b42e49b7d30f12d8759",
+      "command": {
+        "actor": {
+          "model": "Work-session model identifier not recorded",
+          "name": "Work Aiden",
+          "runtime": "Supervised RC-015 assembly and supplied interpretation"
+        },
+        "branch_id": "B0",
+        "event_id": "RC015-LANGUAGE-CONTEXT-STEP-6",
+        "expected_revision": 5,
+        "kind": "step",
+        "node": "CROSS",
+        "output": {
+          "bridge": [
+            {
+              "question": "If a consequential translation difference is proposed, inspect one matched official original/translation pair plus an ordinary control.",
+              "source_refs": [
+                "LANGUAGE-CONTEXT-RETURN-1",
+                "LANGUAGE-CONTEXT-RETURN-2"
+              ],
+              "status": "proposed_only"
+            }
+          ],
+          "independent": [],
+          "inherited": [
+            {
+              "ref": "LANGUAGE-CONTEXT-RETURN-1"
+            },
+            {
+              "ref": "LANGUAGE-CONTEXT-RETURN-2"
+            }
+          ]
+        }
+      },
+      "decision": {
+        "next_node": "RESID",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-11-07T10:46:07.208340+00:00"
+    },
+    {
+      "after": "85e51643372793f208a64ab80c96ea6fdbaba19981da23046a9e30fa7ce820b3",
+      "before": "7eb020d8dfa27eed8bab114d75e56fac7ab2847724d9bb8f6b94e081cf038995",
+      "command": {
+        "actor": {
+          "model": "Work-session model identifier not recorded",
+          "name": "Work Aiden",
+          "runtime": "Supervised RC-015 assembly and supplied interpretation"
+        },
+        "branch_id": "B0",
+        "event_id": "RC015-LANGUAGE-CONTEXT-STEP-7",
+        "expected_revision": 6,
+        "kind": "step",
+        "node": "RESID",
+        "output": {
+          "next_test": "If a consequential translation difference is proposed, inspect one matched official original/translation pair plus an ordinary control.",
+          "predicates": {
+            "consequential": true,
+            "distinct_functions": false,
+            "language_exception": null
+          },
+          "summary": "Empirical residuals remain with their originating lanes."
+        }
+      },
+      "decision": {
+        "next_node": "MEAN",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-11-07T10:46:07.208340+00:00"
+    },
+    {
+      "after": "db1881a40f6232342831380a32b91a7cc0fe319f5ad682b6d133d33a975d6389",
+      "before": "85e51643372793f208a64ab80c96ea6fdbaba19981da23046a9e30fa7ce820b3",
+      "command": {
+        "actor": {
+          "model": "Work-session model identifier not recorded",
+          "name": "Work Aiden",
+          "runtime": "Supervised RC-015 assembly and supplied interpretation"
+        },
+        "branch_id": "B0",
+        "event_id": "RC015-LANGUAGE-CONTEXT-STEP-8",
+        "expected_revision": 7,
+        "kind": "step",
+        "node": "MEAN",
+        "output": {
+          "authorship_limits": "Work-supplied cross-lane projection reuses specialist material and does not count as independent corroboration.",
+          "summary": "Read the attributed findings with their contrary evidence and residuals."
+        }
+      },
+      "decision": {
+        "next_node": "EXIT",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-11-07T10:46:07.208340+00:00"
+    },
+    {
+      "after": "f5f9f588a0eb4368c4289dd87b05c9de51f7a5ba3670aecddb9ae8b9c185d7ff",
+      "before": "db1881a40f6232342831380a32b91a7cc0fe319f5ad682b6d133d33a975d6389",
+      "command": {
+        "actor": {
+          "model": "Work-session model identifier not recorded",
+          "name": "Work Aiden",
+          "runtime": "Supervised RC-015 assembly and supplied interpretation"
+        },
+        "branch_id": "B0",
+        "event_id": "RC015-LANGUAGE-CONTEXT-STEP-9",
+        "expected_revision": 8,
+        "kind": "step",
+        "node": "EXIT",
+        "output": {
+          "kind": "question",
+          "summary": "If a consequential translation difference is proposed, inspect one matched official original/translation pair plus an ordinary control."
+        }
+      },
+      "decision": {
+        "next_node": "RETURN",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-11-07T10:46:07.208340+00:00"
+    },
+    {
+      "after": "1525b408a4d60c8fa5d2ec8fdcfe6fe0d72071b00a05effd374fb00c592c59b6",
+      "before": "f5f9f588a0eb4368c4289dd87b05c9de51f7a5ba3670aecddb9ae8b9c185d7ff",
+      "command": {
+        "actor": {
+          "model": "Work-session model identifier not recorded",
+          "name": "Work Aiden",
+          "runtime": "Supervised RC-015 assembly and supplied interpretation"
+        },
+        "branch_id": "B0",
+        "event_id": "RC015-LANGUAGE-CONTEXT-STEP-10",
+        "expected_revision": 9,
+        "kind": "step",
+        "node": "RETURN",
+        "output": {
+          "new_arrival": null,
+          "reason": "One cross-lane inspection completed; no additional collection or authority activated."
+        }
+      },
+      "decision": {
+        "reason": "No new arrival supplied",
+        "status": "rest"
+      },
+      "recorded_at": "2026-11-07T10:46:07.208340+00:00"
+    }
+  ],
+  "initial": {
+    "config": {
+      "authority": "Reviewed configuration determines eligible routes. Supplied content cannot edit this graph or activate morphology.",
+      "grammar": {
+        "crosscheck": {
+          "basic": "Collector capability",
+          "consequential_residual": "May request or propose teleport to a bounded Pygent Collector/specialist",
+          "permanent_crosscheck_bee": "Unresolved pending repeated cases showing the value of persistent specialist memory"
+        },
+        "entry": "INIT:ROOT-0001",
+        "external_execution": false,
+        "governor_input_refs": [
+          "daily_scroll",
+          "reflection_mailbox",
+          "meaning_tower",
+          "chair_imagination",
+          "meaning_boss_result"
+        ],
+        "routes": [
+          {
+            "automatic_execution": false,
+            "from": "INIT:RESID-0007",
+            "status": "available_not_running",
+            "to": "INIT:RETURN-0010",
+            "via": "PYGENT:PARALLAX-0001"
+          }
+        ],
+        "schema_version": "garden-config-0.1",
+        "status": "on_demand_grammar_prototype",
+        "trees": {
+          "INIT": {
+            "name": "Initiating Garden",
+            "nodes": [
+              {
+                "id": "ROOT-0001",
+                "purpose": "Pass name and identity"
+              },
+              {
+                "id": "ARRIVAL-0002",
+                "purpose": "What arrived, from where, sent to where"
+              },
+              {
+                "id": "EPIST-0003",
+                "purpose": "Prompt/question and starting epistemic state"
+              },
+              {
+                "id": "FUNC-0004",
+                "purpose": "Task and function being investigated"
+              },
+              {
+                "id": "MIRROR-0005",
+                "purpose": "Competing explanations, queries and recorded answers"
+              },
+              {
+                "id": "CROSS-0006",
+                "purpose": "Inherited, independently derived and deliberate bridge attachments"
+              },
+              {
+                "id": "RESID-0007",
+                "purpose": "Surviving residual and bounded specialist proposal"
+              },
+              {
+                "id": "MEAN-0008",
+                "purpose": "Changed meaning and non-evidence culture flower"
+              },
+              {
+                "id": "EXIT-0009",
+                "purpose": "Bounded answer, question, teleport, silence or error"
+              },
+              {
+                "id": "RETURN-0010",
+                "purpose": "New linked arrival or rest"
+              }
+            ]
+          },
+          "PYGENT": {
+            "name": "Bounded specialist destinations",
+            "nodes": [
+              {
+                "id": "PARALLAX-0001",
+                "purpose": "One bounded matched official-language Boss Packet",
+                "role": "parallax_collector_bee",
+                "status": "available_not_running"
+              }
+            ]
+          }
+        }
+      },
+      "independence": "A different branch, tree, context or model is not independent empirical evidence.",
+      "limits": {
+        "max_branches": 8,
+        "max_events": 128,
+        "max_fanout": 3,
+        "max_steps": 80,
+        "model_calls": 0
+      },
+      "model_execution": false,
+      "node_contracts": {
+        "ARRIVAL": {
+          "objects": [
+            "arrival",
+            "language_glance"
+          ]
+        },
+        "CROSS": {
+          "lists": [
+            "inherited",
+            "independent",
+            "bridge"
+          ]
+        },
+        "EPIST": {
+          "strings": [
+            "prompt",
+            "starting_state"
+          ]
+        },
+        "EXIT": {
+          "strings": [
+            "kind",
+            "summary"
+          ]
+        },
+        "FUNC": {
+          "strings": [
+            "task",
+            "function"
+          ]
+        },
+        "MEAN": {
+          "strings": [
+            "summary"
+          ]
+        },
+        "MIRROR": {
+          "lists": [
+            "comparisons"
+          ],
+          "objects": [
+            "information_lineage"
+          ]
+        },
+        "RESID": {
+          "objects": [
+            "predicates"
+          ],
+          "strings": [
+            "summary"
+          ]
+        },
+        "RETURN": {
+          "strings": [
+            "reason"
+          ]
+        },
+        "ROOT": {
+          "strings": [
+            "name"
+          ]
+        }
+      },
+      "rules": [
+        {
+          "actions": [
+            "MOVE",
+            "CLONE"
+          ],
+          "at": [
+            "RESID",
+            "MEAN",
+            "EXIT",
+            "RETURN"
+          ],
+          "condition": {
+            "members": [
+              "consequential",
+              "language_exception"
+            ],
+            "op": "AND"
+          },
+          "from": [
+            "INIT",
+            "ECONOMICS",
+            "PRODUCTION",
+            "DIPLOMACY",
+            "LANGUAGE",
+            "CUSTOMS",
+            "HOMELESSNESS"
+          ],
+          "id": "LANGUAGE-EXCEPTION",
+          "review_required": false,
+          "to": [
+            "LANGUAGE"
+          ]
+        },
+        {
+          "actions": [
+            "MOVE",
+            "CLONE",
+            "FANOUT"
+          ],
+          "at": [
+            "RESID",
+            "MEAN",
+            "EXIT",
+            "RETURN"
+          ],
+          "condition": {
+            "members": [
+              "consequential",
+              "distinct_functions"
+            ],
+            "op": "AND"
+          },
+          "from": [
+            "INIT",
+            "ECONOMICS",
+            "PRODUCTION",
+            "DIPLOMACY",
+            "LANGUAGE",
+            "CUSTOMS",
+            "HOMELESSNESS"
+          ],
+          "id": "DOMAIN-BRANCH",
+          "review_required": true,
+          "to": [
+            "INIT",
+            "ECONOMICS",
+            "PRODUCTION",
+            "DIPLOMACY",
+            "LANGUAGE",
+            "CUSTOMS",
+            "HOMELESSNESS"
+          ]
+        }
+      ],
+      "schema_version": "garden-traversal-config-1",
+      "status": "supplied_content_runtime",
+      "trees": {
+        "CUSTOMS": {
+          "name": "Customs Authority",
+          "node_template": "INIT",
+          "status": "traversable_with_supplied_content"
+        },
+        "DIPLOMACY": {
+          "name": "Diplomacy",
+          "node_template": "INIT",
+          "status": "traversable_with_supplied_content"
+        },
+        "ECONOMICS": {
+          "name": "Economics",
+          "node_template": "INIT",
+          "status": "traversable_with_supplied_content"
+        },
+        "HOMELESSNESS": {
+          "name": "Homelessness Governance and Integrity",
+          "node_template": "INIT",
+          "status": "traversable_with_supplied_content"
+        },
+        "INIT": {
+          "name": "Initiating Garden",
+          "node_template": "INIT",
+          "status": "traversable_with_supplied_content"
+        },
+        "LANGUAGE": {
+          "name": "Language Exception",
+          "node_template": "INIT",
+          "status": "traversable_with_supplied_content"
+        },
+        "PRODUCTION": {
+          "name": "Production",
+          "node_template": "INIT",
+          "status": "traversable_with_supplied_content"
+        }
+      }
+    },
+    "packet": {
+      "actor": {
+        "model": "Work-session model identifier not recorded",
+        "name": "Work Aiden",
+        "runtime": "Supervised RC-015 assembly and supplied interpretation"
+      },
+      "arrival": {
+        "from": "reports/all-garden/20261104/inputs/cross-lane.json",
+        "id": "RC015-LANGUAGE-CONTEXT-ARRIVAL",
+        "payload": {
+          "baseline_refs": [
+            "reports/all-garden/20261104/inputs/information.json",
+            "reports/all-garden/20261104/inputs/coordinator.json",
+            "docs/GARDEN_TRAVERSAL.md"
+          ],
+          "inspection_status": "retained_only",
+          "lane_id": "language-context",
+          "return_actor": "Work Aiden",
+          "return_sha256": "de4f51aacce7bbf63c843569239a3ec8303e222b8788268f8ec94ed5dbf3ca3a"
+        },
+        "to": "LANGUAGE:ROOT-0001"
+      },
+      "budget": {
+        "max_branches": 1,
+        "max_events": 10,
+        "max_fanout": 0,
+        "max_steps": 10,
+        "model_calls": 0
+      },
+      "epoch": 1,
+      "focus": "Can date/version and source-language limits be carried without inventing a matched translation test?",
+      "question_id": "Q-MEANING-TRANSLATION-BOSS",
+      "run_id": "RC015-LANGUAGE-CONTEXT",
+      "sources": [
+        {
+          "binding": {
+            "lane_id": "language-context",
+            "path": "reports/all-garden/20261104/inputs/cross-lane.json",
+            "sha256": "4b5a6944485241b31ef39794bb96a122af05b3436037eb292ac6e5c875ac4c31",
+            "source_id": "LANGUAGE-CONTEXT-RETURN-1"
+          },
+          "kind": "context",
+          "lineage_id": "RC015-inputs/information.json",
+          "ref": "LANGUAGE-CONTEXT-RETURN-1"
+        },
+        {
+          "binding": {
+            "lane_id": "language-context",
+            "path": "reports/all-garden/20261104/inputs/cross-lane.json",
+            "sha256": "53e772d67b87ff8fd892a1ee0c248eb8b6abd87bf1da309627a1f6bc4fa6a36f",
+            "source_id": "LANGUAGE-CONTEXT-RETURN-2"
+          },
+          "kind": "context",
+          "lineage_id": "RC015-inputs/coordinator.json",
+          "ref": "LANGUAGE-CONTEXT-RETURN-2"
+        }
+      ],
+      "tree": "LANGUAGE"
+    },
+    "registry": {
+      "questions": {
+        "Q-MEANING-TRANSLATION-BOSS": {
+          "epoch": 1
+        }
+      }
+    }
+  },
+  "schema_version": "garden-traversal-1",
+  "state": {
+    "branches": {
+      "B0": {
+        "epoch": 1,
+        "focus": "Can date/version and source-language limits be carried without inventing a matched translation test?",
+        "id": "B0",
+        "lineage": {
+          "independent_evidence": false,
+          "source_refs": [
+            "LANGUAGE-CONTEXT-RETURN-1",
+            "LANGUAGE-CONTEXT-RETURN-2"
+          ]
+        },
+        "parent_branch": null,
+        "question_id": "Q-MEANING-TRANSLATION-BOSS",
+        "rest": {
+          "kind": "return",
+          "reason": "No new arrival supplied"
+        },
+        "root_branch": "B0",
+        "seen_arrival_ids": [
+          "RC015-LANGUAGE-CONTEXT-ARRIVAL"
+        ],
+        "status": "resting",
+        "visited": [
+          {
+            "payload_hash": "8e8a3f98c4d05be961ed4b8216c1483daf61646f58f9809d84625f203199a2e4",
+            "tree": "LANGUAGE"
+          }
+        ],
+        "visits": [
+          {
+            "arrival": {
+              "from": "reports/all-garden/20261104/inputs/cross-lane.json",
+              "id": "RC015-LANGUAGE-CONTEXT-ARRIVAL",
+              "payload": {
+                "baseline_refs": [
+                  "reports/all-garden/20261104/inputs/information.json",
+                  "reports/all-garden/20261104/inputs/coordinator.json",
+                  "docs/GARDEN_TRAVERSAL.md"
+                ],
+                "inspection_status": "retained_only",
+                "lane_id": "language-context",
+                "return_actor": "Work Aiden",
+                "return_sha256": "de4f51aacce7bbf63c843569239a3ec8303e222b8788268f8ec94ed5dbf3ca3a"
+              },
+              "to": "LANGUAGE:ROOT-0001"
+            },
+            "status": "completed",
+            "steps": [
+              {
+                "actor": {
+                  "model": "Work-session model identifier not recorded",
+                  "name": "Work Aiden",
+                  "runtime": "Supervised RC-015 assembly and supplied interpretation"
+                },
+                "event_id": "RC015-LANGUAGE-CONTEXT-STEP-1",
+                "node": "ROOT",
+                "output": {
+                  "name": "Language and record interpretation"
+                }
+              },
+              {
+                "actor": {
+                  "model": "Work-session model identifier not recorded",
+                  "name": "Work Aiden",
+                  "runtime": "Supervised RC-015 assembly and supplied interpretation"
+                },
+                "event_id": "RC015-LANGUAGE-CONTEXT-STEP-2",
+                "node": "ARRIVAL",
+                "output": {
+                  "arrival": {
+                    "from": "reports/all-garden/20261104/inputs/cross-lane.json",
+                    "id": "RC015-LANGUAGE-CONTEXT-ARRIVAL",
+                    "payload": {
+                      "baseline_refs": [
+                        "reports/all-garden/20261104/inputs/information.json",
+                        "reports/all-garden/20261104/inputs/coordinator.json",
+                        "docs/GARDEN_TRAVERSAL.md"
+                      ],
+                      "inspection_status": "retained_only",
+                      "lane_id": "language-context",
+                      "return_actor": "Work Aiden",
+                      "return_sha256": "de4f51aacce7bbf63c843569239a3ec8303e222b8788268f8ec94ed5dbf3ca3a"
+                    },
+                    "to": "LANGUAGE:ROOT-0001"
+                  },
+                  "language_glance": {
+                    "basis": "unknown",
+                    "issuing_office": "See each pinned source publisher",
+                    "languages": [],
+                    "note": "No matched original/translation inventory supplied by these returns.",
+                    "source_refs": [
+                      "LANGUAGE-CONTEXT-RETURN-1",
+                      "LANGUAGE-CONTEXT-RETURN-2"
+                    ],
+                    "surface_kind": "mixed"
+                  }
+                }
+              },
+              {
+                "actor": {
+                  "model": "Work-session model identifier not recorded",
+                  "name": "Work Aiden",
+                  "runtime": "Supervised RC-015 assembly and supplied interpretation"
+                },
+                "event_id": "RC015-LANGUAGE-CONTEXT-STEP-3",
+                "node": "EPIST",
+                "output": {
+                  "empirical_cutoff": "2026-11-04 America/Los_Angeles",
+                  "inspection_time": "2026-11-07T10:46:07.208340+00:00",
+                  "prompt": "Can date/version and source-language limits be carried without inventing a matched translation test?",
+                  "starting_state": "Retain the dated baseline; inspect one bounded residual."
+                }
+              },
+              {
+                "actor": {
+                  "model": "Work-session model identifier not recorded",
+                  "name": "Work Aiden",
+                  "runtime": "Supervised RC-015 assembly and supplied interpretation"
+                },
+                "event_id": "RC015-LANGUAGE-CONTEXT-STEP-4",
+                "node": "FUNC",
+                "output": {
+                  "findings": [
+                    {
+                      "basis": "Review of retained return contents, not independent empirical validation.",
+                      "claim": "The CSIS date conflict and CARE form-version/access gap survive the handoff. No matched multilingual comparison or language-based operator attribution was performed.",
+                      "epistemic_status": "DOCUMENTED",
+                      "evidence_refs": [
+                        "LANGUAGE-CONTEXT-RETURN-1",
+                        "LANGUAGE-CONTEXT-RETURN-2"
+                      ],
+                      "finding_id": "LANGUAGE-CONTEXT-01",
+                      "is_new_event": false
+                    }
+                  ],
+                  "function": "Inspect evidence, outcome and access separately.",
+                  "inspection_status": "retained_only",
+                  "research_actor": "Work Aiden",
+                  "task": "Can date/version and source-language limits be carried without inventing a matched translation test?"
+                }
+              },
+              {
+                "actor": {
+                  "model": "Work-session model identifier not recorded",
+                  "name": "Work Aiden",
+                  "runtime": "Supervised RC-015 assembly and supplied interpretation"
+                },
+                "event_id": "RC015-LANGUAGE-CONTEXT-STEP-5",
+                "node": "MIRROR",
+                "output": {
+                  "comparisons": [
+                    {
+                      "answers": [],
+                      "explanation": "Different institutions may make consistent statements without independently verifying outcomes; inconsistent dates may reflect ordinary errors.",
+                      "queries": []
+                    }
+                  ],
+                  "information_lineage": {
+                    "api_record_refs": [],
+                    "criteria_refs": [
+                      "reports/all-garden/20261104/RETURN_CONTRACT.json"
+                    ],
+                    "parent_answer_visible": true,
+                    "parent_output_refs": [
+                      "reports/all-garden/20261104/inputs/information.json",
+                      "reports/all-garden/20261104/inputs/coordinator.json",
+                      "docs/GARDEN_TRAVERSAL.md"
+                    ],
+                    "source_refs": [
+                      "LANGUAGE-CONTEXT-RETURN-1",
+                      "LANGUAGE-CONTEXT-RETURN-2"
+                    ],
+                    "test_origin": "inherited"
+                  },
+                  "working_buffers": [
+                    "Explicit attribution, shared references, review and human correction preserve competing explanations."
+                  ]
+                }
+              },
+              {
+                "actor": {
+                  "model": "Work-session model identifier not recorded",
+                  "name": "Work Aiden",
+                  "runtime": "Supervised RC-015 assembly and supplied interpretation"
+                },
+                "event_id": "RC015-LANGUAGE-CONTEXT-STEP-6",
+                "node": "CROSS",
+                "output": {
+                  "bridge": [
+                    {
+                      "question": "If a consequential translation difference is proposed, inspect one matched official original/translation pair plus an ordinary control.",
+                      "source_refs": [
+                        "LANGUAGE-CONTEXT-RETURN-1",
+                        "LANGUAGE-CONTEXT-RETURN-2"
+                      ],
+                      "status": "proposed_only"
+                    }
+                  ],
+                  "independent": [],
+                  "inherited": [
+                    {
+                      "ref": "LANGUAGE-CONTEXT-RETURN-1"
+                    },
+                    {
+                      "ref": "LANGUAGE-CONTEXT-RETURN-2"
+                    }
+                  ]
+                }
+              },
+              {
+                "actor": {
+                  "model": "Work-session model identifier not recorded",
+                  "name": "Work Aiden",
+                  "runtime": "Supervised RC-015 assembly and supplied interpretation"
+                },
+                "event_id": "RC015-LANGUAGE-CONTEXT-STEP-7",
+                "node": "RESID",
+                "output": {
+                  "next_test": "If a consequential translation difference is proposed, inspect one matched official original/translation pair plus an ordinary control.",
+                  "predicates": {
+                    "consequential": true,
+                    "distinct_functions": false,
+                    "language_exception": null
+                  },
+                  "summary": "Empirical residuals remain with their originating lanes."
+                }
+              },
+              {
+                "actor": {
+                  "model": "Work-session model identifier not recorded",
+                  "name": "Work Aiden",
+                  "runtime": "Supervised RC-015 assembly and supplied interpretation"
+                },
+                "event_id": "RC015-LANGUAGE-CONTEXT-STEP-8",
+                "node": "MEAN",
+                "output": {
+                  "authorship_limits": "Work-supplied cross-lane projection reuses specialist material and does not count as independent corroboration.",
+                  "summary": "Read the attributed findings with their contrary evidence and residuals."
+                }
+              },
+              {
+                "actor": {
+                  "model": "Work-session model identifier not recorded",
+                  "name": "Work Aiden",
+                  "runtime": "Supervised RC-015 assembly and supplied interpretation"
+                },
+                "event_id": "RC015-LANGUAGE-CONTEXT-STEP-9",
+                "node": "EXIT",
+                "output": {
+                  "kind": "question",
+                  "summary": "If a consequential translation difference is proposed, inspect one matched official original/translation pair plus an ordinary control."
+                }
+              },
+              {
+                "actor": {
+                  "model": "Work-session model identifier not recorded",
+                  "name": "Work Aiden",
+                  "runtime": "Supervised RC-015 assembly and supplied interpretation"
+                },
+                "event_id": "RC015-LANGUAGE-CONTEXT-STEP-10",
+                "node": "RETURN",
+                "output": {
+                  "new_arrival": null,
+                  "reason": "One cross-lane inspection completed; no additional collection or authority activated."
+                }
+              }
+            ],
+            "tree": "LANGUAGE"
+          }
+        ]
+      }
+    },
+    "epoch": 1,
+    "limits": {
+      "max_branches": 1,
+      "max_events": 10,
+      "max_fanout": 0,
+      "max_steps": 10,
+      "model_calls": 0
+    },
+    "question_id": "Q-MEANING-TRANSLATION-BOSS",
+    "revision": 10,
+    "route_decisions": [],
+    "route_signatures": [],
+    "run_id": "RC015-LANGUAGE-CONTEXT",
+    "sources": {
+      "LANGUAGE-CONTEXT-RETURN-1": {
+        "binding": {
+          "lane_id": "language-context",
+          "path": "reports/all-garden/20261104/inputs/cross-lane.json",
+          "sha256": "4b5a6944485241b31ef39794bb96a122af05b3436037eb292ac6e5c875ac4c31",
+          "source_id": "LANGUAGE-CONTEXT-RETURN-1"
+        },
+        "kind": "context",
+        "lineage_id": "RC015-inputs/information.json",
+        "ref": "LANGUAGE-CONTEXT-RETURN-1"
+      },
+      "LANGUAGE-CONTEXT-RETURN-2": {
+        "binding": {
+          "lane_id": "language-context",
+          "path": "reports/all-garden/20261104/inputs/cross-lane.json",
+          "sha256": "53e772d67b87ff8fd892a1ee0c248eb8b6abd87bf1da309627a1f6bc4fa6a36f",
+          "source_id": "LANGUAGE-CONTEXT-RETURN-2"
+        },
+        "kind": "context",
+        "lineage_id": "RC015-inputs/coordinator.json",
+        "ref": "LANGUAGE-CONTEXT-RETURN-2"
+      }
+    },
+    "used": {
+      "branches": 1,
+      "model_calls": 0,
+      "steps": 10
+    }
+  },
+  "state_sha256": "1525b408a4d60c8fa5d2ec8fdcfe6fe0d72071b00a05effd374fb00c592c59b6"
+}

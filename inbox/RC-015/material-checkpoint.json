@@ -1,0 +1,19 @@
+{
+  "cycle_id": "RC-015",
+  "actor": "cycle15_material",
+  "status": "checkpoint",
+  "checked_at": "2026-11-05T04:15:30.277230+00:00",
+  "scope": [
+    "energy-diesel",
+    "freight-carriers",
+    "food-fertilizer-reserves"
+  ],
+  "bounds": {
+    "max_search_queries": 4,
+    "max_document_opens": 6,
+    "provider_calls": 0,
+    "outreach": false,
+    "canonical_admission": false
+  },
+  "progress": "Initial checkpoint before source inspection; no findings yet."
+}

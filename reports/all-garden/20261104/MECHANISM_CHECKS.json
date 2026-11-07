@@ -1,0 +1,147 @@
+{
+  "version": "rc015-mechanism-verification-1",
+  "kind": "retained_artifact_integrity_replay_not_new_empirical_evidence",
+  "results": [
+    {
+      "command": [
+        "python",
+        "scripts/continuity.py",
+        "check"
+      ],
+      "started_at": "2026-11-07T10:42:35.158630+00:00",
+      "finished_at": "2026-11-07T10:42:35.330540+00:00",
+      "exit_code": 0,
+      "log_path": "reports/all-garden/20261104/validation/check-01.txt",
+      "log_sha256": "9dc202797fa832928ef906ec8f39095797b3eb35b4e48ee5c680fac2b90b0fdc"
+    },
+    {
+      "command": [
+        "python",
+        "examples/garden-case-studies/camp-east-montana/replay.py",
+        "--check"
+      ],
+      "started_at": "2026-11-07T10:42:35.159012+00:00",
+      "finished_at": "2026-11-07T10:42:35.356942+00:00",
+      "exit_code": 0,
+      "log_path": "reports/all-garden/20261104/validation/check-02.txt",
+      "log_sha256": "0a133ea028a77b41a73f59463b35b5de4ffa277ab548fb31cf1143fb0e7aa51c"
+    },
+    {
+      "command": [
+        "python",
+        "scripts/safeguards.py",
+        "check"
+      ],
+      "started_at": "2026-11-07T10:42:35.159154+00:00",
+      "finished_at": "2026-11-07T10:42:35.391920+00:00",
+      "exit_code": 0,
+      "log_path": "reports/all-garden/20261104/validation/check-03.txt",
+      "log_sha256": "4e661bef0e49274f38bb27708099ae93dc079abac019ce9df2ccbe0e67d257af"
+    },
+    {
+      "command": [
+        "python",
+        "scripts/evidence_arrival.py",
+        "check"
+      ],
+      "started_at": "2026-11-07T10:42:35.159310+00:00",
+      "finished_at": "2026-11-07T10:42:35.346925+00:00",
+      "exit_code": 0,
+      "log_path": "reports/all-garden/20261104/validation/check-04.txt",
+      "log_sha256": "854ed751a2c6cdcd3872ec08f709e3063b0197f1fa7b6baddae9cc092f7bb923"
+    },
+    {
+      "command": [
+        "python",
+        "scripts/relays.py",
+        "check"
+      ],
+      "started_at": "2026-11-07T10:42:35.330834+00:00",
+      "finished_at": "2026-11-07T10:42:35.538369+00:00",
+      "exit_code": 0,
+      "log_path": "reports/all-garden/20261104/validation/check-05.txt",
+      "log_sha256": "e5d135423f7131bef11d62c1a0f8f90293eea5933dd266859c02a23ebd2e40c2"
+    },
+    {
+      "command": [
+        "python",
+        "scripts/shelter_accountability.py",
+        "check"
+      ],
+      "started_at": "2026-11-07T10:42:35.347032+00:00",
+      "finished_at": "2026-11-07T10:42:35.468661+00:00",
+      "exit_code": 0,
+      "log_path": "reports/all-garden/20261104/validation/check-06.txt",
+      "log_sha256": "19c7a5fff2cc8e00d23c80b6902107122753c154fe202c3932e722555976d36f"
+    },
+    {
+      "command": [
+        "python",
+        "scripts/campus_motel.py",
+        "check"
+      ],
+      "started_at": "2026-11-07T10:42:35.357051+00:00",
+      "finished_at": "2026-11-07T10:42:35.505160+00:00",
+      "exit_code": 0,
+      "log_path": "reports/all-garden/20261104/validation/check-07.txt",
+      "log_sha256": "ba2b82623ae1be33d80b14be13a575d85686c48656f4ddae35ae3fa4f6197470"
+    },
+    {
+      "command": [
+        "python",
+        "scripts/community_capacity.py",
+        "check"
+      ],
+      "started_at": "2026-11-07T10:42:35.392040+00:00",
+      "finished_at": "2026-11-07T10:42:35.549446+00:00",
+      "exit_code": 0,
+      "log_path": "reports/all-garden/20261104/validation/check-08.txt",
+      "log_sha256": "aefd4de498deba80d9aabd9cf11bc4b56aa8752d3ff065008535593fd4efdcd0"
+    },
+    {
+      "command": [
+        "python",
+        "reports/information-integrity/20261028/verify_packet.py"
+      ],
+      "started_at": "2026-11-07T10:42:35.468764+00:00",
+      "finished_at": "2026-11-07T10:42:35.626295+00:00",
+      "exit_code": 0,
+      "log_path": "reports/all-garden/20261104/validation/check-09.txt",
+      "log_sha256": "4268aac382d6a5ac55e28d612b3fdbd979a779ef82fd8313c3772eac533aac5b"
+    },
+    {
+      "command": [
+        "python",
+        "reports/care-autonomy/20261104/verify_packet.py"
+      ],
+      "started_at": "2026-11-07T10:42:35.505263+00:00",
+      "finished_at": "2026-11-07T10:42:35.813757+00:00",
+      "exit_code": 0,
+      "log_path": "reports/all-garden/20261104/validation/check-10.txt",
+      "log_sha256": "c43be3ee6df227380a0fb6479d55bbcd3ec014c4709ddaa81e0f440c75a882c6"
+    },
+    {
+      "command": [
+        "node",
+        "tests/test_boss_ui.js"
+      ],
+      "started_at": "2026-11-07T10:42:35.538532+00:00",
+      "finished_at": "2026-11-07T10:42:35.682027+00:00",
+      "exit_code": 0,
+      "log_path": "reports/all-garden/20261104/validation/check-11.txt",
+      "log_sha256": "a85ccb07295fd97084befdcb916c3a86b3a63854a47f223108f9b05402905669"
+    },
+    {
+      "command": [
+        "node",
+        "tests/test_community_capacity_ui.js"
+      ],
+      "started_at": "2026-11-07T10:42:35.549582+00:00",
+      "finished_at": "2026-11-07T10:42:35.689049+00:00",
+      "exit_code": 0,
+      "log_path": "reports/all-garden/20261104/validation/check-12.txt",
+      "log_sha256": "552603c1c76a1dae1b40e9329ad0236f8d63b6819e3e1894ea7b49a971920e75"
+    }
+  ],
+  "passed": true
+}

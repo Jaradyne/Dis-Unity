@@ -1,0 +1,17 @@
+{
+  "cycle_id": "RC-015",
+  "actor": "cycle15_institutions",
+  "status": "initial_checkpoint",
+  "checked_at": "2026-11-05T04:14:55.202138+00:00",
+  "scope": [
+    "military-conscience",
+    "ice-detention"
+  ],
+  "bounds": {
+    "search_queries": 3,
+    "document_opens": 5,
+    "canonical_admission": false,
+    "outreach": false,
+    "provider_calls": 0
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "branches": [
+    "B0"
+  ],
+  "meaning": "Supplied traversal and routing; no new evidence, model dispatch or Governor review.",
+  "record_ref": "operations/garden/runs/RC015-FOOD-FERTILIZER-RESERVES.json",
+  "record_sha256": "43dff8154c2f12475fcfc667269c0904271d517a7208b5fc91a6dce47282bad1",
+  "run_id": "RC015-FOOD-FERTILIZER-RESERVES",
+  "schema_version": "digestion-garden-materials-1",
+  "state_sha256": "fda95bc6c0a90aa871da42087ae4aa7371115852248bb75357710d9ad9a94377",
+  "status": "available_for_digestion"
+}

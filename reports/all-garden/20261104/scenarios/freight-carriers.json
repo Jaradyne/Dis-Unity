@@ -1,0 +1,323 @@
+{
+  "commands": [
+    {
+      "actor": {
+        "model": "Work-session model identifier not recorded",
+        "name": "Work Aiden",
+        "runtime": "Supervised RC-015 assembly and supplied interpretation"
+      },
+      "branch_id": "B0",
+      "event_id": "RC015-FREIGHT-CARRIERS-STEP-1",
+      "expected_revision": 0,
+      "kind": "step",
+      "node": "ROOT",
+      "output": {
+        "name": "Carrier function and demonstrated electric freight"
+      }
+    },
+    {
+      "actor": {
+        "model": "Work-session model identifier not recorded",
+        "name": "Work Aiden",
+        "runtime": "Supervised RC-015 assembly and supplied interpretation"
+      },
+      "branch_id": "B0",
+      "event_id": "RC015-FREIGHT-CARRIERS-STEP-2",
+      "expected_revision": 1,
+      "kind": "step",
+      "node": "ARRIVAL",
+      "output": {
+        "arrival": {
+          "from": "reports/all-garden/20261104/inputs/material.json",
+          "id": "RC015-FREIGHT-CARRIERS-ARRIVAL",
+          "payload": {
+            "baseline_refs": [
+              "handoffs/chat_aiden/2026-09-23_week-one-meaning-web-launch_7d/CARRIER_LIFELINE_BEE.md",
+              "reports/RC-004/RAIL_TRANSITION.md",
+              "handoffs/week_one_governor/2026-09-25.json",
+              "docs/RELAY_CONTINUITY.md"
+            ],
+            "inspection_status": "inconclusive",
+            "lane_id": "freight-carriers",
+            "return_actor": "cycle15_material_recovery",
+            "return_sha256": "e4db587a9ffeaa77b9760ebceabb068861353059c8b983f4b725fb2c078949d8"
+          },
+          "to": "PRODUCTION:ROOT-0001"
+        },
+        "language_glance": {
+          "basis": "unknown",
+          "issuing_office": "See each pinned source publisher",
+          "languages": [],
+          "note": "No matched original/translation inventory supplied by these returns.",
+          "source_refs": [
+            "RC15-CCS-NBOS-INTERVIEW"
+          ],
+          "surface_kind": "mixed"
+        }
+      }
+    },
+    {
+      "actor": {
+        "model": "Work-session model identifier not recorded",
+        "name": "Work Aiden",
+        "runtime": "Supervised RC-015 assembly and supplied interpretation"
+      },
+      "branch_id": "B0",
+      "event_id": "RC015-FREIGHT-CARRIERS-STEP-3",
+      "expected_revision": 2,
+      "kind": "step",
+      "node": "EPIST",
+      "output": {
+        "empirical_cutoff": "2026-11-04 America/Los_Angeles",
+        "inspection_time": "2026-11-07T10:43:02.949044+00:00",
+        "prompt": "Which local diesel function can be replaced with demonstrated reliable service?",
+        "starting_state": "Retain the dated baseline; inspect one bounded residual."
+      }
+    },
+    {
+      "actor": {
+        "model": "Work-session model identifier not recorded",
+        "name": "Work Aiden",
+        "runtime": "Supervised RC-015 assembly and supplied interpretation"
+      },
+      "branch_id": "B0",
+      "event_id": "RC015-FREIGHT-CARRIERS-STEP-4",
+      "expected_revision": 3,
+      "kind": "step",
+      "node": "FUNC",
+      "output": {
+        "findings": [
+          {
+            "basis": "Attributed public-source statement; not independent field verification",
+            "claim": "A newly inspected July operator interview reports an April commercial launch for Dian Kun; it is historical service-start evidence attributed to the source, not measured dependable service or a local replacement.",
+            "epistemic_status": "DOCUMENTED",
+            "evidence_refs": [
+              "RC15-CCS-NBOS-INTERVIEW"
+            ],
+            "finding_id": "RC15-FREIGHT-01",
+            "is_new_event": false
+          },
+          {
+            "basis": "The bounded source lacks a matched scheduled/completed-service series; no local transfer feasibility was measured.",
+            "claim": "Regular fulfilled voyages, charging availability, failure recovery, spare capacity and an essential local route that could use this substitution remain UNKNOWN.",
+            "epistemic_status": "UNKNOWN",
+            "evidence_refs": [
+              "RC15-CCS-NBOS-INTERVIEW"
+            ],
+            "finding_id": "RC15-FREIGHT-02",
+            "is_new_event": false
+          }
+        ],
+        "function": "Inspect evidence, outcome and access separately.",
+        "inspection_status": "inconclusive",
+        "research_actor": "cycle15_material_recovery",
+        "task": "Which local diesel function can be replaced with demonstrated reliable service?"
+      }
+    },
+    {
+      "actor": {
+        "model": "Work-session model identifier not recorded",
+        "name": "Work Aiden",
+        "runtime": "Supervised RC-015 assembly and supplied interpretation"
+      },
+      "branch_id": "B0",
+      "event_id": "RC015-FREIGHT-CARRIERS-STEP-5",
+      "expected_revision": 4,
+      "kind": "step",
+      "node": "MIRROR",
+      "output": {
+        "comparisons": [
+          {
+            "answers": [],
+            "explanation": "A reported commercial start is stronger than a construction plan, but still cannot establish sustained reliability.",
+            "queries": []
+          },
+          {
+            "answers": [],
+            "explanation": "Caltrain remains a retained historical passenger-service benchmark; it does not establish available electric freight paths or eliminate continuing diesel freight.",
+            "queries": []
+          }
+        ],
+        "information_lineage": {
+          "api_record_refs": [],
+          "criteria_refs": [
+            "reports/all-garden/20261104/RETURN_CONTRACT.json"
+          ],
+          "parent_answer_visible": true,
+          "parent_output_refs": [
+            "handoffs/chat_aiden/2026-09-23_week-one-meaning-web-launch_7d/CARRIER_LIFELINE_BEE.md",
+            "reports/RC-004/RAIL_TRANSITION.md",
+            "handoffs/week_one_governor/2026-09-25.json",
+            "docs/RELAY_CONTINUITY.md"
+          ],
+          "source_refs": [
+            "RC15-CCS-NBOS-INTERVIEW"
+          ],
+          "test_origin": "inherited"
+        },
+        "working_buffers": [
+          "Charging plus swapping are design-level alternatives in retained electric-vessel records; actual backup capacity is not counted.",
+          "Carrier Lifeline preserves consolidation, compatible rail/transload and successor operations as proposals requiring route evidence and willing capacity."
+        ]
+      }
+    },
+    {
+      "actor": {
+        "model": "Work-session model identifier not recorded",
+        "name": "Work Aiden",
+        "runtime": "Supervised RC-015 assembly and supplied interpretation"
+      },
+      "branch_id": "B0",
+      "event_id": "RC015-FREIGHT-CARRIERS-STEP-6",
+      "expected_revision": 5,
+      "kind": "step",
+      "node": "CROSS",
+      "output": {
+        "bridge": [
+          {
+            "question": "Inspect one dated operator or port record for the named vessel that pairs scheduled/completed loaded voyages with charging delays and backup use over a defined period.",
+            "source_refs": [
+              "RC15-CCS-NBOS-INTERVIEW"
+            ],
+            "status": "proposed_only"
+          }
+        ],
+        "independent": [],
+        "inherited": [
+          {
+            "ref": "RC15-CCS-NBOS-INTERVIEW"
+          }
+        ]
+      }
+    },
+    {
+      "actor": {
+        "model": "Work-session model identifier not recorded",
+        "name": "Work Aiden",
+        "runtime": "Supervised RC-015 assembly and supplied interpretation"
+      },
+      "branch_id": "B0",
+      "event_id": "RC015-FREIGHT-CARRIERS-STEP-7",
+      "expected_revision": 6,
+      "kind": "step",
+      "node": "RESID",
+      "output": {
+        "next_test": "Inspect one dated operator or port record for the named vessel that pairs scheduled/completed loaded voyages with charging delays and backup use over a defined period.",
+        "predicates": {
+          "consequential": true,
+          "distinct_functions": false,
+          "language_exception": null
+        },
+        "summary": "Actual duty-cycle performance for the original Dian Peng case; transferable route/terminal compatibility and usable reserve. Whether any carrier interruption arose from fuel, finance, staffing, equipment, insurance or route-volume constraints."
+      }
+    },
+    {
+      "actor": {
+        "model": "Work-session model identifier not recorded",
+        "name": "Work Aiden",
+        "runtime": "Supervised RC-015 assembly and supplied interpretation"
+      },
+      "branch_id": "B0",
+      "event_id": "RC015-FREIGHT-CARRIERS-STEP-8",
+      "expected_revision": 7,
+      "kind": "step",
+      "node": "MEAN",
+      "output": {
+        "authorship_limits": "Public-source review only, with incomplete direct access. No independent voyage measurement or engineering assessment.",
+        "summary": "Read the attributed findings with their contrary evidence and residuals."
+      }
+    },
+    {
+      "actor": {
+        "model": "Work-session model identifier not recorded",
+        "name": "Work Aiden",
+        "runtime": "Supervised RC-015 assembly and supplied interpretation"
+      },
+      "branch_id": "B0",
+      "event_id": "RC015-FREIGHT-CARRIERS-STEP-9",
+      "expected_revision": 8,
+      "kind": "step",
+      "node": "EXIT",
+      "output": {
+        "kind": "question",
+        "summary": "Inspect one dated operator or port record for the named vessel that pairs scheduled/completed loaded voyages with charging delays and backup use over a defined period."
+      }
+    },
+    {
+      "actor": {
+        "model": "Work-session model identifier not recorded",
+        "name": "Work Aiden",
+        "runtime": "Supervised RC-015 assembly and supplied interpretation"
+      },
+      "branch_id": "B0",
+      "event_id": "RC015-FREIGHT-CARRIERS-STEP-10",
+      "expected_revision": 9,
+      "kind": "step",
+      "node": "RETURN",
+      "output": {
+        "new_arrival": null,
+        "reason": "One relevant primary-publisher interview inspected; service-start claim retained with index-access limits and no unverified performance promotion."
+      }
+    }
+  ],
+  "question_snapshot": {
+    "questions": {
+      "Q-RESEARCH-Q18": {
+        "epoch": 1
+      }
+    }
+  },
+  "record_base_url": "https://github.com/Jaradyne/Dis-Unity/blob/main/reports/all-garden/20261104/worked/",
+  "recorded_at": "2026-11-07T10:46:07.208340+00:00",
+  "recorded_at_meaning": "Actual supervised assembly time, reused deterministically; not an origin fetch time or time of the historical events.",
+  "schema_version": "garden-scenario-1",
+  "start": {
+    "actor": {
+      "model": "Work-session model identifier not recorded",
+      "name": "Work Aiden",
+      "runtime": "Supervised RC-015 assembly and supplied interpretation"
+    },
+    "arrival": {
+      "from": "reports/all-garden/20261104/inputs/material.json",
+      "id": "RC015-FREIGHT-CARRIERS-ARRIVAL",
+      "payload": {
+        "baseline_refs": [
+          "handoffs/chat_aiden/2026-09-23_week-one-meaning-web-launch_7d/CARRIER_LIFELINE_BEE.md",
+          "reports/RC-004/RAIL_TRANSITION.md",
+          "handoffs/week_one_governor/2026-09-25.json",
+          "docs/RELAY_CONTINUITY.md"
+        ],
+        "inspection_status": "inconclusive",
+        "lane_id": "freight-carriers",
+        "return_actor": "cycle15_material_recovery",
+        "return_sha256": "e4db587a9ffeaa77b9760ebceabb068861353059c8b983f4b725fb2c078949d8"
+      },
+      "to": "PRODUCTION:ROOT-0001"
+    },
+    "budget": {
+      "max_branches": 1,
+      "max_events": 10,
+      "max_fanout": 0,
+      "max_steps": 10,
+      "model_calls": 0
+    },
+    "epoch": 1,
+    "focus": "Which local diesel function can be replaced with demonstrated reliable service?",
+    "question_id": "Q-RESEARCH-Q18",
+    "run_id": "RC015-FREIGHT-CARRIERS",
+    "sources": [
+      {
+        "binding": {
+          "lane_id": "freight-carriers",
+          "path": "reports/all-garden/20261104/inputs/material.json",
+          "sha256": "e4c45eb3e272e17786e24232d1a9b1b9c5f15cff981501b6f66ade6caa0165c7",
+          "source_id": "RC15-CCS-NBOS-INTERVIEW"
+        },
+        "kind": "public_source",
+        "lineage_id": "NBOS-NINGYUAN-ELECTRIC-2026",
+        "ref": "RC15-CCS-NBOS-INTERVIEW"
+      }
+    ],
+    "tree": "PRODUCTION"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "agent": "cycle15-information",
+  "at": "2026-11-07T16:31:20.948800+00:00",
+  "base_hash": "16d04f8bb35a588caca60517f90a11944cfbafac7951402d059a6d6131de97b7",
+  "cycle_id": "RC-015",
+  "payload": {
+    "actor": "cycle15_information",
+    "checked_at": "2026-11-05T04:15:40.979382+00:00",
+    "cycle_id": "RC-015",
+    "limits": {
+      "attribution": false,
+      "canonical_admission": false,
+      "monitoring": false,
+      "opens": 3,
+      "search_queries": 2
+    },
+    "scope": [
+      "information-integrity bounded public source recheck",
+      "psa retained-only editorial check"
+    ],
+    "status": "checkpoint"
+  },
+  "payload_hash": "993b4a1a85e1baae90fd61545d966f8ca011f3cd7668b68bfbf9c5ba7b1df7ce",
+  "phase": "submitted",
+  "submission_id": "a7e5cc22e724bb27eb4211fe8102015b5c5e3bc40df16de92a2eed79d9f318a6"
+}

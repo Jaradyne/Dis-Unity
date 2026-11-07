@@ -1,0 +1,344 @@
+{
+  "version": "all-garden-return-1",
+  "actor": "cycle15_material_recovery",
+  "cycle_id": "RC-015",
+  "checked_at": "2026-11-07T10:43:02.949044+00:00",
+  "checked_date_local": "2026-11-07",
+  "timezone": "America/Los_Angeles",
+  "source_cutoff": "2026-11-04",
+  "date_policy": "Original cutoff retained; resumed inspections occur November7. Newly found dated observations/publications no later than November4 are retained; historical April and Q3 observations are not November7 events. Undated dynamic surfaces are discovery/access observations only.",
+  "recovery_of": "inbox/RC-015/material-checkpoint.json",
+  "lanes": [
+    {
+      "lane_id": "energy-diesel",
+      "title": "Diesel cost and essential delivery",
+      "question_id": "Q-RESEARCH-Q01",
+      "epoch": 2,
+      "tree_id": "ECONOMICS",
+      "baseline_refs": [
+        "reports/diesel/20261102/README.md",
+        "reports/diesel/20261104-operator-followup/README.md",
+        "reports/diesel/20261102/prices.json"
+      ],
+      "question": "Are fuel costs becoming actual missed essential deliveries?",
+      "inspection_status": "inconclusive",
+      "sources": [
+        {
+          "source_id": "RC15-ACCFB-PUBLICATIONS",
+          "title": "Food Bank Publications",
+          "url": "https://www.accfb.org/about-us/news-publications/publications/",
+          "publisher": "Alameda County Community Food Bank",
+          "source_family": "ACCFB-PUBLICATIONS",
+          "publication_date": null,
+          "observation_date": null,
+          "retrieved_at": "2026-11-07T10:43:02.949044+00:00",
+          "access_mode": "web_tool_extraction",
+          "access_result": "Text available through retrieval tool; no raw HTTP material retained",
+          "raw_receipt_path": null,
+          "tool_refs": [
+            "turn136search0",
+            "turn137view0"
+          ],
+          "summary": "The publication index links an October 2026 newsletter and annual reports. Its displayed page timestamp is October 20, 2026.",
+          "limitations": [
+            "A page timestamp is not the effective date of every linked statement. No dispatch denominator, fuel invoice or missed-delivery cause was established."
+          ],
+          "displayed_page_timestamp": "2026-10-20T21:59:11+00:00"
+        },
+        {
+          "source_id": "RC15-ACCFB-OCT-LINK",
+          "title": "October 2026 linked newsletter; returned title says July at ACCFB",
+          "url": "https://www.accfb.org/wp-content/uploads/2026/10/e-News-OCT-2026.html",
+          "publisher": "Alameda County Community Food Bank",
+          "source_family": "ACCFB-PUBLICATIONS",
+          "publication_date": null,
+          "observation_date": null,
+          "retrieved_at": "2026-11-07T10:43:02.949044+00:00",
+          "access_mode": "web_tool_extraction",
+          "access_result": "41-line extracted surface; no qualifying weekly dispatch-and-cost packet recovered",
+          "raw_receipt_path": null,
+          "tool_refs": [
+            "turn138view2",
+            "turn141view0"
+          ],
+          "summary": "Following the October index link returned a 41-line extraction whose title refers to July. A text search found no occurrence of fuel.",
+          "limitations": [
+            "The conflicting month labels were not resolved. Limited extraction may omit image or embedded content. A missing search term is not evidence of no delivery problem, no published records, or no corrective action."
+          ]
+        }
+      ],
+      "findings": [
+        {
+          "finding_id": "RC15-DIESEL-01",
+          "claim": "The bounded ACCFB publication check did not recover a matched weekly delivery-and-fuel-cost record; essential-delivery failure and protection remain UNKNOWN.",
+          "evidence_refs": [
+            "RC15-ACCFB-PUBLICATIONS",
+            "RC15-ACCFB-OCT-LINK"
+          ],
+          "epistemic_status": "UNKNOWN",
+          "is_new_event": false,
+          "basis": "Inspection limitation, not a finding about the presence or absence of real-world failures."
+        },
+        {
+          "finding_id": "RC15-DIESEL-02",
+          "claim": "The earlier EIA price observations and ACCFB procedure/budget statements remain dated context; this recheck adds no operator cost-to-service causal finding.",
+          "evidence_refs": [
+            "reports/diesel/20261102/README.md",
+            "reports/diesel/20261104-operator-followup/README.md"
+          ],
+          "epistemic_status": "DOCUMENTED",
+          "is_new_event": false,
+          "basis": "Reused repository baseline, not a fresh EIA observation."
+        }
+      ],
+      "counterevidence": [
+        "Retained ACCFB guidance offers donor drop-off and prioritizes partner distributions; it does not say all food-drive pickups stopped.",
+        "Staffing, vehicles, route design, demand and other costs remain competing explanations for any future documented constraint."
+      ],
+      "unknowns": [
+        "Planned and completed deliveries for a matched week; reasons for misses, actual fuel quantity/expense, and operational reserve.",
+        "Whether published alternatives were usable and protected service in the relevant week."
+      ],
+      "working_buffers": [
+        "Retained prioritization, donor drop-off and budget adjustment are possible adaptations, with actual capacity and outcomes unverified."
+      ],
+      "next_test": "Inspect one dated public or voluntarily supplied weekly operator packet joining planned/completed deliveries, reasons for misses, fuel quantities/expense and any used buffer; no contact was made.",
+      "stop_reason": "One publication index and its October newsletter link checked within the shared budget; no qualifying record recovered.",
+      "authorship_limits": "Recovery specialist reviewed public extraction and retained reports. No site observation, invoices, private data or independent operational audit."
+    },
+    {
+      "lane_id": "freight-carriers",
+      "title": "Carrier function and demonstrated electric freight",
+      "question_id": "Q-RESEARCH-Q18",
+      "epoch": 1,
+      "tree_id": "PRODUCTION",
+      "baseline_refs": [
+        "handoffs/chat_aiden/2026-09-23_week-one-meaning-web-launch_7d/CARRIER_LIFELINE_BEE.md",
+        "reports/RC-004/RAIL_TRANSITION.md",
+        "handoffs/week_one_governor/2026-09-25.json",
+        "docs/RELAY_CONTINUITY.md"
+      ],
+      "question": "Which local diesel function can be replaced with demonstrated reliable service?",
+      "inspection_status": "inconclusive",
+      "sources": [
+        {
+          "source_id": "RC15-CCS-NBOS-INTERVIEW",
+          "title": "Electrifying Shipping, Navigating the Future with Intelligence",
+          "url": "https://www.ccs.org.cn/ccswzen//articleDetail?columnId=201920000000000029&id=202607140262574384",
+          "publisher": "China Classification Society; interview attributed to Ningbo Ocean Shipping deputy general manager",
+          "source_family": "NBOS-NINGYUAN-ELECTRIC-2026",
+          "publication_date": "2026-07-14",
+          "observation_date": "2026-04-15",
+          "retrieved_at": "2026-11-07T10:43:02.949044+00:00",
+          "access_mode": "search_index",
+          "access_result": "Indexed substantive passage available; direct page partially surfaced, later section reads timed out",
+          "raw_receipt_path": null,
+          "tool_refs": [
+            "turn136search3",
+            "turn137view1",
+            "turn138view3",
+            "turn141view1"
+          ],
+          "summary": "Indexed interview text reports Ning Yuan Dian Kun began commercial service from Ningbo-Zhoushan to Jiaxing on April 15. It describes a planned paired operation with sister vessel Ning Yuan Dian Peng.",
+          "limitations": [
+            "The direct open returned a page/navigation extract; two later section lookups timed out. The substantive retained passage is indexed text. No voyage logs, delivered cargo denominator, reliability series or measured energy use inspected.",
+            "Dian Kun and Dian Peng are different vessels; this is not proof that the previously followed Dian Peng completed regular service.",
+            "The publisher and interviewed operator do not constitute independent observations of the same voyage."
+          ]
+        }
+      ],
+      "findings": [
+        {
+          "finding_id": "RC15-FREIGHT-01",
+          "claim": "A newly inspected July operator interview reports an April commercial launch for Dian Kun; it is historical service-start evidence attributed to the source, not measured dependable service or a local replacement.",
+          "evidence_refs": [
+            "RC15-CCS-NBOS-INTERVIEW"
+          ],
+          "epistemic_status": "DOCUMENTED",
+          "is_new_event": false,
+          "basis": "Attributed public-source statement; not independent field verification"
+        },
+        {
+          "finding_id": "RC15-FREIGHT-02",
+          "claim": "Regular fulfilled voyages, charging availability, failure recovery, spare capacity and an essential local route that could use this substitution remain UNKNOWN.",
+          "evidence_refs": [
+            "RC15-CCS-NBOS-INTERVIEW"
+          ],
+          "epistemic_status": "UNKNOWN",
+          "is_new_event": false,
+          "basis": "The bounded source lacks a matched scheduled/completed-service series; no local transfer feasibility was measured."
+        }
+      ],
+      "counterevidence": [
+        "A reported commercial start is stronger than a construction plan, but still cannot establish sustained reliability.",
+        "Caltrain remains a retained historical passenger-service benchmark; it does not establish available electric freight paths or eliminate continuing diesel freight."
+      ],
+      "unknowns": [
+        "Actual duty-cycle performance for the original Dian Peng case; transferable route/terminal compatibility and usable reserve.",
+        "Whether any carrier interruption arose from fuel, finance, staffing, equipment, insurance or route-volume constraints."
+      ],
+      "working_buffers": [
+        "Charging plus swapping are design-level alternatives in retained electric-vessel records; actual backup capacity is not counted.",
+        "Carrier Lifeline preserves consolidation, compatible rail/transload and successor operations as proposals requiring route evidence and willing capacity."
+      ],
+      "next_test": "Inspect one dated operator or port record for the named vessel that pairs scheduled/completed loaded voyages with charging delays and backup use over a defined period.",
+      "stop_reason": "One relevant primary-publisher interview inspected; service-start claim retained with index-access limits and no unverified performance promotion.",
+      "authorship_limits": "Public-source review only, with incomplete direct access. No independent voyage measurement or engineering assessment."
+    },
+    {
+      "lane_id": "food-fertilizer-reserves",
+      "title": "Fertilizer pressure and food-service reserve",
+      "question_id": "Q-RESEARCH-Q04",
+      "related_question_ids": [
+        "Q-RESEARCH-Q17",
+        "Q-RESEARCH-Q20",
+        "Q-RESEARCH-Q26"
+      ],
+      "epoch": 1,
+      "tree_id": "PRODUCTION",
+      "baseline_refs": [
+        "Resilience_Cascade_STATE.json#QUESTIONS_TO_WATCH/Q04",
+        "Resilience_Cascade_STATE.json#QUESTIONS_TO_WATCH/Q17",
+        "reports/RC-004/SULFUR_AND_MINING.md",
+        "reports/RC-004/RESPONSE_HORIZONS.md"
+      ],
+      "question": "Do sulfur/phosphate pressures persist across independent producers and farm orders?",
+      "inspection_status": "new_evidence",
+      "sources": [
+        {
+          "source_id": "RC15-MOSAIC-Q3-RELEASE",
+          "title": "The Mosaic Company Reports Third Quarter 2026 Results",
+          "url": "https://investors.mosaicco.com/press-releases/news-details/2026/The-Mosaic-Company-Reports-Third-Quarter-2026-Results/default.aspx",
+          "publisher": "The Mosaic Company",
+          "source_family": "MOSAIC-Q3-2026",
+          "publication_date": "2026-11-03",
+          "observation_date": "2026-07-01/2026-09-30",
+          "retrieved_at": "2026-11-07T10:43:02.949044+00:00",
+          "access_mode": "web_tool_extraction",
+          "access_result": "Text available through retrieval tool; no raw HTTP material retained",
+          "raw_receipt_path": null,
+          "tool_refs": [
+            "turn136search5",
+            "turn137view2",
+            "turn138view4"
+          ],
+          "summary": "Company release reports third-quarter results and a settled fourth-quarter sulfur contract.",
+          "limitations": [
+            "Same disclosure family as the PDF, not a second independent confirmation. Contract terms are not completed future supply."
+          ]
+        },
+        {
+          "source_id": "RC15-MOSAIC-Q3-PDF",
+          "title": "Third Quarter 2026 Results, Exhibit 99.1",
+          "url": "https://s1.q4cdn.com/823038994/files/content_files/Press-Release-Q3-2026-Exhibit-99-1-Final.pdf",
+          "publisher": "The Mosaic Company",
+          "source_family": "MOSAIC-Q3-2026",
+          "publication_date": "2026-11-03",
+          "observation_date": "2026-07-01/2026-09-30",
+          "retrieved_at": "2026-11-07T10:43:02.949044+00:00",
+          "access_mode": "web_tool_extraction",
+          "access_result": "Text available through retrieval tool; no raw HTTP material retained",
+          "raw_receipt_path": null,
+          "tool_refs": [
+            "turn138view1"
+          ],
+          "summary": "Mosaic reports phosphate sales of 1.4 million tonnes versus 1.6 million a year earlier, attributing the decline to curtailments involving limited affordable sulfur. It reports a $615/long-ton fourth-quarter sulfur contract.",
+          "limitations": [
+            "Company attribution, not independent proof of every causal driver. Sales are not farm orders fulfilled or nutritional service cover. Prospective contract benefits are unobserved."
+          ],
+          "selected_pages": [
+            0,
+            3
+          ]
+        },
+        {
+          "source_id": "RC15-NUTRIEN-Q3",
+          "title": "Nutrien Reports Third Quarter 2026 Results",
+          "url": "https://www.nutrien.com/news/press-releases/nutrien-reports-third-quarter-2026-results-1761",
+          "publisher": "Nutrien",
+          "source_family": "NUTRIEN-Q3-2026",
+          "publication_date": "2026-11-04",
+          "observation_date": "2026-07-01/2026-09-30",
+          "retrieved_at": "2026-11-07T10:43:02.949044+00:00",
+          "access_mode": "web_tool_extraction",
+          "access_result": "Text available through retrieval tool; no raw HTTP material retained",
+          "raw_receipt_path": null,
+          "tool_refs": [
+            "turn137search0",
+            "turn138view0",
+            "turn141view2"
+          ],
+          "summary": "Nutrien attributes phosphate earnings pressure to sulfur costs. It reports third-quarter P2O5 output of 342,000 tonnes versus 378,000, while nine-month output was 998,000 versus 993,000.",
+          "limitations": [
+            "Different products/units from Mosaic: quantities are not added. Search and direct displays differ on hour; publication date agrees. Requested -1759 URL redirected to -1761. No matched farm-order fulfillment data."
+          ],
+          "requested_url": "https://www.nutrien.com/news/press-releases/nutrien-reports-third-quarter-2026-results-1759",
+          "displayed_time_limit": "Search:11:30 a.m.; direct:4:30 p.m.; timezone not established"
+        }
+      ],
+      "findings": [
+        {
+          "finding_id": "RC15-NUTRIENT-01",
+          "claim": "Two distinct producer disclosures support continuing sulfur-related phosphate pressure through Q3; the farm-order and usable food-reserve parts of the question remain unanswered.",
+          "evidence_refs": [
+            "RC15-MOSAIC-Q3-PDF",
+            "RC15-NUTRIEN-Q3"
+          ],
+          "epistemic_status": "DOCUMENTED",
+          "is_new_event": true,
+          "basis": "Newly available November 3–4 disclosures concern Q3 observations. Two company lineages support only their attributed operating evidence, not global scarcity or a verified downstream cascade."
+        },
+        {
+          "finding_id": "RC15-NUTRIENT-02",
+          "claim": "No completed replacement sulfur deliveries, exportable donor reserve, unfilled farm-order series or local food-service days are established by this check.",
+          "evidence_refs": [
+            "RC15-MOSAIC-Q3-PDF",
+            "RC15-NUTRIEN-Q3"
+          ],
+          "epistemic_status": "UNKNOWN",
+          "is_new_event": false,
+          "basis": "Corporate results and plans do not measure these downstream or reserve quantities."
+        }
+      ],
+      "counterevidence": [
+        "Nutrien nine-month output was slightly higher; a quarterly fall is not a uniform collapse. Its announced 2027 White Springs closure is attributed to mine economics, not treated as an executed sulfur shutdown.",
+        "Production management may preserve cash while reducing output; corporate financial resilience is distinct from customers receiving required nutrients."
+      ],
+      "unknowns": [
+        "Distributor/farm order fill rates and agronomic timing; actual alternative sulfur supply after existing commitments.",
+        "Current Venezuelan sulfur asset condition and net export availability; local nutrition cover."
+      ],
+      "working_buffers": [
+        "Mosaic reports an improved sulfur contract price; realized replenishment remains unverified.",
+        "Nutrien reports Aurora reliability improvements and inventory reduction contributing to year-to-date sales; spare donor inventory is not inferred."
+      ],
+      "next_test": "Inspect one dated distributor or farm-cooperative order-fill record for phosphate fertilizer over a specified application window, including substitutions and delayed or completed orders.",
+      "stop_reason": "Two pre-cutoff producer releases inspected; no downstream performance evidence recovered within the bounded cycle.",
+      "authorship_limits": "Attributed issuer disclosures only. No independent operational audit, raw-data reconciliation, farm survey or current inventory measurement."
+    }
+  ],
+  "research_log": {
+    "search_queries_used": 4,
+    "document_opens_used": 6,
+    "existing_document_find_calls": 5,
+    "raw_http_receipts": 0,
+    "full_copyrighted_articles_saved": 0,
+    "new_model_provider_calls": 0,
+    "external_contacts": 0,
+    "queries": [
+      "site.accfb.org 2026 \"deliveries\" \"fuel\" \"October\" OR \"November\" [recency60]",
+      "site.ccs.org.cn 2026 electric container ship 700 TEU operation",
+      "site.mosaicco.com 2026 phosphate production sulfur third quarter October November",
+      "site.nutrien.com \"third quarter 2026\" results phosphate sulfur"
+    ],
+    "excluded_results": [
+      "Third-party Mosaic 10-Q mirrors were search leads only; the primary company PDF supplies retained Mosaic facts.",
+      "The separate CCS April certification and July sister-ship delivery search hits were not opened or counted as independent evidence."
+    ]
+  },
+  "limitations": [
+    "This is a supervised recovered specialist return, not the interrupted specialist completing its original run.",
+    "Web-tool dates/crawl ages do not establish fresh origin HTTP retrieval. No raw response bodies or headers were available.",
+    "Corporate source families and inherited material remain separate from field verification or canonical admission."
+  ]
+}

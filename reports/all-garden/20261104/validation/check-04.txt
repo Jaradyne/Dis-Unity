@@ -1,0 +1,1 @@
+PASS: one live receipt, isolated simulations, reviewed revision and deterministic Garden replay; no dispatch

@@ -1,0 +1,12 @@
+{
+  "branches": [
+    "B0"
+  ],
+  "meaning": "Supplied traversal and routing; no new evidence, model dispatch or Governor review.",
+  "record_ref": "operations/garden/runs/RC015-SHELTER-ACCOUNTABILITY.json",
+  "record_sha256": "2a05741754cbbf0ea1255a4dc8b24df31871e70978b3c00e6699db3078e50eb9",
+  "run_id": "RC015-SHELTER-ACCOUNTABILITY",
+  "schema_version": "digestion-garden-materials-1",
+  "state_sha256": "53316ac079c4c85c71ec5ee8c23207a6a3ed2fd64066adb9f37278652b270297",
+  "status": "available_for_digestion"
+}

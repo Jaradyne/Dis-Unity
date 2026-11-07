@@ -1,0 +1,343 @@
+{
+  "commands": [
+    {
+      "actor": {
+        "model": "Work-session model identifier not recorded",
+        "name": "Work Aiden",
+        "runtime": "Supervised RC-015 assembly and supplied interpretation"
+      },
+      "branch_id": "B0",
+      "event_id": "RC015-DIPLOMACY-CONTEXT-STEP-1",
+      "expected_revision": 0,
+      "kind": "step",
+      "node": "ROOT",
+      "output": {
+        "name": "Authority and institutional claims"
+      }
+    },
+    {
+      "actor": {
+        "model": "Work-session model identifier not recorded",
+        "name": "Work Aiden",
+        "runtime": "Supervised RC-015 assembly and supplied interpretation"
+      },
+      "branch_id": "B0",
+      "event_id": "RC015-DIPLOMACY-CONTEXT-STEP-2",
+      "expected_revision": 1,
+      "kind": "step",
+      "node": "ARRIVAL",
+      "output": {
+        "arrival": {
+          "from": "reports/all-garden/20261104/inputs/cross-lane.json",
+          "id": "RC015-DIPLOMACY-CONTEXT-ARRIVAL",
+          "payload": {
+            "baseline_refs": [
+              "reports/all-garden/20261104/inputs/institutions.json",
+              "reports/all-garden/20261104/inputs/services.json",
+              "reports/all-garden/20261104/inputs/material.json",
+              "docs/GARDEN_TRAVERSAL.md"
+            ],
+            "inspection_status": "retained_only",
+            "lane_id": "diplomacy-context",
+            "return_actor": "Work Aiden",
+            "return_sha256": "de4f51aacce7bbf63c843569239a3ec8303e222b8788268f8ec94ed5dbf3ca3a"
+          },
+          "to": "DIPLOMACY:ROOT-0001"
+        },
+        "language_glance": {
+          "basis": "unknown",
+          "issuing_office": "See each pinned source publisher",
+          "languages": [],
+          "note": "No matched original/translation inventory supplied by these returns.",
+          "source_refs": [
+            "DIPLOMACY-CONTEXT-RETURN-1",
+            "DIPLOMACY-CONTEXT-RETURN-2",
+            "DIPLOMACY-CONTEXT-RETURN-3"
+          ],
+          "surface_kind": "mixed"
+        }
+      }
+    },
+    {
+      "actor": {
+        "model": "Work-session model identifier not recorded",
+        "name": "Work Aiden",
+        "runtime": "Supervised RC-015 assembly and supplied interpretation"
+      },
+      "branch_id": "B0",
+      "event_id": "RC015-DIPLOMACY-CONTEXT-STEP-3",
+      "expected_revision": 2,
+      "kind": "step",
+      "node": "EPIST",
+      "output": {
+        "empirical_cutoff": "2026-11-04 America/Los_Angeles",
+        "inspection_time": "2026-11-07T10:46:07.208340+00:00",
+        "prompt": "Does comparing institutional claims preserve their actual issuer and evidential scope?",
+        "starting_state": "Retain the dated baseline; inspect one bounded residual."
+      }
+    },
+    {
+      "actor": {
+        "model": "Work-session model identifier not recorded",
+        "name": "Work Aiden",
+        "runtime": "Supervised RC-015 assembly and supplied interpretation"
+      },
+      "branch_id": "B0",
+      "event_id": "RC015-DIPLOMACY-CONTEXT-STEP-4",
+      "expected_revision": 3,
+      "kind": "step",
+      "node": "FUNC",
+      "output": {
+        "findings": [
+          {
+            "basis": "Review of retained return contents, not independent empirical validation.",
+            "claim": "An agency response, operator claim and company disclosure remain attributed to their issuers; comparison alone establishes no agreement, coordination or causal link.",
+            "epistemic_status": "DOCUMENTED",
+            "evidence_refs": [
+              "DIPLOMACY-CONTEXT-RETURN-1",
+              "DIPLOMACY-CONTEXT-RETURN-2",
+              "DIPLOMACY-CONTEXT-RETURN-3"
+            ],
+            "finding_id": "DIPLOMACY-CONTEXT-01",
+            "is_new_event": false
+          }
+        ],
+        "function": "Inspect evidence, outcome and access separately.",
+        "inspection_status": "retained_only",
+        "research_actor": "Work Aiden",
+        "task": "Does comparing institutional claims preserve their actual issuer and evidential scope?"
+      }
+    },
+    {
+      "actor": {
+        "model": "Work-session model identifier not recorded",
+        "name": "Work Aiden",
+        "runtime": "Supervised RC-015 assembly and supplied interpretation"
+      },
+      "branch_id": "B0",
+      "event_id": "RC015-DIPLOMACY-CONTEXT-STEP-5",
+      "expected_revision": 4,
+      "kind": "step",
+      "node": "MIRROR",
+      "output": {
+        "comparisons": [
+          {
+            "answers": [],
+            "explanation": "Different institutions may make consistent statements without independently verifying outcomes; inconsistent dates may reflect ordinary errors.",
+            "queries": []
+          }
+        ],
+        "information_lineage": {
+          "api_record_refs": [],
+          "criteria_refs": [
+            "reports/all-garden/20261104/RETURN_CONTRACT.json"
+          ],
+          "parent_answer_visible": true,
+          "parent_output_refs": [
+            "reports/all-garden/20261104/inputs/institutions.json",
+            "reports/all-garden/20261104/inputs/services.json",
+            "reports/all-garden/20261104/inputs/material.json",
+            "docs/GARDEN_TRAVERSAL.md"
+          ],
+          "source_refs": [
+            "DIPLOMACY-CONTEXT-RETURN-1",
+            "DIPLOMACY-CONTEXT-RETURN-2",
+            "DIPLOMACY-CONTEXT-RETURN-3"
+          ],
+          "test_origin": "inherited"
+        },
+        "working_buffers": [
+          "Explicit attribution, shared references, review and human correction preserve competing explanations."
+        ]
+      }
+    },
+    {
+      "actor": {
+        "model": "Work-session model identifier not recorded",
+        "name": "Work Aiden",
+        "runtime": "Supervised RC-015 assembly and supplied interpretation"
+      },
+      "branch_id": "B0",
+      "event_id": "RC015-DIPLOMACY-CONTEXT-STEP-6",
+      "expected_revision": 5,
+      "kind": "step",
+      "node": "CROSS",
+      "output": {
+        "bridge": [
+          {
+            "question": "Inspect one institution's subsequent execution record if its stated plan becomes material to a lane.",
+            "source_refs": [
+              "DIPLOMACY-CONTEXT-RETURN-1",
+              "DIPLOMACY-CONTEXT-RETURN-2",
+              "DIPLOMACY-CONTEXT-RETURN-3"
+            ],
+            "status": "proposed_only"
+          }
+        ],
+        "independent": [],
+        "inherited": [
+          {
+            "ref": "DIPLOMACY-CONTEXT-RETURN-1"
+          },
+          {
+            "ref": "DIPLOMACY-CONTEXT-RETURN-2"
+          },
+          {
+            "ref": "DIPLOMACY-CONTEXT-RETURN-3"
+          }
+        ]
+      }
+    },
+    {
+      "actor": {
+        "model": "Work-session model identifier not recorded",
+        "name": "Work Aiden",
+        "runtime": "Supervised RC-015 assembly and supplied interpretation"
+      },
+      "branch_id": "B0",
+      "event_id": "RC015-DIPLOMACY-CONTEXT-STEP-7",
+      "expected_revision": 6,
+      "kind": "step",
+      "node": "RESID",
+      "output": {
+        "next_test": "Inspect one institution's subsequent execution record if its stated plan becomes material to a lane.",
+        "predicates": {
+          "consequential": true,
+          "distinct_functions": false,
+          "language_exception": null
+        },
+        "summary": "Empirical residuals remain with their originating lanes."
+      }
+    },
+    {
+      "actor": {
+        "model": "Work-session model identifier not recorded",
+        "name": "Work Aiden",
+        "runtime": "Supervised RC-015 assembly and supplied interpretation"
+      },
+      "branch_id": "B0",
+      "event_id": "RC015-DIPLOMACY-CONTEXT-STEP-8",
+      "expected_revision": 7,
+      "kind": "step",
+      "node": "MEAN",
+      "output": {
+        "authorship_limits": "Work-supplied cross-lane projection reuses specialist material and does not count as independent corroboration.",
+        "summary": "Read the attributed findings with their contrary evidence and residuals."
+      }
+    },
+    {
+      "actor": {
+        "model": "Work-session model identifier not recorded",
+        "name": "Work Aiden",
+        "runtime": "Supervised RC-015 assembly and supplied interpretation"
+      },
+      "branch_id": "B0",
+      "event_id": "RC015-DIPLOMACY-CONTEXT-STEP-9",
+      "expected_revision": 8,
+      "kind": "step",
+      "node": "EXIT",
+      "output": {
+        "kind": "question",
+        "summary": "Inspect one institution's subsequent execution record if its stated plan becomes material to a lane."
+      }
+    },
+    {
+      "actor": {
+        "model": "Work-session model identifier not recorded",
+        "name": "Work Aiden",
+        "runtime": "Supervised RC-015 assembly and supplied interpretation"
+      },
+      "branch_id": "B0",
+      "event_id": "RC015-DIPLOMACY-CONTEXT-STEP-10",
+      "expected_revision": 9,
+      "kind": "step",
+      "node": "RETURN",
+      "output": {
+        "new_arrival": null,
+        "reason": "One cross-lane inspection completed; no additional collection or authority activated."
+      }
+    }
+  ],
+  "question_snapshot": {
+    "questions": {
+      "Q-RC015-AUTHORITY-COMPARISON": {
+        "epoch": 1
+      }
+    }
+  },
+  "record_base_url": "https://github.com/Jaradyne/Dis-Unity/blob/main/reports/all-garden/20261104/worked/",
+  "recorded_at": "2026-11-07T10:46:07.208340+00:00",
+  "recorded_at_meaning": "Actual supervised assembly time, reused deterministically; not an origin fetch time or time of the historical events.",
+  "schema_version": "garden-scenario-1",
+  "start": {
+    "actor": {
+      "model": "Work-session model identifier not recorded",
+      "name": "Work Aiden",
+      "runtime": "Supervised RC-015 assembly and supplied interpretation"
+    },
+    "arrival": {
+      "from": "reports/all-garden/20261104/inputs/cross-lane.json",
+      "id": "RC015-DIPLOMACY-CONTEXT-ARRIVAL",
+      "payload": {
+        "baseline_refs": [
+          "reports/all-garden/20261104/inputs/institutions.json",
+          "reports/all-garden/20261104/inputs/services.json",
+          "reports/all-garden/20261104/inputs/material.json",
+          "docs/GARDEN_TRAVERSAL.md"
+        ],
+        "inspection_status": "retained_only",
+        "lane_id": "diplomacy-context",
+        "return_actor": "Work Aiden",
+        "return_sha256": "de4f51aacce7bbf63c843569239a3ec8303e222b8788268f8ec94ed5dbf3ca3a"
+      },
+      "to": "DIPLOMACY:ROOT-0001"
+    },
+    "budget": {
+      "max_branches": 1,
+      "max_events": 10,
+      "max_fanout": 0,
+      "max_steps": 10,
+      "model_calls": 0
+    },
+    "epoch": 1,
+    "focus": "Does comparing institutional claims preserve their actual issuer and evidential scope?",
+    "question_id": "Q-RC015-AUTHORITY-COMPARISON",
+    "run_id": "RC015-DIPLOMACY-CONTEXT",
+    "sources": [
+      {
+        "binding": {
+          "lane_id": "diplomacy-context",
+          "path": "reports/all-garden/20261104/inputs/cross-lane.json",
+          "sha256": "0719d844701d91d3c376d9fa658f28264e435c2e72c748b92fdd8e6e5e6a048b",
+          "source_id": "DIPLOMACY-CONTEXT-RETURN-1"
+        },
+        "kind": "context",
+        "lineage_id": "RC015-inputs/institutions.json",
+        "ref": "DIPLOMACY-CONTEXT-RETURN-1"
+      },
+      {
+        "binding": {
+          "lane_id": "diplomacy-context",
+          "path": "reports/all-garden/20261104/inputs/cross-lane.json",
+          "sha256": "923e89155538feca8d8f2776e89ffd68a5e9ce40b3978838baffe0d160dd04fe",
+          "source_id": "DIPLOMACY-CONTEXT-RETURN-2"
+        },
+        "kind": "context",
+        "lineage_id": "RC015-inputs/services.json",
+        "ref": "DIPLOMACY-CONTEXT-RETURN-2"
+      },
+      {
+        "binding": {
+          "lane_id": "diplomacy-context",
+          "path": "reports/all-garden/20261104/inputs/cross-lane.json",
+          "sha256": "3eafb7ee1939a7dd97da6f071ec3885370d2c2828135cba271c8ab50a1ced09f",
+          "source_id": "DIPLOMACY-CONTEXT-RETURN-3"
+        },
+        "kind": "context",
+        "lineage_id": "RC015-inputs/material.json",
+        "ref": "DIPLOMACY-CONTEXT-RETURN-3"
+      }
+    ],
+    "tree": "DIPLOMACY"
+  }
+}

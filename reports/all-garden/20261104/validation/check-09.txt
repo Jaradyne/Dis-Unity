@@ -1,0 +1,10 @@
+{
+  "status": "pass",
+  "case_id": "II-CSIS-LIVECHAT-2018",
+  "state_sha256": "94b681cf8ca4df676f387af637c57215a83898c98f3b161ffc7c7f0960c8c4eb",
+  "steps": 10,
+  "branches": 1,
+  "provider_calls": 0,
+  "case_status": "historical_source_reported",
+  "independent_source_replication": false
+}

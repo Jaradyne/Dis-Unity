@@ -1,0 +1,1 @@
+PASS: Richmond packet loads; simulated choices retain all pieces; no powers or evidence change

@@ -1,0 +1,12 @@
+{
+  "branches": [
+    "B0"
+  ],
+  "meaning": "Supplied traversal and routing; no new evidence, model dispatch or Governor review.",
+  "record_ref": "operations/garden/runs/RC015-MILITARY-CONSCIENCE.json",
+  "record_sha256": "411b0c808a666da064d56db5a8f5bf6269367a0a4e69c1bfb0c4bf1f8bb38cbd",
+  "run_id": "RC015-MILITARY-CONSCIENCE",
+  "schema_version": "digestion-garden-materials-1",
+  "state_sha256": "e1a1d018b8d4fabe82daa08d1d4346b085e948afbad62660e4744542ee3c3876",
+  "status": "available_for_digestion"
+}

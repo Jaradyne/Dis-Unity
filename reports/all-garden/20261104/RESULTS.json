@@ -1,0 +1,176 @@
+{
+  "canonical_admission": false,
+  "cycle_id": "RC-015",
+  "question_registration": false,
+  "repository_model_calls": 0,
+  "runs": [
+    {
+      "inspection_status": "access_blocked",
+      "lane_id": "care-autonomy",
+      "run_id": "RC015-CARE-AUTONOMY",
+      "state_sha256": "966ed20cfeda13b6a4f5c6538dd63da2d26ee045f5ba8abdbde013c00fb2c4d0",
+      "tree_id": "CARE-AUTONOMY",
+      "used": {
+        "branches": 1,
+        "model_calls": 0,
+        "steps": 10
+      }
+    },
+    {
+      "inspection_status": "retained_only",
+      "lane_id": "meaning-and-shared-mechanisms",
+      "run_id": "RC015-MEANING-AND-SHARED-MECHANISMS",
+      "state_sha256": "df341749f1a76c0f590d475f5af4e50441c2bccac0974652ab890b9c00393f13",
+      "tree_id": "INIT",
+      "used": {
+        "branches": 1,
+        "model_calls": 0,
+        "steps": 10
+      }
+    },
+    {
+      "inspection_status": "retained_only",
+      "lane_id": "diplomacy-context",
+      "run_id": "RC015-DIPLOMACY-CONTEXT",
+      "state_sha256": "4a7b6aceb6f525234cd08d7bef37d1d3207a9e0fec128c56cf445f3ecae56b91",
+      "tree_id": "DIPLOMACY",
+      "used": {
+        "branches": 1,
+        "model_calls": 0,
+        "steps": 10
+      }
+    },
+    {
+      "inspection_status": "retained_only",
+      "lane_id": "language-context",
+      "run_id": "RC015-LANGUAGE-CONTEXT",
+      "state_sha256": "1525b408a4d60c8fa5d2ec8fdcfe6fe0d72071b00a05effd374fb00c592c59b6",
+      "tree_id": "LANGUAGE",
+      "used": {
+        "branches": 1,
+        "model_calls": 0,
+        "steps": 10
+      }
+    },
+    {
+      "inspection_status": "retained_only",
+      "lane_id": "customs-context",
+      "run_id": "RC015-CUSTOMS-CONTEXT",
+      "state_sha256": "05a31dc72e80226551aedf77d8e4c35df716c2438b7ae3c9d6ce58a7b082d0e8",
+      "tree_id": "CUSTOMS",
+      "used": {
+        "branches": 1,
+        "model_calls": 0,
+        "steps": 10
+      }
+    },
+    {
+      "inspection_status": "new_evidence",
+      "lane_id": "information-integrity",
+      "run_id": "RC015-INFORMATION-INTEGRITY",
+      "state_sha256": "de7ec877a45cc659b9ff32a3f80ebed9e4ee4c282527d905dc7f20fb8b029318",
+      "tree_id": "INFORMATION-INTEGRITY",
+      "used": {
+        "branches": 1,
+        "model_calls": 0,
+        "steps": 10
+      }
+    },
+    {
+      "inspection_status": "retained_only",
+      "lane_id": "psa",
+      "run_id": "RC015-PSA",
+      "state_sha256": "4c34d57ea9b12d3c67ba48f753899f777d1ea7fe517552bf23c294bea9a52633",
+      "tree_id": "INIT",
+      "used": {
+        "branches": 1,
+        "model_calls": 0,
+        "steps": 10
+      }
+    },
+    {
+      "inspection_status": "inconclusive",
+      "lane_id": "military-conscience",
+      "run_id": "RC015-MILITARY-CONSCIENCE",
+      "state_sha256": "e1a1d018b8d4fabe82daa08d1d4346b085e948afbad62660e4744542ee3c3876",
+      "tree_id": "INIT",
+      "used": {
+        "branches": 1,
+        "model_calls": 0,
+        "steps": 10
+      }
+    },
+    {
+      "inspection_status": "reconfirmed",
+      "lane_id": "ice-detention",
+      "run_id": "RC015-ICE-DETENTION",
+      "state_sha256": "a94bb53521a260a0efc373d77dfb03d1b465789a3ee6008323239126a17d1e00",
+      "tree_id": "INIT",
+      "used": {
+        "branches": 1,
+        "model_calls": 0,
+        "steps": 10
+      }
+    },
+    {
+      "inspection_status": "inconclusive",
+      "lane_id": "energy-diesel",
+      "run_id": "RC015-ENERGY-DIESEL",
+      "state_sha256": "d73a62da50b54217c05146efef0753426e41ee41cb29886379b1329fe614b968",
+      "tree_id": "ECONOMICS",
+      "used": {
+        "branches": 1,
+        "model_calls": 0,
+        "steps": 10
+      }
+    },
+    {
+      "inspection_status": "inconclusive",
+      "lane_id": "freight-carriers",
+      "run_id": "RC015-FREIGHT-CARRIERS",
+      "state_sha256": "040bbd07dab03c7c9ed4ff2af5fd40a8dab4af08bbd1c157fe7dbbc1f0a7ae07",
+      "tree_id": "PRODUCTION",
+      "used": {
+        "branches": 1,
+        "model_calls": 0,
+        "steps": 10
+      }
+    },
+    {
+      "inspection_status": "new_evidence",
+      "lane_id": "food-fertilizer-reserves",
+      "run_id": "RC015-FOOD-FERTILIZER-RESERVES",
+      "state_sha256": "fda95bc6c0a90aa871da42087ae4aa7371115852248bb75357710d9ad9a94377",
+      "tree_id": "PRODUCTION",
+      "used": {
+        "branches": 1,
+        "model_calls": 0,
+        "steps": 10
+      }
+    },
+    {
+      "inspection_status": "inconclusive",
+      "lane_id": "shelter-accountability",
+      "run_id": "RC015-SHELTER-ACCOUNTABILITY",
+      "state_sha256": "53316ac079c4c85c71ec5ee8c23207a6a3ed2fd64066adb9f37278652b270297",
+      "tree_id": "HOMELESSNESS",
+      "used": {
+        "branches": 1,
+        "model_calls": 0,
+        "steps": 10
+      }
+    },
+    {
+      "inspection_status": "new_evidence",
+      "lane_id": "community-capacity-commons",
+      "run_id": "RC015-COMMUNITY-CAPACITY-COMMONS",
+      "state_sha256": "d778cb332ba3576de7566bec48d29e48663e4d2da5ee5c1d74d5e08dea4f7a4b",
+      "tree_id": "COMMUNITY-CAPACITY",
+      "used": {
+        "branches": 1,
+        "model_calls": 0,
+        "steps": 10
+      }
+    }
+  ]
+}

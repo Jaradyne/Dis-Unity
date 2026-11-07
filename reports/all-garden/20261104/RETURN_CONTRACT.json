@@ -1,0 +1,56 @@
+{
+  "version": "all-garden-return-1",
+  "actor": "actual participant",
+  "cycle_id": "RC-015",
+  "checked_at": "actual ISO timestamp",
+  "lanes": [
+    {
+      "lane_id": "assigned-id",
+      "title": "plain name",
+      "question_id": "reuse existing ID or explicit staged ID; do not register live",
+      "epoch": 1,
+      "tree_id": "existing tree or extension",
+      "baseline_refs": [
+        "existing paths or IDs"
+      ],
+      "question": "bounded existing question",
+      "inspection_status": "new_evidence|reconfirmed|inconclusive|access_blocked|retained_only",
+      "sources": [
+        {
+          "source_id": "unique stable ID",
+          "title": "source title",
+          "url": "public URL",
+          "publisher": "issuer",
+          "source_family": "underlying lineage",
+          "publication_date": null,
+          "observation_date": null,
+          "retrieved_at": "actual timestamp",
+          "access_mode": "web_tool_extraction|search_index|recorded_http|retained_repository",
+          "access_result": "what actually returned",
+          "raw_receipt_path": null,
+          "tool_refs": [],
+          "summary": "paraphrase retained content",
+          "limitations": []
+        }
+      ],
+      "findings": [
+        {
+          "finding_id": "unique",
+          "claim": "bounded attributed statement",
+          "evidence_refs": [
+            "source_id or baseline ref"
+          ],
+          "epistemic_status": "DOCUMENTED|UNKNOWN|HYPOTHESIS",
+          "is_new_event": false,
+          "basis": "what justifies this classification"
+        }
+      ],
+      "counterevidence": [],
+      "unknowns": [],
+      "working_buffers": [],
+      "next_test": "one bounded test",
+      "stop_reason": "why done",
+      "authorship_limits": "what was not independently replicated"
+    }
+  ]
+}

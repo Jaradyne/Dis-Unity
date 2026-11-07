@@ -1,0 +1,48 @@
+{
+  "cycle_id": "RC-015",
+  "actor": "cycle15_review",
+  "status": "preliminary_evidence_review_complete_final_assembly_pending",
+  "recorded_at": "2026-11-07T10:41:55.116845+00:00",
+  "review_date_local": "2026-11-07",
+  "cycle_evidence_cutoff_retained": "2026-11-04",
+  "review_type": "separate_agent_evidence_boundary_review_with_three_bounded_reopens",
+  "blocking_findings_so_far": [],
+  "nonblocking_notes": [
+    "The institutions and information packets reuse final inspection timestamps as retrieved_at; normalize transparently without treating these as exact per-call origin-fetch timestamps.",
+    "The Richmond observation_date month is a source-reported opening claim, not independent observation. Preserve the narrative qualification in projections.",
+    "All-wings coverage must distinguish fresh source research, retained-only review, and runtime replay; no autonomous provider or Governor execution is established."
+  ],
+  "source_checks": [
+    {
+      "url": "https://www.csis.org/events/transatlantic-relations-crossroads-conversation-european-commission-president-jean-claude",
+      "tool_ref": "turn140view0",
+      "result": "403; separate reviewer did not independently reproduce event-date reading",
+      "access_mode": "web_tool_extraction",
+      "raw_http_receipt": false
+    },
+    {
+      "url": "https://www.tinyvillagespirit.org/projects/richmond/",
+      "tool_ref": "turn140view1",
+      "result": "Returned page labels September2026 opening and move-in while also describing ongoing creation and weekly construction. Agrees with bounded claimed-wording comparison; no occupancy/operator/cash verification.",
+      "access_mode": "web_tool_extraction",
+      "raw_http_receipt": false
+    },
+    {
+      "url": "https://www.gao.gov/products/gao-26-108886",
+      "tool_ref": "turn140view2",
+      "result": "Four Open rows and May/August agency plans returned. No corrective-outcome inference warranted.",
+      "access_mode": "web_tool_extraction",
+      "raw_http_receipt": false
+    }
+  ],
+  "source_timing_limit": "Three reopens occurred in this Nov7 review session; exact individual call timestamps and origin fetch timestamps are not available. These are review checks of original claims, not revisions of Nov4 inspection dates or new facility events.",
+  "inspected_sha256": {
+    "reports/all-garden/20261104/inputs/institutions.json": "1cc6139b7bb2ba9e5bdce6fb214853b75434cbd5035338c2917f6c68ecf3ed6d",
+    "reports/all-garden/20261104/inputs/services.json": "5e9f014cfc01d816e648d1baa0f5432cad48f7b3fb9189567ecf87eee6742076",
+    "reports/all-garden/20261104/inputs/information.json": "2f77583558ad0a1d002f95d8227f09569806990abada70a2a256e82ca618fc64"
+  },
+  "scope_limits": [
+    "No independent replication of every source, legal adjudication, facility observation or private-record review.",
+    "No replay/coverage/final-assembly decision yet; awaiting root ready signal."
+  ]
+}

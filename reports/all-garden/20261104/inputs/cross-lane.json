@@ -1,0 +1,339 @@
+{
+  "version": "all-garden-return-1",
+  "actor": "Work Aiden",
+  "cycle_id": "RC-015",
+  "checked_at": "2026-11-07T10:46:07.208340+00:00",
+  "lanes": [
+    {
+      "lane_id": "diplomacy-context",
+      "title": "Authority and institutional claims",
+      "question_id": "Q-RC015-AUTHORITY-COMPARISON",
+      "epoch": 1,
+      "tree_id": "DIPLOMACY",
+      "baseline_refs": [
+        "reports/all-garden/20261104/inputs/institutions.json",
+        "reports/all-garden/20261104/inputs/services.json",
+        "reports/all-garden/20261104/inputs/material.json",
+        "docs/GARDEN_TRAVERSAL.md"
+      ],
+      "question": "Does comparing institutional claims preserve their actual issuer and evidential scope?",
+      "inspection_status": "retained_only",
+      "sources": [
+        {
+          "source_id": "DIPLOMACY-CONTEXT-RETURN-1",
+          "title": "Attributed specialist return: inputs/institutions.json",
+          "url": "https://github.com/Jaradyne/Dis-Unity/blob/main/reports/all-garden/20261104/inputs/institutions.json",
+          "publisher": "Dis-Unity participants",
+          "source_family": "RC015-inputs/institutions.json",
+          "publication_date": null,
+          "observation_date": null,
+          "retrieved_at": "2026-11-07T10:46:07.208340+00:00",
+          "access_mode": "retained_repository",
+          "access_result": "Read saved participant return; not a fresh independent observation.",
+          "raw_receipt_path": null,
+          "tool_refs": [],
+          "local_path": "reports/all-garden/20261104/inputs/institutions.json",
+          "sha256": "1cc6139b7bb2ba9e5bdce6fb214853b75434cbd5035338c2917f6c68ecf3ed6d",
+          "summary": "This cross-lane pass reuses the cited return and its underlying sources; it adds no empirical corroboration.",
+          "limitations": [
+            "Interpretation supplied by Work; underlying source and timestamp limits remain."
+          ]
+        },
+        {
+          "source_id": "DIPLOMACY-CONTEXT-RETURN-2",
+          "title": "Attributed specialist return: inputs/services.json",
+          "url": "https://github.com/Jaradyne/Dis-Unity/blob/main/reports/all-garden/20261104/inputs/services.json",
+          "publisher": "Dis-Unity participants",
+          "source_family": "RC015-inputs/services.json",
+          "publication_date": null,
+          "observation_date": null,
+          "retrieved_at": "2026-11-07T10:46:07.208340+00:00",
+          "access_mode": "retained_repository",
+          "access_result": "Read saved participant return; not a fresh independent observation.",
+          "raw_receipt_path": null,
+          "tool_refs": [],
+          "local_path": "reports/all-garden/20261104/inputs/services.json",
+          "sha256": "5e9f014cfc01d816e648d1baa0f5432cad48f7b3fb9189567ecf87eee6742076",
+          "summary": "This cross-lane pass reuses the cited return and its underlying sources; it adds no empirical corroboration.",
+          "limitations": [
+            "Interpretation supplied by Work; underlying source and timestamp limits remain."
+          ]
+        },
+        {
+          "source_id": "DIPLOMACY-CONTEXT-RETURN-3",
+          "title": "Attributed specialist return: inputs/material.json",
+          "url": "https://github.com/Jaradyne/Dis-Unity/blob/main/reports/all-garden/20261104/inputs/material.json",
+          "publisher": "Dis-Unity participants",
+          "source_family": "RC015-inputs/material.json",
+          "publication_date": null,
+          "observation_date": null,
+          "retrieved_at": "2026-11-07T10:46:07.208340+00:00",
+          "access_mode": "retained_repository",
+          "access_result": "Read saved participant return; not a fresh independent observation.",
+          "raw_receipt_path": null,
+          "tool_refs": [],
+          "local_path": "reports/all-garden/20261104/inputs/material.json",
+          "sha256": "e4db587a9ffeaa77b9760ebceabb068861353059c8b983f4b725fb2c078949d8",
+          "summary": "This cross-lane pass reuses the cited return and its underlying sources; it adds no empirical corroboration.",
+          "limitations": [
+            "Interpretation supplied by Work; underlying source and timestamp limits remain."
+          ]
+        }
+      ],
+      "findings": [
+        {
+          "finding_id": "DIPLOMACY-CONTEXT-01",
+          "claim": "An agency response, operator claim and company disclosure remain attributed to their issuers; comparison alone establishes no agreement, coordination or causal link.",
+          "evidence_refs": [
+            "DIPLOMACY-CONTEXT-RETURN-1",
+            "DIPLOMACY-CONTEXT-RETURN-2",
+            "DIPLOMACY-CONTEXT-RETURN-3"
+          ],
+          "epistemic_status": "DOCUMENTED",
+          "is_new_event": false,
+          "basis": "Review of retained return contents, not independent empirical validation."
+        }
+      ],
+      "counterevidence": [
+        "Different institutions may make consistent statements without independently verifying outcomes; inconsistent dates may reflect ordinary errors."
+      ],
+      "unknowns": [
+        "Empirical residuals remain with their originating lanes."
+      ],
+      "working_buffers": [
+        "Explicit attribution, shared references, review and human correction preserve competing explanations."
+      ],
+      "next_test": "Inspect one institution's subsequent execution record if its stated plan becomes material to a lane.",
+      "stop_reason": "One cross-lane inspection completed; no additional collection or authority activated.",
+      "authorship_limits": "Work-supplied cross-lane projection reuses specialist material and does not count as independent corroboration."
+    },
+    {
+      "lane_id": "language-context",
+      "title": "Language and record interpretation",
+      "question_id": "Q-MEANING-TRANSLATION-BOSS",
+      "epoch": 1,
+      "tree_id": "LANGUAGE",
+      "baseline_refs": [
+        "reports/all-garden/20261104/inputs/information.json",
+        "reports/all-garden/20261104/inputs/coordinator.json",
+        "docs/GARDEN_TRAVERSAL.md"
+      ],
+      "question": "Can date/version and source-language limits be carried without inventing a matched translation test?",
+      "inspection_status": "retained_only",
+      "sources": [
+        {
+          "source_id": "LANGUAGE-CONTEXT-RETURN-1",
+          "title": "Attributed specialist return: inputs/information.json",
+          "url": "https://github.com/Jaradyne/Dis-Unity/blob/main/reports/all-garden/20261104/inputs/information.json",
+          "publisher": "Dis-Unity participants",
+          "source_family": "RC015-inputs/information.json",
+          "publication_date": null,
+          "observation_date": null,
+          "retrieved_at": "2026-11-07T10:46:07.208340+00:00",
+          "access_mode": "retained_repository",
+          "access_result": "Read saved participant return; not a fresh independent observation.",
+          "raw_receipt_path": null,
+          "tool_refs": [],
+          "local_path": "reports/all-garden/20261104/inputs/information.json",
+          "sha256": "2f77583558ad0a1d002f95d8227f09569806990abada70a2a256e82ca618fc64",
+          "summary": "This cross-lane pass reuses the cited return and its underlying sources; it adds no empirical corroboration.",
+          "limitations": [
+            "Interpretation supplied by Work; underlying source and timestamp limits remain."
+          ]
+        },
+        {
+          "source_id": "LANGUAGE-CONTEXT-RETURN-2",
+          "title": "Attributed specialist return: inputs/coordinator.json",
+          "url": "https://github.com/Jaradyne/Dis-Unity/blob/main/reports/all-garden/20261104/inputs/coordinator.json",
+          "publisher": "Dis-Unity participants",
+          "source_family": "RC015-inputs/coordinator.json",
+          "publication_date": null,
+          "observation_date": null,
+          "retrieved_at": "2026-11-07T10:46:07.208340+00:00",
+          "access_mode": "retained_repository",
+          "access_result": "Read saved participant return; not a fresh independent observation.",
+          "raw_receipt_path": null,
+          "tool_refs": [],
+          "local_path": "reports/all-garden/20261104/inputs/coordinator.json",
+          "sha256": "5c2759d7e3815ffbbb21ff1677462dea373162dd62b48cc09ce0e84de11ae565",
+          "summary": "This cross-lane pass reuses the cited return and its underlying sources; it adds no empirical corroboration.",
+          "limitations": [
+            "Interpretation supplied by Work; underlying source and timestamp limits remain."
+          ]
+        }
+      ],
+      "findings": [
+        {
+          "finding_id": "LANGUAGE-CONTEXT-01",
+          "claim": "The CSIS date conflict and CARE form-version/access gap survive the handoff. No matched multilingual comparison or language-based operator attribution was performed.",
+          "evidence_refs": [
+            "LANGUAGE-CONTEXT-RETURN-1",
+            "LANGUAGE-CONTEXT-RETURN-2"
+          ],
+          "epistemic_status": "DOCUMENTED",
+          "is_new_event": false,
+          "basis": "Review of retained return contents, not independent empirical validation."
+        }
+      ],
+      "counterevidence": [
+        "Different institutions may make consistent statements without independently verifying outcomes; inconsistent dates may reflect ordinary errors."
+      ],
+      "unknowns": [
+        "Empirical residuals remain with their originating lanes."
+      ],
+      "working_buffers": [
+        "Explicit attribution, shared references, review and human correction preserve competing explanations."
+      ],
+      "next_test": "If a consequential translation difference is proposed, inspect one matched official original/translation pair plus an ordinary control.",
+      "stop_reason": "One cross-lane inspection completed; no additional collection or authority activated.",
+      "authorship_limits": "Work-supplied cross-lane projection reuses specialist material and does not count as independent corroboration."
+    },
+    {
+      "lane_id": "customs-context",
+      "title": "Evidence admission and lineage",
+      "question_id": "Q-RC015-EVIDENCE-ADMISSION",
+      "epoch": 1,
+      "tree_id": "CUSTOMS",
+      "baseline_refs": [
+        "reports/all-garden/20261104/inputs/institutions.json",
+        "reports/all-garden/20261104/inputs/services.json",
+        "reports/all-garden/20261104/inputs/information.json",
+        "reports/all-garden/20261104/inputs/material.json",
+        "reports/all-garden/20261104/inputs/coordinator.json",
+        "docs/GARDEN_TRAVERSAL.md"
+      ],
+      "question": "Can all returns cross the evidence boundary without promoting UNKNOWNs, recycled sources or announcements?",
+      "inspection_status": "retained_only",
+      "sources": [
+        {
+          "source_id": "CUSTOMS-CONTEXT-RETURN-1",
+          "title": "Attributed specialist return: inputs/institutions.json",
+          "url": "https://github.com/Jaradyne/Dis-Unity/blob/main/reports/all-garden/20261104/inputs/institutions.json",
+          "publisher": "Dis-Unity participants",
+          "source_family": "RC015-inputs/institutions.json",
+          "publication_date": null,
+          "observation_date": null,
+          "retrieved_at": "2026-11-07T10:46:07.208340+00:00",
+          "access_mode": "retained_repository",
+          "access_result": "Read saved participant return; not a fresh independent observation.",
+          "raw_receipt_path": null,
+          "tool_refs": [],
+          "local_path": "reports/all-garden/20261104/inputs/institutions.json",
+          "sha256": "1cc6139b7bb2ba9e5bdce6fb214853b75434cbd5035338c2917f6c68ecf3ed6d",
+          "summary": "This cross-lane pass reuses the cited return and its underlying sources; it adds no empirical corroboration.",
+          "limitations": [
+            "Interpretation supplied by Work; underlying source and timestamp limits remain."
+          ]
+        },
+        {
+          "source_id": "CUSTOMS-CONTEXT-RETURN-2",
+          "title": "Attributed specialist return: inputs/services.json",
+          "url": "https://github.com/Jaradyne/Dis-Unity/blob/main/reports/all-garden/20261104/inputs/services.json",
+          "publisher": "Dis-Unity participants",
+          "source_family": "RC015-inputs/services.json",
+          "publication_date": null,
+          "observation_date": null,
+          "retrieved_at": "2026-11-07T10:46:07.208340+00:00",
+          "access_mode": "retained_repository",
+          "access_result": "Read saved participant return; not a fresh independent observation.",
+          "raw_receipt_path": null,
+          "tool_refs": [],
+          "local_path": "reports/all-garden/20261104/inputs/services.json",
+          "sha256": "5e9f014cfc01d816e648d1baa0f5432cad48f7b3fb9189567ecf87eee6742076",
+          "summary": "This cross-lane pass reuses the cited return and its underlying sources; it adds no empirical corroboration.",
+          "limitations": [
+            "Interpretation supplied by Work; underlying source and timestamp limits remain."
+          ]
+        },
+        {
+          "source_id": "CUSTOMS-CONTEXT-RETURN-3",
+          "title": "Attributed specialist return: inputs/information.json",
+          "url": "https://github.com/Jaradyne/Dis-Unity/blob/main/reports/all-garden/20261104/inputs/information.json",
+          "publisher": "Dis-Unity participants",
+          "source_family": "RC015-inputs/information.json",
+          "publication_date": null,
+          "observation_date": null,
+          "retrieved_at": "2026-11-07T10:46:07.208340+00:00",
+          "access_mode": "retained_repository",
+          "access_result": "Read saved participant return; not a fresh independent observation.",
+          "raw_receipt_path": null,
+          "tool_refs": [],
+          "local_path": "reports/all-garden/20261104/inputs/information.json",
+          "sha256": "2f77583558ad0a1d002f95d8227f09569806990abada70a2a256e82ca618fc64",
+          "summary": "This cross-lane pass reuses the cited return and its underlying sources; it adds no empirical corroboration.",
+          "limitations": [
+            "Interpretation supplied by Work; underlying source and timestamp limits remain."
+          ]
+        },
+        {
+          "source_id": "CUSTOMS-CONTEXT-RETURN-4",
+          "title": "Attributed specialist return: inputs/material.json",
+          "url": "https://github.com/Jaradyne/Dis-Unity/blob/main/reports/all-garden/20261104/inputs/material.json",
+          "publisher": "Dis-Unity participants",
+          "source_family": "RC015-inputs/material.json",
+          "publication_date": null,
+          "observation_date": null,
+          "retrieved_at": "2026-11-07T10:46:07.208340+00:00",
+          "access_mode": "retained_repository",
+          "access_result": "Read saved participant return; not a fresh independent observation.",
+          "raw_receipt_path": null,
+          "tool_refs": [],
+          "local_path": "reports/all-garden/20261104/inputs/material.json",
+          "sha256": "e4db587a9ffeaa77b9760ebceabb068861353059c8b983f4b725fb2c078949d8",
+          "summary": "This cross-lane pass reuses the cited return and its underlying sources; it adds no empirical corroboration.",
+          "limitations": [
+            "Interpretation supplied by Work; underlying source and timestamp limits remain."
+          ]
+        },
+        {
+          "source_id": "CUSTOMS-CONTEXT-RETURN-5",
+          "title": "Attributed specialist return: inputs/coordinator.json",
+          "url": "https://github.com/Jaradyne/Dis-Unity/blob/main/reports/all-garden/20261104/inputs/coordinator.json",
+          "publisher": "Dis-Unity participants",
+          "source_family": "RC015-inputs/coordinator.json",
+          "publication_date": null,
+          "observation_date": null,
+          "retrieved_at": "2026-11-07T10:46:07.208340+00:00",
+          "access_mode": "retained_repository",
+          "access_result": "Read saved participant return; not a fresh independent observation.",
+          "raw_receipt_path": null,
+          "tool_refs": [],
+          "local_path": "reports/all-garden/20261104/inputs/coordinator.json",
+          "sha256": "5c2759d7e3815ffbbb21ff1677462dea373162dd62b48cc09ce0e84de11ae565",
+          "summary": "This cross-lane pass reuses the cited return and its underlying sources; it adds no empirical corroboration.",
+          "limitations": [
+            "Interpretation supplied by Work; underlying source and timestamp limits remain."
+          ]
+        }
+      ],
+      "findings": [
+        {
+          "finding_id": "CUSTOMS-CONTEXT-01",
+          "claim": "All returns are review intake. Source families, uncertain outcomes, access failures and conflicting accounts remain visible; no canonical evidence admission occurs.",
+          "evidence_refs": [
+            "CUSTOMS-CONTEXT-RETURN-1",
+            "CUSTOMS-CONTEXT-RETURN-2",
+            "CUSTOMS-CONTEXT-RETURN-3",
+            "CUSTOMS-CONTEXT-RETURN-4",
+            "CUSTOMS-CONTEXT-RETURN-5"
+          ],
+          "epistemic_status": "DOCUMENTED",
+          "is_new_event": false,
+          "basis": "Review of retained return contents, not independent empirical validation."
+        }
+      ],
+      "counterevidence": [
+        "Different institutions may make consistent statements without independently verifying outcomes; inconsistent dates may reflect ordinary errors."
+      ],
+      "unknowns": [
+        "Empirical residuals remain with their originating lanes."
+      ],
+      "working_buffers": [
+        "Explicit attribution, shared references, review and human correction preserve competing explanations."
+      ],
+      "next_test": "Review one future qualifying outcome against its original source and prior assessment before any proposed admission.",
+      "stop_reason": "One cross-lane inspection completed; no additional collection or authority activated.",
+      "authorship_limits": "Work-supplied cross-lane projection reuses specialist material and does not count as independent corroboration."
+    }
+  ]
+}

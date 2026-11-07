@@ -1,0 +1,1067 @@
+{
+  "config_sha256": "39152c8d17954a1d9097a0c55351ced98ad702f402cb9c12a27b116f4c0d1655",
+  "events": [
+    {
+      "after": "2d29dd1b1320f86236ed0d1bb2fc4e560b81041d624eabe78cc7fd33757c1a5d",
+      "before": "172b1ccc11f23077714a27d315ee2e4e0b774580172eb540aeda23496086ac82",
+      "command": {
+        "actor": {
+          "model": "Work-session model identifier not recorded",
+          "name": "Work Aiden",
+          "runtime": "Supervised RC-015 assembly and supplied interpretation"
+        },
+        "branch_id": "B0",
+        "event_id": "RC015-MILITARY-CONSCIENCE-STEP-1",
+        "expected_revision": 0,
+        "kind": "step",
+        "node": "ROOT",
+        "output": {
+          "name": "Military conscience, ORA and independent legal advice"
+        }
+      },
+      "decision": {
+        "next_node": "ARRIVAL",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-11-07T10:46:07.208340+00:00"
+    },
+    {
+      "after": "374621e5aaec8c212886e042507938b01c2864d47954902524f6124a902d264c",
+      "before": "2d29dd1b1320f86236ed0d1bb2fc4e560b81041d624eabe78cc7fd33757c1a5d",
+      "command": {
+        "actor": {
+          "model": "Work-session model identifier not recorded",
+          "name": "Work Aiden",
+          "runtime": "Supervised RC-015 assembly and supplied interpretation"
+        },
+        "branch_id": "B0",
+        "event_id": "RC015-MILITARY-CONSCIENCE-STEP-2",
+        "expected_revision": 1,
+        "kind": "step",
+        "node": "ARRIVAL",
+        "output": {
+          "arrival": {
+            "from": "reports/all-garden/20261104/inputs/institutions.json",
+            "id": "RC015-MILITARY-CONSCIENCE-ARRIVAL",
+            "payload": {
+              "baseline_refs": [
+                "reports/military-conscience-and-institutional-safeguards/README.md",
+                "reports/military-conscience-and-institutional-safeguards/ora_sources.json#O01",
+                "reports/military-conscience-and-institutional-safeguards/legal_sources.json#J03",
+                "reports/military-conscience-and-institutional-safeguards/legal_sources.json#J15",
+                "operations/safeguards/journal.json",
+                "reports/continuity/DIGEST_HANDOFF.md"
+              ],
+              "inspection_status": "inconclusive",
+              "lane_id": "military-conscience",
+              "return_actor": "cycle15_institutions",
+              "return_sha256": "1cc6139b7bb2ba9e5bdce6fb214853b75434cbd5035338c2917f6c68ecf3ed6d"
+            },
+            "to": "INIT:ROOT-0001"
+          },
+          "language_glance": {
+            "basis": "unknown",
+            "issuing_office": "See each pinned source publisher",
+            "languages": [],
+            "note": "No matched original/translation inventory supplied by these returns.",
+            "source_refs": [
+              "RC015-ORA-ORIGINAL-RECHECK",
+              "RC015-JAG-ANNOUNCEMENT-RECHECK"
+            ],
+            "surface_kind": "mixed"
+          }
+        }
+      },
+      "decision": {
+        "next_node": "EPIST",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-11-07T10:46:07.208340+00:00"
+    },
+    {
+      "after": "f97f33fdc11bb95f72b35b2681f5b37be90dc3b281304d43ef8175ff64a0f933",
+      "before": "374621e5aaec8c212886e042507938b01c2864d47954902524f6124a902d264c",
+      "command": {
+        "actor": {
+          "model": "Work-session model identifier not recorded",
+          "name": "Work Aiden",
+          "runtime": "Supervised RC-015 assembly and supplied interpretation"
+        },
+        "branch_id": "B0",
+        "event_id": "RC015-MILITARY-CONSCIENCE-STEP-3",
+        "expected_revision": 2,
+        "kind": "step",
+        "node": "EPIST",
+        "output": {
+          "empirical_cutoff": "2026-11-04 America/Los_Angeles",
+          "inspection_time": "2026-11-05T04:17:42.375081+00:00",
+          "prompt": "Does the bounded public recheck establish an implemented ORA conscience protection or post-realignment independent JAG protective outcome?",
+          "starting_state": "Retain the dated baseline; inspect one bounded residual."
+        }
+      },
+      "decision": {
+        "next_node": "FUNC",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-11-07T10:46:07.208340+00:00"
+    },
+    {
+      "after": "d666e32a267baacf2511a7894f7e7ee746b1e154631d5e32253043127f2be9db",
+      "before": "f97f33fdc11bb95f72b35b2681f5b37be90dc3b281304d43ef8175ff64a0f933",
+      "command": {
+        "actor": {
+          "model": "Work-session model identifier not recorded",
+          "name": "Work Aiden",
+          "runtime": "Supervised RC-015 assembly and supplied interpretation"
+        },
+        "branch_id": "B0",
+        "event_id": "RC015-MILITARY-CONSCIENCE-STEP-4",
+        "expected_revision": 3,
+        "kind": "step",
+        "node": "FUNC",
+        "output": {
+          "findings": [
+            {
+              "basis": "Historical formal direction remains documented; the queried implementation/protection outcome is unverified in this bounded check.",
+              "claim": "The retained ORA direction changes the Chaplains Board reporting path and includes noncompulsion protections. This cycle did not verify an operative charter, assessment-to-career rule or completed conscience remedy.",
+              "epistemic_status": "UNKNOWN",
+              "evidence_refs": [
+                "reports/military-conscience-and-institutional-safeguards/ora_sources.json#O01",
+                "reports/continuity/DIGEST_HANDOFF.md",
+                "RC015-ORA-ORIGINAL-RECHECK"
+              ],
+              "finding_id": "RC015-MIL-01",
+              "is_new_event": false
+            },
+            {
+              "basis": "Announced reallocation and preservation language do not measure actual independent advice or remedy.",
+              "claim": "The March legal-review announcement can be reconfirmed through official indexed text; no completed JAG interference/advice disposition was obtained.",
+              "epistemic_status": "UNKNOWN",
+              "evidence_refs": [
+                "RC015-JAG-ANNOUNCEMENT-RECHECK",
+                "reports/military-conscience-and-institutional-safeguards/legal_sources.json#J15"
+              ],
+              "finding_id": "RC015-MIL-02",
+              "is_new_event": false
+            }
+          ],
+          "function": "Inspect evidence, outcome and access separately.",
+          "inspection_status": "inconclusive",
+          "research_actor": "cycle15_institutions",
+          "task": "Does the bounded public recheck establish an implemented ORA conscience protection or post-realignment independent JAG protective outcome?"
+        }
+      },
+      "decision": {
+        "next_node": "MIRROR",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-11-07T10:46:07.208340+00:00"
+    },
+    {
+      "after": "84cf595be636ca5f053e35ab27b209ef136e4afbaaee459dff00e897147f9dcc",
+      "before": "d666e32a267baacf2511a7894f7e7ee746b1e154631d5e32253043127f2be9db",
+      "command": {
+        "actor": {
+          "model": "Work-session model identifier not recorded",
+          "name": "Work Aiden",
+          "runtime": "Supervised RC-015 assembly and supplied interpretation"
+        },
+        "branch_id": "B0",
+        "event_id": "RC015-MILITARY-CONSCIENCE-STEP-5",
+        "expected_revision": 4,
+        "kind": "step",
+        "node": "MIRROR",
+        "output": {
+          "comparisons": [
+            {
+              "answers": [],
+              "explanation": "O01 retains protection for any faith or no faith and forbids compelled participation; ORA’s 60-/90-day planning milestones were still future on November4.",
+              "queries": []
+            },
+            {
+              "answers": [],
+              "explanation": "J03’s enacted notice/qualified-advice provisions and J15’s statutory-independence clause remain formal counterconstraints. They do not establish operational success.",
+              "queries": []
+            },
+            {
+              "answers": [],
+              "explanation": "The command-assessment development described in B05 predates ORA; chronology does not prove an ORA career-selection mechanism.",
+              "queries": []
+            }
+          ],
+          "information_lineage": {
+            "api_record_refs": [],
+            "criteria_refs": [
+              "reports/all-garden/20261104/RETURN_CONTRACT.json"
+            ],
+            "parent_answer_visible": true,
+            "parent_output_refs": [
+              "reports/military-conscience-and-institutional-safeguards/README.md",
+              "reports/military-conscience-and-institutional-safeguards/ora_sources.json#O01",
+              "reports/military-conscience-and-institutional-safeguards/legal_sources.json#J03",
+              "reports/military-conscience-and-institutional-safeguards/legal_sources.json#J15",
+              "operations/safeguards/journal.json",
+              "reports/continuity/DIGEST_HANDOFF.md"
+            ],
+            "source_refs": [
+              "RC015-ORA-ORIGINAL-RECHECK",
+              "RC015-JAG-ANNOUNCEMENT-RECHECK"
+            ],
+            "test_origin": "inherited"
+          },
+          "working_buffers": [
+            "Formal noncompulsion, qualified legal advice and review routes remain documented possibilities; usable access and successful remedies are unverified."
+          ]
+        }
+      },
+      "decision": {
+        "next_node": "CROSS",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-11-07T10:46:07.208340+00:00"
+    },
+    {
+      "after": "547ddb699e55c13c8aabc707a05015630948bbb0229fee8071d93ad5b6e4b8e9",
+      "before": "84cf595be636ca5f053e35ab27b209ef136e4afbaaee459dff00e897147f9dcc",
+      "command": {
+        "actor": {
+          "model": "Work-session model identifier not recorded",
+          "name": "Work Aiden",
+          "runtime": "Supervised RC-015 assembly and supplied interpretation"
+        },
+        "branch_id": "B0",
+        "event_id": "RC015-MILITARY-CONSCIENCE-STEP-6",
+        "expected_revision": 5,
+        "kind": "step",
+        "node": "CROSS",
+        "output": {
+          "bridge": [
+            {
+              "question": "Inspect one public anonymized ORA-linked conscience/accommodation disposition that records the request, access to review, decision and consequences; preserve UNKNOWN if none is available.",
+              "source_refs": [
+                "RC015-ORA-ORIGINAL-RECHECK",
+                "RC015-JAG-ANNOUNCEMENT-RECHECK"
+              ],
+              "status": "proposed_only"
+            }
+          ],
+          "independent": [],
+          "inherited": [
+            {
+              "ref": "RC015-ORA-ORIGINAL-RECHECK"
+            },
+            {
+              "ref": "RC015-JAG-ANNOUNCEMENT-RECHECK"
+            }
+          ]
+        }
+      },
+      "decision": {
+        "next_node": "RESID",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-11-07T10:46:07.208340+00:00"
+    },
+    {
+      "after": "5dd5e1f5454fb4682c5a74132ef6ecdbae2dd011c2f14713e24f1b60cca4a70b",
+      "before": "547ddb699e55c13c8aabc707a05015630948bbb0229fee8071d93ad5b6e4b8e9",
+      "command": {
+        "actor": {
+          "model": "Work-session model identifier not recorded",
+          "name": "Work Aiden",
+          "runtime": "Supervised RC-015 assembly and supplied interpretation"
+        },
+        "branch_id": "B0",
+        "event_id": "RC015-MILITARY-CONSCIENCE-STEP-7",
+        "expected_revision": 6,
+        "kind": "step",
+        "node": "RESID",
+        "output": {
+          "next_test": "Inspect one public anonymized ORA-linked conscience/accommodation disposition that records the request, access to review, decision and consequences; preserve UNKNOWN if none is available.",
+          "predicates": {
+            "consequential": true,
+            "distinct_functions": false,
+            "language_exception": null
+          },
+          "summary": "Actual Board reporting practice and current implementing charter. ORA assessment fields, identifiable-data access, consent/refusal handling and personnel use. A substantiated conscience/appeal outcome or post-realignment JAG advice/interference disposition."
+        }
+      },
+      "decision": {
+        "next_node": "MEAN",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-11-07T10:46:07.208340+00:00"
+    },
+    {
+      "after": "b5c001ce6ee6ba7d6884dc92a92afb81f665d2b7d9c2263ab6a4a9e4856952c1",
+      "before": "5dd5e1f5454fb4682c5a74132ef6ecdbae2dd011c2f14713e24f1b60cca4a70b",
+      "command": {
+        "actor": {
+          "model": "Work-session model identifier not recorded",
+          "name": "Work Aiden",
+          "runtime": "Supervised RC-015 assembly and supplied interpretation"
+        },
+        "branch_id": "B0",
+        "event_id": "RC015-MILITARY-CONSCIENCE-STEP-8",
+        "expected_revision": 7,
+        "kind": "step",
+        "node": "MEAN",
+        "output": {
+          "authorship_limits": "Fresh bounded search and access checks by cycle15_institutions; no service-level audit, legal adjudication or independent replication of the retained memorandum.",
+          "summary": "Read the attributed findings with their contrary evidence and residuals."
+        }
+      },
+      "decision": {
+        "next_node": "EXIT",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-11-07T10:46:07.208340+00:00"
+    },
+    {
+      "after": "8c57d1b35c5d02c4d5fc7551ef7edbf481b279713335e2303513cf4b4d48bc40",
+      "before": "b5c001ce6ee6ba7d6884dc92a92afb81f665d2b7d9c2263ab6a4a9e4856952c1",
+      "command": {
+        "actor": {
+          "model": "Work-session model identifier not recorded",
+          "name": "Work Aiden",
+          "runtime": "Supervised RC-015 assembly and supplied interpretation"
+        },
+        "branch_id": "B0",
+        "event_id": "RC015-MILITARY-CONSCIENCE-STEP-9",
+        "expected_revision": 8,
+        "kind": "step",
+        "node": "EXIT",
+        "output": {
+          "kind": "question",
+          "summary": "Inspect one public anonymized ORA-linked conscience/accommodation disposition that records the request, access to review, decision and consequences; preserve UNKNOWN if none is available."
+        }
+      },
+      "decision": {
+        "next_node": "RETURN",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-11-07T10:46:07.208340+00:00"
+    },
+    {
+      "after": "e1a1d018b8d4fabe82daa08d1d4346b085e948afbad62660e4744542ee3c3876",
+      "before": "8c57d1b35c5d02c4d5fc7551ef7edbf481b279713335e2303513cf4b4d48bc40",
+      "command": {
+        "actor": {
+          "model": "Work-session model identifier not recorded",
+          "name": "Work Aiden",
+          "runtime": "Supervised RC-015 assembly and supplied interpretation"
+        },
+        "branch_id": "B0",
+        "event_id": "RC015-MILITARY-CONSCIENCE-STEP-10",
+        "expected_revision": 9,
+        "kind": "step",
+        "node": "RETURN",
+        "output": {
+          "new_arrival": null,
+          "reason": "Allocated search budget exhausted and two official direct opens blocked; no inference drawn from non-retrieval."
+        }
+      },
+      "decision": {
+        "reason": "No new arrival supplied",
+        "status": "rest"
+      },
+      "recorded_at": "2026-11-07T10:46:07.208340+00:00"
+    }
+  ],
+  "initial": {
+    "config": {
+      "authority": "Reviewed configuration determines eligible routes. Supplied content cannot edit this graph or activate morphology.",
+      "grammar": {
+        "crosscheck": {
+          "basic": "Collector capability",
+          "consequential_residual": "May request or propose teleport to a bounded Pygent Collector/specialist",
+          "permanent_crosscheck_bee": "Unresolved pending repeated cases showing the value of persistent specialist memory"
+        },
+        "entry": "INIT:ROOT-0001",
+        "external_execution": false,
+        "governor_input_refs": [
+          "daily_scroll",
+          "reflection_mailbox",
+          "meaning_tower",
+          "chair_imagination",
+          "meaning_boss_result"
+        ],
+        "routes": [
+          {
+            "automatic_execution": false,
+            "from": "INIT:RESID-0007",
+            "status": "available_not_running",
+            "to": "INIT:RETURN-0010",
+            "via": "PYGENT:PARALLAX-0001"
+          }
+        ],
+        "schema_version": "garden-config-0.1",
+        "status": "on_demand_grammar_prototype",
+        "trees": {
+          "INIT": {
+            "name": "Initiating Garden",
+            "nodes": [
+              {
+                "id": "ROOT-0001",
+                "purpose": "Pass name and identity"
+              },
+              {
+                "id": "ARRIVAL-0002",
+                "purpose": "What arrived, from where, sent to where"
+              },
+              {
+                "id": "EPIST-0003",
+                "purpose": "Prompt/question and starting epistemic state"
+              },
+              {
+                "id": "FUNC-0004",
+                "purpose": "Task and function being investigated"
+              },
+              {
+                "id": "MIRROR-0005",
+                "purpose": "Competing explanations, queries and recorded answers"
+              },
+              {
+                "id": "CROSS-0006",
+                "purpose": "Inherited, independently derived and deliberate bridge attachments"
+              },
+              {
+                "id": "RESID-0007",
+                "purpose": "Surviving residual and bounded specialist proposal"
+              },
+              {
+                "id": "MEAN-0008",
+                "purpose": "Changed meaning and non-evidence culture flower"
+              },
+              {
+                "id": "EXIT-0009",
+                "purpose": "Bounded answer, question, teleport, silence or error"
+              },
+              {
+                "id": "RETURN-0010",
+                "purpose": "New linked arrival or rest"
+              }
+            ]
+          },
+          "PYGENT": {
+            "name": "Bounded specialist destinations",
+            "nodes": [
+              {
+                "id": "PARALLAX-0001",
+                "purpose": "One bounded matched official-language Boss Packet",
+                "role": "parallax_collector_bee",
+                "status": "available_not_running"
+              }
+            ]
+          }
+        }
+      },
+      "independence": "A different branch, tree, context or model is not independent empirical evidence.",
+      "limits": {
+        "max_branches": 8,
+        "max_events": 128,
+        "max_fanout": 3,
+        "max_steps": 80,
+        "model_calls": 0
+      },
+      "model_execution": false,
+      "node_contracts": {
+        "ARRIVAL": {
+          "objects": [
+            "arrival",
+            "language_glance"
+          ]
+        },
+        "CROSS": {
+          "lists": [
+            "inherited",
+            "independent",
+            "bridge"
+          ]
+        },
+        "EPIST": {
+          "strings": [
+            "prompt",
+            "starting_state"
+          ]
+        },
+        "EXIT": {
+          "strings": [
+            "kind",
+            "summary"
+          ]
+        },
+        "FUNC": {
+          "strings": [
+            "task",
+            "function"
+          ]
+        },
+        "MEAN": {
+          "strings": [
+            "summary"
+          ]
+        },
+        "MIRROR": {
+          "lists": [
+            "comparisons"
+          ],
+          "objects": [
+            "information_lineage"
+          ]
+        },
+        "RESID": {
+          "objects": [
+            "predicates"
+          ],
+          "strings": [
+            "summary"
+          ]
+        },
+        "RETURN": {
+          "strings": [
+            "reason"
+          ]
+        },
+        "ROOT": {
+          "strings": [
+            "name"
+          ]
+        }
+      },
+      "rules": [
+        {
+          "actions": [
+            "MOVE",
+            "CLONE"
+          ],
+          "at": [
+            "RESID",
+            "MEAN",
+            "EXIT",
+            "RETURN"
+          ],
+          "condition": {
+            "members": [
+              "consequential",
+              "language_exception"
+            ],
+            "op": "AND"
+          },
+          "from": [
+            "INIT",
+            "ECONOMICS",
+            "PRODUCTION",
+            "DIPLOMACY",
+            "LANGUAGE",
+            "CUSTOMS",
+            "HOMELESSNESS"
+          ],
+          "id": "LANGUAGE-EXCEPTION",
+          "review_required": false,
+          "to": [
+            "LANGUAGE"
+          ]
+        },
+        {
+          "actions": [
+            "MOVE",
+            "CLONE",
+            "FANOUT"
+          ],
+          "at": [
+            "RESID",
+            "MEAN",
+            "EXIT",
+            "RETURN"
+          ],
+          "condition": {
+            "members": [
+              "consequential",
+              "distinct_functions"
+            ],
+            "op": "AND"
+          },
+          "from": [
+            "INIT",
+            "ECONOMICS",
+            "PRODUCTION",
+            "DIPLOMACY",
+            "LANGUAGE",
+            "CUSTOMS",
+            "HOMELESSNESS"
+          ],
+          "id": "DOMAIN-BRANCH",
+          "review_required": true,
+          "to": [
+            "INIT",
+            "ECONOMICS",
+            "PRODUCTION",
+            "DIPLOMACY",
+            "LANGUAGE",
+            "CUSTOMS",
+            "HOMELESSNESS"
+          ]
+        }
+      ],
+      "schema_version": "garden-traversal-config-1",
+      "status": "supplied_content_runtime",
+      "trees": {
+        "CUSTOMS": {
+          "name": "Customs Authority",
+          "node_template": "INIT",
+          "status": "traversable_with_supplied_content"
+        },
+        "DIPLOMACY": {
+          "name": "Diplomacy",
+          "node_template": "INIT",
+          "status": "traversable_with_supplied_content"
+        },
+        "ECONOMICS": {
+          "name": "Economics",
+          "node_template": "INIT",
+          "status": "traversable_with_supplied_content"
+        },
+        "HOMELESSNESS": {
+          "name": "Homelessness Governance and Integrity",
+          "node_template": "INIT",
+          "status": "traversable_with_supplied_content"
+        },
+        "INIT": {
+          "name": "Initiating Garden",
+          "node_template": "INIT",
+          "status": "traversable_with_supplied_content"
+        },
+        "LANGUAGE": {
+          "name": "Language Exception",
+          "node_template": "INIT",
+          "status": "traversable_with_supplied_content"
+        },
+        "PRODUCTION": {
+          "name": "Production",
+          "node_template": "INIT",
+          "status": "traversable_with_supplied_content"
+        }
+      }
+    },
+    "packet": {
+      "actor": {
+        "model": "Work-session model identifier not recorded",
+        "name": "Work Aiden",
+        "runtime": "Supervised RC-015 assembly and supplied interpretation"
+      },
+      "arrival": {
+        "from": "reports/all-garden/20261104/inputs/institutions.json",
+        "id": "RC015-MILITARY-CONSCIENCE-ARRIVAL",
+        "payload": {
+          "baseline_refs": [
+            "reports/military-conscience-and-institutional-safeguards/README.md",
+            "reports/military-conscience-and-institutional-safeguards/ora_sources.json#O01",
+            "reports/military-conscience-and-institutional-safeguards/legal_sources.json#J03",
+            "reports/military-conscience-and-institutional-safeguards/legal_sources.json#J15",
+            "operations/safeguards/journal.json",
+            "reports/continuity/DIGEST_HANDOFF.md"
+          ],
+          "inspection_status": "inconclusive",
+          "lane_id": "military-conscience",
+          "return_actor": "cycle15_institutions",
+          "return_sha256": "1cc6139b7bb2ba9e5bdce6fb214853b75434cbd5035338c2917f6c68ecf3ed6d"
+        },
+        "to": "INIT:ROOT-0001"
+      },
+      "budget": {
+        "max_branches": 1,
+        "max_events": 10,
+        "max_fanout": 0,
+        "max_steps": 10,
+        "model_calls": 0
+      },
+      "epoch": 1,
+      "focus": "Does the bounded public recheck establish an implemented ORA conscience protection or post-realignment independent JAG protective outcome?",
+      "question_id": "Q-SG-ORA-CONSCIENCE",
+      "run_id": "RC015-MILITARY-CONSCIENCE",
+      "sources": [
+        {
+          "binding": {
+            "lane_id": "military-conscience",
+            "path": "reports/all-garden/20261104/inputs/institutions.json",
+            "sha256": "93f1ecb18a30b57206e9a92b2f45dfb150fb0c32c32a153b4ed30dba62649866",
+            "source_id": "RC015-ORA-ORIGINAL-RECHECK"
+          },
+          "kind": "public_source",
+          "lineage_id": "September30 ORA memorandum",
+          "ref": "RC015-ORA-ORIGINAL-RECHECK"
+        },
+        {
+          "binding": {
+            "lane_id": "military-conscience",
+            "path": "reports/all-garden/20261104/inputs/institutions.json",
+            "sha256": "719d17c65289ddb7d67da787806b5bef2df59900da64e809fe065e27088fbea9",
+            "source_id": "RC015-JAG-ANNOUNCEMENT-RECHECK"
+          },
+          "kind": "public_source",
+          "lineage_id": "March2026 legal-functions memorandum",
+          "ref": "RC015-JAG-ANNOUNCEMENT-RECHECK"
+        }
+      ],
+      "tree": "INIT"
+    },
+    "registry": {
+      "questions": {
+        "Q-SG-ORA-CONSCIENCE": {
+          "epoch": 1
+        }
+      }
+    }
+  },
+  "schema_version": "garden-traversal-1",
+  "state": {
+    "branches": {
+      "B0": {
+        "epoch": 1,
+        "focus": "Does the bounded public recheck establish an implemented ORA conscience protection or post-realignment independent JAG protective outcome?",
+        "id": "B0",
+        "lineage": {
+          "independent_evidence": false,
+          "source_refs": [
+            "RC015-ORA-ORIGINAL-RECHECK",
+            "RC015-JAG-ANNOUNCEMENT-RECHECK"
+          ]
+        },
+        "parent_branch": null,
+        "question_id": "Q-SG-ORA-CONSCIENCE",
+        "rest": {
+          "kind": "return",
+          "reason": "No new arrival supplied"
+        },
+        "root_branch": "B0",
+        "seen_arrival_ids": [
+          "RC015-MILITARY-CONSCIENCE-ARRIVAL"
+        ],
+        "status": "resting",
+        "visited": [
+          {
+            "payload_hash": "d8bdd22c37b7d06ffdfad07d72b529522695485d21c9b13f59c821a5b4361326",
+            "tree": "INIT"
+          }
+        ],
+        "visits": [
+          {
+            "arrival": {
+              "from": "reports/all-garden/20261104/inputs/institutions.json",
+              "id": "RC015-MILITARY-CONSCIENCE-ARRIVAL",
+              "payload": {
+                "baseline_refs": [
+                  "reports/military-conscience-and-institutional-safeguards/README.md",
+                  "reports/military-conscience-and-institutional-safeguards/ora_sources.json#O01",
+                  "reports/military-conscience-and-institutional-safeguards/legal_sources.json#J03",
+                  "reports/military-conscience-and-institutional-safeguards/legal_sources.json#J15",
+                  "operations/safeguards/journal.json",
+                  "reports/continuity/DIGEST_HANDOFF.md"
+                ],
+                "inspection_status": "inconclusive",
+                "lane_id": "military-conscience",
+                "return_actor": "cycle15_institutions",
+                "return_sha256": "1cc6139b7bb2ba9e5bdce6fb214853b75434cbd5035338c2917f6c68ecf3ed6d"
+              },
+              "to": "INIT:ROOT-0001"
+            },
+            "status": "completed",
+            "steps": [
+              {
+                "actor": {
+                  "model": "Work-session model identifier not recorded",
+                  "name": "Work Aiden",
+                  "runtime": "Supervised RC-015 assembly and supplied interpretation"
+                },
+                "event_id": "RC015-MILITARY-CONSCIENCE-STEP-1",
+                "node": "ROOT",
+                "output": {
+                  "name": "Military conscience, ORA and independent legal advice"
+                }
+              },
+              {
+                "actor": {
+                  "model": "Work-session model identifier not recorded",
+                  "name": "Work Aiden",
+                  "runtime": "Supervised RC-015 assembly and supplied interpretation"
+                },
+                "event_id": "RC015-MILITARY-CONSCIENCE-STEP-2",
+                "node": "ARRIVAL",
+                "output": {
+                  "arrival": {
+                    "from": "reports/all-garden/20261104/inputs/institutions.json",
+                    "id": "RC015-MILITARY-CONSCIENCE-ARRIVAL",
+                    "payload": {
+                      "baseline_refs": [
+                        "reports/military-conscience-and-institutional-safeguards/README.md",
+                        "reports/military-conscience-and-institutional-safeguards/ora_sources.json#O01",
+                        "reports/military-conscience-and-institutional-safeguards/legal_sources.json#J03",
+                        "reports/military-conscience-and-institutional-safeguards/legal_sources.json#J15",
+                        "operations/safeguards/journal.json",
+                        "reports/continuity/DIGEST_HANDOFF.md"
+                      ],
+                      "inspection_status": "inconclusive",
+                      "lane_id": "military-conscience",
+                      "return_actor": "cycle15_institutions",
+                      "return_sha256": "1cc6139b7bb2ba9e5bdce6fb214853b75434cbd5035338c2917f6c68ecf3ed6d"
+                    },
+                    "to": "INIT:ROOT-0001"
+                  },
+                  "language_glance": {
+                    "basis": "unknown",
+                    "issuing_office": "See each pinned source publisher",
+                    "languages": [],
+                    "note": "No matched original/translation inventory supplied by these returns.",
+                    "source_refs": [
+                      "RC015-ORA-ORIGINAL-RECHECK",
+                      "RC015-JAG-ANNOUNCEMENT-RECHECK"
+                    ],
+                    "surface_kind": "mixed"
+                  }
+                }
+              },
+              {
+                "actor": {
+                  "model": "Work-session model identifier not recorded",
+                  "name": "Work Aiden",
+                  "runtime": "Supervised RC-015 assembly and supplied interpretation"
+                },
+                "event_id": "RC015-MILITARY-CONSCIENCE-STEP-3",
+                "node": "EPIST",
+                "output": {
+                  "empirical_cutoff": "2026-11-04 America/Los_Angeles",
+                  "inspection_time": "2026-11-05T04:17:42.375081+00:00",
+                  "prompt": "Does the bounded public recheck establish an implemented ORA conscience protection or post-realignment independent JAG protective outcome?",
+                  "starting_state": "Retain the dated baseline; inspect one bounded residual."
+                }
+              },
+              {
+                "actor": {
+                  "model": "Work-session model identifier not recorded",
+                  "name": "Work Aiden",
+                  "runtime": "Supervised RC-015 assembly and supplied interpretation"
+                },
+                "event_id": "RC015-MILITARY-CONSCIENCE-STEP-4",
+                "node": "FUNC",
+                "output": {
+                  "findings": [
+                    {
+                      "basis": "Historical formal direction remains documented; the queried implementation/protection outcome is unverified in this bounded check.",
+                      "claim": "The retained ORA direction changes the Chaplains Board reporting path and includes noncompulsion protections. This cycle did not verify an operative charter, assessment-to-career rule or completed conscience remedy.",
+                      "epistemic_status": "UNKNOWN",
+                      "evidence_refs": [
+                        "reports/military-conscience-and-institutional-safeguards/ora_sources.json#O01",
+                        "reports/continuity/DIGEST_HANDOFF.md",
+                        "RC015-ORA-ORIGINAL-RECHECK"
+                      ],
+                      "finding_id": "RC015-MIL-01",
+                      "is_new_event": false
+                    },
+                    {
+                      "basis": "Announced reallocation and preservation language do not measure actual independent advice or remedy.",
+                      "claim": "The March legal-review announcement can be reconfirmed through official indexed text; no completed JAG interference/advice disposition was obtained.",
+                      "epistemic_status": "UNKNOWN",
+                      "evidence_refs": [
+                        "RC015-JAG-ANNOUNCEMENT-RECHECK",
+                        "reports/military-conscience-and-institutional-safeguards/legal_sources.json#J15"
+                      ],
+                      "finding_id": "RC015-MIL-02",
+                      "is_new_event": false
+                    }
+                  ],
+                  "function": "Inspect evidence, outcome and access separately.",
+                  "inspection_status": "inconclusive",
+                  "research_actor": "cycle15_institutions",
+                  "task": "Does the bounded public recheck establish an implemented ORA conscience protection or post-realignment independent JAG protective outcome?"
+                }
+              },
+              {
+                "actor": {
+                  "model": "Work-session model identifier not recorded",
+                  "name": "Work Aiden",
+                  "runtime": "Supervised RC-015 assembly and supplied interpretation"
+                },
+                "event_id": "RC015-MILITARY-CONSCIENCE-STEP-5",
+                "node": "MIRROR",
+                "output": {
+                  "comparisons": [
+                    {
+                      "answers": [],
+                      "explanation": "O01 retains protection for any faith or no faith and forbids compelled participation; ORA’s 60-/90-day planning milestones were still future on November4.",
+                      "queries": []
+                    },
+                    {
+                      "answers": [],
+                      "explanation": "J03’s enacted notice/qualified-advice provisions and J15’s statutory-independence clause remain formal counterconstraints. They do not establish operational success.",
+                      "queries": []
+                    },
+                    {
+                      "answers": [],
+                      "explanation": "The command-assessment development described in B05 predates ORA; chronology does not prove an ORA career-selection mechanism.",
+                      "queries": []
+                    }
+                  ],
+                  "information_lineage": {
+                    "api_record_refs": [],
+                    "criteria_refs": [
+                      "reports/all-garden/20261104/RETURN_CONTRACT.json"
+                    ],
+                    "parent_answer_visible": true,
+                    "parent_output_refs": [
+                      "reports/military-conscience-and-institutional-safeguards/README.md",
+                      "reports/military-conscience-and-institutional-safeguards/ora_sources.json#O01",
+                      "reports/military-conscience-and-institutional-safeguards/legal_sources.json#J03",
+                      "reports/military-conscience-and-institutional-safeguards/legal_sources.json#J15",
+                      "operations/safeguards/journal.json",
+                      "reports/continuity/DIGEST_HANDOFF.md"
+                    ],
+                    "source_refs": [
+                      "RC015-ORA-ORIGINAL-RECHECK",
+                      "RC015-JAG-ANNOUNCEMENT-RECHECK"
+                    ],
+                    "test_origin": "inherited"
+                  },
+                  "working_buffers": [
+                    "Formal noncompulsion, qualified legal advice and review routes remain documented possibilities; usable access and successful remedies are unverified."
+                  ]
+                }
+              },
+              {
+                "actor": {
+                  "model": "Work-session model identifier not recorded",
+                  "name": "Work Aiden",
+                  "runtime": "Supervised RC-015 assembly and supplied interpretation"
+                },
+                "event_id": "RC015-MILITARY-CONSCIENCE-STEP-6",
+                "node": "CROSS",
+                "output": {
+                  "bridge": [
+                    {
+                      "question": "Inspect one public anonymized ORA-linked conscience/accommodation disposition that records the request, access to review, decision and consequences; preserve UNKNOWN if none is available.",
+                      "source_refs": [
+                        "RC015-ORA-ORIGINAL-RECHECK",
+                        "RC015-JAG-ANNOUNCEMENT-RECHECK"
+                      ],
+                      "status": "proposed_only"
+                    }
+                  ],
+                  "independent": [],
+                  "inherited": [
+                    {
+                      "ref": "RC015-ORA-ORIGINAL-RECHECK"
+                    },
+                    {
+                      "ref": "RC015-JAG-ANNOUNCEMENT-RECHECK"
+                    }
+                  ]
+                }
+              },
+              {
+                "actor": {
+                  "model": "Work-session model identifier not recorded",
+                  "name": "Work Aiden",
+                  "runtime": "Supervised RC-015 assembly and supplied interpretation"
+                },
+                "event_id": "RC015-MILITARY-CONSCIENCE-STEP-7",
+                "node": "RESID",
+                "output": {
+                  "next_test": "Inspect one public anonymized ORA-linked conscience/accommodation disposition that records the request, access to review, decision and consequences; preserve UNKNOWN if none is available.",
+                  "predicates": {
+                    "consequential": true,
+                    "distinct_functions": false,
+                    "language_exception": null
+                  },
+                  "summary": "Actual Board reporting practice and current implementing charter. ORA assessment fields, identifiable-data access, consent/refusal handling and personnel use. A substantiated conscience/appeal outcome or post-realignment JAG advice/interference disposition."
+                }
+              },
+              {
+                "actor": {
+                  "model": "Work-session model identifier not recorded",
+                  "name": "Work Aiden",
+                  "runtime": "Supervised RC-015 assembly and supplied interpretation"
+                },
+                "event_id": "RC015-MILITARY-CONSCIENCE-STEP-8",
+                "node": "MEAN",
+                "output": {
+                  "authorship_limits": "Fresh bounded search and access checks by cycle15_institutions; no service-level audit, legal adjudication or independent replication of the retained memorandum.",
+                  "summary": "Read the attributed findings with their contrary evidence and residuals."
+                }
+              },
+              {
+                "actor": {
+                  "model": "Work-session model identifier not recorded",
+                  "name": "Work Aiden",
+                  "runtime": "Supervised RC-015 assembly and supplied interpretation"
+                },
+                "event_id": "RC015-MILITARY-CONSCIENCE-STEP-9",
+                "node": "EXIT",
+                "output": {
+                  "kind": "question",
+                  "summary": "Inspect one public anonymized ORA-linked conscience/accommodation disposition that records the request, access to review, decision and consequences; preserve UNKNOWN if none is available."
+                }
+              },
+              {
+                "actor": {
+                  "model": "Work-session model identifier not recorded",
+                  "name": "Work Aiden",
+                  "runtime": "Supervised RC-015 assembly and supplied interpretation"
+                },
+                "event_id": "RC015-MILITARY-CONSCIENCE-STEP-10",
+                "node": "RETURN",
+                "output": {
+                  "new_arrival": null,
+                  "reason": "Allocated search budget exhausted and two official direct opens blocked; no inference drawn from non-retrieval."
+                }
+              }
+            ],
+            "tree": "INIT"
+          }
+        ]
+      }
+    },
+    "epoch": 1,
+    "limits": {
+      "max_branches": 1,
+      "max_events": 10,
+      "max_fanout": 0,
+      "max_steps": 10,
+      "model_calls": 0
+    },
+    "question_id": "Q-SG-ORA-CONSCIENCE",
+    "revision": 10,
+    "route_decisions": [],
+    "route_signatures": [],
+    "run_id": "RC015-MILITARY-CONSCIENCE",
+    "sources": {
+      "RC015-JAG-ANNOUNCEMENT-RECHECK": {
+        "binding": {
+          "lane_id": "military-conscience",
+          "path": "reports/all-garden/20261104/inputs/institutions.json",
+          "sha256": "719d17c65289ddb7d67da787806b5bef2df59900da64e809fe065e27088fbea9",
+          "source_id": "RC015-JAG-ANNOUNCEMENT-RECHECK"
+        },
+        "kind": "public_source",
+        "lineage_id": "March2026 legal-functions memorandum",
+        "ref": "RC015-JAG-ANNOUNCEMENT-RECHECK"
+      },
+      "RC015-ORA-ORIGINAL-RECHECK": {
+        "binding": {
+          "lane_id": "military-conscience",
+          "path": "reports/all-garden/20261104/inputs/institutions.json",
+          "sha256": "93f1ecb18a30b57206e9a92b2f45dfb150fb0c32c32a153b4ed30dba62649866",
+          "source_id": "RC015-ORA-ORIGINAL-RECHECK"
+        },
+        "kind": "public_source",
+        "lineage_id": "September30 ORA memorandum",
+        "ref": "RC015-ORA-ORIGINAL-RECHECK"
+      }
+    },
+    "used": {
+      "branches": 1,
+      "model_calls": 0,
+      "steps": 10
+    }
+  },
+  "state_sha256": "e1a1d018b8d4fabe82daa08d1d4346b085e948afbad62660e4744542ee3c3876"
+}

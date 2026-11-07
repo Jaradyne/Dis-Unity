@@ -1,0 +1,262 @@
+{
+  "version": "all-garden-return-1",
+  "actor": "cycle15_information",
+  "cycle_id": "RC-015",
+  "checked_at": "2026-11-05T04:17:34.119482+00:00",
+  "cutoff_date": "2026-11-04",
+  "cutoff_timezone": "America/Los_Angeles",
+  "research_bounds": {
+    "search_queries_used": 2,
+    "document_opens_used": 3,
+    "public_source_only": true,
+    "raw_http_receipts": 0,
+    "monitoring": false,
+    "outreach": false
+  },
+  "lanes": [
+    {
+      "lane_id": "information-integrity",
+      "title": "Information Integrity and Public Conversation",
+      "question_id": "Q-INFORMATION-INTEGRITY-CSIS-2018",
+      "epoch": 1,
+      "tree_id": "INFORMATION-INTEGRITY",
+      "baseline_refs": [
+        "reports/information-integrity/20261028/README.md",
+        "reports/information-integrity/20261028/sources.json",
+        "operations/information-integrity/20261028/case.json"
+      ],
+      "question": "Can the public CSIS event archive resolve the event date and verify chat messages or moderation?",
+      "inspection_status": "new_evidence",
+      "sources": [
+        {
+          "source_id": "RC015-II-CSIS-BLOG-RECHECK",
+          "title": "Kremlin Playbook Spotlight: A Washington Think-Tank Event and a Russian Troll",
+          "url": "https://www.csis.org/blogs/kremlin-playbook-spotlight/kremlin-playbook-spotlight-washington-think-tank-event-and-russian",
+          "publisher": "CSIS; Heather A. Conley and Holly Geffs",
+          "source_family": "CSIS-20181009-LIVECHAT-REPORT",
+          "publication_date": "2018-10-09",
+          "observation_date": null,
+          "reported_observation_date": "2018-06-25",
+          "retrieved_at": "2026-11-05T04:17:34.119482+00:00",
+          "access_mode": "search_index",
+          "access_result": "Substantial indexed text returned; direct open returned HTTP403.",
+          "raw_receipt_path": null,
+          "tool_refs": [
+            "turn124search0",
+            "turn128view0"
+          ],
+          "summary": "The indexed host account still reports disruptive chat and assesses likely Russian-troll activity. It dates the event June25; that conflicts with the event archive and transcript.",
+          "limitations": [
+            "Reinspection of the same report is not independent corroboration.",
+            "No raw chat, telemetry or attribution investigation replicated.",
+            "The reported event date conflicts with other records from the same publisher."
+          ]
+        },
+        {
+          "source_id": "RC015-II-CSIS-EVENT-ARCHIVE",
+          "title": "Transatlantic Relations at a Crossroads: A Conversation with European Commission President Jean-Claude Juncker",
+          "url": "https://www.csis.org/events/transatlantic-relations-crossroads-conversation-european-commission-president-jean-claude",
+          "publisher": "CSIS",
+          "source_family": "CSIS-JUNCKER-EVENT-20180725",
+          "publication_date": null,
+          "observation_date": "2018-07-25",
+          "retrieved_at": "2026-11-05T04:17:34.119482+00:00",
+          "access_mode": "web_tool_extraction",
+          "access_result": "Event-page text accessible; supplied time July25,2018 4–5pmEDT and linked transcript. No raw chat surfaced in the extracted page.",
+          "raw_receipt_path": null,
+          "tool_refs": [
+            "turn124search1",
+            "turn125view0"
+          ],
+          "summary": "The matching Juncker event page dates the discussion July25,2018, after his meeting with President Trump.",
+          "limitations": [
+            "Page extraction is not a video or chat inspection.",
+            "Event date is not page publication/revision date; those are unknown.",
+            "Publisher is CSIS, shared with the incident report; not an independent eyewitness."
+          ]
+        },
+        {
+          "source_id": "RC015-II-CSIS-TRANSCRIPT",
+          "title": "CSIS Juncker discussion transcript, title page",
+          "url": "https://csis-website-prod.s3.amazonaws.com/s3fs-public/event/180726_Jean_Claude_Juncker.pdf",
+          "publisher": "CSIS; transcript by Superior Transcriptions LLC",
+          "source_family": "CSIS-JUNCKER-EVENT-20180725",
+          "publication_date": null,
+          "observation_date": "2018-07-25",
+          "retrieved_at": "2026-11-05T04:17:34.119482+00:00",
+          "access_mode": "web_tool_extraction",
+          "access_result": "Six-page PDF text extracted; title-page date Wednesday July25,2018.",
+          "raw_receipt_path": null,
+          "tool_refs": [
+            "turn124search4",
+            "turn125view1"
+          ],
+          "summary": "The linked transcript independently states the document date but belongs to the same event/publisher lineage: Wednesday July25,2018. Its content is the on-stage discussion, not the live chat.",
+          "limitations": [
+            "Two CSIS records agreeing is internal consistency, not independent confirmation of the chat incident.",
+            "Filename/upload/index dates are not treated as publication dates.",
+            "No audiovisual recording or raw-chat moderation sequence was inspected."
+          ]
+        }
+      ],
+      "findings": [
+        {
+          "finding_id": "RC015-II-F1",
+          "claim": "Newly inspected CSIS archive and transcript date the Juncker discussion July25,2018; the October9 blog reports June25. The date conflict must be appended to the historical case, not hidden.",
+          "evidence_refs": [
+            "RC015-II-CSIS-EVENT-ARCHIVE",
+            "RC015-II-CSIS-TRANSCRIPT",
+            "RC015-II-CSIS-BLOG-RECHECK"
+          ],
+          "epistemic_status": "DOCUMENTED",
+          "is_new_event": false,
+          "basis": "Explicit dates in the event page, PDF title page and indexed blog; these are historical records newly compared."
+        },
+        {
+          "finding_id": "RC015-II-F2",
+          "claim": "The blog remains a host report of disruptive messages and a likelihood attribution. This check does not establish automated posting, a coordinated network or a controlling state sponsor.",
+          "evidence_refs": [
+            "RC015-II-CSIS-BLOG-RECHECK",
+            "operations/information-integrity/20261028/case.json"
+          ],
+          "epistemic_status": "DOCUMENTED",
+          "is_new_event": false,
+          "basis": "Reinspection preserves the attributed claim and its limits; no underlying chat or telemetry inspected."
+        },
+        {
+          "finding_id": "RC015-II-F3",
+          "claim": "Message-level verification, actual moderation and protective outcome remain UNKNOWN. The extracted archive did not provide the needed chat record; that is not proof that no recording or moderation exists.",
+          "evidence_refs": [
+            "RC015-II-CSIS-EVENT-ARCHIVE",
+            "RC015-II-CSIS-TRANSCRIPT"
+          ],
+          "epistemic_status": "UNKNOWN",
+          "is_new_event": false,
+          "basis": "The inspected event page and speech transcript cannot resolve chat dispatch, intervention or audience impact."
+        }
+      ],
+      "counterevidence": [
+        "The same publisher supplies inconsistent dates; source reputation does not remove the need for record comparison.",
+        "Ordinary human trolling, sincere political views and opportunistic harassment remain alternatives to automation or coordinated state direction.",
+        "The retained ISD background sample reports substantial removals and limited organic engagement; it is not fresh evidence or a remedy in this CSIS case."
+      ],
+      "unknowns": [
+        "Exact incident-to-recording/chat linkage despite matching event title and circumstances.",
+        "Raw messages, automation, coordination, operator/sponsor, audience exposure, moderator staffing/actions and durable protective outcome.",
+        "Whether a public platform replay retains chat; it was not obtained in this bounded pass."
+      ],
+      "working_buffers": [
+        "Retained proposed buffers: moderator support, temporary rate limits, evidence preservation and appeals; their use/effectiveness in this incident remains UNKNOWN.",
+        "Actual epistemic safeguard exercised: comparing the event archive with the source report exposed a date conflict without deleting either record."
+      ],
+      "next_test": "Inspect one official CSIS-linked recording/platform replay for the July25,2018 event, if publicly accessible, for a preserved chat interval and visible moderation; retain missing chat as an access limit.",
+      "stop_reason": "Two targeted searches and three document opens completed the bounded archive comparison; no expansion to other streams or accounts.",
+      "authorship_limits": "Separate active-session source inspection, not independent replication of CSIS attribution or a platform-telemetry audit."
+    },
+    {
+      "lane_id": "psa",
+      "title": "Garden Public Service Announcements",
+      "question_id": "Q-PSA-SINCERITY-ISOLATION-REVIEW",
+      "question_status": "staged_editorial_question_not_live_registry",
+      "epoch": 1,
+      "tree_id": "INIT",
+      "baseline_refs": [
+        "psa/compassion-and-exploitation.md",
+        "psa/README.md"
+      ],
+      "question": "Does revision2 preserve sincerity and outside connections while avoiding unsupported accusations or screening people by distress?",
+      "inspection_status": "retained_only",
+      "sources": [
+        {
+          "source_id": "RC015-PSA-COMPASSION-REV2",
+          "title": "Compassion can be exploited. Look at the whole pattern., revision2",
+          "url": "https://github.com/Jaradyne/Dis-Unity/blob/cf4d7ce7c8724004b57692925671004463d23e5a/psa/compassion-and-exploitation.md",
+          "publisher": "Garden; user-approved public guidance",
+          "source_family": "GARDEN-PSA-GUIDANCE",
+          "publication_date": "2026-11-04",
+          "observation_date": null,
+          "retrieved_at": "2026-11-05T04:17:34.119482+00:00",
+          "access_mode": "retained_repository",
+          "access_result": "Read exact tracked Markdown from base commit cf4d7ce; no external empirical check.",
+          "raw_receipt_path": null,
+          "tool_refs": [],
+          "local_path": "psa/compassion-and-exploitation.md",
+          "sha256": "1e00c907698b31065ecef04173533da287c2d23a2775e255ae424f1e3a9674c6",
+          "summary": "Revision2 preserves sincerity, accountability, trusted outside relationships and fair consideration; the index labels guidance separately from findings.",
+          "limitations": [
+            "Editorial review only, not a prevalence study or evaluation of protective effectiveness.",
+            "A limited support network, intense emotion or substantial need does not establish exploitation."
+          ]
+        },
+        {
+          "source_id": "RC015-PSA-INDEX",
+          "title": "Garden PSAs publication boundaries",
+          "url": "https://github.com/Jaradyne/Dis-Unity/blob/cf4d7ce7c8724004b57692925671004463d23e5a/psa/README.md",
+          "publisher": "Garden; user-approved public guidance",
+          "source_family": "GARDEN-PSA-GUIDANCE",
+          "publication_date": "2026-11-04",
+          "observation_date": null,
+          "retrieved_at": "2026-11-05T04:17:34.119482+00:00",
+          "access_mode": "retained_repository",
+          "access_result": "Read exact tracked Markdown from base commit cf4d7ce; no external empirical check.",
+          "raw_receipt_path": null,
+          "tool_refs": [],
+          "local_path": "psa/README.md",
+          "sha256": "ffbf678636b227a29662ac05cb09175380852914449ae8be59f05ca7bdfccaa6",
+          "summary": "Revision2 preserves sincerity, accountability, trusted outside relationships and fair consideration; the index labels guidance separately from findings.",
+          "limitations": [
+            "Editorial review only, not a prevalence study or evaluation of protective effectiveness.",
+            "A limited support network, intense emotion or substantial need does not establish exploitation."
+          ]
+        }
+      ],
+      "findings": [
+        {
+          "finding_id": "RC015-PSA-F1",
+          "claim": "Revision2 includes sincerity, honest conduct, freedom, accountability and follow-through; it states that tears, hardship and substantial need alone are not evidence of exploitation.",
+          "evidence_refs": [
+            "RC015-PSA-COMPASSION-REV2"
+          ],
+          "epistemic_status": "DOCUMENTED",
+          "is_new_event": false,
+          "basis": "Editorial inspection of the retained wording, not empirical validation of a person or tactic."
+        },
+        {
+          "finding_id": "RC015-PSA-F2",
+          "claim": "The isolation paragraph preserves trusted outside relationships and another perspective. The index clarifies that closeness or a limited support network alone does not establish exploitation.",
+          "evidence_refs": [
+            "RC015-PSA-COMPASSION-REV2",
+            "RC015-PSA-INDEX"
+          ],
+          "epistemic_status": "DOCUMENTED",
+          "is_new_event": false,
+          "basis": "Both source passages are present in tracked Markdown."
+        },
+        {
+          "finding_id": "RC015-PSA-F3",
+          "claim": "Whether the PSA helps readers obtain support or reduces harm remains UNKNOWN; no feedback study or individual outcome was examined.",
+          "evidence_refs": [
+            "RC015-PSA-INDEX"
+          ],
+          "epistemic_status": "UNKNOWN",
+          "is_new_event": false,
+          "basis": "Publication and editorial safeguards are not evidence of protective effectiveness."
+        }
+      ],
+      "counterevidence": [
+        "The guidance explicitly invites another perspective and a full sequence before judgment, without an automatic verdict against either person.",
+        "Warmth, sincere affection or distress cannot themselves establish either safety or deliberate exploitation."
+      ],
+      "unknowns": [
+        "Reader interpretation and accessibility in practice.",
+        "Protective effectiveness, false-positive judgments and actual restoration of outside support."
+      ],
+      "working_buffers": [
+        "Guidance-level buffers retained: trusted outside relationships, relevant records, another perspective and fair hearing; their real-world effect is unmeasured."
+      ],
+      "next_test": "If Jared requests an editorial revision, review one hypothetical reading for whether isolation is distinguished from pressure to isolate; no individual screening or automatic classification.",
+      "stop_reason": "Retained-text editorial check completed; wording was not changed and no new empirical evidence is claimed.",
+      "authorship_limits": "This is an internal editorial review only; it does not independently validate general prevalence or any alleged offender."
+    }
+  ]
+}

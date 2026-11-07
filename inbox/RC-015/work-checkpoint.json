@@ -1,0 +1,31 @@
+{
+  "cycle_id": "RC-015",
+  "actor": "Work Aiden",
+  "status": "checkpoint",
+  "scope": "One active-session cycle across every current Garden wing; Jared corrected new-wing-only scope to all of them.",
+  "base_commit": "cf4d7ce7c8724004b57692925671004463d23e5a",
+  "evidence_cutoff": "2026-11-04",
+  "timezone": "America/Los_Angeles",
+  "bounds": {
+    "public_source_research": true,
+    "automated_provider_calls": 0,
+    "recurring_monitoring": false,
+    "governor_activation": false,
+    "canonical_admission": false,
+    "outreach": false
+  },
+  "coverage": [
+    "energy-diesel",
+    "freight-carriers",
+    "food-fertilizer-reserves",
+    "military-conscience",
+    "ice-detention",
+    "shelter-accountability",
+    "community-capacity-commons",
+    "information-integrity",
+    "care-autonomy",
+    "psa",
+    "meaning-and-shared-mechanisms"
+  ],
+  "method": "Bounded fresh source checks, attributed specialist returns, one supplied Garden pass per lane, integrity replay for shared mechanisms, and a combined reviewed handoff."
+}

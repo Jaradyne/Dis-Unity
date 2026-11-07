@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "run_id": "CARE-AUTONOMY-BASELINE-20261104",
+  "state_sha256": "f90517ad055b274d96406b9bce2d4355eba6eb4e2f8bde69773b58495497ecc4",
+  "safeguards": 3,
+  "steps": 10,
+  "branches": 1,
+  "provider_calls": 0,
+  "canonical_admission": false,
+  "individual_eligibility_decision": false
+}

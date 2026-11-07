@@ -1,0 +1,256 @@
+{
+  "version": "all-garden-return-1",
+  "actor": "cycle15_institutions",
+  "cycle_id": "RC-015",
+  "checked_at": "2026-11-05T04:17:42.375081+00:00",
+  "checked_date_local": "2026-11-04",
+  "timezone": "America/Los_Angeles",
+  "retrieval_bounds": {
+    "search_queries_used": 3,
+    "document_open_calls_used": 5,
+    "unique_opened_documents": 4,
+    "raw_http_receipts": 0,
+    "search_log": [
+      {
+        "query": "site.war.gov \"Office of Religious Affairs\" charter assessment conscience appeal 2026",
+        "recency_days": 60
+      },
+      {
+        "query": "site.gao.gov \"Camp East Montana\" tuberculosis corrective inspection 2026",
+        "recency_days": 120
+      },
+      {
+        "query": "site.war.gov \"legal functions\" \"independence\" March 2026 implementation",
+        "recency_days": 240
+      }
+    ],
+    "note": "Fifth open paged the already-opened ODO PDF. Search result count and absence are not exhaustive public-record coverage."
+  },
+  "lanes": [
+    {
+      "lane_id": "military-conscience",
+      "title": "Military conscience, ORA and independent legal advice",
+      "question_id": "Q-SG-ORA-CONSCIENCE",
+      "related_question_ids": [
+        "Q-SG-JAG-INDEPENDENCE"
+      ],
+      "epoch": 1,
+      "tree_id": "INIT",
+      "baseline_refs": [
+        "reports/military-conscience-and-institutional-safeguards/README.md",
+        "reports/military-conscience-and-institutional-safeguards/ora_sources.json#O01",
+        "reports/military-conscience-and-institutional-safeguards/legal_sources.json#J03",
+        "reports/military-conscience-and-institutional-safeguards/legal_sources.json#J15",
+        "operations/safeguards/journal.json",
+        "reports/continuity/DIGEST_HANDOFF.md"
+      ],
+      "question": "Does the bounded public recheck establish an implemented ORA conscience protection or post-realignment independent JAG protective outcome?",
+      "inspection_status": "inconclusive",
+      "sources": [
+        {
+          "source_id": "RC015-ORA-ORIGINAL-RECHECK",
+          "title": "Establishment of the Office of Religious Affairs",
+          "url": "https://media.defense.gov/2026/Sep/30/2004009308/-1/-1/1/ESTABLISHMENT-OF-THE-OFFICE-OF-RELIGIOUS-AFFAIRS.PDF",
+          "publisher": "Department of Defense / Department of War",
+          "source_family": "September30 ORA memorandum",
+          "publication_date": "2026-09-30",
+          "observation_date": null,
+          "retrieved_at": "2026-11-05T04:17:42.375081+00:00",
+          "access_mode": "web_tool_extraction",
+          "access_result": "Official PDF open returned 403 Forbidden. No new document body obtained.",
+          "raw_receipt_path": null,
+          "tool_refs": [
+            "turn119view1"
+          ],
+          "summary": "Access recheck only; substantive clauses continue to reference retained O01.",
+          "limitations": [
+            "Original-government-byte identity and current implementation remain unverified.",
+            "A blocked URL does not demonstrate withdrawal or nonimplementation."
+          ],
+          "baseline_record": "reports/military-conscience-and-institutional-safeguards/ora_sources.json#O01"
+        },
+        {
+          "source_id": "RC015-JAG-ANNOUNCEMENT-RECHECK",
+          "title": "Hegseth Calls for Assessment, Alignment of DOW Legal Functions, Operations",
+          "url": "https://www.war.gov/News/News-Stories/Article/Article/4431680/hegseth-calls-for-assessment-alignment-of-dow-legal-functions-operations/",
+          "publisher": "Pentagon News",
+          "source_family": "March2026 legal-functions memorandum",
+          "publication_date": "2026-03-11",
+          "observation_date": "2026-03-11",
+          "retrieved_at": "2026-11-05T04:17:42.375081+00:00",
+          "access_mode": "search_index",
+          "access_result": "Official indexed text available; direct article open returned 403 Forbidden.",
+          "raw_receipt_path": null,
+          "tool_refs": [
+            "turn117search2",
+            "turn119view2"
+          ],
+          "summary": "Indexed announcement describes an allocation review and states a need for independent operational legal advice. It does not report a completed independent-advice outcome.",
+          "limitations": [
+            "Search excerpt is not a full retrieved article.",
+            "The later implementation and individual protection questions remain unresolved."
+          ]
+        }
+      ],
+      "findings": [
+        {
+          "finding_id": "RC015-MIL-01",
+          "claim": "The retained ORA direction changes the Chaplains Board reporting path and includes noncompulsion protections. This cycle did not verify an operative charter, assessment-to-career rule or completed conscience remedy.",
+          "evidence_refs": [
+            "reports/military-conscience-and-institutional-safeguards/ora_sources.json#O01",
+            "reports/continuity/DIGEST_HANDOFF.md",
+            "RC015-ORA-ORIGINAL-RECHECK"
+          ],
+          "epistemic_status": "UNKNOWN",
+          "is_new_event": false,
+          "basis": "Historical formal direction remains documented; the queried implementation/protection outcome is unverified in this bounded check."
+        },
+        {
+          "finding_id": "RC015-MIL-02",
+          "claim": "The March legal-review announcement can be reconfirmed through official indexed text; no completed JAG interference/advice disposition was obtained.",
+          "evidence_refs": [
+            "RC015-JAG-ANNOUNCEMENT-RECHECK",
+            "reports/military-conscience-and-institutional-safeguards/legal_sources.json#J15"
+          ],
+          "epistemic_status": "UNKNOWN",
+          "is_new_event": false,
+          "basis": "Announced reallocation and preservation language do not measure actual independent advice or remedy."
+        }
+      ],
+      "counterevidence": [
+        "O01 retains protection for any faith or no faith and forbids compelled participation; ORA’s 60-/90-day planning milestones were still future on November4.",
+        "J03’s enacted notice/qualified-advice provisions and J15’s statutory-independence clause remain formal counterconstraints. They do not establish operational success.",
+        "The command-assessment development described in B05 predates ORA; chronology does not prove an ORA career-selection mechanism."
+      ],
+      "unknowns": [
+        "Actual Board reporting practice and current implementing charter.",
+        "ORA assessment fields, identifiable-data access, consent/refusal handling and personnel use.",
+        "A substantiated conscience/appeal outcome or post-realignment JAG advice/interference disposition."
+      ],
+      "working_buffers": [
+        "Formal noncompulsion, qualified legal advice and review routes remain documented possibilities; usable access and successful remedies are unverified."
+      ],
+      "next_test": "Inspect one public anonymized ORA-linked conscience/accommodation disposition that records the request, access to review, decision and consequences; preserve UNKNOWN if none is available.",
+      "stop_reason": "Allocated search budget exhausted and two official direct opens blocked; no inference drawn from non-retrieval.",
+      "authorship_limits": "Fresh bounded search and access checks by cycle15_institutions; no service-level audit, legal adjudication or independent replication of the retained memorandum."
+    },
+    {
+      "lane_id": "ice-detention",
+      "title": "Camp East Montana TB safeguards and correction",
+      "question_id": "Q-CEM-TB-CORRECTION",
+      "epoch": 1,
+      "tree_id": "INIT",
+      "baseline_refs": [
+        "reports/evidence-arrival/DIGEST_HANDOFF.md",
+        "reports/reporting-audit/camp-east-montana/AUDIT.md",
+        "examples/garden-case-studies/camp-east-montana/DIGEST_HANDOFF.md",
+        "operations/safeguards/journal.json"
+      ],
+      "question": "Does a dated post-April18,2026 public medical reinspection or closure record verify TB intake-testing and notification corrections?",
+      "inspection_status": "reconfirmed",
+      "sources": [
+        {
+          "source_id": "RC015-GAO-CEM-STATUS",
+          "title": "Immigration Detention: Waste and Performance Issues at Camp East Montana Provide Valuable Lessons for Future Facilities",
+          "url": "https://www.gao.gov/products/gao-26-108886",
+          "publisher": "U.S. Government Accountability Office",
+          "source_family": "GAO-26-108886",
+          "publication_date": "2026-06-09",
+          "observation_date": null,
+          "retrieved_at": "2026-11-05T04:17:42.375081+00:00",
+          "access_mode": "web_tool_extraction",
+          "access_result": "Product page and all four recommendation/status rows returned as extracted text.",
+          "raw_receipt_path": null,
+          "tool_refs": [
+            "turn117search5",
+            "turn119view0"
+          ],
+          "summary": "All four recommendations remain Open on the inspected page. DHS pricing work and Army lessons-learned milestones remain visible; the latter targets December 30, 2026.",
+          "limitations": [
+            "Same report/status family as C01 and the October14 receipt, not independent medical evidence.",
+            "No raw HTTP receipt or byte-equivalence check against October14 was obtained.",
+            "Status notes have their own May/August dates; retrieval is not a new facility observation."
+          ],
+          "baseline_records": [
+            "reports/military-conscience-and-institutional-safeguards/ice_capacity_sources.json#C01",
+            "examples/evidence-arrival/camp-east-montana/live/operations/week-one/runs/CEM-FIRST-ARRIVAL/api/0001.json"
+          ]
+        },
+        {
+          "source_id": "RC015-CEM-ODO-FEB2026-MIRROR",
+          "title": "ERO El Paso Camp East Montana — Inspection 2026-001-098",
+          "url": "https://kvia.com/wp-content/uploads/2026/04/Diaz.inspection.pdf",
+          "publisher": "ICE Office of Professional Responsibility / Office of Detention Oversight; public mirror hosted by KVIA",
+          "source_family": "CEM-ODO-FEBRUARY2026",
+          "publication_date": null,
+          "observation_date": "2026-02-10/2026-02-12",
+          "retrieved_at": "2026-11-05T04:17:42.375081+00:00",
+          "access_mode": "web_tool_extraction",
+          "access_result": "15-page PDF extracted; medical-care findings on printed pages11–12 and detainee-relations passage on printed page6 inspected.",
+          "raw_receipt_path": null,
+          "tool_refs": [
+            "turn117search7",
+            "turn119view3",
+            "turn123view0"
+          ],
+          "summary": "ODO identifies one symptomatic person lacking required isolation and ICE/ERO notification (MC-20/21/67). This is newly inspected historical source material underlying GAO’s account.",
+          "limitations": [
+            "Not a post-April18 reinspection or correction-verification record.",
+            "Government-original bytes and mirror completeness were not compared.",
+            "Extracted text, not a raw HTTP receipt; redactions/layout limit other findings.",
+            "Reusing the inspection beneath GAO adds source proximity, not an independent inspection."
+          ],
+          "date_note": "Inspection dates are printed on the cover; original publication date unknown. The mirror URL month is not adopted as publication date."
+        }
+      ],
+      "findings": [
+        {
+          "finding_id": "RC015-CEM-01",
+          "claim": "The four Open recommendation statuses and dated agency plans remain visible. They establish neither that no corrective work occurred nor that TB protections now work.",
+          "evidence_refs": [
+            "RC015-GAO-CEM-STATUS"
+          ],
+          "epistemic_status": "DOCUMENTED",
+          "is_new_event": false,
+          "basis": "Fresh reading of the same GAO status surface; no status transition established."
+        },
+        {
+          "finding_id": "RC015-CEM-02",
+          "claim": "The mirrored February ODO report directly supports the historical notification/isolation deficiencies. Its inspection precedes the April18 contract transition.",
+          "evidence_refs": [
+            "RC015-CEM-ODO-FEB2026-MIRROR"
+          ],
+          "epistemic_status": "DOCUMENTED",
+          "is_new_event": false,
+          "basis": "New source-level inspection of an old event, not a new failure or independent corroborating inspection."
+        },
+        {
+          "finding_id": "RC015-CEM-03",
+          "claim": "Post-transition TB compliance and a protective result remain UNKNOWN in this check.",
+          "evidence_refs": [
+            "RC015-GAO-CEM-STATUS",
+            "RC015-CEM-ODO-FEB2026-MIRROR"
+          ],
+          "epistemic_status": "UNKNOWN",
+          "is_new_event": false,
+          "basis": "Neither retrieved document supplies the required post-April18 sampled verification; records elsewhere may exist."
+        }
+      ],
+      "counterevidence": [
+        "ODO reports 49 voluntary interviews, generally favorable service responses, and a dietitian menu review. These narrow observations cannot establish TB protection.",
+        "The retained GAO baseline includes partial physical improvements and contractor-reported corrective plans; contract replacement is distinct from verified remedy."
+      ],
+      "unknowns": [
+        "Sampled post-April18 intake testing and required notification compliance.",
+        "Correction closure date, verification method and sustained protective result.",
+        "Current safely usable capacity and replacement-contract compliance."
+      ],
+      "working_buffers": [
+        "Inspection and discrepancy-report channels documented the historical failures; monitoring activity itself is not proof that they remedied them."
+      ],
+      "next_test": "Obtain one dated final post-April18 medical reinspection or corrective-action closure record naming TB testing/notification, sampled compliance and the verifier. The existing FOIA draft remains unsent.",
+      "stop_reason": "One fresh GAO status page and one historical underlying inspection inspected; the specified current correction outcome is not established.",
+      "authorship_limits": "No facility visit, clinical record review, raw government receipt for the mirrored inspection, or independent medical verification."
+    }
+  ]
+}
