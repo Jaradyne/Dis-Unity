@@ -1,0 +1,25 @@
+{
+  "agent": "cycle15-institutions",
+  "at": "2026-11-07T16:31:21.181470+00:00",
+  "base_hash": "16d04f8bb35a588caca60517f90a11944cfbafac7951402d059a6d6131de97b7",
+  "cycle_id": "RC-015",
+  "payload": {
+    "actor": "cycle15_institutions",
+    "canonical_admission": false,
+    "checked_at": "2026-11-05T04:17:42.375081+00:00",
+    "cycle_id": "RC-015",
+    "lanes": [
+      "military-conscience",
+      "ice-detention"
+    ],
+    "outreach": false,
+    "packet": "reports/all-garden/20261104/inputs/institutions.json",
+    "provider_calls": 0,
+    "result": "Institutional protective outcomes remain unverified; GAO status reconfirmed; underlying historical ODO report newly inspected without counting independent corroboration.",
+    "sha256": "1cc6139b7bb2ba9e5bdce6fb214853b75434cbd5035338c2917f6c68ecf3ed6d",
+    "status": "bounded_return_complete"
+  },
+  "payload_hash": "07ff2edb4bc1f7b515adbb78b93c5be3fac58dd373c5bd93a509c06f3b1569c5",
+  "phase": "submitted",
+  "submission_id": "e0edec79af58a63be9ad055ca63460d3f38dc11fb66e52ee2553b563f07a5580"
+}

@@ -1,0 +1,12 @@
+{
+  "branches": [
+    "B0"
+  ],
+  "meaning": "Supplied traversal and routing; no new evidence, model dispatch or Governor review.",
+  "record_ref": "operations/garden/runs/RC015-DIPLOMACY-CONTEXT.json",
+  "record_sha256": "6cbd04f0a9a66be564fe4e210f0a2687b00e334afd92561c95e0d45ce5d7ebd4",
+  "run_id": "RC015-DIPLOMACY-CONTEXT",
+  "schema_version": "digestion-garden-materials-1",
+  "state_sha256": "4a7b6aceb6f525234cd08d7bef37d1d3207a9e0fec128c56cf445f3ecae56b91",
+  "status": "available_for_digestion"
+}

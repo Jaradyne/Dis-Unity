@@ -1,0 +1,376 @@
+{
+  "commands": [
+    {
+      "actor": {
+        "model": "Work-session model identifier not recorded",
+        "name": "Work Aiden",
+        "runtime": "Supervised RC-015 assembly and supplied interpretation"
+      },
+      "branch_id": "B0",
+      "event_id": "RC015-COMMUNITY-CAPACITY-COMMONS-STEP-1",
+      "expected_revision": 0,
+      "kind": "step",
+      "node": "ROOT",
+      "output": {
+        "name": "Community capacity: Richmond operating and funding gates"
+      }
+    },
+    {
+      "actor": {
+        "model": "Work-session model identifier not recorded",
+        "name": "Work Aiden",
+        "runtime": "Supervised RC-015 assembly and supplied interpretation"
+      },
+      "branch_id": "B0",
+      "event_id": "RC015-COMMUNITY-CAPACITY-COMMONS-STEP-2",
+      "expected_revision": 1,
+      "kind": "step",
+      "node": "ARRIVAL",
+      "output": {
+        "arrival": {
+          "from": "reports/all-garden/20261104/inputs/services.json",
+          "id": "RC015-COMMUNITY-CAPACITY-COMMONS-ARRIVAL",
+          "payload": {
+            "baseline_refs": [
+              "operations/community-capacity/richmond/case.json",
+              "reports/shelter-accountability/richmond-operations-20261024/returns/richmond_operations_bee.json",
+              "reports/shelter-accountability/richmond-operations-20261024/HANDOFF_DIGEST.md",
+              "ideas/COMMONS_GROWTH_PATH.md"
+            ],
+            "inspection_status": "new_evidence",
+            "lane_id": "community-capacity-commons",
+            "return_actor": "cycle15_services",
+            "return_sha256": "5e9f014cfc01d816e648d1baa0f5432cad48f7b3fb9189567ecf87eee6742076"
+          },
+          "to": "COMMUNITY-CAPACITY:ROOT-0001"
+        },
+        "language_glance": {
+          "basis": "unknown",
+          "issuing_office": "See each pinned source publisher",
+          "languages": [],
+          "note": "No matched original/translation inventory supplied by these returns.",
+          "source_refs": [
+            "S-RC015-RICHMOND-DIRECTORY",
+            "S-RC015-RICHMOND-TVS",
+            "S-RC015-RICHMOND-GRANT-REOPEN"
+          ],
+          "surface_kind": "mixed"
+        }
+      }
+    },
+    {
+      "actor": {
+        "model": "Work-session model identifier not recorded",
+        "name": "Work Aiden",
+        "runtime": "Supervised RC-015 assembly and supplied interpretation"
+      },
+      "branch_id": "B0",
+      "event_id": "RC015-COMMUNITY-CAPACITY-COMMONS-STEP-3",
+      "expected_revision": 2,
+      "kind": "step",
+      "node": "EPIST",
+      "output": {
+        "empirical_cutoff": "2026-11-04 America/Los_Angeles",
+        "inspection_time": "2026-11-05T04:18:09.354470+00:00",
+        "prompt": "Which current replacement-operator and grant-transition decision links an itemized service price to required functions and unspent funds or builder reimbursement?",
+        "starting_state": "Retain the dated baseline; inspect one bounded residual."
+      }
+    },
+    {
+      "actor": {
+        "model": "Work-session model identifier not recorded",
+        "name": "Work Aiden",
+        "runtime": "Supervised RC-015 assembly and supplied interpretation"
+      },
+      "branch_id": "B0",
+      "event_id": "RC015-COMMUNITY-CAPACITY-COMMONS-STEP-4",
+      "expected_revision": 3,
+      "kind": "step",
+      "node": "FUNC",
+      "output": {
+        "findings": [
+          {
+            "basis": "Comparison is between the current web-tool extraction and an attributed prior retained summary. The origin change date and complete version history are unknown.",
+            "claim": "The freshly returned developer page labels September2026 opening/move-in, differing from the July2026 target described in the retained October24 source summary. This is newly inspected wording, not a newly established opening event or present occupancy finding.",
+            "epistemic_status": "DOCUMENTED",
+            "evidence_refs": [
+              "S-RC015-RICHMOND-TVS",
+              "reports/shelter-accountability/richmond-operations-20261024/returns/richmond_operations_bee.json#S-RT08"
+            ],
+            "finding_id": "RC015-RICHMOND-CLAIM-REVISION",
+            "is_new_event": false
+          },
+          {
+            "basis": "An undated index and access failure are not records of current execution or cessation.",
+            "claim": "The public directory continues to display the historical service-agreement end date; the fresh grant-report open was blocked. Neither determines current contractual or cash status.",
+            "epistemic_status": "DOCUMENTED",
+            "evidence_refs": [
+              "S-RC015-RICHMOND-DIRECTORY",
+              "S-RC015-RICHMOND-GRANT-REOPEN"
+            ],
+            "finding_id": "RC015-RICHMOND-DIRECTORY-LIMIT",
+            "is_new_event": false
+          },
+          {
+            "basis": "No qualifying itemized replacement proposal, executed transition decision, paid invoice or current occupancy record was obtained; the user-reported lead remains distinct from a finding.",
+            "claim": "The current approximately $1million annual replacement-price lead, priced scope, grant portability, actual builder reimbursement and current operator/occupancy remain unverified in this bounded recheck.",
+            "epistemic_status": "UNKNOWN",
+            "evidence_refs": [
+              "operations/community-capacity/richmond/case.json",
+              "S-RC015-RICHMOND-TVS",
+              "S-RC015-RICHMOND-GRANT-REOPEN"
+            ],
+            "finding_id": "RC015-RICHMOND-PRICE-CASH-UNKNOWN",
+            "is_new_event": false
+          }
+        ],
+        "function": "Inspect evidence, outcome and access separately.",
+        "inspection_status": "new_evidence",
+        "research_actor": "cycle15_services",
+        "task": "Which current replacement-operator and grant-transition decision links an itemized service price to required functions and unspent funds or builder reimbursement?"
+      }
+    },
+    {
+      "actor": {
+        "model": "Work-session model identifier not recorded",
+        "name": "Work Aiden",
+        "runtime": "Supervised RC-015 assembly and supplied interpretation"
+      },
+      "branch_id": "B0",
+      "event_id": "RC015-COMMUNITY-CAPACITY-COMMONS-STEP-5",
+      "expected_revision": 4,
+      "kind": "step",
+      "node": "MIRROR",
+      "output": {
+        "comparisons": [
+          {
+            "answers": [],
+            "explanation": "The developer explicitly publicizes opening and move-in; this weighs against presenting the site as simply never opened, while not answering the later replacement-operator question.",
+            "queries": []
+          },
+          {
+            "answers": [],
+            "explanation": "The current page also describes ongoing building, so a mixed construction/opening presentation cannot alone establish full operation.",
+            "queries": []
+          },
+          {
+            "answers": [],
+            "explanation": "Existing contract amendment/consent and City budget-change provisions provide possible transition paths, but availability and approved current use remain unknown.",
+            "queries": []
+          }
+        ],
+        "information_lineage": {
+          "api_record_refs": [],
+          "criteria_refs": [
+            "reports/all-garden/20261104/RETURN_CONTRACT.json"
+          ],
+          "parent_answer_visible": true,
+          "parent_output_refs": [
+            "operations/community-capacity/richmond/case.json",
+            "reports/shelter-accountability/richmond-operations-20261024/returns/richmond_operations_bee.json",
+            "reports/shelter-accountability/richmond-operations-20261024/HANDOFF_DIGEST.md",
+            "ideas/COMMONS_GROWTH_PATH.md"
+          ],
+          "source_refs": [
+            "S-RC015-RICHMOND-DIRECTORY",
+            "S-RC015-RICHMOND-TVS",
+            "S-RC015-RICHMOND-GRANT-REOPEN"
+          ],
+          "test_origin": "inherited"
+        },
+        "working_buffers": [
+          "Community-created physical assets and developer-reported volunteer participation are retained as capacity signals; usable operating capacity requires separate verification.",
+          "Historical written amendment/consent and grant budget-change routes may enable a replacement or community-led alternative; no approval or portable funds are assumed."
+        ]
+      }
+    },
+    {
+      "actor": {
+        "model": "Work-session model identifier not recorded",
+        "name": "Work Aiden",
+        "runtime": "Supervised RC-015 assembly and supplied interpretation"
+      },
+      "branch_id": "B0",
+      "event_id": "RC015-COMMUNITY-CAPACITY-COMMONS-STEP-6",
+      "expected_revision": 5,
+      "kind": "step",
+      "node": "CROSS",
+      "output": {
+        "bridge": [
+          {
+            "question": "Inspect one current replacement-operator/grant-transition decision packet showing the itemized priced functions, their legal or administrative basis, and the approved disposition of unspent funds or builder reimbursement.",
+            "source_refs": [
+              "S-RC015-RICHMOND-DIRECTORY",
+              "S-RC015-RICHMOND-TVS",
+              "S-RC015-RICHMOND-GRANT-REOPEN"
+            ],
+            "status": "proposed_only"
+          }
+        ],
+        "independent": [],
+        "inherited": [
+          {
+            "ref": "S-RC015-RICHMOND-DIRECTORY"
+          },
+          {
+            "ref": "S-RC015-RICHMOND-TVS"
+          },
+          {
+            "ref": "S-RC015-RICHMOND-GRANT-REOPEN"
+          }
+        ]
+      }
+    },
+    {
+      "actor": {
+        "model": "Work-session model identifier not recorded",
+        "name": "Work Aiden",
+        "runtime": "Supervised RC-015 assembly and supplied interpretation"
+      },
+      "branch_id": "B0",
+      "event_id": "RC015-COMMUNITY-CAPACITY-COMMONS-STEP-7",
+      "expected_revision": 6,
+      "kind": "step",
+      "node": "RESID",
+      "output": {
+        "next_test": "Inspect one current replacement-operator/grant-transition decision packet showing the itemized priced functions, their legal or administrative basis, and the approved disposition of unspent funds or builder reimbursement.",
+        "predicates": {
+          "consequential": true,
+          "distinct_functions": false,
+          "language_exception": null
+        },
+        "summary": "Date/version provenance of changed developer-page wording. Current paid operator, staffing, available beds and sustained housing outcomes. Current itemized replacement quote and objective requirements driving each cost. Actual cash transferred, unspent funds, reimbursement to builders, and approved funding-transfer options. Named official and precise authority for the historical provider permit condition."
+      }
+    },
+    {
+      "actor": {
+        "model": "Work-session model identifier not recorded",
+        "name": "Work Aiden",
+        "runtime": "Supervised RC-015 assembly and supplied interpretation"
+      },
+      "branch_id": "B0",
+      "event_id": "RC015-COMMUNITY-CAPACITY-COMMONS-STEP-8",
+      "expected_revision": 7,
+      "kind": "step",
+      "node": "MEAN",
+      "output": {
+        "authorship_limits": "Public-source reinspection only. Developer claims are not independent site observation, and a changed search-service surface is not an authenticated origin revision.",
+        "summary": "Read the attributed findings with their contrary evidence and residuals."
+      }
+    },
+    {
+      "actor": {
+        "model": "Work-session model identifier not recorded",
+        "name": "Work Aiden",
+        "runtime": "Supervised RC-015 assembly and supplied interpretation"
+      },
+      "branch_id": "B0",
+      "event_id": "RC015-COMMUNITY-CAPACITY-COMMONS-STEP-9",
+      "expected_revision": 8,
+      "kind": "step",
+      "node": "EXIT",
+      "output": {
+        "kind": "question",
+        "summary": "Inspect one current replacement-operator/grant-transition decision packet showing the itemized priced functions, their legal or administrative basis, and the approved disposition of unspent funds or builder reimbursement."
+      }
+    },
+    {
+      "actor": {
+        "model": "Work-session model identifier not recorded",
+        "name": "Work Aiden",
+        "runtime": "Supervised RC-015 assembly and supplied interpretation"
+      },
+      "branch_id": "B0",
+      "event_id": "RC015-COMMUNITY-CAPACITY-COMMONS-STEP-10",
+      "expected_revision": 9,
+      "kind": "step",
+      "node": "RETURN",
+      "output": {
+        "new_arrival": null,
+        "reason": "Single bounded refresh complete; no operator/price/grant transition packet obtained and no contact initiated."
+      }
+    }
+  ],
+  "question_snapshot": {
+    "questions": {
+      "Q-RICHMOND-OPERATIONS": {
+        "epoch": 1
+      }
+    }
+  },
+  "record_base_url": "https://github.com/Jaradyne/Dis-Unity/blob/main/reports/all-garden/20261104/worked/",
+  "recorded_at": "2026-11-07T10:46:07.208340+00:00",
+  "recorded_at_meaning": "Actual supervised assembly time, reused deterministically; not an origin fetch time or time of the historical events.",
+  "schema_version": "garden-scenario-1",
+  "start": {
+    "actor": {
+      "model": "Work-session model identifier not recorded",
+      "name": "Work Aiden",
+      "runtime": "Supervised RC-015 assembly and supplied interpretation"
+    },
+    "arrival": {
+      "from": "reports/all-garden/20261104/inputs/services.json",
+      "id": "RC015-COMMUNITY-CAPACITY-COMMONS-ARRIVAL",
+      "payload": {
+        "baseline_refs": [
+          "operations/community-capacity/richmond/case.json",
+          "reports/shelter-accountability/richmond-operations-20261024/returns/richmond_operations_bee.json",
+          "reports/shelter-accountability/richmond-operations-20261024/HANDOFF_DIGEST.md",
+          "ideas/COMMONS_GROWTH_PATH.md"
+        ],
+        "inspection_status": "new_evidence",
+        "lane_id": "community-capacity-commons",
+        "return_actor": "cycle15_services",
+        "return_sha256": "5e9f014cfc01d816e648d1baa0f5432cad48f7b3fb9189567ecf87eee6742076"
+      },
+      "to": "COMMUNITY-CAPACITY:ROOT-0001"
+    },
+    "budget": {
+      "max_branches": 1,
+      "max_events": 10,
+      "max_fanout": 0,
+      "max_steps": 10,
+      "model_calls": 0
+    },
+    "epoch": 1,
+    "focus": "Which current replacement-operator and grant-transition decision links an itemized service price to required functions and unspent funds or builder reimbursement?",
+    "question_id": "Q-RICHMOND-OPERATIONS",
+    "run_id": "RC015-COMMUNITY-CAPACITY-COMMONS",
+    "sources": [
+      {
+        "binding": {
+          "lane_id": "community-capacity-commons",
+          "path": "reports/all-garden/20261104/inputs/services.json",
+          "sha256": "03eb543489ae5784e852bb60d65af29d4614d4395c82e6a73ae339513e8ed5b8",
+          "source_id": "S-RC015-RICHMOND-DIRECTORY"
+        },
+        "kind": "public_source",
+        "lineage_id": "richmond-city-document-index",
+        "ref": "S-RC015-RICHMOND-DIRECTORY"
+      },
+      {
+        "binding": {
+          "lane_id": "community-capacity-commons",
+          "path": "reports/all-garden/20261104/inputs/services.json",
+          "sha256": "c5bbd86ac0c243ba03ad247a4b771800221d8fda2d4f475c20767ac30589e425",
+          "source_id": "S-RC015-RICHMOND-TVS"
+        },
+        "kind": "public_source",
+        "lineage_id": "tvs-project-announcement",
+        "ref": "S-RC015-RICHMOND-TVS"
+      },
+      {
+        "binding": {
+          "lane_id": "community-capacity-commons",
+          "path": "reports/all-garden/20261104/inputs/services.json",
+          "sha256": "0033fef7460a9771f2864741da553eab932d28afcf0a91bf400a8a4d2df39b9f",
+          "source_id": "S-RC015-RICHMOND-GRANT-REOPEN"
+        },
+        "kind": "public_source",
+        "lineage_id": "richmond-city-proposal",
+        "ref": "S-RC015-RICHMOND-GRANT-REOPEN"
+      }
+    ],
+    "tree": "COMMUNITY-CAPACITY"
+  }
+}

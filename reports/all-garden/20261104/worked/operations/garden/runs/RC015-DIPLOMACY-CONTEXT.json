@@ -1,0 +1,1048 @@
+{
+  "config_sha256": "39152c8d17954a1d9097a0c55351ced98ad702f402cb9c12a27b116f4c0d1655",
+  "events": [
+    {
+      "after": "8e959c4c6bd5b130115b04976899470274bc3d812e6ab483f7562c1d440cb226",
+      "before": "8129bc2e8b1f96e0c8d3c7896bb6e45ac5daad817989cf31911453ba5c326367",
+      "command": {
+        "actor": {
+          "model": "Work-session model identifier not recorded",
+          "name": "Work Aiden",
+          "runtime": "Supervised RC-015 assembly and supplied interpretation"
+        },
+        "branch_id": "B0",
+        "event_id": "RC015-DIPLOMACY-CONTEXT-STEP-1",
+        "expected_revision": 0,
+        "kind": "step",
+        "node": "ROOT",
+        "output": {
+          "name": "Authority and institutional claims"
+        }
+      },
+      "decision": {
+        "next_node": "ARRIVAL",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-11-07T10:46:07.208340+00:00"
+    },
+    {
+      "after": "9a633e311120a77a2960fe6bd65f699106987c785d646c4a36bc5baee4417cd4",
+      "before": "8e959c4c6bd5b130115b04976899470274bc3d812e6ab483f7562c1d440cb226",
+      "command": {
+        "actor": {
+          "model": "Work-session model identifier not recorded",
+          "name": "Work Aiden",
+          "runtime": "Supervised RC-015 assembly and supplied interpretation"
+        },
+        "branch_id": "B0",
+        "event_id": "RC015-DIPLOMACY-CONTEXT-STEP-2",
+        "expected_revision": 1,
+        "kind": "step",
+        "node": "ARRIVAL",
+        "output": {
+          "arrival": {
+            "from": "reports/all-garden/20261104/inputs/cross-lane.json",
+            "id": "RC015-DIPLOMACY-CONTEXT-ARRIVAL",
+            "payload": {
+              "baseline_refs": [
+                "reports/all-garden/20261104/inputs/institutions.json",
+                "reports/all-garden/20261104/inputs/services.json",
+                "reports/all-garden/20261104/inputs/material.json",
+                "docs/GARDEN_TRAVERSAL.md"
+              ],
+              "inspection_status": "retained_only",
+              "lane_id": "diplomacy-context",
+              "return_actor": "Work Aiden",
+              "return_sha256": "de4f51aacce7bbf63c843569239a3ec8303e222b8788268f8ec94ed5dbf3ca3a"
+            },
+            "to": "DIPLOMACY:ROOT-0001"
+          },
+          "language_glance": {
+            "basis": "unknown",
+            "issuing_office": "See each pinned source publisher",
+            "languages": [],
+            "note": "No matched original/translation inventory supplied by these returns.",
+            "source_refs": [
+              "DIPLOMACY-CONTEXT-RETURN-1",
+              "DIPLOMACY-CONTEXT-RETURN-2",
+              "DIPLOMACY-CONTEXT-RETURN-3"
+            ],
+            "surface_kind": "mixed"
+          }
+        }
+      },
+      "decision": {
+        "next_node": "EPIST",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-11-07T10:46:07.208340+00:00"
+    },
+    {
+      "after": "0b8b8518aad17a33db282fe59e70bd55573e708f078191a05f4bd76624e7f596",
+      "before": "9a633e311120a77a2960fe6bd65f699106987c785d646c4a36bc5baee4417cd4",
+      "command": {
+        "actor": {
+          "model": "Work-session model identifier not recorded",
+          "name": "Work Aiden",
+          "runtime": "Supervised RC-015 assembly and supplied interpretation"
+        },
+        "branch_id": "B0",
+        "event_id": "RC015-DIPLOMACY-CONTEXT-STEP-3",
+        "expected_revision": 2,
+        "kind": "step",
+        "node": "EPIST",
+        "output": {
+          "empirical_cutoff": "2026-11-04 America/Los_Angeles",
+          "inspection_time": "2026-11-07T10:46:07.208340+00:00",
+          "prompt": "Does comparing institutional claims preserve their actual issuer and evidential scope?",
+          "starting_state": "Retain the dated baseline; inspect one bounded residual."
+        }
+      },
+      "decision": {
+        "next_node": "FUNC",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-11-07T10:46:07.208340+00:00"
+    },
+    {
+      "after": "fa6f8e0ce513e80c6b37165fa6a0aaa22d38bf7f75cc4e04a6b9d8bebf1cbeae",
+      "before": "0b8b8518aad17a33db282fe59e70bd55573e708f078191a05f4bd76624e7f596",
+      "command": {
+        "actor": {
+          "model": "Work-session model identifier not recorded",
+          "name": "Work Aiden",
+          "runtime": "Supervised RC-015 assembly and supplied interpretation"
+        },
+        "branch_id": "B0",
+        "event_id": "RC015-DIPLOMACY-CONTEXT-STEP-4",
+        "expected_revision": 3,
+        "kind": "step",
+        "node": "FUNC",
+        "output": {
+          "findings": [
+            {
+              "basis": "Review of retained return contents, not independent empirical validation.",
+              "claim": "An agency response, operator claim and company disclosure remain attributed to their issuers; comparison alone establishes no agreement, coordination or causal link.",
+              "epistemic_status": "DOCUMENTED",
+              "evidence_refs": [
+                "DIPLOMACY-CONTEXT-RETURN-1",
+                "DIPLOMACY-CONTEXT-RETURN-2",
+                "DIPLOMACY-CONTEXT-RETURN-3"
+              ],
+              "finding_id": "DIPLOMACY-CONTEXT-01",
+              "is_new_event": false
+            }
+          ],
+          "function": "Inspect evidence, outcome and access separately.",
+          "inspection_status": "retained_only",
+          "research_actor": "Work Aiden",
+          "task": "Does comparing institutional claims preserve their actual issuer and evidential scope?"
+        }
+      },
+      "decision": {
+        "next_node": "MIRROR",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-11-07T10:46:07.208340+00:00"
+    },
+    {
+      "after": "949b65c276e4433ce72e5a9c21cb9fcd4fc6d38b380a0b25194034e9954b6ef4",
+      "before": "fa6f8e0ce513e80c6b37165fa6a0aaa22d38bf7f75cc4e04a6b9d8bebf1cbeae",
+      "command": {
+        "actor": {
+          "model": "Work-session model identifier not recorded",
+          "name": "Work Aiden",
+          "runtime": "Supervised RC-015 assembly and supplied interpretation"
+        },
+        "branch_id": "B0",
+        "event_id": "RC015-DIPLOMACY-CONTEXT-STEP-5",
+        "expected_revision": 4,
+        "kind": "step",
+        "node": "MIRROR",
+        "output": {
+          "comparisons": [
+            {
+              "answers": [],
+              "explanation": "Different institutions may make consistent statements without independently verifying outcomes; inconsistent dates may reflect ordinary errors.",
+              "queries": []
+            }
+          ],
+          "information_lineage": {
+            "api_record_refs": [],
+            "criteria_refs": [
+              "reports/all-garden/20261104/RETURN_CONTRACT.json"
+            ],
+            "parent_answer_visible": true,
+            "parent_output_refs": [
+              "reports/all-garden/20261104/inputs/institutions.json",
+              "reports/all-garden/20261104/inputs/services.json",
+              "reports/all-garden/20261104/inputs/material.json",
+              "docs/GARDEN_TRAVERSAL.md"
+            ],
+            "source_refs": [
+              "DIPLOMACY-CONTEXT-RETURN-1",
+              "DIPLOMACY-CONTEXT-RETURN-2",
+              "DIPLOMACY-CONTEXT-RETURN-3"
+            ],
+            "test_origin": "inherited"
+          },
+          "working_buffers": [
+            "Explicit attribution, shared references, review and human correction preserve competing explanations."
+          ]
+        }
+      },
+      "decision": {
+        "next_node": "CROSS",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-11-07T10:46:07.208340+00:00"
+    },
+    {
+      "after": "73035a369d331c8b6061b54a6beff418e3926fa03779912fc73845f5516ed3f9",
+      "before": "949b65c276e4433ce72e5a9c21cb9fcd4fc6d38b380a0b25194034e9954b6ef4",
+      "command": {
+        "actor": {
+          "model": "Work-session model identifier not recorded",
+          "name": "Work Aiden",
+          "runtime": "Supervised RC-015 assembly and supplied interpretation"
+        },
+        "branch_id": "B0",
+        "event_id": "RC015-DIPLOMACY-CONTEXT-STEP-6",
+        "expected_revision": 5,
+        "kind": "step",
+        "node": "CROSS",
+        "output": {
+          "bridge": [
+            {
+              "question": "Inspect one institution's subsequent execution record if its stated plan becomes material to a lane.",
+              "source_refs": [
+                "DIPLOMACY-CONTEXT-RETURN-1",
+                "DIPLOMACY-CONTEXT-RETURN-2",
+                "DIPLOMACY-CONTEXT-RETURN-3"
+              ],
+              "status": "proposed_only"
+            }
+          ],
+          "independent": [],
+          "inherited": [
+            {
+              "ref": "DIPLOMACY-CONTEXT-RETURN-1"
+            },
+            {
+              "ref": "DIPLOMACY-CONTEXT-RETURN-2"
+            },
+            {
+              "ref": "DIPLOMACY-CONTEXT-RETURN-3"
+            }
+          ]
+        }
+      },
+      "decision": {
+        "next_node": "RESID",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-11-07T10:46:07.208340+00:00"
+    },
+    {
+      "after": "ab0db7269bf2056f90e8dac26aa3bfb90c86cce8cbd1abf0b3f0a572c74b2dc0",
+      "before": "73035a369d331c8b6061b54a6beff418e3926fa03779912fc73845f5516ed3f9",
+      "command": {
+        "actor": {
+          "model": "Work-session model identifier not recorded",
+          "name": "Work Aiden",
+          "runtime": "Supervised RC-015 assembly and supplied interpretation"
+        },
+        "branch_id": "B0",
+        "event_id": "RC015-DIPLOMACY-CONTEXT-STEP-7",
+        "expected_revision": 6,
+        "kind": "step",
+        "node": "RESID",
+        "output": {
+          "next_test": "Inspect one institution's subsequent execution record if its stated plan becomes material to a lane.",
+          "predicates": {
+            "consequential": true,
+            "distinct_functions": false,
+            "language_exception": null
+          },
+          "summary": "Empirical residuals remain with their originating lanes."
+        }
+      },
+      "decision": {
+        "next_node": "MEAN",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-11-07T10:46:07.208340+00:00"
+    },
+    {
+      "after": "f184c22d64bdfc4c0211ddded0617fbafc0cc250791feaf191f380e85f19aae0",
+      "before": "ab0db7269bf2056f90e8dac26aa3bfb90c86cce8cbd1abf0b3f0a572c74b2dc0",
+      "command": {
+        "actor": {
+          "model": "Work-session model identifier not recorded",
+          "name": "Work Aiden",
+          "runtime": "Supervised RC-015 assembly and supplied interpretation"
+        },
+        "branch_id": "B0",
+        "event_id": "RC015-DIPLOMACY-CONTEXT-STEP-8",
+        "expected_revision": 7,
+        "kind": "step",
+        "node": "MEAN",
+        "output": {
+          "authorship_limits": "Work-supplied cross-lane projection reuses specialist material and does not count as independent corroboration.",
+          "summary": "Read the attributed findings with their contrary evidence and residuals."
+        }
+      },
+      "decision": {
+        "next_node": "EXIT",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-11-07T10:46:07.208340+00:00"
+    },
+    {
+      "after": "60ff19c3b4a7608e0297e3d220da198bfeb6ab2fd033a26c096e0478f1a68c2e",
+      "before": "f184c22d64bdfc4c0211ddded0617fbafc0cc250791feaf191f380e85f19aae0",
+      "command": {
+        "actor": {
+          "model": "Work-session model identifier not recorded",
+          "name": "Work Aiden",
+          "runtime": "Supervised RC-015 assembly and supplied interpretation"
+        },
+        "branch_id": "B0",
+        "event_id": "RC015-DIPLOMACY-CONTEXT-STEP-9",
+        "expected_revision": 8,
+        "kind": "step",
+        "node": "EXIT",
+        "output": {
+          "kind": "question",
+          "summary": "Inspect one institution's subsequent execution record if its stated plan becomes material to a lane."
+        }
+      },
+      "decision": {
+        "next_node": "RETURN",
+        "status": "advanced"
+      },
+      "recorded_at": "2026-11-07T10:46:07.208340+00:00"
+    },
+    {
+      "after": "4a7b6aceb6f525234cd08d7bef37d1d3207a9e0fec128c56cf445f3ecae56b91",
+      "before": "60ff19c3b4a7608e0297e3d220da198bfeb6ab2fd033a26c096e0478f1a68c2e",
+      "command": {
+        "actor": {
+          "model": "Work-session model identifier not recorded",
+          "name": "Work Aiden",
+          "runtime": "Supervised RC-015 assembly and supplied interpretation"
+        },
+        "branch_id": "B0",
+        "event_id": "RC015-DIPLOMACY-CONTEXT-STEP-10",
+        "expected_revision": 9,
+        "kind": "step",
+        "node": "RETURN",
+        "output": {
+          "new_arrival": null,
+          "reason": "One cross-lane inspection completed; no additional collection or authority activated."
+        }
+      },
+      "decision": {
+        "reason": "No new arrival supplied",
+        "status": "rest"
+      },
+      "recorded_at": "2026-11-07T10:46:07.208340+00:00"
+    }
+  ],
+  "initial": {
+    "config": {
+      "authority": "Reviewed configuration determines eligible routes. Supplied content cannot edit this graph or activate morphology.",
+      "grammar": {
+        "crosscheck": {
+          "basic": "Collector capability",
+          "consequential_residual": "May request or propose teleport to a bounded Pygent Collector/specialist",
+          "permanent_crosscheck_bee": "Unresolved pending repeated cases showing the value of persistent specialist memory"
+        },
+        "entry": "INIT:ROOT-0001",
+        "external_execution": false,
+        "governor_input_refs": [
+          "daily_scroll",
+          "reflection_mailbox",
+          "meaning_tower",
+          "chair_imagination",
+          "meaning_boss_result"
+        ],
+        "routes": [
+          {
+            "automatic_execution": false,
+            "from": "INIT:RESID-0007",
+            "status": "available_not_running",
+            "to": "INIT:RETURN-0010",
+            "via": "PYGENT:PARALLAX-0001"
+          }
+        ],
+        "schema_version": "garden-config-0.1",
+        "status": "on_demand_grammar_prototype",
+        "trees": {
+          "INIT": {
+            "name": "Initiating Garden",
+            "nodes": [
+              {
+                "id": "ROOT-0001",
+                "purpose": "Pass name and identity"
+              },
+              {
+                "id": "ARRIVAL-0002",
+                "purpose": "What arrived, from where, sent to where"
+              },
+              {
+                "id": "EPIST-0003",
+                "purpose": "Prompt/question and starting epistemic state"
+              },
+              {
+                "id": "FUNC-0004",
+                "purpose": "Task and function being investigated"
+              },
+              {
+                "id": "MIRROR-0005",
+                "purpose": "Competing explanations, queries and recorded answers"
+              },
+              {
+                "id": "CROSS-0006",
+                "purpose": "Inherited, independently derived and deliberate bridge attachments"
+              },
+              {
+                "id": "RESID-0007",
+                "purpose": "Surviving residual and bounded specialist proposal"
+              },
+              {
+                "id": "MEAN-0008",
+                "purpose": "Changed meaning and non-evidence culture flower"
+              },
+              {
+                "id": "EXIT-0009",
+                "purpose": "Bounded answer, question, teleport, silence or error"
+              },
+              {
+                "id": "RETURN-0010",
+                "purpose": "New linked arrival or rest"
+              }
+            ]
+          },
+          "PYGENT": {
+            "name": "Bounded specialist destinations",
+            "nodes": [
+              {
+                "id": "PARALLAX-0001",
+                "purpose": "One bounded matched official-language Boss Packet",
+                "role": "parallax_collector_bee",
+                "status": "available_not_running"
+              }
+            ]
+          }
+        }
+      },
+      "independence": "A different branch, tree, context or model is not independent empirical evidence.",
+      "limits": {
+        "max_branches": 8,
+        "max_events": 128,
+        "max_fanout": 3,
+        "max_steps": 80,
+        "model_calls": 0
+      },
+      "model_execution": false,
+      "node_contracts": {
+        "ARRIVAL": {
+          "objects": [
+            "arrival",
+            "language_glance"
+          ]
+        },
+        "CROSS": {
+          "lists": [
+            "inherited",
+            "independent",
+            "bridge"
+          ]
+        },
+        "EPIST": {
+          "strings": [
+            "prompt",
+            "starting_state"
+          ]
+        },
+        "EXIT": {
+          "strings": [
+            "kind",
+            "summary"
+          ]
+        },
+        "FUNC": {
+          "strings": [
+            "task",
+            "function"
+          ]
+        },
+        "MEAN": {
+          "strings": [
+            "summary"
+          ]
+        },
+        "MIRROR": {
+          "lists": [
+            "comparisons"
+          ],
+          "objects": [
+            "information_lineage"
+          ]
+        },
+        "RESID": {
+          "objects": [
+            "predicates"
+          ],
+          "strings": [
+            "summary"
+          ]
+        },
+        "RETURN": {
+          "strings": [
+            "reason"
+          ]
+        },
+        "ROOT": {
+          "strings": [
+            "name"
+          ]
+        }
+      },
+      "rules": [
+        {
+          "actions": [
+            "MOVE",
+            "CLONE"
+          ],
+          "at": [
+            "RESID",
+            "MEAN",
+            "EXIT",
+            "RETURN"
+          ],
+          "condition": {
+            "members": [
+              "consequential",
+              "language_exception"
+            ],
+            "op": "AND"
+          },
+          "from": [
+            "INIT",
+            "ECONOMICS",
+            "PRODUCTION",
+            "DIPLOMACY",
+            "LANGUAGE",
+            "CUSTOMS",
+            "HOMELESSNESS"
+          ],
+          "id": "LANGUAGE-EXCEPTION",
+          "review_required": false,
+          "to": [
+            "LANGUAGE"
+          ]
+        },
+        {
+          "actions": [
+            "MOVE",
+            "CLONE",
+            "FANOUT"
+          ],
+          "at": [
+            "RESID",
+            "MEAN",
+            "EXIT",
+            "RETURN"
+          ],
+          "condition": {
+            "members": [
+              "consequential",
+              "distinct_functions"
+            ],
+            "op": "AND"
+          },
+          "from": [
+            "INIT",
+            "ECONOMICS",
+            "PRODUCTION",
+            "DIPLOMACY",
+            "LANGUAGE",
+            "CUSTOMS",
+            "HOMELESSNESS"
+          ],
+          "id": "DOMAIN-BRANCH",
+          "review_required": true,
+          "to": [
+            "INIT",
+            "ECONOMICS",
+            "PRODUCTION",
+            "DIPLOMACY",
+            "LANGUAGE",
+            "CUSTOMS",
+            "HOMELESSNESS"
+          ]
+        }
+      ],
+      "schema_version": "garden-traversal-config-1",
+      "status": "supplied_content_runtime",
+      "trees": {
+        "CUSTOMS": {
+          "name": "Customs Authority",
+          "node_template": "INIT",
+          "status": "traversable_with_supplied_content"
+        },
+        "DIPLOMACY": {
+          "name": "Diplomacy",
+          "node_template": "INIT",
+          "status": "traversable_with_supplied_content"
+        },
+        "ECONOMICS": {
+          "name": "Economics",
+          "node_template": "INIT",
+          "status": "traversable_with_supplied_content"
+        },
+        "HOMELESSNESS": {
+          "name": "Homelessness Governance and Integrity",
+          "node_template": "INIT",
+          "status": "traversable_with_supplied_content"
+        },
+        "INIT": {
+          "name": "Initiating Garden",
+          "node_template": "INIT",
+          "status": "traversable_with_supplied_content"
+        },
+        "LANGUAGE": {
+          "name": "Language Exception",
+          "node_template": "INIT",
+          "status": "traversable_with_supplied_content"
+        },
+        "PRODUCTION": {
+          "name": "Production",
+          "node_template": "INIT",
+          "status": "traversable_with_supplied_content"
+        }
+      }
+    },
+    "packet": {
+      "actor": {
+        "model": "Work-session model identifier not recorded",
+        "name": "Work Aiden",
+        "runtime": "Supervised RC-015 assembly and supplied interpretation"
+      },
+      "arrival": {
+        "from": "reports/all-garden/20261104/inputs/cross-lane.json",
+        "id": "RC015-DIPLOMACY-CONTEXT-ARRIVAL",
+        "payload": {
+          "baseline_refs": [
+            "reports/all-garden/20261104/inputs/institutions.json",
+            "reports/all-garden/20261104/inputs/services.json",
+            "reports/all-garden/20261104/inputs/material.json",
+            "docs/GARDEN_TRAVERSAL.md"
+          ],
+          "inspection_status": "retained_only",
+          "lane_id": "diplomacy-context",
+          "return_actor": "Work Aiden",
+          "return_sha256": "de4f51aacce7bbf63c843569239a3ec8303e222b8788268f8ec94ed5dbf3ca3a"
+        },
+        "to": "DIPLOMACY:ROOT-0001"
+      },
+      "budget": {
+        "max_branches": 1,
+        "max_events": 10,
+        "max_fanout": 0,
+        "max_steps": 10,
+        "model_calls": 0
+      },
+      "epoch": 1,
+      "focus": "Does comparing institutional claims preserve their actual issuer and evidential scope?",
+      "question_id": "Q-RC015-AUTHORITY-COMPARISON",
+      "run_id": "RC015-DIPLOMACY-CONTEXT",
+      "sources": [
+        {
+          "binding": {
+            "lane_id": "diplomacy-context",
+            "path": "reports/all-garden/20261104/inputs/cross-lane.json",
+            "sha256": "0719d844701d91d3c376d9fa658f28264e435c2e72c748b92fdd8e6e5e6a048b",
+            "source_id": "DIPLOMACY-CONTEXT-RETURN-1"
+          },
+          "kind": "context",
+          "lineage_id": "RC015-inputs/institutions.json",
+          "ref": "DIPLOMACY-CONTEXT-RETURN-1"
+        },
+        {
+          "binding": {
+            "lane_id": "diplomacy-context",
+            "path": "reports/all-garden/20261104/inputs/cross-lane.json",
+            "sha256": "923e89155538feca8d8f2776e89ffd68a5e9ce40b3978838baffe0d160dd04fe",
+            "source_id": "DIPLOMACY-CONTEXT-RETURN-2"
+          },
+          "kind": "context",
+          "lineage_id": "RC015-inputs/services.json",
+          "ref": "DIPLOMACY-CONTEXT-RETURN-2"
+        },
+        {
+          "binding": {
+            "lane_id": "diplomacy-context",
+            "path": "reports/all-garden/20261104/inputs/cross-lane.json",
+            "sha256": "3eafb7ee1939a7dd97da6f071ec3885370d2c2828135cba271c8ab50a1ced09f",
+            "source_id": "DIPLOMACY-CONTEXT-RETURN-3"
+          },
+          "kind": "context",
+          "lineage_id": "RC015-inputs/material.json",
+          "ref": "DIPLOMACY-CONTEXT-RETURN-3"
+        }
+      ],
+      "tree": "DIPLOMACY"
+    },
+    "registry": {
+      "questions": {
+        "Q-RC015-AUTHORITY-COMPARISON": {
+          "epoch": 1
+        }
+      }
+    }
+  },
+  "schema_version": "garden-traversal-1",
+  "state": {
+    "branches": {
+      "B0": {
+        "epoch": 1,
+        "focus": "Does comparing institutional claims preserve their actual issuer and evidential scope?",
+        "id": "B0",
+        "lineage": {
+          "independent_evidence": false,
+          "source_refs": [
+            "DIPLOMACY-CONTEXT-RETURN-1",
+            "DIPLOMACY-CONTEXT-RETURN-2",
+            "DIPLOMACY-CONTEXT-RETURN-3"
+          ]
+        },
+        "parent_branch": null,
+        "question_id": "Q-RC015-AUTHORITY-COMPARISON",
+        "rest": {
+          "kind": "return",
+          "reason": "No new arrival supplied"
+        },
+        "root_branch": "B0",
+        "seen_arrival_ids": [
+          "RC015-DIPLOMACY-CONTEXT-ARRIVAL"
+        ],
+        "status": "resting",
+        "visited": [
+          {
+            "payload_hash": "90825918dffcb22f6f7caefcd98f9a008486821122cd506659f32862f84d91d0",
+            "tree": "DIPLOMACY"
+          }
+        ],
+        "visits": [
+          {
+            "arrival": {
+              "from": "reports/all-garden/20261104/inputs/cross-lane.json",
+              "id": "RC015-DIPLOMACY-CONTEXT-ARRIVAL",
+              "payload": {
+                "baseline_refs": [
+                  "reports/all-garden/20261104/inputs/institutions.json",
+                  "reports/all-garden/20261104/inputs/services.json",
+                  "reports/all-garden/20261104/inputs/material.json",
+                  "docs/GARDEN_TRAVERSAL.md"
+                ],
+                "inspection_status": "retained_only",
+                "lane_id": "diplomacy-context",
+                "return_actor": "Work Aiden",
+                "return_sha256": "de4f51aacce7bbf63c843569239a3ec8303e222b8788268f8ec94ed5dbf3ca3a"
+              },
+              "to": "DIPLOMACY:ROOT-0001"
+            },
+            "status": "completed",
+            "steps": [
+              {
+                "actor": {
+                  "model": "Work-session model identifier not recorded",
+                  "name": "Work Aiden",
+                  "runtime": "Supervised RC-015 assembly and supplied interpretation"
+                },
+                "event_id": "RC015-DIPLOMACY-CONTEXT-STEP-1",
+                "node": "ROOT",
+                "output": {
+                  "name": "Authority and institutional claims"
+                }
+              },
+              {
+                "actor": {
+                  "model": "Work-session model identifier not recorded",
+                  "name": "Work Aiden",
+                  "runtime": "Supervised RC-015 assembly and supplied interpretation"
+                },
+                "event_id": "RC015-DIPLOMACY-CONTEXT-STEP-2",
+                "node": "ARRIVAL",
+                "output": {
+                  "arrival": {
+                    "from": "reports/all-garden/20261104/inputs/cross-lane.json",
+                    "id": "RC015-DIPLOMACY-CONTEXT-ARRIVAL",
+                    "payload": {
+                      "baseline_refs": [
+                        "reports/all-garden/20261104/inputs/institutions.json",
+                        "reports/all-garden/20261104/inputs/services.json",
+                        "reports/all-garden/20261104/inputs/material.json",
+                        "docs/GARDEN_TRAVERSAL.md"
+                      ],
+                      "inspection_status": "retained_only",
+                      "lane_id": "diplomacy-context",
+                      "return_actor": "Work Aiden",
+                      "return_sha256": "de4f51aacce7bbf63c843569239a3ec8303e222b8788268f8ec94ed5dbf3ca3a"
+                    },
+                    "to": "DIPLOMACY:ROOT-0001"
+                  },
+                  "language_glance": {
+                    "basis": "unknown",
+                    "issuing_office": "See each pinned source publisher",
+                    "languages": [],
+                    "note": "No matched original/translation inventory supplied by these returns.",
+                    "source_refs": [
+                      "DIPLOMACY-CONTEXT-RETURN-1",
+                      "DIPLOMACY-CONTEXT-RETURN-2",
+                      "DIPLOMACY-CONTEXT-RETURN-3"
+                    ],
+                    "surface_kind": "mixed"
+                  }
+                }
+              },
+              {
+                "actor": {
+                  "model": "Work-session model identifier not recorded",
+                  "name": "Work Aiden",
+                  "runtime": "Supervised RC-015 assembly and supplied interpretation"
+                },
+                "event_id": "RC015-DIPLOMACY-CONTEXT-STEP-3",
+                "node": "EPIST",
+                "output": {
+                  "empirical_cutoff": "2026-11-04 America/Los_Angeles",
+                  "inspection_time": "2026-11-07T10:46:07.208340+00:00",
+                  "prompt": "Does comparing institutional claims preserve their actual issuer and evidential scope?",
+                  "starting_state": "Retain the dated baseline; inspect one bounded residual."
+                }
+              },
+              {
+                "actor": {
+                  "model": "Work-session model identifier not recorded",
+                  "name": "Work Aiden",
+                  "runtime": "Supervised RC-015 assembly and supplied interpretation"
+                },
+                "event_id": "RC015-DIPLOMACY-CONTEXT-STEP-4",
+                "node": "FUNC",
+                "output": {
+                  "findings": [
+                    {
+                      "basis": "Review of retained return contents, not independent empirical validation.",
+                      "claim": "An agency response, operator claim and company disclosure remain attributed to their issuers; comparison alone establishes no agreement, coordination or causal link.",
+                      "epistemic_status": "DOCUMENTED",
+                      "evidence_refs": [
+                        "DIPLOMACY-CONTEXT-RETURN-1",
+                        "DIPLOMACY-CONTEXT-RETURN-2",
+                        "DIPLOMACY-CONTEXT-RETURN-3"
+                      ],
+                      "finding_id": "DIPLOMACY-CONTEXT-01",
+                      "is_new_event": false
+                    }
+                  ],
+                  "function": "Inspect evidence, outcome and access separately.",
+                  "inspection_status": "retained_only",
+                  "research_actor": "Work Aiden",
+                  "task": "Does comparing institutional claims preserve their actual issuer and evidential scope?"
+                }
+              },
+              {
+                "actor": {
+                  "model": "Work-session model identifier not recorded",
+                  "name": "Work Aiden",
+                  "runtime": "Supervised RC-015 assembly and supplied interpretation"
+                },
+                "event_id": "RC015-DIPLOMACY-CONTEXT-STEP-5",
+                "node": "MIRROR",
+                "output": {
+                  "comparisons": [
+                    {
+                      "answers": [],
+                      "explanation": "Different institutions may make consistent statements without independently verifying outcomes; inconsistent dates may reflect ordinary errors.",
+                      "queries": []
+                    }
+                  ],
+                  "information_lineage": {
+                    "api_record_refs": [],
+                    "criteria_refs": [
+                      "reports/all-garden/20261104/RETURN_CONTRACT.json"
+                    ],
+                    "parent_answer_visible": true,
+                    "parent_output_refs": [
+                      "reports/all-garden/20261104/inputs/institutions.json",
+                      "reports/all-garden/20261104/inputs/services.json",
+                      "reports/all-garden/20261104/inputs/material.json",
+                      "docs/GARDEN_TRAVERSAL.md"
+                    ],
+                    "source_refs": [
+                      "DIPLOMACY-CONTEXT-RETURN-1",
+                      "DIPLOMACY-CONTEXT-RETURN-2",
+                      "DIPLOMACY-CONTEXT-RETURN-3"
+                    ],
+                    "test_origin": "inherited"
+                  },
+                  "working_buffers": [
+                    "Explicit attribution, shared references, review and human correction preserve competing explanations."
+                  ]
+                }
+              },
+              {
+                "actor": {
+                  "model": "Work-session model identifier not recorded",
+                  "name": "Work Aiden",
+                  "runtime": "Supervised RC-015 assembly and supplied interpretation"
+                },
+                "event_id": "RC015-DIPLOMACY-CONTEXT-STEP-6",
+                "node": "CROSS",
+                "output": {
+                  "bridge": [
+                    {
+                      "question": "Inspect one institution's subsequent execution record if its stated plan becomes material to a lane.",
+                      "source_refs": [
+                        "DIPLOMACY-CONTEXT-RETURN-1",
+                        "DIPLOMACY-CONTEXT-RETURN-2",
+                        "DIPLOMACY-CONTEXT-RETURN-3"
+                      ],
+                      "status": "proposed_only"
+                    }
+                  ],
+                  "independent": [],
+                  "inherited": [
+                    {
+                      "ref": "DIPLOMACY-CONTEXT-RETURN-1"
+                    },
+                    {
+                      "ref": "DIPLOMACY-CONTEXT-RETURN-2"
+                    },
+                    {
+                      "ref": "DIPLOMACY-CONTEXT-RETURN-3"
+                    }
+                  ]
+                }
+              },
+              {
+                "actor": {
+                  "model": "Work-session model identifier not recorded",
+                  "name": "Work Aiden",
+                  "runtime": "Supervised RC-015 assembly and supplied interpretation"
+                },
+                "event_id": "RC015-DIPLOMACY-CONTEXT-STEP-7",
+                "node": "RESID",
+                "output": {
+                  "next_test": "Inspect one institution's subsequent execution record if its stated plan becomes material to a lane.",
+                  "predicates": {
+                    "consequential": true,
+                    "distinct_functions": false,
+                    "language_exception": null
+                  },
+                  "summary": "Empirical residuals remain with their originating lanes."
+                }
+              },
+              {
+                "actor": {
+                  "model": "Work-session model identifier not recorded",
+                  "name": "Work Aiden",
+                  "runtime": "Supervised RC-015 assembly and supplied interpretation"
+                },
+                "event_id": "RC015-DIPLOMACY-CONTEXT-STEP-8",
+                "node": "MEAN",
+                "output": {
+                  "authorship_limits": "Work-supplied cross-lane projection reuses specialist material and does not count as independent corroboration.",
+                  "summary": "Read the attributed findings with their contrary evidence and residuals."
+                }
+              },
+              {
+                "actor": {
+                  "model": "Work-session model identifier not recorded",
+                  "name": "Work Aiden",
+                  "runtime": "Supervised RC-015 assembly and supplied interpretation"
+                },
+                "event_id": "RC015-DIPLOMACY-CONTEXT-STEP-9",
+                "node": "EXIT",
+                "output": {
+                  "kind": "question",
+                  "summary": "Inspect one institution's subsequent execution record if its stated plan becomes material to a lane."
+                }
+              },
+              {
+                "actor": {
+                  "model": "Work-session model identifier not recorded",
+                  "name": "Work Aiden",
+                  "runtime": "Supervised RC-015 assembly and supplied interpretation"
+                },
+                "event_id": "RC015-DIPLOMACY-CONTEXT-STEP-10",
+                "node": "RETURN",
+                "output": {
+                  "new_arrival": null,
+                  "reason": "One cross-lane inspection completed; no additional collection or authority activated."
+                }
+              }
+            ],
+            "tree": "DIPLOMACY"
+          }
+        ]
+      }
+    },
+    "epoch": 1,
+    "limits": {
+      "max_branches": 1,
+      "max_events": 10,
+      "max_fanout": 0,
+      "max_steps": 10,
+      "model_calls": 0
+    },
+    "question_id": "Q-RC015-AUTHORITY-COMPARISON",
+    "revision": 10,
+    "route_decisions": [],
+    "route_signatures": [],
+    "run_id": "RC015-DIPLOMACY-CONTEXT",
+    "sources": {
+      "DIPLOMACY-CONTEXT-RETURN-1": {
+        "binding": {
+          "lane_id": "diplomacy-context",
+          "path": "reports/all-garden/20261104/inputs/cross-lane.json",
+          "sha256": "0719d844701d91d3c376d9fa658f28264e435c2e72c748b92fdd8e6e5e6a048b",
+          "source_id": "DIPLOMACY-CONTEXT-RETURN-1"
+        },
+        "kind": "context",
+        "lineage_id": "RC015-inputs/institutions.json",
+        "ref": "DIPLOMACY-CONTEXT-RETURN-1"
+      },
+      "DIPLOMACY-CONTEXT-RETURN-2": {
+        "binding": {
+          "lane_id": "diplomacy-context",
+          "path": "reports/all-garden/20261104/inputs/cross-lane.json",
+          "sha256": "923e89155538feca8d8f2776e89ffd68a5e9ce40b3978838baffe0d160dd04fe",
+          "source_id": "DIPLOMACY-CONTEXT-RETURN-2"
+        },
+        "kind": "context",
+        "lineage_id": "RC015-inputs/services.json",
+        "ref": "DIPLOMACY-CONTEXT-RETURN-2"
+      },
+      "DIPLOMACY-CONTEXT-RETURN-3": {
+        "binding": {
+          "lane_id": "diplomacy-context",
+          "path": "reports/all-garden/20261104/inputs/cross-lane.json",
+          "sha256": "3eafb7ee1939a7dd97da6f071ec3885370d2c2828135cba271c8ab50a1ced09f",
+          "source_id": "DIPLOMACY-CONTEXT-RETURN-3"
+        },
+        "kind": "context",
+        "lineage_id": "RC015-inputs/material.json",
+        "ref": "DIPLOMACY-CONTEXT-RETURN-3"
+      }
+    },
+    "used": {
+      "branches": 1,
+      "model_calls": 0,
+      "steps": 10
+    }
+  },
+  "state_sha256": "4a7b6aceb6f525234cd08d7bef37d1d3207a9e0fec128c56cf445f3ecae56b91"
+}

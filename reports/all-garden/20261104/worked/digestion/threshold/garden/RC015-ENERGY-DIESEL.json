@@ -1,0 +1,12 @@
+{
+  "branches": [
+    "B0"
+  ],
+  "meaning": "Supplied traversal and routing; no new evidence, model dispatch or Governor review.",
+  "record_ref": "operations/garden/runs/RC015-ENERGY-DIESEL.json",
+  "record_sha256": "4d9ceb6fa4039ea249bb85e3749ddae696dfcb777ad82c314735d098f134c23d",
+  "run_id": "RC015-ENERGY-DIESEL",
+  "schema_version": "digestion-garden-materials-1",
+  "state_sha256": "d73a62da50b54217c05146efef0753426e41ee41cb29886379b1329fe614b968",
+  "status": "available_for_digestion"
+}

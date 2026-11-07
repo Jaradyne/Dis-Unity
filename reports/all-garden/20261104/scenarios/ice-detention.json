@@ -1,0 +1,350 @@
+{
+  "commands": [
+    {
+      "actor": {
+        "model": "Work-session model identifier not recorded",
+        "name": "Work Aiden",
+        "runtime": "Supervised RC-015 assembly and supplied interpretation"
+      },
+      "branch_id": "B0",
+      "event_id": "RC015-ICE-DETENTION-STEP-1",
+      "expected_revision": 0,
+      "kind": "step",
+      "node": "ROOT",
+      "output": {
+        "name": "Camp East Montana TB safeguards and correction"
+      }
+    },
+    {
+      "actor": {
+        "model": "Work-session model identifier not recorded",
+        "name": "Work Aiden",
+        "runtime": "Supervised RC-015 assembly and supplied interpretation"
+      },
+      "branch_id": "B0",
+      "event_id": "RC015-ICE-DETENTION-STEP-2",
+      "expected_revision": 1,
+      "kind": "step",
+      "node": "ARRIVAL",
+      "output": {
+        "arrival": {
+          "from": "reports/all-garden/20261104/inputs/institutions.json",
+          "id": "RC015-ICE-DETENTION-ARRIVAL",
+          "payload": {
+            "baseline_refs": [
+              "reports/evidence-arrival/DIGEST_HANDOFF.md",
+              "reports/reporting-audit/camp-east-montana/AUDIT.md",
+              "examples/garden-case-studies/camp-east-montana/DIGEST_HANDOFF.md",
+              "operations/safeguards/journal.json"
+            ],
+            "inspection_status": "reconfirmed",
+            "lane_id": "ice-detention",
+            "return_actor": "cycle15_institutions",
+            "return_sha256": "1cc6139b7bb2ba9e5bdce6fb214853b75434cbd5035338c2917f6c68ecf3ed6d"
+          },
+          "to": "INIT:ROOT-0001"
+        },
+        "language_glance": {
+          "basis": "unknown",
+          "issuing_office": "See each pinned source publisher",
+          "languages": [],
+          "note": "No matched original/translation inventory supplied by these returns.",
+          "source_refs": [
+            "RC015-GAO-CEM-STATUS",
+            "RC015-CEM-ODO-FEB2026-MIRROR"
+          ],
+          "surface_kind": "mixed"
+        }
+      }
+    },
+    {
+      "actor": {
+        "model": "Work-session model identifier not recorded",
+        "name": "Work Aiden",
+        "runtime": "Supervised RC-015 assembly and supplied interpretation"
+      },
+      "branch_id": "B0",
+      "event_id": "RC015-ICE-DETENTION-STEP-3",
+      "expected_revision": 2,
+      "kind": "step",
+      "node": "EPIST",
+      "output": {
+        "empirical_cutoff": "2026-11-04 America/Los_Angeles",
+        "inspection_time": "2026-11-05T04:17:42.375081+00:00",
+        "prompt": "Does a dated post-April18,2026 public medical reinspection or closure record verify TB intake-testing and notification corrections?",
+        "starting_state": "Retain the dated baseline; inspect one bounded residual."
+      }
+    },
+    {
+      "actor": {
+        "model": "Work-session model identifier not recorded",
+        "name": "Work Aiden",
+        "runtime": "Supervised RC-015 assembly and supplied interpretation"
+      },
+      "branch_id": "B0",
+      "event_id": "RC015-ICE-DETENTION-STEP-4",
+      "expected_revision": 3,
+      "kind": "step",
+      "node": "FUNC",
+      "output": {
+        "findings": [
+          {
+            "basis": "Fresh reading of the same GAO status surface; no status transition established.",
+            "claim": "The four Open recommendation statuses and dated agency plans remain visible. They establish neither that no corrective work occurred nor that TB protections now work.",
+            "epistemic_status": "DOCUMENTED",
+            "evidence_refs": [
+              "RC015-GAO-CEM-STATUS"
+            ],
+            "finding_id": "RC015-CEM-01",
+            "is_new_event": false
+          },
+          {
+            "basis": "New source-level inspection of an old event, not a new failure or independent corroborating inspection.",
+            "claim": "The mirrored February ODO report directly supports the historical notification/isolation deficiencies. Its inspection precedes the April18 contract transition.",
+            "epistemic_status": "DOCUMENTED",
+            "evidence_refs": [
+              "RC015-CEM-ODO-FEB2026-MIRROR"
+            ],
+            "finding_id": "RC015-CEM-02",
+            "is_new_event": false
+          },
+          {
+            "basis": "Neither retrieved document supplies the required post-April18 sampled verification; records elsewhere may exist.",
+            "claim": "Post-transition TB compliance and a protective result remain UNKNOWN in this check.",
+            "epistemic_status": "UNKNOWN",
+            "evidence_refs": [
+              "RC015-GAO-CEM-STATUS",
+              "RC015-CEM-ODO-FEB2026-MIRROR"
+            ],
+            "finding_id": "RC015-CEM-03",
+            "is_new_event": false
+          }
+        ],
+        "function": "Inspect evidence, outcome and access separately.",
+        "inspection_status": "reconfirmed",
+        "research_actor": "cycle15_institutions",
+        "task": "Does a dated post-April18,2026 public medical reinspection or closure record verify TB intake-testing and notification corrections?"
+      }
+    },
+    {
+      "actor": {
+        "model": "Work-session model identifier not recorded",
+        "name": "Work Aiden",
+        "runtime": "Supervised RC-015 assembly and supplied interpretation"
+      },
+      "branch_id": "B0",
+      "event_id": "RC015-ICE-DETENTION-STEP-5",
+      "expected_revision": 4,
+      "kind": "step",
+      "node": "MIRROR",
+      "output": {
+        "comparisons": [
+          {
+            "answers": [],
+            "explanation": "ODO reports 49 voluntary interviews, generally favorable service responses, and a dietitian menu review. These narrow observations cannot establish TB protection.",
+            "queries": []
+          },
+          {
+            "answers": [],
+            "explanation": "The retained GAO baseline includes partial physical improvements and contractor-reported corrective plans; contract replacement is distinct from verified remedy.",
+            "queries": []
+          }
+        ],
+        "information_lineage": {
+          "api_record_refs": [],
+          "criteria_refs": [
+            "reports/all-garden/20261104/RETURN_CONTRACT.json"
+          ],
+          "parent_answer_visible": true,
+          "parent_output_refs": [
+            "reports/evidence-arrival/DIGEST_HANDOFF.md",
+            "reports/reporting-audit/camp-east-montana/AUDIT.md",
+            "examples/garden-case-studies/camp-east-montana/DIGEST_HANDOFF.md",
+            "operations/safeguards/journal.json"
+          ],
+          "source_refs": [
+            "RC015-GAO-CEM-STATUS",
+            "RC015-CEM-ODO-FEB2026-MIRROR"
+          ],
+          "test_origin": "inherited"
+        },
+        "working_buffers": [
+          "Inspection and discrepancy-report channels documented the historical failures; monitoring activity itself is not proof that they remedied them."
+        ]
+      }
+    },
+    {
+      "actor": {
+        "model": "Work-session model identifier not recorded",
+        "name": "Work Aiden",
+        "runtime": "Supervised RC-015 assembly and supplied interpretation"
+      },
+      "branch_id": "B0",
+      "event_id": "RC015-ICE-DETENTION-STEP-6",
+      "expected_revision": 5,
+      "kind": "step",
+      "node": "CROSS",
+      "output": {
+        "bridge": [
+          {
+            "question": "Obtain one dated final post-April18 medical reinspection or corrective-action closure record naming TB testing/notification, sampled compliance and the verifier. The existing FOIA draft remains unsent.",
+            "source_refs": [
+              "RC015-GAO-CEM-STATUS",
+              "RC015-CEM-ODO-FEB2026-MIRROR"
+            ],
+            "status": "proposed_only"
+          }
+        ],
+        "independent": [],
+        "inherited": [
+          {
+            "ref": "RC015-GAO-CEM-STATUS"
+          },
+          {
+            "ref": "RC015-CEM-ODO-FEB2026-MIRROR"
+          }
+        ]
+      }
+    },
+    {
+      "actor": {
+        "model": "Work-session model identifier not recorded",
+        "name": "Work Aiden",
+        "runtime": "Supervised RC-015 assembly and supplied interpretation"
+      },
+      "branch_id": "B0",
+      "event_id": "RC015-ICE-DETENTION-STEP-7",
+      "expected_revision": 6,
+      "kind": "step",
+      "node": "RESID",
+      "output": {
+        "next_test": "Obtain one dated final post-April18 medical reinspection or corrective-action closure record naming TB testing/notification, sampled compliance and the verifier. The existing FOIA draft remains unsent.",
+        "predicates": {
+          "consequential": true,
+          "distinct_functions": false,
+          "language_exception": null
+        },
+        "summary": "Sampled post-April18 intake testing and required notification compliance. Correction closure date, verification method and sustained protective result. Current safely usable capacity and replacement-contract compliance."
+      }
+    },
+    {
+      "actor": {
+        "model": "Work-session model identifier not recorded",
+        "name": "Work Aiden",
+        "runtime": "Supervised RC-015 assembly and supplied interpretation"
+      },
+      "branch_id": "B0",
+      "event_id": "RC015-ICE-DETENTION-STEP-8",
+      "expected_revision": 7,
+      "kind": "step",
+      "node": "MEAN",
+      "output": {
+        "authorship_limits": "No facility visit, clinical record review, raw government receipt for the mirrored inspection, or independent medical verification.",
+        "summary": "Read the attributed findings with their contrary evidence and residuals."
+      }
+    },
+    {
+      "actor": {
+        "model": "Work-session model identifier not recorded",
+        "name": "Work Aiden",
+        "runtime": "Supervised RC-015 assembly and supplied interpretation"
+      },
+      "branch_id": "B0",
+      "event_id": "RC015-ICE-DETENTION-STEP-9",
+      "expected_revision": 8,
+      "kind": "step",
+      "node": "EXIT",
+      "output": {
+        "kind": "question",
+        "summary": "Obtain one dated final post-April18 medical reinspection or corrective-action closure record naming TB testing/notification, sampled compliance and the verifier. The existing FOIA draft remains unsent."
+      }
+    },
+    {
+      "actor": {
+        "model": "Work-session model identifier not recorded",
+        "name": "Work Aiden",
+        "runtime": "Supervised RC-015 assembly and supplied interpretation"
+      },
+      "branch_id": "B0",
+      "event_id": "RC015-ICE-DETENTION-STEP-10",
+      "expected_revision": 9,
+      "kind": "step",
+      "node": "RETURN",
+      "output": {
+        "new_arrival": null,
+        "reason": "One fresh GAO status page and one historical underlying inspection inspected; the specified current correction outcome is not established."
+      }
+    }
+  ],
+  "question_snapshot": {
+    "questions": {
+      "Q-CEM-TB-CORRECTION": {
+        "epoch": 1
+      }
+    }
+  },
+  "record_base_url": "https://github.com/Jaradyne/Dis-Unity/blob/main/reports/all-garden/20261104/worked/",
+  "recorded_at": "2026-11-07T10:46:07.208340+00:00",
+  "recorded_at_meaning": "Actual supervised assembly time, reused deterministically; not an origin fetch time or time of the historical events.",
+  "schema_version": "garden-scenario-1",
+  "start": {
+    "actor": {
+      "model": "Work-session model identifier not recorded",
+      "name": "Work Aiden",
+      "runtime": "Supervised RC-015 assembly and supplied interpretation"
+    },
+    "arrival": {
+      "from": "reports/all-garden/20261104/inputs/institutions.json",
+      "id": "RC015-ICE-DETENTION-ARRIVAL",
+      "payload": {
+        "baseline_refs": [
+          "reports/evidence-arrival/DIGEST_HANDOFF.md",
+          "reports/reporting-audit/camp-east-montana/AUDIT.md",
+          "examples/garden-case-studies/camp-east-montana/DIGEST_HANDOFF.md",
+          "operations/safeguards/journal.json"
+        ],
+        "inspection_status": "reconfirmed",
+        "lane_id": "ice-detention",
+        "return_actor": "cycle15_institutions",
+        "return_sha256": "1cc6139b7bb2ba9e5bdce6fb214853b75434cbd5035338c2917f6c68ecf3ed6d"
+      },
+      "to": "INIT:ROOT-0001"
+    },
+    "budget": {
+      "max_branches": 1,
+      "max_events": 10,
+      "max_fanout": 0,
+      "max_steps": 10,
+      "model_calls": 0
+    },
+    "epoch": 1,
+    "focus": "Does a dated post-April18,2026 public medical reinspection or closure record verify TB intake-testing and notification corrections?",
+    "question_id": "Q-CEM-TB-CORRECTION",
+    "run_id": "RC015-ICE-DETENTION",
+    "sources": [
+      {
+        "binding": {
+          "lane_id": "ice-detention",
+          "path": "reports/all-garden/20261104/inputs/institutions.json",
+          "sha256": "f9d427034f08166a54b382b61eeadd6cf84b4769d4df8ef65281d31f617ea7eb",
+          "source_id": "RC015-GAO-CEM-STATUS"
+        },
+        "kind": "public_source",
+        "lineage_id": "GAO-26-108886",
+        "ref": "RC015-GAO-CEM-STATUS"
+      },
+      {
+        "binding": {
+          "lane_id": "ice-detention",
+          "path": "reports/all-garden/20261104/inputs/institutions.json",
+          "sha256": "676ecc037e166c245d15dbac4290262c18e8d5d8aadc0f24047be5e83344275d",
+          "source_id": "RC015-CEM-ODO-FEB2026-MIRROR"
+        },
+        "kind": "public_source",
+        "lineage_id": "CEM-ODO-FEBRUARY2026",
+        "ref": "RC015-CEM-ODO-FEB2026-MIRROR"
+      }
+    ],
+    "tree": "INIT"
+  }
+}

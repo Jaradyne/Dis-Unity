@@ -1,0 +1,12 @@
+{
+  "branches": [
+    "B0"
+  ],
+  "meaning": "Supplied traversal and routing; no new evidence, model dispatch or Governor review.",
+  "record_ref": "operations/garden/runs/RC015-CARE-AUTONOMY.json",
+  "record_sha256": "06ba4a1991e6821ed4d057ab3c7b583dae710c6aba87201394b57d28c3038df0",
+  "run_id": "RC015-CARE-AUTONOMY",
+  "schema_version": "digestion-garden-materials-1",
+  "state_sha256": "966ed20cfeda13b6a4f5c6538dd63da2d26ee045f5ba8abdbde013c00fb2c4d0",
+  "status": "available_for_digestion"
+}

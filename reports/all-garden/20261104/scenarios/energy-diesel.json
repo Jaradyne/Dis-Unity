@@ -1,0 +1,338 @@
+{
+  "commands": [
+    {
+      "actor": {
+        "model": "Work-session model identifier not recorded",
+        "name": "Work Aiden",
+        "runtime": "Supervised RC-015 assembly and supplied interpretation"
+      },
+      "branch_id": "B0",
+      "event_id": "RC015-ENERGY-DIESEL-STEP-1",
+      "expected_revision": 0,
+      "kind": "step",
+      "node": "ROOT",
+      "output": {
+        "name": "Diesel cost and essential delivery"
+      }
+    },
+    {
+      "actor": {
+        "model": "Work-session model identifier not recorded",
+        "name": "Work Aiden",
+        "runtime": "Supervised RC-015 assembly and supplied interpretation"
+      },
+      "branch_id": "B0",
+      "event_id": "RC015-ENERGY-DIESEL-STEP-2",
+      "expected_revision": 1,
+      "kind": "step",
+      "node": "ARRIVAL",
+      "output": {
+        "arrival": {
+          "from": "reports/all-garden/20261104/inputs/material.json",
+          "id": "RC015-ENERGY-DIESEL-ARRIVAL",
+          "payload": {
+            "baseline_refs": [
+              "reports/diesel/20261102/README.md",
+              "reports/diesel/20261104-operator-followup/README.md",
+              "reports/diesel/20261102/prices.json"
+            ],
+            "inspection_status": "inconclusive",
+            "lane_id": "energy-diesel",
+            "return_actor": "cycle15_material_recovery",
+            "return_sha256": "e4db587a9ffeaa77b9760ebceabb068861353059c8b983f4b725fb2c078949d8"
+          },
+          "to": "ECONOMICS:ROOT-0001"
+        },
+        "language_glance": {
+          "basis": "unknown",
+          "issuing_office": "See each pinned source publisher",
+          "languages": [],
+          "note": "No matched original/translation inventory supplied by these returns.",
+          "source_refs": [
+            "RC15-ACCFB-PUBLICATIONS",
+            "RC15-ACCFB-OCT-LINK"
+          ],
+          "surface_kind": "mixed"
+        }
+      }
+    },
+    {
+      "actor": {
+        "model": "Work-session model identifier not recorded",
+        "name": "Work Aiden",
+        "runtime": "Supervised RC-015 assembly and supplied interpretation"
+      },
+      "branch_id": "B0",
+      "event_id": "RC015-ENERGY-DIESEL-STEP-3",
+      "expected_revision": 2,
+      "kind": "step",
+      "node": "EPIST",
+      "output": {
+        "empirical_cutoff": "2026-11-04 America/Los_Angeles",
+        "inspection_time": "2026-11-07T10:43:02.949044+00:00",
+        "prompt": "Are fuel costs becoming actual missed essential deliveries?",
+        "starting_state": "Retain the dated baseline; inspect one bounded residual."
+      }
+    },
+    {
+      "actor": {
+        "model": "Work-session model identifier not recorded",
+        "name": "Work Aiden",
+        "runtime": "Supervised RC-015 assembly and supplied interpretation"
+      },
+      "branch_id": "B0",
+      "event_id": "RC015-ENERGY-DIESEL-STEP-4",
+      "expected_revision": 3,
+      "kind": "step",
+      "node": "FUNC",
+      "output": {
+        "findings": [
+          {
+            "basis": "Inspection limitation, not a finding about the presence or absence of real-world failures.",
+            "claim": "The bounded ACCFB publication check did not recover a matched weekly delivery-and-fuel-cost record; essential-delivery failure and protection remain UNKNOWN.",
+            "epistemic_status": "UNKNOWN",
+            "evidence_refs": [
+              "RC15-ACCFB-PUBLICATIONS",
+              "RC15-ACCFB-OCT-LINK"
+            ],
+            "finding_id": "RC15-DIESEL-01",
+            "is_new_event": false
+          },
+          {
+            "basis": "Reused repository baseline, not a fresh EIA observation.",
+            "claim": "The earlier EIA price observations and ACCFB procedure/budget statements remain dated context; this recheck adds no operator cost-to-service causal finding.",
+            "epistemic_status": "DOCUMENTED",
+            "evidence_refs": [
+              "reports/diesel/20261102/README.md",
+              "reports/diesel/20261104-operator-followup/README.md"
+            ],
+            "finding_id": "RC15-DIESEL-02",
+            "is_new_event": false
+          }
+        ],
+        "function": "Inspect evidence, outcome and access separately.",
+        "inspection_status": "inconclusive",
+        "research_actor": "cycle15_material_recovery",
+        "task": "Are fuel costs becoming actual missed essential deliveries?"
+      }
+    },
+    {
+      "actor": {
+        "model": "Work-session model identifier not recorded",
+        "name": "Work Aiden",
+        "runtime": "Supervised RC-015 assembly and supplied interpretation"
+      },
+      "branch_id": "B0",
+      "event_id": "RC015-ENERGY-DIESEL-STEP-5",
+      "expected_revision": 4,
+      "kind": "step",
+      "node": "MIRROR",
+      "output": {
+        "comparisons": [
+          {
+            "answers": [],
+            "explanation": "Retained ACCFB guidance offers donor drop-off and prioritizes partner distributions; it does not say all food-drive pickups stopped.",
+            "queries": []
+          },
+          {
+            "answers": [],
+            "explanation": "Staffing, vehicles, route design, demand and other costs remain competing explanations for any future documented constraint.",
+            "queries": []
+          }
+        ],
+        "information_lineage": {
+          "api_record_refs": [],
+          "criteria_refs": [
+            "reports/all-garden/20261104/RETURN_CONTRACT.json"
+          ],
+          "parent_answer_visible": true,
+          "parent_output_refs": [
+            "reports/diesel/20261102/README.md",
+            "reports/diesel/20261104-operator-followup/README.md",
+            "reports/diesel/20261102/prices.json"
+          ],
+          "source_refs": [
+            "RC15-ACCFB-PUBLICATIONS",
+            "RC15-ACCFB-OCT-LINK"
+          ],
+          "test_origin": "inherited"
+        },
+        "working_buffers": [
+          "Retained prioritization, donor drop-off and budget adjustment are possible adaptations, with actual capacity and outcomes unverified."
+        ]
+      }
+    },
+    {
+      "actor": {
+        "model": "Work-session model identifier not recorded",
+        "name": "Work Aiden",
+        "runtime": "Supervised RC-015 assembly and supplied interpretation"
+      },
+      "branch_id": "B0",
+      "event_id": "RC015-ENERGY-DIESEL-STEP-6",
+      "expected_revision": 5,
+      "kind": "step",
+      "node": "CROSS",
+      "output": {
+        "bridge": [
+          {
+            "question": "Inspect one dated public or voluntarily supplied weekly operator packet joining planned/completed deliveries, reasons for misses, fuel quantities/expense and any used buffer; no contact was made.",
+            "source_refs": [
+              "RC15-ACCFB-PUBLICATIONS",
+              "RC15-ACCFB-OCT-LINK"
+            ],
+            "status": "proposed_only"
+          }
+        ],
+        "independent": [],
+        "inherited": [
+          {
+            "ref": "RC15-ACCFB-PUBLICATIONS"
+          },
+          {
+            "ref": "RC15-ACCFB-OCT-LINK"
+          }
+        ]
+      }
+    },
+    {
+      "actor": {
+        "model": "Work-session model identifier not recorded",
+        "name": "Work Aiden",
+        "runtime": "Supervised RC-015 assembly and supplied interpretation"
+      },
+      "branch_id": "B0",
+      "event_id": "RC015-ENERGY-DIESEL-STEP-7",
+      "expected_revision": 6,
+      "kind": "step",
+      "node": "RESID",
+      "output": {
+        "next_test": "Inspect one dated public or voluntarily supplied weekly operator packet joining planned/completed deliveries, reasons for misses, fuel quantities/expense and any used buffer; no contact was made.",
+        "predicates": {
+          "consequential": true,
+          "distinct_functions": false,
+          "language_exception": null
+        },
+        "summary": "Planned and completed deliveries for a matched week; reasons for misses, actual fuel quantity/expense, and operational reserve. Whether published alternatives were usable and protected service in the relevant week."
+      }
+    },
+    {
+      "actor": {
+        "model": "Work-session model identifier not recorded",
+        "name": "Work Aiden",
+        "runtime": "Supervised RC-015 assembly and supplied interpretation"
+      },
+      "branch_id": "B0",
+      "event_id": "RC015-ENERGY-DIESEL-STEP-8",
+      "expected_revision": 7,
+      "kind": "step",
+      "node": "MEAN",
+      "output": {
+        "authorship_limits": "Recovery specialist reviewed public extraction and retained reports. No site observation, invoices, private data or independent operational audit.",
+        "summary": "Read the attributed findings with their contrary evidence and residuals."
+      }
+    },
+    {
+      "actor": {
+        "model": "Work-session model identifier not recorded",
+        "name": "Work Aiden",
+        "runtime": "Supervised RC-015 assembly and supplied interpretation"
+      },
+      "branch_id": "B0",
+      "event_id": "RC015-ENERGY-DIESEL-STEP-9",
+      "expected_revision": 8,
+      "kind": "step",
+      "node": "EXIT",
+      "output": {
+        "kind": "question",
+        "summary": "Inspect one dated public or voluntarily supplied weekly operator packet joining planned/completed deliveries, reasons for misses, fuel quantities/expense and any used buffer; no contact was made."
+      }
+    },
+    {
+      "actor": {
+        "model": "Work-session model identifier not recorded",
+        "name": "Work Aiden",
+        "runtime": "Supervised RC-015 assembly and supplied interpretation"
+      },
+      "branch_id": "B0",
+      "event_id": "RC015-ENERGY-DIESEL-STEP-10",
+      "expected_revision": 9,
+      "kind": "step",
+      "node": "RETURN",
+      "output": {
+        "new_arrival": null,
+        "reason": "One publication index and its October newsletter link checked within the shared budget; no qualifying record recovered."
+      }
+    }
+  ],
+  "question_snapshot": {
+    "questions": {
+      "Q-RESEARCH-Q01": {
+        "epoch": 2
+      }
+    }
+  },
+  "record_base_url": "https://github.com/Jaradyne/Dis-Unity/blob/main/reports/all-garden/20261104/worked/",
+  "recorded_at": "2026-11-07T10:46:07.208340+00:00",
+  "recorded_at_meaning": "Actual supervised assembly time, reused deterministically; not an origin fetch time or time of the historical events.",
+  "schema_version": "garden-scenario-1",
+  "start": {
+    "actor": {
+      "model": "Work-session model identifier not recorded",
+      "name": "Work Aiden",
+      "runtime": "Supervised RC-015 assembly and supplied interpretation"
+    },
+    "arrival": {
+      "from": "reports/all-garden/20261104/inputs/material.json",
+      "id": "RC015-ENERGY-DIESEL-ARRIVAL",
+      "payload": {
+        "baseline_refs": [
+          "reports/diesel/20261102/README.md",
+          "reports/diesel/20261104-operator-followup/README.md",
+          "reports/diesel/20261102/prices.json"
+        ],
+        "inspection_status": "inconclusive",
+        "lane_id": "energy-diesel",
+        "return_actor": "cycle15_material_recovery",
+        "return_sha256": "e4db587a9ffeaa77b9760ebceabb068861353059c8b983f4b725fb2c078949d8"
+      },
+      "to": "ECONOMICS:ROOT-0001"
+    },
+    "budget": {
+      "max_branches": 1,
+      "max_events": 10,
+      "max_fanout": 0,
+      "max_steps": 10,
+      "model_calls": 0
+    },
+    "epoch": 2,
+    "focus": "Are fuel costs becoming actual missed essential deliveries?",
+    "question_id": "Q-RESEARCH-Q01",
+    "run_id": "RC015-ENERGY-DIESEL",
+    "sources": [
+      {
+        "binding": {
+          "lane_id": "energy-diesel",
+          "path": "reports/all-garden/20261104/inputs/material.json",
+          "sha256": "a5a65a03c19a6d8715f7d8023b797a3b05289ffe74b5ac3163e6ab8383fb30a5",
+          "source_id": "RC15-ACCFB-PUBLICATIONS"
+        },
+        "kind": "public_source",
+        "lineage_id": "ACCFB-PUBLICATIONS",
+        "ref": "RC15-ACCFB-PUBLICATIONS"
+      },
+      {
+        "binding": {
+          "lane_id": "energy-diesel",
+          "path": "reports/all-garden/20261104/inputs/material.json",
+          "sha256": "ead9758c441e599b89185226955b61aa029ef63ce78420eb7684f6e41626b0c9",
+          "source_id": "RC15-ACCFB-OCT-LINK"
+        },
+        "kind": "public_source",
+        "lineage_id": "ACCFB-PUBLICATIONS",
+        "ref": "RC15-ACCFB-OCT-LINK"
+      }
+    ],
+    "tree": "ECONOMICS"
+  }
+}

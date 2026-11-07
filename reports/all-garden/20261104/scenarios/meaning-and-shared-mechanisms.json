@@ -1,0 +1,338 @@
+{
+  "commands": [
+    {
+      "actor": {
+        "model": "Work-session model identifier not recorded",
+        "name": "Work Aiden",
+        "runtime": "Supervised RC-015 assembly and supplied interpretation"
+      },
+      "branch_id": "B0",
+      "event_id": "RC015-MEANING-AND-SHARED-MECHANISMS-STEP-1",
+      "expected_revision": 0,
+      "kind": "step",
+      "node": "ROOT",
+      "output": {
+        "name": "Meaning Tower and shared evidence machinery"
+      }
+    },
+    {
+      "actor": {
+        "model": "Work-session model identifier not recorded",
+        "name": "Work Aiden",
+        "runtime": "Supervised RC-015 assembly and supplied interpretation"
+      },
+      "branch_id": "B0",
+      "event_id": "RC015-MEANING-AND-SHARED-MECHANISMS-STEP-2",
+      "expected_revision": 1,
+      "kind": "step",
+      "node": "ARRIVAL",
+      "output": {
+        "arrival": {
+          "from": "reports/all-garden/20261104/inputs/coordinator.json",
+          "id": "RC015-MEANING-AND-SHARED-MECHANISMS-ARRIVAL",
+          "payload": {
+            "baseline_refs": [
+              "docs/GARDEN_TRAVERSAL.md",
+              "docs/THREAD_OF_CONTINUITY.md",
+              "docs/SAFEGUARD_REALITY_CHECK.md",
+              "docs/RELAY_CONTINUITY.md",
+              "config/meaning-tower-series.json"
+            ],
+            "inspection_status": "retained_only",
+            "lane_id": "meaning-and-shared-mechanisms",
+            "return_actor": "Work Aiden",
+            "return_sha256": "5c2759d7e3815ffbbb21ff1677462dea373162dd62b48cc09ce0e84de11ae565"
+          },
+          "to": "INIT:ROOT-0001"
+        },
+        "language_glance": {
+          "basis": "unknown",
+          "issuing_office": "See each pinned source publisher",
+          "languages": [],
+          "note": "No matched original/translation inventory supplied by these returns.",
+          "source_refs": [
+            "RC015-MECHANISM-CHECKS",
+            "RC015-MEANING-ROSTER"
+          ],
+          "surface_kind": "mixed"
+        }
+      }
+    },
+    {
+      "actor": {
+        "model": "Work-session model identifier not recorded",
+        "name": "Work Aiden",
+        "runtime": "Supervised RC-015 assembly and supplied interpretation"
+      },
+      "branch_id": "B0",
+      "event_id": "RC015-MEANING-AND-SHARED-MECHANISMS-STEP-3",
+      "expected_revision": 2,
+      "kind": "step",
+      "node": "EPIST",
+      "output": {
+        "empirical_cutoff": "2026-11-04 America/Los_Angeles",
+        "inspection_time": "2026-11-07T10:43:41.552774+00:00",
+        "prompt": "Do the retained cases and playable interaction contracts still reconstruct without changing their evidence?",
+        "starting_state": "Retain the dated baseline; inspect one bounded residual."
+      }
+    },
+    {
+      "actor": {
+        "model": "Work-session model identifier not recorded",
+        "name": "Work Aiden",
+        "runtime": "Supervised RC-015 assembly and supplied interpretation"
+      },
+      "branch_id": "B0",
+      "event_id": "RC015-MEANING-AND-SHARED-MECHANISMS-STEP-4",
+      "expected_revision": 3,
+      "kind": "step",
+      "node": "FUNC",
+      "output": {
+        "findings": [
+          {
+            "basis": "Recorded local command exit statuses and hashes; this is a technical check outside the empirical research cutoff.",
+            "claim": "All twelve selected retained-mechanism and interaction checks passed.",
+            "epistemic_status": "DOCUMENTED",
+            "evidence_refs": [
+              "RC015-MECHANISM-CHECKS"
+            ],
+            "finding_id": "RC015-MECHANISM-01",
+            "is_new_event": false
+          },
+          {
+            "basis": "Implementation and execution boundaries are explicit in the retained contracts.",
+            "claim": "A passing replay does not establish source truth, a new field observation, a Governor review or a new deployed boss.",
+            "epistemic_status": "DOCUMENTED",
+            "evidence_refs": [
+              "RC015-MECHANISM-CHECKS",
+              "RC015-MEANING-ROSTER"
+            ],
+            "finding_id": "RC015-MECHANISM-02",
+            "is_new_event": false
+          }
+        ],
+        "function": "Inspect evidence, outcome and access separately.",
+        "inspection_status": "retained_only",
+        "research_actor": "Work Aiden",
+        "task": "Do the retained cases and playable interaction contracts still reconstruct without changing their evidence?"
+      }
+    },
+    {
+      "actor": {
+        "model": "Work-session model identifier not recorded",
+        "name": "Work Aiden",
+        "runtime": "Supervised RC-015 assembly and supplied interpretation"
+      },
+      "branch_id": "B0",
+      "event_id": "RC015-MEANING-AND-SHARED-MECHANISMS-STEP-5",
+      "expected_revision": 4,
+      "kind": "step",
+      "node": "MIRROR",
+      "output": {
+        "comparisons": [
+          {
+            "answers": [],
+            "explanation": "Successful deterministic reconstruction is positive evidence of record consistency, within the checked scope.",
+            "queries": []
+          }
+        ],
+        "information_lineage": {
+          "api_record_refs": [],
+          "criteria_refs": [
+            "reports/all-garden/20261104/RETURN_CONTRACT.json"
+          ],
+          "parent_answer_visible": true,
+          "parent_output_refs": [
+            "docs/GARDEN_TRAVERSAL.md",
+            "docs/THREAD_OF_CONTINUITY.md",
+            "docs/SAFEGUARD_REALITY_CHECK.md",
+            "docs/RELAY_CONTINUITY.md",
+            "config/meaning-tower-series.json"
+          ],
+          "source_refs": [
+            "RC015-MECHANISM-CHECKS",
+            "RC015-MEANING-ROSTER"
+          ],
+          "test_origin": "inherited"
+        },
+        "working_buffers": [
+          "Immutable earlier records, source pins, replay, human review and unresolved queues support recovery after interruption."
+        ]
+      }
+    },
+    {
+      "actor": {
+        "model": "Work-session model identifier not recorded",
+        "name": "Work Aiden",
+        "runtime": "Supervised RC-015 assembly and supplied interpretation"
+      },
+      "branch_id": "B0",
+      "event_id": "RC015-MEANING-AND-SHARED-MECHANISMS-STEP-6",
+      "expected_revision": 5,
+      "kind": "step",
+      "node": "CROSS",
+      "output": {
+        "bridge": [
+          {
+            "question": "Use one resulting evidence correction in a later separately requested encounter or review; no automatic content production.",
+            "source_refs": [
+              "RC015-MECHANISM-CHECKS",
+              "RC015-MEANING-ROSTER"
+            ],
+            "status": "proposed_only"
+          }
+        ],
+        "independent": [],
+        "inherited": [
+          {
+            "ref": "RC015-MECHANISM-CHECKS"
+          },
+          {
+            "ref": "RC015-MEANING-ROSTER"
+          }
+        ]
+      }
+    },
+    {
+      "actor": {
+        "model": "Work-session model identifier not recorded",
+        "name": "Work Aiden",
+        "runtime": "Supervised RC-015 assembly and supplied interpretation"
+      },
+      "branch_id": "B0",
+      "event_id": "RC015-MEANING-AND-SHARED-MECHANISMS-STEP-7",
+      "expected_revision": 6,
+      "kind": "step",
+      "node": "RESID",
+      "output": {
+        "next_test": "Use one resulting evidence correction in a later separately requested encounter or review; no automatic content production.",
+        "predicates": {
+          "consequential": true,
+          "distinct_functions": false,
+          "language_exception": null
+        },
+        "summary": "Real-world protective outcomes remain questions for the relevant empirical lanes."
+      }
+    },
+    {
+      "actor": {
+        "model": "Work-session model identifier not recorded",
+        "name": "Work Aiden",
+        "runtime": "Supervised RC-015 assembly and supplied interpretation"
+      },
+      "branch_id": "B0",
+      "event_id": "RC015-MEANING-AND-SHARED-MECHANISMS-STEP-8",
+      "expected_revision": 7,
+      "kind": "step",
+      "node": "MEAN",
+      "output": {
+        "authorship_limits": "Technical verification by Work; no independent source replication from these tests.",
+        "summary": "Read the attributed findings with their contrary evidence and residuals."
+      }
+    },
+    {
+      "actor": {
+        "model": "Work-session model identifier not recorded",
+        "name": "Work Aiden",
+        "runtime": "Supervised RC-015 assembly and supplied interpretation"
+      },
+      "branch_id": "B0",
+      "event_id": "RC015-MEANING-AND-SHARED-MECHANISMS-STEP-9",
+      "expected_revision": 8,
+      "kind": "step",
+      "node": "EXIT",
+      "output": {
+        "kind": "question",
+        "summary": "Use one resulting evidence correction in a later separately requested encounter or review; no automatic content production."
+      }
+    },
+    {
+      "actor": {
+        "model": "Work-session model identifier not recorded",
+        "name": "Work Aiden",
+        "runtime": "Supervised RC-015 assembly and supplied interpretation"
+      },
+      "branch_id": "B0",
+      "event_id": "RC015-MEANING-AND-SHARED-MECHANISMS-STEP-10",
+      "expected_revision": 9,
+      "kind": "step",
+      "node": "RETURN",
+      "output": {
+        "new_arrival": null,
+        "reason": "All selected shared-mechanism and existing interaction checks completed; no new game content or Governor authority added."
+      }
+    }
+  ],
+  "question_snapshot": {
+    "questions": {
+      "Q-RC015-REPLAY-COVERAGE": {
+        "epoch": 1
+      }
+    }
+  },
+  "record_base_url": "https://github.com/Jaradyne/Dis-Unity/blob/main/reports/all-garden/20261104/worked/",
+  "recorded_at": "2026-11-07T10:46:07.208340+00:00",
+  "recorded_at_meaning": "Actual supervised assembly time, reused deterministically; not an origin fetch time or time of the historical events.",
+  "schema_version": "garden-scenario-1",
+  "start": {
+    "actor": {
+      "model": "Work-session model identifier not recorded",
+      "name": "Work Aiden",
+      "runtime": "Supervised RC-015 assembly and supplied interpretation"
+    },
+    "arrival": {
+      "from": "reports/all-garden/20261104/inputs/coordinator.json",
+      "id": "RC015-MEANING-AND-SHARED-MECHANISMS-ARRIVAL",
+      "payload": {
+        "baseline_refs": [
+          "docs/GARDEN_TRAVERSAL.md",
+          "docs/THREAD_OF_CONTINUITY.md",
+          "docs/SAFEGUARD_REALITY_CHECK.md",
+          "docs/RELAY_CONTINUITY.md",
+          "config/meaning-tower-series.json"
+        ],
+        "inspection_status": "retained_only",
+        "lane_id": "meaning-and-shared-mechanisms",
+        "return_actor": "Work Aiden",
+        "return_sha256": "5c2759d7e3815ffbbb21ff1677462dea373162dd62b48cc09ce0e84de11ae565"
+      },
+      "to": "INIT:ROOT-0001"
+    },
+    "budget": {
+      "max_branches": 1,
+      "max_events": 10,
+      "max_fanout": 0,
+      "max_steps": 10,
+      "model_calls": 0
+    },
+    "epoch": 1,
+    "focus": "Do the retained cases and playable interaction contracts still reconstruct without changing their evidence?",
+    "question_id": "Q-RC015-REPLAY-COVERAGE",
+    "run_id": "RC015-MEANING-AND-SHARED-MECHANISMS",
+    "sources": [
+      {
+        "binding": {
+          "lane_id": "meaning-and-shared-mechanisms",
+          "path": "reports/all-garden/20261104/inputs/coordinator.json",
+          "sha256": "8bc7208b596b5290aaae7aede853ce1ca662e22e4ca874adc41158f7553a0184",
+          "source_id": "RC015-MECHANISM-CHECKS"
+        },
+        "kind": "context",
+        "lineage_id": "DISUNITY-reports/all-garden/20261104/MECHANISM_CHECKS.json",
+        "ref": "RC015-MECHANISM-CHECKS"
+      },
+      {
+        "binding": {
+          "lane_id": "meaning-and-shared-mechanisms",
+          "path": "reports/all-garden/20261104/inputs/coordinator.json",
+          "sha256": "58f4e2b586afc71de23604a5bf3bbc8bfc887d69645b4abd0e29ef2680b34d6d",
+          "source_id": "RC015-MEANING-ROSTER"
+        },
+        "kind": "context",
+        "lineage_id": "DISUNITY-config/meaning-tower-series.json",
+        "ref": "RC015-MEANING-ROSTER"
+      }
+    ],
+    "tree": "INIT"
+  }
+}

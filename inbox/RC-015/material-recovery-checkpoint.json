@@ -1,0 +1,22 @@
+{
+  "cycle_id": "RC-015",
+  "actor": "cycle15_material_recovery",
+  "status": "checkpoint",
+  "checked_at": "2026-11-07T10:39:54.227878+00:00",
+  "recovery_of": "inbox/RC-015/material-checkpoint.json",
+  "scope": [
+    "energy-diesel",
+    "freight-carriers",
+    "food-fertilizer-reserves"
+  ],
+  "empirical_cutoff": "2026-11-04",
+  "resumed_inspection_date": "2026-11-07",
+  "bounds": {
+    "max_search_queries": 4,
+    "max_document_opens": 6,
+    "provider_calls": 0,
+    "outreach": false,
+    "canonical_admission": false
+  },
+  "progress": "Resuming after previous specialist stopped with initial checkpoint only; no findings inherited from that unfinished specialist."
+}

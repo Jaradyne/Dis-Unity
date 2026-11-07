@@ -1,0 +1,15 @@
+{
+  "at": "2026-11-07T16:31:21.278457+00:00",
+  "cycle_id": "RC-015",
+  "event_id": "0d45be200ecb13a21e30ee10",
+  "event_type": "agent_submission",
+  "hash": "47cb5e9ac848859ae924cdac29eb1aa38aaa681afade4282f606f0eddf33577b",
+  "payload": {
+    "agent": "cycle15-material",
+    "payload_hash": "8950c483e85d371ef107566cb442462d6180669e33cc4765698b49d13b79cd2f",
+    "phase": "submitted",
+    "submission_id": "2323ea614192e4c06c2f989c5d56e999ed52680512b23e321fc355604bfa15c6"
+  },
+  "previous_hash": "b43abad9242626555cdeee03197729e47d858eacd9fb68c1c3ac0e417bd1b49c",
+  "sequence": 9
+}

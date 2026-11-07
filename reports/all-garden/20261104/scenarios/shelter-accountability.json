@@ -1,0 +1,393 @@
+{
+  "commands": [
+    {
+      "actor": {
+        "model": "Work-session model identifier not recorded",
+        "name": "Work Aiden",
+        "runtime": "Supervised RC-015 assembly and supplied interpretation"
+      },
+      "branch_id": "B0",
+      "event_id": "RC015-SHELTER-ACCOUNTABILITY-STEP-1",
+      "expected_revision": 0,
+      "kind": "step",
+      "node": "ROOT",
+      "output": {
+        "name": "Shelter accountability: Campus agreement and usable remedy"
+      }
+    },
+    {
+      "actor": {
+        "model": "Work-session model identifier not recorded",
+        "name": "Work Aiden",
+        "runtime": "Supervised RC-015 assembly and supplied interpretation"
+      },
+      "branch_id": "B0",
+      "event_id": "RC015-SHELTER-ACCOUNTABILITY-STEP-2",
+      "expected_revision": 1,
+      "kind": "step",
+      "node": "ARRIVAL",
+      "output": {
+        "arrival": {
+          "from": "reports/all-garden/20261104/inputs/services.json",
+          "id": "RC015-SHELTER-ACCOUNTABILITY-ARRIVAL",
+          "payload": {
+            "baseline_refs": [
+              "operations/shelter-accountability/campus-motel/case.json",
+              "reports/shelter-accountability/campus-live-bees-20261022/FINDINGS.md",
+              "reports/shelter-accountability/campus-live-bees-20261022/HANDOFF_DIGEST.md",
+              "reports/shelter-accountability/generated/SHELTER.md"
+            ],
+            "inspection_status": "inconclusive",
+            "lane_id": "shelter-accountability",
+            "return_actor": "cycle15_services",
+            "return_sha256": "5e9f014cfc01d816e648d1baa0f5432cad48f7b3fb9189567ecf87eee6742076"
+          },
+          "to": "HOMELESSNESS:ROOT-0001"
+        },
+        "language_glance": {
+          "basis": "unknown",
+          "issuing_office": "See each pinned source publisher",
+          "languages": [],
+          "note": "No matched original/translation inventory supplied by these returns.",
+          "source_refs": [
+            "S-RC015-CAMPUS-RECORDS",
+            "S-RC015-CAMPUS-NEXTREQUEST",
+            "S-RC015-CAMPUS-ALLHOME",
+            "S-RC015-CAMPUS-BUDGET-INDEX"
+          ],
+          "surface_kind": "mixed"
+        }
+      }
+    },
+    {
+      "actor": {
+        "model": "Work-session model identifier not recorded",
+        "name": "Work Aiden",
+        "runtime": "Supervised RC-015 assembly and supplied interpretation"
+      },
+      "branch_id": "B0",
+      "event_id": "RC015-SHELTER-ACCOUNTABILITY-STEP-3",
+      "expected_revision": 2,
+      "kind": "step",
+      "node": "EPIST",
+      "output": {
+        "empirical_cutoff": "2026-11-04 America/Los_Angeles",
+        "inspection_time": "2026-11-05T04:18:09.354470+00:00",
+        "prompt": "Which current executed City–Insight Campus agreement and incorporated notice/grievance policies establish corrective authority, and what verifies their use?",
+        "starting_state": "Retain the dated baseline; inspect one bounded residual."
+      }
+    },
+    {
+      "actor": {
+        "model": "Work-session model identifier not recorded",
+        "name": "Work Aiden",
+        "runtime": "Supervised RC-015 assembly and supplied interpretation"
+      },
+      "branch_id": "B0",
+      "event_id": "RC015-SHELTER-ACCOUNTABILITY-STEP-4",
+      "expected_revision": 3,
+      "kind": "step",
+      "node": "FUNC",
+      "output": {
+        "findings": [
+          {
+            "basis": "Two live public access surfaces yielded guidance or no readable results, not a contract search result or a signed instrument.",
+            "claim": "This bounded recheck did not obtain the current executed Campus operating agreement or incorporated resident-policy bundle. The contract terms and actual corrective authority remain unverified.",
+            "epistemic_status": "UNKNOWN",
+            "evidence_refs": [
+              "S-RC015-CAMPUS-RECORDS",
+              "S-RC015-CAMPUS-NEXTREQUEST"
+            ],
+            "finding_id": "RC015-CAMPUS-PACKET-UNKNOWN",
+            "is_new_event": false
+          },
+          {
+            "basis": "Documented descriptions and their dating limits are distinguished from verified execution.",
+            "claim": "The undated All Home page continues to describe June2027 support, while the City budget index surfaces the retained FY2027 discontinuation proposal. Neither resolves current operation or a resident outcome.",
+            "epistemic_status": "DOCUMENTED",
+            "evidence_refs": [
+              "S-RC015-CAMPUS-ALLHOME",
+              "S-RC015-CAMPUS-BUDGET-INDEX",
+              "reports/shelter-accountability/campus-live-bees-20261022/FINDINGS.md"
+            ],
+            "finding_id": "RC015-CAMPUS-PUBLIC-DESCRIPTIONS",
+            "is_new_event": false
+          },
+          {
+            "basis": "Existing formal safeguards and unresolved leads are retained; this cycle did not inspect an individual record or an Oakland operation log.",
+            "claim": "No newly inspected record establishes Campus notice compliance, a delivered remedy, a particular unlawful removal, or a current Oakland sweep violation.",
+            "epistemic_status": "UNKNOWN",
+            "evidence_refs": [
+              "reports/shelter-accountability/campus-live-bees-20261022/FINDINGS.md",
+              "reports/shelter-accountability/generated/SHELTER.md"
+            ],
+            "finding_id": "RC015-SHELTER-OUTCOME-UNKNOWN",
+            "is_new_event": false
+          }
+        ],
+        "function": "Inspect evidence, outcome and access separately.",
+        "inspection_status": "inconclusive",
+        "research_actor": "cycle15_services",
+        "task": "Which current executed City–Insight Campus agreement and incorporated notice/grievance policies establish corrective authority, and what verifies their use?"
+      }
+    },
+    {
+      "actor": {
+        "model": "Work-session model identifier not recorded",
+        "name": "Work Aiden",
+        "runtime": "Supervised RC-015 assembly and supplied interpretation"
+      },
+      "branch_id": "B0",
+      "event_id": "RC015-SHELTER-ACCOUNTABILITY-STEP-5",
+      "expected_revision": 4,
+      "kind": "step",
+      "node": "MIRROR",
+      "output": {
+        "comparisons": [
+          {
+            "answers": [],
+            "explanation": "Public contract and records-release routes exist; the signed bundle may be indexed under another name or require the native query interface.",
+            "queries": []
+          },
+          {
+            "answers": [],
+            "explanation": "The retained City ADA procedure describes formal investigation and appeal; absence of a new observed remedy does not prove none occurred.",
+            "queries": []
+          },
+          {
+            "answers": [],
+            "explanation": "The All Home description preserves potentially useful accommodation features while its freshness and implementation remain unverified.",
+            "queries": []
+          }
+        ],
+        "information_lineage": {
+          "api_record_refs": [],
+          "criteria_refs": [
+            "reports/all-garden/20261104/RETURN_CONTRACT.json"
+          ],
+          "parent_answer_visible": true,
+          "parent_output_refs": [
+            "operations/shelter-accountability/campus-motel/case.json",
+            "reports/shelter-accountability/campus-live-bees-20261022/FINDINGS.md",
+            "reports/shelter-accountability/campus-live-bees-20261022/HANDOFF_DIGEST.md",
+            "reports/shelter-accountability/generated/SHELTER.md"
+          ],
+          "source_refs": [
+            "S-RC015-CAMPUS-RECORDS",
+            "S-RC015-CAMPUS-NEXTREQUEST",
+            "S-RC015-CAMPUS-ALLHOME",
+            "S-RC015-CAMPUS-BUDGET-INDEX"
+          ],
+          "test_origin": "inherited"
+        },
+        "working_buffers": [
+          "Documented general City ADA investigation/appeal route is a potential remedy; its practical availability and Campus authority are not established.",
+          "Published pets/no-curfew description identifies possible access-support features; actual availability not verified."
+        ]
+      }
+    },
+    {
+      "actor": {
+        "model": "Work-session model identifier not recorded",
+        "name": "Work Aiden",
+        "runtime": "Supervised RC-015 assembly and supplied interpretation"
+      },
+      "branch_id": "B0",
+      "event_id": "RC015-SHELTER-ACCOUNTABILITY-STEP-6",
+      "expected_revision": 5,
+      "kind": "step",
+      "node": "CROSS",
+      "output": {
+        "bridge": [
+          {
+            "question": "Inspect one current signed City–Insight Campus operating bundle and incorporated policy schedule using a native public-records Contracts query, if accessible; then identify express review/readmission authority.",
+            "source_refs": [
+              "S-RC015-CAMPUS-RECORDS",
+              "S-RC015-CAMPUS-NEXTREQUEST",
+              "S-RC015-CAMPUS-ALLHOME",
+              "S-RC015-CAMPUS-BUDGET-INDEX"
+            ],
+            "status": "proposed_only"
+          }
+        ],
+        "independent": [],
+        "inherited": [
+          {
+            "ref": "S-RC015-CAMPUS-RECORDS"
+          },
+          {
+            "ref": "S-RC015-CAMPUS-NEXTREQUEST"
+          },
+          {
+            "ref": "S-RC015-CAMPUS-ALLHOME"
+          },
+          {
+            "ref": "S-RC015-CAMPUS-BUDGET-INDEX"
+          }
+        ]
+      }
+    },
+    {
+      "actor": {
+        "model": "Work-session model identifier not recorded",
+        "name": "Work Aiden",
+        "runtime": "Supervised RC-015 assembly and supplied interpretation"
+      },
+      "branch_id": "B0",
+      "event_id": "RC015-SHELTER-ACCOUNTABILITY-STEP-7",
+      "expected_revision": 6,
+      "kind": "step",
+      "node": "RESID",
+      "output": {
+        "next_test": "Inspect one current signed City–Insight Campus operating bundle and incorporated policy schedule using a native public-records Contracts query, if accessible; then identify express review/readmission authority.",
+        "predicates": {
+          "consequential": true,
+          "distinct_functions": false,
+          "language_exception": null
+        },
+        "summary": "Current executed agreement, effective amendments and incorporated policies. Actual notice, accommodation, appeal and readmission practice. Current Campus funding, occupancy, closure or relocation outcome. Whether any specific Oakland sweep violated its applicable rules."
+      }
+    },
+    {
+      "actor": {
+        "model": "Work-session model identifier not recorded",
+        "name": "Work Aiden",
+        "runtime": "Supervised RC-015 assembly and supplied interpretation"
+      },
+      "branch_id": "B0",
+      "event_id": "RC015-SHELTER-ACCOUNTABILITY-STEP-8",
+      "expected_revision": 7,
+      "kind": "step",
+      "node": "MEAN",
+      "output": {
+        "authorship_limits": "Separate active-session researcher; no independent resident interviews, site observation, legal adjudication or full archive search.",
+        "summary": "Read the attributed findings with their contrary evidence and residuals."
+      }
+    },
+    {
+      "actor": {
+        "model": "Work-session model identifier not recorded",
+        "name": "Work Aiden",
+        "runtime": "Supervised RC-015 assembly and supplied interpretation"
+      },
+      "branch_id": "B0",
+      "event_id": "RC015-SHELTER-ACCOUNTABILITY-STEP-9",
+      "expected_revision": 8,
+      "kind": "step",
+      "node": "EXIT",
+      "output": {
+        "kind": "question",
+        "summary": "Inspect one current signed City–Insight Campus operating bundle and incorporated policy schedule using a native public-records Contracts query, if accessible; then identify express review/readmission authority."
+      }
+    },
+    {
+      "actor": {
+        "model": "Work-session model identifier not recorded",
+        "name": "Work Aiden",
+        "runtime": "Supervised RC-015 assembly and supplied interpretation"
+      },
+      "branch_id": "B0",
+      "event_id": "RC015-SHELTER-ACCOUNTABILITY-STEP-10",
+      "expected_revision": 9,
+      "kind": "step",
+      "node": "RETURN",
+      "output": {
+        "new_arrival": null,
+        "reason": "Allocated four search queries and six total opens across both services lanes used; no successful native portal query or qualifying executed packet."
+      }
+    }
+  ],
+  "question_snapshot": {
+    "questions": {
+      "Q-CAMPUS-AGREEMENT": {
+        "epoch": 1
+      }
+    }
+  },
+  "record_base_url": "https://github.com/Jaradyne/Dis-Unity/blob/main/reports/all-garden/20261104/worked/",
+  "recorded_at": "2026-11-07T10:46:07.208340+00:00",
+  "recorded_at_meaning": "Actual supervised assembly time, reused deterministically; not an origin fetch time or time of the historical events.",
+  "schema_version": "garden-scenario-1",
+  "start": {
+    "actor": {
+      "model": "Work-session model identifier not recorded",
+      "name": "Work Aiden",
+      "runtime": "Supervised RC-015 assembly and supplied interpretation"
+    },
+    "arrival": {
+      "from": "reports/all-garden/20261104/inputs/services.json",
+      "id": "RC015-SHELTER-ACCOUNTABILITY-ARRIVAL",
+      "payload": {
+        "baseline_refs": [
+          "operations/shelter-accountability/campus-motel/case.json",
+          "reports/shelter-accountability/campus-live-bees-20261022/FINDINGS.md",
+          "reports/shelter-accountability/campus-live-bees-20261022/HANDOFF_DIGEST.md",
+          "reports/shelter-accountability/generated/SHELTER.md"
+        ],
+        "inspection_status": "inconclusive",
+        "lane_id": "shelter-accountability",
+        "return_actor": "cycle15_services",
+        "return_sha256": "5e9f014cfc01d816e648d1baa0f5432cad48f7b3fb9189567ecf87eee6742076"
+      },
+      "to": "HOMELESSNESS:ROOT-0001"
+    },
+    "budget": {
+      "max_branches": 1,
+      "max_events": 10,
+      "max_fanout": 0,
+      "max_steps": 10,
+      "model_calls": 0
+    },
+    "epoch": 1,
+    "focus": "Which current executed City–Insight Campus agreement and incorporated notice/grievance policies establish corrective authority, and what verifies their use?",
+    "question_id": "Q-CAMPUS-AGREEMENT",
+    "run_id": "RC015-SHELTER-ACCOUNTABILITY",
+    "sources": [
+      {
+        "binding": {
+          "lane_id": "shelter-accountability",
+          "path": "reports/all-garden/20261104/inputs/services.json",
+          "sha256": "90463172395a909a1a082cdd6fdcf8ecc47e025bb2a3a4075765f636a1f5bf71",
+          "source_id": "S-RC015-CAMPUS-RECORDS"
+        },
+        "kind": "public_source",
+        "lineage_id": "City public-records guidance",
+        "ref": "S-RC015-CAMPUS-RECORDS"
+      },
+      {
+        "binding": {
+          "lane_id": "shelter-accountability",
+          "path": "reports/all-garden/20261104/inputs/services.json",
+          "sha256": "afb0a3b7a8b930d2ba6e55e7d216f47f5ae5ac701d789c5f463de49f66f1ec49",
+          "source_id": "S-RC015-CAMPUS-NEXTREQUEST"
+        },
+        "kind": "public_source",
+        "lineage_id": "City public-records discovery",
+        "ref": "S-RC015-CAMPUS-NEXTREQUEST"
+      },
+      {
+        "binding": {
+          "lane_id": "shelter-accountability",
+          "path": "reports/all-garden/20261104/inputs/services.json",
+          "sha256": "cfca38e57cd71a1711b4008486d67d168096f1bcbe7ae480ce357c13476a95f5",
+          "source_id": "S-RC015-CAMPUS-ALLHOME"
+        },
+        "kind": "public_source",
+        "lineage_id": "allhome-campus-profile",
+        "ref": "S-RC015-CAMPUS-ALLHOME"
+      },
+      {
+        "binding": {
+          "lane_id": "shelter-accountability",
+          "path": "reports/all-garden/20261104/inputs/services.json",
+          "sha256": "05b1edc2b2bcd35d5aa69e9934eb937c76180096b11c45e5d7b958ad6f128070",
+          "source_id": "S-RC015-CAMPUS-BUDGET-INDEX"
+        },
+        "kind": "public_source",
+        "lineage_id": "City FY2027 budget proposal",
+        "ref": "S-RC015-CAMPUS-BUDGET-INDEX"
+      }
+    ],
+    "tree": "HOMELESSNESS"
+  }
+}

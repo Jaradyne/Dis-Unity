@@ -1,0 +1,26 @@
+{
+  "agent": "cycle15-institutions",
+  "at": "2026-11-07T16:31:21.130003+00:00",
+  "base_hash": "16d04f8bb35a588caca60517f90a11944cfbafac7951402d059a6d6131de97b7",
+  "cycle_id": "RC-015",
+  "payload": {
+    "actor": "cycle15_institutions",
+    "bounds": {
+      "canonical_admission": false,
+      "document_opens": 5,
+      "outreach": false,
+      "provider_calls": 0,
+      "search_queries": 3
+    },
+    "checked_at": "2026-11-05T04:14:55.202138+00:00",
+    "cycle_id": "RC-015",
+    "scope": [
+      "military-conscience",
+      "ice-detention"
+    ],
+    "status": "initial_checkpoint"
+  },
+  "payload_hash": "1319c52aad232c91c209b121a49493bac440dae2f376f38c1f40a665751f43c7",
+  "phase": "submitted",
+  "submission_id": "e4b462910e6b11c1bb28f437bc7fe6eaa9dcf1af847ae51e5b1484103e46fed1"
+}

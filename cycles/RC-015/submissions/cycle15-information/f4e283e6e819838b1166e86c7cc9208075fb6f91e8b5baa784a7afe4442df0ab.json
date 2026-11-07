@@ -1,0 +1,23 @@
+{
+  "agent": "cycle15-information",
+  "at": "2026-11-07T16:31:21.039171+00:00",
+  "base_hash": "16d04f8bb35a588caca60517f90a11944cfbafac7951402d059a6d6131de97b7",
+  "cycle_id": "RC-015",
+  "payload": {
+    "actor": "cycle15_information",
+    "canonical_admission": false,
+    "checked_at": "2026-11-05T04:17:34.119482+00:00",
+    "cycle_id": "RC-015",
+    "key_result": "Historical source-date conflict preserved; raw chat/automation/moderation remain UNKNOWN. PSA retained-text check completed without changes.",
+    "lanes": [
+      "information-integrity",
+      "psa"
+    ],
+    "packet_path": "reports/all-garden/20261104/inputs/information.json",
+    "packet_sha256": "2f77583558ad0a1d002f95d8227f09569806990abada70a2a256e82ca618fc64",
+    "status": "complete_bounded_return"
+  },
+  "payload_hash": "a59add590246054fa7a9e73d67814ead35d60034c0c993de7cd7ab7fca554be9",
+  "phase": "submitted",
+  "submission_id": "f4e283e6e819838b1166e86c7cc9208075fb6f91e8b5baa784a7afe4442df0ab"
+}

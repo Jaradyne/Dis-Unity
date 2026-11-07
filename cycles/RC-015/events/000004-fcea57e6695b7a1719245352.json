@@ -1,0 +1,15 @@
+{
+  "at": "2026-11-07T16:31:20.872745+00:00",
+  "cycle_id": "RC-015",
+  "event_id": "fcea57e6695b7a1719245352",
+  "event_type": "agent_submission",
+  "hash": "900f6659c6c952bf5f4c8cab53b84c90084bec2cfd4c4d7636d84f56a1a91fc4",
+  "payload": {
+    "agent": "closing-review",
+    "payload_hash": "7acadb61a73376f37ef8f68a34a94948082846992dfa9d26504e0b0ec49917cc",
+    "phase": "submitted",
+    "submission_id": "561df01dc5c1bebf3dc3439b2a88aa6f3bd793cb8f7e212249475c47b10e2296"
+  },
+  "previous_hash": "19e089795c38b6e3ad6dd7eddc48f1aa3e16d7c1d6ed511522aa107f90040d44",
+  "sequence": 4
+}

@@ -1,0 +1,22 @@
+{
+  "agent": "cycle15-review",
+  "at": "2026-11-07T16:31:21.449621+00:00",
+  "base_hash": "16d04f8bb35a588caca60517f90a11944cfbafac7951402d059a6d6131de97b7",
+  "cycle_id": "RC-015",
+  "payload": {
+    "actor": "cycle15_review",
+    "checked_at": "2026-11-07T10:40:51.004576+00:00",
+    "cycle_id": "RC-015",
+    "limits": {
+      "canonical_edits": false,
+      "outreach": false,
+      "provider_dispatch": false,
+      "source_opens_max": 3
+    },
+    "scope": "Separate evidence-boundary, lineage, source-date and final replay review. Awaiting final assembly ready signal.",
+    "status": "initial_checkpoint"
+  },
+  "payload_hash": "152dfc456d1bca9997f9bd232d269c1634bd03cb52221387b2c01590e9d5c117",
+  "phase": "submitted",
+  "submission_id": "1434431f1ce2c90bf430543c283d79f5e5842edf4edf9cccd5d5b2b080649a9e"
+}

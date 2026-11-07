@@ -1,0 +1,25 @@
+{
+  "agent": "cycle15-material-recovery",
+  "at": "2026-11-07T16:31:21.382493+00:00",
+  "base_hash": "16d04f8bb35a588caca60517f90a11944cfbafac7951402d059a6d6131de97b7",
+  "cycle_id": "RC-015",
+  "payload": {
+    "actor": "cycle15_material_recovery",
+    "canonical_admission": false,
+    "checked_at": "2026-11-07T10:43:02.949044+00:00",
+    "cycle_id": "RC-015",
+    "key_result": "Two producer disclosures add dated upstream fertilizer evidence; actual essential deliveries, reliable replacement freight and usable downstream reserve remain UNKNOWN.",
+    "lanes": [
+      "energy-diesel",
+      "freight-carriers",
+      "food-fertilizer-reserves"
+    ],
+    "packet_path": "reports/all-garden/20261104/inputs/material.json",
+    "packet_sha256": "e4db587a9ffeaa77b9760ebceabb068861353059c8b983f4b725fb2c078949d8",
+    "recovery_of": "inbox/RC-015/material-checkpoint.json",
+    "status": "complete_bounded_return"
+  },
+  "payload_hash": "a930d264370b5ae2c756cc553e154732e150b13e5d063e2a2d6fb345754e7d3e",
+  "phase": "submitted",
+  "submission_id": "f142c29c95fb0ab4fec1eb622503ef265d70f3a4d099ee5e2ca4fd6ee17f3579"
+}

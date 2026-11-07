@@ -1,0 +1,10 @@
+{
+  "actor": "Work Aiden",
+  "cycle_id": "RC-015",
+  "at": "2026-11-07T16:27:32.461255+00:00",
+  "status": "closing_review_incomplete",
+  "reviewer": "cycle15_review",
+  "completed_scope": "Independent preliminary evidence checks, three selected source reopens, replay-wrapper reading, date-normalization challenge. See reviewer-evidence.json.",
+  "unfinished_scope": "Final assembled report, exact final hashes and executed final replay were not independently certified before usage-limit interruption.",
+  "disposition": "Preserve checkpoint and perform coordinator review; seek a separately attributed closing pass if available."
+}

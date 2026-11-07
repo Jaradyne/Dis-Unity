@@ -1,0 +1,12 @@
+{
+  "branches": [
+    "B0"
+  ],
+  "meaning": "Supplied traversal and routing; no new evidence, model dispatch or Governor review.",
+  "record_ref": "operations/garden/runs/RC015-FREIGHT-CARRIERS.json",
+  "record_sha256": "bcf83249ebd43146d9b74e2581e33687db246ddb08a8c7b85868f5dd9cf2e1b7",
+  "run_id": "RC015-FREIGHT-CARRIERS",
+  "schema_version": "digestion-garden-materials-1",
+  "state_sha256": "040bbd07dab03c7c9ed4ff2af5fd40a8dab4af08bbd1c157fe7dbbc1f0a7ae07",
+  "status": "available_for_digestion"
+}

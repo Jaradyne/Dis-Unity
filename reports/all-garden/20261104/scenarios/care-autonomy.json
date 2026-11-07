@@ -1,0 +1,382 @@
+{
+  "commands": [
+    {
+      "actor": {
+        "model": "Work-session model identifier not recorded",
+        "name": "Work Aiden",
+        "runtime": "Supervised RC-015 assembly and supplied interpretation"
+      },
+      "branch_id": "B0",
+      "event_id": "RC015-CARE-AUTONOMY-STEP-1",
+      "expected_revision": 0,
+      "kind": "step",
+      "node": "ROOT",
+      "output": {
+        "name": "Care, consent and state power"
+      }
+    },
+    {
+      "actor": {
+        "model": "Work-session model identifier not recorded",
+        "name": "Work Aiden",
+        "runtime": "Supervised RC-015 assembly and supplied interpretation"
+      },
+      "branch_id": "B0",
+      "event_id": "RC015-CARE-AUTONOMY-STEP-2",
+      "expected_revision": 1,
+      "kind": "step",
+      "node": "ARRIVAL",
+      "output": {
+        "arrival": {
+          "from": "reports/all-garden/20261104/inputs/coordinator.json",
+          "id": "RC015-CARE-AUTONOMY-ARRIVAL",
+          "payload": {
+            "baseline_refs": [
+              "reports/care-autonomy/20261104/README.md",
+              "operations/care-autonomy/20261104/case.json",
+              "operations/care-autonomy/20261104/safeguard-journal.json"
+            ],
+            "inspection_status": "access_blocked",
+            "lane_id": "care-autonomy",
+            "return_actor": "Work Aiden",
+            "return_sha256": "5c2759d7e3815ffbbb21ff1677462dea373162dd62b48cc09ce0e84de11ae565"
+          },
+          "to": "CARE-AUTONOMY:ROOT-0001"
+        },
+        "language_glance": {
+          "basis": "unknown",
+          "issuing_office": "See each pinned source publisher",
+          "languages": [],
+          "note": "No matched original/translation inventory supplied by these returns.",
+          "source_refs": [
+            "RC015-CARE-ALAMEDA-ROUTE",
+            "RC015-CARE-FORM-VERSION",
+            "RC015-CARE-FORM-PDF",
+            "RC015-CARE-PAPERS-RULE"
+          ],
+          "surface_kind": "mixed"
+        }
+      }
+    },
+    {
+      "actor": {
+        "model": "Work-session model identifier not recorded",
+        "name": "Work Aiden",
+        "runtime": "Supervised RC-015 assembly and supplied interpretation"
+      },
+      "branch_id": "B0",
+      "event_id": "RC015-CARE-AUTONOMY-STEP-3",
+      "expected_revision": 2,
+      "kind": "step",
+      "node": "EPIST",
+      "output": {
+        "empirical_cutoff": "2026-11-04 America/Los_Angeles",
+        "inspection_time": "2026-11-07T10:43:41.552774+00:00",
+        "prompt": "Does the public Alameda CARE filing route preserve independent eligibility support, the actual offer and the person's reasons for refusal?",
+        "starting_state": "Retain the dated baseline; inspect one bounded residual."
+      }
+    },
+    {
+      "actor": {
+        "model": "Work-session model identifier not recorded",
+        "name": "Work Aiden",
+        "runtime": "Supervised RC-015 assembly and supplied interpretation"
+      },
+      "branch_id": "B0",
+      "event_id": "RC015-CARE-AUTONOMY-STEP-4",
+      "expected_revision": 3,
+      "kind": "step",
+      "node": "FUNC",
+      "output": {
+        "findings": [
+          {
+            "basis": "Official indexed instructions; not a completed case or confirmation of actual practice.",
+            "claim": "Indexed county instructions call for supporting evidence beyond a bare refusal; the state rule distinguishes alternative petition routes. This documents formal procedure only.",
+            "epistemic_status": "DOCUMENTED",
+            "evidence_refs": [
+              "RC015-CARE-ALAMEDA-ROUTE",
+              "RC015-CARE-PAPERS-RULE"
+            ],
+            "finding_id": "RC015-CARE-01",
+            "is_new_event": false
+          },
+          {
+            "basis": "A version listing and access failure cannot establish the contents of uninspected fields.",
+            "claim": "The current form listing identifies July2026 revision, but direct PDF access failed. Whether its fields preserve the actual offer, suitability and refusal reasons remains UNKNOWN in this check.",
+            "epistemic_status": "UNKNOWN",
+            "evidence_refs": [
+              "RC015-CARE-FORM-VERSION",
+              "RC015-CARE-FORM-PDF"
+            ],
+            "finding_id": "RC015-CARE-02",
+            "is_new_event": false
+          },
+          {
+            "basis": "No individual record, sampled implementation audit or outcome record was inspected.",
+            "claim": "Actual compliance, meaningful consent, delivered care and protective outcomes remain UNKNOWN.",
+            "epistemic_status": "UNKNOWN",
+            "evidence_refs": [
+              "operations/care-autonomy/20261104/safeguard-journal.json"
+            ],
+            "finding_id": "RC015-CARE-03",
+            "is_new_event": false
+          }
+        ],
+        "function": "Inspect evidence, outcome and access separately.",
+        "inspection_status": "access_blocked",
+        "research_actor": "Work Aiden",
+        "task": "Does the public Alameda CARE filing route preserve independent eligibility support, the actual offer and the person's reasons for refusal?"
+      }
+    },
+    {
+      "actor": {
+        "model": "Work-session model identifier not recorded",
+        "name": "Work Aiden",
+        "runtime": "Supervised RC-015 assembly and supplied interpretation"
+      },
+      "branch_id": "B0",
+      "event_id": "RC015-CARE-AUTONOMY-STEP-5",
+      "expected_revision": 4,
+      "kind": "step",
+      "node": "MIRROR",
+      "output": {
+        "comparisons": [
+          {
+            "answers": [],
+            "explanation": "Supporting-document requirements and separate petition routes are real formal constraints; refusal is not treated here as sufficient eligibility evidence.",
+            "queries": []
+          },
+          {
+            "answers": [],
+            "explanation": "A missing field, even if established later, would not alone prove misconduct or determine what attachments and hearings contain.",
+            "queries": []
+          }
+        ],
+        "information_lineage": {
+          "api_record_refs": [],
+          "criteria_refs": [
+            "reports/all-garden/20261104/RETURN_CONTRACT.json"
+          ],
+          "parent_answer_visible": true,
+          "parent_output_refs": [
+            "reports/care-autonomy/20261104/README.md",
+            "operations/care-autonomy/20261104/case.json",
+            "operations/care-autonomy/20261104/safeguard-journal.json"
+          ],
+          "source_refs": [
+            "RC015-CARE-ALAMEDA-ROUTE",
+            "RC015-CARE-FORM-VERSION",
+            "RC015-CARE-FORM-PDF",
+            "RC015-CARE-PAPERS-RULE"
+          ],
+          "test_origin": "inherited"
+        },
+        "working_buffers": [
+          "Formal evidence requirements and the retained counsel/challenge provisions are potential safeguards; their effective use in a particular case is unverified."
+        ]
+      }
+    },
+    {
+      "actor": {
+        "model": "Work-session model identifier not recorded",
+        "name": "Work Aiden",
+        "runtime": "Supervised RC-015 assembly and supplied interpretation"
+      },
+      "branch_id": "B0",
+      "event_id": "RC015-CARE-AUTONOMY-STEP-6",
+      "expected_revision": 5,
+      "kind": "step",
+      "node": "CROSS",
+      "output": {
+        "bridge": [
+          {
+            "question": "Inspect one accessible official July2026 CARE-100 copy and its attachment instructions for offer-suitability and refusal-reason fields; do not expand to private case records.",
+            "source_refs": [
+              "RC015-CARE-ALAMEDA-ROUTE",
+              "RC015-CARE-FORM-VERSION",
+              "RC015-CARE-FORM-PDF",
+              "RC015-CARE-PAPERS-RULE"
+            ],
+            "status": "proposed_only"
+          }
+        ],
+        "independent": [],
+        "inherited": [
+          {
+            "ref": "RC015-CARE-ALAMEDA-ROUTE"
+          },
+          {
+            "ref": "RC015-CARE-FORM-VERSION"
+          },
+          {
+            "ref": "RC015-CARE-FORM-PDF"
+          },
+          {
+            "ref": "RC015-CARE-PAPERS-RULE"
+          }
+        ]
+      }
+    },
+    {
+      "actor": {
+        "model": "Work-session model identifier not recorded",
+        "name": "Work Aiden",
+        "runtime": "Supervised RC-015 assembly and supplied interpretation"
+      },
+      "branch_id": "B0",
+      "event_id": "RC015-CARE-AUTONOMY-STEP-7",
+      "expected_revision": 6,
+      "kind": "step",
+      "node": "RESID",
+      "output": {
+        "next_test": "Inspect one accessible official July2026 CARE-100 copy and its attachment instructions for offer-suitability and refusal-reason fields; do not expand to private case records.",
+        "predicates": {
+          "consequential": true,
+          "distinct_functions": false,
+          "language_exception": null
+        },
+        "summary": "Complete current CARE-100 field structure and actual county usage. How actual offers and reasons reach decision makers. Individual operational compliance and protective outcomes."
+      }
+    },
+    {
+      "actor": {
+        "model": "Work-session model identifier not recorded",
+        "name": "Work Aiden",
+        "runtime": "Supervised RC-015 assembly and supplied interpretation"
+      },
+      "branch_id": "B0",
+      "event_id": "RC015-CARE-AUTONOMY-STEP-8",
+      "expected_revision": 7,
+      "kind": "step",
+      "node": "MEAN",
+      "output": {
+        "authorship_limits": "Coordinator supplied this review; no independent legal adjudication or empirical outcome assessment.",
+        "summary": "Read the attributed findings with their contrary evidence and residuals."
+      }
+    },
+    {
+      "actor": {
+        "model": "Work-session model identifier not recorded",
+        "name": "Work Aiden",
+        "runtime": "Supervised RC-015 assembly and supplied interpretation"
+      },
+      "branch_id": "B0",
+      "event_id": "RC015-CARE-AUTONOMY-STEP-9",
+      "expected_revision": 8,
+      "kind": "step",
+      "node": "EXIT",
+      "output": {
+        "kind": "question",
+        "summary": "Inspect one accessible official July2026 CARE-100 copy and its attachment instructions for offer-suitability and refusal-reason fields; do not expand to private case records."
+      }
+    },
+    {
+      "actor": {
+        "model": "Work-session model identifier not recorded",
+        "name": "Work Aiden",
+        "runtime": "Supervised RC-015 assembly and supplied interpretation"
+      },
+      "branch_id": "B0",
+      "event_id": "RC015-CARE-AUTONOMY-STEP-10",
+      "expected_revision": 9,
+      "kind": "step",
+      "node": "RETURN",
+      "output": {
+        "new_arrival": null,
+        "reason": "One county route and one current form version traced; direct page/PDF access blocked. The old form was not silently substituted."
+      }
+    }
+  ],
+  "question_snapshot": {
+    "questions": {
+      "Q-CA-CARE-AUTONOMY": {
+        "epoch": 1
+      }
+    }
+  },
+  "record_base_url": "https://github.com/Jaradyne/Dis-Unity/blob/main/reports/all-garden/20261104/worked/",
+  "recorded_at": "2026-11-07T10:46:07.208340+00:00",
+  "recorded_at_meaning": "Actual supervised assembly time, reused deterministically; not an origin fetch time or time of the historical events.",
+  "schema_version": "garden-scenario-1",
+  "start": {
+    "actor": {
+      "model": "Work-session model identifier not recorded",
+      "name": "Work Aiden",
+      "runtime": "Supervised RC-015 assembly and supplied interpretation"
+    },
+    "arrival": {
+      "from": "reports/all-garden/20261104/inputs/coordinator.json",
+      "id": "RC015-CARE-AUTONOMY-ARRIVAL",
+      "payload": {
+        "baseline_refs": [
+          "reports/care-autonomy/20261104/README.md",
+          "operations/care-autonomy/20261104/case.json",
+          "operations/care-autonomy/20261104/safeguard-journal.json"
+        ],
+        "inspection_status": "access_blocked",
+        "lane_id": "care-autonomy",
+        "return_actor": "Work Aiden",
+        "return_sha256": "5c2759d7e3815ffbbb21ff1677462dea373162dd62b48cc09ce0e84de11ae565"
+      },
+      "to": "CARE-AUTONOMY:ROOT-0001"
+    },
+    "budget": {
+      "max_branches": 1,
+      "max_events": 10,
+      "max_fanout": 0,
+      "max_steps": 10,
+      "model_calls": 0
+    },
+    "epoch": 1,
+    "focus": "Does the public Alameda CARE filing route preserve independent eligibility support, the actual offer and the person's reasons for refusal?",
+    "question_id": "Q-CA-CARE-AUTONOMY",
+    "run_id": "RC015-CARE-AUTONOMY",
+    "sources": [
+      {
+        "binding": {
+          "lane_id": "care-autonomy",
+          "path": "reports/all-garden/20261104/inputs/coordinator.json",
+          "sha256": "e1d556610170213551c9a43c4c0be8cc10e971cc68c0e95bdcf3c60546b4304a",
+          "source_id": "RC015-CARE-ALAMEDA-ROUTE"
+        },
+        "kind": "public_source",
+        "lineage_id": "ALAMEDA-CARE-FILING",
+        "ref": "RC015-CARE-ALAMEDA-ROUTE"
+      },
+      {
+        "binding": {
+          "lane_id": "care-autonomy",
+          "path": "reports/all-garden/20261104/inputs/coordinator.json",
+          "sha256": "7024124a9cb57f86fad2d6a05ccee5cacac8467ec81cbc1c8bc027d2c33c20fe",
+          "source_id": "RC015-CARE-FORM-VERSION"
+        },
+        "kind": "public_source",
+        "lineage_id": "CA-JUDICIAL-CARE-100",
+        "ref": "RC015-CARE-FORM-VERSION"
+      },
+      {
+        "binding": {
+          "lane_id": "care-autonomy",
+          "path": "reports/all-garden/20261104/inputs/coordinator.json",
+          "sha256": "6c089111273feb031053adf14dec0ee12fc757972ae64b8105b4adf90bfabc06",
+          "source_id": "RC015-CARE-FORM-PDF"
+        },
+        "kind": "public_source",
+        "lineage_id": "CA-JUDICIAL-CARE-100",
+        "ref": "RC015-CARE-FORM-PDF"
+      },
+      {
+        "binding": {
+          "lane_id": "care-autonomy",
+          "path": "reports/all-garden/20261104/inputs/coordinator.json",
+          "sha256": "ecdeeba0edc8b5332f139d13ce2312175959ebe30a5ac96c8906c90390e06fff",
+          "source_id": "RC015-CARE-PAPERS-RULE"
+        },
+        "kind": "public_source",
+        "lineage_id": "CA-JUDICIAL-CARE",
+        "ref": "RC015-CARE-PAPERS-RULE"
+      }
+    ],
+    "tree": "CARE-AUTONOMY"
+  }
+}

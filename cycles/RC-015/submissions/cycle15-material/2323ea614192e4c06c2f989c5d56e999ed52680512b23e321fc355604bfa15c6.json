@@ -1,0 +1,28 @@
+{
+  "agent": "cycle15-material",
+  "at": "2026-11-07T16:31:21.274527+00:00",
+  "base_hash": "16d04f8bb35a588caca60517f90a11944cfbafac7951402d059a6d6131de97b7",
+  "cycle_id": "RC-015",
+  "payload": {
+    "actor": "cycle15_material",
+    "bounds": {
+      "canonical_admission": false,
+      "max_document_opens": 6,
+      "max_search_queries": 4,
+      "outreach": false,
+      "provider_calls": 0
+    },
+    "checked_at": "2026-11-05T04:15:30.277230+00:00",
+    "cycle_id": "RC-015",
+    "progress": "Initial checkpoint before source inspection; no findings yet.",
+    "scope": [
+      "energy-diesel",
+      "freight-carriers",
+      "food-fertilizer-reserves"
+    ],
+    "status": "checkpoint"
+  },
+  "payload_hash": "8950c483e85d371ef107566cb442462d6180669e33cc4765698b49d13b79cd2f",
+  "phase": "submitted",
+  "submission_id": "2323ea614192e4c06c2f989c5d56e999ed52680512b23e321fc355604bfa15c6"
+}

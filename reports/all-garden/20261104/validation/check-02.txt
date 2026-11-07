@@ -1,0 +1,1 @@
+PASS: pinned inputs; ledger/residual consistency; 10 nodes; 1 resting branch; 0 model calls; exact saved-output replay

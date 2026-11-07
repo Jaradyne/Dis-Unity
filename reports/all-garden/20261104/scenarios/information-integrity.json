@@ -1,0 +1,373 @@
+{
+  "commands": [
+    {
+      "actor": {
+        "model": "Work-session model identifier not recorded",
+        "name": "Work Aiden",
+        "runtime": "Supervised RC-015 assembly and supplied interpretation"
+      },
+      "branch_id": "B0",
+      "event_id": "RC015-INFORMATION-INTEGRITY-STEP-1",
+      "expected_revision": 0,
+      "kind": "step",
+      "node": "ROOT",
+      "output": {
+        "name": "Information Integrity and Public Conversation"
+      }
+    },
+    {
+      "actor": {
+        "model": "Work-session model identifier not recorded",
+        "name": "Work Aiden",
+        "runtime": "Supervised RC-015 assembly and supplied interpretation"
+      },
+      "branch_id": "B0",
+      "event_id": "RC015-INFORMATION-INTEGRITY-STEP-2",
+      "expected_revision": 1,
+      "kind": "step",
+      "node": "ARRIVAL",
+      "output": {
+        "arrival": {
+          "from": "reports/all-garden/20261104/inputs/information.json",
+          "id": "RC015-INFORMATION-INTEGRITY-ARRIVAL",
+          "payload": {
+            "baseline_refs": [
+              "reports/information-integrity/20261028/README.md",
+              "reports/information-integrity/20261028/sources.json",
+              "operations/information-integrity/20261028/case.json"
+            ],
+            "inspection_status": "new_evidence",
+            "lane_id": "information-integrity",
+            "return_actor": "cycle15_information",
+            "return_sha256": "2f77583558ad0a1d002f95d8227f09569806990abada70a2a256e82ca618fc64"
+          },
+          "to": "INFORMATION-INTEGRITY:ROOT-0001"
+        },
+        "language_glance": {
+          "basis": "unknown",
+          "issuing_office": "See each pinned source publisher",
+          "languages": [],
+          "note": "No matched original/translation inventory supplied by these returns.",
+          "source_refs": [
+            "RC015-II-CSIS-BLOG-RECHECK",
+            "RC015-II-CSIS-EVENT-ARCHIVE",
+            "RC015-II-CSIS-TRANSCRIPT"
+          ],
+          "surface_kind": "mixed"
+        }
+      }
+    },
+    {
+      "actor": {
+        "model": "Work-session model identifier not recorded",
+        "name": "Work Aiden",
+        "runtime": "Supervised RC-015 assembly and supplied interpretation"
+      },
+      "branch_id": "B0",
+      "event_id": "RC015-INFORMATION-INTEGRITY-STEP-3",
+      "expected_revision": 2,
+      "kind": "step",
+      "node": "EPIST",
+      "output": {
+        "empirical_cutoff": "2026-11-04 America/Los_Angeles",
+        "inspection_time": "2026-11-05T04:17:34.119482+00:00",
+        "prompt": "Can the public CSIS event archive resolve the event date and verify chat messages or moderation?",
+        "starting_state": "Retain the dated baseline; inspect one bounded residual."
+      }
+    },
+    {
+      "actor": {
+        "model": "Work-session model identifier not recorded",
+        "name": "Work Aiden",
+        "runtime": "Supervised RC-015 assembly and supplied interpretation"
+      },
+      "branch_id": "B0",
+      "event_id": "RC015-INFORMATION-INTEGRITY-STEP-4",
+      "expected_revision": 3,
+      "kind": "step",
+      "node": "FUNC",
+      "output": {
+        "findings": [
+          {
+            "basis": "Explicit dates in the event page, PDF title page and indexed blog; these are historical records newly compared.",
+            "claim": "Newly inspected CSIS archive and transcript date the Juncker discussion July25,2018; the October9 blog reports June25. The date conflict must be appended to the historical case, not hidden.",
+            "epistemic_status": "DOCUMENTED",
+            "evidence_refs": [
+              "RC015-II-CSIS-EVENT-ARCHIVE",
+              "RC015-II-CSIS-TRANSCRIPT",
+              "RC015-II-CSIS-BLOG-RECHECK"
+            ],
+            "finding_id": "RC015-II-F1",
+            "is_new_event": false
+          },
+          {
+            "basis": "Reinspection preserves the attributed claim and its limits; no underlying chat or telemetry inspected.",
+            "claim": "The blog remains a host report of disruptive messages and a likelihood attribution. This check does not establish automated posting, a coordinated network or a controlling state sponsor.",
+            "epistemic_status": "DOCUMENTED",
+            "evidence_refs": [
+              "RC015-II-CSIS-BLOG-RECHECK",
+              "operations/information-integrity/20261028/case.json"
+            ],
+            "finding_id": "RC015-II-F2",
+            "is_new_event": false
+          },
+          {
+            "basis": "The inspected event page and speech transcript cannot resolve chat dispatch, intervention or audience impact.",
+            "claim": "Message-level verification, actual moderation and protective outcome remain UNKNOWN. The extracted archive did not provide the needed chat record; that is not proof that no recording or moderation exists.",
+            "epistemic_status": "UNKNOWN",
+            "evidence_refs": [
+              "RC015-II-CSIS-EVENT-ARCHIVE",
+              "RC015-II-CSIS-TRANSCRIPT"
+            ],
+            "finding_id": "RC015-II-F3",
+            "is_new_event": false
+          }
+        ],
+        "function": "Inspect evidence, outcome and access separately.",
+        "inspection_status": "new_evidence",
+        "research_actor": "cycle15_information",
+        "task": "Can the public CSIS event archive resolve the event date and verify chat messages or moderation?"
+      }
+    },
+    {
+      "actor": {
+        "model": "Work-session model identifier not recorded",
+        "name": "Work Aiden",
+        "runtime": "Supervised RC-015 assembly and supplied interpretation"
+      },
+      "branch_id": "B0",
+      "event_id": "RC015-INFORMATION-INTEGRITY-STEP-5",
+      "expected_revision": 4,
+      "kind": "step",
+      "node": "MIRROR",
+      "output": {
+        "comparisons": [
+          {
+            "answers": [],
+            "explanation": "The same publisher supplies inconsistent dates; source reputation does not remove the need for record comparison.",
+            "queries": []
+          },
+          {
+            "answers": [],
+            "explanation": "Ordinary human trolling, sincere political views and opportunistic harassment remain alternatives to automation or coordinated state direction.",
+            "queries": []
+          },
+          {
+            "answers": [],
+            "explanation": "The retained ISD background sample reports substantial removals and limited organic engagement; it is not fresh evidence or a remedy in this CSIS case.",
+            "queries": []
+          }
+        ],
+        "information_lineage": {
+          "api_record_refs": [],
+          "criteria_refs": [
+            "reports/all-garden/20261104/RETURN_CONTRACT.json"
+          ],
+          "parent_answer_visible": true,
+          "parent_output_refs": [
+            "reports/information-integrity/20261028/README.md",
+            "reports/information-integrity/20261028/sources.json",
+            "operations/information-integrity/20261028/case.json"
+          ],
+          "source_refs": [
+            "RC015-II-CSIS-BLOG-RECHECK",
+            "RC015-II-CSIS-EVENT-ARCHIVE",
+            "RC015-II-CSIS-TRANSCRIPT"
+          ],
+          "test_origin": "inherited"
+        },
+        "working_buffers": [
+          "Retained proposed buffers: moderator support, temporary rate limits, evidence preservation and appeals; their use/effectiveness in this incident remains UNKNOWN.",
+          "Actual epistemic safeguard exercised: comparing the event archive with the source report exposed a date conflict without deleting either record."
+        ]
+      }
+    },
+    {
+      "actor": {
+        "model": "Work-session model identifier not recorded",
+        "name": "Work Aiden",
+        "runtime": "Supervised RC-015 assembly and supplied interpretation"
+      },
+      "branch_id": "B0",
+      "event_id": "RC015-INFORMATION-INTEGRITY-STEP-6",
+      "expected_revision": 5,
+      "kind": "step",
+      "node": "CROSS",
+      "output": {
+        "bridge": [
+          {
+            "question": "Inspect one official CSIS-linked recording/platform replay for the July25,2018 event, if publicly accessible, for a preserved chat interval and visible moderation; retain missing chat as an access limit.",
+            "source_refs": [
+              "RC015-II-CSIS-BLOG-RECHECK",
+              "RC015-II-CSIS-EVENT-ARCHIVE",
+              "RC015-II-CSIS-TRANSCRIPT"
+            ],
+            "status": "proposed_only"
+          }
+        ],
+        "independent": [],
+        "inherited": [
+          {
+            "ref": "RC015-II-CSIS-BLOG-RECHECK"
+          },
+          {
+            "ref": "RC015-II-CSIS-EVENT-ARCHIVE"
+          },
+          {
+            "ref": "RC015-II-CSIS-TRANSCRIPT"
+          }
+        ]
+      }
+    },
+    {
+      "actor": {
+        "model": "Work-session model identifier not recorded",
+        "name": "Work Aiden",
+        "runtime": "Supervised RC-015 assembly and supplied interpretation"
+      },
+      "branch_id": "B0",
+      "event_id": "RC015-INFORMATION-INTEGRITY-STEP-7",
+      "expected_revision": 6,
+      "kind": "step",
+      "node": "RESID",
+      "output": {
+        "next_test": "Inspect one official CSIS-linked recording/platform replay for the July25,2018 event, if publicly accessible, for a preserved chat interval and visible moderation; retain missing chat as an access limit.",
+        "predicates": {
+          "consequential": true,
+          "distinct_functions": false,
+          "language_exception": null
+        },
+        "summary": "Exact incident-to-recording/chat linkage despite matching event title and circumstances. Raw messages, automation, coordination, operator/sponsor, audience exposure, moderator staffing/actions and durable protective outcome. Whether a public platform replay retains chat; it was not obtained in this bounded pass."
+      }
+    },
+    {
+      "actor": {
+        "model": "Work-session model identifier not recorded",
+        "name": "Work Aiden",
+        "runtime": "Supervised RC-015 assembly and supplied interpretation"
+      },
+      "branch_id": "B0",
+      "event_id": "RC015-INFORMATION-INTEGRITY-STEP-8",
+      "expected_revision": 7,
+      "kind": "step",
+      "node": "MEAN",
+      "output": {
+        "authorship_limits": "Separate active-session source inspection, not independent replication of CSIS attribution or a platform-telemetry audit.",
+        "summary": "Read the attributed findings with their contrary evidence and residuals."
+      }
+    },
+    {
+      "actor": {
+        "model": "Work-session model identifier not recorded",
+        "name": "Work Aiden",
+        "runtime": "Supervised RC-015 assembly and supplied interpretation"
+      },
+      "branch_id": "B0",
+      "event_id": "RC015-INFORMATION-INTEGRITY-STEP-9",
+      "expected_revision": 8,
+      "kind": "step",
+      "node": "EXIT",
+      "output": {
+        "kind": "question",
+        "summary": "Inspect one official CSIS-linked recording/platform replay for the July25,2018 event, if publicly accessible, for a preserved chat interval and visible moderation; retain missing chat as an access limit."
+      }
+    },
+    {
+      "actor": {
+        "model": "Work-session model identifier not recorded",
+        "name": "Work Aiden",
+        "runtime": "Supervised RC-015 assembly and supplied interpretation"
+      },
+      "branch_id": "B0",
+      "event_id": "RC015-INFORMATION-INTEGRITY-STEP-10",
+      "expected_revision": 9,
+      "kind": "step",
+      "node": "RETURN",
+      "output": {
+        "new_arrival": null,
+        "reason": "Two targeted searches and three document opens completed the bounded archive comparison; no expansion to other streams or accounts."
+      }
+    }
+  ],
+  "question_snapshot": {
+    "questions": {
+      "Q-INFORMATION-INTEGRITY-CSIS-2018": {
+        "epoch": 1
+      }
+    }
+  },
+  "record_base_url": "https://github.com/Jaradyne/Dis-Unity/blob/main/reports/all-garden/20261104/worked/",
+  "recorded_at": "2026-11-07T10:46:07.208340+00:00",
+  "recorded_at_meaning": "Actual supervised assembly time, reused deterministically; not an origin fetch time or time of the historical events.",
+  "schema_version": "garden-scenario-1",
+  "start": {
+    "actor": {
+      "model": "Work-session model identifier not recorded",
+      "name": "Work Aiden",
+      "runtime": "Supervised RC-015 assembly and supplied interpretation"
+    },
+    "arrival": {
+      "from": "reports/all-garden/20261104/inputs/information.json",
+      "id": "RC015-INFORMATION-INTEGRITY-ARRIVAL",
+      "payload": {
+        "baseline_refs": [
+          "reports/information-integrity/20261028/README.md",
+          "reports/information-integrity/20261028/sources.json",
+          "operations/information-integrity/20261028/case.json"
+        ],
+        "inspection_status": "new_evidence",
+        "lane_id": "information-integrity",
+        "return_actor": "cycle15_information",
+        "return_sha256": "2f77583558ad0a1d002f95d8227f09569806990abada70a2a256e82ca618fc64"
+      },
+      "to": "INFORMATION-INTEGRITY:ROOT-0001"
+    },
+    "budget": {
+      "max_branches": 1,
+      "max_events": 10,
+      "max_fanout": 0,
+      "max_steps": 10,
+      "model_calls": 0
+    },
+    "epoch": 1,
+    "focus": "Can the public CSIS event archive resolve the event date and verify chat messages or moderation?",
+    "question_id": "Q-INFORMATION-INTEGRITY-CSIS-2018",
+    "run_id": "RC015-INFORMATION-INTEGRITY",
+    "sources": [
+      {
+        "binding": {
+          "lane_id": "information-integrity",
+          "path": "reports/all-garden/20261104/inputs/information.json",
+          "sha256": "303de8b2d051d01768d035ab99980ee5578057ecd7bb96a922466b76306744d7",
+          "source_id": "RC015-II-CSIS-BLOG-RECHECK"
+        },
+        "kind": "public_source",
+        "lineage_id": "CSIS-20181009-LIVECHAT-REPORT",
+        "ref": "RC015-II-CSIS-BLOG-RECHECK"
+      },
+      {
+        "binding": {
+          "lane_id": "information-integrity",
+          "path": "reports/all-garden/20261104/inputs/information.json",
+          "sha256": "ca682877058ed60c62b7f84557eda8aceda19f69f8dd0eeca7ed088b4096bd23",
+          "source_id": "RC015-II-CSIS-EVENT-ARCHIVE"
+        },
+        "kind": "public_source",
+        "lineage_id": "CSIS-JUNCKER-EVENT-20180725",
+        "ref": "RC015-II-CSIS-EVENT-ARCHIVE"
+      },
+      {
+        "binding": {
+          "lane_id": "information-integrity",
+          "path": "reports/all-garden/20261104/inputs/information.json",
+          "sha256": "4a37a9bbef06bb6a70ce26eab6ce671bcb61f1f266ffba192e4cf376561d5778",
+          "source_id": "RC015-II-CSIS-TRANSCRIPT"
+        },
+        "kind": "public_source",
+        "lineage_id": "CSIS-JUNCKER-EVENT-20180725",
+        "ref": "RC015-II-CSIS-TRANSCRIPT"
+      }
+    ],
+    "tree": "INFORMATION-INTEGRITY"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "cycle_id": "RC-015",
+  "actor": "cycle15_services",
+  "status": "completed_bounded_recheck",
+  "checked_at": "2026-11-05T04:15:11.980067+00:00",
+  "scope": [
+    "shelter-accountability",
+    "community-capacity-commons"
+  ],
+  "bounds": {
+    "search_queries": 4,
+    "document_opens": 6,
+    "public_only": true,
+    "contact": false,
+    "canonical_admission": false,
+    "runtime_mutation": false
+  },
+  "completed_at": "2026-11-05T04:18:09.354470+00:00",
+  "return_path": "reports/all-garden/20261104/inputs/services.json",
+  "search_queries_used": 4,
+  "document_opens_used": 6,
+  "source_count": 7,
+  "main_result": "Campus executed packet remains unknown. Richmond returned developer wording now reports Sep2026 opening; current operator/price/grant transition still unknown."
+}

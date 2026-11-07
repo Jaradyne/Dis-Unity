@@ -1,0 +1,12 @@
+{
+  "branches": [
+    "B0"
+  ],
+  "meaning": "Supplied traversal and routing; no new evidence, model dispatch or Governor review.",
+  "record_ref": "operations/garden/runs/RC015-COMMUNITY-CAPACITY-COMMONS.json",
+  "record_sha256": "3be3654df671ffb6a576c45b9f6d1de618cf0da935b9b38006f00bde44f52a65",
+  "run_id": "RC015-COMMUNITY-CAPACITY-COMMONS",
+  "schema_version": "digestion-garden-materials-1",
+  "state_sha256": "d778cb332ba3576de7566bec48d29e48663e4d2da5ee5c1d74d5e08dea4f7a4b",
+  "status": "available_for_digestion"
+}

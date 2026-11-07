@@ -1,0 +1,15 @@
+{
+  "at": "2026-11-07T16:31:21.384977+00:00",
+  "cycle_id": "RC-015",
+  "event_id": "8e216c334a3e1872a0fa6b34",
+  "event_type": "agent_submission",
+  "hash": "eff8447a8a17e7e9eca0d92f35d6ca5bae386a5406f81f625707089fa9f5f4ee",
+  "payload": {
+    "agent": "cycle15-material-recovery",
+    "payload_hash": "a930d264370b5ae2c756cc553e154732e150b13e5d063e2a2d6fb345754e7d3e",
+    "phase": "submitted",
+    "submission_id": "f142c29c95fb0ab4fec1eb622503ef265d70f3a4d099ee5e2ca4fd6ee17f3579"
+  },
+  "previous_hash": "b3315fe52e2e37f7a35a24188a2e0ee5cb894d5bda1ba7d8a668613cb221d123",
+  "sequence": 11
+}

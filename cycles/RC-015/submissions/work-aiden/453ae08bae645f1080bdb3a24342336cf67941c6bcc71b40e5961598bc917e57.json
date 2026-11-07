@@ -1,0 +1,19 @@
+{
+  "agent": "work-aiden",
+  "at": "2026-11-07T16:31:21.612759+00:00",
+  "base_hash": "16d04f8bb35a588caca60517f90a11944cfbafac7951402d059a6d6131de97b7",
+  "cycle_id": "RC-015",
+  "payload": {
+    "actor": "Work Aiden",
+    "at": "2026-11-07T16:27:32.461255+00:00",
+    "completed_scope": "Independent preliminary evidence checks, three selected source reopens, replay-wrapper reading, date-normalization challenge. See reviewer-evidence.json.",
+    "cycle_id": "RC-015",
+    "disposition": "Preserve checkpoint and perform coordinator review; seek a separately attributed closing pass if available.",
+    "reviewer": "cycle15_review",
+    "status": "closing_review_incomplete",
+    "unfinished_scope": "Final assembled report, exact final hashes and executed final replay were not independently certified before usage-limit interruption."
+  },
+  "payload_hash": "32b9e98d7cab3011077a660e6ed64bbebae9be8721ef6e8ea3530830112d0f39",
+  "phase": "submitted",
+  "submission_id": "453ae08bae645f1080bdb3a24342336cf67941c6bcc71b40e5961598bc917e57"
+}
