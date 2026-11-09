@@ -1,0 +1,84 @@
+{
+  "schema": "bounded-price-observation-1",
+  "as_of_local": "2026-11-08",
+  "timezone": "America/Los_Angeles",
+  "compiled_at_utc": "2026-11-09T01:40:18.669944+00:00",
+  "weekly_actual": {
+    "source": "https://www.eia.gov/petroleum/gasdiesel/",
+    "observation_date": "2026-11-02",
+    "release_date": "2026-11-03",
+    "units": "USD per US gallon, on-highway retail diesel including taxes",
+    "us": 6.292,
+    "us_week_change": -0.06,
+    "california": 8.076,
+    "california_week_change": -0.079,
+    "receipt": "receipts/eia-november-weekly-price.json"
+  },
+  "monthly_forecast": {
+    "source": "https://www.eia.gov/outlooks/steo/xls/Fig12.xlsx",
+    "release_date": "2026-10-06",
+    "model_cutoff": "2026-10-01",
+    "next_release": "2026-11-10",
+    "units": "USD per US gallon, US retail diesel",
+    "receipt": "receipts/eia-october-forecast.json",
+    "rows": [
+      {
+        "month": "2026-10",
+        "usd_per_us_gallon": 6.269729,
+        "sheet": "12",
+        "period_cell": "C81",
+        "forecast_cell": "E81",
+        "status": "FORECAST"
+      },
+      {
+        "month": "2026-11",
+        "usd_per_us_gallon": 5.788287,
+        "sheet": "12",
+        "period_cell": "C82",
+        "forecast_cell": "E82",
+        "status": "FORECAST"
+      },
+      {
+        "month": "2026-12",
+        "usd_per_us_gallon": 5.335352,
+        "sheet": "12",
+        "period_cell": "C83",
+        "forecast_cell": "E83",
+        "status": "FORECAST"
+      },
+      {
+        "month": "2027-01",
+        "usd_per_us_gallon": 5.0589960000000005,
+        "sheet": "12",
+        "period_cell": "C84",
+        "forecast_cell": "E84",
+        "status": "FORECAST"
+      }
+    ],
+    "limitations": [
+      "Monthly averages, not daily price guarantees or California forecasts.",
+      "Use sheet 12 dates in column C and diesel forecast in column E; do not confuse the Brent series or quarterly/annual averages.",
+      "October chart data and published quarterly table are retained as separate surfaces; no exact monthly-to-quarter reconciliation is asserted."
+    ]
+  },
+  "receipt_metadata": {
+    "eia-october-forecast.json": {
+      "started_at": "2026-11-09T01:36:34.425057+00:00",
+      "finished_at": "2026-11-09T01:36:39.693718+00:00",
+      "status": 200,
+      "encoding": "base64",
+      "complete": true,
+      "sha256": "d9d5e81fb487f2bd00e0d1844480b4b53241458f95568c006fd89c84f343102d",
+      "bytes": 44251
+    },
+    "eia-november-weekly-price.json": {
+      "started_at": "2026-11-09T01:38:30.133355+00:00",
+      "finished_at": "2026-11-09T01:38:34.197668+00:00",
+      "status": 200,
+      "encoding": "utf-8",
+      "complete": true,
+      "sha256": "2eb4ea531bd7db16eed3dd19ada372f1792a538e73057fb6dc966531f5e93fb8",
+      "bytes": 114861
+    }
+  }
+}
