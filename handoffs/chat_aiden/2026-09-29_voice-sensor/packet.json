@@ -1,0 +1,36 @@
+{
+  "packet_version": "chat-work-handoff-1",
+  "packet_id": "CHAT-VOICE-SENSOR-20260929",
+  "source": "Jared's Dis-Unity Voice Handoff, 2026-09-29",
+  "base_commit": "6e07fa4dbb23b17d4dfe9e3642accd02ba015163",
+  "actor": {
+    "runtime": "Chat",
+    "provider": "OpenAI",
+    "model": "GPT-5.6 Sol"
+  },
+  "status": "ready_for_work_review",
+  "primary": "WORK_AIDEN_PRIMARY.md",
+  "supporting": [
+    "README.md",
+    "CHAT_REVIEW.md"
+  ],
+  "goal": "Build one deterministic permitted-source sensor that detects new/changed material, preserves provenance and temporal validity, and emits a Garden/threshold handoff without spending a model call on change detection.",
+  "constraints": [
+    "No scraping around login/CAPTCHA/terms restrictions",
+    "No new paid source",
+    "No automatic first-use provider calls",
+    "No Groq or paid fallback",
+    "No email credentials in this pass",
+    "No broad source-platform generalization before one proof works",
+    "Multiple summaries of one underlying source remain one evidentiary lineage"
+  ],
+  "requested_return": [
+    "source and permission basis",
+    "identity/version strategy",
+    "state location",
+    "handoff trigger",
+    "network/model calls and cost",
+    "verification",
+    "next smallest adapter"
+  ]
+}
