@@ -1,0 +1,57 @@
+{
+  "version": "eia-bounded-comparison-1",
+  "source_id": "EIA-STEO-FIG12",
+  "source_family": "EIA",
+  "preserved_files": [
+    {
+      "path": "reports/followups/20261108/README.md",
+      "sha256": "feaddde8a9275d1373c8c790a8418663a4f8106d086140bab908391cf059d7eb"
+    },
+    {
+      "path": "reports/followups/20261108/diesel-data.json",
+      "sha256": "128d40f46c4e56bb6f285d5aad5a687edf33bd03225b3168b05c37c9bf3772c3"
+    },
+    {
+      "path": "reports/followups/20261108/diesel-global-checkpoint.md",
+      "sha256": "4c2a2e6fb73dd3f7d02006a84c970d3c361eedc143648ab359f446185483e60f"
+    },
+    {
+      "path": "reports/followups/20261108/receipts/eia-november-weekly-price.json",
+      "sha256": "d08c7e98839802b5b5a8cda7c201acb487f2f70438ed4b40ddf625d3904bd364"
+    },
+    {
+      "path": "reports/followups/20261108/receipts/eia-october-forecast.json",
+      "sha256": "d8f6e4dd6a831d47e97325ffed9bdd5eedca041622a355145fa7faebc26fb9e7"
+    },
+    {
+      "path": "reports/followups/20261108/richmond-checkpoint.md",
+      "sha256": "b676aa9e028ca5946add93a195c82a68e38b317d41ff0579575cd2eb1d601df2"
+    }
+  ],
+  "previous": {
+    "receipt": {
+      "path": "reports/followups/20261108/receipts/eia-october-forecast.json",
+      "sha256": "d8f6e4dd6a831d47e97325ffed9bdd5eedca041622a355145fa7faebc26fb9e7"
+    },
+    "title": "U.S. Energy Information Administration, Short-Term Energy Outlook, October 2026",
+    "release_date": "2026-10-06",
+    "model_cutoff": "2026-10-01"
+  },
+  "current": {
+    "receipt": {
+      "path": "reports/followups/20261113/receipts/eia-november-forecast.json",
+      "sha256": "66b73708246a06ee6bf618c3e8f1a32e0ade879d7d29ac101d935af80831dcd6"
+    },
+    "title": "U.S. Energy Information Administration, Short-Term Energy Outlook, November 2026",
+    "release_date": "2026-11-10",
+    "model_cutoff": "2026-11-05"
+  },
+  "overview": {
+    "path": "reports/followups/20261113/receipts/eia-november-overview.json",
+    "sha256": "6ba35a0aa2281cf677e18633d11fa80f4cc3804031b3a6c4b53ea6dd7fae75d3"
+  },
+  "weekly": {
+    "path": "reports/followups/20261113/receipts/eia-november-weekly.json",
+    "sha256": "7873186caf06b56aa5390996dbe037d3dd74313e8e93ae6ca953e98e132d05e2"
+  }
+}
