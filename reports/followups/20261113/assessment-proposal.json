@@ -1,0 +1,49 @@
+{
+  "version": "eia-assessment-proposal-1",
+  "assessment_id": "EIA-DIESEL-NOVEMBER-2026",
+  "authored_on": "2026-11-15",
+  "actor": "Work Aiden (coordinator finishing interrupted specialist work)",
+  "status": "ready_for_review",
+  "canonical_admission": false,
+  "previous_assessment": {
+    "path": "reports/followups/20261108/README.md",
+    "sha256": "feaddde8a9275d1373c8c790a8418663a4f8106d086140bab908391cf059d7eb"
+  },
+  "source_bindings": [
+    {
+      "path": "reports/followups/20261113/receipts/eia-november-forecast.json",
+      "sha256": "66b73708246a06ee6bf618c3e8f1a32e0ade879d7d29ac101d935af80831dcd6"
+    },
+    {
+      "path": "reports/followups/20261113/receipts/eia-november-overview.json",
+      "sha256": "6ba35a0aa2281cf677e18633d11fa80f4cc3804031b3a6c4b53ea6dd7fae75d3"
+    },
+    {
+      "path": "reports/followups/20261113/receipts/eia-november-weekly.json",
+      "sha256": "7873186caf06b56aa5390996dbe037d3dd74313e8e93ae6ca953e98e132d05e2"
+    }
+  ],
+  "claims": [
+    {
+      "kind": "observed_weekly_price",
+      "summary": "November 9 retail diesel was lower than November 2: United States 6.127 and California 7.897 USD per US gallon."
+    },
+    {
+      "kind": "forecast_revision",
+      "summary": "November model retains falling national monthly prices through January, but raises every selected month above the October forecast."
+    },
+    {
+      "kind": "annual_forecast",
+      "summary": "The published 2027 annual average forecast increased from 4.49 to 5.03 USD per US gallon; this is not the January forecast."
+    }
+  ],
+  "ordinary_explanations": [
+    "Forecast revisions reflect changed model inputs and assumptions; they are not completed future observations.",
+    "Weekly price falls and a higher future forecast can coexist."
+  ],
+  "residuals": [
+    "Country-specific global retail diesel outcomes are not established by a US forecast.",
+    "Essential delivery completion and usable operator buffers remain UNKNOWN."
+  ],
+  "next_test": "Inspect one operator record joining planned/completed essential deliveries, actual fuel cost and buffer use for a matched week."
+}

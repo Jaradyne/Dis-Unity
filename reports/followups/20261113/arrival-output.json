@@ -1,0 +1,88 @@
+{
+  "version": "eia-case-local-arrival-replay-1",
+  "observations": [
+    {
+      "observation_id": "EIA-OCT-RECEIPT",
+      "source_id": "EIA-STEO-FIG12",
+      "source_family": "EIA",
+      "url": "https://www.eia.gov/outlooks/steo/xls/Fig12.xlsx",
+      "lane": "recorded_public",
+      "source_observed_at": "2026-11-09T01:36:39.693718+00:00",
+      "receipt": {
+        "path": "reports/followups/20261108/receipts/eia-october-forecast.json",
+        "sha256": "d8f6e4dd6a831d47e97325ffed9bdd5eedca041622a355145fa7faebc26fb9e7"
+      },
+      "body_sha256": "d9d5e81fb487f2bd00e0d1844480b4b53241458f95568c006fd89c84f343102d",
+      "decision": "first_observation",
+      "queued_work_id": "REVIEW-d9d5e81fb487f2bd"
+    },
+    {
+      "observation_id": "EIA-OCT-UNCHANGED-FIXTURE",
+      "source_id": "EIA-STEO-FIG12",
+      "source_family": "EIA",
+      "url": "https://www.eia.gov/outlooks/steo/xls/Fig12.xlsx",
+      "lane": "simulated_unchanged_repeat",
+      "source_observed_at": "2026-11-09T01:36:39.693718+00:00",
+      "receipt": {
+        "path": "reports/followups/20261108/receipts/eia-october-forecast.json",
+        "sha256": "d8f6e4dd6a831d47e97325ffed9bdd5eedca041622a355145fa7faebc26fb9e7"
+      },
+      "body_sha256": "d9d5e81fb487f2bd00e0d1844480b4b53241458f95568c006fd89c84f343102d",
+      "decision": "unchanged",
+      "queued_work_id": null
+    },
+    {
+      "observation_id": "EIA-NOV-RECEIPT",
+      "source_id": "EIA-STEO-FIG12",
+      "source_family": "EIA",
+      "url": "https://www.eia.gov/outlooks/steo/xls/Fig12.xlsx",
+      "lane": "recorded_public",
+      "source_observed_at": "2026-11-14T04:12:34.225147+00:00",
+      "receipt": {
+        "path": "reports/followups/20261113/receipts/eia-november-forecast.json",
+        "sha256": "66b73708246a06ee6bf618c3e8f1a32e0ade879d7d29ac101d935af80831dcd6"
+      },
+      "body_sha256": "106a8474e979c3166749473f3a57c0a185a8effb8297d5ed8b23335e08cb1456",
+      "decision": "changed_version",
+      "queued_work_id": "REVIEW-106a8474e979c316"
+    }
+  ],
+  "review_queue": [
+    {
+      "work_id": "REVIEW-d9d5e81fb487f2bd",
+      "status": "awaiting_review",
+      "source_id": "EIA-STEO-FIG12",
+      "source_family": "EIA",
+      "receipt": {
+        "path": "reports/followups/20261108/receipts/eia-october-forecast.json",
+        "sha256": "d8f6e4dd6a831d47e97325ffed9bdd5eedca041622a355145fa7faebc26fb9e7"
+      },
+      "body_sha256": "d9d5e81fb487f2bd00e0d1844480b4b53241458f95568c006fd89c84f343102d",
+      "reason": "first_observation",
+      "findings_admitted": 0
+    },
+    {
+      "work_id": "REVIEW-106a8474e979c316",
+      "status": "awaiting_review",
+      "source_id": "EIA-STEO-FIG12",
+      "source_family": "EIA",
+      "receipt": {
+        "path": "reports/followups/20261113/receipts/eia-november-forecast.json",
+        "sha256": "66b73708246a06ee6bf618c3e8f1a32e0ade879d7d29ac101d935af80831dcd6"
+      },
+      "body_sha256": "106a8474e979c3166749473f3a57c0a185a8effb8297d5ed8b23335e08cb1456",
+      "reason": "changed_version",
+      "findings_admitted": 0
+    }
+  ],
+  "independent_source_families": [
+    "EIA"
+  ],
+  "new_network_requests_on_replay": 0,
+  "automatic_findings": [],
+  "limitations": [
+    "Same-URL bytes can change without changing a forecast.",
+    "The unchanged repeat reuses retained bytes; it is not a live second retrieval.",
+    "This case-local queue is not the generic Garden Evidence Arrival adapter."
+  ]
+}

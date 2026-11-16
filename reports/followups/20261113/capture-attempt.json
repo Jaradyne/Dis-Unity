@@ -1,0 +1,12 @@
+{
+  "version": "bounded-source-capture-1",
+  "authorization": "Parent-assigned November13 handoff follow-up under Jared instruction to inspect handoffs and standing project public-research authorization.",
+  "started_at": "2026-11-14T04:12:27.824421+00:00",
+  "max_requests": 3,
+  "urls": [
+    "https://www.eia.gov/outlooks/steo/xls/Fig12.xlsx",
+    "https://www.eia.gov/petroleum/gasdiesel/",
+    "https://www.eia.gov/outlooks/steo/"
+  ],
+  "scope": "One GET per listed endpoint; no retries, redirects, recurring task or inference."
+}

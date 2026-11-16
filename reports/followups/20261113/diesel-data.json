@@ -1,0 +1,94 @@
+{
+  "version": "bounded-price-comparison-1",
+  "compiled_on_local": "2026-11-15",
+  "timezone": "America/Los_Angeles",
+  "source_cutoff": "2026-11-13T20:12:42.404932-08:00",
+  "weekly_actual": {
+    "observation_date": "2026-11-09",
+    "release_date": "2026-11-10",
+    "units": "USD per US gallon, on-highway retail diesel including taxes",
+    "receipt": {
+      "path": "reports/followups/20261113/receipts/eia-november-weekly.json",
+      "sha256": "7873186caf06b56aa5390996dbe037d3dd74313e8e93ae6ca953e98e132d05e2"
+    },
+    "us": 6.127,
+    "us_week_change": -0.165,
+    "california": 6.429,
+    "california_week_change": -0.146
+  },
+  "monthly_forecast": {
+    "units": "USD per US gallon, US retail diesel monthly average",
+    "previous": {
+      "receipt": {
+        "path": "reports/followups/20261108/receipts/eia-october-forecast.json",
+        "sha256": "d8f6e4dd6a831d47e97325ffed9bdd5eedca041622a355145fa7faebc26fb9e7"
+      },
+      "title": "U.S. Energy Information Administration, Short-Term Energy Outlook, October 2026",
+      "release_date": "2026-10-06",
+      "model_cutoff": "2026-10-01"
+    },
+    "current": {
+      "receipt": {
+        "path": "reports/followups/20261113/receipts/eia-november-forecast.json",
+        "sha256": "66b73708246a06ee6bf618c3e8f1a32e0ade879d7d29ac101d935af80831dcd6"
+      },
+      "title": "U.S. Energy Information Administration, Short-Term Energy Outlook, November 2026",
+      "release_date": "2026-11-10",
+      "model_cutoff": "2026-11-05"
+    },
+    "rows": [
+      {
+        "month": "2026-11",
+        "status": "FORECAST",
+        "sheet": "12",
+        "period_cell": "C82",
+        "forecast_cell": "E82",
+        "previous_usd_per_us_gallon": 5.788287,
+        "current_usd_per_us_gallon": 6.101534,
+        "revision_usd_per_us_gallon": 0.3132469999999996
+      },
+      {
+        "month": "2026-12",
+        "status": "FORECAST",
+        "sheet": "12",
+        "period_cell": "C83",
+        "forecast_cell": "E83",
+        "previous_usd_per_us_gallon": 5.335352,
+        "current_usd_per_us_gallon": 5.792385,
+        "revision_usd_per_us_gallon": 0.457033
+      },
+      {
+        "month": "2027-01",
+        "status": "FORECAST",
+        "sheet": "12",
+        "period_cell": "C84",
+        "forecast_cell": "E84",
+        "previous_usd_per_us_gallon": 5.0589960000000005,
+        "current_usd_per_us_gallon": 5.549171,
+        "revision_usd_per_us_gallon": 0.4901749999999998
+      }
+    ]
+  },
+  "annual_forecast": {
+    "period": "calendar-year 2027 average",
+    "status": "FORECAST",
+    "previous": 4.49,
+    "current": 5.03,
+    "published_revision_percent": 12.0,
+    "units": "USD per US gallon, US retail diesel",
+    "receipt": {
+      "path": "reports/followups/20261113/receipts/eia-november-overview.json",
+      "sha256": "6ba35a0aa2281cf677e18633d11fa80f4cc3804031b3a6c4b53ea6dd7fae75d3"
+    },
+    "limit": "Annual published values are rounded and are not January forecasts."
+  },
+  "lineage": {
+    "source_family": "EIA",
+    "independent_source_family_count": 1
+  },
+  "limitations": [
+    "This national forecast is neither a California forecast nor a daily price guarantee.",
+    "No completed fuel delivery, generator operation or essential-service outcome is established.",
+    "The November overview revises supply expectations; the retained October global report remains dated."
+  ]
+}
