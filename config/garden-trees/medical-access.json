@@ -1,0 +1,15 @@
+{
+  "base_sha256": "cabe4d51ecca052abfcb386dc1e3f8b97cc440a23d6a15bf955b40b8719f8e18",
+  "context_trees": [
+    "LANGUAGE",
+    "CUSTOMS",
+    "HOMELESSNESS"
+  ],
+  "definition": {
+    "name": "Medical Access, Clinical Evidence and Outcomes",
+    "node_template": "INIT",
+    "status": "traversable_with_supplied_content"
+  },
+  "tree_id": "MEDICAL-ACCESS",
+  "version": "garden-tree-extension-1"
+}

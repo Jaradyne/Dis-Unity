@@ -1,0 +1,2 @@
+run_id,branch_id,parent_branch,question_id,epoch,tree,node,status,focus,rest_reason,steps_used,branches_used,model_calls,record
+MEDICAL-ACCESS-FICTIONAL-20261115,B0,,Q-MEDICAL-CARE-CONTINUITY,1,MEDICAL-ACCESS,RETURN,resting,"Can a request for diagnostic medical assessment reach a usable appointment without confusing management education, paperwork or booking with clinical care?",No new arrival supplied,10,1,0,https://github.com/Jaradyne/Dis-Unity/blob/main/reports/medical-access/20261113/generated/garden/operations/garden/runs/MEDICAL-ACCESS-FICTIONAL-20261115.json

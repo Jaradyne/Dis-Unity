@@ -1,0 +1,13 @@
+{
+  "scenario_sha256": "79879419d4a5399bf0b82a656860a92152521404551fcdce54e321b463271fec",
+  "sha256": {
+    "config/garden-traversal.json": "cabe4d51ecca052abfcb386dc1e3f8b97cc440a23d6a15bf955b40b8719f8e18",
+    "config/garden-trees/medical-access.json": "16c47aa4e0f5e75d281b7c854c13022d3e88a10d93c454615c9364e923f3a828",
+    "operations/continuity/references.json": "90637325b6f8dac8aa0d79e187586898309a39daf8375cc4a1c1d9b451745948",
+    "operations/medical-access/20261113/journal.json": "5c8e72849bc844d9f7e3e527a312f84977cd90176ccec7cb85c8b4f22754fc94",
+    "operations/medical-access/20261113/records.json": "fb4574ee2217f0e2df6bde6ded4c36b9195da983c5b6fdb5c91028683ed8421f",
+    "operations/medical-access/20261113/references.json": "b4849f10922f3220b6abcdc56d400ae1842c2290687b1e6229292b4a1c920275",
+    "schemas/patient-care.schema.json": "22ba370c073c34c1deb33c8a7d8210b234eaf5734c91fbfbf5a0629bd2abf64e"
+  },
+  "version": "patient-care-inputs-1"
+}
