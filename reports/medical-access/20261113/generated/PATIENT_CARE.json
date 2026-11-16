@@ -1,0 +1,677 @@
+{
+  "history": [
+    {
+      "actor": "Work Aiden / medical_runtime_resume (supplied fixture author)",
+      "entry_sha256": "c744dc731ac418ff47406f4cd721f53c8326d7de69ac5e69cc70c02681272722",
+      "evidence_cutoff": "2026-11-05",
+      "pathway_id": "PC-FICTIONAL-ONE",
+      "reason": "Initial fictional assessment",
+      "recorded_at": "2026-11-14T18:01:00Z",
+      "revision": 1,
+      "sequence": 1,
+      "stages": {
+        "ACCOMMODATION-IMPLEMENTED": "unknown",
+        "ACCOMMODATION-REQUESTED": "completed",
+        "APPOINTMENT-ATTENDED": "unknown",
+        "APPOINTMENT-BOOKED": "unknown",
+        "CLINICAL-BENEFIT": "unknown",
+        "COORDINATOR-AUTHORIZED": "unknown",
+        "COORDINATOR-REQUESTED": "completed",
+        "DIAGNOSTIC-EVALUATION": "unknown",
+        "FORMAL-PROTECTION": "completed",
+        "MANAGEMENT-OFFERED": "completed",
+        "MEDICAL-AUTHORIZATION": "unknown",
+        "NEED-RECORDED": "completed",
+        "PREREQUISITE-PERFORMED": "unknown",
+        "PREREQUISITE-REQUESTED": "completed",
+        "REFERRAL-DISPATCHED": "completed",
+        "REFERRAL-RECEIVED": "completed",
+        "REMEDY-REALIZED": "unknown",
+        "ROUTE-CORRECTED": "unknown",
+        "TREATMENT-CONSENT": "unknown",
+        "TREATMENT-SELECTED": "unknown",
+        "TRIAGE-COMPLETED": "completed"
+      }
+    },
+    {
+      "actor": "Work Aiden / medical_runtime_resume (supplied fixture author)",
+      "entry_sha256": "660d0bb9ac81906afd5ca8b49adb5ad49b464fbd89b5230bab1128b262cbdcb8",
+      "evidence_cutoff": "2026-11-12",
+      "pathway_id": "PC-FICTIONAL-ONE",
+      "reason": "Append later fictional administrative repair while retaining the initial assessment",
+      "recorded_at": "2026-11-14T18:02:00Z",
+      "revision": 2,
+      "sequence": 2,
+      "stages": {
+        "ACCOMMODATION-IMPLEMENTED": "unknown",
+        "ACCOMMODATION-REQUESTED": "completed",
+        "APPOINTMENT-ATTENDED": "unknown",
+        "APPOINTMENT-BOOKED": "completed",
+        "CLINICAL-BENEFIT": "unknown",
+        "COORDINATOR-AUTHORIZED": "completed",
+        "COORDINATOR-REQUESTED": "completed",
+        "DIAGNOSTIC-EVALUATION": "unknown",
+        "FORMAL-PROTECTION": "completed",
+        "MANAGEMENT-OFFERED": "completed",
+        "MEDICAL-AUTHORIZATION": "completed",
+        "NEED-RECORDED": "completed",
+        "PREREQUISITE-PERFORMED": "completed",
+        "PREREQUISITE-REQUESTED": "completed",
+        "REFERRAL-DISPATCHED": "completed",
+        "REFERRAL-RECEIVED": "completed",
+        "REMEDY-REALIZED": "unknown",
+        "ROUTE-CORRECTED": "completed",
+        "TREATMENT-CONSENT": "unknown",
+        "TREATMENT-SELECTED": "unknown",
+        "TRIAGE-COMPLETED": "completed"
+      }
+    }
+  ],
+  "history_head": "660d0bb9ac81906afd5ca8b49adb5ad49b464fbd89b5230bab1128b262cbdcb8",
+  "pathways": {
+    "PC-FICTIONAL-ONE": {
+      "clinical_question": "Can a request for diagnostic medical assessment reach a usable appointment without confusing management education, paperwork or booking with clinical care?",
+      "contrary_evidence": [
+        "The initial referral is explicitly received and triaged; a complete non-transmission claim is contradicted.",
+        "The later fictional redirect, authorization and booking contradict a claim that the administrative route never recovered. They do not demonstrate delivered care."
+      ],
+      "event_refs": [
+        "E-NEED",
+        "E-DISPATCH",
+        "E-RECEIPT",
+        "E-TRIAGE",
+        "E-TEST-REQUEST",
+        "E-MANAGEMENT",
+        "E-WRITING-REQUEST",
+        "E-COORDINATOR-REQUEST",
+        "E-POLICY",
+        "E-TEST-DONE",
+        "E-REDIRECT",
+        "E-AUTHORIZATION",
+        "E-BOOKING",
+        "E-COORDINATOR-OK"
+      ],
+      "evidence_cutoff": "2026-11-12",
+      "next_test": {
+        "max_records": 1,
+        "question": "In one consented, deidentified or public record, is the booked diagnostic assessment shown to have occurred, and what clinical action and follow-up were documented?",
+        "status": "proposed_only",
+        "stop_condition": "Stop after one qualifying record or an access limit; preserve UNKNOWN if attendance or clinical action cannot be verified. No contact or record collection is authorized by this fixture."
+      },
+      "ordinary_explanations": [
+        "A dated prerequisite can support appropriate triage; it does not establish a blocked route or a specialist visit.",
+        "An optional management service can coexist with covered diagnostic care. Offering it alone does not establish wrongdoing.",
+        "Clinical uncertainty may persist despite appropriate care; it is distinct from documented access failure."
+      ],
+      "pathway_id": "PC-FICTIONAL-ONE",
+      "record_mode": "synthetic_demonstration",
+      "stages": [
+        {
+          "claim": "Fictional referral question requests specialty diagnostic assessment, separate from education.",
+          "claimed_policy_refs": [],
+          "event_refs": [
+            "E-NEED"
+          ],
+          "next_handoff": "Inspect the next distinct milestone without assuming completion.",
+          "observation_type": "need_recorded",
+          "patient_cost": {
+            "amount": null,
+            "currency": null,
+            "event_refs": [],
+            "type": "unknown"
+          },
+          "patient_usable_effect": {
+            "claim": "No patient-usable clinical effect established by this milestone.",
+            "event_refs": [],
+            "status": "unknown"
+          },
+          "phase": "need",
+          "responsible_role": "Fictional referring clinician",
+          "service_type": "diagnostic_medical",
+          "stage_id": "NEED-RECORDED",
+          "status": "completed",
+          "verification_standard": "A dated source explicitly documenting need recorded for this service and scope; adjacent milestones do not substitute."
+        },
+        {
+          "claim": "Fictional sender logs dispatch of specialty referral.",
+          "claimed_policy_refs": [],
+          "event_refs": [
+            "E-DISPATCH"
+          ],
+          "next_handoff": "Inspect the next distinct milestone without assuming completion.",
+          "observation_type": "referral_dispatched",
+          "patient_cost": {
+            "amount": null,
+            "currency": null,
+            "event_refs": [],
+            "type": "unknown"
+          },
+          "patient_usable_effect": {
+            "claim": "No patient-usable clinical effect established by this milestone.",
+            "event_refs": [],
+            "status": "unknown"
+          },
+          "phase": "referral",
+          "responsible_role": "Fictional referral sender",
+          "service_type": "diagnostic_medical",
+          "stage_id": "REFERRAL-DISPATCHED",
+          "status": "completed",
+          "verification_standard": "A dated source explicitly documenting referral dispatched for this service and scope; adjacent milestones do not substitute."
+        },
+        {
+          "claim": "Fictional receiving service acknowledges receipt.",
+          "claimed_policy_refs": [],
+          "event_refs": [
+            "E-RECEIPT"
+          ],
+          "next_handoff": "Inspect the next distinct milestone without assuming completion.",
+          "observation_type": "referral_received",
+          "patient_cost": {
+            "amount": null,
+            "currency": null,
+            "event_refs": [],
+            "type": "unknown"
+          },
+          "patient_usable_effect": {
+            "claim": "No patient-usable clinical effect established by this milestone.",
+            "event_refs": [],
+            "status": "unknown"
+          },
+          "phase": "triage",
+          "responsible_role": "Fictional receiving triage service",
+          "service_type": "diagnostic_medical",
+          "stage_id": "REFERRAL-RECEIVED",
+          "status": "completed",
+          "verification_standard": "A dated source explicitly documenting referral received for this service and scope; adjacent milestones do not substitute."
+        },
+        {
+          "claim": "Fictional triage records review and asks for an updated prerequisite test.",
+          "claimed_policy_refs": [],
+          "event_refs": [
+            "E-TRIAGE"
+          ],
+          "next_handoff": "Inspect the next distinct milestone without assuming completion.",
+          "observation_type": "triage_completed",
+          "patient_cost": {
+            "amount": null,
+            "currency": null,
+            "event_refs": [],
+            "type": "unknown"
+          },
+          "patient_usable_effect": {
+            "claim": "No patient-usable clinical effect established by this milestone.",
+            "event_refs": [],
+            "status": "unknown"
+          },
+          "phase": "triage",
+          "responsible_role": "Fictional receiving triage service",
+          "service_type": "diagnostic_medical",
+          "stage_id": "TRIAGE-COMPLETED",
+          "status": "completed",
+          "verification_standard": "A dated source explicitly documenting triage completed for this service and scope; adjacent milestones do not substitute."
+        },
+        {
+          "claim": "Fictional triage asks for a test dated within its stated prerequisite window.",
+          "claimed_policy_refs": [],
+          "event_refs": [
+            "E-TEST-REQUEST"
+          ],
+          "next_handoff": "Inspect the next distinct milestone without assuming completion.",
+          "observation_type": "prerequisite_requested",
+          "patient_cost": {
+            "amount": null,
+            "currency": null,
+            "event_refs": [],
+            "type": "unknown"
+          },
+          "patient_usable_effect": {
+            "claim": "No patient-usable clinical effect established by this milestone.",
+            "event_refs": [],
+            "status": "unknown"
+          },
+          "phase": "prerequisites_coverage",
+          "responsible_role": "Fictional test service or payer, as stated in source",
+          "service_type": "audiology_test",
+          "stage_id": "PREREQUISITE-REQUESTED",
+          "status": "completed",
+          "verification_standard": "A dated source explicitly documenting prerequisite requested for this service and scope; adjacent milestones do not substitute."
+        },
+        {
+          "claim": "Fictional prerequisite test completed; no specialist diagnostic assessment is established.",
+          "claimed_policy_refs": [],
+          "event_refs": [
+            "E-TEST-DONE"
+          ],
+          "next_handoff": "Inspect the next distinct milestone without assuming completion.",
+          "observation_type": "prerequisite_performed",
+          "patient_cost": {
+            "amount": null,
+            "currency": null,
+            "event_refs": [],
+            "type": "unknown"
+          },
+          "patient_usable_effect": {
+            "claim": "No patient-usable clinical effect established by this milestone.",
+            "event_refs": [],
+            "status": "unknown"
+          },
+          "phase": "prerequisites_coverage",
+          "responsible_role": "Fictional test service or payer, as stated in source",
+          "service_type": "audiology_test",
+          "stage_id": "PREREQUISITE-PERFORMED",
+          "status": "completed",
+          "verification_standard": "A dated source explicitly documenting prerequisite performed for this service and scope; adjacent milestones do not substitute."
+        },
+        {
+          "claim": "Fictional optional self-pay education/management service is offered separately.",
+          "claimed_policy_refs": [],
+          "event_refs": [
+            "E-MANAGEMENT"
+          ],
+          "next_handoff": "Inspect the next distinct milestone without assuming completion.",
+          "observation_type": "management_offered",
+          "patient_cost": {
+            "amount": null,
+            "currency": null,
+            "event_refs": [
+              "E-MANAGEMENT"
+            ],
+            "type": "self_pay"
+          },
+          "patient_usable_effect": {
+            "claim": "No patient-usable clinical effect established by this milestone.",
+            "event_refs": [],
+            "status": "unknown"
+          },
+          "phase": "prerequisites_coverage",
+          "responsible_role": "Fictional test service or payer, as stated in source",
+          "service_type": "education_management",
+          "stage_id": "MANAGEMENT-OFFERED",
+          "status": "completed",
+          "verification_standard": "A dated source explicitly documenting management offered for this service and scope; adjacent milestones do not substitute."
+        },
+        {
+          "claim": "Fictional payer authorizes the named specialty appointment; payment and other services remain unverified.",
+          "claimed_policy_refs": [],
+          "event_refs": [
+            "E-AUTHORIZATION"
+          ],
+          "next_handoff": "Inspect the next distinct milestone without assuming completion.",
+          "observation_type": "medical_authorization",
+          "patient_cost": {
+            "amount": null,
+            "currency": null,
+            "event_refs": [
+              "E-AUTHORIZATION"
+            ],
+            "type": "authorized_coverage"
+          },
+          "patient_usable_effect": {
+            "claim": "No patient-usable clinical effect established by this milestone.",
+            "event_refs": [],
+            "status": "unknown"
+          },
+          "phase": "prerequisites_coverage",
+          "responsible_role": "Fictional test service or payer, as stated in source",
+          "service_type": "diagnostic_medical",
+          "stage_id": "MEDICAL-AUTHORIZATION",
+          "status": "completed",
+          "verification_standard": "A dated source explicitly documenting medical authorization for this service and scope; adjacent milestones do not substitute."
+        },
+        {
+          "claim": "Fictional written scheduling channel is requested; delivery and usability are unverified.",
+          "claimed_policy_refs": [
+            "S-POLICY"
+          ],
+          "event_refs": [
+            "E-WRITING-REQUEST"
+          ],
+          "next_handoff": "Inspect the next distinct milestone without assuming completion.",
+          "observation_type": "accommodation_requested",
+          "patient_cost": {
+            "amount": null,
+            "currency": null,
+            "event_refs": [],
+            "type": "unknown"
+          },
+          "patient_usable_effect": {
+            "claim": "No patient-usable clinical effect established by this milestone.",
+            "event_refs": [],
+            "status": "unknown"
+          },
+          "phase": "communication",
+          "responsible_role": "Fictional scheduling service",
+          "service_type": "administrative",
+          "stage_id": "ACCOMMODATION-REQUESTED",
+          "status": "completed",
+          "verification_standard": "A dated source explicitly documenting accommodation requested for this service and scope; adjacent milestones do not substitute."
+        },
+        {
+          "claim": "UNKNOWN: no corresponding fictional observation establishes accommodation implemented.",
+          "claimed_policy_refs": [
+            "S-POLICY"
+          ],
+          "event_refs": [],
+          "next_handoff": "Inspect the next distinct milestone without assuming completion.",
+          "observation_type": "accommodation_implemented",
+          "patient_cost": {
+            "amount": null,
+            "currency": null,
+            "event_refs": [],
+            "type": "unknown"
+          },
+          "patient_usable_effect": {
+            "claim": "No patient-usable clinical effect established by this milestone.",
+            "event_refs": [],
+            "status": "unknown"
+          },
+          "phase": "communication",
+          "responsible_role": "Fictional scheduling service",
+          "service_type": "administrative",
+          "stage_id": "ACCOMMODATION-IMPLEMENTED",
+          "status": "unknown",
+          "verification_standard": "A dated source explicitly documenting accommodation implemented for this service and scope; adjacent milestones do not substitute."
+        },
+        {
+          "claim": "Fictional authorization for a coordinator to schedule is requested, not granted.",
+          "claimed_policy_refs": [
+            "S-POLICY"
+          ],
+          "event_refs": [
+            "E-COORDINATOR-REQUEST"
+          ],
+          "next_handoff": "Inspect the next distinct milestone without assuming completion.",
+          "observation_type": "coordinator_requested",
+          "patient_cost": {
+            "amount": null,
+            "currency": null,
+            "event_refs": [],
+            "type": "unknown"
+          },
+          "patient_usable_effect": {
+            "claim": "No patient-usable clinical effect established by this milestone.",
+            "event_refs": [],
+            "status": "unknown"
+          },
+          "phase": "communication",
+          "responsible_role": "Fictional scheduling service",
+          "service_type": "administrative",
+          "stage_id": "COORDINATOR-REQUESTED",
+          "status": "completed",
+          "verification_standard": "A dated source explicitly documenting coordinator requested for this service and scope; adjacent milestones do not substitute."
+        },
+        {
+          "claim": "Fictional coordinator is authorized for scheduling and record routing only; no treatment-consent authority.",
+          "claimed_policy_refs": [
+            "S-POLICY"
+          ],
+          "event_refs": [
+            "E-COORDINATOR-OK"
+          ],
+          "next_handoff": "Inspect the next distinct milestone without assuming completion.",
+          "observation_type": "coordinator_authorized",
+          "patient_cost": {
+            "amount": null,
+            "currency": null,
+            "event_refs": [],
+            "type": "unknown"
+          },
+          "patient_usable_effect": {
+            "claim": "No patient-usable clinical effect established by this milestone.",
+            "event_refs": [],
+            "status": "unknown"
+          },
+          "phase": "communication",
+          "responsible_role": "Fictional scheduling service",
+          "service_type": "administrative",
+          "stage_id": "COORDINATOR-AUTHORIZED",
+          "status": "completed",
+          "verification_standard": "A dated source explicitly documenting coordinator authorized for this service and scope; adjacent milestones do not substitute."
+        },
+        {
+          "claim": "UNKNOWN: no corresponding fictional observation establishes treatment consent.",
+          "claimed_policy_refs": [],
+          "event_refs": [],
+          "next_handoff": "Inspect the next distinct milestone without assuming completion.",
+          "observation_type": "treatment_consent",
+          "patient_cost": {
+            "amount": null,
+            "currency": null,
+            "event_refs": [],
+            "type": "unknown"
+          },
+          "patient_usable_effect": {
+            "claim": "No patient-usable clinical effect established by this milestone.",
+            "event_refs": [],
+            "status": "unknown"
+          },
+          "phase": "clinical_action",
+          "responsible_role": "Fictional specialty service",
+          "service_type": "diagnostic_medical",
+          "stage_id": "TREATMENT-CONSENT",
+          "status": "unknown",
+          "verification_standard": "A dated source explicitly documenting treatment consent for this service and scope; adjacent milestones do not substitute."
+        },
+        {
+          "claim": "Fictional referral restored to the requested medical assessment route.",
+          "claimed_policy_refs": [],
+          "event_refs": [
+            "E-REDIRECT"
+          ],
+          "next_handoff": "Inspect the next distinct milestone without assuming completion.",
+          "observation_type": "route_corrected",
+          "patient_cost": {
+            "amount": null,
+            "currency": null,
+            "event_refs": [],
+            "type": "unknown"
+          },
+          "patient_usable_effect": {
+            "claim": "The fictional diagnostic referral route was restored. This is an administrative repair, not observed clinical care.",
+            "event_refs": [
+              "E-REDIRECT"
+            ],
+            "status": "observed"
+          },
+          "phase": "triage",
+          "responsible_role": "Fictional receiving triage service",
+          "service_type": "diagnostic_medical",
+          "stage_id": "ROUTE-CORRECTED",
+          "status": "completed",
+          "verification_standard": "A dated source explicitly documenting route corrected for this service and scope; adjacent milestones do not substitute."
+        },
+        {
+          "claim": "Fictional specialty appointment is booked for November 20; attendance has not occurred in the fixture.",
+          "claimed_policy_refs": [],
+          "event_refs": [
+            "E-BOOKING"
+          ],
+          "next_handoff": "Inspect the next distinct milestone without assuming completion.",
+          "observation_type": "appointment_booked",
+          "patient_cost": {
+            "amount": null,
+            "currency": null,
+            "event_refs": [],
+            "type": "unknown"
+          },
+          "patient_usable_effect": {
+            "claim": "No patient-usable clinical effect established by this milestone.",
+            "event_refs": [],
+            "status": "unknown"
+          },
+          "phase": "clinical_action",
+          "responsible_role": "Fictional specialty service",
+          "service_type": "diagnostic_medical",
+          "stage_id": "APPOINTMENT-BOOKED",
+          "status": "completed",
+          "verification_standard": "A dated source explicitly documenting appointment booked for this service and scope; adjacent milestones do not substitute."
+        },
+        {
+          "claim": "UNKNOWN: no corresponding fictional observation establishes appointment attended.",
+          "claimed_policy_refs": [],
+          "event_refs": [],
+          "next_handoff": "Inspect the next distinct milestone without assuming completion.",
+          "observation_type": "appointment_attended",
+          "patient_cost": {
+            "amount": null,
+            "currency": null,
+            "event_refs": [],
+            "type": "unknown"
+          },
+          "patient_usable_effect": {
+            "claim": "No patient-usable clinical effect established by this milestone.",
+            "event_refs": [],
+            "status": "unknown"
+          },
+          "phase": "clinical_action",
+          "responsible_role": "Fictional specialty service",
+          "service_type": "diagnostic_medical",
+          "stage_id": "APPOINTMENT-ATTENDED",
+          "status": "unknown",
+          "verification_standard": "A dated source explicitly documenting appointment attended for this service and scope; adjacent milestones do not substitute."
+        },
+        {
+          "claim": "UNKNOWN: no corresponding fictional observation establishes diagnostic evaluation.",
+          "claimed_policy_refs": [],
+          "event_refs": [],
+          "next_handoff": "Inspect the next distinct milestone without assuming completion.",
+          "observation_type": "diagnostic_evaluation",
+          "patient_cost": {
+            "amount": null,
+            "currency": null,
+            "event_refs": [],
+            "type": "unknown"
+          },
+          "patient_usable_effect": {
+            "claim": "No patient-usable clinical effect established by this milestone.",
+            "event_refs": [],
+            "status": "unknown"
+          },
+          "phase": "clinical_action",
+          "responsible_role": "Fictional specialty service",
+          "service_type": "diagnostic_medical",
+          "stage_id": "DIAGNOSTIC-EVALUATION",
+          "status": "unknown",
+          "verification_standard": "A dated source explicitly documenting diagnostic evaluation for this service and scope; adjacent milestones do not substitute."
+        },
+        {
+          "claim": "UNKNOWN: no corresponding fictional observation establishes treatment selected.",
+          "claimed_policy_refs": [],
+          "event_refs": [],
+          "next_handoff": "Inspect the next distinct milestone without assuming completion.",
+          "observation_type": "treatment_selected",
+          "patient_cost": {
+            "amount": null,
+            "currency": null,
+            "event_refs": [],
+            "type": "unknown"
+          },
+          "patient_usable_effect": {
+            "claim": "No patient-usable clinical effect established by this milestone.",
+            "event_refs": [],
+            "status": "unknown"
+          },
+          "phase": "clinical_action",
+          "responsible_role": "Fictional specialty service",
+          "service_type": "diagnostic_medical",
+          "stage_id": "TREATMENT-SELECTED",
+          "status": "unknown",
+          "verification_standard": "A dated source explicitly documenting treatment selected for this service and scope; adjacent milestones do not substitute."
+        },
+        {
+          "claim": "UNKNOWN: no corresponding fictional observation establishes clinical benefit.",
+          "claimed_policy_refs": [],
+          "event_refs": [],
+          "next_handoff": "Inspect the next distinct milestone without assuming completion.",
+          "observation_type": "clinical_benefit",
+          "patient_cost": {
+            "amount": null,
+            "currency": null,
+            "event_refs": [],
+            "type": "unknown"
+          },
+          "patient_usable_effect": {
+            "claim": "No patient-usable clinical effect established by this milestone.",
+            "event_refs": [],
+            "status": "unknown"
+          },
+          "phase": "outcome",
+          "responsible_role": "Fictional follow-up reviewer",
+          "service_type": "diagnostic_medical",
+          "stage_id": "CLINICAL-BENEFIT",
+          "status": "unknown",
+          "verification_standard": "A dated source explicitly documenting clinical benefit for this service and scope; adjacent milestones do not substitute."
+        },
+        {
+          "claim": "Fictional policy promises an accessible scheduling alternative; enforcement is unobserved.",
+          "claimed_policy_refs": [
+            "S-POLICY"
+          ],
+          "event_refs": [
+            "E-POLICY"
+          ],
+          "next_handoff": "Inspect the next distinct milestone without assuming completion.",
+          "observation_type": "formal_protection",
+          "patient_cost": {
+            "amount": null,
+            "currency": null,
+            "event_refs": [],
+            "type": "unknown"
+          },
+          "patient_usable_effect": {
+            "claim": "No patient-usable clinical effect established by this milestone.",
+            "event_refs": [],
+            "status": "unknown"
+          },
+          "phase": "communication",
+          "responsible_role": "Fictional scheduling service",
+          "service_type": "administrative",
+          "stage_id": "FORMAL-PROTECTION",
+          "status": "completed",
+          "verification_standard": "A dated source explicitly documenting formal protection for this service and scope; adjacent milestones do not substitute."
+        },
+        {
+          "claim": "UNKNOWN: no corresponding fictional observation establishes remedy realized.",
+          "claimed_policy_refs": [],
+          "event_refs": [],
+          "next_handoff": "Inspect the next distinct milestone without assuming completion.",
+          "observation_type": "remedy_realized",
+          "patient_cost": {
+            "amount": null,
+            "currency": null,
+            "event_refs": [],
+            "type": "unknown"
+          },
+          "patient_usable_effect": {
+            "claim": "No patient-usable clinical effect established by this milestone.",
+            "event_refs": [],
+            "status": "unknown"
+          },
+          "phase": "outcome",
+          "responsible_role": "Fictional follow-up reviewer",
+          "service_type": "diagnostic_medical",
+          "stage_id": "REMEDY-REALIZED",
+          "status": "unknown",
+          "verification_standard": "A dated source explicitly documenting remedy realized for this service and scope; adjacent milestones do not substitute."
+        }
+      ],
+      "title": "Fictional route from referral to booked assessment",
+      "unknowns": [
+        "Written access remains requested but implementation/usability is UNKNOWN. Named medical appointment is authorized and booked; payment, attendance and clinical outcome remain unverified.",
+        "No source establishes attendance, specialist evaluation, treatment decision or clinical benefit.",
+        "A lack of outcome evidence is not proof of harm, negligence or a broken relay."
+      ],
+      "version": "patient-care-pathway-1"
+    }
+  },
+  "revisions": {
+    "PC-FICTIONAL-ONE": 2
+  },
+  "source_families": {
+    "PC-FICTIONAL-ONE": [
+      "FICTIONAL-PATHWAY-ONE"
+    ]
+  },
+  "status": "supplied assessment; no canonical admission",
+  "version": "patient-care-state-1"
+}

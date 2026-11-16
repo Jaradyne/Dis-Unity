@@ -1,0 +1,234 @@
+{
+  "base": {
+    "path": "operations/continuity/references.json",
+    "sha256": "90637325b6f8dac8aa0d79e187586898309a39daf8375cc4a1c1d9b451745948"
+  },
+  "references": {
+    "E-AUTHORIZATION": {
+      "collection": "events",
+      "id_field": "event_id",
+      "kind": "event",
+      "path": "operations/medical-access/20261113/records.json",
+      "record_id": "FICTIONAL-AUTHORIZATION",
+      "sha256": "571a6b28045f555bc1d91162caa5c82cc79b9ec8ba19f1f2d3e0e78e6d0b102a"
+    },
+    "E-BOOKING": {
+      "collection": "events",
+      "id_field": "event_id",
+      "kind": "event",
+      "path": "operations/medical-access/20261113/records.json",
+      "record_id": "FICTIONAL-BOOKING",
+      "sha256": "c0c8b24bdc8fe1a7c6b55f4a0eef0ff1fe0ff9644fdc360924a37c821453bd69"
+    },
+    "E-COORDINATOR-OK": {
+      "collection": "events",
+      "id_field": "event_id",
+      "kind": "event",
+      "path": "operations/medical-access/20261113/records.json",
+      "record_id": "FICTIONAL-COORDINATOR-OK",
+      "sha256": "d6e0d7b592ead86dd1a12107259d3a224f3e3d26d5266d448f85d3e64c4fdd0a"
+    },
+    "E-COORDINATOR-REQUEST": {
+      "collection": "events",
+      "id_field": "event_id",
+      "kind": "event",
+      "path": "operations/medical-access/20261113/records.json",
+      "record_id": "FICTIONAL-COORDINATOR-REQUEST",
+      "sha256": "7b26d10a52809daf5fe7046c0acae333e748413d20bd51260f56e6a44066ea91"
+    },
+    "E-DISPATCH": {
+      "collection": "events",
+      "id_field": "event_id",
+      "kind": "event",
+      "path": "operations/medical-access/20261113/records.json",
+      "record_id": "FICTIONAL-DISPATCH",
+      "sha256": "8ce694ddd546ce26a2845999f572bf980b213c575379f07c30fc39c61e07da93"
+    },
+    "E-MANAGEMENT": {
+      "collection": "events",
+      "id_field": "event_id",
+      "kind": "event",
+      "path": "operations/medical-access/20261113/records.json",
+      "record_id": "FICTIONAL-MANAGEMENT",
+      "sha256": "571d1d5eefb6a68e678824a31dbc6f0cfb74503dca78c18e5a7bebaf5845e118"
+    },
+    "E-NEED": {
+      "collection": "events",
+      "id_field": "event_id",
+      "kind": "event",
+      "path": "operations/medical-access/20261113/records.json",
+      "record_id": "FICTIONAL-NEED",
+      "sha256": "5998aa838ebe963fc6c6b22d5f5695c59a74397104445b222e14ddaecf416fd1"
+    },
+    "E-POLICY": {
+      "collection": "events",
+      "id_field": "event_id",
+      "kind": "event",
+      "path": "operations/medical-access/20261113/records.json",
+      "record_id": "FICTIONAL-POLICY",
+      "sha256": "340dc36edb5162ba82b8c585578d2f9c8da12173d3567e2cce03ff5d636655ac"
+    },
+    "E-RECEIPT": {
+      "collection": "events",
+      "id_field": "event_id",
+      "kind": "event",
+      "path": "operations/medical-access/20261113/records.json",
+      "record_id": "FICTIONAL-RECEIPT",
+      "sha256": "4e87e497a9d54a85dfd3b8f131b37e03816b8aa0c8f324ea3a3fa681261078b3"
+    },
+    "E-REDIRECT": {
+      "collection": "events",
+      "id_field": "event_id",
+      "kind": "event",
+      "path": "operations/medical-access/20261113/records.json",
+      "record_id": "FICTIONAL-REDIRECT",
+      "sha256": "421fa750bdcc6d5676da6bd3ce390aef425f1f2e1d837dc93bba5ec4960dfcb7"
+    },
+    "E-TEST-DONE": {
+      "collection": "events",
+      "id_field": "event_id",
+      "kind": "event",
+      "path": "operations/medical-access/20261113/records.json",
+      "record_id": "FICTIONAL-TEST-DONE",
+      "sha256": "e1d96e59cb86876c24f8f33e208ec81e187a11d2d47666ac3db858581803c405"
+    },
+    "E-TEST-REQUEST": {
+      "collection": "events",
+      "id_field": "event_id",
+      "kind": "event",
+      "path": "operations/medical-access/20261113/records.json",
+      "record_id": "FICTIONAL-TEST-REQUEST",
+      "sha256": "cca418c38f412b21086d9645e98b07d17e049148e4df83b89279b369067d0c5f"
+    },
+    "E-TRIAGE": {
+      "collection": "events",
+      "id_field": "event_id",
+      "kind": "event",
+      "path": "operations/medical-access/20261113/records.json",
+      "record_id": "FICTIONAL-TRIAGE",
+      "sha256": "d0e7cf76eda6ea1d74457c1f96d5172cbeac0ddeb4ac71811e9023adae62e041"
+    },
+    "E-WRITING-REQUEST": {
+      "collection": "events",
+      "id_field": "event_id",
+      "kind": "event",
+      "path": "operations/medical-access/20261113/records.json",
+      "record_id": "FICTIONAL-WRITING-REQUEST",
+      "sha256": "6ac979e9170e0956f21bea15a2f22a9647d0aa381f123f289a28328cf83f35e9"
+    },
+    "S-AUTHORIZATION": {
+      "collection": "sources",
+      "id_field": "source_id",
+      "kind": "source",
+      "path": "operations/medical-access/20261113/records.json",
+      "record_id": "SYNTHETIC-AUTHORIZATION",
+      "sha256": "1ea825339d31c48f0f4f5f437f74847b1482dba35070bdddd36a9ff0215e28f8"
+    },
+    "S-BOOKING": {
+      "collection": "sources",
+      "id_field": "source_id",
+      "kind": "source",
+      "path": "operations/medical-access/20261113/records.json",
+      "record_id": "SYNTHETIC-BOOKING",
+      "sha256": "265a90514563fc990e7de01af6b5ab55dff223a0d6a0e91b9d3c348b257caf73"
+    },
+    "S-COORDINATOR-OK": {
+      "collection": "sources",
+      "id_field": "source_id",
+      "kind": "source",
+      "path": "operations/medical-access/20261113/records.json",
+      "record_id": "SYNTHETIC-COORDINATOR-OK",
+      "sha256": "8f15b6dd9069ee2615bf97795fc902f6a6c0113e6ee95a58f5c0972e990ab608"
+    },
+    "S-COORDINATOR-REQUEST": {
+      "collection": "sources",
+      "id_field": "source_id",
+      "kind": "source",
+      "path": "operations/medical-access/20261113/records.json",
+      "record_id": "SYNTHETIC-COORDINATOR-REQUEST",
+      "sha256": "48a0ea3a3f684d4c8549764683c09ad48bc28e3376de1f59db97be79db74a450"
+    },
+    "S-DISPATCH": {
+      "collection": "sources",
+      "id_field": "source_id",
+      "kind": "source",
+      "path": "operations/medical-access/20261113/records.json",
+      "record_id": "SYNTHETIC-DISPATCH",
+      "sha256": "2b2110c2f2651790883c4c046aefc80de5cb11e9b74e52399a723a0a7cb9c159"
+    },
+    "S-MANAGEMENT": {
+      "collection": "sources",
+      "id_field": "source_id",
+      "kind": "source",
+      "path": "operations/medical-access/20261113/records.json",
+      "record_id": "SYNTHETIC-MANAGEMENT",
+      "sha256": "1c55263dc650610db048147f3e376d64a83ae46419ee54fd93a8ff99ca4bed86"
+    },
+    "S-NEED": {
+      "collection": "sources",
+      "id_field": "source_id",
+      "kind": "source",
+      "path": "operations/medical-access/20261113/records.json",
+      "record_id": "SYNTHETIC-NEED",
+      "sha256": "b1b0fb03a8e4529316d6e1c710a431629ac8e1f10e4977f1dfaedc09ff9e0a5e"
+    },
+    "S-POLICY": {
+      "collection": "sources",
+      "id_field": "source_id",
+      "kind": "source",
+      "path": "operations/medical-access/20261113/records.json",
+      "record_id": "SYNTHETIC-POLICY",
+      "sha256": "9f93abbc6be156642df604cef67d0b28036a6cb790bfba745a46804fbbbbfb7d"
+    },
+    "S-RECEIPT": {
+      "collection": "sources",
+      "id_field": "source_id",
+      "kind": "source",
+      "path": "operations/medical-access/20261113/records.json",
+      "record_id": "SYNTHETIC-RECEIPT",
+      "sha256": "0f28b91eea2efe09bc514cefb9d401b724ae297bbe9e4da7430d019795cc4fe0"
+    },
+    "S-REDIRECT": {
+      "collection": "sources",
+      "id_field": "source_id",
+      "kind": "source",
+      "path": "operations/medical-access/20261113/records.json",
+      "record_id": "SYNTHETIC-REDIRECT",
+      "sha256": "917845313347fbadfc2a8665c7125d0205d159112209be084e2e23aef6f38e25"
+    },
+    "S-TEST-DONE": {
+      "collection": "sources",
+      "id_field": "source_id",
+      "kind": "source",
+      "path": "operations/medical-access/20261113/records.json",
+      "record_id": "SYNTHETIC-TEST-DONE",
+      "sha256": "a656478f606ed9fc6f5ab1fa8133180895daff64899050b6ff54193c573af47b"
+    },
+    "S-TEST-REQUEST": {
+      "collection": "sources",
+      "id_field": "source_id",
+      "kind": "source",
+      "path": "operations/medical-access/20261113/records.json",
+      "record_id": "SYNTHETIC-TEST-REQUEST",
+      "sha256": "4a426a129443e9bde6b78c40499f78be9741f9c0cb5718442a98a8fa53180079"
+    },
+    "S-TRIAGE": {
+      "collection": "sources",
+      "id_field": "source_id",
+      "kind": "source",
+      "path": "operations/medical-access/20261113/records.json",
+      "record_id": "SYNTHETIC-TRIAGE",
+      "sha256": "c723e3196e1ac25ebfe471ca606c4ab60bb741eaf1b56cfbb492b30557ba0613"
+    },
+    "S-WRITING-REQUEST": {
+      "collection": "sources",
+      "id_field": "source_id",
+      "kind": "source",
+      "path": "operations/medical-access/20261113/records.json",
+      "record_id": "SYNTHETIC-WRITING-REQUEST",
+      "sha256": "f20dab556e0fa46cbe5eade6444b5044895a1a142411437af51df2dd6cf6c81d"
+    }
+  },
+  "snapshots": {},
+  "version": "safeguard-references-1"
+}

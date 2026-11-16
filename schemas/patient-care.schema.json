@@ -1,0 +1,288 @@
+{
+  "$id": "https://github.com/Jaradyne/Dis-Unity/schemas/patient-care.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "clinical_question": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "contrary_evidence": {
+      "items": {
+        "minLength": 1,
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "event_refs": {
+      "items": {
+        "minLength": 1,
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "evidence_cutoff": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "next_test": {
+      "additionalProperties": false,
+      "properties": {
+        "max_records": {
+          "const": 1
+        },
+        "question": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "status": {
+          "const": "proposed_only"
+        },
+        "stop_condition": {
+          "minLength": 1,
+          "type": "string"
+        }
+      },
+      "required": [
+        "question",
+        "max_records",
+        "status",
+        "stop_condition"
+      ],
+      "type": "object"
+    },
+    "ordinary_explanations": {
+      "items": {
+        "minLength": 1,
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "pathway_id": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "record_mode": {
+      "enum": [
+        "synthetic_demonstration",
+        "reviewed_public_record"
+      ]
+    },
+    "stages": {
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "claim": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "claimed_policy_refs": {
+            "items": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "type": "array"
+          },
+          "event_refs": {
+            "items": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "type": "array"
+          },
+          "next_handoff": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "observation_type": {
+            "enum": [
+              "need_recorded",
+              "referral_dispatched",
+              "referral_received",
+              "triage_completed",
+              "prerequisite_requested",
+              "prerequisite_performed",
+              "management_offered",
+              "medical_authorization",
+              "accommodation_requested",
+              "accommodation_implemented",
+              "coordinator_requested",
+              "coordinator_authorized",
+              "treatment_consent",
+              "route_corrected",
+              "appointment_booked",
+              "appointment_attended",
+              "diagnostic_evaluation",
+              "treatment_selected",
+              "clinical_benefit",
+              "formal_protection",
+              "remedy_realized"
+            ]
+          },
+          "patient_cost": {
+            "additionalProperties": false,
+            "properties": {
+              "amount": {
+                "anyOf": [
+                  {
+                    "minLength": 1,
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "currency": {
+                "enum": [
+                  null,
+                  "USD"
+                ]
+              },
+              "event_refs": {
+                "items": {
+                  "minLength": 1,
+                  "type": "string"
+                },
+                "type": "array"
+              },
+              "type": {
+                "enum": [
+                  "unknown",
+                  "not_stated",
+                  "self_pay",
+                  "authorized_coverage",
+                  "denied"
+                ]
+              }
+            },
+            "required": [
+              "type",
+              "amount",
+              "currency",
+              "event_refs"
+            ],
+            "type": "object"
+          },
+          "patient_usable_effect": {
+            "additionalProperties": false,
+            "properties": {
+              "claim": {
+                "minLength": 1,
+                "type": "string"
+              },
+              "event_refs": {
+                "items": {
+                  "minLength": 1,
+                  "type": "string"
+                },
+                "type": "array"
+              },
+              "status": {
+                "enum": [
+                  "unknown",
+                  "observed"
+                ]
+              }
+            },
+            "required": [
+              "status",
+              "claim",
+              "event_refs"
+            ],
+            "type": "object"
+          },
+          "phase": {
+            "enum": [
+              "need",
+              "referral",
+              "triage",
+              "prerequisites_coverage",
+              "communication",
+              "clinical_action",
+              "outcome"
+            ]
+          },
+          "responsible_role": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "service_type": {
+            "enum": [
+              "diagnostic_medical",
+              "audiology_test",
+              "education_management",
+              "administrative",
+              "not_applicable"
+            ]
+          },
+          "stage_id": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "status": {
+            "enum": [
+              "completed",
+              "failed",
+              "pending",
+              "unknown",
+              "contested"
+            ]
+          },
+          "verification_standard": {
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "required": [
+          "stage_id",
+          "phase",
+          "observation_type",
+          "service_type",
+          "status",
+          "claim",
+          "responsible_role",
+          "claimed_policy_refs",
+          "event_refs",
+          "verification_standard",
+          "patient_cost",
+          "next_handoff",
+          "patient_usable_effect"
+        ],
+        "type": "object"
+      },
+      "minItems": 1,
+      "type": "array"
+    },
+    "title": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "unknowns": {
+      "items": {
+        "minLength": 1,
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "version": {
+      "const": "patient-care-pathway-1"
+    }
+  },
+  "required": [
+    "version",
+    "pathway_id",
+    "record_mode",
+    "title",
+    "clinical_question",
+    "evidence_cutoff",
+    "event_refs",
+    "stages",
+    "ordinary_explanations",
+    "contrary_evidence",
+    "unknowns",
+    "next_test"
+  ],
+  "title": "Patient Care Continuity: typed supplied milestone assessments",
+  "type": "object"
+}

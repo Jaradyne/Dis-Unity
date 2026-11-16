@@ -1,0 +1,420 @@
+{
+  "events": [
+    {
+      "cost": null,
+      "event_date": "2026-11-01",
+      "event_id": "FICTIONAL-NEED",
+      "observation_type": "need_recorded",
+      "record_mode": "synthetic_demonstration",
+      "result": "observed",
+      "scope": null,
+      "service_type": "diagnostic_medical",
+      "source_ids": [
+        "SYNTHETIC-NEED"
+      ],
+      "summary": "Fictional referral question requests specialty diagnostic assessment, separate from education.",
+      "usable_effect": false
+    },
+    {
+      "cost": null,
+      "event_date": "2026-11-02",
+      "event_id": "FICTIONAL-DISPATCH",
+      "observation_type": "referral_dispatched",
+      "record_mode": "synthetic_demonstration",
+      "result": "observed",
+      "scope": null,
+      "service_type": "diagnostic_medical",
+      "source_ids": [
+        "SYNTHETIC-DISPATCH"
+      ],
+      "summary": "Fictional sender logs dispatch of specialty referral.",
+      "usable_effect": false
+    },
+    {
+      "cost": null,
+      "event_date": "2026-11-03",
+      "event_id": "FICTIONAL-RECEIPT",
+      "observation_type": "referral_received",
+      "record_mode": "synthetic_demonstration",
+      "result": "observed",
+      "scope": null,
+      "service_type": "diagnostic_medical",
+      "source_ids": [
+        "SYNTHETIC-RECEIPT"
+      ],
+      "summary": "Fictional receiving service acknowledges receipt.",
+      "usable_effect": false
+    },
+    {
+      "cost": null,
+      "event_date": "2026-11-04",
+      "event_id": "FICTIONAL-TRIAGE",
+      "observation_type": "triage_completed",
+      "record_mode": "synthetic_demonstration",
+      "result": "observed",
+      "scope": null,
+      "service_type": "diagnostic_medical",
+      "source_ids": [
+        "SYNTHETIC-TRIAGE"
+      ],
+      "summary": "Fictional triage records review and asks for an updated prerequisite test.",
+      "usable_effect": false
+    },
+    {
+      "cost": null,
+      "event_date": "2026-11-04",
+      "event_id": "FICTIONAL-TEST-REQUEST",
+      "observation_type": "prerequisite_requested",
+      "record_mode": "synthetic_demonstration",
+      "result": "observed",
+      "scope": null,
+      "service_type": "audiology_test",
+      "source_ids": [
+        "SYNTHETIC-TEST-REQUEST"
+      ],
+      "summary": "Fictional triage asks for a test dated within its stated prerequisite window.",
+      "usable_effect": false
+    },
+    {
+      "cost": {
+        "amount": null,
+        "currency": null,
+        "type": "self_pay"
+      },
+      "event_date": "2026-11-04",
+      "event_id": "FICTIONAL-MANAGEMENT",
+      "observation_type": "management_offered",
+      "record_mode": "synthetic_demonstration",
+      "result": "observed",
+      "scope": null,
+      "service_type": "education_management",
+      "source_ids": [
+        "SYNTHETIC-MANAGEMENT"
+      ],
+      "summary": "Fictional optional self-pay education/management service is offered separately.",
+      "usable_effect": false
+    },
+    {
+      "cost": null,
+      "event_date": "2026-11-05",
+      "event_id": "FICTIONAL-WRITING-REQUEST",
+      "observation_type": "accommodation_requested",
+      "record_mode": "synthetic_demonstration",
+      "result": "observed",
+      "scope": null,
+      "service_type": "administrative",
+      "source_ids": [
+        "SYNTHETIC-WRITING-REQUEST"
+      ],
+      "summary": "Fictional written scheduling channel is requested; delivery and usability are unverified.",
+      "usable_effect": false
+    },
+    {
+      "cost": null,
+      "event_date": "2026-11-05",
+      "event_id": "FICTIONAL-COORDINATOR-REQUEST",
+      "observation_type": "coordinator_requested",
+      "record_mode": "synthetic_demonstration",
+      "result": "observed",
+      "scope": null,
+      "service_type": "administrative",
+      "source_ids": [
+        "SYNTHETIC-COORDINATOR-REQUEST"
+      ],
+      "summary": "Fictional authorization for a coordinator to schedule is requested, not granted.",
+      "usable_effect": false
+    },
+    {
+      "cost": null,
+      "event_date": "2026-11-01",
+      "event_id": "FICTIONAL-POLICY",
+      "observation_type": "formal_protection",
+      "record_mode": "synthetic_demonstration",
+      "result": "observed",
+      "scope": null,
+      "service_type": "administrative",
+      "source_ids": [
+        "SYNTHETIC-POLICY"
+      ],
+      "summary": "Fictional policy promises an accessible scheduling alternative; enforcement is unobserved.",
+      "usable_effect": false
+    },
+    {
+      "cost": null,
+      "event_date": "2026-11-09",
+      "event_id": "FICTIONAL-TEST-DONE",
+      "observation_type": "prerequisite_performed",
+      "record_mode": "synthetic_demonstration",
+      "result": "observed",
+      "scope": null,
+      "service_type": "audiology_test",
+      "source_ids": [
+        "SYNTHETIC-TEST-DONE"
+      ],
+      "summary": "Fictional prerequisite test completed; no specialist diagnostic assessment is established.",
+      "usable_effect": false
+    },
+    {
+      "cost": null,
+      "event_date": "2026-11-10",
+      "event_id": "FICTIONAL-REDIRECT",
+      "observation_type": "route_corrected",
+      "record_mode": "synthetic_demonstration",
+      "result": "observed",
+      "scope": null,
+      "service_type": "diagnostic_medical",
+      "source_ids": [
+        "SYNTHETIC-REDIRECT"
+      ],
+      "summary": "Fictional referral restored to the requested medical assessment route.",
+      "usable_effect": true
+    },
+    {
+      "cost": {
+        "amount": null,
+        "currency": null,
+        "type": "authorized_coverage"
+      },
+      "event_date": "2026-11-10",
+      "event_id": "FICTIONAL-AUTHORIZATION",
+      "observation_type": "medical_authorization",
+      "record_mode": "synthetic_demonstration",
+      "result": "observed",
+      "scope": null,
+      "service_type": "diagnostic_medical",
+      "source_ids": [
+        "SYNTHETIC-AUTHORIZATION"
+      ],
+      "summary": "Fictional payer authorizes the named specialty appointment; payment and other services remain unverified.",
+      "usable_effect": false
+    },
+    {
+      "cost": null,
+      "event_date": "2026-11-11",
+      "event_id": "FICTIONAL-BOOKING",
+      "observation_type": "appointment_booked",
+      "record_mode": "synthetic_demonstration",
+      "result": "observed",
+      "scope": null,
+      "service_type": "diagnostic_medical",
+      "source_ids": [
+        "SYNTHETIC-BOOKING"
+      ],
+      "summary": "Fictional specialty appointment is booked for November 20; attendance has not occurred in the fixture.",
+      "usable_effect": false
+    },
+    {
+      "cost": null,
+      "event_date": "2026-11-10",
+      "event_id": "FICTIONAL-COORDINATOR-OK",
+      "observation_type": "coordinator_authorized",
+      "record_mode": "synthetic_demonstration",
+      "result": "observed",
+      "scope": "scheduling_and_record_routing_only",
+      "service_type": "administrative",
+      "source_ids": [
+        "SYNTHETIC-COORDINATOR-OK"
+      ],
+      "summary": "Fictional coordinator is authorized for scheduling and record routing only; no treatment-consent authority.",
+      "usable_effect": false
+    }
+  ],
+  "sources": [
+    {
+      "asserted_event_ids": [
+        "FICTIONAL-NEED"
+      ],
+      "limitations": "Invented scenario input. Not a real patient, provider, payer, policy or empirical outcome.",
+      "permitted_observation_types": [
+        "need_recorded"
+      ],
+      "publication_date": "2026-11-01",
+      "source_family": "FICTIONAL-PATHWAY-ONE",
+      "source_id": "SYNTHETIC-NEED",
+      "source_kind": "synthetic_record",
+      "title": "Fictional fixture: Fictional referral question requests specialty diagnostic assessment, separate from education."
+    },
+    {
+      "asserted_event_ids": [
+        "FICTIONAL-DISPATCH"
+      ],
+      "limitations": "Invented scenario input. Not a real patient, provider, payer, policy or empirical outcome.",
+      "permitted_observation_types": [
+        "referral_dispatched"
+      ],
+      "publication_date": "2026-11-02",
+      "source_family": "FICTIONAL-PATHWAY-ONE",
+      "source_id": "SYNTHETIC-DISPATCH",
+      "source_kind": "synthetic_record",
+      "title": "Fictional fixture: Fictional sender logs dispatch of specialty referral."
+    },
+    {
+      "asserted_event_ids": [
+        "FICTIONAL-RECEIPT"
+      ],
+      "limitations": "Invented scenario input. Not a real patient, provider, payer, policy or empirical outcome.",
+      "permitted_observation_types": [
+        "referral_received"
+      ],
+      "publication_date": "2026-11-03",
+      "source_family": "FICTIONAL-PATHWAY-ONE",
+      "source_id": "SYNTHETIC-RECEIPT",
+      "source_kind": "synthetic_record",
+      "title": "Fictional fixture: Fictional receiving service acknowledges receipt."
+    },
+    {
+      "asserted_event_ids": [
+        "FICTIONAL-TRIAGE"
+      ],
+      "limitations": "Invented scenario input. Not a real patient, provider, payer, policy or empirical outcome.",
+      "permitted_observation_types": [
+        "triage_completed"
+      ],
+      "publication_date": "2026-11-04",
+      "source_family": "FICTIONAL-PATHWAY-ONE",
+      "source_id": "SYNTHETIC-TRIAGE",
+      "source_kind": "synthetic_record",
+      "title": "Fictional fixture: Fictional triage records review and asks for an updated prerequisite test."
+    },
+    {
+      "asserted_event_ids": [
+        "FICTIONAL-TEST-REQUEST"
+      ],
+      "limitations": "Invented scenario input. Not a real patient, provider, payer, policy or empirical outcome.",
+      "permitted_observation_types": [
+        "prerequisite_requested"
+      ],
+      "publication_date": "2026-11-04",
+      "source_family": "FICTIONAL-PATHWAY-ONE",
+      "source_id": "SYNTHETIC-TEST-REQUEST",
+      "source_kind": "synthetic_record",
+      "title": "Fictional fixture: Fictional triage asks for a test dated within its stated prerequisite window."
+    },
+    {
+      "asserted_event_ids": [
+        "FICTIONAL-MANAGEMENT"
+      ],
+      "limitations": "Invented scenario input. Not a real patient, provider, payer, policy or empirical outcome.",
+      "permitted_observation_types": [
+        "management_offered"
+      ],
+      "publication_date": "2026-11-04",
+      "source_family": "FICTIONAL-PATHWAY-ONE",
+      "source_id": "SYNTHETIC-MANAGEMENT",
+      "source_kind": "synthetic_record",
+      "title": "Fictional fixture: Fictional optional self-pay education/management service is offered separately."
+    },
+    {
+      "asserted_event_ids": [
+        "FICTIONAL-WRITING-REQUEST"
+      ],
+      "limitations": "Invented scenario input. Not a real patient, provider, payer, policy or empirical outcome.",
+      "permitted_observation_types": [
+        "accommodation_requested"
+      ],
+      "publication_date": "2026-11-05",
+      "source_family": "FICTIONAL-PATHWAY-ONE",
+      "source_id": "SYNTHETIC-WRITING-REQUEST",
+      "source_kind": "synthetic_record",
+      "title": "Fictional fixture: Fictional written scheduling channel is requested; delivery and usability are unverified."
+    },
+    {
+      "asserted_event_ids": [
+        "FICTIONAL-COORDINATOR-REQUEST"
+      ],
+      "limitations": "Invented scenario input. Not a real patient, provider, payer, policy or empirical outcome.",
+      "permitted_observation_types": [
+        "coordinator_requested"
+      ],
+      "publication_date": "2026-11-05",
+      "source_family": "FICTIONAL-PATHWAY-ONE",
+      "source_id": "SYNTHETIC-COORDINATOR-REQUEST",
+      "source_kind": "synthetic_record",
+      "title": "Fictional fixture: Fictional authorization for a coordinator to schedule is requested, not granted."
+    },
+    {
+      "asserted_event_ids": [
+        "FICTIONAL-POLICY"
+      ],
+      "limitations": "Invented scenario input. Not a real patient, provider, payer, policy or empirical outcome.",
+      "permitted_observation_types": [
+        "formal_protection"
+      ],
+      "publication_date": "2026-11-01",
+      "source_family": "FICTIONAL-PATHWAY-ONE",
+      "source_id": "SYNTHETIC-POLICY",
+      "source_kind": "synthetic_record",
+      "title": "Fictional fixture: Fictional policy promises an accessible scheduling alternative; enforcement is unobserved."
+    },
+    {
+      "asserted_event_ids": [
+        "FICTIONAL-TEST-DONE"
+      ],
+      "limitations": "Invented scenario input. Not a real patient, provider, payer, policy or empirical outcome.",
+      "permitted_observation_types": [
+        "prerequisite_performed"
+      ],
+      "publication_date": "2026-11-09",
+      "source_family": "FICTIONAL-PATHWAY-ONE",
+      "source_id": "SYNTHETIC-TEST-DONE",
+      "source_kind": "synthetic_record",
+      "title": "Fictional fixture: Fictional prerequisite test completed; no specialist diagnostic assessment is established."
+    },
+    {
+      "asserted_event_ids": [
+        "FICTIONAL-REDIRECT"
+      ],
+      "limitations": "Invented scenario input. Not a real patient, provider, payer, policy or empirical outcome.",
+      "permitted_observation_types": [
+        "route_corrected"
+      ],
+      "publication_date": "2026-11-10",
+      "source_family": "FICTIONAL-PATHWAY-ONE",
+      "source_id": "SYNTHETIC-REDIRECT",
+      "source_kind": "synthetic_record",
+      "title": "Fictional fixture: Fictional referral restored to the requested medical assessment route."
+    },
+    {
+      "asserted_event_ids": [
+        "FICTIONAL-AUTHORIZATION"
+      ],
+      "limitations": "Invented scenario input. Not a real patient, provider, payer, policy or empirical outcome.",
+      "permitted_observation_types": [
+        "medical_authorization"
+      ],
+      "publication_date": "2026-11-10",
+      "source_family": "FICTIONAL-PATHWAY-ONE",
+      "source_id": "SYNTHETIC-AUTHORIZATION",
+      "source_kind": "synthetic_record",
+      "title": "Fictional fixture: Fictional payer authorizes the named specialty appointment; payment and other services remain unverified."
+    },
+    {
+      "asserted_event_ids": [
+        "FICTIONAL-BOOKING"
+      ],
+      "limitations": "Invented scenario input. Not a real patient, provider, payer, policy or empirical outcome.",
+      "permitted_observation_types": [
+        "appointment_booked"
+      ],
+      "publication_date": "2026-11-11",
+      "source_family": "FICTIONAL-PATHWAY-ONE",
+      "source_id": "SYNTHETIC-BOOKING",
+      "source_kind": "synthetic_record",
+      "title": "Fictional fixture: Fictional specialty appointment is booked for November 20; attendance has not occurred in the fixture."
+    },
+    {
+      "asserted_event_ids": [
+        "FICTIONAL-COORDINATOR-OK"
+      ],
+      "limitations": "Invented scenario input. Not a real patient, provider, payer, policy or empirical outcome.",
+      "permitted_observation_types": [
+        "coordinator_authorized"
+      ],
+      "publication_date": "2026-11-10",
+      "source_family": "FICTIONAL-PATHWAY-ONE",
+      "source_id": "SYNTHETIC-COORDINATOR-OK",
+      "source_kind": "synthetic_record",
+      "title": "Fictional fixture: Fictional coordinator is authorized for scheduling and record routing only; no treatment-consent authority."
+    }
+  ]
+}

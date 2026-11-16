@@ -1,0 +1,12 @@
+{
+  "branches": [
+    "B0"
+  ],
+  "meaning": "Supplied traversal and routing; no new evidence, model dispatch or Governor review.",
+  "record_ref": "operations/garden/runs/MEDICAL-ACCESS-FICTIONAL-20261115.json",
+  "record_sha256": "933f1c9b7b7a39448a0b19b855e8ab42c47b58e8f61ebbf0e8b292be0383f8de",
+  "run_id": "MEDICAL-ACCESS-FICTIONAL-20261115",
+  "schema_version": "digestion-garden-materials-1",
+  "state_sha256": "0fd99c8ecd65ca64d6719191010e8ff34aabb71de92af80bc335a91afb47da50",
+  "status": "available_for_digestion"
+}
