@@ -1,0 +1,250 @@
+{
+  "base": {
+    "path": "operations/continuity/references.json",
+    "sha256": "90637325b6f8dac8aa0d79e187586898309a39daf8375cc4a1c1d9b451745948"
+  },
+  "references": {
+    "RC-ATTEND-B": {
+      "collection": "events",
+      "id_field": "event_id",
+      "kind": "event",
+      "path": "operations/clinical-reconsideration/20261121/records.json",
+      "record_id": "FICTIONAL-RC-ATTEND-B",
+      "sha256": "3ed07e8fcb7be041f9cf50711c1b71a5c481c2d109d91d391192d95074ef5fc0"
+    },
+    "RC-AUTH-B": {
+      "collection": "events",
+      "id_field": "event_id",
+      "kind": "event",
+      "path": "operations/clinical-reconsideration/20261121/records.json",
+      "record_id": "FICTIONAL-RC-AUTH-B",
+      "sha256": "b8975d45db9c6c9e669f18e992bcaa8692e9b5ac4836df0a68cb01f636992820"
+    },
+    "RC-BOOK-B": {
+      "collection": "events",
+      "id_field": "event_id",
+      "kind": "event",
+      "path": "operations/clinical-reconsideration/20261121/records.json",
+      "record_id": "FICTIONAL-RC-BOOK-B",
+      "sha256": "9b2039f52f30dde2a6b9604d13bbd1616fc314b7367258b51192b72f7c88e366"
+    },
+    "RC-CORRECTION": {
+      "collection": "events",
+      "id_field": "event_id",
+      "kind": "event",
+      "path": "operations/clinical-reconsideration/20261121/records.json",
+      "record_id": "FICTIONAL-RC-CORRECTION",
+      "sha256": "71068d943fe96795774fa0b18d2e49e42b20db54bee012e16fe2babdbcceec05"
+    },
+    "RC-CORRECTION-SENT": {
+      "collection": "events",
+      "id_field": "event_id",
+      "kind": "event",
+      "path": "operations/clinical-reconsideration/20261121/records.json",
+      "record_id": "FICTIONAL-RC-CORRECTION-SENT",
+      "sha256": "feef1f6bbddca2127f3eee5f3bb66aee56246273010dfd439f048e5e16802e0c"
+    },
+    "RC-DECLINED-A": {
+      "collection": "events",
+      "id_field": "event_id",
+      "kind": "event",
+      "path": "operations/clinical-reconsideration/20261121/records.json",
+      "record_id": "FICTIONAL-RC-DECLINED-A",
+      "sha256": "fde0d0d9a7bbb2be23505e0cd04abf55c055615b1cdde320bccf862e80d744c1"
+    },
+    "RC-DISPATCH-B": {
+      "collection": "events",
+      "id_field": "event_id",
+      "kind": "event",
+      "path": "operations/clinical-reconsideration/20261121/records.json",
+      "record_id": "FICTIONAL-RC-DISPATCH-B",
+      "sha256": "2ff141c5e08ac2d52abbdf9c1d87c1ffe0d058e8921a817ccb7e9b3b692a7d4a"
+    },
+    "RC-INITIAL": {
+      "collection": "events",
+      "id_field": "event_id",
+      "kind": "event",
+      "path": "operations/clinical-reconsideration/20261121/records.json",
+      "record_id": "FICTIONAL-RC-INITIAL",
+      "sha256": "3536aff9146e8999d82f2599a24514e37a6316ae9f2e8ef8a88588de09f1cdbd"
+    },
+    "RC-NEW-PRIMARY": {
+      "collection": "events",
+      "id_field": "event_id",
+      "kind": "event",
+      "path": "operations/clinical-reconsideration/20261121/records.json",
+      "record_id": "FICTIONAL-RC-NEW-PRIMARY",
+      "sha256": "db8e191c16c6c5d22a9fcd06332e17fc39c6472fd741c3cdee84ab77cd6b65ac"
+    },
+    "RC-OPINION-B": {
+      "collection": "events",
+      "id_field": "event_id",
+      "kind": "event",
+      "path": "operations/clinical-reconsideration/20261121/records.json",
+      "record_id": "FICTIONAL-RC-OPINION-B",
+      "sha256": "a184fb8b5d20e07e89531381f29e729a40c5131216574cf513f128ee76114b9b"
+    },
+    "RC-POLICY": {
+      "collection": "events",
+      "id_field": "event_id",
+      "kind": "event",
+      "path": "operations/clinical-reconsideration/20261121/records.json",
+      "record_id": "FICTIONAL-RC-POLICY",
+      "sha256": "c81881c05de56ca4d5166dac9ba86ffade849e1a9e3f9ec5b24fb949d2f2eb53"
+    },
+    "RC-PRIMARY": {
+      "collection": "events",
+      "id_field": "event_id",
+      "kind": "event",
+      "path": "operations/clinical-reconsideration/20261121/records.json",
+      "record_id": "FICTIONAL-RC-PRIMARY",
+      "sha256": "7dcbe2b8c5ecd22b9886d24ddc88b92e10761a9ccdcfcbefdd872c76c159577b"
+    },
+    "RC-RECEIPT-B": {
+      "collection": "events",
+      "id_field": "event_id",
+      "kind": "event",
+      "path": "operations/clinical-reconsideration/20261121/records.json",
+      "record_id": "FICTIONAL-RC-RECEIPT-B",
+      "sha256": "33af39191c3af98e38f83aeb0731c049c5f724428b09930499e1897fca99e4fa"
+    },
+    "RC-REPORT": {
+      "collection": "events",
+      "id_field": "event_id",
+      "kind": "event",
+      "path": "operations/clinical-reconsideration/20261121/records.json",
+      "record_id": "FICTIONAL-RC-REPORT",
+      "sha256": "d9261e449d24291992ef88dafec3a03d3b648afe8ddb60ae92ad74e75d6d0ae2"
+    },
+    "RC-REQUEST-A": {
+      "collection": "events",
+      "id_field": "event_id",
+      "kind": "event",
+      "path": "operations/clinical-reconsideration/20261121/records.json",
+      "record_id": "FICTIONAL-RC-REQUEST-A",
+      "sha256": "ea5a195be09729f730a687562e5a4e1b03578d4361b296b020e90a982f54d76e"
+    },
+    "S-RC-ATTEND-B": {
+      "collection": "sources",
+      "id_field": "source_id",
+      "kind": "source",
+      "path": "operations/clinical-reconsideration/20261121/records.json",
+      "record_id": "SYNTHETIC-RC-ATTEND-B",
+      "sha256": "6dd2dbd7dd376938bf73b2fcd140c0cfa7e9e3ecdf118136c471930240bab285"
+    },
+    "S-RC-AUTH-B": {
+      "collection": "sources",
+      "id_field": "source_id",
+      "kind": "source",
+      "path": "operations/clinical-reconsideration/20261121/records.json",
+      "record_id": "SYNTHETIC-RC-AUTH-B",
+      "sha256": "f6f5c8bd6a5b622c4f223100f25e0e685b2f5712ca19bb4928928ae5bd752ebf"
+    },
+    "S-RC-BOOK-B": {
+      "collection": "sources",
+      "id_field": "source_id",
+      "kind": "source",
+      "path": "operations/clinical-reconsideration/20261121/records.json",
+      "record_id": "SYNTHETIC-RC-BOOK-B",
+      "sha256": "e12a53a49228708a456dc8f26a24b170d85e34e8948c9429d69c21b89332e1a5"
+    },
+    "S-RC-CORRECTION": {
+      "collection": "sources",
+      "id_field": "source_id",
+      "kind": "source",
+      "path": "operations/clinical-reconsideration/20261121/records.json",
+      "record_id": "SYNTHETIC-RC-CORRECTION",
+      "sha256": "a4a855db3a6e9de1c6e992e5be2f6d9d2c4df0fd66b4b3017b8718268cd14793"
+    },
+    "S-RC-CORRECTION-SENT": {
+      "collection": "sources",
+      "id_field": "source_id",
+      "kind": "source",
+      "path": "operations/clinical-reconsideration/20261121/records.json",
+      "record_id": "SYNTHETIC-RC-CORRECTION-SENT",
+      "sha256": "1977fada0910bb0bb27185fff4cdbc7de867489efe0cadcaeca9d9db9eb88102"
+    },
+    "S-RC-DECLINED-A": {
+      "collection": "sources",
+      "id_field": "source_id",
+      "kind": "source",
+      "path": "operations/clinical-reconsideration/20261121/records.json",
+      "record_id": "SYNTHETIC-RC-DECLINED-A",
+      "sha256": "e5c40ca4c517a8294fd4c4cc73bbfb0e9e753cccf9109616a4d53d339434e1e4"
+    },
+    "S-RC-DISPATCH-B": {
+      "collection": "sources",
+      "id_field": "source_id",
+      "kind": "source",
+      "path": "operations/clinical-reconsideration/20261121/records.json",
+      "record_id": "SYNTHETIC-RC-DISPATCH-B",
+      "sha256": "35bcf29a269516b86e1adbf7abfe1efd799bdb88a576b14e1d03e3391a898a01"
+    },
+    "S-RC-INITIAL": {
+      "collection": "sources",
+      "id_field": "source_id",
+      "kind": "source",
+      "path": "operations/clinical-reconsideration/20261121/records.json",
+      "record_id": "SYNTHETIC-RC-INITIAL",
+      "sha256": "f1317a26e1e03b104dc63bb94bc744c7ce1d6049f1db6ed9613b32e70bf723f5"
+    },
+    "S-RC-NEW-PRIMARY": {
+      "collection": "sources",
+      "id_field": "source_id",
+      "kind": "source",
+      "path": "operations/clinical-reconsideration/20261121/records.json",
+      "record_id": "SYNTHETIC-RC-NEW-PRIMARY",
+      "sha256": "67c69a95f54e636cdca16702dce095caca73d188017e3ac7fd1b9678e2326792"
+    },
+    "S-RC-OPINION-B": {
+      "collection": "sources",
+      "id_field": "source_id",
+      "kind": "source",
+      "path": "operations/clinical-reconsideration/20261121/records.json",
+      "record_id": "SYNTHETIC-RC-OPINION-B",
+      "sha256": "0464c9a2ea9c986eb7f1bf611bfa4842d0de6c6a27de55e1f9107fe887ea1e64"
+    },
+    "S-RC-POLICY": {
+      "collection": "sources",
+      "id_field": "source_id",
+      "kind": "source",
+      "path": "operations/clinical-reconsideration/20261121/records.json",
+      "record_id": "SYNTHETIC-RC-POLICY",
+      "sha256": "0f2f990d28fdfe2174f870679c4468174ab63042f9962a198e9a52afb7fcea1b"
+    },
+    "S-RC-PRIMARY": {
+      "collection": "sources",
+      "id_field": "source_id",
+      "kind": "source",
+      "path": "operations/clinical-reconsideration/20261121/records.json",
+      "record_id": "SYNTHETIC-RC-PRIMARY",
+      "sha256": "defc18a00b29796baa04dadc217a5e0ee26ec9b908a9322f0473f7e25405c9e6"
+    },
+    "S-RC-RECEIPT-B": {
+      "collection": "sources",
+      "id_field": "source_id",
+      "kind": "source",
+      "path": "operations/clinical-reconsideration/20261121/records.json",
+      "record_id": "SYNTHETIC-RC-RECEIPT-B",
+      "sha256": "b8df3dcf0e47348a65147b0e3687494bfe057f65b617f25f85f4b06093a8e827"
+    },
+    "S-RC-REPORT": {
+      "collection": "sources",
+      "id_field": "source_id",
+      "kind": "source",
+      "path": "operations/clinical-reconsideration/20261121/records.json",
+      "record_id": "SYNTHETIC-RC-REPORT",
+      "sha256": "4976a3134ca4f090052f091e237ff2da3448120536998ee7277e34956bbd9f44"
+    },
+    "S-RC-REQUEST-A": {
+      "collection": "sources",
+      "id_field": "source_id",
+      "kind": "source",
+      "path": "operations/clinical-reconsideration/20261121/records.json",
+      "record_id": "SYNTHETIC-RC-REQUEST-A",
+      "sha256": "985c3592b895e4b1d895f7aca073d6bbf9b5735db5b248c735152051872216fe"
+    }
+  },
+  "snapshots": {},
+  "version": "safeguard-references-1"
+}

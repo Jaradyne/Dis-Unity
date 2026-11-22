@@ -1,0 +1,617 @@
+{
+  "created_at": "2026-11-21T18:00:00Z",
+  "date_meaning": "All event and publication dates below are fictional scenario dates, not historical observations.",
+  "events": [
+    {
+      "cost": null,
+      "event_date": "2026-11-01",
+      "event_id": "FICTIONAL-RC-PRIMARY",
+      "observation_type": "need_recorded",
+      "reconsideration": {
+        "description": "Invented initial observations relevant to the stated question.",
+        "kind": "primary_record"
+      },
+      "record_mode": "synthetic_demonstration",
+      "result": "observed",
+      "scope": null,
+      "service_type": "diagnostic_medical",
+      "source_ids": [
+        "SYNTHETIC-RC-PRIMARY"
+      ],
+      "summary": "Invented primary observations; no actual diagnosis or patient details.",
+      "usable_effect": false
+    },
+    {
+      "cost": null,
+      "event_date": "2026-11-02",
+      "event_id": "FICTIONAL-RC-INITIAL",
+      "observation_type": "diagnostic_evaluation",
+      "reconsideration": {
+        "author_role": "Fictional clinician A",
+        "conclusion": "provisional",
+        "evidence_considered": [
+          "RC-PRIMARY"
+        ],
+        "kind": "opinion",
+        "prior_opinion_ref": null,
+        "reasoning": "The supplied observations support a provisional explanation; alternatives remain unresolved.",
+        "review_kind": "initial"
+      },
+      "record_mode": "synthetic_demonstration",
+      "result": "observed",
+      "scope": null,
+      "service_type": "diagnostic_medical",
+      "source_ids": [
+        "SYNTHETIC-RC-INITIAL"
+      ],
+      "summary": "Fictional initial provisional assessment, disputed later; correctness is not adjudicated.",
+      "usable_effect": false
+    },
+    {
+      "cost": null,
+      "event_date": "2026-11-01",
+      "event_id": "FICTIONAL-RC-POLICY",
+      "observation_type": "formal_protection",
+      "reconsideration": {
+        "description": "Invented policy allows a second review through a designated clinical service; actual access must be observed.",
+        "kind": "policy"
+      },
+      "record_mode": "synthetic_demonstration",
+      "result": "observed",
+      "scope": null,
+      "service_type": "administrative",
+      "source_ids": [
+        "SYNTHETIC-RC-POLICY"
+      ],
+      "summary": "Invented formal second-review route.",
+      "usable_effect": false
+    },
+    {
+      "cost": null,
+      "event_date": "2026-11-03",
+      "event_id": "FICTIONAL-RC-REPORT",
+      "observation_type": "need_recorded",
+      "reconsideration": {
+        "alleged_origin_ref": "RC-INITIAL",
+        "attribution": "Fictional patient P",
+        "causal_status": "not_established_by_report",
+        "kind": "patient_report",
+        "statement": "The unresolved assessment and difficulty obtaining review are causing distress and loss of trust."
+      },
+      "record_mode": "synthetic_demonstration",
+      "result": "observed",
+      "scope": null,
+      "service_type": "diagnostic_medical",
+      "source_ids": [
+        "SYNTHETIC-RC-REPORT"
+      ],
+      "summary": "Fictional patient-reported psychological burden remains visible; no medical causation is inferred.",
+      "usable_effect": false
+    },
+    {
+      "cost": null,
+      "event_date": "2026-11-03",
+      "event_id": "FICTIONAL-RC-REQUEST-A",
+      "observation_type": "need_recorded",
+      "reconsideration": {
+        "description": "Fictional patient asks service A to revisit the initial assessment.",
+        "kind": "access_record"
+      },
+      "record_mode": "synthetic_demonstration",
+      "result": "observed",
+      "scope": null,
+      "service_type": "administrative",
+      "source_ids": [
+        "SYNTHETIC-RC-REQUEST-A"
+      ],
+      "summary": "Second-opinion request A is recorded.",
+      "usable_effect": false
+    },
+    {
+      "cost": null,
+      "event_date": "2026-11-04",
+      "event_id": "FICTIONAL-RC-DECLINED-A",
+      "observation_type": "diagnostic_evaluation",
+      "reconsideration": {
+        "description": "Fictional service A explicitly declines to perform the requested review, citing its service capacity. This reason is attributed, not independently verified.",
+        "kind": "access_record"
+      },
+      "record_mode": "synthetic_demonstration",
+      "result": "not_performed",
+      "scope": null,
+      "service_type": "diagnostic_medical",
+      "source_ids": [
+        "SYNTHETIC-RC-DECLINED-A"
+      ],
+      "summary": "Explicit access refusal for attempt A; its explanation remains attributed.",
+      "usable_effect": false
+    },
+    {
+      "cost": null,
+      "event_date": "2026-11-05",
+      "event_id": "FICTIONAL-RC-DISPATCH-B",
+      "observation_type": "referral_dispatched",
+      "reconsideration": {
+        "description": "Fictional coordinator sends the question to service B. At the first cutoff receipt is not documented.",
+        "kind": "access_record"
+      },
+      "record_mode": "synthetic_demonstration",
+      "result": "observed",
+      "scope": null,
+      "service_type": "diagnostic_medical",
+      "source_ids": [
+        "SYNTHETIC-RC-DISPATCH-B"
+      ],
+      "summary": "Alternative referral dispatched; not proof of arrival.",
+      "usable_effect": false
+    },
+    {
+      "cost": null,
+      "event_date": "2026-11-07",
+      "event_id": "FICTIONAL-RC-RECEIPT-B",
+      "observation_type": "referral_received",
+      "reconsideration": {
+        "description": "Service B acknowledges the question and original records.",
+        "kind": "access_record"
+      },
+      "record_mode": "synthetic_demonstration",
+      "result": "observed",
+      "scope": null,
+      "service_type": "diagnostic_medical",
+      "source_ids": [
+        "SYNTHETIC-RC-RECEIPT-B"
+      ],
+      "summary": "Later acknowledgement establishes receipt only.",
+      "usable_effect": false
+    },
+    {
+      "cost": null,
+      "event_date": "2026-11-07",
+      "event_id": "FICTIONAL-RC-AUTH-B",
+      "observation_type": "medical_authorization",
+      "reconsideration": {
+        "description": "Fictional payer approves the second-review service.",
+        "kind": "access_record"
+      },
+      "record_mode": "synthetic_demonstration",
+      "result": "observed",
+      "scope": null,
+      "service_type": "diagnostic_medical",
+      "source_ids": [
+        "SYNTHETIC-RC-AUTH-B"
+      ],
+      "summary": "Authorization is administrative permission, not delivered care.",
+      "usable_effect": false
+    },
+    {
+      "cost": null,
+      "event_date": "2026-11-08",
+      "event_id": "FICTIONAL-RC-BOOK-B",
+      "observation_type": "appointment_booked",
+      "reconsideration": {
+        "description": "Service B books the review appointment.",
+        "kind": "access_record"
+      },
+      "record_mode": "synthetic_demonstration",
+      "result": "observed",
+      "scope": null,
+      "service_type": "diagnostic_medical",
+      "source_ids": [
+        "SYNTHETIC-RC-BOOK-B"
+      ],
+      "summary": "Booking alone does not establish attendance or review.",
+      "usable_effect": false
+    },
+    {
+      "cost": null,
+      "event_date": "2026-11-12",
+      "event_id": "FICTIONAL-RC-ATTEND-B",
+      "observation_type": "appointment_attended",
+      "reconsideration": {
+        "description": "A fictional attendance record documents the visit.",
+        "kind": "access_record"
+      },
+      "record_mode": "synthetic_demonstration",
+      "result": "observed",
+      "scope": null,
+      "service_type": "diagnostic_medical",
+      "source_ids": [
+        "SYNTHETIC-RC-ATTEND-B"
+      ],
+      "summary": "Attendance is separate from the content of clinical reconsideration.",
+      "usable_effect": false
+    },
+    {
+      "cost": null,
+      "event_date": "2026-11-12",
+      "event_id": "FICTIONAL-RC-NEW-PRIMARY",
+      "observation_type": "need_recorded",
+      "reconsideration": {
+        "description": "Fictional contemporaneous reassessment adds primary observations to the original material.",
+        "kind": "primary_record"
+      },
+      "record_mode": "synthetic_demonstration",
+      "result": "observed",
+      "scope": null,
+      "service_type": "diagnostic_medical",
+      "source_ids": [
+        "SYNTHETIC-RC-NEW-PRIMARY"
+      ],
+      "summary": "New fictional primary material is available to review B.",
+      "usable_effect": false
+    },
+    {
+      "cost": null,
+      "event_date": "2026-11-12",
+      "event_id": "FICTIONAL-RC-OPINION-B",
+      "observation_type": "diagnostic_evaluation",
+      "reconsideration": {
+        "author_role": "Fictional clinician B",
+        "conclusion": "agrees",
+        "evidence_considered": [
+          "RC-INITIAL",
+          "RC-PRIMARY",
+          "RC-NEW-PRIMARY"
+        ],
+        "kind": "opinion",
+        "prior_opinion_ref": "RC-INITIAL",
+        "reasoning": "The reviewer considers the original and new primary material and explicitly addresses the unresolved alternative. The provisional explanation remains plausible; the alternative is not definitively excluded.",
+        "review_kind": "reconsideration"
+      },
+      "record_mode": "synthetic_demonstration",
+      "result": "observed",
+      "scope": null,
+      "service_type": "diagnostic_medical",
+      "source_ids": [
+        "SYNTHETIC-RC-OPINION-B"
+      ],
+      "summary": "A reasoned reconsideration agrees with the provisional opinion while retaining uncertainty.",
+      "usable_effect": false
+    },
+    {
+      "cost": null,
+      "event_date": "2026-11-13",
+      "event_id": "FICTIONAL-RC-CORRECTION",
+      "observation_type": "route_corrected",
+      "reconsideration": {
+        "correction_scope": "An addendum corrects the description of which material was available. It does not declare the clinical opinion erroneous or establish who caused harm.",
+        "kind": "correction_authored",
+        "target_record_ref": "RC-INITIAL"
+      },
+      "record_mode": "synthetic_demonstration",
+      "result": "observed",
+      "scope": null,
+      "service_type": "administrative",
+      "source_ids": [
+        "SYNTHETIC-RC-CORRECTION"
+      ],
+      "summary": "Documentary addendum exists; diagnosis correctness and benefit are separate.",
+      "usable_effect": false
+    },
+    {
+      "cost": null,
+      "event_date": "2026-11-13",
+      "event_id": "FICTIONAL-RC-CORRECTION-SENT",
+      "observation_type": "referral_dispatched",
+      "reconsideration": {
+        "correction_ref": "RC-CORRECTION",
+        "kind": "correction_dispatch",
+        "recipient_role": "Fictional continuing-care team",
+        "sender_role": "Fictional service B records office"
+      },
+      "record_mode": "synthetic_demonstration",
+      "result": "observed",
+      "scope": null,
+      "service_type": "administrative",
+      "source_ids": [
+        "SYNTHETIC-RC-CORRECTION-SENT"
+      ],
+      "summary": "The addendum was dispatched to the continuing-care team; receipt is unverified.",
+      "usable_effect": false
+    }
+  ],
+  "record_mode": "synthetic_demonstration",
+  "sources": [
+    {
+      "asserted_event_ids": [
+        "FICTIONAL-RC-PRIMARY"
+      ],
+      "limitations": [
+        "Fictional event and publication dates, supplied November 21, 2026; no real person, provider or policy.",
+        "One fixture author; not independent corroboration."
+      ],
+      "permitted_observation_types": [
+        "need_recorded"
+      ],
+      "permitted_reconsideration_kinds": [
+        "primary_record"
+      ],
+      "publication_date": "2026-11-01",
+      "source_family": "FICTIONAL-RECONSIDERATION-ONE",
+      "source_id": "SYNTHETIC-RC-PRIMARY",
+      "source_kind": "synthetic_record",
+      "title": "Invented primary record"
+    },
+    {
+      "asserted_event_ids": [
+        "FICTIONAL-RC-INITIAL"
+      ],
+      "limitations": [
+        "Fictional event and publication dates, supplied November 21, 2026; no real person, provider or policy.",
+        "One fixture author; not independent corroboration."
+      ],
+      "permitted_observation_types": [
+        "diagnostic_evaluation"
+      ],
+      "permitted_reconsideration_kinds": [
+        "opinion"
+      ],
+      "publication_date": "2026-11-02",
+      "source_family": "FICTIONAL-RECONSIDERATION-ONE",
+      "source_id": "SYNTHETIC-RC-INITIAL",
+      "source_kind": "synthetic_record",
+      "title": "Invented initial record"
+    },
+    {
+      "asserted_event_ids": [
+        "FICTIONAL-RC-POLICY"
+      ],
+      "limitations": [
+        "Fictional event and publication dates, supplied November 21, 2026; no real person, provider or policy.",
+        "One fixture author; not independent corroboration."
+      ],
+      "permitted_observation_types": [
+        "formal_protection"
+      ],
+      "permitted_reconsideration_kinds": [
+        "policy"
+      ],
+      "publication_date": "2026-11-01",
+      "source_family": "FICTIONAL-RECONSIDERATION-ONE",
+      "source_id": "SYNTHETIC-RC-POLICY",
+      "source_kind": "synthetic_record",
+      "title": "Invented policy record"
+    },
+    {
+      "asserted_event_ids": [
+        "FICTIONAL-RC-REPORT"
+      ],
+      "limitations": [
+        "Fictional event and publication dates, supplied November 21, 2026; no real person, provider or policy.",
+        "One fixture author; not independent corroboration."
+      ],
+      "permitted_observation_types": [
+        "need_recorded"
+      ],
+      "permitted_reconsideration_kinds": [
+        "patient_report"
+      ],
+      "publication_date": "2026-11-03",
+      "source_family": "FICTIONAL-RECONSIDERATION-ONE",
+      "source_id": "SYNTHETIC-RC-REPORT",
+      "source_kind": "synthetic_record",
+      "title": "Invented report record"
+    },
+    {
+      "asserted_event_ids": [
+        "FICTIONAL-RC-REQUEST-A"
+      ],
+      "limitations": [
+        "Fictional event and publication dates, supplied November 21, 2026; no real person, provider or policy.",
+        "One fixture author; not independent corroboration."
+      ],
+      "permitted_observation_types": [
+        "need_recorded"
+      ],
+      "permitted_reconsideration_kinds": [
+        "access_record"
+      ],
+      "publication_date": "2026-11-03",
+      "source_family": "FICTIONAL-RECONSIDERATION-ONE",
+      "source_id": "SYNTHETIC-RC-REQUEST-A",
+      "source_kind": "synthetic_record",
+      "title": "Invented request a record"
+    },
+    {
+      "asserted_event_ids": [
+        "FICTIONAL-RC-DECLINED-A"
+      ],
+      "limitations": [
+        "Fictional event and publication dates, supplied November 21, 2026; no real person, provider or policy.",
+        "One fixture author; not independent corroboration."
+      ],
+      "permitted_observation_types": [
+        "diagnostic_evaluation"
+      ],
+      "permitted_reconsideration_kinds": [
+        "access_record"
+      ],
+      "publication_date": "2026-11-04",
+      "source_family": "FICTIONAL-RECONSIDERATION-ONE",
+      "source_id": "SYNTHETIC-RC-DECLINED-A",
+      "source_kind": "synthetic_record",
+      "title": "Invented declined a record"
+    },
+    {
+      "asserted_event_ids": [
+        "FICTIONAL-RC-DISPATCH-B"
+      ],
+      "limitations": [
+        "Fictional event and publication dates, supplied November 21, 2026; no real person, provider or policy.",
+        "One fixture author; not independent corroboration."
+      ],
+      "permitted_observation_types": [
+        "referral_dispatched"
+      ],
+      "permitted_reconsideration_kinds": [
+        "access_record"
+      ],
+      "publication_date": "2026-11-05",
+      "source_family": "FICTIONAL-RECONSIDERATION-ONE",
+      "source_id": "SYNTHETIC-RC-DISPATCH-B",
+      "source_kind": "synthetic_record",
+      "title": "Invented dispatch b record"
+    },
+    {
+      "asserted_event_ids": [
+        "FICTIONAL-RC-RECEIPT-B"
+      ],
+      "limitations": [
+        "Fictional event and publication dates, supplied November 21, 2026; no real person, provider or policy.",
+        "One fixture author; not independent corroboration."
+      ],
+      "permitted_observation_types": [
+        "referral_received"
+      ],
+      "permitted_reconsideration_kinds": [
+        "access_record"
+      ],
+      "publication_date": "2026-11-07",
+      "source_family": "FICTIONAL-RECONSIDERATION-ONE",
+      "source_id": "SYNTHETIC-RC-RECEIPT-B",
+      "source_kind": "synthetic_record",
+      "title": "Invented receipt b record"
+    },
+    {
+      "asserted_event_ids": [
+        "FICTIONAL-RC-AUTH-B"
+      ],
+      "limitations": [
+        "Fictional event and publication dates, supplied November 21, 2026; no real person, provider or policy.",
+        "One fixture author; not independent corroboration."
+      ],
+      "permitted_observation_types": [
+        "medical_authorization"
+      ],
+      "permitted_reconsideration_kinds": [
+        "access_record"
+      ],
+      "publication_date": "2026-11-07",
+      "source_family": "FICTIONAL-RECONSIDERATION-ONE",
+      "source_id": "SYNTHETIC-RC-AUTH-B",
+      "source_kind": "synthetic_record",
+      "title": "Invented auth b record"
+    },
+    {
+      "asserted_event_ids": [
+        "FICTIONAL-RC-BOOK-B"
+      ],
+      "limitations": [
+        "Fictional event and publication dates, supplied November 21, 2026; no real person, provider or policy.",
+        "One fixture author; not independent corroboration."
+      ],
+      "permitted_observation_types": [
+        "appointment_booked"
+      ],
+      "permitted_reconsideration_kinds": [
+        "access_record"
+      ],
+      "publication_date": "2026-11-08",
+      "source_family": "FICTIONAL-RECONSIDERATION-ONE",
+      "source_id": "SYNTHETIC-RC-BOOK-B",
+      "source_kind": "synthetic_record",
+      "title": "Invented book b record"
+    },
+    {
+      "asserted_event_ids": [
+        "FICTIONAL-RC-ATTEND-B"
+      ],
+      "limitations": [
+        "Fictional event and publication dates, supplied November 21, 2026; no real person, provider or policy.",
+        "One fixture author; not independent corroboration."
+      ],
+      "permitted_observation_types": [
+        "appointment_attended"
+      ],
+      "permitted_reconsideration_kinds": [
+        "access_record"
+      ],
+      "publication_date": "2026-11-12",
+      "source_family": "FICTIONAL-RECONSIDERATION-ONE",
+      "source_id": "SYNTHETIC-RC-ATTEND-B",
+      "source_kind": "synthetic_record",
+      "title": "Invented attend b record"
+    },
+    {
+      "asserted_event_ids": [
+        "FICTIONAL-RC-NEW-PRIMARY"
+      ],
+      "limitations": [
+        "Fictional event and publication dates, supplied November 21, 2026; no real person, provider or policy.",
+        "One fixture author; not independent corroboration."
+      ],
+      "permitted_observation_types": [
+        "need_recorded"
+      ],
+      "permitted_reconsideration_kinds": [
+        "primary_record"
+      ],
+      "publication_date": "2026-11-12",
+      "source_family": "FICTIONAL-RECONSIDERATION-ONE",
+      "source_id": "SYNTHETIC-RC-NEW-PRIMARY",
+      "source_kind": "synthetic_record",
+      "title": "Invented new primary record"
+    },
+    {
+      "asserted_event_ids": [
+        "FICTIONAL-RC-OPINION-B"
+      ],
+      "limitations": [
+        "Fictional event and publication dates, supplied November 21, 2026; no real person, provider or policy.",
+        "One fixture author; not independent corroboration."
+      ],
+      "permitted_observation_types": [
+        "diagnostic_evaluation"
+      ],
+      "permitted_reconsideration_kinds": [
+        "opinion"
+      ],
+      "publication_date": "2026-11-12",
+      "source_family": "FICTIONAL-RECONSIDERATION-ONE",
+      "source_id": "SYNTHETIC-RC-OPINION-B",
+      "source_kind": "synthetic_record",
+      "title": "Invented opinion b record"
+    },
+    {
+      "asserted_event_ids": [
+        "FICTIONAL-RC-CORRECTION"
+      ],
+      "limitations": [
+        "Fictional event and publication dates, supplied November 21, 2026; no real person, provider or policy.",
+        "One fixture author; not independent corroboration."
+      ],
+      "permitted_observation_types": [
+        "route_corrected"
+      ],
+      "permitted_reconsideration_kinds": [
+        "correction_authored"
+      ],
+      "publication_date": "2026-11-13",
+      "source_family": "FICTIONAL-RECONSIDERATION-ONE",
+      "source_id": "SYNTHETIC-RC-CORRECTION",
+      "source_kind": "synthetic_record",
+      "title": "Invented correction record"
+    },
+    {
+      "asserted_event_ids": [
+        "FICTIONAL-RC-CORRECTION-SENT"
+      ],
+      "limitations": [
+        "Fictional event and publication dates, supplied November 21, 2026; no real person, provider or policy.",
+        "One fixture author; not independent corroboration."
+      ],
+      "permitted_observation_types": [
+        "referral_dispatched"
+      ],
+      "permitted_reconsideration_kinds": [
+        "correction_dispatch"
+      ],
+      "publication_date": "2026-11-13",
+      "source_family": "FICTIONAL-RECONSIDERATION-ONE",
+      "source_id": "SYNTHETIC-RC-CORRECTION-SENT",
+      "source_kind": "synthetic_record",
+      "title": "Invented correction sent record"
+    }
+  ],
+  "version": "clinical-reconsideration-fixture-1"
+}
