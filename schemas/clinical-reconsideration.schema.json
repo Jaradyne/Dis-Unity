@@ -1,0 +1,752 @@
+{
+  "$id": "https://github.com/Jaradyne/Dis-Unity/schemas/clinical-reconsideration.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "assessment": {
+      "additionalProperties": false,
+      "properties": {
+        "assessments": {
+          "additionalProperties": false,
+          "properties": {
+            "clinical_benefit": {
+              "additionalProperties": false,
+              "properties": {
+                "evidence_refs": {
+                  "items": {
+                    "minLength": 1,
+                    "type": "string"
+                  },
+                  "type": "array"
+                },
+                "scope": {
+                  "minLength": 1,
+                  "type": "string"
+                },
+                "status": {
+                  "enum": [
+                    "unknown",
+                    "documented",
+                    "contested"
+                  ]
+                }
+              },
+              "required": [
+                "status",
+                "evidence_refs",
+                "scope"
+              ],
+              "type": "object"
+            },
+            "clinical_error": {
+              "additionalProperties": false,
+              "properties": {
+                "evidence_refs": {
+                  "items": {
+                    "minLength": 1,
+                    "type": "string"
+                  },
+                  "type": "array"
+                },
+                "scope": {
+                  "minLength": 1,
+                  "type": "string"
+                },
+                "status": {
+                  "enum": [
+                    "unknown",
+                    "documented",
+                    "contested"
+                  ]
+                }
+              },
+              "required": [
+                "status",
+                "evidence_refs",
+                "scope"
+              ],
+              "type": "object"
+            },
+            "correction_authored": {
+              "additionalProperties": false,
+              "properties": {
+                "evidence_refs": {
+                  "items": {
+                    "minLength": 1,
+                    "type": "string"
+                  },
+                  "type": "array"
+                },
+                "scope": {
+                  "minLength": 1,
+                  "type": "string"
+                },
+                "status": {
+                  "enum": [
+                    "unknown",
+                    "documented",
+                    "contested"
+                  ]
+                }
+              },
+              "required": [
+                "status",
+                "evidence_refs",
+                "scope"
+              ],
+              "type": "object"
+            },
+            "correction_dispatched": {
+              "additionalProperties": false,
+              "properties": {
+                "evidence_refs": {
+                  "items": {
+                    "minLength": 1,
+                    "type": "string"
+                  },
+                  "type": "array"
+                },
+                "scope": {
+                  "minLength": 1,
+                  "type": "string"
+                },
+                "status": {
+                  "enum": [
+                    "unknown",
+                    "documented",
+                    "contested"
+                  ]
+                }
+              },
+              "required": [
+                "status",
+                "evidence_refs",
+                "scope"
+              ],
+              "type": "object"
+            },
+            "correction_received": {
+              "additionalProperties": false,
+              "properties": {
+                "evidence_refs": {
+                  "items": {
+                    "minLength": 1,
+                    "type": "string"
+                  },
+                  "type": "array"
+                },
+                "scope": {
+                  "minLength": 1,
+                  "type": "string"
+                },
+                "status": {
+                  "enum": [
+                    "unknown",
+                    "documented",
+                    "contested"
+                  ]
+                }
+              },
+              "required": [
+                "status",
+                "evidence_refs",
+                "scope"
+              ],
+              "type": "object"
+            },
+            "downstream_change": {
+              "additionalProperties": false,
+              "properties": {
+                "evidence_refs": {
+                  "items": {
+                    "minLength": 1,
+                    "type": "string"
+                  },
+                  "type": "array"
+                },
+                "scope": {
+                  "minLength": 1,
+                  "type": "string"
+                },
+                "status": {
+                  "enum": [
+                    "unknown",
+                    "documented",
+                    "contested"
+                  ]
+                }
+              },
+              "required": [
+                "status",
+                "evidence_refs",
+                "scope"
+              ],
+              "type": "object"
+            },
+            "harm_causation": {
+              "additionalProperties": false,
+              "properties": {
+                "evidence_refs": {
+                  "items": {
+                    "minLength": 1,
+                    "type": "string"
+                  },
+                  "type": "array"
+                },
+                "scope": {
+                  "minLength": 1,
+                  "type": "string"
+                },
+                "status": {
+                  "enum": [
+                    "unknown",
+                    "documented",
+                    "contested"
+                  ]
+                }
+              },
+              "required": [
+                "status",
+                "evidence_refs",
+                "scope"
+              ],
+              "type": "object"
+            },
+            "second_review": {
+              "additionalProperties": false,
+              "properties": {
+                "evidence_refs": {
+                  "items": {
+                    "minLength": 1,
+                    "type": "string"
+                  },
+                  "type": "array"
+                },
+                "scope": {
+                  "minLength": 1,
+                  "type": "string"
+                },
+                "status": {
+                  "enum": [
+                    "unknown",
+                    "documented",
+                    "contested"
+                  ]
+                }
+              },
+              "required": [
+                "status",
+                "evidence_refs",
+                "scope"
+              ],
+              "type": "object"
+            }
+          },
+          "required": [
+            "second_review",
+            "clinical_error",
+            "harm_causation",
+            "correction_authored",
+            "correction_dispatched",
+            "correction_received",
+            "downstream_change",
+            "clinical_benefit"
+          ],
+          "type": "object"
+        },
+        "correction_recipient_role": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "initial_opinion_ref": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "opinion_independence": {
+          "items": {
+            "additionalProperties": false,
+            "properties": {
+              "evidence_refs": {
+                "items": {
+                  "minLength": 1,
+                  "type": "string"
+                },
+                "type": "array"
+              },
+              "limitation": {
+                "minLength": 1,
+                "type": "string"
+              },
+              "opinion_ref": {
+                "minLength": 1,
+                "type": "string"
+              },
+              "status": {
+                "enum": [
+                  "unknown",
+                  "documented",
+                  "contested"
+                ]
+              }
+            },
+            "required": [
+              "status",
+              "evidence_refs",
+              "limitation",
+              "opinion_ref"
+            ],
+            "type": "object"
+          },
+          "minItems": 1,
+          "type": "array"
+        },
+        "opinion_refs": {
+          "items": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "reported_harm_refs": {
+          "items": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "version": {
+          "const": "clinical-reconsideration-1"
+        }
+      },
+      "required": [
+        "version",
+        "initial_opinion_ref",
+        "opinion_refs",
+        "reported_harm_refs",
+        "correction_recipient_role",
+        "assessments",
+        "opinion_independence"
+      ],
+      "type": "object"
+    },
+    "record": {
+      "anyOf": [
+        {
+          "additionalProperties": false,
+          "properties": {
+            "description": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "kind": {
+              "const": "primary_record"
+            }
+          },
+          "required": [
+            "kind",
+            "description"
+          ],
+          "type": "object"
+        },
+        {
+          "additionalProperties": false,
+          "properties": {
+            "description": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "kind": {
+              "const": "policy"
+            }
+          },
+          "required": [
+            "kind",
+            "description"
+          ],
+          "type": "object"
+        },
+        {
+          "additionalProperties": false,
+          "properties": {
+            "description": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "kind": {
+              "const": "access_record"
+            }
+          },
+          "required": [
+            "kind",
+            "description"
+          ],
+          "type": "object"
+        },
+        {
+          "additionalProperties": false,
+          "properties": {
+            "alleged_origin_ref": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "attribution": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "causal_status": {
+              "const": "not_established_by_report"
+            },
+            "kind": {
+              "const": "patient_report"
+            },
+            "statement": {
+              "minLength": 1,
+              "type": "string"
+            }
+          },
+          "required": [
+            "kind",
+            "attribution",
+            "statement",
+            "alleged_origin_ref",
+            "causal_status"
+          ],
+          "type": "object"
+        },
+        {
+          "additionalProperties": false,
+          "properties": {
+            "author_role": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "conclusion": {
+              "enum": [
+                "provisional",
+                "definitive",
+                "unspecified",
+                "agrees",
+                "revises",
+                "inconclusive"
+              ]
+            },
+            "evidence_considered": {
+              "items": {
+                "minLength": 1,
+                "type": "string"
+              },
+              "type": "array"
+            },
+            "kind": {
+              "const": "opinion"
+            },
+            "prior_opinion_ref": {
+              "anyOf": [
+                {
+                  "minLength": 1,
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "reasoning": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "review_kind": {
+              "enum": [
+                "initial",
+                "reconsideration"
+              ]
+            }
+          },
+          "required": [
+            "kind",
+            "review_kind",
+            "author_role",
+            "prior_opinion_ref",
+            "evidence_considered",
+            "reasoning",
+            "conclusion"
+          ],
+          "type": "object"
+        },
+        {
+          "additionalProperties": false,
+          "properties": {
+            "basis_refs": {
+              "items": {
+                "minLength": 1,
+                "type": "string"
+              },
+              "type": "array"
+            },
+            "conclusion": {
+              "enum": [
+                "affirmed",
+                "rejected",
+                "inconclusive",
+                "contested"
+              ]
+            },
+            "finding": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "kind": {
+              "const": "clinical_error_review"
+            },
+            "reviewing_role": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "scope": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "target_opinion_ref": {
+              "minLength": 1,
+              "type": "string"
+            }
+          },
+          "required": [
+            "kind",
+            "target_opinion_ref",
+            "reviewing_role",
+            "basis_refs",
+            "finding",
+            "scope",
+            "conclusion"
+          ],
+          "type": "object"
+        },
+        {
+          "additionalProperties": false,
+          "properties": {
+            "basis_refs": {
+              "items": {
+                "minLength": 1,
+                "type": "string"
+              },
+              "type": "array"
+            },
+            "conclusion": {
+              "enum": [
+                "affirmed",
+                "rejected",
+                "inconclusive",
+                "contested"
+              ]
+            },
+            "harm_report_ref": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "kind": {
+              "const": "causation_review"
+            },
+            "reasoning": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "reviewing_role": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "scope": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "target_opinion_ref": {
+              "minLength": 1,
+              "type": "string"
+            }
+          },
+          "required": [
+            "kind",
+            "target_opinion_ref",
+            "reviewing_role",
+            "basis_refs",
+            "reasoning",
+            "scope",
+            "harm_report_ref",
+            "conclusion"
+          ],
+          "type": "object"
+        },
+        {
+          "additionalProperties": false,
+          "properties": {
+            "conclusion": {
+              "enum": [
+                "affirmed",
+                "rejected",
+                "inconclusive",
+                "contested"
+              ]
+            },
+            "kind": {
+              "const": "independence_record"
+            },
+            "opinion_ref": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "relationship_disclosure": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "reviewer_role": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "scope": {
+              "minLength": 1,
+              "type": "string"
+            }
+          },
+          "required": [
+            "kind",
+            "opinion_ref",
+            "reviewer_role",
+            "relationship_disclosure",
+            "scope",
+            "conclusion"
+          ],
+          "type": "object"
+        },
+        {
+          "additionalProperties": false,
+          "properties": {
+            "correction_scope": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "kind": {
+              "const": "correction_authored"
+            },
+            "target_record_ref": {
+              "minLength": 1,
+              "type": "string"
+            }
+          },
+          "required": [
+            "kind",
+            "target_record_ref",
+            "correction_scope"
+          ],
+          "type": "object"
+        },
+        {
+          "additionalProperties": false,
+          "properties": {
+            "correction_ref": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "kind": {
+              "const": "correction_dispatch"
+            },
+            "recipient_role": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "sender_role": {
+              "minLength": 1,
+              "type": "string"
+            }
+          },
+          "required": [
+            "kind",
+            "correction_ref",
+            "sender_role",
+            "recipient_role"
+          ],
+          "type": "object"
+        },
+        {
+          "additionalProperties": false,
+          "properties": {
+            "correction_ref": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "kind": {
+              "const": "correction_receipt"
+            },
+            "recipient_role": {
+              "minLength": 1,
+              "type": "string"
+            }
+          },
+          "required": [
+            "kind",
+            "correction_ref",
+            "recipient_role"
+          ],
+          "type": "object"
+        },
+        {
+          "additionalProperties": false,
+          "properties": {
+            "action": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "correction_ref": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "kind": {
+              "const": "downstream_change"
+            }
+          },
+          "required": [
+            "kind",
+            "correction_ref",
+            "action"
+          ],
+          "type": "object"
+        },
+        {
+          "additionalProperties": false,
+          "properties": {
+            "basis_refs": {
+              "items": {
+                "minLength": 1,
+                "type": "string"
+              },
+              "type": "array"
+            },
+            "kind": {
+              "const": "benefit_observation"
+            },
+            "observed_result": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "scope": {
+              "minLength": 1,
+              "type": "string"
+            }
+          },
+          "required": [
+            "kind",
+            "basis_refs",
+            "observed_result",
+            "scope"
+          ],
+          "type": "object"
+        }
+      ]
+    }
+  },
+  "required": [
+    "assessment",
+    "record"
+  ],
+  "title": "Typed supplemental lens; composed with the existing Patient Care schema",
+  "type": "object"
+}

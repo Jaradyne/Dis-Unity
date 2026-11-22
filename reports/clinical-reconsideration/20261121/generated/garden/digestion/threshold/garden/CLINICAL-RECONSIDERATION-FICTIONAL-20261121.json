@@ -1,0 +1,12 @@
+{
+  "branches": [
+    "B0"
+  ],
+  "meaning": "Supplied traversal and routing; no new evidence, model dispatch or Governor review.",
+  "record_ref": "operations/garden/runs/CLINICAL-RECONSIDERATION-FICTIONAL-20261121.json",
+  "record_sha256": "fdb19f7cb6880a11dc9c00a00b8583770b2496a75d16dd78f6b285447f5a6649",
+  "run_id": "CLINICAL-RECONSIDERATION-FICTIONAL-20261121",
+  "schema_version": "digestion-garden-materials-1",
+  "state_sha256": "d17488583c67b9a31dabc696f88e2f62262326fd2ef8fc6eafadb089d9281712",
+  "status": "available_for_digestion"
+}

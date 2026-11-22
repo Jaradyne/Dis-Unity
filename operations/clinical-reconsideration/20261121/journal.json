@@ -1,0 +1,1053 @@
+{
+  "entries": [
+    {
+      "actor": "Work Aiden / reconsideration_runtime (fictional fixture author)",
+      "entry_sha256": "f76f14d2ac7ebd2b00f1a1a68d9e7c90c0d7d231e4bee253928f3edc520f1309",
+      "expected_revision": 0,
+      "pathway": {
+        "clinical_question": "Was the disputed initial assessment actually reconsidered, and did any correction reach care and produce a usable result?",
+        "contrary_evidence": [
+          "The initial opinion is explicitly provisional, not an asserted final diagnosis.",
+          "The report of psychological burden is preserved as meaningful experience, independently of whether clinical error can be established."
+        ],
+        "event_refs": [
+          "RC-PRIMARY",
+          "RC-INITIAL",
+          "RC-POLICY",
+          "RC-REPORT",
+          "RC-REQUEST-A",
+          "RC-DECLINED-A",
+          "RC-DISPATCH-B"
+        ],
+        "evidence_cutoff": "2026-11-05",
+        "next_test": {
+          "max_records": 1,
+          "question": "In this fictional exercise, does one dated acknowledgement from the continuing-care team identify receipt of the specific correction?",
+          "status": "proposed_only",
+          "stop_condition": "Stop after one receipt record or an explicit unavailable result; do not infer changed care or benefit from acknowledgement."
+        },
+        "ordinary_explanations": [
+          "The initial assessment may be mistaken, incomplete, or reasonable under limited evidence; this fixture does not decide which.",
+          "A reviewer can reasonably agree after examining primary material; agreement is not itself evidence that reconsideration failed.",
+          "Service A cites capacity. The refusal is documented in the fiction; the stated reason is not independently verified."
+        ],
+        "pathway_id": "PC-RECONSIDERATION-FICTIONAL-ONE",
+        "reconsideration": {
+          "assessments": {
+            "clinical_benefit": {
+              "evidence_refs": [],
+              "scope": "Review, agreement, correction and administrative progress do not establish improved health.",
+              "status": "unknown"
+            },
+            "clinical_error": {
+              "evidence_refs": [],
+              "scope": "A disputed, provisional, changed or reaffirmed opinion alone does not adjudicate clinical error.",
+              "status": "unknown"
+            },
+            "correction_authored": {
+              "evidence_refs": [],
+              "scope": "A document correction requires the actual dated addendum.",
+              "status": "unknown"
+            },
+            "correction_dispatched": {
+              "evidence_refs": [],
+              "scope": "Authoring does not establish dispatch.",
+              "status": "unknown"
+            },
+            "correction_received": {
+              "evidence_refs": [],
+              "scope": "Dispatch does not establish receipt by the continuing-care team.",
+              "status": "unknown"
+            },
+            "downstream_change": {
+              "evidence_refs": [],
+              "scope": "Receipt alone would not establish changed clinical action.",
+              "status": "unknown"
+            },
+            "harm_causation": {
+              "evidence_refs": [],
+              "scope": "The attributed psychological burden is retained; causal responsibility has not been separately assessed.",
+              "status": "unknown"
+            },
+            "second_review": {
+              "evidence_refs": [],
+              "scope": "Access, authorization and booking do not show clinical reconsideration.",
+              "status": "unknown"
+            }
+          },
+          "correction_recipient_role": "Fictional continuing-care team",
+          "initial_opinion_ref": "RC-INITIAL",
+          "opinion_independence": [
+            {
+              "evidence_refs": [],
+              "limitation": "An initial opinion has no separately established independence claim.",
+              "opinion_ref": "RC-INITIAL",
+              "status": "unknown"
+            }
+          ],
+          "opinion_refs": [
+            "RC-INITIAL"
+          ],
+          "reported_harm_refs": [
+            "RC-REPORT"
+          ],
+          "version": "clinical-reconsideration-1"
+        },
+        "record_mode": "synthetic_demonstration",
+        "stages": [
+          {
+            "claim": "Initial provisional assessment",
+            "claimed_policy_refs": [],
+            "event_refs": [
+              "RC-INITIAL"
+            ],
+            "next_handoff": "Retain the observed scope and request only the missing downstream record.",
+            "observation_type": "diagnostic_evaluation",
+            "patient_cost": {
+              "amount": null,
+              "currency": null,
+              "event_refs": [],
+              "type": "unknown"
+            },
+            "patient_usable_effect": {
+              "claim": "No clinical benefit is inferred from this milestone.",
+              "event_refs": [],
+              "status": "unknown"
+            },
+            "phase": "clinical_action",
+            "responsible_role": "Fictional responsible service; see scoped record",
+            "service_type": "diagnostic_medical",
+            "stage_id": "INITIAL",
+            "status": "completed",
+            "verification_standard": "Dated, scoped record of this exact milestone; neighboring steps do not substitute."
+          },
+          {
+            "claim": "Formal route described in policy",
+            "claimed_policy_refs": [],
+            "event_refs": [
+              "RC-POLICY"
+            ],
+            "next_handoff": "Retain the observed scope and request only the missing downstream record.",
+            "observation_type": "formal_protection",
+            "patient_cost": {
+              "amount": null,
+              "currency": null,
+              "event_refs": [],
+              "type": "unknown"
+            },
+            "patient_usable_effect": {
+              "claim": "No clinical benefit is inferred from this milestone.",
+              "event_refs": [],
+              "status": "unknown"
+            },
+            "phase": "need",
+            "responsible_role": "Fictional responsible service; see scoped record",
+            "service_type": "administrative",
+            "stage_id": "POLICY",
+            "status": "completed",
+            "verification_standard": "Dated, scoped record of this exact milestone; neighboring steps do not substitute."
+          },
+          {
+            "claim": "Report of psychological burden recorded",
+            "claimed_policy_refs": [],
+            "event_refs": [
+              "RC-REPORT"
+            ],
+            "next_handoff": "Retain the observed scope and request only the missing downstream record.",
+            "observation_type": "need_recorded",
+            "patient_cost": {
+              "amount": null,
+              "currency": null,
+              "event_refs": [],
+              "type": "unknown"
+            },
+            "patient_usable_effect": {
+              "claim": "No clinical benefit is inferred from this milestone.",
+              "event_refs": [],
+              "status": "unknown"
+            },
+            "phase": "need",
+            "responsible_role": "Fictional responsible service; see scoped record",
+            "service_type": "diagnostic_medical",
+            "stage_id": "BURDEN",
+            "status": "completed",
+            "verification_standard": "Dated, scoped record of this exact milestone; neighboring steps do not substitute."
+          },
+          {
+            "claim": "Second-opinion request A",
+            "claimed_policy_refs": [],
+            "event_refs": [
+              "RC-REQUEST-A"
+            ],
+            "next_handoff": "Retain the observed scope and request only the missing downstream record.",
+            "observation_type": "need_recorded",
+            "patient_cost": {
+              "amount": null,
+              "currency": null,
+              "event_refs": [],
+              "type": "unknown"
+            },
+            "patient_usable_effect": {
+              "claim": "No clinical benefit is inferred from this milestone.",
+              "event_refs": [],
+              "status": "unknown"
+            },
+            "phase": "need",
+            "responsible_role": "Fictional responsible service; see scoped record",
+            "service_type": "administrative",
+            "stage_id": "REQUEST-A",
+            "status": "completed",
+            "verification_standard": "Dated, scoped record of this exact milestone; neighboring steps do not substitute."
+          },
+          {
+            "claim": "Attempt A: explicitly declined review",
+            "claimed_policy_refs": [],
+            "event_refs": [
+              "RC-DECLINED-A"
+            ],
+            "next_handoff": "Retain the observed scope and request only the missing downstream record.",
+            "observation_type": "diagnostic_evaluation",
+            "patient_cost": {
+              "amount": null,
+              "currency": null,
+              "event_refs": [],
+              "type": "unknown"
+            },
+            "patient_usable_effect": {
+              "claim": "No clinical benefit is inferred from this milestone.",
+              "event_refs": [],
+              "status": "unknown"
+            },
+            "phase": "clinical_action",
+            "responsible_role": "Fictional responsible service; see scoped record",
+            "service_type": "diagnostic_medical",
+            "stage_id": "REVIEW-A",
+            "status": "failed",
+            "verification_standard": "Dated, scoped record of this exact milestone; neighboring steps do not substitute."
+          },
+          {
+            "claim": "Alternative referral B sent",
+            "claimed_policy_refs": [],
+            "event_refs": [
+              "RC-DISPATCH-B"
+            ],
+            "next_handoff": "Retain the observed scope and request only the missing downstream record.",
+            "observation_type": "referral_dispatched",
+            "patient_cost": {
+              "amount": null,
+              "currency": null,
+              "event_refs": [],
+              "type": "unknown"
+            },
+            "patient_usable_effect": {
+              "claim": "No clinical benefit is inferred from this milestone.",
+              "event_refs": [],
+              "status": "unknown"
+            },
+            "phase": "referral",
+            "responsible_role": "Fictional responsible service; see scoped record",
+            "service_type": "diagnostic_medical",
+            "stage_id": "DISPATCH-B",
+            "status": "completed",
+            "verification_standard": "Dated, scoped record of this exact milestone; neighboring steps do not substitute."
+          },
+          {
+            "claim": "Alternative referral B received",
+            "claimed_policy_refs": [],
+            "event_refs": [],
+            "next_handoff": "Retain the observed scope and request only the missing downstream record.",
+            "observation_type": "referral_received",
+            "patient_cost": {
+              "amount": null,
+              "currency": null,
+              "event_refs": [],
+              "type": "unknown"
+            },
+            "patient_usable_effect": {
+              "claim": "No clinical benefit is inferred from this milestone.",
+              "event_refs": [],
+              "status": "unknown"
+            },
+            "phase": "referral",
+            "responsible_role": "Fictional responsible service; see scoped record",
+            "service_type": "diagnostic_medical",
+            "stage_id": "RECEIPT-B",
+            "status": "unknown",
+            "verification_standard": "Dated, scoped record of this exact milestone; neighboring steps do not substitute."
+          },
+          {
+            "claim": "Review B authorized",
+            "claimed_policy_refs": [],
+            "event_refs": [],
+            "next_handoff": "Retain the observed scope and request only the missing downstream record.",
+            "observation_type": "medical_authorization",
+            "patient_cost": {
+              "amount": null,
+              "currency": null,
+              "event_refs": [],
+              "type": "unknown"
+            },
+            "patient_usable_effect": {
+              "claim": "No clinical benefit is inferred from this milestone.",
+              "event_refs": [],
+              "status": "unknown"
+            },
+            "phase": "prerequisites_coverage",
+            "responsible_role": "Fictional responsible service; see scoped record",
+            "service_type": "diagnostic_medical",
+            "stage_id": "AUTH-B",
+            "status": "unknown",
+            "verification_standard": "Dated, scoped record of this exact milestone; neighboring steps do not substitute."
+          },
+          {
+            "claim": "Review B booked",
+            "claimed_policy_refs": [],
+            "event_refs": [],
+            "next_handoff": "Retain the observed scope and request only the missing downstream record.",
+            "observation_type": "appointment_booked",
+            "patient_cost": {
+              "amount": null,
+              "currency": null,
+              "event_refs": [],
+              "type": "unknown"
+            },
+            "patient_usable_effect": {
+              "claim": "No clinical benefit is inferred from this milestone.",
+              "event_refs": [],
+              "status": "unknown"
+            },
+            "phase": "communication",
+            "responsible_role": "Fictional responsible service; see scoped record",
+            "service_type": "diagnostic_medical",
+            "stage_id": "BOOK-B",
+            "status": "unknown",
+            "verification_standard": "Dated, scoped record of this exact milestone; neighboring steps do not substitute."
+          },
+          {
+            "claim": "Review B attended",
+            "claimed_policy_refs": [],
+            "event_refs": [],
+            "next_handoff": "Retain the observed scope and request only the missing downstream record.",
+            "observation_type": "appointment_attended",
+            "patient_cost": {
+              "amount": null,
+              "currency": null,
+              "event_refs": [],
+              "type": "unknown"
+            },
+            "patient_usable_effect": {
+              "claim": "No clinical benefit is inferred from this milestone.",
+              "event_refs": [],
+              "status": "unknown"
+            },
+            "phase": "clinical_action",
+            "responsible_role": "Fictional responsible service; see scoped record",
+            "service_type": "diagnostic_medical",
+            "stage_id": "ATTEND-B",
+            "status": "unknown",
+            "verification_standard": "Dated, scoped record of this exact milestone; neighboring steps do not substitute."
+          },
+          {
+            "claim": "Actual reasoned reconsideration B",
+            "claimed_policy_refs": [],
+            "event_refs": [],
+            "next_handoff": "Retain the observed scope and request only the missing downstream record.",
+            "observation_type": "diagnostic_evaluation",
+            "patient_cost": {
+              "amount": null,
+              "currency": null,
+              "event_refs": [],
+              "type": "unknown"
+            },
+            "patient_usable_effect": {
+              "claim": "No clinical benefit is inferred from this milestone.",
+              "event_refs": [],
+              "status": "unknown"
+            },
+            "phase": "clinical_action",
+            "responsible_role": "Fictional responsible service; see scoped record",
+            "service_type": "diagnostic_medical",
+            "stage_id": "REVIEW-B",
+            "status": "unknown",
+            "verification_standard": "Dated, scoped record of this exact milestone; neighboring steps do not substitute."
+          },
+          {
+            "claim": "Documentary correction authored",
+            "claimed_policy_refs": [],
+            "event_refs": [],
+            "next_handoff": "Retain the observed scope and request only the missing downstream record.",
+            "observation_type": "route_corrected",
+            "patient_cost": {
+              "amount": null,
+              "currency": null,
+              "event_refs": [],
+              "type": "unknown"
+            },
+            "patient_usable_effect": {
+              "claim": "No clinical benefit is inferred from this milestone.",
+              "event_refs": [],
+              "status": "unknown"
+            },
+            "phase": "communication",
+            "responsible_role": "Fictional responsible service; see scoped record",
+            "service_type": "administrative",
+            "stage_id": "CORRECTION",
+            "status": "unknown",
+            "verification_standard": "Dated, scoped record of this exact milestone; neighboring steps do not substitute."
+          },
+          {
+            "claim": "Correction sent to continuing-care team",
+            "claimed_policy_refs": [],
+            "event_refs": [],
+            "next_handoff": "Retain the observed scope and request only the missing downstream record.",
+            "observation_type": "referral_dispatched",
+            "patient_cost": {
+              "amount": null,
+              "currency": null,
+              "event_refs": [],
+              "type": "unknown"
+            },
+            "patient_usable_effect": {
+              "claim": "No clinical benefit is inferred from this milestone.",
+              "event_refs": [],
+              "status": "unknown"
+            },
+            "phase": "communication",
+            "responsible_role": "Fictional responsible service; see scoped record",
+            "service_type": "administrative",
+            "stage_id": "CORRECTION-SENT",
+            "status": "unknown",
+            "verification_standard": "Dated, scoped record of this exact milestone; neighboring steps do not substitute."
+          },
+          {
+            "claim": "Correction received by continuing-care team",
+            "claimed_policy_refs": [],
+            "event_refs": [],
+            "next_handoff": "Retain the observed scope and request only the missing downstream record.",
+            "observation_type": "referral_received",
+            "patient_cost": {
+              "amount": null,
+              "currency": null,
+              "event_refs": [],
+              "type": "unknown"
+            },
+            "patient_usable_effect": {
+              "claim": "No clinical benefit is inferred from this milestone.",
+              "event_refs": [],
+              "status": "unknown"
+            },
+            "phase": "communication",
+            "responsible_role": "Fictional responsible service; see scoped record",
+            "service_type": "administrative",
+            "stage_id": "CORRECTION-RECEIVED",
+            "status": "unknown",
+            "verification_standard": "Dated, scoped record of this exact milestone; neighboring steps do not substitute."
+          },
+          {
+            "claim": "Downstream care decision changed",
+            "claimed_policy_refs": [],
+            "event_refs": [],
+            "next_handoff": "Retain the observed scope and request only the missing downstream record.",
+            "observation_type": "treatment_selected",
+            "patient_cost": {
+              "amount": null,
+              "currency": null,
+              "event_refs": [],
+              "type": "unknown"
+            },
+            "patient_usable_effect": {
+              "claim": "No clinical benefit is inferred from this milestone.",
+              "event_refs": [],
+              "status": "unknown"
+            },
+            "phase": "clinical_action",
+            "responsible_role": "Fictional responsible service; see scoped record",
+            "service_type": "diagnostic_medical",
+            "stage_id": "DOWNSTREAM",
+            "status": "unknown",
+            "verification_standard": "Dated, scoped record of this exact milestone; neighboring steps do not substitute."
+          },
+          {
+            "claim": "Patient usable clinical benefit",
+            "claimed_policy_refs": [],
+            "event_refs": [],
+            "next_handoff": "Retain the observed scope and request only the missing downstream record.",
+            "observation_type": "clinical_benefit",
+            "patient_cost": {
+              "amount": null,
+              "currency": null,
+              "event_refs": [],
+              "type": "unknown"
+            },
+            "patient_usable_effect": {
+              "claim": "No clinical benefit is inferred from this milestone.",
+              "event_refs": [],
+              "status": "unknown"
+            },
+            "phase": "outcome",
+            "responsible_role": "Fictional responsible service; see scoped record",
+            "service_type": "diagnostic_medical",
+            "stage_id": "BENEFIT",
+            "status": "unknown",
+            "verification_standard": "Dated, scoped record of this exact milestone; neighboring steps do not substitute."
+          }
+        ],
+        "title": "One fictional disputed opinion, two review routes and an unfinished correction relay",
+        "unknowns": [
+          "The accuracy of the initial and later opinions and responsibility for reported harm remain unadjudicated.",
+          "The organizational and evidentiary independence of the later reviewer is not established.",
+          "Whether an authored correction reached the continuing-care team, changed action or improved health is unknown."
+        ],
+        "version": "patient-care-pathway-1"
+      },
+      "previous_entry_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "reason": "Initial supplied scenario: refusal A and unconfirmed receipt B; retain reported burden.",
+      "recorded_at": "2026-11-21T18:00:00Z",
+      "sequence": 1
+    },
+    {
+      "actor": "Work Aiden / reconsideration_runtime (fictional fixture author)",
+      "entry_sha256": "48e21ff83a42eaff2e0928f08cd9652478231eea7d0e69b3eac6b901379492ee",
+      "expected_revision": 1,
+      "pathway": {
+        "clinical_question": "Was the disputed initial assessment actually reconsidered, and did any correction reach care and produce a usable result?",
+        "contrary_evidence": [
+          "The initial opinion is explicitly provisional, not an asserted final diagnosis.",
+          "The report of psychological burden is preserved as meaningful experience, independently of whether clinical error can be established.",
+          "The later review agrees while retaining uncertainty; it documents consideration of primary material, not independent corroboration or proof of correctness."
+        ],
+        "event_refs": [
+          "RC-PRIMARY",
+          "RC-INITIAL",
+          "RC-POLICY",
+          "RC-REPORT",
+          "RC-REQUEST-A",
+          "RC-DECLINED-A",
+          "RC-DISPATCH-B",
+          "RC-RECEIPT-B",
+          "RC-AUTH-B",
+          "RC-BOOK-B",
+          "RC-ATTEND-B",
+          "RC-NEW-PRIMARY",
+          "RC-OPINION-B",
+          "RC-CORRECTION",
+          "RC-CORRECTION-SENT"
+        ],
+        "evidence_cutoff": "2026-11-13",
+        "next_test": {
+          "max_records": 1,
+          "question": "In this fictional exercise, does one dated acknowledgement from the continuing-care team identify receipt of the specific correction?",
+          "status": "proposed_only",
+          "stop_condition": "Stop after one receipt record or an explicit unavailable result; do not infer changed care or benefit from acknowledgement."
+        },
+        "ordinary_explanations": [
+          "The initial assessment may be mistaken, incomplete, or reasonable under limited evidence; this fixture does not decide which.",
+          "A reviewer can reasonably agree after examining primary material; agreement is not itself evidence that reconsideration failed.",
+          "Service A cites capacity. The refusal is documented in the fiction; the stated reason is not independently verified."
+        ],
+        "pathway_id": "PC-RECONSIDERATION-FICTIONAL-ONE",
+        "reconsideration": {
+          "assessments": {
+            "clinical_benefit": {
+              "evidence_refs": [],
+              "scope": "Review, agreement, correction and administrative progress do not establish improved health.",
+              "status": "unknown"
+            },
+            "clinical_error": {
+              "evidence_refs": [],
+              "scope": "A disputed, provisional, changed or reaffirmed opinion alone does not adjudicate clinical error.",
+              "status": "unknown"
+            },
+            "correction_authored": {
+              "evidence_refs": [
+                "RC-CORRECTION"
+              ],
+              "scope": "The addendum corrects a description of available material, not a verified diagnostic error.",
+              "status": "documented"
+            },
+            "correction_dispatched": {
+              "evidence_refs": [
+                "RC-CORRECTION-SENT"
+              ],
+              "scope": "Dispatch to the named continuing-care role is recorded; receipt and use remain unknown.",
+              "status": "documented"
+            },
+            "correction_received": {
+              "evidence_refs": [],
+              "scope": "Dispatch does not establish receipt by the continuing-care team.",
+              "status": "unknown"
+            },
+            "downstream_change": {
+              "evidence_refs": [],
+              "scope": "Receipt alone would not establish changed clinical action.",
+              "status": "unknown"
+            },
+            "harm_causation": {
+              "evidence_refs": [],
+              "scope": "The attributed psychological burden is retained; causal responsibility has not been separately assessed.",
+              "status": "unknown"
+            },
+            "second_review": {
+              "evidence_refs": [
+                "RC-OPINION-B"
+              ],
+              "scope": "A reasoned review of original and new primary material agrees with the provisional opinion; correctness and independence remain unresolved.",
+              "status": "documented"
+            }
+          },
+          "correction_recipient_role": "Fictional continuing-care team",
+          "initial_opinion_ref": "RC-INITIAL",
+          "opinion_independence": [
+            {
+              "evidence_refs": [],
+              "limitation": "An initial opinion has no separately established independence claim.",
+              "opinion_ref": "RC-INITIAL",
+              "status": "unknown"
+            },
+            {
+              "evidence_refs": [],
+              "limitation": "Different role and a later visit do not establish organizational or epistemic independence; the initial opinion was visible.",
+              "opinion_ref": "RC-OPINION-B",
+              "status": "unknown"
+            }
+          ],
+          "opinion_refs": [
+            "RC-INITIAL",
+            "RC-OPINION-B"
+          ],
+          "reported_harm_refs": [
+            "RC-REPORT"
+          ],
+          "version": "clinical-reconsideration-1"
+        },
+        "record_mode": "synthetic_demonstration",
+        "stages": [
+          {
+            "claim": "Initial provisional assessment",
+            "claimed_policy_refs": [],
+            "event_refs": [
+              "RC-INITIAL"
+            ],
+            "next_handoff": "Retain the observed scope and request only the missing downstream record.",
+            "observation_type": "diagnostic_evaluation",
+            "patient_cost": {
+              "amount": null,
+              "currency": null,
+              "event_refs": [],
+              "type": "unknown"
+            },
+            "patient_usable_effect": {
+              "claim": "No clinical benefit is inferred from this milestone.",
+              "event_refs": [],
+              "status": "unknown"
+            },
+            "phase": "clinical_action",
+            "responsible_role": "Fictional responsible service; see scoped record",
+            "service_type": "diagnostic_medical",
+            "stage_id": "INITIAL",
+            "status": "completed",
+            "verification_standard": "Dated, scoped record of this exact milestone; neighboring steps do not substitute."
+          },
+          {
+            "claim": "Formal route described in policy",
+            "claimed_policy_refs": [],
+            "event_refs": [
+              "RC-POLICY"
+            ],
+            "next_handoff": "Retain the observed scope and request only the missing downstream record.",
+            "observation_type": "formal_protection",
+            "patient_cost": {
+              "amount": null,
+              "currency": null,
+              "event_refs": [],
+              "type": "unknown"
+            },
+            "patient_usable_effect": {
+              "claim": "No clinical benefit is inferred from this milestone.",
+              "event_refs": [],
+              "status": "unknown"
+            },
+            "phase": "need",
+            "responsible_role": "Fictional responsible service; see scoped record",
+            "service_type": "administrative",
+            "stage_id": "POLICY",
+            "status": "completed",
+            "verification_standard": "Dated, scoped record of this exact milestone; neighboring steps do not substitute."
+          },
+          {
+            "claim": "Report of psychological burden recorded",
+            "claimed_policy_refs": [],
+            "event_refs": [
+              "RC-REPORT"
+            ],
+            "next_handoff": "Retain the observed scope and request only the missing downstream record.",
+            "observation_type": "need_recorded",
+            "patient_cost": {
+              "amount": null,
+              "currency": null,
+              "event_refs": [],
+              "type": "unknown"
+            },
+            "patient_usable_effect": {
+              "claim": "No clinical benefit is inferred from this milestone.",
+              "event_refs": [],
+              "status": "unknown"
+            },
+            "phase": "need",
+            "responsible_role": "Fictional responsible service; see scoped record",
+            "service_type": "diagnostic_medical",
+            "stage_id": "BURDEN",
+            "status": "completed",
+            "verification_standard": "Dated, scoped record of this exact milestone; neighboring steps do not substitute."
+          },
+          {
+            "claim": "Second-opinion request A",
+            "claimed_policy_refs": [],
+            "event_refs": [
+              "RC-REQUEST-A"
+            ],
+            "next_handoff": "Retain the observed scope and request only the missing downstream record.",
+            "observation_type": "need_recorded",
+            "patient_cost": {
+              "amount": null,
+              "currency": null,
+              "event_refs": [],
+              "type": "unknown"
+            },
+            "patient_usable_effect": {
+              "claim": "No clinical benefit is inferred from this milestone.",
+              "event_refs": [],
+              "status": "unknown"
+            },
+            "phase": "need",
+            "responsible_role": "Fictional responsible service; see scoped record",
+            "service_type": "administrative",
+            "stage_id": "REQUEST-A",
+            "status": "completed",
+            "verification_standard": "Dated, scoped record of this exact milestone; neighboring steps do not substitute."
+          },
+          {
+            "claim": "Attempt A: explicitly declined review",
+            "claimed_policy_refs": [],
+            "event_refs": [
+              "RC-DECLINED-A"
+            ],
+            "next_handoff": "Retain the observed scope and request only the missing downstream record.",
+            "observation_type": "diagnostic_evaluation",
+            "patient_cost": {
+              "amount": null,
+              "currency": null,
+              "event_refs": [],
+              "type": "unknown"
+            },
+            "patient_usable_effect": {
+              "claim": "No clinical benefit is inferred from this milestone.",
+              "event_refs": [],
+              "status": "unknown"
+            },
+            "phase": "clinical_action",
+            "responsible_role": "Fictional responsible service; see scoped record",
+            "service_type": "diagnostic_medical",
+            "stage_id": "REVIEW-A",
+            "status": "failed",
+            "verification_standard": "Dated, scoped record of this exact milestone; neighboring steps do not substitute."
+          },
+          {
+            "claim": "Alternative referral B sent",
+            "claimed_policy_refs": [],
+            "event_refs": [
+              "RC-DISPATCH-B"
+            ],
+            "next_handoff": "Retain the observed scope and request only the missing downstream record.",
+            "observation_type": "referral_dispatched",
+            "patient_cost": {
+              "amount": null,
+              "currency": null,
+              "event_refs": [],
+              "type": "unknown"
+            },
+            "patient_usable_effect": {
+              "claim": "No clinical benefit is inferred from this milestone.",
+              "event_refs": [],
+              "status": "unknown"
+            },
+            "phase": "referral",
+            "responsible_role": "Fictional responsible service; see scoped record",
+            "service_type": "diagnostic_medical",
+            "stage_id": "DISPATCH-B",
+            "status": "completed",
+            "verification_standard": "Dated, scoped record of this exact milestone; neighboring steps do not substitute."
+          },
+          {
+            "claim": "Alternative referral B received",
+            "claimed_policy_refs": [],
+            "event_refs": [
+              "RC-RECEIPT-B"
+            ],
+            "next_handoff": "Retain the observed scope and request only the missing downstream record.",
+            "observation_type": "referral_received",
+            "patient_cost": {
+              "amount": null,
+              "currency": null,
+              "event_refs": [],
+              "type": "unknown"
+            },
+            "patient_usable_effect": {
+              "claim": "No clinical benefit is inferred from this milestone.",
+              "event_refs": [],
+              "status": "unknown"
+            },
+            "phase": "referral",
+            "responsible_role": "Fictional responsible service; see scoped record",
+            "service_type": "diagnostic_medical",
+            "stage_id": "RECEIPT-B",
+            "status": "completed",
+            "verification_standard": "Dated, scoped record of this exact milestone; neighboring steps do not substitute."
+          },
+          {
+            "claim": "Review B authorized",
+            "claimed_policy_refs": [],
+            "event_refs": [
+              "RC-AUTH-B"
+            ],
+            "next_handoff": "Retain the observed scope and request only the missing downstream record.",
+            "observation_type": "medical_authorization",
+            "patient_cost": {
+              "amount": null,
+              "currency": null,
+              "event_refs": [],
+              "type": "unknown"
+            },
+            "patient_usable_effect": {
+              "claim": "No clinical benefit is inferred from this milestone.",
+              "event_refs": [],
+              "status": "unknown"
+            },
+            "phase": "prerequisites_coverage",
+            "responsible_role": "Fictional responsible service; see scoped record",
+            "service_type": "diagnostic_medical",
+            "stage_id": "AUTH-B",
+            "status": "completed",
+            "verification_standard": "Dated, scoped record of this exact milestone; neighboring steps do not substitute."
+          },
+          {
+            "claim": "Review B booked",
+            "claimed_policy_refs": [],
+            "event_refs": [
+              "RC-BOOK-B"
+            ],
+            "next_handoff": "Retain the observed scope and request only the missing downstream record.",
+            "observation_type": "appointment_booked",
+            "patient_cost": {
+              "amount": null,
+              "currency": null,
+              "event_refs": [],
+              "type": "unknown"
+            },
+            "patient_usable_effect": {
+              "claim": "No clinical benefit is inferred from this milestone.",
+              "event_refs": [],
+              "status": "unknown"
+            },
+            "phase": "communication",
+            "responsible_role": "Fictional responsible service; see scoped record",
+            "service_type": "diagnostic_medical",
+            "stage_id": "BOOK-B",
+            "status": "completed",
+            "verification_standard": "Dated, scoped record of this exact milestone; neighboring steps do not substitute."
+          },
+          {
+            "claim": "Review B attended",
+            "claimed_policy_refs": [],
+            "event_refs": [
+              "RC-ATTEND-B"
+            ],
+            "next_handoff": "Retain the observed scope and request only the missing downstream record.",
+            "observation_type": "appointment_attended",
+            "patient_cost": {
+              "amount": null,
+              "currency": null,
+              "event_refs": [],
+              "type": "unknown"
+            },
+            "patient_usable_effect": {
+              "claim": "No clinical benefit is inferred from this milestone.",
+              "event_refs": [],
+              "status": "unknown"
+            },
+            "phase": "clinical_action",
+            "responsible_role": "Fictional responsible service; see scoped record",
+            "service_type": "diagnostic_medical",
+            "stage_id": "ATTEND-B",
+            "status": "completed",
+            "verification_standard": "Dated, scoped record of this exact milestone; neighboring steps do not substitute."
+          },
+          {
+            "claim": "Actual reasoned reconsideration B",
+            "claimed_policy_refs": [],
+            "event_refs": [
+              "RC-OPINION-B"
+            ],
+            "next_handoff": "Retain the observed scope and request only the missing downstream record.",
+            "observation_type": "diagnostic_evaluation",
+            "patient_cost": {
+              "amount": null,
+              "currency": null,
+              "event_refs": [],
+              "type": "unknown"
+            },
+            "patient_usable_effect": {
+              "claim": "No clinical benefit is inferred from this milestone.",
+              "event_refs": [],
+              "status": "unknown"
+            },
+            "phase": "clinical_action",
+            "responsible_role": "Fictional responsible service; see scoped record",
+            "service_type": "diagnostic_medical",
+            "stage_id": "REVIEW-B",
+            "status": "completed",
+            "verification_standard": "Dated, scoped record of this exact milestone; neighboring steps do not substitute."
+          },
+          {
+            "claim": "Documentary correction authored",
+            "claimed_policy_refs": [],
+            "event_refs": [
+              "RC-CORRECTION"
+            ],
+            "next_handoff": "Retain the observed scope and request only the missing downstream record.",
+            "observation_type": "route_corrected",
+            "patient_cost": {
+              "amount": null,
+              "currency": null,
+              "event_refs": [],
+              "type": "unknown"
+            },
+            "patient_usable_effect": {
+              "claim": "No clinical benefit is inferred from this milestone.",
+              "event_refs": [],
+              "status": "unknown"
+            },
+            "phase": "communication",
+            "responsible_role": "Fictional responsible service; see scoped record",
+            "service_type": "administrative",
+            "stage_id": "CORRECTION",
+            "status": "completed",
+            "verification_standard": "Dated, scoped record of this exact milestone; neighboring steps do not substitute."
+          },
+          {
+            "claim": "Correction sent to continuing-care team",
+            "claimed_policy_refs": [],
+            "event_refs": [
+              "RC-CORRECTION-SENT"
+            ],
+            "next_handoff": "Retain the observed scope and request only the missing downstream record.",
+            "observation_type": "referral_dispatched",
+            "patient_cost": {
+              "amount": null,
+              "currency": null,
+              "event_refs": [],
+              "type": "unknown"
+            },
+            "patient_usable_effect": {
+              "claim": "No clinical benefit is inferred from this milestone.",
+              "event_refs": [],
+              "status": "unknown"
+            },
+            "phase": "communication",
+            "responsible_role": "Fictional responsible service; see scoped record",
+            "service_type": "administrative",
+            "stage_id": "CORRECTION-SENT",
+            "status": "completed",
+            "verification_standard": "Dated, scoped record of this exact milestone; neighboring steps do not substitute."
+          },
+          {
+            "claim": "Correction received by continuing-care team",
+            "claimed_policy_refs": [],
+            "event_refs": [],
+            "next_handoff": "Retain the observed scope and request only the missing downstream record.",
+            "observation_type": "referral_received",
+            "patient_cost": {
+              "amount": null,
+              "currency": null,
+              "event_refs": [],
+              "type": "unknown"
+            },
+            "patient_usable_effect": {
+              "claim": "No clinical benefit is inferred from this milestone.",
+              "event_refs": [],
+              "status": "unknown"
+            },
+            "phase": "communication",
+            "responsible_role": "Fictional responsible service; see scoped record",
+            "service_type": "administrative",
+            "stage_id": "CORRECTION-RECEIVED",
+            "status": "unknown",
+            "verification_standard": "Dated, scoped record of this exact milestone; neighboring steps do not substitute."
+          },
+          {
+            "claim": "Downstream care decision changed",
+            "claimed_policy_refs": [],
+            "event_refs": [],
+            "next_handoff": "Retain the observed scope and request only the missing downstream record.",
+            "observation_type": "treatment_selected",
+            "patient_cost": {
+              "amount": null,
+              "currency": null,
+              "event_refs": [],
+              "type": "unknown"
+            },
+            "patient_usable_effect": {
+              "claim": "No clinical benefit is inferred from this milestone.",
+              "event_refs": [],
+              "status": "unknown"
+            },
+            "phase": "clinical_action",
+            "responsible_role": "Fictional responsible service; see scoped record",
+            "service_type": "diagnostic_medical",
+            "stage_id": "DOWNSTREAM",
+            "status": "unknown",
+            "verification_standard": "Dated, scoped record of this exact milestone; neighboring steps do not substitute."
+          },
+          {
+            "claim": "Patient usable clinical benefit",
+            "claimed_policy_refs": [],
+            "event_refs": [],
+            "next_handoff": "Retain the observed scope and request only the missing downstream record.",
+            "observation_type": "clinical_benefit",
+            "patient_cost": {
+              "amount": null,
+              "currency": null,
+              "event_refs": [],
+              "type": "unknown"
+            },
+            "patient_usable_effect": {
+              "claim": "No clinical benefit is inferred from this milestone.",
+              "event_refs": [],
+              "status": "unknown"
+            },
+            "phase": "outcome",
+            "responsible_role": "Fictional responsible service; see scoped record",
+            "service_type": "diagnostic_medical",
+            "stage_id": "BENEFIT",
+            "status": "unknown",
+            "verification_standard": "Dated, scoped record of this exact milestone; neighboring steps do not substitute."
+          }
+        ],
+        "title": "One fictional disputed opinion, two review routes and an unfinished correction relay",
+        "unknowns": [
+          "The accuracy of the initial and later opinions and responsibility for reported harm remain unadjudicated.",
+          "The organizational and evidentiary independence of the later reviewer is not established.",
+          "Whether an authored correction reached the continuing-care team, changed action or improved health is unknown."
+        ],
+        "version": "patient-care-pathway-1"
+      },
+      "previous_entry_sha256": "f76f14d2ac7ebd2b00f1a1a68d9e7c90c0d7d231e4bee253928f3edc520f1309",
+      "reason": "Later supplied scenario: actual reconsideration and documentary correction dispatch; retain original history and unknown downstream effects.",
+      "recorded_at": "2026-11-21T18:01:00Z",
+      "sequence": 2
+    }
+  ],
+  "references_sha256": "c1f7e0255de1461e4b9c6feb67813b556c0e2c30168c0e3c0cf1279cabf282ac",
+  "schema_sha256": "c92bc80f9a3b4c34577038a842cf77ca34edb6a7851eb8e9e511344fea8aa62c",
+  "version": "patient-care-journal-1"
+}

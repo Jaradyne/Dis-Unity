@@ -1,0 +1,59 @@
+{
+  "version": "clinical-reconsideration-policy-inspection-1",
+  "scope": "Published second-opinion routes; no patient-specific application or outcome finding.",
+  "observation_date": "2026-11-21",
+  "observation_timezone": "America/Los_Angeles",
+  "method": "Manual public-source web inspection; no repository collector or provider inference.",
+  "raw_http_archive": false,
+  "raw_receipt_sha256": null,
+  "publication_date_rule": "Unknown unless established in the source; edition and filename are not publication dates.",
+  "prior_reference": {
+    "path": "reports/medical-access/20261113/policy-sources.json",
+    "sha256": "8bab0440d8554bbc55c79fdda73b349d0fe98523a47c5ee2ea318d3c93875d73",
+    "relationship": "Shared earlier policy inspection; retained unchanged. This is a new dated inspection, not another independent source family."
+  },
+  "sources": [
+    {
+      "source_id": "CR-POL-UCSF-SECOND-20261121",
+      "source_family": "UCSF-HEALTH",
+      "url": "https://www.ucsfhealth.org/patients-visitors/second-opinion",
+      "title": "Second Opinion",
+      "publication_date": null,
+      "effective_date": null,
+      "locator": "Appointment with a UCSF expert; Written opinion from a UCSF expert; Comparison chart",
+      "classification": "provider_service_description",
+      "observation": "Appointment and paid written-opinion routes are distinct. Availability and care completion remain unverified.",
+      "permitted_use": "Published route comparison only; not a clinical action record."
+    },
+    {
+      "source_id": "CR-POL-ALLIANCE-INDEX-20261121",
+      "source_family": "ALAMEDA-ALLIANCE",
+      "url": "https://alamedaalliance.org/members/medi-cal/benefits-and-covered-services/",
+      "title": "Benefits and Covered Services",
+      "publication_date": null,
+      "effective_date": null,
+      "locator": "Medi-Cal Member Materials / 2026 Member Handbook EOC and Errata 1–3",
+      "classification": "publisher_document_index",
+      "observation": "The index links the inspected Errata 2.",
+      "permitted_use": "Discoverability and publisher lineage only."
+    },
+    {
+      "source_id": "CR-POL-ALLIANCE-SECOND-20261121",
+      "source_family": "ALAMEDA-ALLIANCE",
+      "url": "https://alamedaalliance.org/wp-content/uploads/D.0058C_20260715_AAH_Mcal_EOC_Errata2Cln.pdf",
+      "title": "2026 Medi-Cal EOC Errata 2",
+      "publication_date": null,
+      "effective_date": null,
+      "locator": "PDF pages 2–3 / Second opinions",
+      "classification": "formal_payer_policy",
+      "observation": "In-network and conditional approved out-of-network second-opinion routes; denial grievance described. Individual applicability remains unknown.",
+      "permitted_use": "Formal safeguard only; no empirical protection or completed review inferred."
+    }
+  ],
+  "limitations": [
+    "No private records, diagnosis adjudication, network verification or outreach.",
+    "No complete HTTP/page-byte archive; later page contents may differ.",
+    "Two institutional source families; repeated pages do not create independent corroboration.",
+    "The fictional replay is kept separate from these public policy observations."
+  ]
+}
